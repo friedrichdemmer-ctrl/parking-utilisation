@@ -18,13 +18,13 @@ class HttpFetcher:
     def __init__(self, timeout: int = 15):
         self.timeout = timeout
 
-    def get_text(self, url: str) -> str:
-        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    def get_text(self, url: str, headers: dict[str, str] | None = None) -> str:
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, **(headers or {})})
         with urllib.request.urlopen(req, timeout=self.timeout) as resp:
             return resp.read().decode("utf-8", errors="replace")
 
-    def get_json(self, url: str):
-        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    def get_json(self, url: str, headers: dict[str, str] | None = None):
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, **(headers or {})})
         with urllib.request.urlopen(req, timeout=self.timeout) as resp:
             return json.load(resp)
 
