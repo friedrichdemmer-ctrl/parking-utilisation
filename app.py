@@ -30,6 +30,17 @@ CURRENT_YEAR = datetime.now().year
 app = Flask(__name__)
 
 
+@app.before_request
+def check_db_ready():
+    if not DB_PATH.exists():
+        return Response(
+            "<h1>Building the database</h1>"
+            "<p>First boot imports ~88 million historical records and reorders them "
+            "for fast queries -- this takes roughly 10-20 minutes. Refresh shortly.</p>",
+            mimetype="text/html",
+        )
+
+
 def get_db() -> sqlite3.Connection:
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row

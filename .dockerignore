@@ -1,0 +1,12 @@
+venv/
+data/
+parking-data-archive/
+reports/
+logs/
+*.db
+*.db-shm
+*.db-wal
+__pycache__/
+*.pyc
+.git/
+.DS_Store
