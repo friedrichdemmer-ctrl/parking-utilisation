@@ -46,7 +46,7 @@ def main() -> None:
     while True:
         try:
             conn = sqlite3.connect(DB_PATH)
-            conn.execute("PRAGMA busy_timeout=10000")
+            conn.execute("PRAGMA busy_timeout=30000")
             run_due_adapters(conn, ADAPTERS)
             conn.close()
         except Exception:

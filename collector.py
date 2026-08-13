@@ -57,6 +57,7 @@ def fetch_json(url: str) -> dict:
 def get_db() -> sqlite3.Connection:
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(DB_PATH)
+    conn.execute("PRAGMA busy_timeout=30000")  # other daemons (scraper_daemon, gunicorn) share this file
     conn.executescript(SCHEMA)
     return conn
 

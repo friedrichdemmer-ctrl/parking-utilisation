@@ -88,9 +88,15 @@ def record_run(
     records_rejected: int = 0,
     error_message: str | None = None,
 ) -> None:
-    conn.execute(
-        """INSERT INTO scraper_runs (adapter, kind, run_at, status, records_written, records_rejected, error_message)
-           VALUES (?, ?, ?, ?, ?, ?, ?)""",
-        (adapter, kind, datetime.now(timezone.utc).isoformat(timespec="seconds"), status, records_written, records_rejected, error_message),
-    )
-    conn.commit()
+    # Best-effort: this runs from exception handlers too, so a lock here
+    # (another daemon writing at the same moment) must never mask the
+    # original error by raising a new one -- log and move on instead.
+    try:
+        conn.execute(
+            """INSERT INTO scraper_runs (adapter, kind, run_at, status, records_written, records_rejected, error_message)
+               VALUES (?, ?, ?, ?, ?, ?, ?)""",
+            (adapter, kind, datetime.now(timezone.utc).isoformat(timespec="seconds"), status, records_written, records_rejected, error_message),
+        )
+        conn.commit()
+    except sqlite3.OperationalError as exc:
+        print(f"record_run: could not log {adapter}/{kind}/{status} ({exc}); continuing")
