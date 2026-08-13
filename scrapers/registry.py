@@ -8,6 +8,19 @@ from scrapers.adapters.berlin_viz import BerlinVizAdapter
 from scrapers.adapters.frankfurt_mainziel import FrankfurtMainzielAdapter
 from scrapers.adapters.hamburg_viz import HamburgVizAdapter
 from scrapers.adapters.koeln_live import KoelnLiveAdapter
+from scrapers.adapters.mobidata_bw_cities import (
+    AalenMobidataBwAdapter,
+    BietigheimBissingenMobidataBwAdapter,
+    BuchenMobidataBwAdapter,
+    FreiburgMobidataBwAdapter,
+    HeilbronnMobidataBwAdapter,
+    HerrenbergMobidataBwAdapter,
+)
+from scrapers.adapters.mobidata_bw_existing import (
+    KarlsruheMobidataBwOccupancyAdapter,
+    MannheimMobidataBwOccupancyAdapter,
+    UlmMobidataBwOccupancyAdapter,
+)
 from scrapers.adapters.muenchen_parkraumwende import MuenchenParkraumwendeAdapter
 from scrapers.adapters.stuttgart_mobidata_bw import StuttgartMobidataBwAdapter
 from scrapers.base import SourceAdapter
@@ -19,4 +32,13 @@ ADAPTERS: list[SourceAdapter] = [
     HamburgVizAdapter(),
     FrankfurtMainzielAdapter(),
     StuttgartMobidataBwAdapter(),
+    FreiburgMobidataBwAdapter(),
+    AalenMobidataBwAdapter(),
+    HerrenbergMobidataBwAdapter(),
+    BietigheimBissingenMobidataBwAdapter(),
+    BuchenMobidataBwAdapter(),
+    HeilbronnMobidataBwAdapter(),
+    MannheimMobidataBwOccupancyAdapter(),
+    KarlsruheMobidataBwOccupancyAdapter(),
+    UlmMobidataBwOccupancyAdapter(),
 ]
