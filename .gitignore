@@ -1,0 +1,16 @@
+venv/
+data/
+parking-data-archive/
+reports/
+logs/
+*.db
+*.db-shm
+*.db-wal
+__pycache__/
+*.pyc
+.DS_Store
+flask.log
+import.log
+recluster.log
+http_preview.log
+report_preview.html
