@@ -1,0 +1,290 @@
+{
+  "alte_wallgasse": {
+    "title": "Parken in Köln - Alte Wallgasse",
+    "total": 263,
+    "short_term": 218,
+    "free": 140
+  },
+  "am_neumarkt": {
+    "title": "Parken in Köln - Am Neumarkt",
+    "total": 333,
+    "short_term": 200,
+    "free": 101
+  },
+  "an_farina": {
+    "title": "Parken in Köln - An Farina",
+    "total": 304,
+    "short_term": 200,
+    "free": 15
+  },
+  "bazaar_de_cologne": {
+    "title": "Parken in Köln - Bazaar de Cologne",
+    "total": 300,
+    "short_term": 139,
+    "free": 148
+  },
+  "bp_lungengasse": {
+    "title": "Parken in Köln - BP Lungengasse",
+    "total": 250,
+    "short_term": 200,
+    "free": 152
+  },
+  "brueck_mauspfad": {
+    "title": "Parken in Köln - Brück/Mauspfad",
+    "total": 357,
+    "short_term": 0,
+    "free": 0
+  },
+  "brueckenstrasse": {
+    "title": "Parken in Köln - Brückenstraße",
+    "total": 756,
+    "short_term": 520,
+    "free": 329
+  },
+  "caecilienstrasse": {
+    "title": "Parken in Köln - Stadtmitte (Cäcilienstraße)",
+    "total": 339,
+    "short_term": 339,
+    "free": 339
+  },
+  "dom": {
+    "title": "Parken in Köln - Dom",
+    "total": 520,
+    "short_term": 430,
+    "free": 0
+  },
+  "gerling_ring_carre": {
+    "title": "Parken in Köln - Ringkarree",
+    "total": 434,
+    "short_term": 240,
+    "free": 0
+  },
+  "gross_st_martin": {
+    "title": "Parken in Köln - Groß St. Martin",
+    "total": 213,
+    "short_term": 185,
+    "free": 0
+  },
+  "guerzenich": {
+    "title": "Parken in Köln - Gürzenich",
+    "total": 315,
+    "short_term": 213,
+    "free": 183
+  },
+  "hbf_breslauer_platz": {
+    "title": "Parken in Köln - Hauptbahnhof",
+    "total": 395,
+    "short_term": 395,
+    "free": 0
+  },
+  "heumarkt": {
+    "title": "Parken in Köln - Heumarkt",
+    "total": 429,
+    "short_term": 392,
+    "free": 256
+  },
+  "hohe_strasse": {
+    "title": "Parken in Köln - Hohe Straße",
+    "total": 280,
+    "short_term": 217,
+    "free": 0
+  },
+  "im_klapperhof": {
+    "title": "Parken in Köln - Im Klapperhof",
+    "total": 459,
+    "short_term": 200,
+    "free": 470
+  },
+  "kaiserwilhelmring": {
+    "title": "Parken in Köln - Kaiser-Wilhelm-Ring",
+    "total": 600,
+    "short_term": 450,
+    "free": 148
+  },
+  "karstadt": {
+    "title": "Parken in Köln - Karstadt",
+    "total": 452,
+    "short_term": 388,
+    "free": 441
+  },
+  "kaufhof": {
+    "title": "Parken in Köln - Kaufhof",
+    "total": 1300,
+    "short_term": 860,
+    "free": 1247
+  },
+  "koeln_arcaden": {
+    "title": "Parken in Köln - Köln Arcaden",
+    "total": 1800,
+    "short_term": 1700,
+    "free": 1009
+  },
+  "ksk__richmodstr": {
+    "title": "Parken in Köln - KSK/ Richmodstr (geschlosssen)",
+    "total": 180,
+    "short_term": 182,
+    "free": 0
+  },
+  "lanxessarena_1": {
+    "title": "Parken in Köln - Lanxess-Arena P1",
+    "total": 1748,
+    "short_term": 1748,
+    "free": 1126
+  },
+  "lanxessarena_2": {
+    "title": "Parken in Köln - Lanxess-Arena P2",
+    "total": 266,
+    "short_term": 266,
+    "free": 46
+  },
+  "lanxessarena_3": {
+    "title": "Parken in Köln - Lanxess-Arena P3",
+    "total": 480,
+    "short_term": 634,
+    "free": 0
+  },
+  "lanxessarena_4": {
+    "title": "Parken in Köln - Lanxess-Arena P4",
+    "total": 309,
+    "short_term": 309,
+    "free": 178
+  },
+  "maastrichter_strasse": {
+    "title": "Parken in Köln - Maastrichter Strasse",
+    "total": 684,
+    "short_term": 450,
+    "free": 394
+  },
+  "maritim": {
+    "title": "Parken in Köln - Maritim",
+    "total": 600,
+    "short_term": 575,
+    "free": 334
+  },
+  "marsdorf_pundr": {
+    "title": "Parken in Köln - Marsdorf P+R",
+    "total": 621,
+    "short_term": 621,
+    "free": 530
+  },
+  "mediapark": {
+    "title": "Parken in Köln - Mediapark",
+    "total": 1148,
+    "short_term": 272,
+    "free": 330
+  },
+  "opern_passagen": {
+    "title": "Parken in Köln - Opern Passagen",
+    "total": 550,
+    "short_term": 0,
+    "free": 124
+  },
+  "philharmonie": {
+    "title": "Parken in Köln - Philharmonie (*)",
+    "total": 372,
+    "short_term": 310,
+    "free": 265
+  },
+  "pundr_stadion": {
+    "title": "Parken in Köln - P+R Stadion (P2)",
+    "total": 560,
+    "short_term": 580,
+    "free": 537
+  },
+  "quincy": {
+    "title": "Parken in Köln - Quincy",
+    "total": 648,
+    "short_term": 363,
+    "free": 186
+  },
+  "rewecity": {
+    "title": "Parken in Köln - REWE City",
+    "total": 217,
+    "short_term": 217,
+    "free": 113
+  },
+  "rhein_triadem": {
+    "title": "Parken in Köln - Altstadt-Nord, P7",
+    "total": 606,
+    "short_term": 264,
+    "free": 458
+  },
+  "rudolfplatz": {
+    "title": "Parken in Köln - Rudolfplatz",
+    "total": 400,
+    "short_term": 320,
+    "free": 176
+  },
+  "schildergasse": {
+    "title": "Parken in Köln - Schildergasse",
+    "total": 362,
+    "short_term": 359,
+    "free": 247
+  },
+  "sk_koeln_schaafenstr": {
+    "title": "Parken in Köln - Sparkasse / Schaafenstr. (geschlossen)",
+    "total": 238,
+    "short_term": 174,
+    "free": 0
+  },
+  "stadion_p1": {
+    "title": "Parken in Köln - Stadion P1",
+    "total": 550,
+    "short_term": 600,
+    "free": 450
+  },
+  "stadion_p3": {
+    "title": "Parken in Köln - Stadion P3",
+    "total": 1000,
+    "short_term": 1000,
+    "free": 1000
+  },
+  "stadion_p4": {
+    "title": "Parken in Köln - Stadion P4",
+    "total": 550,
+    "short_term": 500,
+    "free": 400
+  },
+  "stadion_p6": {
+    "title": "Parken in Köln - Stadion P6",
+    "total": 1000,
+    "short_term": 1000,
+    "free": 1000
+  },
+  "stadion_p7": {
+    "title": "Parken in Köln - Stadion P7",
+    "total": 1000,
+    "short_term": 1000,
+    "free": 950
+  },
+  "stadion_p8_bus": {
+    "title": "Parken in Köln - Stadion P8 Bus",
+    "total": 80,
+    "short_term": 40,
+    "free": 40
+  },
+  "stadion_p8_pkw": {
+    "title": "Parken in Köln - Stadion P8 PKW",
+    "total": 500,
+    "short_term": 650,
+    "free": 600
+  },
+  "theater__krebsgasse": {
+    "title": "Parken in Köln - Theater/ Krebsgasse",
+    "total": 470,
+    "short_term": 340,
+    "free": 132
+  },
+  "wolfstrasse": {
+    "title": "Parken in Köln - Wolfsstraße",
+    "total": 380,
+    "short_term": 335,
+    "free": 103
+  },
+  "zoo": {
+    "title": "Parken in Köln - Zoo (*)",
+    "total": 392,
+    "short_term": 0,
+    "free": 0
+  }
+}

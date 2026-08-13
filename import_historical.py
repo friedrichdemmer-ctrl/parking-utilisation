@@ -15,6 +15,8 @@ import sys
 import time
 from pathlib import Path
 
+from apply_capacity_overrides import apply_overrides as apply_capacity_overrides
+
 ROOT = Path(__file__).parent
 ARCHIVE = Path(os.environ.get("PARKING_ARCHIVE_PATH", ROOT / "parking-data-archive"))
 DB_PATH = Path(os.environ.get("PARKING_DB_PATH", ROOT / "data" / "parking.db"))
@@ -149,6 +151,10 @@ def main():
     conn.executescript(SCHEMA)
 
     import_meta(conn)
+
+    print("applying capacity overrides...")
+    apply_capacity_overrides(conn)
+
     import_observations(conn)
 
     print("building indexes...")
