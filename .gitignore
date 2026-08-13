@@ -10,8 +10,8 @@ __pycache__/
 *.pyc
 .DS_Store
 flask.log
-import.log
-recluster.log
+import*.log
+recluster*.log
 http_preview.log
 report_preview.html
 .github/
