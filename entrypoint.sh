@@ -27,5 +27,6 @@ bootstrap_and_collect() {
 }
 
 bootstrap_and_collect &
+python3 scraper_daemon.py &
 
 exec gunicorn --workers 2 --bind 0.0.0.0:8080 --timeout 120 app:app

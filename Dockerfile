@@ -9,8 +9,9 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY app.py collector.py collector_daemon.py import_historical.py recluster.py apply_capacity_overrides.py entrypoint.sh ./
+COPY app.py collector.py collector_daemon.py import_historical.py recluster.py apply_capacity_overrides.py scraper_daemon.py entrypoint.sh ./
 COPY capacity_overrides/ ./capacity_overrides/
+COPY scrapers/ ./scrapers/
 RUN chmod +x entrypoint.sh
 
 ENV PARKING_DB_PATH=/data/parking.db
