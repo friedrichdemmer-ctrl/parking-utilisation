@@ -9,6 +9,7 @@ from scrapers.adapters.frankfurt_mainziel import FrankfurtMainzielAdapter
 from scrapers.adapters.hamburg_viz import HamburgVizAdapter
 from scrapers.adapters.koeln_live import KoelnLiveAdapter
 from scrapers.adapters.muenchen_parkraumwende import MuenchenParkraumwendeAdapter
+from scrapers.adapters.stuttgart_mobidata_bw import StuttgartMobidataBwAdapter
 from scrapers.base import SourceAdapter
 
 ADAPTERS: list[SourceAdapter] = [
@@ -17,4 +18,5 @@ ADAPTERS: list[SourceAdapter] = [
     BerlinVizAdapter(),
     HamburgVizAdapter(),
     FrankfurtMainzielAdapter(),
+    StuttgartMobidataBwAdapter(),
 ]
