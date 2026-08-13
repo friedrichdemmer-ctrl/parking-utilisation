@@ -34,6 +34,7 @@ def apply_overrides(conn: sqlite3.Connection) -> None:
 
 def main():
     conn = sqlite3.connect(DB_PATH)
+    conn.execute("PRAGMA busy_timeout=10000")  # retry instead of erroring if gunicorn/collector hold a lock
     apply_overrides(conn)
     conn.close()
 
