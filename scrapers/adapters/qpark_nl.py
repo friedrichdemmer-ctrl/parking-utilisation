@@ -3,10 +3,10 @@ run by RDW (the Dutch vehicle licensing authority) -- openly licensed (CC0),
 no authentication required.
 
 Q-Park itself is a registered data provider in the NPR (areamanagerid 2448,
-"Q-Park Nederland BV"), publishing both static facility data and, for most
-of its facilities, genuinely live occupancy -- confirmed directly before
-writing this: of Q-Park's 159 registered areas, 151 had real dynamic (live)
-data on inspection.
+"Q-Park Nederland BV"), publishing static facility data for its Dutch
+garages and, for a small subset, genuinely live occupancy too -- see the
+"Live occupancy" note below for how much smaller that subset turned out to
+be than the facility list first suggested.
 
 Two-step lookup:
   1. opendata.rdw.nl's Socrata "PARKEERGEBIED" dataset, filtered to
@@ -31,6 +31,14 @@ a year stale, not actually live. So this only writes occupancy when the
 response succeeds AND its timestamp is recent (MAX_OCCUPANCY_AGE_SECONDS)
 -- in practice that was ~7 facilities out of 159 on the run this was
 written against, not the ~150 the facility list implied.
+
+A handful of facilities (mostly Terreinparkeren -- surface lots, not
+garages) have a specifications entry with no "capacity" field at all in
+the static payload. Rather than drop them, fetch_capacity() falls back to
+the dynamic endpoint's facilityActualStatus.parkingCapacity when present
+-- confirmed real for the 6 facilities in this exact situation, all of
+which happened to be part of the small live-occupancy set above. Facilities
+missing capacity in *both* places are still skipped, not guessed at.
 """
 
 from __future__ import annotations
@@ -75,6 +83,15 @@ class QParkNetherlandsAdapter(SourceAdapter):
     def _areas(self, fetcher) -> list[dict]:
         return fetcher.get_json(AREAS_URL)
 
+    def _dynamic_capacity_fallback(self, fetcher, uuid: str, area_name: str) -> int | None:
+        try:
+            dynamic = fetcher.get_json(f"{NPR_BASE}/dynamic/{uuid}")
+        except Exception:
+            return None  # most commonly 401 -- no dynamic access for this facility either, not an error
+        status = (dynamic.get("parkingFacilityDynamicInformation") or {}).get("facilityActualStatus") or {}
+        capacity = status.get("parkingCapacity")
+        return int(capacity) if capacity else None
+
     def fetch_capacity(self, fetcher) -> list[CapacityRecord]:
         records = []
         for area in self._areas(fetcher):
@@ -90,6 +107,8 @@ class QParkNetherlandsAdapter(SourceAdapter):
             info = static.get("parkingFacilityInformation") or {}
             specs = info.get("specifications") or []
             capacity = specs[0].get("capacity") if specs else None
+            if not capacity:
+                capacity = self._dynamic_capacity_fallback(fetcher, uuid, area_name)
             if not capacity:
                 continue
             location = info.get("locationForDisplay") or {}
