@@ -23,6 +23,7 @@ from scrapers.adapters.mobidata_bw_existing import (
     UlmMobidataBwOccupancyAdapter,
 )
 from scrapers.adapters.muenchen_parkraumwende import MuenchenParkraumwendeAdapter
+from scrapers.adapters.qpark_fr import QParkFranceAdapter
 from scrapers.adapters.qpark_nl import QParkNetherlandsAdapter
 from scrapers.adapters.stuttgart_mobidata_bw import StuttgartMobidataBwAdapter
 from scrapers.base import SourceAdapter
@@ -45,4 +46,5 @@ ADAPTERS: list[SourceAdapter] = [
     UlmMobidataBwOccupancyAdapter(),
     DbBahnparkAdapter(),
     QParkNetherlandsAdapter(),
+    QParkFranceAdapter(),
 ]
