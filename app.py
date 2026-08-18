@@ -27,6 +27,13 @@ DB_PATH = Path(os.environ.get("PARKING_DB_PATH", Path(__file__).parent / "data" 
 BERLIN = ZoneInfo("Europe/Berlin")
 CURRENT_YEAR = datetime.now().year
 
+# lots_meta has no country column -- these are the only two non-German
+# sources so far, everything else defaults to Germany.
+SOURCE_COUNTRY = {
+    "npr-qpark-nl": "Netherlands",
+    "bnls-qpark-fr": "France",
+}
+
 app = Flask(__name__)
 
 
@@ -222,6 +229,13 @@ PAGE = """
   .entity-row { display: flex; gap: 0.5rem; align-items: center; margin-top: 0.4rem; }
   .legend-line { display: inline-block; width: 14px; height: 3px; margin-right: 4px; vertical-align: middle; }
   #heatmap-tooltip { position: fixed; background: #222; color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; pointer-events: none; display: none; z-index: 10; }
+  .cov-stats { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1rem 0; }
+  .cov-stat { background: #f4f4f4; border-radius: 6px; padding: 0.8rem 1.2rem; min-width: 140px; }
+  .cov-stat .n { font-size: 1.6rem; font-weight: 700; display: block; }
+  .cov-stat .l { color: #555; font-size: 0.85rem; }
+  #cov-country-table, #cov-source-table { font-size: 0.92rem; }
+  .status-live { color: #1a7a1a; font-weight: 600; }
+  .status-static { color: #888; }
 </style>
 <h1>Parking Garage Utilisation</h1>
 
@@ -229,6 +243,7 @@ PAGE = """
   <button class="tab-btn active" data-tab="query">Query &amp; Download</button>
   <button class="tab-btn" data-tab="heatmap">Year Heatmap</button>
   <button class="tab-btn" data-tab="compare">Daily Comparison</button>
+  <button class="tab-btn" data-tab="coverage">Coverage</button>
 </div>
 
 <!-- ============ QUERY TAB ============ -->
@@ -337,6 +352,16 @@ PAGE = """
   <a class="download" id="c-dl" style="display:none">Download comparison CSV</a>
 </div>
 
+<!-- ============ COVERAGE TAB ============ -->
+<div class="tab-panel" id="tab-coverage">
+  <p class="meta">What's currently in the archive, and where it comes from. "Live" means a source has reported an observation this year; "capacity only" means we have the garage's total spaces but no ongoing occupancy feed.</p>
+  <div id="cov-totals" class="cov-stats"></div>
+  <h3>By country</h3>
+  <table id="cov-country-table"><thead><tr><th style="text-align:left">Country</th><th>Garages</th><th>Cities</th><th>Sources</th></tr></thead><tbody></tbody></table>
+  <h3>By source</h3>
+  <table id="cov-source-table"><thead><tr><th style="text-align:left">Source</th><th style="text-align:left">Country</th><th>Cities</th><th>Garages</th><th>With capacity</th><th>Status</th></tr></thead><tbody></tbody></table>
+</div>
+
 <script>
 let CITIES = [];
 let OPERATORS = [];
@@ -361,6 +386,36 @@ fetch('/api/operators').then(r => r.json()).then(ops => {
     opt.value = o.source_id; opt.textContent = o.source_id + ' (' + o.ncities + (o.ncities===1?' town':' towns') + ')';
     sel.appendChild(opt);
   }
+});
+
+// ---- coverage ----
+function sourceStatus(hasObs, lastTs) {
+  if (!hasObs || !lastTs) return { label: 'capacity only', cls: 'status-static' };
+  const year = parseInt(lastTs.slice(0, 4), 10);
+  if (year >= CURRENT_YEAR_JS) return { label: 'live (last: ' + lastTs.slice(0, 10) + ')', cls: 'status-live' };
+  return { label: 'stale, last seen ' + lastTs.slice(0, 10), cls: 'status-static' };
+}
+fetch('/api/coverage').then(r => r.json()).then(cov => {
+  const t = cov.totals;
+  document.getElementById('cov-totals').innerHTML = [
+    ['Garages', t.garages],
+    ['Cities', t.cities],
+    ['With known capacity', t.with_capacity],
+    ['Countries', cov.countries.length],
+  ].map(([l, n]) => `<div class="cov-stat"><span class="n">${n}</span><span class="l">${l}</span></div>`).join('');
+
+  const ctbody = document.querySelector('#cov-country-table tbody');
+  ctbody.innerHTML = cov.countries.map(c =>
+    `<tr><td style="text-align:left">${c.country}</td><td>${c.garages}</td><td>${c.cities}</td><td>${c.sources}</td></tr>`
+  ).join('');
+
+  const stbody = document.querySelector('#cov-source-table tbody');
+  stbody.innerHTML = cov.sources.map(s => {
+    const st = sourceStatus(s.has_obs, s.last_ts);
+    return `<tr><td style="text-align:left">${s.source_id}</td><td style="text-align:left">${s.country}</td>` +
+      `<td>${s.ncities}</td><td>${s.total}</td><td>${s.has_cap}</td>` +
+      `<td class="${st.cls}">${st.label}</td></tr>`;
+  }).join('');
 });
 
 // ---- tabs ----
@@ -739,6 +794,57 @@ def api_operators():
     ).fetchall()
     conn.close()
     return jsonify([dict(r) for r in rows])
+
+
+@app.route("/api/coverage")
+def api_coverage():
+    conn = get_db()
+    totals = conn.execute(
+        "SELECT COUNT(DISTINCT city_name), COUNT(*), "
+        "SUM(CASE WHEN num_all IS NOT NULL THEN 1 ELSE 0 END) FROM lots_meta"
+    ).fetchone()
+    sources = conn.execute(
+        """SELECT source_id,
+                  COUNT(DISTINCT city_name) ncities,
+                  COUNT(*) total,
+                  SUM(CASE WHEN num_all IS NOT NULL THEN 1 ELSE 0 END) has_cap,
+                  SUM(CASE WHEN last_observed_ts IS NOT NULL THEN 1 ELSE 0 END) has_obs,
+                  MAX(last_observed_ts) last_ts
+           FROM lots_meta WHERE source_id IS NOT NULL
+           GROUP BY source_id ORDER BY total DESC"""
+    ).fetchall()
+    conn.close()
+
+    source_list = [dict(r) for r in sources]
+    for s in source_list:
+        s["country"] = SOURCE_COUNTRY.get(s["source_id"], "Germany")
+
+    by_country: dict[str, dict] = defaultdict(lambda: {"garages": 0, "cities": set(), "sources": 0})
+    for s in source_list:
+        c = by_country[s["country"]]
+        c["garages"] += s["total"]
+        c["sources"] += 1
+    # city sets need the raw rows, not the per-source aggregate -- recount directly
+    conn = get_db()
+    city_rows = conn.execute(
+        "SELECT city_name, source_id FROM lots_meta WHERE source_id IS NOT NULL GROUP BY city_name, source_id"
+    ).fetchall()
+    conn.close()
+    for r in city_rows:
+        country = SOURCE_COUNTRY.get(r["source_id"], "Germany")
+        by_country[country]["cities"].add(r["city_name"])
+    countries = [
+        {"country": name, "garages": v["garages"], "cities": len(v["cities"]), "sources": v["sources"]}
+        for name, v in sorted(by_country.items(), key=lambda kv: -kv[1]["garages"])
+    ]
+
+    return jsonify(
+        {
+            "totals": {"cities": totals[0], "garages": totals[1], "with_capacity": totals[2]},
+            "countries": countries,
+            "sources": source_list,
+        }
+    )
 
 
 @app.route("/api/garages")
