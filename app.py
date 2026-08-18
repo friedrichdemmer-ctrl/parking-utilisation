@@ -27,11 +27,14 @@ DB_PATH = Path(os.environ.get("PARKING_DB_PATH", Path(__file__).parent / "data" 
 BERLIN = ZoneInfo("Europe/Berlin")
 CURRENT_YEAR = datetime.now().year
 
-# lots_meta has no country column -- these are the only two non-German
-# sources so far, everything else defaults to Germany.
+# lots_meta has no country column -- these are the only non-German sources
+# so far, everything else defaults to Germany. Every new non-German adapter
+# needs an entry here, or it silently gets counted as Germany on /api/coverage.
 SOURCE_COUNTRY = {
     "npr-qpark-nl": "Netherlands",
+    "npr-other-nl": "Netherlands",
     "bnls-qpark-fr": "France",
+    "bnls-other-fr": "France",
 }
 
 app = Flask(__name__)
