@@ -860,7 +860,11 @@ def api_garages():
     if operator:
         q += " AND source_id = ?"
         params.append(operator)
-    q += " ORDER BY place_name"
+    # Garages with real observations first (most recent first), then everything
+    # else alphabetically -- otherwise a city where only some garages report
+    # live data can look entirely empty just because the alphabetically-first
+    # garage happens to be a capacity-only one.
+    q += " ORDER BY (last_observed_ts IS NULL), last_observed_ts DESC, place_name"
     rows = conn.execute(q, params).fetchall()
     conn.close()
     return jsonify([dict(r) for r in rows])
