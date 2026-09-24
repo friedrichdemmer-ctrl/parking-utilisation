@@ -49,6 +49,7 @@ from scrapers.adapters.strasbourg_live import StrasbourgLiveAdapter
 from scrapers.adapters.stuttgart_mobidata_bw import StuttgartMobidataBwAdapter
 from scrapers.adapters.toulouse_qpark import ToulouseQParkAdapter
 from scrapers.adapters.tours_live import ToursLiveAdapter
+from scrapers.adapters.verviers_live import VerviersLiveAdapter
 from scrapers.base import SourceAdapter
 
 ADAPTERS: list[SourceAdapter] = [
@@ -90,6 +91,7 @@ ADAPTERS: list[SourceAdapter] = [
     StrasbourgLiveAdapter(),
     ToulouseQParkAdapter(),
     ToursLiveAdapter(),
+    VerviersLiveAdapter(),
     QParkFranceAdapter(),
     OtherOperatorsNetherlandsAdapter(),
     OtherOperatorsFranceAdapter(),
