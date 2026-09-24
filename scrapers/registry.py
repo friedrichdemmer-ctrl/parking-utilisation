@@ -19,6 +19,7 @@ from scrapers.adapters.interparking_belgium import InterparkingBelgiumAdapter
 from scrapers.adapters.kaiserslautern_live import KaiserslauternLiveAdapter
 from scrapers.adapters.koeln_live import KoelnLiveAdapter
 from scrapers.adapters.la_rochelle_live import LaRochelleLiveAdapter
+from scrapers.adapters.liege_hors_voirie import LiegeHorsVoirieAdapter
 from scrapers.adapters.lyon_parc_auto_live import LyonParcAutoLiveAdapter
 from scrapers.adapters.lyon_qpark import LyonQParkAdapter
 from scrapers.adapters.mobidata_bw_cities import (
@@ -78,6 +79,7 @@ ADAPTERS: list[SourceAdapter] = [
     InterparkingBelgiumAdapter(),
     KaiserslauternLiveAdapter(),
     LaRochelleLiveAdapter(),
+    LiegeHorsVoirieAdapter(),
     LyonParcAutoLiveAdapter(),
     MelLilleLiveAdapter(),
     MoersLiveAdapter(),
