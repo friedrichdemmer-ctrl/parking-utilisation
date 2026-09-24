@@ -38,6 +38,7 @@ from scrapers.adapters.other_operators_nl import OtherOperatorsNetherlandsAdapte
 from scrapers.adapters.qpark_fr import QParkFranceAdapter
 from scrapers.adapters.qpark_nl import QParkNetherlandsAdapter
 from scrapers.adapters.rouen_qpark import RouenQParkAdapter
+from scrapers.adapters.saint_etienne_qpark import SaintEtienneQParkAdapter
 from scrapers.adapters.stuttgart_mobidata_bw import StuttgartMobidataBwAdapter
 from scrapers.base import SourceAdapter
 
@@ -70,6 +71,7 @@ ADAPTERS: list[SourceAdapter] = [
     MoersLiveAdapter(),
     QParkNetherlandsAdapter(),
     RouenQParkAdapter(),
+    SaintEtienneQParkAdapter(),
     QParkFranceAdapter(),
     OtherOperatorsNetherlandsAdapter(),
     OtherOperatorsFranceAdapter(),
