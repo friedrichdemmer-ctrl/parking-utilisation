@@ -15,6 +15,7 @@ from scrapers.adapters.giessen_live import GiessenLiveAdapter
 from scrapers.adapters.grenoble_live import GrenobleLiveAdapter
 from scrapers.adapters.hamburg_viz import HamburgVizAdapter
 from scrapers.adapters.heidelberg_live import HeidelbergLiveAdapter
+from scrapers.adapters.interparking_belgium import InterparkingBelgiumAdapter
 from scrapers.adapters.kaiserslautern_live import KaiserslauternLiveAdapter
 from scrapers.adapters.koeln_live import KoelnLiveAdapter
 from scrapers.adapters.la_rochelle_live import LaRochelleLiveAdapter
@@ -74,6 +75,7 @@ ADAPTERS: list[SourceAdapter] = [
     GiessenLiveAdapter(),
     GrenobleLiveAdapter(),
     HeidelbergLiveAdapter(),
+    InterparkingBelgiumAdapter(),
     KaiserslauternLiveAdapter(),
     LaRochelleLiveAdapter(),
     LyonParcAutoLiveAdapter(),
