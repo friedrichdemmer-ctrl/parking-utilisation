@@ -47,7 +47,20 @@ run_scraper_daemon() {
   done
 }
 
+run_archive_sync_daemon() {
+  # Keeps the "-parken" sources (fed entirely by the one-time bootstrap
+  # import, not by any live poller) current with the defgsus archive, which
+  # itself gets a new day added daily. Same restart-on-exit treatment as the
+  # other daemons.
+  while true; do
+    python3 archive_sync_daemon.py || true
+    echo "archive_sync_daemon.py exited -- restarting in 10s" >&2
+    sleep 10
+  done
+}
+
 bootstrap_and_collect &
 run_scraper_daemon &
+run_archive_sync_daemon &
 
 exec gunicorn --workers 2 --bind 0.0.0.0:8080 --timeout 120 app:app
