@@ -17,6 +17,7 @@ from scrapers.adapters.hamburg_viz import HamburgVizAdapter
 from scrapers.adapters.heidelberg_live import HeidelbergLiveAdapter
 from scrapers.adapters.kaiserslautern_live import KaiserslauternLiveAdapter
 from scrapers.adapters.koeln_live import KoelnLiveAdapter
+from scrapers.adapters.lyon_parc_auto_live import LyonParcAutoLiveAdapter
 from scrapers.adapters.lyon_qpark import LyonQParkAdapter
 from scrapers.adapters.mobidata_bw_cities import (
     AalenMobidataBwAdapter,
@@ -73,6 +74,7 @@ ADAPTERS: list[SourceAdapter] = [
     GrenobleLiveAdapter(),
     HeidelbergLiveAdapter(),
     KaiserslauternLiveAdapter(),
+    LyonParcAutoLiveAdapter(),
     MelLilleLiveAdapter(),
     MoersLiveAdapter(),
     NantesNaolibLiveAdapter(),
