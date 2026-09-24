@@ -23,10 +23,31 @@ bootstrap_and_collect() {
     echo "Bootstrap complete: $DB_PATH is ready."
   fi
 
-  python3 collector_daemon.py
+  # collector_daemon.py's own loop only catches ordinary Python exceptions --
+  # it can't protect against the process itself being killed (e.g. an
+  # OOM-kill), and this happened for real on 2026-08-12: the process died and
+  # nothing restarted it, so live collection for every city on this daemon
+  # silently stopped for six weeks before anyone noticed. Restart on any
+  # exit rather than trust that it never dies.
+  while true; do
+    python3 collector_daemon.py || true
+    echo "collector_daemon.py exited -- restarting in 10s" >&2
+    sleep 10
+  done
+}
+
+run_scraper_daemon() {
+  # Same silent-death risk as collector_daemon.py above, even though it
+  # hasn't happened yet for this one -- restart on exit here too rather than
+  # wait to find out the hard way.
+  while true; do
+    python3 scraper_daemon.py || true
+    echo "scraper_daemon.py exited -- restarting in 10s" >&2
+    sleep 10
+  done
 }
 
 bootstrap_and_collect &
-python3 scraper_daemon.py &
+run_scraper_daemon &
 
 exec gunicorn --workers 2 --bind 0.0.0.0:8080 --timeout 120 app:app
