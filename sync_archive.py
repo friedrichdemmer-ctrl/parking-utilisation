@@ -81,6 +81,56 @@ RENAME_MAP: dict[str, str] = {
     "ffh-parken-wiesbaden-PH-Markt": "ffh-parken-wiesbaden-Markt",
     "ffh-parken-wiesbaden-PH-Mauritius": "ffh-parken-wiesbaden-Mauritius-Galerie",
     "ffh-parken-wiesbaden-PH-Theater": "ffh-parken-wiesbaden-Theater",
+
+    # Same failure mode found for Lübeck: the upstream feed switched from
+    # numeric place_ids ("parken-luebeck-42") to verbose slugified names
+    # ("parken-luebeck-Roeckstrasse-Parkplatz-Roeckstrasse-Parkplatz-Luebeck",
+    # doubled by an upstream generator bug) at some point. Matched by name to
+    # the existing lots_meta entries below -- only the unambiguous 1:1 cases
+    # (single old candidate, no combined/duplicate-name old entry to confuse
+    # it with). Garages left unmapped (e.g. two "Leuchtenfeld" old entries,
+    # "Müllergarten u. Mühlendamm" combining two new names into one old
+    # capacity, or genuinely no old counterpart) get their own fresh
+    # lots_meta row instead of a guessed capacity -- see
+    # migrate_luebeck_orphans.py.
+    "parken-luebeck-Am-Bahnhof-Handelshof-Parkplatz-Strassenrand-Am-Bahnhof-Handelshof-Parkplatz-Strassenrand-Lubeck": "parken-luebeck-32",
+    "parken-luebeck-Am-Burgfeld-Parkplatz-Am-Burgfeld-Parkplatz-Lubeck": "parken-luebeck-43",
+    "parken-luebeck-Am-Fischereihafen-Parkplatz-Am-Fischereihafen-Parkplatz-Travemunde": "parken-luebeck-96",
+    "parken-luebeck-Backbord-Parkplatz-Backbord-Parkplatz-Travemunde": "parken-luebeck-54",
+    "parken-luebeck-Bauhof-Parkplatz-Bauhof-Parkplatz-Lubeck": "parken-luebeck-23",
+    "parken-luebeck-Beckergrube-Parkplatz-Beckergrube-Parkplatz-Lubeck": "parken-luebeck-19",
+    "parken-luebeck-Bruckenweg-Parkplatz-Bruckenweg-Parkplatz-Lubeck": "parken-luebeck-28",
+    "parken-luebeck-Burgstrasse-Parkplatz-Burgstrasse-Parkplatz-Lubeck": "parken-luebeck-17",
+    "parken-luebeck-Fahrstrasse-Parkplatz-Fahrstrasse-Parkplatz-Lubeck": "parken-luebeck-44",
+    "parken-luebeck-Fahrvorplatz-Parkplatz-Fahrvorplatz-Parkplatz-Travemunde": "parken-luebeck-65",
+    "parken-luebeck-Hafenbahnhof-Parkplatz-Hafenbahnhof-Parkplatz-Travemunde": "parken-luebeck-63",
+    "parken-luebeck-Hermann-Lange-Strasse-Parkplatz-Hermann-Lange-Strasse-Parkplatz-Lubeck": "parken-luebeck-35",
+    "parken-luebeck-Kanalstrasse-P2-Parkplatz-Kanalstrasse-P2-Parkplatz-Lubeck": "parken-luebeck-88",
+    "parken-luebeck-Kanalstrasse-P3-Parkplatz-Kanalstrasse-P3-Parkplatz-Lubeck": "parken-luebeck-89",
+    "parken-luebeck-Kanalstrasse-P4-Parkplatz-Kanalstrasse-P4-Parkplatz-Lubeck": "parken-luebeck-90",
+    "parken-luebeck-Kanalstrasse-P5-Parkplatz-Kanalstrasse-P5-Parkplatz-Lubeck": "parken-luebeck-91",
+    "parken-luebeck-Kowitzberg-Parkplatz-Kowitzberg-Parkplatz-Travemunde": "parken-luebeck-98",
+    "parken-luebeck-Kurgartenstrasse-Parkplatz-Kurgartenstrasse-Parkplatz-Travemunde": "parken-luebeck-64",
+    "parken-luebeck-Lastadie-P3-Parkplatz-Lastadie-P3-Parkplatz-Lubeck": "parken-luebeck-45",
+    "parken-luebeck-Lastadie-P5-Parkplatz-Lastadie-P5-Parkplatz-Lubeck": "parken-luebeck-75",
+    "parken-luebeck-Marlesgrube-Parkplatz-Marlesgrube-Parkplatz-Lubeck": "parken-luebeck-21",
+    "parken-luebeck-Mowenstein-Parkplatz-Mowenstein-Parkplatz-Travemunde": "parken-luebeck-53",
+    "parken-luebeck-MuK-Parkplatz-MuK-Parkplatz-Lubeck": "parken-luebeck-46",
+    "parken-luebeck-Muhlenbrucke-Parkplatz-Muhlenbrucke-Parkplatz-Lubeck": "parken-luebeck-27",
+    "parken-luebeck-Muhlenstrasse-Parkplatz-Muhlenstrasse-Parkplatz-Lubeck": "parken-luebeck-24",
+    "parken-luebeck-Musterbahn-Parkplatz-Musterbahn-Parkplatz-Lubeck": "parken-luebeck-26",
+    "parken-luebeck-Obertrave-Parkplatz-Strassenrand-Obertrave-Parkplatz-Strassenrand-Lubeck": "parken-luebeck-20",
+    "parken-luebeck-Parade-Parkplatz-Parade-Parkplatz-Lubeck": "parken-luebeck-22",
+    "parken-luebeck-Paul-Brummer-Strasse-Parkplatz-Paul-Brummer-Strasse-Parkplatz-Travemunde": "parken-luebeck-71",
+    "parken-luebeck-Priwall-Parkplatz-Priwall-Parkplatz-Travemunde": "parken-luebeck-68",
+    "parken-luebeck-Radisson-Blu-Parkplatz-Radisson-Blu-Parkplatz-Lubeck": "parken-luebeck-47",
+    "parken-luebeck-Retteich-Parkplatz-Retteich-Parkplatz-Lubeck": "parken-luebeck-33",
+    "parken-luebeck-Roeckstrasse-Parkplatz-Roeckstrasse-Parkplatz-Lubeck": "parken-luebeck-42",
+    "parken-luebeck-Rose-Parkplatz-Rose-Parkplatz-Travemunde": "parken-luebeck-69",
+    "parken-luebeck-Strandbahnhof-Parkplatz-Strandbahnhof-Parkplatz-Travemunde": "parken-luebeck-56",
+    "parken-luebeck-Trelleborgallee-Parkplatz-Trelleborgallee-Parkplatz-Travemunde": "parken-luebeck-60",
+    "parken-luebeck-Vogteistrasse-Parkplatz-Vogteistrasse-Parkplatz-Travemunde": "parken-luebeck-62",
+    "parken-luebeck-Wallstrasse-Parkplatz-Wallstrasse-Parkplatz-Lubeck": "parken-luebeck-29",
 }
 
 
