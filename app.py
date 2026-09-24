@@ -239,6 +239,9 @@ PAGE = """
   #cov-country-table, #cov-source-table { font-size: 0.92rem; }
   .status-live { color: #1a7a1a; font-weight: 600; }
   .status-static { color: #888; }
+  .status-error { color: #b00; font-weight: 600; }
+  .health-errors { font-size: 0.9rem; }
+  .health-errors code { background: #f4f4f4; padding: 1px 4px; border-radius: 3px; }
 </style>
 <h1>Parking Garage Utilisation</h1>
 
@@ -247,6 +250,7 @@ PAGE = """
   <button class="tab-btn" data-tab="heatmap">Year Heatmap</button>
   <button class="tab-btn" data-tab="compare">Daily Comparison</button>
   <button class="tab-btn" data-tab="coverage">Coverage</button>
+  <button class="tab-btn" data-tab="health">Scraper Health</button>
 </div>
 
 <!-- ============ QUERY TAB ============ -->
@@ -365,6 +369,14 @@ PAGE = """
   <table id="cov-source-table"><thead><tr><th style="text-align:left">Source</th><th style="text-align:left">Country</th><th>Cities</th><th>Garages</th><th>With capacity</th><th>Status</th></tr></thead><tbody></tbody></table>
 </div>
 
+<!-- ============ SCRAPER HEALTH TAB ============ -->
+<div class="tab-panel" id="tab-health">
+  <p class="meta">Each adapter's latest capacity/occupancy run. A daemon retries an errored run on its next check rather than waiting out the full interval, so an "error" here that keeps recurring is worth a look.</p>
+  <table id="health-adapter-table"><thead><tr><th style="text-align:left">Adapter</th><th style="text-align:left">Kind</th><th>Last run</th><th>Status</th><th>Last success</th></tr></thead><tbody></tbody></table>
+  <h3>Recent errors</h3>
+  <table id="health-error-table" class="health-errors"><thead><tr><th>When</th><th style="text-align:left">Adapter</th><th style="text-align:left">Kind</th><th style="text-align:left">Error</th></tr></thead><tbody></tbody></table>
+</div>
+
 <script>
 let CITIES = [];
 let OPERATORS = [];
@@ -419,6 +431,32 @@ fetch('/api/coverage').then(r => r.json()).then(cov => {
       `<td>${s.ncities}</td><td>${s.total}</td><td>${s.has_cap}</td>` +
       `<td class="${st.cls}">${st.label}</td></tr>`;
   }).join('');
+});
+
+// ---- scraper health ----
+function timeAgo(iso) {
+  if (!iso) return 'never';
+  const secs = (Date.now() - new Date(iso).getTime()) / 1000;
+  if (secs < 3600) return Math.round(secs / 60) + 'm ago';
+  if (secs < 86400) return Math.round(secs / 3600) + 'h ago';
+  return Math.round(secs / 86400) + 'd ago';
+}
+fetch('/api/scraper-health').then(r => r.json()).then(health => {
+  const abody = document.querySelector('#health-adapter-table tbody');
+  abody.innerHTML = health.adapters.map(a => {
+    const cls = a.status === 'success' ? 'status-live' : 'status-error';
+    return `<tr><td style="text-align:left">${a.adapter}</td><td style="text-align:left">${a.kind}</td>` +
+      `<td>${timeAgo(a.run_at)}</td><td class="${cls}">${a.status}</td>` +
+      `<td>${a.status === 'success' ? '-' : timeAgo(a.last_success_at)}</td></tr>`;
+  }).join('');
+
+  const ebody = document.querySelector('#health-error-table tbody');
+  ebody.innerHTML = health.recent_errors.length
+    ? health.recent_errors.map(e =>
+        `<tr><td>${timeAgo(e.run_at)}</td><td style="text-align:left">${e.adapter}</td>` +
+        `<td style="text-align:left">${e.kind}</td><td style="text-align:left"><code>${e.error_summary}</code></td></tr>`
+      ).join('')
+    : '<tr><td colspan="4" style="text-align:left">No errors recorded.</td></tr>';
 });
 
 // ---- tabs ----
@@ -848,6 +886,59 @@ def api_coverage():
             "sources": source_list,
         }
     )
+
+
+@app.route("/api/scraper-health")
+def api_scraper_health():
+    conn = get_db()
+    conn.executescript(  # scraper_runs may not exist yet on a DB that predates the scraper framework
+        """CREATE TABLE IF NOT EXISTS scraper_runs (
+               id INTEGER PRIMARY KEY AUTOINCREMENT, adapter TEXT NOT NULL, kind TEXT NOT NULL,
+               run_at TEXT NOT NULL, status TEXT NOT NULL, records_written INTEGER DEFAULT 0,
+               records_rejected INTEGER DEFAULT 0, error_message TEXT
+           )"""
+    )
+
+    latest = conn.execute(
+        """SELECT sr.adapter, sr.kind, sr.status, sr.run_at
+           FROM scraper_runs sr
+           JOIN (SELECT adapter, kind, MAX(run_at) AS run_at FROM scraper_runs GROUP BY adapter, kind) m
+             ON m.adapter = sr.adapter AND m.kind = sr.kind AND m.run_at = sr.run_at
+           ORDER BY sr.adapter, sr.kind"""
+    ).fetchall()
+    last_success = dict(
+        conn.execute(
+            "SELECT adapter || '/' || kind, MAX(run_at) FROM scraper_runs WHERE status='success' GROUP BY adapter, kind"
+        ).fetchall()
+    )
+    recent_errors = conn.execute(
+        """SELECT adapter, kind, run_at, error_message FROM scraper_runs
+           WHERE status='error' ORDER BY run_at DESC LIMIT 20"""
+    ).fetchall()
+    conn.close()
+
+    adapters = [
+        {
+            "adapter": r["adapter"],
+            "kind": r["kind"],
+            "status": r["status"],
+            "run_at": r["run_at"],
+            "last_success_at": last_success.get(f"{r['adapter']}/{r['kind']}"),
+        }
+        for r in latest
+    ]
+    errors = [
+        {
+            "adapter": r["adapter"],
+            "kind": r["kind"],
+            "run_at": r["run_at"],
+            # error_message is the exception plus its full traceback -- only the
+            # exception line itself is useful for a quick glance here.
+            "error_summary": (r["error_message"] or "").split("\n", 1)[0][:200],
+        }
+        for r in recent_errors
+    ]
+    return jsonify({"adapters": adapters, "recent_errors": errors})
 
 
 @app.route("/api/garages")
