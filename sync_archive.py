@@ -55,6 +55,35 @@ def _day_file_for(d: date) -> Path:
     return ARCHIVE / "csv" / f"{d.year:04d}" / f"{d.year:04d}-{d.month:02d}" / f"{d.isoformat()}.csv"
 
 
+# The upstream feed renamed these columns at some point (found via a user
+# report that Wiesbaden looked stale): new columns add a "PH-"/"TG-"
+# (Parkhaus/Tiefgarage) prefix and abbreviate, e.g.
+# "ffh-parken-wiesbaden-PH-City-II" for the garage our archive-derived
+# lots_meta has long called "ffh-parken-wiesbaden-City-2". Verified by name
+# and, where two garages at the same site made the name ambiguous
+# (Parkhaus- vs Tiefgarage-Liliencarre), by the PH-/TG- prefix rather than
+# guessed. Without this map, new data for these garages would import
+# successfully but under a place_id with no matching lots_meta row --
+# invisible in the app, not lost, but not showing up either. "City 1" has
+# no current counterpart at all (dropped upstream, not renamed) and stays
+# unmapped/stale.
+RENAME_MAP: dict[str, str] = {
+    "ffh-parken-wiesbaden-PH-City-II": "ffh-parken-wiesbaden-City-2",
+    "ffh-parken-wiesbaden-PH-Coulinstr": "ffh-parken-wiesbaden-Coulinstrasse",
+    "ffh-parken-wiesbaden-PH-Galeria-Kaufhof": "ffh-parken-wiesbaden-Galeria-Kaufhof",
+    "ffh-parken-wiesbaden-PH-Karstadt": "ffh-parken-wiesbaden-Karstadt",
+    "ffh-parken-wiesbaden-PH-Kurhaus-Casino": "ffh-parken-wiesbaden-Kurhaus-Casino",
+    "ffh-parken-wiesbaden-PH-Lili": "ffh-parken-wiesbaden-Parkhaus-Liliencarre",
+    "ffh-parken-wiesbaden-TG-Lili": "ffh-parken-wiesbaden-Tiefgarage-Liliencarre",
+    "ffh-parken-wiesbaden-TG-RMCC": "ffh-parken-wiesbaden-RMCC",
+    "ffh-parken-wiesbaden-PH-Luisenforum": "ffh-parken-wiesbaden-Luisenforum",
+    "ffh-parken-wiesbaden-PH-Luisenplatz": "ffh-parken-wiesbaden-Luisenplatz",
+    "ffh-parken-wiesbaden-PH-Markt": "ffh-parken-wiesbaden-Markt",
+    "ffh-parken-wiesbaden-PH-Mauritius": "ffh-parken-wiesbaden-Mauritius-Galerie",
+    "ffh-parken-wiesbaden-PH-Theater": "ffh-parken-wiesbaden-Theater",
+}
+
+
 # These legacy archive source_ids receive live occupancy writes from
 # scrapers/adapters/mobidata_bw_existing.py's Mannheim/Karlsruhe/Ulm
 # adapters, which write into the *existing* place_ids under their original
@@ -100,6 +129,7 @@ def _import_day_file(conn: sqlite3.Connection, day_file: Path) -> int:
             hour_prefix = ts[:13]
             for place_id, value in zip(place_ids, row[1:]):
                 if value:
+                    place_id = RENAME_MAP.get(place_id, place_id)
                     # overwritten each time a later reading lands in the same hour,
                     # matching import_historical.py's own hourly-bucketing rule
                     last_seen[(place_id, hour_prefix)] = (ts, int(value))
