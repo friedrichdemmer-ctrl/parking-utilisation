@@ -25,6 +25,7 @@ from scrapers.adapters.mobidata_bw_existing import (
     MannheimMobidataBwOccupancyAdapter,
     UlmMobidataBwOccupancyAdapter,
 )
+from scrapers.adapters.moers_live import MoersLiveAdapter
 from scrapers.adapters.muenchen_parkraumwende import MuenchenParkraumwendeAdapter
 from scrapers.adapters.other_operators_fr import OtherOperatorsFranceAdapter
 from scrapers.adapters.other_operators_nl import OtherOperatorsNetherlandsAdapter
@@ -53,6 +54,7 @@ ADAPTERS: list[SourceAdapter] = [
     GiessenLiveAdapter(),
     HeidelbergLiveAdapter(),
     KaiserslauternLiveAdapter(),
+    MoersLiveAdapter(),
     QParkNetherlandsAdapter(),
     QParkFranceAdapter(),
     OtherOperatorsNetherlandsAdapter(),
