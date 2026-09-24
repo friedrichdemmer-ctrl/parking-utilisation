@@ -55,13 +55,29 @@ def _day_file_for(d: date) -> Path:
     return ARCHIVE / "csv" / f"{d.year:04d}" / f"{d.year:04d}-{d.month:02d}" / f"{d.isoformat()}.csv"
 
 
+# These legacy archive source_ids receive live occupancy writes from
+# scrapers/adapters/mobidata_bw_existing.py's Mannheim/Karlsruhe/Ulm
+# adapters, which write into the *existing* place_ids under their original
+# archive source_id rather than a new one of their own -- so they never
+# show up as their own entry in scraper_runs.adapter. Found the hard way:
+# without this, the seed query below picks up today's date from these and
+# corrupts the seed for every genuinely archive-only source, since it's one
+# aggregate MAX() over the whole set (confirmed on production: seeded
+# 2026-09-24 instead of 2026-08-12, silently finding nothing to import).
+LIVE_WRITES_UNDER_LEGACY_SOURCE_ID = {"ffh-parken", "parken-mannheim", "karlsruhe-parken", "parken-in-ulm"}
+
+
 def _seed_last_imported_day(conn: sqlite3.Connection) -> str:
     """First run: seed from the latest date already covered by archive-derived
-    sources -- anything with no scraper_runs entries, i.e. not a live adapter."""
+    sources -- anything with no scraper_runs entries, i.e. not a live adapter,
+    and not one of the legacy source_ids a live adapter writes into instead."""
+    placeholders = ",".join("?" * len(LIVE_WRITES_UNDER_LEGACY_SOURCE_ID))
     row = conn.execute(
-        """SELECT MAX(SUBSTR(h.ts, 1, 10)) FROM historical_observations h
+        f"""SELECT MAX(SUBSTR(h.ts, 1, 10)) FROM historical_observations h
            JOIN lots_meta m ON m.place_id = h.place_id
-           WHERE m.source_id NOT IN (SELECT DISTINCT adapter FROM scraper_runs)"""
+           WHERE m.source_id NOT IN (SELECT DISTINCT adapter FROM scraper_runs)
+             AND m.source_id NOT IN ({placeholders})""",
+        tuple(LIVE_WRITES_UNDER_LEGACY_SOURCE_ID),
     ).fetchone()
     if row and row[0]:
         return row[0]
