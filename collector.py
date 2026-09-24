@@ -75,30 +75,43 @@ def collect() -> None:
     cities = root.get("cities", {})
     print(f"[{now}] {len(cities)} cities listed at {API_ROOT}")
 
-    total_lots = 0
-    ok_cities = 0
-    failed_cities = []
-
-    for city_name, meta in cities.items():
-        coords = meta.get("coords") or {}
-        conn.execute(
-            """INSERT INTO cities (city, lat, lng, source, url, active_support, last_seen)
-               VALUES (?, ?, ?, ?, ?, ?, ?)
-               ON CONFLICT(city) DO UPDATE SET
-                 lat=excluded.lat, lng=excluded.lng, source=excluded.source,
-                 url=excluded.url, active_support=excluded.active_support,
-                 last_seen=excluded.last_seen""",
+    # Update the cities directory in one batch, up front: this data all comes
+    # from the root listing already fetched above, with no per-city network
+    # call needed, so it doesn't belong inside the network-bound loop below.
+    conn.executemany(
+        """INSERT INTO cities (city, lat, lng, source, url, active_support, last_seen)
+           VALUES (?, ?, ?, ?, ?, ?, ?)
+           ON CONFLICT(city) DO UPDATE SET
+             lat=excluded.lat, lng=excluded.lng, source=excluded.source,
+             url=excluded.url, active_support=excluded.active_support,
+             last_seen=excluded.last_seen""",
+        [
             (
                 city_name,
-                coords.get("lat"),
-                coords.get("lng"),
+                (meta.get("coords") or {}).get("lat"),
+                (meta.get("coords") or {}).get("lng"),
                 meta.get("source"),
                 meta.get("url"),
                 int(bool(meta.get("active_support"))),
                 now,
-            ),
-        )
+            )
+            for city_name, meta in cities.items()
+        ],
+    )
+    conn.commit()
 
+    total_lots = 0
+    ok_cities = 0
+    failed_cities = []
+
+    # Fetch each city's detail *before* touching the DB, and commit right after
+    # writing it: this loop is network-bound (an HTTP fetch per city, up to
+    # REQUEST_TIMEOUT each), and starting the write transaction before that fetch
+    # -- or holding one open across the whole ~28-city loop -- kept the file
+    # locked far longer than the actual writes need, long enough to blow through
+    # other daemons' busy_timeout when they start at the same moment (e.g. right
+    # after a fresh deploy).
+    for city_name, meta in cities.items():
         try:
             detail = fetch_json(API_ROOT + urllib.request.quote(city_name))
         except (urllib.error.URLError, json.JSONDecodeError) as exc:
@@ -134,11 +147,11 @@ def collect() -> None:
                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
             rows,
         )
+        conn.commit()
         total_lots += len(rows)
         ok_cities += 1
         time.sleep(DELAY_BETWEEN_CITIES)
 
-    conn.commit()
     conn.close()
 
     print(

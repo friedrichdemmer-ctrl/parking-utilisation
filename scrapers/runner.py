@@ -16,9 +16,14 @@ from scrapers.fetchers.http_fetcher import HttpFetcher
 from scrapers.validate import filter_valid, validate_capacity
 
 
-def _last_run_at(conn: sqlite3.Connection, adapter: str, kind: str) -> datetime | None:
+def _last_success_at(conn: sqlite3.Connection, adapter: str, kind: str) -> datetime | None:
+    # Only a successful run counts toward the interval -- an errored run (e.g. a
+    # transient "database is locked" from another daemon writing at the same
+    # moment) must not be treated as satisfying it, or a long-interval adapter
+    # like capacity (weekly) would be stuck until the next interval elapses
+    # instead of being retried on the daemon's next 5-minute check.
     row = conn.execute(
-        "SELECT run_at FROM scraper_runs WHERE adapter=? AND kind=? ORDER BY run_at DESC LIMIT 1",
+        "SELECT run_at FROM scraper_runs WHERE adapter=? AND kind=? AND status='success' ORDER BY run_at DESC LIMIT 1",
         (adapter, kind),
     ).fetchone()
     return datetime.fromisoformat(row[0]) if row else None
@@ -70,7 +75,7 @@ def run_occupancy(conn: sqlite3.Connection, adapter: SourceAdapter) -> None:
 def run_due_adapters(conn: sqlite3.Connection, adapters: list[SourceAdapter]) -> None:
     storage.ensure_schema(conn)
     for adapter in adapters:
-        if _is_due(_last_run_at(conn, adapter.name, "capacity"), adapter.capacity_interval_seconds):
+        if _is_due(_last_success_at(conn, adapter.name, "capacity"), adapter.capacity_interval_seconds):
             run_capacity(conn, adapter)
-        if _is_due(_last_run_at(conn, adapter.name, "occupancy"), adapter.occupancy_interval_seconds):
+        if _is_due(_last_success_at(conn, adapter.name, "occupancy"), adapter.occupancy_interval_seconds):
             run_occupancy(conn, adapter)
