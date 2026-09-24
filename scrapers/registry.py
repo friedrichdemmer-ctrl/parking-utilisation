@@ -4,6 +4,7 @@ instance here -- nothing else needs to change to wire it into the runner.
 
 from __future__ import annotations
 
+from scrapers.adapters.amp_metropole_live import AmpMetropoleLiveAdapter
 from scrapers.adapters.berlin_viz import BerlinVizAdapter
 from scrapers.adapters.copenhagen_qpark import CopenhagenQParkAdapter
 from scrapers.adapters.db_bahnpark import DbBahnparkAdapter
@@ -53,6 +54,7 @@ ADAPTERS: list[SourceAdapter] = [
     MannheimMobidataBwOccupancyAdapter(),
     KarlsruheMobidataBwOccupancyAdapter(),
     UlmMobidataBwOccupancyAdapter(),
+    AmpMetropoleLiveAdapter(),
     CopenhagenQParkAdapter(),
     DbBahnparkAdapter(),
     GentLiveAdapter(),
