@@ -58,6 +58,7 @@ from scrapers.adapters.muenchen_parkraumwende import MuenchenParkraumwendeAdapte
 from scrapers.adapters.other_operators_fr import OtherOperatorsFranceAdapter
 from scrapers.adapters.other_operators_nl import OtherOperatorsNetherlandsAdapter
 from scrapers.adapters.perth_kinross_live import PerthKinrossLiveAdapter
+from scrapers.adapters.potsdam_live import PotsdamLiveAdapter
 from scrapers.adapters.qpark_fr import QParkFranceAdapter
 from scrapers.adapters.qpark_nl import QParkNetherlandsAdapter
 from scrapers.adapters.rouen_qpark import RouenQParkAdapter
@@ -135,6 +136,7 @@ ADAPTERS: list[SourceAdapter] = [
     HillingdonLiveAdapter(),
     HarrowLiveAdapter(),
     DftUkCarParksAdapter(),
+    PotsdamLiveAdapter(),
     YorkLiveAdapter(),
     QParkFranceAdapter(),
     OtherOperatorsNetherlandsAdapter(),

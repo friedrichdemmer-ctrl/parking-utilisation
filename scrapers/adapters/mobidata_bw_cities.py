@@ -9,6 +9,11 @@ and Ulm are also in MobiData BW but are NOT here: their entries there are
 the same garages we already carry from earlier ParkAPI-era sources, so they
 get live occupancy matched onto the existing rows instead (see
 mobidata_bw_existing.py) rather than a second set of rows.
+
+Place ids are keyed on the garage name, not MobiData's numeric site id:
+MobiData re-issues that id at times (two Heilbronn garages got three ids
+each between 2026-08-13 and 2026-09-14, splitting their history), while
+the names stayed identical. Names are unique within each source.
 """
 
 from __future__ import annotations
@@ -25,6 +30,9 @@ class _MobidataBwCityAdapter(SourceAdapter):
     source_uids: tuple[str, ...] = ()
     city_name: str = ""
     exclude_names: frozenset[str] = frozenset()
+
+    def _place_id(self, name: str) -> str:
+        return f"{self.name}-{slug(name)}"
 
     def _rows(self, fetcher):
         for uid in self.source_uids:
@@ -44,7 +52,7 @@ class _MobidataBwCityAdapter(SourceAdapter):
                 continue
             records.append(
                 CapacityRecord(
-                    place_id=f"{self.name}-{item['id']}-{slug(name)}",
+                    place_id=self._place_id(name),
                     place_name=name,
                     city_name=self.city_name,
                     num_all=capacity,
@@ -68,7 +76,7 @@ class _MobidataBwCityAdapter(SourceAdapter):
             if free is None or not ts:
                 continue
             records.append(
-                OccupancyRecord(place_id=f"{self.name}-{item['id']}-{slug(name)}", ts=ts, free=int(free))
+                OccupancyRecord(place_id=self._place_id(name), ts=ts, free=int(free))
             )
         return records
 
