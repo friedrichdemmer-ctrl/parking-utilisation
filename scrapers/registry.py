@@ -6,6 +6,7 @@ from __future__ import annotations
 
 from scrapers.adapters.amp_metropole_live import AmpMetropoleLiveAdapter
 from scrapers.adapters.amsterdam_live import AmsterdamLiveAdapter
+from scrapers.adapters.assen_live import AssenLiveAdapter
 from scrapers.adapters.berlin_viz import BerlinVizAdapter
 from scrapers.adapters.bordeaux_metropole_live import BordeauxMetropoleLiveAdapter
 from scrapers.adapters.copenhagen_qpark import CopenhagenQParkAdapter
@@ -74,6 +75,7 @@ ADAPTERS: list[SourceAdapter] = [
     UlmMobidataBwOccupancyAdapter(),
     AmpMetropoleLiveAdapter(),
     AmsterdamLiveAdapter(),
+    AssenLiveAdapter(),
     BordeauxMetropoleLiveAdapter(),
     CopenhagenQParkAdapter(),
     CorkLiveAdapter(),
