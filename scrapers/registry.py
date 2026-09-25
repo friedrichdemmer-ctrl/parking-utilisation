@@ -8,8 +8,10 @@ from scrapers.adapters.amp_metropole_live import AmpMetropoleLiveAdapter
 from scrapers.adapters.berlin_viz import BerlinVizAdapter
 from scrapers.adapters.bordeaux_metropole_live import BordeauxMetropoleLiveAdapter
 from scrapers.adapters.copenhagen_qpark import CopenhagenQParkAdapter
+from scrapers.adapters.cork_live import CorkLiveAdapter
 from scrapers.adapters.db_bahnpark import DbBahnparkAdapter
 from scrapers.adapters.frankfurt_mainziel import FrankfurtMainzielAdapter
+from scrapers.adapters.galway_live import GalwayLiveAdapter
 from scrapers.adapters.gent_live import GentLiveAdapter
 from scrapers.adapters.giessen_live import GiessenLiveAdapter
 from scrapers.adapters.grenoble_live import GrenobleLiveAdapter
@@ -72,7 +74,9 @@ ADAPTERS: list[SourceAdapter] = [
     AmpMetropoleLiveAdapter(),
     BordeauxMetropoleLiveAdapter(),
     CopenhagenQParkAdapter(),
+    CorkLiveAdapter(),
     DbBahnparkAdapter(),
+    GalwayLiveAdapter(),
     GentLiveAdapter(),
     GiessenLiveAdapter(),
     GrenobleLiveAdapter(),
