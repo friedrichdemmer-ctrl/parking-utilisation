@@ -27,15 +27,28 @@ DB_PATH = Path(os.environ.get("PARKING_DB_PATH", Path(__file__).parent / "data" 
 BERLIN = ZoneInfo("Europe/Berlin")
 CURRENT_YEAR = datetime.now().year
 
-# lots_meta has no country column -- these are the only non-German sources
-# so far, everything else defaults to Germany. Every new non-German adapter
-# needs an entry here, or it silently gets counted as Germany on /api/coverage.
-SOURCE_COUNTRY = {
-    "npr-qpark-nl": "Netherlands",
-    "npr-other-nl": "Netherlands",
-    "bnls-qpark-fr": "France",
-    "bnls-other-fr": "France",
+# lots_meta has no country column -- every source not listed here defaults to
+# Germany. Every new non-German adapter needs an entry here, or it silently
+# gets counted as Germany on /api/coverage.
+_COUNTRY_SOURCES = {
+    "Netherlands": ["npr-qpark-nl", "npr-other-nl", "amsterdam-live", "assen-live"],
+    "France": [
+        "bnls-qpark-fr", "bnls-other-fr", "amp-metropole-live", "bordeaux-metropole-live",
+        "grenoble-live", "la-rochelle-live", "lyon-parc-auto-live", "lyon-qpark", "mel-lille-live",
+        "nantes-naolib-live", "rouen-qpark", "saint-etienne-qpark", "strasbourg-live",
+        "toulouse-qpark", "tours-live",
+    ],
+    "Belgium": ["gent-live", "interparking-belgium", "kortrijk-live", "liege-hors-voirie", "verviers-live"],
+    "Denmark": ["copenhagen-qpark", "vejle-live"],
+    "Ireland": ["cork-live", "galway-live", "waterford-live"],
+    "UK": [
+        "dft-uk-carparks", "tfl-live", "city-of-london-live", "hillingdon-live", "harrow-live",
+        "bristol-live", "leeds-live", "york-live", "tyne-wear-live", "dundee-live",
+        "perth-kinross-live", "ards-north-down-live", "causeway-coast-glens-live",
+        "fermanagh-omagh-live", "mid-ulster-live",
+    ],
 }
+SOURCE_COUNTRY = {source: country for country, sources in _COUNTRY_SOURCES.items() for source in sources}
 
 app = Flask(__name__)
 
