@@ -17,7 +17,7 @@ import json
 import os
 import sqlite3
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -377,9 +377,10 @@ PAGE = """
   <p class="meta">What's currently in the archive, and where it comes from. "Live" means a source has reported an observation this year; "capacity only" means we have the garage's total spaces but no ongoing occupancy feed.</p>
   <div id="cov-totals" class="cov-stats"></div>
   <h3>By country</h3>
-  <table id="cov-country-table"><thead><tr><th style="text-align:left">Country</th><th>Garages</th><th>Cities</th><th>Sources</th></tr></thead><tbody></tbody></table>
+  <table id="cov-country-table"><thead><tr><th style="text-align:left">Country</th><th>Garages</th><th>With utilisation data</th><th>Live now (24 h)</th><th>Capacity only</th><th>Cities</th><th>Sources</th></tr></thead><tbody></tbody></table>
+  <p class="meta">"With utilisation data": the garage has at least one occupancy reading, current or historical. "Capacity only": we know its size but have never had an occupancy reading.</p>
   <h3>By source</h3>
-  <table id="cov-source-table"><thead><tr><th style="text-align:left">Source</th><th style="text-align:left">Country</th><th>Cities</th><th>Garages</th><th>With capacity</th><th>Status</th></tr></thead><tbody></tbody></table>
+  <table id="cov-source-table"><thead><tr><th style="text-align:left">Source</th><th style="text-align:left">Country</th><th>Cities</th><th>Garages</th><th>With capacity</th><th>With utilisation data</th><th>Status</th></tr></thead><tbody></tbody></table>
 </div>
 
 <!-- ============ SCRAPER HEALTH TAB ============ -->
@@ -429,19 +430,21 @@ fetch('/api/coverage').then(r => r.json()).then(cov => {
     ['Garages', t.garages],
     ['Cities', t.cities],
     ['With known capacity', t.with_capacity],
+    ['With utilisation data', t.with_utilisation],
     ['Countries', cov.countries.length],
   ].map(([l, n]) => `<div class="cov-stat"><span class="n">${n}</span><span class="l">${l}</span></div>`).join('');
 
   const ctbody = document.querySelector('#cov-country-table tbody');
   ctbody.innerHTML = cov.countries.map(c =>
-    `<tr><td style="text-align:left">${c.country}</td><td>${c.garages}</td><td>${c.cities}</td><td>${c.sources}</td></tr>`
+    `<tr><td style="text-align:left">${c.country}</td><td>${c.garages}</td><td>${c.with_utilisation}</td>` +
+    `<td>${c.live_24h}</td><td>${c.capacity_only}</td><td>${c.cities}</td><td>${c.sources}</td></tr>`
   ).join('');
 
   const stbody = document.querySelector('#cov-source-table tbody');
   stbody.innerHTML = cov.sources.map(s => {
     const st = sourceStatus(s.has_obs, s.last_ts);
     return `<tr><td style="text-align:left">${s.source_id}</td><td style="text-align:left">${s.country}</td>` +
-      `<td>${s.ncities}</td><td>${s.total}</td><td>${s.has_cap}</td>` +
+      `<td>${s.ncities}</td><td>${s.total}</td><td>${s.has_cap}</td><td>${s.has_obs}</td>` +
       `<td class="${st.cls}">${st.label}</td></tr>`;
   }).join('');
 });
@@ -855,17 +858,22 @@ def api_coverage():
     conn = get_db()
     totals = conn.execute(
         "SELECT COUNT(DISTINCT city_name), COUNT(*), "
-        "SUM(CASE WHEN num_all IS NOT NULL THEN 1 ELSE 0 END) FROM lots_meta"
+        "SUM(CASE WHEN num_all IS NOT NULL THEN 1 ELSE 0 END), "
+        "SUM(CASE WHEN last_observed_ts IS NOT NULL THEN 1 ELSE 0 END) FROM lots_meta"
     ).fetchone()
+    # ts formats vary in suffix ("+00:00", "Z", ".053Z"), but all share this prefix
+    live_cutoff = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%dT%H:%M:%S")
     sources = conn.execute(
         """SELECT source_id,
                   COUNT(DISTINCT city_name) ncities,
                   COUNT(*) total,
                   SUM(CASE WHEN num_all IS NOT NULL THEN 1 ELSE 0 END) has_cap,
                   SUM(CASE WHEN last_observed_ts IS NOT NULL THEN 1 ELSE 0 END) has_obs,
+                  SUM(CASE WHEN last_observed_ts >= ? THEN 1 ELSE 0 END) live_24h,
                   MAX(last_observed_ts) last_ts
            FROM lots_meta WHERE source_id IS NOT NULL
-           GROUP BY source_id ORDER BY total DESC"""
+           GROUP BY source_id ORDER BY total DESC""",
+        (live_cutoff,),
     ).fetchall()
     conn.close()
 
@@ -873,10 +881,14 @@ def api_coverage():
     for s in source_list:
         s["country"] = SOURCE_COUNTRY.get(s["source_id"], "Germany")
 
-    by_country: dict[str, dict] = defaultdict(lambda: {"garages": 0, "cities": set(), "sources": 0})
+    by_country: dict[str, dict] = defaultdict(
+        lambda: {"garages": 0, "has_obs": 0, "live_24h": 0, "cities": set(), "sources": 0}
+    )
     for s in source_list:
         c = by_country[s["country"]]
         c["garages"] += s["total"]
+        c["has_obs"] += s["has_obs"]
+        c["live_24h"] += s["live_24h"]
         c["sources"] += 1
     # city sets need the raw rows, not the per-source aggregate -- recount directly
     conn = get_db()
@@ -888,13 +900,26 @@ def api_coverage():
         country = SOURCE_COUNTRY.get(r["source_id"], "Germany")
         by_country[country]["cities"].add(r["city_name"])
     countries = [
-        {"country": name, "garages": v["garages"], "cities": len(v["cities"]), "sources": v["sources"]}
+        {
+            "country": name,
+            "garages": v["garages"],
+            "with_utilisation": v["has_obs"],
+            "live_24h": v["live_24h"],
+            "capacity_only": v["garages"] - v["has_obs"],
+            "cities": len(v["cities"]),
+            "sources": v["sources"],
+        }
         for name, v in sorted(by_country.items(), key=lambda kv: -kv[1]["garages"])
     ]
 
     return jsonify(
         {
-            "totals": {"cities": totals[0], "garages": totals[1], "with_capacity": totals[2]},
+            "totals": {
+                "cities": totals[0],
+                "garages": totals[1],
+                "with_capacity": totals[2],
+                "with_utilisation": totals[3],
+            },
             "countries": countries,
             "sources": source_list,
         }
