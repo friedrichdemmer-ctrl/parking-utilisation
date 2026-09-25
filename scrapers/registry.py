@@ -16,6 +16,7 @@ from scrapers.adapters.bristol_live import BristolLiveAdapter
 from scrapers.adapters.copenhagen_qpark import CopenhagenQParkAdapter
 from scrapers.adapters.cork_live import CorkLiveAdapter
 from scrapers.adapters.db_bahnpark import DbBahnparkAdapter
+from scrapers.adapters.dft_uk_carparks import DftUkCarParksAdapter
 from scrapers.adapters.dundee_live import DundeeLiveAdapter
 from scrapers.adapters.fermanagh_omagh_live import FermanaghOmaghLiveAdapter
 from scrapers.adapters.frankfurt_mainziel import FrankfurtMainzielAdapter
@@ -23,8 +24,10 @@ from scrapers.adapters.galway_live import GalwayLiveAdapter
 from scrapers.adapters.gent_live import GentLiveAdapter
 from scrapers.adapters.giessen_live import GiessenLiveAdapter
 from scrapers.adapters.grenoble_live import GrenobleLiveAdapter
+from scrapers.adapters.harrow_live import HarrowLiveAdapter
 from scrapers.adapters.hamburg_viz import HamburgVizAdapter
 from scrapers.adapters.heidelberg_live import HeidelbergLiveAdapter
+from scrapers.adapters.hillingdon_live import HillingdonLiveAdapter
 from scrapers.adapters.interparking_belgium import InterparkingBelgiumAdapter
 from scrapers.adapters.kaiserslautern_live import KaiserslauternLiveAdapter
 from scrapers.adapters.koeln_live import KoelnLiveAdapter
@@ -129,6 +132,9 @@ ADAPTERS: list[SourceAdapter] = [
     PerthKinrossLiveAdapter(),
     TflLiveAdapter(),
     TyneWearLiveAdapter(),
+    HillingdonLiveAdapter(),
+    HarrowLiveAdapter(),
+    DftUkCarParksAdapter(),
     YorkLiveAdapter(),
     QParkFranceAdapter(),
     OtherOperatorsNetherlandsAdapter(),
