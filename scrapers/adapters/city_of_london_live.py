@@ -13,11 +13,15 @@ stored, so this doesn't affect anything here.
 from __future__ import annotations
 
 import re
+import time
+import urllib.error
 
 from scrapers.base import CapacityRecord, OccupancyRecord, SourceAdapter
 
 LAYER_URL = "https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/INSPIRE/MapServer/42"
 API_URL = LAYER_URL + "/query?where=1%3D1&outFields=*&f=json&outSR=4326"
+RETRY_ATTEMPTS = 6
+RETRY_DELAY_SECONDS = 10
 
 
 def _slug(name: str) -> str:
@@ -33,7 +37,7 @@ class CityOfLondonLiveAdapter(SourceAdapter):
     occupancy_interval_seconds = 7 * 24 * 3600  # unused -- fetch_occupancy is a no-op, see module docstring
 
     def fetch_capacity(self, fetcher) -> list[CapacityRecord]:
-        data = fetcher.get_json(API_URL)
+        data = self._get_with_retry(fetcher)
         records = []
         for f in data.get("features", []):
             a = f.get("attributes", {})
@@ -55,6 +59,18 @@ class CityOfLondonLiveAdapter(SourceAdapter):
                 )
             )
         return records
+
+    def _get_with_retry(self, fetcher):
+        # The Corporation's Azure Application Gateway answers roughly half of
+        # requests from Fly's egress IP with a 403, independent of headers or
+        # pacing; a few spaced retries within one run get through reliably.
+        for attempt in range(RETRY_ATTEMPTS):
+            try:
+                return fetcher.get_json(API_URL)
+            except urllib.error.HTTPError as e:
+                if e.code != 403 or attempt == RETRY_ATTEMPTS - 1:
+                    raise
+                time.sleep(RETRY_DELAY_SECONDS)
 
     def fetch_occupancy(self, fetcher, known_garages: dict[str, str]) -> list[OccupancyRecord]:
         return []
