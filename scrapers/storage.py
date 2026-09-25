@@ -66,6 +66,22 @@ def write_capacity(conn: sqlite3.Connection, records: list[CapacityRecord]) -> i
 
 
 def write_occupancy(conn: sqlite3.Connection, records: list[OccupancyRecord]) -> int:
+    # A source that stops updating keeps re-serving its last reading with the
+    # same timestamp; skipping (place_id, ts) pairs already stored keeps those
+    # repeats out of the history and makes the returned count 0 for a frozen feed.
+    seen: set[tuple[str, str]] = set()
+    fresh = []
+    for r in records:
+        key = (r.place_id, r.ts)
+        if key in seen:
+            continue
+        seen.add(key)
+        if conn.execute(
+            "SELECT 1 FROM historical_observations WHERE place_id = ? AND ts = ? LIMIT 1", key
+        ).fetchone():
+            continue
+        fresh.append(r)
+    records = fresh
     rows = [(r.place_id, r.ts, r.free) for r in records]
     conn.executemany(
         "INSERT INTO historical_observations (place_id, ts, free) VALUES (?, ?, ?)", rows
