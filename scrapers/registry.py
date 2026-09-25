@@ -62,6 +62,7 @@ from scrapers.adapters.saint_etienne_qpark import SaintEtienneQParkAdapter
 from scrapers.adapters.strasbourg_live import StrasbourgLiveAdapter
 from scrapers.adapters.stuttgart_mobidata_bw import StuttgartMobidataBwAdapter
 from scrapers.adapters.tfl_live import TflLiveAdapter
+from scrapers.adapters.tyne_wear_live import TyneWearLiveAdapter
 from scrapers.adapters.toulouse_qpark import ToulouseQParkAdapter
 from scrapers.adapters.tours_live import ToursLiveAdapter
 from scrapers.adapters.vejle_live import VejleLiveAdapter
@@ -127,6 +128,7 @@ ADAPTERS: list[SourceAdapter] = [
     LeedsLiveAdapter(),
     PerthKinrossLiveAdapter(),
     TflLiveAdapter(),
+    TyneWearLiveAdapter(),
     YorkLiveAdapter(),
     QParkFranceAdapter(),
     OtherOperatorsNetherlandsAdapter(),
