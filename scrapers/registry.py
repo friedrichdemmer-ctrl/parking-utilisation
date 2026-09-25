@@ -59,6 +59,7 @@ from scrapers.adapters.toulouse_qpark import ToulouseQParkAdapter
 from scrapers.adapters.tours_live import ToursLiveAdapter
 from scrapers.adapters.vejle_live import VejleLiveAdapter
 from scrapers.adapters.verviers_live import VerviersLiveAdapter
+from scrapers.adapters.waterford_live import WaterfordLiveAdapter
 from scrapers.base import SourceAdapter
 
 ADAPTERS: list[SourceAdapter] = [
@@ -110,6 +111,7 @@ ADAPTERS: list[SourceAdapter] = [
     ToursLiveAdapter(),
     VejleLiveAdapter(),
     VerviersLiveAdapter(),
+    WaterfordLiveAdapter(),
     QParkFranceAdapter(),
     OtherOperatorsNetherlandsAdapter(),
     OtherOperatorsFranceAdapter(),
