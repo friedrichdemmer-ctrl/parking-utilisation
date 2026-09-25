@@ -377,8 +377,8 @@ PAGE = """
   <p class="meta">What's currently in the archive, and where it comes from. "Live" means a source has reported an observation this year; "capacity only" means we have the garage's total spaces but no ongoing occupancy feed.</p>
   <div id="cov-totals" class="cov-stats"></div>
   <h3>By country</h3>
-  <table id="cov-country-table"><thead><tr><th style="text-align:left">Country</th><th>Garages</th><th>With utilisation data</th><th>Live now (24 h)</th><th>Capacity only</th><th>Cities</th><th>Sources</th></tr></thead><tbody></tbody></table>
-  <p class="meta">"With utilisation data": the garage has at least one occupancy reading, current or historical. "Capacity only": we know its size but have never had an occupancy reading.</p>
+  <table id="cov-country-table"><thead><tr><th style="text-align:left">Country</th><th>Garages</th><th>With utilisation data</th><th>Live (last 3 days)</th><th>Capacity only</th><th>Cities</th><th>Sources</th></tr></thead><tbody></tbody></table>
+  <p class="meta">"With utilisation data": the garage has at least one occupancy reading, current or historical. "Live": a reading in the last 3 days (some German sources arrive via a daily archive that runs 1-2 days behind). "Capacity only": we know its size but have never had an occupancy reading.</p>
   <h3>By source</h3>
   <table id="cov-source-table"><thead><tr><th style="text-align:left">Source</th><th style="text-align:left">Country</th><th>Cities</th><th>Garages</th><th>With capacity</th><th>With utilisation data</th><th>Status</th></tr></thead><tbody></tbody></table>
 </div>
@@ -437,7 +437,7 @@ fetch('/api/coverage').then(r => r.json()).then(cov => {
   const ctbody = document.querySelector('#cov-country-table tbody');
   ctbody.innerHTML = cov.countries.map(c =>
     `<tr><td style="text-align:left">${c.country}</td><td>${c.garages}</td><td>${c.with_utilisation}</td>` +
-    `<td>${c.live_24h}</td><td>${c.capacity_only}</td><td>${c.cities}</td><td>${c.sources}</td></tr>`
+    `<td>${c.live_recent}</td><td>${c.capacity_only}</td><td>${c.cities}</td><td>${c.sources}</td></tr>`
   ).join('');
 
   const stbody = document.querySelector('#cov-source-table tbody');
@@ -861,15 +861,17 @@ def api_coverage():
         "SUM(CASE WHEN num_all IS NOT NULL THEN 1 ELSE 0 END), "
         "SUM(CASE WHEN last_observed_ts IS NOT NULL THEN 1 ELSE 0 END) FROM lots_meta"
     ).fetchone()
-    # ts formats vary in suffix ("+00:00", "Z", ".053Z"), but all share this prefix
-    live_cutoff = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%dT%H:%M:%S")
+    # 3 days, not 1: ~20 German sources are fed once a day from the defgsus
+    # archive, whose newest day-file lags ~1-2 days behind. ts formats vary in
+    # suffix ("+00:00", "Z", ".053Z"), but all share this prefix.
+    live_cutoff = (datetime.now(timezone.utc) - timedelta(days=3)).strftime("%Y-%m-%dT%H:%M:%S")
     sources = conn.execute(
         """SELECT source_id,
                   COUNT(DISTINCT city_name) ncities,
                   COUNT(*) total,
                   SUM(CASE WHEN num_all IS NOT NULL THEN 1 ELSE 0 END) has_cap,
                   SUM(CASE WHEN last_observed_ts IS NOT NULL THEN 1 ELSE 0 END) has_obs,
-                  SUM(CASE WHEN last_observed_ts >= ? THEN 1 ELSE 0 END) live_24h,
+                  SUM(CASE WHEN last_observed_ts >= ? THEN 1 ELSE 0 END) live_recent,
                   MAX(last_observed_ts) last_ts
            FROM lots_meta WHERE source_id IS NOT NULL
            GROUP BY source_id ORDER BY total DESC""",
@@ -882,13 +884,13 @@ def api_coverage():
         s["country"] = SOURCE_COUNTRY.get(s["source_id"], "Germany")
 
     by_country: dict[str, dict] = defaultdict(
-        lambda: {"garages": 0, "has_obs": 0, "live_24h": 0, "cities": set(), "sources": 0}
+        lambda: {"garages": 0, "has_obs": 0, "live_recent": 0, "cities": set(), "sources": 0}
     )
     for s in source_list:
         c = by_country[s["country"]]
         c["garages"] += s["total"]
         c["has_obs"] += s["has_obs"]
-        c["live_24h"] += s["live_24h"]
+        c["live_recent"] += s["live_recent"]
         c["sources"] += 1
     # city sets need the raw rows, not the per-source aggregate -- recount directly
     conn = get_db()
@@ -904,7 +906,7 @@ def api_coverage():
             "country": name,
             "garages": v["garages"],
             "with_utilisation": v["has_obs"],
-            "live_24h": v["live_24h"],
+            "live_recent": v["live_recent"],
             "capacity_only": v["garages"] - v["has_obs"],
             "cities": len(v["cities"]),
             "sources": v["sources"],
