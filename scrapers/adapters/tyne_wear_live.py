@@ -1,74 +1,71 @@
-"""Tyne & Wear and Durham car parks (England), via Newcastle University's
-Urban Observatory, which mirrors the region's UTMC car-park feeds.
+"""Live car-park occupancy for Tyne & Wear and Durham (England), via the
+North East UTMC Open Data Service (netraveldata.co.uk).
 
-Capacity-only. The mirror's link to the UTMC feeds is marked inactive
-and no occupancy readings were found anywhere from 2022 to today, so only
-each car park's total-spaces figure is used. The live feed itself is
-netraveldata.co.uk, which needs an account; its registration form was
-failing for the user, so this is the stopgap until that account exists.
-Because the mirror stopped updating, some sites may since have
-changed or closed.
+Needs an account: credentials come from the NETRAVELDATA_USER and
+NETRAVELDATA_PASSWORD environment variables (Fly secrets in production)
+and are sent as HTTP Basic auth. The service sits behind an Azure
+Application Gateway that 403s Python's default user agent; HttpFetcher's
+own user agent passes. Data is under the Open Government Licence 3.0.
 
-101 car parks across Newcastle, Gateshead, North and South Tyneside,
-Sunderland and Durham city, including one Q-Park (Stowell Street). A
-"Test Car Park" row is dropped. The mirror has no coordinates: rows whose
-address ends in a postcode are geocoded via postcodes.io, and the ~28
-without one use coordinates looked up once via OpenStreetMap (keyed by
-the stable UTMC site id). "St. George's" couldn't be placed reliably and
-has none. Metrocentre's zones share the shopping centre's position.
+The feed lists 199 sites, but 86 have sent nothing since 2012-2016 (some
+duplicating current sites under older codes, capacities dated 2011), so
+only sites whose dynamic record has updated since 2020 are kept -- the
+same set previously taken from Newcastle University's Urban Observatory
+mirror, whose UTMC site codes this adapter keeps as place ids.
+
+Occupancy is only recorded for sites actively counting: state SPACES,
+ALMOST FULL or FULL, and updated within the last hour. About 17 sites
+(Metrocentre, North Tyneside, Sunderland) only send an hourly "OPEN" with
+occupancy 0, which would falsely read as empty, so they stay
+capacity-only. Timestamps are labelled "+0000" but are UK local time (a
+reading stamped 11:30 arrives at 10:30 UTC in summer); a timestamp that
+would lie in the future as UTC is reinterpreted as Europe/London.
 """
 
 from __future__ import annotations
 
-import re
+import base64
+import os
+from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 
 from scrapers import uk_postcodes
 from scrapers.base import CapacityRecord, OccupancyRecord, SourceAdapter
 
-API_URL = 'https://api.newcastle.urbanobservatory.ac.uk/api/v2/sensors/entity?metric=%22Occupied%20spaces%22&pageSize=100&page={page}'
-SOURCE_WEB_URL = "https://newcastle.urbanobservatory.ac.uk/"
+STATIC_URL = "https://www.netraveldata.co.uk/api/v2/carpark/static"
+DYNAMIC_URL = "https://www.netraveldata.co.uk/api/v2/carpark/dynamic"
+SOURCE_WEB_URL = "https://www.netraveldata.co.uk/"
 
-POSTCODE = re.compile(r"\b([A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2})\s*$", re.I)
-
-EXCLUDED_SITE_IDS = {"CP_GH_TEST"}
-
-# (lat, lon, city) for sites whose address carries no postcode.
-NO_POSTCODE_SITES = {
-    "PR001": (55.00998, -1.57849, "Newcastle upon Tyne"),
-    "PR003": (55.01392, -1.67807, "Newcastle upon Tyne"),
-    "PR004": (54.94608, -1.42261, "South Tyneside"),
-    "PR005": (54.95679, -1.48510, "South Tyneside"),
-    "PR007": (55.01442, -1.66592, "Newcastle upon Tyne"),
-    "PR009": (55.01184, -1.62204, "Newcastle upon Tyne"),
-    "PR012": (55.03321, -1.51956, "North Tyneside"),
-    "CP0043": (54.96983, -1.60952, "Newcastle upon Tyne"),
-    "CP0050": (54.97525, -1.61517, "Newcastle upon Tyne"),
-    "CP_NC_CLARRD": (54.98249, -1.61816, "Newcastle upon Tyne"),
-    "CP_NC_GRAING": (54.96960, -1.62243, "Newcastle upon Tyne"),
-    "CP_NC_MANORS": (54.97220, -1.60680, "Newcastle upon Tyne"),
-    "CP_NC_STGEOR": (None, None, "Newcastle upon Tyne"),
-    "CP_GH_MCCOAC": (54.95716, -1.67258, "Gateshead"),
-    "CP_GH_MCGRNZ": (54.95716, -1.67258, "Gateshead"),
-    "CP_GH_MCREDZ": (54.95716, -1.67258, "Gateshead"),
-    "CP_GH_QUARRY": (54.96603, -1.59719, "Gateshead"),
-    "VMSLCP003": (54.95143, -1.55495, "Gateshead"),
-    "DURCPDW0007": (54.79563, -1.52236, "Durham"),
-    "DURCPDW0008": (54.76160, -1.57947, "Durham"),
-    "DURCPDW0009": (54.79231, -1.60097, "Durham"),
-    "DURCPDW0010": (54.79563, -1.52236, "Durham"),
-    "DURCPNPA0006": (54.77683, -1.57361, "Durham"),
-    "DURCPORB0001": (54.77907, -1.57844, "Durham"),
-    "DURCPORB0002": (54.77908, -1.57499, "Durham"),
-    "DURCPORB0003": (54.78130, -1.57248, "Durham"),
-    "DURCPORB0004": (54.78172, -1.57620, "Durham"),
-    "DURCPORB0005": (54.77696, -1.57827, "Durham"),
-}
+ACTIVE_SINCE = datetime(2020, 1, 1, tzinfo=timezone.utc)
+MAX_READING_AGE = timedelta(hours=1)
+COUNTING_STATES = {"SPACES", "ALMOST FULL", "FULL"}
+LONDON = ZoneInfo("Europe/London")
 
 
-def _district(result: dict) -> str | None:
-    d = result.get("admin_district")
-    if isinstance(d, list):
-        d = d[0] if d else None
+def _auth_headers() -> dict[str, str]:
+    user = os.environ.get("NETRAVELDATA_USER")
+    password = os.environ.get("NETRAVELDATA_PASSWORD")
+    if not user or not password:
+        raise RuntimeError("NETRAVELDATA_USER / NETRAVELDATA_PASSWORD not set")
+    token = base64.b64encode(f"{user}:{password}".encode()).decode()
+    return {"Authorization": f"Basic {token}"}
+
+
+def _parse_ts(value: str | None, now: datetime) -> datetime | None:
+    if not value:
+        return None
+    ts = datetime.strptime(value, "%Y-%m-%dT%H:%M:%S.%f%z")
+    if ts > now + timedelta(minutes=5):
+        ts = ts.replace(tzinfo=LONDON).astimezone(timezone.utc)
+    return ts
+
+
+def _latest(items: list[dict] | None) -> dict:
+    return (items or [{}])[-1]
+
+
+def _district(result: dict | None) -> str | None:
+    d = (result or {}).get("admin_district")
     return "Durham" if d == "County Durham" else d
 
 
@@ -76,35 +73,30 @@ class TyneWearLiveAdapter(SourceAdapter):
     name = "tyne-wear-live"
     fetcher_type = "http"
     capacity_interval_seconds = 7 * 24 * 3600
-    occupancy_interval_seconds = 7 * 24 * 3600  # unused -- fetch_occupancy is a no-op, see module docstring
+    occupancy_interval_seconds = 30 * 60
 
-    def _entities(self, fetcher) -> list[dict]:
-        entities, page, page_count = [], 1, 1
-        while page <= page_count:
-            data = fetcher.get_json(API_URL.format(page=page))
-            entities += data.get("items", [])
-            page_count = data.get("pagination", {}).get("pageCount", 1)
-            page += 1
-        return entities
+    def _fetch(self, fetcher) -> tuple[dict[str, dict], dict[str, dict]]:
+        headers = _auth_headers()
+        static = {s["systemCodeNumber"]: s for s in fetcher.get_json(STATIC_URL, headers=headers)}
+        dynamic = {d["systemCodeNumber"]: d for d in fetcher.get_json(DYNAMIC_URL, headers=headers)}
+        return static, dynamic
 
     def fetch_capacity(self, fetcher) -> list[CapacityRecord]:
+        now = datetime.now(timezone.utc)
+        static, dynamic = self._fetch(fetcher)
         records = []
-        for e in self._entities(fetcher):
-            feed = next((f for f in e.get("feed", []) if f.get("metric") == "Occupied spaces"), None)
-            if not feed or not feed.get("brokerage"):
+        for site_id, s in static.items():
+            last = _parse_ts(_latest((dynamic.get(site_id) or {}).get("dynamics")).get("lastUpdated"), now)
+            if last is None or last < ACTIVE_SINCE:
                 continue
-            site_id = feed["brokerage"][0].get("sourceId")
-            capacity = (feed.get("meta") or {}).get("totalSpaces")
-            name = ((e.get("meta") or {}).get("name") or "").strip()
-            address = ((e.get("meta") or {}).get("address") or "").strip()
-            if not site_id or site_id in EXCLUDED_SITE_IDS or not name or not capacity:
+            definition = _latest(s.get("definitions"))
+            capacity = _latest(s.get("configurations")).get("capacity")
+            name = (definition.get("shortDescription") or "").strip()
+            point = definition.get("point") or {}
+            lat, lon = point.get("latitude"), point.get("longitude")
+            if not name or not capacity:
                 continue
-            if site_id in NO_POSTCODE_SITES:
-                lat, lon, city = NO_POSTCODE_SITES[site_id]
-            else:
-                m = POSTCODE.search(address)
-                geo = (uk_postcodes.lookup(fetcher, m.group(1)) if m else None) or {}
-                lat, lon, city = geo.get("latitude"), geo.get("longitude"), _district(geo)
+            city = _district(uk_postcodes.nearest(fetcher, lat, lon)) if lat and lon else None
             records.append(
                 CapacityRecord(
                     place_id=f"tyne-wear-live-{site_id}",
@@ -112,7 +104,7 @@ class TyneWearLiveAdapter(SourceAdapter):
                     city_name=city or "Newcastle upon Tyne",
                     num_all=int(capacity),
                     source_id=self.name,
-                    address=address if address != name else None,
+                    address=(definition.get("longDescription") or "").strip() or None,
                     latitude=lat,
                     longitude=lon,
                     source_web_url=SOURCE_WEB_URL,
@@ -121,4 +113,27 @@ class TyneWearLiveAdapter(SourceAdapter):
         return records
 
     def fetch_occupancy(self, fetcher, known_garages: dict[str, str]) -> list[OccupancyRecord]:
-        return []
+        now = datetime.now(timezone.utc)
+        static, dynamic = self._fetch(fetcher)
+        records = []
+        for site_id, d in dynamic.items():
+            reading = _latest(d.get("dynamics"))
+            ts = _parse_ts(reading.get("lastUpdated"), now)
+            occupied = reading.get("occupancy")
+            capacity = _latest((static.get(site_id) or {}).get("configurations")).get("capacity")
+            if (
+                reading.get("stateDescription") not in COUNTING_STATES
+                or ts is None
+                or now - ts > MAX_READING_AGE
+                or occupied is None
+                or not capacity
+            ):
+                continue
+            records.append(
+                OccupancyRecord(
+                    place_id=f"tyne-wear-live-{site_id}",
+                    ts=ts.isoformat(timespec="seconds"),
+                    free=int(capacity) - int(occupied),
+                )
+            )
+        return records
