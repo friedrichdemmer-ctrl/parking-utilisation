@@ -9,11 +9,14 @@ from scrapers.adapters.amsterdam_live import AmsterdamLiveAdapter
 from scrapers.adapters.ards_north_down_live import ArdsNorthDownLiveAdapter
 from scrapers.adapters.assen_live import AssenLiveAdapter
 from scrapers.adapters.causeway_coast_glens_live import CausewayCoastGlensLiveAdapter
+from scrapers.adapters.city_of_london_live import CityOfLondonLiveAdapter
 from scrapers.adapters.berlin_viz import BerlinVizAdapter
 from scrapers.adapters.bordeaux_metropole_live import BordeauxMetropoleLiveAdapter
+from scrapers.adapters.bristol_live import BristolLiveAdapter
 from scrapers.adapters.copenhagen_qpark import CopenhagenQParkAdapter
 from scrapers.adapters.cork_live import CorkLiveAdapter
 from scrapers.adapters.db_bahnpark import DbBahnparkAdapter
+from scrapers.adapters.dundee_live import DundeeLiveAdapter
 from scrapers.adapters.fermanagh_omagh_live import FermanaghOmaghLiveAdapter
 from scrapers.adapters.frankfurt_mainziel import FrankfurtMainzielAdapter
 from scrapers.adapters.galway_live import GalwayLiveAdapter
@@ -30,6 +33,7 @@ from scrapers.adapters.la_rochelle_live import LaRochelleLiveAdapter
 from scrapers.adapters.liege_hors_voirie import LiegeHorsVoirieAdapter
 from scrapers.adapters.lyon_parc_auto_live import LyonParcAutoLiveAdapter
 from scrapers.adapters.lyon_qpark import LyonQParkAdapter
+from scrapers.adapters.leeds_live import LeedsLiveAdapter
 from scrapers.adapters.mobidata_bw_cities import (
     AalenMobidataBwAdapter,
     BietigheimBissingenMobidataBwAdapter,
@@ -50,17 +54,20 @@ from scrapers.adapters.moers_live import MoersLiveAdapter
 from scrapers.adapters.muenchen_parkraumwende import MuenchenParkraumwendeAdapter
 from scrapers.adapters.other_operators_fr import OtherOperatorsFranceAdapter
 from scrapers.adapters.other_operators_nl import OtherOperatorsNetherlandsAdapter
+from scrapers.adapters.perth_kinross_live import PerthKinrossLiveAdapter
 from scrapers.adapters.qpark_fr import QParkFranceAdapter
 from scrapers.adapters.qpark_nl import QParkNetherlandsAdapter
 from scrapers.adapters.rouen_qpark import RouenQParkAdapter
 from scrapers.adapters.saint_etienne_qpark import SaintEtienneQParkAdapter
 from scrapers.adapters.strasbourg_live import StrasbourgLiveAdapter
 from scrapers.adapters.stuttgart_mobidata_bw import StuttgartMobidataBwAdapter
+from scrapers.adapters.tfl_live import TflLiveAdapter
 from scrapers.adapters.toulouse_qpark import ToulouseQParkAdapter
 from scrapers.adapters.tours_live import ToursLiveAdapter
 from scrapers.adapters.vejle_live import VejleLiveAdapter
 from scrapers.adapters.verviers_live import VerviersLiveAdapter
 from scrapers.adapters.waterford_live import WaterfordLiveAdapter
+from scrapers.adapters.york_live import YorkLiveAdapter
 from scrapers.base import SourceAdapter
 
 ADAPTERS: list[SourceAdapter] = [
@@ -114,6 +121,13 @@ ADAPTERS: list[SourceAdapter] = [
     VejleLiveAdapter(),
     VerviersLiveAdapter(),
     WaterfordLiveAdapter(),
+    BristolLiveAdapter(),
+    CityOfLondonLiveAdapter(),
+    DundeeLiveAdapter(),
+    LeedsLiveAdapter(),
+    PerthKinrossLiveAdapter(),
+    TflLiveAdapter(),
+    YorkLiveAdapter(),
     QParkFranceAdapter(),
     OtherOperatorsNetherlandsAdapter(),
     OtherOperatorsFranceAdapter(),
