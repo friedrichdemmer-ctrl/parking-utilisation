@@ -6,12 +6,15 @@ from __future__ import annotations
 
 from scrapers.adapters.amp_metropole_live import AmpMetropoleLiveAdapter
 from scrapers.adapters.amsterdam_live import AmsterdamLiveAdapter
+from scrapers.adapters.ards_north_down_live import ArdsNorthDownLiveAdapter
 from scrapers.adapters.assen_live import AssenLiveAdapter
+from scrapers.adapters.causeway_coast_glens_live import CausewayCoastGlensLiveAdapter
 from scrapers.adapters.berlin_viz import BerlinVizAdapter
 from scrapers.adapters.bordeaux_metropole_live import BordeauxMetropoleLiveAdapter
 from scrapers.adapters.copenhagen_qpark import CopenhagenQParkAdapter
 from scrapers.adapters.cork_live import CorkLiveAdapter
 from scrapers.adapters.db_bahnpark import DbBahnparkAdapter
+from scrapers.adapters.fermanagh_omagh_live import FermanaghOmaghLiveAdapter
 from scrapers.adapters.frankfurt_mainziel import FrankfurtMainzielAdapter
 from scrapers.adapters.galway_live import GalwayLiveAdapter
 from scrapers.adapters.gent_live import GentLiveAdapter
@@ -77,11 +80,14 @@ ADAPTERS: list[SourceAdapter] = [
     UlmMobidataBwOccupancyAdapter(),
     AmpMetropoleLiveAdapter(),
     AmsterdamLiveAdapter(),
+    ArdsNorthDownLiveAdapter(),
     AssenLiveAdapter(),
+    CausewayCoastGlensLiveAdapter(),
     BordeauxMetropoleLiveAdapter(),
     CopenhagenQParkAdapter(),
     CorkLiveAdapter(),
     DbBahnparkAdapter(),
+    FermanaghOmaghLiveAdapter(),
     GalwayLiveAdapter(),
     GentLiveAdapter(),
     GiessenLiveAdapter(),
