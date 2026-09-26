@@ -41,6 +41,7 @@ _COUNTRY_SOURCES = {
     "Belgium": ["gent-live", "interparking-belgium", "kortrijk-live", "liege-hors-voirie", "verviers-live"],
     "Denmark": ["copenhagen-qpark", "vejle-live"],
     "Ireland": ["cork-live", "galway-live", "waterford-live"],
+    "Austria": ["parken-at", "salzburg-live"],
     "Switzerland": ["basel-live", "zuerich-live", "st-gallen-live", "frauenfeld-live", "geneve-live", "luzern-live"],
     "UK": [
         "dft-uk-carparks", "tfl-live", "city-of-london-live", "hillingdon-live", "harrow-live",
