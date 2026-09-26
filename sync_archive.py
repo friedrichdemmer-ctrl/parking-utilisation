@@ -131,6 +131,58 @@ RENAME_MAP: dict[str, str] = {
     "parken-luebeck-Trelleborgallee-Parkplatz-Trelleborgallee-Parkplatz-Travemunde": "parken-luebeck-60",
     "parken-luebeck-Vogteistrasse-Parkplatz-Vogteistrasse-Parkplatz-Travemunde": "parken-luebeck-62",
     "parken-luebeck-Wallstrasse-Parkplatz-Wallstrasse-Parkplatz-Lubeck": "parken-luebeck-29",
+
+    # Mop-up of 2026-09-26: the same renames, found by scanning for readings
+    # whose place_id has no lots_meta row and matching each to the existing
+    # garage of the same source by name (reviewed by hand; hospital, Parkhaus-
+    # vs Tiefgarage and combined-row matches rejected). Historical readings
+    # were re-keyed by the merge (log: /data/rename_merge_log_2026-09-26.json);
+    # these entries keep future archive days landing on the same garages.
+    "bonn-bcp-parken-hauptbahnhof": "bonn-bcp-parken-bahnhof",
+    "dresden-parken-GALERIA-Karstadt-Kaufhof": "dresden-parken-Karstadt",
+    "ffh-parken-frankfurt-MyZeil-PalaisQuartier": "ffh-parken-frankfurt-MyZeil",
+    "ffh-parken-kassel-Galeria": "ffh-parken-kassel-Galeria-Kaufhof",
+    "ffh-parken-mannheim-C1-Hauptverwaltung-MPB-Parkhaus": "ffh-parken-mannheim-C1",
+    "ffh-parken-mannheim-Collini-Center-Mulde-Parkplatz": "ffh-parken-mannheim-Mulde-Collini-Center",
+    "hanau-neu-erleben-parken-Parkhaus-Congress-park": "hanau-neu-erleben-parken-Parkhaus-Congress-Park",
+    "hanau-neu-erleben-parken-Parkhaus-Nuernberger-Strasse": "hanau-neu-erleben-parken-Parkhaus-Nurnberger-Strasse",
+    "hanau-neu-erleben-parken-Tiefgarage-Klinikum-Sued": "hanau-neu-erleben-parken-Tiefgarage-Klinikum-Sud",
+    "oldenburg-service-parken-City-Parkhaus-Staulinie": "oldenburg-service-parken-City",
+    "oldenburg-service-parken-Parkhaus-Alter-Stadthafen-Cinemaxx": "oldenburg-service-parken-Cinemaxx",
+    "oldenburg-service-parken-Parkhaus-Am-Waffenplatz": "oldenburg-service-parken-Waffenplatz",
+    "oldenburg-service-parken-Parkhaus-Bahnhof-ZOB": "oldenburg-service-parken-Hbf-ZOB",
+    "oldenburg-service-parken-Parkhaus-Galeria-Kaufhof": "oldenburg-service-parken-Galeria-Kaufhof",
+    "oldenburg-service-parken-Parkhaus-Heiligengeist-Hoefe": "oldenburg-service-parken-Heiligengeist-Hoefe",
+    "oldenburg-service-parken-Parkhaus-Schlosshoefe": "oldenburg-service-parken-Schlosshoefe",
+    "oldenburg-service-parken-Parkhaus-Theatergarage": "oldenburg-service-parken-Theatergarage",
+    "oldenburg-service-parken-Parkplatz-Pferdemarkt": "oldenburg-service-parken-Pferdemarkt",
+    "oldenburg-service-parken-Parkplatz-Theaterwall": "oldenburg-service-parken-Theaterwall",
+    "paderborn-parken-P6-Liborigalerie": "paderborn-parken-P6-Libori-Galerie",
+    "paderborn-parken-P7-Liboriberg": "paderborn-parken-P7-Le-Mans-Wall-Liboriberg",
+    "parken-in-bochum-P8-Konrad-Adenauer-Platz-Bermuda3Eck": "parken-in-bochum-P8-Konrad-Adenauer-Platz",
+    "parken-in-bochum-PH-Bochumer-Fenster": "parken-in-bochum-PF-Bochumer-Fenster",
+    "parken-in-bochum-PH-Massenbergstrasse": "parken-in-bochum-PM-Massenbergstrasse",
+    "parken-mannheim-Hauptbahnhof-P3-Parkhaus": "parken-mannheim-Hauptbahnhof-P3-P4-Parkhaus",
+    "sw-bielefeld-parken-Tiefgarage-Marktpassage-nicht-fur-gasbetriebene-Fahrzeuge": "sw-bielefeld-parken-Tiefgarage-Marktpassage",
+    "vmz-bremen-parken-Am-Bahnhof": "vmz-bremen-parken-Parkhaus-Am-Bahnhof",
+    "vmz-bremen-parken-Am-Brill": "vmz-bremen-parken-Parkhaus-Am-Brill",
+    "vmz-bremen-parken-Am-Dom": "vmz-bremen-parken-Parkhaus-Am-Dom",
+    "vmz-bremen-parken-Am-Sedanplatz": "vmz-bremen-parken-Parkhaus-Am-Sedanplatz",
+    "vmz-bremen-parken-Am-Vegesacker-Hafen": "vmz-bremen-parken-Parkhaus-Am-Vegesacker-Hafen",
+    "vmz-bremen-parken-Am-Wall": "vmz-bremen-parken-Parkhaus-Am-Wall",
+    "vmz-bremen-parken-Aumunder-Markplatz": "vmz-bremen-parken-Parkhaus-Aumunder-Markplatz",
+    "vmz-bremen-parken-Burgerweide": "vmz-bremen-parken-Parkplatz-Burgerweide",
+    "vmz-bremen-parken-Burgerweide-Klangbogen": "vmz-bremen-parken-Parkplatz-Burgerweide-Klangbogen",
+    "vmz-bremen-parken-City-Gate": "vmz-bremen-parken-Parkhaus-City-Gate",
+    "vmz-bremen-parken-Herdentor-Rembertiring": "vmz-bremen-parken-Parkhaus-Herdentor-Rembertiring",
+    "vmz-bremen-parken-Hillmannplatz": "vmz-bremen-parken-Parkhaus-Hillmannplatz",
+    "vmz-bremen-parken-Katharinenklosterhof": "vmz-bremen-parken-Parkhaus-Katharinenklosterhof",
+    "vmz-bremen-parken-Mitte": "vmz-bremen-parken-Parkhaus-Mitte",
+    "vmz-bremen-parken-Ostertor-Kulturmeile": "vmz-bremen-parken-Parkhaus-Ostertor-Kulturmeile",
+    "vmz-bremen-parken-Pressehaus": "vmz-bremen-parken-Parkhaus-Pressehaus",
+    "vmz-bremen-parken-Rovekamp-Musicalth": "vmz-bremen-parken-Parkhaus-Rovekamp-Musicalth",
+    "vmz-bremen-parken-Sagerstr": "vmz-bremen-parken-Parkplatz-Sagerstr",
+    "vmz-bremen-parken-Stephani": "vmz-bremen-parken-Parkhaus-Stephani",
 }
 
 
