@@ -22,10 +22,10 @@ from __future__ import annotations
 
 import html
 import re
-import unicodedata
 from datetime import datetime, timezone
 
 from scrapers.base import CapacityRecord, OccupancyRecord, SourceAdapter
+from scrapers.util import archive_slug
 
 PAGE_URL = "https://www.mobil-potsdam.de/de/parken/parken-in-potsdam/"
 
@@ -50,14 +50,8 @@ def _text(s: str) -> str:
     return " ".join(html.unescape(re.sub(r"<[^>]+>", " ", s)).split())
 
 
-def _legacy_slug(name: str) -> str:
-    s = unicodedata.normalize("NFKD", name.replace("ß", "ss"))
-    s = "".join(ch for ch in s if not unicodedata.combining(ch))
-    return re.sub(r"[^A-Za-z0-9]+", "-", s).strip("-")
-
-
 def _place_id(name: str) -> str:
-    return f"mobil-potsdam-parken-{_legacy_slug(LEGACY_NAMES.get(name, name))}"
+    return f"mobil-potsdam-parken-{archive_slug(LEGACY_NAMES.get(name, name))}"
 
 
 class PotsdamLiveAdapter(SourceAdapter):

@@ -7,6 +7,7 @@ from __future__ import annotations
 from scrapers.adapters.amp_metropole_live import AmpMetropoleLiveAdapter
 from scrapers.adapters.amsterdam_live import AmsterdamLiveAdapter
 from scrapers.adapters.angus_live import AngusLiveAdapter
+from scrapers.adapters.apag_live import ApagLiveAdapter
 from scrapers.adapters.ards_north_down_live import ArdsNorthDownLiveAdapter
 from scrapers.adapters.assen_live import AssenLiveAdapter
 from scrapers.adapters.causeway_coast_glens_live import CausewayCoastGlensLiveAdapter
@@ -18,6 +19,7 @@ from scrapers.adapters.copenhagen_qpark import CopenhagenQParkAdapter
 from scrapers.adapters.cork_live import CorkLiveAdapter
 from scrapers.adapters.db_bahnpark import DbBahnparkAdapter
 from scrapers.adapters.dft_uk_carparks import DftUkCarParksAdapter
+from scrapers.adapters.dortmund_live import DortmundLiveAdapter
 from scrapers.adapters.dundee_live import DundeeLiveAdapter
 from scrapers.adapters.fermanagh_omagh_live import FermanaghOmaghLiveAdapter
 from scrapers.adapters.frankfurt_mainziel import FrankfurtMainzielAdapter
@@ -55,6 +57,7 @@ from scrapers.adapters.mobidata_bw_existing import (
     UlmMobidataBwOccupancyAdapter,
 )
 from scrapers.adapters.moers_live import MoersLiveAdapter
+from scrapers.adapters.muenster_live import MuensterLiveAdapter
 from scrapers.adapters.muenchen_parkraumwende import MuenchenParkraumwendeAdapter
 from scrapers.adapters.other_operators_fr import OtherOperatorsFranceAdapter
 from scrapers.adapters.other_operators_nl import OtherOperatorsNetherlandsAdapter
@@ -139,6 +142,9 @@ ADAPTERS: list[SourceAdapter] = [
     AngusLiveAdapter(),
     DftUkCarParksAdapter(),
     PotsdamLiveAdapter(),
+    DortmundLiveAdapter(),
+    MuensterLiveAdapter(),
+    ApagLiveAdapter(),
     YorkLiveAdapter(),
     QParkFranceAdapter(),
     OtherOperatorsNetherlandsAdapter(),

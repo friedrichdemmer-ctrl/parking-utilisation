@@ -29,6 +29,11 @@ class HttpFetcher:
             raw = gzip.decompress(raw)
         return raw
 
+    def get_bytes(self, url: str, headers: dict[str, str] | None = None) -> bytes:
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, **(headers or {})})
+        with urllib.request.urlopen(req, timeout=self.timeout) as resp:
+            return self._read_body(resp)
+
     def get_text(self, url: str, headers: dict[str, str] | None = None) -> str:
         req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, **(headers or {})})
         with urllib.request.urlopen(req, timeout=self.timeout) as resp:
