@@ -26,6 +26,26 @@ WFS_URL = (
 )
 
 
+# Features that report a fresh "received" time every cycle but the same "frei"
+# value forever: each had exactly one value across all ~2,000 readings from
+# 2026-08-13 (when collection started) to 2026-09-26, e.g. Rödingsmarkt
+# always 700, Bahnhof Altona always 100 (= its capacity). Their occupancy
+# is not written; capacity records are unaffected.
+DEAD_FEATURE_IDS = {
+    "DE.HH.UP_PARKHAEUSER_10002",  # Am Hauptbahnhof
+    "DE.HH.UP_PARKHAEUSER_10006",  # Parkhaus Stadthöfe (Bleichenhof)
+    "DE.HH.UP_PARKHAEUSER_10016",  # Große Reichenstraße
+    "DE.HH.UP_PARKHAEUSER_10018",  # Hafentor
+    "DE.HH.UP_PARKHAEUSER_10021",  # Holzdamm (ibis)
+    "DE.HH.UP_PARKHAEUSER_10027",  # Madison
+    "DE.HH.UP_PARKHAEUSER_10031",  # Michel-Garage
+    "DE.HH.UP_PARKHAEUSER_10038",  # Rödingsmarkt
+    "DE.HH.UP_PARKHAEUSER_10045",  # Bahnhof Altona
+    "DE.HH.UP_PARKHAEUSER_10093",  # Harburg Arcaden
+    "DE.HH.UP_PARKHAEUSER_10098",  # Marktkauf-Center Harburg
+}
+
+
 def _slug(name: str) -> str:
     s = name.lower()
     s = s.replace("ü", "ue").replace("ö", "oe").replace("ä", "ae").replace("ß", "ss")
@@ -83,7 +103,7 @@ class HamburgVizAdapter(SourceAdapter):
     def fetch_occupancy(self, fetcher, known_garages: dict[str, str]) -> list[OccupancyRecord]:
         records = []
         for feat, props in self._rows(fetcher):
-            if props.get("situation") not in ("frei", "besetzt"):
+            if props.get("situation") not in ("frei", "besetzt") or feat["id"] in DEAD_FEATURE_IDS:
                 continue
             free = props.get("frei")
             ts = _parse_received(props.get("received"))

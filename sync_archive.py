@@ -212,6 +212,15 @@ ADAPTER_OWNED_SOURCE_IDS = (
 ADAPTER_OWNED_PREFIXES = tuple(s + "-" for s in ADAPTER_OWNED_SOURCE_IDS)
 
 
+# Archive source_ids whose upstream page froze but is still scraped, so the
+# archive keeps re-recording the last values under fresh timestamps.
+# Reutlingen's parkinfo page has shown "Stand: 30.04.2020 23:01:21" ever
+# since: every reading from 2020-05-01 on is one constant value per garage
+# (checked 2026-09-26). Skipped so the frozen copies stop landing as if live.
+DEAD_ARCHIVE_SOURCE_IDS = ("reutlingen-parken",)
+SKIPPED_PREFIXES = ADAPTER_OWNED_PREFIXES + tuple(s + "-" for s in DEAD_ARCHIVE_SOURCE_IDS)
+
+
 def _seed_last_imported_day(conn: sqlite3.Connection) -> str:
     """First run: seed from the latest date already covered by archive-derived
     sources -- anything with no scraper_runs entries, i.e. not a live adapter,
@@ -244,7 +253,7 @@ def _import_day_file(conn: sqlite3.Connection, day_file: Path) -> int:
             ts = row[0]
             hour_prefix = ts[:13]
             for place_id, value in zip(place_ids, row[1:]):
-                if value and not place_id.startswith(ADAPTER_OWNED_PREFIXES):
+                if value and not place_id.startswith(SKIPPED_PREFIXES):
                     place_id = RENAME_MAP.get(place_id, place_id)
                     # overwritten each time a later reading lands in the same hour,
                     # matching import_historical.py's own hourly-bucketing rule
