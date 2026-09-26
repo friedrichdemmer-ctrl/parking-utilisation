@@ -38,6 +38,17 @@ def apply_overrides(conn: sqlite3.Connection) -> None:
                      float(row["longitude"]) if row.get("longitude") else None,
                      row["source_id"], row.get("source_web_url") or None),
                 ).rowcount
+        # replace=yes marks a correction: the archive's own capacity was wrong
+        # (readings exceeded it), so overwrite it rather than only fill gaps.
+        replaced = 0
+        for row in all_rows:
+            if row.get("replace") == "yes":
+                replaced += conn.execute(
+                    "UPDATE lots_meta SET num_all = ? WHERE place_id = ? AND (num_all IS NULL OR num_all <> ?)",
+                    (int(row["num_all"]), row["place_id"], int(row["num_all"])),
+                ).rowcount
+        if replaced:
+            print(f"{csv_path.name}: {replaced} capacities corrected")
         rows = [(row["place_id"], int(row["num_all"])) for row in all_rows]
         cur = conn.executemany(
             "UPDATE lots_meta SET num_all = ? WHERE place_id = ? AND num_all IS NULL",

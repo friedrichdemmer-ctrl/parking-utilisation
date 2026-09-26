@@ -1,0 +1,12 @@
+place_id,num_all,source_slug,replace,evidence
+swt-trier-parken-Basi,436,capacity_correction_2026_09,yes,service.swt.de parken-v2.xml shortmax (was 59)
+swt-trier-parken-City,918,capacity_correction_2026_09,yes,service.swt.de parken-v2.xml shortmax (was 516)
+swt-trier-parken-Kons,195,capacity_correction_2026_09,yes,service.swt.de parken-v2.xml shortmax (was 80)
+swt-trier-parken-Osta,715,capacity_correction_2026_09,yes,service.swt.de parken-v2.xml shortmax (was 653)
+oldenburg-service-parken-Waffenplatz,578,capacity_correction_2026_09,yes,oldenburg-service.de _cros.php Gesamt (was 510)
+oldenburg-service-parken-Hbf-ZOB,218,capacity_correction_2026_09,yes,oldenburg-service.de _cros.php Gesamt (was 183)
+vtmanager-duesseldorf-parken-PH-25,500,capacity_correction_2026_09,yes,vtmanager.duesseldorf.de WFS kurzparkermax (was 250)
+vtmanager-duesseldorf-parken-PH-26,350,capacity_correction_2026_09,yes,vtmanager.duesseldorf.de WFS kurzparkermax (was 149)
+vtmanager-duesseldorf-parken-PH-42,632,capacity_correction_2026_09,yes,vtmanager.duesseldorf.de WFS kurzparkermax (was 559)
+dresden-parken-Parkhaus-Mitte,400,capacity_correction_2026_09,yes,dresden.de/freie-parkplaetze Stellplätze (was 280)
+karlsruhe-parken-Schlossplatz,912,capacity_correction_2026_09,yes,api.mobidata-bw.de park-api capacity (was 336)
