@@ -26,6 +26,7 @@ from scrapers.adapters.fermanagh_omagh_live import FermanaghOmaghLiveAdapter
 from scrapers.adapters.frauenfeld_live import FrauenfeldLiveAdapter
 from scrapers.adapters.frankfurt_mainziel import FrankfurtMainzielAdapter
 from scrapers.adapters.galway_live import GalwayLiveAdapter
+from scrapers.adapters.geneve_live import GeneveLiveAdapter
 from scrapers.adapters.gent_live import GentLiveAdapter
 from scrapers.adapters.giessen_live import GiessenLiveAdapter
 from scrapers.adapters.grenoble_live import GrenobleLiveAdapter
@@ -42,6 +43,7 @@ from scrapers.adapters.la_rochelle_live import LaRochelleLiveAdapter
 from scrapers.adapters.liege_hors_voirie import LiegeHorsVoirieAdapter
 from scrapers.adapters.lyon_parc_auto_live import LyonParcAutoLiveAdapter
 from scrapers.adapters.lyon_qpark import LyonQParkAdapter
+from scrapers.adapters.luzern_live import LuzernLiveAdapter
 from scrapers.adapters.leeds_live import LeedsLiveAdapter
 from scrapers.adapters.mobidata_bw_cities import (
     AalenMobidataBwAdapter,
@@ -155,6 +157,8 @@ ADAPTERS: list[SourceAdapter] = [
     ZuerichLiveAdapter(),
     StGallenLiveAdapter(),
     FrauenfeldLiveAdapter(),
+    GeneveLiveAdapter(),
+    LuzernLiveAdapter(),
     YorkLiveAdapter(),
     QParkFranceAdapter(),
     OtherOperatorsNetherlandsAdapter(),
