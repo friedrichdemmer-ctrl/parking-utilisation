@@ -32,6 +32,7 @@ from scrapers.adapters.giessen_live import GiessenLiveAdapter
 from scrapers.adapters.grenoble_live import GrenobleLiveAdapter
 from scrapers.adapters.harrow_live import HarrowLiveAdapter
 from scrapers.adapters.hamburg_viz import HamburgVizAdapter
+from scrapers.adapters.hannover_live import HannoverLiveAdapter
 from scrapers.adapters.heidelberg_live import HeidelbergLiveAdapter
 from scrapers.adapters.hillingdon_live import HillingdonLiveAdapter
 from scrapers.adapters.interparking_belgium import InterparkingBelgiumAdapter
@@ -40,6 +41,7 @@ from scrapers.adapters.koeln_live import KoelnLiveAdapter
 from scrapers.adapters.konstanz_live import KonstanzLiveAdapter
 from scrapers.adapters.kortrijk_live import KortrijkLiveAdapter
 from scrapers.adapters.la_rochelle_live import LaRochelleLiveAdapter
+from scrapers.adapters.leipzig_live import LeipzigGaragesAdapter, LeipzigParkRideLiveAdapter
 from scrapers.adapters.liege_hors_voirie import LiegeHorsVoirieAdapter
 from scrapers.adapters.lyon_parc_auto_live import LyonParcAutoLiveAdapter
 from scrapers.adapters.lyon_qpark import LyonQParkAdapter
@@ -159,6 +161,9 @@ ADAPTERS: list[SourceAdapter] = [
     FrauenfeldLiveAdapter(),
     GeneveLiveAdapter(),
     LuzernLiveAdapter(),
+    LeipzigParkRideLiveAdapter(),
+    LeipzigGaragesAdapter(),
+    HannoverLiveAdapter(),
     YorkLiveAdapter(),
     QParkFranceAdapter(),
     OtherOperatorsNetherlandsAdapter(),
