@@ -6,6 +6,7 @@ from __future__ import annotations
 
 from scrapers.adapters.amp_metropole_live import AmpMetropoleLiveAdapter
 from scrapers.adapters.amsterdam_live import AmsterdamLiveAdapter
+from scrapers.adapters.angus_live import AngusLiveAdapter
 from scrapers.adapters.ards_north_down_live import ArdsNorthDownLiveAdapter
 from scrapers.adapters.assen_live import AssenLiveAdapter
 from scrapers.adapters.causeway_coast_glens_live import CausewayCoastGlensLiveAdapter
@@ -135,6 +136,7 @@ ADAPTERS: list[SourceAdapter] = [
     TyneWearLiveAdapter(),
     HillingdonLiveAdapter(),
     HarrowLiveAdapter(),
+    AngusLiveAdapter(),
     DftUkCarParksAdapter(),
     PotsdamLiveAdapter(),
     YorkLiveAdapter(),

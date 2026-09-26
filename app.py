@@ -44,7 +44,7 @@ _COUNTRY_SOURCES = {
     "UK": [
         "dft-uk-carparks", "tfl-live", "city-of-london-live", "hillingdon-live", "harrow-live",
         "bristol-live", "leeds-live", "york-live", "tyne-wear-live", "dundee-live",
-        "perth-kinross-live", "ards-north-down-live", "causeway-coast-glens-live",
+        "perth-kinross-live", "angus-live", "ards-north-down-live", "causeway-coast-glens-live",
         "fermanagh-omagh-live", "mid-ulster-live",
     ],
 }
