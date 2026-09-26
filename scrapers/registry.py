@@ -23,6 +23,7 @@ from scrapers.adapters.dft_uk_carparks import DftUkCarParksAdapter
 from scrapers.adapters.dortmund_live import DortmundLiveAdapter
 from scrapers.adapters.dundee_live import DundeeLiveAdapter
 from scrapers.adapters.fermanagh_omagh_live import FermanaghOmaghLiveAdapter
+from scrapers.adapters.frauenfeld_live import FrauenfeldLiveAdapter
 from scrapers.adapters.frankfurt_mainziel import FrankfurtMainzielAdapter
 from scrapers.adapters.galway_live import GalwayLiveAdapter
 from scrapers.adapters.gent_live import GentLiveAdapter
@@ -69,6 +70,7 @@ from scrapers.adapters.qpark_fr import QParkFranceAdapter
 from scrapers.adapters.qpark_nl import QParkNetherlandsAdapter
 from scrapers.adapters.rouen_qpark import RouenQParkAdapter
 from scrapers.adapters.saint_etienne_qpark import SaintEtienneQParkAdapter
+from scrapers.adapters.st_gallen_live import StGallenLiveAdapter
 from scrapers.adapters.strasbourg_live import StrasbourgLiveAdapter
 from scrapers.adapters.stuttgart_mobidata_bw import StuttgartMobidataBwAdapter
 from scrapers.adapters.tfl_live import TflLiveAdapter
@@ -78,6 +80,7 @@ from scrapers.adapters.tours_live import ToursLiveAdapter
 from scrapers.adapters.vejle_live import VejleLiveAdapter
 from scrapers.adapters.verviers_live import VerviersLiveAdapter
 from scrapers.adapters.waterford_live import WaterfordLiveAdapter
+from scrapers.adapters.zuerich_live import ZuerichLiveAdapter
 from scrapers.adapters.york_live import YorkLiveAdapter
 from scrapers.base import SourceAdapter
 
@@ -149,6 +152,9 @@ ADAPTERS: list[SourceAdapter] = [
     ApagLiveAdapter(),
     BaselLiveAdapter(),
     KonstanzLiveAdapter(),
+    ZuerichLiveAdapter(),
+    StGallenLiveAdapter(),
+    FrauenfeldLiveAdapter(),
     YorkLiveAdapter(),
     QParkFranceAdapter(),
     OtherOperatorsNetherlandsAdapter(),
