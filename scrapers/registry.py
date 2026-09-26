@@ -15,6 +15,7 @@ from scrapers.adapters.causeway_coast_glens_live import CausewayCoastGlensLiveAd
 from scrapers.adapters.city_of_london_live import CityOfLondonLiveAdapter
 from scrapers.adapters.berlin_viz import BerlinVizAdapter
 from scrapers.adapters.bordeaux_metropole_live import BordeauxMetropoleLiveAdapter
+from scrapers.adapters.bottrop_live import BottropLiveAdapter
 from scrapers.adapters.bristol_live import BristolLiveAdapter
 from scrapers.adapters.copenhagen_qpark import CopenhagenQParkAdapter
 from scrapers.adapters.cork_live import CorkLiveAdapter
@@ -72,6 +73,7 @@ from scrapers.adapters.perth_kinross_live import PerthKinrossLiveAdapter
 from scrapers.adapters.potsdam_live import PotsdamLiveAdapter
 from scrapers.adapters.qpark_fr import QParkFranceAdapter
 from scrapers.adapters.qpark_nl import QParkNetherlandsAdapter
+from scrapers.adapters.rostock_live import RostockLiveAdapter
 from scrapers.adapters.rouen_qpark import RouenQParkAdapter
 from scrapers.adapters.saint_etienne_qpark import SaintEtienneQParkAdapter
 from scrapers.adapters.st_gallen_live import StGallenLiveAdapter
@@ -164,6 +166,8 @@ ADAPTERS: list[SourceAdapter] = [
     LeipzigParkRideLiveAdapter(),
     LeipzigGaragesAdapter(),
     HannoverLiveAdapter(),
+    RostockLiveAdapter(),
+    BottropLiveAdapter(),
     YorkLiveAdapter(),
     QParkFranceAdapter(),
     OtherOperatorsNetherlandsAdapter(),
