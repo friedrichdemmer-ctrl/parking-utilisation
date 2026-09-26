@@ -13,6 +13,10 @@ its own "horodatage" timestamps are stuck at September 2024, over a year
 stale despite otherwise plausible-looking free/occupied counts, matching
 the "looks live, isn't" pattern found elsewhere in this project (Aarhus,
 api.parkendd.de).
+
+Place ids are keyed on the garage name alone. They used to carry the
+Opendatasoft recordid, but that is a hash of the record's content and
+changed on every update from 2026-09-24, giving each reading a new id.
 """
 
 from __future__ import annotations
@@ -61,7 +65,7 @@ class ToursLiveAdapter(SourceAdapter):
         for recordid, f, name, commune, total, _free, lat, lon, _ts in self._rows(fetcher):
             records.append(
                 CapacityRecord(
-                    place_id=f"tours-live-{_slug(name)}-{recordid[:8]}",
+                    place_id=f"tours-live-{_slug(name)}",
                     place_name=name,
                     city_name=commune,
                     num_all=total,
@@ -77,5 +81,5 @@ class ToursLiveAdapter(SourceAdapter):
     def fetch_occupancy(self, fetcher, known_garages: dict[str, str]) -> list[OccupancyRecord]:
         records = []
         for recordid, _f, name, _commune, _total, free, _lat, _lon, ts in self._rows(fetcher):
-            records.append(OccupancyRecord(place_id=f"tours-live-{_slug(name)}-{recordid[:8]}", ts=ts, free=free))
+            records.append(OccupancyRecord(place_id=f"tours-live-{_slug(name)}", ts=ts, free=free))
         return records

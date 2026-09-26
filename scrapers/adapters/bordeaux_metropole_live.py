@@ -26,6 +26,10 @@ cover non-Q-Park towns/operators where effort is low."
 Only rows whose "etat" is OUVERT, LIBRE or COMPLET are used; FERME
 (closed) and rows past no live "mdate"/missing total are dropped -- ~27 of
 the 100 rows, mostly permanently-closed or never-wired-up facilities.
+
+Place ids are keyed on the garage name alone. They used to carry the
+Opendatasoft recordid, but that is a hash of the record's content and
+changed on every update from 2026-09-24, giving each reading a new id.
 """
 
 from __future__ import annotations
@@ -93,7 +97,7 @@ class BordeauxMetropoleLiveAdapter(SourceAdapter):
             point = f.get("geo_point_2d") or [None, None]
             records.append(
                 CapacityRecord(
-                    place_id=f"bordeaux-metropole-live-{_slug(name)}-{recordid[:8]}",
+                    place_id=f"bordeaux-metropole-live-{_slug(name)}",
                     place_name=name,
                     city_name=commune,
                     num_all=total,
@@ -110,5 +114,5 @@ class BordeauxMetropoleLiveAdapter(SourceAdapter):
     def fetch_occupancy(self, fetcher, known_garages: dict[str, str]) -> list[OccupancyRecord]:
         records = []
         for recordid, _f, name, _commune, _total, free, ts in self._rows(fetcher):
-            records.append(OccupancyRecord(place_id=f"bordeaux-metropole-live-{_slug(name)}-{recordid[:8]}", ts=ts, free=free))
+            records.append(OccupancyRecord(place_id=f"bordeaux-metropole-live-{_slug(name)}", ts=ts, free=free))
         return records
