@@ -10,6 +10,7 @@ from scrapers.adapters.angus_live import AngusLiveAdapter
 from scrapers.adapters.apag_live import ApagLiveAdapter
 from scrapers.adapters.ards_north_down_live import ArdsNorthDownLiveAdapter
 from scrapers.adapters.assen_live import AssenLiveAdapter
+from scrapers.adapters.basel_live import BaselLiveAdapter
 from scrapers.adapters.causeway_coast_glens_live import CausewayCoastGlensLiveAdapter
 from scrapers.adapters.city_of_london_live import CityOfLondonLiveAdapter
 from scrapers.adapters.berlin_viz import BerlinVizAdapter
@@ -145,6 +146,7 @@ ADAPTERS: list[SourceAdapter] = [
     DortmundLiveAdapter(),
     MuensterLiveAdapter(),
     ApagLiveAdapter(),
+    BaselLiveAdapter(),
     YorkLiveAdapter(),
     QParkFranceAdapter(),
     OtherOperatorsNetherlandsAdapter(),
