@@ -35,6 +35,7 @@ from scrapers.adapters.hillingdon_live import HillingdonLiveAdapter
 from scrapers.adapters.interparking_belgium import InterparkingBelgiumAdapter
 from scrapers.adapters.kaiserslautern_live import KaiserslauternLiveAdapter
 from scrapers.adapters.koeln_live import KoelnLiveAdapter
+from scrapers.adapters.konstanz_live import KonstanzLiveAdapter
 from scrapers.adapters.kortrijk_live import KortrijkLiveAdapter
 from scrapers.adapters.la_rochelle_live import LaRochelleLiveAdapter
 from scrapers.adapters.liege_hors_voirie import LiegeHorsVoirieAdapter
@@ -147,6 +148,7 @@ ADAPTERS: list[SourceAdapter] = [
     MuensterLiveAdapter(),
     ApagLiveAdapter(),
     BaselLiveAdapter(),
+    KonstanzLiveAdapter(),
     YorkLiveAdapter(),
     QParkFranceAdapter(),
     OtherOperatorsNetherlandsAdapter(),

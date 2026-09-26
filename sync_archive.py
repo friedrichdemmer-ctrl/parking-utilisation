@@ -146,6 +146,20 @@ RENAME_MAP: dict[str, str] = {
 LIVE_WRITES_UNDER_LEGACY_SOURCE_ID = {"ffh-parken", "parken-mannheim", "karlsruhe-parken", "parken-in-ulm"}
 
 
+# Archive source_ids now fed directly by an adapter of the same name (see
+# scrapers/adapters/{konstanz,potsdam,dortmund,muenster,apag}_live.py).
+# Their archive columns are skipped so a source never gets two interleaved
+# streams of readings, even if the upstream archive scraper revives.
+ADAPTER_OWNED_SOURCE_IDS = (
+    "konstanz-parken",
+    "mobil-potsdam-parken",
+    "digistadt-dortmund-parken",
+    "stadt-muenster-parken",
+    "apag-parken",
+)
+ADAPTER_OWNED_PREFIXES = tuple(s + "-" for s in ADAPTER_OWNED_SOURCE_IDS)
+
+
 def _seed_last_imported_day(conn: sqlite3.Connection) -> str:
     """First run: seed from the latest date already covered by archive-derived
     sources -- anything with no scraper_runs entries, i.e. not a live adapter,
@@ -178,7 +192,7 @@ def _import_day_file(conn: sqlite3.Connection, day_file: Path) -> int:
             ts = row[0]
             hour_prefix = ts[:13]
             for place_id, value in zip(place_ids, row[1:]):
-                if value:
+                if value and not place_id.startswith(ADAPTER_OWNED_PREFIXES):
                     place_id = RENAME_MAP.get(place_id, place_id)
                     # overwritten each time a later reading lands in the same hour,
                     # matching import_historical.py's own hourly-bucketing rule
