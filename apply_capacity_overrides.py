@@ -23,13 +23,28 @@ OVERRIDES_DIR = ROOT / "capacity_overrides"
 def apply_overrides(conn: sqlite3.Connection) -> None:
     for csv_path in sorted(OVERRIDES_DIR.glob("*.csv")):
         with open(csv_path, newline="", encoding="utf-8") as f:
-            rows = [(row["place_id"], int(row["num_all"])) for row in csv.DictReader(f)]
+            all_rows = list(csv.DictReader(f))
+        # Rows that also carry place_name describe garages the archive never
+        # gave a lots_meta row at all (readings only) -- create those first.
+        inserted = 0
+        for row in all_rows:
+            if row.get("place_name"):
+                inserted += conn.execute(
+                    """INSERT OR IGNORE INTO lots_meta
+                       (place_id, place_name, city_name, num_all, address, latitude, longitude, source_id, source_web_url)
+                       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                    (row["place_id"], row["place_name"], row["city_name"], int(row["num_all"]), row.get("address") or None,
+                     float(row["latitude"]) if row.get("latitude") else None,
+                     float(row["longitude"]) if row.get("longitude") else None,
+                     row["source_id"], row.get("source_web_url") or None),
+                ).rowcount
+        rows = [(row["place_id"], int(row["num_all"])) for row in all_rows]
         cur = conn.executemany(
             "UPDATE lots_meta SET num_all = ? WHERE place_id = ? AND num_all IS NULL",
             [(num_all, place_id) for place_id, num_all in rows],
         )
         conn.commit()
-        print(f"{csv_path.name}: {len(rows)} rows in file, {cur.rowcount} applied (rest already had a value)")
+        print(f"{csv_path.name}: {len(rows)} rows in file, {inserted} created, {cur.rowcount} applied (rest already had a value)")
 
 
 def main():
