@@ -42,7 +42,7 @@ _COUNTRY_SOURCES = {
     "Denmark": ["copenhagen-qpark", "vejle-live"],
     "Ireland": ["cork-live", "galway-live", "waterford-live"],
     "Austria": ["parken-at", "salzburg-live"],
-    "Italy": ["bologna-live"],
+    "Italy": ["bologna-live", "opendatahub-parking"],
     "Spain": ["madrid-live", "malaga-live"],
     "Switzerland": ["basel-live", "zuerich-live", "st-gallen-live", "frauenfeld-live", "geneve-live", "luzern-live"],
     "UK": [

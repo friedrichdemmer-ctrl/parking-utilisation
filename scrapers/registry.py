@@ -93,6 +93,7 @@ from scrapers.adapters.salzburg_live import SalzburgLiveAdapter
 from scrapers.adapters.bologna_live import BolognaLiveAdapter
 from scrapers.adapters.madrid_live import MadridLiveAdapter
 from scrapers.adapters.malaga_live import MalagaLiveAdapter
+from scrapers.adapters.opendatahub_parking import OpenDataHubParkingAdapter
 from scrapers.base import SourceAdapter
 
 ADAPTERS: list[SourceAdapter] = [
@@ -179,6 +180,7 @@ ADAPTERS: list[SourceAdapter] = [
     BolognaLiveAdapter(),
     MadridLiveAdapter(),
     MalagaLiveAdapter(),
+    OpenDataHubParkingAdapter(),
     QParkFranceAdapter(),
     OtherOperatorsNetherlandsAdapter(),
     OtherOperatorsFranceAdapter(),
