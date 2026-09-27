@@ -70,9 +70,14 @@ class MalagaLiveAdapter(SourceAdapter):
 
     def fetch_occupancy(self, fetcher, known_garages: dict[str, str]) -> list[OccupancyRecord]:
         ts = datetime.now(timezone.utc).replace(second=0, microsecond=0).isoformat(timespec="seconds")
+        text = fetcher.get_text(LIVE_URL).lstrip("﻿")
         records = []
-        for r in csv.DictReader(io.StringIO(fetcher.get_text(LIVE_URL).lstrip("﻿"))):
+        for r in csv.DictReader(io.StringIO(text)):
             code, free = (r.get("id") or "").strip(), (r.get("libres") or "").strip()
             if code in CAPACITY and free.isdigit():
                 records.append(OccupancyRecord(place_id=f"malaga-live-{code.lower()}", ts=ts, free=int(free)))
+        # the first production run got a 200 with nothing parseable and was
+        # recorded as a silent success; make that an error instead
+        if not records:
+            raise RuntimeError(f"no readings in Málaga feed response: {text[:120]!r}")
         return records
