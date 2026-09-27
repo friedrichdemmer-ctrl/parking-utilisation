@@ -39,6 +39,14 @@ class HttpFetcher:
         with urllib.request.urlopen(req, timeout=self.timeout) as resp:
             return self._read_body(resp).decode("utf-8", errors="replace")
 
+    def post_text(self, url: str, body: str, headers: dict[str, str] | None = None) -> str:
+        # for SOAP services (e.g. Madrid's InfoParking)
+        req = urllib.request.Request(
+            url, data=body.encode("utf-8"), headers={"User-Agent": USER_AGENT, **(headers or {})}, method="POST"
+        )
+        with urllib.request.urlopen(req, timeout=max(self.timeout, 60)) as resp:
+            return self._read_body(resp).decode("utf-8", errors="replace")
+
     def get_json(self, url: str, headers: dict[str, str] | None = None):
         req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, **(headers or {})})
         with urllib.request.urlopen(req, timeout=self.timeout) as resp:
