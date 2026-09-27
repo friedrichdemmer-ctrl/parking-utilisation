@@ -98,6 +98,7 @@ from scrapers.adapters.torino_5t import Torino5TAdapter
 from scrapers.adapters.firenze_live import FirenzeLiveAdapter
 from scrapers.adapters.pamplona_live import PamplonaLiveAdapter
 from scrapers.adapters.euskadi_parkings import EuskadiParkingsAdapter
+from scrapers.adapters.vigo_live import VigoLiveAdapter
 from scrapers.base import SourceAdapter
 
 ADAPTERS: list[SourceAdapter] = [
@@ -189,6 +190,7 @@ ADAPTERS: list[SourceAdapter] = [
     FirenzeLiveAdapter(),
     PamplonaLiveAdapter(),
     EuskadiParkingsAdapter(),
+    VigoLiveAdapter(),
     QParkFranceAdapter(),
     OtherOperatorsNetherlandsAdapter(),
     OtherOperatorsFranceAdapter(),
