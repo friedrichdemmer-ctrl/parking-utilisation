@@ -99,6 +99,9 @@ from scrapers.adapters.firenze_live import FirenzeLiveAdapter
 from scrapers.adapters.pamplona_live import PamplonaLiveAdapter
 from scrapers.adapters.euskadi_parkings import EuskadiParkingsAdapter
 from scrapers.adapters.vigo_live import VigoLiveAdapter
+from scrapers.adapters.luxembourg_vdl import LuxembourgVdlAdapter
+from scrapers.adapters.fintraffic_parking import FintrafficParkingAdapter
+from scrapers.adapters.sbb_parkrail import SbbParkrailAdapter
 from scrapers.base import SourceAdapter
 
 ADAPTERS: list[SourceAdapter] = [
@@ -191,6 +194,9 @@ ADAPTERS: list[SourceAdapter] = [
     PamplonaLiveAdapter(),
     EuskadiParkingsAdapter(),
     VigoLiveAdapter(),
+    LuxembourgVdlAdapter(),
+    FintrafficParkingAdapter(),
+    SbbParkrailAdapter(),
     QParkFranceAdapter(),
     OtherOperatorsNetherlandsAdapter(),
     OtherOperatorsFranceAdapter(),

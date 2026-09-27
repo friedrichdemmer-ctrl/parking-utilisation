@@ -44,7 +44,9 @@ _COUNTRY_SOURCES = {
     "Austria": ["parken-at", "salzburg-live"],
     "Italy": ["bologna-live", "opendatahub-parking", "torino-5t", "firenze-live"],
     "Spain": ["madrid-live", "malaga-live", "pamplona-live", "euskadi-parkings", "vigo-live"],
-    "Switzerland": ["basel-live", "zuerich-live", "st-gallen-live", "frauenfeld-live", "geneve-live", "luzern-live"],
+    "Luxembourg": ["luxembourg-vdl"],
+    "Finland": ["fintraffic-parking"],
+    "Switzerland": ["sbb-parkrail", "basel-live", "zuerich-live", "st-gallen-live", "frauenfeld-live", "geneve-live", "luzern-live"],
     "UK": [
         "dft-uk-carparks", "tfl-live", "city-of-london-live", "hillingdon-live", "harrow-live",
         "bristol-live", "leeds-live", "york-live", "tyne-wear-live", "dundee-live",
