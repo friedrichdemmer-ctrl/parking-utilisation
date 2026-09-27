@@ -43,7 +43,7 @@ _COUNTRY_SOURCES = {
     "Ireland": ["cork-live", "galway-live", "waterford-live"],
     "Austria": ["parken-at", "salzburg-live"],
     "Italy": ["bologna-live", "opendatahub-parking", "torino-5t", "firenze-live"],
-    "Spain": ["madrid-live", "malaga-live", "pamplona-live", "euskadi-parkings", "vigo-live"],
+    "Spain": ["madrid-live", "malaga-live", "pamplona-live", "euskadi-parkings", "vigo-live", "laspalmas-sagulpa"],
     "Luxembourg": ["luxembourg-vdl"],
     "Finland": ["fintraffic-parking"],
     "Switzerland": ["sbb-parkrail", "basel-live", "zuerich-live", "st-gallen-live", "frauenfeld-live", "geneve-live", "luzern-live"],
