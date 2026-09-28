@@ -217,7 +217,11 @@ ADAPTER_OWNED_PREFIXES = tuple(s + "-" for s in ADAPTER_OWNED_SOURCE_IDS)
 # Reutlingen's parkinfo page has shown "Stand: 30.04.2020 23:01:21" ever
 # since: every reading from 2020-05-01 on is one constant value per garage
 # (checked 2026-09-26). Skipped so the frozen copies stop landing as if live.
-DEAD_ARCHIVE_SOURCE_IDS = ("reutlingen-parken",)
+# Köln ("koeln-apps-parken") went the same way: after a gap in June-July
+# 2026 its archive columns came back in August with one constant value per
+# garage for all 39 garages (~82,000 readings, flagged by feed_health.py on
+# 2026-09-28); the last varying readings are from May 2026.
+DEAD_ARCHIVE_SOURCE_IDS = ("reutlingen-parken", "koeln-apps-parken")
 SKIPPED_PREFIXES = ADAPTER_OWNED_PREFIXES + tuple(s + "-" for s in DEAD_ARCHIVE_SOURCE_IDS)
 
 
