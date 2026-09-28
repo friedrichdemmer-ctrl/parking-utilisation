@@ -14,9 +14,14 @@ For every garage that reported in the last 30 days:
   least 6 readings spanning at least 24 hours. "since" is the time of the
   last reading with a different value (looking back up to 14 days).
 
+Frozen garages are also recorded in frozen_places (scrapers/storage.py):
+from then on, readings equal to the frozen value are not stored, so they
+stop piling up and the garage drops out of "live" within 3 days; the first
+different value clears the entry. Garages already in frozen_places are
+reported as frozen without re-checking.
+
 Results replace the feed_health table on each run; scraper_daemon.py runs
-this once a day, and /api/feed-health serves it. This only flags -- it
-never changes or deletes data.
+this once a day, and /api/feed-health serves it. It never deletes data.
 """
 
 from __future__ import annotations
@@ -55,15 +60,24 @@ def _iso(dt: datetime) -> str:
     return dt.strftime("%Y-%m-%dT%H:%M:%S")
 
 
-def check(conn: sqlite3.Connection, now: datetime | None = None) -> list[tuple]:
+def check(conn: sqlite3.Connection, now: datetime | None = None) -> tuple[list[tuple], list[tuple]]:
+    """(findings for feed_health, newly frozen (place_id, value, since))"""
     now = now or datetime.now(timezone.utc)
     recent = _iso(now - timedelta(days=RECENT_DAYS))
-    findings = []
+    findings, new_frozen = [], []
+    frozen = {r[0]: r for r in conn.execute(
+        """SELECT f.place_id, m.source_id, m.place_name, m.city_name, f.value, f.since, m.num_all
+           FROM frozen_places f LEFT JOIN lots_meta m ON m.place_id = f.place_id""")}
+    for place_id, source_id, name, city, value, since, capacity in frozen.values():
+        note = " (= capacity: empty, or not counting)" if capacity and value == capacity else ""
+        findings.append((place_id, source_id, name, city, "frozen", since, f"free = {value}{note}; repeats not stored"))
     rows = conn.execute(
         "SELECT place_id, source_id, place_name, city_name, last_observed_ts, num_all FROM lots_meta WHERE last_observed_ts >= ?",
         (recent,),
     ).fetchall()
     for place_id, source_id, name, city, last, capacity in rows:
+        if place_id in frozen:
+            continue
         last_dt = _parse(last)
         if last_dt.tzinfo is None:
             last_dt = last_dt.replace(tzinfo=timezone.utc)
@@ -88,14 +102,22 @@ def check(conn: sqlite3.Connection, now: datetime | None = None) -> list[tuple]:
         # ski-lift car park off season) rather than a stuck sensor -- say so
         note = " (= capacity: empty, or not counting)" if capacity and value == capacity else ""
         findings.append((place_id, source_id, name, city, "frozen", since, f"free = {value} in every reading{note}"))
-    return findings
+        new_frozen.append((place_id, value, since))
+    return findings, new_frozen
 
 
 def run(conn: sqlite3.Connection) -> int:
+    from scrapers.storage import ensure_schema
+
+    ensure_schema(conn)  # frozen_places
     conn.execute(SCHEMA)
     checked_at = _iso(datetime.now(timezone.utc))
-    findings = check(conn)
+    findings, new_frozen = check(conn)
     with conn:
+        conn.executemany(
+            "INSERT OR IGNORE INTO frozen_places (place_id, value, since, flagged_at) VALUES (?, ?, ?, ?)",
+            [(place_id, value, since, checked_at) for place_id, value, since in new_frozen],
+        )
         conn.execute("DELETE FROM feed_health")
         conn.executemany(
             "INSERT INTO feed_health (place_id, source_id, place_name, city_name, status, since, detail, checked_at) "

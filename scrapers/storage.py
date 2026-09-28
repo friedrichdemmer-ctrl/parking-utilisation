@@ -23,7 +23,40 @@ CREATE TABLE IF NOT EXISTS scraper_runs (
     error_message TEXT
 );
 CREATE INDEX IF NOT EXISTS idx_scraper_runs_adapter_time ON scraper_runs (adapter, run_at);
+-- Garages whose feed repeats one value (set by feed_health.py). Readings
+-- equal to that value are not stored; the first different value clears the
+-- entry, so a repaired sensor is picked up automatically.
+CREATE TABLE IF NOT EXISTS frozen_places (
+    place_id TEXT PRIMARY KEY,
+    value INTEGER NOT NULL,
+    since TEXT,
+    flagged_at TEXT NOT NULL
+);
 """
+
+
+def frozen_values(conn: sqlite3.Connection) -> dict[str, int]:
+    conn.executescript(SCHEMA)
+    return dict(conn.execute("SELECT place_id, value FROM frozen_places").fetchall())
+
+
+def drop_frozen_repeats(conn: sqlite3.Connection, rows: list[tuple[str, str, int]]) -> list[tuple[str, str, int]]:
+    """(place_id, ts, free) rows minus repeats of a frozen value; a different
+    value un-freezes its garage. Used by write_occupancy and sync_archive."""
+    frozen = frozen_values(conn)
+    if not frozen:
+        return rows
+    kept, recovered = [], set()
+    for row in rows:
+        value = frozen.get(row[0])
+        if value is None:
+            kept.append(row)
+        elif row[2] != value:
+            recovered.add(row[0])
+            kept.append(row)
+    if recovered:
+        conn.executemany("DELETE FROM frozen_places WHERE place_id = ?", [(p,) for p in recovered])
+    return kept
 
 
 def ensure_schema(conn: sqlite3.Connection) -> None:
@@ -81,15 +114,14 @@ def write_occupancy(conn: sqlite3.Connection, records: list[OccupancyRecord]) ->
         ).fetchone():
             continue
         fresh.append(r)
-    records = fresh
-    rows = [(r.place_id, r.ts, r.free) for r in records]
+    rows = drop_frozen_repeats(conn, [(r.place_id, r.ts, r.free) for r in fresh])
     conn.executemany(
         "INSERT INTO historical_observations (place_id, ts, free) VALUES (?, ?, ?)", rows
     )
     # keep last_observed_ts current for the freshness UI without a full backfill pass
     conn.executemany(
         "UPDATE lots_meta SET last_observed_ts = ? WHERE place_id = ? AND (last_observed_ts IS NULL OR last_observed_ts < ?)",
-        [(r.ts, r.place_id, r.ts) for r in records],
+        [(ts, place_id, ts) for place_id, ts, _free in rows],
     )
     conn.commit()
     return len(rows)

@@ -28,6 +28,8 @@ import sys
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
+from scrapers.storage import drop_frozen_repeats
+
 ROOT = Path(__file__).parent
 ARCHIVE = Path(os.environ.get("PARKING_ARCHIVE_PATH", ROOT / "parking-data-archive"))
 DB_PATH = Path(os.environ.get("PARKING_DB_PATH", ROOT / "data" / "parking.db"))
@@ -263,6 +265,8 @@ def _import_day_file(conn: sqlite3.Connection, day_file: Path) -> int:
                     # matching import_historical.py's own hourly-bucketing rule
                     last_seen[(place_id, hour_prefix)] = (ts, int(value))
     rows = [(place_id, ts, value) for (place_id, _hp), (ts, value) in last_seen.items()]
+    # the same frozen-feed filter the live adapters use (see scrapers/storage.py)
+    rows = drop_frozen_repeats(conn, sorted(rows, key=lambda r: r[1]))
     conn.executemany("INSERT INTO historical_observations (place_id, ts, free) VALUES (?, ?, ?)", rows)
     conn.commit()
     return len(rows)
