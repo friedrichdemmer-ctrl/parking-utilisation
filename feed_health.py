@@ -13,6 +13,11 @@ For every garage that reported in the last 30 days:
 - "frozen": still reporting, but the free count has not changed across at
   least 6 readings spanning at least 24 hours. "since" is the time of the
   last reading with a different value (looking back up to 14 days).
+- "oscillating": 12+ readings over 24h+ in the last 48 hours taking only
+  two values (garages with 20+ spaces only).
+- "capacity": in the last 7 days, more than 5% of readings above capacity
+  x1.1, or any negative reading -- the capacity on file (or the feed's
+  count) is wrong. Flag only; the fix is a capacity correction.
 
 Frozen garages are also recorded in frozen_places (scrapers/storage.py):
 from then on, readings equal to the frozen value are not stored, so they
@@ -39,6 +44,13 @@ FROZEN_MIN_READINGS = 6
 FROZEN_MIN_SPAN = timedelta(hours=24)
 FROZEN_WINDOW = timedelta(hours=48)
 LOOKBACK = timedelta(days=14)
+# two-value oscillation (a sensor flipping between e.g. 0 and capacity);
+# small lots can legitimately take only a few values, so they are exempt
+OSCILLATING_MIN_READINGS = 12
+OSCILLATING_MIN_CAPACITY = 20
+# free counts that do not fit the capacity on file
+CAPACITY_WINDOW = timedelta(days=7)
+CAPACITY_OVER_SHARE = 0.05
 
 SCHEMA = """CREATE TABLE IF NOT EXISTS feed_health (
     place_id TEXT PRIMARY KEY,
@@ -84,13 +96,29 @@ def check(conn: sqlite3.Connection, now: datetime | None = None) -> tuple[list[t
         if now - last_dt > STOPPED_AFTER:
             findings.append((place_id, source_id, name, city, "stopped", last, f"last reading {last[:16]}"))
             continue
-        window = conn.execute(
+        week = conn.execute(
             "SELECT ts, free FROM historical_observations WHERE place_id = ? AND ts >= ? ORDER BY ts",
-            (place_id, _iso(now - FROZEN_WINDOW)),
+            (place_id, _iso(now - CAPACITY_WINDOW)),
         ).fetchall()
-        if len(window) < FROZEN_MIN_READINGS or len({f for _, f in window}) != 1:
+        window = [(ts, f) for ts, f in week if ts >= _iso(now - FROZEN_WINDOW)]
+        span_ok = len(window) >= 2 and _parse(window[-1][0]) - _parse(window[0][0]) >= FROZEN_MIN_SPAN
+        distinct = {f for _, f in window}
+        if len(window) >= FROZEN_MIN_READINGS and span_ok and len(distinct) == 1:
+            pass  # frozen, handled below
+        elif (len(window) >= OSCILLATING_MIN_READINGS and span_ok and len(distinct) == 2
+              and capacity and capacity >= OSCILLATING_MIN_CAPACITY):
+            a, b = sorted(distinct)
+            findings.append((place_id, source_id, name, city, "oscillating", window[0][0][:16],
+                             f"only {a} and {b} free in {len(window)} readings over 48 h"))
             continue
-        if _parse(window[-1][0]) - _parse(window[0][0]) < FROZEN_MIN_SPAN:
+        else:
+            if capacity and week:
+                over = sum(1 for _, f in week if f > capacity * 1.1)
+                negative = sum(1 for _, f in week if f < 0)
+                if negative or over / len(week) > CAPACITY_OVER_SHARE:
+                    worst = max(f for _, f in week) if over else min(f for _, f in week)
+                    findings.append((place_id, source_id, name, city, "capacity", week[0][0][:16],
+                                     f"{over} readings above capacity {capacity} x1.1, {negative} negative, of {len(week)} in 7 days (extreme {worst})"))
             continue
         value = window[0][1]
         changed = conn.execute(
