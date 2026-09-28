@@ -13,6 +13,7 @@ import time
 import traceback
 from pathlib import Path
 
+import feed_health
 from scrapers.registry import ADAPTERS
 from scrapers.runner import run_due_adapters
 
@@ -48,6 +49,7 @@ def main() -> None:
             conn = sqlite3.connect(DB_PATH)
             conn.execute("PRAGMA busy_timeout=30000")
             run_due_adapters(conn, ADAPTERS)
+            feed_health.run_if_due(conn)
             conn.close()
         except Exception:
             traceback.print_exc()

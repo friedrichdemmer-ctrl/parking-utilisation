@@ -393,6 +393,9 @@ PAGE = """
 <div class="tab-panel" id="tab-health">
   <p class="meta">Each adapter's latest capacity/occupancy run. A daemon retries an errored run on its next check rather than waiting out the full interval, so an "error" here that keeps recurring is worth a look.</p>
   <table id="health-adapter-table"><thead><tr><th style="text-align:left">Adapter</th><th style="text-align:left">Kind</th><th>Last run</th><th>Status</th><th>Last success</th></tr></thead><tbody></tbody></table>
+  <h3>Feed problems</h3>
+  <p class="meta">Checked daily. <b>Stopped</b>: reported in the last 30 days but not in the last 3. <b>Frozen</b>: still reporting, but the free count has not changed for at least 24 hours &mdash; usually a dead sensor or a feed repeating its last value. Flags only; nothing is removed automatically. <span id="fh-checked"></span></p>
+  <table id="feed-health-table"><thead><tr><th style="text-align:left">Source</th><th>Stopped</th><th>Frozen</th><th style="text-align:left">Garages (since)</th></tr></thead><tbody></tbody></table>
   <h3>Recent errors</h3>
   <table id="health-error-table" class="health-errors"><thead><tr><th>When</th><th style="text-align:left">Adapter</th><th style="text-align:left">Kind</th><th style="text-align:left">Error</th></tr></thead><tbody></tbody></table>
 </div>
@@ -463,6 +466,17 @@ function timeAgo(iso) {
   if (secs < 86400) return Math.round(secs / 3600) + 'h ago';
   return Math.round(secs / 86400) + 'd ago';
 }
+fetch('/api/feed-health').then(r => r.json()).then(fh => {
+  document.getElementById('fh-checked').textContent = fh.checked_at ? 'Last check: ' + timeAgo(fh.checked_at + 'Z') + '.' : 'Not checked yet.';
+  const tbody = document.querySelector('#feed-health-table tbody');
+  tbody.innerHTML = fh.sources.length ? fh.sources.map(s => {
+    const list = s.garages.slice(0, 8).map(g =>
+      `${g.place_name} (${g.city_name}) &ndash; ${g.status}, since ${(g.since || '').slice(0, 10)}`).join('<br>') +
+      (s.garages.length > 8 ? `<br>&hellip; and ${s.garages.length - 8} more` : '');
+    return `<tr><td style="text-align:left">${s.source_id}</td><td class="${s.stopped ? 'status-error' : ''}">${s.stopped}</td>` +
+      `<td class="${s.frozen ? 'status-error' : ''}">${s.frozen}</td><td style="text-align:left">${list}</td></tr>`;
+  }).join('') : '<tr><td colspan="4">No problems found.</td></tr>';
+});
 fetch('/api/scraper-health').then(r => r.json()).then(health => {
   const abody = document.querySelector('#health-adapter-table tbody');
   abody.innerHTML = health.adapters.map(a => {
@@ -985,6 +999,32 @@ def api_scraper_health():
         for r in recent_errors
     ]
     return jsonify({"adapters": adapters, "recent_errors": errors})
+
+
+@app.route("/api/feed-health")
+def api_feed_health():
+    """Garages flagged by feed_health.py's daily check, grouped by source."""
+    conn = get_db()
+    conn.execute(
+        """CREATE TABLE IF NOT EXISTS feed_health (
+               place_id TEXT PRIMARY KEY, source_id TEXT, place_name TEXT, city_name TEXT,
+               status TEXT NOT NULL, since TEXT, detail TEXT, checked_at TEXT NOT NULL
+           )"""
+    )
+    rows = conn.execute(
+        "SELECT place_id, source_id, place_name, city_name, status, since, detail, checked_at FROM feed_health "
+        "ORDER BY source_id, status, since"
+    ).fetchall()
+    conn.close()
+    by_source: dict[str, dict] = {}
+    for r in rows:
+        s = by_source.setdefault(r["source_id"], {"source_id": r["source_id"], "stopped": 0, "frozen": 0, "garages": []})
+        s[r["status"]] += 1
+        s["garages"].append({k: r[k] for k in ("place_id", "place_name", "city_name", "status", "since", "detail")})
+    return jsonify({
+        "checked_at": rows[0]["checked_at"] if rows else None,
+        "sources": sorted(by_source.values(), key=lambda s: -(s["stopped"] + s["frozen"])),
+    })
 
 
 @app.route("/api/garages")
