@@ -48,9 +48,11 @@ CAPACITY: dict[int, int] = {
     21952: 89,   # Auersperg-Garage: bounds 88-90 (parken.at 100 does not fit)
     29338: 464,  # Tiergarten Hellbrunn: bounds 464-465, not on parken.at
     29358: 67,   # Parkgarage am Paracelsusbad: bounds 67-67 (parken.at 69 does not fit)
+    # Altstadtgarage A and B were full throughout the first sampling; 10 more
+    # samples on 2026-09-28 bounded them (parken.at lists only the combined 1,311)
+    22101: 618,  # Altstadtgarage A: bounds 617-619
+    29378: 680,  # Altstadtgarage B: bounds 680-681
 }
-# Altstadtgarage A and B were full (0 free) throughout sampling, so their
-# split of parken.at's combined 1,311 spaces could not be derived; left out.
 
 
 def _parse_ts(s: str | None) -> str | None:

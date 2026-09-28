@@ -40,6 +40,7 @@ EXCLUDED_IDS: set[str] = {
     "1280",   # Bahnhofsgarage
     "18534",  # Auersperg - Salzburg | APCOA
     "5874",   # Parkgarage am Paracelsusbad
+    "1261",   # Altstadtgarage (A and B combined; salzburg_live has each)
 }
 
 
