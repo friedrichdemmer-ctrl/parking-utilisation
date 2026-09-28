@@ -46,6 +46,7 @@ _COUNTRY_SOURCES = {
     "Spain": ["madrid-live", "malaga-live", "pamplona-live", "euskadi-parkings", "vigo-live", "laspalmas-sagulpa"],
     "Luxembourg": ["luxembourg-vdl"],
     "Finland": ["fintraffic-parking"],
+    "Norway": ["parkeringsregisteret-no"],
     "Switzerland": ["sbb-parkrail", "basel-live", "zuerich-live", "st-gallen-live", "frauenfeld-live", "geneve-live", "luzern-live"],
     "UK": [
         "dft-uk-carparks", "tfl-live", "city-of-london-live", "hillingdon-live", "harrow-live",
