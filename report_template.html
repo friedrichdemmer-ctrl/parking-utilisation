@@ -1,0 +1,476 @@
+<title>European Car Park Occupancy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Barlow:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single reading column (~68rem) of stacked sections; charts span the column,
+   tables scroll inside their own frames. Wayfinding-sign blue as the one accent. */
+:root {
+  --bg: #f5f7fa;
+  --surface: #ffffff;
+  --ink: #111720;
+  --ink-2: #4a5462;
+  --ink-3: #6e7886;
+  --rule: #dce1e8;
+  --rule-soft: #ebeef3;
+  --accent: #1d4f9c;
+  --accent-soft: rgba(29, 79, 156, .12);
+  --ref: #9aa3b0;
+  --full: #d03b3b;
+  --font-display: "Barlow Semi Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Barlow", "Helvetica Neue", Arial, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1218; --surface: #151b23; --ink: #edf1f6; --ink-2: #b4bdc9; --ink-3: #8a94a2;
+    --rule: #2a323d; --rule-soft: #1f262f; --accent: #6b9ae6; --accent-soft: rgba(107, 154, 230, .16);
+    --ref: #5d6673; --full: #e66767; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1218; --surface: #151b23; --ink: #edf1f6; --ink-2: #b4bdc9; --ink-3: #8a94a2;
+  --rule: #2a323d; --rule-soft: #1f262f; --accent: #6b9ae6; --accent-soft: rgba(107, 154, 230, .16);
+  --ref: #5d6673; --full: #e66767; color-scheme: dark;
+}
+
+body { background: var(--bg); color: var(--ink); font: 400 1rem/1.55 var(--font-body); }
+.wrap { max-width: 68rem; margin: 0 auto; padding-inline: max(16px, 4vw); padding-block: 2.5rem 4rem; display: grid; gap: 3.25rem; }
+h1, h2 { font-family: var(--font-display); text-wrap: balance; margin: 0; letter-spacing: -.005em; }
+h1 { font-size: clamp(2.1rem, 5vw, 3.2rem); line-height: 1.05; font-weight: 700; }
+h2 { font-size: 1.6rem; line-height: 1.15; font-weight: 600; }
+p { margin: 0; max-width: 65ch; }
+.eyebrow { font: 500 .78rem/1 var(--font-data); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); display: flex; align-items: center; gap: .6rem; }
+.psign { display: inline-grid; place-items: center; width: 1.6rem; height: 1.6rem; border-radius: 4px; background: var(--accent); color: var(--surface); font: 700 1.05rem/1 var(--font-display); letter-spacing: 0; }
+header { display: grid; gap: 1rem; }
+.lede { font-size: 1.12rem; color: var(--ink-2); }
+section { display: grid; gap: 1rem; }
+.sub { color: var(--ink-2); }
+.num { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
+
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule); }
+.stat { padding: .9rem 1rem .9rem 0; display: grid; gap: .2rem; }
+.stat + .stat { padding-left: 1rem; border-left: 1px solid var(--rule); }
+.stat b { font: 600 clamp(1.6rem, 3.4vw, 2.2rem)/1.05 var(--font-display); font-variant-numeric: tabular-nums; }
+.stat span { font-size: .86rem; color: var(--ink-2); }
+@media (max-width: 640px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } .stat:nth-child(3) { border-left: 0; padding-left: 0; } .stat:nth-child(n+3) { border-top: 1px solid var(--rule); } }
+
+.findings { display: grid; gap: .55rem; padding: 0; margin: 0; list-style: none; max-width: 65ch; }
+.findings li { padding-left: 1.1rem; position: relative; }
+.findings li::before { content: ""; position: absolute; left: 0; top: .62em; width: .45rem; height: .45rem; background: var(--accent); border-radius: 1px; }
+
+.panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 1rem; display: grid; gap: .75rem; min-width: 0; }
+.controls { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; align-items: center; }
+.controls label { font-size: .86rem; color: var(--ink-2); display: flex; align-items: center; gap: .45rem; }
+select, input[type="search"] { font: 500 .9rem var(--font-body); color: var(--ink); background: var(--bg); border: 1px solid var(--rule); border-radius: 4px; padding: .35rem .55rem; }
+input[type="search"] { min-width: 0; width: 15rem; max-width: 100%; }
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 4px; overflow: hidden; }
+.seg button { font: 500 .86rem var(--font-body); color: var(--ink-2); background: var(--bg); border: 0; padding: .35rem .75rem; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--rule); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--surface); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.legend { display: flex; flex-wrap: wrap; gap: .4rem 1.1rem; font-size: .84rem; color: var(--ink-2); }
+.legend i { display: inline-block; width: 1rem; height: 2px; vertical-align: middle; margin-right: .4rem; }
+.chart { position: relative; min-width: 0; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.axis text, .lbl { fill: var(--ink-3); font: 400 11px var(--font-data); }
+.grid line { stroke: var(--rule-soft); }
+.axis line.base { stroke: var(--rule); }
+.daysep { stroke: var(--rule); stroke-dasharray: 2 3; }
+
+.scroll { overflow-x: auto; min-width: 0; }
+.heat { border-collapse: separate; border-spacing: 2px; font-size: .8rem; }
+.heat th { font: 400 .72rem var(--font-data); color: var(--ink-3); font-weight: 400; }
+.heat th.city { text-align: right; padding-right: .5rem; white-space: nowrap; font: 500 .82rem var(--font-body); color: var(--ink); }
+.heat th.city small { color: var(--ink-3); font-weight: 400; margin-left: .3rem; }
+.heat td { width: 22px; min-width: 22px; height: 18px; border-radius: 2px; padding: 0; }
+.heat td.pk { box-shadow: inset 0 0 0 1.5px var(--ink); }
+.ramp { display: flex; align-items: center; gap: .5rem; font: 400 .75rem var(--font-data); color: var(--ink-3); }
+.ramp .bar { width: 10rem; height: .55rem; border-radius: 2px; }
+
+table.data { width: 100%; border-collapse: collapse; font-size: .9rem; }
+table.data th { text-align: left; font: 500 .74rem var(--font-data); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); padding: .5rem .6rem; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+table.data th[data-sort] { cursor: pointer; }
+table.data th[data-sort]:hover { color: var(--ink); }
+table.data th.on::after { content: " ↓"; }
+table.data th.on.asc::after { content: " ↑"; }
+table.data td { padding: .45rem .6rem; border-bottom: 1px solid var(--rule-soft); vertical-align: middle; }
+table.data td.r, table.data th.r { text-align: right; }
+table.data tr.city-row { cursor: pointer; }
+table.data tr.city-row:hover td { background: var(--accent-soft); }
+table.data tr.city-row td:first-child::before { content: "▸"; display: inline-block; width: 1rem; color: var(--ink-3); }
+table.data tr.city-row.open td:first-child::before { content: "▾"; }
+table.data tr.sub-row td { background: var(--bg); font-size: .85rem; }
+table.data tr.sub-row td:first-child { padding-left: 1.6rem; }
+.muted { color: var(--ink-3); }
+.spark { display: block; }
+.spark path.a { fill: var(--accent-soft); }
+.spark path.l { fill: none; stroke: var(--accent); stroke-width: 1.25; }
+.spark line { stroke: var(--rule); }
+.pill { display: inline-block; font: 500 .74rem var(--font-data); padding: .1rem .4rem; border-radius: 3px; border: 1px solid currentColor; }
+.pill.full { color: var(--full); }
+.more { justify-self: start; font: 500 .88rem var(--font-body); color: var(--accent); background: none; border: 1px solid var(--rule); border-radius: 4px; padding: .4rem .8rem; cursor: pointer; }
+
+.tip { position: absolute; pointer-events: none; z-index: 5; background: var(--surface); color: var(--ink); border: 1px solid var(--rule); border-radius: 4px; padding: .45rem .6rem; font-size: .82rem; line-height: 1.4; box-shadow: 0 4px 14px rgba(0, 0, 0, .12); white-space: nowrap; }
+.tip b { font-family: var(--font-data); font-weight: 500; }
+.tip .k { color: var(--ink-3); font-size: .76rem; }
+
+.method { display: grid; gap: .8rem; color: var(--ink-2); font-size: .95rem; }
+.method h3 { font: 600 1.05rem var(--font-display); color: var(--ink); margin: .4rem 0 0; }
+.method ul { margin: 0; padding-left: 1.1rem; display: grid; gap: .3rem; max-width: 65ch; }
+footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px solid var(--rule); padding-top: 1rem; }
+@media (prefers-reduced-motion: no-preference) { .seg button, .more { transition: background-color .15s, color .15s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow"><span class="psign" aria-hidden="true">P</span><span id="eyebrow">Parking utilisation</span></div>
+    <h1>How full Europe's car parks get</h1>
+    <p class="lede" id="lede"></p>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <section aria-labelledby="h-find">
+    <h2 id="h-find">What stands out</h2>
+    <ul class="findings" id="findings"></ul>
+  </section>
+
+  <section aria-labelledby="h-week">
+    <h2 id="h-week">The typical week</h2>
+    <p class="sub">Share of all spaces occupied, hour by hour, in each garage's local time. Hover or tap the chart for exact values.</p>
+    <div class="panel">
+      <div class="controls">
+        <label for="country">Country <select id="country"></select></label>
+        <div class="legend" id="weekLegend"></div>
+      </div>
+      <div class="chart" id="weekChart"></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-heat">
+    <h2 id="h-heat">When each city fills up</h2>
+    <p class="sub">Cities with five or more garages in the report, sorted by how full they get at their busiest hour. The outlined cell is each city's peak.</p>
+    <div class="panel">
+      <div class="controls">
+        <div class="seg" role="group" aria-label="Day type" id="dayType">
+          <button type="button" data-v="wd" aria-pressed="true">Mon–Fri</button>
+          <button type="button" data-v="sat" aria-pressed="false">Saturday</button>
+          <button type="button" data-v="sun" aria-pressed="false">Sunday</button>
+        </div>
+        <div class="ramp"><span>0%</span><span class="bar" id="rampBar"></span><span>100% occupied</span></div>
+      </div>
+      <div class="scroll chart" id="heatWrap"></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-country">
+    <h2 id="h-country">By country</h2>
+    <div class="panel"><div class="scroll"><table class="data" id="countryTable"></table></div></div>
+  </section>
+
+  <section aria-labelledby="h-city">
+    <h2 id="h-city">Every city and garage</h2>
+    <p class="sub">Click a city to list its garages. “Full hours” counts the hours in a typical week when a garage averages 90% occupied or more.</p>
+    <div class="panel">
+      <div class="controls"><label for="q">Find <input type="search" id="q" placeholder="City or garage name"></label><span class="muted" id="qCount"></span></div>
+      <div class="scroll"><table class="data" id="cityTable"></table></div>
+      <button type="button" class="more" id="moreCities" hidden>Show all cities</button>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-busy">
+    <h2 id="h-busy">The garages that fill up most</h2>
+    <p class="sub">Garages with 50 or more spaces, ranked by full hours per week.</p>
+    <div class="panel"><div class="scroll"><table class="data" id="busyTable"></table></div></div>
+  </section>
+
+  <section aria-labelledby="h-method" class="method">
+    <h2 id="h-method">How this was measured</h2>
+    <p id="mWindow"></p>
+    <ul>
+      <li>Occupancy is 1 − free ÷ capacity. Every 15 minutes the latest reading is taken and carried forward for up to 12 hours, because many feeds only report when the count changes. Samples are averaged into the 168 hours of the week, so every hour counts equally however often a feed reports.</li>
+      <li>Times are each garage's local time. Country and city figures weight each garage by its capacity, so they are the share of all spaces occupied.</li>
+      <li>Counts below zero or above capacity (counters drifting) are treated as full or empty.</li>
+    </ul>
+    <h3>Left out</h3>
+    <ul id="mExcluded"></ul>
+    <h3>Read with care</h3>
+    <ul>
+      <li>The window runs from mid-August, so it includes the end of the summer holidays in most countries. Expect weekday figures to rise in a term-time sample.</li>
+      <li>Coverage differs by city. Several feeds were added in late September and contribute one or two weeks rather than eight.</li>
+      <li>The UK sample is mostly park-and-ride sites at metro stations, which run far emptier than city-centre garages. Park-and-ride sites overall average about a quarter occupied.</li>
+    </ul>
+  </section>
+
+  <footer id="foot"></footer>
+</div>
+
+<script>
+/*DATA*/
+</script>
+<script>
+(function () {
+  const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+  const DAYS_LONG = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+  const fmtInt = n => n.toLocaleString("en-GB");
+  const pct = v => (v == null ? "–" : Math.round(v) + "%");
+  const hh = h => String(h).padStart(2, "0") + ":00";
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  // garages: [name, city, country, capacity, fullHours, profile[168] (-1 = no data)]
+  const garages = G.map(([name, city, country, cap, full, prof]) => {
+    const p = prof.map(v => (v < 0 ? null : v));
+    const vals = p.filter(v => v != null);
+    const avg = vals.reduce((a, b) => a + b, 0) / vals.length;
+    let pk = 0; p.forEach((v, i) => { if (v != null && v > (p[pk] ?? -1)) pk = i; });
+    return { name, city: city || "—", country, cap, full, p, avg, pk };
+  });
+
+  // capacity-weighted profile for a set of garages
+  function profile(gs) {
+    const out = [];
+    for (let s = 0; s < 168; s++) {
+      let num = 0, den = 0;
+      for (const g of gs) { const v = g.p[s]; if (v != null) { num += v * g.cap; den += g.cap; } }
+      out.push(den ? num / den : null);
+    }
+    return out;
+  }
+  const mean = arr => { const v = arr.filter(x => x != null); return v.length ? v.reduce((a, b) => a + b, 0) / v.length : null; };
+  const argmax = (arr, from = 0, to = arr.length) => { let k = -1; for (let i = from; i < to; i++) if (arr[i] != null && (k < 0 || arr[i] > arr[k])) k = i; return k; };
+  const sum = (gs, f) => gs.reduce((a, g) => a + f(g), 0);
+  function groupBy(gs, key) { const m = new Map(); for (const g of gs) { const k = key(g); if (!m.has(k)) m.set(k, []); m.get(k).push(g); } return m; }
+
+  const all = profile(garages);
+  const allMean = mean(all);
+  const allPk = argmax(all), allLo = (() => { let k = 0; all.forEach((v, i) => { if (v < all[k]) k = i; }); return k; })();
+  const spaces = sum(garages, g => g.cap);
+  const byCountry = groupBy(garages, g => g.country);
+  const byCity = groupBy(garages, g => g.country + "|" + g.city);
+  const fmtDate = s => new Date(s + "T12:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+  const W = META.window;
+
+  // ---------- header ----------
+  document.getElementById("eyebrow").textContent = `Parking utilisation · ${fmtDate(W.start)} – ${fmtDate(W.end)}`;
+  document.getElementById("lede").textContent =
+    `Live occupancy from ${fmtInt(garages.length)} garages and car parks in ${byCity.size} cities across ${byCountry.size} countries, ` +
+    `averaged over the ${W.weeks} full weeks to ${fmtDate(W.end)}. Each garage reports how many spaces are free; this page turns that into how full they are, hour by hour.`;
+  const stats = [
+    [fmtInt(garages.length), "garages and car parks"],
+    [fmtInt(spaces), "spaces covered"],
+    [pct(allMean), "of spaces occupied, averaged over the week"],
+    [pct(all[allPk]), `at the busiest hour (${DAYS[Math.floor(allPk / 24)]} ${hh(allPk % 24)})`],
+  ];
+  document.getElementById("stats").innerHTML = stats.map(([b, s]) => `<div class="stat"><b>${b}</b><span>${s}</span></div>`).join("");
+
+  // ---------- findings (computed) ----------
+  const countryRows = [...byCountry].map(([c, gs]) => { const p = profile(gs); const pk = argmax(p); return { c, gs, p, mean: mean(p), pk, cap: sum(gs, g => g.cap) }; })
+    .sort((a, b) => b.cap - a.cap);
+  const bigCountries = countryRows.filter(r => r.gs.length >= 20).sort((a, b) => b.mean - a.mean);
+  const dayPeak = d => { const k = argmax(all, d * 24, d * 24 + 24); return [all[k], k % 24]; };
+  const [satV, satH] = dayPeak(5), [sunV, sunH] = dayPeak(6), [tueV] = dayPeak(1);
+  const fullAny = garages.filter(g => g.full > 0).length, full20 = garages.filter(g => g.full >= 20).length;
+  const under50 = garages.filter(g => Math.max(...g.p.filter(v => v != null)) < 50).length;
+  const nm = c => (c === "UK" || c === "Netherlands" ? "the " + c : c), cap1 = s => s[0].toUpperCase() + s.slice(1);
+  const share = n => Math.round(100 * n / garages.length) + "%";
+  const findings = [
+    `A typical space is occupied ${pct(allMean)} of the time. Occupancy bottoms out at ${pct(all[allLo])} in the small hours and peaks at ${pct(all[allPk])} around ${hh(allPk % 24)} on weekdays: there is a lot of idle capacity even at the busiest hour.`,
+    `Weekdays are much alike, peaking around ${pct(tueV)} at lunchtime. Saturday peaks later and only slightly lower (${pct(satV)} at ${hh(satH)}); Sunday peaks at ${pct(sunV)}.`,
+    `${cap1(nm(bigCountries[0].c))} runs fullest (${pct(bigCountries[0].mean)} on average, ${pct(bigCountries[0].p[bigCountries[0].pk])} at peak); ${nm(bigCountries[bigCountries.length - 1].c)} runs emptiest of the countries with 20 or more garages (${pct(bigCountries[bigCountries.length - 1].mean)}).`,
+    `${fmtInt(fullAny)} garages (${share(fullAny)}) reach 90% occupied in at least one hour of a typical week, and ${fmtInt(full20)} do so for 20 hours or more. At the other end, ${fmtInt(under50)} (${share(under50)}) never average more than half full in any hour.`,
+  ];
+  document.getElementById("findings").innerHTML = findings.map(f => `<li>${esc(f)}</li>`).join("");
+
+  // ---------- tooltip ----------
+  function makeTip(host) { const t = document.createElement("div"); t.className = "tip"; t.hidden = true; host.appendChild(t); return t; }
+  function placeTip(tip, host, x, y) {
+    tip.hidden = false;
+    const hw = host.clientWidth, tw = tip.offsetWidth, th = tip.offsetHeight;
+    let left = x + 14; if (left + tw > hw + host.scrollLeft) left = x - tw - 14; if (left < host.scrollLeft) left = host.scrollLeft;
+    let top = y - th - 10; if (top < 0) top = y + 14;
+    tip.style.left = left + "px"; tip.style.top = top + "px";
+  }
+
+  // ---------- week chart ----------
+  const sel = document.getElementById("country");
+  sel.innerHTML = `<option value="">All countries</option>` + countryRows.map(r => `<option value="${esc(r.c)}">${esc(r.c)} (${r.gs.length})</option>`).join("");
+  const weekEl = document.getElementById("weekChart");
+  const weekTip = makeTip(weekEl);
+  function drawWeek() {
+    const c = sel.value;
+    const series = c ? countryRows.find(r => r.c === c).p : all;
+    const w = Math.max(320, weekEl.clientWidth), h = w < 560 ? 230 : 290;
+    const m = { l: 38, r: 10, t: 12, b: 26 };
+    const iw = w - m.l - m.r, ih = h - m.t - m.b;
+    const x = i => m.l + (i + .5) * iw / 168, y = v => m.t + ih - v / 100 * ih;
+    const path = arr => { let d = "", pen = false; arr.forEach((v, i) => { if (v == null) { pen = false; return; } d += (pen ? "L" : "M") + x(i).toFixed(1) + "," + y(v).toFixed(1); pen = true; }); return d; };
+    const area = arr => path(arr) + `L${x(167).toFixed(1)},${y(0)}L${x(0).toFixed(1)},${y(0)}Z`;
+    let s = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Occupancy by hour of the week${c ? " for " + esc(c) : ""}">`;
+    s += `<g class="grid">` + [0, 25, 50, 75, 100].map(v => `<line x1="${m.l}" x2="${w - m.r}" y1="${y(v)}" y2="${y(v)}"/>`).join("") + `</g>`;
+    s += `<g class="axis">` + [0, 25, 50, 75, 100].map(v => `<text x="${m.l - 6}" y="${y(v) + 3.5}" text-anchor="end">${v}%</text>`).join("");
+    for (let d = 0; d < 7; d++) {
+      if (d) s += `<line class="daysep" x1="${m.l + d * 24 * iw / 168}" x2="${m.l + d * 24 * iw / 168}" y1="${m.t}" y2="${m.t + ih}"/>`;
+      s += `<text x="${m.l + (d * 24 + 12) * iw / 168}" y="${h - 8}" text-anchor="middle">${w < 560 ? DAYS[d].slice(0, 2) : DAYS[d]}</text>`;
+    }
+    s += `<line class="base" x1="${m.l}" x2="${w - m.r}" y1="${y(0)}" y2="${y(0)}"/></g>`;
+    if (c) s += `<path d="${path(all)}" fill="none" stroke="var(--ref)" stroke-width="1.5" stroke-dasharray="4 3"/>`;
+    s += `<path d="${area(series)}" fill="var(--accent-soft)"/><path d="${path(series)}" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round"/>`;
+    s += `<line id="xh" x1="0" x2="0" y1="${m.t}" y2="${m.t + ih}" stroke="var(--ink-3)" stroke-width="1" visibility="hidden"/>`;
+    s += `<circle id="xd" r="4" fill="var(--accent)" stroke="var(--surface)" stroke-width="2" visibility="hidden"/>`;
+    s += `<rect x="${m.l}" y="${m.t}" width="${iw}" height="${ih}" fill="transparent" id="hit"/></svg>`;
+    weekEl.innerHTML = s; weekEl.appendChild(weekTip);
+    document.getElementById("weekLegend").innerHTML = c
+      ? `<span><i style="background:var(--accent)"></i>${esc(c)}</span><span><i style="background:var(--ref)"></i>All countries</span>`
+      : `<span><i style="background:var(--accent)"></i>All countries</span>`;
+    const svg = weekEl.querySelector("svg"), xh = svg.querySelector("#xh"), xd = svg.querySelector("#xd");
+    function move(ev) {
+      const r = svg.getBoundingClientRect(), sx = w / r.width;
+      const px = (ev.clientX - r.left) * sx;
+      const i = Math.max(0, Math.min(167, Math.floor((px - m.l) / iw * 168)));
+      const v = series[i]; if (v == null) return;
+      xh.setAttribute("x1", x(i)); xh.setAttribute("x2", x(i)); xh.setAttribute("visibility", "visible");
+      xd.setAttribute("cx", x(i)); xd.setAttribute("cy", y(v)); xd.setAttribute("visibility", "visible");
+      weekTip.innerHTML = `<div class="k">${DAYS_LONG[Math.floor(i / 24)]} ${hh(i % 24)}–${hh((i % 24 + 1) % 24)}</div>` +
+        `<div>${esc(c || "All countries")} <b>${pct(v)}</b></div>` + (c ? `<div class="k">All countries ${pct(all[i])}</div>` : "");
+      placeTip(weekTip, weekEl, x(i) / sx, y(v) / sx);
+    }
+    function leave() { xh.setAttribute("visibility", "hidden"); xd.setAttribute("visibility", "hidden"); weekTip.hidden = true; }
+    svg.addEventListener("pointermove", move); svg.addEventListener("pointerdown", move); svg.addEventListener("pointerleave", leave);
+  }
+  sel.addEventListener("change", drawWeek);
+
+  // ---------- heatmap ----------
+  const RAMP_LIGHT = ["#eef4fc", "#cde2fb", "#9ec5f4", "#6da7ec", "#3987e5", "#256abf", "#184f95", "#0d366b"];
+  const RAMP_DARK = ["#18202b", "#17304f", "#184f95", "#1c5cab", "#2a78d6", "#5598e7", "#86b6ef", "#cde2fb"];
+  const isDark = () => { const t = document.documentElement.getAttribute("data-theme"); return t ? t === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; };
+  const hex = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+  function color(v) {
+    const ramp = isDark() ? RAMP_DARK : RAMP_LIGHT;
+    const t = Math.max(0, Math.min(1, v / 100)) * (ramp.length - 1), i = Math.min(ramp.length - 2, Math.floor(t)), f = t - i;
+    const a = hex(ramp[i]), b = hex(ramp[i + 1]);
+    return `rgb(${a.map((c, k) => Math.round(c + (b[k] - c) * f)).join(",")})`;
+  }
+  const cities = [...byCity].map(([k, gs]) => { const [country, city] = k.split("|"); const p = profile(gs); return { country, city, gs, p, mean: mean(p), cap: sum(gs, g => g.cap) }; });
+  const heatEl = document.getElementById("heatWrap");
+  const heatTip = makeTip(heatEl);
+  let dayType = "wd";
+  function dayProfile(p, t) {
+    const days = t === "wd" ? [0, 1, 2, 3, 4] : t === "sat" ? [5] : [6];
+    return Array.from({ length: 24 }, (_, h) => mean(days.map(d => p[d * 24 + h])));
+  }
+  function drawHeat() {
+    const rows = cities.filter(c => c.gs.length >= 5).map(c => { const d = dayProfile(c.p, dayType); const k = argmax(d); return { c, d, k }; })
+      .sort((a, b) => b.d[b.k] - a.d[a.k]);
+    let s = `<table class="heat"><thead><tr><th></th>` + Array.from({ length: 24 }, (_, h) => `<th>${h % 3 === 0 ? String(h).padStart(2, "0") : ""}</th>`).join("") + `</tr></thead><tbody>`;
+    for (const r of rows) {
+      s += `<tr><th class="city" scope="row">${esc(r.c.city)}<small>${esc(r.c.country)}</small></th>`;
+      r.d.forEach((v, h) => { s += `<td class="${h === r.k ? "pk" : ""}" style="background:${v == null ? "transparent" : color(v)}" data-c="${esc(r.c.city)}" data-n="${r.c.gs.length}" data-h="${h}" data-v="${v == null ? "" : Math.round(v)}"></td>`; });
+      s += `</tr>`;
+    }
+    heatEl.innerHTML = s + `</tbody></table>`; heatEl.appendChild(heatTip);
+    const ramp = isDark() ? RAMP_DARK : RAMP_LIGHT;
+    document.getElementById("rampBar").style.background = `linear-gradient(90deg, ${ramp.join(",")})`;
+  }
+  heatEl.addEventListener("pointermove", ev => {
+    const td = ev.target.closest("td[data-c]"); if (!td) { heatTip.hidden = true; return; }
+    const label = dayType === "wd" ? "Mon–Fri" : dayType === "sat" ? "Saturday" : "Sunday";
+    heatTip.innerHTML = `<div><b>${esc(td.dataset.c)}</b> <span class="k">${td.dataset.n} garages</span></div><div class="k">${label} ${hh(+td.dataset.h)}–${hh((+td.dataset.h + 1) % 24)}</div><div><b>${td.dataset.v === "" ? "no data" : td.dataset.v + "%"}</b> occupied</div>`;
+    const hr = heatEl.getBoundingClientRect();
+    placeTip(heatTip, heatEl, ev.clientX - hr.left + heatEl.scrollLeft, ev.clientY - hr.top);
+  });
+  heatEl.addEventListener("pointerleave", () => { heatTip.hidden = true; });
+  document.getElementById("dayType").addEventListener("click", ev => {
+    const b = ev.target.closest("button"); if (!b) return;
+    dayType = b.dataset.v;
+    document.querySelectorAll("#dayType button").forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+    drawHeat();
+  });
+
+  // ---------- sparkline ----------
+  function spark(p, w = 120, h = 26) {
+    const x = i => (i + .5) * w / 168, y = v => h - 1 - v / 100 * (h - 2);
+    let d = "", pen = false;
+    p.forEach((v, i) => { if (v == null) { pen = false; return; } d += (pen ? "L" : "M") + x(i).toFixed(1) + "," + y(v).toFixed(1); pen = true; });
+    const seps = [1, 2, 3, 4, 5, 6].map(k => `<line x1="${k * w / 7}" x2="${k * w / 7}" y1="0" y2="${h}" stroke-width=".5"/>`).join("");
+    return `<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true">${seps}<path class="a" d="${d}L${x(167)},${h}L${x(0)},${h}Z"/><path class="l" d="${d}"/></svg>`;
+  }
+  const peakTxt = (p, k) => k < 0 ? "–" : `${pct(p[k])} <span class="muted">${DAYS[Math.floor(k / 24)]} ${hh(k % 24)}</span>`;
+
+  // ---------- country table ----------
+  document.getElementById("countryTable").innerHTML =
+    `<thead><tr><th>Country</th><th class="r">Garages</th><th class="r">Spaces</th><th class="r">Average</th><th class="r">Busiest hour</th><th>Typical week</th></tr></thead><tbody>` +
+    countryRows.map(r => `<tr><td>${esc(r.c)}</td><td class="r num">${r.gs.length}</td><td class="r num">${fmtInt(r.cap)}</td><td class="r num">${pct(r.mean)}</td><td class="r num">${peakTxt(r.p, r.pk)}</td><td>${spark(r.p)}</td></tr>`).join("") + `</tbody>`;
+
+  // ---------- city table ----------
+  const cityRows = cities.map(c => {
+    const wd = dayProfile(c.p, "wd"), sat = dayProfile(c.p, "sat");
+    const wk = argmax(wd), sk = argmax(sat);
+    return { ...c, wdPeak: wd[wk], wdH: wk, satPeak: sat[sk], satH: sk, fullN: c.gs.filter(g => g.full > 0).length };
+  });
+  let sortKey = "n", sortAsc = false, openCity = null, showAll = false, query = "";
+  const cityCols = [
+    ["city", "City", ""], ["country", "Country", ""], ["n", "Garages", "r"], ["cap", "Spaces", "r"], ["mean", "Average", "r"],
+    ["wdPeak", "Weekday peak", "r"], ["satPeak", "Saturday peak", "r"], ["fullN", "Garages ever full", "r"],
+  ];
+  const val = (r, k) => k === "n" ? r.gs.length : r[k];
+  function drawCities() {
+    const q = query.trim().toLowerCase();
+    let rows = cityRows.filter(r => !q || r.city.toLowerCase().includes(q) || r.country.toLowerCase().includes(q) || r.gs.some(g => (g.name || "").toLowerCase().includes(q)));
+    rows.sort((a, b) => { const x = val(a, sortKey), y = val(b, sortKey); const c = typeof x === "string" ? x.localeCompare(y) : x - y; return sortAsc ? c : -c; });
+    const total = rows.length;
+    const limit = showAll || q ? rows.length : 25;
+    rows = rows.slice(0, limit);
+    document.getElementById("qCount").textContent = q ? `${total} ${total === 1 ? "city" : "cities"} match` : "";
+    const more = document.getElementById("moreCities");
+    more.hidden = showAll || q || total <= 25; more.textContent = `Show all ${total} cities`;
+    let s = `<thead><tr>` + cityCols.map(([k, l, cl]) => `<th data-sort="${k}" class="${cl} ${k === sortKey ? "on" + (sortAsc ? " asc" : "") : ""}" scope="col">${l}</th>`).join("") + `</tr></thead><tbody>`;
+    for (const r of rows) {
+      const key = r.country + "|" + r.city, open = openCity === key || (q && r.gs.some(g => (g.name || "").toLowerCase().includes(q)) && !r.city.toLowerCase().includes(q));
+      s += `<tr class="city-row${open ? " open" : ""}" data-k="${esc(key)}" tabindex="0" aria-expanded="${open}"><td>${esc(r.city)}</td><td>${esc(r.country)}</td><td class="r num">${r.gs.length}</td><td class="r num">${fmtInt(r.cap)}</td><td class="r num">${pct(r.mean)}</td>` +
+        `<td class="r num">${pct(r.wdPeak)} <span class="muted">${hh(r.wdH)}</span></td><td class="r num">${pct(r.satPeak)} <span class="muted">${r.satH < 0 ? "" : hh(r.satH)}</span></td><td class="r num">${r.fullN}</td></tr>`;
+      if (open) {
+        const gs = [...r.gs].sort((a, b) => b.avg - a.avg).filter(g => !q || r.city.toLowerCase().includes(q) || (g.name || "").toLowerCase().includes(q));
+        for (const g of gs) s += `<tr class="sub-row"><td colspan="3">${esc(g.name)}</td><td class="r num">${fmtInt(g.cap)}</td><td class="r num">${pct(g.avg)}</td><td class="r num" colspan="2">${peakTxt(g.p, g.pk)}</td><td class="r">${g.full ? `<span class="pill full">${g.full} h full</span> ` : ""}${spark(g.p, 96, 22)}</td></tr>`;
+      }
+    }
+    document.getElementById("cityTable").innerHTML = s + `</tbody>`;
+  }
+  const cityTable = document.getElementById("cityTable");
+  cityTable.addEventListener("click", ev => {
+    const th = ev.target.closest("th[data-sort]");
+    if (th) { const k = th.dataset.sort; if (k === sortKey) sortAsc = !sortAsc; else { sortKey = k; sortAsc = k === "city" || k === "country"; } drawCities(); return; }
+    const tr = ev.target.closest("tr.city-row"); if (tr) { openCity = openCity === tr.dataset.k ? null : tr.dataset.k; drawCities(); }
+  });
+  cityTable.addEventListener("keydown", ev => { if ((ev.key === "Enter" || ev.key === " ") && ev.target.matches("tr.city-row")) { ev.preventDefault(); ev.target.click(); } });
+  document.getElementById("q").addEventListener("input", ev => { query = ev.target.value; drawCities(); });
+  document.getElementById("moreCities").addEventListener("click", () => { showAll = true; drawCities(); });
+
+  // ---------- busiest garages ----------
+  const busy = garages.filter(g => g.cap >= 50).sort((a, b) => b.full - a.full || b.avg - a.avg).slice(0, 20);
+  document.getElementById("busyTable").innerHTML =
+    `<thead><tr><th>Garage</th><th>City</th><th class="r">Spaces</th><th class="r">Full hours / week</th><th class="r">Average</th><th>Typical week</th></tr></thead><tbody>` +
+    busy.map(g => `<tr><td>${esc(g.name)}</td><td>${esc(g.city)} <span class="muted">${esc(g.country)}</span></td><td class="r num">${fmtInt(g.cap)}</td><td class="r num">${g.full}</td><td class="r num">${pct(g.avg)}</td><td>${spark(g.p)}</td></tr>`).join("") + `</tbody>`;
+
+  // ---------- method ----------
+  document.getElementById("mWindow").textContent =
+    `Window: ${W.weeks} full weeks, ${fmtDate(W.start)} to ${fmtDate(W.end)}. Of ${fmtInt(META.considered)} garages that reported in the window, ${fmtInt(META.included)} are in this report.`;
+  const why = {
+    "too little data in the window": "too little data: readings on fewer than 7 days, or gaps leaving parts of the week empty",
+    "feed health: frozen": "the feed repeats one value (stuck sensor)",
+    "feed health: stopped": "the feed stopped during the window",
+    "no capacity, or under 10 spaces": "no known capacity, or under 10 spaces",
+    "feed health: capacity": "readings do not fit the known capacity",
+    "near full around the clock, no daily pattern": "near full every hour with no daily swing (counter stuck near 0 free)",
+    "feed health: oscillating": "the feed flips between two values",
+  };
+  document.getElementById("mExcluded").innerHTML = Object.entries(META.excluded).map(([k, n]) => `<li><span class="num">${n}</span> ${esc(why[k] || k)}</li>`).join("");
+  document.getElementById("foot").textContent = `Generated ${META.generated_at.replace("T", " ").replace("Z", " UTC")} from the ParkingUtilisation database.`;
+
+  // ---------- render + theme/resize ----------
+  drawWeek(); drawHeat(); drawCities();
+  let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(drawWeek, 120); });
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", drawHeat);
+  new MutationObserver(drawHeat).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+})();
+</script>

@@ -20,7 +20,8 @@ Left out, with the reason counted in the output:
   stuck at or near 0 free).
 
 Writes JSON (default: <db dir>/reports/utilisation_<end date>.json). It
-never changes the database.
+never changes the database. `--html <report.json> <page.html>` renders a
+downloaded report into a self-contained page via report_template.html.
 """
 
 from __future__ import annotations
@@ -33,8 +34,6 @@ from collections import Counter
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
-
-from app import SOURCE_COUNTRY
 
 DB_PATH = Path(os.environ.get("PARKING_DB_PATH", Path(__file__).parent / "data" / "parking.db"))
 
@@ -74,6 +73,8 @@ def _parse(ts: str) -> datetime:
 
 
 def build(conn: sqlite3.Connection, today: date | None = None) -> dict:
+    from app import SOURCE_COUNTRY  # Flask is only installed on the server
+
     start, end = _window(today or datetime.now(timezone.utc).date())
     # a day of margin either side; readings are then cut to local dates
     lo = (datetime.combine(start, datetime.min.time()) - timedelta(days=1)).strftime("%Y-%m-%d")
@@ -165,7 +166,24 @@ def build(conn: sqlite3.Connection, today: date | None = None) -> dict:
     }
 
 
+def render_html(report: dict) -> str:
+    """The report as a self-contained page (report_template.html plus the data)."""
+    meta = {k: report[k] for k in ("window", "method", "considered", "included", "excluded", "generated_at")}
+    rows = [
+        [g["name"], g["city"], g["country"], g["capacity"], g["full_hours"], [-1 if v is None else v for v in g["profile"]]]
+        for g in report["garages"]
+    ]
+    data = (f"const META={json.dumps(meta, ensure_ascii=False, separators=(',', ':'))};\n"
+            f"const G={json.dumps(rows, ensure_ascii=False, separators=(',', ':'))};\n")
+    return (Path(__file__).parent / "report_template.html").read_text(encoding="utf-8").replace("/*DATA*/", data)
+
+
 def main() -> None:
+    if sys.argv[1:2] == ["--html"]:  # --html <report.json> <page.html>: render a downloaded report
+        report = json.loads(Path(sys.argv[2]).read_text(encoding="utf-8"))
+        Path(sys.argv[3]).write_text(render_html(report), encoding="utf-8")
+        print(f"{sys.argv[3]}: {report['included']} garages")
+        return
     conn = sqlite3.connect(f"file:{DB_PATH}?mode=ro", uri=True)
     conn.execute("PRAGMA busy_timeout=30000")
     report = build(conn)
