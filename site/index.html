@@ -260,6 +260,8 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
   const fmt = n => (n == null ? "–" : Number(n).toLocaleString("en-GB"));
   const pct = v => (v == null ? "–" : Math.round(v) + "%");
   const hh = h => String(h).padStart(2, "0") + ":00";
+  const CCY = { uk: "GBP", dk: "DKK" };
+  const money = (v, cc, dp = 2) => v == null ? "–" : new Intl.NumberFormat("en-GB", { style: "currency", currency: CCY[cc] || "EUR", minimumFractionDigits: dp, maximumFractionDigits: dp }).format(v);
   const isDark = () => { const t = document.documentElement.getAttribute("data-theme"); return t ? t === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; };
   const hex = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
   function rampColor(v) {
@@ -485,16 +487,16 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
         <div class="stat"><b>${pct(d.now)}</b><span>occupied right now</span></div>
         <div class="stat"><b>${d.profile ? pct(d.profile.filter(v => v != null).reduce((a, b) => a + b, 0) / d.profile.filter(v => v != null).length) : "–"}</b><span>in a typical week</span></div>
         <div class="stat"><b>${d.profile ? pct(d.profile[peak]) : "–"}</b><span>${d.profile ? `at the busiest hour, ${DAYS[Math.floor(peak / 24)]} ${hh(peak % 24)}` : "busiest hour"}</span></div>
-        <div class="stat"><b>${fmt(d.garages.length)}</b><span>garages</span></div>
+        <div class="stat"><b>${d.prices && d.prices.median_rate != null ? money(d.prices.median_rate, d.garages[0].price ? d.garages[0].price.country : null) : fmt(d.garages.length)}</b><span>${d.prices && d.prices.median_rate != null ? `typical hourly rate, ${d.prices.garages} garages` : "garages"}</span></div>
       </div>
       <div class="panel"><div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem"><h2>Typical week</h2>
         <button type="button" class="btn" id="cityCmp">+ Compare</button></div>
         <div class="chart" id="cityWeek">${d.profile ? "" : `<p class="note">Not enough recent data for a typical week yet.</p>`}</div>
         ${d.profile ? `<p class="note">Share of the city's spaces occupied, hour by hour, ${esc(d.window.start)} to ${esc(d.window.end)}; ${d.profiled} garages with enough data.</p>` : ""}</div>
       <div class="panel"><h2>Garages</h2><div class="scroll"><table class="data">
-        <thead><tr><th>Garage</th><th>Type</th><th class="r">Spaces</th><th class="r">Now</th><th class="r">Typical</th><th class="r">Full hours / week</th><th>Typical week</th></tr></thead>
+        <thead><tr><th>Garage</th><th>Type</th><th class="r">Spaces</th><th class="r">Per hour</th><th class="r">Now</th><th class="r">Typical</th><th class="r">Full hours / week</th><th>Typical week</th></tr></thead>
         <tbody>${d.garages.map(g => `<tr class="link" data-id="${esc(g.id)}" tabindex="0"><td>${esc(g.name)}</td><td class="muted">${esc(g.type)}</td>
-          <td class="r num">${fmt(g.capacity)}</td><td class="r">${g.now != null ? `<span class="pill${g.now >= 90 ? " full" : ""}">${g.now}%</span>` : `<span class="muted">–</span>`}</td>
+          <td class="r num">${fmt(g.capacity)}</td><td class="r num">${g.price && g.price.hourly_rate != null ? money(g.price.hourly_rate, g.price.country) : "–"}</td><td class="r">${g.now != null ? `<span class="pill${g.now >= 90 ? " full" : ""}">${g.now}%</span>` : `<span class="muted">–</span>`}</td>
           <td class="r num">${g.typical ? pct(g.typical.avg * 100) : "–"}</td><td class="r num">${g.typical ? g.typical.full_hours : "–"}</td>
           <td>${g.typical ? spark(g.typical.spark) : ""}</td></tr>`).join("")}</tbody></table></div></div>`;
     if (d.profile) weekChart(document.getElementById("cityWeek"), [{ values: d.profile, color: "var(--accent)", label: d.city }]);
@@ -527,6 +529,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
           ${t ? `<p class="note">Weekdays ${pct(t.weekday_avg * 100)}, weekends ${pct(t.weekend_avg * 100)} on average, ${esc(d.window.start)} to ${esc(d.window.end)}.</p>` : ""}</div>
         <div class="panel"><h2>Location</h2>${g.lat != null ? `<div class="minimap" id="garMap"></div>` : `<p class="note">No location on file.</p>`}</div>
       </div>
+      ${g.price ? pricePanel(g, t) : ""}
       <div class="panel"><div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem;align-items:center"><h2>Year view</h2>
         <div class="seg" role="group" aria-label="Year" id="garYears">${[thisYear - 3, thisYear - 2, thisYear - 1, thisYear].map(y => `<button type="button" data-y="${y}" aria-pressed="${y === thisYear}">${y}</button>`).join("")}</div></div>
         <div class="chart scroll" id="garCal"><p class="skeleton">Loading…</p></div>
@@ -547,6 +550,21 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     document.getElementById("garYears").addEventListener("click", ev => { const b = ev.target.closest("button[data-y]"); if (b) loadYear(+b.dataset.y); });
     document.getElementById("garCmp").addEventListener("click", () => { addCompare({ kind: "garage", id: g.id, name: g.name, city: g.city }); location.hash = "#compare"; });
     loadYear(thisYear);
+  }
+
+  function pricePanel(g, t) {
+    const p = g.price, cc = p.country;
+    const rows = [
+      ["Hourly rate", money(p.hourly_rate, cc)],
+      ["Day ticket", money(p.daily_cap, cc)],
+      p.operator ? ["Operator", esc(p.operator)] : null,
+      t && p.revenue_week ? ["Takings in a typical week", money(p.revenue_week, cc, 0)] : null,
+      t && p.revenue_week ? ["Per space a week", money(p.revenue_week / g.capacity, cc)] : null,
+    ].filter(Boolean);
+    return `<div class="panel"><h2>Price and takings</h2>
+      <div class="scroll"><table class="data"><tbody>${rows.map(([k, v]) =>
+        `<tr><td>${k}</td><td class="r num">${v}</td></tr>`).join("")}</tbody></table></div>
+      <p class="note">${p.revenue_week ? "Takings are occupancy × spaces × the posted hourly rate: what the garage would take if every occupied space paid that rate. Day tickets, season parkers, residents and shopper validation all pay less, so read it as an upper bound for comparing garages, not a forecast. " : ""}Tariff from ${p.source_url ? `<a href="${esc(p.source_url)}" rel="nofollow noopener" target="_blank">the operator's page</a>` : "the operator"}${p.matched_name && p.matched_name !== g.name ? `, listed there as “${esc(p.matched_name)}”` : ""}.</p></div>`;
   }
 
   // calendar: grid[week][weekday]["0"] = daily average (granularity 24)

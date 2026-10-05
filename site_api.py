@@ -1,6 +1,7 @@
 """Data endpoints for the public site (site/index.html, served at /):
-what is full right now, search, a garage card, a city view, and a one-line
-feed status for the header.
+what is full right now, search, a garage card (with its posted tariff and
+indicative takings, garage_prices.py), a city view, and a one-line feed
+status for the header.
 
 Built so the site can be browsed without handing out the archive: every
 endpoint returns a summary for one thing at a time (search answers at most
@@ -192,17 +193,20 @@ def api_search():
 
 
 def _garage_summary(row, report: dict, now: dict) -> dict:
+    from garage_prices import prices, revenue_week
     from garage_types import LABELS, classify
 
     pid, name, city, cap, lat, lon, src, last = row
     g = report["garages"].get(pid)
     live = now.get(pid)
+    price = prices().get(pid)
     return {
         "id": pid, "name": name, "city": city, "country": _country(src), "capacity": cap,
         "lat": lat, "lon": lon, "type": LABELS[classify(name)],
         "now": live["occ"] if live else None, "now_ts": live["ts"] if live else None,
         "last_reading": (last or "")[:16] or None,
         "typical": {k: g[k] for k in ("avg", "weekday_avg", "weekend_avg", "peak", "full_hours", "profile")} if g else None,
+        "price": price and dict(price, revenue_week=revenue_week(g["profile"], cap, price["hourly_rate"]) if g else None),
     }
 
 
@@ -244,6 +248,9 @@ def api_city(city: str):
                 num += v * g["capacity"]
                 den += g["capacity"]
         profile.append(round(num / den) if den else None)
+    priced = [g for g in garages if g["price"] and g["price"]["hourly_rate"]]
+    rates = sorted(g["price"]["hourly_rate"] for g in priced)
+    revenue = [g["price"]["revenue_week"] for g in priced if g["price"]["revenue_week"]]
     live = [g for g in garages if g["now"] is not None]
     for g in garages:
         if g["typical"]:
@@ -253,4 +260,7 @@ def api_city(city: str):
         "capacity": sum(g["capacity"] for g in garages),
         "now": round(sum(g["now"] * g["capacity"] for g in live) / sum(g["capacity"] for g in live)) if live else None,
         "profile": profile if profiled else None, "profiled": len(profiled), "window": report["window"],
+        "prices": {"garages": len(priced), "median_rate": rates[len(rates) // 2] if rates else None,
+                   "min_rate": rates[0] if rates else None, "max_rate": rates[-1] if rates else None,
+                   "revenue_week": sum(revenue) if revenue else None, "revenue_garages": len(revenue)} if priced else None,
     })
