@@ -32,21 +32,24 @@ figure should be read as "of this order", which is why estimate() also
 returns the low and high variants (SPREAD) and the assumptions it used.
 
 Calibration (2026-10-05), against Q-Park's 2024 accounts -- the only
-operator publishing both halves. Two checks, and they say different things:
+operator publishing both halves. Their EUR 795m parking revenue over
+346,085 operational spaces is EUR 2,297 per space a year, and 24.1% of it
+came from long-term contracts.
 
-- Level: Q-Park's EUR 795m parking revenue over 346,085 operational spaces
-  is EUR 2,297 per space a year across every kind of site. The 12 Q-Park
-  garages in our set, all city-centre, model EUR 2,360 -- just above, as
-  they should be. MONTHLY_MULTIPLE is set from this.
-- Split: Q-Park took 24.1% of parking revenue from long-term contracts.
-  The same 12 garages model 16.9%. The model therefore gets the total
-  about right while attributing too much of it to visitors.
+Of the 23 Q-Park garages in our set, the 12 outside Amsterdam model a
+median of EUR 2,296 per space a year. That is the level check passing
+about as well as it can. Including the 11 Amsterdam sites the median is
+EUR 4,123, because at EUR 9-14 an hour this model bills as visitors the
+season-ticket and permit holders who fill those garages by day; the
+dearest reads EUR 33,000 per space a year, which is not credible.
 
-The gap between those two is the known bias below, measured: roughly seven
-points of revenue that belong to contract parkers are billed here at the
-hourly rate. Closing it needs the daytime contract share, which no feed
-gives us; raising MONTHLY_MULTIPLE to force the split would break the
-level, since the overnight floor is the wrong base to inflate.
+The split check fails in the same direction and for the same reason: the
+same garages model 7-17% contract revenue against Q-Park's 24.1%.
+
+So the model is sound for ordinary city-centre tariffs and overstates the
+dear ones. Estimates above HIGH_TARIFF an hour carry "high_tariff": True.
+Raising MONTHLY_MULTIPLE to force the split would break the level, since
+the overnight floor is the wrong base to inflate.
 
 Known bias: the only contract parkers the model can see are those still
 there at 4 a.m. Season tickets and residents' permits used through the
@@ -69,6 +72,10 @@ MONTHLY_MULTIPLE = 7.5
 LEAKAGE = 0.12                  # share of visitor takings never collected
 IMPLIED_CAP_HOURS = 5.5         # day ticket, where none is published, as hours at the hourly rate
 SPREAD = 0.25                   # low/high variants: mean stay +/- this share
+# Above this hourly rate the estimate stops being reliable: see the
+# calibration note. Flagged in the output rather than adjusted, because
+# the right correction is a daytime contract share we cannot measure.
+HIGH_TARIFF = 8.0
 
 # by garage type (garage_types.classify): (share of arrivals, stay hours)
 MIXES: dict[str, list[tuple[float, float]]] = {
@@ -147,6 +154,7 @@ def estimate(profile: list[float | None], capacity: int, hourly_rate: float | No
         "stays_per_week": round(visitor_space_hours / mean_stay),
         "type": garage_type,
         "daily_cap_implied": implied_cap,
+        "high_tariff": bool(hourly_rate and hourly_rate >= HIGH_TARIFF),
         "assumptions": {"monthly_multiple": MONTHLY_MULTIPLE, "leakage": LEAKAGE, "daily_cap": daily_cap,
                         "mix": [{"hours": h, "share": s} for s, h in mix]},
     }
