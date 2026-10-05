@@ -5,7 +5,8 @@ weekly) and /trends (multi-year trends, rebuilt monthly).
 scraper_daemon.py calls spawn_if_due() every 5 minutes; a due build runs as
 a separate process (`python3 reports_job.py utilisation|trends`), so the
 trends build -- several minutes over the whole history -- never holds up the
-scrapers. A lock file per kind stops a second build starting while one runs.
+scrapers. A lock file per kind (holding the build's pid) stops a second
+build starting while one runs.
 Builds write <db dir>/reports/<kind>_latest.html (served by app.py) plus a
 dated JSON, and are logged in scraper_runs as adapter "reports".
 """
@@ -36,6 +37,15 @@ def _lock(kind: str) -> Path:
     return REPORTS_DIR / f".building-{kind}"
 
 
+def _alive(lock: Path) -> bool:
+    """Whether the build that wrote the lock is still running -- a deploy
+    restarts the machine mid-build and leaves the lock behind."""
+    try:
+        return Path(f"/proc/{int(lock.read_text().strip())}").exists()
+    except (ValueError, OSError):
+        return False
+
+
 def _due(conn: sqlite3.Connection, kind: str) -> bool:
     from scrapers.runner import _is_due, _last_success_at
 
@@ -51,13 +61,13 @@ def spawn_if_due(conn: sqlite3.Connection) -> None:
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     for kind in ("utilisation", "trends"):
         lock = _lock(kind)
-        if lock.exists() and time.time() - lock.stat().st_mtime < LOCK_MAX_AGE:
+        if lock.exists() and time.time() - lock.stat().st_mtime < LOCK_MAX_AGE and _alive(lock):
             continue
         if _due(conn, kind):
-            lock.write_text(str(os.getpid()))
-            subprocess.Popen([sys.executable, str(Path(__file__).resolve()), kind],
-                             cwd=Path(__file__).parent, start_new_session=True)
-            print(f"[reports] {kind} build started")
+            proc = subprocess.Popen([sys.executable, str(Path(__file__).resolve()), kind],
+                                    cwd=Path(__file__).parent, start_new_session=True)
+            lock.write_text(str(proc.pid))
+            print(f"[reports] {kind} build started (pid {proc.pid})")
 
 
 def build(kind: str) -> None:
