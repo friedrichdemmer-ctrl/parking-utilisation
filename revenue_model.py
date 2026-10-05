@@ -31,13 +31,22 @@ mix is assumed. Two garages modelled the same way compare fairly; a single
 figure should be read as "of this order", which is why estimate() also
 returns the low and high variants (SPREAD) and the assumptions it used.
 
-Calibration (2026-10-05). Q-Park is the only operator publishing the split
-this model predicts: in 2024, EUR 603.9m short-term and EUR 191.2m long-term
-parking revenue, i.e. 24.1% contract. MONTHLY_MULTIPLE is set so the model
-reproduces that share across the priced garages. As a level check, Q-Park's
-EUR 795m parking revenue over 346,085 operational spaces is EUR 2,297 per
-space a year across every kind of site; the Q-Park garages in our set, which
-are city-centre, model somewhat above that, as they should.
+Calibration (2026-10-05), against Q-Park's 2024 accounts -- the only
+operator publishing both halves. Two checks, and they say different things:
+
+- Level: Q-Park's EUR 795m parking revenue over 346,085 operational spaces
+  is EUR 2,297 per space a year across every kind of site. The 12 Q-Park
+  garages in our set, all city-centre, model EUR 2,360 -- just above, as
+  they should be. MONTHLY_MULTIPLE is set from this.
+- Split: Q-Park took 24.1% of parking revenue from long-term contracts.
+  The same 12 garages model 16.9%. The model therefore gets the total
+  about right while attributing too much of it to visitors.
+
+The gap between those two is the known bias below, measured: roughly seven
+points of revenue that belong to contract parkers are billed here at the
+hourly rate. Closing it needs the daytime contract share, which no feed
+gives us; raising MONTHLY_MULTIPLE to force the split would break the
+level, since the overnight floor is the wrong base to inflate.
 
 Known bias: the only contract parkers the model can see are those still
 there at 4 a.m. Season tickets and residents' permits used through the
@@ -50,12 +59,12 @@ from __future__ import annotations
 
 NIGHT_HOURS = range(2, 5)       # contract/resident floor, as in utilisation_report
 DAYS_PER_MONTH = 30.4
-# Fitted to Q-Park's published 2024 split: of EUR 795m parking revenue,
-# long-term (season/contract) was EUR 191.2m and short-term EUR 603.9m, so
-# contract is 24.1%. At 12 day tickets a month this model put contract at
-# 34% across the 104 priced garages; 7.5 reproduces 24%, and implies a
-# monthly rate of about 7.5 x the day ticket -- EUR 110 on a EUR 15 day
-# ticket, which is the right order for a city-centre season ticket.
+# Set by the level check in the calibration note below: at 12 day tickets a
+# month the Q-Park garages in our set modelled EUR 2,877 per space a year
+# against the group's reported EUR 2,297; at 7.5 they model EUR 2,360, which
+# is the right side of it by the right margin. 7.5 also implies a monthly
+# rate of about EUR 110 on a EUR 15 day ticket, the right order for a
+# city-centre season ticket.
 MONTHLY_MULTIPLE = 7.5
 LEAKAGE = 0.12                  # share of visitor takings never collected
 IMPLIED_CAP_HOURS = 5.5         # day ticket, where none is published, as hours at the hourly rate
