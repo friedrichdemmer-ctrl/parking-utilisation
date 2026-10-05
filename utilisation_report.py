@@ -40,6 +40,11 @@ MIN_DAYS = 7
 MIN_SLOTS = 150
 MIN_CAPACITY = 10
 FULL = 0.90  # an hour counts as "full" when average occupancy is at least this
+# a garage that is near full every hour of the week, with no day/night swing,
+# is a counter stuck at or near 0 free rather than real demand (an empty,
+# unused P+R site with a flat profile near 0% is plausible and kept)
+STUCK_RANGE = 0.15
+STUCK_LEVEL = 0.70
 
 COUNTRY_TZ = {
     "Germany": "Europe/Berlin", "Netherlands": "Europe/Amsterdam", "France": "Europe/Paris",
@@ -72,13 +77,17 @@ def build(conn: sqlite3.Connection, today: date | None = None) -> dict:
         (lo,),
     ).fetchall()
     excluded: Counter = Counter()
+    by_source: Counter = Counter()
+    included_by_source: Counter = Counter()
     garages = []
     for place_id, name, city, capacity, source_id, lat, lon in places:
         if place_id in flagged:
             excluded[f"feed health: {flagged[place_id]}"] += 1
+            by_source[source_id] += 1
             continue
         if not capacity or capacity < MIN_CAPACITY:
             excluded["no capacity, or under 10 spaces"] += 1
+            by_source[source_id] += 1
             continue
         country = SOURCE_COUNTRY.get(source_id, "Germany")
         tz = ZoneInfo(COUNTRY_TZ[country])
@@ -99,12 +108,18 @@ def build(conn: sqlite3.Connection, today: date | None = None) -> dict:
         slots = [i for i in range(168) if counts[i]]
         if len(days) < MIN_DAYS or len(slots) < MIN_SLOTS:
             excluded["too little data in the window"] += 1
+            by_source[source_id] += 1
             continue
         profile = [sums[i] / counts[i] if counts[i] else None for i in range(168)]
         filled = [p for p in profile if p is not None]
+        if max(filled) - min(filled) < STUCK_RANGE and sum(filled) / len(filled) >= STUCK_LEVEL:
+            excluded["near full around the clock, no daily pattern"] += 1
+            by_source[source_id] += 1
+            continue
         weekday = [profile[i] for i in range(120) if profile[i] is not None]
         weekend = [profile[i] for i in range(120, 168) if profile[i] is not None]
         peak = max(slots, key=lambda i: profile[i])
+        included_by_source[source_id] += 1
         garages.append({
             "id": place_id, "name": name, "city": city, "country": country, "source": source_id,
             "capacity": capacity, "lat": lat, "lon": lon, "days": len(days),
@@ -125,6 +140,8 @@ def build(conn: sqlite3.Connection, today: date | None = None) -> dict:
         "considered": len(places),
         "included": len(garages),
         "excluded": dict(excluded.most_common()),
+        # source_id: [included, excluded]
+        "sources": {s: [included_by_source[s], by_source[s]] for s in sorted(set(by_source) | set(included_by_source))},
         "garages": sorted(garages, key=lambda g: (g["country"], g["city"] or "", g["name"] or "")),
     }
 
