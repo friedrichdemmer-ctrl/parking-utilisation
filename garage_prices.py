@@ -53,6 +53,17 @@ def prices() -> dict[str, dict]:
     return out
 
 
+def modelled_revenue(profile, capacity: int, price: dict | None, name: str | None) -> dict | None:
+    """revenue_model.estimate() for a garage: day tickets, contract parkers
+    and a stay mix by type, rather than billing every hour at the hourly rate."""
+    from garage_types import classify
+    from revenue_model import estimate
+
+    if not price:
+        return None
+    return estimate(profile, capacity, price["hourly_rate"], price["daily_cap"], classify(name))
+
+
 def revenue_week(profile: list[float | None], capacity: int, hourly_rate: float | None) -> float | None:
     """Gross takings over a typical week at the posted hourly rate, from a
     168-hour occupancy profile in percent (utilisation_report.py). None when

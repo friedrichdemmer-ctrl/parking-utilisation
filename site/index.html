@@ -553,18 +553,29 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
   }
 
   function pricePanel(g, t) {
-    const p = g.price, cc = p.country;
-    const rows = [
+    const p = g.price, cc = p.country, m = p.modelled;
+    const tariff = [
       ["Hourly rate", money(p.hourly_rate, cc)],
-      ["Day ticket", money(p.daily_cap, cc)],
+      ["Day ticket", p.daily_cap != null ? money(p.daily_cap, cc) : `<span class="muted">not published</span>`],
       p.operator ? ["Operator", esc(p.operator)] : null,
-      t && p.revenue_week ? ["Takings in a typical week", money(p.revenue_week, cc, 0)] : null,
-      t && p.revenue_week ? ["Per space a week", money(p.revenue_week / g.capacity, cc)] : null,
     ].filter(Boolean);
+    const rows = m ? [
+      ["Visitors", money(m.visitor, cc, 0), `${fmt(m.stays_per_week)} stays a week, ${m.mean_stay_h} h on average`],
+      ["Contract and residents", money(m.contract, cc, 0), `${fmt(m.contract_spaces)} spaces still taken at 4 a.m.`],
+      ["Total a week", money(m.total, cc, 0), `${money(m.low, cc, 0)} to ${money(m.high, cc, 0)} if stays run shorter or longer`],
+      ["Per space a year", money(m.per_space_year, cc, 0), ""],
+    ] : [];
     return `<div class="panel"><h2>Price and takings</h2>
-      <div class="scroll"><table class="data"><tbody>${rows.map(([k, v]) =>
-        `<tr><td>${k}</td><td class="r num">${v}</td></tr>`).join("")}</tbody></table></div>
-      <p class="note">${p.revenue_week ? "Takings are occupancy × spaces × the posted hourly rate: what the garage would take if every occupied space paid that rate. Day tickets, season parkers, residents and shopper validation all pay less, so read it as an upper bound for comparing garages, not a forecast. " : ""}Tariff from ${p.source_url ? `<a href="${esc(p.source_url)}" rel="nofollow noopener" target="_blank">the operator's page</a>` : "the operator"}${p.matched_name && p.matched_name !== g.name ? `, listed there as “${esc(p.matched_name)}”` : ""}.</p></div>`;
+      <div class="cols" style="gap:1rem">
+        <div class="scroll"><table class="data"><tbody>${tariff.map(([k, v]) =>
+          `<tr><td>${k}</td><td class="r num">${v}</td></tr>`).join("")}</tbody></table></div>
+        <div class="scroll">${m ? `<table class="data"><tbody>${rows.map(([k, v, note]) =>
+          `<tr><td>${k}${note ? `<br><span class="muted" style="font-size:.82rem">${note}</span>` : ""}</td><td class="r num">${v}</td></tr>`).join("")}</tbody></table>`
+          : `<p class="note">Not enough recent occupancy to estimate takings.</p>`}</div>
+      </div>
+      ${m ? `<p class="note">Estimated from the measured occupancy: cars still there at 4 a.m. are treated as contract parkers paying a monthly rate, and the rest as visitors on a mix of stays typical of ${esc((m.type === "city" ? "a city-centre garage" : g.type.toLowerCase()))}, each paying the lower of the hourly rate and the day ticket, less ${Math.round(m.assumptions.leakage * 100)}% for validation, free periods and permits.${p.revenue_week ? ` Billing every occupied hour at the hourly rate instead would give ${money(p.revenue_week, cc, 0)}.` : ""}
+      It cannot see season tickets and residents' permits used during the day, which are billed here at the hourly rate, so garages with a high hourly tariff read high.</p>` : ""}
+      <p class="note">Tariff from ${p.source_url ? `<a href="${esc(p.source_url)}" rel="nofollow noopener" target="_blank">the operator's page</a>` : "the operator"}${p.matched_name && p.matched_name !== g.name ? `, listed there as \u201c${esc(p.matched_name)}\u201d` : ""}.</p></div>`;
   }
 
   // calendar: grid[week][weekday]["0"] = daily average (granularity 24)

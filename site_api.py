@@ -193,7 +193,7 @@ def api_search():
 
 
 def _garage_summary(row, report: dict, now: dict) -> dict:
-    from garage_prices import prices, revenue_week
+    from garage_prices import modelled_revenue, prices, revenue_week
     from garage_types import LABELS, classify
 
     pid, name, city, cap, lat, lon, src, last = row
@@ -206,7 +206,9 @@ def _garage_summary(row, report: dict, now: dict) -> dict:
         "now": live["occ"] if live else None, "now_ts": live["ts"] if live else None,
         "last_reading": (last or "")[:16] or None,
         "typical": {k: g[k] for k in ("avg", "weekday_avg", "weekend_avg", "peak", "full_hours", "profile")} if g else None,
-        "price": price and dict(price, revenue_week=revenue_week(g["profile"], cap, price["hourly_rate"]) if g else None),
+        "price": price and dict(price,
+                               revenue_week=revenue_week(g["profile"], cap, price["hourly_rate"]) if g else None,
+                               modelled=modelled_revenue(g["profile"], cap, price, name) if g else None),
     }
 
 
@@ -250,7 +252,7 @@ def api_city(city: str):
         profile.append(round(num / den) if den else None)
     priced = [g for g in garages if g["price"] and g["price"]["hourly_rate"]]
     rates = sorted(g["price"]["hourly_rate"] for g in priced)
-    revenue = [g["price"]["revenue_week"] for g in priced if g["price"]["revenue_week"]]
+    revenue = [g["price"]["modelled"]["total"] for g in priced if g["price"].get("modelled")]
     live = [g for g in garages if g["now"] is not None]
     for g in garages:
         if g["typical"]:
