@@ -24,8 +24,11 @@ HERE = Path(__file__).resolve().parent
 UNPRICED = HERE / "_unpriced_2026-10.csv"
 OUT = HERE / "prices_researched_2026-10.csv"
 REJECTS = HERE / "_rejected.csv"
-# plausibility bounds per hour, by currency
-BOUNDS = {"EUR": (0.2, 12.0), "CHF": (0.5, 12.0), "GBP": (0.3, 12.0), "DKK": (3.0, 90.0)}
+# Plausibility bounds per hour, by currency -- wide enough for the real
+# extremes, tight enough to catch a day rate read as an hourly one. Central
+# Amsterdam sets the ceiling: Waterlooplein is EUR 14.00/h and Rembrandtplein
+# EUR 13.00/h in 2026, both verified, so a EUR 12 cap rejected good rows.
+BOUNDS = {"EUR": (0.2, 20.0), "CHF": (0.5, 20.0), "GBP": (0.3, 20.0), "DKK": (3.0, 150.0)}
 
 def main() -> None:
     known = {r["place_id"]: r for r in csv.DictReader(open(UNPRICED, encoding="utf-8"))}
