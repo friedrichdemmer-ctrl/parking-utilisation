@@ -1,0 +1,623 @@
+place_id,name,city,country,capacity,lat,lon,address,place_url
+amsterdam-live-p-115-oosterdok-E5152B9C,P-115_ Oosterdok,Amsterdam,Netherlands,1800,52.37601,4.90901,,
+npr-other-nl-e0f088ad-f1ee-40c4-ae79-170aa0784dd9-garage-p5-villa-arena-amsterdam,Garage P5 Villa ArenA (Amsterdam),Amsterdam,Netherlands,1354,,,De Entree 7,
+npr-other-nl-43878fed-4dbf-4aef-a2b9-80168d11b5aa-garage-p4-villa-arena-amsterdam,Garage P4 Villa ArenA (Amsterdam),Amsterdam,Netherlands,1248,,,De Entree 228,
+amsterdam-live-p-105-euro-parking-opendata-55D76109,P-105_ Euro Parking (opendata),Amsterdam,Netherlands,710,52.36988,4.87663,,
+amsterdam-live-p-112-markenhoven-1FA32E12,P-112_ Markenhoven,Amsterdam,Netherlands,651,52.36981,4.90857,,
+amsterdam-live-p-303-vu-campus-C2F5A8BC,P-303_ VU campus,Amsterdam,Netherlands,616,52.3338,4.864,,
+amsterdam-live-p-107-museumplein-opendata-983A3143,P-107_ Museumplein (opendata),Amsterdam,Netherlands,573,52.35726,4.87944,,
+amsterdam-live-p-114-westergasfabriek-opendata-9F72057F,P-114_ Westergasfabriek (opendata),Amsterdam,Netherlands,504,52.38462,4.86627,,
+npr-other-nl-c2b50ef9-12a3-4ac5-b2b4-8bf0d896c98b-garage-olympisch-stadion-amsterdam,Garage Olympisch Stadion (Amsterdam),Amsterdam,Netherlands,500,,,Laan der Hesperiden 66,
+npr-other-nl-6b50b2e9-1d84-444d-a1d4-d09b0421a226-parkeergarage-p2-vumc-acta-amsterdam,Parkeergarage P2 VUmc ACTA (Amsterdam),Amsterdam,Netherlands,455,,,Gustav Mahlerlaan 3004,
+npr-other-nl-4a9684bf-f532-4248-9f43-1334233dc5d5-p-r-vumc-amsterdam,P+R VUmc (Amsterdam),Amsterdam,Netherlands,450,,,Gustav Mahlerlaan 3004,
+amsterdam-live-p-302-vumc-acta-359DE5D5,P-302_ VUmc (ACTA),Amsterdam,Netherlands,449,52.3362,4.8609,,
+amsterdam-live-p-106-byzantium-opendata-06757815,P-106_ Byzantium (opendata),Amsterdam,Netherlands,446,52.3619,4.88001,,
+amsterdam-live-p-109-bijenkorf-opendata-3C4F940F,P-109_ Bijenkorf (opendata),Amsterdam,Netherlands,431,52.37382,4.89508,,
+npr-other-nl-bbd15dc0-b00a-47ca-bbda-799883106891-parkeergarage-p1-vumc-westflank-amsterdam,Parkeergarage P1 VUmc Westflank (Amsterdam),Amsterdam,Netherlands,415,,,Amstelveenseweg 587,
+amsterdam-live-p-301-vumc-westflank-D7734029,P-301_ VUmc (westflank),Amsterdam,Netherlands,411,52.334,4.8595,,
+amsterdam-live-p-104-amsterdam-centraal-opendata-FEEB21D6,P-104_ Amsterdam Centraal (opendata),Amsterdam,Netherlands,410,52.37907,4.89722,,
+amsterdam-live-p-222-amsterdamse-poort-p22-opendata-A58994BA,P-222_ Amsterdamse Poort P22 (opendata),Amsterdam,Netherlands,405,52.31476,4.95268,,
+amsterdam-live-p-204-p4-villa-arena-2D5FB192,P-204_ P4 Villa Arena,Amsterdam,Netherlands,347,52.313,4.93866,,
+amsterdam-live-p-223-amsterdamse-poort-p23-opendata-1A6E8858,P-223_ Amsterdamse Poort P23 (opendata),Amsterdam,Netherlands,346,52.31765,4.95546,,
+amsterdam-live-p-102-olympisch-stadion-A557D1AD,P-102_ Olympisch Stadion,Amsterdam,Netherlands,250,52.343,4.8536,,
+amsterdam-live-p-125-ijdock-855FC36A,P-125_ IJdock,Amsterdam,Netherlands,244,52.38482,4.89475,,
+amsterdam-live-p-221-amsterdamse-poort-p21-opendata-0A3F9044,P-221_ Amsterdamse Poort P21 (opendata),Amsterdam,Netherlands,244,52.31413,4.950568542327871,,
+amsterdam-live-p-111-waterlooplein-opendata-B56E7150,P-111_ Waterlooplein (opendata),Amsterdam,Netherlands,200,52.36921,4.90437,,
+amsterdam-live-p-203-p3-mikado-C5E8592D,P-203_ P3 Mikado,Amsterdam,Netherlands,190,52.31086,4.93985,,
+amsterdam-live-p-126-rembrandtplein-A4614D34,P-126_ Rembrandtplein,Amsterdam,Netherlands,116,52.366058,4.898584,,
+npr-other-nl-a63813f7-8dda-43e9-bd52-aed6675b88a8-garage-the-bank-amsterdam,Garage The Bank (Amsterdam),Amsterdam,Netherlands,110,,,Amstelstraat 12,
+basel-live-city,Parkhaus City,Basel,Switzerland,1114,47.561101,7.5824076,Schanzenstrasse 48,https://www.parkleitsystem-basel.ch/parkhaus/city
+basel-live-elisabethen,Parkhaus Elisabethen,Basel,Switzerland,840,47.5506254,7.5874932,Steinentorberg 5,https://www.parkleitsystem-basel.ch/parkhaus/elisabethen
+basel-live-badbahnhof,Parkhaus Bad. Bahnhof,Basel,Switzerland,750,47.5651794,7.6089067,Schwarzwaldstrasse 160,https://www.parkleitsystem-basel.ch/parkhaus/badbahnhof
+basel-live-messe,Parkhaus Messe,Basel,Switzerland,727,47.563241,7.602175,Riehenstrasse 101,https://www.parkleitsystem-basel.ch/parkhaus/messe
+basel-live-steinen,Parkhaus Steinen,Basel,Switzerland,526,47.5524554,7.5858936,Steinenschanze 5,https://www.parkleitsystem-basel.ch/parkhaus/steinen
+basel-live-kunstmuseum,Parkhaus Kunstmuseum,Basel,Switzerland,350,47.5545146,7.5927014,St. Alban-Graben 3,https://www.parkleitsystem-basel.ch/parkhaus/kunstmuseum
+basel-live-rebgasse,Parkhaus Rebgasse,Basel,Switzerland,250,47.5607142,7.594263,Rebgasse 20,https://www.parkleitsystem-basel.ch/parkhaus/rebgasse
+basel-live-anfos,Parkhaus Anfos,Basel,Switzerland,165,47.5515968,7.593512,Henric Petri-Strasse 21,https://www.parkleitsystem-basel.ch/parkhaus/anfos
+basel-live-storchen,Parkhaus Storchen,Basel,Switzerland,142,47.5592347,7.58658,Fischmarkt 10,https://www.parkleitsystem-basel.ch/parkhaus/storchen
+basel-live-claramatte,Parkhaus Claramatte,Basel,Switzerland,120,47.5639644,7.5946604,Klingentalstrasse 25,https://www.parkleitsystem-basel.ch/parkhaus/claramatte
+basel-live-europe,Parkhaus Europe,Basel,Switzerland,120,47.5630411,7.5967098,Hammerstrasse 68,https://www.parkleitsystem-basel.ch/parkhaus/europe
+basel-live-bahnhofsued,Parkhaus Bahnhof Süd,Basel,Switzerland,100,47.5458851,7.5884556,Güterstrasse 115,https://www.parkleitsystem-basel.ch/parkhaus/bahnhofsued
+basel-live-aeschen,Parkhaus Aeschen,Basel,Switzerland,95,47.5504299,7.5943046,Aeschengraben 9,https://www.parkleitsystem-basel.ch/parkhaus/aeschen
+basel-live-clarahuus,Parkhaus Clarahuus,Basel,Switzerland,52,47.5622725,7.5917937,Webergasse 34,https://www.parkleitsystem-basel.ch/parkhaus/clarahuus
+parken-in-bochum-PH-Stadionring,PH Stadionring,Bochum,Germany,2000,51.49308,7.23289,"Stadionring 26, 44791 Bochum",https://www.parken-in-bochum.de/parkhaeuser/parkhaus/ph-stadionring/
+parken-in-bochum-P5-Bruckstrasse,P5 Brückstraße,Bochum,Germany,700,51.4828418,7.2184916,"P5 Brückstraße, Brückstraße 13, 44787 Bochum",https://www.parken-in-bochum.de/parkhaeuser/parkhaus/p5-brueckstrasse/
+parken-in-bochum-P8-Konrad-Adenauer-Platz,P8 Konrad-Adenauer-Platz / Bermuda3Eck,Bochum,Germany,543,51.4756973,7.2162057,"P8 Konrad-Adenauer-Platz, 44787 Bochum",https://www.parken-in-bochum.de/parkhaeuser/parkhaus/p8-konrad-adenauer-platz-bermuda3eck/
+parken-in-bochum-PH-Husemann-Karree,PH Husemann Karree,Bochum,Germany,510,51.479995,7.214179,"Viktoriastraße 27, Bochum",https://www.parken-in-bochum.de/parkhaeuser/parkhaus/ph-husemann-karree/
+parken-in-bochum-P6-Hauptbahnhof-Buddenbergplatz,P6 Hauptbahnhof (Buddenbergplatz),Bochum,Germany,480,,,"P6 Hauptbahnhof (Buddenbergplatz)
+Ferdinandstraße
+44787 Bochum",https://www.parken-in-bochum.de/parkhaeuser/parkhaus/p6-hauptbahnhof-buddenbergplatz/
+parken-in-bochum-P1-Husemannplatz,P1 Husemannplatz,Bochum,Germany,475,51.4794967,7.2159948,"Viktoriastraße 27, Bochum",https://www.parken-in-bochum.de/parkhaeuser/parkhaus/p1-husemannplatz/
+parken-in-bochum-P7-Kurt-Schumacher-Platz,P7 Kurt-Schumacher-Platz,Bochum,Germany,432,51.4781061,7.221024,,https://www.parken-in-bochum.de/parkhaeuser/parkhaus/p7-kurt-schumacher-platz/
+parken-in-bochum-P3-Rathaus-BVZ,P3 Rathaus (BVZ),Bochum,Germany,422,51.4825952,7.2131105,,https://www.parken-in-bochum.de/parkhaeuser/parkhaus/p3-rathaus-bvz/
+parken-in-bochum-P2-Dr-Ruer-Platz,P2 Dr.-Ruer-Platz,Bochum,Germany,375,51.4793414,7.2191238,"P2 Dr.-Ruer-Platz, Luisenstraße 9, 44787 Bochum",https://www.parken-in-bochum.de/parkhaeuser/parkhaus/p2-dr-ruer-platz/
+parken-in-bochum-P9-Schauspielhaus,P9 Schauspielhaus,Bochum,Germany,265,51.471854,7.2160649,"P9 Schauspielhaus, Hubertusstraße 2, 44789 Bochum",https://www.parken-in-bochum.de/parkhaeuser/parkhaus/p9-schauspielhaus/
+parken-in-bochum-PF-Bochumer-Fenster,PH Bochumer Fenster,Bochum,Germany,240,51.4800232,7.2231557,"Bochumer Fenster, Massenbergstraße 9, 44787 Bochum",https://www.parken-in-bochum.de/parkhaeuser/parkhaus/ph-bochumer-fenster/
+parken-in-bochum-PM-Massenbergstrasse,PH Massenbergstraße,Bochum,Germany,100,51.4802484,7.2221661,"PM Massenbergstraße, Massenbergstraße 15-17, 44787 Bochum",https://www.parken-in-bochum.de/parkhaeuser/parkhaus/ph-massenbergstrasse/
+odh-108,P08 - BZ Centro via Mayr Nusser,Bolzano,Italy,1055,46.494402,11.356716,,
+odh-116,P16 - Fiera via Marco Polo/Buozzi,Bolzano,Italy,770,46.472249,11.327066,,
+odh-609883-0,Parcheggio Waltherpark,Bolzano,Italy,514,46.49458,11.35497,,
+odh-106,P06 - Lauben Parking Portici,Bolzano,Italy,459,46.497134,11.358907,,
+odh-115,P15 - Palasport via Resia,Bolzano,Italy,425,46.491603,11.318078,,
+odh-103,P03 - Piazza Walther,Bolzano,Italy,403,46.497805,11.355115,,
+odh-parking-bz-8-0,TURIST-PARKING,Bolzano,Italy,370,46.49623289133699,11.367794908451254,,
+odh-urn-parking-skidata-f383171a-0ec4-5371-b4f6-8ba7b866a55d,Parcheggio NOI Techpark,Bolzano,Italy,245,46.4795666759812,11.3308001147679,,
+odh-112,P12 – Piazza Tribunale,Bolzano,Italy,174,46.49781,11.33851,,
+odh-urn-parking-skidata-a9630202-657f-5e7c-afb0-21af08999558,Parcheggio Mareccio,Bolzano,Italy,155,46.5029283148253,11.3517818215059,,
+odh-104,P04 - Luna via Molini,Bolzano,Italy,150,46.500551,11.358216,,
+odh-urn-parking-skidata-1aad1eaf-4854-5048-8c71-f1a1751e1a34,Parcheggio Ribo Skyline,Bolzano,Italy,150,46.50013,11.36476,,
+odh-urn-parking-skidata-f6adca81-3959-5990-af45-b03bac5fe9b4,Parcheggio My Mondschein,Bolzano,Italy,138,46.5005269813134,11.3581556556995,,
+odh-105,P05 - Laurin,Bolzano,Italy,90,46.498174099984666,11.357255100008064,,
+odh-urn-parking-skidata-ccae26b2-9148-540f-9d5c-0fb0921ac596,Parcheggio Bestparking,Bolzano,Italy,75,46.5030493772016,11.333371666565736,,
+bonn-bcp-parken-friedensplatz,friedensplatz,Bonn,Germany,810,,,,
+bonn-bcp-parken-unigarage,unigarage,Bonn,Germany,438,,,,
+bonn-bcp-parken-beethoven,beethoven,Bonn,Germany,416,,,,
+bonn-bcp-parken-operngarage,operngarage,Bonn,Germany,380,,,,
+bonn-bcp-parken-stadthaus,stadthaus,Bonn,Germany,320,,,,
+bonn-bcp-parken-muensterplatz,muensterplatz,Bonn,Germany,312,,,,
+bonn-bcp-parken-Rabinstrasse,Rabinstrasse,Bonn,Germany,305,,,,
+bonn-bcp-parken-markt,markt,Bonn,Germany,287,,,,
+bonn-bcp-parken-bike-ride,bike_ride,Bonn,Germany,220,,,,
+bonn-bcp-parken-bahnhof,hauptbahnhof,Bonn,Germany,94,,,,
+bordeaux-metropole-live-pey-berland-saint-christoly,Pey Berland - Saint Christoly,Bordeaux,France,600,44.8379111,-0.576216,Place Pey Berland 33000 Bordeaux,https://www.mtpk.fr/
+bordeaux-metropole-live-paludate-saint-jean,Paludate - Saint Jean,Bordeaux,France,585,44.8295686,-0.5535744,Rue Terres de Borde 33800 Bordeaux,https://www.mtpk.fr/
+bordeaux-metropole-live-huit-mai-45,Huit Mai 45,Bordeaux,France,399,44.8362853,-0.5857737,Rue Jean Fleuret 33000 Bordeaux,https://www.mtpk.fr/
+bordeaux-metropole-live-amplitude,Amplitude,Bordeaux,France,396,44.8388371,-0.5548014,6 rue René Buthaud 33100 Bordeaux,https://www.mtpk.fr/parkings/
+bordeaux-metropole-live-cite-mondiale,Cite Mondiale,Bordeaux,France,394,44.8496312,-0.5703787,20 Quai des Chartrons 33000 Bordeaux,https://www.mtpk.fr/
+bordeaux-metropole-live-porte-de-bordeaux,Porte De Bordeaux,Bordeaux,France,390,44.8330679,-0.5978106,48 rue du Général Larminat 33000 Bordeaux,https://www.mtpk.fr/parking/parking-porte-de-bordeaux/
+bordeaux-metropole-live-parc-relais-galin,Parc Relais Galin,Bordeaux,France,279,44.8494494,-0.5464421,Rue Gustave Eiffel 33100 Bordeaux,https://www.infotbm.com/fr/plans/plan-dynamique/p+r
+bordeaux-metropole-live-bassins-a-flots,Bassins A Flots,Bordeaux,France,250,44.8628438,-0.5556869,1 quai Armand Lalande Bat G1 33000 Bordeaux,https://www.effia.com/parking/parking-bordeaux-bassins-flot-effia
+bordeaux-metropole-live-parc-relais-les-aubiers,Parc Relais Les Aubiers,Bordeaux,France,234,44.8731899,-0.575195,Rue du jonc 33000 Bordeaux,https://www.infotbm.com/fr/plans/plan-dynamique/p+r
+bordeaux-metropole-live-parc-relais-brandenburg,Parc Relais Brandenburg,Bordeaux,France,211,44.8753791,-0.5444684,Boulevard Albert Brandenburg 33000 Bordeaux,https://www.infotbm.com/fr/plans/plan-dynamique/p+r
+bordeaux-metropole-live-parc-relais-quarante-journaux,Parc Relais Quarante Journaux,Bordeaux,France,200,44.8837545,-0.569131,Rue du Professeur Andre Lavignolle 33000 Bordeaux,https://www.infotbm.com/fr/plans/plan-dynamique/p+r
+bordeaux-metropole-live-parc-relais-stalingrad,Parc Relais Stalingrad,Bordeaux,France,120,44.8382624,-0.5569718,Rue Letellier 33000 Bordeaux,https://www.infotbm.com/fr/plans/plan-dynamique/p+r
+digistadt-dortmund-parken-Thier-Galerie,Thier - Galerie,Dortmund,Germany,779,51.51269,7.460323,,
+digistadt-dortmund-parken-Hansaplatz-Karstadt,Hansaplatz / Karstadt,Dortmund,Germany,588,51.51304,7.4643874,,
+digistadt-dortmund-parken-Rathaus-Stadtgarten,Rathaus / Stadtgarten,Dortmund,Germany,584,51.511364,7.463947300000025,,
+digistadt-dortmund-parken-Hauptbahnhof,Hauptbahnhof,Dortmund,Germany,536,51.51672,7.457335,,
+digistadt-dortmund-parken-Dortmunder-U,Dortmunder U,Dortmund,Germany,517,51.515915,7.453597499999945,,
+digistadt-dortmund-parken-Friedensplatz,Friedensplatz,Dortmund,Germany,446,51.510227,7.46717,,
+digistadt-dortmund-parken-Klinikum-DO,Klinikum Dortmund,Dortmund,Germany,435,51.506905,7.4591284,,
+digistadt-dortmund-parken-Kuckelke,Kuckelke,Dortmund,Germany,407,51.516224,7.46911,,
+digistadt-dortmund-parken-St-Johannes-Hospital,St.-Johannes-Hospital,Dortmund,Germany,396,51.510727,7.456745,,
+digistadt-dortmund-parken-Theater,Theater,Dortmund,Germany,392,51.511166,7.461676599999951,,
+digistadt-dortmund-parken-Freistuhl-Bibliothek,Freistuhl / Bibliothek,Dortmund,Germany,358,51.51601,7.46234,,
+digistadt-dortmund-parken-Westentor,Westentor,Dortmund,Germany,338,51.515114,7.456634,,
+digistadt-dortmund-parken-P-R-Schulte-Rodding,P&R Schulte-Rödding,Dortmund,Germany,289,51.549355,7.489934399999955,,
+digistadt-dortmund-parken-Konzerthaus-Burgwall,Konzerthaus / Burgwall,Dortmund,Germany,265,51.517082,7.467940299999969,,
+digistadt-dortmund-parken-Doc,Doc,Dortmund,Germany,250,51.515232,7.458649,,
+digistadt-dortmund-parken-Alte-Post-NH-Hotel,Alte Post / NH Hotel,Dortmund,Germany,236,51.517475,7.462023700000044,,
+digistadt-dortmund-parken-P-R-Hafen,P&R Hafen,Dortmund,Germany,220,51.52291,7.443771399999989,,
+digistadt-dortmund-parken-P-R-Westfalenpark,P&R Westfalenpark,Dortmund,Germany,190,51.49663,7.465905,,
+digistadt-dortmund-parken-Kolping-Str,Kolping Str.,Dortmund,Germany,180,51.51393,7.461024,,
+digistadt-dortmund-parken-Bissenkamp,Bissenkamp,Dortmund,Germany,164,51.515503,7.464931,,
+digistadt-dortmund-parken-Dietr-Keuning-Haus,Dietrich - Keuning - Haus,Dortmund,Germany,92,51.52121,7.462009,,
+dresden-parken-Parkhaus-Mitte,Parkhaus Mitte,Dresden,Germany,400,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=429
+dresden-parken-Semperoper,Semperoper,Dresden,Germany,400,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=408
+dresden-parken-Reitbahnstrasse,Reitbahnstraße,Dresden,Germany,285,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=415
+dresden-parken-Wohrl-Florentinum,Wöhrl / Florentinum,Dresden,Germany,264,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=405
+dresden-parken-Schiessgasse,Schießgasse,Dresden,Germany,255,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=411
+dresden-parken-SachsenEnergie-Center,SachsenEnergie Center,Dresden,Germany,251,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=406
+dresden-parken-Frauenkirche-Neumarkt,Frauenkirche / Neumarkt,Dresden,Germany,250,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=422
+dresden-parken-Kongresszentrum,Kongresszentrum,Dresden,Germany,250,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=421
+dresden-parken-Strehlener-Strasse,Strehlener Straße,Dresden,Germany,235,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=453
+dresden-parken-Kaditz,Kaditz,Dresden,Germany,190,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=427
+dresden-parken-Haus-am-Zwinger,Haus am Zwinger,Dresden,Germany,171,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=402
+dresden-parken-Ferdinandplatz,Ferdinandplatz,Dresden,Germany,154,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=419
+dresden-parken-Ostra-Ufer,Ostra-Ufer,Dresden,Germany,141,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=464
+dresden-parken-Theresienstrasse,Theresienstraße,Dresden,Germany,140,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=418
+dresden-parken-Taschenbergpalais,Taschenbergpalais,Dresden,Germany,130,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=401
+dresden-parken-Budapester-Strasse,Budapester Straße,Dresden,Germany,127,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=461
+dresden-parken-An-der-Frauenkirche,An der Frauenkirche,Dresden,Germany,120,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=403
+dresden-parken-Wiesentorstrasse,Wiesentorstraße,Dresden,Germany,120,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=417
+dresden-parken-Pirnaischer-Platz,Pirnaischer Platz,Dresden,Germany,110,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=412
+dresden-parken-Fidelio-F-Finke-Strasse,Fidelio-F.-Finke-Straße,Dresden,Germany,105,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=465
+dresden-parken-Stadtforum-Dresden,Stadtforum Dresden,Dresden,Germany,88,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=468
+dresden-parken-Terrassenufer,Terrassenufer,Dresden,Germany,69,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=416
+dresden-parken-Prohlis,Prohlis,Dresden,Germany,56,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=426
+dresden-parken-Sarrasanistrasse,Sarrasanistraße,Dresden,Germany,55,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=420
+dresden-parken-Langebruck,Langebrück,Dresden,Germany,50,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=439
+dresden-parken-Pennrich,Pennrich,Dresden,Germany,50,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=436
+dresden-parken-Grenzstrasse,Grenzstraße,Dresden,Germany,38,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=459
+dresden-parken-Cossebaude,Cossebaude,Dresden,Germany,32,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=437
+dresden-parken-Terrassenufer-Bus,Terrassenufer Bus,Dresden,Germany,22,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=430
+dresden-parken-Reick,Reick,Dresden,Germany,19,,,,https://www.dresden.de/apps_ext/ParkplatzApp/detail?id=434
+vtmanager-duesseldorf-parken-FLOAT,FLOAT,Düsseldorf,Germany,748,51.21336428,6.7491624,"Franziusstraße 10, 40221 Düsseldorf",https://www.goldbeck-parking.de/parkplatzsuche#/p/6850/FLOAT
+vtmanager-duesseldorf-parken-PH-42,PH 42 - Rheinufer,Düsseldorf,Germany,632,51.22406958,6.76969239,,http://www.contipark.de/de-DE/find-parking/duesseldorf-tiefgarage-altstadt-rheinufer-p1/
+vtmanager-duesseldorf-parken-PH-09,PH 09 - KII / Schauspielhaus,Düsseldorf,Germany,567,51.22744463,6.78300699,,https://www.apcoa.de/parken/duesseldorf/kii-schauspielhaus/ 
+vtmanager-duesseldorf-parken-PH-46,PH 46 - SCHADOW ARKADEN,Düsseldorf,Germany,560,51.22504732,6.7820002,,http://schadow-arkaden.com/parken/index.html
+vtmanager-duesseldorf-parken-PH-02,PH 02 - Kunstsammlung,Düsseldorf,Germany,553,51.22829607,6.77589325,,https://parken-altstadt.de
+vtmanager-duesseldorf-parken-PH-39,PH 39 - Kö-Galerie,Düsseldorf,Germany,544,51.2217892,6.78077172,,https://www.apcoa.de/parken/duesseldorf/koe-galerie/
+vtmanager-duesseldorf-parken-PH-25,PH 25 - Talstraße,Düsseldorf,Germany,500,51.21711983,6.78002696,,http://www.parkautomatic.de/deutsch/parkhaus/tal.html
+vtmanager-duesseldorf-parken-PH-23,PH 23 - Crown,Düsseldorf,Germany,445,51.21940868,6.78299329,,http://www.parkhaus-crown.de
+vtmanager-duesseldorf-parken-PH-12,PH 12 - Kaufhof Wehrhahn,Düsseldorf,Germany,410,51.22725978,6.78864197,,https://www.q-park.de/de/bei-q-park-parken/stadt/dusseldorf/kaufhof-am-wehrhahn
+vtmanager-duesseldorf-parken-PH-11,PH 11 - Stadtmitte,Düsseldorf,Germany,393,51.22617453,6.78730123,,https://www.q-park.de/de-de/staedte/d%C3%BCsseldorf/stadtmitte/
+vtmanager-duesseldorf-parken-PH-04,PH 04 - Carlsplatz,Düsseldorf,Germany,384,51.22288018,6.77381964,,https://parken-altstadt.de
+vtmanager-duesseldorf-parken-PH-53,PH 53 - Kö-Bogen/Breuninger,Düsseldorf,Germany,370,51.22660237,6.77824197,,https://www.apcoa.de/parken/duesseldorf/koe-bogen/
+vtmanager-duesseldorf-parken-PH-26,PH 26 - Luisenstraße,Düsseldorf,Germany,350,51.21712698,6.77829395,,https://www.parkhausjecht-duesseldorf.de/
+vtmanager-duesseldorf-parken-PH-06,PH 06 - Kaufhof Kö,Düsseldorf,Germany,322,51.22592229,6.77779185,,https://www.galeria.de/filialen/l/dusseldorf/konigsallee-1-9/001310
+vtmanager-duesseldorf-parken-PH-01,PH 01 - Ratinger Tor,Düsseldorf,Germany,300,51.23006978,6.77636759,,http://www.bb-parkhaus.de/parken/duesseldorf/parkhaus/duesseldorf-ratinger-tor/?cHash=f7da6ddbd4e78cff5ee93f6b1ac3c17c
+vtmanager-duesseldorf-parken-PH-48,PH 48 - SEVENS/Saturn,Düsseldorf,Germany,224,51.22260156,6.78065372,,https://www.apcoa.de/parken/duesseldorf/sevens/
+vtmanager-duesseldorf-parken-PH-24,PH 24 - Moll,Düsseldorf,Germany,200,51.22042156,6.78129436,,
+vtmanager-duesseldorf-parken-PH-18,PH 18 - Bendemannstraße,Düsseldorf,Germany,190,51.22318501,6.79190355,,http://www.contipark.de/de-DE/find-parking/duesseldorf-parkhaus-bendemannstr/
+vtmanager-duesseldorf-parken-PH-54,PH 54 - Barbarossaplatz,Düsseldorf,Germany,166,51.23137977,6.75332241,,https://www.park-one.com/standorte/duesseldorf/barbarossaplatz/ 
+vtmanager-duesseldorf-parken-Heerdt,Heerdt,Düsseldorf,Germany,150,51.24086068,6.71953294,"Marlene-Dietrich-Straße 2-4a, 40549 Düsseldorf",https://www.parkhaus-heerdt.de/
+vtmanager-duesseldorf-parken-PH-50,PH 50 - KÖ 59,Düsseldorf,Germany,140,51.2201287,6.77774688,,https://www.q-park.de/de/bei-q-park-parken/stadt/dusseldorf/ko-59
+vtmanager-duesseldorf-parken-PH-03,PH 03 - Kunsthalle,Düsseldorf,Germany,100,51.22736492,6.77582858,,https://www.parkservice24.de/index.php?id=47&L=0&tx_crzparkplatz_pi2[todo]=singleView&tx_crzparkplatz_pi2[show]=10
+vtmanager-duesseldorf-parken-PH-08,PH 08 - Hohe Straße,Düsseldorf,Germany,100,51.22043245,6.77479565,,-
+vtmanager-duesseldorf-parken-PH-13,PH 13 - Am Wehrhahn 72,Düsseldorf,Germany,100,,,,http://www.parkautomatic.de/deutsch/parkhaus/wehrhahn.html
+firenze-live-7,Parterre,Firenze,Italy,996,43.785444,11.262496,"Via del Ponte Rosso, 4 50129 Firenze",
+firenze-live-1,Stazione Santa Maria Novella,Firenze,Italy,880,43.7755934,11.2449018,"Piazza della Stazione, 13 50123 Firenze",
+firenze-live-2,Pieraccini Meyer,Firenze,Italy,872,43.807954,11.250734,"Viale Gaetano Pieraccini, 24 50139 Firenze",
+firenze-live-3,Stazione Fortezza Fiera,Firenze,Italy,521,43.782655,11.245823,"Fortezza da Basso, Piazzale Caduti nei Lager 50129 Firenze",
+firenze-live-11,Careggi CTO,Firenze,Italy,508,43.804545,11.248675,"Viale Gaetano Pieraccini, 4 50139 Firenze",
+firenze-live-6,Sant’Ambrogio,Firenze,Italy,379,43.770325,11.268305,"Piazza Annigoni, 9 50122 Firenze",
+firenze-live-9,Porta al Prato - Leopolda,Firenze,Italy,371,43.778273,11.238617,"Via Gabbuggiani, 2/4 50126 Firenze - nei pressi del Teatro del Maggio Musicale Fiorentino",
+firenze-live-5,Alberti,Firenze,Italy,313,43.7696,11.281491,"Piazza Alberti, 46 50136 Firenze",
+firenze-live-13,Palazzo di Giustizia – Novoli,Firenze,Italy,242,43.795398,11.222394,Via Virgilio 4 50127 Firenze,
+firenze-live-10,Oltrarno – Calza,Firenze,Italy,218,43.761008,11.241679,Piazza della Calza 50125 Firenze,
+firenze-live-8,Beccaria,Firenze,Italy,202,43.769659,11.270752,"Viale Amendola, 7 50121 Firenze",
+firenze-live-999,San Lorenzo - Mercato Centrale,Firenze,Italy,175,43.7765039,11.251666,"Piazza del Mercato Centrale, 1 50121 Firenze",
+firenze-live-4,Stazione Binario 16,Firenze,Italy,41,43.780661,11.246613,"Piazzale Montelungo, 2 50129 Firenze",
+frankfurt-mainziel-Parkhaeuser.3-main-taunus-zentrum,Main-Taunus-Zentrum,Frankfurt,Germany,4750,,,"Main-Taunus-Zentrum 1, 65843 Sulzbach/Taunus",
+frankfurt-mainziel-Parkhaeuser.109260-skyline-plaza,Skyline Plaza,Frankfurt,Germany,2370,,,Europa-Allee 6,
+frankfurt-mainziel-Parkhaeuser.4-hessen-center,Hessen Center,Frankfurt,Germany,1721,,,"Borsigallee 26, 60388 Frankfurt am Main",
+ffh-parken-frankfurt-Universitatsklinikum-Innengelande,Universitätsklinikum Innengelände,Frankfurt,Germany,1400,50.094795,8.661552,,
+ffh-parken-frankfurt-P-R-Haus-Borsigallee,P+R-Haus Borsigallee,Frankfurt,Germany,899,50.137203,8.745201,,
+ffh-parken-frankfurt-Am-Gericht,Am Gericht,Frankfurt,Germany,680,50.115677,8.690805,,
+ffh-parken-frankfurt-Goetheplatz,Goetheplatz,Frankfurt,Germany,591,50.11301,8.676544,,
+ffh-parken-frankfurt-Konrad-Adenauer-Strasse,Konrad-Adenauer-Straße,Frankfurt,Germany,537,50.116688,8.687006,,
+ffh-parken-frankfurt-Universitatsklinikum-Sandhofstrasse,Universitätsklinikum Sandhofstraße,Frankfurt,Germany,500,50.093113,8.654884,,
+ffh-parken-frankfurt-Baseler-Platz,Baseler Platz,Frankfurt,Germany,387,50.104225,8.666385,,
+ffh-parken-frankfurt-P-R-Kalbach,P+R Kalbach,Frankfurt,Germany,376,50.183296,8.6570835,,
+ffh-parken-frankfurt-Am-Theater,Am Theater,Frankfurt,Germany,371,50.107796,8.673237,,
+ffh-parken-frankfurt-Schiller-Passage,Schiller-Passage,Frankfurt,Germany,353,50.116035,8.677573,,
+ffh-parken-frankfurt-Alt-Sachsenhausen,Alt-Sachsenhausen,Frankfurt,Germany,341,50.10563,8.685153,,
+frankfurt-mainziel-Parkhaeuser.7-gateway-garden,Gateway Garden,Frankfurt,Germany,333,,,"Rita-Maiburg Straße, Amelia-Mary-Earhart-Straße 15, 60549 Frankfurt am Main",
+ffh-parken-frankfurt-Junghofstrasse,Junghofstraße,Frankfurt,Germany,315,50.113262,8.673919,,
+ffh-parken-frankfurt-Opernturm,Opernturm,Frankfurt,Germany,287,50.11609,8.670341,,
+frankfurt-mainziel-Parkhaeuser.109304-koenigsteiner-strasse,Königsteiner Straße,Frankfurt,Germany,258,,,Emmerich-Josef-Str. 24-28,
+ffh-parken-frankfurt-Friedrichsheim,Friedrichsheim,Frankfurt,Germany,227,50.091953,8.646487,,
+frankfurt-mainziel-Parkhaeuser.6-hafenpark-quartier-nord,Hafenpark Quartier NORD,Frankfurt,Germany,220,,,"Hagenstraße 15, 60314 Frankfurt am Main",
+frankfurt-mainziel-Parkhaeuser.109303-mayfarth-quartier,Mayfarth Quartier,Frankfurt,Germany,200,,,Weisbachstraße 9,
+ffh-parken-frankfurt-Ordnungsamt,Ordnungsamt,Frankfurt,Germany,143,50.099274,8.633534,,
+ffh-parken-frankfurt-Untermainanlage,Untermainanlage,Frankfurt,Germany,142,50.10698,8.672793,,
+ffh-parken-frankfurt-Mousonturm,Mousonturm,Frankfurt,Germany,125,50.118694,8.699925,,
+ffh-parken-frankfurt-Hotel-Movenpick,Hotel Mövenpick,Frankfurt,Germany,120,50.109894,8.651027,,
+ffh-parken-frankfurt-Burgerhaus-Bornheim,Bürgerhaus Bornheim,Frankfurt,Germany,85,50.123276,8.70452,,
+ffh-parken-frankfurt-Universitatsklinikum-P2,Universitätsklinikum P2,Frankfurt,Germany,29,50.091366,8.646991,,
+ffh-parken-frankfurt-Universitatsklinikum-P5,Universitätsklinikum P5,Frankfurt,Germany,20,50.0931,8.653998,,
+mobidata-bw-freiburg-westarkaden,Westarkaden,Freiburg,Germany,750,48.0064196,7.8273939,"Breisacher Straße 140, 79110 Freiburg",https://www.freiburg.de/pb/1708134.html
+mobidata-bw-freiburg-p15-schlossberg,P15 Schlossberg,Freiburg,Germany,429,47.9940167,7.8551424,"Schlossbergring 14, 79098 Freiburg","http://www.freiburg.de/pb/,Lde/231447.html"
+mobidata-bw-freiburg-p9-schwarzwald-city,P9 Schwarzwald City,Freiburg,Germany,398,47.9972064,7.8511192,"Wasserstraße 7, 79098 Freiburg","http://www.freiburg.de/pb/,Lde/231407.html"
+mobidata-bw-freiburg-gundelfinger-str,Gundelfinger Str.,Freiburg,Germany,341,48.0348057,7.8623896,,
+mobidata-bw-freiburg-p10-rotteck,P10 Rotteck,Freiburg,Germany,300,47.9958007,7.8462984,"Rotteckring 12, 79098 Freiburg","http://www.freiburg.de/pb/,Lde/231415.html"
+mobidata-bw-freiburg-paduaallee,Paduaallee,Freiburg,Germany,245,48.0126632,7.8064112,,
+mobidata-bw-freiburg-p14-landratsamt,P14 Landratsamt,Freiburg,Germany,202,48.0000594,7.8570815,"Stadtstraße 2, 79104 Freiburg","http://www.freiburg.de/pb/,Lde/231439.html"
+mobidata-bw-freiburg-p8-unterlinden,P8 Unterlinden,Freiburg,Germany,188,47.9978678,7.8488676,"Fahnenbergplatz 3, 79098 Freiburg","http://www.freiburg.de/pb/,Lde/231399.html"
+mobidata-bw-freiburg-p4-am-bahnhof,P4 Am Bahnhof,Freiburg,Germany,172,47.9989705,7.8429173,"P4, 79098 Freiburg","http://www.freiburg.de/pb/,Lde/231383.html"
+mobidata-bw-freiburg-p12-zaehringer-tor,P12 Zähringer Tor,Freiburg,Germany,162,47.9989584,7.8540219,"Bernhardstraße2, 79098 Freiburg","http://www.freiburg.de/pb/,Lde/231423.html"
+mobidata-bw-freiburg-bissierstrasse,Bissierstraße,Freiburg,Germany,152,48.001655,7.8191981,,
+mobidata-bw-freiburg-munzinger-str,Munzinger Str.,Freiburg,Germany,145,47.9880202,7.7959166,,
+mobidata-bw-freiburg-p18-martinstor,P18 Martinstor,Freiburg,Germany,134,47.9925063,7.8473649,"Rempartstr. 13, 79098 Freiburg","http://www.freiburg.de/pb/,Lde/231463.html"
+mobidata-bw-freiburg-p6-g-graf-halle,P6 G.-Graf-Halle,Freiburg,Germany,86,47.9993,7.8468,"Hebelstr. 2, 79104 Freiburg","http://www.freiburg.de/pb/,Lde/1475630.html"
+mobidata-bw-freiburg-moosweiher,Moosweiher,Freiburg,Germany,81,48.0292275,7.8081168,,
+gent-live-the-loop,The Loop,Gent,Belgium,2490,51.02542334883013,3.6864592214319964,,
+gent-live-sint-pietersplein,Sint-Pietersplein,Gent,Belgium,700,51.04202834988112,3.7259818626205483,,
+gent-live-vrijdagmarkt,Vrijdagmarkt,Gent,Belgium,580,51.05713405953412,3.726071777876147,,
+gent-live-dok-noord,Dok noord,Gent,Belgium,550,51.065684935819604,3.7328389913720565,,
+gent-live-savaan,Savaan,Gent,Belgium,512,51.04877362543108,3.7234627726667133,,
+gent-live-ledeberg,Ledeberg,Gent,Belgium,461,51.03634169048174,3.738571094371151,,
+gent-live-reep,Reep,Gent,Belgium,455,51.05215838523151,3.7298928896398924,,
+gent-live-sint-michiels,Sint-Michiels,Gent,Belgium,450,51.05311004768356,3.719727740000235,,
+gent-live-getouw,Getouw,Gent,Belgium,347,51.072569883800206,3.7148313576713052,,
+gent-live-ramen,Ramen,Gent,Belgium,260,51.05532,3.71653,,
+gent-live-tolhuis,Tolhuis,Gent,Belgium,148,51.0637023559265,3.724968367281895,,
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10099-phoenix-center,Phoenix Center,Hamburg,Germany,1400,,,Hannoversche Straße 86,
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10015-city-parkhaus,City-Parkhaus,Hamburg,Germany,1110,,,Gertrudenstraße 2,
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10076-alstertal-einkaufszentrum-aez-ost,Alstertal Einkaufszentrum (AEZ) Ost,Hamburg,Germany,1105,,,Kritenbarg 4,
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10116-alstertal-einkaufszentrum-aez-mitte,Alstertal Einkaufszentrum (AEZ) Mitte,Hamburg,Germany,973,,,Kritenbarg 4,
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10094-harburg-carree,Harburg Carree,Hamburg,Germany,900,,,Wilstorfer Straße 48,
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10029-messe-mitte,Messe-Mitte,Hamburg,Germany,850,,,Lagerstraße 1,http://www.contipark.de
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10007-radison-blu,Radison Blu,Hamburg,Germany,700,,,Marseiller Straße 1,http://www.contipark.de
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10013-europa-passage,Europa-Passage,Hamburg,Germany,690,,,Hermannstraße 09 - 11,http://www.contipark.de
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10083-ccb-einkaufzentrum,CCB Einkaufzentrum,Hamburg,Germany,670,,,Bergedorfer Str. 105,http://www.citycenter-bergedorf.de
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10117-alstertal-einkaufszentrum-aez-west,Alstertal Einkaufszentrum (AEZ) West,Hamburg,Germany,666,,,Kritenbarg 4,
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10084-ccb-fachmarktzentrum,CCB Fachmarktzentrum,Hamburg,Germany,590,,,Bergedorfer Straße 106,http://www.citycenter-bergedorf.de
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10039-speicherstadt,Speicherstadt,Hamburg,Germany,553,,,Am Sandtorkai 6,http://www.contipark.de
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10017-gaensemarkt,Gänsemarkt,Hamburg,Germany,544,,,Dammtorwall 5,http://www.opg-os.de
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10032-millerntor,Millerntor,Hamburg,Germany,504,,,Millerntorplatz 1,http://www.apcoa.de
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10019-hanse-viertel,Hanse-Viertel,Hamburg,Germany,421,,,Hohe Bleichen 22,http://www.apcoa.de
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10096-buxtehuder-strasse-karstadt,Buxtehuder Straße/Karstadt,Hamburg,Germany,373,,,Küchgarten 21,http://www.karstadt.de
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10040-ueberseequartier-nord,Überseequartier Nord,Hamburg,Germany,350,,,Überseeallee 3,
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10024-kaufhof-galeria-kaufhof,Kaufhof (Galeria Kaufhof),Hamburg,Germany,327,,,Bugenhagenstraße 1,http://www.galeria-kaufhof.de
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10011-deutsch-japanisches-zentrum,Deutsch Japanisches Zentrum,Hamburg,Germany,304,,,Stadthausbrücke 1,http://www.contipark.de/de-DE/find-parking/hamburg-tiefgarage-deutsch-japanisches-zentrum/
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10025-mediamarkt-tech-village,MediaMarkt Tech Village,Hamburg,Germany,287,,,Mönckebergstraße 1,http://www.saturn.de
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10088-sachsentor,Sachsentor,Hamburg,Germany,250,,,Bergedorfer Schloßstraße 10,
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10118-alter-wall-bucerius-passage,Alter Wall / BUCERIUS-Passage,Hamburg,Germany,210,,,Alter Wall 20-22,http://www.apcoa.de
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10037-reeperbahn-garagen-spielbudenplatz,Reeperbahn-Garagen (Spielbudenplatz),Hamburg,Germany,200,,,Spielbudenplatz,http://www.reeperbahn-garagen.de
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10108-elbarkaden,Elbarkaden,Hamburg,Germany,175,,,Honkongstr. 6-10 A,
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10097-krummholzberg,Krummholzberg,Hamburg,Germany,149,,,Krummholzberg 10,
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10028-marriott,Marriott,Hamburg,Germany,106,,,ABC-Straße 52,http://www.apcoa.de
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10001-alsterhaus,Alsterhaus,Hamburg,Germany,87,,,Bei der Stadtwassermühle 16-20,http://www.vincipark.de
+hamburg-viz-DE.HH.UP_PARKHAEUSER_10010-deichtorhallen,Deichtorhallen,Hamburg,Germany,37,,,Deichtorstraße 2,http://www.deichtorhallen.de
+mobidata-bw-heilbronn-heilbronn-klinik-am-gesundbrunnen-p2,"Heilbronn, Klinik am Gesundbrunnen P2",Heilbronn,Germany,763,49.15506,9.191471,"Am Gesundbrunnen 20-26, 74078 Heilbronn",https://www.goldbeck-parking.de/parkplatzsuche#/p/7211/Klinik%20am%20Gesundbrunnen
+heilbronn-parken-Stadtgalerie,Stadtgalerie,Heilbronn,Germany,660,,,,
+mobidata-bw-heilbronn-heilbronn-quartiersgarage-neckarbogen,"Heilbronn, Quartiersgarage Neckarbogen",Heilbronn,Germany,643,49.146126,9.209155,"Paula-Fuchs-Allee 12, 74076 Heilbronn",https://www.goldbeck-parking.de/parkplatzsuche#/p/7292/Quartiersgarage%20Neckarbogen
+mobidata-bw-heilbronn-heilbronn-klinik-am-plattenwald,"Heilbronn, Klinik am Plattenwald",Heilbronn,Germany,637,49.2121077,9.2361886,"Am Plattenwald  1, 74711 Bad Friedrichshall",https://www.goldbeck-parking.de/parkplatzsuche#/p/7210/Klinik%20Plattenwald
+mobidata-bw-heilbronn-heilbronn-klinik-am-gesundbrunnen-p1,"Heilbronn, Klinik am Gesundbrunnen P1",Heilbronn,Germany,489,49.155065,9.191551,"Am Gesundbrunnen 20-26, 74078 Heilbronn",https://www.goldbeck-parking.de/parkplatzsuche#/p/7211/Klinik%20am%20Gesundbrunnen
+heilbronn-parken-Wollhaus,Wollhaus,Heilbronn,Germany,450,,,,
+heilbronn-parken-Harmonie,Harmonie,Heilbronn,Germany,435,,,,
+mobidata-bw-heilbronn-heilbronn-wohlgelegen,"Heilbronn, Wohlgelegen",Heilbronn,Germany,429,49.1550065,9.2087054,"Im Zukunftspark 16, 74076 Heilbronn",https://www.goldbeck-parking.de/parkplatzsuche#/p/7269/Parkhaus%20Wohlgelegen
+heilbronn-parken-Theaterforum-K3,Theaterforum K3,Heilbronn,Germany,393,,,,
+heilbronn-parken-Am-Bollwerksturm,Am Bollwerksturm,Heilbronn,Germany,304,,,,
+mobidata-bw-heilbronn-heilbronn-klinik-am-gesundbrunnen-p4,"Heilbronn, Klinik am Gesundbrunnen P4",Heilbronn,Germany,257,49.154588,9.188681,"Am Gesundbrunnen 20-28, 74078 Heilbronn",https://www.goldbeck-parking.de/parkplatzsuche#/p/7211/Klinik%20am%20Gesundbrunnen
+mobidata-bw-heilbronn-heilbronn-klinik-am-gesundbrunnen-p3,"Heilbronn, Klinik am Gesundbrunnen P3",Heilbronn,Germany,191,49.154706,9.188946,"Am Gesundbrunnen 20-26, 74078 Heilbronn",https://www.goldbeck-parking.de/parkplatzsuche#/p/7211/Klinik%20am%20Gesundbrunnen
+mobidata-bw-heilbronn-heilbronn-lohtorstrasse,"Heilbronn, Lohtorstraße",Heilbronn,Germany,78,49.14335,9.217758,"Gerberstraße / Lohtorstraße, 74072 Heilbronn",https://www.goldbeck-parking.de/parkplatzsuche#/p/7225/Parkplatz%20Lohtorstra%C3%9Fe
+heilbronn-parken-Kathchenhof,Käthchenhof,Heilbronn,Germany,67,,,,
+fintraffic-619,Kauppakeskus Ruoholahti,Helsinki,Finland,141,60.1639695,24.9115045,,
+fintraffic-1090,Vuosaaren Mosaiikkiparkki,Helsinki,Finland,128,60.20821121353329,25.14295336444489,,
+fintraffic-1031,Kulosaaren puistotie läntinen P2,Helsinki,Finland,96,60.18854882840269,25.003507376600222,,
+fintraffic-517,Muuntajankatu P4,Helsinki,Finland,79,60.2057475,25.047862000000002,,
+fintraffic-473,Takkakuja,Helsinki,Finland,72,60.2228845,24.856848999999997,,
+fintraffic-303,Eskolantie P1,Helsinki,Finland,66,60.24354879678208,24.99527396298721,,
+fintraffic-268,Raidekuja,Helsinki,Finland,65,60.2737985,25.036258,,
+fintraffic-46,Haagan pappilantie,Helsinki,Finland,63,60.218323,24.894783,,
+fintraffic-507,Siilitie läntinen P1,Helsinki,Finland,53,60.206104395052236,25.04437767361069,,
+fintraffic-755,Lauttasaarentie,Helsinki,Finland,48,60.1601685,24.8807905,,
+fintraffic-16,Luutnantinaukio,Helsinki,Finland,45,60.2479,24.863746499999998,,
+fintraffic-283,Jäkälätie 10 eteläinen,Helsinki,Finland,42,60.262950989774154,25.030178725719455,,
+fintraffic-579,Rastilan metroasema,Helsinki,Finland,42,60.2051625,25.121618499999997,,
+fintraffic-497,Ukko-Pekan porras P1,Helsinki,Finland,34,60.188883,25.0058905,,
+fintraffic-1046,Kontulan ostoskeskus,Helsinki,Finland,27,60.23733539257657,25.08193999528885,,
+fintraffic-308,Ratavallintie P2,Helsinki,Finland,25,60.241278,24.9930525,,
+fintraffic-31,Soittajantie,Helsinki,Finland,20,60.2406785,24.873656,,
+fintraffic-512,Siilitie itäinen P2,Helsinki,Finland,17,60.2065005,25.0456335,,
+mobilitaet-jena-Goethe-Galerie,Goethe Galerie,Jena,Germany,523,50.926875,11.582224,"Goethe Galerie, Ernst-Abbe-Strasse 15, 07743 Jena",
+mobilitaet-jena-Eichplatz,Eichplatz,Jena,Germany,300,50.928426,11.586044,"Eichplatz, Kollegiengasse, 07743 Jena",
+mobilitaet-jena-Krautgasse,Krautgasse,Jena,Germany,200,50.928996,11.583075,"Krautgasse, 07743 Jena",
+mobilitaet-jena-Neue-Mitte,Neue Mitte,Jena,Germany,165,50.928428,11.584195,"Neue Mitte, Jena Kollegiengasse, 07743 Jena",
+mobilitaet-jena-Seidelparkplatz,Seidelparkplatz,Jena,Germany,161,50.9209377,11.5903021,"Seidelstraße, 07749 Jena",
+mobilitaet-jena-Holzmarkt,Holzmarkt,Jena,Germany,120,50.926547,11.585516,"Holzmarkt Grietgasse 2, 07743 Jena",
+mobilitaet-jena-Windberg,Windberg,Jena,Germany,75,50.923509,11.627214,"Fuchsturm, 07749 Jena",
+mobilitaet-jena-Steinkreuz,Steinkreuz,Jena,Germany,60,50.915376,11.639819,"Steinkreuz, 07751 Jena",
+mobilitaet-jena-City-Carree,City Carree,Jena,Germany,40,50.927818,11.585724,"Löbderstraße 2, 07743 Jena",
+mobilitaet-jena-Haeckelplatz,Haeckelplatz,Jena,Germany,32,50.92461,11.582293,"Ernst-Haeckel-Straße, 07743 Jena",
+karlsruhe-parken-Schlossplatz,Schlossplatz,Karlsruhe,Germany,912,49.01096485,8.40408283,Schlossplatz,
+karlsruhe-parken-Ettlinger-Tor,Ettlinger Tor,Karlsruhe,Germany,843,49.00623777,8.40204792,Karl-Friedrich-Straße 26,
+karlsruhe-parken-Kronenplatz,Kronenplatz,Karlsruhe,Germany,629,49.00819118,8.41073197,Fritz-Erler-Straße 7-11,
+karlsruhe-parken-Kongresszentrum-PH1,Kongresszentrum PH1,Karlsruhe,Germany,495,49.00370508,8.40197204,Hermann-Billing-Straße 1,
+karlsruhe-parken-Kongresszentrum-PH2,Kongresszentrum PH2,Karlsruhe,Germany,495,49.00298977,8.39957803,Beiertheimer Allee 9,
+karlsruhe-parken-Stephanplatz,Stephanplatz,Karlsruhe,Germany,493,49.00828583,8.39289826,Amalienstraße 33,https://www.hurrle-immobilien.de/cms/index.php?idcatside=7&1startmonth=2&1monthback=-1&1idarticle=21&1category=4
+karlsruhe-parken-Friedrichsplatz,Friedrichsplatz,Karlsruhe,Germany,423,49.00821641,8.4001571,Friedrichsplatz,https://www.hurrle-immobilien.de/cms/index.php?idcatside=7&1startmonth=2&1monthback=-1&1idarticle=19&1category=4
+karlsruhe-parken-Mendelssohnplatz-Scheck-In,Mendelssohnplatz (Scheck-In),Karlsruhe,Germany,417,49.00540443,8.41232906,Rüppurrerstraße 1,
+karlsruhe-parken-Passagehof,Passagehof,Karlsruhe,Germany,392,49.01097553,8.39828987,Waldstraße 14 - 18,
+karlsruhe-parken-Luisenstrasse,Luisenstraße,Karlsruhe,Germany,349,49.00055958,8.40454914,Luisenstraße 2f,https://www.hurrle-immobilien.de/cms/index.php?idcatside=7&1startmonth=2&1monthback=-1&1idarticle=20&1category=4
+karlsruhe-parken-Marktplatz,Marktplatz,Karlsruhe,Germany,327,49.00828724,8.4057635,Kreuzstraße 13a,https://www.hurrle-immobilien.de/cms/index.php?idcatside=7&1startmonth=2&1monthback=-1&1idarticle=22&1category=4
+karlsruhe-parken-Karstadt,Karstadt,Karlsruhe,Germany,260,49.00902124,8.40127772,Zähringerstraße 69,
+karlsruhe-parken-Industrie-und-Handelskammer,Industrie und Handelskammer,Karlsruhe,Germany,175,49.00741955,8.40258356,Erbprinzenstraße 4,
+karlsruhe-parken-Kreuzstrasse-C-A,Kreuzstraße (C&A),Karlsruhe,Germany,52,49.00994185,8.40541681,Kreuzstraße 5,
+la-rochelle-live-17300-p-008,Vieux-Port Sud,La Rochelle,France,610,46.154343,-1.149352,,
+la-rochelle-live-17300-p-007,Verdun,La Rochelle,France,557,46.1625275,-1.1533092,,
+la-rochelle-live-17300-p-002,Jean Moulin,La Rochelle,France,450,46.1536174,-1.1406937,,
+la-rochelle-live-17300-p-003,Encan 1,La Rochelle,France,420,46.151382,-1.1498269,,
+la-rochelle-live-17300-p-004,Vieux-Port Ouest,La Rochelle,France,420,46.1555279,-1.1565183,,
+la-rochelle-live-17300-p-010,Maubec,La Rochelle,France,209,46.1577984,-1.143707,,
+la-rochelle-live-17300-p-011,Aire de camping-car de Port-Neuf,La Rochelle,France,171,46.1605732,-1.1858739,,
+la-rochelle-live-17300-p-014,Encan 2,La Rochelle,France,130,46.1491434,-1.150546,,
+la-rochelle-live-17300-p-005,Verdun (surface),La Rochelle,France,71,46.1627085,-1.1541917,,
+la-rochelle-live-17300-p-013,Cacaud,La Rochelle,France,70,46.1634896,-1.1470762,,
+mel-lille-live-LIL0006,EuraLille Centre Commercial,Lille,France,2873,50.6368033000333,3.07307121098809,164 Avenue Willy Brandt,
+mel-lille-live-LIL0014,Nouveau Siècle,Lille,France,733,50.63730545319,3.05939676781771,19 place Mendès France,
+mel-lille-live-LIL0008,Euralille Gare A,Lille,France,600,50.6397696888289,3.07597049669558,Avenue de Cologne,
+mel-lille-live-LIL0003,Tanneurs,Lille,France,563,50.6342569494212,3.06723497620713,Rue du Molinel,
+mel-lille-live-LIL0017,Euralille Gare C,Lille,France,541,50.6412133346671,3.07642559013773,Rue du Ballon,
+mel-lille-live-LIL0009,Opéra,Lille,France,400,50.6393046764454,3.0665484219941,Avenue Carnot,
+mel-lille-live-LIL0005,Lille Flandres,Lille,France,374,50.6348364543564,3.07243273529372,Rue de Tournai,
+mel-lille-live-LIL0002,Plaza,Lille,France,323,50.6351218557855,3.05833428922619,Rue Nationale,
+mel-lille-live-LIL0012,Rihour- Printemps,Lille,France,300,50.6354319747236,3.06136225599413,Place Rihour,
+mel-lille-live-LIL0001,République,Lille,France,260,50.6310274343908,3.06272406077835,Place de la République,
+mel-lille-live-LIL0007,Euralille Gare B,Lille,France,160,50.6387887025163,3.07667993130868,Boulevard de Turin,
+luxembourg-vdl-27,Bouillon,Luxembourg,Luxembourg,2422,49.599744,6.107143,Rue de Bouillon,
+luxembourg-vdl-39,Stade de Luxembourg,Luxembourg,Luxembourg,1824,49.577398,6.110952,Route d'Esch,
+luxembourg-vdl-4,Knuedler,Luxembourg,Luxembourg,606,49.610291,6.130014,Rue Notre-Dame,
+luxembourg-vdl-36,Royal-Hamilius,Luxembourg,Luxembourg,484,49.610391399792,6.1246146134679,Avenue Monterey,
+luxembourg-vdl-11,Fort Neipperg,Luxembourg,Luxembourg,470,49.6021,6.135087,Rue du Fort Neipperg,
+luxembourg-vdl-1,Théâtre,Luxembourg,Luxembourg,450,49.61291,6.131021,Place du Théâtre,
+luxembourg-vdl-16,Trois Glands,Luxembourg,Luxembourg,450,49.617036322512,6.1423352276627,"2, rue du Fort Thüngen",
+luxembourg-vdl-21,Stade,Luxembourg,Luxembourg,400,49.614382,6.108344,Rue d'Ostende,
+luxembourg-vdl-7,Rond Point Schuman,Luxembourg,Luxembourg,382,49.617288,6.126428,Allée Scheffer,
+luxembourg-vdl-17,Erasme,Luxembourg,Luxembourg,322,49.622559,6.151508,Rue Erasme,
+luxembourg-vdl-6,Monterey,Luxembourg,Luxembourg,310,49.610424,6.124042,Avenue Monterey,
+luxembourg-vdl-10,Fort Wedell,Luxembourg,Luxembourg,240,49.599891,6.129518,Rue du Commerce,
+luxembourg-vdl-3,Saint-Esprit,Luxembourg,Luxembourg,200,49.608119,6.133641,Boulevard Franklin D. Roosevelt,
+luxembourg-vdl-8,Martyrs,Luxembourg,Luxembourg,183,49.605282,6.128982,Rue du Plébiscite,
+luxembourg-vdl-9,Rocade,Luxembourg,Luxembourg,155,49.604076,6.136815,Rue du Laboratoire,
+luxembourg-vdl-30,Nobilis,Luxembourg,Luxembourg,125,49.602453,6.134632,Rue du Fort Neipperg,
+luxembourg-vdl-42,Campus Cents,Luxembourg,Luxembourg,40,49.616771,6.164238,Rue de Trèves,
+madrid-live-5,Nuestra Señora del Recuerdo,Madrid,Spain,832,40.472181,-3.67916,Calle de la Hiedra,
+madrid-live-84,Plaza Mayor,Madrid,Spain,694,40.4200305,-3.6963131,Plaza Mayor s/n,
+madrid-live-53,Plaza de España,Madrid,Spain,542,40.423636,-3.711583,Plaza de España,
+madrid-live-12,Almagro,Madrid,Spain,462,40.429801,-3.693238,Almagro,
+madrid-live-79,Plaza de las Cortes,Madrid,Spain,462,40.41562,-3.695354,Plaza de las Cortes,
+madrid-live-76,Plaza del Carmen,Madrid,Spain,434,40.418793,-3.703406,PZA. DEL CARMEN,
+madrid-live-7,Avenida de Portugal,Madrid,Spain,432,40.415415,-3.727515,"Avda. de Portugal, s/n. Frente al nº 51",
+madrid-live-81,Plaza de las Descalzas,Madrid,Spain,392,40.418482,-3.706983,Plaza de las Descalzas Reales,
+madrid-live-95,Alcala - Sevilla,Madrid,Spain,391,40.418258,-3.698411,CALLE DE ALCALÁ,
+madrid-live-99,Olavide,Madrid,Spain,376,40.431717,-3.700565,Pl. Olavide,
+madrid-live-25,Marqués de Salamanca,Madrid,Spain,360,40.430293,-3.679197,Plaza M. Salamanca,
+madrid-live-101,Santo Domingo,Madrid,Spain,333,40.420471377,-3.708230879,Plaza Santo Domingo,
+madrid-live-82,Arquitecto Ribera (Barceló),Madrid,Spain,317,40.4266495,-3.700138,Barceló,
+madrid-live-100,Fuencarral,Madrid,Spain,291,40.43009,-3.702953,Cl. Fuencarral,
+madrid-live-9,Paseo de Recoletos,Madrid,Spain,281,40.421191,-3.691953,Paseo Recoletos,
+madrid-live-73,Plaza de Oriente,Madrid,Spain,212,40.419967,-3.712986,PLAZA DE ORIENTE,
+madrid-live-90,Mercado de la Cebada,Madrid,Spain,206,40.41049,-3.709082,Plaza de la Cebada s/n Entrada de vehículos C/Toledo 77,
+madrid-live-67,Villa de París,Madrid,Spain,169,40.425848,-3.693658,Plaza Villa de París,
+madrid-live-72,Sánchez Bustillo,Madrid,Spain,132,40.409253799999,-3.6941255,C/Doctor Mata,
+madrid-live-22,Orense,Madrid,Spain,128,40.453019,-3.694009,Avda. General Perón,
+madrid-live-71,Pedro Zerolo,Madrid,Spain,107,40.42080587,-3.699301,Plaza Pedro Zerolo,
+madrid-live-94,Mercado San Antón,Madrid,Spain,100,40.421693,-3.697468,LIBERTAD,
+madrid-live-97,Vot,Madrid,Spain,90,40.408671,-3.714779,Ventosa,
+parken-mannheim-Hauptbahnhof-P5-Parkhaus,"Hauptbahnhof P5, Parkhaus",Mannheim,Germany,584,,,,
+parken-mannheim-Kunsthalle-Tiefgarage,"Kunsthalle, Tiefgarage",Mannheim,Germany,406,,,,
+ffh-parken-mannheim-D3,D3,Mannheim,Germany,378,,,,
+parken-mannheim-D5-Reiss-Museum-Tiefgarage,"D5 Reiss-Engelhorn-Museen, Tiefgarage",Mannheim,Germany,365,,,,
+ffh-parken-mannheim-D5-Reiss-Museum,"D5, Reiß-Museum",Mannheim,Germany,364,,,,
+ffh-parken-mannheim-N1-Stadthaus,N1 Stadthaus,Mannheim,Germany,335,,,,
+ffh-parken-mannheim-G1-Marktplatz,G1 Marktplatz,Mannheim,Germany,334,,,,
+parken-mannheim-Hauptbahnhof-P1-Tiefgarage,"Hauptbahnhof P1, Tiefgarage",Mannheim,Germany,327,,,,
+parken-mannheim-Hauptbahnhof-P2-Parkhaus,"Hauptbahnhof P2, Parkhaus (Busbahnhof ZOB)",Mannheim,Germany,326,,,,
+ffh-parken-mannheim-Hbf-P1,Hbf P1,Mannheim,Germany,325,,,,
+ffh-parken-mannheim-Hbf-P2,Hbf P2,Mannheim,Germany,325,,,,
+ffh-parken-mannheim-N6-Standard-Holiday-Inn,"N6 Standard, Holiday Inn",Mannheim,Germany,291,,,,
+ffh-parken-mannheim-N2-Stadthaus,N2 Stadthaus,Mannheim,Germany,260,,,,
+ffh-parken-mannheim-Hbf-P3,Hbf P3,Mannheim,Germany,222,,,,
+ffh-parken-mannheim-N6-Komfort,N6 Komfort,Mannheim,Germany,210,,,,
+ffh-parken-mannheim-U2,U2,Mannheim,Germany,190,,,,
+stadt-muenster-parken-Parkhaus-Aegidii,Parkhaus Aegidii,Münster,Germany,750,,,,
+stadt-muenster-parken-Parkhaus-Theater,Parkhaus Theater,Münster,Germany,743,,,,
+stadt-muenster-parken-Parkhaus-Cineplex,Parkhaus Cineplex,Münster,Germany,590,,,,
+stadt-muenster-parken-Parkhaus-PH-Stadthaus-3,Parkhaus Stadthaus 3,Münster,Germany,500,,,,
+stadt-muenster-parken-Parkhaus-Engelenschanze,Parkhaus Engelenschanze,Münster,Germany,460,,,,
+stadt-muenster-parken-Parkplatz-Schlossplatz-Sud,Parkplatz Schlossplatz Süd,Münster,Germany,460,,,,
+stadt-muenster-parken-Parkhaus-Alter-Steinweg,Parkhaus Alter Steinweg,Münster,Germany,371,,,,
+stadt-muenster-parken-Tiefgarage-Hafenmarkt,Tiefgarage Hafenmarkt,Münster,Germany,350,,,,
+stadt-muenster-parken-Parkhaus-Bahnhofstrasse,Parkhaus Bahnhofstraße,Münster,Germany,320,,,,
+stadt-muenster-parken-Parkhaus-Stubengasse,Parkhaus Stubengasse,Münster,Germany,300,,,,
+stadt-muenster-parken-Parkplatz-Georgskommende,Parkplatz Georgskommende,Münster,Germany,272,,,,
+stadt-muenster-parken-Parkplatz-Horster-Platz,Parkplatz Hörster Platz,Münster,Germany,202,,,,
+stadt-muenster-parken-Parkhaus-Bremer-Platz,Parkhaus Bremer Platz,Münster,Germany,180,,,,
+stadt-muenster-parken-Parkhaus-Munster-Arkaden,Parkhaus Münster-Arkaden,Münster,Germany,166,,,,
+stadt-muenster-parken-Parkplatz-Hafenmarkt,Parkplatz Hafenmarkt,Münster,Germany,103,,,,
+nantes-naolib-live-pr-p-r-neustrie-1-142,P+R Neustrie 1,Nantes,France,760,47.17707849999999,-1.5924185470000225,Rue Christophe Colomb,
+nantes-naolib-live-pr-p-r-porte-de-vertou-2-145,P+R Porte de Vertou 2,Nantes,France,749,47.180079913999975,-1.5047335759999783,Boulevard Auguste Priou,
+nantes-naolib-live-public-tour-bretagne-3,TOUR BRETAGNE,Nantes,France,643,47.21784288795037,-1.5582500168918192,4 Place de Bretagne,
+nantes-naolib-live-public-gare-nord-21,GARE NORD,Nantes,France,540,47.21668903410084,-1.5449843310082838,Cours John Kennedy,
+nantes-naolib-live-public-feydeau-1,FEYDEAU,Nantes,France,490,47.21407529472319,-1.552558781065703,Parvis Neptune,
+nantes-naolib-live-public-gare-sud-2-44,GARE SUD 2,Nantes,France,457,47.21698117112644,-1.5363160630555566,Boulevard de Berlin,
+nantes-naolib-live-public-graslin-4,GRASLIN,Nantes,France,455,47.2143102053585,-1.5625718137430404,Rue Scribe,
+nantes-naolib-live-pr-p-r-babiniere-163,P+R Babinière,Nantes,France,452,47.259596551000016,-1.546224766000023,Avenue de la Babinière,
+nantes-naolib-live-public-cite-int-des-congres-9,CITE INT DES CONGRES,Nantes,France,439,47.2129016651793,-1.5439712738984481,Avenue Jean Claude Bonduelle,
+nantes-naolib-live-public-commerce-7,COMMERCE,Nantes,France,406,47.2131202800862,-1.557713217159592,Place du Commerce,
+nantes-naolib-live-public-mediatheque-6,MEDIATHEQUE,Nantes,France,398,47.21087082120933,-1.5623381737543782,Rue Neuve des Capucins,
+nantes-naolib-live-public-les-machines-11,LES MACHINES,Nantes,France,397,47.20590061614064,-1.5627277898724061,Rue Arthur III,
+nantes-naolib-live-public-decre-bouffay-2,DECRE - BOUFFAY,Nantes,France,394,47.216662613183885,-1.5540046292504972,18 Rue du Moulin,
+nantes-naolib-live-public-gare-sud-1-25,GARE SUD 1,Nantes,France,380,47.21614962929036,-1.5410368260441125,Rue de Lourmel,
+nantes-naolib-live-public-gare-sud-3-27,GARE SUD 3,Nantes,France,379,47.21491533439512,-1.5392563084462647,32 Rue du Pré Gauchet,
+nantes-naolib-live-pr-p-r-la-beaujoire-141,P+R La Beaujoire,Nantes,France,350,47.25949516899999,-1.526680951000003,Rue Colette,
+nantes-naolib-live-public-cathedrale-10,CATHEDRALE,Nantes,France,348,47.22081334425927,-1.5510561654614727,Rue Sully,
+nantes-naolib-live-public-gare-sud-4-34,GARE SUD 4,Nantes,France,330,47.21510335976384,-1.5379338929841764,24 Mail Pablo Picasso,
+nantes-naolib-live-public-talensac-8,TALENSAC,Nantes,France,320,47.22025597434886,-1.5583572970724853,Rue Le Nôtre,
+nantes-naolib-live-public-aristide-briand-5,ARISTIDE BRIAND,Nantes,France,303,47.217093597901226,-1.5629364155817649,Place Aristide Briand,
+nantes-naolib-live-public-les-nefs-47,LES NEFS,Nantes,France,300,47.204092541956626,-1.5632873817591502,61 Boulevard de la Prairie au Duc,
+nantes-naolib-live-pr-p-r-orvault-morliere-143,P+R Orvault-Morlière,Nantes,France,283,47.246776641,-1.6030494629999907,Avenue de la Morlière,
+nantes-naolib-live-public-descartes-12,DESCARTES,Nantes,France,251,47.217188847954716,-1.564364526212151,Rue Descartes,
+nantes-naolib-live-pr-p-r-bourdonnieres-1-147,P+R Bourdonnières 1,Nantes,France,234,47.185974206000026,-1.5213374749999957,Rue des Bourdonnières,
+nantes-naolib-live-pr-p-r-porte-de-vertou-1-155,P+R Porte de Vertou 1,Nantes,France,215,47.180393442000025,-1.5058091440000112,Boulevard Auguste Priou,
+nantes-naolib-live-pr-p-r-greneraie-144,P+R Gréneraie,Nantes,France,213,47.20013903400002,-1.533333620999997,Route de Saint Sébastien,
+nantes-naolib-live-pr-p-r-bas-chantenay-160,P+R Bas-Chantenay,Nantes,France,207,47.196157304999986,-1.5916543640000214,8 Rue Réaumur,
+nantes-naolib-live-pr-p-r-francois-mitterrand-135,P+R François Mitterrand,Nantes,France,207,47.22170619399998,-1.6394841410000254,Rue Virginia Woolf,
+nantes-naolib-live-pr-p-r-le-cardo-138,P+R Le Cardo,Nantes,France,206,47.262502085999984,-1.584511976999977,Esplanade du Cardo,
+nantes-naolib-live-pr-p-r-huit-mai-140,P+R Huit Mai,Nantes,France,200,47.19003374599998,-1.5514394489999859,Avenue André Malraux,
+nantes-naolib-live-pr-p-r-prairie-de-mauve-152,P+R Prairie de Mauve,Nantes,France,199,47.220255838000014,-1.5158513530000164,Boulevard de la Prairie de Mauves,
+nantes-naolib-live-pr-p-r-duguay-trouin-151,P+R Duguay-Trouin,Nantes,France,180,47.22395558599999,-1.618105187000026,Rue Duguay-Trouin,
+nantes-naolib-live-pr-p-r-marcel-paul-149,P+R Marcel Paul,Nantes,France,160,47.24590456300001,-1.618008347,Boulevard Marcel Paul,
+nantes-naolib-live-pr-p-r-haluchere-2-137,P+R Haluchère 2,Nantes,France,155,47.250230052000006,-1.5249751929999888,14 Rue du Ranzay,
+nantes-naolib-live-pr-p-r-trentemoult-sablieres-162,P+R Trentemoult-Sablières,Nantes,France,140,47.19138900399997,-1.5852002099999822,Rue de Californie,
+nantes-naolib-live-public-chu-17,CHU,Nantes,France,135,47.20936196559804,-1.5572502317729704,Quai de Tourville,
+nantes-naolib-live-public-fonderies-40,FONDERIES,Nantes,France,130,47.204970459088806,-1.5443329511381525,Rue de la Porte Gellée,
+nantes-naolib-live-public-baco-2-36,BACO 2,Nantes,France,118,47.21315097438518,-1.5516042545448998,Allée Baco,
+nantes-naolib-live-pr-p-r-haluchere-1-136,P+R Haluchère 1,Nantes,France,118,47.24845033700001,-1.522831171000007,Rue du Ranzay,
+nantes-naolib-live-pr-p-r-estuaire-161,P+R Estuaire,Nantes,France,115,47.20076479699998,-1.6146503470000084,59 Boulevard Batonnier Cholet,
+nantes-naolib-live-public-hotel-dieu-15,HOTEL DIEU,Nantes,France,100,47.211057080450736,-1.5519831099609056,Chaussée de la Madeleine,
+nantes-naolib-live-public-baco-1-35,BACO 1,Nantes,France,92,47.21433241531008,-1.5489888254435977,Allée Baco,
+nantes-naolib-live-public-gloriette-2-37,GLORIETTE 2,Nantes,France,87,47.210273681361414,-1.5602843655802539,Rue Albert de Mun,
+nantes-naolib-live-public-bellamy-29,BELLAMY,Nantes,France,76,47.22236040909734,-1.5576936898606668,Impasse de la Courtine,
+nantes-naolib-live-public-chu-2-42,CHU 2,Nantes,France,61,47.20889024774273,-1.5529138839211876,Quai Moncousu,
+nantes-naolib-live-public-gare-sud-limite-1h-16,GARE SUD-LIMITE 1H,Nantes,France,60,47.21370471058834,-1.5405805815658893,Quai Malakoff,
+nantes-naolib-live-pr-p-r-neustrie-3-154,P+R Neustrie 3,Nantes,France,20,47.176580193999996,-1.593789137999977,Rue Christophe Colomb,
+tiefbauamt-nuernberg-parken-Hauptmarkt,Hauptmarkt,Nürnberg,Germany,525,,,,
+tiefbauamt-nuernberg-parken-Hauptbahnhof,Hauptbahnhof,Nürnberg,Germany,486,,,,
+tiefbauamt-nuernberg-parken-Sterntor,Sterntor,Nürnberg,Germany,476,,,,
+tiefbauamt-nuernberg-parken-Jakobsmarkt,Jakobsmarkt,Nürnberg,Germany,452,,,,
+tiefbauamt-nuernberg-parken-Parkhaus-Wohrl,Parkhaus Wöhrl,Nürnberg,Germany,441,,,,
+tiefbauamt-nuernberg-parken-City-Park-Center,City-Park-Center,Nürnberg,Germany,400,,,,
+tiefbauamt-nuernberg-parken-Katharinenhof,Katharinenhof,Nürnberg,Germany,370,,,,
+tiefbauamt-nuernberg-parken-Parkhaus-Karstadt,Parkhaus Karstadt,Nürnberg,Germany,365,,,,
+tiefbauamt-nuernberg-parken-PH-Nurnberger-Akademie,PH Nürnberger Akademie,Nürnberg,Germany,301,,,,
+tiefbauamt-nuernberg-parken-Adlerstrasse,Adlerstraße,Nürnberg,Germany,260,,,,
+tiefbauamt-nuernberg-parken-Sebalder-Hofe,Sebalder Höfe,Nürnberg,Germany,250,,,,
+tiefbauamt-nuernberg-parken-Galeria-Kaufhof,Galeria Kaufhof,Nürnberg,Germany,220,,,,
+tiefbauamt-nuernberg-parken-Erler-Klinik,Erler-Klinik,Nürnberg,Germany,200,,,,
+tiefbauamt-nuernberg-parken-Findelgasse,Findelgasse,Nürnberg,Germany,146,,,,
+tiefbauamt-nuernberg-parken-Parkhaus-Maximum,Parkhaus Maximum,Nürnberg,Germany,100,,,,
+tiefbauamt-nuernberg-parken-ADCOM-Center,ADCOM-Center,Nürnberg,Germany,92,,,,
+tiefbauamt-nuernberg-parken-Hans-Sachs-Platz,Hans-Sachs-Platz,Nürnberg,Germany,65,,,,
+parken-osnabrueck-46,Parkhaus Nord Klinikum OS,Osnabrück,Germany,970,52.280796,8.004972,"Am Finkenhügel 1, 49076 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkhaus-nord-klinikum-os.html
+parken-osnabrueck-23,Parkhaus Ledenhof-Garage,Osnabrück,Germany,587,52.272644,8.04474,"Ledenhof-Garage, Alte Münze 18, 49074 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkhaus-ledenhof-garage.html
+parken-osnabrueck-11,Parkhaus Bahnhofsgarage,Osnabrück,Germany,516,52.2714829,8.059507,"Bahnhofs-Garage, Theodor-Heuss-Platz, 49074 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkhaus-bahnhofsgarage.html
+parken-osnabrueck-22,Parkhaus Kollegienwall-Garage,Osnabrück,Germany,496,52.271906368628514,8.052008766115112,"Am Landgericht 2, 49074 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkhaus-kollegienwall-garage.html
+parken-osnabrueck-24,Parkhaus Nikolai-Garage,Osnabrück,Germany,477,52.274962,8.042839,"Nikolai-Garage, Hakenstraße 5, 49074 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkhaus-nikolai-garage.html
+parken-osnabrueck-27,Parkhaus Salzmarkt-Garage,Osnabrück,Germany,425,52.268722,8.055086,"Salzmarkt-Garage, Holtstraße 37, 49074 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkhaus-salzmarkt-garage.html
+parken-osnabrueck-28,Parkhaus Stadthaus-Garage,Osnabrück,Germany,294,52.278044,8.037697,"Stadthaus-Garage, Natruper-Tor-Wall 2, 49076 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkhaus-stadthaus-garage.html
+parken-osnabrueck-36,Parkhaus L&T,Osnabrück,Germany,285,52.27605989377632,8.046636317986193,"Herrenteich Straße, 49074 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkhaus-lt.html
+parken-osnabrueck-30,Parkhaus Vitihof-Garage,Osnabrück,Germany,260,52.280237,8.042148,"Vitihof-Garage, Gerberhof 10, 49074 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkhaus-vitihof-garage.html
+parken-osnabrueck-37,Tiefgarage L&T,Osnabrück,Germany,202,52.27605223763358,8.046642574460018,"Herrenteich Straße, 49074 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/tiefgarage-lt.html
+parken-osnabrueck-43,Parkplatz P1 Klinikum OS,Osnabrück,Germany,200,52.275563,8.005492,"Am Finkenhügel 1, 49076 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkplatz-p1-klinikum-os.html
+parken-osnabrueck-44,Parkplatz P2 Klinikum OS,Osnabrück,Germany,200,52.277959,8.005674,"Am Finkenhügel 1, 49076 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkplatz-p2-klinikum-os.html
+parken-osnabrueck-45,Parkplatz P3 Klinikum OS,Osnabrück,Germany,200,52.279089,8.00509,"Am Finkenhügel 1, 49076 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkplatz-p3-klinikum-os.html
+parken-osnabrueck-35,Parkhaus Cinema Arthouse,Osnabrück,Germany,198,52.277859,8.050225,"Karlstraße 8, 49074 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkhaus-cinema-arthouse.html
+parken-osnabrueck-34,Parkhaus Lotter Straße,Osnabrück,Germany,170,52.274112,8.028403,"Parkhaus Lotter Straße, Am Kirchenkamp 3, 49078 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkhaus-lotter-strasse.html
+parken-osnabrueck-19,Parkplatz Kinderhospital am Schölerberg,Osnabrück,Germany,156,52.251954,8.062869,"Kinderhospital Osnabrück, Iburger Str. 187, 49082 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkplatz-kinderhospital-am-schoelerberg.html
+parken-osnabrueck-13,Parkplatz Berliner Platz,Osnabrück,Germany,147,52.276016,8.053614,"Parkplatz Berliner Platz, Kleiststraße, 49074 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkplatz-berliner-platz.html
+parken-osnabrueck-50,P+R Rubbenbruchsee,Osnabrück,Germany,145,52.295737,7.988344,"Rubbenbruchweg, 49090 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/p-r-rubbenbruchsee.html
+parken-osnabrueck-17,Parkhaus Altstadtgarage,Osnabrück,Germany,136,52.278756,8.041294,"Lohstraße 11, 49074 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkhaus-altstadtgarage.html
+parken-osnabrueck-18,Parkplatz Haarmannsbrunnen,Osnabrück,Germany,120,52.276018,8.048747,"Haarmannsbrunnen, Herrenteichswall 2, 49074 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkplatz-haarmannsbrunnen.html
+parken-osnabrueck-21,Parkhaus Neustadt-Carré,Osnabrück,Germany,119,52.26802004760152,8.050300703103495,"Neustadt Carré, Kommenderiestraße, 49074 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkhaus-neustadt-carre.html
+parken-osnabrueck-51,Parkhaus Christl. Kinderhospital,Osnabrück,Germany,61,52.270202,8.052164,"Johannisfreiheit 1, 49074 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkhaus-christliches-kinderhospital-osnabrueck.html
+parken-osnabrueck-16,Parkplatz Kunsthalle Dominikanerkirche,Osnabrück,Germany,55,52.279661,8.040564,"Parkplatz, Hasemauer 3, 49074 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkplatz-kunsthalle-dominikanerkirche.html
+parken-osnabrueck-29,Parkplatz Stadthaus,Osnabrück,Germany,52,52.278156,8.037495,"Stadthaus-Garage, Natruper-Tor-Wall 2, 49076 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkplatz-stadthaus.html
+parken-osnabrueck-26,Parkplatz Schlosswallhalle,Osnabrück,Germany,48,52.270871,8.040123,"Stellplatz Osnabrück City, Schnatgang 6, 49080 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkplatz-schlosswallhalle.html
+parken-osnabrueck-49,Parkplatz Café Rubbenbruchsee,Osnabrück,Germany,45,52.292472,7.990343,"Barenteich 2, 49076 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkplatz-cafe-rubbenbruchsee.html
+parken-osnabrueck-25,Parkplatz Stüvestraße,Osnabrück,Germany,43,52.283763,8.038284,"Stüvestraße 34, 49076 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkplatz-stuevestrasse.html
+parken-osnabrueck-38,Parkplatz Stresemannplatz,Osnabrück,Germany,37,52.2737128,8.0543955,"Schlagvorder Straße, 49074 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkplatz-stresemannplatz.html
+parken-osnabrueck-33,Parkplatz Heinrich-Heine-Straße,Osnabrück,Germany,21,52.272313,8.056268,"Heinrich-Heine-Straße, 49074 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkplatz-heinrich-heine-strasse.html
+parken-osnabrueck-31,Parkplatz Karl-Bücher-Straße,Osnabrück,Germany,21,52.270644,8.055333,"Karl-Bücher-Straße, 49074 Osnabrück",https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkplatz-karl-buecher-strasse.html
+salzburg-live-22154,Mirabell,Salzburg,Austria,700,47.80559402,13.04331894,Mirabellplatz 5b,https://www.mein-contipark.at/parkplatz-finden/parken-in-salzburg/parkplatz-mirabell-congress-garage-salzburg--ci3cp112518669
+salzburg-live-29378,Altstadtgarage B,Salzburg,Austria,680,47.7978453,13.03857847,Hildmannplatz,https://www.mein-contipark.at/parkplatz-finden/parken-in-salzburg/tiefgarage-altstadtgarage-b-salzburg--ci3cp112518733
+salzburg-live-22101,Altstadtgarage A,Salzburg,Austria,618,47.79744591,13.03783547,Hildmannplatz,https://www.mein-contipark.at/parkplatz-finden/parken-in-salzburg/tiefgarage-altstadtgarage-a-salzburg--ci3cp112518681
+salzburg-live-29338,Tiergarten Hellbrunn,Salzburg,Austria,464,47.75688176,13.06408677,,http://www.contipark.at/de/find-parking/salzburg-parkplatz-tiergarten-hellbrunn/
+salzburg-live-22153,Linzergassengarage (Kapuzinerberg),Salzburg,Austria,400,47.80470387,13.05146444,Glockengasse 4a,https://www.salzburg.info/de/reiseinfos/salzburg-a-z/parkgarage-linzer-gasse_az_8121
+salzburg-live-22156,Müllner Parkplatz,Salzburg,Austria,340,47.80431545,13.03207481,Lindhofstraße,
+salzburg-live-22159,Park & Ride Süd,Salzburg,Austria,310,47.76983285,13.07152624,Alpenstraße - Stadteinfahrt Süd,https://www.salzburg.info/de/reiseinfos/anreise-verkehr/auto/parken/salzburg-sued
+salzburg-live-22162,WIFI-Garage,Salzburg,Austria,273,47.8086816,13.04455914,Julius Raab Platz 2,https://www.mein-contipark.at/parkplatz-finden/parken-in-salzburg/tiefgarage-wifigarage-salzburg--ci3cp112518784
+salzburg-live-22051,Akademiestrasse,Salzburg,Austria,160,47.79167283,13.05302917,Akademiestraße,https://www.mein-contipark.at/parkplatz-finden/parken-in-salzburg/parkplatz-akademieplatz-salzburg--ci3cp112520224
+salzburg-live-22163,Bahnhofsgarage,Salzburg,Austria,126,47.81321948,13.04475886,Südtirolerplatz 1,https://www.mein-contipark.at/parkplatz-finden/parken-in-salzburg/tiefgarage-bahnhofsgarage-salzburg--ci3cp112518932
+salzburg-live-21952,Auersperg-Garage (Sheraton),Salzburg,Austria,89,47.80687629,13.04059335,Auerspergstrasse 4,https://www.apcoa.at/parken/salzburg/
+salzburg-live-22157,Petersbrunnhof,Salzburg,Austria,67,47.7934461,13.05176555,Erzabt-Klotz-Straße/Petersbrunnstraße,https://www.mein-contipark.at/parkplatz-finden/parken-in-salzburg/parkplatz-petersbrunnhof-salzburg--ci3cp112520262
+strasbourg-live-parking-rivetoile,Parking Rivetoile,Strasbourg,France,1520,48.5732829348039,7.75983823964716,,
+strasbourg-live-parking-p3-wilson,Parking P3 Wilson,Strasbourg,France,977,48.5879606695026,7.74014892918823,,
+strasbourg-live-parking-gare-wodli,Parking Gare Wodli,Strasbourg,France,955,48.5873845279566,7.7367710015538,,
+strasbourg-live-parking-centre-historique-petite-france,Parking Centre historique Petite France,Strasbourg,France,939,48.5791976381607,7.73525856082617,,
+strasbourg-live-parking-coubertin,Parking Coubertin,Strasbourg,France,719,48.600222553324905,7.768342183051484,,
+strasbourg-live-parking-coop,Parking COOP,Strasbourg,France,600,48.57470310065824,7.791303759389737,,
+strasbourg-live-parking-ducs-d-alsace,Parking Ducs d'Alsace,Strasbourg,France,600,48.5892383943901,7.71596677960563,,
+strasbourg-live-parking-halles-p1-marais-vert,Parking Halles P1 Marais vert,Strasbourg,France,534,48.5873618580082,7.73937493189863,,
+strasbourg-live-parking-rivetoile-cinema,Parking Rivetoile Cinéma,Strasbourg,France,508,48.573079,7.7624467,,
+strasbourg-live-parking-starlette,Parking Starlette,Strasbourg,France,500,48.57367055655507,7.784830780697454,,
+strasbourg-live-parking-austerlitz,Parking Austerlitz,Strasbourg,France,482,48.5779636853829,7.75179597699974,,
+strasbourg-live-parking-p2-sebastopol,Parking P2 Sebastopol,Strasbourg,France,482,48.5867897638138,7.74215216511801,,
+strasbourg-live-parking-baggersee,Parking Baggersee,Strasbourg,France,460,48.5446469517313,7.73569466237007,,
+strasbourg-live-parking-rives-de-l-aar,Parking Rives de l'Aar,Strasbourg,France,456,48.5996315289378,7.75381030140218,,
+strasbourg-live-parking-rotonde,Parking Rotonde,Strasbourg,France,450,48.5912264325338,7.72610093327335,,
+strasbourg-live-parking-centre-opera-broglie,Parking Centre Opéra Broglie,Strasbourg,France,447,48.585689025956,7.74927491976424,,
+strasbourg-live-parking-dock-1,Parking Dock 1,Strasbourg,France,432,48.57151337060701,7.780669396027458,,
+strasbourg-live-parking-saint-nicolas,Parking Saint Nicolas,Strasbourg,France,360,48.5755761553687,7.74952649489905,,
+strasbourg-live-parking-hoenheim-gare,Parking Hoenheim gare,Strasbourg,France,340,48.62788850674,7.75778587766437,,
+strasbourg-live-parking-parc-des-romains,Parking Parc des Romains,Strasbourg,France,324,48.581556385183006,7.724652978338745,,
+strasbourg-live-parking-europe-wacken,Parking Europe Wacken,Strasbourg,France,315,48.598883133583065,7.762994915127296,,
+strasbourg-live-parking-bateliers,Parking Bateliers,Strasbourg,France,283,48.5810021316449,7.75604844096195,,
+strasbourg-live-p1-esplanade-centre-commercial,P1 Esplanade - Centre commercial,Strasbourg,France,251,48.5775007075809,7.77158518917195,,
+strasbourg-live-parking-gutenberg,Parking Gutenberg,Strasbourg,France,244,48.5815606649063,7.74828482148178,,
+strasbourg-live-parking-elsau,Parking Elsau,Strasbourg,France,220,48.5684033861816,7.73031009299049,,
+strasbourg-live-parking-gare-courte-duree,Parking Gare courte durée,Strasbourg,France,188,48.5843287980526,7.73587617577237,,
+strasbourg-live-parking-espace-europeen-de-l-entreprise,Parking Espace européen de l'entreprise,Strasbourg,France,170,48.6167445706505,7.71966106577424,,
+strasbourg-live-parking-wolfisheim-henri-rendu,Parking Wolfisheim Henri Rendu,Strasbourg,France,103,48.591898967989344,7.6719818029537885,,
+strasbourg-live-parking-poteries,Parking Poteries,Strasbourg,France,102,48.5833504860946,7.69108730315623,,
+strasbourg-live-parking-kibitzenau,Parking Kibitzenau,Strasbourg,France,93,48.5556289,7.7677689,,
+strasbourg-live-parking-robertsau-boecklin,Parking Robertsau Boecklin,Strasbourg,France,92,48.5979711278741,7.77656295435852,,
+torino-5t-7,Lingotto,Torino,Italy,3100,45.031625,7.662682,,
+torino-5t-11,Porta Palazzo,Torino,Italy,653,45.07646,7.686467,,
+torino-5t-10,Palagiustizia,Torino,Italy,616,45.069353,7.661091,,
+torino-5t-19,Stati Uniti,Torino,Italy,500,45.064056,7.667003,,
+torino-5t-25,Molinette,Torino,Italy,481,45.038575,7.675885,,
+torino-5t-30,Vittorio,Torino,Italy,476,45.064784,7.695425,,
+torino-5t-2,Bodoni,Torino,Italy,460,45.063553,7.683574,,
+torino-5t-18,Valdo Fusi,Torino,Italy,457,45.065041,7.687613,,
+torino-5t-48,Venchi Unica,Torino,Italy,437,45.074104,7.615765,,
+torino-5t-23,Caio Mario,Torino,Italy,418,45.028627,7.640286,,
+torino-5t-9,Nizza,Torino,Italy,371,45.040852,7.668902,,
+torino-5t-16,Fontanesi,Torino,Italy,358,45.070346,7.70501,,
+torino-5t-12,Santo Stefano,Torino,Italy,344,45.073845,7.68372,,
+torino-5t-46,Bacigalupo,Torino,Italy,326,45.036604,7.672489,,
+torino-5t-60,Lancia,Torino,Italy,323,45.061756,7.642471,,
+torino-5t-15,Ventimiglia,Torino,Italy,303,45.033647,7.672969,,
+torino-5t-6,Galileo Ferraris,Torino,Italy,276,45.067451,7.672192,,
+torino-5t-27,Sofia,Torino,Italy,272,45.095568,7.716923,,
+torino-5t-8,Madama Cristina,Torino,Italy,259,45.058585,7.683419,,
+torino-5t-47,Bixio,Torino,Italy,255,45.06879,7.65565,,
+torino-5t-51,Porta Nuova Fs,Torino,Italy,242,45.06293,7.67776,,
+torino-5t-4,D'Azeglio Galilei,Torino,Italy,223,45.042894,7.677542,,
+torino-5t-66,Palazzo Nuoto,Torino,Italy,190,45.039829,7.6503,,
+torino-5t-32,Cto,Torino,Italy,161,45.033603,7.67349,,
+torino-5t-56,Monti,Torino,Italy,153,45.04709,7.68091,,
+torino-5t-53,Ancona,Torino,Italy,148,45.07961,7.69175,,
+torino-5t-13,Re Umberto,Torino,Italy,125,45.067,7.67583,,
+torino-5t-52,Porta Susa Fs,Torino,Italy,123,45.07301,7.66718,,
+torino-5t-59,Richelmy,Torino,Italy,115,45.08301,7.65785,,
+torino-5t-54,Palestro,Torino,Italy,113,45.07339,7.67184,,
+torino-5t-5,Emanuele Filiberto,Torino,Italy,110,45.076661393,7.68030909027,,
+torino-5t-57,Mercato Centrale,Torino,Italy,110,45.07768,7.68379,,
+torino-5t-55,Cernaia,Torino,Italy,94,45.06936,7.67348,,
+torino-5t-50,Caio Mario Camper,Torino,Italy,57,45.02803,7.63973,,
+vigo-live-4756,Parking Urzáiz,Vigo,Spain,463,42.23542,-8.71871,,
+vigo-live-4764,Parking Policarpo Sanz,Vigo,Spain,460,42.23741,-8.72296,,
+vigo-live-4762,Parking Calvario,Vigo,Spain,424,42.23233,-8.70643,,
+vigo-live-389,Parking CC A Laxe,Vigo,Spain,397,42.2406,-8.72703,,
+vigo-live-4763,Parking Praza América,Vigo,Spain,388,42.22014,-8.73556,,
+vigo-live-4761,Parking Pintor Colmeiro,Vigo,Spain,366,42.22499,-8.72586,,
+vigo-live-5125,Parking Areal,Vigo,Spain,285,42.23953,-8.7186,,
+vigo-live-406,Parking Independencia,Vigo,Spain,193,42.22373,-8.73014,,
+vigo-live-5110,Parking Portugal,Vigo,Spain,183,42.23623,-8.71841,,
+vigo-live-4759,Parking Náutico Cíes,Vigo,Spain,180,42.24051,-8.72513,,
+vigo-live-392,Parking Praza da Estrela,Vigo,Spain,88,42.23987,-8.71938,,
+zuerich-live-ph018,Universität Irchel,Zürich,Switzerland,755,47.398158,8.546502,Winterthurerstrasse 181,https://www.pls-zh.ch/parkhaus/uni_irchel.jsp?pid=uni_irchel
+zuerich-live-ph058,City Parking,Zürich,Switzerland,607,47.37569,8.535496,Gessnerallee 14,https://www.pls-zh.ch/parkhaus/cp.jsp?pid=cp
+zuerich-live-ph022,Hohe Promenade,Zürich,Switzerland,480,47.3687,8.54801,Rämistrasse 22a,https://www.pls-zh.ch/parkhaus/promenade.jsp?pid=promenade
+zuerich-live-ph024,Urania,Zürich,Switzerland,480,47.374372,8.540752,Uraniastrasse 3,https://www.pls-zh.ch/parkhaus/urania.jsp?pid=urania
+zuerich-live-ph019,Center Eleven,Zürich,Switzerland,377,47.412826,8.540275,Sophie-Taeuber-Strasse 4,https://www.pls-zh.ch/parkhaus/center_11.jsp?pid=center_11
+zuerich-live-ph061,Crowne Plaza,Zürich,Switzerland,310,47.381153,8.506867,Bienenstrasse 9,https://www.pls-zh.ch/parkhaus/crowne_plaza.jsp?pid=crowne_plaza
+zuerich-live-ph1532,Opéra,Zürich,Switzerland,297,47.365203,8.547099,Theaterstrasse 7,https://www.pls-zh.ch/parkhaus/opera.jsp?pid=opera
+zuerich-live-ph001,Pfingstweid,Zürich,Switzerland,276,47.387572,8.517785,Pfingstweidstrasse 9,https://www.pls-zh.ch/parkhaus/pfingstweid.jsp?pid=pfingstweid
+zuerich-live-ph050,Park Hyatt,Zürich,Switzerland,267,47.36591,8.53612,Gotthardstrasse 27,https://www.pls-zh.ch/parkhaus/park_hyatt.jsp?pid=park_hyatt
+zuerich-live-ph049,Bleicherweg,Zürich,Switzerland,258,47.367372,8.535696,Beethovenstrasse 35,https://www.pls-zh.ch/parkhaus/bleicherweg.jsp?pid=bleicherweg
+zuerich-live-ph023,Jelmoli,Zürich,Switzerland,227,47.373841,8.536501,Steinmühleplatz 5,https://www.pls-zh.ch/parkhaus/jelmoli.jsp?pid=jelmoli
+zuerich-live-ph033,Stampfenbach,Zürich,Switzerland,215,47.386645,8.539427,Niklausstrasse 17,https://www.pls-zh.ch/parkhaus/stampfenbach.jsp?pid=stampfenbach
+zuerich-live-ph060,Accu,Zürich,Switzerland,213,47.414853,8.540591,Fritz-Heeb-Weg 5,https://www.pls-zh.ch/parkhaus/accu.jsp?pid=accu
+zuerich-live-ph011,Zürichhorn,Zürich,Switzerland,195,47.355402,8.553073,Baurstrasse 7,https://www.pls-zh.ch/parkhaus/zuerichhorn.jsp?pid=zuerichhorn
+zuerich-live-ph045,Nordhaus,Zürich,Switzerland,184,47.412086,8.547492,Siewerdtstrasse 10,https://www.pls-zh.ch/parkhaus/nordhaus.jsp?pid=nordhaus
+zuerich-live-ph006,Hauptbahnhof,Zürich,Switzerland,176,47.381563,8.537598,Sihlquai 41,https://www.pls-zh.ch/parkhaus/hb.jsp?pid=hb
+zuerich-live-ph048,Utoquai,Zürich,Switzerland,153,47.361735,8.548526,Färberstrasse 6,https://www.pls-zh.ch/parkhaus/utoquai.jsp?pid=utoquai
+zuerich-live-ph010,Feldegg,Zürich,Switzerland,147,47.360383,8.553527,Riesbachstrasse 6,https://www.pls-zh.ch/parkhaus/feldegg.jsp?pid=feldegg
+zuerich-live-ph025,Globus,Zürich,Switzerland,139,47.376055,8.537717,Löwenstrasse 50a,https://www.pls-zh.ch/parkhaus/globus.jsp?pid=globus
+zuerich-live-ph021,Jungholz,Zürich,Switzerland,119,47.412941,8.543832,Jungholzstrasse 19,https://www.pls-zh.ch/parkhaus/jungholz.jsp?pid=jungholz
+zuerich-live-ph051,Octavo,Zürich,Switzerland,113,47.413603,8.536488,Brown-Boveri-Strasse 2,https://www.pls-zh.ch/parkhaus/octavo.jsp?pid=octavo
+zuerich-live-ph005,Hardau II,Zürich,Switzerland,111,47.381678,8.509422,Norastrasse 38,https://www.pls-zh.ch/parkhaus/hardau.jsp?pid=hardau
+zuerich-live-ph042,Talgarten,Zürich,Switzerland,110,47.372146,8.536012,Nüschelerstrasse 30,https://www.pls-zh.ch/parkhaus/talgarten.jsp?pid=talgarten
+zuerich-live-ph1412,Unispital Nord,Zürich,Switzerland,104,47.378908,8.549771,Frauenklinikstrasse 10,https://www.pls-zh.ch/parkhaus/unispital_nord.jsp?pid=unispital_nord
+zuerich-live-ph059,Max Bill-Platz,Zürich,Switzerland,98,47.414233,8.5391,Ellen-Widmann-Weg 2,https://www.pls-zh.ch/parkhaus/max_bill_platz.jsp?pid=max_bill_platz
+zuerich-live-ph529,Helvetiaplatz,Zürich,Switzerland,66,47.37641,8.526968,Molkenstrasse 9,https://www.pls-zh.ch/parkhaus/helvetia.jsp?pid=helvetia
+zuerich-live-ph1411,Albisriederplatz,Zürich,Switzerland,65,47.379393,8.50812,Badenerstrasse 380c,https://www.pls-zh.ch/parkhaus/albisriederplatz.jsp?pid=albisriederplatz
+zuerich-live-ph1533,Puls 5,Zürich,Switzerland,59,47.390902,8.517561,Technoparkstrasse 10,https://www.pls-zh.ch/parkhaus/puls5.jsp?pid=puls5
+zuerich-live-ph043,Dorflinde,Zürich,Switzerland,48,47.407595,8.548751,Schwamendingenstrasse 31,https://www.pls-zh.ch/parkhaus/dorflinde.jsp?pid=dorflinde
+zuerich-live-ph062,Parkside,Zürich,Switzerland,37,47.412431,8.539127,Sophie-Taeuber-Strasse 14,https://www.pls-zh.ch/parkhaus/parkside.jsp?pid=parkside

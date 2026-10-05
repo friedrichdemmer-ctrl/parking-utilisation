@@ -1,0 +1,158 @@
+place_id,name,city,country,capacity,lat,lon,address,place_url
+basel-live-city,Parkhaus City,Basel,Switzerland,1114,47.561101,7.5824076,Schanzenstrasse 48,https://www.parkleitsystem-basel.ch/parkhaus/city
+basel-live-elisabethen,Parkhaus Elisabethen,Basel,Switzerland,840,47.5506254,7.5874932,Steinentorberg 5,https://www.parkleitsystem-basel.ch/parkhaus/elisabethen
+basel-live-badbahnhof,Parkhaus Bad. Bahnhof,Basel,Switzerland,750,47.5651794,7.6089067,Schwarzwaldstrasse 160,https://www.parkleitsystem-basel.ch/parkhaus/badbahnhof
+basel-live-messe,Parkhaus Messe,Basel,Switzerland,727,47.563241,7.602175,Riehenstrasse 101,https://www.parkleitsystem-basel.ch/parkhaus/messe
+basel-live-steinen,Parkhaus Steinen,Basel,Switzerland,526,47.5524554,7.5858936,Steinenschanze 5,https://www.parkleitsystem-basel.ch/parkhaus/steinen
+basel-live-kunstmuseum,Parkhaus Kunstmuseum,Basel,Switzerland,350,47.5545146,7.5927014,St. Alban-Graben 3,https://www.parkleitsystem-basel.ch/parkhaus/kunstmuseum
+basel-live-rebgasse,Parkhaus Rebgasse,Basel,Switzerland,250,47.5607142,7.594263,Rebgasse 20,https://www.parkleitsystem-basel.ch/parkhaus/rebgasse
+basel-live-anfos,Parkhaus Anfos,Basel,Switzerland,165,47.5515968,7.593512,Henric Petri-Strasse 21,https://www.parkleitsystem-basel.ch/parkhaus/anfos
+basel-live-storchen,Parkhaus Storchen,Basel,Switzerland,142,47.5592347,7.58658,Fischmarkt 10,https://www.parkleitsystem-basel.ch/parkhaus/storchen
+basel-live-claramatte,Parkhaus Claramatte,Basel,Switzerland,120,47.5639644,7.5946604,Klingentalstrasse 25,https://www.parkleitsystem-basel.ch/parkhaus/claramatte
+basel-live-europe,Parkhaus Europe,Basel,Switzerland,120,47.5630411,7.5967098,Hammerstrasse 68,https://www.parkleitsystem-basel.ch/parkhaus/europe
+basel-live-bahnhofsued,Parkhaus Bahnhof Süd,Basel,Switzerland,100,47.5458851,7.5884556,Güterstrasse 115,https://www.parkleitsystem-basel.ch/parkhaus/bahnhofsued
+basel-live-aeschen,Parkhaus Aeschen,Basel,Switzerland,95,47.5504299,7.5943046,Aeschengraben 9,https://www.parkleitsystem-basel.ch/parkhaus/aeschen
+basel-live-clarahuus,Parkhaus Clarahuus,Basel,Switzerland,52,47.5622725,7.5917937,Webergasse 34,https://www.parkleitsystem-basel.ch/parkhaus/clarahuus
+mobidata-bw-freiburg-westarkaden,Westarkaden,Freiburg,Germany,750,48.0064196,7.8273939,"Breisacher Straße 140, 79110 Freiburg",https://www.freiburg.de/pb/1708134.html
+mobidata-bw-freiburg-p15-schlossberg,P15 Schlossberg,Freiburg,Germany,429,47.9940167,7.8551424,"Schlossbergring 14, 79098 Freiburg","http://www.freiburg.de/pb/,Lde/231447.html"
+mobidata-bw-freiburg-p9-schwarzwald-city,P9 Schwarzwald City,Freiburg,Germany,398,47.9972064,7.8511192,"Wasserstraße 7, 79098 Freiburg","http://www.freiburg.de/pb/,Lde/231407.html"
+mobidata-bw-freiburg-gundelfinger-str,Gundelfinger Str.,Freiburg,Germany,341,48.0348057,7.8623896,,
+mobidata-bw-freiburg-p10-rotteck,P10 Rotteck,Freiburg,Germany,300,47.9958007,7.8462984,"Rotteckring 12, 79098 Freiburg","http://www.freiburg.de/pb/,Lde/231415.html"
+mobidata-bw-freiburg-paduaallee,Paduaallee,Freiburg,Germany,245,48.0126632,7.8064112,,
+mobidata-bw-freiburg-p14-landratsamt,P14 Landratsamt,Freiburg,Germany,202,48.0000594,7.8570815,"Stadtstraße 2, 79104 Freiburg","http://www.freiburg.de/pb/,Lde/231439.html"
+mobidata-bw-freiburg-p8-unterlinden,P8 Unterlinden,Freiburg,Germany,188,47.9978678,7.8488676,"Fahnenbergplatz 3, 79098 Freiburg","http://www.freiburg.de/pb/,Lde/231399.html"
+mobidata-bw-freiburg-p4-am-bahnhof,P4 Am Bahnhof,Freiburg,Germany,172,47.9989705,7.8429173,"P4, 79098 Freiburg","http://www.freiburg.de/pb/,Lde/231383.html"
+mobidata-bw-freiburg-p12-zaehringer-tor,P12 Zähringer Tor,Freiburg,Germany,162,47.9989584,7.8540219,"Bernhardstraße2, 79098 Freiburg","http://www.freiburg.de/pb/,Lde/231423.html"
+mobidata-bw-freiburg-bissierstrasse,Bissierstraße,Freiburg,Germany,152,48.001655,7.8191981,,
+mobidata-bw-freiburg-munzinger-str,Munzinger Str.,Freiburg,Germany,145,47.9880202,7.7959166,,
+mobidata-bw-freiburg-p18-martinstor,P18 Martinstor,Freiburg,Germany,134,47.9925063,7.8473649,"Rempartstr. 13, 79098 Freiburg","http://www.freiburg.de/pb/,Lde/231463.html"
+mobidata-bw-freiburg-p6-g-graf-halle,P6 G.-Graf-Halle,Freiburg,Germany,86,47.9993,7.8468,"Hebelstr. 2, 79104 Freiburg","http://www.freiburg.de/pb/,Lde/1475630.html"
+mobidata-bw-freiburg-moosweiher,Moosweiher,Freiburg,Germany,81,48.0292275,7.8081168,,
+mobidata-bw-heilbronn-heilbronn-klinik-am-gesundbrunnen-p2,"Heilbronn, Klinik am Gesundbrunnen P2",Heilbronn,Germany,763,49.15506,9.191471,"Am Gesundbrunnen 20-26, 74078 Heilbronn",https://www.goldbeck-parking.de/parkplatzsuche#/p/7211/Klinik%20am%20Gesundbrunnen
+heilbronn-parken-Stadtgalerie,Stadtgalerie,Heilbronn,Germany,660,,,,
+mobidata-bw-heilbronn-heilbronn-quartiersgarage-neckarbogen,"Heilbronn, Quartiersgarage Neckarbogen",Heilbronn,Germany,643,49.146126,9.209155,"Paula-Fuchs-Allee 12, 74076 Heilbronn",https://www.goldbeck-parking.de/parkplatzsuche#/p/7292/Quartiersgarage%20Neckarbogen
+mobidata-bw-heilbronn-heilbronn-klinik-am-plattenwald,"Heilbronn, Klinik am Plattenwald",Heilbronn,Germany,637,49.2121077,9.2361886,"Am Plattenwald  1, 74711 Bad Friedrichshall",https://www.goldbeck-parking.de/parkplatzsuche#/p/7210/Klinik%20Plattenwald
+mobidata-bw-heilbronn-heilbronn-klinik-am-gesundbrunnen-p1,"Heilbronn, Klinik am Gesundbrunnen P1",Heilbronn,Germany,489,49.155065,9.191551,"Am Gesundbrunnen 20-26, 74078 Heilbronn",https://www.goldbeck-parking.de/parkplatzsuche#/p/7211/Klinik%20am%20Gesundbrunnen
+heilbronn-parken-Wollhaus,Wollhaus,Heilbronn,Germany,450,,,,
+heilbronn-parken-Harmonie,Harmonie,Heilbronn,Germany,435,,,,
+mobidata-bw-heilbronn-heilbronn-wohlgelegen,"Heilbronn, Wohlgelegen",Heilbronn,Germany,429,49.1550065,9.2087054,"Im Zukunftspark 16, 74076 Heilbronn",https://www.goldbeck-parking.de/parkplatzsuche#/p/7269/Parkhaus%20Wohlgelegen
+heilbronn-parken-Theaterforum-K3,Theaterforum K3,Heilbronn,Germany,393,,,,
+heilbronn-parken-Am-Bollwerksturm,Am Bollwerksturm,Heilbronn,Germany,304,,,,
+mobidata-bw-heilbronn-heilbronn-klinik-am-gesundbrunnen-p4,"Heilbronn, Klinik am Gesundbrunnen P4",Heilbronn,Germany,257,49.154588,9.188681,"Am Gesundbrunnen 20-28, 74078 Heilbronn",https://www.goldbeck-parking.de/parkplatzsuche#/p/7211/Klinik%20am%20Gesundbrunnen
+mobidata-bw-heilbronn-heilbronn-klinik-am-gesundbrunnen-p3,"Heilbronn, Klinik am Gesundbrunnen P3",Heilbronn,Germany,191,49.154706,9.188946,"Am Gesundbrunnen 20-26, 74078 Heilbronn",https://www.goldbeck-parking.de/parkplatzsuche#/p/7211/Klinik%20am%20Gesundbrunnen
+mobidata-bw-heilbronn-heilbronn-lohtorstrasse,"Heilbronn, Lohtorstraße",Heilbronn,Germany,78,49.14335,9.217758,"Gerberstraße / Lohtorstraße, 74072 Heilbronn",https://www.goldbeck-parking.de/parkplatzsuche#/p/7225/Parkplatz%20Lohtorstra%C3%9Fe
+heilbronn-parken-Kathchenhof,Käthchenhof,Heilbronn,Germany,67,,,,
+mobilitaet-jena-Goethe-Galerie,Goethe Galerie,Jena,Germany,523,50.926875,11.582224,"Goethe Galerie, Ernst-Abbe-Strasse 15, 07743 Jena",
+mobilitaet-jena-Eichplatz,Eichplatz,Jena,Germany,300,50.928426,11.586044,"Eichplatz, Kollegiengasse, 07743 Jena",
+mobilitaet-jena-Krautgasse,Krautgasse,Jena,Germany,200,50.928996,11.583075,"Krautgasse, 07743 Jena",
+mobilitaet-jena-Neue-Mitte,Neue Mitte,Jena,Germany,165,50.928428,11.584195,"Neue Mitte, Jena Kollegiengasse, 07743 Jena",
+mobilitaet-jena-Seidelparkplatz,Seidelparkplatz,Jena,Germany,161,50.9209377,11.5903021,"Seidelstraße, 07749 Jena",
+mobilitaet-jena-Holzmarkt,Holzmarkt,Jena,Germany,120,50.926547,11.585516,"Holzmarkt Grietgasse 2, 07743 Jena",
+mobilitaet-jena-Windberg,Windberg,Jena,Germany,75,50.923509,11.627214,"Fuchsturm, 07749 Jena",
+mobilitaet-jena-Steinkreuz,Steinkreuz,Jena,Germany,60,50.915376,11.639819,"Steinkreuz, 07751 Jena",
+mobilitaet-jena-City-Carree,City Carree,Jena,Germany,40,50.927818,11.585724,"Löbderstraße 2, 07743 Jena",
+mobilitaet-jena-Haeckelplatz,Haeckelplatz,Jena,Germany,32,50.92461,11.582293,"Ernst-Haeckel-Straße, 07743 Jena",
+karlsruhe-parken-Schlossplatz,Schlossplatz,Karlsruhe,Germany,912,49.01096485,8.40408283,Schlossplatz,
+karlsruhe-parken-Ettlinger-Tor,Ettlinger Tor,Karlsruhe,Germany,843,49.00623777,8.40204792,Karl-Friedrich-Straße 26,
+karlsruhe-parken-Kronenplatz,Kronenplatz,Karlsruhe,Germany,629,49.00819118,8.41073197,Fritz-Erler-Straße 7-11,
+karlsruhe-parken-Kongresszentrum-PH1,Kongresszentrum PH1,Karlsruhe,Germany,495,49.00370508,8.40197204,Hermann-Billing-Straße 1,
+karlsruhe-parken-Kongresszentrum-PH2,Kongresszentrum PH2,Karlsruhe,Germany,495,49.00298977,8.39957803,Beiertheimer Allee 9,
+karlsruhe-parken-Stephanplatz,Stephanplatz,Karlsruhe,Germany,493,49.00828583,8.39289826,Amalienstraße 33,https://www.hurrle-immobilien.de/cms/index.php?idcatside=7&1startmonth=2&1monthback=-1&1idarticle=21&1category=4
+karlsruhe-parken-Friedrichsplatz,Friedrichsplatz,Karlsruhe,Germany,423,49.00821641,8.4001571,Friedrichsplatz,https://www.hurrle-immobilien.de/cms/index.php?idcatside=7&1startmonth=2&1monthback=-1&1idarticle=19&1category=4
+karlsruhe-parken-Mendelssohnplatz-Scheck-In,Mendelssohnplatz (Scheck-In),Karlsruhe,Germany,417,49.00540443,8.41232906,Rüppurrerstraße 1,
+karlsruhe-parken-Passagehof,Passagehof,Karlsruhe,Germany,392,49.01097553,8.39828987,Waldstraße 14 - 18,
+karlsruhe-parken-Luisenstrasse,Luisenstraße,Karlsruhe,Germany,349,49.00055958,8.40454914,Luisenstraße 2f,https://www.hurrle-immobilien.de/cms/index.php?idcatside=7&1startmonth=2&1monthback=-1&1idarticle=20&1category=4
+karlsruhe-parken-Marktplatz,Marktplatz,Karlsruhe,Germany,327,49.00828724,8.4057635,Kreuzstraße 13a,https://www.hurrle-immobilien.de/cms/index.php?idcatside=7&1startmonth=2&1monthback=-1&1idarticle=22&1category=4
+karlsruhe-parken-Karstadt,Karstadt,Karlsruhe,Germany,260,49.00902124,8.40127772,Zähringerstraße 69,
+karlsruhe-parken-Industrie-und-Handelskammer,Industrie und Handelskammer,Karlsruhe,Germany,175,49.00741955,8.40258356,Erbprinzenstraße 4,
+karlsruhe-parken-Kreuzstrasse-C-A,Kreuzstraße (C&A),Karlsruhe,Germany,52,49.00994185,8.40541681,Kreuzstraße 5,
+parken-mannheim-Hauptbahnhof-P5-Parkhaus,"Hauptbahnhof P5, Parkhaus",Mannheim,Germany,584,,,,
+parken-mannheim-Kunsthalle-Tiefgarage,"Kunsthalle, Tiefgarage",Mannheim,Germany,406,,,,
+ffh-parken-mannheim-D3,D3,Mannheim,Germany,378,,,,
+parken-mannheim-D5-Reiss-Museum-Tiefgarage,"D5 Reiss-Engelhorn-Museen, Tiefgarage",Mannheim,Germany,365,,,,
+ffh-parken-mannheim-D5-Reiss-Museum,"D5, Reiß-Museum",Mannheim,Germany,364,,,,
+ffh-parken-mannheim-N1-Stadthaus,N1 Stadthaus,Mannheim,Germany,335,,,,
+ffh-parken-mannheim-G1-Marktplatz,G1 Marktplatz,Mannheim,Germany,334,,,,
+parken-mannheim-Hauptbahnhof-P1-Tiefgarage,"Hauptbahnhof P1, Tiefgarage",Mannheim,Germany,327,,,,
+parken-mannheim-Hauptbahnhof-P2-Parkhaus,"Hauptbahnhof P2, Parkhaus (Busbahnhof ZOB)",Mannheim,Germany,326,,,,
+ffh-parken-mannheim-Hbf-P1,Hbf P1,Mannheim,Germany,325,,,,
+ffh-parken-mannheim-Hbf-P2,Hbf P2,Mannheim,Germany,325,,,,
+ffh-parken-mannheim-N6-Standard-Holiday-Inn,"N6 Standard, Holiday Inn",Mannheim,Germany,291,,,,
+ffh-parken-mannheim-N2-Stadthaus,N2 Stadthaus,Mannheim,Germany,260,,,,
+ffh-parken-mannheim-Hbf-P3,Hbf P3,Mannheim,Germany,222,,,,
+ffh-parken-mannheim-N6-Komfort,N6 Komfort,Mannheim,Germany,210,,,,
+ffh-parken-mannheim-U2,U2,Mannheim,Germany,190,,,,
+stadt-muenster-parken-Parkhaus-Aegidii,Parkhaus Aegidii,Münster,Germany,750,,,,
+stadt-muenster-parken-Parkhaus-Theater,Parkhaus Theater,Münster,Germany,743,,,,
+stadt-muenster-parken-Parkhaus-Cineplex,Parkhaus Cineplex,Münster,Germany,590,,,,
+stadt-muenster-parken-Parkhaus-PH-Stadthaus-3,Parkhaus Stadthaus 3,Münster,Germany,500,,,,
+stadt-muenster-parken-Parkhaus-Engelenschanze,Parkhaus Engelenschanze,Münster,Germany,460,,,,
+stadt-muenster-parken-Parkplatz-Schlossplatz-Sud,Parkplatz Schlossplatz Süd,Münster,Germany,460,,,,
+stadt-muenster-parken-Parkhaus-Alter-Steinweg,Parkhaus Alter Steinweg,Münster,Germany,371,,,,
+stadt-muenster-parken-Tiefgarage-Hafenmarkt,Tiefgarage Hafenmarkt,Münster,Germany,350,,,,
+stadt-muenster-parken-Parkhaus-Bahnhofstrasse,Parkhaus Bahnhofstraße,Münster,Germany,320,,,,
+stadt-muenster-parken-Parkhaus-Stubengasse,Parkhaus Stubengasse,Münster,Germany,300,,,,
+stadt-muenster-parken-Parkplatz-Georgskommende,Parkplatz Georgskommende,Münster,Germany,272,,,,
+stadt-muenster-parken-Parkplatz-Horster-Platz,Parkplatz Hörster Platz,Münster,Germany,202,,,,
+stadt-muenster-parken-Parkhaus-Bremer-Platz,Parkhaus Bremer Platz,Münster,Germany,180,,,,
+stadt-muenster-parken-Parkhaus-Munster-Arkaden,Parkhaus Münster-Arkaden,Münster,Germany,166,,,,
+stadt-muenster-parken-Parkplatz-Hafenmarkt,Parkplatz Hafenmarkt,Münster,Germany,103,,,,
+tiefbauamt-nuernberg-parken-Hauptmarkt,Hauptmarkt,Nürnberg,Germany,525,,,,
+tiefbauamt-nuernberg-parken-Hauptbahnhof,Hauptbahnhof,Nürnberg,Germany,486,,,,
+tiefbauamt-nuernberg-parken-Sterntor,Sterntor,Nürnberg,Germany,476,,,,
+tiefbauamt-nuernberg-parken-Jakobsmarkt,Jakobsmarkt,Nürnberg,Germany,452,,,,
+tiefbauamt-nuernberg-parken-Parkhaus-Wohrl,Parkhaus Wöhrl,Nürnberg,Germany,441,,,,
+tiefbauamt-nuernberg-parken-City-Park-Center,City-Park-Center,Nürnberg,Germany,400,,,,
+tiefbauamt-nuernberg-parken-Katharinenhof,Katharinenhof,Nürnberg,Germany,370,,,,
+tiefbauamt-nuernberg-parken-Parkhaus-Karstadt,Parkhaus Karstadt,Nürnberg,Germany,365,,,,
+tiefbauamt-nuernberg-parken-PH-Nurnberger-Akademie,PH Nürnberger Akademie,Nürnberg,Germany,301,,,,
+tiefbauamt-nuernberg-parken-Adlerstrasse,Adlerstraße,Nürnberg,Germany,260,,,,
+tiefbauamt-nuernberg-parken-Sebalder-Hofe,Sebalder Höfe,Nürnberg,Germany,250,,,,
+tiefbauamt-nuernberg-parken-Galeria-Kaufhof,Galeria Kaufhof,Nürnberg,Germany,220,,,,
+tiefbauamt-nuernberg-parken-Erler-Klinik,Erler-Klinik,Nürnberg,Germany,200,,,,
+tiefbauamt-nuernberg-parken-Findelgasse,Findelgasse,Nürnberg,Germany,146,,,,
+tiefbauamt-nuernberg-parken-Parkhaus-Maximum,Parkhaus Maximum,Nürnberg,Germany,100,,,,
+tiefbauamt-nuernberg-parken-ADCOM-Center,ADCOM-Center,Nürnberg,Germany,92,,,,
+tiefbauamt-nuernberg-parken-Hans-Sachs-Platz,Hans-Sachs-Platz,Nürnberg,Germany,65,,,,
+salzburg-live-22154,Mirabell,Salzburg,Austria,700,47.80559402,13.04331894,Mirabellplatz 5b,https://www.mein-contipark.at/parkplatz-finden/parken-in-salzburg/parkplatz-mirabell-congress-garage-salzburg--ci3cp112518669
+salzburg-live-29378,Altstadtgarage B,Salzburg,Austria,680,47.7978453,13.03857847,Hildmannplatz,https://www.mein-contipark.at/parkplatz-finden/parken-in-salzburg/tiefgarage-altstadtgarage-b-salzburg--ci3cp112518733
+salzburg-live-22101,Altstadtgarage A,Salzburg,Austria,618,47.79744591,13.03783547,Hildmannplatz,https://www.mein-contipark.at/parkplatz-finden/parken-in-salzburg/tiefgarage-altstadtgarage-a-salzburg--ci3cp112518681
+salzburg-live-29338,Tiergarten Hellbrunn,Salzburg,Austria,464,47.75688176,13.06408677,,http://www.contipark.at/de/find-parking/salzburg-parkplatz-tiergarten-hellbrunn/
+salzburg-live-22153,Linzergassengarage (Kapuzinerberg),Salzburg,Austria,400,47.80470387,13.05146444,Glockengasse 4a,https://www.salzburg.info/de/reiseinfos/salzburg-a-z/parkgarage-linzer-gasse_az_8121
+salzburg-live-22156,Müllner Parkplatz,Salzburg,Austria,340,47.80431545,13.03207481,Lindhofstraße,
+salzburg-live-22159,Park & Ride Süd,Salzburg,Austria,310,47.76983285,13.07152624,Alpenstraße - Stadteinfahrt Süd,https://www.salzburg.info/de/reiseinfos/anreise-verkehr/auto/parken/salzburg-sued
+salzburg-live-22162,WIFI-Garage,Salzburg,Austria,273,47.8086816,13.04455914,Julius Raab Platz 2,https://www.mein-contipark.at/parkplatz-finden/parken-in-salzburg/tiefgarage-wifigarage-salzburg--ci3cp112518784
+salzburg-live-22051,Akademiestrasse,Salzburg,Austria,160,47.79167283,13.05302917,Akademiestraße,https://www.mein-contipark.at/parkplatz-finden/parken-in-salzburg/parkplatz-akademieplatz-salzburg--ci3cp112520224
+salzburg-live-22163,Bahnhofsgarage,Salzburg,Austria,126,47.81321948,13.04475886,Südtirolerplatz 1,https://www.mein-contipark.at/parkplatz-finden/parken-in-salzburg/tiefgarage-bahnhofsgarage-salzburg--ci3cp112518932
+salzburg-live-21952,Auersperg-Garage (Sheraton),Salzburg,Austria,89,47.80687629,13.04059335,Auerspergstrasse 4,https://www.apcoa.at/parken/salzburg/
+salzburg-live-22157,Petersbrunnhof,Salzburg,Austria,67,47.7934461,13.05176555,Erzabt-Klotz-Straße/Petersbrunnstraße,https://www.mein-contipark.at/parkplatz-finden/parken-in-salzburg/parkplatz-petersbrunnhof-salzburg--ci3cp112520262
+zuerich-live-ph018,Universität Irchel,Zürich,Switzerland,755,47.398158,8.546502,Winterthurerstrasse 181,https://www.pls-zh.ch/parkhaus/uni_irchel.jsp?pid=uni_irchel
+zuerich-live-ph058,City Parking,Zürich,Switzerland,607,47.37569,8.535496,Gessnerallee 14,https://www.pls-zh.ch/parkhaus/cp.jsp?pid=cp
+zuerich-live-ph022,Hohe Promenade,Zürich,Switzerland,480,47.3687,8.54801,Rämistrasse 22a,https://www.pls-zh.ch/parkhaus/promenade.jsp?pid=promenade
+zuerich-live-ph024,Urania,Zürich,Switzerland,480,47.374372,8.540752,Uraniastrasse 3,https://www.pls-zh.ch/parkhaus/urania.jsp?pid=urania
+zuerich-live-ph019,Center Eleven,Zürich,Switzerland,377,47.412826,8.540275,Sophie-Taeuber-Strasse 4,https://www.pls-zh.ch/parkhaus/center_11.jsp?pid=center_11
+zuerich-live-ph061,Crowne Plaza,Zürich,Switzerland,310,47.381153,8.506867,Bienenstrasse 9,https://www.pls-zh.ch/parkhaus/crowne_plaza.jsp?pid=crowne_plaza
+zuerich-live-ph1532,Opéra,Zürich,Switzerland,297,47.365203,8.547099,Theaterstrasse 7,https://www.pls-zh.ch/parkhaus/opera.jsp?pid=opera
+zuerich-live-ph001,Pfingstweid,Zürich,Switzerland,276,47.387572,8.517785,Pfingstweidstrasse 9,https://www.pls-zh.ch/parkhaus/pfingstweid.jsp?pid=pfingstweid
+zuerich-live-ph050,Park Hyatt,Zürich,Switzerland,267,47.36591,8.53612,Gotthardstrasse 27,https://www.pls-zh.ch/parkhaus/park_hyatt.jsp?pid=park_hyatt
+zuerich-live-ph049,Bleicherweg,Zürich,Switzerland,258,47.367372,8.535696,Beethovenstrasse 35,https://www.pls-zh.ch/parkhaus/bleicherweg.jsp?pid=bleicherweg
+zuerich-live-ph023,Jelmoli,Zürich,Switzerland,227,47.373841,8.536501,Steinmühleplatz 5,https://www.pls-zh.ch/parkhaus/jelmoli.jsp?pid=jelmoli
+zuerich-live-ph033,Stampfenbach,Zürich,Switzerland,215,47.386645,8.539427,Niklausstrasse 17,https://www.pls-zh.ch/parkhaus/stampfenbach.jsp?pid=stampfenbach
+zuerich-live-ph060,Accu,Zürich,Switzerland,213,47.414853,8.540591,Fritz-Heeb-Weg 5,https://www.pls-zh.ch/parkhaus/accu.jsp?pid=accu
+zuerich-live-ph011,Zürichhorn,Zürich,Switzerland,195,47.355402,8.553073,Baurstrasse 7,https://www.pls-zh.ch/parkhaus/zuerichhorn.jsp?pid=zuerichhorn
+zuerich-live-ph045,Nordhaus,Zürich,Switzerland,184,47.412086,8.547492,Siewerdtstrasse 10,https://www.pls-zh.ch/parkhaus/nordhaus.jsp?pid=nordhaus
+zuerich-live-ph006,Hauptbahnhof,Zürich,Switzerland,176,47.381563,8.537598,Sihlquai 41,https://www.pls-zh.ch/parkhaus/hb.jsp?pid=hb
+zuerich-live-ph048,Utoquai,Zürich,Switzerland,153,47.361735,8.548526,Färberstrasse 6,https://www.pls-zh.ch/parkhaus/utoquai.jsp?pid=utoquai
+zuerich-live-ph010,Feldegg,Zürich,Switzerland,147,47.360383,8.553527,Riesbachstrasse 6,https://www.pls-zh.ch/parkhaus/feldegg.jsp?pid=feldegg
+zuerich-live-ph025,Globus,Zürich,Switzerland,139,47.376055,8.537717,Löwenstrasse 50a,https://www.pls-zh.ch/parkhaus/globus.jsp?pid=globus
+zuerich-live-ph021,Jungholz,Zürich,Switzerland,119,47.412941,8.543832,Jungholzstrasse 19,https://www.pls-zh.ch/parkhaus/jungholz.jsp?pid=jungholz
+zuerich-live-ph051,Octavo,Zürich,Switzerland,113,47.413603,8.536488,Brown-Boveri-Strasse 2,https://www.pls-zh.ch/parkhaus/octavo.jsp?pid=octavo
+zuerich-live-ph005,Hardau II,Zürich,Switzerland,111,47.381678,8.509422,Norastrasse 38,https://www.pls-zh.ch/parkhaus/hardau.jsp?pid=hardau
+zuerich-live-ph042,Talgarten,Zürich,Switzerland,110,47.372146,8.536012,Nüschelerstrasse 30,https://www.pls-zh.ch/parkhaus/talgarten.jsp?pid=talgarten
+zuerich-live-ph1412,Unispital Nord,Zürich,Switzerland,104,47.378908,8.549771,Frauenklinikstrasse 10,https://www.pls-zh.ch/parkhaus/unispital_nord.jsp?pid=unispital_nord
+zuerich-live-ph059,Max Bill-Platz,Zürich,Switzerland,98,47.414233,8.5391,Ellen-Widmann-Weg 2,https://www.pls-zh.ch/parkhaus/max_bill_platz.jsp?pid=max_bill_platz
+zuerich-live-ph529,Helvetiaplatz,Zürich,Switzerland,66,47.37641,8.526968,Molkenstrasse 9,https://www.pls-zh.ch/parkhaus/helvetia.jsp?pid=helvetia
+zuerich-live-ph1411,Albisriederplatz,Zürich,Switzerland,65,47.379393,8.50812,Badenerstrasse 380c,https://www.pls-zh.ch/parkhaus/albisriederplatz.jsp?pid=albisriederplatz
+zuerich-live-ph1533,Puls 5,Zürich,Switzerland,59,47.390902,8.517561,Technoparkstrasse 10,https://www.pls-zh.ch/parkhaus/puls5.jsp?pid=puls5
+zuerich-live-ph043,Dorflinde,Zürich,Switzerland,48,47.407595,8.548751,Schwamendingenstrasse 31,https://www.pls-zh.ch/parkhaus/dorflinde.jsp?pid=dorflinde
+zuerich-live-ph062,Parkside,Zürich,Switzerland,37,47.412431,8.539127,Sophie-Taeuber-Strasse 14,https://www.pls-zh.ch/parkhaus/parkside.jsp?pid=parkside
