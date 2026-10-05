@@ -125,6 +125,8 @@ from scrapers.adapters.clermont_ferrand_live import ClermontFerrandLiveAdapter
 from scrapers.adapters.caen_live import CaenLiveAdapter
 from scrapers.adapters.brest_live import BrestLiveAdapter
 from scrapers.adapters.nimes_live import NimesLiveAdapter
+from scrapers.adapters.reims_live import ReimsLiveAdapter
+from scrapers.adapters.le_mans_live import LeMansLiveAdapter
 from scrapers.base import SourceAdapter
 
 ADAPTERS: list[SourceAdapter] = [
@@ -254,4 +256,6 @@ ADAPTERS: list[SourceAdapter] = [
     CaenLiveAdapter(),
     BrestLiveAdapter(),
     NimesLiveAdapter(),
+    ReimsLiveAdapter(),
+    LeMansLiveAdapter(),
 ]
