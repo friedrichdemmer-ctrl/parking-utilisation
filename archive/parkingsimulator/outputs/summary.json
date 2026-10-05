@@ -1,0 +1,121 @@
+{
+  "garages": 42,
+  "total_capacity": 15468,
+  "day_type": "weekday",
+  "scenarios": [
+    {
+      "scenario": "baseline",
+      "revenue": 226017.03,
+      "sessions": 15148,
+      "abandoned": 0,
+      "avg_occupancy_pct": 30.48,
+      "total_capacity": 15468,
+      "revenue_per_space": 14.61,
+      "garages": 42
+    },
+    {
+      "scenario": "price_up_20",
+      "revenue": 240644.37,
+      "sessions": 15148,
+      "abandoned": 0,
+      "avg_occupancy_pct": 30.48,
+      "total_capacity": 15468,
+      "revenue_per_space": 15.56,
+      "garages": 42
+    },
+    {
+      "scenario": "regulation_shock",
+      "revenue": 221304.05,
+      "sessions": 15548,
+      "abandoned": 0,
+      "avg_occupancy_pct": 30.66,
+      "total_capacity": 15468,
+      "revenue_per_space": 14.31,
+      "garages": 42
+    },
+    {
+      "scenario": "capacity_shock_cbd",
+      "revenue": 226444.29,
+      "sessions": 15148,
+      "abandoned": 0,
+      "avg_occupancy_pct": 34.57,
+      "total_capacity": 13638,
+      "revenue_per_space": 16.6,
+      "garages": 42
+    }
+  ],
+  "zone_breakdown": {
+    "baseline": {
+      "cbd_east_station": {
+        "revenue": 45722.53,
+        "sessions": 2441
+      },
+      "neighbourhood": {
+        "revenue": 55232.92,
+        "sessions": 4043
+      },
+      "fringe": {
+        "revenue": 20320.85,
+        "sessions": 1997
+      },
+      "cbd_core": {
+        "revenue": 104740.73,
+        "sessions": 6667
+      }
+    },
+    "price_up_20": {
+      "cbd_east_station": {
+        "revenue": 48312.34,
+        "sessions": 2377
+      },
+      "neighbourhood": {
+        "revenue": 60641.84,
+        "sessions": 4195
+      },
+      "fringe": {
+        "revenue": 22611.18,
+        "sessions": 2163
+      },
+      "cbd_core": {
+        "revenue": 109079.01,
+        "sessions": 6413
+      }
+    },
+    "regulation_shock": {
+      "neighbourhood": {
+        "revenue": 57073.08,
+        "sessions": 4107
+      },
+      "cbd_east_station": {
+        "revenue": 51326.35,
+        "sessions": 2966
+      },
+      "fringe": {
+        "revenue": 18277.55,
+        "sessions": 1570
+      },
+      "cbd_core": {
+        "revenue": 94627.07,
+        "sessions": 6905
+      }
+    },
+    "capacity_shock_cbd": {
+      "cbd_east_station": {
+        "revenue": 48414.91,
+        "sessions": 2627
+      },
+      "neighbourhood": {
+        "revenue": 58859.74,
+        "sessions": 4303
+      },
+      "fringe": {
+        "revenue": 21333.45,
+        "sessions": 2124
+      },
+      "cbd_core": {
+        "revenue": 97836.19,
+        "sessions": 6094
+      }
+    }
+  }
+}

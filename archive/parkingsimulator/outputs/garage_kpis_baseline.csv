@@ -1,0 +1,43 @@
+garage_id,name,operator,zone,capacity,sessions,revenue,avg_occupancy_pct
+QP01,Apollo,Q-Park,neighbourhood,190,264,3750.0,38.78
+QP02,Barbarossaplatz (Park One),Q-Park,neighbourhood,352,89,2258.0,7.79
+QP03,Cäcilienstraße,Q-Park,fringe,352,45,720.0,8.26
+QP04,Carsch-Haus,Q-Park,cbd_core,524,421,6892.0,21.2
+QP05,Dreicubenhaus | Gartenstraße (Park One),Q-Park,neighbourhood,300,441,7653.75,44.23
+QP06,düwell,Q-Park,cbd_core,464,658,10699.5,44.36
+QP07,EUREF Campus,Q-Park,fringe,687,1,42.0,0.05
+QP08,Flughafen Bahnhof,Q-Park,fringe,228,95,1425.0,12.99
+QP09,Friedrichstraße (Park One),Q-Park,neighbourhood,388,351,5704.5,31.48
+QP10,Grafenberger Allee (Park One),Q-Park,neighbourhood,56,151,2157.0,70.87
+QP11,Immermannhof (Park One),Q-Park,cbd_east_station,300,567,9163.0,59.67
+QP12,Kaiserpark,Q-Park,fringe,332,517,5589.1,39.21
+QP13,Kaufhof Wehrhahn,Q-Park,cbd_core,437,899,11828.75,58.78
+QP14,Kirchplatz,Q-Park,neighbourhood,345,398,6369.0,39.24
+QP15,KÖ Galerie (Grünstraße),Q-Park,cbd_core,794,463,8427.0,17.59
+QP16,KÖ59 (Breite Str.),Q-Park,cbd_core,307,337,5839.5,28.73
+QP17,Medienhafen / Kino,Q-Park,neighbourhood,455,105,1136.0,7.23
+QP18,Schlossgarage,Q-Park,fringe,210,146,876.0,29.58
+QP19,Stadtmitte (ehemals Karstadt),Q-Park,cbd_core,519,909,13311.0,61.09
+QP20,Technisches Rathaus,Q-Park,fringe,77,147,1482.8,68.59
+QP21,YORCKS,Q-Park,fringe,392,350,2253.0,39.45
+AP01,Tiefgarage Fürstenwall,APCOA,neighbourhood,194,169,2324.5,22.91
+AP02,Tiefgarage Dieterich-Karree,APCOA,fringe,644,690,7843.7,28.91
+AP03,Sevens,APCOA,cbd_core,294,422,7858.5,44.9
+AP04,Deutsch Japanisches Center,APCOA,cbd_east_station,580,389,7936.7,20.8
+AP05,Kö-Bogen,APCOA,cbd_core,405,621,10142.6,41.31
+AP06,KII / Schauspielhaus,APCOA,cbd_core,668,519,8857.08,20.43
+AP07,Hotel-Trio am Hauptbahnhof,APCOA,cbd_east_station,237,180,3958.83,22.42
+AP08,Medical Center Düsseldorf,APCOA,fringe,296,6,89.25,0.38
+CP01,Parkhaus Bendemannstraße,Contipark,cbd_east_station,340,451,7616.0,42.37
+CP02,Parkhaus Düsseldorf Arcaden,Contipark,neighbourhood,832,669,5644.0,27.79
+CP03,Parkhaus Grupellostraße,Contipark,cbd_east_station,154,313,5676.8,70.78
+CP04,Parkhaus Hauptbahnhof P3,Contipark,cbd_east_station,558,413,7759.2,26.02
+CP05,Parkplatz Hauptbahnhof Uhrenturm P2,Contipark,cbd_east_station,32,60,1713.5,78.32
+CP06,Parkplatz Hauptbahnhof Vorplatz P1,Contipark,cbd_east_station,34,68,1898.5,78.68
+CP07,Tiefgarage Altstadt Rheinufer,Contipark,cbd_core,964,76,1729.0,2.13
+CP08,Tiefgarage Fürstenplatz Quartiersgarage,Contipark,neighbourhood,216,417,5618.52,75.69
+CP09,Tiefgarage Leo-Statz-Platz Quartiersgarage,Contipark,neighbourhood,183,258,3399.33,44.71
+CP10,Tiefgarage Momentum,Contipark,cbd_core,488,856,11901.0,55.19
+BB01,Parkhaus Scheibenstraße,B+B Parkhaus,neighbourhood,190,421,5346.5,55.3
+BB02,Parkhaus Ratinger Tor,B+B Parkhaus,cbd_core,245,486,7254.8,50.03
+BB03,Parkhaus Konkordiastraße,B+B Parkhaus,neighbourhood,205,310,3871.82,53.02

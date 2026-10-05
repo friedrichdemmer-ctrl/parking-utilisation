@@ -1,0 +1,22 @@
+id,name,address,zone,capacity,neighbours_within_500m,hourly_rate_eur,price_vs_500m_avg_pct,price_verdict,quality_score,asset_quality_vs_500m_avg_pct,asset_quality_verdict,distance_to_city_centre_km,location_quality_vs_500m_avg_pct,location_quality_verdict
+QP01,Apollo,"Neusserstraße 14, 40213 Düsseldorf",neighbourhood,190,2,3.0,-25.0,below area avg,0.51,-31.1,below area avg,0.938,2.4,in line with area
+QP02,Barbarossaplatz (Park One),"Luegallee 65, 40545 Düsseldorf",neighbourhood,352,0,4.0,,no data (no competitor within 500m),0.54,,no data (no competitor within 500m),1.75,,no data (no competitor within 500m)
+QP04,Carsch-Haus,"Kasernenstraße 10, 40213 Düsseldorf",cbd_core,524,6,3.5,-3.2,in line with area,0.84,-3.6,in line with area,0.152,65.3,above area avg
+QP03,Cäcilienstraße,"Cäcilienstraße 30, 40597 Düsseldorf",fringe,352,1,1.8,20.0,above area avg,0.47,-13.0,below area avg,9.456,4.1,in line with area
+QP05,Dreicubenhaus | Gartenstraße (Park One),"Gartenstraße 2, 40479 Düsseldorf",neighbourhood,300,4,3.5,11.2,above area avg,0.55,-32.9,below area avg,0.735,-18.8,below area avg
+QP07,EUREF Campus,"Ahrensplatz, 40472 Düsseldorf",fringe,687,1,3.0,0.0,in line with area,0.56,47.4,above area avg,7.36,-0.0,in line with area
+QP08,Flughafen Bahnhof,"Ahrensplatz, 40472 Düsseldorf",fringe,228,1,3.0,0.0,in line with area,0.38,-32.1,below area avg,7.36,-0.0,in line with area
+QP09,Friedrichstraße (Park One),"Herzogstraße 15, 40217 Düsseldorf",neighbourhood,388,1,3.0,0.0,in line with area,0.45,-40.0,below area avg,1.102,16.1,above area avg
+QP10,Grafenberger Allee (Park One),"Grafenberger Allee 56, 40237 Düsseldorf",neighbourhood,56,0,3.0,,no data (no competitor within 500m),0.58,,no data (no competitor within 500m),1.721,,no data (no competitor within 500m)
+QP11,Immermannhof (Park One),"Karlstraße 76, 40210 Düsseldorf",cbd_east_station,300,7,3.0,-21.6,below area avg,0.7,-10.3,below area avg,1.069,1.5,in line with area
+QP12,Kaiserpark,"Kaiserswerther Straße 26, 40477 Düsseldorf",fringe,332,2,2.2,-8.3,below area avg,0.35,-44.9,below area avg,1.423,-20.2,below area avg
+QP13,Kaufhof Wehrhahn,"Oststraße 19, 40211 Düsseldorf",cbd_core,437,6,2.5,-23.4,below area avg,0.75,-9.3,below area avg,0.806,9.0,above area avg
+QP14,Kirchplatz,"Fürstenwall 111, 40217 Düsseldorf",neighbourhood,345,2,3.0,2.7,in line with area,0.75,66.7,above area avg,1.313,-8.2,below area avg
+QP15,KÖ Galerie (Grünstraße),"Grünstraße 10, 40212 Düsseldorf",cbd_core,794,5,3.5,4.8,in line with area,0.76,-11.6,below area avg,0.561,-23.0,below area avg
+QP16,KÖ59 (Breite Str.),"Breite Straße 40, 40213 Düsseldorf",cbd_core,307,5,3.5,4.8,in line with area,0.74,-15.5,below area avg,0.187,53.4,above area avg
+QP17,Medienhafen / Kino,"Zollhof 30, 40221 Düsseldorf",neighbourhood,455,0,2.0,,no data (no competitor within 500m),0.47,,no data (no competitor within 500m),2.191,,no data (no competitor within 500m)
+QP18,Schlossgarage,"Paulistraße 12, 40597 Düsseldorf",fringe,210,1,1.5,-16.7,below area avg,0.54,14.9,above area avg,9.86,-4.3,in line with area
+QP19,Stadtmitte (ehemals Karstadt),"Liesegangstraße 14, 40211 Düsseldorf",cbd_core,519,6,3.0,-6.7,below area avg,0.87,2.6,in line with area,0.742,4.3,in line with area
+QP20,Technisches Rathaus,"Brinckmannstraße 5, 40225 Düsseldorf",fringe,77,0,1.7,,no data (no competitor within 500m),0.57,,no data (no competitor within 500m),2.571,,no data (no competitor within 500m)
+QP21,YORCKS,"Yorckstraße 29, 40476 Düsseldorf",fringe,392,0,3.0,,no data (no competitor within 500m),0.48,,no data (no competitor within 500m),2.463,,no data (no competitor within 500m)
+QP06,düwell,"Grünstraße 15, 40212 Düsseldorf",cbd_core,464,4,3.0,-14.3,below area avg,0.88,7.0,above area avg,0.56,-74.8,below area avg

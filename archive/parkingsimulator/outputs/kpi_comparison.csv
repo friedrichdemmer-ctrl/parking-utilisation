@@ -1,0 +1,5 @@
+scenario,revenue,sessions,abandoned,avg_occupancy_pct,total_capacity,revenue_per_space,garages
+baseline,226017.03,15148,0,30.48,15468,14.61,42
+price_up_20,240644.37,15148,0,30.48,15468,15.56,42
+regulation_shock,221304.05,15548,0,30.66,15468,14.31,42
+capacity_shock_cbd,226444.29,15148,0,34.57,13638,16.6,42

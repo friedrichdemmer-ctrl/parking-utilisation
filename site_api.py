@@ -222,6 +222,42 @@ def api_browse_garages():
     return jsonify(sorted(rows, key=lambda r: (not r["has_data"], r["name"].lower())))
 
 
+# The local maps: the competitive set (competitive.py) one city at a time. A
+# garage that is also one of ours (competitive/links.csv) carries its live
+# occupancy and the id of its page.
+
+@bp.route("/api/local/countries")
+def api_local_countries():
+    import competitive
+
+    return jsonify(competitive.countries())
+
+
+@bp.route("/api/local/cities")
+def api_local_cities():
+    import competitive
+
+    country = request.args.get("country", "")
+    rows = competitive.cities(country)
+    if not rows:
+        return jsonify({"error": "Unknown country."}), 404
+    return jsonify(rows)
+
+
+@bp.route("/api/local/map")
+def api_local_map():
+    import competitive
+
+    m = competitive.city_map(request.args.get("country", ""), request.args.get("city", ""))
+    if m is None:
+        return jsonify({"error": "No map for this city."}), 404
+    now = {g["id"]: g for g in _cached("now", NOW_TTL, _now_snapshot)["garages"]}
+    for g in m["garages"]:
+        live = now.get(g["place_id"]) if g["place_id"] else None
+        g["occ"], g["occ_ts"] = (live["occ"], live["ts"]) if live else (None, None)
+    return jsonify(m)
+
+
 @bp.route("/api/search")
 def api_search():
     q = (request.args.get("q") or "").strip()
@@ -329,6 +365,7 @@ def api_city(city: str):
         "city": city, "country": garages[0]["country"], "garages": sorted(garages, key=lambda g: (g["now"] is None, -(g["capacity"] or 0))),
         "capacity": sum(g["capacity"] for g in garages),
         "now": round(sum(g["now"] * g["capacity"] for g in live) / sum(g["capacity"] for g in live)) if live else None,
+        "local_map": __import__("competitive").garages().get((garages[0]["country"], city)) is not None,
         "profile": profile if profiled else None, "profiled": len(profiled), "window": report["window"],
         "prices": {"garages": len(priced), "median_rate": rates[len(rates) // 2] if rates else None,
                    "min_rate": rates[0] if rates else None, "max_rate": rates[-1] if rates else None,
