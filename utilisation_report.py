@@ -2,19 +2,22 @@
 """Utilisation report: how full each garage is, hour by hour, over a typical week.
 
 For every garage with a capacity and readings in the window (the last WEEKS
-full Monday-Sunday weeks, in the garage's local time), readings are put into
-168 hour-of-week slots and averaged as occupancy = 1 - free/capacity, with
-free clamped to [0, capacity] (counter drift produces negative counts and
-counts above capacity; see feed_health.py). Garage figures are means over the
-slots, so every hour of the week counts equally however often a feed reports.
+full Monday-Sunday weeks, in the garage's local time), occupancy = 1 -
+free/capacity is sampled every 15 minutes from the latest reading (see
+SAMPLE_EVERY) and averaged into 168 hour-of-week slots, with free clamped to
+[0, capacity] (counter drift produces negative counts and counts above
+capacity; see feed_health.py). Garage figures are means over the slots, so
+every hour of the week counts equally however often a feed reports.
 
 Left out, with the reason counted in the output:
 - garages feed_health.py currently flags (stopped, frozen, oscillating,
   capacity mismatch) -- their readings are not trustworthy;
 - garages with no capacity, or under MIN_CAPACITY spaces;
-- garages with readings on fewer than MIN_DAYS days, or in fewer than
-  MIN_SLOTS of the 168 slots (feeds that only report in opening hours, or
-  that started recently).
+- garages with readings on fewer than MIN_DAYS days, or with samples in
+  fewer than MIN_SLOTS of the 168 slots (feeds that started recently, or
+  that go silent for more than MAX_GAP);
+- garages near full every hour of the week with no daily swing (a counter
+  stuck at or near 0 free).
 
 Writes JSON (default: <db dir>/reports/utilisation_<end date>.json). It
 never changes the database.
@@ -39,6 +42,11 @@ WEEKS = 8
 MIN_DAYS = 7
 MIN_SLOTS = 150
 MIN_CAPACITY = 10
+# occupancy is sampled every SAMPLE_EVERY from the latest reading, which is
+# carried forward for up to MAX_GAP: many feeds only send a reading when the
+# count changes, so a quiet night has none, and feeds report at different rates
+SAMPLE_EVERY = timedelta(minutes=15)
+MAX_GAP = timedelta(hours=12)
 FULL = 0.90  # an hour counts as "full" when average occupancy is at least this
 # a garage that is near full every hour of the week, with no day/night swing,
 # is a counter stuck at or near 0 free rather than real demand (an empty,
@@ -70,6 +78,7 @@ def build(conn: sqlite3.Connection, today: date | None = None) -> dict:
     # a day of margin either side; readings are then cut to local dates
     lo = (datetime.combine(start, datetime.min.time()) - timedelta(days=1)).strftime("%Y-%m-%d")
     hi = (datetime.combine(end, datetime.min.time()) + timedelta(days=2)).strftime("%Y-%m-%d")
+    window_days = {start + timedelta(days=d) for d in range((end - start).days + 1)}
     flagged = dict(conn.execute("SELECT place_id, status FROM feed_health"))
     places = conn.execute(
         "SELECT place_id, place_name, city_name, num_all, source_id, latitude, longitude FROM lots_meta "
@@ -91,20 +100,30 @@ def build(conn: sqlite3.Connection, today: date | None = None) -> dict:
             continue
         country = SOURCE_COUNTRY.get(source_id, "Germany")
         tz = ZoneInfo(COUNTRY_TZ[country])
-        sums, fulls, counts, days = [0.0] * 168, [0] * 168, [0] * 168, set()
-        for ts, free in conn.execute(
-            "SELECT ts, free FROM historical_observations WHERE place_id = ? AND ts >= ? AND ts < ?",
-            (place_id, lo, hi),
-        ):
-            local = _parse(ts).astimezone(tz)
-            if not start <= local.date() <= end:
-                continue
-            occ = 1 - min(max(free, 0), capacity) / capacity
-            slot = local.weekday() * 24 + local.hour
-            sums[slot] += occ
-            fulls[slot] += occ >= FULL
-            counts[slot] += 1
-            days.add(local.date())
+        readings = sorted(
+            (_parse(ts), free)
+            for ts, free in conn.execute(
+                "SELECT ts, free FROM historical_observations WHERE place_id = ? AND ts >= ? AND ts < ?",
+                (place_id, lo, hi),
+            )
+        )
+        days = {dt.astimezone(tz).date() for dt, _ in readings} & window_days
+        sums, fulls, counts = [0.0] * 168, [0] * 168, [0] * 168
+        t = datetime.combine(start, datetime.min.time(), tzinfo=tz).astimezone(timezone.utc)
+        stop = datetime.combine(end + timedelta(days=1), datetime.min.time(), tzinfo=tz).astimezone(timezone.utc)
+        i, last = 0, None
+        while t < stop:
+            while i < len(readings) and readings[i][0] <= t:
+                last = readings[i]
+                i += 1
+            if last and t - last[0] <= MAX_GAP:
+                occ = 1 - min(max(last[1], 0), capacity) / capacity
+                local = t.astimezone(tz)
+                slot = local.weekday() * 24 + local.hour
+                sums[slot] += occ
+                fulls[slot] += occ >= FULL
+                counts[slot] += 1
+            t += SAMPLE_EVERY
         slots = [i for i in range(168) if counts[i]]
         if len(days) < MIN_DAYS or len(slots) < MIN_SLOTS:
             excluded["too little data in the window"] += 1
