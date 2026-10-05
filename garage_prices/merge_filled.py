@@ -7,6 +7,11 @@ its city, or a day ticket below the hourly rate, means the researcher read
 the wrong page. Rows that fail are written to _rejected.csv with a reason
 rather than silently dropped.
 
+Two kinds of row are kept but marked rather than priced: sites that are free
+(a free park-and-ride earns nothing) and sites whose fee is conditional on a
+transit ticket (a transit authority subsidises them, so the posted fee is not
+what the site takes). Both are excluded from revenue modelling.
+
 Usage: python3 garage_prices/merge_filled.py [--write]
 Without --write it only reports what it would do.
 """
@@ -42,12 +47,19 @@ def main() -> None:
             hr, dc = num("hourly_rate"), num("daily_cap")
             if hr is None and dc is None:
                 bad("no price"); continue
+            note = (r.get("note") or "").strip()
+            # free sites are data, not errors: a free park-and-ride earns
+            # nothing and must not be modelled as a commercial garage
+            free = (hr in (0, None) and dc in (0, None)) or "free" in note.lower()[:40]
+            # a transit authority subsidises these, so the posted fee is not
+            # what the site takes; they are kept but excluded from revenue
+            transit = "transit-conditional" in note.lower() or "includes transit" in note.lower()
             lo, hi = BOUNDS.get(cur, BOUNDS["EUR"])
-            if hr is not None and not (lo <= hr <= hi):
+            if not free and hr is not None and hr > 0 and not (lo <= hr <= hi):
                 bad(f"hourly {hr} outside {lo}-{hi} {cur}"); continue
-            if dc is not None and hr is not None and dc < hr:
+            if not free and dc is not None and hr is not None and hr > 0 and dc < hr:
                 bad(f"day ticket {dc} below the hourly rate {hr}"); continue
-            if dc is not None and hr is not None and dc > hr * 24:
+            if not free and dc is not None and hr is not None and hr > 0 and dc > hr * 24:
                 bad(f"day ticket {dc} above 24h at {hr}"); continue
             if not (r.get("source_url") or "").strip().startswith("http"):
                 bad("no source url"); continue
@@ -59,8 +71,11 @@ def main() -> None:
                          "priced_capacity": "", "hourly_rate": hr if hr is not None else "",
                          "daily_cap": dc if dc is not None else "", "dist_m": 0, "name_sim": "",
                          "reporting": "yes", "source_url": r["source_url"].strip(),
-                         "currency": cur, "note": (r.get("note") or "").strip()})
-    print(f"{len(rows)} accepted, {len(rejects)} rejected, from {len(list(HERE.glob('filled_*.csv')))} files")
+                         "currency": cur, "note": note,
+                         "free": "yes" if free else "", "transit_conditional": "yes" if transit else ""})
+    n_free = sum(1 for r in rows if r["free"]); n_tr = sum(1 for r in rows if r["transit_conditional"])
+    print(f"{len(rows)} accepted ({n_free} free, {n_tr} transit-conditional), {len(rejects)} rejected, "
+          f"from {len(list(HERE.glob('filled_*.csv')))} files")
     for r in rejects[:15]:
         print(f"  reject {r['place_id'][:46]:46} {r['why']}")
     if "--write" in sys.argv and rows:

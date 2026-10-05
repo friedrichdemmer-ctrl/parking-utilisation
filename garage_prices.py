@@ -41,6 +41,8 @@ def prices() -> dict[str, dict]:
                 cap = (row.get("daily_cap") or "").strip()
                 if not rate and not cap:
                     continue
+                free = (row.get("free") or "").strip() == "yes"
+                transit = (row.get("transit_conditional") or "").strip() == "yes"
                 out[row["place_id"]] = {
                     "hourly_rate": float(rate) if rate else None,
                     "daily_cap": float(cap) if cap else None,
@@ -49,6 +51,10 @@ def prices() -> dict[str, dict]:
                     "source_url": (row.get("source_url") or "").strip() or None,
                     "matched_name": (row.get("priced_name") or "").strip() or None,
                     "match_distance_m": int(row["dist_m"]) if (row.get("dist_m") or "").strip().isdigit() else None,
+                    "currency": (row.get("currency") or "").strip() or None,
+                    "free": free,
+                    "transit_conditional": transit,
+                    "note": (row.get("note") or "").strip() or None,
                 }
     return out
 
@@ -59,8 +65,11 @@ def modelled_revenue(profile, capacity: int, price: dict | None, name: str | Non
     from garage_types import classify
     from revenue_model import estimate
 
-    if not price:
-        return None
+    if not price or price.get("transit_conditional"):
+        return None            # a transit authority sets this fee, not the operator
+    if price.get("free"):
+        return {"total": 0, "low": 0, "high": 0, "per_space": 0, "per_space_year": 0,
+                "contract": 0, "visitor": 0, "free": True}
     return estimate(profile, capacity, price["hourly_rate"], price["daily_cap"], classify(name))
 
 

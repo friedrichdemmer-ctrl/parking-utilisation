@@ -553,7 +553,12 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
   }
 
   function pricePanel(g, t) {
-    const p = g.price, cc = p.country, m = p.modelled;
+    const p = g.price, cc = p.currency || p.country, m = p.modelled;
+    if (p.transit_conditional) return `<div class="panel"><h2>Price</h2>
+      <p class="sub">${p.free ? "Free to park" : `${money(p.hourly_rate, cc)} an hour`}, conditional on a public-transport ticket.</p>
+      <p class="note">Park-and-ride run for a transit authority. The posted fee is subsidised, so it is not what the site takes, and no takings are estimated.${p.note ? ` ${esc(p.note)}` : ""}</p></div>`;
+    if (p.free) return `<div class="panel"><h2>Price</h2><p class="sub">Free to park.</p>
+      <p class="note">No parking takings to estimate.${p.note ? ` ${esc(p.note)}` : ""}</p></div>`;
     const tariff = [
       ["Hourly rate", money(p.hourly_rate, cc)],
       ["Day ticket", p.daily_cap != null ? money(p.daily_cap, cc) : `<span class="muted">not published</span>`],
