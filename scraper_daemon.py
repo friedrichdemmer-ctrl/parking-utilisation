@@ -13,7 +13,9 @@ import time
 import traceback
 from pathlib import Path
 
+import alerts
 import feed_health
+import reports_job
 from scrapers.registry import ADAPTERS
 from scrapers.runner import run_due_adapters
 
@@ -50,6 +52,8 @@ def main() -> None:
             conn.execute("PRAGMA busy_timeout=30000")
             run_due_adapters(conn, ADAPTERS)
             feed_health.run_if_due(conn)
+            alerts.run_if_due(conn)
+            reports_job.spawn_if_due(conn)
             conn.close()
         except Exception:
             traceback.print_exc()

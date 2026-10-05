@@ -1,0 +1,380 @@
+<title>Car Park Demand Since 2020</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Barlow:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column (~68rem), each chart a framed panel with its question as the heading.
+   Same token system as the utilisation report (report_template.html), so the two read as a set. */
+:root {
+  --bg: #f5f7fa;
+  --surface: #ffffff;
+  --ink: #111720;
+  --ink-2: #4a5462;
+  --ink-3: #6e7886;
+  --rule: #dce1e8;
+  --rule-soft: #ebeef3;
+  --accent: #1d4f9c;
+  --accent-soft: rgba(29, 79, 156, .12);
+  --ref: #9aa3b0;
+  --shade: rgba(110, 120, 134, .10);
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100;
+  --up: #1c5cab; --down: #c24a2c;
+  --font-display: "Barlow Semi Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Barlow", "Helvetica Neue", Arial, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1218; --surface: #151b23; --ink: #edf1f6; --ink-2: #b4bdc9; --ink-3: #8a94a2;
+    --rule: #2a323d; --rule-soft: #1f262f; --accent: #6b9ae6; --accent-soft: rgba(107, 154, 230, .16);
+    --ref: #5d6673; --shade: rgba(180, 189, 201, .08);
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --up: #6da7ec; --down: #e5795c; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1218; --surface: #151b23; --ink: #edf1f6; --ink-2: #b4bdc9; --ink-3: #8a94a2;
+  --rule: #2a323d; --rule-soft: #1f262f; --accent: #6b9ae6; --accent-soft: rgba(107, 154, 230, .16);
+  --ref: #5d6673; --shade: rgba(180, 189, 201, .08);
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --up: #6da7ec; --down: #e5795c; color-scheme: dark;
+}
+
+body { background: var(--bg); color: var(--ink); font: 400 1rem/1.55 var(--font-body); }
+.wrap { max-width: 68rem; margin: 0 auto; padding-inline: max(16px, 4vw); padding-block: 2.5rem 4rem; display: grid; gap: 3.25rem; }
+h1, h2 { font-family: var(--font-display); text-wrap: balance; margin: 0; letter-spacing: -.005em; }
+h1 { font-size: clamp(2.1rem, 5vw, 3.2rem); line-height: 1.05; font-weight: 700; }
+h2 { font-size: 1.6rem; line-height: 1.15; font-weight: 600; }
+p { margin: 0; max-width: 65ch; }
+.eyebrow { font: 500 .78rem/1 var(--font-data); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); display: flex; align-items: center; gap: .6rem; }
+.psign { display: inline-grid; place-items: center; width: 1.6rem; height: 1.6rem; border-radius: 4px; background: var(--accent); color: var(--surface); font: 700 1.05rem/1 var(--font-display); letter-spacing: 0; }
+header, section { display: grid; gap: 1rem; }
+.lede { font-size: 1.12rem; color: var(--ink-2); }
+.sub { color: var(--ink-2); }
+.num { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
+.muted { color: var(--ink-3); }
+
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule); }
+.stat { padding: .9rem 1rem .9rem 0; display: grid; gap: .2rem; align-content: start; }
+.stat + .stat { padding-left: 1rem; border-left: 1px solid var(--rule); }
+.stat b { font: 600 clamp(1.6rem, 3.4vw, 2.2rem)/1.05 var(--font-display); font-variant-numeric: tabular-nums; }
+.stat span { font-size: .86rem; color: var(--ink-2); }
+@media (max-width: 640px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } .stat:nth-child(3) { border-left: 0; padding-left: 0; } .stat:nth-child(n+3) { border-top: 1px solid var(--rule); } }
+
+.findings { display: grid; gap: .55rem; padding: 0; margin: 0; list-style: none; max-width: 65ch; }
+.findings li { padding-left: 1.1rem; position: relative; }
+.findings li::before { content: ""; position: absolute; left: 0; top: .62em; width: .45rem; height: .45rem; background: var(--accent); border-radius: 1px; }
+
+.panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 1rem; display: grid; gap: .75rem; min-width: 0; }
+.legend { display: flex; flex-wrap: wrap; gap: .4rem 1.1rem; font-size: .84rem; color: var(--ink-2); }
+.legend i { display: inline-block; width: 1rem; height: 2px; vertical-align: middle; margin-right: .4rem; }
+.legend i.dash { background: repeating-linear-gradient(90deg, var(--ref) 0 4px, transparent 4px 7px) !important; }
+.chart { position: relative; min-width: 0; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.axis text, .lbl { fill: var(--ink-3); font: 400 11px var(--font-data); }
+.dlbl { font: 500 11.5px var(--font-body); fill: var(--ink-2); }
+.grid line { stroke: var(--rule-soft); }
+.base { stroke: var(--rule); }
+.ref100 { stroke: var(--ink-3); stroke-dasharray: 3 3; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.scroll { overflow-x: auto; min-width: 0; }
+table.data { width: 100%; border-collapse: collapse; font-size: .9rem; }
+table.data th { text-align: left; font: 500 .74rem var(--font-data); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); padding: .5rem .6rem; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+table.data td { padding: .45rem .6rem; border-bottom: 1px solid var(--rule-soft); vertical-align: middle; }
+table.data .r { text-align: right; }
+.chg { font-family: var(--font-data); font-variant-numeric: tabular-nums; font-weight: 500; }
+.chg.up { color: var(--up); }
+.chg.down { color: var(--down); }
+.bar { display: inline-block; height: .55rem; border-radius: 1px; vertical-align: middle; }
+.spark { display: block; }
+.spark path.l { fill: none; stroke: var(--accent); stroke-width: 1.25; }
+.spark line { stroke: var(--rule); }
+
+.tip { position: absolute; pointer-events: none; z-index: 5; background: var(--surface); color: var(--ink); border: 1px solid var(--rule); border-radius: 4px; padding: .45rem .6rem; font-size: .82rem; line-height: 1.4; box-shadow: 0 4px 14px rgba(0, 0, 0, .12); white-space: nowrap; }
+.tip b { font-family: var(--font-data); font-weight: 500; }
+.tip .k { color: var(--ink-3); font-size: .76rem; }
+
+.method { display: grid; gap: .8rem; color: var(--ink-2); font-size: .95rem; }
+.method h3 { font: 600 1.05rem var(--font-display); color: var(--ink); margin: .4rem 0 0; }
+.method ul { margin: 0; padding-left: 1.1rem; display: grid; gap: .3rem; max-width: 65ch; }
+footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px solid var(--rule); padding-top: 1rem; }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow"><span class="psign" aria-hidden="true">P</span><span id="eyebrow">Parking trends</span></div>
+    <h1>Car park demand since 2020</h1>
+    <p class="lede" id="lede"></p>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <section aria-labelledby="h-find">
+    <h2 id="h-find">What stands out</h2>
+    <ul class="findings" id="findings"></ul>
+  </section>
+
+  <section aria-labelledby="h-idx">
+    <h2 id="h-idx">Occupancy month by month</h2>
+    <p class="sub" id="idxSub"></p>
+    <div class="panel">
+      <div class="legend"><span><i style="background:var(--accent)"></i>All hours</span><span><i class="dash"></i>Tue–Thu daytime (09–18)</span><span><i style="background:var(--shade);height:.7rem"></i>Lockdowns in Germany</span></div>
+      <div class="chart" id="idxChart"></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-season">
+    <h2 id="h-season">The yearly rhythm</h2>
+    <p class="sub">Each month's occupancy against the year's average, on garages that reported all year, averaged over 2022–2025.</p>
+    <div class="panel"><div class="chart" id="seasonChart"></div></div>
+  </section>
+
+  <section aria-labelledby="h-week">
+    <h2 id="h-week">Saturday has caught up with the working week</h2>
+    <p class="sub">Daytime occupancy (09–18) on each day, against the Tuesday–Thursday average for the same year (dashed line at 100).</p>
+    <div class="panel">
+      <div class="legend" id="weekLegend"></div>
+      <div class="chart" id="weekChart"></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-city">
+    <h2 id="h-city">City by city: the last twelve months</h2>
+    <p class="sub" id="citySub"></p>
+    <div class="panel"><div class="scroll"><table class="data" id="cityTable"></table></div></div>
+  </section>
+
+  <section aria-labelledby="h-method" class="method">
+    <h2 id="h-method">How this was measured</h2>
+    <ul>
+      <li>Occupancy is 1 − free ÷ capacity, sampled every hour from each garage's latest reading (carried forward for up to 12 hours) and averaged per calendar month.</li>
+      <li>A garage-month is left out when samples cover less than half the month, more than 5% of readings fall outside 0–110% of capacity, the feed repeats the same few values, or the garage looks full around the clock (a stuck counter).</li>
+      <li id="mIndex"></li>
+      <li>Seasonality and the weekday comparison use garages that reported in every month (or at least six months) of the year in question.</li>
+      <li>City figures compare each garage's month with the same month a year earlier, weighted by capacity, so a garage counts only for months it reported in both years.</li>
+    </ul>
+    <h3>Read with care</h3>
+    <ul>
+      <li>Almost all of the long history comes from German cities (plus Basel), via the community parking-data archive. Other countries join in 2026 and do not yet affect the trend.</li>
+      <li>A change in one large car park can move a small city's figure. Where a city has only a few garages, look at the garage count before reading much into it.</li>
+      <li>Lockdown shading shows the main German restrictions on shops (spring 2020; mid-December 2020 to spring 2021); rules differed by state.</li>
+    </ul>
+  </section>
+
+  <footer id="foot"></footer>
+</div>
+
+<script>
+/*DATA*/
+</script>
+<script>
+(function () {
+  const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const MON_LONG = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const mLabel = k => `${MON[+k.slice(5) - 1]} ${k.slice(0, 4)}`;
+  const mLong = k => `${MON_LONG[+k.slice(5) - 1]} ${k.slice(0, 4)}`;
+  const signed = (v, d = 0) => (v > 0 ? "+" : v < 0 ? "−" : "±") + Math.abs(v).toFixed(d);
+  const months = T.months, idx = T.index, wd = T.index_weekday_daytime;
+  const first = months.find(k => idx[k] != null), last = [...months].reverse().find(k => idx[k] != null);
+  const base = T.base_year;
+
+  // ---------- derived figures ----------
+  const valid = months.filter(k => idx[k] != null);
+  const trough = valid.reduce((a, k) => (idx[k] < idx[a] ? k : a), valid[0]);
+  const lastYear = last.slice(0, 4), prevYear = String(+lastYear - 1);
+  const ytdKeys = valid.filter(k => k.startsWith(lastYear));
+  const ytdPrev = ytdKeys.map(k => prevYear + k.slice(4)).filter(k => idx[k] != null);
+  const avgOf = ks => ks.reduce((a, k) => a + idx[k], 0) / ks.length;
+  const ytdChange = ytdPrev.length === ytdKeys.length ? (avgOf(ytdKeys) / avgOf(ytdPrev) - 1) * 100 : null;
+  const annual = T.annual, years = Object.keys(annual);
+  const season = T.seasonality, sMonths = Object.keys(season).map(Number);
+  const sMax = sMonths.reduce((a, m) => (season[m] > season[a] ? m : a)), sMin = sMonths.reduce((a, m) => (season[m] < season[a] ? m : a));
+  const shape = T.weekday_shape, shapeYears = Object.keys(shape);
+  const firstShape = shapeYears[0], lastFull = shapeYears.filter(y => y < lastYear).pop() || shapeYears[shapeYears.length - 1];
+  const baseLevel = Math.round(T.base_level * 100);
+  const nRange = (() => { const v = valid.map(k => T.garages_per_month[k]); return [Math.min(...v), Math.max(...v)]; })();
+
+  document.getElementById("eyebrow").textContent = `Parking trends · ${mLabel(first)} – ${mLabel(last)}`;
+  document.getElementById("lede").textContent =
+    `How full car parks have been, month by month, since the first lockdown in spring 2020. Built from ${T.garages_total.toLocaleString("en-GB")} garages with long reading histories, ` +
+    `${nRange[0]}–${nRange[1]} of them in any one month. 100 is the ${base} average, when a typical space was ${baseLevel}% occupied.`;
+  const stats = [
+    [String(Math.round(idx[trough])), `the low point, ${mLong(trough)} (${base} = 100)`],
+    [annual[base + 1] != null ? signed(annual[base + 1] - 100, 1) + "%" : "–", `${+base + 1} against ${base}`],
+    [annual[base + 2] != null ? signed(annual[base + 2] - 100, 1) + "%" : "–", `${+base + 2} against ${base}`],
+    [ytdChange != null ? signed(ytdChange, 1) + "%" : "–", `${lastYear} so far against the same months of ${prevYear}`],
+  ];
+  document.getElementById("stats").innerHTML = stats.map(([b, s]) => `<div class="stat"><b>${b}</b><span>${s}</span></div>`).join("");
+
+  const sat0 = shape[firstShape].rel[5], sat1 = shape[lastFull].rel[5], sun1 = shape[lastFull].rel[6], fri1 = shape[lastFull].rel[4];
+  const cities = T.yoy.cities.filter(c => c.garages >= 5);
+  const ups = cities.filter(c => c.change_pts >= 2).length, downs = cities.filter(c => c.change_pts <= -2).length;
+  const findings = [
+    `Demand fell to ${Math.round(idx[trough])}% of the ${base} level in ${mLong(trough)} and recovered over 2021–22. By ${base} it was back to normal; since then it has been flat (${years.filter(y => y > base).map(y => `${y}: ${signed(annual[y] - 100, 1)}%`).join(", ")}).`,
+    ytdChange != null ? `${lastYear} so far is running ${Math.abs(ytdChange).toFixed(1)}% ${ytdChange < 0 ? "below" : "above"} the same months of ${prevYear}.` : null,
+    `December is the busiest month, ${signed(season[sMax] - 100)}% above the yearly average; ${MON_LONG[sMin - 1]} is the quietest at ${signed(season[sMin] - 100)}%. Occupancy builds from October through the Christmas shopping season.`,
+    `In ${firstShape} a Saturday was ${Math.round(100 - sat0)}% quieter than a midweek day. By ${lastFull} it was ${sat1 >= 100 ? `${Math.round(sat1 - 100)}% busier` : `only ${Math.round(100 - sat1)}% quieter`}, while Friday (${Math.round(fri1)}% of a midweek day) and Sunday (${Math.round(sun1)}%) stayed well below.`,
+    `Over the last twelve months, ${ups} of ${cities.length} cities with five or more garages got busier by at least 2 points and ${downs} got quieter by as much; the rest held steady.`,
+  ].filter(Boolean);
+  document.getElementById("findings").innerHTML = findings.map(f => `<li>${esc(f)}</li>`).join("");
+  document.getElementById("idxSub").textContent =
+    `Index, ${base} average = 100. Each month is compared with the same month a year earlier using the garages that reported in both, then linked back to ${base}. Hover or tap for values.`;
+  document.getElementById("mIndex").textContent =
+    `The index links each month to the same month one year nearer ${base}, using only garages that reported in both months and weighting each by its capacity. Comparing like with like this way keeps garages that join or drop out from moving the line.`;
+
+  // ---------- helpers ----------
+  function makeTip(host) { const t = document.createElement("div"); t.className = "tip"; t.hidden = true; host.appendChild(t); return t; }
+  function placeTip(tip, host, x, y) {
+    tip.hidden = false;
+    const hw = host.clientWidth, tw = tip.offsetWidth, th = tip.offsetHeight;
+    let left = x + 14; if (left + tw > hw) left = x - tw - 14; if (left < 0) left = 0;
+    let top = y - th - 10; if (top < 0) top = y + 14;
+    tip.style.left = left + "px"; tip.style.top = top + "px";
+  }
+  const path = (pts) => { let d = "", pen = false; for (const p of pts) { if (!p) { pen = false; continue; } d += (pen ? "L" : "M") + p[0].toFixed(1) + "," + p[1].toFixed(1); pen = true; } return d; };
+
+  // ---------- index chart ----------
+  const LOCKDOWNS = [["2020-03", "2020-05", "1st lockdown"], ["2020-12", "2021-04", "2nd lockdown"]];
+  const idxEl = document.getElementById("idxChart"), idxTip = makeTip(idxEl);
+  function drawIdx() {
+    const w = Math.max(320, idxEl.clientWidth), h = w < 560 ? 240 : 310, m = { l: 34, r: 10, t: 22, b: 26 };
+    const iw = w - m.l - m.r, ih = h - m.t - m.b, n = months.length;
+    const vals = valid.flatMap(k => [idx[k], wd[k]]).filter(v => v != null);
+    const lo = Math.floor(Math.min(...vals) / 10) * 10, hi = Math.ceil(Math.max(...vals, 100) / 10) * 10;
+    const x = i => m.l + (i + .5) * iw / n, y = v => m.t + ih - (v - lo) / (hi - lo) * ih;
+    const ticks = []; for (let v = lo; v <= hi; v += 10) ticks.push(v);
+    let s = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Occupancy index by month">`;
+    for (const [a, b, label] of LOCKDOWNS) {
+      const i0 = months.indexOf(a), i1 = months.indexOf(b);
+      if (i1 < 0) continue;
+      const x0 = i0 < 0 ? m.l : m.l + i0 * iw / n, x1 = m.l + (i1 + 1) * iw / n;
+      s += `<rect x="${x0}" y="${m.t}" width="${x1 - x0}" height="${ih}" fill="var(--shade)"/><text class="lbl" x="${(x0 + x1) / 2}" y="${m.t - 6}" text-anchor="middle">${w < 560 ? "" : label}</text>`;
+    }
+    s += `<g class="grid">` + ticks.map(v => `<line x1="${m.l}" x2="${w - m.r}" y1="${y(v)}" y2="${y(v)}"/>`).join("") + `</g>`;
+    s += `<line class="ref100" x1="${m.l}" x2="${w - m.r}" y1="${y(100)}" y2="${y(100)}"/>`;
+    s += `<g class="axis">` + ticks.map(v => `<text x="${m.l - 6}" y="${y(v) + 3.5}" text-anchor="end">${v}</text>`).join("");
+    months.forEach((k, i) => { if (k.endsWith("-01")) s += `<line class="base" x1="${m.l + i * iw / n}" x2="${m.l + i * iw / n}" y1="${m.t + ih}" y2="${m.t + ih + 4}"/><text x="${x(i + 5.5)}" y="${h - 8}" text-anchor="middle">${w < 560 ? "’" + k.slice(2, 4) : k.slice(0, 4)}</text>`; });
+    s += `<line class="base" x1="${m.l}" x2="${w - m.r}" y1="${m.t + ih}" y2="${m.t + ih}"/></g>`;
+    s += `<path d="${path(months.map((k, i) => wd[k] == null ? null : [x(i), y(wd[k])]))}" fill="none" stroke="var(--ref)" stroke-width="1.5" stroke-dasharray="4 3"/>`;
+    s += `<path d="${path(months.map((k, i) => idx[k] == null ? null : [x(i), y(idx[k])]))}" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round"/>`;
+    const li = months.indexOf(last);
+    s += `<circle cx="${x(li)}" cy="${y(idx[last])}" r="4" fill="var(--accent)" stroke="var(--surface)" stroke-width="2"/>`;
+    s += `<line id="ixh" y1="${m.t}" y2="${m.t + ih}" stroke="var(--ink-3)" visibility="hidden"/><circle id="ixd" r="4" fill="var(--accent)" stroke="var(--surface)" stroke-width="2" visibility="hidden"/>`;
+    s += `<rect x="${m.l}" y="${m.t}" width="${iw}" height="${ih}" fill="transparent"/></svg>`;
+    idxEl.innerHTML = s; idxEl.appendChild(idxTip);
+    const svg = idxEl.querySelector("svg"), xh = svg.querySelector("#ixh"), xd = svg.querySelector("#ixd");
+    const move = ev => {
+      const r = svg.getBoundingClientRect(), sx = w / r.width, i = Math.max(0, Math.min(n - 1, Math.floor(((ev.clientX - r.left) * sx - m.l) / iw * n)));
+      const k = months[i]; if (idx[k] == null) return;
+      xh.setAttribute("x1", x(i)); xh.setAttribute("x2", x(i)); xh.setAttribute("visibility", "visible");
+      xd.setAttribute("cx", x(i)); xd.setAttribute("cy", y(idx[k])); xd.setAttribute("visibility", "visible");
+      const yoy = idx[(+k.slice(0, 4) - 1) + k.slice(4)];
+      idxTip.innerHTML = `<div class="k">${mLong(k)} · ${T.garages_per_month[k]} garages</div><div>All hours <b>${idx[k].toFixed(1)}</b></div>` +
+        (wd[k] != null ? `<div>Tue–Thu daytime <b>${wd[k].toFixed(1)}</b></div>` : "") + (yoy ? `<div class="k">${signed((idx[k] / yoy - 1) * 100, 1)}% on a year earlier</div>` : "");
+      placeTip(idxTip, idxEl, x(i) / sx, y(idx[k]) / sx);
+    };
+    svg.addEventListener("pointermove", move); svg.addEventListener("pointerdown", move);
+    svg.addEventListener("pointerleave", () => { xh.setAttribute("visibility", "hidden"); xd.setAttribute("visibility", "hidden"); idxTip.hidden = true; });
+  }
+
+  // ---------- seasonality ----------
+  const seasonEl = document.getElementById("seasonChart"), seasonTip = makeTip(seasonEl);
+  function drawSeason() {
+    const w = Math.max(320, seasonEl.clientWidth), h = 220, m = { l: 34, r: 10, t: 18, b: 26 };
+    const iw = w - m.l - m.r, ih = h - m.t - m.b;
+    const ext = Math.max(10, Math.ceil(Math.max(...sMonths.map(k => Math.abs(season[k] - 100))) / 5) * 5);
+    const y = v => m.t + ih / 2 - (v - 100) / ext * (ih / 2), bw = iw / 12;
+    let s = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Occupancy by month against the yearly average">`;
+    s += `<g class="grid">` + [-ext, -ext / 2, ext / 2, ext].map(d => `<line x1="${m.l}" x2="${w - m.r}" y1="${y(100 + d)}" y2="${y(100 + d)}"/>`).join("") + `</g>`;
+    s += `<g class="axis">` + [-ext, -ext / 2, 0, ext / 2, ext].map(d => `<text x="${m.l - 6}" y="${y(100 + d) + 3.5}" text-anchor="end">${d === 0 ? "avg" : signed(d) + "%"}</text>`).join("") + `</g>`;
+    sMonths.forEach((mo, i) => {
+      const v = season[mo], x0 = m.l + i * bw + bw * .18, bwi = bw * .64, top = Math.min(y(v), y(100)), hh = Math.abs(y(v) - y(100));
+      const r = Math.min(3, bwi / 2, hh);
+      const up = v >= 100;
+      // rounded on the data end, square on the baseline
+      const d = up
+        ? `M${x0},${y(100)}V${top + r}Q${x0},${top} ${x0 + r},${top}H${x0 + bwi - r}Q${x0 + bwi},${top} ${x0 + bwi},${top + r}V${y(100)}Z`
+        : `M${x0},${y(100)}V${y(v) - r}Q${x0},${y(v)} ${x0 + r},${y(v)}H${x0 + bwi - r}Q${x0 + bwi},${y(v)} ${x0 + bwi},${y(v) - r}V${y(100)}Z`;
+      s += `<path d="${d}" fill="${up ? "var(--accent)" : "var(--ref)"}" data-m="${mo}"/>`;
+      s += `<text class="axis lbl" x="${x0 + bwi / 2}" y="${h - 8}" text-anchor="middle">${w < 560 ? MON[mo - 1][0] : MON[mo - 1]}</text>`;
+      if (mo === sMax || mo === sMin) s += `<text class="dlbl" x="${x0 + bwi / 2}" y="${up ? top - 5 : y(v) + 13}" text-anchor="middle">${signed(v - 100, 1)}%</text>`;
+    });
+    s += `<line class="base" x1="${m.l}" x2="${w - m.r}" y1="${y(100)}" y2="${y(100)}"/>`;
+    s += sMonths.map((mo, i) => `<rect x="${m.l + i * bw}" y="${m.t}" width="${bw}" height="${ih}" fill="transparent" data-m="${mo}"/>`).join("") + `</svg>`;
+    seasonEl.innerHTML = s; seasonEl.appendChild(seasonTip);
+    const svg = seasonEl.querySelector("svg");
+    svg.addEventListener("pointermove", ev => {
+      const t = ev.target.closest("[data-m]"); if (!t) return;
+      const mo = +t.dataset.m, r = svg.getBoundingClientRect();
+      seasonTip.innerHTML = `<div class="k">${MON_LONG[mo - 1]}</div><div><b>${signed(season[mo] - 100, 1)}%</b> against the yearly average</div>`;
+      placeTip(seasonTip, seasonEl, ev.clientX - r.left, ev.clientY - r.top);
+    });
+    svg.addEventListener("pointerleave", () => { seasonTip.hidden = true; });
+  }
+
+  // ---------- weekday shape ----------
+  const SER = [[5, "Saturday", "var(--s1)"], [4, "Friday", "var(--s2)"], [0, "Monday", "var(--s3)"], [6, "Sunday", "var(--s4)"]];
+  document.getElementById("weekLegend").innerHTML = SER.map(([, l, c]) => `<span><i style="background:${c}"></i>${l}</span>`).join("") + `<span><i class="dash"></i>Tue–Thu = 100</span>`;
+  const weekEl = document.getElementById("weekChart"), weekTip = makeTip(weekEl);
+  function drawWeek() {
+    const w = Math.max(320, weekEl.clientWidth), h = w < 560 ? 240 : 280, m = { l: 34, r: w < 560 ? 64 : 84, t: 12, b: 26 };
+    const iw = w - m.l - m.r, ih = h - m.t - m.b, ys = shapeYears;
+    const all = ys.flatMap(yr => SER.map(([d]) => shape[yr].rel[d]));
+    const lo = Math.floor(Math.min(...all) / 10) * 10, hi = Math.max(110, Math.ceil(Math.max(...all) / 10) * 10);
+    const x = i => m.l + (ys.length === 1 ? iw / 2 : i * iw / (ys.length - 1)), y = v => m.t + ih - (v - lo) / (hi - lo) * ih;
+    const ticks = []; for (let v = lo; v <= hi; v += 10) ticks.push(v);
+    let s = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Daytime occupancy by weekday relative to midweek, per year">`;
+    s += `<g class="grid">` + ticks.map(v => `<line x1="${m.l}" x2="${w - m.r}" y1="${y(v)}" y2="${y(v)}"/>`).join("") + `</g>`;
+    s += `<line class="ref100" x1="${m.l}" x2="${w - m.r}" y1="${y(100)}" y2="${y(100)}"/>`;
+    s += `<g class="axis">` + ticks.map(v => `<text x="${m.l - 6}" y="${y(v) + 3.5}" text-anchor="end">${v}</text>`).join("") +
+      ys.map((yr, i) => `<text x="${x(i)}" y="${h - 8}" text-anchor="middle">${w < 560 ? "’" + yr.slice(2) : yr}</text>`).join("") + `</g>`;
+    // end labels, nudged apart so they never overlap
+    const ends = SER.map(([d, l, c]) => ({ l, c, v: shape[ys[ys.length - 1]].rel[d] })).sort((a, b) => b.v - a.v);
+    let prevY = -Infinity; for (const e of ends) { e.y = Math.max(y(e.v) + 4, prevY + 13); prevY = e.y; }
+    for (const [d, , c] of SER) {
+      s += `<path d="${path(ys.map((yr, i) => [x(i), y(shape[yr].rel[d])]))}" fill="none" stroke="${c}" stroke-width="2" stroke-linejoin="round"/>`;
+      ys.forEach((yr, i) => { s += `<circle cx="${x(i)}" cy="${y(shape[yr].rel[d])}" r="3.5" fill="${c}" stroke="var(--surface)" stroke-width="1.5"/>`; });
+    }
+    for (const e of ends) s += `<text class="dlbl" x="${x(ys.length - 1) + 9}" y="${e.y}">${e.l} ${Math.round(e.v)}</text>`;
+    s += ys.map((yr, i) => `<rect x="${x(i) - iw / (2 * Math.max(1, ys.length - 1))}" y="${m.t}" width="${iw / Math.max(1, ys.length - 1)}" height="${ih}" fill="transparent" data-y="${yr}"/>`).join("") + `</svg>`;
+    weekEl.innerHTML = s; weekEl.appendChild(weekTip);
+    const svg = weekEl.querySelector("svg");
+    svg.addEventListener("pointermove", ev => {
+      const t = ev.target.closest("[data-y]"); if (!t) return;
+      const yr = t.dataset.y, r = svg.getBoundingClientRect();
+      weekTip.innerHTML = `<div class="k">${yr} · ${shape[yr].garages} garages</div>` + SER.map(([d, l]) => `<div>${l} <b>${shape[yr].rel[d].toFixed(1)}</b></div>`).join("");
+      placeTip(weekTip, weekEl, ev.clientX - r.left, ev.clientY - r.top);
+    });
+    svg.addEventListener("pointerleave", () => { weekTip.hidden = true; });
+  }
+
+  // ---------- city table ----------
+  const [l0, l1] = T.yoy.last, [p0, p1] = T.yoy.prev;
+  document.getElementById("citySub").textContent =
+    `Average occupancy ${mLabel(l0)}–${mLabel(l1)} against ${mLabel(p0)}–${mLabel(p1)}, comparing each garage with itself. Cities with three or more garages that reported in both periods; the trend line runs from ${first.slice(0, 4)} where the city has enough history.`;
+  function spark(index, w = 130, h = 26) {
+    if (!index) return "";
+    const ks = months.filter(k => index[k] != null); if (ks.length < 12) return "";
+    const v = ks.map(k => index[k]), lo = Math.min(...v, 80), hi = Math.max(...v, 120);
+    const x = k => (months.indexOf(k) + .5) * w / months.length, y = val => h - 1 - (val - lo) / (hi - lo) * (h - 2);
+    const d = path(months.map(k => index[k] == null ? null : [x(k), y(index[k])]));
+    return `<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true"><line x1="0" x2="${w}" y1="${y(100)}" y2="${y(100)}" stroke-dasharray="2 2"/><path class="l" d="${d}"/></svg>`;
+  }
+  const rows = [...T.yoy.cities].sort((a, b) => b.change_pts - a.change_pts);
+  const maxAbs = Math.max(5, ...rows.map(c => Math.abs(c.change_pts)));
+  document.getElementById("cityTable").innerHTML =
+    `<thead><tr><th>City</th><th class="r">Garages</th><th class="r">Before</th><th class="r">Last 12 months</th><th>Change (points)</th><th>Since ${first.slice(0, 4)}</th></tr></thead><tbody>` +
+    rows.map(c => {
+      const cls = c.change_pts >= 1 ? "up" : c.change_pts <= -1 ? "down" : "";
+      const bw = Math.abs(c.change_pts) / maxAbs * 5;
+      return `<tr><td>${esc(c.city)} <span class="muted">${esc(c.country)}</span></td><td class="r num">${c.garages}</td><td class="r num">${Math.round(c.then * 100)}%</td><td class="r num">${Math.round(c.now * 100)}%</td>` +
+        `<td><span class="chg ${cls}">${signed(c.change_pts, 1)}</span> <span class="bar" style="width:${bw}rem;background:${c.change_pts >= 0 ? "var(--up)" : "var(--down)"};opacity:.55"></span></td><td>${spark(c.index)}</td></tr>`;
+    }).join("") + `</tbody>`;
+
+  document.getElementById("foot").textContent = `Generated ${T.generated_at.replace("T", " ").replace("Z", " UTC")} from the ParkingUtilisation database.`;
+
+  const draw = () => { drawIdx(); drawSeason(); drawWeek(); };
+  draw();
+  let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(draw, 120); });
+})();
+</script>

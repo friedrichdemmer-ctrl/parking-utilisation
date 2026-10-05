@@ -855,6 +855,30 @@ def index():
     return render_template_string(PAGE)
 
 
+# Self-contained report pages, rebuilt by reports_job.py (utilisation weekly,
+# trends monthly). The page skeleton is added here; the files hold the body.
+
+
+def _report_page(kind: str) -> Response:
+    path = DB_PATH.parent / "reports" / f"{kind}_latest.html"
+    if not path.exists():
+        return Response("<p>This report has not been built yet; it appears within an hour of a deploy.</p>",
+                        status=404, mimetype="text/html")
+    head = '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
+    return Response(head + path.read_text(encoding="utf-8") + "</html>", mimetype="text/html",
+                    headers={"Cache-Control": "public, max-age=3600"})
+
+
+@app.route("/report")
+def utilisation_page():
+    return _report_page("utilisation")
+
+
+@app.route("/trends")
+def trends_page():
+    return _report_page("trends")
+
+
 @app.route("/api/cities")
 def api_cities():
     conn = get_db()
