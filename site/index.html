@@ -399,6 +399,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
   const REPORTS = [
     { href: "/report", title: "Utilisation report", body: "How full each garage gets, hour by hour, over a typical week. Rebuilt every week." },
     { href: "/trends", title: "Trends since 2020", body: "The COVID dip and recovery, the yearly rhythm, and which kinds of car park are gaining or losing. Rebuilt every month." },
+    { href: "/yield", title: "Revenue and yield", body: "What a space earns, whether charging more empties a garage, and which garages are busiest on the lowest rates. Rebuilt every week." },
   ];
   const reportCards = () => REPORTS.map(r => `<a class="card" href="${r.href}"><h3>${esc(r.title)}</h3><p class="sub">${esc(r.body)}</p><span class="go">Open report →</span></a>`).join("");
   let map = null, mapLayer = null;

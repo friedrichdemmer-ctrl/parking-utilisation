@@ -318,6 +318,11 @@ def trends_page():
     return _report_page("trends")
 
 
+@app.route("/yield")
+def yield_page():
+    return _report_page("yield")
+
+
 @app.route("/api/cities")
 def api_cities():
     conn = get_db()

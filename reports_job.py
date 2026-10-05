@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Keeps the published reports current: /report (utilisation, rebuilt
-weekly) and /trends (multi-year trends, rebuilt monthly).
+"""Keeps the published reports current: /report (utilisation) and /yield
+(revenue), rebuilt weekly, and /trends (multi-year), rebuilt monthly.
 
 scraper_daemon.py calls spawn_if_due() every 5 minutes; a due build runs as
 a separate process (`python3 reports_job.py utilisation|trends`), so the
@@ -50,7 +50,7 @@ def _due(conn: sqlite3.Connection, kind: str) -> bool:
     from scrapers.runner import _is_due, _last_success_at
 
     last = _last_success_at(conn, "reports", kind)
-    if kind == "utilisation":
+    if kind in ("utilisation", "yield"):
         return _is_due(last, UTILISATION_INTERVAL_SECONDS)
     # trends: once a month, from the 2nd (the previous month is then complete)
     now = datetime.now(timezone.utc)
@@ -59,7 +59,7 @@ def _due(conn: sqlite3.Connection, kind: str) -> bool:
 
 def spawn_if_due(conn: sqlite3.Connection) -> None:
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
-    for kind in ("utilisation", "trends"):
+    for kind in ("utilisation", "trends", "yield"):
         lock = _lock(kind)
         if lock.exists() and time.time() - lock.stat().st_mtime < LOCK_MAX_AGE and _alive(lock):
             continue
@@ -83,6 +83,12 @@ def build(kind: str) -> None:
             report = r.build(ro)
             n = report["included"]
             name = f"utilisation_{report['window']['end']}"
+        elif kind == "yield":
+            # reads the latest utilisation report, so it follows that build
+            import yield_report as r
+            report = r.build()
+            n = report["reliable"]
+            name = f"yield_{stamp}"
         else:
             import trends_report as r
             months = r.garage_months(ro)
