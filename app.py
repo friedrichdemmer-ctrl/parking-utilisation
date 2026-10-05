@@ -246,6 +246,10 @@ PAGE = """
   .tabs { margin-bottom: 1.5rem; border-bottom: 2px solid #ddd; }
   .tab-btn { background: none; border: none; padding: 0.6rem 1rem; cursor: pointer; font-size: 1rem; border-bottom: 3px solid transparent; }
   .tab-btn.active { border-bottom-color: #3b6fd6; font-weight: 600; }
+  /* the two report pages open as their own pages, not tabs */
+  .tab-links { float: right; }
+  .tab-link { display: inline-block; padding: 0.6rem 1rem; font-size: 1rem; color: #3b6fd6; text-decoration: none; }
+  .tab-link:hover { text-decoration: underline; }
   .tab-panel { display: none; }
   .tab-panel.active { display: block; }
   .row { display: flex; gap: 1rem; flex-wrap: wrap; }
@@ -273,6 +277,10 @@ PAGE = """
   <button class="tab-btn" data-tab="compare">Daily Comparison</button>
   <button class="tab-btn" data-tab="coverage">Coverage</button>
   <button class="tab-btn" data-tab="health">Scraper Health</button>
+  <span class="tab-links">
+    <a class="tab-link" href="/report">Utilisation report &#8599;</a>
+    <a class="tab-link" href="/trends">Trends since 2020 &#8599;</a>
+  </span>
 </div>
 
 <!-- ============ QUERY TAB ============ -->
