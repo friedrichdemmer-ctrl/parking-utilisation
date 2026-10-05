@@ -141,6 +141,7 @@ footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px
       <li id="mHigh"></li>
       <li>Takings are modelled, not reported: measured occupancy, published tariffs, and an assumed mix of stay lengths. They are right in aggregate and roughest for any single garage.</li>
       <li>A correlation is not a licence to raise prices. Dearer garages sit in busier places, which is most of why they stay full; the figures here cannot separate the two.</li>
+      <li id="mTariff"></li>
       <li id="mFx"></li>
     </ul>
   </section>
@@ -288,6 +289,9 @@ footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px
     `The model is checked against Q-Park's published 2024 accounts: their ordinary city-centre garages here come out at €${fmt(Y.calibration.qpark_modelled)} a space a year against the €${fmt(Y.calibration.qpark_reported)} they report across all their sites.`;
   document.getElementById("mHigh").textContent =
     `${Y.high_tariff} garages charging €${Y.high_tariff_from} an hour or more are left out of every figure here. Above that the model overstates takings, because the season-ticket holders who fill such garages by day are billed in it at the visitor rate.`;
+  const TC = Y.tariff_caveats || {};
+  document.getElementById("mTariff").textContent =
+    `The rate recorded is the walk-up one, posted at the barrier. ${fmt(TC.cheaper_app_tariff)} of these garages also sell a cheaper tariff through the operator's own app, and ${fmt(TC.minimum_or_dynamic)} publish only a "from" price on a rate that varies with demand. Both mean real takings sit below what is shown here.`;
   document.getElementById("mFx").textContent =
     `Rates outside the euro are converted for comparison at ${Object.entries(Y.fx).filter(([k]) => k !== "EUR").map(([k, v]) => `1 ${k} = €${v}`).join(", ")}.`;
   document.getElementById("foot").textContent = `Generated ${Y.generated_at.replace("T", " ").replace("Z", " UTC")} from the ParkingUtilisation database.`;

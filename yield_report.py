@@ -100,6 +100,9 @@ def build(report_path: Path | None = None) -> dict:
             "high_tariff": bool(m.get("high_tariff")),
         })
     ok = [g for g in garages if not g["high_tariff"]]          # the reliable set
+    notes = {g["id"]: (prices[g["id"]].get("note") or "").lower() for g in ok}
+    app_cheaper = {i for i, n in notes.items() if "flow" in n or "pcard" in n or "app" in n}
+    dynamic = {i for i, n in notes.items() if "ab " in n or "veränderlich" in n or "dynamic" in n}
 
     def group(key, min_n):
         out = []
@@ -174,6 +177,12 @@ def build(report_path: Path | None = None) -> dict:
         "headroom": headroom, "quiet_dear": quiet_dear,
         "scatter": [{"r": g["rate_eur"], "o": g["occ"], "c": g["capacity"], "y": g["yield_eur"],
                      "n": g["name"], "t": g["city"], "k": g["type"]} for g in ok],
+        "tariff_caveats": {
+            # the rate we record is the walk-up one; many operators' own apps
+            # charge less, and some publish only a "from" price
+            "cheaper_app_tariff": sum(1 for g in ok if g["id"] in app_cheaper),
+            "minimum_or_dynamic": sum(1 for g in ok if g["id"] in dynamic),
+        },
         "fx": RATES, "high_tariff_from": rm.HIGH_TARIFF,
         "calibration": {"qpark_reported": 2297, "qpark_modelled": 2285},
     }
