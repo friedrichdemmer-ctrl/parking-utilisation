@@ -258,6 +258,29 @@ def api_local_map():
     return jsonify(m)
 
 
+@bp.route("/api/sim/city")
+def api_sim_city():
+    """The simulator's stored results for one city (simulator/results, built by simulator.run_all)."""
+    from simulator import store
+
+    country, name = request.args.get("country", ""), request.args.get("city", "")
+    idx = store.index()
+    out = store.city(country, name)
+    if out is None:
+        reason = ((idx or {}).get("skipped") or {}).get(f"{country}|{name}")
+        return jsonify({"error": "Not simulated" + (f": {reason}." if reason else "."), "reason": reason}), 404
+    val = store.validation()
+    errs = sorted(abs(v["level_error_pts"]) for v in val)
+    return jsonify(dict(out, **{"global": {
+        "transfer_factor": idx["transfer_factor"], "transfer_floor": idx["transfer_floor"],
+        "fitted_cities": sum(1 for c in idx["cities"] if c["method"].startswith("fitted")),
+        "cities": len(idx["cities"]),
+        "leave_one_out": {"cities": len(val), "garage_cities": sum(1 for v in val if v.get("garage_r") is not None), "median_level_error_pts": errs[len(errs) // 2] if errs else None,
+                          "median_naive_error_pts": sorted(abs(v["naive_level_error_pts"]) for v in val)[len(val) // 2] if val else None,
+                          "median_garage_r": (lambda rs: rs[len(rs) // 2] if rs else None)(sorted(v["garage_r"] for v in val if v.get("garage_r") is not None)),
+                          "rows": val}}}))
+
+
 @bp.route("/api/search")
 def api_search():
     q = (request.args.get("q") or "").strip()
