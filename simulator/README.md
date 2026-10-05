@@ -1,5 +1,10 @@
 # Simulator
 
+> **Retired from the public site on 2026-10-05; kept here as a research archive.** Its own
+> validation (see "What it cannot tell you") showed it predicts occupancy no better than the
+> average, and barely predicts which garage is busy, so the data does not support what-if
+> pricing or capacity analysis. It is not in the Docker image and nothing serves it.
+
 An agent-based model of one weekday in a city's parking market, ported from the former
 `parkingsimulator` project (Düsseldorf, Q-Park pricing) so it runs on every city in
 `competitive/`. Archived original: `archive/parkingsimulator/`.

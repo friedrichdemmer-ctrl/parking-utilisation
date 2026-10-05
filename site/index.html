@@ -189,13 +189,6 @@ table.data tr.link:hover td { background: var(--accent-soft); }
 .cal rect { rx: 1.5; }
 .note { font-size: .88rem; color: var(--ink-3); }
 .error { color: var(--bad); }
-.simgrade { border: 1px solid var(--rule); border-left: 4px solid var(--warn); border-radius: 4px; padding: .7rem .9rem; display: grid; gap: .3rem; font-size: .92rem; }
-.simgrade.ok { border-left-color: var(--good); }
-.simgrade b { font-family: var(--font-display); font-size: 1.02rem; }
-.simlimits { margin: 0; padding-left: 1.1rem; display: grid; gap: .35rem; font-size: .9rem; color: var(--ink-2); max-width: 70ch; }
-.simchart { width: 100%; max-width: 640px; height: auto; }
-.simchart text { font: 11px var(--font-body); fill: var(--ink-3); }
-.simnoise { color: var(--ink-3); }
 .skeleton { color: var(--ink-3); font-size: .9rem; }
 footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem; font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px solid var(--rule); }
 @media (prefers-reduced-motion: no-preference) { .chip, .card, .btn, .cityrow { transition: border-color .15s, background-color .15s; } }
@@ -274,7 +267,6 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
         <button type="button" data-m="operator" aria-pressed="true">By operator</button>
         <button type="button" data-m="relative" aria-pressed="false">Relative to nearby garages</button>
         <button type="button" data-m="occ" aria-pressed="false">Occupied now</button>
-        <button type="button" data-m="sim" aria-pressed="false" hidden>Simulated</button>
       </div>
       <div class="locopts" id="locOptions"></div>
       <div id="locMap" class="locmap" role="region" aria-label="Map of the city's garages"></div>
@@ -282,15 +274,6 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
       <p class="note" id="locCaption"></p>
     </div>
     <div class="panel"><h2 id="locTblH">All garages</h2><div class="scroll"><table class="data" id="locTable"></table></div></div>
-    <div class="panel" id="simPanel" hidden>
-      <h2 id="simH">What-if simulation</h2>
-      <div class="simgrade" id="simGrade"></div>
-      <div class="scroll"><table class="data" id="simTable"></table></div>
-      <div id="simChart"></div>
-      <details><summary><b>How it works, and what it cannot tell you</b></summary>
-        <ul class="simlimits" id="simLimits" style="margin-top:.6rem"></ul>
-      </details>
-    </div>
     <details class="panel" id="locNotes" hidden><summary><b>How this city was researched</b></summary><p class="note" id="locNotesBody" style="white-space:pre-wrap;max-width:none"></p></details>
   </section>
 
@@ -894,87 +877,19 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     let d;
     try { d = await once(`loc:map:${country}|${city}`, () => api(`/api/local/map?country=${enc(country)}&city=${enc(city)}`)); } catch (e) { stats.innerHTML = `<p class="error">${esc(e.message)}</p>`; return; }
     if (loc.data && (loc.data.country !== d.country || loc.data.city !== d.city)) { loc.off = new Set(); loc.target = null; }
-    loc.data = d; loc.sim = null;
+    loc.data = d;
     loc.target = loc.target && d.operators.some(o => o.name === loc.target) ? loc.target : d.operators.reduce((a, b) => b.garages > a.garages ? b : a).name;
     if (loc.mode === "occ" && !d.garages.some(g => g.occ != null)) loc.mode = "operator";
-    if (loc.mode === "sim") loc.mode = "operator";      // the simulation arrives after the map; drawLocalAll switches back when it is there
     // is the city also in our occupancy data? then link across
     once("pk:c:" + country, () => api(`/api/browse/cities?country=${enc(country)}`)).then(list => {
       const hit = list.find(c => c.city === city);
       document.getElementById("locLinks").innerHTML = hit ? `<a class="btn" href="${cityHash(country, city)}">Occupancy in ${esc(city)} →</a>` : "";
     }).catch(() => { document.getElementById("locLinks").innerHTML = ""; });
     drawLocalAll();
-    loadSim(country, city);
-  }
-  async function loadSim(country, city) {
-    const panel = document.getElementById("simPanel");
-    panel.hidden = true; loc.sim = null;
-    let sim, reason = null;
-    try { sim = await once(`sim:${country}|${city}`, () => api(`/api/sim/city?country=${enc(country)}&city=${enc(city)}`)); }
-    catch (e) { sim = null; reason = e.message; }
-    if (!loc.data || loc.data.country !== country || loc.data.city !== city) return;      // the user moved on
-    panel.hidden = false;
-    document.getElementById("simH").textContent = `What-if simulation — ${city}`;
-    if (!sim) {
-      document.getElementById("simGrade").className = "simgrade";
-      document.getElementById("simGrade").innerHTML = `<b>No simulation for ${esc(city)}</b><span>${esc(reason || "Not simulated.")} Cities need at least 5 garages, 3 with a recorded capacity and 3 with a recorded tariff.</span>`;
-      for (const id of ["simTable", "simChart", "simLimits"]) document.getElementById(id).innerHTML = "";
-      drawLocalAll(); return;
-    }
-    loc.sim = sim; drawSim(sim); drawLocalAll();
   }
   selCountry.addEventListener("change", () => { location.hash = `#local/${enc(selCountry.value)}`; });
   selCity.addEventListener("change", () => { location.hash = `#local/${enc(selCountry.value)}/${enc(selCity.value)}`; });
   document.getElementById("locMode").addEventListener("click", ev => { const b = ev.target.closest("button[data-m]"); if (b && loc.data) { loc.mode = b.dataset.m; drawLocalAll(); } });
-
-  function gradeText(sim) {
-    const c = sim.calibration, n = sim.global.fitted_cities;
-    if (c.method === "fitted-garage") return { ok: true, title: `Fitted to ${c.linked} garages we measure here`, short: `Demand fitted to ${c.linked} garages we measure here.`,
-      body: `Demand is set so the ${c.linked} garages here that we also measure come out at their measured ${c.measured_level}% weekday occupancy${c.reached_target ? "" : " (it could not quite be reached)"}. The daily rhythm then matches measurement well (correlation ${c.validation.profile_r}), but which garage is busiest matches only weakly (correlation ${c.validation.garage_r}, average miss ${c.validation.garage_mae_pts} points).` };
-    if (c.method === "fitted-city") return { ok: true, title: "Fitted to this city's measured occupancy level", short: "Demand fitted to the city's measured level.",
-      body: `Demand is set so the whole city averages its measured ${c.measured_level}% weekday occupancy, using ${sim.assumptions.garages} researched garages as the supply. We have no garage-by-garage check here, and elsewhere that check is weak.` };
-    return { ok: false, title: "Illustrative: demand is assumed, not measured", short: "Illustrative: demand assumed.",
-      body: `We measure too few garages in ${esc(sim.city)} to fit demand. It is set from the ${n} cities we can fit, so the occupancy and revenue levels below say nothing about ${esc(sim.city)} itself. In a test that predicted each fitted city from the others, this did no better than guessing the average level. Read the percentage changes between scenarios, not the totals.` };
-  }
-
-  function drawSim(sim) {
-    const g = gradeText(sim), sc = sim.scenarios, order = Object.keys(sc), base = sc.baseline, G = sim.global;
-    const grade = document.getElementById("simGrade");
-    grade.className = "simgrade" + (g.ok ? " ok" : "");
-    const a = sim.assumptions, filled = [a.capacity_imputed && `${a.capacity_imputed} ${a.capacity_imputed === 1 ? "capacity" : "capacities"}`, a.tariff_imputed && `${a.tariff_imputed} ${a.tariff_imputed === 1 ? "tariff" : "tariffs"}`, a.day_ticket_imputed && `${a.day_ticket_imputed} day ${a.day_ticket_imputed === 1 ? "ticket" : "tickets"}`].filter(Boolean);
-    grade.innerHTML = `<b>${esc(g.title)}</b><span>${g.body}</span>` +
-      (filled.length ? `<span class="muted">Filled in with the ${a.currency === "EUR" ? "" : "converted "}city median because the operators do not publish them: ${filled.join(", ")} of ${a.garages} garages.</span>` : "") +
-      (a.currency !== "EUR" ? `<span class="muted">Prices are converted from ${esc(a.currency)} to euros at a fixed rate; money below is in euros.</span>` : "");
-    const eur = v => v == null ? "–" : "€" + fmt(v);
-    const pct = v => v == null ? "–" : (v > 0 ? "+" : "") + v.toFixed(1) + "%";
-    document.getElementById("simTable").innerHTML =
-      `<thead><tr><th scope="col">Scenario (one weekday, 06:00-22:00)</th><th class="r" scope="col">Takings</th><th class="r" scope="col">Change</th><th class="r" scope="col">Parking sessions</th><th class="r" scope="col">Occupancy</th></tr></thead><tbody>` +
-      order.map(k => { const r = sc[k]; return `<tr><td>${esc(r.label)}</td><td class="r num">${eur(r.revenue)}</td>` +
-        `<td class="r num">${k === "baseline" ? "–" : r.significant ? pct(r.revenue_change_pct) : `<span class="simnoise" title="Smaller than the run-to-run noise (${sim.seeds} random seeds)">${pct(r.revenue_change_pct)} ~</span>`}</td>` +
-        `<td class="r num">${fmt(r.sessions)}${k === "baseline" ? "" : ` <span class="muted">(${pct(r.sessions_change_pct)})</span>`}</td><td class="r num">${r.occupancy_pct}%</td></tr>`; }).join("") + `</tbody>`;
-    // measured vs simulated daily rhythm, where this city has garage-level measurements
-    const v = sim.calibration.validation, chart = document.getElementById("simChart");
-    if (v) {
-      const W = 600, H = 190, x = i => 40 + i * (W - 60) / 15, ymax = Math.max(100, ...v.sim_hours, ...v.measured_hours), y = t => H - 28 - t / ymax * (H - 48);
-      const line = (arr, cls, col, dash) => `<polyline fill="none" stroke="${col}" stroke-width="2" ${dash ? 'stroke-dasharray="5 4"' : ""} points="${arr.map((t, i) => `${x(i).toFixed(1)},${y(t).toFixed(1)}`).join(" ")}"/>`;
-      chart.innerHTML = `<h3 style="font-size:.95rem;margin:.4rem 0 .2rem">Weekday rhythm, the garages we measure here</h3>
-        <svg class="simchart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Measured and simulated occupancy by hour">
-          ${[0, 50, 100].map(t => `<line x1="40" x2="${W - 20}" y1="${y(t)}" y2="${y(t)}" stroke="var(--rule-soft)"/><text x="34" y="${y(t) + 4}" text-anchor="end">${t}%</text>`).join("")}
-          ${[6, 9, 12, 15, 18, 21].map(h => `<text x="${x(h - 6)}" y="${H - 8}" text-anchor="middle">${String(h).padStart(2, "0")}:00</text>`).join("")}
-          ${line(v.measured_hours, "m", "var(--s1)", false)}${line(v.sim_hours, "s", "var(--s2)", true)}
-          <text x="${W - 24}" y="14" text-anchor="end" style="fill:var(--s1)">measured</text><text x="${W - 24}" y="28" text-anchor="end" style="fill:var(--s2)">simulated (dashed)</text>
-        </svg>`;
-    } else chart.innerHTML = "";
-    const L = G.leave_one_out;
-    document.getElementById("simLimits").innerHTML = [
-      `<b>Drivers do not give up.</b> The model assigns every arriving driver to some garage; there is no choice to skip parking or go elsewhere. A price rise can only move drivers between garages, never reduce how many park, so the session count barely moves and revenue rises almost mechanically. Our own measurements show the same thing in reverse: across about 270 published tariffs, dearer garages are not emptier (correlation +0.18). That is why the model is not absurd, but it is not evidence that prices could rise without losing drivers.`,
-      `<b>Demand is fitted, not predicted.</b> ${G.fitted_cities} of ${G.cities} cities have measured occupancy to fit to. Tested by predicting each fitted city from the others, the simulated occupancy was ${L.median_level_error_pts} points off on average, no better than guessing the average level (${L.median_naive_error_pts} points off) across ${L.cities} cities.`,
-      `<b>Which garage is busy is only weakly captured.</b> Across the ${L.garage_cities} cities where we can compare garage by garage, simulated and measured occupancy correlate at a median ${L.median_garage_r ?? "–"} (1 would be perfect). The daily rhythm is much better.`,
-      `<b>Inputs are researched or filled in.</b> Zones and quality scores are derived from distance to the city centre, not judged on site; app availability is assumed for operators with three or more garages; missing capacity and tariffs are replaced by the city median. Each garage in the table of results says what was filled in.`,
-      `<b>One weekday, no seasons, no events.</b> Results are the average of ${sim.seeds} random runs. A change marked ~ is smaller than the difference between two runs.`,
-      `<b>Provenance.</b> The engine is the Düsseldorf simulator from the former parkingsimulator project, reproducing its published results exactly (check_parity); everything around it is new.`,
-    ].map(t => `<li>${t}</li>`).join("");
-  }
 
   function drawLocalAll() {
     const d = loc.data, gs = d.garages;
@@ -984,8 +899,6 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
       [fmt(gs.length), "garages"], [fmt(d.operators.length), d.operators.length === 1 ? "operator" : "operators"],
       [fmt(spaces), "spaces, where published"], [`${priced} of ${gs.length}`, "have a published hourly rate"],
     ].map(([b, t]) => `<div class="stat"><b>${b}</b><span>${t}</span></div>`).join("");
-    const simBtn = document.querySelector('#locMode button[data-m="sim"]'); simBtn.hidden = !loc.sim;
-    if (loc.mode === "sim" && !loc.sim) loc.mode = "operator";
     document.querySelectorAll("#locMode button").forEach(b => {
       b.setAttribute("aria-pressed", b.dataset.m === loc.mode ? "true" : "false");
       if (b.dataset.m === "occ") b.title = live ? `${live} garages here report occupancy right now` : "None of the garages here is one we measure live";
@@ -1053,11 +966,6 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
       legend.innerHTML = `<div class="scale"><div class="bar" style="background:linear-gradient(90deg, rgb(${PERF.red}) 0%, rgb(${PERF.red}) 20%, rgb(${PERF.grey}) 45%, rgb(${PERF.grey}) 55%, rgb(${PERF.green}) 80%, rgb(${PERF.green}) 100%)"></div>
         <div class="lbl"><span>${loc.metric === "hourly_rate" ? "cheaper" : "further out"} by 15% or more</span><span>within ±5%</span><span>${loc.metric === "hourly_rate" ? "dearer" : "nearer"} by 15% or more</span></div></div>
         <p class="note" style="margin-top:.5rem">Every garage is shown. Grey dots are every operator except ${esc(loc.target)}; ${esc(loc.target)}'s own garages are coloured by their difference from the average of all other garages within 500 m. Amber means no published value for the garage, or no other garage within 500 m. ${loc.metric === "hourly_rate" ? "For price, green only means priced above the local average, which is not automatically good or bad for the business. " : "Location compares each garage's distance to the centre of this city's garages, a proxy rather than a published measure. "}</p>`;
-    } else if (loc.mode === "sim" && loc.sim) {
-      const by = new Map(loc.sim.garages.map(x => [x.id, x]));
-      opts.innerHTML = `<span class="muted" style="font-size:.88rem">Simulated average occupancy, 06:00-22:00 on a weekday, today's prices. ${esc(gradeText(loc.sim).short)}</span>`;
-      for (const g of gs) { const x = by.get(g.id); spec.push(x ? [g, rampColor(x.occupancy_pct), .95, `${head(g)}<br>${basics(g)}<br><b>${x.occupancy_pct}% simulated</b>${x.imputed.length ? "<br>Filled in: " + esc(x.imputed.join(", ")) : ""}${x.measured ? "<br>We also measure this garage" : ""}`] : [g, GREY_OUT, .6, head(g)]); }
-      legend.innerHTML = `<div class="ramp"><span>empty</span><span class="bar" style="background:${rampCss()}"></span><span>full</span></div><p class="note">A model output, not a measurement. Where the simulator says a garage is busy, ${loc.sim.global.leave_one_out.median_garage_r != null ? `the garage's measured occupancy agrees only weakly (median correlation ${loc.sim.global.leave_one_out.median_garage_r} across the ${loc.sim.global.leave_one_out.garage_cities} cities tested garage by garage)` : "it has not been tested against measurements"}.</p>`;
     } else {
       const live = gs.filter(g => g.occ != null).length;
       opts.innerHTML = `<span class="muted" style="font-size:.88rem">${live} of ${gs.length} garages here report occupancy right now. The rest are grey.</span>`;

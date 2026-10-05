@@ -16,7 +16,6 @@ COPY site/ ./site/
 COPY competitive/ ./competitive/
 COPY garage_prices/ ./garage_prices/
 COPY scrapers/ ./scrapers/
-COPY simulator/ ./simulator/
 RUN chmod +x entrypoint.sh
 
 ENV PARKING_DB_PATH=/data/parking.db
