@@ -116,6 +116,15 @@ from scrapers.adapters.luebeck_live import LuebeckLiveAdapter
 from scrapers.adapters.ingolstadt_live import IngolstadtLiveAdapter
 from scrapers.adapters.regensburg_live import RegensburgLiveAdapter
 from scrapers.adapters.trier_live import TrierLiveAdapter
+from scrapers.adapters.montpellier_live import MontpellierLiveAdapter
+from scrapers.adapters.rennes_live import RennesLiveAdapter
+from scrapers.adapters.angers_live import AngersLiveAdapter
+from scrapers.adapters.orleans_live import OrleansLiveAdapter
+from scrapers.adapters.poitiers_live import PoitiersLiveAdapter
+from scrapers.adapters.clermont_ferrand_live import ClermontFerrandLiveAdapter
+from scrapers.adapters.caen_live import CaenLiveAdapter
+from scrapers.adapters.brest_live import BrestLiveAdapter
+from scrapers.adapters.nimes_live import NimesLiveAdapter
 from scrapers.base import SourceAdapter
 
 ADAPTERS: list[SourceAdapter] = [
@@ -235,4 +244,14 @@ ADAPTERS: list[SourceAdapter] = [
     IngolstadtLiveAdapter(),
     RegensburgLiveAdapter(),
     TrierLiveAdapter(),
+    # French cities' own live feeds, 2026-10-05
+    MontpellierLiveAdapter(),
+    RennesLiveAdapter(),
+    AngersLiveAdapter(),
+    OrleansLiveAdapter(),
+    PoitiersLiveAdapter(),
+    ClermontFerrandLiveAdapter(),
+    CaenLiveAdapter(),
+    BrestLiveAdapter(),
+    NimesLiveAdapter(),
 ]

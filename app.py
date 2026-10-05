@@ -37,6 +37,8 @@ _COUNTRY_SOURCES = {
         "grenoble-live", "la-rochelle-live", "lyon-parc-auto-live", "lyon-qpark", "mel-lille-live",
         "nantes-naolib-live", "rouen-qpark", "saint-etienne-qpark", "strasbourg-live",
         "toulouse-qpark", "tours-live",
+        "montpellier-live", "rennes-live", "angers-live", "orleans-live", "poitiers-live",
+        "clermont-ferrand-live", "caen-live", "brest-live", "nimes-live",
     ],
     "Belgium": ["gent-live", "interparking-belgium", "kortrijk-live", "liege-hors-voirie", "verviers-live"],
     "Denmark": ["copenhagen-qpark", "vejle-live"],
