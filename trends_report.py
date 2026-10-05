@@ -23,6 +23,8 @@ Two steps, both read-only on the database:
      all year, averaged over the full years 2022-2025.
    - weekday shape: daytime occupancy of each weekday relative to the
      Tuesday-Thursday mean, per year, on garages valid in that year.
+   - by car-park type (garage_types.py, from the garage name): the same
+     index per type, and the last 12 months against the 12 before.
 
 Writes JSON (default: <db dir>/reports/trends_<YYYY-MM>.json);
 `--html <trends.json> <page.html>` renders it via trends_template.html.
@@ -52,6 +54,7 @@ DAY_HOURS = range(9, 18)
 BASE_YEAR = 2023
 MIN_PAIR_GARAGES = 20   # chain-link step needs at least this many common garages
 MIN_CITY_GARAGES = 3
+MIN_TYPE_GARAGES = 10
 
 
 def garage_months(conn: sqlite3.Connection) -> dict:
@@ -259,6 +262,35 @@ def analyse(data: dict) -> dict:
         })
     cities.sort(key=lambda c: -c["garages"])
 
+    # by car-park type (garage_types.py): index, and the last 12 months
+    # against the 12 before on the same garages and months
+    from garage_types import LABELS, classify
+
+    by_type = defaultdict(list)
+    for g in ids:
+        by_type[classify(garages[g]["name"])].append(g)
+    types = []
+    for t, gs in by_type.items():
+        pairs_now, pairs_then, used = [], [], set()
+        for a, b in zip(last12, prev12):
+            for g in gs:
+                if a in months[g] and b in months[g]:
+                    pairs_now.append((months[g][a][0], caps[g]))
+                    pairs_then.append((months[g][b][0], caps[g]))
+                    used.add(g)
+        idx_t = rebase(_yoy_index(months, caps, gs, keys, min_pairs=MIN_TYPE_GARAGES))
+        if len(used) < MIN_TYPE_GARAGES and not any(v is not None for v in idx_t.values()):
+            continue
+        yr = lambda y: [idx_t[k] for k in keys if k.startswith(y) and idx_t.get(k) is not None]
+        types.append({
+            "type": t, "label": LABELS[t], "garages": len(gs), "garages_yoy": len(used),
+            "now": round(_weighted(pairs_now), 3) if len(used) >= MIN_TYPE_GARAGES else None,
+            "then": round(_weighted(pairs_then), 3) if len(used) >= MIN_TYPE_GARAGES else None,
+            "annual": {y: round(sum(yr(y)) / len(yr(y)), 1) for y in years if len(yr(y)) >= 10},
+            "index": {k: v for k, v in idx_t.items() if v is not None},
+        })
+    types.sort(key=lambda t: -t["garages"])
+
     # annual averages of the index (full years with 10+ months)
     annual = {}
     for y in years:
@@ -273,6 +305,7 @@ def analyse(data: dict) -> dict:
         "index": index, "index_weekday_daytime": index_weekday, "annual": annual,
         "seasonality": seasonality, "weekday_shape": weekday_shape,
         "yoy": {"last": [last12[0], last12[-1]], "prev": [prev12[0], prev12[-1]], "cities": cities},
+        "types": types,
         "method": {"max_gap_h": MAX_GAP.total_seconds() / 3600, "min_coverage": MIN_COVERAGE, "max_bad_share": MAX_BAD_SHARE,
                    "min_pair_garages": MIN_PAIR_GARAGES, "min_city_garages": MIN_CITY_GARAGES},
     }

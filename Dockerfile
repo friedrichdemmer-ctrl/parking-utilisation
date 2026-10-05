@@ -9,7 +9,7 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY app.py collector.py collector_daemon.py import_historical.py recluster.py apply_capacity_overrides.py scraper_daemon.py feed_health.py utilisation_report.py report_template.html trends_report.py trends_template.html alerts.py reports_job.py sync_archive.py archive_sync_daemon.py entrypoint.sh ./
+COPY app.py collector.py collector_daemon.py import_historical.py recluster.py apply_capacity_overrides.py scraper_daemon.py feed_health.py utilisation_report.py report_template.html trends_report.py trends_template.html garage_types.py alerts.py reports_job.py sync_archive.py archive_sync_daemon.py entrypoint.sh ./
 COPY capacity_overrides/ ./capacity_overrides/
 COPY scrapers/ ./scrapers/
 RUN chmod +x entrypoint.sh

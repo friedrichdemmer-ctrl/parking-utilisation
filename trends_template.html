@@ -136,6 +136,16 @@ footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px
     </div>
   </section>
 
+  <section aria-labelledby="h-type">
+    <h2 id="h-type">Which kinds of car park are gaining or losing</h2>
+    <p class="sub">Garages grouped by what their name says they serve. Types need ten or more garages with history to get a trend line.</p>
+    <div class="panel">
+      <div class="legend" id="typeLegend"></div>
+      <div class="chart" id="typeChart"></div>
+      <div class="scroll"><table class="data" id="typeTable"></table></div>
+    </div>
+  </section>
+
   <section aria-labelledby="h-city">
     <h2 id="h-city">City by city: the last twelve months</h2>
     <p class="sub" id="citySub"></p>
@@ -150,10 +160,12 @@ footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px
       <li id="mIndex"></li>
       <li>Seasonality and the weekday comparison use garages that reported in every month (or at least six months) of the year in question.</li>
       <li>City figures compare each garage's month with the same month a year earlier, weighted by capacity, so a garage counts only for months it reported in both years.</li>
+      <li>Car-park types come from garage names: "Galerie", "Arcaden" or "Einkaufszentrum" mean a shopping centre, "Klinikum" a hospital, "Hauptbahnhof" a station, "Messe" or "Theater" an event venue. Garages named after a street or square count as city centre.</li>
     </ul>
     <h3>Read with care</h3>
     <ul>
       <li>Almost all of the long history comes from German cities (plus Basel), via the community parking-data archive. Other countries join in 2026 and do not yet affect the trend.</li>
+      <li>The shopping-centre group has only about two dozen garages with long histories, so one large centre (the Regensburg Arcaden, 1,548 spaces) moves it noticeably.</li>
       <li>A change in one large car park can move a small city's figure. Where a city has only a few garages, look at the garage count before reading much into it.</li>
       <li>Lockdown shading shows the main German restrictions on shops (spring 2020; mid-December 2020 to spring 2021); rules differed by state.</li>
     </ul>
@@ -214,6 +226,9 @@ footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px
     ytdChange != null ? `${lastYear} so far is running ${Math.abs(ytdChange).toFixed(1)}% ${ytdChange < 0 ? "below" : "above"} the same months of ${prevYear}.` : null,
     `December is the busiest month, ${signed(season[sMax] - 100)}% above the yearly average; ${MON_LONG[sMin - 1]} is the quietest at ${signed(season[sMin] - 100)}%. Occupancy builds from October through the Christmas shopping season.`,
     `In ${firstShape} a Saturday was ${Math.round(100 - sat0)}% quieter than a midweek day. By ${lastFull} it was ${sat1 >= 100 ? `${Math.round(sat1 - 100)}% busier` : `only ${Math.round(100 - sat1)}% quieter`}, while Friday (${Math.round(fri1)}% of a midweek day) and Sunday (${Math.round(sun1)}%) stayed well below.`,
+    (() => { const tt = (T.types || []).filter(t => t.now != null && t.garages_yoy >= 10); if (tt.length < 2) return null;
+      const ch = t => (t.now / t.then - 1) * 100; tt.sort((a, b) => ch(b) - ch(a)); const best = tt[0], worst = tt[tt.length - 1];
+      return `By type, ${best.label.toLowerCase()} gained most over the last twelve months (${signed(ch(best), 1)}%) and ${worst.label.toLowerCase()} lost most (${signed(ch(worst), 1)}%).`; })(),
     `Over the last twelve months, ${ups} of ${cities.length} cities with five or more garages got busier by at least 2 points and ${downs} got quieter by as much; the rest held steady.`,
   ].filter(Boolean);
   document.getElementById("findings").innerHTML = findings.map(f => `<li>${esc(f)}</li>`).join("");
@@ -348,6 +363,63 @@ footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px
     svg.addEventListener("pointerleave", () => { weekTip.hidden = true; });
   }
 
+  // ---------- by type ----------
+  const TYPE_COLORS = ["var(--s1)", "var(--s2)", "var(--s3)", "var(--s4)"];
+  const types = (T.types || []).filter(t => Object.keys(t.index).length >= 24).slice(0, 4);
+  types.forEach((t, i) => { t.color = TYPE_COLORS[i]; });
+  document.getElementById("typeLegend").innerHTML = types.map(t => `<span><i style="background:${t.color}"></i>${esc(t.label)}</span>`).join("");
+  const typeEl = document.getElementById("typeChart"), typeTip = makeTip(typeEl);
+  function drawTypes() {
+    if (!types.length) { typeEl.innerHTML = ""; return; }
+    const w = Math.max(320, typeEl.clientWidth), h = w < 560 ? 240 : 290, m = { l: 34, r: w < 560 ? 10 : 150, t: 12, b: 26 };
+    const iw = w - m.l - m.r, ih = h - m.t - m.b, n = months.length;
+    const vals = types.flatMap(t => Object.values(t.index));
+    const lo = Math.floor(Math.min(...vals) / 10) * 10, hi = Math.ceil(Math.max(...vals, 100) / 10) * 10;
+    const x = i => m.l + (i + .5) * iw / n, y = v => m.t + ih - (v - lo) / (hi - lo) * ih;
+    const ticks = []; for (let v = lo; v <= hi; v += 10) ticks.push(v);
+    let s = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Occupancy index by type of car park">`;
+    s += `<g class="grid">` + ticks.map(v => `<line x1="${m.l}" x2="${w - m.r}" y1="${y(v)}" y2="${y(v)}"/>`).join("") + `</g>`;
+    s += `<line class="ref100" x1="${m.l}" x2="${w - m.r}" y1="${y(100)}" y2="${y(100)}"/>`;
+    s += `<g class="axis">` + ticks.map(v => `<text x="${m.l - 6}" y="${y(v) + 3.5}" text-anchor="end">${v}</text>`).join("");
+    months.forEach((k, i) => { if (k.endsWith("-01")) s += `<line class="base" x1="${m.l + i * iw / n}" x2="${m.l + i * iw / n}" y1="${m.t + ih}" y2="${m.t + ih + 4}"/><text x="${x(i + 5.5)}" y="${h - 8}" text-anchor="middle">${w < 560 ? "’" + k.slice(2, 4) : k.slice(0, 4)}</text>`; });
+    s += `<line class="base" x1="${m.l}" x2="${w - m.r}" y1="${m.t + ih}" y2="${m.t + ih}"/></g>`;
+    // 3-month centred average keeps the lines readable; the tooltip shows the monthly value
+    const smooth = t => months.map((k, i) => { const v = [months[i - 1], k, months[i + 1]].map(q => t.index[q]).filter(v => v != null); return t.index[k] == null ? null : v.reduce((a, b) => a + b, 0) / v.length; });
+    const ends = [];
+    for (const t of types) {
+      const sm = smooth(t);
+      s += `<path d="${path(sm.map((v, i) => v == null ? null : [x(i), y(v)]))}" fill="none" stroke="${t.color}" stroke-width="2" stroke-linejoin="round"/>`;
+      const li = sm.map((v, i) => v == null ? -1 : i).filter(i => i >= 0).pop();
+      ends.push({ t, v: sm[li], xi: li });
+    }
+    if (w >= 560) {
+      ends.sort((a, b) => b.v - a.v); let prevY = -Infinity;
+      for (const e of ends) { const yy = Math.max(y(e.v) + 4, prevY + 13); prevY = yy; s += `<text class="dlbl" x="${x(e.xi) + 8}" y="${yy}">${esc(e.t.label)}</text>`; }
+    }
+    s += `<line id="txh" y1="${m.t}" y2="${m.t + ih}" stroke="var(--ink-3)" visibility="hidden"/>`;
+    s += `<rect x="${m.l}" y="${m.t}" width="${iw}" height="${ih}" fill="transparent"/></svg>`;
+    typeEl.innerHTML = s; typeEl.appendChild(typeTip);
+    const svg = typeEl.querySelector("svg"), xh = svg.querySelector("#txh");
+    const move = ev => {
+      const r = svg.getBoundingClientRect(), sx = w / r.width, i = Math.max(0, Math.min(n - 1, Math.floor(((ev.clientX - r.left) * sx - m.l) / iw * n)));
+      const k = months[i];
+      xh.setAttribute("x1", x(i)); xh.setAttribute("x2", x(i)); xh.setAttribute("visibility", "visible");
+      typeTip.innerHTML = `<div class="k">${mLong(k)}</div>` + types.map(t => `<div><i style="display:inline-block;width:.6rem;height:2px;background:${t.color};vertical-align:middle;margin-right:.35rem"></i>${esc(t.label)} <b>${t.index[k] != null ? t.index[k].toFixed(1) : "–"}</b></div>`).join("");
+      placeTip(typeTip, typeEl, x(i) / sx, (ev.clientY - r.top));
+    };
+    svg.addEventListener("pointermove", move); svg.addEventListener("pointerdown", move);
+    svg.addEventListener("pointerleave", () => { xh.setAttribute("visibility", "hidden"); typeTip.hidden = true; });
+  }
+  const yrs = [String(base + 1), String(base + 2)];
+  document.getElementById("typeTable").innerHTML =
+    `<thead><tr><th>Type</th><th class="r">Garages</th>` + yrs.map(y => `<th class="r">${y} vs ${base}</th>`).join("") + `<th class="r">Last 12 months</th><th>Change on the year before (points)</th></tr></thead><tbody>` +
+    (T.types || []).filter(t => t.now != null).map(t => {
+      const d = (t.now - t.then) * 100, cls = d >= 1 ? "up" : d <= -1 ? "down" : "";
+      return `<tr><td>${esc(t.label)}</td><td class="r num">${t.garages_yoy}</td>` +
+        yrs.map(y => `<td class="r num">${t.annual[y] != null ? signed(t.annual[y] - 100, 1) + "%" : "–"}</td>`).join("") +
+        `<td class="r num">${Math.round(t.now * 100)}%</td><td><span class="chg ${cls}">${signed(d, 1)}</span></td></tr>`;
+    }).join("") + `</tbody>`;
+
   // ---------- city table ----------
   const [l0, l1] = T.yoy.last, [p0, p1] = T.yoy.prev;
   document.getElementById("citySub").textContent =
@@ -373,7 +445,7 @@ footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px
 
   document.getElementById("foot").textContent = `Generated ${T.generated_at.replace("T", " ").replace("Z", " UTC")} from the ParkingUtilisation database.`;
 
-  const draw = () => { drawIdx(); drawSeason(); drawWeek(); };
+  const draw = () => { drawIdx(); drawSeason(); drawWeek(); drawTypes(); };
   draw();
   let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(draw, 120); });
 })();
