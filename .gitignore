@@ -16,3 +16,4 @@ http_preview.log
 report_preview.html
 .github/
 sftp_upload.log
+.claude/settings.local.json
