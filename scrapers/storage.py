@@ -98,12 +98,21 @@ def capacity_corrections() -> dict[str, int]:
     """replace=yes rows of capacity_overrides/*.csv -- capacities known to be
     wrong at source. Applied on every capacity write, so a live adapter's
     weekly refresh does not put the feed's wrong figure back."""
+    return {place_id: cap for place_id, (cap, _) in _corrections().items()}
+
+
+@lru_cache(maxsize=1)
+def _corrections() -> dict[str, tuple[int, str]]:
+    """{place_id: (num_all, valid_from)} -- valid_from "" means the whole
+    history; a date means the figure applies from then on and the capacity
+    history before it is kept (for a garage whose earlier, larger figure was
+    right but whose current feed figure is too small)."""
     corrections = {}
     for path in sorted(OVERRIDES_DIR.glob("*.csv")):
         with open(path, newline="", encoding="utf-8") as f:
             for row in csv.DictReader(f):
                 if row.get("replace") == "yes":
-                    corrections[row["place_id"]] = int(row["num_all"])
+                    corrections[row["place_id"]] = (int(row["num_all"]), (row.get("valid_from") or "").strip())
     return corrections
 
 
@@ -142,8 +151,12 @@ def capacity_timeline(conn: sqlite3.Connection) -> dict[str, list[tuple[str, int
         for place_id, valid_from, cap in conn.execute(
                 "SELECT place_id, valid_from, num_all FROM capacity_history ORDER BY place_id, valid_from"):
             out.setdefault(place_id, []).append((valid_from, cap))
-    for place_id, cap in capacity_corrections().items():
-        out[place_id] = [("", cap)]
+    for place_id, (cap, valid_from) in _corrections().items():
+        before = [(v, c) for v, c in out.get(place_id, []) if valid_from and v < valid_from]
+        if valid_from and not before:
+            current = conn.execute("SELECT num_all FROM lots_meta WHERE place_id = ?", (place_id,)).fetchone()
+            before = [("", current[0])] if current and current[0] else []
+        out[place_id] = before + [(valid_from, cap)]
     return out
 
 

@@ -1,0 +1,6 @@
+place_id,num_all,source_slug,replace,valid_from,evidence
+ffh-parken-frankfurt-Burgerhaus-Bornheim,90,capacity_correction_2026_10,yes,,"FFH and Frankfurt mainziel report the same free counts; both reach 90-94 free (p99.9, Jul-Oct 2026) against 85"
+ffh-parken-frankfurt-Friedrichsheim,239,capacity_correction_2026_10,yes,,"FFH and mainziel both reach 239 free (p99.9, Jul-Oct 2026) against 227"
+ffh-parken-frankfurt-Schiller-Passage,363,capacity_correction_2026_10,yes,,"FFH 363 and mainziel 367 free (p99.9, Jul-Oct 2026) against 353"
+ffh-parken-frankfurt-Messeturm,742,capacity_correction_2026_10,yes,2026-10-05,"FFH 859 and mainziel 742 free (p99.9, Jul-Oct 2026) against the feeds' 720/675; the earlier 820 stays in force before 2026-10-05"
+ffh-parken-frankfurt-Borse,688,capacity_correction_2026_10,yes,2026-10-05,"mainziel reaches 688 free (p99.9, Jul-Oct 2026; FFH's own counts run higher and include garbage values) against 631; the earlier 893 stays in force before 2026-10-05"
