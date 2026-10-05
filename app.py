@@ -243,11 +243,11 @@ PAGE = """
   #error, .error { color: #b00; margin-top: 1rem; }
   .meta { color: #555; margin-top: 0.5rem; }
   a.download { display: inline-block; margin-top: 1rem; }
-  .tabs { margin-bottom: 1.5rem; border-bottom: 2px solid #ddd; }
+  .tabs { margin-bottom: 1.5rem; border-bottom: 2px solid #ddd; display: flex; flex-wrap: wrap; align-items: flex-end; }
   .tab-btn { background: none; border: none; padding: 0.6rem 1rem; cursor: pointer; font-size: 1rem; border-bottom: 3px solid transparent; }
   .tab-btn.active { border-bottom-color: #3b6fd6; font-weight: 600; }
   /* the two report pages open as their own pages, not tabs */
-  .tab-links { float: right; }
+  .tab-links { margin-left: auto; }
   .tab-link { display: inline-block; padding: 0.6rem 1rem; font-size: 1rem; color: #3b6fd6; text-decoration: none; }
   .tab-link:hover { text-decoration: underline; }
   .tab-panel { display: none; }
