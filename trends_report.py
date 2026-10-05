@@ -12,8 +12,11 @@ Two steps, both read-only on the database:
    Months are dropped as unreliable when samples cover under half the month,
    more than 5% of raw readings are above capacity x1.1 or below zero
    (counter drift; see feed_health.py), the month has under 5 distinct
-   values (a frozen feed), or it is near full at every hour of the day (a
-   counter stuck near 0 free; same rule as utilisation_report.py).
+   values (a frozen feed), it is near full at every hour of the day (a
+   counter stuck near 0 free), or its overnight counts are impossible (a
+   drifting counter; utilisation_report.drifting).
+   Duplicate garages (garage_links.py) are counted once, under the
+   canonical place_id, with any earlier readings of the duplicate folded in.
 
 2. analyse(months): turns those into the published series. Garages come and
    go over six years, so levels are never averaged across a changing set:
@@ -43,7 +46,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from utilisation_report import COUNTRY_TZ, STUCK_LEVEL, STUCK_RANGE, _parse
+from utilisation_report import COUNTRY_TZ, NIGHT_HOURS, STUCK_LEVEL, STUCK_RANGE, _parse, drifting
 
 DB_PATH = Path(os.environ.get("PARKING_DB_PATH", Path(__file__).parent / "data" / "parking.db"))
 
@@ -64,15 +67,31 @@ def garage_months(conn: sqlite3.Connection) -> dict:
 
     from scrapers.storage import capacity_at, capacity_timeline
 
+    from garage_links import duplicates, members
+
     timeline = capacity_timeline(conn)
+    dup_of, linked = duplicates(), members()
+    caps_now = dict(conn.execute("SELECT place_id, num_all FROM lots_meta WHERE num_all IS NOT NULL"))
     garages, months = {}, {}
     for place_id, name, city, capacity, source_id in conn.execute(
         "SELECT place_id, place_name, city_name, num_all, source_id FROM lots_meta WHERE num_all >= ?", (MIN_CAPACITY,)
     ).fetchall():
+        if place_id in dup_of:
+            continue  # counted under its canonical garage (garage_links.py)
         # each reading carries the capacity in force when it was taken
         tl = timeline.get(place_id)
         readings = sorted((_parse(ts), free, capacity_at(tl, capacity, ts)) for ts, free in conn.execute(
             "SELECT ts, free FROM historical_observations WHERE place_id = ?", (place_id,)))
+        # a duplicate's readings from before this garage's first one continue
+        # its history (each with the duplicate's own capacity)
+        for dup in linked.get(place_id, []):
+            if not caps_now.get(dup):
+                continue
+            first = readings[0][0] if readings else None
+            dtl = timeline.get(dup)
+            earlier = [(_parse(ts), free, capacity_at(dtl, caps_now[dup], ts)) for ts, free in conn.execute(
+                "SELECT ts, free FROM historical_observations WHERE place_id = ?", (dup,))]
+            readings = sorted([r for r in earlier if first is None or r[0] < first] + readings)
         if len(readings) < 100:
             continue
         country = SOURCE_COUNTRY.get(source_id, "Germany")
@@ -87,6 +106,7 @@ def garage_months(conn: sqlite3.Connection) -> dict:
             r[1] += free > cap * 1.1 or free < 0
             if len(r[2]) < MIN_DISTINCT:
                 r[2].add(free)
+        nights = defaultdict(dict)  # month -> {date: [unclamped overnight occupancy]}
         t = readings[0][0].replace(minute=30, second=0, microsecond=0)
         i, last = 0, None
         while t <= readings[-1][0]:
@@ -101,6 +121,8 @@ def garage_months(conn: sqlite3.Connection) -> dict:
                 a[1] += occ
                 a[4][local.hour] += occ
                 a[5][local.hour] += 1
+                if local.hour in NIGHT_HOURS:
+                    nights[local.strftime("%Y-%m")].setdefault(local.date(), []).append(1 - last[1] / last[2])
                 if local.hour in DAY_HOURS:
                     a[2][local.weekday()] += occ
                     a[3][local.weekday()] += 1
@@ -115,6 +137,8 @@ def garage_months(conn: sqlite3.Connection) -> dict:
             by_hour = [s / c for s, c in zip(hour_sum, hour_n) if c]
             if max(by_hour) - min(by_hour) < STUCK_RANGE and occ_sum / hours >= STUCK_LEVEL:
                 continue  # near full around the clock: a stuck counter
+            if drifting(nights.get(k, {})):
+                continue  # impossible overnight counts: the counter is drifting
             kept[k] = [round(occ_sum / hours, 4)] + [round(s / c, 4) if c else None for s, c in zip(day_sum, day_n)]
         if kept:
             garages[place_id] = {"name": name, "city": city, "country": country, "capacity": capacity}

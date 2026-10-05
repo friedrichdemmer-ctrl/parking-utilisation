@@ -17,7 +17,11 @@ Left out, with the reason counted in the output:
   fewer than MIN_SLOTS of the 168 slots (feeds that started recently, or
   that go silent for more than MAX_GAP);
 - garages near full every hour of the week with no daily swing (a counter
-  stuck at or near 0 free).
+  stuck at or near 0 free);
+- garages that repeat another feed's garage (garage_links.py) -- the
+  canonical one is kept;
+- garages whose counter is drifting: overnight they report more free spaces
+  than they have, or fewer than none (see drifting()).
 
 Writes JSON (default: <db dir>/reports/utilisation_<end date>.json). It
 never changes the database. `--html <report.json> <page.html>` renders a
@@ -29,6 +33,7 @@ from __future__ import annotations
 import json
 import os
 import sqlite3
+import statistics
 import sys
 from collections import Counter
 from datetime import date, datetime, timedelta, timezone
@@ -52,6 +57,26 @@ FULL = 0.90  # an hour counts as "full" when average occupancy is at least this
 # unused P+R site with a flat profile near 0% is plausible and kept)
 STUCK_RANGE = 0.15
 STUCK_LEVEL = 0.70
+# Counter drift: a counter that loses track reports, in the middle of the
+# night, more free spaces than the garage has (Dresden World Trade Center:
+# overnight occupancy -6% to -78% month after month) or fewer than none
+# (Düsseldorf PH 16: 190% occupied overnight in Aug 2025). Real garages stay
+# within 0-100% overnight however many residents or hotel guests they hold,
+# so a median overnight (02-05) occupancy outside DRIFT_LOW..DRIFT_HIGH
+# marks the period as drifting. Checked on 2026-10-05 against 25 random
+# garages, none of which came close.
+NIGHT_HOURS = range(2, 5)
+DRIFT_LOW, DRIFT_HIGH = -0.03, 1.03
+MIN_NIGHTS = 7
+
+
+def drifting(nights: dict) -> bool:
+    """nights: {date: [unclamped occupancy samples between 02 and 05]}"""
+    meds = sorted(statistics.median(v) for v in nights.values() if v)
+    if len(meds) < MIN_NIGHTS:
+        return False
+    m = statistics.median(meds)
+    return m < DRIFT_LOW or m > DRIFT_HIGH
 
 COUNTRY_TZ = {
     "Germany": "Europe/Berlin", "Netherlands": "Europe/Amsterdam", "France": "Europe/Paris",
@@ -83,6 +108,9 @@ def build(conn: sqlite3.Connection, today: date | None = None) -> dict:
     from scrapers.storage import capacity_at, capacity_timeline
 
     timeline = capacity_timeline(conn)
+    from garage_links import duplicates
+
+    dup_of = duplicates()
     flagged = dict(conn.execute("SELECT place_id, status FROM feed_health"))
     places = conn.execute(
         "SELECT place_id, place_name, city_name, num_all, source_id, latitude, longitude FROM lots_meta "
@@ -94,6 +122,10 @@ def build(conn: sqlite3.Connection, today: date | None = None) -> dict:
     included_by_source: Counter = Counter()
     garages = []
     for place_id, name, city, capacity, source_id, lat, lon in places:
+        if place_id in dup_of:
+            excluded["same garage as another feed's (garage_links.py)"] += 1
+            by_source[source_id] += 1
+            continue
         if place_id in flagged:
             excluded[f"feed health: {flagged[place_id]}"] += 1
             by_source[source_id] += 1
@@ -113,7 +145,7 @@ def build(conn: sqlite3.Connection, today: date | None = None) -> dict:
             )
         )
         days = {dt.astimezone(tz).date() for dt, _, _ in readings} & window_days
-        sums, fulls, counts = [0.0] * 168, [0] * 168, [0] * 168
+        sums, fulls, counts, nights = [0.0] * 168, [0] * 168, [0] * 168, {}
         t = datetime.combine(start, datetime.min.time(), tzinfo=tz).astimezone(timezone.utc)
         stop = datetime.combine(end + timedelta(days=1), datetime.min.time(), tzinfo=tz).astimezone(timezone.utc)
         i, last = 0, None
@@ -124,6 +156,8 @@ def build(conn: sqlite3.Connection, today: date | None = None) -> dict:
             if last and t - last[0] <= MAX_GAP:
                 occ = 1 - min(max(last[1], 0), last[2]) / last[2]
                 local = t.astimezone(tz)
+                if local.hour in NIGHT_HOURS:
+                    nights.setdefault(local.date(), []).append(1 - last[1] / last[2])
                 slot = local.weekday() * 24 + local.hour
                 sums[slot] += occ
                 fulls[slot] += occ >= FULL
@@ -132,6 +166,10 @@ def build(conn: sqlite3.Connection, today: date | None = None) -> dict:
         slots = [i for i in range(168) if counts[i]]
         if len(days) < MIN_DAYS or len(slots) < MIN_SLOTS:
             excluded["too little data in the window"] += 1
+            by_source[source_id] += 1
+            continue
+        if drifting(nights):
+            excluded["counter drifting (impossible overnight counts)"] += 1
             by_source[source_id] += 1
             continue
         profile = [sums[i] / counts[i] if counts[i] else None for i in range(168)]
