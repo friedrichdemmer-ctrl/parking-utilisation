@@ -23,7 +23,8 @@ Frozen garages are also recorded in frozen_places (scrapers/storage.py):
 from then on, readings equal to the frozen value are not stored, so they
 stop piling up and the garage drops out of "live" within 3 days; the first
 different value clears the entry. Garages already in frozen_places are
-reported as frozen without re-checking.
+reported as frozen without re-checking, except those of sources
+sync_archive.py has declared dead (Köln), which are no longer imported.
 
 Results replace the feed_health table on each run; scraper_daemon.py runs
 this once a day, and /api/feed-health serves it. It never deletes data.
@@ -35,6 +36,8 @@ import os
 import sqlite3
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+from sync_archive import DEAD_ARCHIVE_SOURCE_IDS
 
 DB_PATH = Path(os.environ.get("PARKING_DB_PATH", Path(__file__).parent / "data" / "parking.db"))
 
@@ -81,6 +84,8 @@ def check(conn: sqlite3.Connection, now: datetime | None = None) -> tuple[list[t
         """SELECT f.place_id, m.source_id, m.place_name, m.city_name, f.value, f.since, m.num_all
            FROM frozen_places f LEFT JOIN lots_meta m ON m.place_id = f.place_id""")}
     for place_id, source_id, name, city, value, since, capacity in frozen.values():
+        if source_id in DEAD_ARCHIVE_SOURCE_IDS:
+            continue  # already declared dead and no longer imported
         note = " (= capacity: empty, or not counting)" if capacity and value == capacity else ""
         findings.append((place_id, source_id, name, city, "frozen", since, f"free = {value}{note}; repeats not stored"))
     rows = conn.execute(
