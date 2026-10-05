@@ -915,7 +915,7 @@ def _report_page(kind: str) -> Response:
     head = '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
     body = path.read_text(encoding="utf-8").replace('<div class="wrap">', SITE_BAR + '<div class="wrap">', 1)
     return Response(head + body + "</html>", mimetype="text/html",
-                    headers={"Cache-Control": "public, max-age=3600"})
+                    headers={"Cache-Control": "public, max-age=300"})
 
 
 # The site's header bar, added to the report pages so they read as part of
