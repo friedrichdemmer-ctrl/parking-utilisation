@@ -280,6 +280,9 @@ def api_garage(place_id: str):
     conn = _db()
     row = conn.execute(f"SELECT {GARAGE_COLS} FROM lots_meta WHERE place_id = ? AND num_all IS NOT NULL", (place_id,)).fetchone()
     first = conn.execute("SELECT MIN(ts) FROM historical_observations WHERE place_id = ?", (place_id,)).fetchone()[0] if row else None
+    # the years that have readings: a garage can have a gap of years (Frankfurt's FFH feed, 2022-2024)
+    years = sorted({int(r[0]) for r in conn.execute(
+        "SELECT DISTINCT substr(ts, 1, 4) FROM historical_observations WHERE place_id = ?", (place_id,))}) if first else []
     conn.close()
     if not row:
         return jsonify({"error": "No garage with a known capacity has this id."}), 404
@@ -287,6 +290,7 @@ def api_garage(place_id: str):
     now = {g["id"]: g for g in _cached("now", NOW_TTL, _now_snapshot)["garages"]}
     summary = _garage_summary(row, report, now)
     summary["first_reading"] = (first or "")[:10] or None
+    summary["years"] = years
     return jsonify({"garage": summary, "window": report["window"]})
 
 

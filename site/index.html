@@ -651,9 +651,8 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     setExploreHead(`<a href="#explore">Explore</a> / <a href="${cityHash(g.country, g.city)}">${esc(g.city)}</a>`, g.name,
       `${g.type} · ${fmt(g.capacity)} spaces · ${g.country}` + (g.now == null && g.last_reading ? ` · last reading ${g.last_reading.replace("T", " ")} UTC` : ""));
     const pk = t ? t.peak : null;
-    const lastYear = +((g.last_reading || g.first_reading || String(new Date().getUTCFullYear())).slice(0, 4));
-    const firstYear = g.first_reading ? +g.first_reading.slice(0, 4) : lastYear;
-    const years = []; for (let y = firstYear; y <= lastYear; y++) years.push(y);
+    const years = g.years && g.years.length ? g.years : [];     // only the years with readings
+    const lastYear = years.length ? years[years.length - 1] : new Date().getUTCFullYear();
     exBody.innerHTML = `
       <div class="stats">
         <div class="stat"><b>${g.now != null ? g.now + "%" : "–"}</b><span>${g.now != null ? `occupied at ${esc(g.now_ts.slice(11))} UTC` : "not reporting right now"}</span></div>
@@ -669,7 +668,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
         <div class="panel"><h2>Location</h2>${g.lat != null ? `<div class="minimap" id="garMap"></div>` : `<p class="note">No location on file.</p>`}</div>
       </div>
       ${g.price ? pricePanel(g, t) : ""}
-      ${g.first_reading ? `<div class="panel"><div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:.6rem 1.2rem;align-items:center"><h2>Year heatmap</h2>
+      ${years.length ? `<div class="panel"><div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:.6rem 1.2rem;align-items:center"><h2>Year heatmap</h2>
         <div style="display:flex;flex-wrap:wrap;gap:.6rem">
           <div class="seg wrap" role="group" aria-label="Year" id="garYears">${years.map(y => `<button type="button" data-y="${y}" aria-pressed="${y === lastYear}">${y}</button>`).join("")}</div>
           <div class="seg" role="group" aria-label="Time slot" id="garSlots"><button type="button" data-g="1" aria-pressed="false">Hourly</button><button type="button" data-g="2" aria-pressed="true">2-hour</button><button type="button" data-g="4" aria-pressed="false">4-hour</button></div></div></div>
@@ -702,7 +701,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     if (gy) gy.addEventListener("click", ev => { const b = ev.target.closest("button[data-y]"); if (b) { heatYear = +b.dataset.y; loadHeat(); } });
     if (gs) gs.addEventListener("click", ev => { const b = ev.target.closest("button[data-g]"); if (b) { heatGran = +b.dataset.g; loadHeat(); } });
     document.getElementById("garCmp").addEventListener("click", () => { addCompare({ kind: "garage", id: g.id, name: g.name, city: g.city, country: g.country }); location.hash = "#compare"; });
-    if (g.first_reading) loadHeat();
+    if (years.length) loadHeat();
   }
 
   function pricePanel(g, t) {
