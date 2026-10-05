@@ -1006,7 +1006,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     document.getElementById("locTable").innerHTML =
       `<thead><tr>${LOC_COLS.map(([key, label, cl]) => `<th data-k="${key}" class="${cl} ${key === k ? "on" + (asc ? " asc" : "") : ""}" scope="col">${label}</th>`).join("")}</tr></thead><tbody>` +
       rows.map(g => `<tr class="link" data-id="${esc(g.id)}" tabindex="0"><td>${esc(g.name)}${g.place_id ? ` <a href="${garageHash(g.place_id)}" title="Occupancy and typical week">→</a>` : ""}</td>` +
-        `<td><span class="dot" style="background:${g.color}"></span>${esc(g.operator)}</td><td class="r num">${fmt(g.capacity)}</td>` +
+        `<td style="white-space:nowrap"><span class="dot" style="background:${g.color}"></span>${esc(g.operator)}</td><td class="r num">${fmt(g.capacity)}</td>` +
         `<td class="r num">${cur(g.hourly_rate, d.currency)}</td><td class="r num">${cur(g.daily_cap, d.currency)}</td><td class="r">${g.has_ev ? "●" : "–"}</td>` +
         `<td class="r">${g.occ != null ? `<span class="pill${g.occ >= 90 ? " full" : ""}">${g.occ}%</span>` : `<span class="muted">–</span>`}</td><td class="muted">${esc(g.address || "")}</td></tr>`).join("") + `</tbody>`;
   }
