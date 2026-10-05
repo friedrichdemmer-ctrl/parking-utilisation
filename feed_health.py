@@ -79,6 +79,9 @@ def check(conn: sqlite3.Connection, now: datetime | None = None) -> tuple[list[t
     """(findings for feed_health, newly frozen (place_id, value, since))"""
     now = now or datetime.now(timezone.utc)
     recent = _iso(now - timedelta(days=RECENT_DAYS))
+    from scrapers.storage import capacity_at, capacity_timeline
+
+    timeline = capacity_timeline(conn)
     findings, new_frozen = [], []
     frozen = {r[0]: r for r in conn.execute(
         """SELECT f.place_id, m.source_id, m.place_name, m.city_name, f.value, f.since, m.num_all
@@ -118,7 +121,8 @@ def check(conn: sqlite3.Connection, now: datetime | None = None) -> tuple[list[t
             continue
         else:
             if capacity and week:
-                over = sum(1 for _, f in week if f > capacity * 1.1)
+                tl = timeline.get(place_id)  # capacity in force at each reading
+                over = sum(1 for ts, f in week if f > capacity_at(tl, capacity, ts) * 1.1)
                 negative = sum(1 for _, f in week if f < 0)
                 if negative or over / len(week) > CAPACITY_OVER_SHARE:
                     worst = max(f for _, f in week) if over else min(f for _, f in week)

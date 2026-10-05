@@ -80,6 +80,9 @@ def build(conn: sqlite3.Connection, today: date | None = None) -> dict:
     lo = (datetime.combine(start, datetime.min.time()) - timedelta(days=1)).strftime("%Y-%m-%d")
     hi = (datetime.combine(end, datetime.min.time()) + timedelta(days=2)).strftime("%Y-%m-%d")
     window_days = {start + timedelta(days=d) for d in range((end - start).days + 1)}
+    from scrapers.storage import capacity_at, capacity_timeline
+
+    timeline = capacity_timeline(conn)
     flagged = dict(conn.execute("SELECT place_id, status FROM feed_health"))
     places = conn.execute(
         "SELECT place_id, place_name, city_name, num_all, source_id, latitude, longitude FROM lots_meta "
@@ -101,14 +104,15 @@ def build(conn: sqlite3.Connection, today: date | None = None) -> dict:
             continue
         country = SOURCE_COUNTRY.get(source_id, "Germany")
         tz = ZoneInfo(COUNTRY_TZ[country])
+        tl = timeline.get(place_id)  # capacity in force at each reading
         readings = sorted(
-            (_parse(ts), free)
+            (_parse(ts), free, capacity_at(tl, capacity, ts))
             for ts, free in conn.execute(
                 "SELECT ts, free FROM historical_observations WHERE place_id = ? AND ts >= ? AND ts < ?",
                 (place_id, lo, hi),
             )
         )
-        days = {dt.astimezone(tz).date() for dt, _ in readings} & window_days
+        days = {dt.astimezone(tz).date() for dt, _, _ in readings} & window_days
         sums, fulls, counts = [0.0] * 168, [0] * 168, [0] * 168
         t = datetime.combine(start, datetime.min.time(), tzinfo=tz).astimezone(timezone.utc)
         stop = datetime.combine(end + timedelta(days=1), datetime.min.time(), tzinfo=tz).astimezone(timezone.utc)
@@ -118,7 +122,7 @@ def build(conn: sqlite3.Connection, today: date | None = None) -> dict:
                 last = readings[i]
                 i += 1
             if last and t - last[0] <= MAX_GAP:
-                occ = 1 - min(max(last[1], 0), capacity) / capacity
+                occ = 1 - min(max(last[1], 0), last[2]) / last[2]
                 local = t.astimezone(tz)
                 slot = local.weekday() * 24 + local.hour
                 sums[slot] += occ

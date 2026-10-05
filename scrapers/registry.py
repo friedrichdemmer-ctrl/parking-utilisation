@@ -59,11 +59,6 @@ from scrapers.adapters.mobidata_bw_cities import (
 from scrapers.adapters.mel_lille_live import MelLilleLiveAdapter
 from scrapers.adapters.mid_ulster_live import MidUlsterLiveAdapter
 from scrapers.adapters.nantes_naolib_live import NantesNaolibLiveAdapter
-from scrapers.adapters.mobidata_bw_existing import (
-    KarlsruheMobidataBwOccupancyAdapter,
-    MannheimMobidataBwOccupancyAdapter,
-    UlmMobidataBwOccupancyAdapter,
-)
 from scrapers.adapters.moers_live import MoersLiveAdapter
 from scrapers.adapters.muenster_live import MuensterLiveAdapter
 from scrapers.adapters.muenchen_parkraumwende import MuenchenParkraumwendeAdapter
@@ -102,6 +97,25 @@ from scrapers.adapters.vigo_live import VigoLiveAdapter
 from scrapers.adapters.luxembourg_vdl import LuxembourgVdlAdapter
 from scrapers.adapters.fintraffic_parking import FintrafficParkingAdapter
 from scrapers.adapters.sbb_parkrail import SbbParkrailAdapter
+from scrapers.adapters.duesseldorf_live import DuesseldorfLiveAdapter
+from scrapers.adapters.osnabrueck_live import OsnabrueckLiveAdapter
+from scrapers.adapters.bielefeld_live import BielefeldLiveAdapter
+from scrapers.adapters.oldenburg_live import OldenburgLiveAdapter
+from scrapers.adapters.bonn_live import BonnLiveAdapter
+from scrapers.adapters.bochum_live import BochumLiveAdapter
+from scrapers.adapters.braunschweig_live import BraunschweigLiveAdapter
+from scrapers.adapters.ffh_live import FfhLiveAdapter
+from scrapers.adapters.dresden_live import DresdenLiveAdapter
+from scrapers.adapters.karlsruhe_live import KarlsruheLiveAdapter
+from scrapers.adapters.mannheim_live import MannheimLiveAdapter
+from scrapers.adapters.heilbronn_live import HeilbronnLiveAdapter
+from scrapers.adapters.ulm_live import UlmLiveAdapter
+from scrapers.adapters.jena_live import JenaLiveAdapter
+from scrapers.adapters.nuernberg_live import NuernbergLiveAdapter
+from scrapers.adapters.luebeck_live import LuebeckLiveAdapter
+from scrapers.adapters.ingolstadt_live import IngolstadtLiveAdapter
+from scrapers.adapters.regensburg_live import RegensburgLiveAdapter
+from scrapers.adapters.trier_live import TrierLiveAdapter
 from scrapers.base import SourceAdapter
 
 ADAPTERS: list[SourceAdapter] = [
@@ -118,9 +132,10 @@ ADAPTERS: list[SourceAdapter] = [
     BietigheimBissingenMobidataBwAdapter(),
     BuchenMobidataBwAdapter(),
     HeilbronnMobidataBwAdapter(),
-    MannheimMobidataBwOccupancyAdapter(),
-    KarlsruheMobidataBwOccupancyAdapter(),
-    UlmMobidataBwOccupancyAdapter(),
+    # Mannheim, Karlsruhe and Ulm used to be read through MobiData BW
+    # (mobidata_bw_existing.py) into the archive's place_ids; since
+    # 2026-10-05 the operators' own feeds below write those place_ids
+    # directly (Ulm's MobiData series was a different sensor set).
     AmpMetropoleLiveAdapter(),
     AmsterdamLiveAdapter(),
     ArdsNorthDownLiveAdapter(),
@@ -200,4 +215,24 @@ ADAPTERS: list[SourceAdapter] = [
     QParkFranceAdapter(),
     OtherOperatorsNetherlandsAdapter(),
     OtherOperatorsFranceAdapter(),
+    # archive sources taken over by direct feeds, 2026-10-05
+    DuesseldorfLiveAdapter(),
+    OsnabrueckLiveAdapter(),
+    BielefeldLiveAdapter(),
+    OldenburgLiveAdapter(),
+    BonnLiveAdapter(),
+    BochumLiveAdapter(),
+    BraunschweigLiveAdapter(),
+    FfhLiveAdapter(),
+    DresdenLiveAdapter(),
+    KarlsruheLiveAdapter(),
+    MannheimLiveAdapter(),
+    HeilbronnLiveAdapter(),
+    UlmLiveAdapter(),
+    JenaLiveAdapter(),
+    NuernbergLiveAdapter(),
+    LuebeckLiveAdapter(),
+    IngolstadtLiveAdapter(),
+    RegensburgLiveAdapter(),
+    TrierLiveAdapter(),
 ]

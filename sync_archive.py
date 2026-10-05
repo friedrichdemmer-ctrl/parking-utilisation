@@ -201,7 +201,7 @@ LIVE_WRITES_UNDER_LEGACY_SOURCE_ID = {"ffh-parken", "parken-mannheim", "karlsruh
 
 
 # Archive source_ids now fed directly by an adapter of the same name (see
-# scrapers/adapters/{konstanz,potsdam,dortmund,muenster,apag}_live.py).
+# scrapers/adapters/*_live.py).
 # Their archive columns are skipped so a source never gets two interleaved
 # streams of readings, even if the upstream archive scraper revives.
 ADAPTER_OWNED_SOURCE_IDS = (
@@ -210,6 +210,27 @@ ADAPTER_OWNED_SOURCE_IDS = (
     "digistadt-dortmund-parken",
     "stadt-muenster-parken",
     "apag-parken",
+    # taken over 2026-10-05 so these cities no longer depend on the archive
+    # (scrapers/adapters/<city>_live.py, each named after its source_id)
+    "vtmanager-duesseldorf-parken",
+    "parken-osnabrueck",
+    "sw-bielefeld-parken",
+    "oldenburg-service-parken",
+    "bonn-bcp-parken",
+    "parken-in-bochum",
+    "braunschweig-parken",
+    "ffh-parken",
+    "dresden-parken",
+    "karlsruhe-parken",
+    "parken-mannheim",
+    "heilbronn-parken",
+    "parken-in-ulm",
+    "mobilitaet-jena",
+    "tiefbauamt-nuernberg-parken",
+    "parken-luebeck",
+    "ingolstadt-parken",
+    "regensburg-parken",
+    "swt-trier-parken",
 )
 ADAPTER_OWNED_PREFIXES = tuple(s + "-" for s in ADAPTER_OWNED_SOURCE_IDS)
 

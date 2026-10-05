@@ -37,6 +37,15 @@ CREATE TABLE IF NOT EXISTS frozen_places (
     since TEXT,
     flagged_at TEXT NOT NULL
 );
+-- Capacity changes over time (see write_capacity / capacity_timeline).
+-- lots_meta.num_all stays the current figure; a row here records the figure
+-- in force from valid_from ("" = from the start of the history).
+CREATE TABLE IF NOT EXISTS capacity_history (
+    place_id TEXT NOT NULL,
+    valid_from TEXT NOT NULL,
+    num_all INTEGER NOT NULL,
+    PRIMARY KEY (place_id, valid_from)
+);
 """
 
 
@@ -98,8 +107,63 @@ def capacity_corrections() -> dict[str, int]:
     return corrections
 
 
+def _record_capacity_changes(conn: sqlite3.Connection, new: dict[str, int]) -> None:
+    """Before lots_meta is overwritten: for each garage whose capacity changes,
+    keep the old figure as in force until now (from the start, if this is
+    its first recorded change) and the new one from now on. Without this a
+    feed that starts counting only part of a garage (Düsseldorf PH 37: 1,081
+    -> 200 short-stay spaces when the city feed replaced the archive) would
+    re-scale years of past readings to the new figure."""
+    conn.executescript(SCHEMA)
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S")
+    current = {}
+    ids = list(new)
+    for i in range(0, len(ids), 500):
+        chunk = ids[i:i + 500]
+        current.update(conn.execute(
+            f"SELECT place_id, num_all FROM lots_meta WHERE num_all IS NOT NULL AND place_id IN ({','.join('?' * len(chunk))})",
+            chunk).fetchall())
+    for place_id, cap in new.items():
+        old = current.get(place_id)
+        if old is None or old == cap:
+            continue
+        conn.execute("INSERT OR IGNORE INTO capacity_history (place_id, valid_from, num_all) VALUES (?, '', ?)", (place_id, old))
+        conn.execute("INSERT OR REPLACE INTO capacity_history (place_id, valid_from, num_all) VALUES (?, ?, ?)", (place_id, now, cap))
+
+
+def capacity_timeline(conn: sqlite3.Connection) -> dict[str, list[tuple[str, int]]]:
+    """{place_id: [(valid_from, num_all), ...] sorted} for garages whose
+    capacity has changed; replace=yes corrections override the whole
+    history (the figure was always wrong). Garages not listed use
+    lots_meta.num_all throughout -- see capacity_at()."""
+    out: dict[str, list[tuple[str, int]]] = {}
+    # reports open the database read-only, so check rather than create
+    if conn.execute("SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'capacity_history'").fetchone():
+        for place_id, valid_from, cap in conn.execute(
+                "SELECT place_id, valid_from, num_all FROM capacity_history ORDER BY place_id, valid_from"):
+            out.setdefault(place_id, []).append((valid_from, cap))
+    for place_id, cap in capacity_corrections().items():
+        out[place_id] = [("", cap)]
+    return out
+
+
+def capacity_at(timeline: list[tuple[str, int]] | None, current: int, ts: str) -> int:
+    """Capacity in force at ts (ISO string, compared as text), given a
+    garage's timeline from capacity_timeline() and its current num_all."""
+    if not timeline:
+        return current
+    cap = timeline[0][1]
+    for valid_from, value in timeline:
+        if valid_from <= ts:
+            cap = value
+        else:
+            break
+    return cap
+
+
 def write_capacity(conn: sqlite3.Connection, records: list[CapacityRecord]) -> int:
     fixed = capacity_corrections()
+    _record_capacity_changes(conn, {r.place_id: fixed.get(r.place_id, r.num_all) for r in records if r.num_all})
     rows = [
         (r.place_id, r.place_name, r.city_name, fixed.get(r.place_id, r.num_all), r.address, r.latitude, r.longitude, r.place_url, r.source_id, r.source_web_url)
         for r in records

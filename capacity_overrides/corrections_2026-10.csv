@@ -5,3 +5,8 @@ vtmanager-duesseldorf-parken-PH-13,100,capacity_correction_2026_10,yes,"free lev
 ffh-parken-frankfurt-Hauptbahnhof-Sud,565,capacity_correction_2026_10,yes,"free levels off at 558-565 in 2025-2026 (364 in 2020-21: garage enlarged or re-counted); was 364"
 sw-bielefeld-parken-Parkhaus-Am-Jahnplatz,93,capacity_correction_2026_10,yes,"free p99.9 90-98 every year 2020-2026, a third of readings above the old figure; was 77"
 bnls-other-fr-38185-P-017-grenoble-esplanade,128,capacity_correction_2026_10,yes,"median free 111 and ceiling 128 in the live feed; BNLS figure 95 too low"
+mobilitaet-jena-Goethe-Galerie,523,capacity_correction_2026_10,yes,"Jena open-data DATEX II feed capacity; equals the highest free count ever recorded; was 740"
+mobilitaet-jena-Krautgasse,200,capacity_correction_2026_10,yes,"Jena open-data DATEX II feed capacity; equals the highest free count ever recorded; was 381"
+mobilitaet-jena-Holzmarkt,120,capacity_correction_2026_10,yes,"Jena open-data DATEX II feed capacity; equals the highest free count ever recorded; was 250"
+mobilitaet-jena-City-Carree,40,capacity_correction_2026_10,yes,"Jena open-data DATEX II feed capacity; equals the highest free count ever recorded; was 155"
+mobilitaet-jena-Steinkreuz,60,capacity_correction_2026_10,yes,"Jena open-data DATEX II feed capacity; equals the highest free count ever recorded; was 100"

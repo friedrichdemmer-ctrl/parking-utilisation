@@ -7,6 +7,8 @@ Two steps, both read-only on the database:
    sampled hourly (at :30, local time) from the latest reading, carried
    forward for up to MAX_GAP, and summarised per calendar month: hours
    sampled, mean occupancy, and daytime (09-18) means for each weekday.
+   Each reading uses the capacity in force when it was taken
+   (scrapers/storage.py capacity_timeline).
    Months are dropped as unreliable when samples cover under half the month,
    more than 5% of raw readings are above capacity x1.1 or below zero
    (counter drift; see feed_health.py), the month has under 5 distinct
@@ -60,11 +62,16 @@ MIN_TYPE_GARAGES = 10
 def garage_months(conn: sqlite3.Connection) -> dict:
     from app import SOURCE_COUNTRY  # Flask is only installed on the server
 
+    from scrapers.storage import capacity_at, capacity_timeline
+
+    timeline = capacity_timeline(conn)
     garages, months = {}, {}
     for place_id, name, city, capacity, source_id in conn.execute(
         "SELECT place_id, place_name, city_name, num_all, source_id FROM lots_meta WHERE num_all >= ?", (MIN_CAPACITY,)
     ).fetchall():
-        readings = sorted((_parse(ts), free) for ts, free in conn.execute(
+        # each reading carries the capacity in force when it was taken
+        tl = timeline.get(place_id)
+        readings = sorted((_parse(ts), free, capacity_at(tl, capacity, ts)) for ts, free in conn.execute(
             "SELECT ts, free FROM historical_observations WHERE place_id = ?", (place_id,)))
         if len(readings) < 100:
             continue
@@ -73,11 +80,11 @@ def garage_months(conn: sqlite3.Connection) -> dict:
         # per month: [hours, occ_sum, day_sum[7], day_n[7], hour_sum[24], hour_n[24]] and raw-reading quality counts
         acc = defaultdict(lambda: [0, 0.0, [0.0] * 7, [0] * 7, [0.0] * 24, [0] * 24])
         raw = defaultdict(lambda: [0, 0, set()])
-        for dt, free in readings:
+        for dt, free, cap in readings:
             k = dt.astimezone(tz).strftime("%Y-%m")
             r = raw[k]
             r[0] += 1
-            r[1] += free > capacity * 1.1 or free < 0
+            r[1] += free > cap * 1.1 or free < 0
             if len(r[2]) < MIN_DISTINCT:
                 r[2].add(free)
         t = readings[0][0].replace(minute=30, second=0, microsecond=0)
@@ -87,7 +94,7 @@ def garage_months(conn: sqlite3.Connection) -> dict:
                 last = readings[i]
                 i += 1
             if last and t - last[0] <= MAX_GAP:
-                occ = 1 - min(max(last[1], 0), capacity) / capacity
+                occ = 1 - min(max(last[1], 0), last[2]) / last[2]
                 local = t.astimezone(tz)
                 a = acc[local.strftime("%Y-%m")]
                 a[0] += 1
