@@ -304,7 +304,7 @@ SITE_BAR = f"""<style>
 .sitebar .sb-on{{color:var(--ink);box-shadow:inset 0 -2px 0 var(--accent)}}
 </style>
 <nav class="sitebar" aria-label="Site"><a class="sb-brand" href="{SITE_ROOT}"><span class="psign" aria-hidden="true">P</span>Parking utilisation</a>
-<a href="{SITE_ROOT}#overview">Overview</a><a href="{SITE_ROOT}#explore">Explore</a><a href="{SITE_ROOT}#compare">Compare</a><a class="sb-on" href="{SITE_ROOT}#reports">Reports</a></nav>"""
+<a href="{SITE_ROOT}#overview">Overview</a><a href="{SITE_ROOT}#explore">Explore</a><a href="{SITE_ROOT}#local">Local maps</a><a href="{SITE_ROOT}#compare">Compare</a><a class="sb-on" href="{SITE_ROOT}#reports">Reports</a></nav>"""
 
 
 SITE_PAGE = Path(__file__).parent / "site" / "index.html"

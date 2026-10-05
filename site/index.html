@@ -146,6 +146,23 @@ section.view[hidden] { display: none !important; }
 .pk-row .pk-ok { color: var(--accent); font-weight: 600; margin-right: .35rem; }
 .pk-empty { padding: .8rem; color: var(--ink-3); font-size: .88rem; }
 .results button.b { font-weight: 600; }
+select { font: 500 .92rem var(--font-body); color: var(--ink); background: var(--bg); border: 1px solid var(--rule); border-radius: 4px; padding: .4rem .6rem; max-width: 100%; }
+.locsel { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1.5rem; }
+.locsel label { display: flex; align-items: center; gap: .5rem; font-size: .9rem; color: var(--ink-2); }
+.locmap { height: 34rem; border: 1px solid var(--rule); border-radius: 6px; z-index: 0; }
+@media (max-width: 640px) { .locmap { height: 24rem; } }
+.locopts { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1.2rem; }
+.locopts label { display: flex; align-items: center; gap: .5rem; font-size: .88rem; color: var(--ink-2); }
+.chip.off { opacity: .45; }
+.scale { display: grid; gap: .25rem; max-width: 30rem; }
+.scale .bar { height: .6rem; border-radius: 2px; }
+.scale .lbl { display: flex; justify-content: space-between; font: 400 .75rem var(--font-data); color: var(--ink-3); }
+.dot { display: inline-block; width: .65rem; height: .65rem; border-radius: 50%; margin-right: .45rem; vertical-align: -1px; }
+table.data th[data-k] { cursor: pointer; }
+table.data th[data-k]:hover { color: var(--ink); }
+table.data th.on::after { content: " ↓"; } table.data th.on.asc::after { content: " ↑"; }
+.leaflet-popup-content { font: 400 .85rem/1.45 var(--font-body); color: #111720; }
+.leaflet-popup-content a { color: #1d4f9c; }
 .seg.wrap { flex-wrap: wrap; max-width: 100%; }
 .heat { position: relative; }
 .heat canvas { display: block; }
@@ -184,6 +201,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     <nav class="sections" aria-label="Sections">
       <a href="#overview" data-view="overview">Overview</a>
       <a href="#explore" data-view="explore">Explore</a>
+      <a href="#local" data-view="local">Local maps</a>
       <a href="#compare" data-view="compare">Compare</a>
       <a href="#reports" data-view="reports">Reports</a>
     </nav>
@@ -230,6 +248,33 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     <div class="search" data-mode="go" id="exSearch"></div>
     <div id="exPicker"></div>
     <div id="exBody"></div>
+  </section>
+
+  <!-- LOCAL MAPS -->
+  <section class="view" id="view-local" hidden aria-labelledby="h-loc">
+    <div class="intro">
+      <h1 id="h-loc">Local maps</h1>
+      <p class="sub">Every parking garage found in a city, by operator, with its published price. Where we also measure occupancy, the map can show how full a garage is right now and the garage links to its page.</p>
+    </div>
+    <div class="locsel">
+      <label for="locCountry">Country <select id="locCountry"></select></label>
+      <label for="locCity">City <select id="locCity"></select></label>
+      <span id="locLinks"></span>
+    </div>
+    <div class="stats" id="locStats"><div class="stat"><b>…</b><span>loading</span></div></div>
+    <div class="panel">
+      <div class="seg" role="group" aria-label="Colour the garages" id="locMode">
+        <button type="button" data-m="operator" aria-pressed="true">By operator</button>
+        <button type="button" data-m="relative" aria-pressed="false">Relative to nearby garages</button>
+        <button type="button" data-m="occ" aria-pressed="false">Occupied now</button>
+      </div>
+      <div class="locopts" id="locOptions"></div>
+      <div id="locMap" class="locmap" role="region" aria-label="Map of the city's garages"></div>
+      <div id="locLegend"></div>
+      <p class="note" id="locCaption"></p>
+    </div>
+    <div class="panel"><h2 id="locTblH">All garages</h2><div class="scroll"><table class="data" id="locTable"></table></div></div>
+    <details class="panel" id="locNotes" hidden><summary><b>How this city was researched</b></summary><p class="note" id="locNotesBody" style="white-space:pre-wrap;max-width:none"></p></details>
   </section>
 
   <!-- COMPARE -->
@@ -624,7 +669,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
         <div class="stat"><b>${d.prices && d.prices.median_rate != null ? money(d.prices.median_rate, d.garages[0].price ? d.garages[0].price.country : null) : fmt(d.garages.length)}</b><span>${d.prices && d.prices.median_rate != null ? `typical hourly rate, ${d.prices.garages} garages` : "garages"}</span></div>
       </div>
       <div class="panel"><div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem"><h2>Typical week</h2>
-        <button type="button" class="btn" id="cityCmp">+ Compare</button></div>
+        <span style="display:flex;gap:.5rem;flex-wrap:wrap">${d.local_map ? `<a class="btn" href="#local/${enc(d.country)}/${enc(d.city)}">Local map</a>` : ""}<button type="button" class="btn" id="cityCmp">+ Compare</button></span></div>
         <div class="chart" id="cityWeek">${d.profile ? "" : `<p class="note">Not enough recent data for a typical week yet.</p>`}</div>
         ${d.profile ? `<p class="note">Share of the city's spaces occupied, hour by hour, ${esc(d.window.start)} to ${esc(d.window.end)}; ${d.profiled} garages with enough data.</p>` : ""}</div>
       <div class="panel"><h2>Garages</h2><div class="scroll"><table class="data">
@@ -792,6 +837,187 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     cv.addEventListener("pointerleave", () => { tip.hidden = true; });
   }
 
+  // ---------- LOCAL MAPS ----------
+  // Ported from the Streamlit app of the former parkingsimulator project: garages sized by capacity,
+  // coloured by operator or by how a garage's price or location compares with the garages within
+  // 500 m. A third mode colours the garages we also measure by how full they are right now.
+  const NEIGHBOUR_KM = 0.5, NEUTRAL_PCT = 5, FULL_PCT = 15, GREY_OUT = "#6E6E6E";
+  const PERF = { red: [176, 42, 42], grey: [181, 181, 181], green: [34, 139, 79] };
+  const mix = (a, b, t) => a.map((v, i) => Math.round(v + (b[i] - v) * t));
+  // grey within +-5%, solid red or green beyond +-15%, a gradient between: fixed thresholds, so a garage 11% dearer than its
+  // neighbours reads as clearly green however extreme an outlier elsewhere in the city
+  const deltaColour = v => {
+    if (Math.abs(v) <= NEUTRAL_PCT) return `rgb(${PERF.grey})`;
+    return `rgb(${mix(PERF.grey, v < 0 ? PERF.red : PERF.green, Math.min(1, (Math.abs(v) - NEUTRAL_PCT) / (FULL_PCT - NEUTRAL_PCT)))})`;
+  };
+  const km = (la1, lo1, la2, lo2) => {
+    const r = Math.PI / 180, dp = (la2 - la1) * r, dl = (lo2 - lo1) * r;
+    const a = Math.sin(dp / 2) ** 2 + Math.cos(la1 * r) * Math.cos(la2 * r) * Math.sin(dl / 2) ** 2;
+    return 2 * 6371 * Math.asin(Math.sqrt(a));
+  };
+  const cur = (v, code, dp = 2) => v == null ? "–" : new Intl.NumberFormat("en-GB", { style: "currency", currency: code || "EUR", minimumFractionDigits: dp, maximumFractionDigits: dp }).format(v);
+  const loc = { data: null, mode: "operator", off: new Set(), target: null, metric: "hourly_rate", map: null, layer: null, fitted: null, markers: new Map(), sort: { k: "capacity", asc: false } };
+  const selCountry = document.getElementById("locCountry"), selCity = document.getElementById("locCity");
+
+  async function renderLocal(country, city) {
+    const stats = document.getElementById("locStats");
+    let cs;
+    try { cs = await once("loc:countries", () => api("/api/local/countries")); } catch (e) { stats.innerHTML = `<p class="error">${esc(e.message)}</p>`; return; }
+    if (!cs.some(c => c.country === country)) country = cs.some(c => c.country === "Germany") ? "Germany" : cs[0].country;
+    selCountry.innerHTML = cs.map(c => `<option value="${esc(c.country)}">${esc(c.country)} (${fmt(c.garages)})</option>`).join("");
+    selCountry.value = country;
+    let cities;
+    try { cities = await once("loc:cities:" + country, () => api(`/api/local/cities?country=${enc(country)}`)); } catch (e) { stats.innerHTML = `<p class="error">${esc(e.message)}</p>`; return; }
+    if (!cities.some(c => c.city === city)) city = cities.some(c => c.city === "Düsseldorf") ? "Düsseldorf" : cities.reduce((a, b) => b.garages > a.garages ? b : a).city;
+    selCity.innerHTML = cities.map(c => `<option value="${esc(c.city)}">${esc(c.city)} (${c.garages})</option>`).join("");
+    selCity.value = city;
+    const want = `#local/${enc(country)}/${enc(city)}`;
+    if (location.hash !== want) history.replaceState(null, "", want);       // keep the link canonical without re-routing
+    stats.innerHTML = `<div class="stat"><b>…</b><span>loading ${esc(city)}</span></div>`;
+    let d;
+    try { d = await once(`loc:map:${country}|${city}`, () => api(`/api/local/map?country=${enc(country)}&city=${enc(city)}`)); } catch (e) { stats.innerHTML = `<p class="error">${esc(e.message)}</p>`; return; }
+    if (loc.data && (loc.data.country !== d.country || loc.data.city !== d.city)) { loc.off = new Set(); loc.target = null; }
+    loc.data = d;
+    loc.target = loc.target && d.operators.some(o => o.name === loc.target) ? loc.target : d.operators.reduce((a, b) => b.garages > a.garages ? b : a).name;
+    if (loc.mode === "occ" && !d.garages.some(g => g.occ != null)) loc.mode = "operator";
+    // is the city also in our occupancy data? then link across
+    once("pk:c:" + country, () => api(`/api/browse/cities?country=${enc(country)}`)).then(list => {
+      const hit = list.find(c => c.city === city);
+      document.getElementById("locLinks").innerHTML = hit ? `<a class="btn" href="${cityHash(country, city)}">Occupancy in ${esc(city)} →</a>` : "";
+    }).catch(() => { document.getElementById("locLinks").innerHTML = ""; });
+    drawLocalAll();
+  }
+  selCountry.addEventListener("change", () => { location.hash = `#local/${enc(selCountry.value)}`; });
+  selCity.addEventListener("change", () => { location.hash = `#local/${enc(selCountry.value)}/${enc(selCity.value)}`; });
+  document.getElementById("locMode").addEventListener("click", ev => { const b = ev.target.closest("button[data-m]"); if (b && loc.data) { loc.mode = b.dataset.m; drawLocalAll(); } });
+
+  function drawLocalAll() {
+    const d = loc.data, gs = d.garages;
+    const priced = gs.filter(g => g.hourly_rate != null).length, spaces = gs.reduce((a, g) => a + (g.capacity || 0), 0);
+    const linked = gs.filter(g => g.place_id).length, live = gs.filter(g => g.occ != null).length;
+    document.getElementById("locStats").innerHTML = [
+      [fmt(gs.length), "garages"], [fmt(d.operators.length), d.operators.length === 1 ? "operator" : "operators"],
+      [fmt(spaces), "spaces, where published"], [`${priced} of ${gs.length}`, "have a published hourly rate"],
+    ].map(([b, t]) => `<div class="stat"><b>${b}</b><span>${t}</span></div>`).join("");
+    document.querySelectorAll("#locMode button").forEach(b => {
+      b.setAttribute("aria-pressed", b.dataset.m === loc.mode ? "true" : "false");
+      if (b.dataset.m === "occ") b.title = live ? `${live} garages here report occupancy right now` : "None of the garages here is one we measure live";
+    });
+    document.getElementById("locTblH").textContent = `All garages — ${d.city}`;
+    document.getElementById("locCaption").textContent =
+      `Names, addresses, capacities and prices are taken from each operator's own site or pricing API; a blank means the operator publishes none, and nothing is estimated. ` +
+      (linked ? `${linked} of these garages are also ones we track${live ? `; ${live} report occupancy right now` : ""}.` : "None of these is one of the garages we track occupancy for.");
+    const notes = document.getElementById("locNotes");
+    notes.hidden = !d.notes; document.getElementById("locNotesBody").textContent = d.notes || "";
+    drawLocalMap(); drawLocalTable();
+  }
+
+  // delta of each garage of one operator against the average of the other garages within 500 m
+  function relativeTo(gs, operator, metric) {
+    const cx = gs.reduce((a, g) => a + g.lat, 0) / gs.length, cy = gs.reduce((a, g) => a + g.lon, 0) / gs.length;
+    const value = g => metric === "hourly_rate" ? g.hourly_rate : km(g.lat, g.lon, cx, cy);   // location: distance to the garage centroid, a proxy
+    const out = new Map();
+    for (const g of gs.filter(x => x.operator === operator)) {
+      const nb = gs.filter(o => o.id !== g.id && km(g.lat, g.lon, o.lat, o.lon) <= NEIGHBOUR_KM);
+      const vals = nb.map(value).filter(v => v != null && !Number.isNaN(v));
+      const own = value(g), avg = vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : null;
+      let delta = null;
+      if (own != null && !Number.isNaN(own) && avg) { const pct = (own - avg) / avg * 100; delta = Math.round((metric === "hourly_rate" ? pct : -pct) * 10) / 10; }   // nearer the centre is better
+      out.set(g.id, { delta, n: nb.length, own, value: value(g) });
+    }
+    return { out, value };
+  }
+
+  function drawLocalMap() {
+    const d = loc.data, gs = d.garages, code = d.currency;
+    const el = document.getElementById("locMap");
+    if (typeof L === "undefined") { el.innerHTML = `<p class="note" style="padding:1rem">The map could not load.</p>`; return; }
+    if (!loc.map) { loc.map = L.map("locMap", { preferCanvas: true, scrollWheelZoom: false }).setView([50.5, 7.5], 6); loc.map._tiles = tiles().addTo(loc.map); }
+    if (loc.layer) loc.layer.remove();
+    loc.layer = L.layerGroup().addTo(loc.map); loc.markers = new Map();
+    const caps = gs.map(g => g.capacity).filter(c => c != null), cmin = Math.min(...caps), cmax = Math.max(...caps);
+    const radius = g => (g.capacity == null || !caps.length || cmax === cmin ? 20 : 7 + (g.capacity - cmin) / (cmax - cmin) * 27) / 2;     // 7 to 34 px across
+    const stroke = getComputedStyle(document.documentElement).getPropertyValue("--surface").trim() || "#fff";
+    const opts = document.getElementById("locOptions"), legend = document.getElementById("locLegend");
+    const spec = [];     // [garage, fill, opacity, tooltip]
+    const head = g => `<b>${esc(g.name)}</b> (${esc(g.operator)})`;
+    const basics = g => `${g.capacity != null ? fmt(g.capacity) + " spaces" : "capacity n/a"} · ${g.hourly_rate != null ? cur(g.hourly_rate, code) + "/h" : "price n/a"}`;
+
+    if (loc.mode === "operator") {
+      const on = d.operators.filter(o => !loc.off.has(o.name));
+      opts.innerHTML = `<div class="chips">${d.operators.map(o => `<button type="button" class="chip${loc.off.has(o.name) ? " off" : ""}" data-op="${esc(o.name)}" aria-pressed="${!loc.off.has(o.name)}"><span class="sw" style="background:${o.color}"></span>${esc(o.name)} <span class="muted num">${o.garages}</span></button>`).join("")}</div>`;
+      const shown = gs.filter(g => !loc.off.has(g.operator));
+      opts.insertAdjacentHTML("beforeend", `<span class="muted" style="font-size:.88rem">Highlighted: ${shown.length} garages · ${fmt(shown.reduce((a, g) => a + (g.capacity || 0), 0))} spaces · ${on.length} ${on.length === 1 ? "operator" : "operators"}</span>`);
+      for (const g of gs) spec.push(loc.off.has(g.operator) ? [g, GREY_OUT, .8, `${head(g)}<br>${g.capacity != null ? fmt(g.capacity) + " spaces" : "capacity n/a"}`] : [g, g.color, .9, `${head(g)}<br>${basics(g)}`]);
+      legend.innerHTML = `<p class="note">Click an operator to hide or show it; hidden operators turn grey. Larger dots have more spaces.</p>`;
+    } else if (loc.mode === "relative") {
+      opts.innerHTML = `<label>Operator to analyse <select id="locTarget">${d.operators.map(o => `<option value="${esc(o.name)}"${o.name === loc.target ? " selected" : ""}>${esc(o.name)} (${o.garages})</option>`).join("")}</select></label>
+        <label>Metric <select id="locMetric"><option value="hourly_rate"${loc.metric === "hourly_rate" ? " selected" : ""}>Price (${esc(cur(0, code, 0).replace(/[0-9.,\s]/g, ""))}/hour)</option><option value="location"${loc.metric === "location" ? " selected" : ""}>Location quality (proximity to centre)</option></select></label>`;
+      const { out } = relativeTo(gs, loc.target, loc.metric);
+      const label = loc.metric === "hourly_rate" ? "Price" : "Location";
+      for (const g of gs) {
+        if (g.operator !== loc.target) { spec.push([g, GREY_OUT, .8, `${head(g)}<br>${g.hourly_rate != null ? cur(g.hourly_rate, code) + "/h" : "price n/a"}`]); continue; }
+        const r = out.get(g.id);
+        const val = loc.metric === "hourly_rate" ? (g.hourly_rate != null ? cur(g.hourly_rate, code) + "/h" : "price n/a") : "";
+        spec.push(r.delta == null
+          ? [g, "#F5A623", .9, `${head(g)}<br>${val}${val ? "<br>" : ""}No comparable data within 500 m`]
+          : [g, deltaColour(r.delta), .95, `${head(g)}<br>${val}${val ? "<br>" : ""}${label} vs neighbours: <b>${r.delta > 0 ? "+" : ""}${r.delta.toFixed(1)}%</b><br>Neighbours within 500 m: ${r.n}`]);
+      }
+      legend.innerHTML = `<div class="scale"><div class="bar" style="background:linear-gradient(90deg, rgb(${PERF.red}) 0%, rgb(${PERF.red}) 20%, rgb(${PERF.grey}) 45%, rgb(${PERF.grey}) 55%, rgb(${PERF.green}) 80%, rgb(${PERF.green}) 100%)"></div>
+        <div class="lbl"><span>${loc.metric === "hourly_rate" ? "cheaper" : "further out"} by 15% or more</span><span>within ±5%</span><span>${loc.metric === "hourly_rate" ? "dearer" : "nearer"} by 15% or more</span></div></div>
+        <p class="note" style="margin-top:.5rem">Every garage is shown. Grey dots are every operator except ${esc(loc.target)}; ${esc(loc.target)}'s own garages are coloured by their difference from the average of all other garages within 500 m. Amber means no published value for the garage, or no other garage within 500 m. ${loc.metric === "hourly_rate" ? "For price, green only means priced above the local average, which is not automatically good or bad for the business. " : "Location compares each garage's distance to the centre of this city's garages, a proxy rather than a published measure. "}</p>`;
+    } else {
+      const live = gs.filter(g => g.occ != null).length;
+      opts.innerHTML = `<span class="muted" style="font-size:.88rem">${live} of ${gs.length} garages here report occupancy right now. The rest are grey.</span>`;
+      for (const g of gs) spec.push(g.occ != null ? [g, rampColor(g.occ), .95, `${head(g)}<br>${basics(g)}<br><b>${g.occ}% occupied</b> at ${esc(g.occ_ts.slice(11))} UTC`] : [g, GREY_OUT, .6, `${head(g)}<br>${basics(g)}<br>No live occupancy`]);
+      legend.innerHTML = `<div class="ramp"><span>empty</span><span class="bar" style="background:${rampCss()}"></span><span>full</span></div>`;
+    }
+    // grey garages first so coloured ones are never buried
+    spec.sort((a, b) => (b[1] === GREY_OUT) - (a[1] === GREY_OUT));
+    const bounds = [];
+    for (const [g, fill, op, tip] of spec) {
+      const m = L.circleMarker([g.lat, g.lon], { radius: radius(g), color: stroke, weight: 1, fillColor: fill, fillOpacity: op })
+        .bindTooltip(tip, { direction: "top" })
+        .bindPopup(`<b>${esc(g.name)}</b><br>${esc(g.operator)} · ${basics(g)}${g.daily_cap != null ? " · day " + cur(g.daily_cap, code) : ""}${g.has_ev ? " · EV charging" : ""}${g.address ? `<br>${esc(g.address)}` : ""}` +
+          `${g.occ != null ? `<br><b>${g.occ}% occupied now</b>` : ""}<br>${g.source_url ? `<a href="${esc(g.source_url)}" target="_blank" rel="nofollow noopener">Operator page ↗</a>` : ""}${g.place_id ? `${g.source_url ? " · " : ""}<a href="${garageHash(g.place_id)}">Occupancy and typical week →</a>` : ""}`)
+        .addTo(loc.layer);
+      loc.markers.set(g.id, m); bounds.push([g.lat, g.lon]);
+    }
+    const key = d.country + "|" + d.city;
+    setTimeout(() => { loc.map.invalidateSize(); if (loc.fitted !== key && bounds.length) { loc.map.fitBounds(bounds, { padding: [30, 30], maxZoom: 15 }); loc.fitted = key; } }, 50);
+  }
+  document.getElementById("locOptions").addEventListener("click", ev => {
+    const b = ev.target.closest("button[data-op]"); if (!b) return;
+    loc.off.has(b.dataset.op) ? loc.off.delete(b.dataset.op) : loc.off.add(b.dataset.op); drawLocalAll();
+  });
+  document.getElementById("locOptions").addEventListener("change", ev => {
+    if (ev.target.id === "locTarget") loc.target = ev.target.value; else if (ev.target.id === "locMetric") loc.metric = ev.target.value; else return;
+    drawLocalAll();
+  });
+
+  const LOC_COLS = [["name", "Garage", ""], ["operator", "Operator", ""], ["capacity", "Spaces", "r"], ["hourly_rate", "Per hour", "r"], ["daily_cap", "Day ticket", "r"], ["has_ev", "EV", "r"], ["occ", "Occupied now", "r"], ["address", "Address", ""]];
+  function drawLocalTable() {
+    const d = loc.data, { k, asc } = loc.sort;
+    const rows = [...d.garages].sort((a, b) => {
+      const x = a[k], y = b[k];
+      if (x == null && y == null) return 0; if (x == null) return 1; if (y == null) return -1;      // blanks last either way
+      const c = typeof x === "string" ? x.localeCompare(y) : x - y; return asc ? c : -c;
+    });
+    document.getElementById("locTable").innerHTML =
+      `<thead><tr>${LOC_COLS.map(([key, label, cl]) => `<th data-k="${key}" class="${cl} ${key === k ? "on" + (asc ? " asc" : "") : ""}" scope="col">${label}</th>`).join("")}</tr></thead><tbody>` +
+      rows.map(g => `<tr class="link" data-id="${esc(g.id)}" tabindex="0"><td>${esc(g.name)}${g.place_id ? ` <a href="${garageHash(g.place_id)}" title="Occupancy and typical week">→</a>` : ""}</td>` +
+        `<td><span class="dot" style="background:${g.color}"></span>${esc(g.operator)}</td><td class="r num">${fmt(g.capacity)}</td>` +
+        `<td class="r num">${cur(g.hourly_rate, d.currency)}</td><td class="r num">${cur(g.daily_cap, d.currency)}</td><td class="r">${g.has_ev ? "●" : "–"}</td>` +
+        `<td class="r">${g.occ != null ? `<span class="pill${g.occ >= 90 ? " full" : ""}">${g.occ}%</span>` : `<span class="muted">–</span>`}</td><td class="muted">${esc(g.address || "")}</td></tr>`).join("") + `</tbody>`;
+  }
+  document.getElementById("locTable").addEventListener("click", ev => {
+    const th = ev.target.closest("th[data-k]");
+    if (th) { const key = th.dataset.k; loc.sort = { k: key, asc: loc.sort.k === key ? !loc.sort.asc : ["name", "operator", "address"].includes(key) }; drawLocalTable(); return; }
+    if (ev.target.closest("a")) return;
+    const tr = ev.target.closest("tr[data-id]"), m = tr && loc.markers.get(tr.dataset.id);       // a row opens its garage on the map
+    if (m) { document.getElementById("locMap").scrollIntoView({ block: "center", behavior: "smooth" }); loc.map.setView(m.getLatLng(), Math.max(loc.map.getZoom(), 16)); m.openPopup(); }
+  });
+
   // ---------- COMPARE ----------
   let cmpItems = [], cmpDays = 90;
   try { cmpItems = JSON.parse(localStorage.getItem("cmpItems") || "[]").slice(0, 4); } catch (e) { cmpItems = []; }
@@ -904,7 +1130,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
   function route() {
     const parts = (location.hash.slice(1) || "overview").split("/").map(x => { try { return decodeURIComponent(x); } catch (e) { return x; } });
     const [view, kind, ...rest] = parts;
-    const v = ["overview", "explore", "compare", "reports", "status"].includes(view) ? view : "overview";
+    const v = ["overview", "explore", "local", "compare", "reports", "status"].includes(view) ? view : "overview";
     document.querySelectorAll("section.view").forEach(s => { s.hidden = s.id !== "view-" + v; });
     document.querySelectorAll("nav.sections a").forEach(a => { if (a.dataset.view === v) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
     if (v === "overview") renderOverview();
@@ -914,6 +1140,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
       else if (kind === "garage" && rest.length) renderGarage(rest[0]);
       else renderExploreHome();
     }
+    else if (v === "local") renderLocal(kind || null, rest.length ? rest[0] : null);
     else if (v === "compare") renderCompare();
     else if (v === "status") renderStatus();
     window.scrollTo(0, 0);
@@ -923,6 +1150,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     if (map) { map._tiles.remove(); map._tiles = tiles().addTo(map); }
     document.getElementById("mapRamp").style.background = rampCss();
     drawHeat();
+    if (loc.map && loc.data) { loc.map._tiles.remove(); loc.map._tiles = tiles().addTo(loc.map); drawLocalMap(); }
     if (cache.now && location.hash.replace("#", "") in { "": 1, overview: 1 }) now().then(n => drawMap(n.garages));
   };
   matchMedia("(prefers-color-scheme: dark)").addEventListener("change", retheme);
