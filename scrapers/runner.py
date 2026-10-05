@@ -72,10 +72,36 @@ def run_occupancy(conn: sqlite3.Connection, adapter: SourceAdapter) -> None:
         print(f"[{adapter.name}] occupancy FAILED: {exc}")
 
 
+# After a failed run the next attempt waits RETRY_BASE_SECONDS, doubling with
+# each further consecutive failure, up to the adapter's own interval (and at
+# most RETRY_MAX_SECONDS). One failure -- typically a transient lock -- is
+# still retried on the daemon's next 5-minute check, but a source that is
+# down is no longer hit every 5 minutes: Moers's server timed out for 2.5 days
+# in October 2026 and was polled ~240 times a day throughout.
+RETRY_BASE_SECONDS = 300
+RETRY_MAX_SECONDS = 6 * 3600
+
+
+def _retry_ok(conn: sqlite3.Connection, adapter: str, kind: str, interval_seconds: int) -> bool:
+    last_ok = _last_success_at(conn, adapter, kind)
+    n, last_err = conn.execute(
+        "SELECT COUNT(*), MAX(run_at) FROM scraper_runs WHERE adapter=? AND kind=? AND status='error' AND run_at > ?",
+        (adapter, kind, last_ok.isoformat() if last_ok else ""),
+    ).fetchone()
+    if not n:
+        return True
+    wait = min(RETRY_BASE_SECONDS * 2 ** (n - 1), interval_seconds, RETRY_MAX_SECONDS)
+    return _is_due(datetime.fromisoformat(last_err), wait)
+
+
+def _should_run(conn: sqlite3.Connection, adapter: str, kind: str, interval_seconds: int) -> bool:
+    return _is_due(_last_success_at(conn, adapter, kind), interval_seconds) and _retry_ok(conn, adapter, kind, interval_seconds)
+
+
 def run_due_adapters(conn: sqlite3.Connection, adapters: list[SourceAdapter]) -> None:
     storage.ensure_schema(conn)
     for adapter in adapters:
-        if _is_due(_last_success_at(conn, adapter.name, "capacity"), adapter.capacity_interval_seconds):
+        if _should_run(conn, adapter.name, "capacity", adapter.capacity_interval_seconds):
             run_capacity(conn, adapter)
-        if _is_due(_last_success_at(conn, adapter.name, "occupancy"), adapter.occupancy_interval_seconds):
+        if _should_run(conn, adapter.name, "occupancy", adapter.occupancy_interval_seconds):
             run_occupancy(conn, adapter)
