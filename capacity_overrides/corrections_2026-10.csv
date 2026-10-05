@@ -1,0 +1,7 @@
+place_id,num_all,source_slug,replace,evidence
+parken-luebeck-98,450,capacity_correction_2026_10,yes,"free levels off at 450 every year 2022-2026 (p99 = p99.9 = 450); was 49"
+parken-in-bochum-PM-Massenbergstrasse,100,capacity_correction_2026_10,yes,"free levels off at 100 every year 2021-2026; was 85"
+vtmanager-duesseldorf-parken-PH-13,100,capacity_correction_2026_10,yes,"free levels off at 100 every year 2023-2026; was 70"
+ffh-parken-frankfurt-Hauptbahnhof-Sud,565,capacity_correction_2026_10,yes,"free levels off at 558-565 in 2025-2026 (364 in 2020-21: garage enlarged or re-counted); was 364"
+sw-bielefeld-parken-Parkhaus-Am-Jahnplatz,93,capacity_correction_2026_10,yes,"free p99.9 90-98 every year 2020-2026, a third of readings above the old figure; was 77"
+bnls-other-fr-38185-P-017-grenoble-esplanade,128,capacity_correction_2026_10,yes,"median free 111 and ceiling 128 in the live feed; BNLS figure 95 too low"

@@ -5,11 +5,16 @@ sqlite directly -- this is the only place that does.
 
 from __future__ import annotations
 
+import csv
 import sqlite3
 from datetime import datetime, timezone
+from functools import lru_cache
+from pathlib import Path
 
 from scrapers.base import CapacityRecord, OccupancyRecord
 from scrapers.util import normalize_name
+
+OVERRIDES_DIR = Path(__file__).resolve().parent.parent / "capacity_overrides"
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS scraper_runs (
@@ -79,9 +84,24 @@ def known_capacities_for_source(conn: sqlite3.Connection, source_id: str) -> dic
     return {place_id: num_all for place_id, num_all in rows}
 
 
+@lru_cache(maxsize=1)
+def capacity_corrections() -> dict[str, int]:
+    """replace=yes rows of capacity_overrides/*.csv -- capacities known to be
+    wrong at source. Applied on every capacity write, so a live adapter's
+    weekly refresh does not put the feed's wrong figure back."""
+    corrections = {}
+    for path in sorted(OVERRIDES_DIR.glob("*.csv")):
+        with open(path, newline="", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                if row.get("replace") == "yes":
+                    corrections[row["place_id"]] = int(row["num_all"])
+    return corrections
+
+
 def write_capacity(conn: sqlite3.Connection, records: list[CapacityRecord]) -> int:
+    fixed = capacity_corrections()
     rows = [
-        (r.place_id, r.place_name, r.city_name, r.num_all, r.address, r.latitude, r.longitude, r.place_url, r.source_id, r.source_web_url)
+        (r.place_id, r.place_name, r.city_name, fixed.get(r.place_id, r.num_all), r.address, r.latitude, r.longitude, r.place_url, r.source_id, r.source_web_url)
         for r in records
     ]
     conn.executemany(
