@@ -37,6 +37,9 @@ LIVE_SILENT_AFTER = timedelta(hours=6)
 ARCHIVE_SILENT_AFTER = timedelta(days=3)
 ACTIVE_DAYS = 30
 DOWN_SHARE = 0.5
+# sources that are not live feeds, so silence is normal: Parkraumwende
+# München is a volunteer-curated catalogue whose free counts change rarely
+NEVER_ALERT = {"parkraumwende-muenchen"}
 CHECK_INTERVAL_SECONDS = 3600
 DIGEST_WEEKDAY = 0  # Monday
 DIGEST_HOUR_UTC = 6
@@ -72,7 +75,7 @@ def down_sources(conn: sqlite3.Connection, now: datetime | None = None) -> dict[
            WHERE m.last_observed_ts >= ? AND m.place_id NOT IN (SELECT place_id FROM frozen_places)""",
         (_iso(now - timedelta(days=ACTIVE_DAYS)),),
     ):
-        if source_id and source_id not in DEAD_ARCHIVE_SOURCE_IDS:
+        if source_id and source_id not in DEAD_ARCHIVE_SOURCE_IDS and source_id not in NEVER_ALERT:
             by_source.setdefault(source_id, []).append(_parse(last))
     down = {}
     for source_id, lasts in by_source.items():
