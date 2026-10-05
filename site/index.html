@@ -121,6 +121,33 @@ section.view[hidden] { display: none !important; }
 .crumbs { font-size: .9rem; color: var(--ink-3); }
 .crumbs a { color: var(--ink-2); }
 
+/* country > city > garage picker; bold entries have occupancy history */
+.pk { border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); }
+.pk > summary { cursor: pointer; padding: .75rem 1rem; display: flex; flex-wrap: wrap; align-items: baseline; gap: .2rem 1rem; font-weight: 500; list-style: none; }
+.pk > summary::-webkit-details-marker { display: none; }
+.pk > summary::before { content: "▸"; color: var(--ink-3); width: .9rem; }
+.pk[open] > summary::before { content: "▾"; }
+.pk-path { font: 400 .9rem var(--font-body); }
+.pk-body { padding: 0 1rem 1rem; display: grid; gap: .7rem; }
+.pk-cols { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1fr) minmax(0, 1.3fr); gap: .9rem; }
+@media (max-width: 820px) { .pk-cols { grid-template-columns: 1fr; } }
+.pk-head { display: flex; align-items: center; gap: .5rem; min-height: 2.2rem; margin-bottom: .3rem; }
+.pk-head h3 { font: 500 .72rem var(--font-data); text-transform: uppercase; letter-spacing: .07em; color: var(--ink-3); flex: none; }
+.pk-head input { flex: 1; min-width: 0; font: 400 .88rem var(--font-body); color: var(--ink); background: var(--bg); border: 1px solid var(--rule); border-radius: 4px; padding: .3rem .55rem; }
+.pk-add { font-size: .82rem; padding: .3rem .6rem; flex: none; }
+.pk-list { position: relative; height: 16rem; overflow-y: auto; border: 1px solid var(--rule); border-radius: 4px; background: var(--bg); }
+@media (max-width: 820px) { .pk-list { height: 11rem; } }
+.pk-row { display: flex; width: 100%; justify-content: space-between; align-items: baseline; gap: .8rem; text-align: left; background: none; border: 0; border-bottom: 1px solid var(--rule-soft); padding: .42rem .7rem; font: 400 .92rem var(--font-body); color: var(--ink-2); cursor: pointer; }
+.pk-row:hover { background: var(--accent-soft); }
+.pk-row.has { font-weight: 600; color: var(--ink); }
+.pk-row[aria-selected="true"] { background: var(--accent-soft); color: var(--accent); }
+.pk-row .pk-c { color: var(--ink-3); font-weight: 400; font-size: .76rem; flex: none; white-space: nowrap; }
+.pk-row .pk-ok { color: var(--accent); font-weight: 600; margin-right: .35rem; }
+.pk-empty { padding: .8rem; color: var(--ink-3); font-size: .88rem; }
+.results button.b { font-weight: 600; }
+.seg.wrap { flex-wrap: wrap; max-width: 100%; }
+.heat { position: relative; }
+.heat canvas { display: block; }
 .chart { position: relative; min-width: 0; }
 .chart svg { display: block; width: 100%; height: auto; overflow: visible; }
 .axis text { fill: var(--ink-3); font: 400 11px var(--font-data); }
@@ -200,6 +227,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
       <p class="sub" id="exLede">Search for a city or a garage to see how full it is now and in a typical week.</p>
     </div>
     <div class="search" data-mode="go" id="exSearch"></div>
+    <div id="exPicker"></div>
     <div id="exBody"></div>
   </section>
 
@@ -211,6 +239,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     </div>
     <div class="search" data-mode="add" id="cmpSearch"></div>
     <div class="chips" id="cmpChips"></div>
+    <div id="cmpPicker"></div>
     <div class="panel">
       <div style="display:flex;flex-wrap:wrap;gap:.6rem 1.5rem;align-items:center;justify-content:space-between">
         <div class="seg" role="group" aria-label="Period" id="cmpPeriod">
@@ -257,6 +286,11 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
   const RAMP_LIGHT = ["#e3edfb", "#cde2fb", "#9ec5f4", "#6da7ec", "#3987e5", "#256abf", "#184f95", "#0d366b"];
   const RAMP_DARK = ["#1b2a3f", "#17304f", "#184f95", "#1c5cab", "#2a78d6", "#5598e7", "#86b6ef", "#cde2fb"];
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const enc = encodeURIComponent;
+  // the country travels with the city: Münster, Bruges, Burgdorf and Baden each exist in two
+  const cityHash = (country, city) => country ? `#explore/city/${enc(country)}/${enc(city)}` : `#explore/city/${enc(city)}`;
+  const garageHash = id => `#explore/garage/${enc(id)}`;
+  const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   const fmt = n => (n == null ? "–" : Number(n).toLocaleString("en-GB"));
   const pct = v => (v == null ? "–" : Math.round(v) + "%");
   const hh = h => String(h).padStart(2, "0") + ":00";
@@ -354,8 +388,8 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
         items.forEach((it, i) => {
           if (it.kind === "garage" && (i === 0 || items[i - 1].kind === "city")) s += `<div class="grp">Garages</div>`;
           s += it.kind === "city"
-            ? `<button type="button" role="option" data-i="${i}"><span>${esc(it.city)}</span><span class="muted">${fmt(it.garages)} garages</span></button>`
-            : `<button type="button" role="option" data-i="${i}"><span>${esc(it.name)} <span class="muted">${esc(it.city)}</span></span><span class="muted num">${fmt(it.capacity)}</span></button>`;
+            ? `<button type="button" role="option" class="${it.with_data ? "b" : ""}" data-i="${i}"><span>${esc(it.city)} <span class="muted">${esc(it.country)}</span></span><span class="muted">${fmt(it.garages)} garages</span></button>`
+            : `<button type="button" role="option" class="${it.live ? "b" : ""}" data-i="${i}"><span>${esc(it.name)} <span class="muted">${esc(it.city)}, ${esc(it.country)}</span></span><span class="muted num">${fmt(it.capacity)}</span></button>`;
         });
         box.innerHTML = s;
       }
@@ -384,8 +418,102 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     });
     document.addEventListener("click", ev => { if (!host.contains(ev.target)) close(); });
   }
-  const goTo = it => { location.hash = it.kind === "city" ? `#explore/city/${encodeURIComponent(it.city)}` : `#explore/garage/${encodeURIComponent(it.id)}`; };
+  const goTo = it => { location.hash = it.kind === "city" ? cityHash(it.country, it.city) : garageHash(it.id); };
   document.querySelectorAll('.search[data-mode="go"]').forEach(h => mountSearch(h, goTo, "Find a city or garage, for example Frankfurt or Hauptwache"));
+
+  // ---------- country > city > garage picker ----------
+  // One level is fetched at a time. Entries with occupancy history are bold
+  // and sorted first; the rest have a known capacity only.
+  //   mode "go":  a city or garage click opens its page (onCity / onGarage)
+  //   mode "add": a garage click adds it; a city is added with its own button
+  function mountPicker(host, opts) {
+    host.innerHTML = `<details class="pk"${opts.open === false ? "" : " open"}>
+      <summary><span>Browse by country, city and garage</span><span class="pk-path muted"></span></summary>
+      <div class="pk-body"><div class="pk-cols">
+        <div><div class="pk-head"><h3>Country</h3></div><div class="pk-list" data-l="country" role="listbox" aria-label="Country"></div></div>
+        <div><div class="pk-head"><h3>City</h3><input type="search" data-f="city" placeholder="Filter" autocomplete="off" aria-label="Filter cities"></div><div class="pk-list" data-l="city" role="listbox" aria-label="City"></div></div>
+        <div><div class="pk-head"><h3>Garage</h3><input type="search" data-f="garage" placeholder="Filter" autocomplete="off" aria-label="Filter garages"><button type="button" class="btn pk-add" hidden></button></div><div class="pk-list" data-l="garage" role="listbox" aria-label="Garage"></div></div>
+      </div><p class="note"><b>Bold</b> entries have occupancy history; the others have a known capacity only.${opts.mode === "add" ? " Choose a city, then add the city or any of its garages." : ""}</p></div>
+    </details>`;
+    const det = host.querySelector("details"), pathEl = host.querySelector(".pk-path"), addBtn = host.querySelector(".pk-add");
+    const list = l => host.querySelector(`.pk-list[data-l="${l}"]`), filt = l => host.querySelector(`input[data-f="${l}"]`);
+    const st = { country: null, city: null, garage: null };
+    let countries = [], cities = [], garages = [], seq = 0;
+    const row = (cls, key, name, right, title, selected, lead = "") =>
+      `<button type="button" class="pk-row ${cls}" role="option" aria-selected="${selected}" data-k="${esc(key)}" title="${esc(title)}"><span>${lead}${esc(name)}</span><span class="pk-c num">${right}</span></button>`;
+    const empty = t => `<div class="pk-empty">${t}</div>`;
+    const picked = it => !!(opts.isPicked && opts.isPicked(it));
+
+    function renderCountries() {
+      list("country").innerHTML = countries.map(c => row(c.with_data ? "has" : "", c.country, c.country, fmt(c.garages),
+        `${fmt(c.with_data)} of ${fmt(c.garages)} garages have occupancy history`, c.country === st.country)).join("");
+    }
+    function renderCities() {
+      const q = filt("city").value.trim().toLowerCase(), rows = cities.filter(c => !q || c.city.toLowerCase().includes(q));
+      list("city").innerHTML = !st.country ? empty("Choose a country.") : !rows.length ? empty("No city matches.")
+        : rows.map(c => row(c.with_data ? "has" : "", c.city, c.city, fmt(c.garages),
+          `${fmt(c.with_data)} of ${fmt(c.garages)} garages have occupancy history`, c.city === st.city)).join("");
+    }
+    function renderGarages() {
+      const q = filt("garage").value.trim().toLowerCase(), rows = garages.filter(g => !q || g.name.toLowerCase().includes(q));
+      list("garage").innerHTML = !st.city ? empty("Choose a city.") : !rows.length ? empty("No garage matches.")
+        : rows.map(g => row(g.has_data ? "has" : "", g.id, g.name, fmt(g.capacity),
+          g.has_data ? `${g.name}: ${fmt(g.capacity)} spaces, has occupancy history` : `${g.name}: ${fmt(g.capacity)} spaces, capacity only`,
+          g.id === st.garage, picked({ kind: "garage", id: g.id }) ? `<span class="pk-ok">✓</span>` : "")).join("");
+    }
+    function head() {
+      const gname = (garages.find(g => g.id === st.garage) || {}).name;
+      pathEl.textContent = [st.country, st.city, gname].filter(Boolean).join(" › ");
+      if (opts.mode === "add" && st.city) {
+        const on = picked({ kind: "city", country: st.country, city: st.city });
+        addBtn.hidden = false; addBtn.textContent = on ? `✓ ${st.city} added` : `+ Add ${st.city}`;
+      } else addBtn.hidden = true;
+    }
+    function scrollSelected() {
+      for (const l of ["country", "city", "garage"]) {
+        const el = list(l), r = el.querySelector('[aria-selected="true"]');
+        if (r && el.clientHeight) el.scrollTop = Math.max(0, r.offsetTop - el.clientHeight / 2 + r.clientHeight / 2);
+      }
+    }
+    async function setPath({ country = null, city = null, garage = null } = {}) {
+      if (country !== st.country) filt("city").value = "";
+      if (city !== st.city) filt("garage").value = "";
+      Object.assign(st, { country, city, garage });
+      const mine = ++seq;
+      renderCountries();
+      try {
+        cities = country ? await once("pk:c:" + country, () => api(`/api/browse/cities?country=${enc(country)}`)) : [];
+        if (mine !== seq) return;
+        renderCities();
+        garages = country && city ? await once(`pk:g:${country}|${city}`, () => api(`/api/browse/garages?country=${enc(country)}&city=${enc(city)}`)) : [];
+      } catch (e) { cities = cities || []; garages = []; list("garage").innerHTML = empty(esc(e.message)); return; }
+      if (mine !== seq) return;
+      renderGarages(); head(); scrollSelected();
+    }
+    list("country").addEventListener("click", ev => { const b = ev.target.closest("[data-k]"); if (b) setPath({ country: b.dataset.k }); });
+    list("city").addEventListener("click", async ev => {
+      const b = ev.target.closest("[data-k]"); if (!b) return;
+      await setPath({ country: st.country, city: b.dataset.k });
+      if (opts.mode !== "add" && opts.onCity) opts.onCity({ kind: "city", country: st.country, city: st.city });
+    });
+    list("garage").addEventListener("click", ev => {
+      const b = ev.target.closest("[data-k]"), g = b && garages.find(x => x.id === b.dataset.k);
+      if (g) { st.garage = g.id; opts.onGarage({ kind: "garage", id: g.id, name: g.name, city: st.city, country: st.country }); renderGarages(); head(); }
+    });
+    addBtn.addEventListener("click", () => { opts.onCity({ kind: "city", country: st.country, city: st.city }); renderGarages(); head(); });
+    filt("city").addEventListener("input", renderCities);
+    filt("garage").addEventListener("input", renderGarages);
+    det.addEventListener("toggle", () => { if (det.open) scrollSelected(); });
+    once("pk:countries", () => api("/api/browse/countries")).then(d => { countries = d; renderCountries(); renderCities(); renderGarages(); })
+      .catch(e => { list("country").innerHTML = empty(esc(e.message)); });
+    return {
+      setPath, setOpen: b => { det.open = b; }, state: () => ({ ...st }),
+      refresh: () => { renderGarages(); head(); },
+    };
+  }
+  const exPicker = mountPicker(document.getElementById("exPicker"), {
+    mode: "go", onCity: it => { location.hash = cityHash(it.country, it.city); }, onGarage: it => { location.hash = garageHash(it.id); },
+  });
 
   // ---------- status pill ----------
   api("/api/status-summary").then(st => {
@@ -417,7 +545,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
       const top = n.cities.slice(0, 10);
       document.getElementById("ovCities").className = "";
       document.getElementById("ovCities").innerHTML = top.map(c =>
-        `<button type="button" class="cityrow" data-city="${esc(c.city)}"><span class="name">${esc(c.city)}<small>${c.garages}</small></span>` +
+        `<button type="button" class="cityrow" data-city="${esc(c.city)}" data-country="${esc(c.country)}"><span class="name">${esc(c.city)}<small>${c.garages}</small></span>` +
         `<span class="meter"><i style="width:${c.occ}%"></i></span><span class="num" style="text-align:right">${c.occ}%</span></button>`).join("") +
         `<p class="note" style="margin-top:.6rem">Cities with three or more live car parks, weighted by size. <a href="#explore">All cities</a></p>`;
       drawMap(n.garages);
@@ -425,7 +553,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
       document.getElementById("ovStats").innerHTML = `<p class="error">${esc(e.message)}</p>`;
     }
   }
-  document.getElementById("ovCities").addEventListener("click", ev => { const b = ev.target.closest("[data-city]"); if (b) location.hash = `#explore/city/${encodeURIComponent(b.dataset.city)}`; });
+  document.getElementById("ovCities").addEventListener("click", ev => { const b = ev.target.closest("[data-city]"); if (b) location.hash = cityHash(b.dataset.country, b.dataset.city); });
 
   function tiles() {
     // Esri's grey canvas basemap: no API key, quiet enough for the dots to carry the colour
@@ -448,7 +576,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
       if (g.lat == null || g.lon == null) continue;
       L.circleMarker([g.lat, g.lon], { radius: Math.max(3.5, Math.min(10, Math.sqrt(g.capacity) / 2.4)), color: stroke, weight: 1, fillColor: rampColor(g.occ), fillOpacity: .92 })
         .bindTooltip(`<b>${esc(g.name)}</b><br>${esc(g.city)} · ${g.occ}% occupied · ${fmt(g.capacity)} spaces`, { direction: "top" })
-        .on("click", () => { location.hash = `#explore/garage/${encodeURIComponent(g.id)}`; })
+        .on("click", () => { location.hash = garageHash(g.id); })
         .addTo(mapLayer);
     }
     setTimeout(() => map.invalidateSize(), 50);
@@ -462,23 +590,27 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     document.getElementById("exLede").textContent = lede;
   }
   async function renderExploreHome() {
-    setExploreHead("", "Explore a city or garage", "Search for a city or a garage to see how full it is now and in a typical week.");
+    setExploreHead("", "Explore a city or garage", "Search, or browse by country, city and garage, to see how full it is now and in a typical week.");
+    exPicker.setPath({}); exPicker.setOpen(true);
     exBody.innerHTML = `<div class="panel"><h2>Cities reporting now</h2><div class="chips" id="exCities"><span class="skeleton">Loading…</span></div></div>`;
     try {
       const n = await now();
       const all = {};
-      for (const g of n.garages) (all[g.city] ||= { city: g.city, n: 0, cap: 0, occ: 0 }), all[g.city].n++, all[g.city].cap += g.capacity, all[g.city].occ += g.occ * g.capacity;
+      for (const g of n.garages) { const k = g.country + "|" + g.city; (all[k] ||= { city: g.city, country: g.country, n: 0, cap: 0, occ: 0 }); all[k].n++; all[k].cap += g.capacity; all[k].occ += g.occ * g.capacity; }
       const list = Object.values(all).sort((a, b) => b.n - a.n || a.city.localeCompare(b.city));
       document.getElementById("exCities").innerHTML = list.map(c =>
-        `<a class="chip" href="#explore/city/${encodeURIComponent(c.city)}">${esc(c.city)} <span class="muted num">${Math.round(c.occ / c.cap)}%</span></a>`).join("");
+        `<a class="chip" href="${cityHash(c.country, c.city)}">${esc(c.city)} <span class="muted num">${Math.round(c.occ / c.cap)}%</span></a>`).join("");
     } catch (e) { document.getElementById("exCities").innerHTML = `<p class="error">${esc(e.message)}</p>`; }
   }
 
-  async function renderCity(name) {
+  async function renderCity(name, country) {
     setExploreHead(`<a href="#explore">Explore</a> /`, name, "Loading…");
     exBody.innerHTML = `<p class="skeleton">Loading ${esc(name)}…</p>`;
     let d;
-    try { d = await api(`/api/city/${encodeURIComponent(name)}`); } catch (e) { exBody.innerHTML = `<p class="error">${esc(e.message)}</p>`; return; }
+    try { d = await api(`/api/city/${enc(name)}` + (country ? `?country=${enc(country)}` : "")); } catch (e) { exBody.innerHTML = `<p class="error">${esc(e.message)}</p>`; return; }
+    const sameCity = exPicker.state().city === d.city && exPicker.state().country === d.country;
+    exPicker.setPath({ country: d.country, city: d.city });
+    if (!sameCity) exPicker.setOpen(true);
     const live = d.garages.filter(g => g.now != null).length;
     setExploreHead(`<a href="#explore">Explore</a> / ${esc(d.country)}`, d.city,
       `${fmt(d.garages.length)} garages with ${fmt(d.capacity)} spaces; ${live} reporting right now.`);
@@ -501,9 +633,9 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
           <td class="r num">${g.typical ? pct(g.typical.avg * 100) : "–"}</td><td class="r num">${g.typical ? g.typical.full_hours : "–"}</td>
           <td>${g.typical ? spark(g.typical.spark) : ""}</td></tr>`).join("")}</tbody></table></div></div>`;
     if (d.profile) weekChart(document.getElementById("cityWeek"), [{ values: d.profile, color: "var(--accent)", label: d.city }]);
-    exBody.querySelector("tbody").addEventListener("click", ev => { const tr = ev.target.closest("tr[data-id]"); if (tr) location.hash = `#explore/garage/${encodeURIComponent(tr.dataset.id)}`; });
+    exBody.querySelector("tbody").addEventListener("click", ev => { const tr = ev.target.closest("tr[data-id]"); if (tr) location.hash = garageHash(tr.dataset.id); });
     exBody.querySelector("tbody").addEventListener("keydown", ev => { if (ev.key === "Enter" && ev.target.matches("tr[data-id]")) ev.target.click(); });
-    document.getElementById("cityCmp").addEventListener("click", () => { addCompare({ kind: "city", city: d.city }); location.hash = "#compare"; });
+    document.getElementById("cityCmp").addEventListener("click", () => { addCompare({ kind: "city", city: d.city, country: d.country }); location.hash = "#compare"; });
   }
 
   async function renderGarage(id) {
@@ -512,10 +644,15 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     let d;
     try { d = await api(`/api/garage/${encodeURIComponent(id)}`); } catch (e) { exBody.innerHTML = `<p class="error">${esc(e.message)}</p>`; return; }
     const g = d.garage, t = g.typical;
-    setExploreHead(`<a href="#explore">Explore</a> / <a href="#explore/city/${encodeURIComponent(g.city)}">${esc(g.city)}</a>`, g.name,
+    const sameCity = exPicker.state().city === g.city && exPicker.state().country === g.country;
+    exPicker.setPath({ country: g.country, city: g.city, garage: g.id });
+    if (!sameCity) exPicker.setOpen(false);
+    setExploreHead(`<a href="#explore">Explore</a> / <a href="${cityHash(g.country, g.city)}">${esc(g.city)}</a>`, g.name,
       `${g.type} · ${fmt(g.capacity)} spaces · ${g.country}` + (g.now == null && g.last_reading ? ` · last reading ${g.last_reading.replace("T", " ")} UTC` : ""));
     const pk = t ? t.peak : null;
-    const thisYear = new Date().getUTCFullYear();
+    const lastYear = +((g.last_reading || g.first_reading || String(new Date().getUTCFullYear())).slice(0, 4));
+    const firstYear = g.first_reading ? +g.first_reading.slice(0, 4) : lastYear;
+    const years = []; for (let y = firstYear; y <= lastYear; y++) years.push(y);
     exBody.innerHTML = `
       <div class="stats">
         <div class="stat"><b>${g.now != null ? g.now + "%" : "–"}</b><span>${g.now != null ? `occupied at ${esc(g.now_ts.slice(11))} UTC` : "not reporting right now"}</span></div>
@@ -531,26 +668,40 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
         <div class="panel"><h2>Location</h2>${g.lat != null ? `<div class="minimap" id="garMap"></div>` : `<p class="note">No location on file.</p>`}</div>
       </div>
       ${g.price ? pricePanel(g, t) : ""}
-      <div class="panel"><div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem;align-items:center"><h2>Year view</h2>
-        <div class="seg" role="group" aria-label="Year" id="garYears">${[thisYear - 3, thisYear - 2, thisYear - 1, thisYear].map(y => `<button type="button" data-y="${y}" aria-pressed="${y === thisYear}">${y}</button>`).join("")}</div></div>
-        <div class="chart scroll" id="garCal"><p class="skeleton">Loading…</p></div>
-        <div class="ramp"><span>empty</span><span class="bar" style="background:${rampCss()}"></span><span>full · daily average</span></div></div>`;
+      ${g.first_reading ? `<div class="panel"><div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:.6rem 1.2rem;align-items:center"><h2>Year heatmap</h2>
+        <div style="display:flex;flex-wrap:wrap;gap:.6rem">
+          <div class="seg wrap" role="group" aria-label="Year" id="garYears">${years.map(y => `<button type="button" data-y="${y}" aria-pressed="${y === lastYear}">${y}</button>`).join("")}</div>
+          <div class="seg" role="group" aria-label="Time slot" id="garSlots"><button type="button" data-g="1" aria-pressed="false">Hourly</button><button type="button" data-g="2" aria-pressed="true">2-hour</button><button type="button" data-g="4" aria-pressed="false">4-hour</button></div></div></div>
+        <div class="chart heat scroll" id="garHeat"><p class="skeleton">Loading…</p></div>
+        <div class="ramp"><span>empty</span><span class="bar" style="background:${rampCss()}"></span><span>full · average over each slot</span></div>
+        <p class="note">Rows are weeks of the year, the first starting on 1 January. Each row is split into seven day-blocks, Monday to Sunday, and each day-block into time slots, in the garage's local time. Grey is no reading.</p></div>`
+        : `<div class="panel"><h2>Year heatmap</h2><p class="note">This garage has a known capacity but no occupancy history yet.</p></div>`}`;
     if (t) weekChart(document.getElementById("garWeek"), [{ values: t.profile, color: "var(--accent)", label: g.name }]);
     if (g.lat != null && typeof L !== "undefined") {
       const mm = L.map("garMap", { scrollWheelZoom: false, zoomControl: true }).setView([g.lat, g.lon], 15);
       tiles().addTo(mm);
       L.circleMarker([g.lat, g.lon], { radius: 9, color: "#fff", weight: 2, fillColor: rampColor(g.now ?? (t ? t.avg * 100 : 50)), fillOpacity: 1 }).addTo(mm);
     }
-    const loadYear = async y => {
-      document.querySelectorAll("#garYears button").forEach(b => b.setAttribute("aria-pressed", b.dataset.y === String(y) ? "true" : "false"));
-      const el = document.getElementById("garCal");
-      el.innerHTML = `<p class="skeleton">Loading ${y}…</p>`;
-      try { const h = await api(`/api/heatmap?place_id=${encodeURIComponent(g.id)}&year=${y}&granularity=24`); calendar(el, h.grid || {}, y); }
-      catch (e) { el.innerHTML = `<p class="error">${esc(e.message)}</p>`; }
+    let heatYear = lastYear, heatGran = 2, heatSeq = 0;
+    const loadHeat = async () => {
+      const el = document.getElementById("garHeat"); if (!el) return;
+      document.querySelectorAll("#garYears button").forEach(b => b.setAttribute("aria-pressed", b.dataset.y === String(heatYear) ? "true" : "false"));
+      document.querySelectorAll("#garSlots button").forEach(b => b.setAttribute("aria-pressed", b.dataset.g === String(heatGran) ? "true" : "false"));
+      const mine = ++heatSeq;
+      el.innerHTML = `<p class="skeleton">Loading ${heatYear}…</p>`;
+      try {
+        const h = await once(`heat:${g.id}:${heatYear}:${heatGran}`, () => api(`/api/heatmap?place_id=${enc(g.id)}&year=${heatYear}&granularity=${heatGran}`));
+        if (mine !== heatSeq) return;
+        if (h.error) throw new Error(h.error);
+        if (!Object.keys(h.grid || {}).length) { heat = null; el.innerHTML = `<p class="note">No readings in ${heatYear}.</p>`; return; }
+        heat = { el, grid: h.grid, year: heatYear, gran: heatGran }; drawHeat();
+      } catch (e) { heat = null; el.innerHTML = `<p class="error">${esc(e.message)}</p>`; }
     };
-    document.getElementById("garYears").addEventListener("click", ev => { const b = ev.target.closest("button[data-y]"); if (b) loadYear(+b.dataset.y); });
-    document.getElementById("garCmp").addEventListener("click", () => { addCompare({ kind: "garage", id: g.id, name: g.name, city: g.city }); location.hash = "#compare"; });
-    loadYear(thisYear);
+    const gy = document.getElementById("garYears"), gs = document.getElementById("garSlots");
+    if (gy) gy.addEventListener("click", ev => { const b = ev.target.closest("button[data-y]"); if (b) { heatYear = +b.dataset.y; loadHeat(); } });
+    if (gs) gs.addEventListener("click", ev => { const b = ev.target.closest("button[data-g]"); if (b) { heatGran = +b.dataset.g; loadHeat(); } });
+    document.getElementById("garCmp").addEventListener("click", () => { addCompare({ kind: "garage", id: g.id, name: g.name, city: g.city, country: g.country }); location.hash = "#compare"; });
+    if (g.first_reading) loadHeat();
   }
 
   function pricePanel(g, t) {
@@ -584,41 +735,81 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
       <p class="note">Tariff from ${p.source_url ? `<a href="${esc(p.source_url)}" rel="nofollow noopener" target="_blank">the operator's page</a>` : "the operator"}${p.matched_name && p.matched_name !== g.name ? `, listed there as \u201c${esc(p.matched_name)}\u201d` : ""}.</p></div>`;
   }
 
-  // calendar: grid[week][weekday]["0"] = daily average (granularity 24)
-  function calendar(el, grid, year) {
-    const cells = [];
-    for (const [wk, days] of Object.entries(grid)) for (const [wd, slots] of Object.entries(days)) { const v = slots["0"]; if (v != null) cells.push([+wk, +wd, v]); }
-    if (!cells.length) { el.innerHTML = `<p class="note">No readings in ${year}.</p>`; return; }
-    const cw = 13, gap = 2, top = 16, left = 30, w = left + 53 * (cw + gap), h = top + 7 * (cw + gap);
-    const jan1 = Date.UTC(year, 0, 1);
-    let s = `<svg class="cal" viewBox="0 0 ${w} ${h}" style="min-width:${w}px" role="img" aria-label="Daily occupancy through ${year}"><g class="axis">`;
-    ["Mon", "", "Wed", "", "Fri", "", "Sun"].forEach((d, i) => { if (d) s += `<text x="0" y="${top + i * (cw + gap) + 10}">${d}</text>`; });
-    for (let mth = 0; mth < 12; mth++) { const wk = Math.floor((Date.UTC(year, mth, 1) - jan1) / 864e5 / 7); s += `<text x="${left + wk * (cw + gap)}" y="10">${["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][mth]}</text>`; }
-    s += `</g>`;
-    for (const [wk, wd, v] of cells) s += `<rect x="${left + wk * (cw + gap)}" y="${top + wd * (cw + gap)}" width="${cw}" height="${cw}" fill="${rampColor(v)}" data-v="${v}" data-wk="${wk}" data-wd="${wd}"/>`;
-    el.innerHTML = s + `</svg>`;
+  // Year heatmap: grid[week][weekday][slot start hour] = average occupancy, weeks counted from 1 January.
+  // Drawn on a canvas -- up to 53 x 7 x 24 cells -- and read back from the pointer position.
+  let heat = null;
+  function drawHeat() {
+    if (!heat || !heat.el.isConnected) return;
+    const { el, grid, year, gran } = heat;
+    el.innerHTML = "";
+    const css = getComputedStyle(document.documentElement);
+    const none = css.getPropertyValue("--rule-soft").trim() || "#ebeef3", ink = css.getPropertyValue("--ink-3").trim() || "#6e7886";
+    const spd = 24 / gran, weeks = 53, gap = 8, left = 34, top = 40, ch = 11;
+    const maxCw = gran === 4 ? 18 : gran === 2 ? 11 : 6;
+    const cw = Math.max(2, Math.min(maxCw, Math.floor((Math.max(300, el.clientWidth) - left - 6 * gap - 2) / (7 * spd))));
+    const block = spd * cw, w = left + 7 * block + 6 * gap + 2, h = top + weeks * ch + 2, dpr = window.devicePixelRatio || 1;
+    const cv = document.createElement("canvas");
+    cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr); cv.style.width = w + "px"; cv.style.height = h + "px";
+    cv.setAttribute("role", "img"); cv.setAttribute("aria-label", `Occupancy heatmap for ${year}`);
+    const ctx = cv.getContext("2d"); ctx.scale(dpr, dpr);
+    ctx.font = '11px "IBM Plex Mono", ui-monospace, monospace'; ctx.fillStyle = ink;
+    const tick = [6, 12, 24].find(hs => (hs / gran) * cw >= 26);        // hour labels only where they fit
+    for (let wd = 0; wd < 7; wd++) {
+      const x0 = left + wd * (block + gap);
+      ctx.fillStyle = ink; ctx.fillText(DAYS[wd], x0, 14);
+      if (tick) for (let hr = 0; hr < 24; hr += tick) ctx.fillText(String(hr).padStart(2, "0"), x0 + (hr / gran) * cw, 30);
+    }
+    const jan1 = Date.UTC(year, 0, 1), j1wd = (new Date(jan1).getUTCDay() + 6) % 7;
+    const dateOf = (wk, wd) => new Date(jan1 + (wk * 7 + ((wd - j1wd + 7) % 7)) * 864e5);   // the day in that week with that weekday
+    let prev = -1;
+    ctx.fillStyle = ink;
+    for (let wk = 0; wk < weeks; wk++) { const d = dateOf(wk, 0); if (d.getUTCFullYear() === year && d.getUTCMonth() !== prev) { ctx.fillText(MONTHS[d.getUTCMonth()], 0, top + wk * ch + 9); prev = d.getUTCMonth(); } }
+    for (let wk = 0; wk < weeks; wk++) {
+      const wg = grid[String(wk)];
+      for (let wd = 0; wd < 7; wd++) {
+        const dg = wg && wg[String(wd)];
+        for (let sl = 0; sl < spd; sl++) {
+          const v = dg ? dg[String(sl * gran)] : undefined;
+          ctx.fillStyle = v == null ? none : rampColor(v);
+          ctx.fillRect(left + wd * (block + gap) + sl * cw, top + wk * ch, cw > 3 ? cw - 1 : cw, ch - 1);
+        }
+      }
+    }
+    el.appendChild(cv);
     const tip = makeTip(el);
-    el.querySelector("svg").addEventListener("pointermove", ev => {
-      const r = ev.target.closest("rect"); if (!r) { tip.hidden = true; return; }
-      const box = el.getBoundingClientRect();
-      tip.innerHTML = `<div class="k">Week ${+r.dataset.wk + 1}, ${DAYS_LONG[+r.dataset.wd]}</div><div><b>${Math.round(+r.dataset.v)}%</b> occupied on average</div>`;
-      placeTip(tip, el, ev.clientX - box.left + el.scrollLeft, ev.clientY - box.top);
+    cv.addEventListener("pointermove", ev => {
+      const r = cv.getBoundingClientRect(), mx = ev.clientX - r.left, my = ev.clientY - r.top;
+      const wk = Math.floor((my - top) / ch), rel = mx - left, wd = Math.floor(rel / (block + gap)), inb = rel - wd * (block + gap);
+      if (wk < 0 || wk >= weeks || rel < 0 || wd > 6 || inb >= block) { tip.hidden = true; return; }
+      const sl = Math.floor(inb / cw) * gran, d = dateOf(wk, wd), v = grid[String(wk)] && grid[String(wk)][String(wd)] ? grid[String(wk)][String(wd)][String(sl)] : undefined;
+      if (d.getUTCFullYear() !== year) { tip.hidden = true; return; }
+      tip.innerHTML = `<div class="k">${DAYS[wd]} ${d.getUTCDate()} ${MONTHS[d.getUTCMonth()]} ${year}, ${hh(sl)}–${hh((sl + gran) % 24)}</div><div>${v == null ? "no reading" : `<b>${Math.round(v)}%</b> occupied`}</div>`;
+      tip.hidden = false;
+      const tw = tip.offsetWidth, th = tip.offsetHeight;
+      tip.style.left = (mx + 14 + tw > w ? mx - tw - 14 : mx + 14) + "px";
+      tip.style.top = (my - th - 10 < 0 ? my + 14 : my - th - 10) + "px";
     });
-    el.querySelector("svg").addEventListener("pointerleave", () => { tip.hidden = true; });
+    cv.addEventListener("pointerleave", () => { tip.hidden = true; });
   }
 
   // ---------- COMPARE ----------
   let cmpItems = [], cmpDays = 90;
   try { cmpItems = JSON.parse(localStorage.getItem("cmpItems") || "[]").slice(0, 4); } catch (e) { cmpItems = []; }
   const saveCmp = () => { try { localStorage.setItem("cmpItems", JSON.stringify(cmpItems)); } catch (e) { /* storage blocked */ } };
-  const cmpKey = it => it.kind === "city" ? "c:" + it.city : "g:" + it.id;
+  const cmpKey = it => it.kind === "city" ? "c:" + (it.country || "") + "|" + it.city : "g:" + it.id;
   function addCompare(it) {
     if (cmpItems.some(x => cmpKey(x) === cmpKey(it))) return;
     if (cmpItems.length >= 4) cmpItems.shift();
-    cmpItems.push(it.kind === "city" ? { kind: "city", city: it.city } : { kind: "garage", id: it.id, name: it.name, city: it.city });
+    cmpItems.push(it.kind === "city" ? { kind: "city", city: it.city, country: it.country } : { kind: "garage", id: it.id, name: it.name, city: it.city, country: it.country });
     saveCmp();
   }
   mountSearch(document.getElementById("cmpSearch"), it => { addCompare(it); renderCompare(); }, "Add a city or garage to compare");
+  // the same country > city > garage picker as Explore: a city is added with its own button, a garage with a click
+  const cmpPicker = mountPicker(document.getElementById("cmpPicker"), {
+    mode: "add", open: !cmpItems.length,
+    onCity: it => { addCompare(it); renderCompare(); }, onGarage: it => { addCompare(it); renderCompare(); },
+    isPicked: it => cmpItems.some(x => cmpKey(x) === cmpKey(it)),
+  });
   document.getElementById("cmpPeriod").addEventListener("click", ev => {
     const b = ev.target.closest("button[data-days]"); if (!b) return;
     cmpDays = +b.dataset.days;
@@ -629,12 +820,18 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     const x = ev.target.closest("button.x"); if (!x) return;
     cmpItems.splice(+x.dataset.i, 1); saveCmp(); renderCompare();
   });
-  const label = it => it.kind === "city" ? it.city : `${it.name} (${it.city})`;
+  // a label per item; the country is added only where two items share a name (Münster, Germany and Switzerland)
+  const labels = () => {
+    const names = cmpItems.map(it => it.kind === "city" ? it.city : `${it.name} (${it.city})`);
+    return names.map((n, i) => names.filter(x => x === n).length > 1 && cmpItems[i].country ? `${n}, ${cmpItems[i].country}` : n);
+  };
   async function renderCompare() {
+    const lab = labels();
+    if (typeof cmpPicker !== "undefined") cmpPicker.refresh();
     document.getElementById("cmpChips").innerHTML = cmpItems.map((it, i) =>
-      `<span class="chip"><span class="sw" style="background:${SERIES[i]}"></span>${esc(label(it))}<button type="button" class="x" data-i="${i}" aria-label="Remove ${esc(label(it))}">×</button></span>`).join("");
+      `<span class="chip" title="${esc([it.country, it.city].filter(Boolean).join(" › "))}"><span class="sw" style="background:${SERIES[i]}"></span>${esc(lab[i])}<button type="button" class="x" data-i="${i}" aria-label="Remove ${esc(lab[i])}">×</button></span>`).join("");
     const el = document.getElementById("cmpChart");
-    document.getElementById("cmpLegend").innerHTML = cmpItems.length > 1 ? cmpItems.map((it, i) => `<span><i style="background:${SERIES[i]}"></i>${esc(label(it))}</span>`).join("") : "";
+    document.getElementById("cmpLegend").innerHTML = cmpItems.length > 1 ? cmpItems.map((it, i) => `<span><i style="background:${SERIES[i]}"></i>${esc(lab[i])}</span>`).join("") : "";
     if (!cmpItems.length) { el.innerHTML = `<p class="skeleton">Add a city or garage above to start.</p>`; return; }
     el.innerHTML = `<p class="skeleton">Loading…</p>`;
     const end = new Date(), start = new Date(end - cmpDays * 864e5);
@@ -642,7 +839,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     try {
       const d = await api("/api/compare", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({
         start: iso(start), end: iso(end),
-        entities: cmpItems.map(it => ({ scope_type: it.kind === "city" ? "city" : "garage", scope_value: it.kind === "city" ? it.city : it.id, label: label(it) })),
+        entities: cmpItems.map((it, i) => ({ scope_type: it.kind === "city" ? "city" : "garage", scope_value: it.kind === "city" ? it.city : it.id, country: it.country || null, label: lab[i] })),
       }) });
       if (d.error) throw new Error(d.error);
       lineChart(el, d.series.map((s, i) => ({ label: s.label, color: SERIES[i], points: s.data.map(p => [p.date, p.avg_utilisation_pct]) })));
@@ -705,13 +902,18 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
 
   // ---------- routing ----------
   function route() {
-    const h = decodeURIComponent(location.hash.slice(1)) || "overview";
-    const [view, kind, ...rest] = h.split("/");
+    const parts = (location.hash.slice(1) || "overview").split("/").map(x => { try { return decodeURIComponent(x); } catch (e) { return x; } });
+    const [view, kind, ...rest] = parts;
     const v = ["overview", "explore", "compare", "reports", "status"].includes(view) ? view : "overview";
     document.querySelectorAll("section.view").forEach(s => { s.hidden = s.id !== "view-" + v; });
     document.querySelectorAll("nav.sections a").forEach(a => { if (a.dataset.view === v) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
     if (v === "overview") renderOverview();
-    else if (v === "explore") { const arg = rest.join("/"); if (kind === "city" && arg) renderCity(arg); else if (kind === "garage" && arg) renderGarage(arg); else renderExploreHome(); }
+    else if (v === "explore") {
+      // #explore/city/<country>/<city>, the older #explore/city/<city>, or #explore/garage/<id>
+      if (kind === "city" && rest.length) renderCity(rest.length > 1 ? rest[1] : rest[0], rest.length > 1 ? rest[0] : null);
+      else if (kind === "garage" && rest.length) renderGarage(rest[0]);
+      else renderExploreHome();
+    }
     else if (v === "compare") renderCompare();
     else if (v === "status") renderStatus();
     window.scrollTo(0, 0);
@@ -720,6 +922,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
   const retheme = () => {
     if (map) { map._tiles.remove(); map._tiles = tiles().addTo(map); }
     document.getElementById("mapRamp").style.background = rampCss();
+    drawHeat();
     if (cache.now && location.hash.replace("#", "") in { "": 1, overview: 1 }) now().then(n => drawMap(n.garages));
   };
   matchMedia("(prefers-color-scheme: dark)").addEventListener("change", retheme);

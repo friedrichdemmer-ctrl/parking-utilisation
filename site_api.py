@@ -164,25 +164,85 @@ def api_status_summary():
     return jsonify(_cached("status", STATUS_TTL, _status))
 
 
+def _index() -> dict:
+    """{country: {city: [(place_id, name, capacity, has_history), ...]}} for
+    every garage with a known capacity, duplicates of another feed's garage
+    left out. Built once an hour; the browse and search endpoints slice it."""
+    def build():
+        from app import SOURCE_COUNTRY
+        from garage_links import duplicates
+
+        dup = set(duplicates())
+        conn = _db()
+        out: dict = {}
+        for pid, name, city, cap, src, last in conn.execute(
+            "SELECT place_id, place_name, city_name, num_all, source_id, last_observed_ts FROM lots_meta "
+            "WHERE num_all IS NOT NULL AND city_name IS NOT NULL"
+        ):
+            if pid in dup:
+                continue
+            out.setdefault(SOURCE_COUNTRY.get(src or "", "Germany"), {}).setdefault(city, []).append(
+                (pid, name or pid, cap, bool(last)))
+        conn.close()
+        return out
+
+    return _cached("index", 3600, build)
+
+
+# The browse endpoints list one level at a time: countries, then the cities
+# of one country, then the garages of one city. Entries with occupancy
+# history come first, so the useful ones are at the top of long lists
+# (Norway has 398 cities, none with history; the UK 962, a handful).
+
+@bp.route("/api/browse/countries")
+def api_browse_countries():
+    rows = []
+    for country, cs in _index().items():
+        gs = [g for city in cs.values() for g in city]
+        rows.append({"country": country, "cities": len(cs), "garages": len(gs),
+                     "with_data": sum(1 for g in gs if g[3])})
+    return jsonify(sorted(rows, key=lambda r: (r["with_data"] == 0, r["country"])))
+
+
+@bp.route("/api/browse/cities")
+def api_browse_cities():
+    cs = _index().get(request.args.get("country", ""))
+    if cs is None:
+        return jsonify({"error": "Unknown country."}), 404
+    rows = [{"city": city, "garages": len(gs), "with_data": sum(1 for g in gs if g[3])} for city, gs in cs.items()]
+    return jsonify(sorted(rows, key=lambda r: (r["with_data"] == 0, r["city"].lower())))
+
+
+@bp.route("/api/browse/garages")
+def api_browse_garages():
+    gs = _index().get(request.args.get("country", ""), {}).get(request.args.get("city", ""))
+    if gs is None:
+        return jsonify({"error": "Unknown city."}), 404
+    rows = [{"id": pid, "name": name, "capacity": cap, "has_data": has} for pid, name, cap, has in gs]
+    return jsonify(sorted(rows, key=lambda r: (not r["has_data"], r["name"].lower())))
+
+
 @bp.route("/api/search")
 def api_search():
     q = (request.args.get("q") or "").strip()
     if len(q) < 2:
         return jsonify({"cities": [], "garages": []})
+    ql = q.lower()
+    cities = []
+    for country, cs in _index().items():
+        for city, gs in cs.items():
+            if ql in city.lower():
+                cities.append({"city": city, "country": country, "garages": len(gs),
+                               "with_data": sum(1 for g in gs if g[3])})
+    cities.sort(key=lambda c: (not c["city"].lower().startswith(ql), c["with_data"] == 0, -c["garages"], c["city"]))
+    cities = cities[:8]
     like = f"%{q}%"
     conn = _db()
-    cities = [
-        {"city": c, "garages": n}
-        for c, n in conn.execute(
-            """SELECT city_name, COUNT(*) FROM lots_meta WHERE city_name LIKE ? AND num_all IS NOT NULL
-               GROUP BY city_name ORDER BY (city_name LIKE ?) DESC, COUNT(*) DESC LIMIT 8""",
-            (like, f"{q}%"))
-    ]
     skip = _excluded(conn)
     garages = [
-        {"id": pid, "name": name, "city": city, "capacity": cap, "live": bool(last)}
-        for pid, name, city, cap, last in conn.execute(
-            """SELECT place_id, place_name, city_name, num_all, last_observed_ts FROM lots_meta
+        {"id": pid, "name": name, "city": city, "country": _country(src), "capacity": cap, "live": bool(last)}
+        for pid, name, city, cap, last, src in conn.execute(
+            """SELECT place_id, place_name, city_name, num_all, last_observed_ts, source_id FROM lots_meta
                WHERE num_all IS NOT NULL AND (place_name LIKE ? OR city_name LIKE ?)
                ORDER BY (last_observed_ts IS NULL), (place_name LIKE ?) DESC, place_name LIMIT ?""",
             (like, like, f"{q}%", SEARCH_LIMIT * 2))
@@ -219,20 +279,24 @@ GARAGE_COLS = "place_id, place_name, city_name, num_all, latitude, longitude, so
 def api_garage(place_id: str):
     conn = _db()
     row = conn.execute(f"SELECT {GARAGE_COLS} FROM lots_meta WHERE place_id = ? AND num_all IS NOT NULL", (place_id,)).fetchone()
+    first = conn.execute("SELECT MIN(ts) FROM historical_observations WHERE place_id = ?", (place_id,)).fetchone()[0] if row else None
     conn.close()
     if not row:
         return jsonify({"error": "No garage with a known capacity has this id."}), 404
     report = _report()
     now = {g["id"]: g for g in _cached("now", NOW_TTL, _now_snapshot)["garages"]}
-    return jsonify({"garage": _garage_summary(row, report, now), "window": report["window"]})
+    summary = _garage_summary(row, report, now)
+    summary["first_reading"] = (first or "")[:10] or None
+    return jsonify({"garage": summary, "window": report["window"]})
 
 
 @bp.route("/api/city/<path:city>")
 def api_city(city: str):
+    country = request.args.get("country") or None   # Münster, Bruges, Burgdorf and Baden exist in two
     conn = _db()
     skip = _excluded(conn)
     rows = [r for r in conn.execute(f"SELECT {GARAGE_COLS} FROM lots_meta WHERE city_name = ? AND num_all IS NOT NULL", (city,))
-            if r[0] not in skip]
+            if r[0] not in skip and (country is None or _country(r[6]) == country)]
     conn.close()
     if not rows:
         return jsonify({"error": "No garages with a known capacity in this city."}), 404

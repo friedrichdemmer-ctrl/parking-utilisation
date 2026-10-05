@@ -121,7 +121,8 @@ def local_dt(ts: str) -> datetime:
     return datetime.fromisoformat(ts).astimezone(BERLIN)
 
 
-def resolve_scope_lots(conn: sqlite3.Connection, scope_type: str, scope_value: str, operator: str | None):
+def resolve_scope_lots(conn: sqlite3.Connection, scope_type: str, scope_value: str, operator: str | None,
+                       country: str | None = None):
     """Return list of (place_id, num_all, place_name) for the given scope, capacity known only."""
     if scope_type == "garage":
         row = conn.execute(
@@ -130,12 +131,17 @@ def resolve_scope_lots(conn: sqlite3.Connection, scope_type: str, scope_value: s
         ).fetchone()
         return [(row["place_id"], row["num_all"], row["place_name"])] if row else []
     else:  # 'city'
-        q = "SELECT place_id, num_all, place_name FROM lots_meta WHERE city_name = ? AND num_all IS NOT NULL"
+        from garage_links import duplicates
+
+        q = "SELECT place_id, num_all, place_name, source_id FROM lots_meta WHERE city_name = ? AND num_all IS NOT NULL"
         params = [scope_value]
         if operator:
             q += " AND source_id = ?"
             params.append(operator)
-        return [(r["place_id"], r["num_all"], r["place_name"]) for r in conn.execute(q, params).fetchall()]
+        dup = duplicates()   # the same garage reached through two feeds counts once
+        return [(r["place_id"], r["num_all"], r["place_name"]) for r in conn.execute(q, params).fetchall()
+                if r["place_id"] not in dup
+                and (country is None or SOURCE_COUNTRY.get(r["source_id"] or "", "Germany") == country)]
 
 
 def fetch_observations(conn: sqlite3.Connection, place_ids: list[str], start: str | None, end: str | None):
@@ -196,15 +202,20 @@ def compute_slot_of_day(scope_type: str, scope_value: str, operator: str | None,
 
 
 def compute_heatmap(place_id: str, year: int, granularity: int):
-    """Grid keyed by week-of-year (0-based, Jan 1 = week 0) x weekday (0=Mon..6=Sun) x slot-of-day."""
+    """Grid keyed by week-of-year (0-based, Jan 1 = week 0) x weekday (0=Mon..6=Sun) x slot-of-day,
+    in the garage's own local time and against the capacity in force at each reading."""
+    from utilisation_report import COUNTRY_TZ
+    from scrapers.storage import capacity_at, capacity_timeline
+
     conn = get_db()
     meta = conn.execute(
-        "SELECT place_name, city_name, num_all FROM lots_meta WHERE place_id = ?", (place_id,)
+        "SELECT place_name, city_name, num_all, source_id FROM lots_meta WHERE place_id = ?", (place_id,)
     ).fetchone()
     if meta is None or not meta["num_all"]:
         conn.close()
         return None, None, "This garage has no known capacity in the archive."
-    num_all = meta["num_all"]
+    tz = ZoneInfo(COUNTRY_TZ[SOURCE_COUNTRY.get(meta["source_id"] or "", "Germany")])
+    tl = capacity_timeline(conn).get(place_id)
     rows = conn.execute(
         "SELECT ts, free FROM historical_observations WHERE place_id = ? AND ts >= ? AND ts <= ?",
         (place_id, f"{year}-01-01T00:00:00", f"{year}-12-31T23:59:59"),
@@ -213,12 +224,14 @@ def compute_heatmap(place_id: str, year: int, granularity: int):
 
     cells = defaultdict(list)
     for row in rows:
-        dt = local_dt(row["ts"])
+        dt = datetime.fromisoformat(row["ts"]).astimezone(tz)
+        if dt.year != year:
+            continue
+        cap = capacity_at(tl, meta["num_all"], row["ts"])
         week_idx = (dt.timetuple().tm_yday - 1) // 7
-        weekday = dt.weekday()  # 0=Mon .. 6=Sun
         slot = (dt.hour // granularity) * granularity
-        util = max(0.0, min(100.0, (num_all - row["free"]) / num_all * 100))
-        cells[(week_idx, weekday, slot)].append(util)
+        util = max(0.0, min(100.0, (cap - row["free"]) / cap * 100))
+        cells[(week_idx, dt.weekday(), slot)].append(util)
 
     grid: dict = {}
     for (week_idx, weekday, slot), vals in cells.items():
@@ -227,9 +240,10 @@ def compute_heatmap(place_id: str, year: int, granularity: int):
     return meta, grid, None
 
 
-def compute_daily_series(scope_type: str, scope_value: str, operator: str | None, start: str | None, end: str | None):
+def compute_daily_series(scope_type: str, scope_value: str, operator: str | None, start: str | None, end: str | None,
+                         country: str | None = None):
     conn = get_db()
-    lots = resolve_scope_lots(conn, scope_type, scope_value, operator)
+    lots = resolve_scope_lots(conn, scope_type, scope_value, operator, country)
     if not lots:
         conn.close()
         return None, "No garage(s) with known capacity match this selection."
@@ -578,7 +592,7 @@ def api_compare():
     end = payload.get("end")
     series = []
     for e in entities:
-        data, error = compute_daily_series(e["scope_type"], e["scope_value"], None, start, end)
+        data, error = compute_daily_series(e["scope_type"], e["scope_value"], None, start, end, e.get("country"))
         if error:
             return jsonify({"error": f"{e['scope_value']}: {error}"})
         label = e.get("label") or label_for(e["scope_type"], e["scope_value"], None)
