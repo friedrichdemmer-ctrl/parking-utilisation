@@ -61,6 +61,44 @@ SOURCE_COUNTRY = {source: country for country, sources in _COUNTRY_SOURCES.items
 
 app = Flask(__name__)
 
+from site_api import bp as site_api_bp  # noqa: E402  (needs SOURCE_COUNTRY above)
+
+app.register_blueprint(site_api_bp)
+
+# Per-visitor limit on the JSON API, so the archive can be browsed but not
+# bulk-copied by looping over garages. In-memory per gunicorn worker, so the
+# effective limit is a small multiple of this; fine for its purpose.
+API_RATE_LIMIT = 240          # requests
+API_RATE_WINDOW = 5 * 60      # seconds
+_api_hits: dict[str, list[float]] = {}
+
+
+@app.before_request
+def limit_api_rate():
+    if not request.path.startswith("/api/"):
+        return None
+    import time
+
+    ip = request.headers.get("Fly-Client-IP") or request.remote_addr or "?"
+    now = time.time()
+    hits = [t for t in _api_hits.get(ip, []) if now - t < API_RATE_WINDOW]
+    if len(hits) >= API_RATE_LIMIT:
+        _api_hits[ip] = hits
+        return jsonify({"error": "Too many requests. Try again in a few minutes."}), 429
+    hits.append(now)
+    _api_hits[ip] = hits
+    if len(_api_hits) > 5000:  # forget idle visitors
+        for k in [k for k, v in _api_hits.items() if not v or now - v[-1] > API_RATE_WINDOW]:
+            _api_hits.pop(k, None)
+    return None
+
+
+def _downloads_allowed() -> bool:
+    """CSV exports are not public: they need ?token= matching the
+    DOWNLOAD_TOKEN secret (unset = no downloads at all)."""
+    token = os.environ.get("DOWNLOAD_TOKEN")
+    return bool(token) and request.args.get("token") == token
+
 
 @app.before_request
 def check_db_ready():
@@ -875,8 +913,31 @@ def _report_page(kind: str) -> Response:
         return Response("<p>This report has not been built yet; it appears within an hour of a deploy.</p>",
                         status=404, mimetype="text/html")
     head = '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
-    return Response(head + path.read_text(encoding="utf-8") + "</html>", mimetype="text/html",
+    body = path.read_text(encoding="utf-8").replace('<div class="wrap">', SITE_BAR + '<div class="wrap">', 1)
+    return Response(head + body + "</html>", mimetype="text/html",
                     headers={"Cache-Control": "public, max-age=3600"})
+
+
+# The site's header bar, added to the report pages so they read as part of
+# the site. Uses the reports' own colour tokens (--accent, --ink, --rule...).
+SITE_ROOT = "/new"
+SITE_BAR = f"""<style>
+.sitebar{{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem 1.4rem;padding:.7rem max(16px,4vw);border-bottom:1px solid var(--rule);background:var(--surface);font:500 .92rem var(--font-body)}}
+.sitebar a{{color:var(--ink-2);text-decoration:none}}.sitebar a:hover{{color:var(--ink)}}
+.sitebar .sb-brand{{display:flex;align-items:center;gap:.5rem;color:var(--ink);font:600 1.05rem var(--font-display);margin-right:.6rem}}
+.sitebar .sb-on{{color:var(--ink);box-shadow:inset 0 -2px 0 var(--accent)}}
+</style>
+<nav class="sitebar" aria-label="Site"><a class="sb-brand" href="{SITE_ROOT}"><span class="psign" aria-hidden="true">P</span>Parking utilisation</a>
+<a href="{SITE_ROOT}#overview">Overview</a><a href="{SITE_ROOT}#explore">Explore</a><a href="{SITE_ROOT}#compare">Compare</a><a class="sb-on" href="{SITE_ROOT}#reports">Reports</a></nav>"""
+
+
+SITE_PAGE = Path(__file__).parent / "site" / "index.html"
+
+
+@app.route("/new")
+def site_page():
+    """The redesigned site (site/index.html), served beside the old page until it replaces it."""
+    return Response(SITE_PAGE.read_text(encoding="utf-8"), mimetype="text/html", headers={"Cache-Control": "no-cache"})
 
 
 @app.route("/report")
@@ -1100,6 +1161,8 @@ def api_query():
 
 @app.route("/download.csv")
 def download_csv():
+    if not _downloads_allowed():
+        return Response("Downloads are not available.", status=403)
     scope_type = request.args.get("scope_type", "garage")
     scope_value = request.args.get("scope_value", "")
     operator = request.args.get("operator") or None
@@ -1152,6 +1215,8 @@ def api_compare():
 
 @app.route("/download_compare.csv")
 def download_compare_csv():
+    if not _downloads_allowed():
+        return Response("Downloads are not available.", status=403)
     payload = json.loads(request.args.get("payload", "{}"))
     entities = payload.get("entities", [])
     start = payload.get("start")

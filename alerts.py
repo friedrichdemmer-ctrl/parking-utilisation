@@ -69,6 +69,12 @@ def down_sources(conn: sqlite3.Connection, now: datetime | None = None) -> dict[
 
     now = now or datetime.now(timezone.utc)
     live = {a.name for a in ADAPTERS}
+    # When a live adapter takes over an archive source, garages the archive
+    # had but the adapter never reports (Jena: 15 sites with no live counts,
+    # logged by the archive as a daily 0) must not count as gone silent.
+    # So for live sources only garages read since the adapter's first run count.
+    first_run = dict(conn.execute(
+        "SELECT adapter, MIN(run_at) FROM scraper_runs WHERE kind = 'occupancy' AND status = 'success' GROUP BY adapter"))
     by_source: dict[str, list[datetime]] = {}
     for source_id, last in conn.execute(
         """SELECT m.source_id, m.last_observed_ts FROM lots_meta m
@@ -76,6 +82,9 @@ def down_sources(conn: sqlite3.Connection, now: datetime | None = None) -> dict[
         (_iso(now - timedelta(days=ACTIVE_DAYS)),),
     ):
         if source_id and source_id not in DEAD_ARCHIVE_SOURCE_IDS and source_id not in NEVER_ALERT:
+            started = first_run.get(source_id) if source_id in live else None
+            if started and _parse(last) < _parse(started):
+                continue  # never reported by the live adapter
             by_source.setdefault(source_id, []).append(_parse(last))
     down = {}
     for source_id, lasts in by_source.items():
