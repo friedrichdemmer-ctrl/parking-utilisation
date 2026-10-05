@@ -1,4 +1,4 @@
-"""Data endpoints for the public site (site/index.html, served at /new):
+"""Data endpoints for the public site (site/index.html, served at /):
 what is full right now, search, a garage card, a city view, and a one-line
 feed status for the header.
 
