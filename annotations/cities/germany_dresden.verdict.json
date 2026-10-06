@@ -18,13 +18,14 @@
   },
   {
    "index": 2,
-   "verdict": "unreachable",
-   "note": "dresden.de pm_003 returned HTTP 503 on two attempts; search-result snippet only (snippet indicates roughly 450 machines, Mastercard/Visa/PayPal, dated 7 Feb 2019, but not accepted per instructions). Note source_title is a description, not the page's real title ('pm 003' in search results), and 'card or PayPal with no extra fee' / 'no extra fee' could not be checked.",
-   "corrected_text": null,
-   "corrected_title": null,
-   "corrected_date": null,
-   "unconfirmed_text": "A search-engine summary of a February 2019 city press release says Dresden introduced cashless payment by smartphone (E-Parkschein) at about 450 of its parking machines.",
-   "unconfirmed_reason": "The city's website was unavailable when we checked, so we could not read the press release."
+   "verdict": "partly",
+   "note": "Re-checked 2026-10-06 against a copy of the page saved by the site owner (uploads/germany_dresden_2.pdf, printed from dresden.de on 6 Oct 2026): 450 machines, card/PayPal payment, no extra fee and the planned card readers are all stated.",
+   "corrected_text": "A city press release of 1 February 2019 says Dresden began offering mobile, cashless payment by smartphone (E-Parkschein) at about 450 municipal parking machines, with no extra fee. The city said it was also planning card readers on the machines.",
+   "corrected_title": "E-Parkschein: mobil und bargeldlos Parkgebühren bezahlen",
+   "corrected_date": "2019-02-01",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null,
+   "verified_from_upload": true
   },
   {
    "index": 3,
@@ -52,23 +53,25 @@
   },
   {
    "index": 6,
-   "verdict": "unreachable",
-   "note": "dresden.de Schillerplatz archive page returned HTTP 503; the December 2023 status-report PDF also returned 503. Search snippets only (they mention the 24 Jan 2019 council decision on the Air Quality Plan 2017 and resident parking management around Schillerplatz, but the 'implemented' status in the Dec 2023 report was not seen). Also source_title is a mix of two documents with one URL, and the real page title is unconfirmed.",
-   "corrected_text": null,
-   "corrected_title": null,
-   "corrected_date": null,
-   "unconfirmed_text": "A search-engine summary says the city council adopted the Air Quality Plan 2017 on 24 January 2019, and that it includes parking management with a focus on residents around Schillerplatz in Blasewitz.",
-   "unconfirmed_reason": "The city's website was unavailable when we checked, so we could not read the page, and we could not confirm that the measure has been implemented."
+   "verdict": "partly",
+   "note": "Re-checked 2026-10-06 against a copy of the page saved by the site owner (uploads/germany_dresden_6.pdf, printed from dresden.de on 6 Oct 2026): The page dates the council decision and the plan, but is written as a plan: management 'soll eingeführt werden', a citizen consultation ran 29 March–25 April 2021 and was being evaluated (page last changed 24 June 2021). Implementation is not stated.",
+   "corrected_text": "Dresden's city council adopted the Air Quality Plan 2017 on 24 January 2019. It provides for parking management, with a focus on resident parking, around Schillerplatz in Blasewitz. The city's page (last updated June 2021) describes this as planned, following a public consultation in spring 2021; whether it has been introduced is not confirmed.",
+   "corrected_title": "Parken am Schillerplatz",
+   "corrected_date": "2021-06-24",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null,
+   "verified_from_upload": true
   },
   {
    "index": 7,
-   "verdict": "unreachable",
-   "note": "dresden.de Altmarkt page returned HTTP 503; only search snippets available (snippet suggests work ran April 2022 to end of October 2023, which would conflict with the draft's 'completed on schedule, no completion date' phrasing as to date; not verified). Source_title is described as 'as shown in search results', not a confirmed real title.",
-   "corrected_text": null,
-   "corrected_title": null,
-   "corrected_date": null,
-   "unconfirmed_text": "A search-engine summary of the city's page on the Altmarkt renovation says work began in April 2022.",
-   "unconfirmed_reason": "The city's website was unavailable when we checked. The end date, and whether the work finished on schedule, are unconfirmed."
+   "verdict": "partly",
+   "note": "Re-checked 2026-10-06 against a copy of the page saved by the site owner (uploads/germany_dresden_7.pdf, printed from dresden.de on 6 Oct 2026): April 2022 to end October 2023 and about €11.1 million confirmed. The page says the underground car park under the square (Q-Park) stayed usable; the square was fully closed in both years. Page last changed 9 September 2024.",
+   "corrected_text": "The city says the Altmarkt was rebuilt from April 2022 to the end of October 2023 at a cost of about €11.1 million, with the underground car park beneath the square (Q-Park) staying open during the works.",
+   "corrected_title": "Altmarkt",
+   "corrected_date": "2024-09-09",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null,
+   "verified_from_upload": true
   },
   {
    "index": 8,

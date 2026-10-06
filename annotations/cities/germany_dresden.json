@@ -27,14 +27,13 @@
   },
   {
    "topic": "technology",
-   "date": "2019-02",
-   "text": "A search-engine summary of a February 2019 city press release says Dresden introduced cashless payment by smartphone (E-Parkschein) at about 450 of its parking machines.",
-   "source_title": "Dresden city press release (pm_003), February 2019, as shown in search results",
+   "date": "2019-02-01",
+   "text": "A city press release of 1 February 2019 says Dresden began offering mobile, cashless payment by smartphone (E-Parkschein) at about 450 municipal parking machines, with no extra fee. The city said it was also planning card readers on the machines.",
+   "source_title": "E-Parkschein: mobil und bargeldlos Parkgebühren bezahlen",
    "source_url": "https://www.dresden.de/de/rathaus/aktuelles/pressemitteilungen/archiv/2019/02/pm_003.php",
-   "confidence": "unconfirmed",
+   "confidence": "medium",
    "id": 2,
-   "checked": "unconfirmed",
-   "unconfirmed_reason": "The city's website was unavailable when we checked, so we could not read the press release."
+   "checked": "partly"
   },
   {
    "topic": "technology",
@@ -68,25 +67,23 @@
   },
   {
    "topic": "regulation",
-   "date": "2019-01",
-   "text": "A search-engine summary says the city council adopted the Air Quality Plan 2017 on 24 January 2019, and that it includes parking management with a focus on residents around Schillerplatz in Blasewitz.",
-   "source_title": "Landeshauptstadt Dresden: Parken Schillerplatz (archive page) and Luftreinhalteplan 2017 status report, as shown in search results",
+   "date": "2021-06-24",
+   "text": "Dresden's city council adopted the Air Quality Plan 2017 on 24 January 2019. It provides for parking management, with a focus on resident parking, around Schillerplatz in Blasewitz. The city's page (last updated June 2021) describes this as planned, following a public consultation in spring 2021; whether it has been introduced is not confirmed.",
+   "source_title": "Parken am Schillerplatz",
    "source_url": "https://www.dresden.de/de/stadtraum/planen/stadtentwicklung/archiv/parken-schillerplatz.php",
-   "confidence": "unconfirmed",
+   "confidence": "medium",
    "id": 6,
-   "checked": "unconfirmed",
-   "unconfirmed_reason": "The city's website was unavailable when we checked, so we could not read the page, and we could not confirm that the measure has been implemented."
+   "checked": "partly"
   },
   {
    "topic": "demand",
-   "date": "2022-04",
-   "text": "A search-engine summary of the city's page on the Altmarkt renovation says work began in April 2022.",
-   "source_title": "Landeshauptstadt Dresden: Altmarkt (Sanierung), as shown in search results",
+   "date": "2024-09-09",
+   "text": "The city says the Altmarkt was rebuilt from April 2022 to the end of October 2023 at a cost of about €11.1 million, with the underground car park beneath the square (Q-Park) staying open during the works.",
+   "source_title": "Altmarkt",
    "source_url": "https://www.dresden.de/de/stadtraum/zentrale-projekte/altmarkt-sanierung.php",
-   "confidence": "unconfirmed",
+   "confidence": "medium",
    "id": 7,
-   "checked": "unconfirmed",
-   "unconfirmed_reason": "The city's website was unavailable when we checked. The end date, and whether the work finished on schedule, are unconfirmed."
+   "checked": "partly"
   },
   {
    "topic": "demand",
