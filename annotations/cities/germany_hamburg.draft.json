@@ -1,0 +1,154 @@
+{
+  "country": "Germany",
+  "city": "Hamburg",
+  "researched": "2026-10-06",
+  "summary": "Hamburg made the Jungfernstieg largely car-free from October 2020, set a 2030 goal of 80 percent of trips by walking, cycling and public transport, and in 2026 raised on-street parking fees for the first time since 2022 while piloting licence-plate-based digital parking control. Westfield Hamburg-Überseequartier opened in April 2025 with about 2,500 parking spaces and a ticketless, dynamically priced car park, and a city-centre garage at Gröninger Hof is being converted into housing. Public charging grew to more than 5,000 points by April 2026, including new charge points in APCOA and MediaMarkt garages in the centre.",
+  "items": [
+    {
+      "topic": "regulation",
+      "date": "2020-08",
+      "text": "Hamburg presented plans in August 2020 to make the Jungfernstieg largely car-free from October 2020, leaving it to public transport, deliveries and cyclists, with a fuller reconstruction to follow from autumn 2021.",
+      "source_title": "Plans to make Jungfernstieg free of cars presented",
+      "source_url": "https://hamburg-business.com/en/news/plans-make-jungfernstieg-free-cars-presented",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2019-01",
+      "text": "In a February 2020 answer to a parliamentary question, the Senate said the P+R annual card price was cut from 200 to 100 euros on 1 January 2019, and that by the end of 2019 the P+R operating company had taken over almost all district P+R sites and introduced paid parking almost everywhere, with live free-space display.",
+      "source_title": "Drucksache 21/20019: Unsinnige rot-grüne Umbau- und Gebührenabsichten für Park+Ride am U-Bahnhof Ohlstedt – Wann werden die Planungen endlich vorgelegt?",
+      "source_url": "https://www.kleibauer-cdu.de/image/inhalte/666_unsinnige_rot_gruene_umbau_und_gebuehrenabsichten_fuer_park_ride_am_u_bahnhof_ohlstedt_wann_werden_die_planungen_endlich_vorgelegt.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2023-11-28",
+      "text": "The Senate adopted a mobility transition strategy aiming for 80 percent of trips to be made by walking, cycling and public transport by 2030, with expanding public transport through the Hamburg-Takt as its first field of action.",
+      "source_title": "Senatsbeschluss: Strategie Mobilitätswende",
+      "source_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bvm/die-themen-der-behoerde/verkehrsentwicklungsplanung/sump-295450",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-05-19",
+      "text": "The transport authority announced the first on-street parking fee rise since 2022: the city-centre zone goes from 3.50 to 4.00 euros per hour, the other zones also rise by 50 cents, and the resident permit rises from 65 to 70 euros when applied for online. Meters were to switch to the new fees step by step over the following weeks, and private electric cars keep free parking at meters.",
+      "source_title": "Faire Gebührenanpassung beim Parken im Rahmen der Inflationsentwicklung",
+      "source_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bvm/aktuelles/pressemeldungen/faire-gebuehrenanpassung-beim-parken-im-rahmen-der-inflationsentwicklung-1176196",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026",
+      "text": "A city page on electric mobility says cars with an E plate may park free at all parking meters up to the maximum time, but that under current law this exemption is set to end on 31 December 2026.",
+      "source_title": "6. Emissionsfrei (unterwegs) in Hamburg",
+      "source_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bwai/themen/elektromobilitaet/6-emissionsfrei-unterwegs-in-hamburg-1056962",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-07-07",
+      "text": "A pilot started in ten neighbourhood parking areas in Harvestehude and Borgfelde/Hohenfelde/Uhlenhorst. Drivers enter their licence plate at the meter or in an app instead of displaying a paper ticket or permit, and a camera-equipped scan car checks plates against stored parking rights.",
+      "source_title": "Pilotprojekt zur Digitalisierung des Parkraummanagements startet ab 7. Juli in zwei Quartiersparkgebieten",
+      "source_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bvm/aktuelles/pressemeldungen/-abschaffung-der-zettelwirtschaft-1187802",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-07-08",
+      "text": "The city extended its bookable 'Feierabendparken' scheme to three REWE and PENNY supermarket car parks, which residents can book overnight and on Sundays for 3 euros per night. The city says Hamburg is the first city in Germany to include these chains.",
+      "source_title": "Feierabendparken in Hamburg: Angebot wird auf REWE und PENNY ausgeweitet",
+      "source_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bvm/aktuelles/pressemeldungen/feierabendparken-in-hamburg-wird-ausgeweitet-1194984",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2025-04-08",
+      "text": "Westfield Hamburg-Überseequartier in HafenCity opened on 8 April 2025, a mixed-use quarter with about 170 shops, restaurants and leisure venues, a cinema, hotels and flats.",
+      "source_title": "Überseequartier Hamburg: So sieht es im neuen HafenCity-Shoppingzentrum aus",
+      "source_url": "https://www.entwicklungsstadt.de/ueberseequartier-hamburg-so-sieht-es-im-neuen-hafencity-shoppingzentrum-aus/",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-10",
+      "text": "As of October 2026, Westfield's own parking page lists about 2,500 car spaces open 24 hours, dynamic pricing with a daily maximum of 39 euros, and a free first hour for members of its customer club.",
+      "source_title": "Parken | Westfield Hamburg-Überseequartier",
+      "source_url": "https://www.westfield.com/de/germany/hamburg/parken",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2025",
+      "text": "According to its equipment supplier, the Westfield Hamburg-Überseequartier car park went live in 2025 with ticketless entry using 34 licence-plate-recognition cameras, dynamic pricing, camera-based space guidance and mobile payment.",
+      "source_title": "Reference · Inner-city quarter",
+      "source_url": "https://designa.com/westfield-hamburg",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2025-04-28",
+      "text": "The city announced that a car park at Neue Gröningerstraße 12 in the Altstadt (Gröninger Hof) is to become a cooperative housing scheme with 90 subsidised flats. Preparatory work was to start in May 2025 and demolition and conversion in summer 2025.",
+      "source_title": "Parkhaus wird Wohnhaus",
+      "source_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/aktuelles/pressemeldungen/parkhaus-wird-wohnhaus-im-groeninger-hof-koennen-90-oeffentlich-gefoerderte-wohnungen-entstehen-1053378",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2024-08",
+      "text": "After the KaDeWe Group filed for insolvency in January 2024, its three department stores, including the Alsterhaus in Hamburg, moved to a new operating company under the Thai Central Group and continued trading without a break.",
+      "source_title": "KaDeWe Group: „Drei-Häuser-Lösung“ mit neuer Betreibergesellschaft",
+      "source_url": "https://fashionunited.de/nachrichten/business/kadewe-group-drei-hauser-losung-mit-neuer-betreibergesellschaft/2024080157586",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2024-09-11",
+      "text": "E.ON opened 18 public fast-charging points (50 and 150 kW) on the seventh deck of the car park at the new MediaMarkt flagship at Mönckebergstraße 1. They are open to all drivers during the car park's opening hours.",
+      "source_title": "E.ON eröffnet Ladepark an MediaMarkt-Filiale in Hamburg",
+      "source_url": "https://www.electrive.net/2024/09/11/e-on-eroeffnet-ladepark-an-mediamarkt-filiale-in-hamburg/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2025",
+      "text": "APCOA reported that Hamburg was the focus of its 2025 charging roll-out, with 55 charging points activated at its Hanseviertel, Gänsemarkt, Elbphilharmonie and Blankenese P1/P2 sites.",
+      "source_title": "Apcoa realisierte 2025 gut 300 Ladepunkte in seinen Parkhäusern",
+      "source_url": "https://www.electrive.net/2026/01/14/apcoa-realisierte-2025-gut-300-ladepunkte-in-seinen-parkhaeusern/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2026-04-01",
+      "text": "Hamburg counted 5,063 public charging points on 1 April 2026, about 40 percent more than a year earlier. The growth was helped by a concession model in use since 2025, under which several private operators each build 500 public charging points.",
+      "source_title": "Hamburg zählt mehr als 5.000 öffentliche Ladepunkte",
+      "source_url": "https://www.electrive.net/2026/06/02/hamburg-zaehlt-mehr-als-5-000-oeffentliche-ladepunkte/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2024",
+      "text": "The HVV transport network recorded more than 1.1 billion journeys in 2024, above its previous 2019 record, with about 2.7 million riders on an average weekday, up 6 percent on the year before.",
+      "source_title": "Hamburg, Nürnberg, Berlin: Boom beim Nahverkehr",
+      "source_url": "https://www.zfk.de/mobilitaet/oepnv/hamburg-nuernberg-berlin-boom-beim-nahverkehr",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2024",
+      "text": "The economics authority reported about 16.1 million overnight stays in 2024, 1.1 percent more than in 2023, plus a record 1.3 million cruise passengers and hotel occupancy of 77 percent.",
+      "source_title": "Neue Spitzenwerte – Hamburgs Tourismuswirtschaft hält weiter Kurs",
+      "source_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bwai/aktuelles/pressemeldungen/bwi-2025-02-18-hamburgs-tourismuswirtschaft-haelt-weiter-kurs-1023088",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "P+R fees after 2019 (current day, 30-day and annual prices, any changes linked to the Deutschlandticket): the official pr.hamburg homepage gives no prices or dated news.",
+    "Price changes at city-centre garages run by Contipark, APCOA, Q-Park or the Alsterhaus/Alstertal operators, apart from Westfield's current published rates.",
+    "Garage openings, closures or sales by Contipark, Q-Park or ECE in Hamburg, and what happened to parking at the Galeria/Karstadt sites (the Kaufhof Mönckebergstraße closure in October 2020 was found only in trade press, with nothing about its parking).",
+    "How many on-street parking spaces were removed citywide since 2019, and the 2025 SPD/Green coalition's 'Masterplan Parken' (the only sources found were inaccessible or partisan).",
+    "Building work that changed access to the centre or to specific garages (e.g. U5, Hauptbahnhof, Jungfernstieg reconstruction).",
+    "Footfall counts for Mönckebergstraße/Spitalerstraße and figures on remote work; only one secondary report of +8% on Neuer Wall in Q1 2025 was found, which was left out as too thin.",
+    "Stromnetz Hamburg / Hamburger Energienetze programmes aimed specifically at charging in garages.",
+    "Parking-app market shares and the city's on-street guidance system (only undated or pre-2019 sources found)."
+  ]
+}

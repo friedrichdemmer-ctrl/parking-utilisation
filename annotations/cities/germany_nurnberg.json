@@ -1,0 +1,180 @@
+{
+ "country": "Germany",
+ "city": "Nürnberg",
+ "researched": "2026-10-06",
+ "verified": "2026-10-06",
+ "summary": "In December 2019 Nürnberg's traffic committee decided to close the Weinmarkt (as a trial), the Bergstraße and the Maxbrücke to car traffic, and in January 2021 a council committee adopted a Mobilitätsbeschluss that plans fewer street spaces in favour of pedestrians and greenery; by February 2022 all formerly free on-street spaces in the Altstadt had become paid, time-limited spaces for non-residents. The former Kaufhof garage, closed since June 2023, reopened in November 2024 on behalf of the city, run by Goldbeck with number-plate recognition. The Christkindlesmarkt was cancelled in 2020 and 2021 and the city expected about two million visitors in 2024, VAG reported a record of more than 160 million passengers in 2024, and pedestrian counts on the main shopping streets rose in 2025.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2019-12-11",
+   "text": "Nürnberg's traffic committee decided to close the Weinmarkt (on a trial basis), the Bergstraße and the Maxbrücke to car traffic in the Altstadt; tourist buses, emergency vehicles and taxis may still cross the Maxbrücke. The local CSU criticised the plan for lacking an overall Altstadt concept.",
+   "source_title": "CSU-Positionspapier forderte ein Gesamtkonzept, das über Sperrungen hinausgeht: Aktuelles Update & Umfrage: Autos sollen aus der Altstadt raus - Weinmarkt, Bergstraße und Maxbrücke betroffen - Nürnberg",
+   "source_url": "https://www.marktspiegel.de/nuernberg/c-lokales/aktuelles-update-und-umfrage-autos-sollen-aus-der-altstadt-raus-weinmarkt-bergstrasse-und-maxbruecke-betroffen_a53451",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2021-01-27",
+   "text": "The city council's holiday committee (Ferienausschuss) adopted the 'Mobilitätsbeschluss für Nürnberg' with a broad cross-party majority, targeting a rise in the share of trips on foot, by bike and by public transport from 61% to about 68% by 2030. Its parking approach is to reorganise parking in favour of pedestrians and greenery, with neighbourhood garages under parking management and fewer spaces in public space.",
+   "source_title": "Mobilitätsbeschluss für Nürnberg – Verkehrsplanung Nürnberg",
+   "source_url": "https://www.nuernberg.de/internet/verkehrsplanung/mobilitaetsbeschluss.html",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2021-05",
+   "text": "A city flyer explained the switch of on-street parking management in the Altstadt, which the council's traffic committee had decided. All previously free spaces become mixed-use: permit holders park without limit, everyone else pays and is time-limited, and the control hours run 8:00 to 22:00. Stated goals include more long-stay parkers using the city-centre garages and fewer on-street spaces in the Altstadt. Areas B and C had already switched, area A was due from August 2021, and all areas were due by the end of 2021.",
+   "source_title": "Umstellung der Parkraumbewirtschaftung in der Altstadt (Stadt Nürnberg, Verkehrsplanungsamt, flyer)",
+   "source_url": "https://www.nuernberg.de/imperia/md/zentral/dokumente/pressemitteilungen/2021/210721_parkraum_altstadt_flyer.pdf",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-02",
+   "text": "Citing a city press release, a local paper reported that the Altstadt switch was finished in February 2022, after zones A to C in 2021 and zone D (south of the Pegnitz) from December 2021. Non-residents can now park on the former free spaces only by paying, for up to four hours, while residents with permits park free.",
+   "source_title": "Parken in Nürnberg: Neue Regelungen für Bewohnerparken",
+   "source_url": "https://www.marktspiegel.de/nuernberg/c-lokales/neue-regelungen-fuer-bewohnerparken_a81457",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-02-22",
+   "text": "Bavaria's interior ministry decided to keep the cap on resident parking permits at 30.70 euros a year, after putting the question off in 2023. Nürnberg was reported as favouring a higher cap.",
+   "source_title": "Parkgebühren für Anwohner in Franken - Aufatmen nach Forderung höherer Preise",
+   "source_url": "https://www.nordbayern.de/bayern/parkgebuhren-fur-anwohner-in-franken-aufatmen-nach-forderung-hoherer-preise-1.14589567",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-06",
+   "text": "The Galeria Kaufhof store on Königstraße closed in June 2023 and the city bought the building, which has a 220-space garage on Breite Gasse, in October 2024. Temporary uses began in September 2025, anchor tenant Wöhrl is to use the building until summer 2028, and in January 2026 the council decided to start a structured selection process for the site's long-term development.",
+   "source_title": "Kaufhof in der Königstraße – Nürnberg – deine Stadt",
+   "source_url": "https://www.nuernberg.de/internet/stadtportal/kaufhof.html",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-11-29",
+   "text": "The former Kaufhof garage on Frauengasse (access via Kornmarkt and Frauengasse), closed since June 2023, reopened on 29 November 2024 with 220 spaces, run by Goldbeck Parking Services for the city. It uses barrier-free number-plate recognition with cashless pay machines, and the opening tariff for short-stay parkers is 5 euros per 24 hours.",
+   "source_title": "Nachrichten aus dem Rathaus: Ehemaliges Kaufhof-Parkhaus wiedereröffnet",
+   "source_url": "https://www.nuernberg.de/presse/mitteilungen/pm_24473.html",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-12-11",
+   "text": "HIH Invest signed PARK ONE as the new operator of the underground garage below Rosa-Luxemburg-Platz (268 spaces, including EV charging), with the lease due to start after renovation work finishes in spring 2025.",
+   "source_title": "HIH Invest gewinnt PARK ONE als neuen Betreiber für Tiefgarage in Nürnberg",
+   "source_url": "https://www.konii.de/?p=157073",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2021-07-27",
+   "text": "N-ERGIE opened its 'Parkhaus der Zukunft' on its site in the Sandreuth district with 338 spaces and 128 EV charge points. Spaces can be reserved by app and a display assigns a space after a camera reads the number plate; it works with seven other Nürnberg and Fürth garages, where prices in participating outer garages are lowered when city-centre air pollution is high.",
+   "source_title": "N-Ergie eröffnet das „Parkhaus der Zukunft“",
+   "source_url": "https://www.zfk.de/mobilitaet/e-mobilitaet/n-ergie-eroeffnet-das-parkhaus-der-zukunft",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2019-03-29",
+   "text": "N-ERGIE and infra fürth announced a federally co-funded project to fit six Nürnberg and four Fürth garages outside the city centres with 3,100 occupancy sensors and 370 charge points. It also included a platform whose prices could vary with traffic and air pollution, with completion planned for the end of 2020.",
+   "source_title": "N-Ergie und Infrafürth planen Dynamische Preise in öffentlichen Parkhäusern",
+   "source_url": "https://www.zfk.de/mobilitaet/oepnv/n-ergie-und-infrafuerth-planen-dynamische-preise-in-oeffentlichen-parkhaeusern",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2024-02-28",
+   "text": "N-ERGIE listed EV charge points at Nürnberg park-and-ride sites: 36 at Herrnhütte, 32 at Langwasser-Süd and 26 at Am Wegfeld. Parking there is free with a valid public-transport ticket.",
+   "source_title": "Parkplätze und Parken in Nürnberg: Unsere Tipps",
+   "source_url": "https://magazin.n-ergie.de/artikel/parkplaetze-und-parken-in-nuernberg-unsere-tipps/",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026",
+   "text": "The city's parking page describes a guidance system covering over 5,300 spaces in 19 city-centre garages, updated every 15 minutes. It puts on-street fees at usually 2.50 euros an hour in the Altstadt and its immediate surroundings and 2 euros an hour elsewhere, and says all spaces can be paid with the PayByPhone app.",
+   "source_title": "Parken in Nürnberg",
+   "source_url": "https://www.nuernberg.de/internet/stadtportal/parken.html",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2021-11-19",
+   "text": "The Christkindlesmarkt was cancelled for a second year in a row after Bavaria called off all Christmas markets because of the COVID-19 situation, following the 2020 cancellation.",
+   "source_title": "Nürnberger Christkindlesmarkt 2021 abgesagt - Schuld ist Corona",
+   "source_url": "https://www.infranken.de/lk/nuernberg/nuernberger-christkindlesmarkt-2021-abgesagt-weihnachtsmarkt-faellt-wegen-corona-aus-art-5338512",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-12-23",
+   "text": "Ahead of the 2024 Christkindlesmarkt closing on 24 December, the city said it expected about two million visitors.",
+   "source_title": "Nachrichten aus dem Rathaus: Christkindlesmarkt 2024 mit rund zwei Millionen Gästen",
+   "source_url": "https://www.nuernberg.de/presse/mitteilungen/pm_24553.html",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2024",
+   "text": "VAG, the Nürnberg transport operator, carried a record of more than 160 million passengers in 2024, up from 154 million in 2023. Subscriptions reached 281,000, including 259,000 Deutschlandtickets, which VAG put at more than 180% above April 2023, the last month before the ticket was introduced.",
+   "source_title": "VAG Geschäftsbericht 2024",
+   "source_url": "https://www.vag.de/fileadmin/user_upload/06_dokumente/Daten_und_Fakten/VAG-Geschaeftsbericht-2024.pdf",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-01-29",
+   "text": "The city reported rising pedestrian counts in 2025 from its laser counters. Königstraße had about 14 million passers-by (+2.6%), Karolinenstraße about 13.2 million (+3%) and Ludwigsplatz about 8 million (+6.9%), while Breite Gasse recorded about 6.6 million despite ongoing works.",
+   "source_title": "Nachrichten aus dem Rathaus: Passantenfrequenz 2025: Positive Entwicklung in der Innenstadt",
+   "source_url": "https://www.nuernberg.de/presse/mitteilungen/pm_26881.html",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Tariff changes at PSN (Parkhaus Service Nürnberg) garages: no dated source found; aggregator pages show current prices only, with no history.",
+  "Adlerparkhaus and the DB BahnPark / COLOGNE Parkhaus Service Hauptbahnhof garage: no dated operator news found.",
+  "On-street fee changes 2019-2026: the fee ordinance found dates from 2013 (amended 2015); no later change found.",
+  "Whether the N-ERGIE/infra fürth dynamic-pricing platform went live as planned, and in which garages, was not confirmed beyond the 2021 Sandreuth report.",
+  "Number of EV charge points inside the Altstadt garages: not found.",
+  "Effects of remote work on centre visits: no Nürnberg-specific source found.",
+  "Park-and-ride policy changes and Parkleitsystem upgrades: no dated source found.",
+  "Christkindlesmarkt 2025 visitor total: not checked."
+ ],
+ "dropped": {}
+}
