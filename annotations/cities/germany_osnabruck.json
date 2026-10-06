@@ -12,6 +12,7 @@
    "source_title": "Anfrage nach dem Umweltinformationsgesetz zum Parkraummanagement (reply of the Oberbürgermeisterin, Stadt Osnabrück, to Deutsche Umwelthilfe)",
    "source_url": "https://media.frag-den-staat.de/files/foi/789026/2022-09-14-anfrageduh-antwort.pdf",
    "confidence": "high",
+   "id": 0,
    "checked": "supported"
   },
   {
@@ -21,6 +22,7 @@
    "source_title": "Anfrage nach dem Umweltinformationsgesetz zum Parkraummanagement (reply of the Oberbürgermeisterin, Stadt Osnabrück, to Deutsche Umwelthilfe)",
    "source_url": "https://media.frag-den-staat.de/files/foi/789026/2022-09-14-anfrageduh-antwort.pdf",
    "confidence": "high",
+   "id": 1,
    "checked": "supported"
   },
   {
@@ -30,6 +32,7 @@
    "source_title": "Anfrage nach dem Umweltinformationsgesetz zum Parkraummanagement (reply of the Oberbürgermeisterin, Stadt Osnabrück, to Deutsche Umwelthilfe)",
    "source_url": "https://media.frag-den-staat.de/files/foi/789026/2022-09-14-anfrageduh-antwort.pdf",
    "confidence": "high",
+   "id": 2,
    "checked": "supported"
   },
   {
@@ -39,6 +42,7 @@
    "source_title": "Satzung über die Gebühren für Bewohnerparkausweise in der Stadt Osnabrück",
    "source_url": "https://fraktion-gruene-os.de/ratspolitik/antraege/ratsantraege-einzelansicht/satzung-ueber-die-gebuehren-fuer-bewohnerparkausweise-in-der-stadt-osnabrueck",
    "confidence": "high",
+   "id": 3,
    "checked": "supported"
   },
   {
@@ -48,6 +52,7 @@
    "source_title": "Bahnhofsgarage: Umstieg vom Auto auf die Bahn noch attraktiver (Stadtwerke Osnabrück)",
    "source_url": "https://www.stadtwerke-osnabrueck.de/bahnhofsgarage-umstieg-vom-auto-auf-die-bahn-noch-attraktiver-ddd4a24f021f0bf8",
    "confidence": "medium",
+   "id": 4,
    "checked": "supported"
   },
   {
@@ -57,6 +62,7 @@
    "source_title": "2€ statt 1,50€ in der erste Stunde geplant – Wird Parken in der Stadt Osnabrück teurer?",
    "source_url": "https://www.hasepost.de/2e-statt-150e-in-der-erste-stunde-geplant-wird-parken-in-der-stadt-osnabrueck-teurer-289340/",
    "confidence": "medium",
+   "id": 5,
    "checked": "supported"
   },
   {
@@ -66,6 +72,7 @@
    "source_title": "Osnabrück bekommt jetzt die teuersten Parktarife weit und breit",
    "source_url": "https://www.hasepost.de/osnabrueck-bekommt-jetzt-die-teuersten-parktarife-weit-und-breit-415622/",
    "confidence": "medium",
+   "id": 6,
    "checked": "partly"
   },
   {
@@ -75,6 +82,7 @@
    "source_title": "Per Karte oder Smartphone vergünstigt parken (Stadtwerke Osnabrück)",
    "source_url": "https://www.stadtwerke-osnabrueck.de/per-karte-oder-smartphone-verguenstigt-parken-289d1bc9cc7508a4",
    "confidence": "high",
+   "id": 7,
    "checked": "supported"
   },
   {
@@ -84,6 +92,7 @@
    "source_title": "Neuer Bargeldlos-Tarif ab 01. Juli 2024 (OPG)",
    "source_url": "https://www.parken-osnabrueck.de/unternehmen/aktuelles/artikel/neuer-bargeldlos-tarif.html",
    "confidence": "medium",
+   "id": 8,
    "checked": "partly"
   },
   {
@@ -93,6 +102,7 @@
    "source_title": "Stadtwerke Osnabrück ziehen eigene Ladekarten für Stromtanken zurück (ZfK)",
    "source_url": "https://www.zfk.de/mobilitaet/e-mobilitaet/stadtwerke-osnabrueck-ziehen-eigene-ladekarten-fuer-stromtanken-zurueck",
    "confidence": "medium",
+   "id": 9,
    "checked": "supported"
   },
   {
@@ -102,6 +112,7 @@
    "source_title": "Parken & Laden in Osnabrück (Stadtwerke Osnabrück)",
    "source_url": "https://www.stadtwerke-osnabrueck.de/mobilitaet/parken",
    "confidence": "medium",
+   "id": 10,
    "checked": "supported"
   },
   {
@@ -111,6 +122,7 @@
    "source_title": "Schrittweise Sanierung der Kollegienwall-Garage bis 2028 (OPG)",
    "source_url": "https://www.parken-osnabrueck.de/unternehmen/aktuelles/artikel/sanierungsarbeiten-kollegienwall-garage-bis-2028.html",
    "confidence": "high",
+   "id": 11,
    "checked": "supported"
   },
   {
@@ -120,6 +132,7 @@
    "source_title": "Parkleitsystem vom 06.10. bis 09.10.2026 zeitweise außer Betrieb (OPG)",
    "source_url": "https://www.parken-osnabrueck.de/unternehmen/aktuelles/artikel/parkleitsystem-zeitweise-ausser-betrieb.html",
    "confidence": "high",
+   "id": 12,
    "checked": "supported"
   },
   {
@@ -129,6 +142,7 @@
    "source_title": "Investor bläst Kauf des früheren Osnabrücker Galeria-Hauses ab (TextilWirtschaft)",
    "source_url": "https://www.textilwirtschaft.de/fashion-management/investor-blaest-kauf-des-frueheren-osnabruecker-galeria-hauses-ab-90908",
    "confidence": "medium",
+   "id": 13,
    "checked": "supported"
   }
  ],

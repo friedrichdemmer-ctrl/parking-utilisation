@@ -95,8 +95,16 @@ def _ev_raw(country: str, city: str) -> dict:
 
 
 def notes(country: str, city: str) -> dict | None:
+    """Fact-checked sources (cities/<slug>.json) plus, where written, the briefing prose that cites
+    them by item id (cities/narratives/<slug>.json)."""
     path = NOTES_DIR / f"{slug(country, city)}.json"
-    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
+    if not path.exists():
+        return None
+    out = json.loads(path.read_text(encoding="utf-8"))
+    narrative = NOTES_DIR / "narratives" / f"{slug(country, city)}.json"
+    if narrative.exists():
+        out["narrative"] = json.loads(narrative.read_text(encoding="utf-8"))
+    return out
 
 
 def build(country: str, city: str, util_garages: list[dict], trends: dict | None) -> dict | None:

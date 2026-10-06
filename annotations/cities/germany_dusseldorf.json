@@ -12,6 +12,7 @@
    "source_title": "Düsseldorf: Konsequent gegen Autoverkehr – Parkgebühren sollen steigen",
    "source_url": "https://www.ddorf-aktuell.de/2019/11/19/duesseldorf-konsequent-gegen-autoverkehr-parkgebuehren-sollen-steigen-122845/",
    "confidence": "medium",
+   "id": 0,
    "checked": "supported"
   },
   {
@@ -21,6 +22,7 @@
    "source_title": "Parkraumbewirtschaftung in 13 Bezirken, zunächst in Bilk und Flingern",
    "source_url": "https://www.mobilitaetswende-duesseldorf.de/parkraumbewirtschaftung-in-13-bezirken-zunaechst-in-bilk-und-flingern-cmd-baut-2022-in-ddorf-7-mobilstationen-und-ueber-100-weitere-bis-2030/",
    "confidence": "medium",
+   "id": 1,
    "checked": "partly"
   },
   {
@@ -30,6 +32,7 @@
    "source_title": "Scheidt & Bachmann and APCOA Modernize Parking at KII in Düsseldorf",
    "source_url": "https://www.parking.net/parking-news/apcoa-and-scheidt-bachmann-gmbh/modernize-parking-at-kii-in-duesseldorf",
    "confidence": "medium",
+   "id": 2,
    "checked": "supported"
   },
   {
@@ -39,6 +42,7 @@
    "source_title": "Düsseldorf: Karstadt-Parkhaus wurde von Q-Park übernommen",
    "source_url": "https://ddorf-aktuell.de/?p=7937",
    "confidence": "medium",
+   "id": 3,
    "checked": "supported"
   },
   {
@@ -48,6 +52,7 @@
    "source_title": "Land Nordrhein-Westfalen, Stadt Düsseldorf und DUH schließen Vergleich zur Luftreinhalteplanung Düsseldorf",
    "source_url": "https://www.land.nrw/de/pressemitteilung/land-nordrhein-westfalen-stadt-duesseldorf-und-duh-schliessen-vergleich-zur",
    "confidence": "medium",
+   "id": 4,
    "checked": "partly"
   },
   {
@@ -57,6 +62,7 @@
    "source_title": "Düsseldorf: Knatsch bei Schwarz-Grün über die Aussetzung der Gebührenerhöhung für Anwohnerparken",
    "source_url": "https://www.ddorf-aktuell.de/?p=66376",
    "confidence": "medium",
+   "id": 5,
    "checked": "supported"
   },
   {
@@ -66,6 +72,7 @@
    "source_title": "Düsseldorf plant deutliche Verteuerung des Anwohnerparkens",
    "source_url": "https://www.ddorf-aktuell.de/?p=76803",
    "confidence": "medium",
+   "id": 6,
    "checked": "partly"
   },
   {
@@ -75,6 +82,7 @@
    "source_title": "E.ON baut über 4.000 AC-Ladepunkte bei Contipark",
    "source_url": "https://www.electrive.net/2023/01/25/e-on-baut-ueber-4-000-ac-ladepunkte-bei-contipark/",
    "confidence": "medium",
+   "id": 7,
    "checked": "supported"
   },
   {
@@ -84,6 +92,7 @@
    "source_title": "Düsseldorf Carlstadt: Nun strahlt der Carlsplatz wieder",
    "source_url": "https://www.ddorf-aktuell.de/?p=109394",
    "confidence": "medium",
+   "id": 8,
    "checked": "partly"
   },
   {
@@ -93,6 +102,7 @@
    "source_title": "New Location in Düsseldorf: APCOA Leases Multi-Storey Car Park at the Medical Center",
    "source_url": "https://www.parking.net/parking-news/apcoa/leases-multi-storey-car-park-at-the-medical-center",
    "confidence": "medium",
+   "id": 9,
    "checked": "supported"
   },
   {
@@ -102,6 +112,7 @@
    "source_title": "Düsseldorf geht als Gewinnerin aus der Galeria-Insolvenz hervor",
    "source_url": "https://www.ddorf-aktuell.de/?p=109105",
    "confidence": "medium",
+   "id": 10,
    "checked": "supported"
   },
   {
@@ -111,6 +122,7 @@
    "source_title": "APCOA nimmt 2025 bundesweit 307 neue Ladepunkte in Betrieb",
    "source_url": "https://ecomento.de/2026/01/15/apcoa-nimmt-2025-bundesweit-307-neue-ladepunkte-in-betrieb/",
    "confidence": "medium",
+   "id": 11,
    "checked": "supported"
   }
  ],

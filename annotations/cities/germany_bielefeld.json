@@ -12,6 +12,7 @@
    "source_title": "Parken in Bielefeld soll wesentlich teurer werden",
    "source_url": "https://www.radiobielefeld.de/nachrichten/am-puls-der-stadt/parken-in-bielefeld-soll-wesentlich-teurer-werden.html",
    "confidence": "medium",
+   "id": 0,
    "checked": "partly"
   },
   {
@@ -21,6 +22,7 @@
    "source_title": "Gleich vier neue Parkzonen in Bielefeld: Das wird teuer für Autofahrer",
    "source_url": "https://www.nw.de/lokal/bielefeld/mitte/23982351_Gleich-vier-neue-Parkzonen-in-Bielefeld-Das-wird-teuer-fuer-Autofahrer.html",
    "confidence": "medium",
+   "id": 1,
    "checked": "supported"
   },
   {
@@ -30,6 +32,7 @@
    "source_title": "Bielefeld erhöht die Parkgebühren für die Innenstadt",
    "source_url": "http://www.radioguetersloh.de/nachrichten/kreis-guetersloh/bielefeld-erhoeht-die-parkgebuehren-fuer-die-innenstadt.html",
    "confidence": "medium",
+   "id": 2,
    "checked": "partly"
   },
   {
@@ -39,6 +42,7 @@
    "source_title": "Zwei Euro pro Stunde: Parken in Bielefelds City wird richtig teuer",
    "source_url": "https://www.nw.de/lokal/bielefeld/mitte/24130811_Zwei-Euro-pro-Stunde-Parken-in-Bielefelds-City-wird-richtig-teuer.html",
    "confidence": "medium",
+   "id": 3,
    "checked": "partly"
   },
   {
@@ -48,6 +52,7 @@
    "source_title": "Parkhäuser und Parkplätze in der Bielefelder City 2025 im großen Überblick",
    "source_url": "https://www.nw.de/lokal/bielefeld/mitte/23969558_Parkhaeuser-und-Parkplaetze-in-der-Bielefelder-City-2025-im-grossen-Ueberblick.html",
    "confidence": "medium",
+   "id": 4,
    "checked": "partly"
   },
   {
@@ -57,6 +62,7 @@
    "source_title": "Verkehrsumstellung und Inbetriebnahme der neuen Haltestelle vor Cafe Europa",
    "source_url": "https://jahnplatz-bielefeld.de/2021/07/09/verkehrsumstellung-und-inbetriebnahme-der-neuen-haltestelle-vor-cafe-europa/",
    "confidence": "high",
+   "id": 5,
    "checked": "supported"
   },
   {
@@ -66,6 +72,7 @@
    "source_title": "Bielefeld Jahnplatz bewegt - Umgestaltung der lebendigen Mitte Bielefelds",
    "source_url": "https://jahnplatz-bielefeld.de/",
    "confidence": "medium",
+   "id": 6,
    "checked": "supported"
   },
   {
@@ -75,6 +82,7 @@
    "source_title": "Großprojekt am Bielefelder Kesselbrink: Parkhaus-Abriss startet",
    "source_url": "https://www.nw.de/lokal/bielefeld/mitte/23370038_Grossprojekt-am-Bielefelder-Kesselbrink-Parkhaus-Abriss-startet.html",
    "confidence": "medium",
+   "id": 7,
    "checked": "partly"
   },
   {
@@ -84,6 +92,7 @@
    "source_title": "Bielefelder Parkhaus eröffnet Mitte Juli wieder",
    "source_url": "https://www.radiobielefeld.de/nachrichten/am-puls-der-stadt/bielefelder-parkhaus-eroeffnet-mitte-juli-wieder.html",
    "confidence": "medium",
+   "id": 8,
    "checked": "partly"
   },
   {
@@ -93,6 +102,7 @@
    "source_title": "Contipark baut Eigenbestand weiter aus und übernimmt Parkhaus Ankergärten in Bielefeld",
    "source_url": "https://www.konii.de/news/contipark-baut-eigenbestand-weiter-aus-und-uebernimmt-parkhaus-ankergaerten-in-bielefeld/",
    "confidence": "medium",
+   "id": 9,
    "checked": "partly"
   },
   {
@@ -102,6 +112,7 @@
    "source_title": "Ausbaukonzept für E-Ladeinfrastruktur auf Flächen der Stadt Bielefeld",
    "source_url": "https://www.bielefeld.de/sites/default/files/datei/2025/Ausbaukonzept-fuer-E-Ladeinfrastruktur-auf-Flaechen-der-Stadt-Bielefeld-2024.pdf",
    "confidence": "high",
+   "id": 11,
    "checked": "supported"
   },
   {
@@ -111,6 +122,7 @@
    "source_title": "Studie \"Vitale Innenstädte\"",
    "source_url": "https://www.ihk.de/ostwestfalen/branchen/handel/vitale-innenstaedte-6802042",
    "confidence": "medium",
+   "id": 13,
    "checked": "partly"
   },
   {
@@ -120,6 +132,7 @@
    "source_title": "Abriss: Karstadt-Komplex in Bielefeld verschwindet - das sind die Pläne",
    "source_url": "https://www.nw.de/lokal/bielefeld/mitte/24227217_Abriss-Karstadt-Komplex-in-Bielefeld-verschwindet-das-sind-die-Plaene-v3.html",
    "confidence": "medium",
+   "id": 14,
    "checked": "supported"
   }
  ],

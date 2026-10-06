@@ -42,7 +42,7 @@ def build(draft_path: Path) -> dict | None:
         if item["confidence"] == "low":
             dropped["low confidence"] += 1
             continue
-        out = dict(item)
+        out = dict(item, id=i)                # the draft index: stable, so narratives can cite it as [i]
         if v["verdict"] == "partly":
             if not v.get("corrected_text"):
                 dropped["unsupported"] += 1

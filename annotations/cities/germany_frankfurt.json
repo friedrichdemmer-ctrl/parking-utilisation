@@ -12,6 +12,7 @@
    "source_title": "Neues Parkraumkonzept wird eingeführt: Keine kostenlosen Parkplätze mehr in Frankfurt",
    "source_url": "https://www.journal-frankfurt.de/journal_news/Urbanes-Frankfurt-58/Neues-Parkraumkonzept-wird-eingefuehrt-Keine-kostenlosen-Parkplaetze-mehr-in-Frankfurt-33502.html",
    "confidence": "medium",
+   "id": 0,
    "checked": "supported"
   },
   {
@@ -21,6 +22,7 @@
    "source_title": "Stadtverordnetenversammlung: Mainkai-Sperrung kommt zurück",
    "source_url": "https://www.journal-frankfurt.de/journal_news/urbanes-frankfurt-58/Stadtverordnetenversammlung-Mainkai-Sperrung-kommt-zurueck-38643.html",
    "confidence": "medium",
+   "id": 1,
    "checked": "supported"
   },
   {
@@ -30,6 +32,7 @@
    "source_title": "Mainkai-Sperrung: Erste Ergebnisse - Frankfurter nehmen autofreien Mainkai positiv auf",
    "source_url": "https://www.journal-frankfurt.de/journal_news/Stadtleben-2/Mainkai-Sperrung-Erste-Ergebnisse-Frankfurter-nehmen-autofreien-Mainkai-positiv-auf-41256.html",
    "confidence": "medium",
+   "id": 2,
    "checked": "supported"
   },
   {
@@ -39,6 +42,7 @@
    "source_title": "Ab Mittwoch: Anwohnerparken in Frankfurt wird fast fünfmal so teuer",
    "source_url": "https://www.journal-frankfurt.de/journal_news/Urbanes-Frankfurt-58/Ab-Mittwoch-Anwohnerparken-in-Frankfurt-wird-fast-fuenfmal-so-teuer-41809.html",
    "confidence": "medium",
+   "id": 3,
    "checked": "partly"
   },
   {
@@ -48,6 +52,7 @@
    "source_title": "Verkehrswende: Frankfurt stimmt endgültig für \"Masterplan Mobilität\"",
    "source_url": "https://www.hessenschau.de/politik/frankfurt-stimmt-endgueltig-fuer-masterplan-mobilitaet-v1,frankfurt-masterplan-mobilitaet-100.html",
    "confidence": "medium",
+   "id": 4,
    "checked": "supported"
   },
   {
@@ -57,6 +62,7 @@
    "source_title": "Frankfurt am Main plant 3.000 neue Park+Ride-Stellplätze für Pendler",
    "source_url": "https://www.entwicklungsstadt.de/frankfurt-am-main-plant-3-000-neue-parkride-stellplaetze-fuer-pendler/",
    "confidence": "medium",
+   "id": 5,
    "checked": "supported"
   },
   {
@@ -66,6 +72,7 @@
    "source_title": "Frankfurt plant 284 Ladepunkte in Parkhäusern",
    "source_url": "https://www.electrive.net/2022/05/11/frankfurt-plant-284-ladepunkte-in-parkhaeusern/",
    "confidence": "medium",
+   "id": 6,
    "checked": "supported"
   },
   {
@@ -75,6 +82,7 @@
    "source_title": "Frankfurt will 150 neue AC-Ladepunkte in Betrieb nehmen",
    "source_url": "https://www.electrive.net/2023/12/18/frankfurt-will-150-neue-ac-ladepunkte-in-betrieb-nehmen/",
    "confidence": "medium",
+   "id": 7,
    "checked": "partly"
   },
   {
@@ -84,6 +92,7 @@
    "source_title": "Frankfurt startet Ausschreibung für nächste Lade-Ausbaustufe",
    "source_url": "https://www.electrive.net/2026/02/23/frankfurt-startet-ausschreibung-fuer-naechste-lade-ausbaustufe/",
    "confidence": "medium",
+   "id": 8,
    "checked": "supported"
   },
   {
@@ -93,6 +102,7 @@
    "source_title": "Arivo Reference Story: PBG in Frankfurt",
    "source_url": "https://arivo.co/en/blog/reference/parkhaus-betriebsgesellschaft-mbh",
    "confidence": "medium",
+   "id": 9,
    "checked": "supported"
   },
   {
@@ -102,6 +112,7 @@
    "source_title": "Drei Jahre ohne Parkleitsystem sind nicht akzeptabel",
    "source_url": "https://www.frankfurt-main.ihk.de/presse/pressemeldungen/drei-jahre-ohne-parkleitsystem-sind-nicht-akzeptabel-6259088",
    "confidence": "medium",
+   "id": 10,
    "checked": "supported"
   },
   {
@@ -111,6 +122,7 @@
    "source_title": "Neuerscheinung Zahlenspiegel Frankfurter Innenstadt 2025: Handel bleibt Motor der City – Transformation konsequent weiterdenken",
    "source_url": "https://www.frankfurt-main.ihk.de/presse/pressemeldungen2025/zahlenspiegel-frankfurter-innenstadt-2025-6928350",
    "confidence": "high",
+   "id": 11,
    "checked": "supported"
   },
   {
@@ -120,6 +132,7 @@
    "source_title": "Übernachtungszahlen in Frankfurt weiter auf hohem Niveau",
    "source_url": "https://www.hessenschau.de/wirtschaft/uebernachtungszahlen-in-frankfurt-weiter-auf-hohem-niveau-v1,uebernachtungszahlen-frankfurt-100.html",
    "confidence": "medium",
+   "id": 12,
    "checked": "supported"
   },
   {
@@ -129,6 +142,7 @@
    "source_title": "Verkehr in Frankfurt: RMV erreicht Fahrgast-Rekord",
    "source_url": "https://events.journal-frankfurt.de/journal_news/wohnenverkehr-153/Verkehr-in-Frankfurt-RMV-erreicht-Fahrgast-Rekord-45110.html",
    "confidence": "medium",
+   "id": 13,
    "checked": "supported"
   }
  ],

@@ -189,6 +189,15 @@ table.data tr.link:hover td { background: var(--accent-soft); }
 .cal rect { rx: 1.5; }
 .note { font-size: .88rem; color: var(--ink-3); }
 .error { color: var(--bad); }
+.brief section { display: grid; gap: .6rem; }
+.brief section + section { border-top: 1px solid var(--rule-soft); padding-top: .9rem; }
+.brief h3 { font: 600 1.1rem var(--font-display); margin: 0; }
+.brief p { max-width: 68ch; line-height: 1.6; }
+.briefhead { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: .4rem 1rem; }
+.brief sup a.fn { font: 500 .7rem var(--font-data); color: var(--accent); text-decoration: none; padding: 0 .1rem; }
+.brief .sources ol { margin: 0; padding-left: 1.4rem; display: grid; gap: .25rem; font-size: .85rem; color: var(--ink-2); max-width: 70ch; }
+.brief .sources a { color: var(--accent); }
+.brieffig { margin: .2rem 0 0; display: grid; gap: .2rem; }
 .ctx { list-style: none; padding: 0; margin: 0; display: grid; gap: .8rem; max-width: 70ch; }
 .ctx li { display: grid; gap: .15rem; padding-top: .8rem; border-top: 1px solid var(--rule-soft); }
 .ctx .tag { font: 500 .72rem var(--font-data); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); }
@@ -714,31 +723,39 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     if (!host.isConnected) return;
     const fmtMoney = new Intl.NumberFormat("en-GB", { style: "currency", currency: b.currency || "EUR", minimumFractionDigits: 2, maximumFractionDigits: 2 });
     const money2 = v => v == null ? "–" : v === 0 ? "free" : fmtMoney.format(v);
-    const t = b.trend, ops = b.operators, notes = b.notes, ev = b.ev, po = b.price_occupancy;
+    const t = b.trend, ops = b.operators, notes = b.notes, ev = b.ev, po = b.price_occupancy, nar = notes && notes.narrative;
     const maxOcc = Math.max(1, ...ops.map(o => o.weekday_occupancy || 0));
-    let html = `<div class="panel"><h2>${esc(city)} briefing</h2>`;
-    if (t) {
-      const dir = t.change_pts > 0.5 ? "up" : t.change_pts < -0.5 ? "down" : "level";
-      html += `<h3 style="font-size:1rem;margin:.2rem 0 0">Trend since 2020</h3>${trendSvg(t, city)}
-        <p class="note"><b style="color:var(--accent)">&mdash;</b> ${esc(city)} &nbsp; <b style="color:var(--ref)">- -</b> Germany overall. Index, 2023 average = 100, linked year on year over ${t.garages} garages with long histories. In the twelve months to ${esc(monthLabel(t.window[1]))} the average space here was ${(t.now * 100).toFixed(1)}% occupied against ${(t.then * 100).toFixed(1)}% a year earlier (${t.change_pts > 0 ? "+" : ""}${t.change_pts.toFixed(1)} points, ${dir}).</p>`;
-    }
-    html += `<h3 style="font-size:1rem;margin:.6rem 0 0">Operators</h3><div class="scroll"><table class="data"><thead><tr><th>Operator</th><th class="r">Garages</th><th class="r">Spaces</th><th class="r">Share</th><th class="r">Median per hour</th><th class="r">Median day ticket</th><th class="r">EV recorded</th><th class="r">Weekday occupancy*</th></tr></thead><tbody>` +
+    const trendBlock = !t ? "" : `<figure class="brieffig">${trendSvg(t, city)}
+        <figcaption class="note"><b style="color:var(--accent)">&mdash;</b> ${esc(city)} &nbsp; <b style="color:var(--ref)">- -</b> Germany. Occupancy index, 2023 = 100, from ${t.garages} garages with long histories.</figcaption></figure>`;
+    const opsBlock = `<div class="scroll"><table class="data"><thead><tr><th>Operator</th><th class="r">Garages</th><th class="r">Spaces</th><th class="r">Share</th><th class="r">Median per hour</th><th class="r">Median day ticket</th><th class="r">EV recorded</th><th class="r">Weekday occupancy*</th></tr></thead><tbody>` +
       ops.map(o => `<tr><td>${esc(o.operator)}</td><td class="r num">${fmt(o.garages)}</td><td class="r num">${o.spaces ? fmt(o.spaces) : "n/p"}</td><td class="r num">${o.spaces ? o.share_of_spaces + "%" : "–"}</td>
         <td class="r num">${money2(o.median_rate)}</td><td class="r num">${money2(o.median_day_ticket)}</td><td class="r num">${o.ev_known ? `${o.ev} of ${o.garages}` : "–"}</td>
         <td class="r num">${o.weekday_occupancy != null ? `<span class="opbar" style="width:${Math.round(o.weekday_occupancy / maxOcc * 60)}px"></span>${o.weekday_occupancy}% <span class="muted">(${o.measured})</span>` : "–"}</td></tr>`).join("") + `</tbody></table></div>
-      <p class="note">Garages, spaces, prices and EV charging: every garage in our research set for ${esc(city)} (${fmt(b.garages)}); "n/p" means the operator publishes no capacity. *Occupancy covers only the ${b.measured} garages we measure, so it describes those, not the operator's whole estate; the figure in brackets is how many.</p>`;
-    const read = [];
-    if (po && po.r != null) read.push(`Across the ${po.n} priced garages we measure here, dearer garages ${Math.abs(po.r) < .3 ? "are not clearly emptier or fuller" : po.r > 0 ? "tend to be fuller" : "tend to be emptier"} (correlation ${po.r}).`);
-    if (ev) read.push(`EV charging is recorded for ${ev.with_ev} of ${ev.total} garages${ev.unknown ? `; for ${ev.unknown} there is no record either way, so the real number is higher` : ""}.`);
-    if (read.length) html += `<p>${read.map(esc).join(" ")}</p>`;
-    html += `</div>`;
-    if (notes) {
-      const by = {};
-      for (const it of notes.items) (by[it.topic] = by[it.topic] || []).push(it);
-      html += `<div class="panel"><h2>Context</h2><p>${esc(notes.summary)}</p><ul class="ctx">` +
-        Object.keys(TOPICS).filter(k => by[k]).flatMap(k => by[k].sort((a, c) => (c.date || "").localeCompare(a.date || "")).map(it =>
-          `<li><span class="tag">${TOPICS[k]} · ${esc(it.date)}</span><span>${esc(it.text)}</span><span class="src">Source: <a href="${esc(it.source_url)}" rel="noopener nofollow" target="_blank">${esc(it.source_title)}</a> · confidence ${esc(it.confidence)}</span></li>`)).join("") + `</ul>
-        <p class="note">Written from the linked pages, researched ${esc(notes.researched)}; the pages themselves are not ours and can change. ${notes.gaps && notes.gaps.length ? "Not found: " + esc(notes.gaps.join("; ")) + "." : ""}</p></div>`;
+      <p class="note">Garages, spaces, prices and EV charging cover every garage in our research set for ${esc(city)}; "n/p" means the operator publishes no capacity. *Occupancy covers only the ${b.measured} garages we measure; the figure in brackets is how many.</p>`;
+    let html;
+    if (nar) {
+      // number the sources in order of first citation; [3] in the text is the item with id 3
+      const byId = new Map(notes.items.map(i => [i.id, i])), order = [];
+      const cite = text => esc(text).replace(/\[(\d+)\]/g, (m, id) => {
+        id = +id; if (!byId.has(id)) return "";
+        let n = order.indexOf(id); if (n < 0) { order.push(id); n = order.length - 1; }
+        return `<sup><a href="#src-${n + 1}" class="fn" data-fn="${n + 1}">${n + 1}</a></sup>`;
+      });
+      const paras = text => text.split(/\n\s*\n/).map(p => `<p>${cite(p)}</p>`).join("");
+      const [s1, s2, s3] = nar.sections;
+      html = `<article class="panel brief"><div class="briefhead"><h2>${esc(city)}: the parking market</h2><span class="note">Briefing, ${esc(monthLabel(nar.as_of))}</span></div>
+        <section><h3>${esc(s1.title)}</h3>${paras(s1.text)}${trendBlock}</section>
+        <section><h3>${esc(s2.title)}</h3>${paras(s2.text)}</section>
+        <section><h3>${esc(s3.title)}</h3>${paras(s3.text)}${opsBlock}</section>
+        <section class="sources"><h3>Sources</h3><ol>${order.map((id, i) => { const it = byId.get(id); return `<li id="src-${i + 1}"><a href="${esc(it.source_url)}" rel="noopener nofollow" target="_blank">${esc(it.source_title)}</a> <span class="muted">(${esc(it.date)})</span></li>`; }).join("")}</ol>
+        <p class="note">Figures without a note are our own: weekday occupancy measured ${b.trend ? "since 2020 and " : ""}over late summer 2026, and the tariffs operators publish. Sources were checked against the linked pages in ${esc(notes.verified ? notes.verified.slice(0, 7) : nar.as_of)}.</p></section></article>`;
+    } else {
+      const read = [];
+      if (t) read.push(`In the twelve months to ${monthLabel(t.window[1])} the average space here was ${(t.now * 100).toFixed(1)}% occupied, against ${(t.then * 100).toFixed(1)}% a year earlier.`);
+      if (po && po.r != null) read.push(`Across the ${po.n} priced garages we measure, dearer garages ${Math.abs(po.r) < .3 ? "are not clearly emptier or fuller" : po.r > 0 ? "tend to be fuller" : "tend to be emptier"}.`);
+      if (ev) read.push(`EV charging is recorded for ${ev.with_ev} of ${ev.total} garages${ev.unknown ? `; for ${ev.unknown} there is no record either way` : ""}.`);
+      html = `<div class="panel brief"><h2>${esc(city)} in numbers</h2>${read.length ? `<p>${read.map(esc).join(" ")}</p>` : ""}${trendBlock}<h3>Operators</h3>${opsBlock}
+        <p class="note">No written briefing for ${esc(city)} yet.</p></div>`;
     }
     host.innerHTML = html;
   }

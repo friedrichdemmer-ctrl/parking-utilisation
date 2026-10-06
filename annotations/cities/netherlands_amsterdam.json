@@ -12,6 +12,7 @@
    "source_title": "Parkeren in centrum Amsterdam vanaf vandaag 7,50 euro per uur",
    "source_url": "https://www.nhnieuws.nl/nieuws/243989/parkeren-in-centrum-amsterdam-vanaf-vandaag-750-euro-per-uur",
    "confidence": "high",
+   "id": 0,
    "checked": "supported"
   },
   {
@@ -21,6 +22,7 @@
    "source_title": "Gemeente wil twee parkeergarages kopen, maar stelt bouw Willibrordusgarage uit",
    "source_url": "https://www.at5.nl/artikelen/188902/gemeente-koopt-twee-parkeergarages-maar-stelt-bouw-willibrordusgarage-uit",
    "confidence": "medium",
+   "id": 1,
    "checked": "supported"
   },
   {
@@ -30,6 +32,7 @@
    "source_title": "Tarieven parkeervergunningen binnen de ring rond Amsterdam binnenkort ook omhoog",
    "source_url": "https://www.nhnieuws.nl/nieuws/320219/ook-tarieven-parkeervergunning-amsterdamse-binnenring-omhoog",
    "confidence": "medium",
+   "id": 2,
    "checked": "supported"
   },
   {
@@ -39,6 +42,7 @@
    "source_title": "Prijzen parkeergarages vanaf februari omhoog: \"In Londen betaal ik de helft\"",
    "source_url": "https://www.at5.nl/artikelen/224289/prijzen-parkeergarages-vanaf-februari-omhoog-in-londen-betaal-ik-de-helft",
    "confidence": "medium",
+   "id": 3,
    "checked": "supported"
   },
   {
@@ -48,6 +52,7 @@
    "source_title": "Amsterdam heeft autoluwe ambities, maar tegelijkertijd verdwijnen er P+R-plekken",
    "source_url": "https://www.nhnieuws.nl/nieuws/344577/amsterdam-heeft-autoluwe-ambities-maar-tegelijkertijd-verdwijnen-er-pr-plekken",
    "confidence": "medium",
+   "id": 4,
    "checked": "supported"
   },
   {
@@ -57,6 +62,7 @@
    "source_title": "Vanaf 2025 uitstootvrije zones in de stad: zo zien de overgangsregelingen eruit",
    "source_url": "https://www.nhnieuws.nl/nieuws/320051/vanaf-2025-uitstootvrije-zones-in-de-stad-zo-zien-de-overgangsregelingen-eruit",
    "confidence": "medium",
+   "id": 5,
    "checked": "supported"
   },
   {
@@ -66,6 +72,7 @@
    "source_title": "Amsterdam presenteert sober coalitieakkoord: veel ambtenaren eruit, geen erotisch centrum",
    "source_url": "https://www.nhnieuws.nl/nieuws/360373/wat-staat-in-coalitieakkoord-amsterdam",
    "confidence": "medium",
+   "id": 6,
    "checked": "supported"
   },
   {
@@ -75,6 +82,7 @@
    "source_title": "Bijenkorf 'staat open voor dialoog' over idee voor sluiting Bijenkorfgarage en woningbouw",
    "source_url": "https://www.nhnieuws.nl/nieuws/360428/eigenaar-bijenkorfgarage-staat-open-voor-dialoog-over-idee-voor-sluiting-en-woningbouw",
    "confidence": "medium",
+   "id": 7,
    "checked": "partly"
   },
   {
@@ -84,6 +92,7 @@
    "source_title": "Laadpunten voor elektrische auto's verdrievoudigd in vijf jaar",
    "source_url": "https://www.binnenlandsbestuur.nl/ruimte-en-milieu/laadpunten-elektrische-autos-verdrievoudigd-in-vijf-jaar",
    "confidence": "medium",
+   "id": 8,
    "checked": "supported"
   },
   {
@@ -93,6 +102,7 @@
    "source_title": "Actuele beschikbaarheid Parkeergarages",
    "source_url": "https://data.overheid.nl/dataset/9orkef6t-au29g",
    "confidence": "high",
+   "id": 9,
    "checked": "supported"
   },
   {
@@ -102,6 +112,7 @@
    "source_title": "Parking Amsterdam Central Station - Park within walking distance at Q-Park Amsterdam Centraal",
    "source_url": "https://www.q-park.nl/en-gb/parking/amsterdam/poi/amsterdam-centraal-station/",
    "confidence": "medium",
+   "id": 10,
    "checked": "partly"
   },
   {
@@ -111,6 +122,7 @@
    "source_title": "Actuele cijfers bezoekerseconomie Amsterdam",
    "source_url": "https://khn.nl/nieuws/actuele-cijfers-bezoekerseconomie-amsterdam-2",
    "confidence": "medium",
+   "id": 12,
    "checked": "partly"
   }
  ],

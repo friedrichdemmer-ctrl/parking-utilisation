@@ -12,6 +12,7 @@
    "source_title": "ADAC Sachsen: Parken in Dresden darf nicht zum Luxus werden",
    "source_url": "https://presse.adac.de/regionalclubs/sachsen/parkgebuehren-dresden.html",
    "confidence": "medium",
+   "id": 0,
    "checked": "supported"
   },
   {
@@ -21,6 +22,7 @@
    "source_title": "Dresden erhöht die Parkgebühren erstmals nach 15 Jahren",
    "source_url": "https://www.dd-inside.de/newsticker/35831-dresden-erh-246ht-die-parkgeb-252hren-erstmals-nach-15-jahren",
    "confidence": "medium",
+   "id": 1,
    "checked": "partly"
   },
   {
@@ -30,6 +32,7 @@
    "source_title": "APCOA Dresden Mitte",
    "source_url": "https://apcoa.de/en/parking/dresden/dresden-mitte",
    "confidence": "medium",
+   "id": 3,
    "checked": "supported"
   },
   {
@@ -39,6 +42,7 @@
    "source_title": "Dresden kündigt massiven Ausbau der Ladeinfrastruktur an (electrive)",
    "source_url": "https://www.electrive.net/2019/09/12/dresden-kuendigt-massiven-ausbau-der-ladeinfrastruktur-an/",
    "confidence": "medium",
+   "id": 4,
    "checked": "partly"
   },
   {
@@ -48,6 +52,7 @@
    "source_title": "Dresden peilt Ladeinfrastruktur-Ziel drei Jahre früher an (electrive)",
    "source_url": "https://www.electrive.net/2022/03/09/dresden-peilt-ladeinfrastruktur-ziel-drei-jahre-frueher-an/",
    "confidence": "medium",
+   "id": 5,
    "checked": "partly"
   },
   {
@@ -57,6 +62,7 @@
    "source_title": "Verkehrsinfrastruktur: Bilanz und Ausblick ein Jahr nach Carolabrücken-Einsturz (Logistik Heute)",
    "source_url": "https://logistik-heute.de/news/verkehrsinfrastruktur-bilanz-und-ausblick-ein-jahr-nach-carolabruecken-einsturz-225751.html",
    "confidence": "medium",
+   "id": 8,
    "checked": "partly"
   },
   {
@@ -66,6 +72,7 @@
    "source_title": "Dresden: So hat sich der Verkehr seit Einsturz der Carolabrücke verlagert (t-online)",
    "source_url": "https://dresden.t-online.de/region/dresden/id_100622712/dresden-so-hat-sich-der-verkehr-seit-einsturz-der-carolabruecke-verlagert.html",
    "confidence": "medium",
+   "id": 9,
    "checked": "supported"
   }
  ],
