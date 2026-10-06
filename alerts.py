@@ -31,7 +31,7 @@ from pathlib import Path
 
 DB_PATH = Path(os.environ.get("PARKING_DB_PATH", Path(__file__).parent / "data" / "parking.db"))
 NTFY_URL = os.environ.get("NTFY_URL", "https://ntfy.sh")
-APP_URL = "https://parking-utilisation.fly.dev"
+APP_URL = "https://theparkinganalysts.com"
 
 LIVE_SILENT_AFTER = timedelta(hours=6)
 ARCHIVE_SILENT_AFTER = timedelta(days=3)

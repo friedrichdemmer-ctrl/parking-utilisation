@@ -23,6 +23,8 @@ from zoneinfo import ZoneInfo
 
 from flask import Flask, Response, jsonify, redirect, request
 
+import brand
+
 DB_PATH = Path(os.environ.get("PARKING_DB_PATH", Path(__file__).parent / "data" / "parking.db"))
 BERLIN = ZoneInfo("Europe/Berlin")
 CURRENT_YEAR = datetime.now().year
@@ -71,6 +73,22 @@ app.register_blueprint(site_api_bp)
 API_RATE_LIMIT = 240          # requests
 API_RATE_WINDOW = 5 * 60      # seconds
 _api_hits: dict[str, list[float]] = {}
+
+
+# The site lives at theparkinganalysts.com. The www name and the original fly.dev address
+# redirect there permanently, keeping the path, so old links and bookmarks still work. Fly's
+# own health checks reach the machine by IP, so they are not redirected.
+CANONICAL_HOST = os.environ.get("CANONICAL_HOST", "theparkinganalysts.com")
+REDIRECT_HOSTS = {"www.theparkinganalysts.com", "parking-utilisation.fly.dev"}
+
+
+@app.before_request
+def canonical_host():
+    host = (request.host or "").split(":")[0].lower()
+    if host in REDIRECT_HOSTS:
+        query = request.query_string.decode("utf-8", "replace")
+        return redirect(f"https://{CANONICAL_HOST}{request.path}" + (f"?{query}" if query else ""), code=301)
+    return None
 
 
 @app.before_request
@@ -288,7 +306,8 @@ def _report_page(kind: str) -> Response:
     if not path.exists():
         return Response("<p>This report has not been built yet; it appears within an hour of a deploy.</p>",
                         status=404, mimetype="text/html")
-    head = '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
+    head = ('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
+            '<link rel="icon" href="/favicon.svg" type="image/svg+xml">')
     body = path.read_text(encoding="utf-8").replace('<div class="wrap">', SITE_BAR + '<div class="wrap">', 1)
     return Response(head + body + "</html>", mimetype="text/html",
                     headers={"Cache-Control": "public, max-age=300"})
@@ -300,10 +319,11 @@ SITE_ROOT = "/"
 SITE_BAR = f"""<style>
 .sitebar{{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem 1.4rem;padding:.7rem max(16px,4vw);border-bottom:1px solid var(--rule);background:var(--surface);font:500 .92rem var(--font-body)}}
 .sitebar a{{color:var(--ink-2);text-decoration:none}}.sitebar a:hover{{color:var(--ink)}}
-.sitebar .sb-brand{{display:flex;align-items:center;gap:.5rem;color:var(--ink);font:600 1.05rem var(--font-display);margin-right:.6rem}}
+{brand.WORDMARK_CSS}
+.sitebar .wm{{color:var(--ink);margin-right:.6rem}}
 .sitebar .sb-on{{color:var(--ink);box-shadow:inset 0 -2px 0 var(--accent)}}
 </style>
-<nav class="sitebar" aria-label="Site"><a class="sb-brand" href="{SITE_ROOT}"><span class="psign" aria-hidden="true">P</span>Parking utilisation</a>
+<nav class="sitebar" aria-label="Site">{brand.wordmark(SITE_ROOT)}
 <a href="{SITE_ROOT}#overview">Overview</a><a href="{SITE_ROOT}#explore">Explore</a><a href="{SITE_ROOT}#local">Local maps</a><a href="{SITE_ROOT}#compare">Compare</a><a class="sb-on" href="{SITE_ROOT}#reports">Reports</a></nav>"""
 
 
@@ -315,6 +335,12 @@ def site_page():
     """The site (site/index.html); its sections are client-side (#overview, #explore...).
     It replaced the old form-and-table page on 2026-10-05."""
     return Response(SITE_PAGE.read_text(encoding="utf-8"), mimetype="text/html", headers={"Cache-Control": "no-cache"})
+
+
+@app.route("/favicon.svg")
+@app.route("/favicon.ico")
+def favicon():
+    return Response(brand.FAVICON_SVG, mimetype="image/svg+xml", headers={"Cache-Control": "public, max-age=86400"})
 
 
 @app.route("/new")

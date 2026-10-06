@@ -125,7 +125,7 @@ footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px
 
 <div class="wrap">
   <header>
-    <div class="eyebrow"><span class="psign" aria-hidden="true">P</span><span id="eyebrow">Parking utilisation</span></div>
+    <div class="eyebrow"><svg class="wm-mark" style="width:1.6rem;height:1.6rem;color:var(--accent);flex:none" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><rect width="32" height="32" rx="7" fill="currentColor"/><path d="M10 25.5V7.5h6.6a5.4 5.4 0 0 1 0 10.8H10" fill="none" stroke="#fff" stroke-width="3.6" stroke-linejoin="round"/><g fill="#fff" opacity=".85"><rect x="20.4" y="22.6" width="2.5" height="2.9" rx=".5"/><rect x="23.9" y="20.4" width="2.5" height="5.1" rx=".5"/><rect x="27.4" y="17.6" width="2.5" height="7.9" rx=".5"/></g></svg><span id="eyebrow">Utilisation report</span></div>
     <h1>How full Europe's car parks get</h1>
     <p class="lede" id="lede"></p>
     <div class="stats" id="stats"></div>
@@ -252,7 +252,7 @@ footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px
   const W = META.window;
 
   // ---------- header ----------
-  document.getElementById("eyebrow").textContent = `Parking utilisation · ${fmtDate(W.start)} – ${fmtDate(W.end)}`;
+  document.getElementById("eyebrow").textContent = `Utilisation report · ${fmtDate(W.start)} – ${fmtDate(W.end)}`;
   document.getElementById("lede").textContent =
     `Live occupancy from ${fmtInt(garages.length)} garages and car parks in ${byCity.size} cities across ${byCountry.size} countries, ` +
     `averaged over the ${W.weeks} full weeks to ${fmtDate(W.end)}. Each garage reports how many spaces are free; this page turns that into how full they are, hour by hour.`;
