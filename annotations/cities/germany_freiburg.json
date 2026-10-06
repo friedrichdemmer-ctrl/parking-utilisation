@@ -1,0 +1,155 @@
+{
+ "country": "Germany",
+ "city": "Freiburg",
+ "researched": "2026-10-06",
+ "verified": "2026-10-06",
+ "summary": "In April 2021 a majority of Freiburg's council backed a sharp rise in resident parking permit fees. In June 2023 the Federal Administrative Court declared the city's length-based resident fee ordinance invalid, and a flat 200 euro annual fee has applied since 1 December 2023. From 1 February 2026 the city raised on-street parking prices and said its municipal garage prices were unchanged, and in January 2025 the garage operator FKB announced renovation works at the Rotteckgarage.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2021-04",
+   "text": "In April 2021 a majority of Freiburg's council backed a sharp rise in resident parking permit fees, which had been 30 euros per year since 1993. The gazette says the fee could reach about 30 euros per month on average, with tiered rates still to be worked out by the administration. The same decision approved extending resident parking to Herdern and Oberau and improving park-and-ride.",
+   "source_title": "Amtsblatt Stadt Freiburg im Breisgau, Nr. 790 (23 April 2021)",
+   "source_url": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E1239871029/freiburg/daten/news/amtsblatt/pdf/Amtsblatt_790.pdf",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-06",
+   "text": "On 13 June 2023 the Federal Administrative Court (case 9 CN 2.22) declared invalid Freiburg's resident parking fee ordinance of 14 December 2021. That ordinance set length-based annual fees of 240, 360 and 480 euros. The court cited the lack of a proper legal basis and unequal treatment between fee bands, but accepted a 360 euro base fee as reasonable.",
+   "source_title": "Freiburgs Bewohnerparkgebührensatzung ist unwirksam",
+   "source_url": "https://www.beck-aktuell.de/heute-im-recht/rechtsprechung/bverwg-bewohnerparkgebuehrensatzung-der-stadt-freiburg-im-breisgau-unwirksam-2023-06-14",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-11",
+   "text": "A new city ordinance dated 8 November 2023 set the resident parking permit fee at 200 euros for one year or 100 euros for six months, in force from 1 December 2023.",
+   "source_title": "Amtsblatt Stadt Freiburg im Breisgau, Nr. 852 (25 November 2023)",
+   "source_url": "https://www.freiburg.de/site/freiburg-2024/get/documents_E-241359996/freiburg/daten/news/amtsblatt/pdf/Amtsblatt_852K.pdf",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-11",
+   "text": "The city presented interim results of a concept study on how the Dreisam area in the centre could look if the planned Stadttunnel is built. A traffic assessment by the Autobahn GmbH expects 60 to 80 percent of today's traffic to move into the tunnel. The city stressed that the study is not a final plan and that surface design would only become concrete after the tunnel engineering is complete.",
+   "source_title": "Amtsblatt Stadt Freiburg im Breisgau, Nr. 852 (25 November 2023)",
+   "source_url": "https://www.freiburg.de/site/freiburg-2024/get/documents_E-241359996/freiburg/daten/news/amtsblatt/pdf/Amtsblatt_852K.pdf",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-01",
+   "text": "On 16 January 2026 the city said that, following a council decision of 9 December 2025, on-street ticket parking rises from 1 February 2026 to 4.20 euros per hour in Zone 1 (from 3.80), 3.50 in Zone 2 (from 3.20) and 1.80 in Zone 3 (from 1.60). A new flat rate for up to 24 hours (21, 17.50 and 9 euros for Zones 1, 2 and 3) applies in large parts of Zone 1. The city said resident permits (200 euros per year) and prices in municipal garages (2.20 to 2.70 euros per hour depending on garage and weekday) were not changing.",
+   "source_title": "Hoehere Parkgebuehren gelten ab Februar (Pressemitteilung vom 16. Januar 2026)",
+   "source_url": "https://www.freiburg.de/pb/2541591.html",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-01",
+   "text": "The Freiburger Kommunalbauten (FKB) announced renovation of the Rotteckgarage (350 spaces, Rotteckring 12) from 27 January 2025: full closure for six weeks until 10 March 2025, then one level at a time closed until 13 May 2025, leaving roughly three quarters of spaces usable. It named the Konzerthausgarage and Schlossberggarage as nearby alternatives.",
+   "source_title": "Sanierungsarbeiten Rotteckgarage ab 27. Januar 2025 (Pressemitteilung, Freiburger Kommunalbauten)",
+   "source_url": "https://freiburger-stadtbau.de/fileadmin/Dateien/Downloads/Pressemitteilungen/Rotteckgarage_Sanierung_Jan2025.pdf",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-01",
+   "text": "FKB describes itself as part of the FSB group (Freiburger Stadtbau), running the city's parking garages, and as managing about 3,200 spaces in its own and managed garages.",
+   "source_title": "Sanierungsarbeiten Rotteckgarage ab 27. Januar 2025 (Pressemitteilung, Freiburger Kommunalbauten)",
+   "source_url": "https://freiburger-stadtbau.de/fileadmin/Dateien/Downloads/Pressemitteilungen/Rotteckgarage_Sanierung_Jan2025.pdf",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-01",
+   "text": "The FKB press release states that the Rotteckgarage has four EV charging stations.",
+   "source_title": "Sanierungsarbeiten Rotteckgarage ab 27. Januar 2025 (Pressemitteilung, Freiburger Kommunalbauten)",
+   "source_url": "https://freiburger-stadtbau.de/fileadmin/Dateien/Downloads/Pressemitteilungen/Rotteckgarage_Sanierung_Jan2025.pdf",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-03",
+   "text": "Electrive reported that Freiburg had about 540 publicly accessible charging points (210 on public land, 330 on private but publicly accessible sites such as supermarkets). The city's plan, as reported, is to raise public-land points to 500-700 and total public-access points above 1,500 by 2030. The article does not mention garages.",
+   "source_title": "Freiburg will öffentliche Ladepunkte verdreifachen – und Gebühren verlangen",
+   "source_url": "https://www.electrive.net/2025/03/24/freiburg-will-oeffentliche-ladepunkte-verdreifachen-und-gebuehren-verlangen/",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2023-01",
+   "text": "evopark announced that, besides the Schwabentorgarage, the garages Schlossberg P15 and Rotteckgarage were soon to be connected to its mobility CONNECT platform, which uses licence-plate cameras so users of EasyPark-group apps can enter without a ticket.",
+   "source_title": "Freiburg Im Breisgau Is Expanding Its Range of Digital, Ticketless Parking Garages with evopark",
+   "source_url": "https://www.parking.net/parking-news/evopark/freiburg-im-breisgau-range-of-digital-ticketless-parking-garages",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-06",
+   "text": "The VCD Südbaden and the Fuß- und Radentscheid criticised a city plan to spend 9.5 million euros (gross) of city funds renovating the Bahnhofsgarage. The VCD states that a council paper expects renovation of the Konzerthausgarage and Konrad-Adenauer garage to follow in the 2025/26 budget. This is an advocacy group's account of city plans, not a city source.",
+   "source_title": "Sanierung der Bahnhofsgarage Freiburg - Intransparenz und Verschwendung von Klimaschutzmitteln (VCD Pressemitteilung)",
+   "source_url": "https://bw.vcd.org/fileadmin/user_upload/BW/Verbaende/Suedbaden/Pressemitteilungen/2306_Pressemitteilung_Bahnhofsgarage.pdf",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-03",
+   "text": "The tourism agency FWTM reported 2.12 million overnight stays in Freiburg in 2023, a record, 4.1 percent above 2022 and 16.5 percent above 2019, while hotel occupancy remained below pre-crisis levels.",
+   "source_title": "Tourismus in Freiburg: Übernachtungen im Jahr 2023 erstmals bei 2,1 Millionen (FWTM Pressemitteilung)",
+   "source_url": "https://fwtm.freiburg.de/fileadmin/user_upload/FWTM/PR/2024/0301_PM_Tourismusbilanz_2023.pdf",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-05",
+   "text": "Galeria announced that it bought the property of its Freiburg department store at Bertoldsbrunnen, changing from tenant to owner, and described this as securing the location.",
+   "source_title": "Galeria erwirbt Standort-Immobilie in Freiburg",
+   "source_url": "https://fashionunited.de/nachrichten/business/galeria-erwirbt-standort-immobilie-in-freiburg/2025052861798",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "No sourced figures on tariff changes in FKB/VAG garages specifically (only the city's January 2026 statement that municipal garage prices were unchanged).",
+  "Dates and details of earlier on-street price increases (before 2026) were not sourced.",
+  "No source found on the Schlossberggarage, Konzerthaus-Garage, Stadthaus or Kaufhaus projects beyond the Rotteck renovation notice and the VCD note.",
+  "Outcome and timing of the Bahnhofsgarage renovation not confirmed from a city or FKB source.",
+  "Stadttunnel construction timeline and any effect on garage access not sourced.",
+  "Freiburg's Parkleitsystem (history, changes) and any open-data release of garage occupancy not sourced; the MobiData BW document found was not Freiburg-specific.",
+  "Badenova or VAG EV charging announcements for garages, and charge-point counts per garage, not found.",
+  "VAG operation of garages or park-and-ride changes with dates not sourced (the P+R page found was undated).",
+  "Verkehrsentwicklungsplan / Klimamobilitätsplan decisions, street parking removals and the car-light Altstadt not sourced from primary documents.",
+  "Footfall, retail turnover, university, events, remote work, tram ridership and Deutschlandticket effects for Freiburg not sourced; only 2023 tourism overnight stays and a Galeria property purchase were found.",
+  "Landratsamt car park not covered."
+ ],
+ "dropped": {
+  "unreachable": 1
+ }
+}

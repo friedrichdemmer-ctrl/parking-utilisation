@@ -1,0 +1,141 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Raw page read. Confirms: bis zu 200 Prozent, 2.50 EUR/h City, 'Erstmalige Anhebung im Strassenraum seit 1992', DOPARK first hour 2 EUR and 'moderate' DOPARK rise, 1 April (DOPARK) / 1 July 2023 (street), council vote 23 March, Sunday meter hours in the City. Written as a proposal; stays a proposal. Published 2023-02-08. Title matches. Minor: the same article also says the fee schedule was last changed in 2005, so '1992' is the page's own framing for street parking.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Raw page read. 1 Aug 2023 start, first adjustment in over 20 years, council decision in March, City/Wall ring 1.50 -> 2.50 EUR (+67%), 270 machines, 86 devices in Innenstadt/Wall area malfunctioned. Both title variants (og:title and <title>) are on the page. Confidence-high caveat: this and item 2 both rest on the same city press release (RN says 'wie die Stadtverwaltung mitteilt'; the Nordstadtblogger text mirrors it), so they are not independent, though both do confirm the facts.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Six zones, 0.50 EUR (zone 6) to 2.50 EUR (zone 1) and minute-exact Handyparken across the city are on the page. The 'review prices every three years' claim is NOT on this page (it appears in item 0 and the RN article, item 1). Same press-release origin as item 1, so not independent. Title: the draft title joins the headline with the on-page standfirst 'Gebuehrenumstellung an den Parkscheinautomaten ist erfolgt'; both are on this page, acceptable.",
+   "corrected_text": "A second report on the same change lists a six-zone structure from 0.50 euros per hour in residential and other areas up to 2.50 euros in the city centre and Wall ring, and says app payment (Handyparken) is available across the city with billing to the minute.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Page body is paywalled; supported by the headline/og:title ('City-Parken kostet seit einem Jahr auch sonntags: Stadt nimmt Zehntausende Euro pro Monat ein') and lede ('seit August 2023', Sunday payment in the City, 'was die Stadt damit verdient hat'). Published 2024-07-11. <title> matches draft. Amount rests on the headline only.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "Page itself documents the council decision ('Stadtrat hat der Vorlage der Verwaltung in seiner Ratssitzung am 15. Dezember zugestimmt', text sourced to Dortmund.de); a related-link teaser on the RN site also reads 'Dortmunder Rat beschliesst Planung des grossen Wall-Umbaus' (15.12.2022). Three stages, one lane per direction removed, parking loss in headline, rebuild not before 2030 all supported. Overstated: the page says that from 2024 a temporary marked solution is to be WORKED OUT (depending on Tiefbauamt staffing) and the council decides on implementing it; not that it was planned to be in place from 2024. Date 2022-12 ok (meeting 15 Dec).",
+   "corrected_text": "The council approved the administration's proposal on 15 December 2022 for a three-stage rebuild of the Wall ring that removes one driving lane per direction, at an estimated cost of about 1 million euros; the page says full reconstruction is not expected before 2030. From 2024, depending on staffing, a temporary solution using markings and signal changes was to be drawn up, with the council deciding on its implementation.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "Raw page read. Supported: lane conversion proposal near main station, link to ring bus line 400, council vote on 13 February, published 16/17 Jan 2025. Issues: (1) only the outer-ring section (Burgtor-Freistuhl) becomes a pure bus lane; on the inner ring the right of three lanes would become a combined bus and cycle lane; (2) the page says the council 'could' decide on the wider Wall/cycling plan at the end of 2025 'if all goes well', not that a decision was expected.",
+   "corrected_text": "In January 2025 the city proposed turning the right-hand lane of the outer Konigswall in front of the main station into a bus lane, and a lane on the inner ring into a combined bus and cycle lane, tied to the planned ring bus line 400; the council was to decide on 13 February 2025. The page adds that, if all went well, the council could decide on wider Wall cycle-lane plans at the end of 2025.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "Supported: council decision, two new zones a year, planning to 2032, start 'this year' on Weingartenstrasse in Hoerde, reasons (new building projects, more home office, stricter fire-brigade access rules; 'unter anderem'). NOT on the page: the March 2026 report listing Westerbleichstrasse and Hafen-Ost for 2027 (page names only Hafen, Kreuzviertel, Chemnitzer Strasse, Unionviertel generally). 'around the centre' is not stated. Fact date: page published Fri 29 May 2026 says the council decided 'gestern', so decision date is 28 May 2026. No AI label seen.",
+   "corrected_text": "The council decided on 28 May 2026 to reorder the schedule for new resident parking zones, adding two new zones a year, starting in 2026 with Weingartenstrasse in Hoerde, with planning running to 2032. The report gives new building projects, more home working and stricter fire-brigade access rules as reasons.",
+   "corrected_title": null,
+   "corrected_date": "2026-05-28"
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Page (RN, based on a city press release) supports: start on Wed 31 Aug 2022 with gradual move to fully automated operation, initially only directions to garages, availability counts to grow week by week, P+R barrier systems by year-end. NOT on this page: '64 large LED boards' and 'Bluetooth scanners' (those come from the Nordstadtblogger July 2022 article, item 8, which also gives them as installation facts). Confidence 'high' via two independent sources is not borne out: only this RN page confirms the actual launch; item 8 is a pre-launch forecast ('voraussichtlich Ende August 2022'). Treat as medium unless another post-launch source is found.",
+   "corrected_text": "The renewed city-centre parking guidance system with its new LED boards was due to start on the afternoon of 31 August 2022 and to move gradually into fully automated operation. At the start the boards showed only directions to garages and car parks, with the number of free spaces and diversion advice to be added week by week.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Raw page read (published 20 Jul 2022). Dortmund to supply exact remaining-capacity data to the open-data portal and publish it on the federal Mobilitaets-Daten-Marktplatz for navigation and app providers; second stage: cash/barrier systems at four P+R sites (Hafen, Hauptfriedhof, Schulte-Roedding, Westfalenpark) by year-end at the latest. Also says 64 LED boards and Bluetooth scanners. Described as plans/forecast, text word 'planned' is correct. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Dataset page read. Licence 'Datenlizenz Deutschland - Zero - Version 2.0'; content 'Aktuelle Verfuegbarkeit, Oeffnungszeiten und Kapazitaeten' for city-centre garages and four P+R sites; 'Abruf der Daten bis zu 10 Minuten'; issued and modified both 2025-12-16. Minor: the page is the Open Data Portal Ruhr, harvesting a Stadt Dortmund dataset (publisher Stadt Dortmund), not the city's own catalogue; title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Supported: works since August 2022, planned end-2023, delay due to asbestos-containing components and construction defects plus additional fire-safety measures needing approval, cost framework about 4 million euros, headline says one year late. The body gives no reopening date; 'reopened in October 2024' is inferred from the 25 Oct 2024 publication date (the page says the garage 'steht wieder zur Verfuegung'). Page also does not name DOPARK as operator in the text (only a photo credit).",
+   "corrected_text": "A report published 25 October 2024 says the Konzerthaus underground garage is available again after renovation under way since August 2022; completion had been planned for the end of 2023. It cites asbestos-containing components, construction defects and additional fire-safety measures needing approval as the cause of delay, and a cost framework of about 4 million euros.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Page is partly paywalled; headline, standfirst and meta description support: DOPARK is a municipal subsidiary ('staedtisches Tochterunternehmen'), run by managing director Simon Kinz, operates many car parks and garages incl. Parkhaus Westentor, BP is a shareholder ('Weltkonzern BP beteiligt'), and the headline says the DOPARK boss explains why. 'quoted' rests on headline/section titles only. Published 2024-12-13.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Page read: 'Ladepunkte (2x22kW) fuer Elektrofahrzeuge auf Ebene A', 276 Plaetze, no charging tariff listed (tariff table covers parking only). Page undated; text correctly says 'as listed when checked in October 2026' and gives no specific fact date. Date 2026-10 and title ok.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Page read (truncated by registration wall): DEW21 receiving 144,000 EUR from ERDF for 'Fast Charging of E-Vehicles - Smart Charging Hub', to set up six fast charging points in Wohnquartier Mitte; 24/10/2019. The visible part does not say whether they are in garages; the draft correctly says so. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Page read (t-online, 15 Oct 2024, citing Radio 91.2): closure at end of August of 16 of 92 Galeria Karstadt Kaufhof stores nationwide incl. Dortmund; building empty, end not in sight; building owned by Signa Real Estate subsidiary, land owned by six ground-lease holders, ground-lease contract has only a few years left. Text's lead fact is the late-August closure, so the fact date is 2024-08 rather than the 15 Oct report date (the vacancy status is as reported 15 Oct). Draft title is the page's og:title; on-page headline is 'Ehemaliger Galeria-Filiale droht jahrelanger Leerstand'; both genuine for this page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": "2024-08"
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Page (RN, 27 Apr 2024) states Karstadt Dortmund on Westenhellweg stays open, survives the third insolvency, while 16 other stores close. Title matches the page <title>.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Page read: Jan 2020 3,472/h, Apr 2020 963/h, Jan 2021 581/h described as the lowest point in the period, tied to Covid lockdowns; counts Mon-Sat 10-20 h (page says 'Werktage', so 'weekday' should read Monday to Saturday). Page is on EHI's handelsdaten.de site; the figures table itself is paywalled, the quoted numbers appear in the descriptive text. Date 2021-01 as the low point; title matches og:title.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Dortmund's new on-street parking tariffs took effect on 1 August 2023, the first fee adjustment in over 20 years, with the city centre and Wall ring rising from 1.50 to 2.50 euros per hour. The city's renewed LED parking guidance system started on 31 August 2022, garage availability is published as open data, and a local report says the council approved a staged Wall ring rebuild removing one car lane per direction in December 2022, with full reconstruction not expected before 2030. The DOPARK Konzerthaus garage was reported back in service on 25 October 2024 after renovation, and the Galeria Kaufhof store on Westenhellweg closed at the end of August 2024."
+}

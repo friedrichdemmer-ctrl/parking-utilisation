@@ -1,0 +1,186 @@
+{
+  "country": "Spain",
+  "city": "Madrid",
+  "researched": "2026-10-06",
+  "summary": "Madrid's municipal car parks are run partly through concessions and partly directly by EMT, and the city sets annual maximum rotational tariffs by decree, indexed to regional CPI. Low-emission-zone rules have been the subject of repeated litigation: the 2021 ordinance that replaced Madrid Central was annulled by the regional high court in 2024, that ruling became final in 2026, and a further ordinance modification was approved in March 2026. Regional public transport ridership reached a record in 2025 and fares were kept unchanged for 2026.",
+  "items": [
+    {
+      "topic": "regulation",
+      "date": "2021-05",
+      "text": "A May 2021 report says the Supreme Court rejected an appeal by Ecologistas en Acción over the annulment of ordinance articles that underpinned Madrid Central, and that the zone kept issuing fines until that ruling became final. The report adds that the city government planned to replace it with a Madrid 360 scheme.",
+      "source_title": "Así queda Madrid Central hoy tras la anulación del programa",
+      "source_url": "https://www.carwow.es/blog/madrid-central-anulacion",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2021-11",
+      "text": "The Sustainable Mobility Ordinance modification approved in September 2021, which replaced Madrid Central with the broader Madrid 360 low-emission zone set-up, was challenged in the regional high court by Mas Madrid and by Vox in November 2021. The September 2021 amendment date is also cited in the city's own 2025 car park tariff decree.",
+      "source_title": "Más Madrid y Vox recurren la Ordenanza de Movilidad aprobada por Almeida que eliminó Madrid Central",
+      "source_url": "https://www.eldiario.es/madrid/madrid-vox-recurren-ordenanza-movilidad-aprobada-almeida-elimino-madrid-central_1_8499477.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2022-01",
+      "text": "A January 2022 article described a dynamic tariff for regulated on-street parking (SER) that raises meter prices by 60 percent when nitrogen dioxide readings exceed 60 micrograms per cubic metre and doubles them above 70. It reports zero-emission vehicles exempt and ECO-label vehicles discounted by up to 75 percent.",
+      "source_title": "Llega la tarifa dinámica del SER: parquímetros más caros los días de alta contaminación",
+      "source_url": "https://www.autonocion.com/tarifa-dinamica-del-ser-parquimetros-madrid-aumento-de-precio/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2024-09-17",
+      "text": "On 17 September 2024 the regional high court (TSJM) annulled the part of the mobility ordinance defining the citywide low-emission zone, after a challenge by Vox, citing an insufficient prior economic impact assessment. The report said the ruling could still be taken to the Supreme Court.",
+      "source_title": "Golpe a Madrid, la justicia echa abajo su Zona de Bajas Emisiones tras el recurso presentado por VOX",
+      "source_url": "https://www.motor.es/noticias/justicia-echa-abajo-zona-bajas-emisiones-madrid-recurso-vox-2024104300.html",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-04",
+      "text": "In April 2026 the Supreme Court rejected the city's appeal against the 2024 annulment, making that ruling final; the report notes the annulled rules had already been replaced by a newer ordinance. In July 2026 Vox asked the TSJM to enforce the ruling and require refunds of low-emission-zone fines.",
+      "source_title": "El Tribunal Supremo cierra la batalla legal de las ZBE de Madrid, pero nada cambia para los conductores",
+      "source_url": "https://www.motor.es/noticias/tribunal-supremo-batalla-legal-zbe-madrid-cambia-conductores-2026113764.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-03-24",
+      "text": "The Madrid city council plenary approved Ordinance 2/2026 on 24 March 2026, amending the Sustainable Mobility Ordinance on special-protection low-emission zones and regulated on-street parking (SER); corrections to its text were published in the regional gazette in May 2026.",
+      "source_title": "Corrección de los errores materiales advertidos en el texto de la Ordenanza 2/2026, de 24 de marzo, por la que se modifica la Ordenanza de Movilidad Sostenible (BOCM nº 107)",
+      "source_url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/05/07/BOCM-20260507-49.PDF",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-12-11",
+      "text": "In December 2025, before approval, the city's draft ordinance change was reported to allow SER to reach 22 more neighbourhoods in phases: about 11,372 spaces by 2029 and up to 66,120 by 2035, including Puente de Vallecas and Moratalaz for the first time. The draft also let the city extend SER hours beyond 21:00 on weekdays, from 15:00 on Saturdays, and to Sundays and holidays where demand is high.",
+      "source_title": "Los parquímetros podrán extenderse por 22 barrios más de Madrid con la nueva Ordenanza de Movilidad",
+      "source_url": "https://www.eldiario.es/madrid/somos/parquimetros-podran-extenderse-22-barrios-madrid-nueva-ordenanza-movilidad_1_12835383.html",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2024-12-02",
+      "text": "The city's 2025 tariff decree sets park-and-ride (disuasorio) use at EMT car parks as free if the car stays between 5 and 16 hours and the user also uses public transport during the stay; otherwise the general rotational tariff applies.",
+      "source_title": "Decreto de 2 de diciembre de 2024 ... por el que se aprueban para el año 2025 las tarifas de las plazas rotacionales de los aparcamientos municipales mixtos y de rotación de la ciudad de Madrid en gestión directa e indirecta (BOCM nº 297)",
+      "source_url": "https://bocm.es/boletin/CM_Orden_BOCM/2024/12/13/BOCM-20241213-49.PDF",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2020-10-23",
+      "text": "In October 2020 the regional transport consortium announced plans to add 19 car parks to its Aparca+T park-and-ride network, including three EMT car parks in Madrid city (Wanda Metropolitano, Nuestra Señora del Recuerdo and Avenida de Portugal). This was a plan, not a completed rollout.",
+      "source_title": "La Comunidad de Madrid prepara la incorporación de 19 aparcamientos a la red de parkings disuasorios Aparca+T",
+      "source_url": "https://crtm.es/comunicacion/sala-de-prensa/noticias/archivo/23102020-la-comunidad-de-madrid-prepara-la-incorporacion-de-19-aparcamientos-a-la-red-de-parkings-disuasorios-aparcaplust/",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2024-12-02",
+      "text": "The decree approved for 2025 maximum rotational car tariffs of 0.0496 euros per minute for 0-30 minutes, 0.0448 for 31-90 and 0.0594 for 91-660 minutes, with a 38.00 euro cap per day; the 2024 decree had set 0.0489, 0.0441, 0.0585 and 37.45 euros. The decree cites a 1.5 percent regional CPI change and applies to both direct (EMT) and concession car parks.",
+      "source_title": "Decreto de 2 de diciembre de 2024 ... por el que se aprueban para el año 2025 las tarifas de las plazas rotacionales de los aparcamientos municipales mixtos y de rotación de la ciudad de Madrid en gestión directa e indirecta (BOCM nº 297)",
+      "source_url": "https://bocm.es/boletin/CM_Orden_BOCM/2024/12/13/BOCM-20241213-49.PDF",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2025-01-01",
+      "text": "From 1 January 2025 the decree adds a high-demand tariff, 30 percent above the generic one for the first four hours, at rotation car parks within 400 metres of venues able to hold over 5,000 people during large events, starting one hour before the event. Vehicles with three or more occupants get a 15 percent reduction on it.",
+      "source_title": "Decreto de 2 de diciembre de 2024 ... por el que se aprueban para el año 2025 las tarifas de las plazas rotacionales de los aparcamientos municipales mixtos y de rotación de la ciudad de Madrid en gestión directa e indirecta (BOCM nº 297)",
+      "source_url": "https://bocm.es/boletin/CM_Orden_BOCM/2024/12/13/BOCM-20241213-49.PDF",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2024-12-02",
+      "text": "The city's tariff decree states that the municipal car park service is provided both through concessionaires and through direct management by EMT, the wholly city-owned transport company. It also lets EMT apply tariffs that take a vehicle's environmental label into account in its directly managed car parks.",
+      "source_title": "Decreto de 2 de diciembre de 2024 ... por el que se aprueban para el año 2025 las tarifas de las plazas rotacionales de los aparcamientos municipales mixtos y de rotación de la ciudad de Madrid en gestión directa e indirecta (BOCM nº 297)",
+      "source_url": "https://bocm.es/boletin/CM_Orden_BOCM/2024/12/13/BOCM-20241213-49.PDF",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2023-07-27",
+      "text": "In July 2023 the city council approved a concession running to 2048 for three Calle Velazquez car parks (1,894 spaces including 622 for residents and 128 charge points). The operator must invest 17.2 million euros in modernisation, according to the report.",
+      "source_title": "El Ayuntamiento de Madrid privatiza hasta el 2048 tres parkings de la calle Velázquez que ingresan 4,1 millones al año",
+      "source_url": "https://www.eldiario.es/madrid/somos/ayuntamiento-madrid-privatiza-2048-tres-parkings-calle-velazquez-ingresan-4-1-millones-ano_1_10412615.html",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-03-25",
+      "text": "EMT Madrid's 2025 accounts, reported in March 2026, show 19.2 million euros of income from its car parks.",
+      "source_title": "Cuentas 2025 cierran con beneficio de 3,26 millones y récords de viajes",
+      "source_url": "https://vivirediciones.es/madrid/cuentas-2025-cierran-con-beneficio-de-326-millones-y-records-de-viajes/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2024-02-14",
+      "text": "A February 2024 report says EMT finished upgrades at four public car parks (Pedro Zerolo, Plaza Mayor, Olavide, Almagro) that added 14 charge points, and that the city planned 33 more chargers across ten further car parks with EU Next Generation funding.",
+      "source_title": "Localizamos los 14 puntos de recarga en aparcamientos públicos que estrena Madrid",
+      "source_url": "https://movilidadelectrica.com/14-puntos-recarga-aparcamientos-publicos-madrid/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2020-06-28",
+      "text": "In mid-2020 the city had 45 public fast-charging points (31 on public land, 14 on private property), and EMT had signed an agreement with i-DE covering charge points in EMT-managed car parks and public spaces.",
+      "source_title": "Madrid moderniza la red pública de recarga rápida",
+      "source_url": "https://www.electrive.com/es/2020/06/28/madrid-moderniza-la-red-publica-de-recarga-rapida",
+      "confidence": "medium"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-02-14",
+      "text": "The city's open data catalogue lists an EMT car parks dataset describing rotation, resident, mixed and park-and-ride car parks (location and characteristics), last modified in February 2026.",
+      "source_title": "EMT. Aparcamientos EMT",
+      "source_url": "https://datos.gob.es/en/catalogo/l01280796-emt-aparcamientos-emt1",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-07",
+      "text": "The city's open data portal lists an EMT dataset of total and available spaces per car park by hour (CSV, update frequency daily) alongside a customer satisfaction study on EMT car parks updated in July 2026.",
+      "source_title": "datos.madrid.es (datasets tagged EMT)",
+      "source_url": "https://datos.madrid.es/dataset/?tags=emt",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2025",
+      "text": "The Community of Madrid reported a record 736,874,012 Metro trips in 2025, 3 percent above 2024, with November 28 (Black Friday) the busiest day ever at 2.82 million trips.",
+      "source_title": "La Comunidad de Madrid alcanza en 2025 el récord histórico de usuarios de Metro con un total de 736.874.012",
+      "source_url": "https://www.comunidad.madrid/node/107917",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2025-12-29",
+      "text": "The regional transport consortium resolved on 29 December 2025 to keep 2026 public transport prices at their second-half 2025 level, under a national decree-law providing fare subsidies (free child passes, 50 percent off youth passes, 20 percent off other multi-trip passes).",
+      "source_title": "Resolución de 29 de diciembre de 2025 ... por la que se dispone la publicación del acuerdo del Consejo de Administración por el que se determinan los precios del transporte público en el año 2026 (BOCM nº 311)",
+      "source_url": "https://crtm.es/media/s1qi0nmo/bocm-20251231-precios_transporte.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-05",
+      "text": "Madrid's tourism yearbook reports record international tourist spending in 2025 of 17.9 billion euros (71 percent above 2019) and more than 11 million visitors, and says the city now exceeds 900,000 visitors a month for nine months of the year.",
+      "source_title": "Madrid 2025 Anuario Turismo (Madrid Destino)",
+      "source_url": "https://www.madrid-destino.com/sites/default/files/2026-06/AnuarioTurismo_2026_ISSU.pdf",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "Ticketless plate-recognition entry and app payment at EMT car parks (for example Recoletos 360 and the Madrid Mobility 360 app): only seen in search snippets of diario.madrid.es, which could not be opened, so no dated claim was included.",
+    "Total EV charge point counts for the city in 2024-2026 and EMT car park charge-point totals after 2024: not sourced from an opened page.",
+    "Concession operators (Empark, Saba, Indigo/Parkia) by car park, and any municipal plan to change concessions beyond the Velazquez concession: not sourced; the Plaza del Rey / Fucar tender (March 2026) and Cortes car park refurbishment tender were seen only via secondary summaries without a confirmed page title.",
+    "Detailed SER tariffs by environmental label and their 2021 changes, residents' APR programme and resident SER rules: not sourced from a primary page.",
+    "Madrid Central (2018-2021) start and TSJM annulment dates, Madrid 360 ZBE start dates and fine volumes: only partly sourced (the 2023 fine statistics were not included).",
+    "Gran Via retail footfall, remote-work effects and events: no usable dated source found.",
+    "Dynamic or reserved car park pricing beyond the 2025 high-demand event tariff: not sourced.",
+    "2026 EMT car park tariff decree (for 2026 rates) was not located; only the 2024 and 2025 decrees were opened."
+  ]
+}

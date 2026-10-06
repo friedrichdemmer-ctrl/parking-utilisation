@@ -1,0 +1,194 @@
+{
+  "country": "Germany",
+  "city": "Heilbronn",
+  "researched": "2026-10-06",
+  "summary": "Sourced items show the city council adopting a new on-street parking fee ordinance (30 April 2026, due to take effect 1 January 2027) and a higher resident-permit fee scheduled for the same date. The city's utility group SWHN raised tariffs in several of its car parks in January 2024 and opened the Neckarbogen E-Quartiersgarage (643 spaces, 202 charge points) in May 2024. Other items cover the planned dynamic guidance system for centre garages (2021), plate-recognition entry in SWHN car parks, and demand-side context such as BUGA 2019 and the Galeria store's 2026 review.",
+  "items": [
+    {
+      "topic": "tariffs",
+      "date": "2026-04",
+      "text": "The city council adopted a new on-street parking fee ordinance on 30 April 2026; it was published in the city newspaper on 10 June 2026 and is stated to take effect on 1 January 2027, replacing the 1985 ordinance as amended in 2011. It sets four zones: Zone I is 1.00 EUR per started 20 minutes (1 hour maximum, charged daily 8-18h), Zone II 1.00 EUR per 30 minutes (2 hours), Zone III 0.50 EUR per 30 minutes (4 hours), Zone IV 0.20 EUR per 30 minutes or a 4 EUR day ticket.",
+      "source_title": "Bekanntmachung der Stadt Heilbronn - Satzung über die Erhebung von Gebühren für das Parken in Bereichen von Parkscheinautomaten (Parkgebührensatzung)",
+      "source_url": "https://www.heilbronn.de/fileadmin/daten/stadtheilbronn/formulare/rathaus/aktuelles/bekanntmachungen/Bekanntmachung_Parkgebuehrensatzung.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2011-03",
+      "text": "The previous on-street fee ordinance, last amended with effect from 1 March 2011, set Zone I at 0.50 EUR per started 20 minutes, Zone II at 0.50 EUR per 30 minutes and Zone III at 0.20 EUR per 30 minutes. This is the baseline the 2026 ordinance replaces.",
+      "source_title": "Parkgebührenordnung - Gebührenordnung für Parkuhren und Parkscheinautomaten der Stadt Heilbronn",
+      "source_url": "https://www.heilbronn.de/fileadmin/daten/stadtheilbronn/formulare/rathaus/stadtrecht/1_Oeffentliche_Sicherheit_und_Ordnung/1_1_Parkgebuehrenordnung.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-05",
+      "text": "A resident-parking fee ordinance dated 5 May 2026 sets the permit fee at 120 EUR per year (60 EUR for six months). The ordinance applies from 1 July 2026, but the fee increase is stated to become effective on 1 January 2027; it also renumbers the inner-city resident zones as 101-117.",
+      "source_title": "Bekanntmachung der Stadt Heilbronn - Rechtsverordnung über die Erhebung von Bewohnerparkgebühren (Bewohnerparkgebührenverordnung) vom 05.05.2026",
+      "source_url": "https://www.heilbronn.de/fileadmin/daten/stadtheilbronn/formulare/rathaus/aktuelles/bekanntmachungen/Bekanntmachung_RVO_Bewohnerparken.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2023-06",
+      "text": "A local news report said the city had put a planned increase in resident-permit fees on hold in 2022 and that the on-street rates had been unchanged since 2011. The city was reviewing the street-parking fees at that point without announcing new amounts.",
+      "source_title": "Parken in Heilbronn soll teurer werden: Stadt überarbeitet Gebühren",
+      "source_url": "https://www.echo24.de/heilbronn/anwohner-parken-strassen-oeffentlicher-raum-ticket-kosten-teurer-stadt-ueberarbeitet-gebuehren-92345882.html",
+      "confidence": "medium"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2024-01",
+      "text": "Stadtwerke Heilbronn (SWHN) announced tariff changes effective 1 January 2024 for the Bollwerksturm and Wohlgelegen garages and two surface car parks (Lohtorstrasse, Neckarbogen interim). The daily maximum rose from 12 to 14 EUR, the Wohlgelegen hourly rate from 1.50 to 2.00 EUR, and the residents' and night tariff at Bollwerksturm was dropped.",
+      "source_title": "Meldung: Tarifanpassung für Parkflächen und für die Heilbronner Bäder",
+      "source_url": "https://www.stadtwerke-heilbronn.de/swh/aktuelles/meldungen/Tarifanpassung.php",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2025-11",
+      "text": "A local newspaper price comparison reported that B&B Parkhaus GmbH, which it names as operator of the Wollhaus, Harmonie and K3 garages, had raised prices since October 2025, described as the first rise in several years. It lists Bollwerksturm (SWHN) at 2.50 EUR per started hour with a 16 EUR daily maximum, and the Experimenta and campus garages as the cheapest.",
+      "source_title": "Tiefgaragen-Besucher ärgert sich über Parkgebühr – die Preise in Heilbronn",
+      "source_url": "https://www.stimme.de/heilbronn/stadt-heilbronn/parken-innenstadt-kosten-gebuehr-preis-unterschiede-autofahrer-kosten-diskussion-vergleich-experimenta-bildungscampus-harmonie-wollhaus-bollwerksturm-art-5114763",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2024-05",
+      "text": "The E-Quartiersgarage in the Neckarbogen district, operated by SWHN, was officially opened on 13 May 2024 with 643 parking spaces. It received 2 million EUR in state transport-ministry funding, and the construction took about one year.",
+      "source_title": "Meldung: Neue E-Quartiersgarage im Neckarbogen feierlich eröffnet",
+      "source_url": "https://www.stadtwerke-heilbronn.de/swh/aktuelles/meldungen/Eroeffnung-Quartiersgarage.php",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2024-05",
+      "text": "On opening, the Neckarbogen E-Quartiersgarage had 202 charge points of up to 11 kW each, with further spaces pre-wired for later charging. SWHN is named as the operator.",
+      "source_title": "Meldung: Neue E-Quartiersgarage im Neckarbogen feierlich eröffnet",
+      "source_url": "https://www.stadtwerke-heilbronn.de/swh/aktuelles/meldungen/Eroeffnung-Quartiersgarage.php",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2021-09",
+      "text": "A trade-press report said SWHN operates 26 charge points in the Bollwerksturm garage and the SLK clinic garage at Gesundbrunnen, with the city owning the equipment. The points are described as 11 kW units payable by app or card terminal.",
+      "source_title": "Heilbronn knüpft Ladenetz an städtischen Gebäuden",
+      "source_url": "https://www.electrive.net/2021/09/23/heilbronn-knuepft-ladenetz-an-staedtischen-gebaeuden/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2025-02",
+      "text": "A trade-press report said the Innovationspark parking garage (423 spaces) was equipped with 200 charge points. Access is described as semi-public, shared by the surrounding companies.",
+      "source_title": "ChargeHere und ZEAG statten Heilbronner Innovationspark mit 200 Ladepunkten aus",
+      "source_url": "https://www.electrive.net/2025/02/24/chargehere-und-zeag-statten-heilbronner-innovationspark-mit-200-ladepunkten-aus/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-04",
+      "text": "SWHN's terms for its car parks (version dated April 2026) say that, depending on the facility, entry can be recorded by camera licence-plate recognition instead of a paper ticket. At such sites no parking ticket is issued, and plate data is deleted within 24 hours of payment and exit.",
+      "source_title": "Allgemeine Geschäftsbedingungen (AGB) der Stadtwerke Heilbronn GmbH (SWHN) für die Nutzung von Parkflächen",
+      "source_url": "https://www.stadtwerke-heilbronn.de/wAssets/docs/parkhaeuser/SWHN_AGBs_Parken.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-06",
+      "text": "The 2026 on-street fee ordinance names payment by mobile phone through apps of providers in the Smartparking Plattform e. V. as equivalent to paying at the meter. It also says only some meters take card payments.",
+      "source_title": "Bekanntmachung der Stadt Heilbronn - Satzung über die Erhebung von Gebühren für das Parken in Bereichen von Parkscheinautomaten (Parkgebührensatzung)",
+      "source_url": "https://www.heilbronn.de/fileadmin/daten/stadtheilbronn/formulare/rathaus/aktuelles/bekanntmachungen/Bekanntmachung_Parkgebuehrensatzung.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2021-07",
+      "text": "In July 2021 the city was reported to be renewing its dynamic parking guidance system for the centre, going from 8 to 12 connected garages and from 27 to 31 signs showing free spaces. The start, first planned for late 2021, was reported as slipping to 2022; this source describes a plan and does not confirm go-live.",
+      "source_title": "Schluss mit Suchen! Park-Revolution für Heilbronn",
+      "source_url": "https://www.echo24.de/heilbronn/heilbronn-parkleitsystem-parkhaus-parkplatz-schilder-verkehrsleitsystem-autofahrer-90889295.html",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2019-04",
+      "text": "The Mobilitätskonzept measures catalogue (April 2019, prepared for the city's road department) lists a measure on reorganising parked-vehicle traffic, including parking fees. It sets out the idea of fees graded so that parking costs more closer to the centre, with park-and-ride at public-transport stops, and treats this as a measure to be considered.",
+      "source_title": "Mobilitätskonzept für die Stadt Heilbronn - Maßnahmenkatalog (Drucksache 294/2019)",
+      "source_url": "https://www.heilbronn.de/fileadmin/daten/stadtheilbronn/formulare/umwelt_mobilitaet/mobilitaet/mobilitaetskonzept/Drucks_294_2019_Mobilitaetskonzept_Massnahmenkatalog.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2020-05",
+      "text": "A local news report said that from May 2020 several streets in the northern centre (Gerberstrasse, Lammgasse, Lohtorstrasse, Zehentgasse, Turmstrasse) were merged into one parking zone. Parking-ticket obligations there then applied seven days a week, including Sundays, with a two-hour maximum stay.",
+      "source_title": "Achtung: Hier gilt in Heilbronn ab sofort die Parkschein-Pflicht - auch sonntags",
+      "source_url": "https://www.echo24.de/heilbronn/heilbronn-innenstadt-parken-stadtverwaltung-parkschein-autofahrer-13749421.html",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2020-09",
+      "text": "In September 2020 the SPD council group proposed reducing car traffic in the northern centre, including ending parking on Lohtorstrasse and cutting public parking by about a third. The report presents these as proposals pending cost calculation by the administration, not as decisions.",
+      "source_title": "Schwere Folgen für Autofahrer in Heilbronn: Kommt jetzt die autofreie Innenstadt?",
+      "source_url": "https://www.echo24.de/heilbronn/heilbronn-autofreie-innenstadt-spd-fraktion-verkehr-anwohner-stadt-13859699.html",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2023-07",
+      "text": "A local news report said Stadtbahn services through the Kaiserstrasse stretch near the main station were replaced by buses from 3 July to about 6 September 2023 for track renewal, with the Friedrich-Ebert-Brücke also closed to vehicles.",
+      "source_title": "Kein Bahn-Verkehr in Heilbronner Innenstadt – wegen Großbaustelle bis Ende August",
+      "source_url": "https://www.echo24.de/heilbronn/kein-stadtbahn-verkehr-innenstadt-baustelle-ende-august-kaiserstrasse-rathaus-sanierung-bus-ersatz-92346716.html",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-09",
+      "text": "A local news report said 60 public parking spaces on Karlstrasse between Goethestrasse and Friedhofstrasse are being removed by converting perpendicular to parallel parking, with markings due from 10 September 2026. The city cites cyclist safety on school routes as the reason.",
+      "source_title": "Parkplatz-Kahlschlag in Heilbronn: In dieser Straße fallen 60 Stellplätze weg",
+      "source_url": "https://www.echo24.de/heilbronn/stadt-entfernt-60-parkplaetze-in-karlstrasse-anwohner-patienten-aerztehaus-schule-polizeipraesidium-betroffen-94475276.html",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2023-07",
+      "text": "In July 2023 a local news report said an investor's plans for a new Wollhaus centre (market hall, retail, housing) had been presented to the council, with completion expected by 2028. It treats this as plans only; the Wollhaus site is where a garage operated by B&B Parkhaus GmbH is named in a 2025 report.",
+      "source_title": "Neues Wollhauszentrum wäre eine riesige Chance für die Heilbronner Innenstadt",
+      "source_url": "https://www.echo24.de/heilbronn/wollhaus-zentrum-plaene-chance-innenstadt-einzelhandel-kunden-einkauf-92430500.html",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-07",
+      "text": "In July 2026 the Galeria department store in Heilbronn was reported as one of 33 branches nationwide under review, with high rent cited as a main issue and negotiations with the landlords ongoing. No decision had been announced in that report.",
+      "source_title": "Kaufhaus-Krise: Steht die Heilbronner Galeria-Filiale vor dem Aus?",
+      "source_url": "https://www.echo24.de/heilbronn/galeria-heilbronn-droht-schliessung-filiale-steht-auf-der-streichliste-94410055.html",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2019-10",
+      "text": "BUGA 2019 closed on 6 October 2019 after 173 days, with a final-balance report citing over 2 million visitors.",
+      "source_title": "Buga 2019 Abschluss-Bilanz kurz vor dem Ende",
+      "source_url": "https://www.echo24.de/heilbronn/heilbronn-buga-2019-bilanz-kurz-vor-schluss-13063016.html",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2025-12",
+      "text": "A law-firm press release of 17 December 2025 said the Dieter Schwarz Stiftung and ETH Zurich are setting up 15 professorships in Heilbronn on digital transformation, with new buildings on the education campus and research starting in 2026.",
+      "source_title": "Noerr berät Dieter Schwarz Stiftung gGmbH bei Kooperation mit der ETH Zürich",
+      "source_url": "https://www.noerr.com/de/presse/20251217-dieter-schwarz-stiftung-eth",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "No source found for tariff changes at Contipark or APCOA garages (only a 2025 report on B&B Parkhaus GmbH and SWHN prices).",
+    "Ownership or operator changes for the Stadtgalerie, Parkhaus Harmonie and the Bahnhof-area garages were not sourced.",
+    "No source found for any Kaufhof or Kaufland site garage closure or demolition, or for the Experimenta garage's history.",
+    "Confirmation of when the renewed dynamic parking guidance system actually went live was not found.",
+    "No source found on the Deutschlandticket, Stadtbahn ridership or park-and-ride changes in Heilbronn.",
+    "Open-data publication of garage occupancy and app payment in the garages (as distinct from on-street) were not sourced.",
+    "No source found for measured footfall in the centre, the 2023 traffic trial results, or the Bahnhof/Willy-Brandt-Platz Stadtbahn works' effect on access.",
+    "Hard figures on the 2026 resident-permit fee's previous level and the council debate behind the 2026 ordinances were not obtained (the local newspaper article was paywalled)."
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "country": "Germany",
+  "city": "Dortmund",
+  "researched": "2026-10-06",
+  "summary": "Dortmund raised on-street parking fees in August 2023 for the first time in over 20 years, with the city centre and Wall ring rising to 2.50 euros per hour. The city also renewed its LED parking guidance system in 2022, plans to cut car lanes on the Wall ring, and publishes garage availability as open data. DOPARK, the municipal garage operator, reopened its renovated Konzerthaus garage in October 2024, and the Galeria Kaufhof store on Westenhellweg closed in August 2024.",
+  "items": [
+    {
+      "topic": "tariffs",
+      "date": "2023-02",
+      "text": "The city administration proposed raising on-street parking fees by up to 200 percent, to a maximum of 2.50 euros per hour in the centre (first change since 1992), with a more moderate increase at DOPARK garages and the first hour capped at 2.00 euros. The proposal named 1 April 2023 for DOPARK and 1 July 2023 for street parking, subject to a council vote scheduled for 23 March 2023, and also extended meter hours to Sundays in the centre.",
+      "source_title": "Nach 30 Jahren sollen die Parkgebühren in der Dortmunder Innenstadt drastisch steigen - Nordstadtblogger",
+      "source_url": "https://www.nordstadtblogger.de/nach-30-jahren-sollen-die-parkgebuehren-in-der-dortmunder-innenstadt-drastisch-steigen/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2023-08-01",
+      "text": "New on-street tariffs took effect on 1 August 2023, the first fee adjustment in over 20 years, after the council approved the change in March. In the city centre and Wall ring the hourly rate rose from 1.50 to 2.50 euros, and 270 ticket machines were updated; 86 machines in the centre and Wall ring malfunctioned on the first day.",
+      "source_title": "Parken in Dortmund ist jetzt deutlich teurer: Panne an Automaten zum Start",
+      "source_url": "https://www.ruhrnachrichten.de/dortmund/parken-in-dortmund-ist-jetzt-teurer-automatenpanne-zum-start-w764833-2000886578/",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2023-08-02",
+      "text": "A second report on the same change lists the six-zone structure from 0.50 euros per hour in residential areas up to 2.50 euros in the city centre. It says the city planned to review prices every three years afterwards, and that app payment (Handyparken) bills to the minute across the city.",
+      "source_title": "Die erste Preiserhöhung seit 20 Jahren ist in Kraft getreten: Ab sofort ist das Parken in Dortmund teurer - Gebührenumstellung an den Parkscheinautomaten ist erfolgt",
+      "source_url": "https://www.nordstadtblogger.de/die-erste-preiserhoehung-seit-20-jahren-ist-in-kraft-ab-sofort-ist-das-parken-in-dortmund-teurer/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2024-07",
+      "text": "A July 2024 article reports that parking in the city centre has been chargeable on Sundays for about a year, and that this brings the city tens of thousands of euros a month.",
+      "source_title": "Dortmund: Parken in der City ist auch sonntags kostenpflichtig",
+      "source_url": "https://www.ruhrnachrichten.de/dortmund/city-parken-parken-gebuehren-kosten-preis-auto-stadt-dortmund-zehntausende-euro-pro-monat-ein-w907159-2001283501/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2022-12",
+      "text": "A local report says the council approved a three-stage rebuild of the Wall ring that removes one driving lane per direction, with parking spaces also dropping out. It states that full reconstruction is not expected before 2030 and that a temporary marked solution was planned from 2024.",
+      "source_title": "Für Dortmunds Radwall fallen Fahrspuren und Parkplätze weg – Umbau für rund 1 Mio. Euro in 3 Stufen",
+      "source_url": "https://ausblick-am-hellweg.de/2022/12/17/fuer-dortmunds-radwall-fallen-fahrspuren-und-parkplaetze-weg-umbau-fuer-rund-1-mio-euro-in-3-stufen/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-01",
+      "text": "The city planned to turn the right-hand car lane into a bus lane on two sections of the Königswall near the main station, tied to a new ring bus line 400. A council vote was scheduled for 13 February 2025, and a council decision on the wider Wall redesign was expected by the end of 2025.",
+      "source_title": "Stadt Dortmund plant eigene Busspur auf dem Wall",
+      "source_url": "https://www.ruhrnachrichten.de/dortmund/dortmund-autofahrer-hauptbahnhof-koenigswall-busspur-verkehr-w985485-2001521284/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-05-29",
+      "text": "The council approved a new schedule for resident parking zones around the centre, adding two zones a year through 2032, starting in 2026 with Weingartenstraße in Hörde. The city gave new construction, more remote work and fire-brigade access rules as reasons. A March 2026 report listed Westerbleichstraße and Hafen-Ost for 2027.",
+      "source_title": "Stadt Dortmund ordnet Bewohnerparkzonen neu - Radio 91.2",
+      "source_url": "https://www.radio912.de/artikel/stadt-dortmund-ordnet-bewohnerparkzonen-neu-2661979",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2022-08-31",
+      "text": "The renewed city-centre parking guidance system, with 64 large LED boards around the Wall ring and approach roads, went into operation on 31 August 2022. At the start the boards showed only directions to garages, with availability counts planned to follow, and vehicle travel times are measured with Bluetooth scanners.",
+      "source_title": "Dortmund: Neues Parkleitsystem - LED-Tafeln gehen jetzt an den Start",
+      "source_url": "https://www.ruhrnachrichten.de/dortmund/neues-parkleitsystem-led-tafeln-in-dortmund-gehen-jetzt-an-den-start-w1787308-2000616887/",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2022-07-20",
+      "text": "The same system was also described as passing parking availability data to the federal mobility data marketplace for use by navigation and app providers. A second phase planned automated barriers at four park-and-ride sites (Hafen, Hauptfriedhof, Schulte-Rödding, Westfalenpark) by the end of 2022.",
+      "source_title": "Dortmund bekommt ein neues Parkleitsystem - Nordstadtblogger",
+      "source_url": "https://www.nordstadtblogger.de/dortmund-bekommt-ein-neues-parkleitsystem/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "technology",
+      "date": "2025-12-16",
+      "text": "The City of Dortmund's open-data catalogue lists a dataset of current availability, opening times and capacities for city-centre garages and park-and-ride sites, refreshed at intervals of up to 10 minutes under a zero-restriction open licence. The catalogue gives 16 December 2025 as its issue and last-modified date.",
+      "source_title": "Parkhäuser und Parkplätze - Datensatz - Open Data Portal Ruhr",
+      "source_url": "https://opendata.ruhr/dataset/parkhauser-und-parkplatze1",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2024-10-25",
+      "text": "The DOPARK-operated Konzerthaus underground garage reopened in October 2024 after renovation that began in August 2022, about a year later than the end-2023 target. The report cites asbestos-containing materials, construction defects and added fire-safety approvals as causes, and a cost of about 4 million euros.",
+      "source_title": "Wiedereröffnung der Konzerthaus-Tiefgarage in Dortmund mit einem Jahr Verspätung - Nordstadtblogger",
+      "source_url": "https://www.nordstadtblogger.de/nach-einem-jahr-verzoegerung-wiedereroeffnung-der-tiefgarage-des-konzerthaus-dortmund/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2024-12-13",
+      "text": "DOPARK is described as a municipal subsidiary of Dortmund that operates many facilities, including the Westentor garage, and that BP is a partial owner. DOPARK's managing director Simon Kinz is quoted on why the company has this outside shareholder.",
+      "source_title": "Dortmunder Parkhaus-Betreiber gehört zum Teil einem Weltkonzern: Dopark-Chef verrät, warum",
+      "source_url": "https://www.ruhrnachrichten.de/dortmund/dortmunds-parkhaus-betreiber-gehoert-zum-teil-einem-weltkonzern-dopark-chef-erklaert-warum-w972681-2001477854/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2026-10",
+      "text": "As listed when checked in October 2026, DOPARK's page for the Konzerthaus (Burgwall) garage shows two 22 kW charging points on level A, in a garage of 276 spaces. The page gives no charging price.",
+      "source_title": "Tiefgarage Konzerthaus (Burgwall) - Parken in Dortmund",
+      "source_url": "https://www.dopark.de/tiefgarage-konzerthaus-burgwall/",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2019-10-24",
+      "text": "DEW21 received 144,000 euros from the European Regional Development Fund for a project to set up six fast-charging points in the Wohnquartier Mitte district. The report does not say whether these are in garages.",
+      "source_title": "Funding decision for Dortmund's e-charging infrastructure",
+      "source_url": "https://www.energate-messenger.com/news/196111/funding-decision-for-dortmund-s-e-charging-infrastructure",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2024-10-15",
+      "text": "The Galeria Kaufhof store on Westenhellweg closed in late August 2024 as one of 16 closures nationwide, and the building was reported empty with no reopening date. It cites a split ownership of building and land, with the ground-lease contract running only a few more years.",
+      "source_title": "Jahrelanger Leerstand in Dortmund? Zukunft der Galeria-Immobilie am Westenhellweg bleibt ungewiss",
+      "source_url": "https://dortmund.t-online.de/region/dortmund/id_100509996/dortmund-ehemaliger-galeria-filiale-droht-jahrelanger-leerstand.html",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2024-04-27",
+      "text": "In April 2024 it was reported that the Galeria Karstadt store on Westenhellweg would stay open as part of the group's latest restructuring decision.",
+      "source_title": "Galeria Karstadt Dortmund bleibt geöffnet: Kaufhaus weiter am Westenhellweg",
+      "source_url": "https://www.ruhrnachrichten.de/dortmund/die-wuerfel-sind-gefallen-karstadt-bleibt-dortmund-erhalten-die-botschaft-kam-per-telefonkonferenz-w874159-2001187409/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2021-01",
+      "text": "EHI Retail Institute counts for Westenhellweg (Mitte) show weekday pedestrian traffic during shop hours at 3,472 per hour in January 2020, 963 in April 2020 and 581 in January 2021, the lowest in the series, during pandemic restrictions.",
+      "source_title": "Passantenfrequenzen in deutschen Shoppingmeilen - Monatswerte für den Westenhellweg (Mitte) in Dortmund | 2021",
+      "source_url": "https://www.handelsdaten.de/deutschsprachiger-einzelhandel/passantenfrequenz-westenhellweg-mitte-dortmund-corona-pandemie",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "Residents' parking permit fee levels and any fee change in Dortmund (no Dortmund source found).",
+    "Exact DOPARK garage tariffs and any garage price change (only the February 2023 proposal was found, not a confirmed in-force DOPARK tariff).",
+    "dortmund.de pages could not be opened by the fetch tool, so official city releases on tariffs, the Wall ring, park-and-ride and Deutschlandticket are cited only through secondary sources or omitted.",
+    "Deutschlandticket uptake in Dortmund (a figure appeared in search results but the exact page could not be confirmed).",
+    "Masterplan Mobilität 2030 targets and exact adoption dates (seen only in search summaries).",
+    "Ticketless/ANPR entry and DOPARK app payment (DOPARK's site mentions a Flexi-Card only).",
+    "Dynamic pricing in any Dortmund garage.",
+    "Thier-Galerie, Stadthaus and other garage openings, closures or demolitions; operator facts for DIAG, Contipark and Goldbeck.",
+    "Weihnachtsmarkt and Borussia Dortmund match-day effects on garage use, and city-wide footfall counts after 2021.",
+    "Date and details of when DOPARK's EV charging was restored or expanded, and DEW21 charge-point counts in garages.",
+    "Outcome of the Wall ring marked lane trial in 2025 and any council decision on later stages."
+  ]
+}

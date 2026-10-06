@@ -1,0 +1,141 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Checked the Niederschrift: item 'Erhöhung der Parkgebühren' (Vorlage 2020/1283), 24 Ja / 18 Nein / 2 Enthaltungen, adopted 26 Jan 2021. Councillor Marvi (SPD) says 'Die letzte Erhöhung war im Jahr 2016'. Title and date correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "Page (press release dated 11.12.2021) confirms the opening date, the Hermann/Theurer quotes and the road tunnel due end of March 2022. But the first sentence of the draft implies the road tunnel (Kriegsstraße) went into operation on 11 Dec 2021; the page says the tram/light-rail tunnel and the surface track in Kriegsstraße were opened and the road tunnel was 'noch nicht ganz fertig' (opens March 2022). The pedestrian-zone quote is by Staatssekretär Theurer (federal), not the state transport minister; Hermann said the project brings 'verkehrlichen Nutzen'.",
+   "corrected_text": "The Kombilösung tram and light-rail tunnel under Kaiserstraße and the surface track in Kriegsstraße went into operation on 11 December 2021. In the press release a federal transport state secretary, Michael Theurer, says Karlsruhe chose a genuine pedestrian zone, and the road tunnel under Kriegsstraße was not yet finished and was due to open at the end of March 2022.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Niederschrift 14 Dec 2021: 180 euros for 2022/2023 adopted 27-20; 360 euros from 2024 rejected 19 Ja / 28 Nein. The previous 30 euros was the administrative fee ('Verwaltungsgebühr in Höhe von jährlich 30 Euro') as stated by a councillor. Statute adopted per Beschluss. Title and date correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Vorlage 2021/1182, Gemeinderat 23.11.2021: KFG has 7 AC points at Kronenplatz (5 rented to Stadtmobil), 2 at Am ZKM, 2 at P1/P2 (KFG operates P1/P2 for the city), only AC points built in city garages, DC in city-centre garages seen as less relevant. All matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "BNN page (paywalled; headline, lede and meta read, published 11 Nov 2022). Lede: 'Im kommenden Jahr brechen die Bagger Parkhaus und P&C-Gebäude an der Karlsruher Kaiserstraße ab'; headline 'Abriss und Neubau'. Only the lede is visible, so 'new building to follow' rests on the headline, and 'attached' on the lede grouping Parkhaus with the P&C building. Single source, medium confidence appropriate; stated as a plan, which is how the text words it.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "BNN page (paywalled; headline, lede and meta read, published 13 Mar 2023): 'Die Filiale des Galeria-Karstadt-Kaufhof-Konzerns im denkmalgeschützten Gebäude auf der Kaiserstraße bleibt erhalten.' Matches; only lede visible, single source.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Vorlage 2024/0458: 'Stand August 2024, etwa 430' public charge points, 54 in street space from a pilot project, ca. 376 in publicly accessible space mainly customer car parks, Parkhäuser and petrol stations. Council date was Oct 2024 but the fact date is as of August 2024, so the date is fine.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Vorlage 2025/0070 (CDU motion, received 21.01.2025) matches the proposal and the cashless statement for Fächer/PBW garages. But the motion hedges: on-street app payment does not exist 'unseres Wissens bisher'. The draft states it flatly.",
+   "corrected_text": "A CDU council motion received 21 January 2025 asks that Karlsruhe join the smartparking initiative so that paid on-street parking can be paid by app, call or SMS. The motion says cashless and app payment (for example Autopay or vParken) has long been usual in Karlsruher Fächer and PBW garages, and that to its knowledge app payment on public spaces did not exist so far.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Vorlage 2025/0097: 21 garages with 8,105 spaces connected to the guidance system, data to traffic computer, Mobilitätsportal and street signs; scaling sensors to all spaces not planned; 59 further sensors on disabled bays installed by end of January 2025 (note: 15 of the 59 were not yet delivering data). Text matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Vorlage 2025/0413 (Planungsausschuss 22.05.2025) confirms project post filled since September 2024 and Park.Raum.Dialog participation 2024/2025. But the body says there is no COMPLETE data base ('keine vollständige Datengrundlage') and that what is planned for 2025 is the award (Vergabe) of a coarse analysis of public parking space, not a survey carried out in 2025 (first parking surveys had already been done in 2024).",
+   "corrected_text": "A May 2025 progress report on the city's IQ lead project for sustainable parking concept and management says the project post has been filled since September 2024 and that the city took part in the state's Park.Raum.Dialog in 2024/2025. It says Karlsruhe has no complete data base on public parking yet, and that the award of a coarse analysis of public parking space is targeted for 2025.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Stellungnahme zu Antrag DHH/2025/2007: KFG adjusts tariffs 'turnusgemäß', operates only two near-centre garages in C-Lagen, only Tiefgarage P1 at the main station has especially high utilisation, no price-setting right, prices to be agreed with Deutsche Bahn, regular increase 'in der Umsetzung'. PDF created 5 Dec 2025 (document itself carries no date), so 2025-12 is plausible.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Niederschrift 22 Dec 2025: administration had proposed doubling, changed to a 50 percent increase, tied to extension of the managed zones and resident parking; the mayor clarified it concerns public space only, not garages, which are 'größtenteils auch nicht beeinflussbar'. Budget adopted 37-8, the parking compromise by 'übergroße Mehrheit'.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Niederschrift 24 Mar 2026 confirms 34 Ja / 8 Nein, the FDP/FW supplementary motion (care homes and hospitals) rejected 10-32, and that the ordinance implements the budget decision. The sentence that the zone 1 expansion was not part of the vote and would be proposed later after a parking survey does not appear anywhere in this document.",
+   "corrected_text": "On 24 March 2026 the council adopted the amendment to the parking fee ordinance by 34 votes to 8, implementing the December 2025 budget decision to raise on-street parking fees by 50 percent. A FDP/FW supplementary motion on care homes and hospitals was rejected, 10 to 32.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Satzung text: zone 1 1.50 euros per 15 min up to 6.00 euros for 60 min; zone 2 1.50 euros per 30 min up to 6.00 euros for 120 min; day tickets in zone 2 15 euros (hospitals) and 22.50 euros (care homes and main station); in force 1 June 2026; the text states adoption by council on 24 March 2026. The PDF does not print the Vorlage number 2026/0072 (that comes from the Niederschrift), so the title is trimmed to what the page shows.",
+   "corrected_text": null,
+   "corrected_title": "Anlage 1: Satzung zur Änderung der Satzung der Stadt Karlsruhe über Parkgebühren (Parkgebührensatzung)",
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Presentation of 26.02.2026. Saturday counts: spring 2020 195,539; spring 2022 294,520; spring 2024 259,252; spring 2025 340,342; autumn 2025 317,979; base 20 identical counting points; Covid rule notes for 2020-2022 (the slide notes run through spring 2023); construction on count days incl. 'Kaiserstraße 2 BA' on 25 Oct 2025. All figures correct; the draft selects only some count dates (omits e.g. autumn 2024 301,731), which is accurate but selective.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Vorlage 2025/0224 (HFA 08.04.2025): IFH Köln, 1,000 respondents, September-November 2024, 61.9 percent weekly shopping visits vs 58 percent in 2022, attractiveness grade 2.8 vs 2.6 (2022) and 2.4 (2020). All match.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "ka-news page (23.08.26) confirms the Saturday 22 Aug fire, about 60 vehicles towed in a night shift 22:00-08:00, visibly covered in soot, and that the reopening date was not yet known. But what burned was two vehicles in the garage ('zwei Fahrzeuge lichterloh brannten'), with dense smoke coming out of the building; the page does not say smoke filled the whole structure, and the draft omits that it was vehicles that burned. The page calls it a 'Großbrand'. Single source.",
+   "corrected_text": "ka-news reported that on the afternoon of Saturday 22 August 2026 two vehicles burned in Parkhaus Stephansplatz and dense smoke came out of the building. About 60 affected, visibly sooty vehicles were towed from the parking deck overnight, and as of 23 August it was not known when the garage would be available again.",
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Karlsruhe's council approved higher on-street parking fees on 26 January 2021, adopted a resident parking permit fee of 180 euros a year for 2022 and 2023 (up from a 30 euro administrative fee), and in December 2025 chose a 50 percent increase in on-street fees, which the March 2026 ordinance sets to take effect on 1 June 2026. The mayor said the increase concerns public street space only, and that garage prices are largely outside the city's influence; its company Karlsruher Fächer GmbH says it operates only two near-centre garages in secondary locations. The city publishes Saturday pedestrian counts for the centre for 2020-2025, and the Kombilösung tram tunnel under Kaiserstraße opened on 11 December 2021."
+}

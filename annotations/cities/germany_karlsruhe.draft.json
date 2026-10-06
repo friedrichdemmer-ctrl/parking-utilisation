@@ -1,0 +1,155 @@
+{
+  "country": "Germany",
+  "city": "Karlsruhe",
+  "researched": "2026-10-06",
+  "summary": "Karlsruhe's council raised on-street parking charges in 2021 and again with a 50 percent increase taking effect on 1 June 2026, and it raised the resident parking permit fee from 30 to 180 euros from 2022. The city says it can mostly not influence garage tariffs; its own company Karlsruher Fächer GmbH runs only a few garages. Saturday footfall counts in the centre in 2020-2025 are published by the city, and the Kombilösung tunnel opened in December 2021 with Kaiserstraße as a pedestrian zone.",
+  "items": [
+    {
+      "topic": "regulation",
+      "date": "2021-01",
+      "text": "On 26 January 2021 the city council approved an amendment to the on-street parking fee ordinance that raised parking fees, by 24 votes to 18 with 2 abstentions. In the debate an SPD councillor said the previous increase had been in 2016.",
+      "source_title": "Niederschrift 20. Plenarsitzung des Gemeinderates, 26. Januar 2021",
+      "source_url": "https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00623999.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2021-12",
+      "text": "The Kombilösung (tram and light-rail tunnel under Kaiserstraße plus a road tunnel under Kriegsstraße) went into operation on 11 December 2021. The Baden-Württemberg press release quotes the transport minister saying Karlsruhe chose a genuine pedestrian zone, and says the road tunnel was due to open in March 2022.",
+      "source_title": "Kombilösung Karlsruhe ist in Betrieb gegangen",
+      "source_url": "https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/kombiloesung-karlsruhe-ist-in-betrieb-gegangen",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2021-12",
+      "text": "On 14 December 2021 the council adopted a resident parking permit fee statute: 180 euros per year for 2022 and 2023, up from 30 euros. A proposed step to 360 euros from 2024 was rejected, 19 votes in favour and 28 against.",
+      "source_title": "Niederschrift 33. Plenarsitzung des Gemeinderates, 14. Dezember 2021",
+      "source_url": "https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00635033.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2021-11",
+      "text": "In a statement for the 23 November 2021 council session, the city said the Karlsruher Fächer GmbH had 7 AC charge points at Parkhaus Kronenplatz, 2 at Tiefgarage Am ZKM and 2 at the main-station garage P1/P2, with some leased to car-sharing provider Stadtmobil. It said city-owned garages had only AC points, and that DC fast charging in city-centre garages was seen as less relevant than AC.",
+      "source_title": "Stellungnahme zur Anfrage: Priorisierung von AC-Ladepunkten in Parkhäusern der Karlsruher Innenstadt (Vorlage 2021/1182)",
+      "source_url": "https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00633462.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2022-11",
+      "text": "BNN reported that the Peek & Cloppenburg building on Kaiserstraße and its attached car park were to be demolished in the following year, with a new building to follow.",
+      "source_title": "Peek & Cloppenburg Karlsruhe: So sollen Abriss und Neubau laufen",
+      "source_url": "https://bnn.de/karlsruhe/karlsruhe-stadt/peek-cloppenburg-karlsruhe-so-sollen-abriss-und-neubau-laufen",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2023-03",
+      "text": "BNN reported in March 2023 that the Galeria Karstadt Kaufhof store in the listed building on Kaiserstraße would be kept open.",
+      "source_title": "Standort bleibt: Karstadt-Kunden in Karlsruhe sind erleichtert",
+      "source_url": "https://bnn.de/karlsruhe/karlsruhe-stadt/innenstadt/standort-bleibt-karstadt-kunden-erleichtert-galeria-karstadt-kaufhof-konzern",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2024-08",
+      "text": "As of August 2024 the city counted about 430 publicly accessible charge points. 54 were in street space from a pilot project, and the remaining roughly 376 were mostly at customer car parks, in car parks or garages, and at petrol stations.",
+      "source_title": "Beschlussvorlage 2024/0458: Fortschreibung des Rahmenkonzeptes für den Ausbau öffentlicher und öffentlich zugänglicher E-Ladeinfrastruktur der Stadt Karlsruhe",
+      "source_url": "https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00660943.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2025-01",
+      "text": "A CDU council motion of January 2025 proposed that the city join the smartparking initiative so on-street parking could be paid by app, call or SMS. The motion says cashless and app payment (for example Autopay or vParken) is already usual in the Karlsruher Fächer and PBW garages, and that on-street app payment did not exist yet.",
+      "source_title": "Antrag: Handyparken im öffentlich zugänglichen Raum (Vorlage 2025/0070)",
+      "source_url": "https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00664339.pdf",
+      "confidence": "medium"
+    },
+    {
+      "topic": "technology",
+      "date": "2025-03",
+      "text": "In a statement for the 25 March 2025 council session, the city said a digital parking guidance system already exists: 21 garages with 8,105 spaces report free spaces to the traffic computer, which passes them to street signs and to the Mobilitätsportal. The city said it did not plan to put sensors on all parking spaces, and had installed 59 occupancy sensors on disabled bays in the centre.",
+      "source_title": "Stellungnahme zum Antrag: Digitales Parkleitsystem – schnellstmögliche Einführung zur wirtschaftlichen Belebung von Karlsruher Stadtangeboten (Vorlage 2025/0097)",
+      "source_url": "https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00665424.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-05",
+      "text": "A May 2025 progress report on the city's IQ lead project for sustainable parking concept and management says the project post was filled in September 2024 and the city took part in the state's Park.Raum.Dialog in 2024/2025. The report says there was no data base on public parking space yet, so a data survey was planned for 2025.",
+      "source_title": "Informationsvorlage 2025/0413: Sachstand IQ-Leitprojekt „Nachhaltiges Parkraumkonzept und -management“",
+      "source_url": "https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00666782.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2025-12",
+      "text": "Answering a Green group budget motion to adjust garage fees, the city said Karlsruher Fächer GmbH adjusts its garage tariffs on a regular cycle, operates only two near-centre garages in secondary locations, and that the main-station garage P1 is the one with especially high utilisation. It said prices at P1 must be agreed with Deutsche Bahn and a regular increase there was being implemented.",
+      "source_title": "Haushalt 2026/2027: Stellungnahme zu Antrag DHH/2025/2007 – Parkgebühren auch in Parkhäusern anpassen",
+      "source_url": "https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00674774.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-12",
+      "text": "On 22 December 2025, when adopting the 2026/2027 budget, the council settled on raising on-street parking fees by 50 percent rather than doubling them, linked to a planned extension of the paid parking zones and of resident parking. The mayor stated that the increase concerns public street space only, not garages, which the city mostly cannot influence.",
+      "source_title": "Niederschrift 19. Plenarsitzung des Gemeinderates, 22. Dezember 2025",
+      "source_url": "https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00675739.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-03",
+      "text": "On 24 March 2026 the council adopted the amendment to the parking fee ordinance that implements the December 2025 budget decision, by 34 votes to 8; a FDP/FW amendment on care homes and hospitals was rejected. The expansion of tariff zone 1 was not part of this vote, and the city said it would propose it later after a parking survey.",
+      "source_title": "Niederschrift 22. Plenarsitzung des Gemeinderates, 24. März 2026",
+      "source_url": "https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00677573.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-03",
+      "text": "The adopted ordinance text sets zone 1 on-street fees at 1.50 euros per 15 minutes (6.00 euros for 60 minutes) and zone 2 at 1.50 euros per 30 minutes (6.00 euros for 120 minutes), and states it takes effect on 1 June 2026. It sets day tickets of 15 euros near hospitals and 22.50 euros near care homes and the main station in zone 2.",
+      "source_title": "Anlage 1: Satzung zur Änderung der Satzung der Stadt Karlsruhe über Parkgebühren (Parkgebührensatzung), Vorlage 2026/0072",
+      "source_url": "https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00677021.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-02",
+      "text": "City counts of Saturday pedestrian traffic at 20 identical counting points in the centre show about 195,500 in spring 2020, about 294,500 in spring 2022, about 259,300 in spring 2024, about 340,300 in spring 2025 and about 318,000 in autumn 2025. The presentation notes Covid rules for 2020-2022 and lists construction sites on the count days, including Kaiserstraße works in October 2025.",
+      "source_title": "Passantenfrequenzen in der Karlsruher Innenstadt 2025 (Stadt Karlsruhe, Amt für Stadtentwicklung)",
+      "source_url": "https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00676837.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2025-04",
+      "text": "The city's 2024 pedestrian survey (IFH Köln Vitale Innenstädte, 1,000 respondents, September to November 2024) found 61.9 percent visit the centre for shopping at least weekly, versus 58 percent in 2022. Visitors rated the centre's attractiveness 2.8 on a school-grade scale, versus 2.6 in 2022 and 2.4 in 2020.",
+      "source_title": "Informationsvorlage 2025/0224: Passantenumfrage „Vitale Innenstädte 2024“ – Ergebnisse für Karlsruhe",
+      "source_url": "https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00665362.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-08",
+      "text": "ka-news reported a fire in Parkhaus Stephansplatz on Saturday 22 August 2026 that filled the structure with smoke; about 60 sooty vehicles were towed overnight. As of the report on 23 August it was not known when the garage would reopen.",
+      "source_title": "Parkhaus Stephansplatz startet Aufräumarbeiten nach Brand in Karlsruhe",
+      "source_url": "https://www.ka-news.de/karlsruhe/blaulicht/parkhaus-stephansplatz-startet-aufraeumarbeiten-nach-brand-in-karlsruhe-115064120",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "Garage tariff changes by Karlsruher Fächer GmbH, PBW, Contipark or APCOA: no dated, sourced garage price change was found; the Fächer statement only says tariffs are adjusted on a regular cycle.",
+    "Contipark: no source found tying Contipark to specific Karlsruhe garages or changes there.",
+    "Ownership changes and openings or closures of Postgalerie, Ettlinger Tor, Marktplatz and other garages: nothing sourced; the P&C car park demolition (2022 plan) is the only closure item, and its actual completion was not confirmed.",
+    "Ticketless/ANPR entry and dynamic pricing in Karlsruhe garages: nothing sourced.",
+    "Stadtwerke Karlsruhe charge-point numbers inside garages specifically: only city-wide counts and the 2021 Fächer garage figures were found.",
+    "KVV ridership and Deutschlandticket effect on Karlsruhe centre visits: no usable Karlsruhe-specific figures were retrieved.",
+    "Pre-opening Kombilösung construction impact (2019-2021) and event effects (KIT, major events) on parking demand: nothing sourced beyond the footfall counts.",
+    "Whether the 360 euro resident permit fee decided for 2026 is in force and from what date: only a council proposal document (Vorlage 2025/1116) and one secondary report were seen, so it is left out.",
+    "Mobilitätskonzept 2030 and car-light Innenstadt (ÖRMI) decisions: only planning references were found, no dated decision."
+  ]
+}
