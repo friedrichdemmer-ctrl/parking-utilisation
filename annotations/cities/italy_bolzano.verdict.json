@@ -1,0 +1,245 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Checked the city page: resolution no. 18 of 10 May 2022 and start of effect 13 May 2022 are stated. The only parking-related document is a map sheet titled 'Traffico e sosta autoveicolare-ITS-Logistica' (car traffic and parking, ITS, logistics), not a document on parking alone.",
+   "corrected_text": "The city council approved the Sustainable Urban Mobility Plan (PUMS) by resolution no. 18 of 10 May 2022, and the page gives 13 May 2022 as the start of its validity. Its supporting documents include a map sheet covering car traffic and parking, intelligent transport systems and logistics.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Page (altoadigeinnovazione.it, 21.07.2021) says the Giunta adopted the new PUMS that day, replacing the tram with electric Metrobus lines after the referendum; about 10,120 car trips/h in the plan scenario, -44% vs the reference scenario; and agreements with third parties for under-used underground car parks. The 'morning peak' framing comes from the preceding sentences on the morning-peak simulation. It was adopted by the city executive (Giunta), not yet approved.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "City page confirms resolution no. 30 of 20 March 2025, the PGTU 2025-2028, strategic guidelines for a later detailed on-street parking plan, and a document titled 'Piano particolareggiato fase di cantiere Parcheggio Piazza della Vittoria' (a detailed plan for the construction phase of the car park; wording 'parking plan for the construction phase' is a loose paraphrase but acceptable). The page's own header date (21/01/2025) differs from the resolution date; item date 2025-03-20 is right for the fact.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Article says rates rise to up to 3 euro/h on the listed streets, Bolzano Centro 1.80 to 2.00, Piazza Tribunale 1.30 to 1.50, in force once SEAB adapts the meters, and the decision is framed as curbing tourists and commuters (stated at the mayor's press conference). The press conference was 'yesterday' relative to the 5 July 2022 page date, so the announcement date is 4 July 2022.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": "2022-07-04",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "City release of 9 Oct 2025: the tender authority proposed provisional award on 8 Oct to a group led by Parcheggi Italia; 5 underground levels, 390 car and 39 motorcycle spaces, works 19,993,892.66 euro, 38-year concession; works start June 2026 and end December 2027 are stated as planned timings. It is a provisional award proposal, not a signed concession.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "City release of 30 Mar 2026: TRGA Bolzano ruling no. 74/2026 rejected the challenge; the city can proceed to contract and design; works to start 'between late summer and early autumn' if no further setbacks occur (a plan). The comparison with the June 2026 start is derived from the earlier release and is accurate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Salto 11.06.2026: four projects start in autumn 2026; Park Vittoria alone removes 299 surface spaces (150 blue, 149 resident-only); mayor says 70 spaces authorised on Piazza Tribunale; talks with private garage owners failed. Measures are described as proposed/planned solutions; the text does not claim they are in force. Article is free to read.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Best in Parking page dated 13.09.2025: WaltherPark garage opened, 550 spaces, direct access via the Walther Tunnel, complementing existing locations at Waltherplatz and in front of Hotel Laurin.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Province release (read in a rendered browser, dated 06/03/2026 09:50): APCOA Italia S.p.A. takes over, 1.1 million euro a year to the Province, closed 28 Feb to 4 Mar for the handover and technology upgrades. The text states no reopening day, so the 5/6 March conflict is avoided. However, the Province page places the car park 'in the heart of the historic centre'; the 'station square' location comes only from APCOA's page (Piazza della Stazione).",
+   "corrected_text": "The Province announced that the Lauben Portici car park in Bolzano's historic centre reopened under APCOA Italia S.p.A. after a closure from 28 February to 4 March for the handover and technology upgrades. The Province said it receives 1.1 million euro a year under the arrangement.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "APCOA release dated 5 March 2026: 3.50 euro/h, 20 euro per 24 h maximum; 456 spaces over three underground levels, 300 short-stay spaces (156 reserved for provincial staff). Title matches the page. The date is the release date, and the text does not state a reopening day.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Province page says pre-booking of the space, payment by app and toll-tag (telepedaggio) systems will be introduced progressively. It does not mention automatic licence-plate recognition (not on APCOA's page either). The second sentence (APCOA Flow, Telepass, UnipolMove) comes from APCOA's page, not the cited Province page; APCOA says these will be introduced progressively or soon.",
+   "corrected_text": "The Province said the new operator of Lauben Portici will progressively introduce pre-booking of parking spaces, payment by app and toll-tag (telepedaggio) systems for access and payment.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Tageszeitung 14 Dec 2025 does name the garage under the Magnago-Platz (Central Parking AG garage, 460 spaces, three levels, in operation since 1993), not the Waltherplatz garage. The tender result gave APCOA Italia the garage for three years from 1 January 2026 for 3,333,333 euro (paid to the Province). But the warning that fees will rise comes from Central Parking AG, not as the article's own expectation. Central Parking is also contesting the tender in the administrative court, so 'passes from' overstates completion.",
+   "corrected_text": "Tageszeitung reported that the Province announced APCOA Italia SPA as winner of the tender to run the underground garage under the Magnago-Platz (460 spaces, in operation since 1993) for three years from 1 January 2026, for 3,333,333 euro paid to the Province. The previous operator Central Parking AG, which is contesting the tender in court, warned that parking fees would rise.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Tageszeitung 30 Jan 2025: Parcheggi Italia's concession for the Waltherplatz garage runs about another 15 years; waterproofing and repaving est. 5.7 million euro (per provincial price list); works to start 2027 at the latest; the city expects the operator to share costs, with negotiations still to begin. Plans only; the text states them as plans.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "SEAB news 28.01.2019: 2018 upgrade of BZ Centro, Tribunale, Palasport (software, entry/exit columns, automatic cash desks, barcode tickets replacing magnetic-stripe); 2019 plans for CCTV, a single monitored night-time entrance/exit at BZ Centro, and a Parking Guidance System; five structured car parks and about 1,100 paid street spaces.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "SEAB news 17.10.2019: contactless rechargeable SEAB Park Card, valid at BZ Centro, Tribunale, Palasport and on-street meters, 10 euro, sold at the SEAB parking counter in the BZ Centro car park.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Page opened in a browser (curl returned 403). Moveo (Telepass) guide dated 20 July 2023: meters accept cash and cards; apps Telepass, EasyPark, MyCicero (now MooneyGo), PayByPhone; centre zone 2 euro/h, 3 euro/h on Via Andreas Hofer, Cavour, Leonardo da Vinci, Piave, Cassa di Risparmio, Vintola.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Salto 09.10.2025: deputy mayor Konder says discussing fees is premature and the city wants to create an app showing parking prices and free spaces (intention only).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "City page last updated 22/07/2026: points to parking.bz.it for real-time availability; lists six SEAB car parks, eight private paid garages (Walther, WaltherPark, Luna-Mondschein, Laurin, Lauben Parking Portici, Castel Mareccio, Direzional Park, Adriano Parking) and a 'Novita 2026' SEAB camper area at Via Maso della Pieve.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "supported",
+   "note": "HDmotori 19 Oct 2023: Neogy (Alperia and Dolomiti Energia JV) inaugurated the hub on the Fiera Bolzano roof car park with five 400 kW stations and standard 22 kW stations, powered by renewable energy. Text states only these items, as intended.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "partly",
+   "note": "Energiaincitta 25 Aug 2026: plan for 35 new points at 18 stations, about 700,000 euro; 15 stations installed; eight stations with 16 points active. Streets named are Via Milano, Via Volta, Via Cassa di Risparmio, Via Claudia Augusta, Viale Europa. The sensors are described in the future ('saranno equipaggiate'). The page does not say the locations are 'not the car parks in our data' (that is the drafter's inference, and Via Milano is also a street address of the Palasport car park per the city page).",
+   "corrected_text": "Powy reported a plan for 35 new charging points at 18 stations in Bolzano (about 700,000 euro), of which 15 stations were installed and eight stations with 16 points were operating. It said the stations will have road-surface sensors that tell vehicles that are charging from vehicles occupying the bays improperly; locations named include Via Milano, Via Volta, Via Cassa di Risparmio, Via Claudia Augusta and Viale Europa.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "partly",
+   "note": "MilanoFinanza 16 Oct 2025: the Highstreet Gallery was 'ufficialmente completata' (officially completed), not stated as opened; over 31,000 m2 of commercial space, first Esselunga store in Alto Adige (not 'the region'), over 80 brands; Signa sold the complex to Schoeller in April 2024.",
+   "corrected_text": "MilanoFinanza reported that the Highstreet Gallery at WaltherPark was officially completed, with over 31,000 square metres of commercial space, the first Esselunga store in South Tyrol and over 80 brands. It also reported that Signa sold the complex to Schoeller in April 2024.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "supported",
+   "note": "Suedtirol News 24 July 2025: nights 945,745 (2024) vs 870,822 (2023); bus passengers 6.4 million vs 6.5 million; retail businesses 1,375 to 1,348; figures from the city's statistics brochure.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "supported",
+   "note": "Suedtirol News 7 Jan 2024: about 900,000 guests at the 2023 Bozen Christkindlmarkt and about 50 million euro in sales (as reported).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 23,
+   "verdict": "supported",
+   "note": "PDF read as text with pypdf (5 pages): reply dated Bolzano, 21.11.2025 to council members, to interrogation no. 1058/25 with the stated title, signed by Daniel Alfreider (provincial vice-president for infrastructure and mobility); the answer to question 1 is labelled as Assessor Bianchi's reply. About 97% of spaces assigned to provincial staff are used by staff living outside Bolzano; monthly fees 10, 20, 40 euro (8 and 16 euro in smaller municipalities, outside Bolzano). Attribution to 'the provincial mobility assessor' is acceptable (letter signed by him).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Bolzano's municipal sustainable mobility plan (PUMS) was approved in May 2022 and a traffic plan for 2025-2028 in March 2025. On-street parking prices in the centre were raised from 2022. A concession for a 390-space underground car park at Piazza della Vittoria was provisionally awarded in October 2025 and a court challenge to the award was rejected in March 2026, with a construction start still only planned. New operators since 2025 include the WaltherPark garage (Best in Parking), APCOA at the Lauben Parking Portici (March 2026) and APCOA as tender winner for the Magnago-Platz garage from 1 January 2026."
+}

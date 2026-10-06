@@ -1,0 +1,190 @@
+{
+ "country": "Austria",
+ "city": "Salzburg",
+ "researched": "2026-10-06",
+ "verified": "2026-10-06",
+ "summary": "Salzburg's city council set the parking fee at 1.10 euro per half hour from 1 January 2026, and a local report says the Altstadtgarage hourly tariff rose from 3.30 to 3.60 euro at the start of 2026. In a June 2022 citizen survey, 84.38 percent of valid votes were against expanding the Moenchsberg garage. The city has proposed a parking concept running to 2036 and, by its own account, saw smoother traffic and higher park-and-ride sales in the first weeks of its summer 2026 restriction, with a final evaluation planned for the end of the year.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2025-12-10",
+   "text": "The city council decided on 10 December 2025 to amend the city's parking-fee ordinance (Parkgebuehrenverordnung 1990) so that the parking fee is 1.10 euro per half hour, effective 1 January 2026. The notice also deletes the last sentence of a paragraph on how the fee is paid and drops annex 10, a template for a short-term-zone vignette.",
+   "source_title": "Kundmachung Parkgebührenverordnung (98. Kundmachung, Amtsblatt der Landeshauptstadt Salzburg, Jahrgang 2025)",
+   "source_url": "https://www.stadt-salzburg.at/fileadmin/landingpages/kundmachungen_rechtsgrundlage/kundmachungen_2025/098._parken.pdf",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-01-29",
+   "text": "A local news report says the Altstadtgarage hourly tariff was raised from 3.30 to 3.60 euro from the start of 2026, with a 24-hour maximum of 25.90 euro. It also lists Mirabell at 4.50 euro per hour (40 euro daily maximum), the Bahnhofsgarage at 2.40 euro per hour and the Salzburg Sued park-and-ride at 1.00 euro per hour.",
+   "source_title": "Preis-Schock oder Park-Paradies? So extrem sind Preisunterschiede in Salzburgs Garagen",
+   "source_url": "https://www.salzburg24.at/news/salzburg/stadt/preis-schock-oder-park-paradies-so-extrem-sind-preisunterschiede-in-salzburgs-garagen-art-315320",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-01",
+   "text": "The tourist board's garage listing, described as current for January 2026, gives the Mirabell-Congress-Garage tariff as 1.50 euro per started 20 minutes, 5.00 euro per further hour from the fourth hour, and a 24-hour maximum of 40 euro.",
+   "source_title": "Tiefgarage Mirabell-Congress-Garage : salzburg.info",
+   "source_url": "https://www.salzburg.info/de/reiseinfos/salzburg-a-z/tiefgarage-mirabell-congress-garage_az_7052",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-01",
+   "text": "The tourist board's listing for the Moenchsberg garages (Altstadtgaragen A and B) shows 618 spaces in garage A and 680 in garage B, 1,298 in total, as of January 2026. It does not name an operator outright; its contact e-mail and website link are Contipark's and it mentions Contipark ticket desks at the Festspielhaeuser.",
+   "source_title": "Tiefgarage Mönchsberg (Altstadtgaragen A+B) : salzburg.info",
+   "source_url": "https://www.salzburg.info/de/reiseinfos/salzburg-a-z/tiefgarage-altstadtgaragen-a-b_az_5199",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-01",
+   "text": "The tourist board's listing for the Moenchsberg Altstadtgaragen shows 10 EV charging spaces in garage A and 10 in garage B, 20 in total, as of January 2026.",
+   "source_title": "Tiefgarage Mönchsberg (Altstadtgaragen A+B) : salzburg.info",
+   "source_url": "https://www.salzburg.info/de/reiseinfos/salzburg-a-z/tiefgarage-altstadtgaragen-a-b_az_5199",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2022-01-20",
+   "text": "The supervisory board of the Salzburger Parkgaragengesellschaft voted by majority to expand the Moenchsberg garage by 654 spaces at a projected cost of 39.8 million euro, to be financed by the company itself. Critics cited that the garage was full on only 49 days in 2021.",
+   "source_title": "Ausbau der Mönchsberggarage ist beschlossene Sache",
+   "source_url": "https://www.salzburg24.at/news/salzburg/stadt/ausbau-der-moenchsberggarage-ist-beschlossene-sache-art-249387",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-06-26",
+   "text": "In a city citizen survey held on 26 June 2022 on whether the Moenchsberg garage should be expanded, 84.38 percent of valid votes (20,948) were No and 15.62 percent (3,878) Yes, on a turnout of 21.98 percent of 113,558 eligible voters.",
+   "source_title": "Bürgerbefragung gemäß § 53d Salzburger Stadtrecht - „Soll die Mönchsberggarage ausgebaut werden – JA oder NEIN?“ (72. Kundmachung, Amtsblatt 2022)",
+   "source_url": "https://WWW.stadt-salzburg.at/fileadmin/landingpages/kundmachungen_rechtsgrundlage/einzelkundmachungen_2022_beginnend_mit_1/72._moenchsberg.pdf",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2022-07-01",
+   "text": "After the vote, a local news report says the Parkgaragengesellschaft is 60 percent owned by the city and 40 percent by the state, and that the mayor floated uses for about 6 million euro of accumulated funds, including renovating the fairground garage for park-and-ride use. These were proposals at that date; the state's consent is needed for use of its share.",
+   "source_title": "Was passiert mit den Mönchsberggaragen-Millionen?",
+   "source_url": "https://www.salzburg24.at/news/salzburg/stadt/was-passiert-mit-den-moenchsberggaragen-millionen-art-255016",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2022-07-01",
+   "text": "A local news report says the city was running a pilot to give navigation-app providers live occupancy data for 13 larger garages and car parks so that summer visitors are steered to park-and-ride sites. It adds that digital road signs showing occupancy on motorways and main access routes were still to come.",
+   "source_title": "Live-Daten sollen Salzburger Stau-Sommer verhindern",
+   "source_url": "https://www.salzburg24.at/news/salzburg/stadt/live-daten-sollen-salzburger-stau-sommer-verhindern-art-255008",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2024-10-01",
+   "text": "A derStandard report says Handyparken had already been replaced by EasyPark in Vorarlberg, Salzburg and Burgenland, and that the other states except Vienna would follow on 1 October, leaving Vienna as the exception. The page itself shows no publication date.",
+   "source_title": "App Handyparken wird ab Oktober deaktiviert",
+   "source_url": "https://www.derstandard.at/story/3000000238595/app-handyparken-wird-ab-oktober-deaktiviert",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-03-22",
+   "text": "The city and Salzburg AG agreed a uniform price of 15 euro per day, including public transport tickets for up to five people, at the park-and-ride sites Salzburg Sued and Messezentrum, with a 5 euro all-day ticket planned for July and August at the Messezentrum. A Green councillor said uptake of the sites had stagnated at a low level for years.",
+   "source_title": "\"P+R\" in der Stadt Salzburg wird billiger",
+   "source_url": "https://www.salzburg24.at/news/salzburg/stadt/pr-in-der-stadt-salzburg-wird-billiger-art-263747",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-04-29",
+   "text": "A local news report says the city is planning a new parking concept in three stages to 2036, as part of its Mobilitaetsplan 2040: more short-term parking zones and a fee of 1.30 euro per half hour in the first phase to 2028, a special Altstadt tariff zone in 2029-2032, and plate-based payment with camera scan vehicles. These are plans, not measures in force, and local businesses, the OeVP and the FPOe have criticised them.",
+   "source_title": "Wie denkt ihr über die Park-Reform der Stadt Salzburg?",
+   "source_url": "https://www.salzburg24.at/news/salzburg/stadt/wie-denkt-ihr-ueber-die-park-reform-der-stadt-salzburg-art-324262",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-02-19",
+   "text": "On 19 February 2026 the city presented its plan for public participation in the Mobilitaetsplan 2040, with events from March and an online platform from 1 March. The plan aims to cut the share of motorised private transport from about 37 percent to 20 percent by 2040, with step-by-step implementation of measures due to start from 2027.",
+   "source_title": "Salzburgs Verkehr der Zukunft als Mitmach-Projekt: So könnt ihr euch beim Mobilitätsplan 2040 einbringen",
+   "source_url": "https://www.salzburg24.at/news/salzburg/stadt/salzburgs-verkehr-der-zukunft-als-mitmach-projekt-so-koennt-ihr-euch-beim-mobilitaetsplan-2040-einbringen-art-317317",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-07-21",
+   "text": "The city said on 21 July 2026, three weeks into the summer restriction that started on 1 July, that traffic on the central routes along the Salzach had flowed more smoothly than feared; mainly residents, regional commuters and hotel guests may drive in. The city reported park-and-ride ticket sales up more than 50 percent on the previous year at Salzburg Sued and more than 117 percent at the Designer Outlet, and a final evaluation is planned for the end of the year.",
+   "source_title": "Aller Kritik zum Trotz: Salzburger Innenstadt-Sperre auch in den kommenden Jahren",
+   "source_url": "https://www.salzburg24.at/news/salzburg/stadt/aller-kritik-zum-trotz-salzburger-innenstadt-sperre-auch-in-den-kommenden-jahren-art-332508",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12-09",
+   "text": "The Constitutional Court (VfGH) ruled on 9 December 2025 that the state's referendum on extending the Salzburg Lokalbahn to Hallein (S-LINK), held on 10 November 2024, was unlawful because the question was not clear enough. 53.32 percent had voted No in that referendum.",
+   "source_title": "Volksbefragung zur Salzburger Lokalbahn (S-LINK) war gesetzwidrig",
+   "source_url": "https://www.parlament.gv.at/fachinfos/rlw/Volksbefragung-zur-Salzburger-Lokalbahn-S-LINK-war-gesetzwidrig",
+   "confidence": "high",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-04-01",
+   "text": "According to the office of Salzburg's state transport councillor, as quoted by a local outlet, valid annual network tickets (including the Klimaticket) in the province of Salzburg rose from 50,414 in 2018 to 119,916 in the first quarter of 2026, and regional bus passengers from 12.66 million in 2018 to 19.43 million by the end of 2025.",
+   "source_title": "Öffi-Boom in Salzburg: Jeder Fünfte hat ein Klimaticket",
+   "source_url": "https://www.salzburg24.at/news/salzburg/oeffi-boom-in-salzburg-jeder-fuenfte-hat-ein-klimaticket-art-321461",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-11-21",
+   "text": "The province of Salzburg (not only the city) reported about 30.5 million overnight stays for November 2024 to October 2025, a record, with September 2025 above 2 million nights.",
+   "source_title": "Historisches Tourismusjahr: Noch nie so viele Übernachtungen in Salzburg wie 2024/25",
+   "source_url": "https://www.salzburg24.at/news/salzburg/historisches-tourismusjahr-noch-nie-so-viele-uebernachtungen-in-salzburg-wie-202425-art-309063",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "No official source found for the Salzburg Parkleitsystem or an open-data portal for garage occupancy (only a 2022 news report on sharing data for 13 facilities).",
+  "No sourced item on ticketless/ANPR entry in Salzburg garages (only a proposal for plate-based on-street payment).",
+  "No sourced figure for total EV charge points or Salzburg AG charging in garages; only individual garage listings.",
+  "No sourced item on Hauptbahnhof or Kongresshaus garages, or on any garage closure, renovation or concession change since 2019.",
+  "No clear sourced change to residents' parking (Anrainerparken) rules; the 2026 gebuehren folder PDF could not be read.",
+  "The previous on-street fee before 2026 is not stated in a primary source; reports conflict (an October 2025 report on proposed Nonntal/Maxglan/Liefering zone changes gives 1.50 to 2.33 euro per hour, which is not consistent with the December 2025 ordinance), so it was left out.",
+  "No sourced item on Getreidegasse/Linzer Gasse car-free zones, Festspiele visitor effects, retail trends or remote work.",
+  "Tourism figures found are for the province, not the city alone."
+ ],
+ "dropped": {}
+}

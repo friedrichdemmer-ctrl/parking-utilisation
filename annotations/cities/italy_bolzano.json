@@ -1,0 +1,258 @@
+{
+ "country": "Italy",
+ "city": "Bolzano",
+ "researched": "2026-10-06",
+ "verified": "2026-10-06",
+ "summary": "Bolzano's municipal sustainable mobility plan (PUMS) was approved in May 2022 and a traffic plan for 2025-2028 in March 2025. On-street parking prices in the centre were raised from 2022. A concession for a 390-space underground car park at Piazza della Vittoria was provisionally awarded in October 2025 and a court challenge to the award was rejected in March 2026, with a construction start still only planned. New operators since 2025 include the WaltherPark garage (Best in Parking), APCOA at the Lauben Parking Portici (March 2026) and APCOA as tender winner for the Magnago-Platz garage from 1 January 2026.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2022-05-10",
+   "text": "The city council approved the Sustainable Urban Mobility Plan (PUMS) by resolution no. 18 of 10 May 2022, and the page gives 13 May 2022 as the start of its validity. Its supporting documents include a map sheet covering car traffic and parking, intelligent transport systems and logistics.",
+   "source_title": "PUMS - Piano urbano della Mobilità Sostenibile / Documenti tecnici di supporto / Documenti e dati / Amministrazione / Homepage - Comune di Bolzano",
+   "source_url": "https://www.comune.bolzano.bz.it/Amministrazione/Documenti-e-dati/Documenti-tecnici-di-supporto/PUMS-Piano-urbano-della-Mobilita-Sostenibile",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2021-07-21",
+   "text": "When the revised PUMS was adopted, the report described it as replacing the rejected tram with electric metrobus lines. The plan projected about 10,120 car trips per hour at the morning peak, 44% below the projected no-intervention scenario, and said the city intended to use under-used underground car parks through agreements with third parties.",
+   "source_title": "Bolzano, via al nuovo piano per la mobilità sostenibile",
+   "source_url": "https://www.altoadigeinnovazione.it/bolzano-piano-mobilita/",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-03-20",
+   "text": "The city council approved the General Urban Traffic Plan (PGTU) 2025-2028 by resolution no. 30 of 20 March 2025. Its documents include strategic guidelines for a later detailed plan for managing on-street parking, and a parking plan for the construction phase at Piazza della Vittoria.",
+   "source_title": "P.G.T.U - Piano Generale del Traffico Urbano 2025-2028 / Documenti tecnici di supporto / Documenti e dati / Amministrazione / Homepage - Comune di Bolzano",
+   "source_url": "https://www.comune.bolzano.bz.it/Amministrazione/Documenti-e-dati/Documenti-tecnici-di-supporto/P.G.T.U-Piano-Generale-del-Traffico-Urbano-2025-2028",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2022-07-04",
+   "text": "The city announced higher on-street parking prices, with up to 3 euro per hour on several central streets (for example Via Cassa di Risparmio, Via Piave, Via Cavour and Via Andreas Hofer). The Bolzano Centro car park was reported to go from 1.80 to 2.00 euro per hour and Piazza Tribunale from 1.30 to 1.50, effective once SEAB had updated the meters. The mayor's stated aim was to limit tourist and commuter pressure on the centre.",
+   "source_title": "Parcheggi blu, il Comune alza le tariffe: tre euro per un'ora in centro a Bolzano",
+   "source_url": "https://www.altoadigeinnovazione.it/parcheggi-blu-2/",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-10-09",
+   "text": "The city announced the provisional award of a concession to build and run a five-level underground car park at Piazza della Vittoria: 390 car spaces and 39 motorcycle spaces, about 20 million euro of works, and a 38-year concession. The award went to a group led by Parcheggi Italia S.p.A.; works were then slated for June 2026 to December 2027.",
+   "source_title": "Parcheggio interrato in piazza della Vittoria: aggiudicazione provvisoria della concessione / Comunicati / Novità / Homepage - Comune di Bolzano",
+   "source_url": "https://www.comune.bolzano.bz.it/Novita/Comunicati/Parcheggio-interrato-in-piazza-della-Vittoria-aggiudicazione-provvisoria-della-concessione",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-03-30",
+   "text": "The regional administrative court rejected the challenge to the Piazza della Vittoria car park concession award, so the winning group can proceed to contract and project phases. The city release said construction was targeted to start between late summer and early autumn, which is later than the June 2026 start given in the October 2025 release.",
+   "source_title": "Il TAR respinge il ricorso contro l'aggiudicazione della concessione per la costruzione e gestione del parcheggio interrato di piazza Vittoria / Comunicati / Novità / Homepage - Comune di Bolzano",
+   "source_url": "https://www.comune.bolzano.bz.it/Novita/Comunicati/Il-TAR-respinge-il-ricorso-contro-l-aggiudicazione-della-concessione-per-la-costruzione-e-gestione-del-parcheggio-interrato-di-piazza-Vittoria",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-11",
+   "text": "Salto reported that four construction projects starting in autumn 2026 would reduce parking supply, notably around Piazza Vittoria, where 299 surface spaces (150 blue, 149 resident-only) are due to go. The mayor announced interim measures including 70 temporary spaces at Piazza Tribunale, and talks with private garage operators were reported as having failed.",
+   "source_title": "Bolzano, il rebus dei parcheggi",
+   "source_url": "https://salto.bz/it/article/11062026/bolzano-il-rebus-dei-parcheggi",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-09-13",
+   "text": "Best in Parking announced the opening of the WaltherPark garage in the city centre, with 550 spaces and direct access via the Walther Tunnel. The company said it already ran garages at Waltherplatz and in front of Hotel Laurin in Bolzano.",
+   "source_title": "Grand opening of the WaltherPark garage in Bolzano",
+   "source_url": "https://www.bestinparking.com/en/node/5518",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-03-06",
+   "text": "The Province announced that the Lauben Portici car park in Bolzano's historic centre reopened under APCOA Italia S.p.A. after a closure from 28 February to 4 March for the handover and technology upgrades. The Province said it receives 1.1 million euro a year under the arrangement.",
+   "source_title": "Il Lauben Parking riapre con una nuova gestione",
+   "source_url": "https://news.provincia.bz.it/it/news/il-lauben-parking-riapre-con-una-nuova-gestione",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-03-05",
+   "text": "APCOA's announcement for the Lauben Parking Portici gave a rate of 3.50 euro per hour with a 20 euro daily maximum, and described 456 spaces over three underground levels of which 300 are short-stay.",
+   "source_title": "APCOA Italia: riapre oggi, con la nuova gestione, il parcheggio Lauben Parking Portici a Bolzano che offre 300 posti auto a rotazione",
+   "source_url": "https://it.apcoa.com/news/apcoa-italia-riapre-oggi-con-la-nuova-gestione-il-parcheggio-lauben-parking-portici-a-bolzano-che-offre-300-posti-auto-a-rotazione/",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-03-06",
+   "text": "The Province said the new operator of Lauben Portici will progressively introduce pre-booking of parking spaces, payment by app and toll-tag (telepedaggio) systems for access and payment.",
+   "source_title": "Il Lauben Parking riapre con una nuova gestione",
+   "source_url": "https://news.provincia.bz.it/it/news/il-lauben-parking-riapre-con-una-nuova-gestione",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-12-14",
+   "text": "Tageszeitung reported that the Province announced APCOA Italia SPA as winner of the tender to run the underground garage under the Magnago-Platz (460 spaces, in operation since 1993) for three years from 1 January 2026, for 3,333,333 euro paid to the Province. The previous operator Central Parking AG, which is contesting the tender in court, warned that parking fees would rise.",
+   "source_title": "Parkplatz: Besetzt!",
+   "source_url": "https://www.tageszeitung.it/2025/12/14/parkplatz-besetzt",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-01-30",
+   "text": "Tageszeitung reported that Parcheggi Italia holds the concession for the garage under Waltherplatz, with about 15 years remaining. The city planned to waterproof and resurface the square at an estimated 5.7 million euro, to start by 2027 at the latest, and expected the operator to share the cost, with negotiations still to begin.",
+   "source_title": "Der verschobene Walther",
+   "source_url": "https://www.tageszeitung.it/2025/01/30/der-verschobene-walther",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2019-01-28",
+   "text": "SEAB reported completing technical upgrades at its BZ Centro, Tribunale and Palasport car parks in 2018 (new management software, entry and exit systems, automatic payment machines, and barcode tickets replacing magnetic-stripe tickets). For 2019 it planned CCTV, a single monitored night-time exit at BZ Centro and a system guiding drivers to free spaces. At that point it described itself as running five structured car parks and about 1,100 metered street spaces.",
+   "source_title": "Lavori di modernizzazione dei parcheggi",
+   "source_url": "https://www.seab.bz.it/it/news/lavori-di-modernizzazione-dei-parcheggi",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2019-10-17",
+   "text": "SEAB introduced a contactless reloadable Park Card, usable at BZ Centro, Tribunale, Palasport and on street blue-zone meters. It sold for 10 euro at the BZ Centro parking office.",
+   "source_title": "È arrivata la nuova SEAB Park Card",
+   "source_url": "https://www.seab.bz.it/it/news/e-arrivata-la-nuova-seab-park-card",
+   "confidence": "high",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2023-07-20",
+   "text": "Telepass's guide to Bolzano's blue-line parking lists payment by meters (cash and cards) and by apps including Telepass, EasyPark, MyCicero/MooneyGo and PayByPhone. It also lists the then street rates, for example 2 euro per hour downtown and up to 3 euro on the premium streets.",
+   "source_title": "Strisce blu Bolzano: orari, tariffe e come pagare il parcheggio",
+   "source_url": "https://moveo.telepass.com/strisce-blu-bolzano-orari-tariffe-parcheggio/",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-10-09",
+   "text": "Salto quoted the deputy mayor as saying the city wants to develop an app showing both parking prices and available spaces. This was stated as an intention, and fee levels for the new Piazza della Vittoria car park were described as premature to discuss.",
+   "source_title": "Assegnato il nuovo Park Vittoria",
+   "source_url": "https://salto.bz/it/article/09102025/parcheggio-piazza-vittoria",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-07-22",
+   "text": "The city's page on parking (last updated 22 July 2026) points to parking.bz.it for real-time availability. It lists SEAB car parks (Bz Centro, Tribunale, Palasport, Alessandria, Rosenbach, Wolff), eight private paid garages including Walther, WaltherPark, Luna-Mondschein and Laurin, and a new 2026 SEAB camper site at Via Maso della Pieve.",
+   "source_title": "Parcheggiare a Bolzano / Documenti tecnici di supporto / Documenti e dati / Amministrazione / Homepage - Comune di Bolzano",
+   "source_url": "https://www.comune.bolzano.bz.it/Amministrazione/Documenti-e-dati/Documenti-tecnici-di-supporto/Parcheggiare-a-Bolzano",
+   "confidence": "high",
+   "id": 17,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2023-10-19",
+   "text": "Neogy, a joint venture of Alperia and Dolomiti Energia, opened a charging hub in the rooftop car park of Fiera Bolzano, with five 400 kW stations and additional 22 kW points, powered by renewable energy.",
+   "source_title": "A Bolzano il nuovo hub di ricarica di Neogy con stazioni da 400 kW",
+   "source_url": "https://www.hdmotori.it/auto/articoli/n574803/neogy-hub-bolzano-ricarica-auto-elettriche-400-kw/",
+   "confidence": "medium",
+   "id": 18,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-08-25",
+   "text": "Powy reported a plan for 35 new charging points at 18 stations in Bolzano (about 700,000 euro), of which 15 stations were installed and eight stations with 16 points were operating. It said the stations will have road-surface sensors that tell vehicles that are charging from vehicles occupying the bays improperly; locations named include Via Milano, Via Volta, Via Cassa di Risparmio, Via Claudia Augusta and Viale Europa.",
+   "source_title": "Powy: installati a Bolzano 35 nuovi punti di ricarica con sensori anti parcheggio abusivo",
+   "source_url": "https://www.energiaincitta.it/powy-a-bolzano-35-punti-di-ricarica-con-sensori-anti-parcheggio-abusivo/",
+   "confidence": "medium",
+   "id": 19,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-10-16",
+   "text": "MilanoFinanza reported that the Highstreet Gallery at WaltherPark was officially completed, with over 31,000 square metres of commercial space, the first Esselunga store in South Tyrol and over 80 brands. It also reported that Signa sold the complex to Schoeller in April 2024.",
+   "source_title": "A Bolzano nuova vita per il WaltherPark con un investimento da 600 milioni. Completata la Highstreet Gallery",
+   "source_url": "https://www.milanofinanza.it/news/a-bolzano-nuova-vita-per-il-waltherpark-con-un-investimento-da-600-milioni-completata-la-highstreet-202510161506151017",
+   "confidence": "medium",
+   "id": 20,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-07-24",
+   "text": "The city's statistics brochure, as reported by Suedtirol News, gave 945,745 tourist overnight stays in 2024 against 870,822 in 2023. It also gave 6.4 million bus passengers in 2024 (6.5 million before) and a fall in retail businesses from 1,375 to 1,348.",
+   "source_title": "Bozen 2025 – Die Stadt in Zahlen",
+   "source_url": "https://www.suedtirolnews.it/politik/bozen-2025-die-stadt-in-zahlen",
+   "confidence": "medium",
+   "id": 21,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-01-07",
+   "text": "Suedtirol News reported that the 2023 Christkindlmarkt in Bozen drew about 900,000 visitors, with around 50 million euro in sales according to the report.",
+   "source_title": "Bozner Weihnachtsmarkt von knapp einer Mio. Gästen gestürmt",
+   "source_url": "https://www.suedtirolnews.it/wirtschaft/bozner-weihnachtsmarkt-von-knapp-einer-mio-gaesten-gestuermt",
+   "confidence": "medium",
+   "id": 22,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-11-21",
+   "text": "In a written reply to the provincial council dated 21 November 2025, the provincial mobility assessor said about 97% of the car-park spaces assigned to provincial employees in Bolzano are used by staff living outside the municipality. Monthly staff fees of 10 to 40 euro were given.",
+   "source_title": "Interrogazione n. 1058/25 - Mobilità, parcheggi e trasporto pubblico: la loro pianificazione e gestione provinciale a Bolzano",
+   "source_url": "https://api-idap.landtag-bz.org/doc/IDAP_780837.pdf",
+   "confidence": "high",
+   "id": 23,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "ZTL and Altstadt/Laubengasse access rules, pedestrianisation, and the 2020s changes at Waltherplatz and Suedtiroler Strasse (no readable source found).",
+  "On-street blue-line price changes and zone changes after July 2022, and resident-permit rule changes.",
+  "SEAB and municipal car park tariff history for Bahnhof, Walther, Bozen Mitte and Garibaldi (only the 2022 and 2026 items above; the stol.it headlines on parking prices were not readable).",
+  "EV charging inside SEAB or private car parks (charge-point numbers, Alperia); only the Fiera rooftop hub and street charging were found.",
+  "SEAB's concession or in-house status and any ownership change; dynamic pricing; open data feed details (only the parking.bz.it pointer found).",
+  "Brenner motorway traffic, Rittnerbahn and Jenesien cable cars, park-and-ride, Suedtirol Pass, remote work and the Twenty or Stadtgalerie shopping centres."
+ ],
+ "dropped": {}
+}

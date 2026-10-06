@@ -1,0 +1,179 @@
+{
+ "country": "Luxembourg",
+ "city": "Luxembourg",
+ "researched": "2026-10-06",
+ "verified": "2026-10-06",
+ "summary": "The City of Luxembourg publishes car park availability as open data and runs colour-coded paid on-street zones with residential permits priced at free, 60 and 120 euros for the first three permits. Its 2024 mobility plan sets a 2035 target of 51% of trips by public transport and soft mobility, and calls for the parking situation to be reassessed. Public transport has been free nationwide since March 2020; the City announced a phased reopening of the Knuedler car park in late 2022, the Stade de Luxembourg P+R opened in October 2023, and the Indigo Neo app launched for parking payment in June 2023.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2020-03",
+   "text": "The Luxembourg government's page states that from 1 March 2020 the country makes public transport free of charge, with first-class rail travel remaining the paid exception. The page describes the aim as reducing road traffic.",
+   "source_title": "Luxembourg is set to become the first country to make all public transport free by 2020",
+   "source_url": "https://copenhague.mae.lu/en/actualites/2020/luxembourg-set-to-become-country-make-all-public-transport-free.html",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-02",
+   "text": "A government press release on five years of free public transport reports tram ridership of 6.2 million in 2019 and 31.7 million in 2024, and rail passengers of 25 million in 2019 versus 31.3 million in 2024. It notes that the tram network also expanded over this period.",
+   "source_title": "Cinq ans de gratuité des transports publics: un bilan positif pour la mobilité au Luxembourg",
+   "source_url": "https://gouvernement.lu/fr/actualites/toutes_actualites/communiques/2025/02-fevrier/28-bilan-transport-gratuit.html",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-04",
+   "text": "At an April 2024 presentation, the tram was reported to carry about 100,000 passengers a day. A route to Cloche d'Or was announced to open on 7 July 2024, and an extension from Luxexpo to the airport was expected in early 2025.",
+   "source_title": "Tram Extension Plans & Priorities for 2024-25 Unveiled",
+   "source_url": "https://www.chronicle.lu/category/mobility/49433-tram-extension-plans-priorities-for-2024-25-unveiled",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-04",
+   "text": "The City presented its new mobility plan in April 2024, with a 2035 target of 51% of trips by public transport and soft mobility and 49% by motorised individual transport, and an aim to keep the number of motorised trips at the 2020 level. It says the parking situation needs reassessing or even overhauling.",
+   "source_title": "Luxembourg City Aims for Soft Mobility, Public Transport to Represent 51% of Trips",
+   "source_url": "https://chronicle.lu/category/mobility/49239-luxembourg-city-aims-for-soft-mobility-public-transport-to-represent-51-of-trips",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2022-02",
+   "text": "According to the Mayor's written reply to councillors, the Gernsback car park's long-stay flat rate (up to 24 hours) changed on 1 February 2022 from 5 euros to 15 euros. The reply puts occupancy at about 24% including season-pass holders and says the car park is not priced attractively for stays beyond five hours given the City's P+R sites are free for 24 hours.",
+   "source_title": "Written responses (October 2022)",
+   "source_url": "https://www.vdl.lu/en/city/political-life/municipal-council/questions-asked-municipal-councillors/written-responses-october-2022",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "As displayed on the City's page when checked in October 2026 (the page itself is undated), paid on-street zones are colour-coded: orange 2 euros per hour (max 2 hours, Mon-Sat), yellow 1 euro per hour, green 2 euros for the first three hours then 1.50, and violet 0.50 per hour (max 10 hours), the last three Mon-Fri 8:00-18:00.",
+   "source_title": "Paid parking zones | Ville de Luxembourg",
+   "source_url": "https://www.vdl.lu/en/getting-around/car/parking/paid-parking-zones",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "As displayed on the City's page when checked in October 2026 (the page is undated), the annual residential parking permit is free for a first permit, 60 euros for a second and 120 euros for a third. It is valid for a designated area and requires Luxembourg City residence.",
+   "source_title": "Residential parking permit",
+   "source_url": "https://www.vdl.lu/en/getting-around/car/parking/residential-parking-permit",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2022-11",
+   "text": "The City announced a phased reopening of the Knuedler car park during its renovation and extension, with the new annex opening from 28 November 2022 and 352 spaces available at first. A second phase was planned for 22 December 2022, with completion of the project (target 749 spaces) planned for 2023.",
+   "source_title": "Knuedler Car Park to Partially Reopen from Monday",
+   "source_url": "https://www.chronicle.lu/category/motoring-1/43476-knuedler-car-park-to-partially-reopen-from-monday",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-10",
+   "text": "The Stade de Luxembourg P+R, a six-level car park with 1,993 spaces at the southern entrance to the city, was inaugurated in early October 2023, with 1,640 spaces available at launch. It is free for the first 24 hours and 10 euros per day after that, and has 56 spaces with Chargy charging stations.",
+   "source_title": "EUR80m Stade de Luxembourg P+R Inaugurated",
+   "source_url": "https://www.chronicle.lu/category/mobility/46966-eur80m-stade-de-luxembourg-p-r-inaugurated",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2021-05",
+   "text": "Fonds Kirchberg's page announces the opening of the Gernsback car park (595 spaces over five storeys above the Luxexpo bus station) on 3 May, with a last-updated stamp of 11 May 2021. It lists Indigo Park Luxembourg as operator, 16 electric-vehicle charging stations and an opening tariff of 1.40 euros per hour for four hours then 5 euros flat.",
+   "source_title": "Opening of Parking Gernsback on May 3th",
+   "source_url": "https://fondskirchberg.public.lu/en/actualites/ouverture-gernsback.html",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2018-09",
+   "text": "A Paperjam article of September 2018 reported that the Royal-Hamilius car park would be ready for its first customers on 27 September, with 628 spaces including 15 planned for electric cars. It names APCOA as manager and says a payment app was planned.",
+   "source_title": "Le parking Hamilius ouvrira le 27 septembre",
+   "source_url": "https://paperjam.lu/article/news-le-parking-hamilius-ouvrira-le-27-septembre",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2023-06",
+   "text": "Paperjam reported that the Indigo Neo app became available in Luxembourg City on 1 June 2023 for paying for parking by smartphone, initially covering about 35,000 spaces including on-street parking and the Fort Neipperg car park. The article says it also supports plate recognition at car parks with barriers, and compares it with the earlier Call2park app.",
+   "source_title": "Luxembourg City launches app for parking payment",
+   "source_url": "https://en.paperjam.lu/article/luxembourg-city-launches-app-f",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "The City's Indigo Neo page (undated, checked October 2026) says drivers can use the app to enter and exit the Fort Neipperg car park without a ticket, with the plate read automatically at the barrier and payment made in the app. It also says municipal officers check on-street parking sessions by plate number.",
+   "source_title": "Indigo Neo mobile app | Ville de Luxembourg",
+   "source_url": "https://www.vdl.lu/en/node/166565",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2024-06",
+   "text": "Announcing the phased closure of the Glacis car park from 14 June 2024 for City Sounds and Euro 2024 broadcasts, the City pointed motorists to its dynamic parking guidance system, parking.vdl.lu and the city app for live availability. It also directed them to the largely free P+R car parks.",
+   "source_title": "Glacis Car Park to Close for City Sounds, Football Championship Broadcasts",
+   "source_url": "https://chronicle.lu/category/at-home/50188-glacis-car-park-to-close-for-city-sounds-football-championship-broadcasts",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2023-04",
+   "text": "The Ville de Luxembourg publishes a parking availability dataset on data.public.lu listing covered and open car parks with total and free spaces. The page shows it was created on 13 April 2023, last modified on 9 February 2024, and lists hourly updates.",
+   "source_title": "Mobilité - Emplacements de parking libres",
+   "source_url": "https://data.public.lu/en/datasets/mobilite-emplacements-de-parking-libres/",
+   "confidence": "high",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2023-01",
+   "text": "A KPMG alert says the tele-work tax ceiling for cross-border workers in 2023 should be 34 days for Belgian and French residents and 19 days for German residents. The Belgian agreement would raise the limit from 24 to 34 days retroactively to 1 January 2022 but had not yet entered into force, while the France-Luxembourg agreement signed on 7 November 2022 raised it from 24 to 34 days from 2023.",
+   "source_title": "Luxembourg – Frontier Workers / Tele-work Agreements Nailed Down for 2023",
+   "source_url": "https://kpmg.com/xx/en/home/insights/2023/01/flash-alert-2023-024.html",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "No dated source found for changes to hourly prices at Knuedler, Theatre, Place de l'Etoile, Glacis, Monterey, Rousegaertchen or Aldringen in 2019-2026",
+  "No sourced figure for EV charge-point counts in the city's own car parks (found only Gernsback 16 stations, Stade P+R 56 spaces, Hamilius 15 spaces), and no Lux-Parkings programme details",
+  "Place Guillaume / Ville Haute limited-traffic arrangements not sourced",
+  "No dated source on residents' permit fee changes in 2019-2026 (only the fee scale currently displayed)",
+  "No sourced retail footfall, tourism or commuter-volume figures for the centre, and no evidence on Luxtram's effect on car park use",
+  "Free P+R at Bouillon and the Mobilitéitszentral policy not sourced with a date, since the City's P+R news page returned 403",
+  "No sourced detail on Saint-Esprit or Glacis renovations or any dynamic pricing at municipal car parks"
+ ],
+ "dropped": {}
+}

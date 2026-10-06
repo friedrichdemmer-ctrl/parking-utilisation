@@ -1,0 +1,165 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Page (Embassy of Luxembourg in Copenhagen, created 03.09.2019, updated 01.09.2020) says from 1 March 2020 Luxembourg makes public transport free, first class excepted, and that the government hopes for fewer vehicles on the roads. Title matches og/page title. It is an embassy page, not gouvernement.lu itself, but it republishes the government message; wording 'government's page' is acceptable. Written in 2019 future-style wording, fact date 2020-03 is right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "gouvernement.lu press release created 28.02.2025: tram 6.2 million (2019) to 31.7 million (2024); rail 25 million to 31.3 million; page attributes the tram rise partly to extensions of the line. Title matches exactly.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Chronicle.lu article published 19 Apr 2024: Mayor says 100,000 passengers a day take the tram (200,000 the bus); tram expected to serve Cloche d'Or from Sunday 7 July 2024; Luxexpo-Findel (airport) section expected operational in early 2025. Text says 'announced to open', page says 'expected', which is a close enough paraphrase; both are forward-looking and the text labels the airport leg as expected. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Chronicle.lu article published 4 Apr 2024. 51%/49% 2035 target, keeping motorised trips at the 2020 absolute level, and 'reassessment, or even an overhaul, of the parking situation' are all on the page. But the page calls it the 'new mobility plan' that the City 'presented'; it never says 'draft'. Title matches.",
+   "corrected_text": "The City presented its new mobility plan in April 2024, with a 2035 target of 51% of trips by public transport and soft mobility and 49% by motorised individual transport, and an aim to keep the number of motorised trips at the 2020 level. It says the parking situation needs reassessing or even overhauling.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "vdl.lu 'Written responses (October 2022)'; Mayor Polfer's reply: Gernsback rates at opening (May 2021) were 1.40 euros/hour for the first three hours then a 5 euro flat rate; changed on 1 Feb 2022 to a 15 euro flat rate from the 4th hour up to the 24-hour maximum (three times the earlier flat rate). Occupancy about 24% including season-pass holders; reply says the new pricing is not attractive enough for long stays (over 5 hours) given the City P+R sites are free for 24 hours. Amounts, date and attribution all match; 'long-stay flat rate' is a fair description. Title matches. Note the reply says the cheaper tier covered three hours whereas the Fonds Kirchberg page (item 9) says four hours; the draft text for item 4 does not state that number, so no error.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Page is undated; the draft text correctly says 'as displayed when checked in October 2026'. Orange 2.00/hour max 2 hours Mon-Sat 8-18; yellow 1.00; green 2.00 first 3 hours then 1.50; violet 0.50 max 10 hours; yellow/green/violet Mon-Fri 8-18. All match. Page also says residents with permits are exempt from yellow/green and exemptions apply in Centre, Gare and Clausen, which the text does not claim.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Page is undated; draft correctly says 'as displayed ... checked October 2026'. First permit free, second 60 euros, third 120 euros, valid 12 months in the designated area only. Luxembourg City residence is implied (permits issued to 'the resident') rather than stated as a rule, acceptable. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Chronicle.lu published 25 Nov 2022: partial reopening from Monday 28 Nov 2022 in two phases; phase 1 gives 136 new spaces plus 216 old = 352 available; phase 2 (levels -4 and -5) from 22 Dec 2022 per the contractor's commitment; complete reopening planned for 2023; 749 total spaces once works are completed. Text frames it as announced/planned, which matches. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Chronicle.lu published 6 Oct 2023: inauguration on 5 Oct 2023; six levels, 1,993 spaces; 1,640 spaces open at launch (last level planned for early 2024); free for 24 hours, 10 euros per day from the 25th hour; 56 Chargy spaces; southern entrance at Cloche d'Or. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Fonds Kirchberg page: title 'Opening of Parking Gernsback on May 3th'; five-storey car park above the Luxexpo bus station, 595 cars, operated by Indigo Park Luxembourg, 16 EV charging stations, 1.40 euros/hour for first 4 hours then 5 euro flat up to 24 hours; Last update 11.05.2021. The body text does not itself repeat '3 May' (only the title does) but the title is the page's own.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "The Paperjam page's own metadata (JSON-LD datePublished 2018-09-11, dateModified 2018-09-12) shows it was published in September 2018, not 2019, so the 27 September opening is 2018. The article's other dates (commercial opening 'end of 2019', app 'by 2019') are consistent with a 2018 article. Content: 628 spaces, 15 for electric cars (70 also reserved for apartment residents), APCOA as manager (Codic is described as the site operator), app 'digital flow' planned. Title matches the page's og:title.",
+   "corrected_text": "A Paperjam article of September 2018 reported that the Royal-Hamilius car park would be ready for its first customers on 27 September, with 628 spaces including 15 planned for electric cars. It names APCOA as manager and says a payment app was planned.",
+   "corrected_title": null,
+   "corrected_date": "2018-09",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Paperjam English page metadata datePublished 2023-06-01 (in raw HTML, not a fetch-tool stamp); text says the app is available 'from this Thursday 1 June' (1 June 2023 was a Thursday; article also uses 2022 population). About 35,000 spaces covered, initially outdoor spaces and the Fort Neipperg car park; plate recognition at barrier car parks; compared with Call2park which it replaces. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "vdl.lu page (undated): Fort Neipperg entry/exit without a physical ticket, plate read automatically, payment from the app; municipal enforcement officers check by licence plate whether a session was launched. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Chronicle.lu published 12 Jun 2024: gradual closure of Glacis car park from 14 June 2024 for City Sounds (22-23 June) and live Euro 2024 broadcasts from 29 June; City recommended the dynamic guidance system and P&R car parks (most free); availability on cityapp and parking.vdl.lu. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "data.public.lu page: Producer Ville de Luxembourg; covered and open car parks, total and free spaces; Temporality creation April 13, 2023; Frequency Hourly; Latest update February 9, 2024 (resource modified Feb 9, 2024). Caveats: the description itself says updates every minute, the page flags 'update frequency not followed', and the embedded JSON-LD shows dateModified 2024-05-23. The text only says the page lists hourly updates, which it does. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "KPMG GMS Flash Alert 2023-024 (cites a 27 Jan 2023 press article, so Jan 2023 is plausible; no printed publication date). For 2023 the tax ceilings 'should be' 34 days Belgium, 34 France, 19 Germany. Belgium: agreement approved by Luxembourg parliament May 2022 and ratified by Belgium December 2022, but it 'should enter into force soon' (not yet in force); text says it 'rose'. France: agreement signed 7 Nov 2022, raised from 24 to 34 days from 2023 (OK). Germany unchanged at 19 (OK). Draft source_title is not the page title.",
+   "corrected_text": "A KPMG alert says the tele-work tax ceiling for cross-border workers in 2023 should be 34 days for Belgian and French residents and 19 days for German residents. The Belgian agreement would raise the limit from 24 to 34 days retroactively to 1 January 2022 but had not yet entered into force, while the France-Luxembourg agreement signed on 7 November 2022 raised it from 24 to 34 days from 2023.",
+   "corrected_title": "Luxembourg – Frontier Workers / Tele-work Agreements Nailed Down for 2023",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "The City of Luxembourg publishes car park availability as open data and runs colour-coded paid on-street zones with residential permits priced at free, 60 and 120 euros for the first three permits. Its 2024 mobility plan sets a 2035 target of 51% of trips by public transport and soft mobility, and calls for the parking situation to be reassessed. Public transport has been free nationwide since March 2020; the City announced a phased reopening of the Knuedler car park in late 2022, the Stade de Luxembourg P+R opened in October 2023, and the Indigo Neo app launched for parking payment in June 2023."
+}
