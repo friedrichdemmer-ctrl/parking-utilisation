@@ -289,6 +289,24 @@ def api_briefing():
     return jsonify(out)
 
 
+@bp.route("/api/request", methods=["POST"])
+def api_request():
+    """The "Ask us" form. See requests_store.py for storage, limits and privacy."""
+    import requests_store
+
+    data = request.get_json(silent=True) or {}
+    fields, problem = requests_store.validate(data)
+    if problem == "spam":
+        return jsonify({"ok": True})                 # say nothing useful to a bot
+    if problem:
+        return jsonify({"error": problem}), 400
+    ip = request.headers.get("Fly-Client-IP") or request.remote_addr or "?"
+    rid, problem = requests_store.add(fields, ip)
+    if problem:
+        return jsonify({"error": problem}), 429
+    return jsonify({"ok": True, "id": rid})
+
+
 @bp.route("/api/search")
 def api_search():
     q = (request.args.get("q") or "").strip()

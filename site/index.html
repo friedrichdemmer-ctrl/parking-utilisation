@@ -192,6 +192,26 @@ table.data tr.link:hover td { background: var(--accent-soft); }
 .cal rect { rx: 1.5; }
 .note { font-size: .88rem; color: var(--ink-3); }
 .error { color: var(--bad); }
+.askgrid { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 1.2rem; align-items: start; }
+@media (max-width: 860px) { .askgrid { grid-template-columns: minmax(0, 1fr); } }
+.askform { gap: 1rem; }
+.askform label { display: grid; gap: .35rem; font: 500 .9rem var(--font-body); color: var(--ink); }
+.askform input, .askform textarea, .askform select { font: 400 .95rem var(--font-body); color: var(--ink); background: var(--bg); border: 1px solid var(--rule); border-radius: 4px; padding: .55rem .65rem; width: 100%; box-sizing: border-box; }
+.askform textarea { resize: vertical; line-height: 1.5; }
+.askform input:focus, .askform textarea:focus, .askform select:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.askrow { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+@media (max-width: 560px) { .askrow { grid-template-columns: minmax(0, 1fr); } }
+.askform .check { display: flex; gap: .55rem; align-items: flex-start; font-weight: 400; color: var(--ink-2); font-size: .88rem; }
+.askform .check input { width: auto; margin-top: .2rem; }
+.askform .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.askbar { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
+.btn.primary { background: var(--accent); color: var(--surface); border-color: var(--accent); font-weight: 600; }
+.btn.primary[disabled] { opacity: .6; cursor: default; }
+#askMsg.ok { color: var(--good); } #askMsg.err { color: var(--bad); }
+.askside { display: grid; gap: .7rem; padding-top: .3rem; }
+.askside h2 { font: 600 1.15rem var(--font-display); margin: 0; }
+.askside ul { margin: 0; padding-left: 1.1rem; display: grid; gap: .55rem; color: var(--ink-2); font-size: .93rem; }
+.askcta { border-top: 1px solid var(--rule-soft); padding-top: .9rem; display: flex; justify-content: space-between; align-items: center; gap: .6rem 1rem; flex-wrap: wrap; }
 .brief section { display: grid; gap: .6rem; }
 .brief section + section { border-top: 1px solid var(--rule-soft); padding-top: .9rem; }
 .brief h3 { font: 600 1.1rem var(--font-display); margin: 0; }
@@ -222,6 +242,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
       <a href="#local" data-view="local">Local maps</a>
       <a href="#compare" data-view="compare">Compare</a>
       <a href="#reports" data-view="reports">Reports</a>
+      <a href="#ask" data-view="ask">Ask us</a>
     </nav>
     <a class="statuspill" href="#status" id="statusPill"><span class="dot"></span><span>Feeds</span></a>
   </div>
@@ -321,9 +342,48 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
   <section class="view" id="view-reports" hidden aria-labelledby="h-rep">
     <div class="intro">
       <h1 id="h-rep">Reports</h1>
-      <p class="sub">Two reports built from the same data, rebuilt automatically.</p>
+      <p class="sub">Reports built from the same data, rebuilt automatically. Need something more specific? <a href="#ask">Ask us for an analysis</a>.</p>
     </div>
     <div class="cards" id="repCards"></div>
+  </section>
+
+  <!-- ASK -->
+  <section class="view" id="view-ask" hidden aria-labelledby="h-ask">
+    <div class="intro">
+      <h1 id="h-ask">Ask us for an analysis</h1>
+      <p class="sub">A briefing for a city we have not covered yet, a closer look at one garage or operator, prices against the competition, or a question the data might answer. Tell us what you need and we will reply by email.</p>
+    </div>
+    <div class="askgrid">
+      <form class="panel askform" id="askForm" novalidate>
+        <label>What would you like?
+          <select name="kind" required>
+            <option value="city">A city briefing</option>
+            <option value="site">A garage or site assessment</option>
+            <option value="benchmark">Operator or price benchmarking</option>
+            <option value="data">A question about the data</option>
+            <option value="other">Something else</option>
+          </select></label>
+        <label><span>City or place <span class="muted">(optional)</span></span><input name="place" maxlength="120" autocomplete="off" placeholder="for example Leipzig, or Parkhaus Hauptwache"></label>
+        <label>Your question <textarea name="message" rows="6" maxlength="4000" required placeholder="What do you want to know, and what is it for? A sentence or two is enough."></textarea></label>
+        <div class="askrow">
+          <label><span>Name <span class="muted">(optional)</span></span><input name="name" maxlength="120" autocomplete="name"></label>
+          <label><span>Organisation <span class="muted">(optional)</span></span><input name="organisation" maxlength="160" autocomplete="organization"></label>
+        </div>
+        <label>Email for our reply<input name="email" type="email" maxlength="200" autocomplete="email" required></label>
+        <label class="hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+        <label class="check"><input type="checkbox" name="consent" required> <span>Keep these details so you can answer me. They are used only for this request, never shared, and deleted after twelve months.</span></label>
+        <div class="askbar"><button type="submit" class="btn primary" id="askSend">Send request</button><span id="askMsg" role="status" aria-live="polite"></span></div>
+      </form>
+      <aside class="askside">
+        <h2>What we can do</h2>
+        <ul>
+          <li><b>City briefings</b> like the ones on the Explore pages: how full the car parks are, who runs them, how prices compare and what the city is doing about parking.</li>
+          <li><b>Site assessments</b> for one garage or location: its occupancy by hour and season, its neighbours and its price position.</li>
+          <li><b>Benchmarking</b> of an operator's garages against the competition nearby.</li>
+        </ul>
+        <p class="note">We measure occupancy for about 1,300 car parks in 14 countries and publish tariffs for many more. Where we have no data for a place, we will say so rather than guess.</p>
+      </aside>
+    </div>
   </section>
 
   <!-- STATUS -->
@@ -338,7 +398,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     <div class="panel"><h2>Garages flagged by the daily check</h2><p class="note" id="stFhNote"></p><div class="scroll"><table class="data" id="stFlags"></table></div></div>
   </section>
 </main>
-<footer>Data from city and operator open-data feeds and the ParkAPI community archive. Occupancy is 1 − free ÷ capacity.</footer>
+<footer>Data from city and operator open-data feeds and the ParkAPI community archive. Occupancy is 1 − free ÷ capacity. · <a href="#ask">Ask us for an analysis</a></footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
@@ -751,6 +811,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
         <section><h3>${esc(s2.title)}</h3>${paras(s2.text)}</section>
         <section><h3>${esc(s3.title)}</h3>${paras(s3.text)}${opsBlock}</section>
         <section class="sources"><h3>Sources</h3><ol>${order.map((id, i) => { const it = byId.get(id); return `<li id="src-${i + 1}"><a href="${esc(it.source_url)}" rel="noopener nofollow" target="_blank">${esc(it.source_title)}</a> <span class="muted">(${esc(it.date)})</span></li>`; }).join("")}</ol>
+        <div class="askcta"><span>Need this for another city, or a closer look at one garage here?</span><a class="btn" href="#ask/city/${enc(country)}/${enc(city)}">Ask us for an analysis →</a></div>
         <p class="note">Figures without a note are our own: weekday occupancy measured ${b.trend ? "since 2020 and " : ""}over late summer 2026, and the tariffs operators publish. Sources were checked against the linked pages in ${esc(notes.verified ? notes.verified.slice(0, 7) : nar.as_of)}.</p></section></article>`;
     } else {
       const read = [];
@@ -758,7 +819,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
       if (po && po.r != null) read.push(`Across the ${po.n} priced garages we measure, dearer garages ${Math.abs(po.r) < .3 ? "are not clearly emptier or fuller" : po.r > 0 ? "tend to be fuller" : "tend to be emptier"}.`);
       if (ev) read.push(`EV charging is recorded for ${ev.with_ev} of ${ev.total} garages${ev.unknown ? `; for ${ev.unknown} there is no record either way` : ""}.`);
       html = `<div class="panel brief"><h2>${esc(city)} in numbers</h2>${read.length ? `<p>${read.map(esc).join(" ")}</p>` : ""}${trendBlock}<h3>Operators</h3>${opsBlock}
-        <p class="note">No written briefing for ${esc(city)} yet.</p></div>`;
+        <div class="askcta"><span>No written briefing for ${esc(city)} yet. Want one?</span><a class="btn" href="#ask/city/${enc(country)}/${enc(city)}">Ask us for a briefing →</a></div></div>`;
     }
     host.innerHTML = html;
   }
@@ -1205,11 +1266,36 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     } catch (e) { document.getElementById("stStats").innerHTML = `<p class="error">${esc(e.message)}</p>`; }
   }
 
+  // ---------- ask us ----------
+  // #ask, or #ask/city/<country>/<city> from a city briefing (fills in the place)
+  const askForm = document.getElementById("askForm"), askMsg = document.getElementById("askMsg");
+  let askShown = 0;
+  function renderAsk(parts) {
+    askShown = Date.now();
+    if (parts[0] === "city" && parts.length >= 3 && !askForm.place.value) { askForm.place.value = parts[2]; askForm.kind.value = "city"; }
+  }
+  askForm.addEventListener("submit", async ev => {
+    ev.preventDefault();
+    const f = askForm, btn = document.getElementById("askSend");
+    askMsg.className = ""; askMsg.textContent = "";
+    const body = { kind: f.kind.value, place: f.place.value, message: f.message.value, name: f.name.value, organisation: f.organisation.value,
+                   email: f.email.value, consent: f.consent.checked, website: f.website.value, elapsed_ms: Date.now() - askShown };
+    btn.disabled = true; btn.textContent = "Sending…";
+    try {
+      const r = await fetch("/api/request", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+      const d = await r.json().catch(() => ({}));
+      if (!r.ok) throw new Error(d.error || `The server answered ${r.status}. Try again shortly.`);
+      f.reset(); askMsg.className = "ok";
+      askMsg.textContent = `Sent${d.id ? ` (request #${d.id})` : ""}. We will reply to the address you gave.`;
+    } catch (e) { askMsg.className = "err"; askMsg.textContent = e.message; }
+    finally { btn.disabled = false; btn.textContent = "Send request"; }
+  });
+
   // ---------- routing ----------
   function route() {
     const parts = (location.hash.slice(1) || "overview").split("/").map(x => { try { return decodeURIComponent(x); } catch (e) { return x; } });
     const [view, kind, ...rest] = parts;
-    const v = ["overview", "explore", "local", "compare", "reports", "status"].includes(view) ? view : "overview";
+    const v = ["overview", "explore", "local", "compare", "reports", "status", "ask"].includes(view) ? view : "overview";
     document.querySelectorAll("section.view").forEach(s => { s.hidden = s.id !== "view-" + v; });
     document.querySelectorAll("nav.sections a").forEach(a => { if (a.dataset.view === v) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
     if (v === "overview") renderOverview();
@@ -1222,6 +1308,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     else if (v === "local") renderLocal(kind || null, rest.length ? rest[0] : null);
     else if (v === "compare") renderCompare();
     else if (v === "status") renderStatus();
+    else if (v === "ask") renderAsk(kind ? [kind, ...rest] : []);
     window.scrollTo(0, 0);
   }
   // follow a theme change while the page is open: map tiles and colour ramps

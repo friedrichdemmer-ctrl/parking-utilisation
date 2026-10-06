@@ -337,6 +337,34 @@ def site_page():
     return Response(SITE_PAGE.read_text(encoding="utf-8"), mimetype="text/html", headers={"Cache-Control": "no-cache"})
 
 
+@app.route("/admin/requests")
+def admin_requests():
+    """Analysis requests, for the site owner. Needs ?token= matching the ADMIN_TOKEN secret;
+    without that secret the page does not exist."""
+    import html
+    import requests_store
+
+    token = os.environ.get("ADMIN_TOKEN")
+    if not token or request.args.get("token") != token:
+        return Response("Not found", status=404)
+    if request.args.get("done"):
+        requests_store.set_status(int(request.args["done"]), "done")
+    rows = requests_store.all_requests()
+    e = lambda v: html.escape(str(v or ""))
+    def row(r):
+        done = "" if r["status"] == "done" else f"<br><a href='?token={e(token)}&done={r['id']}'>mark done</a>"
+        return (f"<tr class='{e(r['status'])}'><td>#{r['id']}</td><td>{e(r['received'][:16].replace('T', ' '))}</td>"
+                f"<td>{e(requests_store.KINDS.get(r['kind'], r['kind']))}<br><b>{e(r['place'])}</b></td>"
+                f"<td style='white-space:pre-wrap;max-width:42rem'>{e(r['message'])}</td>"
+                f"<td>{e(r['name'])}<br>{e(r['organisation'])}<br><a href='mailto:{e(r['email'])}'>{e(r['email'])}</a></td>"
+                f"<td>{e(r['status'])}{done}</td></tr>")
+    body = "".join(row(r) for r in rows)
+    page = ("<!doctype html><meta charset='utf-8'><meta name='robots' content='noindex'><title>Requests</title>"
+            "<style>body{font:15px system-ui;margin:2rem}td{border-top:1px solid #ddd;padding:.5rem;vertical-align:top}"
+            "tr.done{color:#888}</style><h1>Analysis requests</h1><table>" + (body or "<tr><td>None yet.</td></tr>") + "</table>")
+    return Response(page, mimetype="text/html", headers={"Cache-Control": "no-store"})
+
+
 @app.route("/favicon.svg")
 @app.route("/favicon.ico")
 def favicon():
