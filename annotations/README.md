@@ -28,5 +28,6 @@ Per-city notes shown in the city briefing on Explore (city_briefing.py, /api/bri
 
 Drafts and verdicts stay in the repo as the audit trail but are kept out of the Docker image.
 Proposals, plans and forecasts must stay worded as such; never state a price as in force unless the
-source says it is. Refresh each quarter. Researched 2026-10-06: Düsseldorf, Dresden, Bielefeld,
-Osnabrück, Frankfurt, Amsterdam. Not yet researched: Hamburg and the other cities.
+source says it is. Refresh each quarter. Researched and written 2026-10-06 (12 cities): Düsseldorf, Dresden, Bielefeld, Osnabrück, Frankfurt,
+Amsterdam, Hamburg, Nürnberg, Lyon, Heidelberg, Zürich, Basel. Candidates next: Bordeaux, Mannheim,
+Münster, Torino, Nantes.
