@@ -1,0 +1,130 @@
+{
+  "country": "Switzerland",
+  "city": "Zürich",
+  "researched": "2026-10-06",
+  "summary": "Zurich's parking policy since 2019 has centred on reducing street parking. The 1990s parking compromise was ended in 2021, voters approved a pricier, weight-based resident parking card in September 2025, and in June 2026 they rejected an initiative to protect parking-space numbers. On the garage side, the city stopped outsourcing its ten municipal garages from early 2026 and dissolved Parking Zürich AG. Demand-side events include the pandemic drop in traffic in 2020-2021 and the closure of the Jelmoli department store in February 2025.",
+  "items": [
+    {
+      "topic": "regulation",
+      "date": "2020-07",
+      "text": "The city executive proposed a new parking-card ordinance that would raise the annual blue-zone resident card from CHF 300 to CHF 780. Night-time street parking, previously free, would be charged at daytime rates.",
+      "source_title": "Parkieren in Zürich soll neu geregelt werden",
+      "source_url": "https://www.stadt-zuerich.ch/de/aktuell/medienmitteilungen/2020/07/200710a.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2021-03",
+      "text": "The city closed Parkhaus Central at Seilergraben, its smallest municipal garage with 36 spaces, because modernising it would have been too expensive. The 30 spaces counted under the historic parking compromise were moved to the nearby Parkhaus Urania.",
+      "source_title": "Parkhaus Central wird geschlossen",
+      "source_url": "https://www.stadt-zuerich.ch/de/aktuell/medienmitteilungen/2021/03/210329a.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2021-12",
+      "text": "On 28 November 2021, voters approved a new municipal transport master plan stating that blue-zone parking spaces should be reduced. The city then withdrew its 2020 parking-card proposal so that it could draft a revised ordinance.",
+      "source_title": "Parkkartenverordnung wird überarbeitet",
+      "source_url": "https://www.stadt-zuerich.ch/de/aktuell/medienmitteilungen/2021/12/211201a2.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2024-10",
+      "text": "In a first reading, the city parliament backed a parking-card ordinance with fees based on vehicle weight: 35-45 Rappen per kg for fossil-fuel cars and 30-40 Rappen per kg for zero-emission cars. Only residents without private parking would be eligible. SRF reported the annual fee rising from CHF 300 to CHF 540.",
+      "source_title": "Blaue Zonen - Zürcher Gemeinderat will höhere Parkgebühren für grosse Autos",
+      "source_url": "https://www.srf.ch/news/schweiz/blaue-zonen-zuercher-gemeinderat-will-hoehere-parkgebuehren-fuer-grosse-autos",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-09-28",
+      "text": "Voters approved the new parking-card ordinance with 52.8% yes. According to SRF, blue-zone resident cards will cost about two to three times the previous price, priced by vehicle weight with lower rates for electric cars, and tradespeople get wider parking rights.",
+      "source_title": "Abstimmungen Stadt Zürich - Zürich verbietet Laubbläser",
+      "source_url": "https://www.srf.ch/news/schweiz/abstimmungen-stadt-zuerich-zuerich-verbietet-laubblaeser",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-06-14",
+      "text": "About 59% of voters rejected the SVP-backed 'Parkplatz-Kompromiss' initiative, which would have allowed public parking to be removed only if the same number stayed available in the district. The report says the city plans to repurpose 9,000-11,000 surface spaces over 10-15 years and that the 1990s parking compromise was ended in 2021.",
+      "source_title": "SVP-Initiative für mehr Parkplätze scheitert in der Stadt Zürich",
+      "source_url": "https://www.suedostschweiz.ch/schweiz-und-welt/svp-initiative-fuer-mehr-parkplaetze-scheitert-in-der-stadt-zuerich-1925044",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-04",
+      "text": "Since early 2026, the city's real-estate department (Liegenschaften Stadt Zürich) has run the ten municipal garages and the Zürich Bus Station itself. Parking Zürich AG, set up in 2008 to operate them, has been dissolved; the city says nothing changes for customers.",
+      "source_title": "Stadt bewirtschaftet Parkhäuser wieder selbst",
+      "source_url": "https://www.stadt-zuerich.ch/de/aktuell/medienmitteilungen/2026/04/stadt-bewirtschaftet-parkhaeuser-wieder-selbst.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2025-02",
+      "text": "The city parliament approved a Green Party postulate on repurposing municipal garages for other city infrastructure or housing. The motoring club ACS Zürich, which reported the decision, opposed it.",
+      "source_title": "ACS Zürich verurteilt Gemeinderatsentscheid zum Abbau von Parkhäusern – Schlag gegen die Mobilität und den Wirtschaftsstandort",
+      "source_url": "https://acs.ch/media/docs/sektionen/zuerich/Medienmitteilungen/2025/20250206_Abbau-von-Parkhaeusern.pdf",
+      "confidence": "medium"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2023",
+      "text": "The University of Zurich raised the fees for its own parking, including the Irchel garage, by 70-150% for 2023. A cantonal government reply states that the Irchel renovation cost about CHF 25.6 million and that long-term occupancy is about 70%. 220 of 994 long-term rental contracts had been cancelled by the end of January 2023.",
+      "source_title": "Anfrage (Erhöhung Tarife auf den Parkplätzen und im Parkhaus der Universität Zürich UZH)",
+      "source_url": "https://www.zh.ch/bin/zhweb/publish/regierungsratsbeschluss-unterlagen./2024/129/RRB-2024-0129.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2019-10",
+      "text": "Six months after the city enabled app payment at its parking meters, about 10% of on-street parking revenue came through apps (505,000 transactions, CHF 1.4 million). Three providers were used: Parkingpay, EasyPark and ParkNow.",
+      "source_title": "Jeder zehnte Franken Parkgebühr fliesst in Zürich per App",
+      "source_url": "https://www.netzwoche.ch/news/2019-10-14/jeder-zehnte-franken-parkgebuehr-fliesst-in-zuerich-per-app",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2021-05",
+      "text": "Blick reported that Zurich had about 120 public charging stations, or roughly one per 41 electric cars. It also reported that ewz planned to add more than 20 stations in 2021.",
+      "source_title": "Eine Ladestation für 41 E-Autos: Zürich geht der Pfuus aus",
+      "source_url": "https://www.blick.ch/wirtschaft/eine-ladestation-fuer-41-e-autos-zuerich-geht-bei-der-elektro-mobilitaet-der-pfuus-aus-id16560736.html",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2025",
+      "text": "In a TCS test of EV charging in garages, Zurich scored best of the cities tested, with Hohe Promenade, Urania, Messe Zürich and Opéra assessed. Charging at Opéra cost 28 Rappen per kWh but required the operator's own app.",
+      "source_title": "Elektroauto-Ladestationen in Parkhäusern: Tops und Flops",
+      "source_url": "https://www.tcs.ch/de/testberichte-ratgeber/tests/elektroauto-ladestationen-in-parkhaeusern-2025.php",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2023-06",
+      "text": "The city reported that total traffic fell sharply in the pandemic years 2020 and 2021, with use shifting from public transport towards walking, cycling and cars. By the end of 2022, public transport ridership was almost back to end-2019 levels and cycling counts were at record highs.",
+      "source_title": "Modalsplit der Stadt Zürich: Geprägt von der Pandemie",
+      "source_url": "https://www.stadt-zuerich.ch/de/aktuell/medienmitteilungen/2023/06/230605a.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2025-02-28",
+      "text": "The Jelmoli department store on Bahnhofstrasse closed for good. Owner Swiss Prime Site cited changing shopping habits and online retail. Manor is due to occupy three floors of the building from 2027 after renovation.",
+      "source_title": "Ende eines Warenhauses - Jelmoli ist Geschichte: traurige Kunden und ein empörter Ex-Chef",
+      "source_url": "https://www.srf.ch/news/wirtschaft/ende-eines-warenhauses-jelmoli-ist-geschichte-traurige-kunden-und-ein-empoerter-ex-chef",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "Tariff changes at city garages (Parking Zürich AG / Liegenschaften Stadt Zürich) or private operators (AMAG, APCOA, Apleona) in 2019-2026: no dated source found",
+    "On-street hourly tariff changes in 2019-2026: the only high-tariff-zone increase found dates from 2016, outside the window",
+    "Whether and from when the new weight-based resident card prices apply after the September 2025 vote: no dated source found",
+    "Parkleitsystem (PLS Zürich) upgrades, ticketless/ANPR rollouts, dynamic pricing or reservation in Zurich public garages: nothing dated found",
+    "Current ewz or operator charge-point numbers in garages after 2021: not sourced",
+    "Park-and-ride policy changes: not researched successfully",
+    "Ownership changes among private garage operators: not found",
+    "Footfall trend on Bahnhofstrasse: an open hourly dataset exists, but no published trend was found"
+  ]
+}

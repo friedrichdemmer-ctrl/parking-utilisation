@@ -1,0 +1,155 @@
+{
+  "country": "Switzerland",
+  "city": "Basel",
+  "researched": "2026-10-06",
+  "summary": "Basel-Stadt has steadily raised the cost of on-street parking: the resident permit roughly doubled in 2019, a 2021 initiative to reverse that failed at the ballot, and from 2025 permit fees depend on vehicle length while parking-meter rates vary by location and demand, with a further permit increase announced for 2027. The canton's stated aim is to move parking from the street into garages, including a planned network of neighbourhood garages such as the Horburg garage bought from Novartis in 2024. New garage capacity includes Parking Kunstmuseum, which opened in December 2021 and was tied to a requirement to remove 210 nearby street spaces.",
+  "items": [
+    {
+      "topic": "regulation",
+      "date": "2019-01",
+      "text": "At the start of 2019 the annual resident parking permit (Anwohnerparkkarte) rose from CHF 140 to CHF 284, and since 2019 residents have been limited to one permit per person. The cantonal transport department told a parliamentary committee that both changes reduced permit numbers.",
+      "source_title": "Bericht der Petitionskommission zur Petition P492 «Keine Gebührenwillkür in BS! Nein zu überhöhten Parkkartengebühren»",
+      "source_url": "https://grosserrat.bs.ch/dokumente/100411/000000411086.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2019-11",
+      "text": "From 1 November 2019 the cantonal garages City, Steinen and Elisabethen started their cheaper evening rate of CHF 2 per hour at 17:00, two hours earlier than before; the daytime rate stayed at CHF 3 per hour. The change was introduced for an initial period of two years.",
+      "source_title": "Erleichtertes Feierabendshopping durch Reduktion Parktarife",
+      "source_url": "https://www.bs.ch/medienmitteilungen/2019-erleichtertes-feierabendshopping-durch-reduktion-parktarife",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2021-01",
+      "text": "The canton launched the ParkSmart Basel app for cashless, per-minute payment at parking meters and for buying blue-zone visitor permits, with reminders before parking time runs out. Paying with coins and buying permits in person remained possible.",
+      "source_title": "«ParkSmart Basel»: Komfortabel Parkieren per App",
+      "source_url": "https://www.bs.ch/medienmitteilungen/jsd/2021-parksmart-basel-komfortabel-parkieren-app",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2021-04",
+      "text": "The cantonal parliament approved a conditionally repayable, interest-free loan of CHF 11.4 million so that the utility IWB could build and run about 200 public charging stations, mainly on public land. According to the report, parliament also backed a motion asking for 2,000 more charge points in publicly accessible garages.",
+      "source_title": "Basel plant mindestens 200 weitere Ladestationen",
+      "source_url": "https://www.electrive.net/2021/03/24/basel-plant-mindestens-200-weitere-ladestationen/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2021-09",
+      "text": "Voters in Basel-Stadt rejected the TCS/ACS initiative «für erschwingliche Parkgebühren», which sought to reverse the 2019 increase in public parking fees, with about 56% voting no.",
+      "source_title": "Abstimmungen Basel-Stadt - In Basel wird das billige Parkieren nicht noch billiger",
+      "source_url": "https://www.srf.ch/news/abstimmungen/abstimmungen-basel-stadt-in-basel-wird-das-billige-parkieren-nicht-noch-billiger",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2021-12",
+      "text": "Parking Kunstmuseum at St. Alban-Graben opened in mid-December 2021 with 350 spaces on four levels, open around the clock and with EV charging. It was built by Implenia for a Credit Suisse Asset Management real estate fund.",
+      "source_title": "Parking Kunstmuseum Basel in operation",
+      "source_url": "https://implenia.com/en/media/news-article/parking-kunstmuseum-basel-in-operation/",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2022-06",
+      "text": "A 2013 parliamentary decision required at least 210 street spaces within about 500 m to be removed for good in return for Parking Kunstmuseum, but by the end of May 2022 only 104 had been. A parliamentary committee and the transport department agreed that 70 more would go by the end of 2022, with other solutions for the remaining 36.",
+      "source_title": "UVEK und BVD einigen sich über Kompensation für das Parking Kunstmuseum",
+      "source_url": "https://www.bs.ch/medienmitteilungen/grosser-rat/2022-uvek-und-bvd-einigen-sich-ueber-kompensation-fuer-das-parking-kunstmuseum",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2024-06",
+      "text": "The government announced that from 1 January 2025 the resident permit would depend on vehicle length: CHF 332 a year for cars under 3.90 m, CHF 422 for medium cars (previously CHF 284) and CHF 512 for cars over 4.90 m. Commuter permits were set at CHF 860, 950 and 1,040. A second step was announced for 1 January 2027, raising resident permits to CHF 380, 560 and 740.",
+      "source_title": "Basel führt grössenabhängige Gebühren für Parkkarten ein",
+      "source_url": "https://www.bs.ch/medienmitteilungen/2024-basel-fuehrt-groessenabhaengige-gebuehren-fuer-parkkarten-ein",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2025-01",
+      "text": "Under the same reform, effective 1 January 2025, fixed parking-meter zones were replaced by rates set for each meter by location, nearby uses and occupancy, at four levels from CHF 1 to 4 per hour. The maximum rose from CHF 3 to 4 per hour at busy locations such as the Birsig car park and Claragraben.",
+      "source_title": "Basel führt grössenabhängige Gebühren für Parkkarten ein",
+      "source_url": "https://www.bs.ch/medienmitteilungen/2024-basel-fuehrt-groessenabhaengige-gebuehren-fuer-parkkarten-ein",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2025-01",
+      "text": "From 1 January 2025 Switzerland cut the duty-free allowance for goods bought abroad from CHF 300 to CHF 150 per person per day, a measure aimed at cross-border shopping.",
+      "source_title": "Wertfreigrenze im Reiseverkehr wird auf 150 Franken pro Person gesenkt",
+      "source_url": "https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen.msg-id-102814.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2024-12",
+      "text": "The municipality of Basel bought the Horburg garage in Kleinbasel from Novartis, which had used it for its staff, in December 2024. After safety and upgrade works, one of its three sections was due to open to long-term renters from the second quarter of 2026.",
+      "source_title": "Anzug Salome Bessenich und Konsorten betreffend «Nutzung des Horburg-Parkings als Quartierparking» (24.5032.02)",
+      "source_url": "https://grosserrat.bs.ch/dokumente/100411/000000411908.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-07",
+      "text": "The transport department reported that from November 2022 to November 2024 the real net loss of street parking was about 350 spaces, while about 2,000 private spaces were built in 35 new buildings. A first pilot letting office garage spaces also be used by residents was expected from September 2025, with spaces bookable through the apps Share-P and Parcandi.",
+      "source_title": "In Basel stehen insgesamt mehr Parkplätze zur Verfügung",
+      "source_url": "https://www.bs.ch/medienmitteilungen/bvd/2025-basel-stehen-insgesamt-mehr-parkplaetze-zur-verfuegung",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-10",
+      "text": "The government set out plans to move street parking into neighbourhood garages (Quartierparkings): in Kleinbasel by partly converting the Novartis Klybeck garage and building one in the planned Messehalle 3 redevelopment, with further need identified in Gundeldingen/Dreispitz and around Colmarerstrasse. The Mobility Fund may pay up to 40% of construction costs, and prices are meant to follow market rates for private parking.",
+      "source_title": "Regierungsrat will Entwicklung von Quartierparkings vorantreiben",
+      "source_url": "https://www.bs.ch/medienmitteilungen/2025-regierungsrat-will-entwicklung-von-quartierparkings-vorantreiben",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-10",
+      "text": "A committee report on a TCS petition against the 2025 permit fees records the transport department's figures: street parking fell by about 2,000 to about 26,000 spaces between 2015 and 2024, compared with about 80,000 spaces on private land including public garages. The department expected about 2,000 fewer resident permits by the end of 2025 than a year earlier. The petitioners noted that the federal Price Supervisor had recommended a maximum of CHF 322 a year.",
+      "source_title": "Bericht der Petitionskommission zur Petition P492 «Keine Gebührenwillkür in BS! Nein zu überhöhten Parkkartengebühren»",
+      "source_url": "https://grosserrat.bs.ch/dokumente/100411/000000411086.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2025-06",
+      "text": "Art Basel's June 2025 fair at Messe Basel drew 88,000 visitors across preview and public days, with 289 galleries from 42 countries and territories.",
+      "source_title": "Art Basel's 2025 edition concludes on a high note",
+      "source_url": "https://www.artbasel.com/stories/art-basel-s-55th-edition-concludes-on-a-high-note?lang=de",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-06",
+      "text": "According to the news agency SDA, Art Basel 2026 drew about 90,000 visitors from 103 countries, with 290 galleries from 43 countries.",
+      "source_title": "Art Basel 2026 zog 90'000 Besucherinnen und Besucher an",
+      "source_url": "https://www.suedostschweiz.ch/schweiz-und-welt/art-basel-2026-zog-90000-besucherinnen-und-besucher-an-2-1934116",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2026-07",
+      "text": "The canton's garage page lists eight cantonal garages with about 4,300 spaces (City, Elisabethen, Steinen, St. Jakob, Storchen, ELYS, U70 and Horburg). Five of them have 22 kW chargers run with IWB and Swisscharge: City 8, Elisabethen 7, Steinen 6, St. Jakob 2 and Storchen 1.",
+      "source_title": "Parkhäuser Basel-Stadt | Kanton Basel-Stadt",
+      "source_url": "https://www.bs.ch/fd/ibs/parkhaeuser",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "Price changes at private operators (Aeschen Parking, Parkhaus Anfos, Parkhaus Badischer Bahnhof, Parking.ch/Messe garages) 2019-2026: no dated source found.",
+    "Whether the 2019 evening-rate cut at City/Steinen/Elisabethen was extended after its two-year trial: not confirmed (the canton's published tariff PDF still shows the 2017 19:00 evening start).",
+    "Ticketless/number-plate entry (e.g. TWINT plate recognition at Parking.ch garages): seen on operator pages but with no date of introduction.",
+    "Changes to the Parkleitsystem (PPS) or new garages joining it after 2017: no source found for 2019-2026.",
+    "Park-and-ride and cross-border commuter parking measures: no dated primary source found.",
+    "Verkehrskonzept Innenstadt: sources found date from 2011-2015; no 2019-2026 changes sourced.",
+    "City-centre footfall, retail closures and remote-work effects on visits to Basel: no dated, citable figures found.",
+    "Progress of the IWB public charging rollout (actual charge-point count by 2026) and private-garage charging numbers: not sourced.",
+    "Whether the 2027 resident-permit increase will go ahead as announced: unresolved in the sources seen (petition report dated October 2025)."
+  ]
+}

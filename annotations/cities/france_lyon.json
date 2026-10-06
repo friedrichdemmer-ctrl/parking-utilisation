@@ -1,0 +1,171 @@
+{
+ "country": "France",
+ "city": "Lyon",
+ "researched": "2026-10-06",
+ "verified": "2026-10-06",
+ "summary": "A limited-traffic zone and new traffic plan were set to take effect in Lyon's Presqu'île from 21 June 2025, and the Métropole's low-emission zone has barred Crit'Air 3 cars since 1 January 2025. In June 2026 the Métropole reported that hourly use of Presqu'île car parks had fallen by nearly 20% in just over two years while hourly tariffs had risen 31% since 2019, and LPA Mobilités froze prices at 13 central car parks from 1 August 2026. LPA has also added EV charge points, bike parking and, at Terreaux, ticketless entry by number-plate recognition.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2025-06-21",
+   "text": "The Métropole, the City and SYTRAL Mobilités announced a limited-traffic zone (ZTL) and a new traffic plan for the Presqu'île from 21 June 2025. Access is restricted to permanent and occasional authorised users, with bollards lowered 6:00-13:00 and raised 13:00-6:00. The perimeter was drawn to keep access to the 18 car parks in and around the Presqu'île, which hold nearly 10,000 spaces.",
+   "source_title": "Zone à trafic limité en Presqu'île : le point sur les prochaines étapes",
+   "source_url": "https://grandlyon.com/fileadmin/user_upload/media/pdf/espace-presse/cp/2025/20250415_cp_ztl-presquile-prochaines-etapes.pdf",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-02",
+   "text": "According to the Métropole's ZFE leaflet, cars and motorised two-wheelers rated Crit'Air 5 or unclassified have been banned in the low-emission zone since 1 January 2023, Crit'Air 4 since 1 January 2024 and Crit'Air 3 since 1 January 2025. The ban covers both driving and parking inside the zone.",
+   "source_title": "Zone à Faibles Émissions : la Métropole vous accompagne",
+   "source_url": "https://zfe.grandlyon.com/app/uploads/2025/02/ZFE_PART_web_FEVRIER25.pdf",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-01",
+   "text": "The City of Lyon announced that residents' on-street parking would be priced by vehicle weight and engine type in three tiers: 15, 30 and 45 euros a month, replacing the previous 20-euro rate. The plan was due to start in June 2024, subject to a council vote in March.",
+   "source_title": "Lyon : nouvelle tarification du stationnement \"plus juste et plus progressive\"",
+   "source_url": "https://www.lyonmag.com/article/134345/lyon-nouvelle-tarification-du-stationnement-plus-juste-et-plus-progressive",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-06-09",
+   "text": "The Métropole said hourly use of car parks in the wider Presqu'île fell by nearly 20% in just over two years, with the decline steepening from September 2024 during major roadworks and again after the ZTL was introduced. It also said tariffs had risen sharply: 31% for hourly parking since 2019, 26% for resident subscriptions and 30% for unlimited subscriptions.",
+   "source_title": "Mobilités : la Métropole de Lyon engage un plan d'action pour rééquilibrer les usages, restaurer la fluidité et améliorer la qualité de vie",
+   "source_url": "https://www.grandlyon.com/fileadmin/user_upload/media/pdf/espace-presse/cp/2026/20260609_cp_plan_action_mobilites.pdf",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-02",
+   "text": "In the Métropole's February 2026 Presqu'île monitoring survey, 67% of residents who had noticed changes in the previous six months said the impact was negative. 26% said they came to the Presqu'île less often.",
+   "source_title": "Mobilités : la Métropole de Lyon engage un plan d'action pour rééquilibrer les usages, restaurer la fluidité et améliorer la qualité de vie",
+   "source_url": "https://www.grandlyon.com/fileadmin/user_upload/media/pdf/espace-presse/cp/2026/20260609_cp_plan_action_mobilites.pdf",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-08-01",
+   "text": "From 1 August 2026, LPA Mobilités froze hourly and subscription prices at 13 car parks, following guidance from the Métropole. They are the ten Presqu'île car parks (Bourse, Hôtel de Ville, République, Perrache, Terreaux, Célestins, Antonin Poncet, Cordeliers, Saint-Antoine, Grolée) plus Saint-Jean, Saint-Georges and Morand.",
+   "source_title": "Gel des tarifs des parkings : LPA Mobilités adapte sa politique tarifaire pour accompagner les enjeux du territoire",
+   "source_url": "https://www.lpa.fr/wp-content/uploads/2026/08/LPA-CP-gel-des-tarifs_20260720.pdf",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-07",
+   "text": "Lyon Capitale reported that the new Métropole executive froze an annual 6% rise in LPA car-park prices. The previous majority had voted the rise through to 2032, and the next step was due on 1 August.",
+   "source_title": "Rue Grenette, ZTL : 100 jours après l'arrivée de Véronique Sarselli à la Métropole de Lyon, un premier bilan et des annonces",
+   "source_url": "https://www.lyoncapitale.fr/actualite/rue-grenette-ztl-100-jours-apres-larrivee-de-veronique-sarselli-a-la-metropole-de-lyon-un-premier-bilan-et-des-annonces",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-07",
+   "text": "The Métropole proposed two new ZTL formats: weekday nights (Monday to Thursday, 19:00-5:00) and weekends (Friday 15:00 to Monday 5:00). It also targeted September 2026 for reopening rue Grenette to traffic, with several scenarios still under study.",
+   "source_title": "Rue Grenette, ZTL : 100 jours après l'arrivée de Véronique Sarselli à la Métropole de Lyon, un premier bilan et des annonces",
+   "source_url": "https://www.lyoncapitale.fr/actualite/rue-grenette-ztl-100-jours-apres-larrivee-de-veronique-sarselli-a-la-metropole-de-lyon-un-premier-bilan-et-des-annonces",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-06",
+   "text": "Emmanuel Hamelin, a vice-president of the Métropole, was elected president of the mixed-economy company (SEM) Lyon Parc Auto for a six-year term.",
+   "source_title": "Lyon : Emmanuel Hamelin élu président de Lyon Parc Auto pour six ans",
+   "source_url": "https://www.lyonmag.com/article/152372/lyon-emmanuel-hamelin-elu-president-de-lyon-parc-auto-pour-six-ans",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-07",
+   "text": "LPA Mobilités operates car parks for the Métropole under public-service delegation contracts. It reported 38 car parks, 22 park-and-ride sites, nearly 400 EV charge points, 50,000 on-street spaces, 6,700 secure bike spaces, 270 staff and 86.2 million euros of revenue in 2025.",
+   "source_title": "Gel des tarifs des parkings : LPA Mobilités adapte sa politique tarifaire pour accompagner les enjeux du territoire",
+   "source_url": "https://www.lpa.fr/wp-content/uploads/2026/08/LPA-CP-gel-des-tarifs_20260720.pdf",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-09-02",
+   "text": "Terreaux car park reopened after a four-month, 4.5-million-euro renovation funded by the Métropole. LPA said it was the first public car park in Lyon with ticketless entry by number-plate recognition, a system built with Hitachi Rail and switched on gradually. It also has per-space guidance lights, 40 EV charge points (14 at 22 kW) and 537 bike spaces.",
+   "source_title": "Réouverture du parc de stationnement Terreaux modernisé avec des nouveaux services le 2 septembre 2025",
+   "source_url": "https://www.lpa.fr/wp-content/uploads/2025/09/2025_CP_reouverture-Terreaux_VF.pdf",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2022-02",
+   "text": "LPA announced a six-year, 122-million-euro investment plan to diversify beyond parking, including doubling its EV charge points from 160 to 300 by the end of 2022 and expanding bike parking and car-sharing.",
+   "source_title": "LPA diversifie ses activités pour une \"Métropole décarbonée\"",
+   "source_url": "https://www.lyonmag.com/article/120836/lpa-diversifie-ses-activites-pour-une-metropole-decarbonee",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-12-02",
+   "text": "Indigo said its single-level Bellecour car park, opened in 1967, had been extended over a former service-station area. The extension added a closed bike park for 100 bikes and three EV charge points.",
+   "source_title": "Le Parking INDIGO Bellecour accueille les mobilités douces",
+   "source_url": "https://www.group-indigo.com/wp-content/uploads/2024/11/CP-BELLECOUR-VF.pdf",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024",
+   "text": "ONLYLYON Tourisme et Congrès reported 9.56 million commercial overnight stays in the metropolis in 2024, with annual hotel occupancy of 71.1%. It described 2024 as a return to pre-2020 levels.",
+   "source_title": "Chiffres clés du tourisme 2024",
+   "source_url": "https://presse.lyon-france.com/content/download/45668/998518?version=1",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024",
+   "text": "Lyon Capitale reported that the TCL public-transport network carried more than 519 million trips in 2024, a record.",
+   "source_title": "Métropole de Lyon : la délinquance dans les transports reste élevée malgré un recul",
+   "source_url": "https://www.lyoncapitale.fr/?p=461734",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "On-street visitor (hourly) parking price changes 2019-2026: no clear primary source found",
+  "Park-and-ride (parcs relais TCL) tariff or access-rule changes: not sourced",
+  "Changes at Effia and Q-Park car parks in Lyon: nothing found",
+  "LPA quarter-hour pricing: only pre-2019 sources found (2015 Hamon law), so left out",
+  "Dynamic pricing, LPA app payment and reservation launch dates: not sourced",
+  "Measured Presqu'île retail turnover or footfall (CCI study page returned 403)",
+  "Remote-work effects on centre visits in Lyon: not sourced",
+  "Number of on-street spaces removed in Lyon: not sourced",
+  "Whether national moves to abolish ZFEs changed Lyon's zone after 2025: the Métropole site says the rules are still in force but gives no detail"
+ ],
+ "dropped": {}
+}

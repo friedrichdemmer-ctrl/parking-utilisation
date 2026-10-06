@@ -224,8 +224,10 @@ def build(country: str, city: str, util_garages: list[dict], trends: dict | None
 
     ev_vals = list(ev.values())
     return {
-        "country": country, "city": city, "currency": comp[0]["currency"] if comp else "EUR",
+        "country": country, "city": city,
+        "currency": comp[0]["currency"] if comp else next((p["currency"] for g in measured if (p := prices.get(g["id"])) and p.get("currency")), "EUR"),
         "garages": len(comp) or len(measured), "spaces": sum(r["spaces"] for r in rows.values()),
+        "research_set": bool(comp),
         "measured": len(measured),
         "operators": operators,
         "price_occupancy": {"r": _pearson(xs, ys), "n": len(xs)},

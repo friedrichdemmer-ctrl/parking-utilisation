@@ -793,7 +793,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
       ops.map(o => `<tr><td>${esc(o.operator)}</td><td class="r num">${fmt(o.garages)}</td><td class="r num">${o.spaces ? fmt(o.spaces) : "n/p"}</td><td class="r num">${o.spaces ? o.share_of_spaces + "%" : "–"}</td>
         <td class="r num">${money2(o.median_rate)}</td><td class="r num">${money2(o.median_day_ticket)}</td><td class="r num">${o.ev_known ? `${o.ev} of ${o.garages}` : "–"}</td>
         <td class="r num">${o.weekday_occupancy != null ? `<span class="opbar" style="width:${Math.round(o.weekday_occupancy / maxOcc * 60)}px"></span>${o.weekday_occupancy}% <span class="muted">(${o.measured})</span>` : "–"}</td></tr>`).join("") + `</tbody></table></div>
-      <p class="note">Garages, spaces, prices and EV charging cover every garage in our research set for ${esc(city)}; "n/p" means the operator publishes no capacity. *Occupancy covers only the ${b.measured} garages we measure; the figure in brackets is how many.</p>`;
+      <p class="note">${b.research_set ? `Garages, spaces, prices and EV charging cover every garage in our research set for ${esc(city)}; "n/p" means the operator publishes no capacity. *Occupancy covers only the ${b.measured} garages we measure; the figure in brackets is how many.` : `The table covers the ${b.measured} garages we measure in ${esc(city)}; other garages in the city are not included. *The figure in brackets is how many garages the occupancy covers.`}</p>`;
     let html;
     if (nar) {
       // number the sources in order of first citation; [3] in the text is the item with id 3

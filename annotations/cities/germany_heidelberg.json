@@ -1,0 +1,184 @@
+{
+ "country": "Germany",
+ "city": "Heidelberg",
+ "researched": "2026-10-06",
+ "verified": "2026-10-06",
+ "summary": "In December 2019 Heidelberg's council approved staged on-street parking charge increases to 3 euros per hour from 2022, and the residents' permit fee was kept at 120 euros in 2023, temporarily proposed to fall to 36 euros after a 2023 federal court ruling, set at 120 euros again from 2024 and scheduled to rise in steps to 2028. Stadtwerke Heidelberg Garagen broke ground on Parkhaus hip in 2020, operates the barrier-free P19 garage at Campbell Barracks opened in 2022 and the Europaplatz garage opened in 2024, and in July 2025 the council approved round-the-clock paid parking in the Bahnstadt. Other dated changes include upgrades to the online parking guidance portal in 2024, bus and tram service cuts from June 2025 and an overnight tax from October 2025.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2019-12",
+   "text": "The city council approved staged increases of on-street parking charges: from 1.50 euros per hour to 2.10 euros in 2020 and 3.00 euros from 2022, framed as part of the city's climate action plan.",
+   "source_title": "Heidelberg: Parkgebühren verdoppelt! Warum Du bald mehr zahlen musst",
+   "source_url": "https://www.heidelberg24.de/heidelberg/heidelberg-parkgebuehr-drastisch-erhoeht-viel-zahlst-zukunft-13356809.html",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2020-01-16",
+   "text": "Construction began on Stadtwerke Heidelberg Garagen's 'Parkhaus hip' on the former Patton Barracks site, planned with 672 car spaces and 750 bicycle spaces, an opening targeted for Q2 2021, and initially 20 EV charging stations expandable to 120.",
+   "source_title": "22.01.2020 Spatenstich zum Parkhaus hip",
+   "source_url": "https://www.heidelberg.de/Konversion/Startseite+Konversion/Presse/22_01_2020+spatenstich+zum+parkhaus+hip.html",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2022-10-28",
+   "text": "Neighbourhood garage P19 at Campbell Barracks (Rohrbach), with 365 spaces and run by Stadtwerke Heidelberg Garagen, opened with a barrier-free 'Free Flow' system that records number plates by camera; it also has a 230 kW rooftop solar installation and six EV charging stations.",
+   "source_title": "Solar-Parkhaus in Heidelberg eröffnet – darum braucht es keine Schranken",
+   "source_url": "https://www.heidelberg24.de/heidelberg/photovoltaik-solar-parkhaus-rohrbach-keine-schranken-free-flow-campbell-barracks-krausgruppe-stadtwerke-91885681.html",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2022-12",
+   "text": "Heidelberg had 228 registered public charging points in December 2022; the city, together with Stadtwerke Heidelberg, aimed to provide charging in about 80 percent of residential 500 m grid squares by 2025.",
+   "source_title": "Heidelberg baut Ladeinfrastruktur aus",
+   "source_url": "https://www.elektroauto-news.net/news/heidelberg-baut-ladeinfrastruktur-aus",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-12-15",
+   "text": "The council decided on 15 December 2022 to keep the residents' permit fee at 120 euros a year for 2023, with Heidelberg-Pass holders paying 36 euros; the administration said a further rise to 240 euros, as originally planned, was not advisable given economic uncertainty and the energy price crisis.",
+   "source_title": "16.12.2022 Gebühr für Bewohnerparkausweise wird im Jahr 2023 nicht erhöht",
+   "source_url": "https://www.heidelberg.de/7071_34581_34997_35029_213755_520295_2106666_2268772_2273634.html",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-07",
+   "text": "After a Federal Administrative Court ruling of 13 June 2023 on Freiburg's permit fees, the city proposed temporarily cutting Heidelberg's residents' permit fee for everyone from 120 to 36 euros a year until a new legal ordinance was in place, with a council vote scheduled for 20 July 2023.",
+   "source_title": "Bewohnerparken: Gerichtsurteil macht neue Rechtsverordnung notwendig",
+   "source_url": "https://www.heidelberg.de/HD/Presse/10_07_2023+bewohnerparken_+gerichtsurteil+macht+neue+rechtsverordnung+notwendig.html",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-01-01",
+   "text": "The residents' permit fee returned to 120 euros a year from 1 January 2024, with Heidelberg-Pass holders paying 36 euros and the city covering the difference, following a unanimous council decision on 14 December 2023.",
+   "source_title": "Bewohnerparken in Heidelberg 2024 wieder teurer – wer trotzdem weniger zahlt",
+   "source_url": "https://www.heidelberg24.de/heidelberg/bewohnerparken-januar2024-wieder-teurer-120-rechtsverordnung-92731023.html",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-02-01",
+   "text": "On 1 February 2024 the council approved a revised Altstadt traffic-management and calming concept, agreeing to keep pursuing a plan for currently 17 envisaged bollard locations to restrict vehicle entry to the pedestrian zone; extending the zone to Theaterstraße and part of Neckarstaden is planned through a separate procedure.",
+   "source_title": "02.02.2024 Altstadt: Gemeinderat stimmt für überarbeitetes Verkehrslenkungs- und -beruhigungskonzept",
+   "source_url": "https://www.heidelberg.de/7071_34581_34997_35029_213755_316535_407657_2473112_2497689_2497375.html",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2024-08-02",
+   "text": "The city added features to its online parking guidance portal (parken.heidelberg.de), including a forecast of free spaces at the user's arrival time and filters such as EV charging, 24-hour opening and clearance height; new garages such as those at the HCC and Europaplatz were to be integrated soon.",
+   "source_title": "Einfacher parken in Heidelberg: Neue Funktionen im Online-Parkleitsystem",
+   "source_url": "https://www.heidelberg.de/HD/Presse/02_08_2024+einfacher+parken+in+heidelberg_+neue+funktionen+im+online-parkleitsystem.html",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-09-13",
+   "text": "An underground garage at the new Europaplatz by the main station opened with space for about 750 cars, of which about 162 spaces are public; it is operated by Stadtwerke Heidelberg Garagen GmbH.",
+   "source_title": "Städtebau: Europaplatz zwischen Hauptbahnhof und Congress Center ist eröffnet",
+   "source_url": "https://www.heidelberg.de/Bahnstadt/16_09_2024+staedtebau_+europaplatz+zwischen+hauptbahnhof+und+congress+center+ist+eroeffnet.html",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-01-01",
+   "text": "Q-Park took over operation of a centrally located parking facility in Heidelberg (not named in the source), using number-plate recognition for ticketless entry and exit and its own app.",
+   "source_title": "Q-Park Starts in Heidelberg: Innovation and Convenience in Parking Space Management",
+   "source_url": "https://www.parking.net/parking-news/q-park/q-park-starts-in-heidelberg",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-01-22",
+   "text": "The city reported 22 EV charging stations in the Bahnstadt, 10 operated by Stadtwerke Heidelberg and 12 by private providers, and said it intended to add more as part of the parking management planned for 2025.",
+   "source_title": "22 E-Auto-Ladesäulen in der Bahnstadt",
+   "source_url": "https://www.heidelberg.de/Bahnstadt/22_01_2025+22+e-auto-ladesaeulen+in+der+bahnstadt.html",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-06-23",
+   "text": "As part of municipal savings, bus line 32 was discontinued and tram line 24 reduced in evenings and at weekends from 23 June 2025; the city reported in October 2025 that the remaining lines could handle demand.",
+   "source_title": "ÖPNV in Heidelberg: Stadt stellt Ergebnisse zu Linienkürzungen und Fahrplananpassungen vor",
+   "source_url": "https://www.heidelberg.de/7071_33301_34293_34309_5757219_5757060.html",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-07-24",
+   "text": "The council approved paid parking on all public street spaces in the Bahnstadt, around the clock including weekends: 20 minutes free, 1 euro per 20 minutes for up to 2 hours, 15 euros per 24 hours and a digital 150-euro 30-day ticket; no residents' permits are issued there.",
+   "source_title": "25.07.2025 Parkraumbewirtschaftung in der Bahnstadt beschlossen – Umsetzung startet zeitnah",
+   "source_url": "https://www.heidelberg.de/7071_34581_34869_284696_1219308_5718433_5717980.html",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-10-01",
+   "text": "A May 2026 overview reported on-street parking at 3 euros per hour, including in the centre, and 2.50 euros for the first hour in Stadtwerke Garagen car parks; it said the residents' permit fee was 120 euros a year and that the council had decided a fee increase at the end of 2025 which the administration was still implementing.",
+   "source_title": "„City Tax“: Heidelberg führt zum 1. Oktober eine Übernachtungsteuer ein",
+   "source_url": "https://www.heidelberg.de/7071_35285_35413_35429_5586786_5690565_5692259_5691463.html",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026",
+   "text": "Under the current ordinance, a residents' permit costs 120 euros in 2026 when applied for or renewed digitally and 135 euros in person, rising to 125/140 euros from 1 January 2027 and 130/145 euros from 1 January 2028; visitor-card blocks cost 15 euros each for the first five and 35 euros from the sixth.",
+   "source_title": "Das kostet das Parken in den Städten im Südwesten",
+   "source_url": "https://www.schwaebische.de/regional/baden-wuerttemberg/das-kostet-das-parken-in-den-staedten-im-suedwesten-4579850",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "Dated changes to Stadtwerke Heidelberg Garagen garage tariffs (only a 2026 snapshot of the first-hour price was found).",
+  "Details and in-force date of the on-street fee increase the council reportedly decided at the end of 2025; no primary source found.",
+  "Actual opening date of Parkhaus hip (Patton Barracks); only the groundbreaking and planned opening were sourced.",
+  "Name of the garage Q-Park took over in January 2025 and its previous operator.",
+  "Any PBW or E.B. Parkgaragen changes in Heidelberg.",
+  "Charge-point counts inside individual central garages, and city-wide totals after 2022.",
+  "Whether the 17 Altstadt bollards have been installed and when access rules took effect.",
+  "Heidelberg-specific Deutschlandticket ridership, retail footfall, university enrolment or remote-work effects.",
+  "New park-and-ride capacity (the 2035 mobility/climate plan only proposes more P+R and was still a draft in March 2025).",
+  "Dynamic pricing or reservation in Heidelberg garages."
+ ],
+ "dropped": {
+  "unchecked": 1
+ }
+}
