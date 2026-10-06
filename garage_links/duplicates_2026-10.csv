@@ -53,3 +53,6 @@ wiesbaden-parken-Kurhaus-Casino,ffh-parken-wiesbaden-Kurhaus-Casino,duplicate,sa
 wiesbaden-parken-Luisenforum,ffh-parken-wiesbaden-Luisenforum,duplicate,same free counts: correlation 1.0 over 897 paired readings (mean abs occupancy diff 0.003)
 wiesbaden-parken-Luisenplatz,ffh-parken-wiesbaden-Luisenplatz,duplicate,same free counts: correlation 0.996 over 754 paired readings (mean abs occupancy diff 0.006)
 wiesbaden-parken-Markt,ffh-parken-wiesbaden-Markt,duplicate,same free counts: correlation 0.999 over 806 paired readings (mean abs occupancy diff 0.007)
+ffh-parken-mannheim-Hbf-P1,parken-mannheim-Hauptbahnhof-P1-Tiefgarage,duplicate,identical free counts: correlation 1.000 over ~2438 paired readings since 2026-08-01 (mean abs occupancy diff 0.0)
+ffh-parken-mannheim-Hbf-P2,parken-mannheim-Hauptbahnhof-P2-Parkhaus,duplicate,identical free counts: correlation 1.000 over ~2438 paired readings since 2026-08-01 (mean abs occupancy diff 0.0)
+ffh-parken-mannheim-D5-Reiss-Museum,parken-mannheim-D5-Reiss-Museum-Tiefgarage,duplicate,identical free counts: correlation 1.000 over ~2438 paired readings since 2026-08-01 (mean abs occupancy diff 0.0)

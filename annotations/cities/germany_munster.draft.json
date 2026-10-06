@@ -1,0 +1,153 @@
+{
+  "country": "Germany",
+  "city": "Münster",
+  "researched": "2026-10-06",
+  "summary": "Münster's council set a goal in 2019 to become climate-neutral, ideally by 2030, and in June 2024 adopted an Integrated Parking Concept meant to make street parking dearer than garage parking; surface parking was given up on the Domplatz and further removals in Altstadt streets were proposed in 2026. WBI raised garage charges in January 2022 and again from January 2026, alongside higher on-street fees, and from April 2026 began converting its garages to ticketless licence-plate entry. Other context includes a Saturday park-and-ride offer at Coesfelder Kreuz from March 2025, a relaunched Parkleitsystem website in May 2025, and bus subscriptions above 60,000 driven largely by the Deutschlandticket.",
+  "items": [
+    {
+      "topic": "regulation",
+      "date": "2019-12-11",
+      "text": "The city council committed Münster to becoming climate-neutral soon, ideally by 2030, and sharply increased the climate-protection budget. The newsletter notes the target is a non-binding declaration of intent.",
+      "source_title": "MS Klimainfo 2020 01",
+      "source_url": "https://www.stadt-muenster.de/fileadmin//user_upload/stadt-muenster/67_klima/pdf/MS-Klimainfo_2020-01.pdf",
+      "confidence": "medium"
+    },
+    {
+      "topic": "technology",
+      "date": "2020",
+      "text": "According to a city report, since 2020 on-street parking at Münster's ticket machines can also be paid by smartphone through a framework contract with the smartparking platform, letting drivers choose among seven parking apps; the machines remain in service.",
+      "source_title": "V/0552/2024 Neue Bewohnerparkzonen (Öffentliche Berichtsvorlage)",
+      "source_url": "https://oparl.stadt-muenster.de/bodies/0001/downloadfiles/00555433.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2021-11-16",
+      "text": "A city proposal asked that WBI take over operation of a new bike station with over 2,000 spaces in the Hansator building east of the main station, with operation planned from July 2022. It referred to a possible further bike garage in a converted Parkhaus Bremer Platz in 2025, as part of a planned 'Mobility Hub' project.",
+      "source_title": "V/0830/2021 Einrichtung und Betrieb einer neuen Radstation auf der Ostseite des Hauptbahnhofs",
+      "source_url": "https://oparl.stadt-muenster.de/bodies/0001/downloadfiles/00494694.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2022-01-01",
+      "text": "WBI raised parking charges in its garages across the city on 1 January 2022. A city proposal then aimed to bring on-street meter fees into line with the new garage charges.",
+      "source_title": "Anlage A zur V/0194/2022 – Kurzüberblick: 5. Parkgebührenänderungsordnung",
+      "source_url": "https://oparl.stadt-muenster.de/bodies/0001/downloadfiles/00503966.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2022-12",
+      "text": "The city council decided to give up the two parking areas on the Domplatz. From October 2023 the former car park on the square's west side has been used as public seating and recreation space.",
+      "source_title": "Domplatz-Oase | Stadt Münster",
+      "source_url": "https://www.stadt-muenster.de/muenstersmittemachen/domplatz-oase",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2024-02",
+      "text": "A new fee ordinance, approved by the council on 13 December 2023, set the resident parking permit at 260 euros a year; a later city report says it has applied since February 2024.",
+      "source_title": "FAQ Bewohnerparken",
+      "source_url": "https://www.stadt-muenster.de/buergerservice/parken/bewohnerparkausweis/faq-bewohnerparken",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2024-06-19",
+      "text": "The council adopted, with amendments, an Integrated Parking Concept covering the city centre, the station area and nearby districts; new residents' parking zones are a core element. The city later described the concept's aim as making street parking more expensive than garage parking.",
+      "source_title": "V/0552/2024 Neue Bewohnerparkzonen (Öffentliche Berichtsvorlage)",
+      "source_url": "https://oparl.stadt-muenster.de/bodies/0001/downloadfiles/00555433.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2024-12-03",
+      "text": "A local news site reported that a proposal presented to WBI's supervisory board would raise prices in central garages such as Aegidiimarkt, Theater and Münster-Arkaden (first hour from 2.50 to 3.00 euros) from September 2025. It said the proposal was not yet final; a city release of December 2025 still lists the old 2.50 euro first hour as the price before January 2026.",
+      "source_title": "Erhöhung der Parkgebühren in Münsters City-Parkhäusern geplant",
+      "source_url": "https://ms-aktuell.de/?p=48292",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-03-22",
+      "text": "The roughly 1,000-space Coesfelder Kreuz garage began opening as a park-and-ride site on every Saturday, for a two-year trial. A 5-euro day ticket also covers bus travel to the centre for up to five people; previously this applied only on Advent Saturdays.",
+      "source_title": "Park+Ride: Parkhaus Coesfelder Kreuz öffnet an allen Samstagen | Stadt Münster",
+      "source_url": "https://www.stadt-muenster.de/aktuelles/newsdetail/park-ride-parkhaus-coesfelder-kreuz-oeffnet-an-allen-samstagen",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2025-05-07",
+      "text": "The city launched a new website for its Parkleitsystem (parking guidance system) covering 19 facilities. It shows free spaces and open/closed status, updated every minute, along with prices, opening hours and EV charging details.",
+      "source_title": "Parkleitsystem hat neuen Web-Auftritt | Stadt Münster",
+      "source_url": "https://www.stadt-muenster.de/aktuelles/newsdetail/neue-webseite-parkleitsystem",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2025-05-16",
+      "text": "The city reported about 50 new public charging points installed in recent weeks, mostly at street locations, with about 50 more planned by the end of June 2025. Registered battery-electric cars in Münster rose about 19% in a year to 7,122. The release does not mention WBI garages.",
+      "source_title": "Neue Ladepunkte für Elektrofahrzeuge | Stadt Münster",
+      "source_url": "https://www.stadt-muenster.de/aktuelles/newsdetail/50-neue-ladepunkte-fuer-elektrofahrzeuge-errichtet",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2025-08-15",
+      "text": "For the 'Münster Mittendrin' city festival (15-17 August 2025), Prinzipalmarkt, Klemensstraße and the Drubbel were closed to traffic from 14 to 18 August. Municipal garages kept normal hours, and Coesfelder Kreuz ran as a park-and-ride site on the Saturday.",
+      "source_title": "„Münster Mittendrin“ macht Altstadt zur autofreien Zone",
+      "source_url": "https://www.stadt-muenster.de/aktuelles/newsdetail/muenster-mittendrin-macht-altstadt-zur-autofreien-zone",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-01-01",
+      "text": "The council approved higher parking charges from 1 January 2026, decided on 10 December 2025. In the expanded central street zone the hourly rate rises from 2.50 to 3.50 euros. In WBI garages the first hour rises from 2.50 to 3.00 euros and each further hour from 2.00 to 2.50 euros; Coesfelder Kreuz, Stadthaus 3 and Cineplex are excluded. The previous fee increase was on 1 May 2022.",
+      "source_title": "Rat beschließt höhere Parkgebühren in Münster",
+      "source_url": "https://www.stadt-muenster.de/aktuelles/newsdetail/rat-beschliesst-hoehere-parkgebuehren",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2025-12",
+      "text": "Laser pedestrian counters installed by hystreet with Münster's economic development agency recorded about 85,000 people each on Prinzipalmarkt and Ludgeristraße on the first Advent weekend. On a busy mid-December Saturday, Ludgeristraße counted about 88,000 people and Prinzipalmarkt about 80,000.",
+      "source_title": "Laser misst den Puls der Innenstadt: Wo in Münster die meisten Menschen unterwegs sind",
+      "source_url": "https://ms-aktuell.de/?p=91666",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-02",
+      "text": "Stadtwerke Münster buses carried 31.9 million passengers in the previous year, and public transport subscriptions passed 60,000, with growth driven largely by the Deutschlandticket.",
+      "source_title": "Große Weichenstellung: Münster organisiert den ÖPNV neu",
+      "source_url": "https://ms-aktuell.de/?p=100032",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-03",
+      "text": "The Münster-Mitte district council was discussing a proposal to remove most street parking on Altstadt streets such as Königsstraße, Alter Steinweg, Drubbel and Spiekerhof. Under the proposal, access would be limited to residents and deliveries and drivers would be directed to existing garages; it was a proposal, not a decision.",
+      "source_title": "Münster treibt Pläne für eine autoärmere Altstadt voran",
+      "source_url": "https://ms-aktuell.de/muenster/muenster-treibt-plaene-fuer-eine/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-04-20",
+      "text": "WBI, which runs eight city-centre garages with about 3,900 spaces, began replacing paper tickets with automatic licence-plate recognition at entry and exit. Work started at the Bahnhofstraße garage, which was closed 20-24 April 2026; cashless payment and lighting and stairwell upgrades are also planned there.",
+      "source_title": "Das Parkticket verschwindet: WBI baut Münsters Parkhäuser um",
+      "source_url": "https://ms-aktuell.de/muenster/das-parkticket-verschwindet-wbi-baut/",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "EV charging inside WBI garages: no primary source (WBI or Stadtwerke) found with charge-point counts or dates; only a 2017 council motion asking for this to be examined and an unreliable-looking listicle.",
+    "Garage openings, closures, demolitions or renovations (Theatergarage, Stubengasse, Bremer Platz): no source confirmed whether the planned Bremer Platz Mobility Hub / bike-garage conversion actually happened, or any WBI garage opening/closure in 2019-2026.",
+    "Whether WBI raised garage prices in September 2025 as proposed: unconfirmed; the December 2025 city release implies the old prices still applied until January 2026.",
+    "Masterplan Mobilität (Münster 2035) content and adoption date: not sourced.",
+    "Dynamic pricing or reservation in WBI garages: nothing found.",
+    "Expansion of residents' parking to Pluggendorf/Erphoviertel and a visitor-permit scheme in 2026: seen only in search snippets, not verified on a source page.",
+    "University enrolment changes, remote work and retail closures in central Münster: no Münster-specific source found (Galeria Münster was reported in April 2024 as not among store closures)."
+  ]
+}

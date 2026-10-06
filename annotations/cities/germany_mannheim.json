@@ -1,0 +1,181 @@
+{
+ "country": "Germany",
+ "city": "Mannheim",
+ "researched": "2026-10-06",
+ "verified": "2026-10-06",
+ "summary": "Mannheim ran a one-year traffic trial from March 2022 that blocked through-traffic on Fressgasse, Kunststrasse and Marktstrasse and turned short-term street parking into public space; it was dismantled by 12 May 2023, after which the council's main committee asked for a new traffic and design concept, and the council adopted the Masterplan Mobilitaet 2035+ as a framework plan in July 2025. Resident permit fees rose in steps to 127.50 EUR a year from 2025, on-street parking in zone 1 has cost 1 EUR per 15 minutes since February 2026, and in April 2026 the municipal operator MPB made the first half hour free in 13 city-centre facilities; MPB also bought the 363-space N7 garage in 2024 and has converted a number of sites to ticketless number-plate entry. Other dated events include the closure of the Kaufhof store in N7 in October 2020, the 2023 Bundesgartenschau, the June 2024 reprieve of the Galeria store at Paradeplatz, and store closures after the March 2025 car ramming in the city centre.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2022-03-11",
+   "text": "A traffic trial from 11 March 2022 blocked through-traffic on Fressgasse (from 11 March) and Kunststrasse (from 4 April) at Paradeplatz, and on Marktstrasse at E1/E2 (from 21 March), turning the short-term street parking spaces on Kunststrasse and Fressgasse into public space. The city said all garages stayed reachable from the ring road and gave about 9,500 spaces in garages and underground car parks.",
+   "source_title": "Broschüre lebenswerte Innenstadt ab März 2022",
+   "source_url": "https://www.mannheim.de/sites/default/files/2022-02/Brosch%c3%bcre%20lebenswerte%20Innenstadt%20ab%20M%c3%a4rz%202022.pdf",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2022-03",
+   "text": "City material for the traffic trial advertised a cheaper tariff for the first half hour in city-centre garages (for example 0.50 EUR in H6 and C5/D5, 1.00 EUR in G1, D3, N1/N2 and N6). The city described this as cheaper than the short-term street spaces had been.",
+   "source_title": "Broschüre lebenswerte Innenstadt ab März 2022",
+   "source_url": "https://www.mannheim.de/sites/default/files/2022-02/Brosch%c3%bcre%20lebenswerte%20Innenstadt%20ab%20M%c3%a4rz%202022.pdf",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-05-12",
+   "text": "The trial was planned for one year from the start, and it was taken down in stages in spring 2023. The last closure, on Fressgasse, was lifted on 12 May 2023. Delivery zones, bicycle parking and restaurant parklets that had replaced street parking were kept. On 13 June 2023 the council's main committee asked the administration to draw up a new traffic and design concept meant to reduce car traffic on Fressgasse and Kunststraße.",
+   "source_title": "Neue Wege. Mehr erleben in der City. Verkehrsversuch und Aufenthaltsqualität | Mannheim.de",
+   "source_url": "https://www.mannheim.de/de/service-bieten/umwelt/stadtraumservice-mannheim/planung-und-bau/abgeschlossene-projekte/lebenswerte-innenstadt",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-05-31",
+   "text": "The city council adopted a new fee bylaw for residents' parking permits, raising the annual fee in steps to 63.75 EUR in 2023, 95.63 EUR in 2024 and 127.50 EUR from 1 January 2025, with lower rates for hardship cases.",
+   "source_title": "Satzung der Stadt Mannheim über Gebühren für Bewohnerparken",
+   "source_url": "https://mannheim.de/sites/default/files/2023-01/s03-07.1.pdf",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-02-01",
+   "text": "An amended on-street parking fee bylaw, adopted by the council on 11 December 2025, took effect on 1 February 2026. It sets 1.00 EUR per started 15 minutes in Zone 1 (the city centre inside the ring and nearby areas) and 0.50 EUR per 15 minutes in Zone 2. That works out to 4 EUR an hour in Zone 1.",
+   "source_title": "Satzung der Stadt Mannheim über Parkgebühren",
+   "source_url": "https://www.mannheim.de/sites/default/files/2026-01/s03-07.pdf",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-04",
+   "text": "New tariffs in 13 MPB garages, underground car parks and lots in the city centre (the Quadrate, Wasserturm and Collini-Center, almost 4,000 spaces) made the first 30 minutes free, with 2 EUR for the first hour. Night parking costs 1 EUR an hour from 21:00 at the latest, or 3 EUR flat until 6:00. The city compared this with 4 EUR an hour for street parking in the centre.",
+   "source_title": "Amtsblatt KW 16 barrierefrei (Amtsblatt der Stadt Mannheim, 16 April 2026)",
+   "source_url": "https://www.mannheim.de/sites/default/files/2026-04/KW%2016_0416-b.pdf",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-08-01",
+   "text": "MPB bought the 363-space garage in square N7, known as the Kaufhof garage, from the Heinrich Vetter Foundation, effective 1 August 2024. MPB said the neighbouring department store had been demolished, and it planned to spend a mid seven-figure sum over four years on renovation and digital parking technology.",
+   "source_title": "Parkhaus im Quadrat N7 wechselt den Besitzer - Parken Mannheim",
+   "source_url": "https://parken-mannheim.de/en/2024/07/19/parkhaus-im-quadrat-n7-wechselt-den-besitzer/",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-12",
+   "text": "The state heritage office's justification, dated 11 December 2024, classes the N2 multi-storey garage (built 1964-1967 with 505 spaces) as a cultural monument.",
+   "source_title": "Liste der Kulturdenkmale in Baden-Wuerttemberg, Teil A1: Begruendung der Denkmaleigenschaft - Parkhaus N 2 (Landesamt fuer Denkmalpflege)",
+   "source_url": "https://rp.baden-wuerttemberg.de/fileadmin/RP-Internet/Stuttgart/_DocumentLibraries/PresseAnhang/2025/250124_Parkhaus_Denkmalbegruendung.pdf",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-10-20",
+   "text": "MPB said several of its sites had been converted to ticketless entry with number-plate recognition, where drivers type in their plate at the pay machine. Converted sites include C1, the D5 and G1 underground car parks, Hauptbahnhof P1-P4, U2, the Klinikum sites and the Messe lots. MPB said its long-term aim is to equip all its sites this way.",
+   "source_title": "Parkhäuser mit Kennzeichenerfassung",
+   "source_url": "https://parken-mannheim.de/2025/10/20/parkhaeuser-mit-kennzeichenerfassung/",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2023-03-15",
+   "text": "The privately run Q6/Q7 underground garage (operator B+B Parkhaus, with MVV handling the charging back end) increased its charging spaces from four to twelve 22 kW points. The release said this was the largest offer in any underground garage in the Quadrate, and that the garage had recently switched to ticketless parking.",
+   "source_title": "Shoppen und E-Auto-Laden in Q 6 Q 7 jetzt besonders bequem (Pressemitteilung, 15.03.2023)",
+   "source_url": "https://www.presseportal.de/download/document/64118221270000fd2c903b60-pm-lades-ulen-a23184812.pdf",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2020-10-15",
+   "text": "The Galeria Karstadt Kaufhof store in N7 closed for good around 15 October 2020, after more than 40 years. On 23 October 2020 the developer Diringer & Scheidel signed a contract to buy the building.",
+   "source_title": "Kaufhof Mannheim: Käufer für N7-Filiale steht fest – was passiert mit dem Gebäude?",
+   "source_url": "https://www.heidelberg24.de/region/mannheim-kaufhof-n7-galeria-karstadt-filiale-geschlossen-mitarbeiter-insolvenz-jobs-gebauede-kaeufer-diringer-scheidel-zr-90004538.html",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-06-07",
+   "text": "The Galeria department store at Paradeplatz had been on the list of stores due to close on 31 August 2024. It was then among six stores that the insolvent chain said could stay open after the building's new owners made an offer.",
+   "source_title": "Rettung in letzter Minute auch für Mannheimer Filiale - Galeria-Kaufhof - DIE RHEINPFALZ",
+   "source_url": "https://www.rheinpfalz.de/wirtschaft_artikel,-rettung-in-letzter-minute-auch-f%C3%BCr-mannheimer-filiale-_arid,5656707.html",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-04-14",
+   "text": "During the Bundesgartenschau (14 April to 8 October 2023, held at Spinelli Park and Luisenpark), drivers were sent to the large P20 lot at the Maimarkt. The lot cost 8.50 EUR a day online, and a park-and-ride shuttle bus ran from there to Spinelli Park. Special tram lines ran from the main station.",
+   "source_title": "Buga Mannheim 2023: Preise, Tickets, Seilbahn - Bundesgartenschau - DIE RHEINPFALZ",
+   "source_url": "https://www.rheinpfalz.de/lokal/ludwigshafen_artikel,-buga-mannheim-2023-die-wichtigsten-besucher-infos-_arid,5463242.html",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2023-10-08",
+   "text": "The Bundesgartenschau ended after 178 days with more than 2.2 million visitors, against about 2.1 million planned. According to the organisers' visitor survey, many visitors also went into the city centre.",
+   "source_title": "Beim „Dialog im Quadrat“ der Mannheimer Runde: Erste BUGA-Bilanz für die treuesten Begleiter - Mannheim",
+   "source_url": "https://www.wochenblatt-reporter.de/mannheim/c-lokales/erste-buga-bilanz-fuer-die-treuesten-begleiter_a503416",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-03-03",
+   "text": "On 3 March 2025 (Rosenmontag), a car was driven into people in the city centre, killing two. Several large department stores, including Galeria at Paradeplatz and Peek & Cloppenburg on the Planken, closed that afternoon or stayed shut the following day.",
+   "source_title": "Bericht: Mannheimer Kaufhäuser bleiben geschlossen",
+   "source_url": "https://fashionunited.de/nachrichten/business/bericht-mannheimer-kaufhauser-bleiben-geschlossen/2025030460499",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-07-01",
+   "text": "The city council adopted the Masterplan Mobilität 2035+ as a framework plan. It has over 100 measures, including more public transport, cycling and better public space, and individual measures still need separate council approval and funding. The council also asked for the plan to be certified as a climate mobility plan by the state.",
+   "source_title": "Amtsblatt der Stadt Mannheim von Donnerstag, 10. Juli 2025 (KW 28)",
+   "source_url": "https://www.mannheim.de/sites/default/files/2025-07/KW%2028_0710-b.pdf",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Measured outcome of the 2022-23 traffic trial (traffic counts, footfall, garage occupancy): the city's May 2023 results presentation and press releases now return 404/403, so no figures are included.",
+  "What the council decided after the trial (the 2024 'Mobilitätskonzept Innenstadt' final-report item 037/2024): not opened, so the outcome is unknown.",
+  "MPB garage tariff changes between 2019 and 2025 (other than the 2022 half-hour offer and the April 2026 tariffs).",
+  "Number of EV charge points in MPB garages for 2019-2026: MPB says MVV runs the chargers in many of its sites but gives no current count; the often-quoted figure of 23 dates from 2017.",
+  "Parkleitsystem (parking guidance) upgrades, dynamic pricing, reservations, and MPB's own app: nothing dated found.",
+  "Future of the listed N2 garage (renovation or replacement plans) and any garage closures or openings besides the N7 purchase.",
+  "Footfall counts for the Planken and Breite Straße (for example hystreet) for Mannheim.",
+  "Effect of the Deutschlandticket, remote work or public-transport changes on city-centre visits in Mannheim specifically.",
+  "Mannheim's climate action plan targets for parking or car traffic."
+ ],
+ "dropped": {}
+}

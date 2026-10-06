@@ -1,0 +1,163 @@
+{
+  "country": "France",
+  "city": "Bordeaux",
+  "researched": "2026-10-06",
+  "summary": "Most of Bordeaux Métropole's public car parks are run by METPARK, the Métropole's own parking authority, which is taking over further sites as private concessions expire. Bordeaux Métropole's mobility reports show non-subscriber use of the METPARK car parks in the city centre falling year after year (-2% in 2024, -3% in 2025), while TBM public-transport use grew. The ZFE low-emission zone came into force in January 2025 and Bordeaux has changed on-street pricing several times: a surcharge for heavy cars from May 2025, then from August 2026 a single paid zone, 30 free minutes a day and 2 free weekend hours in six METPARK car parks.",
+  "items": [
+    {
+      "topic": "operators",
+      "date": "2020-01",
+      "text": "METPARK is Bordeaux Métropole's own parking authority, a public body with its own legal personality and budget. It was set up in 2004 under the name Parcub and has been called METPARK since 1 January 2020. It runs about thirty car parks, and the only Métropole car parks it does not run are those let out under public-service concessions.",
+      "source_title": "Parc de stationnement - Camille Jullian - Choix du mode de gestion - Décision - Autorisation (Délibération n° 2025-443, Conseil de Bordeaux Métropole du 26 septembre 2025)",
+      "source_url": "https://www.bordeaux-metropole.fr/sites/MET-BXMETRO-DRUPAL/files/bm_actes/organismes/bordeaux-metropole/conseils/2025-09-26/Parapheur2025-443-1_0.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2024-12-06",
+      "text": "A report on Métropole car parks presented to the council said they had 16,384 car spaces in 2023. METPARK ran 29 sites (11,849 spaces) and concession holders ran 5 sites (3,693 spaces). Hourly (non-subscriber) use in 2023 was 3.62% lower than in 2022, and total revenue was over EUR 36 million.",
+      "source_title": "Dossier de presse - Conseil de Métropole - 6 décembre 2024",
+      "source_url": "https://www.bordeaux-metropole.fr/sites/MET-BXMETRO-DRUPAL/files/2024-12/DP%20-%20Conseil%20de%20m%C3%A9tropole%206%20d%C3%A9cembre%202024.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2023-11-28",
+      "text": "The METPARK car park at Front du Médoc (Mériadeck) has been closed since 28 November 2023, when an emergency safety order was issued over corroded beams. In July 2025 the Métropole council approved a plan to take over and repair the pedestrian deck above it. The plan has an estimated budget of EUR 15 million spread over 4-5 years, and excludes repairs to the car park itself.",
+      "source_title": "Traitement stratégique des zones de stationnement et espaces publics de l'îlot Front du Médoc - Décision - Autorisation (Délibération n° 2025-319, Conseil de Bordeaux Métropole du 11 juillet 2025)",
+      "source_url": "https://www.bordeaux-metropole.fr/sites/MET-BXMETRO-DRUPAL/files/bm_actes/organismes/bordeaux-metropole/conseils/2025-07-11/Parapheur2025-319-3_0.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2024-11-28",
+      "text": "The METPARK Gambetta car park reopened on 28 November 2024 after being closed for 10 months for works.",
+      "source_title": "Baromètre des mobilités Bordeaux Métropole - Bilan annuel 2024",
+      "source_url": "https://bordeaux-metropole.fr/sites/MET-BXMETRO-DRUPAL/files/2025-01/Barom%C3%A8tre_mobilit%C3%A9s_2024.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2024-11-28",
+      "text": "The renovated Gambetta car park (reported cost EUR 7.8 million) has 438 car spaces, 102 of them with EV charging. It uses ticketless entry and exit based on number-plate recognition, plus a guidance system with signs that show free spaces in real time.",
+      "source_title": "A historic parking lot in Bordeaux reopens its doors with 500 new parking spaces!",
+      "source_url": "https://en.lebonbon.fr/bordeaux/news/pgambetta-parking-in-bordeaux-has-500-new-parking",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2025-09-26",
+      "text": "The 1989 concession under which Central Parc (Indigo group) runs the 336-space Camille Jullian underground car park ends on 1 September 2026. The Métropole council decided that METPARK will run it from 2 September 2026. In 2024 it recorded about 109,400 hourly exits and had revenue of EUR 1.07 million.",
+      "source_title": "Parc de stationnement - Camille Jullian - Choix du mode de gestion - Décision - Autorisation (Délibération n° 2025-443, Conseil de Bordeaux Métropole du 26 septembre 2025)",
+      "source_url": "https://www.bordeaux-metropole.fr/sites/MET-BXMETRO-DRUPAL/files/bm_actes/organismes/bordeaux-metropole/conseils/2025-09-26/Parapheur2025-443-1_0.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2024-04-19",
+      "text": "METPARK awarded TotalEnergies a 15-year concession to install and run 1,500 charge points in 26 METPARK car parks, with installation due to start in summer 2024. Most are 7 kVA points, with 22 fast (50 kW) and 18 high-power (200 kW) chargers. Parking is to be free for fast-charging sessions under 30 minutes.",
+      "source_title": "TotalEnergies to Install 1,500 EV Charge Points in METPARK Parking Lots in Bordeaux",
+      "source_url": "https://evcharge.totalenergies.com/en/node/726",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2025-12",
+      "text": "The Métropole's mobility report counted 958 publicly accessible charge points in car parks (public and other) at the end of 2025, against 592 a year earlier. The area had 2,877 public charge points in total.",
+      "source_title": "Baromètre des mobilités Bordeaux Métropole - Bilan annuel 2025",
+      "source_url": "https://www.bordeaux-metropole.fr/sites/MET-BXMETRO-DRUPAL/files/2026-01/Barom%C3%A8tre_mobilit%C3%A9s_2025.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-01-01",
+      "text": "Bordeaux Métropole's low-emission zone (ZFE) came into force on 1 January 2025 inside the ring road. It bans only vehicles with no Crit'Air rating, about 2.1% of the local fleet (around 11,000 vehicles). Eleven park-and-ride sites stay reachable for these vehicles, and a 24-hour ZFE pass can be used up to 24 times a year.",
+      "source_title": "Dossier de presse - Conseil de Métropole - 6 décembre 2024",
+      "source_url": "https://www.bordeaux-metropole.fr/sites/MET-BXMETRO-DRUPAL/files/2024-12/DP%20-%20Conseil%20de%20m%C3%A9tropole%206%20d%C3%A9cembre%202024.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-05-21",
+      "text": "France's Constitutional Council struck out the article of the national simplification law that would have abolished ZFE low-emission zones, on procedural grounds. As a result, ZFEs remain legally in force in the areas that have them. The source does not mention Bordeaux specifically.",
+      "source_title": "ZFE : le Conseil constitutionnel relance le débat et annule leur suppression",
+      "source_url": "https://www.athlon.com/fr/informations-du-secteur/zfe-le-conseil-constitutionnel-relance-le-debat-et-annule-leur-suppression/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2025-05",
+      "text": "Bordeaux announced a 30% higher on-street parking rate, starting May 2025, for petrol and diesel cars over 1,600 kg and hybrid or electric cars over 1,900 kg. It applies to hourly rates and subscriptions but not to professionals. The city's visitor parking page now lists separate, higher rates and a EUR 51 post-parking fee (FPS) for these vehicles, against EUR 39 for other cars.",
+      "source_title": "Hausse du tarif de stationnement des véhicules particuliers les plus lourds : Bordeaux emboîte le pas à Paris",
+      "source_url": "https://www.banquedesterritoires.fr/hausse-du-tarif-de-stationnement-des-vehicules-particuliers-les-plus-lourds-bordeaux-emboite-le-pas",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-08-03",
+      "text": "From early August 2026, Bordeaux replaced its red and green on-street zones with a single paid zone. Charging moved from quarter-hours to half-hours, and every vehicle gets 30 free minutes once a day. Listed rates for standard cars run from EUR 1.90 for 45 minutes to EUR 20 for 4 hours. Residents' parking was not changed.",
+      "source_title": "La politique de stationnement évolue pour les visiteurs : courte durée, week-ends…",
+      "source_url": "https://www.bordeaux.fr/le-mag/la-politique-de-stationnement-evolue-pour-les-visiteurs-courte-duree-week-ends",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-08-03",
+      "text": "As part of the same reform, six METPARK car parks on the edge of the centre offer 2 free hours on Saturdays and Sundays: Amédée-Saint-Germain, Amplitude, Beaujon, Grand Parc, Paludate and Porte de Bordeaux. Together they have about 2,500 spaces.",
+      "source_title": "La politique de stationnement évolue pour les visiteurs : courte durée, week-ends…",
+      "source_url": "https://www.bordeaux.fr/le-mag/la-politique-de-stationnement-evolue-pour-les-visiteurs-courte-duree-week-ends",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-10",
+      "text": "Bordeaux's parking FAQ says on-street parking is paid from 9:00 to 19:00 except on Sundays and public holidays. It lists residents' rates of EUR 1 per 24 hours, EUR 6 per week, EUR 10 per two weeks and EUR 15 per month.",
+      "source_title": "Vos questions sur le stationnement à Bordeaux",
+      "source_url": "https://www.bordeaux.fr/vos-questions-sur-le-stationnement-a-bordeaux",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-09-29",
+      "text": "A press report says TBM fares will rise by an average of 3% in 2027, after rises of 3.2% in 2023, 3.6% in 2024 and 3% in 2025. Under the plan, the park-and-ride day ticket goes from EUR 4.50 to EUR 5.",
+      "source_title": "C'est officiel, les prix des tickets de trams et de bus vont encore augmenter à Bordeaux en 2027",
+      "source_url": "https://lebonbon.fr/bordeaux/news/c-est-officiel-prix-tickets-trams-bus-vont-encore-augmenter-a-bordeaux-2027/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2024",
+      "text": "In 2024, hourly (non-subscriber) exits at six city-centre METPARK car parks fell 2% from 2023, and subscriber use also fell. Over the same year, TBM transit validations rose 9% and road traffic in the Métropole, excluding the ring road, fell 2%.",
+      "source_title": "Baromètre des mobilités Bordeaux Métropole - Bilan annuel 2024",
+      "source_url": "https://bordeaux-metropole.fr/sites/MET-BXMETRO-DRUPAL/files/2025-01/Barom%C3%A8tre_mobilit%C3%A9s_2024.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2025",
+      "text": "In 2025, hourly exits at eight city-centre METPARK car parks fell 3% from 2024; the report says hourly use of these car parks is down 37% over several years. Non-resident subscribers fell 8% and resident subscribers 4%, while TBM validations rose 3%.",
+      "source_title": "Baromètre des mobilités Bordeaux Métropole - Bilan annuel 2025",
+      "source_url": "https://www.bordeaux-metropole.fr/sites/MET-BXMETRO-DRUPAL/files/2026-01/Barom%C3%A8tre_mobilit%C3%A9s_2025.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2025-09-18",
+      "text": "The city's magazine reported that Bordeaux's pedestrian area grew from 172 to 259 hectares over five years. Footfall on central shopping streets in December 2024 was 15% higher than in December 2023.",
+      "source_title": "Une attractivité confirmée",
+      "source_url": "https://www.bordeaux.fr/le-mag/une-attractivite-confirmee",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "Bordeaux-Paris high-speed rail (LGV SEA): no dated 2019-2026 ridership figure found from a source that could be opened",
+    "Tourism: 2024 summer decline figures were seen only in a search snippet (lejournaldesentreprises page returned 502), so they are left out",
+    "Remote work: no Bordeaux-specific source found",
+    "METPARK car-park tariff changes (off-street prices, quarter-hour billing inside car parks, subscription prices): no tariff resolution or METPARK tariff page found",
+    "Q-Park and EFFIA contracts in Bordeaux: no dated source found on their concessions or contract changes",
+    "Online booking, dynamic pricing and METPARK app launch dates: not found",
+    "Open data: Bordeaux Métropole's real-time parking availability dataset exists, but no start date or change history was found",
+    "Pedestrianisation plan details and dates (e.g. Bordeaux Re-Centre): only secondary or undated material found",
+    "Extensions of the paid on-street parking zone in 2019-2025 (e.g. north of Chartrons): not verified from a primary page"
+  ]
+}

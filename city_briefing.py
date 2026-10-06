@@ -111,7 +111,11 @@ def build(country: str, city: str, util_garages: list[dict], trends: dict | None
     comp = competitive.garages().get((country, city), [])
     links = {gid: v["place_id"] for (c, ci, gid), v in competitive.links().items() if (c, ci) == (country, city)}
     prices = garage_prices.prices()
-    measured = [g for g in util_garages if g["country"] == country and g["city"] == city and g.get("weekday_avg") is not None]
+    import garage_links
+
+    dups = garage_links.duplicates()            # the same garage reported by two feeds counts once
+    measured = [g for g in util_garages if g["country"] == country and g["city"] == city
+                and g.get("weekday_avg") is not None and g["id"] not in dups]
     if not comp and not measured:
         return None
     ev = _ev_raw(country, city)
