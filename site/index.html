@@ -371,7 +371,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
         </div>
         <label>Email for our reply<input name="email" type="email" maxlength="200" autocomplete="email" required></label>
         <label class="hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
-        <label class="check"><input type="checkbox" name="consent" required> <span>Keep these details so you can answer me. They are used only for this request, never shared, and deleted after twelve months.</span></label>
+        <label class="check"><input type="checkbox" name="consent" required> <span>I understand my details are used only to answer this request, never shared, and deleted after twelve months.<span class="privlink" hidden> See the <a href="/privacy">privacy notice</a>.</span></span></label>
         <div class="askbar"><button type="submit" class="btn primary" id="askSend">Send request</button><span id="askMsg" role="status" aria-live="polite"></span></div>
       </form>
       <aside class="askside">
@@ -398,7 +398,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     <div class="panel"><h2>Garages flagged by the daily check</h2><p class="note" id="stFhNote"></p><div class="scroll"><table class="data" id="stFlags"></table></div></div>
   </section>
 </main>
-<footer>Data from city and operator open-data feeds and the ParkAPI community archive. Occupancy is 1 − free ÷ capacity. · <a href="#ask">Ask us for an analysis</a></footer>
+<footer>Data from city and operator open-data feeds and the ParkAPI community archive. Occupancy is 1 − free ÷ capacity. · <a href="#ask">Ask us for an analysis</a><span id="legalLinks" hidden> · <a href="/privacy">Privacy</a> · <a href="/legal">Legal</a></span></footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
@@ -1265,6 +1265,11 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
         srcs.map(s => `<tr><td>${esc(s.source_id)}</td><td class="r num">${s.stopped || ""}</td><td class="r num">${s.frozen || ""}</td><td class="r num">${s.capacity || ""}</td><td class="r num">${s.oscillating || ""}</td></tr>`).join("") + `</tbody>`;
     } catch (e) { document.getElementById("stStats").innerHTML = `<p class="error">${esc(e.message)}</p>`; }
   }
+
+  // privacy and legal links appear once those pages are live (legal.json filled in)
+  fetch("/api/legal").then(r => r.json()).then(d => {
+    if (d.ready) document.querySelectorAll("#legalLinks, .privlink").forEach(el => { el.hidden = false; });
+  }).catch(() => {});
 
   // ---------- ask us ----------
   // #ask, or #ask/city/<country>/<city> from a city briefing (fills in the place)

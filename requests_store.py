@@ -86,7 +86,7 @@ def validate(data: dict) -> tuple[dict | None, str | None]:
     if not EMAIL.match(f["email"]):
         return None, "Enter an email address we can reply to."
     if not data.get("consent"):
-        return None, "Tick the box so we may keep your details to answer you."
+        return None, "Tick the box to confirm how your details will be used."
     for k, n in LIMITS.items():
         if len(f[k]) > n:
             return None, f"The {k} field is too long (at most {n} characters)."

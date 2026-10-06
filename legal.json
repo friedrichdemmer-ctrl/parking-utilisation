@@ -1,0 +1,14 @@
+{
+  "_help": "Your legal details for /privacy and /legal (UK law). The pages stay offline until legal_name, address and email are filled in. Leave a field null if it does not apply.",
+  "trading_name": "TheParkingAnalysts",
+  "legal_name": null,
+  "entity": "individual",
+  "address": null,
+  "email": null,
+  "company_number": null,
+  "registered_office": null,
+  "vat_number": null,
+  "ico_registration": null,
+  "governing_law": "England and Wales",
+  "last_updated": "2026-10-06"
+}

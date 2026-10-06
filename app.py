@@ -73,6 +73,7 @@ app.register_blueprint(site_api_bp)
 API_RATE_LIMIT = 240          # requests
 API_RATE_WINDOW = 5 * 60      # seconds
 _api_hits: dict[str, list[float]] = {}
+_api_pruned = 0.0
 
 
 # The site lives at theparkinganalysts.com. The www name and the original fly.dev address
@@ -105,9 +106,13 @@ def limit_api_rate():
         return jsonify({"error": "Too many requests. Try again in a few minutes."}), 429
     hits.append(now)
     _api_hits[ip] = hits
-    if len(_api_hits) > 5000:  # forget idle visitors
+    # forget visitors once their window has passed (checked at most once a minute), so an IP
+    # address is held in memory for no more than about six minutes -- the privacy notice says so
+    global _api_pruned
+    if now - _api_pruned > 60:
         for k in [k for k, v in _api_hits.items() if not v or now - v[-1] > API_RATE_WINDOW]:
             _api_hits.pop(k, None)
+        _api_pruned = now
     return None
 
 
@@ -363,6 +368,29 @@ def admin_requests():
             "<style>body{font:15px system-ui;margin:2rem}td{border-top:1px solid #ddd;padding:.5rem;vertical-align:top}"
             "tr.done{color:#888}</style><h1>Analysis requests</h1><table>" + (body or "<tr><td>None yet.</td></tr>") + "</table>")
     return Response(page, mimetype="text/html", headers={"Cache-Control": "no-store"})
+
+
+@app.route("/privacy")
+@app.route("/legal")
+def legal_pages_route():
+    """Privacy notice and legal information (legal_pages.py). Not served until legal.json holds
+    the operator's name, address and email, so an incomplete notice never goes live."""
+    import legal_pages
+
+    legal = legal_pages.load()
+    if not legal_pages.ready(legal):
+        return Response("Not found", status=404)
+    body = legal_pages.privacy(legal) if request.path == "/privacy" else legal_pages.legal_page(legal)
+    title = "Privacy notice" if request.path == "/privacy" else "Legal information"
+    return Response(legal_pages.PAGE.format(title=title, bar=SITE_BAR.replace(' class="sb-on"', ""), body=body),
+                    mimetype="text/html", headers={"Cache-Control": "public, max-age=3600"})
+
+
+@app.route("/api/legal")
+def legal_status():
+    import legal_pages
+
+    return jsonify({"ready": legal_pages.ready()})
 
 
 @app.route("/favicon.svg")
