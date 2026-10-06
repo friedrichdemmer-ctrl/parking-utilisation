@@ -82,13 +82,13 @@
   },
   {
    "index": 10,
-   "verdict": "unreachable",
-   "note": "The cited PDF URL redirects to the Contipark homepage (HTTP 301 to '/', HTML returned, not a PDF); WebFetch of the URL and of the English page contipark.de/en/?p=8791 also returned only the homepage. A WebSearch snippet describes the release, but per instruction a snippet is not accepted. Not verified.",
+   "verdict": "supported",
+   "note": "Replaced the unreadable March 2023 press-release PDF (redirects to the home page) with Contipark's own live garage page, which shows the car park under the Contipark brand with a capacity of 212. Read directly 2026-10-06; the February 2023 takeover date and lease terms remain unconfirmed and are not stated.",
    "corrected_text": null,
    "corrected_title": null,
    "corrected_date": null,
-   "unconfirmed_text": "A search-engine summary of a Contipark press release of March 2023 says Contipark took over the Zähringer Tor underground car park (212 spaces) in February 2023 under a long-term lease.",
-   "unconfirmed_reason": "The cited PDF redirects to the company's home page, so we could not read the press release."
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
   },
   {
    "index": 11,
