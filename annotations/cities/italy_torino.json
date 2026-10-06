@@ -1,0 +1,190 @@
+{
+ "country": "Italy",
+ "city": "Torino",
+ "researched": "2026-10-06",
+ "verified": "2026-10-06",
+ "summary": "Torino's ZTL Centrale bans circulation and parking for unauthorised vehicles on weekday mornings, and GTT manages on-street paid parking across the city plus 30 barrier, structure and residents' car parks; a 2023 GTT tariff update approved by the city council raised on-street hourly rates, which a 2026 guide lists at 1.20-2.80 euros. A 2025 amendment shifted the Euro 5 diesel ban to 1 October 2026, and in July 2026 the Piedmont Region was reported to have avoided it in Torino and Novara through compensatory measures; via Roma's pedestrianisation was inaugurated on 12 September 2026, and preliminary environmental-monitoring work for metro line 2 was announced to start in March 2026. GTT reports higher passenger numbers and parking revenue in 2025 than in 2024, and the Piedmont Region reports tourist arrivals and overnight stays in Torino grew in 2025.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2026-03",
+   "text": "The city's ZTL Centrale page says circulation and parking in the zone are banned for unauthorised vehicles Monday to Friday from 7:30 to 10:30 (Saturdays excluded). Access is enforced by 27 camera gates, with 11 more cameras on internal sub-zones such as the public-transport-only streets (7:00-20:00 daily) and the Area Romana (closed 21:00-7:30).",
+   "source_title": "ZTL Centrale | Città di Torino",
+   "source_url": "https://www.comune.torino.it/schede-informative/ztl-centrale",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-03-24",
+   "text": "On 24 March 2026 the city's executive approved extending the ZTL Valentino to viale Medaglie d'Oro and the northern part of viale Ceppi with new camera gates, whose activation needs ministry authorisation. About 90 blue-line spaces on viale Medaglie d'Oro serve as a temporary solution until works end and a new underground car park of almost 500 spaces in Padiglione V opens.",
+   "source_title": "Ztl Torino: nuovo perimetro del Parco Valentino, cosa cambia",
+   "source_url": "https://www.sicurauto.it/news/traffico-e-viabilita/ztl-torino-nuovo-perimetro-parco-valentino/",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-07-08",
+   "text": "The Piedmont Region welcomed the approval, in the Chamber of Deputies' environment committee, of an amendment shifting the Euro 5 diesel ban to 1 October 2026 and applying it primarily to cities above 100,000 inhabitants. The Region said compensatory measures would allow Euro 5 diesels to keep running in Torino and Novara as well.",
+   "source_title": "Emendamento diesel Euro 5: la Regione ringrazia il Governo",
+   "source_url": "https://www.regione.piemonte.it/web/node/20793",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-07-02",
+   "text": "A July 2026 ANCE Torino circular reported that the Piedmont Region had avoided the Euro 5 diesel circulation ban that could have applied from 1 October 2026 to 31 March 2027 in Torino and Novara, by adopting compensatory measures in its regional air-quality plan.",
+   "source_title": "Circolare 199/2026 | Regione Piemonte – Diesel Euro 5 – Evitato il blocco della circolazione",
+   "source_url": "https://torino.ance.it/2026/07/02/circolare-199-2026-regione-piemonte-diesel-euro-5-evitato-il-blocco-della-circolazione/?print=pdf",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2023-07",
+   "text": "The city council approved a GTT tariff update that also raised on-street parking rates: the smart rate went from 1.00 to 1.20 euros an hour, the reduced rate from 1.30 to 1.50, the standard rate to 1.70 and the central rate from 2.50 to 2.80. Residents' parking subscriptions were reported as unchanged.",
+   "source_title": "A Torino aumentano i biglietti del trasporto pubblico e le strisce blu: ecco le nuove tariffe",
+   "source_url": "https://www.guidatorino.com/?p=57613",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-01",
+   "text": "A 2026 guide lists on-street rates of 2.80 euros an hour in the ZTL Centrale, 1.70 ordinary, 1.50 reduced and 1.20 smart, charged Monday to Saturday 8:00-19:30 and free on Sundays and holidays. It gives the annual residents' permit as 180 euros, with a reduced rate for households with an ISEE-certified income below 50,000 euros.",
+   "source_title": "Strisce blu Torino: costo 2026, orari e permessi",
+   "source_url": "https://www.sicurauto.it/news/strisce-blu-torino-costo-orari-e-permessi/",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-08",
+   "text": "The city suspended the ZTL Centrale from 11 to 22 August 2025 and on-street paid parking from 11 to 24 August 2025. The city said barrier car parks and GTT-run structure car parks would still charge during this period.",
+   "source_title": "SOSPENSIONE ESTIVA DELLA ZTL E DELLA SOSTA A PAGAMENTO",
+   "source_url": "https://comunicatistampa.comune.torino.it/2025/08/sospensione-estiva-della-ztl-e-della-sosta-a-pagamento-2/",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12",
+   "text": "For the Christmas period, on-street parking in the central Sottozona A was reported as chargeable on Sundays and holidays 7, 8, 14 and 21 December 2025, which are normally free, at 2.80 euros an hour from 8:00 to 19:30.",
+   "source_title": "Parcheggi strisce blu a Torino centro, quanto si paga nei giorni festivi di dicembre: le tariffe",
+   "source_url": "https://moveo.telepass.com/strisce-blu-torino-centro-dicembre-2025/",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-06-16",
+   "text": "The city announced that drivers entering participating car parks inside the ZTL Centrale during restricted hours will no longer need a paper authorisation: an entry camera reads the plate and vehicles parked over 30 minutes are added automatically to the whitelist. The system was trialled at the Cernaia and Emanuele Filiberto car parks and made permanent for five years, with operational start planned after the summer.",
+   "source_title": "ZTL centrale: addio alla carta, l'accesso ai parcheggi diventa automatico",
+   "source_url": "https://www.comune.torino.it/novita/comunicati/ztl-centrale-addio-alla-carta-laccesso-ai-parcheggi-diventa-automatico",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2025",
+   "text": "GTT reports that it runs on-street paid parking across Torino plus 30 barrier, structure and residents' car parks in the centre and at main city entry points, with a Park & Ride fare (day ticket or monthly pass). Its parking revenue was about 47.2 million euros in 2025, up 5.75% from about 44.6 million in 2024.",
+   "source_title": "Rendicontazione di sostenibilità 2025 (GTT)",
+   "source_url": "https://gtt.to.it/cms/risorse/fornitori/trasparenza/pdf/rapporto_di_sostenibilita_2025.pdf",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2025",
+   "text": "GTT reports 870 parking meters on the street, alongside per-minute payment through its SostApp and third-party apps. SostApp parking sales grew from 2.8 million euros in 2023 to 7.7 million in 2024 and 10.1 million in 2025; third-party app sales reached 11.2 million euros in 2025.",
+   "source_title": "Rendicontazione di sostenibilità 2025 (GTT)",
+   "source_url": "https://gtt.to.it/cms/risorse/fornitori/trasparenza/pdf/rapporto_di_sostenibilita_2025.pdf",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-09-30",
+   "text": "Motus-E figures put the province of Torino at 3,075 public charging points as of 30 September 2025, 324 more than 12 months earlier, fourth among Italian provinces.",
+   "source_title": "Ecco quante sono le colonnine per la ricarica delle auto elettriche in Italia",
+   "source_url": "https://www.hdmotori.it/quante-colonnine-ricarica-auto-elettriche-italia-report-motus-e/",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2025",
+   "text": "GTT carried about 300.4 million passengers in 2025, up 4.9% from about 286.4 million in 2024. Paying trips on the urban network rose from 257 to 264 million.",
+   "source_title": "Rendicontazione di sostenibilità 2025 (GTT)",
+   "source_url": "https://gtt.to.it/cms/risorse/fornitori/trasparenza/pdf/rapporto_di_sostenibilita_2025.pdf",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025",
+   "text": "The Piedmont Region reported that Torino ended 2025 with over 1.8 million tourist arrivals and 4.7 million overnight stays, up 6.3% and 6.7%; foreign arrivals and stays each grew about 13%.",
+   "source_title": "Ancora in crescita il turismo in Piemonte",
+   "source_url": "https://www.regione.piemonte.it/web/node/22265",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-11",
+   "text": "The 2025 Nitto ATP Finals in Torino were reported to have drawn about 230,000 spectators, around double the 2021 edition, with a Boston Consulting Group study estimating roughly 600 million euros of economic impact.",
+   "source_title": "Il tennis italiano in crescita: l’impulso delle ATP Finals di Torino 2025",
+   "source_url": "https://quifinanza.it/sport-economy/atp-finals-torino-2025-numeri/938742/",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-03-07",
+   "text": "A metro line 2 press release of 7 March 2026 announced that preliminary environmental-monitoring work would start on 9 March 2026 at 11 temporary sites, including Corso Vittorio Emanuele II at via Nizza and Piazza Carlo Alberto. Each site was expected to last about a week, with no permanent traffic changes.",
+   "source_title": "METRO 2: AL VIA LE ATTIVITA' PRELIMINARI AL MONITORAGGIO AMBIENTALE",
+   "source_url": "https://infrato.it/wp-content/uploads/2026/06/2026_03_7_comunicato-stampa-monitoraggi-ambientali.pdf",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-09-12",
+   "text": "Torino inaugurated the fully pedestrianised via Roma from Piazza Castello to Piazza Carlo Felice on 12 September 2026, after works funded with about 12 million euros from the EU PN Metro Plus programme.",
+   "source_title": "Via Roma: inizia una nuova storia. Il programma della festa a Torino per la nuova pedonalizzazione",
+   "source_url": "https://www.mentelocale.it/torino/136472-via-roma-inizia-una-nuova-storia-il-programma-della-festa-a-torino-per-la-nuova-pedonalizzazione.htm",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Price changes at GTT structure car parks (hourly or daily rates, subscriptions) in 2019-2026: no dated source found.",
+  "EV charging inside car parks (GTT, APCOA, Parcheggi Italia): no source found with charge-point counts for car parks; only province-wide figures.",
+  "APCOA and Parcheggi Italia (Best in Parking) developments specific to Torino: no dated, sourced item found.",
+  "Car park openings, closures, concessions or privatisation of GTT parking in 2019-2026: none sourced (the Torino Esposizioni underground car park is only planned).",
+  "Park-and-ride (interscambio) capacity or usage changes with dates: not sourced beyond GTT's general Park & Ride fare description.",
+  "The 'Torino Centro Aperto' ZTL reform (2019-2020) and its suspension: search snippets were seen, but no page with a clear dated account was opened.",
+  "Open data on live car park availability, reservation and dynamic pricing: not sourced.",
+  "Retail footfall and remote-work effects on visits to the centre: not sourced."
+ ],
+ "dropped": {}
+}

@@ -1,0 +1,155 @@
+{
+  "country": "France",
+  "city": "Nantes",
+  "researched": "2026-10-06",
+  "summary": "Since September 2023, Nantes Métropole's public car parks, park-and-ride sites, bike-share and Tan transit have been sold under one brand, Naolib, and a single Naolib app covering parking launched in June 2026. A regional audit published in March 2025 said attendance at public car parks in the metropolis, including city-centre ones, was declining. Over the same period the city enlarged its pedestrian area, brought in a low-emission zone inside the ring road from January 2025, and added park-and-ride capacity. Transit ridership grew to 158.7 million trips in 2025, and a 2025 survey found solo car use had fallen to 38% of trips in the metropolis.",
+  "items": [
+    {
+      "topic": "regulation",
+      "date": "2025-01",
+      "text": "Since 1 January 2025, vehicles inside the Nantes ring road need a Crit'Air sticker. In the page's December 2025 version, only unclassified vehicles (under 1% of the fleet) are barred, and only during weekday peaks (7-9am and 4-7pm). Such vehicles may stay parked on the street, and the page points drivers from outside to 12 park-and-ride sites.",
+      "source_title": "Une vignette Crit’air pour circuler dans la Zone à faibles émissions (ZFE)",
+      "source_url": "https://metropole.nantes.fr/zfe",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-06",
+      "text": "The city extended the central pedestrian area by 8 hectares, to 84 hectares, in phases from late 2024 (quai de Versailles south, Hôtel de ville south) through March 2025 (Joffre and a new limited-traffic zone) to June 2025 (Cathédrale south). The limited-traffic zone grew by 900 m to 1.9 km and is controlled by automatic bollards that only let authorised vehicles, including residents', through.",
+      "source_title": "Tout comprendre de l’extension de l’aire piétonne à Nantes",
+      "source_url": "https://metropole.nantes.fr/actualites/tout-comprendre-de-l-extension-de-l-aire-pietonne-a-nantes",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2023-04",
+      "text": "Income-based ('solidarity') pricing for on-street resident permits started on 1 April 2023, after a council vote in October 2022. It cuts 30-90% off the standard annual permit of 180 euros, depending on household income.",
+      "source_title": "La ville de Nantes met en place une tarification du stationnement en fonction des revenus des résidents",
+      "source_url": "https://www.24matins.fr/la-ville-de-nantes-met-en-place-une-tarification-du-stationnement-en-fonction-des-revenus-des-residents-1345968",
+      "confidence": "medium"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2025-10",
+      "text": "The metropolis lists 62 park-and-ride sites with about 8,500 spaces. Of these, 20 sites (4,957 spaces) have barriers and are run by Nantes Gestion Équipements; the rest are free and open. At barrier sites, occasional users pay 4.50 euros for parking plus one return transit trip for up to five people, and transit subscribers enter with their card.",
+      "source_title": "Stationner dans un parking-relais (P+R)",
+      "source_url": "https://metropole.nantes.fr/parking-relais",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2021-04",
+      "text": "Since April 2021, public transport in the metropolis (except the airport shuttle) has been free on Saturdays and Sundays. Park-and-ride sites are also free at weekends when used together with the transit network.",
+      "source_title": "Se déplacer en transports en commun dans l’agglomération nantaise",
+      "source_url": "https://metropole.nantes.fr/transports-publics",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2024-07",
+      "text": "Naolib transit fares rose on 1 July 2024. The annual pass went from 525 to 539 euros, the monthly ticket from 60 to 62 euros and the 10-trip pack from 17 to 17.50 euros. The single ticket stayed at 1.80 euros.",
+      "source_title": "Transports en commun : nouvelles offres et nouveaux tarifs annoncés",
+      "source_url": "https://metropole.nantes.fr/actualites/transports-en-commun-nouvelles-offres-et-nouveaux-tarifs-annonces",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2023-09",
+      "text": "In mid-September 2023, Nantes Métropole put Tan public transport, Bicloo bike-share and the car parks run by Effia and NGE under one brand, Naolib. The naolib.fr website shows live space availability at park-and-ride sites.",
+      "source_title": "Tout comprendre à Naolib, nouveau nom pour se déplacer dans la métropole",
+      "source_url": "https://metropole.nantes.fr/naolib",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2024-01",
+      "text": "Nantes Métropole awarded a concession contract to run the 'Centre-Ouest' public car parks (Aristide Briand, Descartes, Cité internationale des congrès, Les Machines, Médiathèque and Les Nefs) from 1 January 2024 to 31 December 2028, valued at about 21.4 million euros. The operator must also send data for dynamic signage and the metropolis's parking observatory. The extract of the award notice seen does not name the winning operator.",
+      "source_title": "Avis d’attribution de concession – Annonce n° 24-15703 (BOAMP)",
+      "source_url": "https://www.boamp.fr/telechargements/FILES/PDF/2024/02/24-15703.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2025-03",
+      "text": "The regional audit chamber's report on the NGE group, covering 2018-2023, says NGE runs more than 11,000 parking spaces. It also says attendance at car parks is falling, as at all public car parks in the metropolis, and that some city-centre car parks are ageing despite major works.",
+      "source_title": "Groupe Nantes Gestion Équipement (NGE) (Loire-Atlantique)",
+      "source_url": "https://www.ccomptes.fr/fr/publications/groupe-nantes-gestion-equipement-nge-loire-atlantique",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2024-10",
+      "text": "According to the regional audit chamber, NGE has enforced paid on-street parking with automatic number-plate-reading vehicles (LAPI) since autumn 2024.",
+      "source_title": "Groupe Nantes Gestion Équipement (NGE) (Loire-Atlantique)",
+      "source_url": "https://www.ccomptes.fr/fr/publications/groupe-nantes-gestion-equipement-nge-loire-atlantique",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2025-04",
+      "text": "Under an April 2024 agreement with the manufacturer e-Totem, 1,250 public charge points are being installed across the metropolis's 24 communes by 2026. These are in addition to 234 points already in covered city-centre car parks and some park-and-ride sites.",
+      "source_title": "1 250 bornes de recharge déployées dans la métropole nantaise",
+      "source_url": "https://metropole.nantes.fr/actualites/1250-bornes-de-recharge-deployees-dans-la-metropole-nantaise",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2025-11",
+      "text": "The Babinière park-and-ride, on the extended tram line 1, opened on 12 November 2025. It has 450 car spaces, 28 of them with EV charging, and 103 bike spaces. Entry needs a transit pass or a 4.50-euro park-and-ride ticket.",
+      "source_title": "Au parking-relais Babinière, 450 places auto et 103 places vélo",
+      "source_url": "https://metropole.nantes.fr/actualites/au-parking-relais-babiniere-450-places-auto-et-103-places-velo",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2025-03",
+      "text": "Two new park-and-ride sites with barriers opened in the west of Nantes: Bas-Chantenay in January 2025 (219 car spaces) and Estuaire in early March 2025 (119 car spaces).",
+      "source_title": "P+R Bas-Chantenay et Estuaire : à l’ouest, stationner devient plus simple",
+      "source_url": "https://metropole.nantes.fr/actualites/pr-bas-chantenay-et-estuaire-a-l-ouest-stationner-devient-plus-simple",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-06",
+      "text": "A redesigned Naolib app launched on 3 June 2026. Alongside transit, it covers multi-storey car parks, park-and-ride sites and on-street parking in Nantes and Rezé, with live availability, reservations and online subscriptions. Bike-share is planned for early 2027.",
+      "source_title": "Pourquoi la nouvelle appli Naolib va simplifier vos déplacements",
+      "source_url": "https://metropole.nantes.fr/actualites/pourquoi-la-nouvelle-appli-naolib-va-simplifier-vos-deplacements",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2025",
+      "text": "Semitan, the transit operator, reports 158.7 million trips on the network in 2025. Its chart puts 2024 at 154.1 million and 2019 at 148.6 million. The report also notes that paper tickets were retired in 2025 in favour of contactless tickets.",
+      "source_title": "Rapport d’activités 2025 (Semitan)",
+      "source_url": "https://www.semitan.fr/medias/fichier/rapport-d-activites-2024_1750398495511-pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-07",
+      "text": "The 2025 household mobility survey, published in July 2026, found that solo car trips in Nantes Métropole fell from 43% of trips in 2015 to 38% in 2025. Cycling rose from 3% to 7%, and public transport held at 15%.",
+      "source_title": "Comment les Nantais se déplacent-ils ? Ce que révèle l'enquête mobilité 2025",
+      "source_url": "https://metropole.nantes.fr/actualites/comment-les-nantais-se-deplacent-ils-ce-que-revele-l-enquete-mobilite-2025",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2024-09",
+      "text": "The 2024 summer edition of the Voyage à Nantes trail (6 July to 8 September) recorded 852,919 visits across its sites, 4% more than in 2023. Foreign visitors made up about 30% of summer visitors at the castle and Les Machines.",
+      "source_title": "6 chiffres qui éclairent le bilan du Voyage à Nantes 2024",
+      "source_url": "https://metropole.nantes.fr/actualites/6-chiffres-qui-eclairent-le-bilan-du-voyage-nantes-2024",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "No dated official source found for a 'coeur de ville' traffic plan (plan de circulation) beyond the pedestrian-area/ZTL extension; press reports on removing about 1,200 Petite Hollande parking spaces (works from 2026) were found only in a secondary outlet (Le Bonbon) and left out.",
+    "Dated hourly price changes for Naolib/NGE/Effia multi-storey car parks were not found; the CRC report mentions price rises but gives no dates or amounts on the page seen.",
+    "The extent of the 2023 on-street paid-zone extension (which districts, new hourly rates) could not be confirmed from a primary page.",
+    "The winner of the 2024-2028 'Centre-Ouest' car park concession (Effia is the likely operator but this is unconfirmed) is not named in the BOAMP extract seen.",
+    "Ticketless or plate-recognition entry at car-park barriers: no source found (plate recognition is sourced only for on-street enforcement).",
+    "Conversion of car-park space to bike parking (véloparcs in Decré, Cathédrale, Feydeau, Bretagne, Talensac) appeared only in search snippets; the Naolib page could not be opened, so it was left out.",
+    "Effect of national moves in 2025-2026 to abolish low-emission zones on the Nantes ZFE: not sourced for Nantes specifically.",
+    "Retail footfall, shop vacancy, remote working and major events affecting city-centre visits: no dated, sourced figures found.",
+    "Start date of the real-time car park availability open-data feed: the data.gouv.fr dataset exists but gives no creation date."
+  ]
+}

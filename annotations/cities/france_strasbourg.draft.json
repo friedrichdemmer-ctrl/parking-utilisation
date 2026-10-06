@@ -1,0 +1,155 @@
+{
+  "country": "France",
+  "city": "Strasbourg",
+  "researched": "2026-10-06",
+  "summary": "Strasbourg's off-street parking is dominated by Parcus (Parcus+), which reports about 10,000 spaces and since December 2025 also runs on-street paid parking through a new public company; in mid-2026 it also took over the Wodli and Gare courte durée station car parks. Parking policy has kept shifting: paid on-street parking was extended to Neudorf in 2024, the Crit'Air 3 low-emission-zone ban was pushed back to 2027, and in 2026 resident permits were cut sharply while visitor stays were capped at 17 euros. The tram F extension opened in November 2025 with a new P+R at Wolfisheim, and the Christmas market drew 3.05 million visitors in 2025, down from a record 3.4 million in 2024.",
+  "items": [
+    {
+      "topic": "regulation",
+      "date": "2024-06-01",
+      "text": "Paid on-street parking was extended to the Neudorf district from 1 June 2024, after a city council vote in March 2023. The new paid area is a green tariff zone with a 5-hour limit, charged 9:00-19:00 Monday to Saturday, and residents can choose a Résipark garage subscription at 60 or 90 euros a month.",
+      "source_title": "Stationnement payant au Neudorf",
+      "source_url": "https://strasbourg.eu/documents/d/strasbourg.eu/ems_stationnement-neudorf_a4-v23_ecran",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2024-09-18",
+      "text": "The Eurométropole announced that it was extending the education-only phase of its low-emission zone, so Crit'Air 3 vehicles may keep driving in it until 31 December 2026 instead of being banned from 2025. Strasbourg was one of a few cities to get a two-year exemption from the ministry.",
+      "source_title": "ZFE : Strasbourg reporte l'interdiction de circulation des voitures Crit'Air 3",
+      "source_url": "https://www.automobile-propre.com/articles/zfe-a-strasbourg-les-vehicules-critair-3-pourront-continuer-de-circuler-jusquen-2026/",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026",
+      "text": "The city's ZFE-m page lists Crit'Air 5 vehicles as restricted from January 2023 and Crit'Air 4 from January 2024, with Crit'Air 3 restrictions scheduled for January 2027 and Crit'Air 2 for January 2028. The Crit'Air 2 step has so far been decided only by Strasbourg, Schiltigheim, Ostwald and Holtzheim, and the page says the timetable may be adjusted after air-quality reviews.",
+      "source_title": "ZFE|m : Mieux respirer c'est ça l'idée !! | Strasbourg.eu",
+      "source_url": "https://www.strasbourg.eu/zfe-m",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-05-21",
+      "text": "Parliament voted in April 2026 to abolish low-emission zones nationwide as part of an economic simplification law. On 21 May 2026 the Constitutional Council struck that provision down on procedural grounds, so the zones, including Strasbourg's, remain in place.",
+      "source_title": "Fin des ZFE ? Suppression votée puis censurée : ce qui change en 2026",
+      "source_url": "https://www.sudradio.fr/on-parle-auto/fin-des-zfe-ce-qui-change-2026",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2025-12-01",
+      "text": "A new public local company, SPL Parcus+voirie, took over Strasbourg's paid on-street parking on 1 December 2025 under a 15-year contract, replacing Streeteo, which had held the contract since 2018. Its capital is public: 95% City of Strasbourg and 5% Eurométropole. The EasyPark and Indigo Neo payment apps were kept, and a new Parcus+ app was announced for 2026.",
+      "source_title": "La SPL Parcus+voirie reprend le service du stationnement payant sur voirie à Strasbourg",
+      "source_url": "https://www.strasbourg.eu/-/la-spl-parcus-voirie-reprend-le-service-du-stationnement-payant-sur-voirie-a-strasbourg",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-07-01",
+      "text": "On 22 June 2026 the city council voted to cut monthly on-street resident permits from 15, 30 and 40 euros to 5, 10 and 20 euros (tiers set by household income), effective 1 July 2026. From 1 September 2026 visitor tariffs were capped at 17 euros for the maximum stay (3 hours red zone, 4 hours orange, 5 hours green); the post-parking charge is 17 euros if paid within three days and 35 euros after that.",
+      "source_title": "Stationnement : les forfaits résidents divisés par deux ou trois",
+      "source_url": "https://www.strasbourg.eu/-/stationnement-forfaits-residents-divises-par-deux-ou-trois",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026",
+      "text": "CTS lists 12 park-and-ride sites with more than 4,000 spaces in total. A day ticket costs 4.20 euros and covers parking plus unlimited bus and tram travel for 1 to 7 people; longer stays cost 7.20 euros for 24 hours, 14.40 for 48 hours and 21.60 for 72 hours. CTS season-ticket holders park free at every site except Rotonde, which has its own 66-euro monthly pass.",
+      "source_title": "Les Parkings-Relais (P+R)",
+      "source_url": "https://www.cts-strasbourg.eu/fr/nous-connaitre/notre-reseau/parkings/parking-relais/",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2026-09",
+      "text": "Parcus says 137 charge points across 12 Parcus+ car parks are available, run by Freshmile, including Gutenberg, Austerlitz, Broglie, Wodli and Gare courte durée. Since August 2022 the price in most of these car parks has been 0.50 euros per session plus 0.60 euros per kWh, on top of the parking fee; a separate tariff has applied at Wodli and Gare courte durée since 10 June 2026.",
+      "source_title": "Borne de recharge pour les véhicules électriques - Parcus",
+      "source_url": "https://www.parcus.com/mobilities/borne-de-recharge-pour-les-vehicules-electriques/",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2023",
+      "text": "Parcus says it manages 18 car parks (17 underground and one enclosed) with about 10,000 spaces in total. In 2023 these car parks handled more than 3 million hourly customers and more than 7,500 subscription contracts.",
+      "source_title": "Parcus - L'art de vivre la ville",
+      "source_url": "https://www.parcus.com/",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-06-10",
+      "text": "On 10 June 2026 Parcus+ took over operation of the Wodli car park beside Strasbourg station (955 spaces on 11 levels, 42 with EV charging) and the station's VéloParc bike park.",
+      "source_title": "Parking Wodli et Véloparc de la gare - Parcus",
+      "source_url": "https://www.parcus.com/parking-wodli-et-veloparc-de-la-gare/",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-07-23",
+      "text": "The Gare courte durée car park was closed after a fire on 1 May 2026. It reopened to the public after a safety commission approved it on 23 July 2026, following repair work by Parcus+, which had taken over its operation on 10 June.",
+      "source_title": "Parking Gare courte durée - Parcus",
+      "source_url": "https://www.parcus.com/parking-gare-courte-duree/",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-10",
+      "text": "The Eurométropole publishes an open dataset of available spaces in its multi-storey and underground car parks, refreshed every 3 minutes under the Etalab Open Licence. On the research date it held 35 records.",
+      "source_title": "Occupation en temps réel des parkings",
+      "source_url": "https://data.strasbourg.eu/explore/dataset/occupation-parkings-temps-reel/information/",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2025-11-15",
+      "text": "Tram line F was extended with eight new stations to serve Koenigshoffen, Eckbolsheim and Wolfisheim, opening on 15 November 2025. A new park-and-ride at the Wolfisheim terminus has 100 car spaces and 50 bike spaces.",
+      "source_title": "Avec l'extension du tram F, les mobilités se redessinent à l'ouest",
+      "source_url": "https://www.strasbourg.eu/-/avec-extension-tram-f-les-mobilites-se-redessinent-a-ouest",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2025-12-12",
+      "text": "The Eurométropole reported that use of all its park-and-ride sites rose during the 2025 Christmas market period and that the new Wolfisheim P+R was heavily used. It said it was analysing P+R use to separate regular demand from Christmas-market peaks and might adapt capacity.",
+      "source_title": "Le succès des parkings-relais de l'Eurométropole en période de fêtes",
+      "source_url": "https://www.strasbourg.eu/-/succes-des-parkings-relais-de-l-eurometropole",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2025-11-25",
+      "text": "For the 2025 Christmas market, on-street parking was banned around the clock across the Grande-Île from 22:00 on 25 November. The official Christmas site pointed visitors to the 12 park-and-ride sites at 4.20 euros.",
+      "source_title": "How to park? | Noël à Strasbourg",
+      "source_url": "https://noel.strasbourg.eu/en/how-to-park",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2025-11-26",
+      "text": "A local guide reported that during the 2025 Christmas market (26 November to 24 December) the Grande-Île would be closed to general traffic. It also said the Kléber, Gutenberg and Broglie car parks would be closed to the public and kept for holders of a special access pass.",
+      "source_title": "Tout ce qu'il faut savoir sur le merveilleux Marché de Noël de Strasbourg cette année",
+      "source_url": "https://www.lebonbon.fr/strasbourg/news/strasbourg-stationnement-acces-marche-noel/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-01-21",
+      "text": "The city reported 3.05 million visitors to the 2025 Christmas market, below the record 3.4 million of 2024. About half of visitors lived in the Eurométropole, and hotel occupancy was close to 90%, with guests from Germany among other markets.",
+      "source_title": "Strasbourg Capitale de Noël a attiré plus de 3 millions de personnes",
+      "source_url": "https://www.strasbourg.eu/-/strasbourg-capitale-de-noel-a-attire-plus-de-3-millions-de-personnes",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "History of P+R fee changes (only the current 4.20-euro day ticket and long-stay prices were found; no dated change)",
+    "Dated changes to Parcus off-street hourly tariffs or subscription prices",
+    "Plate recognition / ticketless entry and reservation in Parcus car parks (only undated or 2021 mentions found; not included)",
+    "Centre-ville traffic plan details (ban on through-traffic across the centre, quay closures): only the Ring vélo-piéton works completion (Nov 2025) was found, with no car-traffic specifics",
+    "Car parks converted to bike parking (none found)",
+    "Presence and changes of Indigo, Q-Park and Effia car parks in Strasbourg (only aggregator listings found)",
+    "Cross-border shoppers from Germany, retail footfall in the centre, and remote-work effects",
+    "CTS network ridership totals for 2019-2025 (figures seen only in search snippets of an unopenable PDF)",
+    "Parcus legal status details (SEM shareholding percentages) beyond the SPL Parcus+voirie for on-street parking"
+  ]
+}

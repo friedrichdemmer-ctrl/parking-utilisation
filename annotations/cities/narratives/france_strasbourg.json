@@ -1,0 +1,17 @@
+{
+ "as_of": "2026-10",
+ "sections": [
+  {
+   "title": "Policy and access to the centre",
+   "text": "Our Strasbourg data is recent, so there is no city trend yet; the figures below are for weekdays in August and September 2026.\n\nStrasbourg's parking is run largely by public companies, with park-and-ride tied to the tram. Paid street parking keeps spreading outward: Neudorf became a paid zone in June 2024, with residents offered garage subscriptions instead [0]. Since December 2025 street parking has been run by a new public company, SPL Parcus+voirie, 95% owned by the city, replacing the private contractor Streeteo [4]. Unusually among the cities in our set, Strasbourg has made residents' parking cheaper: from July 2026 monthly permits fell from €15–40 to €5–20 depending on household income, and from September visitors' charges were capped at €17 for the maximum stay [5]. The low-emission zone has moved slowly. A ban on Crit'Air 3 vehicles was pushed back to 2027 [1][2], and a national attempt to abolish such zones was struck down in May 2026, so Strasbourg's stays [3]."
+  },
+  {
+   "title": "Parking developments",
+   "text": "Parcus, the public company that runs most of the city's car parks, reports 18 car parks with about 10,000 spaces and more than 3 million hourly customers in 2023 [8]. In June 2026 it also took over the 955-space Wodli car park and the bike park at the station [9]. The station's short-stay car park, closed after a fire on 1 May, reopened in late July 2026 [10]. Its car parks hold 137 charge points across 12 sites [7], and the Eurométropole publishes their free spaces as open data every three minutes [11].\n\nPark-and-ride is central to how the city handles peaks. A €4.20 day ticket covers parking plus tram and bus travel for up to seven people [6], and a new site opened at Wolfisheim with tram line F in November 2025 [12][13]. During the 2025 Christmas market the Grande-Île was closed to street parking around the clock and visitors were sent to the park-and-ride sites [14][15], whose use rose across the board [13]. The market drew 3.05 million visitors in 2025, below the record 3.4 million of 2024 [16]."
+  },
+  {
+   "title": "Operators, location, price and use",
+   "text": "Most of the city's car parks belong to Parcus, two-thirds of their spaces within a kilometre of Place Kléber, typically at €2 an hour and €20–22 a day. The two most central, Gutenberg and Broglie, charge €3.20, and price has no visible link with occupancy. The Parcus car parks we measure average 37% on weekdays. Bateliers is the fullest (70%, more at weekends), followed by the station's Wodli car park (59%), Petite France (57%) and Broglie (56%).\n\nThe striking finding is that park-and-ride sites are the fullest car parks in Strasbourg. The 12 we measure average 60% on weekdays: Poteries (78%), Kibitzenau (76%) and Rotonde (72%) are fuller than any garage in the centre, and Hoenheim station (65%) is close behind. At the other end, several large car parks stand mostly empty: the Rivetoile shopping centre's, with 1,520 spaces, at 11%, Les Halles at 17%, and Dock 1 and the COOP at 12–15%."
+  }
+ ]
+}
