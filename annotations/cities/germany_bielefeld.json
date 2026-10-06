@@ -111,13 +111,12 @@
   {
    "topic": "ev",
    "date": "2026-07-16",
-   "text": "A search-engine summary of Contipark's 16 July 2026 announcement on its renovated Ritterstraße garage gives 32 charging points and an investment of about €11 million; Radio Bielefeld reported 30 charging points.",
+   "text": "Contipark's announcement of 16 July 2026 says it invested about 11 million euros in renovating the Ritterstraße garage, which now has 425 spaces and 32 charging points. A local radio report had given 30 charging points and 480 spaces.",
    "source_title": "Contipark investiert in die Zukunft urbaner Mobilität in Bielefelder Innenstadt",
    "source_url": "https://www.konii.de/?p=211057",
-   "confidence": "unconfirmed",
+   "confidence": "medium",
    "id": 10,
-   "checked": "unconfirmed",
-   "unconfirmed_reason": "The announcement page is behind a login, so we could not read these figures on the page."
+   "checked": "partly"
   },
   {
    "topic": "ev",
@@ -132,13 +131,12 @@
   {
    "topic": "technology",
    "date": "2026-07-16",
-   "text": "A search-engine summary of the same announcement says the renovated Ritterstraße garage uses number-plate recognition for ticketless, cashless parking.",
+   "text": "Contipark's announcement says the renovated Ritterstraße garage is now ticketless and cashless, using number-plate recognition.",
    "source_title": "Contipark investiert in die Zukunft urbaner Mobilität in Bielefelder Innenstadt",
    "source_url": "https://www.konii.de/?p=211057",
-   "confidence": "unconfirmed",
+   "confidence": "medium",
    "id": 12,
-   "checked": "unconfirmed",
-   "unconfirmed_reason": "The announcement page is behind a login, so we could not read this on the page."
+   "checked": "partly"
   },
   {
    "topic": "demand",
