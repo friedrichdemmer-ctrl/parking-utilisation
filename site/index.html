@@ -189,6 +189,12 @@ table.data tr.link:hover td { background: var(--accent-soft); }
 .cal rect { rx: 1.5; }
 .note { font-size: .88rem; color: var(--ink-3); }
 .error { color: var(--bad); }
+.ctx { list-style: none; padding: 0; margin: 0; display: grid; gap: .8rem; max-width: 70ch; }
+.ctx li { display: grid; gap: .15rem; padding-top: .8rem; border-top: 1px solid var(--rule-soft); }
+.ctx .tag { font: 500 .72rem var(--font-data); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); }
+.ctx .src { font-size: .82rem; color: var(--ink-3); }
+.ctx .src a { color: var(--accent); }
+.opbar { display: inline-block; height: .5rem; background: var(--accent); border-radius: 1px; vertical-align: middle; margin-right: .4rem; }
 .skeleton { color: var(--ink-3); font-size: .9rem; }
 footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem; font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px solid var(--rule); }
 @media (prefers-reduced-motion: no-preference) { .chip, .card, .btn, .cityrow { transition: border-color .15s, background-color .15s; } }
@@ -672,6 +678,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
         <span style="display:flex;gap:.5rem;flex-wrap:wrap">${d.local_map ? `<a class="btn" href="#local/${enc(d.country)}/${enc(d.city)}">Local map</a>` : ""}<button type="button" class="btn" id="cityCmp">+ Compare</button></span></div>
         <div class="chart" id="cityWeek">${d.profile ? "" : `<p class="note">Not enough recent data for a typical week yet.</p>`}</div>
         ${d.profile ? `<p class="note">Share of the city's spaces occupied, hour by hour, ${esc(d.window.start)} to ${esc(d.window.end)}; ${d.profiled} garages with enough data.</p>` : ""}</div>
+      <div id="cityBrief"></div>
       <div class="panel"><h2>Garages</h2><div class="scroll"><table class="data">
         <thead><tr><th>Garage</th><th>Type</th><th class="r">Spaces</th><th class="r">Per hour</th><th class="r">Now</th><th class="r">Typical</th><th class="r">Full hours / week</th><th>Typical week</th></tr></thead>
         <tbody>${d.garages.map(g => `<tr class="link" data-id="${esc(g.id)}" tabindex="0"><td>${esc(g.name)}</td><td class="muted">${esc(g.type)}</td>
@@ -679,9 +686,61 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
           <td class="r num">${g.typical ? pct(g.typical.avg * 100) : "–"}</td><td class="r num">${g.typical ? g.typical.full_hours : "–"}</td>
           <td>${g.typical ? spark(g.typical.spark) : ""}</td></tr>`).join("")}</tbody></table></div></div>`;
     if (d.profile) weekChart(document.getElementById("cityWeek"), [{ values: d.profile, color: "var(--accent)", label: d.city }]);
+    loadBriefing(d.country, d.city);
     exBody.querySelector("tbody").addEventListener("click", ev => { const tr = ev.target.closest("tr[data-id]"); if (tr) location.hash = garageHash(tr.dataset.id); });
     exBody.querySelector("tbody").addEventListener("keydown", ev => { if (ev.key === "Enter" && ev.target.matches("tr[data-id]")) ev.target.click(); });
     document.getElementById("cityCmp").addEventListener("click", () => { addCompare({ kind: "city", city: d.city, country: d.country }); location.hash = "#compare"; });
+  }
+
+  // ---- city briefing: operators, trend against Germany, EV, researched context ----
+  const TOPICS = { regulation: "Regulation", tariffs: "Prices", ev: "EV charging", operators: "Operators", technology: "Technology", demand: "Demand" };
+  const monthLabel = k => `${["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][+k.slice(5) - 1]} ${k.slice(0, 4)}`;
+  function trendSvg(t, city) {
+    const ms = t.months.filter(k => t.index[k] != null), W = 640, H = 200, m = { l: 34, r: 12, t: 12, b: 24 };
+    const vals = ms.flatMap(k => [t.index[k], t.germany ? t.germany[k] : null]).filter(v => v != null);
+    const lo = Math.floor(Math.min(...vals) / 20) * 20, hi = Math.ceil(Math.max(...vals) / 20) * 20;
+    const x = i => m.l + i * (W - m.l - m.r) / (ms.length - 1), y = v => m.t + (H - m.t - m.b) * (1 - (v - lo) / (hi - lo));
+    const line = (get, stroke, dash) => { let d = "", pen = false; ms.forEach((k, i) => { const v = get(k); if (v == null) { pen = false; return; } d += (pen ? "L" : "M") + x(i).toFixed(1) + "," + y(v).toFixed(1); pen = true; }); return `<path d="${d}" fill="none" stroke="${stroke}" stroke-width="2" ${dash ? 'stroke-dasharray="4 3"' : ""}/>`; };
+    const ticks = []; for (let v = lo; v <= hi; v += 20) ticks.push(v);
+    return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Occupancy index for ${esc(city)} against Germany, 2023 = 100" style="width:100%;max-width:${W}px;height:auto">
+      ${ticks.map(v => `<line x1="${m.l}" x2="${W - m.r}" y1="${y(v)}" y2="${y(v)}" stroke="var(--rule-soft)"/><text x="${m.l - 6}" y="${y(v) + 4}" text-anchor="end" style="font:11px var(--font-data);fill:var(--ink-3)">${v}</text>`).join("")}
+      ${ms.map((k, i) => k.endsWith("-01") ? `<text x="${x(i)}" y="${H - 6}" text-anchor="middle" style="font:11px var(--font-data);fill:var(--ink-3)">${k.slice(0, 4)}</text>` : "").join("")}
+      ${t.germany ? line(k => t.germany[k], "var(--ref)", true) : ""}${line(k => t.index[k], "var(--accent)", false)}</svg>`;
+  }
+  async function loadBriefing(country, city) {
+    const host = document.getElementById("cityBrief");
+    let b;
+    try { b = await api(`/api/briefing?country=${enc(country)}&city=${enc(city)}`); } catch (e) { return; }
+    if (!host.isConnected) return;
+    const fmtMoney = new Intl.NumberFormat("en-GB", { style: "currency", currency: b.currency || "EUR", minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    const money2 = v => v == null ? "–" : v === 0 ? "free" : fmtMoney.format(v);
+    const t = b.trend, ops = b.operators, notes = b.notes, ev = b.ev, po = b.price_occupancy;
+    const maxOcc = Math.max(1, ...ops.map(o => o.weekday_occupancy || 0));
+    let html = `<div class="panel"><h2>${esc(city)} briefing</h2>`;
+    if (t) {
+      const dir = t.change_pts > 0.5 ? "up" : t.change_pts < -0.5 ? "down" : "level";
+      html += `<h3 style="font-size:1rem;margin:.2rem 0 0">Trend since 2020</h3>${trendSvg(t, city)}
+        <p class="note"><b style="color:var(--accent)">&mdash;</b> ${esc(city)} &nbsp; <b style="color:var(--ref)">- -</b> Germany overall. Index, 2023 average = 100, linked year on year over ${t.garages} garages with long histories. In the twelve months to ${esc(monthLabel(t.window[1]))} the average space here was ${(t.now * 100).toFixed(1)}% occupied against ${(t.then * 100).toFixed(1)}% a year earlier (${t.change_pts > 0 ? "+" : ""}${t.change_pts.toFixed(1)} points, ${dir}).</p>`;
+    }
+    html += `<h3 style="font-size:1rem;margin:.6rem 0 0">Operators</h3><div class="scroll"><table class="data"><thead><tr><th>Operator</th><th class="r">Garages</th><th class="r">Spaces</th><th class="r">Share</th><th class="r">Median per hour</th><th class="r">Median day ticket</th><th class="r">EV recorded</th><th class="r">Weekday occupancy*</th></tr></thead><tbody>` +
+      ops.map(o => `<tr><td>${esc(o.operator)}</td><td class="r num">${fmt(o.garages)}</td><td class="r num">${o.spaces ? fmt(o.spaces) : "n/p"}</td><td class="r num">${o.spaces ? o.share_of_spaces + "%" : "–"}</td>
+        <td class="r num">${money2(o.median_rate)}</td><td class="r num">${money2(o.median_day_ticket)}</td><td class="r num">${o.ev_known ? `${o.ev} of ${o.garages}` : "–"}</td>
+        <td class="r num">${o.weekday_occupancy != null ? `<span class="opbar" style="width:${Math.round(o.weekday_occupancy / maxOcc * 60)}px"></span>${o.weekday_occupancy}% <span class="muted">(${o.measured})</span>` : "–"}</td></tr>`).join("") + `</tbody></table></div>
+      <p class="note">Garages, spaces, prices and EV charging: every garage in our research set for ${esc(city)} (${fmt(b.garages)}); "n/p" means the operator publishes no capacity. *Occupancy covers only the ${b.measured} garages we measure, so it describes those, not the operator's whole estate; the figure in brackets is how many.</p>`;
+    const read = [];
+    if (po && po.r != null) read.push(`Across the ${po.n} priced garages we measure here, dearer garages ${Math.abs(po.r) < .3 ? "are not clearly emptier or fuller" : po.r > 0 ? "tend to be fuller" : "tend to be emptier"} (correlation ${po.r}).`);
+    if (ev) read.push(`EV charging is recorded for ${ev.with_ev} of ${ev.total} garages${ev.unknown ? `; for ${ev.unknown} there is no record either way, so the real number is higher` : ""}.`);
+    if (read.length) html += `<p>${read.map(esc).join(" ")}</p>`;
+    html += `</div>`;
+    if (notes) {
+      const by = {};
+      for (const it of notes.items) (by[it.topic] = by[it.topic] || []).push(it);
+      html += `<div class="panel"><h2>Context</h2><p>${esc(notes.summary)}</p><ul class="ctx">` +
+        Object.keys(TOPICS).filter(k => by[k]).flatMap(k => by[k].sort((a, c) => (c.date || "").localeCompare(a.date || "")).map(it =>
+          `<li><span class="tag">${TOPICS[k]} · ${esc(it.date)}</span><span>${esc(it.text)}</span><span class="src">Source: <a href="${esc(it.source_url)}" rel="noopener nofollow" target="_blank">${esc(it.source_title)}</a> · confidence ${esc(it.confidence)}</span></li>`)).join("") + `</ul>
+        <p class="note">Written from the linked pages, researched ${esc(notes.researched)}; the pages themselves are not ours and can change. ${notes.gaps && notes.gaps.length ? "Not found: " + esc(notes.gaps.join("; ")) + "." : ""}</p></div>`;
+    }
+    host.innerHTML = html;
   }
 
   async function renderGarage(id) {

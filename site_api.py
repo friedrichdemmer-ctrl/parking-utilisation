@@ -258,6 +258,37 @@ def api_local_map():
     return jsonify(m)
 
 
+def _trends() -> dict | None:
+    """Latest trends report (reloaded when a newer file appears)."""
+    files = sorted(REPORTS_DIR.glob("trends_20*.json"), key=lambda p: p.stat().st_mtime)
+    if not files:
+        return None
+    latest = files[-1]
+    hit = _cache.get("trends")
+    if hit and hit[1][0] == (latest, latest.stat().st_mtime):
+        return hit[1][1]
+    data = json.loads(latest.read_text(encoding="utf-8"))
+    _cache["trends"] = (time.time(), ((latest, latest.stat().st_mtime), data))
+    return data
+
+
+@bp.route("/api/briefing")
+def api_briefing():
+    """One city: operator positioning, the city's trend against Germany's, EV coverage, and the
+    sourced context we have researched for it (annotations/cities/). See city_briefing.py."""
+    import city_briefing
+
+    country, city = request.args.get("country", ""), request.args.get("city", "")
+
+    def build():
+        return city_briefing.build(country, city, list(_report()["garages"].values()), _trends())
+
+    out = _cached(f"briefing:{country}|{city}", 3600, build)
+    if out is None:
+        return jsonify({"error": "No briefing for this city."}), 404
+    return jsonify(out)
+
+
 @bp.route("/api/search")
 def api_search():
     q = (request.args.get("q") or "").strip()

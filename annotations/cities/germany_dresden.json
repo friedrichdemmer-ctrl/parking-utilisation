@@ -1,0 +1,86 @@
+{
+ "country": "Germany",
+ "city": "Dresden",
+ "researched": "2026-10-06",
+ "verified": "2026-10-06",
+ "summary": "In January 2021 Dresden announced a three-step increase in on-street parking fees, the first in about 15 years, with further steps due in 2022 and 2023; these are on-street zone rates, not garage prices. After part of the Carolabruecke collapsed on 11 September 2024, figures reported in March 2025 showed higher traffic on other Elbe crossings. In 2019 and 2022 the city set out public charging expansion plans, including a 2022 forecast of 400 charge points by the end of 2022.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2020-11",
+   "text": "ADAC Sachsen commented on the city administration's plan to raise parking fees, which it said would be the first rise since 2006. It described the proposal as at least a doubling and up to 400 percent in some zones, and said it went too far.",
+   "source_title": "ADAC Sachsen: Parken in Dresden darf nicht zum Luxus werden",
+   "source_url": "https://presse.adac.de/regionalclubs/sachsen/parkgebuehren-dresden.html",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2021-01",
+   "text": "The city announced a three-step increase in on-street parking fees, the first in 15 years, with the first step to follow the council's adoption of the fee ordinance in 2021 and further steps on 1 January 2022 and 1 January 2023. Hourly rates were 2.10 euros (zone 1) and 1.50 euros (zone 2) in 2021, 2.40 and 1.80 in 2022, and 2.70 and 2.10 in 2023, with day tickets of 12 and 6 euros from 2021; these are on-street zone rates, not garage prices.",
+   "source_title": "Dresden erhöht die Parkgebühren erstmals nach 15 Jahren",
+   "source_url": "https://www.dd-inside.de/newsticker/35831-dresden-erh-246ht-die-parkgeb-252hren-erstmals-nach-15-jahren",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2026",
+   "text": "APCOA's page for its Dresden-Mitte garage (Magdeburger Strasse 1) lists 606 spaces, a parking guidance system and ticketless parking through its FLOW app. It also lists 1.50 euros per hour with an 8 euro daily maximum for 08:00-20:00, as shown when checked in October 2026.",
+   "source_title": "APCOA Dresden Mitte",
+   "source_url": "https://apcoa.de/en/parking/dresden/dresden-mitte",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2019-09",
+   "text": "The city counted 163 public charging stations in August 2019 and planned over 400 normal and fast charging stations by 2022; the plan also includes more than 30 mobility points. The article does not mention parking garages.",
+   "source_title": "Dresden kündigt massiven Ausbau der Ladeinfrastruktur an (electrive)",
+   "source_url": "https://www.electrive.net/2019/09/12/dresden-kuendigt-massiven-ausbau-der-ladeinfrastruktur-an/",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2022-03",
+   "text": "A city official said Dresden expected to reach 400 public charge points by the end of 2022 rather than the originally planned 2025, and that about 30 percent of public charging infrastructure was fast chargers. This was a forecast at the time of publication, not a result.",
+   "source_title": "Dresden peilt Ladeinfrastruktur-Ziel drei Jahre früher an (electrive)",
+   "source_url": "https://www.electrive.net/2022/03/09/dresden-peilt-ladeinfrastruktur-ziel-drei-jahre-frueher-an/",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-09-11",
+   "text": "A section of the Carolabruecke collapsed into the Elbe on 11 September 2024; more than 30,000 vehicles a day had used the bridge, and tram tracks ran over the collapsed section. The last remains of the collapsed section were removed in May 2025 and demolition of the remaining standing parts followed from June, with the work described as almost complete about a year after the collapse.",
+   "source_title": "Verkehrsinfrastruktur: Bilanz und Ausblick ein Jahr nach Carolabrücken-Einsturz (Logistik Heute)",
+   "source_url": "https://logistik-heute.de/news/verkehrsinfrastruktur-bilanz-und-ausblick-ein-jahr-nach-carolabruecken-einsturz-225751.html",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-03-05",
+   "text": "Six months after the collapse, t-online reported Albertbruecke traffic up 88 percent, Marienbruecke up 30 percent and Waldschloesschenbruecke up 8 percent. North-south trips took about four minutes longer on average. DVB reported its highest passenger numbers since reunification in December 2024.",
+   "source_title": "Dresden: So hat sich der Verkehr seit Einsturz der Carolabrücke verlagert (t-online)",
+   "source_url": "https://dresden.t-online.de/region/dresden/id_100622712/dresden-so-hat-sich-der-verkehr-seit-einsturz-der-carolabruecke-verlagert.html",
+   "confidence": "medium",
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Garage-specific tariff changes for city-owned or APCOA/Contipark garages (only on-street fee changes and one current APCOA tariff were sourced)",
+  "Public EV charging inside or at specific Dresden garages (only city-wide charge-point figures found)",
+  "Garage openings, closures, demolitions, acquisitions or operator changes in central Dresden (search returned nothing verifiable; a Parkhaus Rathaus renovation hit was Aachen, not Dresden, and was excluded)",
+  "Car-free or low-emission zone plans and parking-space reduction decisions for the city centre (Mobilitaetsplan 2035+ exists but no council parking decision could be sourced)",
+  "Dated ANPR/ticketless rollout or dynamic pricing in city-owned garages",
+  "Measured effects of the Carolabruecke collapse on city-centre visits, retail frequency or garage use",
+  "Deutschlandticket start effects and remote-work effects on Dresden visits",
+  "Later steps of the 2021 fee plan (2022 and 2023 rates as actually applied) and any fee changes after 2023",
+  "Most dresden.de pages returned HTTP 503 when opened, so the city items rest on search-result text, not full page reads"
+ ],
+ "dropped": {
+  "unreachable": 3
+ }
+}

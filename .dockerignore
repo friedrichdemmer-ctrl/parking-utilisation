@@ -10,3 +10,6 @@ __pycache__/
 *.pyc
 .git/
 .DS_Store
+annotations/cities/*.draft.json
+annotations/cities/*.verdict.json
+annotations/cities/build.py

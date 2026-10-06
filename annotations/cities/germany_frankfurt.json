@@ -1,0 +1,146 @@
+{
+ "country": "Germany",
+ "city": "Frankfurt",
+ "researched": "2026-10-06",
+ "verified": "2026-10-06",
+ "summary": "Frankfurt's 2025 Masterplan Mobilität lists higher parking fees among its key measures, and the city has a park-and-ride concept with about 3,000 planned new spaces. Resident-permit fees rose from EUR 50 to EUR 240 for two years in January 2024. The city and ABG announced plans for hundreds of new charging points in public garages from 2023, PBG has introduced plate-recognition entry in 12 garages, and the IHK reported in 2024 that the municipal parking guidance system was switched off, with the city saying a replacement could start construction mid-2026 at the earliest.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2019-02",
+   "text": "Frankfurt announced a new on-street parking concept that would turn the previously free spaces in resident-parking areas inside the Alleenring (and districts such as Bornheim, Bockenheim, Dornbusch, Gallus) into paid, metered spaces. At that time the downtown meter rate was EUR 1 per 20 minutes and EUR 0.50 in outer districts, and the resident permit cost EUR 50 for two years.",
+   "source_title": "Neues Parkraumkonzept wird eingeführt: Keine kostenlosen Parkplätze mehr in Frankfurt",
+   "source_url": "https://www.journal-frankfurt.de/journal_news/Urbanes-Frankfurt-58/Neues-Parkraumkonzept-wird-eingefuehrt-Keine-kostenlosen-Parkplaetze-mehr-in-Frankfurt-33502.html",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-01",
+   "text": "The city parliament voted to close the Mainkai (between Alte Brücke and Untermainbrücke) to motor traffic step by step over four years, starting with weekend and overnight closures and full closure in Hessian school holidays. Full closure was made conditional on an alternative routing concept to protect other districts, especially Sachsenhausen.",
+   "source_title": "Stadtverordnetenversammlung: Mainkai-Sperrung kommt zurück",
+   "source_url": "https://www.journal-frankfurt.de/journal_news/urbanes-frankfurt-58/Stadtverordnetenversammlung-Mainkai-Sperrung-kommt-zurueck-38643.html",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-09",
+   "text": "The Mainkai was closed to cars for about ten weeks in summer 2023 and reopened to traffic on 1 September 2023. The city said traffic disruption came mainly from large events such as the Mainfest, and that a detailed traffic analysis was due in October 2023.",
+   "source_title": "Mainkai-Sperrung: Erste Ergebnisse - Frankfurter nehmen autofreien Mainkai positiv auf",
+   "source_url": "https://www.journal-frankfurt.de/journal_news/Stadtleben-2/Mainkai-Sperrung-Erste-Ergebnisse-Frankfurter-nehmen-autofreien-Mainkai-positiv-auf-41256.html",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-01",
+   "text": "On 10 January 2024 the price of a Frankfurt resident parking permit rose from EUR 50 to EUR 240 for two years, the first adjustment in 20 years, following a city parliament decision of 20 July 2023.",
+   "source_title": "Ab Mittwoch: Anwohnerparken in Frankfurt wird fast fünfmal so teuer",
+   "source_url": "https://www.journal-frankfurt.de/journal_news/Urbanes-Frankfurt-58/Ab-Mittwoch-Anwohnerparken-in-Frankfurt-wird-fast-fuenfmal-so-teuer-41809.html",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-05",
+   "text": "The city parliament approved the Masterplan Mobilität with a two-thirds majority (the city executive had approved it in March 2025). It targets 80% of trips on foot, by bike or public transport by 2035, up from 67% now, and lists higher parking fees among its eleven key measures without giving amounts.",
+   "source_title": "Verkehrswende: Frankfurt stimmt endgültig für \"Masterplan Mobilität\"",
+   "source_url": "https://www.hessenschau.de/politik/frankfurt-stimmt-endgueltig-fuer-masterplan-mobilitaet-v1,frankfurt-masterplan-mobilitaet-100.html",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-09",
+   "text": "A report on the city's park-and-ride concept lists about 3,000 new spaces at several sites (for example 500+ at Hessen-Center Enkheim, about 640 at Römerhof, 600+ at Praunheim) plus about 1,000 possibly at Gateway Gardens. The city described the schedule as still open.",
+   "source_title": "Frankfurt am Main plant 3.000 neue Park+Ride-Stellplätze für Pendler",
+   "source_url": "https://www.entwicklungsstadt.de/frankfurt-am-main-plant-3-000-neue-parkride-stellplaetze-fuer-pendler/",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2022-05",
+   "text": "ABG (parent of PBG), Mainova and the city announced 284 new AC charge points of up to 22 kW in 11 public garages, taking the total at those sites from 16 to about 300, with construction planned for 2023. Charging in these garages is subject to the normal parking fee.",
+   "source_title": "Frankfurt plant 284 Ladepunkte in Parkhäusern",
+   "source_url": "https://www.electrive.net/2022/05/11/frankfurt-plant-284-ladepunkte-in-parkhaeusern/",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2023-12",
+   "text": "In December 2023 the city said the first 150-plus of its new AC charge points in public garages, including 40 at Parkhaus Konstabler, 31 at Konrad-Adenauer-Straße and 30 at Tiefgarage Goetheplatz, were due to go into operation that month. A second stage of a further 130 points, including garages such as Schiller Passage, Am Gericht, Börse and DomRömer, was planned for completion in the first half of 2024.",
+   "source_title": "Frankfurt will 150 neue AC-Ladepunkte in Betrieb nehmen",
+   "source_url": "https://www.electrive.net/2023/12/18/frankfurt-will-150-neue-ac-ladepunkte-in-betrieb-nehmen/",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-02",
+   "text": "The city opened a tender for the next regular phase of public charging, about 400 AC and 20 DC points. It cited 2,133 existing public points (1,890 AC, 243 DC) and a rise of over 350% in public AC points between January 2023 and January 2026.",
+   "source_title": "Frankfurt startet Ausschreibung für nächste Lade-Ausbaustufe",
+   "source_url": "https://www.electrive.net/2026/02/23/frankfurt-startet-ausschreibung-fuer-naechste-lade-ausbaustufe/",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2023-11",
+   "text": "A vendor case study says PBG installed plate-recognition entry and a customer portal for registered long-term parkers in 12 garages with over 6,700 spaces. It quotes PBG as handling about 7 million short-term parkers and 10,000 long-term parkers a year.",
+   "source_title": "Arivo Reference Story: PBG in Frankfurt",
+   "source_url": "https://arivo.co/en/blog/reference/parkhaus-betriebsgesellschaft-mbh",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2024-09",
+   "text": "Frankfurt's chamber of commerce (IHK) said the city's parking guidance system had been switched off, having been disconnected from city IT in 2022 over security gaps, with garage availability data entered by hand for over two years. According to the IHK, the city said construction of a replacement could start mid-2026 at the earliest.",
+   "source_title": "Drei Jahre ohne Parkleitsystem sind nicht akzeptabel",
+   "source_url": "https://www.frankfurt-main.ihk.de/presse/pressemeldungen/drei-jahre-ohne-parkleitsystem-sind-nicht-akzeptabel-6259088",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-12",
+   "text": "The IHK's 2025 inner-city statistics report counts over 3,200 businesses (936 of them retail) in the Frankfurt centre and says 43% of visitors come from outside Frankfurt, mostly by car. It also names weak consumer spending and online competition as challenges.",
+   "source_title": "Neuerscheinung Zahlenspiegel Frankfurter Innenstadt 2025: Handel bleibt Motor der City – Transformation konsequent weiterdenken",
+   "source_url": "https://www.frankfurt-main.ihk.de/presse/pressemeldungen2025/zahlenspiegel-frankfurter-innenstadt-2025-6928350",
+   "confidence": "high",
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-03",
+   "text": "Frankfurt recorded 11,023,600 overnight stays in 2025, down 1% on 2024, which was lifted by the men's European Football Championship; domestic guests set a record of 4.2 million overnight stays while international guests fell 6.7%.",
+   "source_title": "Übernachtungszahlen in Frankfurt weiter auf hohem Niveau",
+   "source_url": "https://www.hessenschau.de/wirtschaft/uebernachtungszahlen-in-frankfurt-weiter-auf-hohem-niveau-v1,uebernachtungszahlen-frankfurt-100.html",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-01",
+   "text": "The regional transport authority RMV reported a record 839 million passengers in 2025 and 650,000 active Deutschlandtickets in its area, up 8.3% on 2024.",
+   "source_title": "Verkehr in Frankfurt: RMV erreicht Fahrgast-Rekord",
+   "source_url": "https://events.journal-frankfurt.de/journal_news/wohnenverkehr-153/Verkehr-in-Frankfurt-RMV-erreicht-Fahrgast-Rekord-45110.html",
+   "confidence": "medium",
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "PBG or other public-garage tariff changes (no dated, sourced price change found)",
+  "On-street meter price changes since 2019 (a budget-consolidation plan mentioned in search results was not confirmed on a page)",
+  "Garage acquisitions, closures, new operators or PBG renovations 2019-2026",
+  "Dynamic pricing, reservation and app payment specific to Frankfurt garages",
+  "Construction that changed access to specific garages",
+  "Low-emission zone changes",
+  "Messe Frankfurt visitor numbers for the Frankfurt site specifically (only group-wide figures seen)",
+  "Measured effect of Deutschlandticket or remote work on city-centre visits"
+ ],
+ "dropped": {}
+}

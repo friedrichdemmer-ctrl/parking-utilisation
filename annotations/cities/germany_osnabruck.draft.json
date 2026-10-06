@@ -1,0 +1,129 @@
+{
+  "country": "Germany",
+  "city": "Osnabrück",
+  "researched": "2026-10-06",
+  "summary": "Public garage parking in Osnabrück is run mainly by OPG, a Stadtwerke Osnabrück subsidiary, which operates more than 5,000 spaces and about 150 charge points across the city and region. In 2022 the city said it had no council decision to reduce on-street parking, while resident-permit fees and garage tariffs were raised in steps between 2023 and 2025. OPG introduced a discounted cashless tariff with plate-based payment in July 2024, and a phased renovation of the Kollegienwall-Garage runs to 2028.",
+  "items": [
+    {
+      "topic": "regulation",
+      "date": "2022-09",
+      "text": "In a reply to a Deutsche Umwelthilfe information request dated 14 September 2022, the city said there was no council decision to reduce on-street parking, although removal or relocation of spaces (for example into neighbourhood garages) is discussed within road rebuilding projects. It also said no free parking exists inside the Wallring, except permit-holders in resident zones and a 3-hour disc allowance for electric vehicles.",
+      "source_title": "Anfrage nach dem Umweltinformationsgesetz zum Parkraummanagement (reply of the Oberbürgermeisterin, Stadt Osnabrück, to Deutsche Umwelthilfe)",
+      "source_url": "https://media.frag-den-staat.de/files/foi/789026/2022-09-14-anfrageduh-antwort.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2022-09",
+      "text": "The same city reply states that on-street parking costs twice as much as parking in garages, and that the garages' free capacity is shown in real time through an online parking guidance system and displays in the street.",
+      "source_title": "Anfrage nach dem Umweltinformationsgesetz zum Parkraummanagement (reply of the Oberbürgermeisterin, Stadt Osnabrück, to Deutsche Umwelthilfe)",
+      "source_url": "https://media.frag-den-staat.de/files/foi/789026/2022-09-14-anfrageduh-antwort.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2019",
+      "text": "The city reported that, for selected inner-city garages in reference year 2019 (full year, Sundays excluded), average occupancy was clearly above 80 percent. It added that surveys in resident-parking zones showed 90 to 95 percent on-street occupancy over the day.",
+      "source_title": "Anfrage nach dem Umweltinformationsgesetz zum Parkraummanagement (reply of the Oberbürgermeisterin, Stadt Osnabrück, to Deutsche Umwelthilfe)",
+      "source_url": "https://media.frag-den-staat.de/files/foi/789026/2022-09-14-anfrageduh-antwort.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2022-12-06",
+      "text": "The city council resolved a two-step increase of the annual resident parking permit fee: from 30.70 euros to 90 euros from 1 January 2023, and to 120 euros from 1 January 2025.",
+      "source_title": "Satzung über die Gebühren für Bewohnerparkausweise in der Stadt Osnabrück (Green council group, council motions)",
+      "source_url": "https://fraktion-gruene-os.de/ratspolitik/antraege/ratsantraege-einzelansicht/satzung-ueber-die-gebuehren-fuer-bewohnerparkausweise-in-der-stadt-osnabrueck",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2020-01",
+      "text": "OPG cut Bahnhofsgarage (main station) tariffs by up to 30 percent as of January 2020; the single 24-hour rate fell from 30 to 21 euros and billing moved to hourly instead of by calendar day. The page gives the aim as making it easier for customers to use the train.",
+      "source_title": "Bahnhofsgarage: Umstieg vom Auto auf die Bahn noch attraktiver (Stadtwerke Osnabrück)",
+      "source_url": "https://www.stadtwerke-osnabrueck.de/bahnhofsgarage-umstieg-vom-auto-auf-die-bahn-noch-attraktiver-ddd4a24f021f0bf8",
+      "confidence": "medium"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2022-01-26",
+      "text": "A proposal before the Finance Committee would raise the first-hour price in several OPG city-centre garages and car parks from 1.50 to 2.00 euros from 1 July 2022, pending a council vote planned for 8 February 2022. The report says OPG's previous increase was in 2013 and that a competitor raised its hourly rate to 2.00 euros in 2018; this report is a proposal, and the outcome was not confirmed here.",
+      "source_title": "2€ statt 1,50€ in der ersten Stunde geplant: Wird Parken in der Stadt Osnabrück teurer?",
+      "source_url": "https://www.hasepost.de/2e-statt-150e-in-der-erste-stunde-geplant-wird-parken-in-der-stadt-osnabrueck-teurer-289340/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2023-11-08",
+      "text": "HASEPOST reported the council majority approved city-centre garage tariffs from 2024 of 2.50 euros for the first hour and 2.00 euros for each further hour inside the Wallring, above the 2.00 euros the administration had first proposed. The article compares a 2-hour stay at 4.50 euros or more with 2.75 euros in Oldenburg, 3.45 in Bielefeld and 4.25 in Münster.",
+      "source_title": "Osnabrück bekommt jetzt die teuersten Parktarife weit und breit",
+      "source_url": "https://www.hasepost.de/osnabrueck-bekommt-jetzt-die-teuersten-parktarife-weit-und-breit-415622/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2024-07-01",
+      "text": "OPG introduced a discounted cashless tariff on 1 July 2024 at 20 new payment terminals, saving up to 11 percent on a two-hour stay compared with the new base tariff. The base tariff rose by 50 cents per hour, while cashless payers pay at most 30 cents more per hour.",
+      "source_title": "Per Karte oder Smartphone vergünstigt parken (Stadtwerke Osnabrück, published 2024-06-26); Neuer Bargeldlos-Tarif ab 01. Juli 2024 (OPG)",
+      "source_url": "https://www.stadtwerke-osnabrueck.de/per-karte-oder-smartphone-verguenstigt-parken-289d1bc9cc7508a4",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2024-07-01",
+      "text": "The new OPG payment terminals let drivers who cannot find their ticket enter their licence plate to pay. OPG's own news item says it is moving toward fully ticketless parking.",
+      "source_title": "Neuer Bargeldlos-Tarif ab 01. Juli 2024 (OPG)",
+      "source_url": "https://www.parken-osnabrueck.de/unternehmen/aktuelles/artikel/neuer-bargeldlos-tarif.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2021-01-05",
+      "text": "Stadtwerke Osnabrück ended its own charging cards at the end of 2020 and said it would focus on expanding public charging through its subsidiary OPG. The report says Osnabrück had more than 100 public charge points at that time.",
+      "source_title": "Stadtwerke Osnabrück ziehen eigene Ladekarten für Stromtanken zurück (ZfK)",
+      "source_url": "https://www.zfk.de/mobilitaet/e-mobilitaet/stadtwerke-osnabrueck-ziehen-eigene-ladekarten-fuer-stromtanken-zurueck",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2026",
+      "text": "Stadtwerke Osnabrück's parking page describes OPG as managing more than 5,000 parking spaces and about 150 charge points in the city and region, with at least two to three charge points in each garage.",
+      "source_title": "Parken & Laden in Osnabrück (Stadtwerke Osnabrück)",
+      "source_url": "https://www.stadtwerke-osnabrueck.de/mobilitaet/parken",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-08-26",
+      "text": "OPG announced a phased renovation of the Kollegienwall-Garage lasting until 2028, with temporary restrictions and changed traffic routing. The Justizteil section is fully closed from 14 September 2026 to early December 2026, and contract customers are pointed to the Bahnhofsgarage and Ledenhof-Garage.",
+      "source_title": "Schrittweise Sanierung der Kollegienwall-Garage bis 2028 (OPG)",
+      "source_url": "https://www.parken-osnabrueck.de/unternehmen/aktuelles/artikel/sanierungsarbeiten-kollegienwall-garage-bis-2028.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-10-01",
+      "text": "OPG announced that the Osnabrück parking guidance system would be unavailable or limited from 6 to 9 October 2026 because of a software changeover, while the garages stay open.",
+      "source_title": "Parkleitsystem vom 06.10. bis 09.10.2026 zeitweise außer Betrieb (OPG)",
+      "source_url": "https://www.parken-osnabrueck.de/unternehmen/aktuelles/artikel/parkleitsystem-zeitweise-ausser-betrieb.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2020-10",
+      "text": "The Galeria department store at Neumarkt closed in October 2020. A January 2025 trade report says a planned sale of the building to a Münster investor was cancelled.",
+      "source_title": "Investor bläst Kauf des früheren Osnabrücker Galeria-Hauses ab (TextilWirtschaft)",
+      "source_url": "https://www.textilwirtschaft.de/fashion-management/investor-blaest-kauf-des-frueheren-osnabruecker-galeria-hauses-ab-90908",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "No confirmation found of which tariff steps actually took effect in January 2024 and January 2025 (only council plans reported by HASEPOST and the OPG July 2024 notice).",
+    "No source found for the park-and-ride Rubbenbruchsee opening date, nor for any Innenstadt traffic or parking-space reduction decision after 2022.",
+    "No source found for local Deutschlandticket effects, footfall or retail-visit statistics for the city centre.",
+    "No source found for new OPG garage openings or closures, or any change of ownership, in 2019-2026.",
+    "No source found for garage reservation or dynamic pricing, or for the date ANPR/ticketless entry was introduced.",
+    "No dated source found for road works that restricted access to specific garages (Wallring or Innenstadt), other than the Kollegienwall-Garage renovation.",
+    "On-street parking price changes and the date of the digital on-street payment option could not be sourced (the city page returned an error)."
+  ]
+}

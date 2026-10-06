@@ -1,0 +1,127 @@
+{
+ "country": "Germany",
+ "city": "Düsseldorf",
+ "researched": "2026-10-06",
+ "verified": "2026-10-06",
+ "summary": "Since 2019 Duesseldorf has planned higher on-street parking prices and more resident-parking zones; a 2021 settlement on air quality included no driving bans and listed park-and-ride and EV-charging expansion among its measures. Operators of city-centre garages have added number-plate recognition, ticketless entry and EV charging. After the 2024 Galeria insolvency proceedings both Duesseldorf Galeria stores were to remain open.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2019-11",
+   "text": "The city administration proposed raising on-street parking in the inner-city zone from 2.90 to 4.00 euros per hour (Mon-Sat, 9:00-22:00), with a 5-euro flat rate overnight; the last change had been in December 2015. A council decision was pencilled in for 6 February 2020; the source does not report the outcome.",
+   "source_title": "Düsseldorf: Konsequent gegen Autoverkehr – Parkgebühren sollen steigen",
+   "source_url": "https://www.ddorf-aktuell.de/2019/11/19/duesseldorf-konsequent-gegen-autoverkehr-parkgebuehren-sollen-steigen-122845/",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2020-06",
+   "text": "A resolution passed in June 2020 provided for 25 further resident-parking zones on top of the existing 31; a later resolution folded this extension in and picked Bilk and Flingern as pilot areas. The page ties the parking policy to the goals of the 2019 Mobility Plan D.",
+   "source_title": "Parkraumbewirtschaftung in 13 Bezirken, zunächst in Bilk und Flingern",
+   "source_url": "https://www.mobilitaetswende-duesseldorf.de/parkraumbewirtschaftung-in-13-bezirken-zunaechst-in-bilk-und-flingern-cmd-baut-2022-in-ddorf-7-mobilstationen-und-ueber-100-weitere-bis-2030/",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2020-09",
+   "text": "APCOA took over operation of the underground car park at KII / Schauspielhaus (660 spaces on five levels) and introduced barcode plus number-plate recognition, dynamic pricing based on occupancy, an RFID chip for contactless barrier access, and 24 E.ON charging points.",
+   "source_title": "Scheidt & Bachmann and APCOA Modernize Parking at KII in Düsseldorf",
+   "source_url": "https://www.parking.net/parking-news/apcoa-and-scheidt-bachmann-gmbh/modernize-parking-at-kii-in-duesseldorf",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2021-01",
+   "text": "Q-Park took over the garage at Liesegangstraße previously run by Galeria Karstadt Kaufhof and renamed it Stadtmitte (519 spaces on six levels). It was to offer online reservation and number-plate recognition, with hourly price 2.50 euros; the report notes there were no EV charging points at that time and says Q-Park ran 12 facilities in Düsseldorf.",
+   "source_title": "Düsseldorf: Karstadt-Parkhaus wurde von Q-Park übernommen",
+   "source_url": "https://ddorf-aktuell.de/?p=7937",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2021-06-14",
+   "text": "The State of North Rhine-Westphalia, the City of Duesseldorf and Deutsche Umwelthilfe settled the air-quality lawsuit out of court; the state said there would be no driving bans. The package includes environment-sensitive signal control, Tempo 30 on Merowingerstrasse, designation of park-and-ride parking, expansion of EV charging infrastructure and a new U81 line linking the main station, fairgrounds and airport.",
+   "source_title": "Land Nordrhein-Westfalen, Stadt Düsseldorf und DUH schließen Vergleich zur Luftreinhalteplanung Düsseldorf",
+   "source_url": "https://www.land.nrw/de/pressemitteilung/land-nordrhein-westfalen-stadt-duesseldorf-und-duh-schliessen-vergleich-zur",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-09-27",
+   "text": "Mayor Stephan Keller suspended a planned rise in the resident parking permit fee, then 25 euros per year, citing rising household energy costs; the CDU backed this while coalition partner the Greens opposed it.",
+   "source_title": "Düsseldorf: Knatsch bei Schwarz-Grün über die Aussetzung der Gebührenerhöhung für Anwohnerparken",
+   "source_url": "https://www.ddorf-aktuell.de/?p=66376",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2023-03-07",
+   "text": "CDU and Greens presented a plan to raise resident parking permits from 25 euros to 360 euros (zone 1), 300 euros (zone 2) and 240 euros (zone 3) per year, with implementation expected by the end of 2023 once the draft had passed the political bodies. The plan was a proposal at this point.",
+   "source_title": "Düsseldorf plant deutliche Verteuerung des Anwohnerparkens",
+   "source_url": "https://www.ddorf-aktuell.de/?p=76803",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2023-01-25",
+   "text": "E.ON and Contipark announced more than 4,000 AC charge points (up to 22 kW) for Contipark garages in Germany and Austria over 2023-2025. The first Düsseldorf charge point was expected in February 2023; Contipark runs six garages in Düsseldorf, with about 30 charge points planned per site on average.",
+   "source_title": "E.ON baut über 4.000 AC-Ladepunkte bei Contipark",
+   "source_url": "https://www.electrive.net/2023/01/25/e-on-baut-ueber-4-000-ac-ladepunkte-bei-contipark/",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2024-05-03",
+   "text": "In a report on the completed redesign of Carlsplatz (3 May 2024), a new charging park with more than 60 charge points on the roof of the IDR garage at Carlsplatz is mentioned. The Carlsplatz redesign cost 900,000 euros and also created four XXL accessible spaces on neighbouring streets.",
+   "source_title": "Düsseldorf Carlstadt: Nun strahlt der Carlsplatz wieder",
+   "source_url": "https://www.ddorf-aktuell.de/?p=109394",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2024-05-29",
+   "text": "APCOA leased an underground multi-storey car park at the Medical Center Düsseldorf (about 300 spaces, 130 already sold as permanent spaces), bringing its Düsseldorf locations to ten. The garage has ticketless entry and exit and cashless payment.",
+   "source_title": "New Location in Düsseldorf: APCOA Leases Multi-Storey Car Park at the Medical Center",
+   "source_url": "https://www.parking.net/parking-news/apcoa/leases-multi-storey-car-park-at-the-medical-center",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-04",
+   "text": "After Galeria's insolvency proceedings opened on 1 April 2024, both Düsseldorf stores (Kaufhof Kö and Schadowstraße) were to stay open and the company headquarters was to move from Essen to the Schadowstraße store; 16 other stores nationally were closing.",
+   "source_title": "Düsseldorf geht als Gewinnerin aus der Galeria-Insolvenz hervor",
+   "source_url": "https://www.ddorf-aktuell.de/?p=109105",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-01-15",
+   "text": "APCOA reported 307 new charge points in operation across Germany in 2025; in Düsseldorf, 9 charge points went live in total at two sites, the Medical Center and DJC Nikko.",
+   "source_title": "APCOA nimmt 2025 bundesweit 307 neue Ladepunkte in Betrieb",
+   "source_url": "https://ecomento.de/2026/01/15/apcoa-nimmt-2025-bundesweit-307-neue-ladepunkte-in-betrieb/",
+   "confidence": "medium",
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Whether the proposed 2020 inner-city on-street increase (2.90 to 4.00 EUR/h) was adopted, and the current on-street tariff: no fetchable source found (WZ and city pages returned errors).",
+  "Final outcome and in-force date of the resident-parking fee increase after the June 2023 court ruling.",
+  "Corona-era temporary suspension and reinstatement of on-street parking fees in spring 2020: only a search-result headline was seen, the page was not opened.",
+  "Car-free city-centre or parking-space reduction decisions with counts of removed spaces, and any garage closures or demolitions.",
+  "Construction or road works that changed garage access (e.g. Kö-Bogen/tunnel period is pre-2019; no 2019-2026 works sourced).",
+  "Garage-level dynamic pricing or parking-app payment rollout in the city's own garages, and the city's parking guidance system with dated changes.",
+  "Remote-work, event (fairs, football, Rhine Kirmes) and public-transport effects on centre visits: no dated Düsseldorf-specific source found; Goldbeck and IDR Nord Eins activity not sourced beyond the Carlsplatz item."
+ ],
+ "dropped": {}
+}

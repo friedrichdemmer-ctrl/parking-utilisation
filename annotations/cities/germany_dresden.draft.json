@@ -1,0 +1,99 @@
+{
+  "country": "Germany",
+  "city": "Dresden",
+  "researched": "2026-10-06",
+  "summary": "Dresden raised its on-street parking fees in 2021 for the first time in about 15 years, in steps planned through 2023, and added app payment at city parking machines in 2019. The Carolabruecke collapse in September 2024 shifted traffic onto other Elbe crossings. Public EV charging was being expanded city-wide, but no source found ties this to garages, and no garage-specific tariff, operator or ownership changes could be sourced.",
+  "items": [
+    {
+      "topic": "tariffs",
+      "date": "2020-11",
+      "text": "ADAC Sachsen commented on the city administration's plan to raise parking fees, which it said would be the first rise since 2006. It described the proposal as at least a doubling and up to 400 percent in some zones, and said it went too far.",
+      "source_title": "ADAC Sachsen: Parken in Dresden darf nicht zum Luxus werden",
+      "source_url": "https://presse.adac.de/regionalclubs/sachsen/parkgebuehren-dresden.html",
+      "confidence": "medium"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2021-01",
+      "text": "The city council agreed a three-step increase in on-street parking fees, described as the first in 15 years. Reported hourly rates were 2.10 euros (zone 1) and 1.50 euros (zone 2) in 2021, rising to 2.40 and 1.80 in 2022 and 2.70 and 2.10 in 2023, with day tickets of 12 euros (zone 1) and 6 euros (zone 2) from 2021. These are on-street zone rates, not garage prices.",
+      "source_title": "Dresden erhöht die Parkgebühren erstmals nach 15 Jahren (DD-INside); also Dresden erhöht Parkgebühren (DAWO!)",
+      "source_url": "https://www.dd-inside.de/newsticker/35831-dresden-erh-246ht-die-parkgeb-252hren-erstmals-nach-15-jahren",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2019-02",
+      "text": "The city began offering cashless payment by smartphone (E-Parkschein) at about 450 municipal parking machines, paid by card or PayPal with no extra fee. This applies to the city's on-street machines.",
+      "source_title": "Dresden city press release (pm_003), February 2019, as shown in search results",
+      "source_url": "https://www.dresden.de/de/rathaus/aktuelles/pressemitteilungen/archiv/2019/02/pm_003.php",
+      "confidence": "medium"
+    },
+    {
+      "topic": "technology",
+      "date": "2026",
+      "text": "APCOA's page for its Dresden-Mitte garage (Magdeburger Strasse 1) lists 606 spaces, a parking guidance system and ticketless parking through its FLOW app. It also lists 1.50 euros per hour with an 8 euro daily maximum for 08:00-20:00, as shown when checked in October 2026.",
+      "source_title": "APCOA Dresden Mitte",
+      "source_url": "https://apcoa.de/en/parking/dresden/dresden-mitte",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2019-09",
+      "text": "The city counted 163 public charging stations in August 2019 and planned over 400 by 2022, mostly at more than 30 planned mobility points. The article does not mention parking garages.",
+      "source_title": "Dresden kündigt massiven Ausbau der Ladeinfrastruktur an (electrive)",
+      "source_url": "https://www.electrive.net/2019/09/12/dresden-kuendigt-massiven-ausbau-der-ladeinfrastruktur-an/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2022-03",
+      "text": "Dresden said it expected to reach 400 public charge points by the end of 2022 rather than 2025, with about 30 percent of public charging infrastructure being fast chargers. This was a forecast at the time of publication, and the article does not mention garages.",
+      "source_title": "Dresden peilt Ladeinfrastruktur-Ziel drei Jahre früher an (electrive)",
+      "source_url": "https://www.electrive.net/2022/03/09/dresden-peilt-ladeinfrastruktur-ziel-drei-jahre-frueher-an/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2019-01",
+      "text": "On 24 January 2019 the city council adopted the Air Quality Plan 2017, which includes introducing parking management with a focus on resident parking around Schillerplatz in Blasewitz. The city's December 2023 status report lists this measure as implemented.",
+      "source_title": "Landeshauptstadt Dresden: Parken Schillerplatz (archive page) and Luftreinhalteplan 2017 status report, as shown in search results",
+      "source_url": "https://www.dresden.de/de/stadtraum/planen/stadtentwicklung/archiv/parken-schillerplatz.php",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2022-04",
+      "text": "The city started renovating the Altmarkt square in April 2022, replacing the paving and the utility network below it. The search result says the work was completed on schedule but gives no completion date, and says nothing about garage access.",
+      "source_title": "Landeshauptstadt Dresden: Altmarkt (Sanierung), as shown in search results",
+      "source_url": "https://www.dresden.de/de/stadtraum/zentrale-projekte/altmarkt-sanierung.php",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2024-09-11",
+      "text": "A section of the Carolabruecke collapsed into the Elbe on 11 September 2024. The bridge was crossed by more than 30,000 vehicles a day plus several tram lines. Demolition was reported finished in June 2025.",
+      "source_title": "Verkehrsinfrastruktur: Bilanz und Ausblick ein Jahr nach Carolabrücken-Einsturz (Logistik Heute)",
+      "source_url": "https://logistik-heute.de/news/verkehrsinfrastruktur-bilanz-und-ausblick-ein-jahr-nach-carolabruecken-einsturz-225751.html",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2025-03-05",
+      "text": "Six months after the collapse, t-online reported Albertbruecke traffic up 88 percent, Marienbruecke up 30 percent and Waldschloesschenbruecke up 8 percent. North-south trips took about four minutes longer on average. DVB reported its highest passenger numbers since reunification in December 2024.",
+      "source_title": "Dresden: So hat sich der Verkehr seit Einsturz der Carolabrücke verlagert (t-online)",
+      "source_url": "https://dresden.t-online.de/region/dresden/id_100622712/dresden-so-hat-sich-der-verkehr-seit-einsturz-der-carolabruecke-verlagert.html",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "Garage-specific tariff changes for city-owned or APCOA/Contipark garages (only on-street fee changes and one current APCOA tariff were sourced)",
+    "Public EV charging inside or at specific Dresden garages (only city-wide charge-point figures found)",
+    "Garage openings, closures, demolitions, acquisitions or operator changes in central Dresden (search returned nothing verifiable; a Parkhaus Rathaus renovation hit was Aachen, not Dresden, and was excluded)",
+    "Car-free or low-emission zone plans and parking-space reduction decisions for the city centre (Mobilitaetsplan 2035+ exists but no council parking decision could be sourced)",
+    "Dated ANPR/ticketless rollout or dynamic pricing in city-owned garages",
+    "Measured effects of the Carolabruecke collapse on city-centre visits, retail frequency or garage use",
+    "Deutschlandticket start effects and remote-work effects on Dresden visits",
+    "Later steps of the 2021 fee plan (2022 and 2023 rates as actually applied) and any fee changes after 2023",
+    "Most dresden.de pages returned HTTP 503 when opened, so the city items rest on search-result text, not full page reads"
+  ]
+}

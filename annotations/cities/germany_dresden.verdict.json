@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "index": 0,
+      "verdict": "supported",
+      "note": "Page fetched. Title exact; dated 6 Nov 2020. States first increase since 2006, at least 100 percent (doubling), up to 400 percent in some zones, ADAC says the administration's proposal goes too far / shoots past the target. Kept as a proposal, which matches the text.",
+      "corrected_text": null,
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 1,
+      "verdict": "partly",
+      "note": "Page fetched (DD-INside, dated 14 Jan 2021). Rates (2.10/1.50, 2.40/1.80, 2.70/2.10), day tickets 12/6 euros in 2021 and 'first time in 15 years' all confirmed. But the page presents it as a plan in three steps: first step 'after the council passes the parking fee ordinance in 2021', then 1 Jan 2022 and 1 Jan 2023; the council is tied in via the 2021/22 budget revenue expectation. It does not say the council had already agreed the three-step increase, so 'The city council agreed' is overstated. Source_title mixes two pages (DAWO! was not checked/is not the cited URL); only the DD-INside title is real for this URL. On-street only is correctly stated.",
+      "corrected_text": "The city announced a three-step increase in on-street parking fees, the first in 15 years, with the first step to follow the council's adoption of the fee ordinance in 2021 and further steps on 1 January 2022 and 1 January 2023. Hourly rates were 2.10 euros (zone 1) and 1.50 euros (zone 2) in 2021, 2.40 and 1.80 in 2022, and 2.70 and 2.10 in 2023, with day tickets of 12 and 6 euros from 2021; these are on-street zone rates, not garage prices.",
+      "corrected_title": "Dresden erhöht die Parkgebühren erstmals nach 15 Jahren",
+      "corrected_date": "2021-01"
+    },
+    {
+      "index": 2,
+      "verdict": "unreachable",
+      "note": "dresden.de pm_003 returned HTTP 503 on two attempts; search-result snippet only (snippet indicates roughly 450 machines, Mastercard/Visa/PayPal, dated 7 Feb 2019, but not accepted per instructions). Note source_title is a description, not the page's real title ('pm 003' in search results), and 'card or PayPal with no extra fee' / 'no extra fee' could not be checked.",
+      "corrected_text": null,
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 3,
+      "verdict": "supported",
+      "note": "Page fetched on 2026-10-06. Dresden-Mitte, Magdeburger Strasse 1, 606 spaces, parking guidance system, APCOA FLOW app for ticketless parking, 1.50 euros per started hour, 8 euro daily maximum 08:00-20:00 (24h max 15 euros also listed). Fetch tool gave the heading as 'Dresden-Mitte Multistorey Car Park'; the exact HTML <title> was not confirmed, so the existing source_title was left unchanged. This is a current snapshot, not a dated change.",
+      "corrected_text": null,
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 4,
+      "verdict": "partly",
+      "note": "Page fetched. Title exact; published 12 Sep 2019. 163 charging stations (August 2019) and 'over 400 normal and fast charging stations planned by 2022' confirmed; plan includes more than 30 mobility points. The page does not say the 400 are 'mostly' at the mobility points, so 'mostly at' is unsupported. No garage mention found, as stated.",
+      "corrected_text": "The city counted 163 public charging stations in August 2019 and planned over 400 normal and fast charging stations by 2022; the plan also includes more than 30 mobility points. The article does not mention parking garages.",
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 5,
+      "verdict": "partly",
+      "note": "Page fetched (three times; the fetch tool was inconsistent, one run wrongly called it an achievement). Verbatim wording: the milestone of 400 public charge points 'werde' (will be) reached by end of 2022 instead of the originally planned 2025, per Robert Franke of the city's economic development office; 30 percent of public charging infrastructure is fast chargers. Forecast status in the text is correct. However, 'the article does not mention garages' is not reliable: one fetch quoted the Bilderberg Bellevue hotel director on building a second underground car park (Tiefgarage) with further charging options, and the article also notes free parking for EVs. Drop the garage statement. Title and date (9 Mar 2022) confirmed.",
+      "corrected_text": "A city official said Dresden expected to reach 400 public charge points by the end of 2022 rather than the originally planned 2025, and that about 30 percent of public charging infrastructure was fast chargers. This was a forecast at the time of publication, not a result.",
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 6,
+      "verdict": "unreachable",
+      "note": "dresden.de Schillerplatz archive page returned HTTP 503; the December 2023 status-report PDF also returned 503. Search snippets only (they mention the 24 Jan 2019 council decision on the Air Quality Plan 2017 and resident parking management around Schillerplatz, but the 'implemented' status in the Dec 2023 report was not seen). Also source_title is a mix of two documents with one URL, and the real page title is unconfirmed.",
+      "corrected_text": null,
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 7,
+      "verdict": "unreachable",
+      "note": "dresden.de Altmarkt page returned HTTP 503; only search snippets available (snippet suggests work ran April 2022 to end of October 2023, which would conflict with the draft's 'completed on schedule, no completion date' phrasing as to date; not verified). Source_title is described as 'as shown in search results', not a confirmed real title.",
+      "corrected_text": null,
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 8,
+      "verdict": "partly",
+      "note": "Page fetched (Logistik Heute, a year after the collapse, ~Sept 2025). Confirmed: part of the bridge collapsed into the Elbe on 11 Sep 2024; before that more than 30,000 vehicles passed daily; tram tracks and a foot/cycle path ran over bridge section C. 'Several tram lines' is not clearly stated. Demolition: the last remains of the collapsed section were removed in May, the remaining standing parts were demolished from June ('Im Juni folgte der Abriss...'), and the article says this work was 'almost complete' ('fast abgeschlossen'), so 'demolition reported finished in June 2025' is unsupported. Title confirmed.",
+      "corrected_text": "A section of the Carolabruecke collapsed into the Elbe on 11 September 2024; more than 30,000 vehicles a day had used the bridge, and tram tracks ran over the collapsed section. The last remains of the collapsed section were removed in May 2025 and demolition of the remaining standing parts followed from June, with the work described as almost complete about a year after the collapse.",
+      "corrected_title": null,
+      "corrected_date": "2024-09-11"
+    },
+    {
+      "index": 9,
+      "verdict": "supported",
+      "note": "Page fetched. Title exact, 5 Mar 2025. Albertbruecke +88 percent, Marienbruecke +30, Waldschloesschenbruecke +8; north-south connections take 'im Schnitt' four minutes longer; DVB reported in December its highest passenger numbers since reunification. 'Six months after' is the draft's inference from the date (about 5.8 months), acceptable. Caveats on the page not in the text: the figures come from the city, and the data was partly collected in the Advent period when traffic is higher; consider adding if space allows.",
+      "corrected_text": null,
+      "corrected_title": null,
+      "corrected_date": null
+    }
+  ],
+  "corrected_summary": "In January 2021 Dresden announced a three-step increase in on-street parking fees, the first in about 15 years, with further steps due in 2022 and 2023; these are on-street zone rates, not garage prices. After part of the Carolabruecke collapsed on 11 September 2024, figures reported in March 2025 showed higher traffic on other Elbe crossings. In 2019 and 2022 the city set out public charging expansion plans, including a 2022 forecast of 400 charge points by the end of 2022."
+}

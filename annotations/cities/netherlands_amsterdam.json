@@ -1,0 +1,130 @@
+{
+ "country": "Netherlands",
+ "city": "Amsterdam",
+ "researched": "2026-10-06",
+ "verified": "2026-10-06",
+ "summary": "Amsterdam raised its on-street tariff in the old centre to EUR 7.50 an hour in April 2019 and in 2018 set out a plan to remove 7,000 to 10,000 street parking spaces over seven years. Municipal garage tariffs were aligned with street prices from February 2024, and park-and-ride capacity has been reduced, including the closure of P+R Zeeburg 1 in January 2025. The June 2026 coalition agreement says parking permits will become more expensive and proposes talks about closing the Bijenkorf garage at Damrak.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2019-04-14",
+   "text": "On 14 April 2019 the on-street tariff in the old city centre around Damrak rose to EUR 7.50 an hour, up from EUR 5.00; the canal belt and Jordaan were set at EUR 6.00. The article also says municipal garage rates went up but stayed below street prices at that time.",
+   "source_title": "Parkeren in centrum Amsterdam vanaf vandaag 7,50 euro per uur",
+   "source_url": "https://www.nhnieuws.nl/nieuws/243989/parkeren-in-centrum-amsterdam-vanaf-vandaag-750-euro-per-uur",
+   "confidence": "high",
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2018-11-26",
+   "text": "In November 2018 the municipality said it was negotiating to buy the Amsterdam Centraal garage (470 spaces) and the Oosterdok garage (202 spaces), and planned new garages Singelgrachtgarage (800 spaces) and Willibrordusgarage (216-266 spaces, construction postponed). The article links this to a plan to remove roughly 7,000 to 10,000 street parking spaces over seven years. The outcome of the purchase talks is not stated in this source.",
+   "source_title": "Gemeente wil twee parkeergarages kopen, maar stelt bouw Willibrordusgarage uit",
+   "source_url": "https://www.at5.nl/artikelen/188902/gemeente-koopt-twee-parkeergarages-maar-stelt-bouw-willibrordusgarage-uit",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-06-09",
+   "text": "From 3 July 2023 resident permit fees rose in several districts (for example South, West and East from EUR 142 to EUR 177 per half year; Centre from EUR 287 to EUR 300). Paid on-street hours were also extended to midnight in nine neighbourhoods, with weekend paid parking added in some areas.",
+   "source_title": "Tarieven parkeervergunningen binnen de ring rond Amsterdam binnenkort ook omhoog",
+   "source_url": "https://www.nhnieuws.nl/nieuws/320219/ook-tarieven-parkeervergunning-amsterdamse-binnenring-omhoog",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2023-12-27",
+   "text": "Municipal garage tariffs were to be aligned with street parking prices in their neighbourhoods from February 2024. Examples given: Markenhoven (Anne Frankstraat) from EUR 6.30 to EUR 7.50 an hour and Albert Cuyp from EUR 5.10 to EUR 6.50 an hour.",
+   "source_title": "Prijzen parkeergarages vanaf februari omhoog: \"In Londen betaal ik de helft\"",
+   "source_url": "https://www.at5.nl/artikelen/224289/prijzen-parkeergarages-vanaf-februari-omhoog-in-londen-betaal-ik-de-helft",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-01-09",
+   "text": "The P+R Zeeburg 1 site (220 spaces) closed on 6 January 2025, and P+R Noord was to shrink from 440 to 220 spaces by 2026 before rising to 300. The article says 11 P+R locations would remain and quotes a city official on not wanting large car parks.",
+   "source_title": "Amsterdam heeft autoluwe ambities, maar tegelijkertijd verdwijnen er P+R-plekken",
+   "source_url": "https://www.nhnieuws.nl/nieuws/344577/amsterdam-heeft-autoluwe-ambities-maar-tegelijkertijd-verdwijnen-er-pr-plekken",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-06-06",
+   "text": "A June 2023 overview of Amsterdam's zero-emission zones said they start in 2025 for vehicles such as mopeds, taxis, vans, trucks and pleasure boats, with transitional periods to 2030. For passenger cars no zero-emission zone was planned, only a diesel emission-class requirement from 2025.",
+   "source_title": "Vanaf 2025 uitstootvrije zones in de stad: zo zien de overgangsregelingen eruit",
+   "source_url": "https://www.nhnieuws.nl/nieuws/320051/vanaf-2025-uitstootvrije-zones-in-de-stad-zo-zien-de-overgangsregelingen-eruit",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-03",
+   "text": "The June 2026 coalition agreement says parking permits will become more expensive and visitor-parking discounts will be reduced, with parking changes expected to yield about EUR 26 million a year. It also says the zero-emission zone for delivery and freight traffic will be expanded in 2028.",
+   "source_title": "Amsterdam presenteert sober coalitieakkoord: veel ambtenaren eruit, geen erotisch centrum",
+   "source_url": "https://www.nhnieuws.nl/nieuws/360373/wat-staat-in-coalitieakkoord-amsterdam",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-06-04",
+   "text": "The June 2026 coalition agreement says the city will enter talks about closing the Bijenkorf garage at Damrak and building housing on the site. The garage is owned by De Bijenkorf and operated by Q-Park under a lease; both said they learned of the idea through the coalition agreement or the media.",
+   "source_title": "Bijenkorf 'staat open voor dialoog' over idee voor sluiting Bijenkorfgarage en woningbouw",
+   "source_url": "https://www.nhnieuws.nl/nieuws/360428/eigenaar-bijenkorfgarage-staat-open-voor-dialoog-over-idee-voor-sluiting-en-woningbouw",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-01-25",
+   "text": "Amsterdam has about 16,000 charging points, the most of any Dutch city according to an ANP analysis of RVO figures. Nationally the Netherlands had nearly 210,000 public charging points in 2025, against about 63,000 in 2020.",
+   "source_title": "Laadpunten voor elektrische auto's verdrievoudigd in vijf jaar",
+   "source_url": "https://www.binnenlandsbestuur.nl/ruimte-en-milieu/laadpunten-elektrische-autos-verdrievoudigd-in-vijf-jaar",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2023-02-24",
+   "text": "The municipality publishes a real-time open dataset of current availability for Amsterdam parking garages and P+R sites under a CC-BY 4.0 licence. The catalogue entry shows it was last modified on 24 February 2023.",
+   "source_title": "Actuele beschikbaarheid Parkeergarages",
+   "source_url": "https://data.overheid.nl/dataset/9orkef6t-au29g",
+   "confidence": "high",
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "The Q-Park page for its Amsterdam Centraal Station garage (checked October 2026) offers advance online booking and drive-in by licence plate, and links to a Q-Park app. No date for when these features started is given.",
+   "source_title": "Parking Amsterdam Central Station - Park within walking distance at Q-Park Amsterdam Centraal",
+   "source_url": "https://www.q-park.nl/en-gb/parking/amsterdam/poi/amsterdam-centraal-station/",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-06-10",
+   "text": "Amsterdam recorded 23.7 million tourist overnight stays in 2025. Day visits were 21.9 million in 2025 against 24.1 million in 2019, according to figures from the city's research and statistics office as published by the hotel and catering association KHN.",
+   "source_title": "Actuele cijfers bezoekerseconomie Amsterdam",
+   "source_url": "https://khn.nl/nieuws/actuele-cijfers-bezoekerseconomie-amsterdam-2",
+   "confidence": "medium",
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "Current official on-street tariffs and permit prices from amsterdam.nl (site returned HTTP 403; 2026 street rate rests only on an aggregator)",
+  "Whether the municipality completed the 2018 plan to buy the Centraal and Oosterdok garages",
+  "Interparking Amsterdam developments, and any garage openings or closures other than the proposed Bijenkorf garage closure",
+  "Current numbers on how many street parking spaces have actually been removed against the 7,000-10,000 target",
+  "EV charging rules for street and garage use, and Amsterdam-specific public charge-point counts from the municipality",
+  "Dynamic pricing, NPR participation by Amsterdam garages, and parking app (e.g. Parkmobile) developments",
+  "Current parking norms for new buildings (only a 2021 article on Houthaven was seen, not used)",
+  "Demand factors such as construction works, remote work and public-transport changes affecting the centre"
+ ],
+ "dropped": {
+  "low confidence": 1
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "country": "Germany",
+ "city": "Bielefeld",
+ "researched": "2026-10-06",
+ "verified": "2026-10-06",
+ "summary": "Bielefeld's red-green-red coalition decided in 2025 on new city-centre street-parking fees of 2 euros per hour (old town and city area) and 1 euro (extended inner city), to apply once the traffic guidance system is active, expected from mid-2026; the sources checked do not say whether they are in force. Contipark announced the reopening of its Ritterstrasse garage for 14 July 2026 after four years of renovation (Radio Bielefeld: 480 spaces, 30 charging points) and took over the 804-space Ankergaerten garage. An IHK Ostwestfalen study page puts Bielefeld's city-centre attractiveness grade at 3.3, down from 2.8 in 2020, with parking scoring 3.6.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2022-05-21",
+   "text": "Radio Bielefeld reported on 21 May 2022 that the city administration proposed raising short-stay street parking from 1.30 euros to up to 4 euros per hour and resident permits from 30.70 to 365 euros a year, to be phased in gradually. The report also says the city aims to cut the car share of all transport from 50% to 25% by 2030. This was a proposal discussed in the downtown parking-concept project group.",
+   "source_title": "Parken in Bielefeld soll wesentlich teurer werden",
+   "source_url": "https://www.radiobielefeld.de/nachrichten/am-puls-der-stadt/parken-in-bielefeld-soll-wesentlich-teurer-werden.html",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-11",
+   "text": "A regional newspaper reported that Bielefeld plans four new paid parking zones as part of its traffic-transition plan, which would also considerably enlarge the existing resident-parking areas, and that district-level multi-storey garages are planned. Prices and a start date were not visible in the accessible part of the article.",
+   "source_title": "Gleich vier neue Parkzonen in Bielefeld: Das wird teuer für Autofahrer",
+   "source_url": "https://www.nw.de/lokal/bielefeld/mitte/23982351_Gleich-vier-neue-Parkzonen-in-Bielefeld-Das-wird-teuer-fuer-Autofahrer.html",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-05-21",
+   "text": "Radio Guetersloh reported on 21 May 2025 that the red-green-red coalition set on-street parking at 2 euros per hour in the old town and city area and 1 euro per hour in the extended inner city, with resident permits staying at 30 euros a year. The new fees are to apply once the traffic guidance system is active, expected from mid-2026.",
+   "source_title": "Bielefeld erhöht die Parkgebühren für die Innenstadt",
+   "source_url": "http://www.radioguetersloh.de/nachrichten/kreis-guetersloh/bielefeld-erhoeht-die-parkgebuehren-fuer-die-innenstadt.html",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-07-03",
+   "text": "A regional newspaper reported on 3 July 2025 that the red-green-red coalition decided the new parking fees despite strong criticism: 2 euros per hour in the historic city centre, up from 1.30. The readable part of the article does not say when the rates take effect.",
+   "source_title": "Zwei Euro pro Stunde: Parken in Bielefelds City wird richtig teuer",
+   "source_url": "https://www.nw.de/lokal/bielefeld/mitte/24130811_Zwei-Euro-pro-Stunde-Parken-in-Bielefelds-City-wird-richtig-teuer.html",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-04-06",
+   "text": "A newspaper overview of city-centre garages and car parks dated 6 April 2025 gave hourly prices from 1 euro for the first hour up to 2.50 euros, with mid-range facilities at 1.50 to 2 euros, and daily maximums from 6 to 25 euros.",
+   "source_title": "Parkhäuser und Parkplätze in der Bielefelder City 2025 im großen Überblick",
+   "source_url": "https://www.nw.de/lokal/bielefeld/mitte/23969558_Parkhaeuser-und-Parkplaetze-in-der-Bielefelder-City-2025-im-grossen-Ueberblick.html",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2021-07-06",
+   "text": "During the Jahnplatz rebuild, a new bus stop opened, and access to Niederwall from the Jahnplatz side was restricted. The project page notes that access to the Rathaus garage via Turnerstraße became possible again from that date.",
+   "source_title": "Verkehrsumstellung und Inbetriebnahme der neuen Haltestelle vor Cafe Europa",
+   "source_url": "https://jahnplatz-bielefeld.de/2021/07/09/verkehrsumstellung-und-inbetriebnahme-der-neuen-haltestelle-vor-cafe-europa/",
+   "confidence": "high",
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022",
+   "text": "The Jahnplatz redesign received 18 million euros from the EU-backed 'Emissionsfreie Innenstadt' programme, with works required to finish by mid-2022. The project site describes a layout with single-lane car traffic and more space for buses, cyclists and pedestrians, and Niederwall turned into a bicycle street.",
+   "source_title": "Bielefeld Jahnplatz bewegt - Umgestaltung der lebendigen Mitte Bielefelds",
+   "source_url": "https://jahnplatz-bielefeld.de/",
+   "confidence": "medium",
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2022-09-29",
+   "text": "A newspaper reported on 29 September 2022 that first dismantling work had begun on the existing parking structure at Kesselbrink. The plan described is a modern garage at the back with an office building in front facing the square, and planning for the Goldbeck new-build continues.",
+   "source_title": "Großprojekt am Bielefelder Kesselbrink: Parkhaus-Abriss startet",
+   "source_url": "https://www.nw.de/lokal/bielefeld/mitte/23370038_Grossprojekt-am-Bielefelder-Kesselbrink-Parkhaus-Abriss-startet.html",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-07-02",
+   "text": "Radio Bielefeld reported on 2 July 2026 that Contipark's Ritterstrasse garage in the old town would reopen on 14 July at noon after four years of renovation, and gave 480 parking spaces and 30 charging points.",
+   "source_title": "Bielefelder Parkhaus eröffnet Mitte Juli wieder",
+   "source_url": "https://www.radiobielefeld.de/nachrichten/am-puls-der-stadt/bielefelder-parkhaus-eroeffnet-mitte-juli-wieder.html",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-07-01",
+   "text": "Konii reported on 1 July 2026 that Contipark is continuing its acquisitions by taking over the Ankergaerten garage in Bielefeld, a property with 804 spaces.",
+   "source_title": "Contipark baut Eigenbestand weiter aus und übernimmt Parkhaus Ankergärten in Bielefeld",
+   "source_url": "https://www.konii.de/news/contipark-baut-eigenbestand-weiter-aus-und-uebernimmt-parkhaus-ankergaerten-in-bielefeld/",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2024-09",
+   "text": "The city's charging-infrastructure expansion concept counted 243 publicly accessible charge points in Bielefeld in operation on 21 March 2024 (213 AC and 30 DC/HPC), per the federal charging-point register. The document treats public garages as one charging use case and notes the city can directly steer charger build-out only in city-owned garages.",
+   "source_title": "Ausbaukonzept für E-Ladeinfrastruktur auf Flächen der Stadt Bielefeld",
+   "source_url": "https://www.bielefeld.de/sites/default/files/datei/2025/Ausbaukonzept-fuer-E-Ladeinfrastruktur-auf-Flaechen-der-Stadt-Bielefeld-2024.pdf",
+   "confidence": "high",
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024",
+   "text": "An IHK Ostwestfalen page on the 'Vitale Innenstaedte' study says Bielefeld's city-centre attractiveness grade fell from 2.8 (2020) to 3.0 (2022) and now 3.3, against 2.5 for the comparison group. In the same study, parking and car-friendliness each scored 3.6 and public-transport accessibility 2.0.",
+   "source_title": "Studie \"Vitale Innenstädte\"",
+   "source_url": "https://www.ihk.de/ostwestfalen/branchen/handel/vitale-innenstaedte-6802042",
+   "confidence": "medium",
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-12-11",
+   "text": "A regional newspaper reported that the former Karstadt complex in Bielefeld will be demolished, after the company Sahle Wohnen bought the site to build a new residential and commercial building. No timeline was visible in the accessible text.",
+   "source_title": "Abriss: Karstadt-Komplex in Bielefeld verschwindet - das sind die Pläne",
+   "source_url": "https://www.nw.de/lokal/bielefeld/mitte/24227217_Abriss-Karstadt-Komplex-in-Bielefeld-verschwindet-das-sind-die-Plaene-v3.html",
+   "confidence": "medium",
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Tariff changes at named garage operators (ORBE, APCOA, Borchard, Contipark, Q-Park): no dated source found",
+  "Whether the 2026 on-street price rise actually took effect, and the date of the city's traffic guidance system (Leitsystem) going live",
+  "Dynamic pricing, reservation and parking-app rollout in Bielefeld garages (only Contipark's ANPR at Ritterstraße found)",
+  "Exact construction dates of the Ritterstraße closure (reported only as more than four years) and whether the Goldbeck Kesselbrink garage was completed",
+  "Car-free city-centre plans beyond the Jahnplatz/Niederwall rebuild; park-and-ride openings; low-emission zone status",
+  "Public-transport changes (e.g. Deutschlandticket effects, Stadtbahn works), major events and footfall data for the centre",
+  "Closure or demolition of other garages in the data set; the operator history of Ankergärten before Contipark"
+ ],
+ "dropped": {
+  "unreachable": 2
+ }
+}
