@@ -1,0 +1,170 @@
+{
+ "country": "France",
+ "city": "Marseille",
+ "researched": "2026-10-06",
+ "verified": "2026-10-06",
+ "summary": "Sources for Marseille cover a Metropole leaflet stating that the lower Canebiere would be closed to general traffic from 1 July 2019, and the extension of paid on-street parking to five central districts from 1 October 2019. The low-emission zone began on 1 September 2022; in February 2024 the Metropole president announced the Crit'Air 3 extension was postponed with no new date, and in May 2026 the Constitutional Council struck down a national repeal of such zones as an unrelated legislative rider. Car park items are the Providence car park cleared of vehicles in March 2024 ahead of conversion to a square, the La Fourragere park-and-ride reopened in 2023 with 794 spaces, and a SAGS leaflet listing current on-street tariffs.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2019-07",
+   "text": "A Metropole information leaflet said that from 1 July 2019 the Canebiere would be closed to general traffic between the Vieux-Port and rue Paradis, with retractable bollards for police, rescue and shop deliveries. It also said buses would stop using the Canebiere between the Vieux-Port and boulevard Garibaldi from that date and the stops there would be removed.",
+   "source_title": "LETTRE INFO / N°01 / PHASE 3 - LA CANEBIÈRE (Requalification des espaces publics du centre-ville de Marseille)",
+   "source_url": "https://ampmetropole.fr/wp-content/uploads/2025/05/lettre_info_travaux_canebiere.pdf",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2019-10",
+   "text": "Paid on-street parking was extended from 1 October 2019 to about 130 streets in five central districts (La Conception, Baille, Saint-Pierre, Cinq Avenues, Saint-Giniez), covering 2,618 spaces, with 134 new meters installed. A neighbourhood committee (CIQ) president quoted in the article described the formerly free area as a magnet for cars and very congested.",
+   "source_title": "Extension du stationnement payant en centre-ville : le détail des rues concernées",
+   "source_url": "https://madeinmarseille.net/53197-zones-de-stationnement-payant/",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2020-05",
+   "text": "On-street paid parking in Marseille resumed on 25 May 2020 after having been suspended during the COVID lockdown. The article says subscriptions were extended by about two months to compensate.",
+   "source_title": "A Marseille, le stationnement sur la voirie redevient payant le 25 mai",
+   "source_url": "https://madeinmarseille.net/66461-a-marseille-le-stationnement-sur-la-voirie-va-redevenir-payant-le-25-mai",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-09",
+   "text": "Marseille's low-emission zone (ZFE-m) was reported as starting on 1 September 2022, covering 19.5 km2 and about 314,000 residents. The initial step covered Crit'Air 5 vehicles, with Crit'Air 4 planned for September 2023 and Crit'Air 3 for September 2024; the article gave fines of 68 to 135 euros and said enforcement would follow a one-month pedagogical phase. A leaflet on the SAGS Marseille parking site also states the zone has been in place since 1 September 2022.",
+   "source_title": "ZFE : Tout comprendre sur l'interdiction des véhicules polluants à Marseille",
+   "source_url": "https://madeinmarseille.net/120761-zfe-tout-comprendre-sur-linterdiction-des-vehicules-polluants-a-marseille/",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-02",
+   "text": "The president of the Aix-Marseille-Provence Metropole announced that the planned extension of the low-emission zone to Crit'Air 3 vehicles would not be applied, with no new date given. A 5,000 euro means-tested subsidy for buying an electric vehicle was mentioned alongside.",
+   "source_title": "La métropole d'Aix-Marseille reporte l'extension de la ZFE",
+   "source_url": "https://www.linfodurable.fr/la-metropole-daix-marseille-reporte-lextension-de-la-zfe-43557",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-05-21",
+   "text": "France's Constitutional Council struck down the repeal of low-emission zones that parliament had added to the economic simplification law, ruling it was an unrelated legislative rider. The article does not discuss Marseille specifically.",
+   "source_title": "ZFE: le Conseil constitutionnel censure la suppression des zones à faibles émissions",
+   "source_url": "https://lcp.fr/actualites/zfe-le-conseil-constitutionnel-censure-la-suppression-des-zones-a-faibles-emissions",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026",
+   "text": "A SAGS Marseille parking-plan leaflet (the Le Rouet district edition), as listed when checked, gives on-street rates: yellow zone 1.50 euros for 1 hour, 3 euros for 2 hours and 6 euros for 4 hours; orange hypercentre zone 4 euros for 2 hours and 8 euros for 4 hours. It also gives a post-parking charge of up to 17 euros, paid hours of 9:00 to 19:00 Monday to Saturday and annual resident subscriptions of 130 euros (70 euros for six months), with reductions for fully electric vehicles; the leaflet does not say when these rates were set.",
+   "source_title": "LE PLAN du stationnement payant a Marseille - Extension de stationnement dans votre quartier 19 (Le Rouet)",
+   "source_url": "https://www.sagsmarseille.com/wp-content/uploads/2025/05/Plaquette_extension_marseille_Q19.pdf",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2019-04",
+   "text": "The Metropole transport commission approved an experimental weekend opening of Marseille's park-and-ride car parks from 20 April 2019. The reported weekend rate for non-subscribers was 1.20 euros per hour for three hours then 0.40 euros per hour, and free for subscribers.",
+   "source_title": "Les parkings relais de Marseille ouverts le week-end à partir de demain",
+   "source_url": "https://madeinmarseille.net/45930-parking-relais-ouverts-week-end",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-09",
+   "text": "The La Fourragere park-and-ride reopened after about 18 months of works, going from 492 to 794 spaces. Additions listed include 20 spaces dedicated to electric cars (with 40 more planned later), rooftop solar panels, 80 bicycle places and 16 accessible spaces.",
+   "source_title": "Le parking-relais de la Fourragère a rouvert avec une capacité d'accueil doublée",
+   "source_url": "https://madeinmarseille.net/143814-le-parking-relais-de-la-fourragere-a-rouvert/",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-03",
+   "text": "The Providence car park in Belsunce (80 spaces), closed since September 2022 when Effia's concession ended, had the remaining vehicles removed on 25 March 2024 ahead of its conversion into a planted public square. Archaeological digs were due to follow, with construction expected to start in 2025 and delivery forecast for 2026.",
+   "source_title": "À Belsunce, les voitures du parking de la Providence évacuées « avec succès »",
+   "source_url": "https://madeinmarseille.net/157480-a-belsunce-les-voitures-du-parking-de-la-providence-evacuees-avec-succes",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2024-11-13",
+   "text": "In a joint press release, ENGIE Vianeo said it would have 250 public-road charge points operating across 25 communes of the Aix-Marseille-Provence Metropole by end-2024, Marseille being among the communes already served. The Metropole's president was quoted as saying its Larecharge network had 552 charge points and private operators 954, with a master plan foreseeing over 7,000 by 2025; the release does not mention car parks.",
+   "source_title": "ENGIE Vianeo met en service 250 points de charge pour véhicules électriques dans la Métropole Aix-Marseille-Provence",
+   "source_url": "https://engie-vianeo.com/wp-content/uploads/2024/11/CP-ENGIE-Vianeo-Metropole-AMP-13112024.pdf",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-03",
+   "text": "The Metropole publishes an open dataset (Open Licence 2.0) listing the location and capacity of the gated, concession-operated car parks it owns, with the data.gouv.fr page showing a last update of 10 March 2026. The page's metadata does not indicate real-time availability data.",
+   "source_title": "Jeu de données - Parkings de compétence métropolitaine | data.gouv.fr",
+   "source_url": "https://www.data.gouv.fr/datasets/parkings-de-competence-metropolitaine",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-09",
+   "text": "Local tourism officials reported summer 2024 as boosted by the Olympic sailing events held in Marseille, with international overnight stays up 38 percent and French overnight stays up 5 percent, and 83.1 percent hotel occupancy during the Games. The article also said inflation dampened visitor spending.",
+   "source_title": "Le tourisme marseillais boosté cet été par les JO mais freiné par l'inflation",
+   "source_url": "https://madeinmarseille.net/actualite/166957-saison-touristique-estivale-jeux-olympiques-inflation/",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-01",
+   "text": "The port of Marseille reported 4.1 million sea passengers in 2025, up 4 percent on 2024, with cruise passengers making up 63 percent of the total. The article also said shore-power connection for three ships at once was expected in 2026.",
+   "source_title": "Navires de croisière branchés et investissements à la hausse pour le Port en 2026",
+   "source_url": "https://madeinmarseille.net/actualite/194993-navires-de-croisiere-branches-et-investissements-a-la-hausse-pour-le-port-en-2026/",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-11",
+   "text": "An article reported that public transport use on the RTM network rose from 509,000 trips a day in 2006 to over 900,000 in 2024, with roughly 430,000 on buses, 333,000 on the metro and 138,900 on trams. It added that private cars were still the main mode in 2019, at 40 percent of daily trips against 17 percent for public transport.",
+   "source_title": "Data | L'évolution des transports marseillais depuis 20 ans en chiffres et en graphiques",
+   "source_url": "https://madeinmarseille.net/urbanisme-marseille/189521-data-levolution-des-transports-marseillais-depuis-20-ans-en-chiffres-et-en-graphiques/",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Concessions awarded, renewed or ended for Indigo, Q-Park and Effia (including the 2022 affermage relaunch for the Cours Julien, Monthyon, Gambetta, Corderie and Baret car parks and the Effia contract for the beach car parks): only seen in search snippets because deliberations.ampmetropole.fr could not be opened, so not included.",
+  "Dated changes to car park (off-street) tariffs: no sourced price change found.",
+  "Dated changes to on-street rates or the post-parking charge since 2019: only the current-looking SAGS leaflet found, with no change date.",
+  "Residents' parking price changes over time: only the current resident rates in the SAGS leaflet.",
+  "Decentralised or privatised on-street enforcement and any 2022-2023 reform specifics: no usable primary source opened.",
+  "Technology at car parks (plate recognition, ticketless entry, apps, reservation, dynamic pricing): only operator-marketplace listings, which are not cited.",
+  "EV charging inside Marseille car parks specifically (as opposed to on-street or park-and-ride): not found.",
+  "Retail and footfall on the Canebiere and Rue de Rome, remote work, and any city centre traffic plan beyond the 2019 Canebiere works: not sourced."
+ ],
+ "dropped": {}
+}

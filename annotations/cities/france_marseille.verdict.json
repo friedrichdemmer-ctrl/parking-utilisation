@@ -1,0 +1,125 @@
+{
+  "items": [
+    {
+      "index": 0,
+      "verdict": "supported",
+      "note": "Raw PDF text checked (PDF created 17 June 2019). Leaflet says from 1 July 2019 the Canebiere is closed to traffic between Vieux-Port and rue Paradis, retractable bollards for police/rescue vehicles and shop deliveries; buses no longer serve the Canebiere between Vieux-Port and bd Garibaldi from Monday 1 July, and the stops Canebiere-Vieux-Port, St Ferreol and Noailles are removed 'definitivement'. Text is phrased as what the leaflet said (a pre-works notice), which is correct. Title matches the front page headline.",
+      "corrected_text": null,
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 1,
+      "verdict": "partly",
+      "note": "Numbers and districts all on the page (about 130 streets, 2,618 spaces, 134 new meters, 1 October; article published 18 Sept 2019; a joint city/SAGS decision). Overstated: the congestion remark ('vrai aspirateur a voitures, tres encombre') comes from the president of a neighbourhood committee (CIQ Chave-Eugene Pierre), not from 'officials'; the mayor of the 6th/8th arrondissements spoke about turnover and fluidity.",
+      "corrected_text": "Paid on-street parking was extended from 1 October 2019 to about 130 streets in five central districts (La Conception, Baille, Saint-Pierre, Cinq Avenues, Saint-Giniez), covering 2,618 spaces, with 134 new meters installed. A neighbourhood committee (CIQ) president quoted in the article described the formerly free area as a magnet for cars and very congested.",
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 2,
+      "verdict": "supported",
+      "note": "Article (25 May 2020) says free parking set up during the lockdown ends and paid parking is restored from Monday 25 May; subscriptions valid on 18 March extended by 2 months and one week. 'About two months' is fair. Title matches.",
+      "corrected_text": null,
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 3,
+      "verdict": "supported",
+      "note": "Article dated 1 Sept 2022: ZFE-m enters into force Thursday 1 September, 19.5 km2, 314,000 residents; Crit'Air 5 first, Crit'Air 4 from Sept 2023, Crit'Air 3 from Sept 2024; fines 68 to 135 euros; pedagogical phase during September. The SAGS leaflet (item 6 PDF) does state 'Mise en place depuis le 1er septembre 2022'. Title matches.",
+      "corrected_text": null,
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 4,
+      "verdict": "supported",
+      "note": "Page (AFP-style, dated 04/02/2024): Martine Vassal, president of the Aix-Marseille-Provence Metropole, told La Tribune Dimanche she decided not to apply Crit'Air 3, postponed 'sine die'; the 5,000 euro means-tested EV aid is mentioned in the same piece. The Metropole's own press release (ampmetropole.fr CP-ZFE.pdf, Sunday 4 February 2024) confirms it was her decision, announced 4 Feb 2024. What was postponed: the extension of the ZFE to Crit'Air 3 vehicles (page says planned for 1 Jan 2025; the 2022 article in item 3 and Made in Marseille say Sept 2024 - sources differ on the planned start, the draft text avoids stating one). The 'March 2024' mention elsewhere is the Environment Minister's 19 March 2024 confirmation that Marseille met air-quality standards, not the postponement itself. Date 2024-02 (4 Feb) is right. Title matches.",
+      "corrected_text": null,
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 5,
+      "verdict": "supported",
+      "note": "LCP article of Thursday 21 May 2026: Constitutional Council struck the ZFE repeal from the 'simplification de la vie economique' law as a legislative rider ('cavalier legislatif'), added by deputies in the Assemblee. Article does not mention Marseille, as the text says. Title matches (site suffix omitted).",
+      "corrected_text": null,
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 6,
+      "verdict": "partly",
+      "note": "Rates, 17 euro FPS, 9:00-19:00 Mon-Sat, 130/70 euro resident subscriptions and electric-vehicle reductions all match the PDF text. Dating: the leaflet carries no issue date. PDF metadata: created 2 July 2026, server Last-Modified 30 July 2026, while the URL path says 2025/05 (a replaced file under an older upload folder). The only date printed on the leaflet is 'Realisation plan : 2026' (map credit), which is not a tariff-setting date. So '2026-07 from metadata' is not supported by the page text; use 2026 at most, with the text saying rates are as listed when checked. Title: the first page reads 'LE PLAN du stationnement payant a Marseille' with 'La tarification' as one of the contents headings, and this is the quartier 19 (Le Rouet) edition (file Q19); the draft's ' - La tarification' title is a composite, not a real page title. Page also contains outdated ZFE text (Crit'Air 3 from Sept 2024) which shows it is not a freshly written document.",
+      "corrected_text": "A SAGS Marseille parking-plan leaflet (the Le Rouet district edition), as listed when checked, gives on-street rates: yellow zone 1.50 euros for 1 hour, 3 euros for 2 hours and 6 euros for 4 hours; orange hypercentre zone 4 euros for 2 hours and 8 euros for 4 hours. It also gives a post-parking charge of up to 17 euros, paid hours of 9:00 to 19:00 Monday to Saturday and annual resident subscriptions of 130 euros (70 euros for six months), with reductions for fully electric vehicles; the leaflet does not say when these rates were set.",
+      "corrected_title": "LE PLAN du stationnement payant a Marseille - Extension de stationnement dans votre quartier 19 (Le Rouet)",
+      "corrected_date": "2026"
+    },
+    {
+      "index": 7,
+      "verdict": "supported",
+      "note": "Article of 19 April 2019: weekend opening of park-and-ride car parks from 20 April voted in the Metropole transport commission, experimental; free for subscribers, 1.20 euros/h for the first three hours then 0.40 euros/h for non-subscribers. Title matches.",
+      "corrected_text": null,
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 8,
+      "verdict": "partly",
+      "note": "Reopening after 'un an et demi' of works (started Feb 2022), 492 to 794 spaces, solar panels, 80 bicycle places, 16 accessible spaces, article dated 29 Sept 2023: all correct. Overstated: the page says '20 places dediees aux voitures electriques' (+40 planned later); it does not say charging points/spaces are installed. Title matches.",
+      "corrected_text": "The La Fourragere park-and-ride reopened after about 18 months of works, going from 492 to 794 spaces. Additions listed include 20 spaces dedicated to electric cars (with 40 more planned later), rooftop solar panels, 80 bicycle places and 16 accessible spaces.",
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 9,
+      "verdict": "partly",
+      "note": "Checked against the raw page (26 March 2024): vehicles removed to the pound on 25 March; about half of the 80 spaces already vacated; archaeological digs in coming weeks (at least four months); works to start in 2025, delivery forecast 2026; planned tree-planted square. Problem: 'Effia-operated ... surface car park' implies it was still running; the page says the car park closed in September 2022 when Effia's delegation ended, and the cars removed were abandoned vehicles. No 2022 article material found mixed in. Title matches.",
+      "corrected_text": "The Providence car park in Belsunce (80 spaces), closed since September 2022 when Effia's concession ended, had the remaining vehicles removed on 25 March 2024 ahead of its conversion into a planted public square. Archaeological digs were due to follow, with construction expected to start in 2025 and delivery forecast for 2026.",
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 10,
+      "verdict": "partly",
+      "note": "Press release dated 13 Nov 2024 (PDF title matches, contacts for both ENGIE Vianeo and the Metropole): 250 ENGIE Vianeo charge points (118 bornes) to be operating by end-2024 across 25 communes, on public roads ('en voirie publique'); Marseille is among the 12 communes already served. Vassal quote: Larecharge 552 points, 954 from private operators, master plan over 7,000 points by 2025. Nothing about car parks. Overstated: only ENGIE's 250 are described as public-road; the release does not say the 552/954/7,000 figures are public-road only. 'Master plan targeting over 7,000 by 2025' is as quoted.",
+      "corrected_text": "In a joint press release, ENGIE Vianeo said it would have 250 public-road charge points operating across 25 communes of the Aix-Marseille-Provence Metropole by end-2024, Marseille being among the communes already served. The Metropole's president was quoted as saying its Larecharge network had 552 charge points and private operators 954, with a master plan foreseeing over 7,000 by 2025; the release does not mention car parks.",
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 11,
+      "verdict": "supported",
+      "note": "data.gouv.fr page: list, location and capacity of gated concession car parks owned by the Metropole, Open Licence 2.0, last update 10 March 2026, update frequency not stated; nothing about real-time data. Title matches.",
+      "corrected_text": null,
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 12,
+      "verdict": "supported",
+      "note": "Article of 8 Sept 2024 (tourist office): Olympic sailing events, hotel occupancy 83.1% during the Games, international nights +38%, French nights +5%, inflation dampening spending. Title matches.",
+      "corrected_text": null,
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 13,
+      "verdict": "supported",
+      "note": "Article of 21 Jan 2026 (press conference 20 Jan): 4.1 million passengers by sea in 2025, +4%, cruise 63% of them; connection of three ships at once at quay is a 'symbolic' 2026 milestone (expected, not done), matching 'expected in 2026'. Title matches.",
+      "corrected_text": null,
+      "corrected_title": null,
+      "corrected_date": null
+    },
+    {
+      "index": 14,
+      "verdict": "supported",
+      "note": "Article of 13 Nov 2025: RTM daily trips 509,000 (2006) to over 900,000 (2024); bus about 430,000, metro 333,000, tram 138,900; in 2019 private car 40% of daily trips and public transport 17%. Page title carries the suffix '| Made in Marseille' which the draft omits (immaterial).",
+      "corrected_text": null,
+      "corrected_title": null,
+      "corrected_date": null
+    }
+  ],
+  "corrected_summary": "Sources for Marseille cover a Metropole leaflet stating that the lower Canebiere would be closed to general traffic from 1 July 2019, and the extension of paid on-street parking to five central districts from 1 October 2019. The low-emission zone began on 1 September 2022; in February 2024 the Metropole president announced the Crit'Air 3 extension was postponed with no new date, and in May 2026 the Constitutional Council struck down a national repeal of such zones as an unrelated legislative rider. Car park items are the Providence car park cleared of vehicles in March 2024 ahead of conversion to a square, the La Fourragere park-and-ride reopened in 2023 with 794 spaces, and a SAGS leaflet listing current on-street tariffs."
+}
