@@ -220,6 +220,8 @@ table.data tr.link:hover td { background: var(--accent-soft); }
 .brief sup a.fn { font: 500 .7rem var(--font-data); color: var(--accent); text-decoration: none; padding: 0 .1rem; }
 .brief .sources ol { margin: 0; padding-left: 1.4rem; display: grid; gap: .25rem; font-size: .85rem; color: var(--ink-2); max-width: 70ch; }
 .brief .sources a { color: var(--accent); }
+.brief .unconf { margin: 0; padding-left: 1.1rem; display: grid; gap: .5rem; font-size: .88rem; color: var(--ink-2); max-width: 70ch; }
+.brief .unconf .muted { display: block; }
 .brieffig { margin: .2rem 0 0; display: grid; gap: .2rem; }
 .ctx { list-style: none; padding: 0; margin: 0; display: grid; gap: .8rem; max-width: 70ch; }
 .ctx li { display: grid; gap: .15rem; padding-top: .8rem; border-top: 1px solid var(--rule-soft); }
@@ -797,7 +799,8 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     let html;
     if (nar) {
       // number the sources in order of first citation; [3] in the text is the item with id 3
-      const byId = new Map(notes.items.map(i => [i.id, i])), order = [];
+      const byId = new Map(notes.items.filter(i => i.checked !== "unconfirmed").map(i => [i.id, i])), order = [];
+      const unconf = notes.items.filter(i => i.checked === "unconfirmed");
       const cite = text => esc(text).replace(/\[(\d+)\]/g, (m, id) => {
         id = +id; if (!byId.has(id)) return "";
         let n = order.indexOf(id); if (n < 0) { order.push(id); n = order.length - 1; }
@@ -809,8 +812,9 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
         <section><h3>${esc(s1.title)}</h3>${paras(s1.text)}${trendBlock}</section>
         <section><h3>${esc(s2.title)}</h3>${paras(s2.text)}</section>
         <section><h3>${esc(s3.title)}</h3>${paras(s3.text)}${opsBlock}</section>
-        <section class="sources"><h3>Sources</h3><ol>${order.map((id, i) => { const it = byId.get(id); return `<li id="src-${i + 1}"><a href="${esc(it.source_url)}" rel="noopener nofollow" target="_blank">${esc(it.source_title)}</a> <span class="muted">(${esc(it.date)})</span></li>`; }).join("")}</ol>
-        <p class="note">Figures without a note are our own: weekday occupancy measured ${b.trend ? "since 2020 and " : ""}over late summer 2026, and the tariffs operators publish. Sources were checked against the linked pages in ${esc(notes.verified ? notes.verified.slice(0, 7) : nar.as_of)}.</p></section></article>`;
+        <section class="sources"><h3>Sources</h3><ol>${order.map((id, i) => { const it = byId.get(id); return `<li id="src-${i + 1}"><a href="${esc(it.source_url)}" rel="noopener nofollow" target="_blank">${esc(it.source_title)}</a> <span class="muted">(${esc(it.date)})${it.read_limit ? "; only the headline and opening could be read, the article is behind a paywall or login" : ""}</span></li>`; }).join("")}</ol>
+        ${unconf.length ? `<h3>Reported, but not confirmed</h3><ul class="unconf">${unconf.map(it => `<li><span>${esc(it.text)}</span> <span class="muted">${esc(it.unconfirmed_reason || "We could not open the source.")} Source: <a href="${esc(it.source_url)}" rel="noopener nofollow" target="_blank">${esc(it.source_title)}</a>.</span></li>`).join("")}</ul>` : ""}
+        <p class="note">Figures without a note are our own: weekday occupancy measured ${b.trend ? "since 2020 and " : ""}over late summer 2026, and the tariffs operators publish. Sources were checked against the linked pages in ${esc(notes.verified ? notes.verified.slice(0, 7) : nar.as_of)}, except where noted above.</p></section></article>`;
     } else {
       const read = [];
       if (t) read.push(`In the twelve months to ${monthLabel(t.window[1])} the average space here was ${(t.now * 100).toFixed(1)}% occupied, against ${(t.then * 100).toFixed(1)}% a year earlier.`);

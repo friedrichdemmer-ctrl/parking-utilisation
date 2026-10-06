@@ -1,19 +1,119 @@
 {
-  "items": [
-    {"index": 0, "verdict": "supported", "note": "Opened Amtsblatt Nr. 790 (23 April 2021), article 'Anwohnerparken wird viel teurer': Ratsmehrheit beschloss Erhoehung auf rund 30 Euro/Monat; permit was 30 Euro/year since 1993; could rise to 30 Euro/month on average with tiered rates still for the administration to work out; same session approved Anwohnerparken extension to Herdern and Oberau and better park-and-ride. All claims present.", "corrected_text": null, "corrected_title": null, "corrected_date": null},
-    {"index": 1, "verdict": "supported", "note": "beck-aktuell, 14 June 2023: BVerwG judgment of 13.06.2023, 9 CN 2.22, declared the Freiburg Bewohnerparkgebuehrensatzung of 14.12.2021 invalid; fees 240/360/480 Euro by vehicle length; reasons: no suitable legal basis (Parkgebuehrenverordnung not a proper basis for a Satzung) and breach of equal treatment (extreme fee jumps); the 360 Euro 'Regelgebuehr' level was not objected to. Title matches page.", "corrected_text": null, "corrected_title": null, "corrected_date": null},
-    {"index": 2, "verdict": "supported", "note": "Amtsblatt Nr. 852 (25 Nov 2023), Bewohnerparkgebuehrenverordnung vom 8. November 2023 (a Rechtsverordnung signed by the Oberbuergermeister): 200 Euro for one year, 100 Euro for six months, in force 1 December 2023. Page also states it replaced the Satzung the BVerwG declared invalid.", "corrected_text": null, "corrected_title": null, "corrected_date": null},
-    {"index": 3, "verdict": "supported", "note": "Amtsblatt Nr. 852 front page 'Viel Platz am neuen Dreisamboulevard': interim results of a concept study; Autobahn GmbH assessment expects 60-80 percent of today's traffic to shift into the tunnel; 'Die Studie ist keine endgueltige Planung'; surface planning becomes concrete only once all engineering plans for the tunnel are complete. Text accurate. Caveat: not a parking measure and topic tag 'regulation' is a stretch; relevance to parking is indirect, editorial decision whether to keep it.", "corrected_text": null, "corrected_title": null, "corrected_date": null},
-    {"index": 4, "verdict": "partly", "note": "Fetched the page (press release dated 16 January 2026, headline 'Hoehere Parkgebuehren gelten ab Februar'). Hourly rates 4.20/3.50/1.80 (from 3.80/3.20/1.60) for Zones 1/2/3 correct, effective 1 February 2026 (council decision of 9 Dec 2025; meters converted over two to three weeks). Resident permit 200 Euro/year and garages 2.20-2.70 Euro/hour unchanged: correct. Overstated: the page says the new flat daily rate (up to 24 h) applies in 'weiten Teilen der Parkzone 1' (21 Euro; Zone 2: 17.50; Zone 3: 9), not 'in most zones'. Title: real headline is 'Hoehere Parkgebuehren gelten ab Februar' (browser title 'Hoehere Parkgebuehren ab Februar - Rathaus und Politik/Presse/Pressemitteilungen'); draft title adds 'www.freiburg.de', which is not in the page title.", "corrected_text": "On 16 January 2026 the city said that, following a council decision of 9 December 2025, on-street ticket parking rises from 1 February 2026 to 4.20 euros per hour in Zone 1 (from 3.80), 3.50 in Zone 2 (from 3.20) and 1.80 in Zone 3 (from 1.60). A new flat rate for up to 24 hours (21, 17.50 and 9 euros for Zones 1, 2 and 3) applies in large parts of Zone 1. The city said resident permits (200 euros per year) and prices in municipal garages (2.20 to 2.70 euros per hour depending on garage and weekday) were not changing.", "corrected_title": "Hoehere Parkgebuehren gelten ab Februar (Pressemitteilung vom 16. Januar 2026)", "corrected_date": null},
-    {"index": 5, "verdict": "supported", "note": "FKB press release 24 Jan 2025: works from Monday 27 Jan 2025; full closure six weeks until 10 March 2025; then sections of 2nd and 3rd basement renovated, one level closed at a time until 13 May 2025, 'knapp dreiviertel' of spaces available; 350 spaces, Rotteckring 12; Konzerthausgarage and Schlossberggarage named as alternatives. Note it is an announcement of planned works, text is worded as such. Title is the PDF headline plus a descriptive suffix; acceptable.", "corrected_text": null, "corrected_title": null, "corrected_date": null},
-    {"index": 6, "verdict": "supported", "note": "Same press release boilerplate: FKB 'gehoert zum FSB Unternehmensverbund'; the FSB Verbund 'betreibt die staedtischen Baeder und Parkgaragen'; FKB 'bewirtschaftet rund 3.200 Parkplaetze in eigenen und verwalteten Garagen'. Minor: the 'runs the city's parking garages' statement is about the group as a whole, but the draft wording is close enough.", "corrected_text": null, "corrected_title": null, "corrected_date": null},
-    {"index": 7, "verdict": "supported", "note": "Press release states the Rotteckgarage 'verfuegt ueber vier E-Ladestationen' and is normally open around the clock.", "corrected_text": null, "corrected_title": null, "corrected_date": null},
-    {"index": 8, "verdict": "supported", "note": "curl got a Cloudflare 403, but WebFetch read the page: electrive.net 24 March 2025, title matches; about 540 publicly accessible charging points (210 on public land, 330 on private but publicly accessible sites such as supermarkets/petrol stations); 2030 targets of 500-700 on public space and over 1,500 in total. No garage mention found. Single source, medium confidence is appropriate.", "corrected_text": null, "corrected_title": null, "corrected_date": null},
-    {"index": 9, "verdict": "supported", "note": "parking.net page dated Thursday 19 January 2023, title matches: besides the Schwabentorgarage, Schlossberg P15 and Rotteckgarage are 'soon to be connected' to evopark's mobility CONNECT platform; camera technology, licence-plate entry for EasyPark apps such as CameraPark. No launch date on the page, and the draft text correctly keeps 'soon'. It is an operator's own announcement; actual go-live not confirmed.", "corrected_text": null, "corrected_title": null, "corrected_date": null},
-    {"index": 10, "verdict": "unreachable", "note": "The cited PDF URL redirects to the Contipark homepage (HTTP 301 to '/', HTML returned, not a PDF); WebFetch of the URL and of the English page contipark.de/en/?p=8791 also returned only the homepage. A WebSearch snippet describes the release, but per instruction a snippet is not accepted. Not verified.", "corrected_text": null, "corrected_title": null, "corrected_date": null},
-    {"index": 11, "verdict": "supported", "note": "PDF text (created 29 June 2023): VCD Regionalverband Suedbaden and Fuss- und Radentscheid protest against the administration's plans; 9.5 million euros (brutto) of the city's own funds to be invested; Verwaltungsdrucksache G-23-126 mentioned as saying renovation of Konzerthausgarage and Konrad-Adenauer garage would follow in 'DHH 25/26ff' (double budget 2025/26 onwards). Draft wording keeps it as the advocacy group's account of plans, not a decision. Title matches the PDF headline.", "corrected_text": null, "corrected_title": null, "corrected_date": null},
-    {"index": 12, "verdict": "supported", "note": "FWTM press release 1 March 2024: 2.12 million overnight stays in 2023 (2,122,843) in establishments with at least ten beds, described as a new record, +4.1 percent vs 2022, +16.5 percent vs 2019; hotel occupancy remains below pre-crisis level. Title matches.", "corrected_text": null, "corrected_title": null, "corrected_date": null},
-    {"index": 13, "verdict": "supported", "note": "fashionunited.de, 28 May 2025: Galeria took over the property of its Freiburg store at Bertoldsbrunnen, moving from tenant to owner, 'wichtiger Schritt fuer die Standortsicherung'. Nuance: the page says it was taken over from the existing Freiburg property company within the group (agreed with the shareholder), so 'bought' is only loosely right (headline says 'erwirbt'). Single source, medium appropriate.", "corrected_text": null, "corrected_title": null, "corrected_date": null}
-  ],
-  "corrected_summary": "In April 2021 a majority of Freiburg's council backed a sharp rise in resident parking permit fees. In June 2023 the Federal Administrative Court declared the city's length-based resident fee ordinance invalid, and a flat 200 euro annual fee has applied since 1 December 2023. From 1 February 2026 the city raised on-street parking prices and said its municipal garage prices were unchanged, and in January 2025 the garage operator FKB announced renovation works at the Rotteckgarage."
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Opened Amtsblatt Nr. 790 (23 April 2021), article 'Anwohnerparken wird viel teurer': Ratsmehrheit beschloss Erhoehung auf rund 30 Euro/Monat; permit was 30 Euro/year since 1993; could rise to 30 Euro/month on average with tiered rates still for the administration to work out; same session approved Anwohnerparken extension to Herdern and Oberau and better park-and-ride. All claims present.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "beck-aktuell, 14 June 2023: BVerwG judgment of 13.06.2023, 9 CN 2.22, declared the Freiburg Bewohnerparkgebuehrensatzung of 14.12.2021 invalid; fees 240/360/480 Euro by vehicle length; reasons: no suitable legal basis (Parkgebuehrenverordnung not a proper basis for a Satzung) and breach of equal treatment (extreme fee jumps); the 360 Euro 'Regelgebuehr' level was not objected to. Title matches page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Amtsblatt Nr. 852 (25 Nov 2023), Bewohnerparkgebuehrenverordnung vom 8. November 2023 (a Rechtsverordnung signed by the Oberbuergermeister): 200 Euro for one year, 100 Euro for six months, in force 1 December 2023. Page also states it replaced the Satzung the BVerwG declared invalid.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Amtsblatt Nr. 852 front page 'Viel Platz am neuen Dreisamboulevard': interim results of a concept study; Autobahn GmbH assessment expects 60-80 percent of today's traffic to shift into the tunnel; 'Die Studie ist keine endgueltige Planung'; surface planning becomes concrete only once all engineering plans for the tunnel are complete. Text accurate. Caveat: not a parking measure and topic tag 'regulation' is a stretch; relevance to parking is indirect, editorial decision whether to keep it.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "Fetched the page (press release dated 16 January 2026, headline 'Hoehere Parkgebuehren gelten ab Februar'). Hourly rates 4.20/3.50/1.80 (from 3.80/3.20/1.60) for Zones 1/2/3 correct, effective 1 February 2026 (council decision of 9 Dec 2025; meters converted over two to three weeks). Resident permit 200 Euro/year and garages 2.20-2.70 Euro/hour unchanged: correct. Overstated: the page says the new flat daily rate (up to 24 h) applies in 'weiten Teilen der Parkzone 1' (21 Euro; Zone 2: 17.50; Zone 3: 9), not 'in most zones'. Title: real headline is 'Hoehere Parkgebuehren gelten ab Februar' (browser title 'Hoehere Parkgebuehren ab Februar - Rathaus und Politik/Presse/Pressemitteilungen'); draft title adds 'www.freiburg.de', which is not in the page title.",
+   "corrected_text": "On 16 January 2026 the city said that, following a council decision of 9 December 2025, on-street ticket parking rises from 1 February 2026 to 4.20 euros per hour in Zone 1 (from 3.80), 3.50 in Zone 2 (from 3.20) and 1.80 in Zone 3 (from 1.60). A new flat rate for up to 24 hours (21, 17.50 and 9 euros for Zones 1, 2 and 3) applies in large parts of Zone 1. The city said resident permits (200 euros per year) and prices in municipal garages (2.20 to 2.70 euros per hour depending on garage and weekday) were not changing.",
+   "corrected_title": "Hoehere Parkgebuehren gelten ab Februar (Pressemitteilung vom 16. Januar 2026)",
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "FKB press release 24 Jan 2025: works from Monday 27 Jan 2025; full closure six weeks until 10 March 2025; then sections of 2nd and 3rd basement renovated, one level closed at a time until 13 May 2025, 'knapp dreiviertel' of spaces available; 350 spaces, Rotteckring 12; Konzerthausgarage and Schlossberggarage named as alternatives. Note it is an announcement of planned works, text is worded as such. Title is the PDF headline plus a descriptive suffix; acceptable.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Same press release boilerplate: FKB 'gehoert zum FSB Unternehmensverbund'; the FSB Verbund 'betreibt die staedtischen Baeder und Parkgaragen'; FKB 'bewirtschaftet rund 3.200 Parkplaetze in eigenen und verwalteten Garagen'. Minor: the 'runs the city's parking garages' statement is about the group as a whole, but the draft wording is close enough.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Press release states the Rotteckgarage 'verfuegt ueber vier E-Ladestationen' and is normally open around the clock.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "curl got a Cloudflare 403, but WebFetch read the page: electrive.net 24 March 2025, title matches; about 540 publicly accessible charging points (210 on public land, 330 on private but publicly accessible sites such as supermarkets/petrol stations); 2030 targets of 500-700 on public space and over 1,500 in total. No garage mention found. Single source, medium confidence is appropriate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "parking.net page dated Thursday 19 January 2023, title matches: besides the Schwabentorgarage, Schlossberg P15 and Rotteckgarage are 'soon to be connected' to evopark's mobility CONNECT platform; camera technology, licence-plate entry for EasyPark apps such as CameraPark. No launch date on the page, and the draft text correctly keeps 'soon'. It is an operator's own announcement; actual go-live not confirmed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "unreachable",
+   "note": "The cited PDF URL redirects to the Contipark homepage (HTTP 301 to '/', HTML returned, not a PDF); WebFetch of the URL and of the English page contipark.de/en/?p=8791 also returned only the homepage. A WebSearch snippet describes the release, but per instruction a snippet is not accepted. Not verified.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": "A search-engine summary of a Contipark press release of March 2023 says Contipark took over the Zähringer Tor underground car park (212 spaces) in February 2023 under a long-term lease.",
+   "unconfirmed_reason": "The cited PDF redirects to the company's home page, so we could not read the press release."
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "PDF text (created 29 June 2023): VCD Regionalverband Suedbaden and Fuss- und Radentscheid protest against the administration's plans; 9.5 million euros (brutto) of the city's own funds to be invested; Verwaltungsdrucksache G-23-126 mentioned as saying renovation of Konzerthausgarage and Konrad-Adenauer garage would follow in 'DHH 25/26ff' (double budget 2025/26 onwards). Draft wording keeps it as the advocacy group's account of plans, not a decision. Title matches the PDF headline.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "FWTM press release 1 March 2024: 2.12 million overnight stays in 2023 (2,122,843) in establishments with at least ten beds, described as a new record, +4.1 percent vs 2022, +16.5 percent vs 2019; hotel occupancy remains below pre-crisis level. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "fashionunited.de, 28 May 2025: Galeria took over the property of its Freiburg store at Bertoldsbrunnen, moving from tenant to owner, 'wichtiger Schritt fuer die Standortsicherung'. Nuance: the page says it was taken over from the existing Freiburg property company within the group (agreed with the shareholder), so 'bought' is only loosely right (headline says 'erwirbt'). Single source, medium appropriate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "In April 2021 a majority of Freiburg's council backed a sharp rise in resident parking permit fees. In June 2023 the Federal Administrative Court declared the city's length-based resident fee ordinance invalid, and a flat 200 euro annual fee has applied since 1 December 2023. From 1 February 2026 the city raised on-street parking prices and said its municipal garage prices were unchanged, and in January 2025 the garage operator FKB announced renovation works at the Rotteckgarage."
 }

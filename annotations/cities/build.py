@@ -8,17 +8,25 @@ every source), write <slug>.json containing only what survived:
 
   supported    kept as written (with a corrected title/date if the checker gave one)
   partly       kept with the checker's corrected_text, which holds only what the page supports
-  unsupported / unreachable / confidence "low"   dropped (counted in "dropped")
+  unreachable  kept as an UNCONFIRMED item if the verdict gives unconfirmed_text: what a search result
+               says, worded as a report, with the reason we could not read the page. Never presented as fact.
+  unsupported / confidence "low"   dropped (counted in "dropped")
+  Items the checker could only read in part (paywall, login, registration wall: headline and opening
+  only) are kept and flagged read_limit = "headline".
 
 A draft with no verdict file is NOT published. The draft and verdict files stay in the repo as the
 audit trail; only <slug>.json is served (see city_briefing.notes). Rerun after a new draft or verdict.
 """
 
 import json
+import re
 from datetime import date
 from pathlib import Path
 
 DIR = Path(__file__).resolve().parent
+
+
+PARTIAL_READ = re.compile(r"paywall|login-?wall|registration wall|only the (lede|teaser|headline)|headline, (lede|standfirst)", re.I)
 
 
 def build(draft_path: Path) -> dict | None:
@@ -35,6 +43,12 @@ def build(draft_path: Path) -> dict | None:
         v = by_index.get(i)
         if v is None:
             dropped["unchecked"] += 1
+            continue
+        if v["verdict"] == "unreachable" and v.get("unconfirmed_text"):
+            out = dict(item, id=i, text=v["unconfirmed_text"], confidence="unconfirmed", checked="unconfirmed",
+                       unconfirmed_reason=v.get("unconfirmed_reason", "We could not open the source."))
+            out.pop("date_note", None)
+            kept.append(out)
             continue
         if v["verdict"] in ("unsupported", "unreachable"):
             dropped[v["verdict"]] += 1
@@ -54,6 +68,8 @@ def build(draft_path: Path) -> dict | None:
         if v.get("corrected_date"):
             out["date"] = v["corrected_date"]
         out["checked"] = v["verdict"]
+        if PARTIAL_READ.search(v.get("note", "")):
+            out["read_limit"] = "headline"
         kept.append(out)
     result = {
         "country": draft["country"], "city": draft["city"], "researched": draft["researched"], "verified": date.today().isoformat(),

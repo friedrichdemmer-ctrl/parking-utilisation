@@ -1,125 +1,129 @@
 {
-  "items": [
-    {
-      "index": 0,
-      "verdict": "partly",
-      "note": "Radio Bielefeld page dated 21 May 2022 confirms 1.30 euros to up to 4 euros per hour, resident permit 30.70 to 365 euros, phased increase, proposal discussed at first meeting of the Parkraumkonzept Innenstadt project group. The page says 'up to' 4 euros (not 'roughly'), and the 50% to 25% target is for car share of all transport in the city, not specifically 'trips in the centre'. Permit price is 30.70, not 'about 30' (minor).",
-      "corrected_text": "Radio Bielefeld reported on 21 May 2022 that the city administration proposed raising short-stay street parking from 1.30 euros to up to 4 euros per hour and resident permits from 30.70 to 365 euros a year, to be phased in gradually. The report also says the city aims to cut the car share of all transport from 50% to 25% by 2030. This was a proposal discussed in the downtown parking-concept project group.",
-      "corrected_title": null,
-      "corrected_date": "2022-05-21"
-    },
-    {
-      "index": 1,
-      "verdict": "supported",
-      "note": "Page dated 15 Nov 2024; headline and readable teaser mention four new parking zones, expanded resident-parking areas and district multi-storey garages (Quartiersparkhaeuser) as planned within the traffic transition. Article is paywalled; prices/start date not visible, as the draft says. Only headline/teaser could be checked.",
-      "corrected_text": null,
-      "corrected_title": null,
-      "corrected_date": null
-    },
-    {
-      "index": 2,
-      "verdict": "partly",
-      "note": "Page (21 May 2025) says: from 2026 parking in old town and city area costs 2 euros per hour set by the red-green-red coalition, 1 euro in the extended inner city, residents keep paying 30 euros, rates apply once the Verkehrs-Leitsystem is active, expected from mid-2026. It does NOT mention the previous 1.30 euro rate. It says 'Altstadt und Citybereich', not 'immediate city centre'.",
-      "corrected_text": "Radio Guetersloh reported on 21 May 2025 that the red-green-red coalition set on-street parking at 2 euros per hour in the old town and city area and 1 euro per hour in the extended inner city, with resident permits staying at 30 euros a year. The new fees are to apply once the traffic guidance system is active, expected from mid-2026.",
-      "corrected_title": null,
-      "corrected_date": null
-    },
-    {
-      "index": 3,
-      "verdict": "partly",
-      "note": "Page (3 July 2025) is paywalled; readable part says the red-green-red coalition decided ('beschlossen') the new fees despite strong criticism, 2 euros per hour in the historic city centre, previously 1.30 (Gehrenberg given as example). It names the coalition, not the city council. The readable text mentions a possible extension of the 2-euro rate to the extended inner city, which conflicts with the 1 euro for the extended inner city in the Radio Guetersloh item, so it is best left out. Nothing says whether the rates were in force.",
-      "corrected_text": "A regional newspaper reported on 3 July 2025 that the red-green-red coalition decided the new parking fees despite strong criticism: 2 euros per hour in the historic city centre, up from 1.30. The readable part of the article does not say when the rates take effect.",
-      "corrected_title": null,
-      "corrected_date": null
-    },
-    {
-      "index": 4,
-      "verdict": "partly",
-      "note": "Page (6 April 2025) gives hourly prices from 1 euro for the first hour to 2.50 euros (mid-range 1.50-2 euros) and daily caps of 6 to 25 euros, not 8 to 25. 'Most garages' is not stated. (The same page also lists the Ritterstrasse garage as closed until about 2026 with 456 spaces, a third capacity figure.)",
-      "corrected_text": "A newspaper overview of city-centre garages and car parks dated 6 April 2025 gave hourly prices from 1 euro for the first hour up to 2.50 euros, with mid-range facilities at 1.50 to 2 euros, and daily maximums from 6 to 25 euros.",
-      "corrected_title": null,
-      "corrected_date": null
-    },
-    {
-      "index": 5,
-      "verdict": "supported",
-      "note": "Page is KW 27, Tuesday 6 July 2021: new stop before Cafe Europa put into operation, access to Niederwall from Jahnplatz direction blocked, access to Rathaus-Parkhaus from Turnerstrasse possible again from now on. Title matches (published 9 July per URL, fact date 6 July).",
-      "corrected_text": null,
-      "corrected_title": null,
-      "corrected_date": null
-    },
-    {
-      "index": 6,
-      "verdict": "supported",
-      "note": "Home page title matches. 18 million euros from the Emissionsfreie Innenstadt programme (page says EU and state funding), reconstruction had to be finished by mid-2022 to keep the grants, single lane for motorised traffic, Niederwall to become a bicycle street. Page is undated; '2022' reflects the deadline.",
-      "corrected_text": null,
-      "corrected_title": null,
-      "corrected_date": null
-    },
-    {
-      "index": 7,
-      "verdict": "partly",
-      "note": "Page 29 Sept 2022: first dismantling work has begun on the existing parking structure, an excavator to follow; the plan is a modern garage in the background with an office building in front overlooking the square; planning for the 'Goldbeck-Neubau' continues. The page does not say Goldbeck is a Bielefeld firm or that it is the builder of the garage.",
-      "corrected_text": "A newspaper reported on 29 September 2022 that first dismantling work had begun on the existing parking structure at Kesselbrink. The plan described is a modern garage at the back with an office building in front facing the square, and planning for the Goldbeck new-build continues.",
-      "corrected_title": null,
-      "corrected_date": null
-    },
-    {
-      "index": 8,
-      "verdict": "partly",
-      "note": "Radio Bielefeld page is dated 2 July 2026 and is an announcement: Contipark has scheduled reopening for 14 July at noon, 'nach vier Jahren Sanierung' (not 'more than four years'), 480 spaces and 30 charging points. It does not report that the reopening happened, does not give 425 or 32 (those come from other, unverified sources) and does not mention the 2025 overview (that was a different page, which also gave 456 spaces).",
-      "corrected_text": "Radio Bielefeld reported on 2 July 2026 that Contipark's Ritterstrasse garage in the old town would reopen on 14 July at noon after four years of renovation, and gave 480 parking spaces and 30 charging points.",
-      "corrected_title": null,
-      "corrected_date": "2026-07-02"
-    },
-    {
-      "index": 9,
-      "verdict": "partly",
-      "note": "Page (1 July 2026) is login-walled; readable headline and teaser confirm Contipark expands its own portfolio and takes over Parkhaus Ankergaerten, an 804-space property, as it continues its acquisition course. The 1 June 2026 takeover date appears only in a search-result summary, not on the readable page.",
-      "corrected_text": "Konii reported on 1 July 2026 that Contipark is continuing its acquisitions by taking over the Ankergaerten garage in Bielefeld, a property with 804 spaces.",
-      "corrected_title": null,
-      "corrected_date": "2026-07-01"
-    },
-    {
-      "index": 10,
-      "verdict": "unreachable",
-      "note": "konii.de/?p=211057 (16 July 2026, title matches) is login-walled; only the teaser is visible (comprehensive renovation, Ritterstrasse again available). Charge points (32) and investment (about 11 million euros) are not on the readable page; they appear only in a search-result summary of unknown fidelity, which also gives 425 spaces. Cannot be verified against the page.",
-      "corrected_text": null,
-      "corrected_title": null,
-      "corrected_date": null
-    },
-    {
-      "index": 11,
-      "verdict": "supported",
-      "note": "Opened the PDF: published September 2024 by Stadt Bielefeld (consultancy Institut Stadt|Mobilitaet|Energie); on 21.03.2024, per the Ladesaeulenregister, 243 public charge points (213 AC and 30 DC/HPC) in operation; use case 4 (public car parks) says the city can actively influence charger build-out only in garages owned by the city. Title matches.",
-      "corrected_text": null,
-      "corrected_title": null,
-      "corrected_date": null
-    },
-    {
-      "index": 12,
-      "verdict": "unreachable",
-      "note": "Same login-walled konii page as item 10; the licence-plate recognition / ticketless claim is not in the readable teaser, only in a search-result summary. Cannot be verified against the page.",
-      "corrected_text": null,
-      "corrected_title": null,
-      "corrected_date": null
-    },
-    {
-      "index": 13,
-      "verdict": "partly",
-      "note": "Page confirms attractiveness grade 2.8 (2020), 3.0 (2022), now 3.3, comparison group 2.5, car-friendliness 3.6, parking 3.6, public transport 2.0. The page gives no survey year; '2024' is not on it (other IHK pages suggest the 2024 survey, presented around early 2025, but that is not this page). H1 title is 'Studie \"Vitale Innenstaedte\"'.",
-      "corrected_text": "An IHK Ostwestfalen page on the 'Vitale Innenstaedte' study says Bielefeld's city-centre attractiveness grade fell from 2.8 (2020) to 3.0 (2022) and now 3.3, against 2.5 for the comparison group. In the same study, parking and car-friendliness each scored 3.6 and public-transport accessibility 2.0.",
-      "corrected_title": "Studie \"Vitale Innenstädte\"",
-      "corrected_date": null
-    },
-    {
-      "index": 14,
-      "verdict": "supported",
-      "note": "Page 11 Dec 2025: Sahle Wohnen (Greven) has acquired the property, the Karstadt complex is to be demolished and replaced by a new residential and commercial building; no demolition or completion timeline given. Title matches.",
-      "corrected_text": null,
-      "corrected_title": null,
-      "corrected_date": null
-    }
-  ],
-  "corrected_summary": "Bielefeld's red-green-red coalition decided in 2025 on new city-centre street-parking fees of 2 euros per hour (old town and city area) and 1 euro (extended inner city), to apply once the traffic guidance system is active, expected from mid-2026; the sources checked do not say whether they are in force. Contipark announced the reopening of its Ritterstrasse garage for 14 July 2026 after four years of renovation (Radio Bielefeld: 480 spaces, 30 charging points) and took over the 804-space Ankergaerten garage. An IHK Ostwestfalen study page puts Bielefeld's city-centre attractiveness grade at 3.3, down from 2.8 in 2020, with parking scoring 3.6."
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Radio Bielefeld page dated 21 May 2022 confirms 1.30 euros to up to 4 euros per hour, resident permit 30.70 to 365 euros, phased increase, proposal discussed at first meeting of the Parkraumkonzept Innenstadt project group. The page says 'up to' 4 euros (not 'roughly'), and the 50% to 25% target is for car share of all transport in the city, not specifically 'trips in the centre'. Permit price is 30.70, not 'about 30' (minor).",
+   "corrected_text": "Radio Bielefeld reported on 21 May 2022 that the city administration proposed raising short-stay street parking from 1.30 euros to up to 4 euros per hour and resident permits from 30.70 to 365 euros a year, to be phased in gradually. The report also says the city aims to cut the car share of all transport from 50% to 25% by 2030. This was a proposal discussed in the downtown parking-concept project group.",
+   "corrected_title": null,
+   "corrected_date": "2022-05-21"
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Page dated 15 Nov 2024; headline and readable teaser mention four new parking zones, expanded resident-parking areas and district multi-storey garages (Quartiersparkhaeuser) as planned within the traffic transition. Article is paywalled; prices/start date not visible, as the draft says. Only headline/teaser could be checked.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Page (21 May 2025) says: from 2026 parking in old town and city area costs 2 euros per hour set by the red-green-red coalition, 1 euro in the extended inner city, residents keep paying 30 euros, rates apply once the Verkehrs-Leitsystem is active, expected from mid-2026. It does NOT mention the previous 1.30 euro rate. It says 'Altstadt und Citybereich', not 'immediate city centre'.",
+   "corrected_text": "Radio Guetersloh reported on 21 May 2025 that the red-green-red coalition set on-street parking at 2 euros per hour in the old town and city area and 1 euro per hour in the extended inner city, with resident permits staying at 30 euros a year. The new fees are to apply once the traffic guidance system is active, expected from mid-2026.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Page (3 July 2025) is paywalled; readable part says the red-green-red coalition decided ('beschlossen') the new fees despite strong criticism, 2 euros per hour in the historic city centre, previously 1.30 (Gehrenberg given as example). It names the coalition, not the city council. The readable text mentions a possible extension of the 2-euro rate to the extended inner city, which conflicts with the 1 euro for the extended inner city in the Radio Guetersloh item, so it is best left out. Nothing says whether the rates were in force.",
+   "corrected_text": "A regional newspaper reported on 3 July 2025 that the red-green-red coalition decided the new parking fees despite strong criticism: 2 euros per hour in the historic city centre, up from 1.30. The readable part of the article does not say when the rates take effect.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "Page (6 April 2025) gives hourly prices from 1 euro for the first hour to 2.50 euros (mid-range 1.50-2 euros) and daily caps of 6 to 25 euros, not 8 to 25. 'Most garages' is not stated. (The same page also lists the Ritterstrasse garage as closed until about 2026 with 456 spaces, a third capacity figure.)",
+   "corrected_text": "A newspaper overview of city-centre garages and car parks dated 6 April 2025 gave hourly prices from 1 euro for the first hour up to 2.50 euros, with mid-range facilities at 1.50 to 2 euros, and daily maximums from 6 to 25 euros.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Page is KW 27, Tuesday 6 July 2021: new stop before Cafe Europa put into operation, access to Niederwall from Jahnplatz direction blocked, access to Rathaus-Parkhaus from Turnerstrasse possible again from now on. Title matches (published 9 July per URL, fact date 6 July).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Home page title matches. 18 million euros from the Emissionsfreie Innenstadt programme (page says EU and state funding), reconstruction had to be finished by mid-2022 to keep the grants, single lane for motorised traffic, Niederwall to become a bicycle street. Page is undated; '2022' reflects the deadline.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Page 29 Sept 2022: first dismantling work has begun on the existing parking structure, an excavator to follow; the plan is a modern garage in the background with an office building in front overlooking the square; planning for the 'Goldbeck-Neubau' continues. The page does not say Goldbeck is a Bielefeld firm or that it is the builder of the garage.",
+   "corrected_text": "A newspaper reported on 29 September 2022 that first dismantling work had begun on the existing parking structure at Kesselbrink. The plan described is a modern garage at the back with an office building in front facing the square, and planning for the Goldbeck new-build continues.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Radio Bielefeld page is dated 2 July 2026 and is an announcement: Contipark has scheduled reopening for 14 July at noon, 'nach vier Jahren Sanierung' (not 'more than four years'), 480 spaces and 30 charging points. It does not report that the reopening happened, does not give 425 or 32 (those come from other, unverified sources) and does not mention the 2025 overview (that was a different page, which also gave 456 spaces).",
+   "corrected_text": "Radio Bielefeld reported on 2 July 2026 that Contipark's Ritterstrasse garage in the old town would reopen on 14 July at noon after four years of renovation, and gave 480 parking spaces and 30 charging points.",
+   "corrected_title": null,
+   "corrected_date": "2026-07-02"
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Page (1 July 2026) is login-walled; readable headline and teaser confirm Contipark expands its own portfolio and takes over Parkhaus Ankergaerten, an 804-space property, as it continues its acquisition course. The 1 June 2026 takeover date appears only in a search-result summary, not on the readable page.",
+   "corrected_text": "Konii reported on 1 July 2026 that Contipark is continuing its acquisitions by taking over the Ankergaerten garage in Bielefeld, a property with 804 spaces.",
+   "corrected_title": null,
+   "corrected_date": "2026-07-01"
+  },
+  {
+   "index": 10,
+   "verdict": "unreachable",
+   "note": "konii.de/?p=211057 (16 July 2026, title matches) is login-walled; only the teaser is visible (comprehensive renovation, Ritterstrasse again available). Charge points (32) and investment (about 11 million euros) are not on the readable page; they appear only in a search-result summary of unknown fidelity, which also gives 425 spaces. Cannot be verified against the page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": "A search-engine summary of Contipark's 16 July 2026 announcement on its renovated Ritterstraße garage gives 32 charging points and an investment of about €11 million; Radio Bielefeld reported 30 charging points.",
+   "unconfirmed_reason": "The announcement page is behind a login, so we could not read these figures on the page."
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Opened the PDF: published September 2024 by Stadt Bielefeld (consultancy Institut Stadt|Mobilitaet|Energie); on 21.03.2024, per the Ladesaeulenregister, 243 public charge points (213 AC and 30 DC/HPC) in operation; use case 4 (public car parks) says the city can actively influence charger build-out only in garages owned by the city. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "unreachable",
+   "note": "Same login-walled konii page as item 10; the licence-plate recognition / ticketless claim is not in the readable teaser, only in a search-result summary. Cannot be verified against the page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": "A search-engine summary of the same announcement says the renovated Ritterstraße garage uses number-plate recognition for ticketless, cashless parking.",
+   "unconfirmed_reason": "The announcement page is behind a login, so we could not read this on the page."
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Page confirms attractiveness grade 2.8 (2020), 3.0 (2022), now 3.3, comparison group 2.5, car-friendliness 3.6, parking 3.6, public transport 2.0. The page gives no survey year; '2024' is not on it (other IHK pages suggest the 2024 survey, presented around early 2025, but that is not this page). H1 title is 'Studie \"Vitale Innenstaedte\"'.",
+   "corrected_text": "An IHK Ostwestfalen page on the 'Vitale Innenstaedte' study says Bielefeld's city-centre attractiveness grade fell from 2.8 (2020) to 3.0 (2022) and now 3.3, against 2.5 for the comparison group. In the same study, parking and car-friendliness each scored 3.6 and public-transport accessibility 2.0.",
+   "corrected_title": "Studie \"Vitale Innenstädte\"",
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Page 11 Dec 2025: Sahle Wohnen (Greven) has acquired the property, the Karstadt complex is to be demolished and replaced by a new residential and commercial building; no demolition or completion timeline given. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Bielefeld's red-green-red coalition decided in 2025 on new city-centre street-parking fees of 2 euros per hour (old town and city area) and 1 euro (extended inner city), to apply once the traffic guidance system is active, expected from mid-2026; the sources checked do not say whether they are in force. Contipark announced the reopening of its Ritterstrasse garage for 14 July 2026 after four years of renovation (Radio Bielefeld: 480 spaces, 30 charging points) and took over the 804-space Ankergaerten garage. An IHK Ostwestfalen study page puts Bielefeld's city-centre attractiveness grade at 3.3, down from 2.8 in 2020, with parking scoring 3.6."
 }

@@ -43,7 +43,8 @@
    "source_url": "https://www.ruhrnachrichten.de/dortmund/city-parken-parken-gebuehren-kosten-preis-auto-stadt-dortmund-zehntausende-euro-pro-monat-ein-w907159-2001283501/",
    "confidence": "medium",
    "id": 3,
-   "checked": "supported"
+   "checked": "supported",
+   "read_limit": "headline"
   },
   {
    "topic": "regulation",
@@ -123,7 +124,8 @@
    "source_url": "https://www.ruhrnachrichten.de/dortmund/dortmunds-parkhaus-betreiber-gehoert-zum-teil-einem-weltkonzern-dopark-chef-erklaert-warum-w972681-2001477854/",
    "confidence": "medium",
    "id": 11,
-   "checked": "supported"
+   "checked": "supported",
+   "read_limit": "headline"
   },
   {
    "topic": "ev",
@@ -143,7 +145,8 @@
    "source_url": "https://www.energate-messenger.com/news/196111/funding-decision-for-dortmund-s-e-charging-infrastructure",
    "confidence": "medium",
    "id": 13,
-   "checked": "supported"
+   "checked": "supported",
+   "read_limit": "headline"
   },
   {
    "topic": "demand",
@@ -173,7 +176,8 @@
    "source_url": "https://www.handelsdaten.de/deutschsprachiger-einzelhandel/passantenfrequenz-westenhellweg-mitte-dortmund-corona-pandemie",
    "confidence": "medium",
    "id": 16,
-   "checked": "supported"
+   "checked": "supported",
+   "read_limit": "headline"
   }
  ],
  "gaps": [

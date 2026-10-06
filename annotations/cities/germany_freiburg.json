@@ -107,6 +107,17 @@
   },
   {
    "topic": "operators",
+   "date": "2023-03",
+   "text": "A search-engine summary of a Contipark press release of March 2023 says Contipark took over the Zähringer Tor underground car park (212 spaces) in February 2023 under a long-term lease.",
+   "source_title": "Contipark takes over underground car park \"Zähringer Tor\" in Freiburg im Breisgau (press release 230301)",
+   "source_url": "https://www.contipark.de/wp-content/uploads/2023/03/230301_PM_Uebernahme-TG-Zaehringer-Tor-Freiburg.pdf",
+   "confidence": "unconfirmed",
+   "id": 10,
+   "checked": "unconfirmed",
+   "unconfirmed_reason": "The cited PDF redirects to the company's home page, so we could not read the press release."
+  },
+  {
+   "topic": "operators",
    "date": "2023-06",
    "text": "The VCD Südbaden and the Fuß- und Radentscheid criticised a city plan to spend 9.5 million euros (gross) of city funds renovating the Bahnhofsgarage. The VCD states that a council paper expects renovation of the Konzerthausgarage and Konrad-Adenauer garage to follow in the 2025/26 budget. This is an advocacy group's account of city plans, not a city source.",
    "source_title": "Sanierung der Bahnhofsgarage Freiburg - Intransparenz und Verschwendung von Klimaschutzmitteln (VCD Pressemitteilung)",
@@ -149,7 +160,5 @@
   "Footfall, retail turnover, university, events, remote work, tram ridership and Deutschlandticket effects for Freiburg not sourced; only 2023 tourism overnight stays and a Galeria property purchase were found.",
   "Landratsamt car park not covered."
  ],
- "dropped": {
-  "unreachable": 1
- }
+ "dropped": {}
 }

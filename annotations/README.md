@@ -33,3 +33,17 @@ Amsterdam, Hamburg, Nürnberg, Lyon, Heidelberg, Zürich, Basel, Bordeaux, Mannh
 Nantes, Strasbourg, Dortmund, Freiburg, Karlsruhe, Heilbronn, Madrid, Marseille.
 Candidates next: Salzburg, Luxembourg, Bolzano, Jena, Bochum.
 Sources a page itself labels as AI-written are not cited (Torino's via Roma item).
+
+
+### Unconfirmed claims and unreadable sources (rule set by the owner, 2026-10-06)
+
+- Never invent or round up a claim. If a source cannot be opened or read in full, the claim is NOT
+  presented as fact: the fact-check marks it `unreachable`, and `build.py` publishes it only as an
+  "unconfirmed" item (shown under "Reported, but not confirmed" with the reason and the link), worded as
+  what a search result says. Narrative text never cites an unconfirmed item.
+- Items the checker could read only in part (paywall, login, registration wall) are published with the
+  note "only the headline and opening could be read".
+- Where a PDF is unreadable, give the owner the link; the owner investigates and uploads the document to
+  `annotations/cities/uploads/` (see the README there). Then re-check the item against the upload.
+- Verifier prompts must say: do not accept a search snippet as confirmation; mark the item unreachable;
+  give `unconfirmed_text` and `unconfirmed_reason` for it.

@@ -27,6 +27,17 @@
   },
   {
    "topic": "technology",
+   "date": "2019-02",
+   "text": "A search-engine summary of a February 2019 city press release says Dresden introduced cashless payment by smartphone (E-Parkschein) at about 450 of its parking machines.",
+   "source_title": "Dresden city press release (pm_003), February 2019, as shown in search results",
+   "source_url": "https://www.dresden.de/de/rathaus/aktuelles/pressemitteilungen/archiv/2019/02/pm_003.php",
+   "confidence": "unconfirmed",
+   "id": 2,
+   "checked": "unconfirmed",
+   "unconfirmed_reason": "The city's website was unavailable when we checked, so we could not read the press release."
+  },
+  {
+   "topic": "technology",
    "date": "2026",
    "text": "APCOA's page for its Dresden-Mitte garage (Magdeburger Strasse 1) lists 606 spaces, a parking guidance system and ticketless parking through its FLOW app. It also lists 1.50 euros per hour with an 8 euro daily maximum for 08:00-20:00, as shown when checked in October 2026.",
    "source_title": "APCOA Dresden Mitte",
@@ -54,6 +65,28 @@
    "confidence": "medium",
    "id": 5,
    "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2019-01",
+   "text": "A search-engine summary says the city council adopted the Air Quality Plan 2017 on 24 January 2019, and that it includes parking management with a focus on residents around Schillerplatz in Blasewitz.",
+   "source_title": "Landeshauptstadt Dresden: Parken Schillerplatz (archive page) and Luftreinhalteplan 2017 status report, as shown in search results",
+   "source_url": "https://www.dresden.de/de/stadtraum/planen/stadtentwicklung/archiv/parken-schillerplatz.php",
+   "confidence": "unconfirmed",
+   "id": 6,
+   "checked": "unconfirmed",
+   "unconfirmed_reason": "The city's website was unavailable when we checked, so we could not read the page, and we could not confirm that the measure has been implemented."
+  },
+  {
+   "topic": "demand",
+   "date": "2022-04",
+   "text": "A search-engine summary of the city's page on the Altmarkt renovation says work began in April 2022.",
+   "source_title": "Landeshauptstadt Dresden: Altmarkt (Sanierung), as shown in search results",
+   "source_url": "https://www.dresden.de/de/stadtraum/zentrale-projekte/altmarkt-sanierung.php",
+   "confidence": "unconfirmed",
+   "id": 7,
+   "checked": "unconfirmed",
+   "unconfirmed_reason": "The city's website was unavailable when we checked. The end date, and whether the work finished on schedule, are unconfirmed."
   },
   {
    "topic": "demand",
@@ -87,7 +120,5 @@
   "Later steps of the 2021 fee plan (2022 and 2023 rates as actually applied) and any fee changes after 2023",
   "Most dresden.de pages returned HTTP 503 when opened, so the city items rest on search-result text, not full page reads"
  ],
- "dropped": {
-  "unreachable": 3
- }
+ "dropped": {}
 }

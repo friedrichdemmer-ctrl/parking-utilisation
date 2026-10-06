@@ -53,7 +53,8 @@
    "source_url": "https://bnn.de/karlsruhe/karlsruhe-stadt/peek-cloppenburg-karlsruhe-so-sollen-abriss-und-neubau-laufen",
    "confidence": "medium",
    "id": 4,
-   "checked": "supported"
+   "checked": "supported",
+   "read_limit": "headline"
   },
   {
    "topic": "demand",
@@ -63,7 +64,8 @@
    "source_url": "https://bnn.de/karlsruhe/karlsruhe-stadt/innenstadt/standort-bleibt-karstadt-kunden-erleichtert-galeria-karstadt-kaufhof-konzern",
    "confidence": "medium",
    "id": 5,
-   "checked": "supported"
+   "checked": "supported",
+   "read_limit": "headline"
   },
   {
    "topic": "ev",
