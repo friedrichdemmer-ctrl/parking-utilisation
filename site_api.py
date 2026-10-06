@@ -294,6 +294,8 @@ def api_request():
     """The "Ask us" form. See requests_store.py for storage, limits and privacy."""
     import requests_store
 
+    if os.environ.get("ASK_ENABLED") != "1":         # parked until the privacy notice is live
+        return jsonify({"error": "Not available."}), 404
     data = request.get_json(silent=True) or {}
     fields, problem = requests_store.validate(data)
     if problem == "spam":

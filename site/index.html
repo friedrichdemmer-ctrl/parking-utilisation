@@ -242,7 +242,6 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
       <a href="#local" data-view="local">Local maps</a>
       <a href="#compare" data-view="compare">Compare</a>
       <a href="#reports" data-view="reports">Reports</a>
-      <a href="#ask" data-view="ask">Ask us</a>
     </nav>
     <a class="statuspill" href="#status" id="statusPill"><span class="dot"></span><span>Feeds</span></a>
   </div>
@@ -342,7 +341,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
   <section class="view" id="view-reports" hidden aria-labelledby="h-rep">
     <div class="intro">
       <h1 id="h-rep">Reports</h1>
-      <p class="sub">Reports built from the same data, rebuilt automatically. Need something more specific? <a href="#ask">Ask us for an analysis</a>.</p>
+      <p class="sub">Reports built from the same data, rebuilt automatically.</p>
     </div>
     <div class="cards" id="repCards"></div>
   </section>
@@ -398,7 +397,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     <div class="panel"><h2>Garages flagged by the daily check</h2><p class="note" id="stFhNote"></p><div class="scroll"><table class="data" id="stFlags"></table></div></div>
   </section>
 </main>
-<footer>Data from city and operator open-data feeds and the ParkAPI community archive. Occupancy is 1 − free ÷ capacity. · <a href="#ask">Ask us for an analysis</a><span id="legalLinks" hidden> · <a href="/privacy">Privacy</a> · <a href="/legal">Legal</a></span></footer>
+<footer>Data from city and operator open-data feeds and the ParkAPI community archive. Occupancy is 1 − free ÷ capacity.<span id="legalLinks" hidden> · <a href="/privacy">Privacy</a> · <a href="/legal">Legal</a></span></footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
@@ -811,7 +810,6 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
         <section><h3>${esc(s2.title)}</h3>${paras(s2.text)}</section>
         <section><h3>${esc(s3.title)}</h3>${paras(s3.text)}${opsBlock}</section>
         <section class="sources"><h3>Sources</h3><ol>${order.map((id, i) => { const it = byId.get(id); return `<li id="src-${i + 1}"><a href="${esc(it.source_url)}" rel="noopener nofollow" target="_blank">${esc(it.source_title)}</a> <span class="muted">(${esc(it.date)})</span></li>`; }).join("")}</ol>
-        <div class="askcta"><span>Need this for another city, or a closer look at one garage here?</span><a class="btn" href="#ask/city/${enc(country)}/${enc(city)}">Ask us for an analysis →</a></div>
         <p class="note">Figures without a note are our own: weekday occupancy measured ${b.trend ? "since 2020 and " : ""}over late summer 2026, and the tariffs operators publish. Sources were checked against the linked pages in ${esc(notes.verified ? notes.verified.slice(0, 7) : nar.as_of)}.</p></section></article>`;
     } else {
       const read = [];
@@ -819,7 +817,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
       if (po && po.r != null) read.push(`Across the ${po.n} priced garages we measure, dearer garages ${Math.abs(po.r) < .3 ? "are not clearly emptier or fuller" : po.r > 0 ? "tend to be fuller" : "tend to be emptier"}.`);
       if (ev) read.push(`EV charging is recorded for ${ev.with_ev} of ${ev.total} garages${ev.unknown ? `; for ${ev.unknown} there is no record either way` : ""}.`);
       html = `<div class="panel brief"><h2>${esc(city)} in numbers</h2>${read.length ? `<p>${read.map(esc).join(" ")}</p>` : ""}${trendBlock}<h3>Operators</h3>${opsBlock}
-        <div class="askcta"><span>No written briefing for ${esc(city)} yet. Want one?</span><a class="btn" href="#ask/city/${enc(country)}/${enc(city)}">Ask us for a briefing →</a></div></div>`;
+        <p class="note">No written briefing for ${esc(city)} yet.</p></div>`;
     }
     host.innerHTML = html;
   }
@@ -1272,6 +1270,10 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
   }).catch(() => {});
 
   // ---------- ask us ----------
+  // Parked on 2026-10-06 until the privacy notice can go live (it needs the operator's legal
+  // details). The view, form and /api/request stay in the code; set this to true and restore the
+  // nav item, footer link and briefing calls to action (git log: "Add 'Ask us'") to bring it back.
+  const ASK_ENABLED = false;
   // #ask, or #ask/city/<country>/<city> from a city briefing (fills in the place)
   const askForm = document.getElementById("askForm"), askMsg = document.getElementById("askMsg");
   let askShown = 0;
@@ -1300,7 +1302,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
   function route() {
     const parts = (location.hash.slice(1) || "overview").split("/").map(x => { try { return decodeURIComponent(x); } catch (e) { return x; } });
     const [view, kind, ...rest] = parts;
-    const v = ["overview", "explore", "local", "compare", "reports", "status", "ask"].includes(view) ? view : "overview";
+    const v = ["overview", "explore", "local", "compare", "reports", "status"].concat(ASK_ENABLED ? ["ask"] : []).includes(view) ? view : "overview";
     document.querySelectorAll("section.view").forEach(s => { s.hidden = s.id !== "view-" + v; });
     document.querySelectorAll("nav.sections a").forEach(a => { if (a.dataset.view === v) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
     if (v === "overview") renderOverview();
