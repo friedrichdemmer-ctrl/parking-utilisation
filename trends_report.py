@@ -37,6 +37,7 @@ Writes JSON (default: <db dir>/reports/trends_<YYYY-MM>.json);
 
 from __future__ import annotations
 
+import csv
 import json
 import os
 import sqlite3
@@ -60,6 +61,75 @@ BASE_YEAR = 2023
 MIN_PAIR_GARAGES = 20   # chain-link step needs at least this many common garages
 MIN_CITY_GARAGES = 3
 MIN_TYPE_GARAGES = 10
+
+
+EVENTS_PATH = Path(__file__).resolve().parent / "annotations" / "events.csv"
+STEP_MONTHS = 3          # months averaged either side of an event
+NOISE_FROM = "2023-01"   # month-to-month movement is measured on the calm years
+
+
+def load_events() -> list[dict]:
+    if not EVENTS_PATH.exists():
+        return []
+    with open(EVENTS_PATH, newline="", encoding="utf-8") as f:
+        return list(csv.DictReader(f))
+
+
+def _seasonally_adjusted(series: dict, seasonality: dict) -> dict:
+    return {k: v / (seasonality[int(k[5:])] / 100) for k, v in series.items()
+            if v is not None and int(k[5:]) in seasonality and seasonality[int(k[5:])]}
+
+
+def annotate_events(index: dict, keys: list[str], seasonality: dict) -> dict:
+    """The curated events (annotations/events.csv) with, for the ones marked measure=yes, the
+    change in the seasonally adjusted index over the three months from the event against the three
+    before it, and whether that is distinguishable from normal movement.
+
+    Normal movement is the spread of month-to-month changes since NOISE_FROM: if each month is the
+    trend plus independent noise, a change of the two three-month means has a standard deviation of
+    sd(m/m) / sqrt(2) * sqrt(2/3). A step beyond 3x that is "clear", beyond 2x "possible", else
+    "none". With ten or so events tested, one "possible" is expected by chance."""
+    sa = _seasonally_adjusted(index, seasonality)
+    calm = [k for k in keys if k >= NOISE_FROM and k in sa]
+    changes = [sa[b] / sa[a] - 1 for a, b in zip(calm, calm[1:])]
+    if len(changes) < 6:
+        return {"events": load_events(), "noise_pct": None}
+    mean = sum(changes) / len(changes)
+    sd = (sum((c - mean) ** 2 for c in changes) / len(changes)) ** 0.5
+    sigma = sd / 2 ** 0.5 * (2 / 3) ** 0.5
+    out = []
+    for ev in load_events():
+        ev = dict(ev)
+        month = ev["start"][:7]
+        if ev["measure"] == "yes" and month in keys:
+            i = keys.index(month)
+            before = [sa[k] for k in keys[max(0, i - STEP_MONTHS):i] if k in sa]
+            after = [sa[k] for k in keys[i:i + STEP_MONTHS] if k in sa]
+            if len(before) == STEP_MONTHS and len(after) == STEP_MONTHS:
+                step = (sum(after) / len(after)) / (sum(before) / len(before)) - 1
+                z = abs(step) / sigma
+                ev["step_pct"] = round(step * 100, 1)
+                ev["visible"] = "clear" if z >= 3 else "possible" if z >= 2 else "none"
+        out.append(ev)
+    return {"events": out, "noise_pct": round(sigma * 100, 1)}
+
+
+def composition(garages: dict, months: dict, keys: list[str]) -> dict:
+    """Share of capacity by country among garages with data in each year: who the index is made of."""
+    out = {}
+    for y in sorted({k[:4] for k in keys}):
+        cap = defaultdict(float)
+        n = defaultdict(int)
+        for g, ms in months.items():
+            if any(k.startswith(y) for k in ms):
+                c = garages[g]["country"]
+                cap[c] += garages[g]["capacity"] or 0
+                n[c] += 1
+        total = sum(cap.values())
+        if total:
+            out[y] = {c: {"garages": n[c], "capacity_share": round(cap[c] / total * 100, 1)}
+                      for c in sorted(cap, key=lambda c: -cap[c])}
+    return out
 
 
 def garage_months(conn: sqlite3.Connection) -> dict:
@@ -337,6 +407,8 @@ def analyse(data: dict) -> dict:
         "seasonality": seasonality, "weekday_shape": weekday_shape,
         "yoy": {"last": [last12[0], last12[-1]], "prev": [prev12[0], prev12[-1]], "cities": cities},
         "types": types,
+        "composition": composition(garages, months, keys),
+        **annotate_events(index, keys, {int(m): v for m, v in seasonality.items()}),
         "method": {"max_gap_h": MAX_GAP.total_seconds() / 3600, "min_coverage": MIN_COVERAGE, "max_bad_share": MAX_BAD_SHARE,
                    "min_pair_garages": MIN_PAIR_GARAGES, "min_city_garages": MIN_CITY_GARAGES},
     }

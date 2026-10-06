@@ -1,4 +1,4 @@
-<title>Car Park Demand Since 2020</title>
+<title>German Car Park Demand Since 2020</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Barlow:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -93,6 +93,27 @@ table.data .r { text-align: right; }
 .tip b { font-family: var(--font-data); font-weight: 500; }
 .tip .k { color: var(--ink-3); font-size: .76rem; }
 
+.evpin { cursor: pointer; }
+.evpin circle { fill: var(--surface); stroke: var(--ink-2); stroke-width: 1.25; }
+.evpin text { font: 600 10px var(--font-data); fill: var(--ink-2); text-anchor: middle; pointer-events: none; }
+.evpin.health circle { stroke: var(--down); } .evpin.health text { fill: var(--down); }
+.evpin.transport circle, .evpin.fuel circle { stroke: var(--accent); } .evpin.transport text, .evpin.fuel text { fill: var(--accent); }
+.evpin.data circle { stroke-dasharray: 2 2; }
+.evband.health { fill: var(--shade); } .evband.other { fill: var(--accent-soft); opacity: .6; }
+.evline { stroke: var(--ink-3); stroke-dasharray: 1 3; }
+.events { list-style: none; padding: 0; margin: 0; display: grid; border-top: 1px solid var(--rule); max-width: 46rem; }
+.events li { display: grid; grid-template-columns: 1.8rem minmax(0, 1fr); gap: .15rem .8rem; padding: .9rem 0; border-bottom: 1px solid var(--rule-soft); }
+.events .pn { display: grid; place-items: center; width: 1.5rem; height: 1.5rem; border: 1.25px solid var(--ink-2); border-radius: 50%; font: 600 .7rem var(--font-data); color: var(--ink-2); }
+.events .pn.health { border-color: var(--down); color: var(--down); } .events .pn.transport, .events .pn.fuel { border-color: var(--accent); color: var(--accent); }
+.events h3 { font: 600 1.05rem var(--font-display); margin: 0; }
+.events .when { font: 400 .76rem var(--font-data); color: var(--ink-3); }
+.events p { color: var(--ink-2); font-size: .93rem; }
+.events .src { font-size: .8rem; color: var(--ink-3); }
+.events .src a { color: var(--accent); }
+.evstat { font-size: .88rem; padding: .35rem .6rem; border-radius: 4px; background: var(--rule-soft); width: fit-content; max-width: 100%; }
+.evstat b { font-family: var(--font-data); font-weight: 500; }
+.evstat.clear { border-left: 3px solid var(--down); }
+.evstat.none { color: var(--ink-2); }
 .method { display: grid; gap: .8rem; color: var(--ink-2); font-size: .95rem; }
 .method h3 { font: 600 1.05rem var(--font-display); color: var(--ink); margin: .4rem 0 0; }
 .method ul { margin: 0; padding-left: 1.1rem; display: grid; gap: .3rem; max-width: 65ch; }
@@ -102,7 +123,7 @@ footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px
 <div class="wrap">
   <header>
     <div class="eyebrow"><span class="psign" aria-hidden="true">P</span><span id="eyebrow">Parking trends</span></div>
-    <h1>Car park demand since 2020</h1>
+    <h1>German car park demand since 2020</h1>
     <p class="lede" id="lede"></p>
     <div class="stats" id="stats"></div>
   </header>
@@ -116,9 +137,15 @@ footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px
     <h2 id="h-idx">Occupancy month by month</h2>
     <p class="sub" id="idxSub"></p>
     <div class="panel">
-      <div class="legend"><span><i style="background:var(--accent)"></i>All hours</span><span><i class="dash"></i>Tue–Thu daytime (09–18)</span><span><i style="background:var(--shade);height:.7rem"></i>Lockdowns in Germany</span></div>
+      <div class="legend"><span><i style="background:var(--accent)"></i>All hours</span><span><i class="dash"></i>Tue–Thu daytime (09–18)</span><span><i style="background:var(--shade);height:.7rem"></i>Lockdowns</span><span><i style="background:var(--accent-soft);height:.7rem"></i>Other periods</span><span>Circled letters mark events, listed below</span></div>
       <div class="chart" id="idxChart"></div>
     </div>
+  </section>
+
+  <section aria-labelledby="h-ev">
+    <h2 id="h-ev">What was happening</h2>
+    <p class="sub" id="evSub"></p>
+    <ol class="events" id="events"></ol>
   </section>
 
   <section aria-labelledby="h-season">
@@ -167,7 +194,7 @@ footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px
       <li>Almost all of the long history comes from German cities (plus Basel), via the community parking-data archive. Other countries join in 2026 and do not yet affect the trend.</li>
       <li>The shopping-centre group has only about two dozen garages with long histories, so one large centre (the Regensburg Arcaden, 1,548 spaces) moves it noticeably.</li>
       <li>A change in one large car park can move a small city's figure. Where a city has only a few garages, look at the garage count before reading much into it.</li>
-      <li>Lockdown shading shows the main German restrictions on shops (spring 2020; mid-December 2020 to spring 2021); rules differed by state.</li>
+      <li>Event dates and descriptions come from the sources linked in the list; rules differed by state, so dates are the federal ones. The effect shown for an event is only the change in the index over the three months from it against the three before, seasonally adjusted. It is a statement about the chart, not about causes: several things change at once, and the index sees garages, not people's reasons.</li>
     </ul>
   </section>
 
@@ -189,6 +216,10 @@ footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px
   const months = T.months, idx = T.index, wd = T.index_weekday_daytime;
   const first = months.find(k => idx[k] != null), last = [...months].reverse().find(k => idx[k] != null);
   const base = T.base_year;
+  // ---------- events (annotations/events.csv) ----------
+  const EVENTS = (T.events || []).slice().sort((p, q) => p.start.localeCompare(q.start)).map((e, i) => ({ ...e, letter: String.fromCharCode(65 + i), m0: e.start.slice(0, 7), m1: e.end ? e.end.slice(0, 7) : null }));
+  const evKind = e => (e.kind === "health" ? "health" : e.kind === "transport" || e.kind === "fuel" ? e.kind : e.kind === "data" ? "data" : "other");
+  const evDate = e => e.m1 && e.m1 !== e.m0 ? `${mLong(e.m0)} – ${mLong(e.m1)}` : e.end === "" ? `${mLong(e.m0)} onwards` : mLong(e.m0);
 
   // ---------- derived figures ----------
   const valid = months.filter(k => idx[k] != null);
@@ -207,9 +238,13 @@ footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px
   const nRange = (() => { const v = valid.map(k => T.garages_per_month[k]); return [Math.min(...v), Math.max(...v)]; })();
 
   document.getElementById("eyebrow").textContent = `Parking trends · ${mLabel(first)} – ${mLabel(last)}`;
+  const comp = T.composition || {}, compYears = Object.keys(comp), deShares = compYears.filter(y => y < lastYear).map(y => comp[y].Germany ? comp[y].Germany.capacity_share : 0);
+  const newcomers = compYears.length ? Object.keys(comp[compYears[compYears.length - 1]]).filter(c => c !== "Germany" && c !== "Switzerland") : [];
   document.getElementById("lede").textContent =
     `How full car parks have been, month by month, since the first lockdown in spring 2020. Built from ${T.garages_total.toLocaleString("en-GB")} garages with long reading histories, ` +
-    `${nRange[0]}–${nRange[1]} of them in any one month. 100 is the ${base} average, when a typical space was ${baseLevel}% occupied.`;
+    `${nRange[0]}–${nRange[1]} of them in any one month. 100 is the ${base} average, when a typical space was ${baseLevel}% occupied. ` +
+    (deShares.length ? `This is a German index: Germany is ${Math.round(Math.min(...deShares))}–${Math.round(Math.max(...deShares))}% of the capacity behind it in every full year (Basel makes up most of the rest)` +
+      (newcomers.length ? `; ${newcomers.join(" and ")} garages joined in ${lastYear} and enter the line only once they have a year of history.` : ".") : "");
   const stats = [
     [String(Math.round(idx[trough])), `the low point, ${mLong(trough)} (${base} = 100)`],
     [annual[base + 1] != null ? signed(annual[base + 1] - 100, 1) + "%" : "–", `${+base + 1} against ${base}`],
@@ -231,7 +266,23 @@ footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px
       return `By type, ${best.label.toLowerCase()} gained most over the last twelve months (${signed(ch(best), 1)}%) and ${worst.label.toLowerCase()} lost most (${signed(ch(worst), 1)}%).`; })(),
     `Over the last twelve months, ${ups} of ${cities.length} cities with five or more garages got busier by at least 2 points and ${downs} got quieter by as much; the rest held steady.`,
   ].filter(Boolean);
+  const meas = EVENTS.filter(e => e.step_pct != null), noise = T.noise_pct;
+  const names = list => list.map(e => e.label.replace(/ \(.*$/, "")).join(", ");
+  const clear = meas.filter(e => e.visible === "clear"), poss = meas.filter(e => e.visible === "possible"), none = meas.filter(e => e.visible === "none");
+  if (meas.length && noise != null)
+    findings.splice(1, 0, `Of the ${meas.length} dated events we can test against the index, ${clear.length} show up clearly (${names(clear)}). ${none.length ? `${none.length} cannot be told apart from ordinary month-to-month movement of about ±${noise}%: ${names(none)}.` : ""}${poss.length ? ` One is borderline: ${names(poss)}.` : ""} Neither the fuel-tax cut nor any Deutschlandticket change left a clear mark on how full car parks were; the lockdowns and the Omicron winter did.`);
   document.getElementById("findings").innerHTML = findings.map(f => `<li>${esc(f)}</li>`).join("");
+  document.getElementById("evSub").textContent = noise == null ? "" :
+    `Dates and descriptions come from the linked sources. Where an event is tested, the figure is the change in the index over the three months from it against the three before, seasonally adjusted; ordinary month-to-month movement is about ±${noise}%, so smaller changes cannot be told from chance.`;
+  document.getElementById("events").innerHTML = EVENTS.map(e => {
+    let stat = "";
+    if (e.step_pct != null) {
+      const verdict = e.visible === "clear" ? "a clear move" : e.visible === "possible" ? "borderline: about as large as chance moves" : "not distinguishable from normal movement";
+      stat = `<div class="evstat ${e.visible}"><b>${signed(e.step_pct, 1)}%</b> in the three months from here against the three before · ${verdict}</div>`;
+    }
+    const src = e.source_url ? `<a href="${esc(e.source_url)}" rel="noopener nofollow" target="_blank">${esc(e.source_title)}</a>` : esc(e.source_title);
+    return `<li id="ev-${esc(e.id)}"><span class="pn ${evKind(e)}">${e.letter}</span><div style="display:grid;gap:.3rem"><h3>${esc(e.label)}</h3><span class="when">${esc(evDate(e))}${e.scope && e.scope !== "DE" ? " · " + esc(e.scope === "all" ? "this data set" : e.scope) : ""}</span><p>${esc(e.summary)}</p>${stat}<span class="src">Source: ${src} · confidence ${esc(e.confidence)}</span></div></li>`;
+  }).join("");
   document.getElementById("idxSub").textContent =
     `Index, ${base} average = 100. Each month is compared with the same month a year earlier using the garages that reported in both, then linked back to ${base}. Hover or tap for values.`;
   document.getElementById("mIndex").textContent =
@@ -249,21 +300,21 @@ footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px
   const path = (pts) => { let d = "", pen = false; for (const p of pts) { if (!p) { pen = false; continue; } d += (pen ? "L" : "M") + p[0].toFixed(1) + "," + p[1].toFixed(1); pen = true; } return d; };
 
   // ---------- index chart ----------
-  const LOCKDOWNS = [["2020-03", "2020-05", "1st lockdown"], ["2020-12", "2021-04", "2nd lockdown"]];
   const idxEl = document.getElementById("idxChart"), idxTip = makeTip(idxEl);
   function drawIdx() {
-    const w = Math.max(320, idxEl.clientWidth), h = w < 560 ? 240 : 310, m = { l: 34, r: 10, t: 22, b: 26 };
+    const w = Math.max(320, idxEl.clientWidth), h = w < 560 ? 240 : 310, m = { l: 34, r: 10, t: 34, b: 26 };
     const iw = w - m.l - m.r, ih = h - m.t - m.b, n = months.length;
     const vals = valid.flatMap(k => [idx[k], wd[k]]).filter(v => v != null);
     const lo = Math.floor(Math.min(...vals) / 10) * 10, hi = Math.ceil(Math.max(...vals, 100) / 10) * 10;
     const x = i => m.l + (i + .5) * iw / n, y = v => m.t + ih - (v - lo) / (hi - lo) * ih;
     const ticks = []; for (let v = lo; v <= hi; v += 10) ticks.push(v);
     let s = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Occupancy index by month">`;
-    for (const [a, b, label] of LOCKDOWNS) {
-      const i0 = months.indexOf(a), i1 = months.indexOf(b);
-      if (i1 < 0) continue;
-      const x0 = i0 < 0 ? m.l : m.l + i0 * iw / n, x1 = m.l + (i1 + 1) * iw / n;
-      s += `<rect x="${x0}" y="${m.t}" width="${x1 - x0}" height="${ih}" fill="var(--shade)"/><text class="lbl" x="${(x0 + x1) / 2}" y="${m.t - 6}" text-anchor="middle">${w < 560 ? "" : label}</text>`;
+    const mi = (k, clamp) => { const i = months.indexOf(k); return i >= 0 ? i : k < months[0] ? 0 : clamp ? n - 1 : -1; };
+    for (const e of EVENTS) {
+      if (!e.m1 || e.m1 === e.m0 || e.kind === "structural") continue;           // periods only
+      const i0 = mi(e.m0, false), i1 = mi(e.m1, true);
+      if (i0 < 0 || i1 < 0) continue;
+      s += `<rect class="evband ${evKind(e) === "health" ? "health" : "other"}" x="${m.l + i0 * iw / n}" y="${m.t}" width="${(i1 - i0 + 1) * iw / n}" height="${ih}"/>`;
     }
     s += `<g class="grid">` + ticks.map(v => `<line x1="${m.l}" x2="${w - m.r}" y1="${y(v)}" y2="${y(v)}"/>`).join("") + `</g>`;
     s += `<line class="ref100" x1="${m.l}" x2="${w - m.r}" y1="${y(100)}" y2="${y(100)}"/>`;
@@ -275,7 +326,17 @@ footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px
     const li = months.indexOf(last);
     s += `<circle cx="${x(li)}" cy="${y(idx[last])}" r="4" fill="var(--accent)" stroke="var(--surface)" stroke-width="2"/>`;
     s += `<line id="ixh" y1="${m.t}" y2="${m.t + ih}" stroke="var(--ink-3)" visibility="hidden"/><circle id="ixd" r="4" fill="var(--accent)" stroke="var(--surface)" stroke-width="2" visibility="hidden"/>`;
-    s += `<rect x="${m.l}" y="${m.t}" width="${iw}" height="${ih}" fill="transparent"/></svg>`;
+    s += `<rect x="${m.l}" y="${m.t}" width="${iw}" height="${ih}" fill="transparent"/>`;
+    let lastPin = -99;
+    const pins = [];
+    for (const e of EVENTS) {
+      const i = mi(e.m0, false); if (i < 0) continue;
+      let px = m.l + (i + .5) * iw / n; if (px - lastPin < 17) px = lastPin + 17; lastPin = px;
+      pins.push([e, px]);
+      s += `<line class="evline" x1="${px}" x2="${px}" y1="${m.t - 4}" y2="${m.t + ih}"/>`;
+    }
+    for (const [e, px] of pins) s += `<g class="evpin ${evKind(e)}" data-ev="${e.id}" tabindex="0" role="img" aria-label="${esc(e.letter + ": " + e.label + ", " + evDate(e))}"><circle cx="${px}" cy="${m.t - 16}" r="8"/><text x="${px}" y="${m.t - 12.5}">${e.letter}</text></g>`;
+    s += `</svg>`;
     idxEl.innerHTML = s; idxEl.appendChild(idxTip);
     const svg = idxEl.querySelector("svg"), xh = svg.querySelector("#ixh"), xd = svg.querySelector("#ixd");
     const move = ev => {
@@ -289,6 +350,11 @@ footer { font: 400 .78rem var(--font-data); color: var(--ink-3); border-top: 1px
       placeTip(idxTip, idxEl, x(i) / sx, y(idx[k]) / sx);
     };
     svg.addEventListener("pointermove", move); svg.addEventListener("pointerdown", move);
+    svg.querySelectorAll(".evpin").forEach(g => {
+      const e = EVENTS.find(x => x.id === g.dataset.ev), c = g.querySelector("circle");
+      const show = () => { idxTip.innerHTML = `<div class="k">${esc(evDate(e))}</div><div><b>${e.letter}</b> ${esc(e.label)}</div>`; placeTip(idxTip, idxEl, +c.getAttribute("cx") / (w / svg.getBoundingClientRect().width), (m.t - 6) / (w / svg.getBoundingClientRect().width)); };
+      g.addEventListener("pointerenter", show); g.addEventListener("focus", show); g.addEventListener("pointerleave", () => { idxTip.hidden = true; }); g.addEventListener("blur", () => { idxTip.hidden = true; });
+    });
     svg.addEventListener("pointerleave", () => { xh.setAttribute("visibility", "hidden"); xd.setAttribute("visibility", "hidden"); idxTip.hidden = true; });
   }
 
