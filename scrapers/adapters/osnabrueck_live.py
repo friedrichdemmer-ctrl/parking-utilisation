@@ -48,7 +48,10 @@ class OsnabrueckLiveAdapter(SourceAdapter):
     capacity_interval_seconds = 7 * 24 * 3600
 
     def _utilisation(self, fetcher) -> list[dict]:
-        return list(fetcher.get_json(API_URL).values())
+        data = fetcher.get_json(API_URL)
+        # The site answers with an empty list ([]) when it has no readings (seen 2026-10-06 onwards);
+        # the normal answer is an object keyed "ramp-<n>". Both mean "nothing to read" when empty.
+        return list(data.values()) if isinstance(data, dict) else [u for u in data if isinstance(u, dict)]
 
     def fetch_capacity(self, fetcher) -> list[CapacityRecord]:
         match = RAMP_DATA_RE.search(fetcher.get_text(SITE_URL))
