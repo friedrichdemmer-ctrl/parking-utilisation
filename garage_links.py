@@ -25,6 +25,11 @@ from pathlib import Path
 LINKS_DIR = Path(__file__).resolve().parent / "garage_links"
 
 
+# Sources whose "free spaces" are not readings: hand-typed figures, re-written on a schedule. Their
+# garages keep their capacity but are never reported as measured.
+NOT_READINGS = frozenset({"parkraumwende-muenchen"})
+
+
 @lru_cache(maxsize=1)
 def duplicates() -> dict[str, str]:
     """{duplicate place_id: canonical place_id}"""

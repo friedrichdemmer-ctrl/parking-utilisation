@@ -88,6 +88,8 @@ def _excluded(conn: sqlite3.Connection) -> set[str]:
 
 
 def _now_snapshot() -> dict:
+    from garage_links import NOT_READINGS
+
     conn = _db()
     cutoff = _iso(datetime.now(timezone.utc) - LIVE_WINDOW)
     skip = _excluded(conn)
@@ -98,7 +100,7 @@ def _now_snapshot() -> dict:
            WHERE m.last_observed_ts >= ? AND m.num_all >= 10""",
         (cutoff,),
     ):
-        if pid in skip:
+        if pid in skip or src in NOT_READINGS:
             continue
         occ = 1 - min(max(free, 0), cap) / cap
         garages.append({"id": pid, "name": name, "city": city, "country": _country(src), "capacity": cap,

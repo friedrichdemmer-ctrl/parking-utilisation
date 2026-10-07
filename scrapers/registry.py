@@ -61,6 +61,7 @@ from scrapers.adapters.mid_ulster_live import MidUlsterLiveAdapter
 from scrapers.adapters.nantes_naolib_live import NantesNaolibLiveAdapter
 from scrapers.adapters.moers_live import MoersLiveAdapter
 from scrapers.adapters.muenster_live import MuensterLiveAdapter
+from scrapers.adapters.muenchen_mvv_pr import MuenchenMvvParkAndRideAdapter
 from scrapers.adapters.muenchen_parkraumwende import MuenchenParkraumwendeAdapter
 from scrapers.adapters.other_operators_fr import OtherOperatorsFranceAdapter
 from scrapers.adapters.other_operators_nl import OtherOperatorsNetherlandsAdapter
@@ -132,6 +133,7 @@ from scrapers.base import SourceAdapter
 ADAPTERS: list[SourceAdapter] = [
     KoelnLiveAdapter(),
     LyonQParkAdapter(),
+    MuenchenMvvParkAndRideAdapter(),
     MuenchenParkraumwendeAdapter(),
     BerlinVizAdapter(),
     HamburgVizAdapter(),

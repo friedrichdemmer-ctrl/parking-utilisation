@@ -2,12 +2,9 @@
 
 Not a live feed -- this is a crowdsourced/manually-curated catalog (many
 entries cross-referenced to Munich's own official OpenData LHM portal for
-capacity, "Freie Plätze" filled in sporadically by volunteers). Munich has
-zero garages in the archive otherwise, so this is worth adding as real
-capacity coverage, but the cadence here is honest about what the source
-actually is: weekly capacity re-sync, daily occupancy check (catches
-whenever a volunteer updates a free-space figure, which is not often) --
-not the 30-min cadence used for genuinely live sources like Köln's.
+capacity, "Freie Plätze" filled in sporadically by volunteers). Capacity
+coverage only: the volunteer free-space figures are not readings (see
+fetch_occupancy).
 """
 
 from __future__ import annotations
@@ -85,12 +82,8 @@ class MuenchenParkraumwendeAdapter(SourceAdapter):
         return records
 
     def fetch_occupancy(self, fetcher, known_garages: dict[str, str]) -> list[OccupancyRecord]:
-        now = datetime.now(timezone.utc).isoformat(timespec="seconds")
-        records = []
-        for row in self._rows(fetcher):
-            free = row.get("Freie Plätze", "").strip()
-            if not free:
-                continue
-            place_id = f"parkraumwende-muenchen-{row['ID']}-{_slug(row['Name'].strip())}"
-            records.append(OccupancyRecord(place_id=place_id, ts=now, free=int(float(free))))
-        return records
+        # Capacity-only since 2026-10-07. "Freie Plätze" is a figure a volunteer typed in once, not a
+        # reading: re-writing it every day produced a flat 50% / 68% profile for four Munich garages
+        # that the reports then treated as measured occupancy. Live Munich data comes from
+        # muenchen_mvv_pr.py (park and ride); the central garages have no open occupancy feed.
+        return []

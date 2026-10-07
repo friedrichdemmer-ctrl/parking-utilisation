@@ -108,7 +108,7 @@ def build(conn: sqlite3.Connection, today: date | None = None) -> dict:
     from scrapers.storage import capacity_at, capacity_timeline
 
     timeline = capacity_timeline(conn)
-    from garage_links import duplicates
+    from garage_links import NOT_READINGS, duplicates
 
     dup_of = duplicates()
     flagged = dict(conn.execute("SELECT place_id, status FROM feed_health"))
@@ -124,6 +124,10 @@ def build(conn: sqlite3.Connection, today: date | None = None) -> dict:
     for place_id, name, city, capacity, source_id, lat, lon in places:
         if place_id in dup_of:
             excluded["same garage as another feed's (garage_links.py)"] += 1
+            by_source[source_id] += 1
+            continue
+        if source_id in NOT_READINGS:
+            excluded["source publishes hand-typed figures, not readings"] += 1
             by_source[source_id] += 1
             continue
         if place_id in flagged:
