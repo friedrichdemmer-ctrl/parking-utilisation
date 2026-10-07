@@ -1,0 +1,255 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Page opened (published 28 May 2021, title matches). It says the Stadtrat decided that from 1 April 2022 the free parking time in the three Stadtwerk garages is abolished and a new tariff structure applies, and that the electric Altstadtbus Emil becomes free for all in return, from 1 June 2021 (mayor quoted). The page gives no meeting date for the council decision, so 'In May 2021 ... approved' is inferred from the publication date. Garage names are not listed in the body text but fit item 1.",
+   "corrected_text": "As reported on 28 May 2021, the Regensburg city council decided that from 1 April 2022 the free parking time in the three garages run by das Stadtwerk.Regensburg would be abolished and replaced by a new tariff structure; in return the electric Altstadtbus 'Emil' was made free of charge for all users from 1 June 2021.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Page opened, published 24 March 2022, title matches. Tariffs (EUR 0.50 per started 30 min to 1.5 h, EUR 1.00 per 30 min to 6.5 h, EUR 12 to 24 h, night/Sunday/holiday max EUR 6, free time dropped) and the three garages match; effective 1 April 2022.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Page opened, published 1 April 2024, title matches. EUR 0.60 per started 30 min in first hour, EUR 0.80 added for 1 to 1.5 h, EUR 1.10 per started 30 min to 6.5 h, EUR 14 daily, night/Sunday/holiday max EUR 7; Petersweg, Dachauplatz, Theater; TechCampus tariff unchanged. All as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "PDF downloaded and read (46 pages). Cover: Luftreinhalteplan Regensburg, 2. Fortschreibung, Regierung der Oberpfalz, November 2017. Says the 'wesentliche Massnahme' is introduction of an Umweltzone; planned zone = Altstadt inside the Alleengurtel, south of the Danube to the railway line, 1.41 km2, 1.8% of city area; vehicles without green sticker barred. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Same PDF, p. 28-29: P+R list for vehicles not allowed into the Umweltzone: Unterer Wohrd 570, Kuglerplatz (Einhausung West) 335, Bahnhof Prufening 26, Bahnhof Burgweinting 50, E.ON Parkhaus Prufeninger Strasse 270 (weekends), Dultplatz 2400 (if no major event). Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "DUH press page opened; dated 30.07.2019; title matches. DUH filed actions against the Free State of Bavaria at the Bayerischer Verwaltungsgerichtshof; cites NO2 limit of 40 ug/m3, modelled (Lohmeyer) exceedances, forecast >50 ug/m3 on Weissenburgstrasse and Frankenstrasse sections, demands driving bans up to Euro 5. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "PDF downloaded and read (18 pages, created April 2023). Content matches: four garages, 'fast 2.000 Stellplatze' (560+700+355+377), Petersweg reopened April 2014, Theater garage renovated and available since October 2015, three inner-city garages in the Umweltzone green sticker only, 100% REWAG Okostrom. However the source_title is not the document's real title: the cover reads 'Parkgaragenwerbung. Die besten Platze sind fur Sie reserviert. Mediadaten fur Werbeflachen in den Parkgaragen'. It is an advertising media kit (self-description by the operator).",
+   "corrected_text": "Stadtwerk Regensburg's 2023 media kit says it operates four garages with almost 2,000 spaces: Petersweg (560 spaces, reopened April 2014), Dachauplatz (700), Theater underground garage (355, renovated and available since October 2015) and TechCampus (377). Three inner-city garages lie in the Regensburg Umweltzone and may only be entered with a green sticker; the garages run on 100% REWAG green electricity.",
+   "corrected_title": "Parkgaragenwerbung - Mediadaten für Werbeflächen in den Parkgaragen",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Same PDF. Charge points: Petersweg 5, Dachauplatz 2 outside + 5 on level 1, Theater 4, TechCampus 50 from spring 2023; e-carsharing (Stadtwerk.Earl) at Petersweg and Dachauplatz (also two cars at TechCampus from spring 2023). Text correct; only the source_title is not the real document title (see item 6).",
+   "corrected_text": "According to Stadtwerk's 2023 media kit, EV charge points are provided at Petersweg (5), Dachauplatz (2 outside plus 5 on level 1) and the Theater garage (4), and 50 charge points were due in the TechCampus garage from spring 2023. E-carsharing cars of das Stadtwerk.Earl are stationed at Petersweg and Dachauplatz.",
+   "corrected_title": "Parkgaragenwerbung - Mediadaten für Werbeflächen in den Parkgaragen",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Page opened, published 19 July 2021, title matches. City commissioned Stadtwerk (im Auftrag der Stadt), Franz-Mayer-Strasse, former Nibelungenkaserne, 377 spaces on 11 half-levels, 50 EV spaces, rooftop PV, first spade 16 July, about EUR 6.4 million, completion planned autumn 2022.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Page opened, published 18 June 2024, title matches. Consultation 18 June to 19 July 2024 on Bebauungsplan 279 / 76th land-use plan amendment; about 670 to max 1,400 spaces, first stage 1,000-1,100; compensation for Altstadt spaces lost; bike parking, EV charging, sharing. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Page opened, published 10 June 2024, title matches. It supports: Bürgerentscheid on Sunday (9 June, consistent with item 11's source), 53.6% against further planning, 55.9% turnout. It does NOT contain the June 2018 planning start, the EUR 880 million cost or the benefit-cost ratio of 1.54 (no cost figures or BCR at all). The 1.54 figure is unsupported by any opened source; June 2018 and EUR 880m are supported only by the March 2024 article (item 11).",
+   "corrected_text": "In a referendum on 9 June 2024 Regensburg voters decided against continuing planning of the Stadtbahn: 53.6% voted against, on a turnout of 55.9%.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Page opened, published 14 March 2024, title matches. Supports: Stadtrat decided in June 2018 to begin Stadtbahn planning; two lines (A/B); total cost about EUR 880 million 'nach heutigen Preisen' (about EUR 1.2 billion extrapolated to 2030); overall funding rate over 60%; if the referendum is negative planning stops; vote scheduled 9 June 2024. The page does not say '2023 prices' for the EUR 880m (2023 price level is given only for the city's own share). The item's date (2024-06) is wrong: article is from March 2024 and it is a pre-vote background piece.",
+   "corrected_text": "Background to the Stadtbahn referendum (article of 14 March 2024): the city council decided in June 2018 to start Stadtbahn planning; two lines were planned; total cost was estimated at about EUR 880 million at current prices, with an overall funding rate of over 60%; the vote was scheduled for 9 June 2024 and a negative result would end the planning.",
+   "corrected_title": null,
+   "corrected_date": "2024-03",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Page opened, published 23 July 2024, title matches. Charging started 5 July 2024: EUR 1 up to 12 h, EUR 2 for 12-24 h, free exit within 15 min if no space; EV charging, e-scooter parking, bike boxes; ACE (Auto Club Europa) criticism. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "PDF downloaded and read (11 pages); file dated 17.07.2024, headed 'Vereinigung Freunde der Altstadt Regensburg e.V. - Stellungnahme zum Bebauungsplan Nr. 279'. States Petersweg reopened 2014 with capacity up from 460 to 560, Dallmeier public garage with 200 spaces at Bahnhofstrasse 16, garage spaces up by 300 since 2014; table lists Dachauplatz 700, Petersweg 560, Theater/Bismarckplatz 355, Arnulfsplatz 170, Castra Regina 400, Dallmeier 200. All are the advocacy group's own claims, correctly attributed in the item.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Page opened, published 8 September 2024, title matches. Total EUR 18 million, garage about EUR 11.5 million, about 1,000 spaces of which about 580 in garage, e-charging, bike/car sharing, micro depot, interim parking EUR 1/12 h and EUR 2/24 h. Matches (the page's then-planned schedule is not claimed by the item).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Page opened, published 6 September 2024, title matches (Bahnhofsvorplatz Nord - Umgestaltung gestartet). Redesign by the Tiefbauamt starting; construction period expected September 2024 to May 2025; through traffic stays closed to private vehicles; a new turning option (Wendemöglichkeit) in the western part of Bahnhofstrasse; generous bicycle parking and barrier-free surfaces, trees planned. Item wrongly states the redesign was completed ('redesigned', 'was created'); the source describes a project just started with an expected end date.",
+   "corrected_text": "From September 2024 the city began redesigning the northern station forecourt (Bahnhofsvorplatz Nord), with construction expected to run until May 2025: through traffic stays closed to private vehicles, a new turning option is planned at the western end of Bahnhofstrasse, and generous bicycle parking and barrier-free surfaces are planned.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Page opened, published 19 March 2025, title matches. Survey period February 2023 to January 2024 per the item; modal split vs. 2018: walking/cycling +5 points, car -4, public transport -1. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Page opened, published 5 July 2025 (event date 22 May 2025 as stated in text), title matches. Since 22 May all public paid parking in the area gone; 22 resident spaces and 2 public disabled spaces on Obermunsterplatz; city representative refers to Petersweg garage and Unterer Wohrd (EUR 1 for 12 h). Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "partly",
+   "note": "Page opened, published 16 July 2025, title matches; committee met Tuesday 15 July 2025. Yes: SPD, Greens, Freie Wähler, ÖDP, BSW; no: CSU, FDP. CSU's Lehner: 'Dadurch werden Geschäfte sterben'; Meierhofer (FDP) and Schiessl (Freie Wähler) called the 1,000-space garage too small. The number 448 does NOT appear anywhere in the article. The page says public parking spaces are removed or converted to resident parking and that, with the garage capped at 1,000, there would be 123 fewer spaces than before (per Brücke's Thurow). Remove the 448 figure.",
+   "corrected_text": "On 15 July 2025 the city planning committee voted on the Altstadt traffic-calming package: SPD, Greens, Freie Wähler, ÖDP and BSW voted yes, CSU and FDP no (CSU warned shops would suffer; FDP and Freie Wähler called the planned 1,000-space garage at Unterer Wöhrd too small). The plan lets motorised traffic enter the Altstadt only in set loops, removes public parking or converts it to resident parking, and, according to opposition speakers, leaves 123 fewer spaces than before.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "supported",
+   "note": "Page opened, published 31 July 2025, title matches. Council backed the Mobilitätsdrehscheibe incl. garage at Unterer Wöhrd 28 to 21 (vote 30 July per the page's context and the earlier article); 'Bis 2027' a new garage is to be built. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "supported",
+   "note": "Page opened, published 21 October 2025, title matches. Package passed in July 2025, projects to be implemented to 2035; marking works in week from 20 October 2025 (Thundorferstrasse, St.-Peters-Weg; Wöhrdstrasse from 27 October) described as start of the first implementation phase (headline says 'nächste Phase' after earlier Obermünsterviertel measures). Public parking removed along about 60 m of Thundorferstrasse; new bike lanes; Wöhrdstrasse north-side parking relocated to south-east. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "supported",
+   "note": "Page opened, published 27 January 2026, title matches. Site set-up from Monday 2 February 2026; 138 spaces and all motorhome pitches removed, 224 car spaces remain; developer das Stadtwerk.Regensburg; P+R Jahnstadion and TechCampus (and P+R West) as alternatives. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "supported",
+   "note": "Page opened, published 4 March 2026, title matches. Spatenstich Tuesday 3 March 2026; 1,000 spaces in total, 580 in garage over ten levels, 80 resident spaces in the open area, 50 EV charge points in the garage with 240 more in preparation, rooftop PV, Goldbeck, Stadtwerk operator, tariffs not yet set. April 2027 completion appears in the page's own summary. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 23,
+   "verdict": "supported",
+   "note": "Page opened, published 13 April 2026, title matches. From Monday 20 April; 2001 lift; Stadtwerk is investing about EUR 90,000; about eight weeks without step-free access; three disabled spaces at Arnulfsplatz; new lift 10 cm wider. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 24,
+   "verdict": "supported",
+   "note": "Page opened, published 16 July 2026, title matches. Morning delivery window in Altstadt pedestrian zones extended by 30 minutes to 06:00-11:00, in force immediately; evening 17:30-19:30 unchanged; the city is reacting to the needs of trade, crafts and gastronomy. Hotels are not named in the text I read; minor.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Regensburg is reducing car access to its Altstadt: a traffic-calming package passed in July 2025 (planning committee 15 July, implementation planned to 2035) removes public parking or converts it to resident parking, while parking is shifted to a new Stadtwerk garage and mobility hub at Unterer Wöhrd (council approved it 28 to 21 on 30 July 2025; construction began February 2026, completion targeted April 2027). Voters rejected further Stadtbahn planning in a 9 June 2024 referendum (53.6% against, 55.9% turnout). das Stadtwerk.Regensburg runs the main inner-city garages (Petersweg, Dachauplatz, Theater, TechCampus), ended free parking time on 1 April 2022 and raised garage tariffs again on 1 April 2024."
+}

@@ -1,0 +1,272 @@
+{
+ "country": "Germany",
+ "city": "Regensburg",
+ "researched": "2026-10-07",
+ "verified": "2026-10-07",
+ "summary": "Regensburg is reducing car access to its Altstadt: a traffic-calming package passed in July 2025 (planning committee 15 July, implementation planned to 2035) removes public parking or converts it to resident parking, while parking is shifted to a new Stadtwerk garage and mobility hub at Unterer Wöhrd (council approved it 28 to 21 on 30 July 2025; construction began February 2026, completion targeted April 2027). Voters rejected further Stadtbahn planning in a 9 June 2024 referendum (53.6% against, 55.9% turnout). das Stadtwerk.Regensburg runs the main inner-city garages (Petersweg, Dachauplatz, Theater, TechCampus), ended free parking time on 1 April 2022 and raised garage tariffs again on 1 April 2024.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2021-05",
+   "text": "As reported on 28 May 2021, the Regensburg city council decided that from 1 April 2022 the free parking time in the three garages run by das Stadtwerk.Regensburg would be abolished and replaced by a new tariff structure; in return the electric Altstadtbus 'Emil' was made free of charge for all users from 1 June 2021.",
+   "source_title": "Kostenloser Altstadtbus ersetzt kostenloses Parken",
+   "source_url": "https://www.regensburger-nachrichten.de/panorama/89295-kostenloser-altstadtbus-ab-juni-2021-kein-kostenloses-parken-mehr-ab-april-2022",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2022-04",
+   "text": "From 1 April 2022 das Stadtwerk.Regensburg introduced new tariffs in the Petersweg, Dachauplatz and Theater garages: EUR 0.50 per started 30 minutes for the first 1.5 hours, EUR 1.00 per started 30 minutes from 1.5 to 6.5 hours, EUR 12 for 6.5 to 24 hours, and a night/Sunday/holiday maximum of EUR 6; the previously free parking time was dropped.",
+   "source_title": "Parken in Regensburg wird teurer",
+   "source_url": "https://www.regensburger-nachrichten.de/panorama/90566-parken-in-regensburg-wird-teurer",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-04",
+   "text": "From 1 April 2024 Stadtwerk garage tariffs rose again: EUR 0.60 per started 30 minutes for the first hour, EUR 0.80 for 1 to 1.5 hours, EUR 1.10 per half hour up to 6.5 hours, EUR 14 for 6.5 to 24 hours and a night/Sunday/holiday maximum of EUR 7. The increase applies to Petersweg, Dachauplatz and the Theater garage; the TechCampus garage kept its prices.",
+   "source_title": "Neue Tarife in den Parkgaragen von das Stadtwerk.Regensburg",
+   "source_url": "https://www.regensburger-nachrichten.de/panorama/94578-neue-tarife-in-den-parkgaragen-von-das-stadtwerk-regensburg",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2017-11",
+   "text": "The Regierung der Oberpfalz's second revision of the Regensburg air quality plan (November 2017) names the introduction of an Umweltzone as its main measure. The planned zone covers the Altstadt inside the Alleengürtel south of the Danube up to the railway line (1.41 km2, 1.8% of the city area); vehicles without a green sticker are barred.",
+   "source_title": "Luftreinhalteplan für das Gebiet der Stadt Regensburg, 2. Fortschreibung (Regierung der Oberpfalz, November 2017)",
+   "source_url": "https://www.ropf.bayern.de/mam/service/luftreinhalteplan_stadt_regensburg_fortschreibung_2_2017.pdf",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2017-11",
+   "text": "The 2017 air quality plan lists the Park & Ride sites available for vehicles barred from the planned Umweltzone: Unterer Wöhrd (570 spaces), Kuglerplatz/Einhausung West (335), Bahnhof Prüfening (26), Bahnhof Burgweinting (50), E.ON Parkhaus Prüfeninger Straße (270, weekends) and the Dultplatz (2,400 when no major event takes place).",
+   "source_title": "Luftreinhalteplan für das Gebiet der Stadt Regensburg, 2. Fortschreibung (Regierung der Oberpfalz, November 2017)",
+   "source_url": "https://www.ropf.bayern.de/mam/service/luftreinhalteplan_stadt_regensburg_fortschreibung_2_2017.pdf",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2019-07",
+   "text": "On 30 July 2019 Deutsche Umwelthilfe filed a court action at the Bavarian Administrative Court over Regensburg's nitrogen dioxide pollution, citing modelled exceedances of the EU limit of 40 ug/m3 on streets such as Weissenburgstrasse and Frankenstrasse and demanding diesel driving bans up to Euro 5.",
+   "source_title": "Deutsche Umwelthilfe reicht Klagen für „Saubere Luft“ in Passau und Regensburg beim Bayerischen Verwaltungsgerichtshof ein",
+   "source_url": "https://www.duh.de/presse/pressemitteilungen/pressemitteilung/deutsche-umwelthilfe-reicht-klagen-fuer-saubere-luft-in-passau-und-regensburg-beim-bayerischen-verw/",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2023",
+   "text": "Stadtwerk Regensburg's 2023 media kit says it operates four garages with almost 2,000 spaces: Petersweg (560 spaces, reopened April 2014), Dachauplatz (700), Theater underground garage (355, renovated and available since October 2015) and TechCampus (377). Three inner-city garages lie in the Regensburg Umweltzone and may only be entered with a green sticker; the garages run on 100% REWAG green electricity.",
+   "source_title": "Parkgaragenwerbung - Mediadaten für Werbeflächen in den Parkgaragen",
+   "source_url": "https://www.das-stadtwerk-regensburg.de/fileadmin/Stadtwerk/Parken/Stadtwerk_Mediadaten_Parkgaragen_2023.pdf",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2023",
+   "text": "According to Stadtwerk's 2023 media kit, EV charge points are provided at Petersweg (5), Dachauplatz (2 outside plus 5 on level 1) and the Theater garage (4), and 50 charge points were due in the TechCampus garage from spring 2023. E-carsharing cars of das Stadtwerk.Earl are stationed at Petersweg and Dachauplatz.",
+   "source_title": "Parkgaragenwerbung - Mediadaten für Werbeflächen in den Parkgaragen",
+   "source_url": "https://www.das-stadtwerk-regensburg.de/fileadmin/Stadtwerk/Parken/Stadtwerk_Mediadaten_Parkgaragen_2023.pdf",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2021-07",
+   "text": "The city commissioned Stadtwerk.Regensburg to build the TechCampus quarter garage (377 spaces on 11 half-levels, 50 EV charging spaces, rooftop photovoltaics) on Franz-Mayer-Strasse in the former Nibelungen barracks; groundbreaking was 16 July 2021, investment about EUR 6.4 million, completion planned for autumn 2022.",
+   "source_title": "Neues Parkhaus im TechCampus",
+   "source_url": "https://www.regensburger-nachrichten.de/panorama/89485-neues-parkhaus-im-techcampus",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-06",
+   "text": "In June 2024 the city opened public consultation (18 June to 19 July 2024) on the zoning plan for a 'Mobilitätsdrehscheibe' at Unterer Wöhrd, which would enlarge the parking area from about 670 to a maximum of 1,400 spaces (first stage 1,000 to 1,100), citing parking spaces lost in the Altstadt; the hub also includes bike storage and EV charging.",
+   "source_title": "Mobilitätsdrehscheibe Regensburg: Deshalb gibt's bald weniger Parkplätze in der Innenstadt",
+   "source_url": "https://www.regensburger-nachrichten.de/politik-und-wirtschaft/94939-mobilitaetsdrehscheibe-regensburg-deshalb-gibt-s-bald-weniger-parkplaetze-in-der-innenstadt",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-06",
+   "text": "In a referendum on 9 June 2024 Regensburg voters decided against continuing planning of the Stadtbahn: 53.6% voted against, on a turnout of 55.9%.",
+   "source_title": "Regensburger haben entschieden: Aus für die Stadtbahn",
+   "source_url": "https://www.regensburger-nachrichten.de/panorama/94893-regensburger-haben-entschieden-aus-fuer-die-stadtbahn",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-03",
+   "text": "Background to the Stadtbahn referendum (article of 14 March 2024): the city council decided in June 2018 to start Stadtbahn planning; two lines were planned; total cost was estimated at about EUR 880 million at current prices, with an overall funding rate of over 60%; the vote was scheduled for 9 June 2024 and a negative result would end the planning.",
+   "source_title": "Bürgerentscheid zur Europawahl: Wie geht es weiter mit der Regensburger Stadtbahn?",
+   "source_url": "https://www.regensburger-nachrichten.de/panorama/94524-buergerentscheid-zur-europawahl-wie-geht-es-weiter-mit-der-regensburger-stadtbahn",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-07",
+   "text": "The Park & Ride lot at Unterer Wöhrd became chargeable in July 2024: EUR 1 up to 12 hours and EUR 2 for 12 to 24 hours (exit free within 15 minutes if no space is found); the lot now has EV charging stations, e-scooter parking and bicycle boxes. The ACE motoring club criticised the new charge.",
+   "source_title": "P+R Unterer Wöhrd jetzt kostenpflichtig – ACE-Kreisvorstand kritisiert die Stadt",
+   "source_url": "https://www.regensburger-nachrichten.de/politik-und-wirtschaft/95121-p-r-unterer-woehrd-jetzt-kostenpflichtig-ace-kreisvorstand-kritisiert-die-stadt",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-07",
+   "text": "The Vereinigung Freunde der Altstadt, in a statement on the Unterer Wöhrd zoning plan (July 2024), says the Petersweg garage was reopened in 2014 with capacity up from 460 to 560, that the public Dallmeier garage (Bahnhofstrasse 16, 200 spaces) is now also available, and that Altstadt garage spaces have therefore risen by 300 since 2014. It lists Dachauplatz 700, Petersweg 560, Theater/Bismarckplatz 355, Arnulfsplatz 170 and Castra Regina (Hauptbahnhof) 400 (advocacy group source).",
+   "source_title": "Stellungnahme zum Bebauungsplan Nr. 279: Mobilitätsdrehscheibe Unterer Wöhrd (Freunde der Altstadt Regensburg)",
+   "source_url": "https://regensburg-digital.de/wp-content/uploads/2024/09/Stellungnahme-Mobilitaetsdrehscheibe-Altstadtfreunde.-17.07.2024.pdf",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-09",
+   "text": "In September 2024 the Unterer Wöhrd Mobilitätsdrehscheibe was reported at a total budget of EUR 18 million (parking garage about EUR 11.5 million), with about 1,000 spaces in total of which about 580 in the garage, plus e-charging, bike-/car-sharing and a micro depot; interim parking there cost EUR 1 for 12 hours and EUR 2 for 24 hours.",
+   "source_title": "Mobilitätsdrehscheibe Unterer Wöhrd: Parkhaus-Monster oder Zukunfts-Oase?",
+   "source_url": "https://www.regensburger-nachrichten.de/politik-und-wirtschaft/95504-mobilitaetsdrehscheibe-unterer-woehrd-parkhaus-monster-oder-zukunfts-oase",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-09",
+   "text": "From September 2024 the city began redesigning the northern station forecourt (Bahnhofsvorplatz Nord), with construction expected to run until May 2025: through traffic stays closed to private vehicles, a new turning option is planned at the western end of Bahnhofstrasse, and generous bicycle parking and barrier-free surfaces are planned.",
+   "source_title": "Bahnhofsvorplatz Nord: Umgestaltung gestartet",
+   "source_url": "https://www.regensburger-nachrichten.de/shortnews/95487-bahnhofsvorplatz-nord-umgestaltung-gestartet",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-03",
+   "text": "A Regensburg mobility survey (February 2023 to January 2024) found that, compared with 2018, the walking and cycling share of the modal split rose by five percentage points, car use fell by four points and public transport by one point.",
+   "source_title": "Mobilitätserhebung Regensburg - Autos und Busse auf dem Rückzug",
+   "source_url": "https://www.regensburger-nachrichten.de/politik-und-wirtschaft/96820-mobilitaetserhebung-regensburg-autos-und-busse-auf-dem-rueckzug",
+   "confidence": "high",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-05",
+   "text": "From 22 May 2025 all public paid parking spaces in the Obermünsterviertel were removed and replaced by 22 resident parking spaces plus 2 disabled spaces on Obermünsterplatz; the city pointed to the Petersweg garage and the Unterer Wöhrd lot (EUR 1 per 12 hours) as alternatives.",
+   "source_title": "Wird das Obermünsterviertel in Regensburg zur grünen Stadtoase?",
+   "source_url": "https://www.regensburger-nachrichten.de/panorama/97553-baeume-und-baeche-wird-das-obermuensterviertel-in-regensburg-zur-gruenen-stadtoase",
+   "confidence": "high",
+   "id": 17,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-07",
+   "text": "On 15 July 2025 the city planning committee voted on the Altstadt traffic-calming package: SPD, Greens, Freie Wähler, ÖDP and BSW voted yes, CSU and FDP no (CSU warned shops would suffer; FDP and Freie Wähler called the planned 1,000-space garage at Unterer Wöhrd too small). The plan lets motorised traffic enter the Altstadt only in set loops, removes public parking or converts it to resident parking, and, according to opposition speakers, leaves 123 fewer spaces than before.",
+   "source_title": "Autos raus aus der Altstadt: Das halten die Parteien von den Plänen der Stadt",
+   "source_url": "https://www.regensburger-nachrichten.de/politik-und-wirtschaft/97668-autos-raus-aus-der-altstadt-das-halten-die-parteien-von-den-plaenen-der-stadt",
+   "confidence": "medium",
+   "id": 18,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-07",
+   "text": "On 30 July 2025 Regensburg's city council approved the Mobilitätsdrehscheibe with parking garage at Unterer Wöhrd by 28 votes to 21, with completion planned for 2027.",
+   "source_title": "Neues Parkhaus am Unteren Wöhrd kommt – ist es groß genug für die Zukunft?",
+   "source_url": "https://www.regensburger-nachrichten.de/politik-und-wirtschaft/97770-neues-parkhaus-am-unteren-woehrd-kommt-ist-es-gross-genug-fuer-die-zukunft",
+   "confidence": "high",
+   "id": 19,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-10",
+   "text": "In the week of 20 October 2025 the city began the first implementation phase of the Altstadt traffic-calming plan, which it says runs to 2035: public parking removed along about 60 m of Thundorferstrasse, new bike lanes on Thundorferstrasse, St.-Peters-Weg and Wöhrdstrasse, and public and resident parking on Wöhrdstrasse moved from the north side to the south-east.",
+   "source_title": "Regensburg startet in die nächste Phase der Altstadtverkehrsberuhigung",
+   "source_url": "https://www.regensburger-nachrichten.de/panorama/98251-regensburg-startet-in-die-naechste-phase-der-altstadtverkehrsberuhigung",
+   "confidence": "high",
+   "id": 20,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-02",
+   "text": "Construction of the new Unterer Wöhrd garage started on 2 February 2026; during works 138 parking spaces and all motorhome pitches are lost and about 224 car spaces remain available. Developer is das Stadtwerk.Regensburg; P+R Jahnstadion and TechCampus are named as alternatives.",
+   "source_title": "Baustart für neues Parkhaus Unterer Wöhrd in Regensburg",
+   "source_url": "https://www.regensburger-nachrichten.de/panorama/98878-baustart-fuer-neues-parkhaus-unterer-woehrd-in-regensburg",
+   "confidence": "high",
+   "id": 21,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-03",
+   "text": "At the March 2026 groundbreaking the Unterer Wöhrd garage was described as having 580 spaces over ten levels (about 1,000 spaces including the open area, with 80 resident spaces), 50 EV charge points with more in preparation and rooftop photovoltaics; operator Stadtwerk Regensburg, builder Goldbeck, completion targeted for April 2027, tariffs not yet set.",
+   "source_title": "Die Mobilitätsdrehscheibe: 2027 soll das Parkhaus am Unteren Wöhrd stehen",
+   "source_url": "https://www.regensburger-nachrichten.de/politik-und-wirtschaft/99133-die-mobilitaetsdrehscheibe-2027-soll-das-parkhaus-am-unteren-woehrd-stehen",
+   "confidence": "high",
+   "id": 22,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-04",
+   "text": "From 20 April 2026 the 2001 lift in the Theater underground garage at Bismarckplatz was renewed by das Stadtwerk.Regensburg for about EUR 90,000; for about eight weeks the garage was not step-free (three accessible spaces offered on Arnulfsplatz) and the new lift is 10 cm wider.",
+   "source_title": "Theater-Tiefgarage am Bismarckplatz ist wochenlang nicht barrierefrei",
+   "source_url": "https://www.regensburger-nachrichten.de/panorama/99421-theater-tiefgarage-am-bismarckplatz-ist-wochenlang-nicht-barrierefrei",
+   "confidence": "high",
+   "id": 23,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-07",
+   "text": "On 16 July 2026 the city extended morning delivery hours in the Altstadt pedestrian zones by 30 minutes to 06:00 to 11:00 (evening window 17:30 to 19:30 unchanged), responding to requests from retailers, craftspeople, restaurants and hotels.",
+   "source_title": "Ab sofort: Stadt genehmigt längere morgendliche Lieferzeiten in den Fußgängerzonen",
+   "source_url": "https://www.regensburger-nachrichten.de/shortnews/100004-ab-sofort-stadt-genehmigt-laengere-morgendliche-lieferzeiten-in-den-fussgaengerzonen",
+   "confidence": "high",
+   "id": 24,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "No Stadtbahn referendum took place in 2018: the 2018 vote (14 Oct 2018) was on the Kepler-Areal culture/congress centre; the Stadtbahn referendum was 9 June 2024 (formal planning began June 2018). Brief premise should be corrected.",
+  "Regensburg Arcaden garage (capacity, ECE operator, tariffs, expansion): only aggregator listings found, none usable.",
+  "Hauptbahnhof/Castra Regina garage operator (Contipark / DB BahnPark) and tariffs: only aggregator listings found.",
+  "Tiefgarage Arnulfsplatz operator and Parkhaus Dallmeier history: only aggregator or advocacy-group mentions.",
+  "On-street parking fee ordinance (April 2022) and Bewohnerparken permit fees: regensburg.de pages and Ratsinformationssystem returned HTTP 503 or were not found.",
+  "Exact start date of the Umweltzone: the 2017 plan and the 2023 Stadtwerk media kit confirm it exists, but no opened source gives the start date.",
+  "Verkehrsentwicklungsplan, Pförtnerampeln, Domplatz, Bismarckplatz redevelopment, Donaumarkt: no opened source found.",
+  "Shift to shopping centres (Donau-Einkaufszentrum, Neutraublinger Strasse, Weichs), parking guidance system, Dult/Christkindlmarkt, BMW/Continental demand: no usable sources.",
+  "Official city result sheet for the 2024 referendum (statistischer Wahlbericht) returned HTTP 503; result taken from local press.",
+  "Official coalition composition not sourced; only committee voting patterns (July 2025)."
+ ],
+ "dropped": {}
+}

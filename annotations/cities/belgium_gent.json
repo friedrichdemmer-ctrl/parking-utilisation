@@ -1,0 +1,288 @@
+{
+ "country": "Belgium",
+ "city": "Gent",
+ "researched": "2026-10-07",
+ "verified": "2026-10-07",
+ "summary": "Gent kept its 2017 inner-city circulation plan, while the 2025-2030 Voor Gent-Groen coalition agreement (12 November 2024) keeps its principles, promises a new parking philosophy and says the low-emission zone will not be tightened and may be abolished; a study on it has slipped to spring 2027. Stad Gent's Mobiliteitsbedrijf runs nine garages with 4,098 spaces and has raised garage and street tariffs from 1 April 2026 (EUR 4 per hour peak tariff on Saturdays and events, paid Sunday street parking in orange and red zones). The city has earmarked EUR 4 million a year for new parking places and plans a EUR 15 million parking tower at The Loop by the end of 2029.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2017-04",
+   "text": "Gent's circulation plan (circulatieplan) was introduced on 3 April 2017; it regulates traffic flows inside the city ring (R40), stops the city centre acting as a through-route and expanded car-free zones.",
+   "source_title": "Mobiliteitsplan, Circulatieplan en Parkeerplan Gent",
+   "source_url": "https://stad.gent/nl/mobiliteit-openbare-werken/plannen-en-realisaties-mobiliteit/mobiliteitsplan-circulatieplan-en-parkeerplan-gent",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2016",
+   "text": "The 2016 parking plan (parkeerplan) covers all parking measures for bikes and cars and introduced new parking tariff zones, additional park-and-ride facilities and more bicycle parking.",
+   "source_title": "Mobiliteitsplan, Circulatieplan en Parkeerplan Gent",
+   "source_url": "https://stad.gent/nl/mobiliteit-openbare-werken/plannen-en-realisaties-mobiliteit/mobiliteitsplan-circulatieplan-en-parkeerplan-gent",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2020-01",
+   "text": "The low-emission zone (lage-emissiezone, LEZ) applies since 1 January 2020: the most polluting cars may no longer enter the area inside the city ring.",
+   "source_title": "Mobiliteitsplan, Circulatieplan en Parkeerplan Gent",
+   "source_url": "https://stad.gent/nl/mobiliteit-openbare-werken/plannen-en-realisaties-mobiliteit/mobiliteitsplan-circulatieplan-en-parkeerplan-gent",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-09",
+   "text": "Ahead of the 13 October 2024 municipal elections, VRT NWS reported that the 2017 city-centre circulation plan had become 'largely accepted', while new neighbourhood circulation plans in Gentbrugge and Sint-Amandsberg faced significant opposition and caused tension between alderman Filip Watteeuw (Groen) and mayor Mathias De Clercq.",
+   "source_title": "Ergernis en discussies over mobiliteit in Gent: 'Niemand snapt waarom die knip hier is ingevoerd' (VRT NWS)",
+   "source_url": "https://www.vrt.be/vrtnws/nl/2024/09/25/mopperen-over-mobiliteit-in-gent-betere-communicatie-nodig-zod/",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-11",
+   "text": "The 2025-2030 coalition agreement of Voor Gent and Groen (dated 12 November 2024) keeps the principles of the inner-city circulation plan, commits to remove the 'knip' in Joachim Schayckstraat (Zwijnaarde) immediately and to replace the 'local traffic only' zones of the Dampoort/Oud-Gentbrugge neighbourhood mobility plan with other measures.",
+   "source_title": "Bestuursakkoord 2025-2030 Voor Gent - Groen",
+   "source_url": "https://stad.gent/sites/default/files/media/documents/BESTUURSAKKOORD%202025-%202030defst.pdf",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-11",
+   "text": "The coalition agreement announces a 'new parking philosophy': the first resident card stays free, above-ground spaces are reserved as far as possible for residents, centre garages are to be reserved as far as possible for short-stay parkers, residents, subscribers, traders and cyclists, the city will look for visitor parking along or near the R40 (around Dampoort, Watersportbaan and Galveston), and will examine how visitor parking could be concentrated in Sint-Pietersplein and a possibly extended Zuid garage.",
+   "source_title": "Bestuursakkoord 2025-2030 Voor Gent - Groen",
+   "source_url": "https://stad.gent/sites/default/files/media/documents/BESTUURSAKKOORD%202025-%202030defst.pdf",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-11",
+   "text": "The coalition agreement states the LEZ will not be tightened, that a study will assess the added value of the current LEZ, and that the LEZ will be abolished if that added value cannot be sufficiently demonstrated.",
+   "source_title": "Bestuursakkoord 2025-2030 Voor Gent - Groen",
+   "source_url": "https://stad.gent/sites/default/files/media/documents/BESTUURSAKKOORD%202025-%202030defst.pdf",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06",
+   "text": "VRT NWS reported in June 2026 that the study into the usefulness of Gent's LEZ is delayed until spring 2027; results had originally been expected at the end of summer (2026). The coalition agreement says the zone can be abolished if the study shows limited value.",
+   "source_title": "Studie naar lage-emissiezone (LEZ) in Gent uitgesteld tot voorjaar 2027 (VRT NWS)",
+   "source_url": "https://www.vrt.be/vrtnws/nl/2026/06/04/studie-naar-lage-emissiezone-lez-in-gent-uitgesteld-tot-voorja/",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-07",
+   "text": "The Verapazbrug opened in mid-2025, moving part of the R40 from Dok-Noord and Dok-Zuid to Afrikalaan and Koopvaardijlaan; traffic measures (two new prohibited passages) were introduced in the Tolhuis neighbourhood to prevent through traffic, with an evaluation planned for 2026.",
+   "source_title": "Jaarverslag 2025 (Mobiliteitsbedrijf, Stad Gent)",
+   "source_url": "https://stad.gent/sites/default/files/media/documents/Jaarverslag%20mobiliteit%202025.pdf",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025",
+   "text": "In 2025 the city had 5 car-free areas, with 47 cameras monitoring access to car-free areas, traffic filters and prohibited passages; 192,406 municipal administrative sanctions (GAS fines, EUR 58 each) were issued, up 12.01%, and an average 24,550 access rights per day were held by permit holders (+6.19%).",
+   "source_title": "Jaarverslag 2025 (Mobiliteitsbedrijf, Stad Gent)",
+   "source_url": "https://stad.gent/sites/default/files/media/documents/Jaarverslag%20mobiliteit%202025.pdf",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12",
+   "text": "Stad Gent announced (published 4 December 2025) new tariffs from 1 April 2026: paid on-street parking on Sundays and public holidays in the orange and red zones; the first resident permit stays free and the second costs EUR 300; parking fines EUR 48 (paid zone) and EUR 108 (reserved spaces without permit).",
+   "source_title": "Nieuwe parkeertarieven op straat en in de parkings vanaf 1 april 2026",
+   "source_url": "https://stad.gent/nl/mobiliteit-openbare-werken/nieuws-evenementen/nieuwe-parkeertarieven-op-straat-en-de-parkings-vanaf-1-april-2026",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12",
+   "text": "From 1 April 2026 Gent's garages introduce a peak tariff of EUR 4 per hour in the busiest garages on Saturdays and during events; standard rates range from EUR 1 to 3.60 per hour, night EUR 1-2 per hour; a cluster subscription system lets one subscription cover several garages; the 20% discount on bulk parking cheques ends.",
+   "source_title": "Nieuwe parkeertarieven op straat en in de parkings vanaf 1 april 2026",
+   "source_url": "https://stad.gent/nl/mobiliteit-openbare-werken/nieuws-evenementen/nieuwe-parkeertarieven-op-straat-en-de-parkings-vanaf-1-april-2026",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-04",
+   "text": "Under the tariffs in force since April 2026, the city's central garages Ramen, Reep, Sint-Michiels and Vrijdagmarkt cost max EUR 3 per hour on weekdays and Sundays and max EUR 4 on Saturdays (7-19h), EUR 2 per hour at night with EUR 9 for 5 hours or longer; Savaan costs EUR 2.50 per hour; Sint-Pietersplein and Tolhuis max EUR 1.80 per hour (EUR 12.80 per 24 hours); Het Getouw (EUR 1 per hour) and Ledeberg (EUR 1.20 per hour) are the cheapest; The Loop B & C costs max EUR 3.60 per hour (EUR 18 per 24 hours).",
+   "source_title": "Tarieven parkings Stad Gent",
+   "source_url": "https://stad.gent/nl/mobiliteit-openbare-werken/parkeren/parkings-gent/tarieven-parkings-stad-gent",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-10",
+   "text": "In October 2025 the city introduced new resident subscriptions in garages Ledeberg and Het Getouw, a general price reduction in Het Getouw and new parking compensation for structural street redesigns; the annual report says preparations were made to fully redraw garage tariffs in 2026 after a benchmark with other cities (general increase, peak tariff on Saturdays and events, fewer subscription formulas).",
+   "source_title": "Jaarverslag 2025 (Mobiliteitsbedrijf, Stad Gent)",
+   "source_url": "https://stad.gent/sites/default/files/media/documents/Jaarverslag%20mobiliteit%202025.pdf",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2025",
+   "text": "In 2025 the Mobiliteitsbedrijf managed 7 underground and 2 above-ground garages with a total capacity of 4,098 spaces (Vrijdagmarkt 632, Reep 470, Savaan 540, Sint-Michiels 465, Ramen 268, Sint-Pietersplein 708, Tolhuis 165, Ledeberg 500, Het Getouw 350), recording 2,131,193 entries (+2.4%) and EUR 10,527,987 revenue (+3%).",
+   "source_title": "Jaarverslag 2025 (Mobiliteitsbedrijf, Stad Gent)",
+   "source_url": "https://stad.gent/sites/default/files/media/documents/Jaarverslag%20mobiliteit%202025.pdf",
+   "confidence": "high",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025",
+   "text": "Garage entries in 2025 rose in Sint-Pietersplein (354,080 to 393,122), Ledeberg (135,771 to 154,871) and Savaan (207,187 to 216,202) but fell in Vrijdagmarkt (573,034 to 555,175) and Sint-Michiels (335,120 to 323,419); Het Getouw remained very lightly used (8,500 to 10,319 entries).",
+   "source_title": "Jaarverslag 2025 (Mobiliteitsbedrijf, Stad Gent)",
+   "source_url": "https://stad.gent/sites/default/files/media/documents/Jaarverslag%20mobiliteit%202025.pdf",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025",
+   "text": "Beyond the city-run garages, an agreement with Interparking for parking garage Zuid brought the city EUR 737,478 in income in 2025; Interparking lists Gent Zuid (beneath Wilsonplein) with 1,043 spaces and 67 EV charging stations, open 24/7.",
+   "source_title": "Car park Gent Zuid in Ghent | Interparking",
+   "source_url": "https://www.interparking.be/en/parkings/ghent/gent-zuid",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026",
+   "text": "Stad Gent's opening-hours page lists Parking Dok Noord (Dok-Noord 7, 9000 Gent) as operated by Indigo; no capacity is stated. Indigo's own page (be.parkindigo.com, which lists the address as Sassevaartstraat 44) shows EUR 1.60 for one hour and EUR 7 for a day, open 24/7.",
+   "source_title": "Parking Dok Noord - Indigo - Openingsuren en adressen (Stad Gent)",
+   "source_url": "https://stad.gent/nl/openingsuren-adressen/parking-dok-noord",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-10",
+   "text": "On 17 October 2025 the city announced new flexible tariffs for The Loop parkings B and C from 5 November 2025 replacing the EUR 12 flat daily rate (e.g. half an hour EUR 1.50, one hour EUR 3, four hours EUR 10), P+R capacity growing from 180 to 325 spaces with a barrier system (still free if the ticket is validated in the centre), and a planned parking tower on Veld 5 Oost for 500 cars and 200 bikes by end 2029.",
+   "source_title": "Nieuwe abonnementen en kortparkeertarieven op parkings B & C en uitbreiding park-and-ride op The Loop",
+   "source_url": "https://stad.gent/nl/mobiliteit-openbare-werken/nieuws-evenementen/nieuwe-abonnementen-en-kortparkeertarieven-op-parkings-b-c-en-uitbreiding-park-and-ride-op-loop",
+   "confidence": "high",
+   "id": 18,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12",
+   "text": "Gent said it earmarks EUR 4 million per year extra this term for new parking places in car parks and neighbourhood parkings, a EUR 15 million parking tower at The Loop is planned, and two new P+R sites are under negotiation that the city wants to keep free.",
+   "source_title": "Gent voorziet 4 miljoen per jaar voor nieuwe parkeergebouwen en buurtparkings (VRT NWS)",
+   "source_url": "https://www.vrt.be/vrtnws/nl/2025/12/03/gent-parkeren-parking-parkeerplaatsen-parkeertoren-tarieven-verh/",
+   "confidence": "medium",
+   "id": 19,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025",
+   "text": "At the end of 2025 Gent counted 42,300 on-street spaces in the paid zone (36,550 paid and 5,750 reserved for residents, EV drivers, disabled drivers and car sharers); 400 spaces on public domain disappeared during 2025 to make room for other goals, and no paid-parking regimes were extended in 2025 after expansions in 2023 and 2024.",
+   "source_title": "Jaarverslag 2025 (Mobiliteitsbedrijf, Stad Gent)",
+   "source_url": "https://stad.gent/sites/default/files/media/documents/Jaarverslag%20mobiliteit%202025.pdf",
+   "confidence": "high",
+   "id": 20,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025",
+   "text": "End 2025 the city had 13 free park-and-rides with 1,793 spaces; P+R subscriptions (about 900 spaces) are available at Ledeberg, Sint-Pietersstation and Galveston; P+R Wondelgem (62 spaces) was temporarily unavailable due to roadworks; the traffic guidance system steered vehicles to P+Rs during events.",
+   "source_title": "Jaarverslag 2025 (Mobiliteitsbedrijf, Stad Gent)",
+   "source_url": "https://stad.gent/sites/default/files/media/documents/Jaarverslag%20mobiliteit%202025.pdf",
+   "confidence": "high",
+   "id": 21,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-07",
+   "text": "On Monday 20 July 2026 around 190,000 visitors came to the Gentse Feesten; central garages were full by 20:30 and The Loop park-and-ride saw increased use.",
+   "source_title": "Drukke maandag op Gentse Feesten: 190.000 bezoekers, volle parkings en lokfiets politie meegenomen (VRT NWS)",
+   "source_url": "https://www.vrt.be/vrtnws/nl/2026/07/21/gentse-feesten-maandag-meer-bezoekers-fietsenstallingen-vol/",
+   "confidence": "medium",
+   "id": 22,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-11",
+   "text": "For the Winterfeesten (4-31 December 2025), after about 2.5 million visitors the previous year, Gent trialled home-made traffic signs to redirect queues for an underground garage at the Kouter so waiting cars stop blocking trams.",
+   "source_title": "Gent test opnieuw zelfgemaakte verkeersborden, deze keer om files aan parking te beperken bij Winterfeesten (VRT NWS)",
+   "source_url": "https://www.vrt.be/vrtnws/nl/2025/11/24/gent-tram-parkeren-parkeergarage-kouter-winterfeesten-zelfgemaak/",
+   "confidence": "medium",
+   "id": 23,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2025",
+   "text": "In 2025 the city garages renewed number-plate cameras, software and servers, introduced payment at the exit, installed LED lighting in Reep, Sint-Pietersplein and Tolhuis, and opened a central control room with video wall in parking Ramen.",
+   "source_title": "Jaarverslag 2025 (Mobiliteitsbedrijf, Stad Gent)",
+   "source_url": "https://stad.gent/sites/default/files/media/documents/Jaarverslag%20mobiliteit%202025.pdf",
+   "confidence": "high",
+   "id": 24,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2025",
+   "text": "Mobile parking payment on street rose to 63.4% of parking rights bought via app or SMS in 2025 (66.9% in November 2025); two new providers (Seety, Xparc) were licensed, making six; meters are card-only with 284 of 1,093 also accepting cash.",
+   "source_title": "Jaarverslag 2025 (Mobiliteitsbedrijf, Stad Gent)",
+   "source_url": "https://stad.gent/sites/default/files/media/documents/Jaarverslag%20mobiliteit%202025.pdf",
+   "confidence": "high",
+   "id": 25,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2025",
+   "text": "End 2025 Gent had 1,895 public charge points on public roads and Farys car parks (304 added in 2025) and 1,478 on-street EV charging places; the municipal garages together had 86 charging places.",
+   "source_title": "Jaarverslag 2025 (Mobiliteitsbedrijf, Stad Gent)",
+   "source_url": "https://stad.gent/sites/default/files/media/documents/Jaarverslag%20mobiliteit%202025.pdf",
+   "confidence": "high",
+   "id": 26,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Dok Noord capacity (550 in our dataset) and detailed tariffs: not stated on the opened Stad Gent / Indigo pages; Indigo page lists a different address (Sassevaartstraat 44).",
+  "Official capacities differ slightly from our measured figures (annual report: Vrijdagmarkt 632, Reep 470, Savaan 540, Sint-Michiels 465, Ramen 268, Sint-Pietersplein 708, Tolhuis 165, Ledeberg 500, Getouw 350); The Loop B+C quoted as about 2,500.",
+  "Q-Park (e.g. Zuiderpoort), Wintercircus/other private underground garages: no operator page could be opened; no capacities sourced.",
+  "P+R Weba/Dampoort/Lubeck changes, Gentbrugge P+R details: only search snippets seen, not cited.",
+  "Parkeren Gent app / parking guidance system (PGS) launch dates, resident card (bewonerskaart) and visitor card details, and UZ Gent / university parking policy: no primary page opened with dated facts.",
+  "Exact date of resident/visitor card changes and the council decision on 2026 tariffs (gemeenteraad document could not be opened, 503)."
+ ],
+ "dropped": {}
+}
