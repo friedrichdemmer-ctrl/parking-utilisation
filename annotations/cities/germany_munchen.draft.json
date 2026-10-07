@@ -203,6 +203,14 @@
    "source_title": "Antrag: Die P+R Park&Ride GmbH informiert über Auslastung und Alternativen (CSU-FW-Fraktion, 23.05.2025)",
    "source_url": "https://www.muenchen-transparent.de/dokumente/9097313/datei",
    "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-12",
+   "text": "The City of Munich's open-data portal publishes an occupancy forecast for its park-and-ride car parks (edition December 2024 per the file name) that rates each facility by time band for weekdays, Saturdays and Sundays from historical experience: green means more than 75% of spaces are free, yellow more than 10% and red fewer than 10%. On weekdays it rates Fürstenried West (car park and garage) red from 08:00 to 16:00, Olympiazentrum and Großhadern red from 09:00 to 14:00, and Aidenbachstraße and Trudering-Süd red from 10:00 to 14:00; Daglfing and Oberwiesenfeld are yellow at all times including weekends and Freiham (Provisorium) yellow on weekdays; every other facility is green or yellow only on weekdays, and all are green at weekends except Daglfing and Oberwiesenfeld. Moosach, Neuperlach Süd, Allach, Fröttmaning and Messestadt-Ost are green at every hour.",
+   "source_title": "P+R-Anlagen - Belegungsprognosen",
+   "source_url": "https://opendata.muenchen.de/dataset/p-r-anlagen-belegungsprognosen",
+   "confidence": "high"
   }
  ],
  "gaps": [

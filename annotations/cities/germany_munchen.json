@@ -154,6 +154,16 @@
    "confidence": "high",
    "id": 24,
    "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-12",
+   "text": "The City of Munich's open-data portal publishes a forecast (edition December 2024) of how full each park-and-ride car park is expected to be, by time band for weekdays, Saturdays and Sundays, based on historical experience. Green means more than 75% of spaces free, yellow more than 10% free, red fewer than 10% free. On weekdays the forecast shows red at Fürstenried West (car park and garage) from 08:00 to 16:00, at Olympiazentrum and Großhadern from 09:00 to 14:00, and at Aidenbachstraße and Trudering-Süd from 10:00 to 14:00. Daglfing and Oberwiesenfeld are yellow at all hours on every day type, and Freiham (Provisorium) is yellow at all hours on weekdays. Seven more facilities (Feldmoching, Heimeranplatz, Innsbrucker Ring, Mangfallplatz, Studentenstadt, Trudering-Nord, Westfriedhof car park) are yellow in some weekday bands. All other facilities are green all day, and every facility except Daglfing and Oberwiesenfeld is green on Saturdays and Sundays; 18 of the 34 facilities are green in every time band.",
+   "source_title": "P+R-Anlagen - Belegungsprognosen",
+   "source_url": "https://opendata.muenchen.de/dataset/p-r-anlagen-belegungsprognosen",
+   "confidence": "medium",
+   "id": 25,
+   "checked": "partly"
   }
  ],
  "gaps": [
