@@ -92,9 +92,18 @@ def _classify(error: str | None, offered: int) -> str:
     return "source_frozen" if offered else "source_empty"
 
 
+def _still_down(conn: sqlite3.Connection, source_id: str) -> bool:
+    """Whether the source still counts as down after what we just wrote. A feed
+    can be half alive -- Mannheim's Scheidt+Bachmann garages kept reporting
+    while its Designa ones froze -- so "we wrote something" is not the test."""
+    import alerts
+
+    return source_id in alerts.down_sources(conn)
+
+
 def repair(conn: sqlite3.Connection, source_id: str) -> dict:
-    """One source: re-run it, then try its fallbacks. Returns
-    {"outcome", "detail", "resolved", "written"}."""
+    """One source: re-run it, then try its fallbacks for whatever is still
+    silent. Returns {"outcome", "detail", "resolved", "written"}."""
     from scrapers import storage
     from scrapers.registry import ADAPTERS
 
@@ -103,20 +112,24 @@ def repair(conn: sqlite3.Connection, source_id: str) -> dict:
         return {"outcome": "no_adapter", "detail": "", "resolved": False, "written": 0}
 
     written, error, offered = _run(conn, adapter)
-    if written:
+    if written and not _still_down(conn, source_id):
         out = {"outcome": "retry", "detail": f"{written} readings", "resolved": True, "written": written}
     else:
-        outcome = _classify(error, offered)
+        outcome = _classify(error, offered) if not written else "source_frozen"
         detail = (error or "")[:200]
-        out = {"outcome": outcome, "detail": detail, "resolved": False, "written": 0}
+        if written:
+            detail = f"{written} readings came in, but most of its garages are still silent"
+        out = {"outcome": outcome, "detail": detail, "resolved": False, "written": written}
         for cls in FALLBACKS.get(source_id, ()):
             fb = cls()
             fb_written, fb_error, _ = _run(conn, fb)
-            if fb_written:
-                out = {"outcome": "fallback", "resolved": True, "written": fb_written,
+            if fb_written and not _still_down(conn, source_id):
+                out = {"outcome": "fallback", "resolved": True, "written": written + fb_written,
                        "detail": f"{fb_written} readings from {fb.name} while {source_id} is down ({LABELS[outcome]})"}
                 break
-            out["detail"] = f"{detail} | fallback {fb.name}: {(fb_error or 'nothing to write')[:120]}"
+            out["detail"] = f"{detail} | fallback {fb.name}: " + (
+                f"wrote {fb_written} but the source is still down" if fb_written
+                else (fb_error or "nothing to write")[:120])
     try:
         storage.record_run(conn, "watchdog", source_id, "success" if out["resolved"] else "error",
                            records_written=out["written"], error_message=None if out["resolved"] else
