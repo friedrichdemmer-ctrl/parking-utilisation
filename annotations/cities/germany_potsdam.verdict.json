@@ -1,0 +1,235 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Read the PDF (cover: 'Januar 2014', Fortschreibung VEP bis 2025). Parkraumbewirtschaftung as price-policy measure (p.69), assumption of fully managed zones by 2020, +100% fees, central car parks Friedrich-Ebert-Str./Helene-Lange-Str. and Berliner Str. not to add capacity: all confirmed. The document never says the Stadtverordnetenversammlung is the author/adopter (it only says discussed with the Fraktionen; the 2017 IVK says 'im Januar 2014 beschlossen' without naming the body), so that attribution is unsupported. Minor.",
+   "corrected_text": "The Stadtentwicklungskonzept Verkehr (StEK Verkehr, January 2014, horizon 2025) planned to extend Parkraumbewirtschaftung as a price-policy measure to shift traffic from cars to the Umweltverbund, assuming fully managed parking zones by 2020 and calling for parking fees to rise by 100 percent; it also foresaw central car parks on the inner-city ring (Friedrich-Ebert-Straße/Helene-Lange-Straße and Berliner Straße) to free street space rather than add capacity (planned measures, not outcomes).",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "PDF p.68: new P+R Bornstedter Feld, Wetzlarer Straße/Nuthestraße, Bhf. Marquardt, expansion Kirschallee, 'Intensivierung' Pirschheide, examination of further sites on main axes with neighbouring municipalities (ca. 800 Stellplätze); purpose relief of inner-city parking and car traffic. Matches. Planned measures, correctly framed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "PDF: 'Der Bau einer neuen Verbindung über die Havel zur Entlastung der Innenstadt stellt sich als nicht zielführend dar'; new bridge expected to attract traffic from surroundings and motorway; alternative mobility plus restrictive measures. Supported. Indirect relevance to parking; weak/low value for a parking briefing and a 2014 position.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Read PDF (cover 'Beschlussfassung 07. Juni 2017'). ~1400 on-street spaces (630 resident/440 fee/330 mixed), Luisenplatz 278, Wilhelmgalerie 200, Stadtpalais 477, Holländisches Viertel/Klinikum 342, ~2,800 total in/directly beside the Einkaufsinnenstadt; Luisenplatz 'häufig voll', Hegelallee 'in der Regel freie Kapazitäten'; demand exceeds legal supply in central areas: all confirmed. The document does not name the Stadtverordnetenversammlung as the deciding body (only 'Beschlussfassung 07. Juni 2017'); minor attribution gap. Note Wilhelmgalerie 200 in 2017 vs 52 on mobil-potsdam today.",
+   "corrected_text": "The Innenstadtverkehrskonzept (decision version dated 7 June 2017) counted about 1,400 on-street spaces in the Einkaufsinnenstadt (about 630 resident, 440 fee-paying, 330 mixed) and about 2,800 spaces in or directly beside it; it listed Tiefgarage Luisenplatz (278), Tiefgarage Wilhelmgalerie (200), Parkhaus Stadtpalais (477) and Parkhaus Holländisches Viertel/Klinikum (342). It also reported that the Tiefgarage under Luisenplatz was 'häufig voll' while the Parkhaus in Hegelallee 'in der Regel' had free capacity, and that on-street demand in the central shopping area generally exceeded legal supply.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "PDF section 5: 'dynamisches Parkleitsystem in das aber nicht alle Parkierungsanlagen integriert sind', aim to integrate the rest; renting spaces to residents/employees 'in fast allen Parkhäusern und Tiefgaragen bereits angeboten'. Supported. Same source as item 3 (overlap, different facts).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Read PDF 'Parkgebührenordnung vom 01.06.2022': SVV amended 01.06.2022; Zone 1 3.00 EUR/h, Zone 2 1.50 EUR/h, minimum fee 0.50 EUR; boundaries as listed; app payment where a system exists; electric car-sharing free until 31.12.2026. Supported. (The PDF itself gives no in-force date; item 6 covers 24 June 2022.)",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Fetched page (title '339 | Parken in Potsdam: Geänderte Gebührenordnung in Kraft getreten | Landeshauptstadt Potsdam', dated 30.06.2022): in force 24 June 2022, Zone 1 2->3 EUR, rest merged into Zone 2 1.50 EUR, last change 2016, garages 1.50-2.50 EUR/h, aim to steer drivers to peripheral garages. Supported. Complements item 5 (partial overlap on the 3.00/1.50 fees).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Fetched page (title '100 | Umsetzung des Konzeptes ...', press release 11.03.2024): SVV adoption May 2023 (DS 23/SVV/0060), one-year trial starting 28 March 2024, twelve resident-only spaces in Hegelallee (Dortu-/Lindenstraße) all confirmed, as is gradual reduction of car traffic/parked cars. The 'roughly 500 fee-paying spaces' figure is NOT on this page (it appears in the 28.03.2025 press release used for item 8), so it is unsupported by this source.",
+   "corrected_text": "Potsdam's inner-city concept 'Innenstadt - Straßenräume neu denken!' was adopted by the city council in May 2023 (DS 23/SVV/0060) to make the inner city more accessible and liveable and to gradually reduce car traffic and especially parked cars. A one-year trial in Dortustraße started officially on 28 March 2024: the visitor and resident spaces in the section between Hegelallee and Brandenburger Straße were removed, and twelve spaces reserved for permit-holding residents were created on both sides of Hegelallee (between Dortu- and Lindenstraße).",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Fetched page (title '132 | Mehr Innenstadt: Weiterentwicklung des Modellversuchs Dortustraße', press release dated 28.03.2025): south section stays permanently traffic-calmed; north section becomes 'verkehrsberuhigter Geschäftsbereich (Tempo-20-Zone und eingeschränkte Halteverbotszone)'; parking prohibited except two disabled and five short-term spaces: confirmed. The page is dated 28 March 2025 and reports the adjustment as a result of the evaluation; it does not say the decision was taken on that day. The same page confirms the concept's aim of removing rund 500 gebührenpflichtige Stellplätze (supports the summary).",
+   "corrected_text": "On 28 March 2025 the city announced, as a result of evaluating the Dortustraße trial, that the section Brandenburger Straße-Gutenbergstraße stays permanently traffic-calmed, while Gutenbergstraße-Hegelallee becomes a traffic-calmed business zone (20 km/h, restricted no-stopping zone) where parking remains prohibited except two disabled spaces and five short-term spaces.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Tagesspiegel (Plus, paywall; only the headline and lead paragraph are readable), dated 27.02.2025: Greens, SPD, Linke and Die Andere pushed it through the Verkehrsausschuss; Anwohnerparkausweise from 30 to 145 EUR per year, first rise in decades, 'trotz der aktuellen Haushaltskrise'; Stadtverordnete to decide the following week. All claims are in the visible lead. Title matches. Follow-up to item 10 (complementary, not duplicate).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Read the Lesefassung PDF: SVV resolved 02.07.2025; 145 EUR one year, 275 EUR two years, 25 EUR for changes/replacement; in force 01.09.2025. Supported. source_title is a composite of file name and document heading but accurate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Fetched page (title '230 | Veränderungen beim Bewohnerparken in Babelsberg zum 30. Juni', dated 27.05.2025): zone 510 extended, new zone 520 (Kreuzstraße, western Wichgrafstraße, Bendastraße, Rudolf-Breitscheid-Straße between Anhalt- and Bendastraße), Weberplatz in both, Mon-Fri 8-18 and Sat 8-12, permit or fee per signage, effective 30 June 2025. Supported; the item date 2025-06 is the effective date (page published May 2025).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Tagesspiegel (Plus, paywall; only the headline and lead paragraphs are readable), 21.11.2025: Rathausvorlage for the SVV of 3 December, Parkzone 2 from 1.50 to 2 EUR/h, e.g. parts of Babelsberg, Zentrum-Ost, Brandenburger Vorstadt, from March 2026 if adopted, bad budget situation. Correctly framed as a proposal; outcome unknown. Must not be read as decided.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Tagesspiegel (Plus, paywall; only the headline and lead are readable), 02.07.2025 21:03: Land (culture minister Manja Schüle) takes over the missing 800,000 EUR a year after the SVV ended the city grant from 2026. But the lead says the threatened introduction of a mandatory entrance 'ist vorerst abgewendet' (averted for now) and calls it 'drohend' (threatened), not planned; 'stays free to enter' overstates it.",
+   "corrected_text": "On 2 July 2025 Tagesspiegel reported that, after Potsdam's councillors decided to stop the city's annual grant to the Schlösserstiftung from 2026, Brandenburg's culture minister Manja Schüle announced the state would cover the missing 800,000 EUR a year; the threatened introduction of a mandatory entrance fee for Park Sanssouci was averted for now (the paper's words: 'vorerst abgewendet').",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Read slides 10-11 of the Weber presentation (TH Wildau PDF, slides dated 13.03.2025; title slide carries a typo date 18.03.2013): start 15 December [2024], enforcement awarded to fair parken, combined ticket/parking machines operated by ViP, ca. 80% Fremdnutzung before management, 'Parkplatz nur für ÖPNV-Kunden weiterhin kostenfrei'. Supported. Overlaps with item 15 (same PDF, same Pirschheide milestone).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Slides 6, 10, 11, 13: 10 sites; P+R Wetzlarer Straße March 2021 (still only a provisional lot, new garage timetable dependent on StEK result), Mobilitätsdrehscheibe Marquardt Dec 2022, P+R management Pirschheide Dec 2024; Golm start together with Campus Jungfernsee after first experience in Q2 2025. Supported (Marquardt is listed under completed sub-projects, not milestones, minor). Overlaps with item 14 on Pirschheide.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Tagesspiegel (Plus, paywall; only the headline and lead are readable), 30.01.2026: city announced free spaces at Campus Jungfernsee abolished; from Monday 2 February parking only with a valid public-transport ticket; ViP installed a ticket machine. All in the visible lead. The page does not say that parking is then free for ticket holders, so the draft summary's 'free only with a ticket' for Jungfernsee goes beyond this source (the Pirschheide slide does support it for Pirschheide).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Tagesspiegel article (not paywalled in the fetch), 02.07.2026: Contipark takes over from Porth-Gruppe; first hour 2.50 EUR (1 EUR less), daily maximum 20 EUR from 35 EUR, new evening/night rate max 5 EUR per commenced hour; 475 spaces, built 2004, on city-administration grounds; maintenance work announced, only individual areas closed. Figures come from a Contipark statement ('heißt es von Contipark'). Supported. Capacity 475 vs 470 on mobil-potsdam page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "supported",
+   "note": "Contipark page 'Tiefgarage Luisenplatz in Potsdam | Contipark' (undated live snapshot): 278 spaces (253 standard, 6 disabled, 15 women, plus 4 Pcard), 3.50 EUR/h, 20 EUR max, 20 charging points 11 kW Type 2 on 2. UG; the Potsdam page lists Schiffbauergasse, Zentrum Hegelallee, Luisenplatz, Saba Holländisches Viertel. Supported. Medium confidence is appropriate (undated).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "supported",
+   "note": "APCOA page (undated live snapshot; title with emoji matches): Bahnhofspassagen PH 1 1041 spaces, PH 2 351, both from 1.50 EUR/h up to 12 EUR/day; Filmpark Babelsberg 957, from 3.00 EUR/h up to 9 EUR/day. Supported. The intro text also mentions a lot 'Am Krongut', so 'three sites' = three car parks listed. Note mobil-potsdam lists the Bahnhofspassagen at 850/300 spaces (source conflict).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "supported",
+   "note": "Fetched page; its <title> is the long sentence used. 13 Parkhäuser/Tiefgaragen, >2,500 spaces, Parkleitsystem, live occupancy (Füllstand) shown; Luisenplatz 278 in the operator block (3.50 EUR/h), Hegelallee 470 (2.50 first hour, 3.50 further), Wilhelmgalerie 52 (2.00 EUR/h), Sanssouci P2 Voltaireweg 170 (0.50 EUR/20 min), Pirschheide 184, Marquardt 120, Jungfernsee 77, Wetzlarer Straße 73: all as listed. Caveats: the same page's Luisenplatz capacity field says 213 (so the page itself conflicts); Jungfernsee entry still says 'kostenlos' (stale vs the Feb 2026 ticket rule) and its text says 92 spaces. Undated snapshot; weak/overlapping with items 18-19.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "partly",
+   "note": "Tagesspiegel (Plus, paywall; only the headline and lead paragraphs are readable), 15.04.2024. Confirmed: Bert Nicke announced the first of nine car parks for Krampnitz for 2027, >500 spaces, city company finances it and six further garages (seven total) instead of private investors to control prices; main committee approval due end of April. The '>80 million EUR' appears only in the headline and is not attributed to the seven garages in the readable text; the draft's phrase 'build nine car parks itself (seven by the city)' is garbled.",
+   "corrected_text": "In April 2024 Tagesspiegel reported that the head of the Krampnitz development agency, Bert Nicke, announced that the first of nine planned car parks for the car-light Krampnitz district (more than 500 spaces) is to be completed in 2027; the municipal company is to finance it and six further garages (seven in total) rather than private investors, so that the city can control prices, with the councillors' main committee still to approve this at the end of the month. The headline cites costs of more than 80 million EUR (planned, not built).",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "partly",
+   "note": "Fetched blog article (specialist blog, title matches, dated 3 Nov 2025). Confirmed: ViP names no firm opening date (originally 2029), heritage protection, possible lawsuits, termination of the planning office, vehicle delivery delays, 170 million EUR (2023) vs at least 260 million EUR. But the article attributes the 260 million to a Märkische Allgemeine report and says ViP called that figure 'nicht ganz korrekt'; the draft omits that. The 'Planfeststellungsverfahren began in January 2024 per a city presentation' clause is not from this page (it comes from the Weber PDF, slide 10; this page only says the project is currently in the Planfeststellungsverfahren). Little parking relevance.",
+   "corrected_text": "Entwicklungsstadt reported on 3 November 2025 that the tram extension to Krampnitz, originally planned for 2029, may be delayed: ViP no longer names a firm opening date, citing heritage-protection problems, possible resident lawsuits and the termination of the previous planning office's contract, and only two of ten trams planned for 2025 had arrived; the project is in the Planfeststellungsverfahren. The article cites a Märkische Allgemeine report of costs of at least 260 million EUR (about 170 million EUR in 2023), which ViP called 'not quite correct' without giving its own figure.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Potsdam has charged EUR 3.00 per hour in the enlarged Zone 1 and EUR 1.50 in Zone 2 since June 2022, and resident permits rose from EUR 30 to EUR 145 a year on 1 September 2025; a Zone 2 rise to EUR 2.00 was only proposed for a council vote on 3 December 2025 whose outcome we could not confirm. The 'Innenstadt - Straßenräume neu denken!' concept (May 2023) aims to remove about 500 paid inner-city spaces, starting with the Dortustraße trial from 28 March 2024, which the city adjusted in March 2025. The P+R lot at Pirschheide has been managed since 15 December 2024 (free only for public-transport customers) and Campus Jungfernsee has required a valid local public-transport ticket since 2 February 2026, while the state's offer to cover the 800,000 EUR funding gap averted, for now, an entrance fee at Park Sanssouci. On the supply side, Contipark took over Parkhaus Zentrum Hegelallee in mid-2026 and, according to Tagesspiegel, cut the first hour to EUR 2.50 and the daily maximum to EUR 20."
+}
