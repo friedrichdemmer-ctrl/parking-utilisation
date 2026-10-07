@@ -1,0 +1,235 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Opened the 1 March 2023 city release. Council meeting 27 February 2023, Greens and SPD votes, Zone I 50 cents per started quarter-hour from 1 June 2023 (previously 60 cents per half hour), then 70c/90c/1.10/1.30 on 1 Jan 2024-2027, Zone I to be enlarged, fees raised only once in 30 years (2011, +20 cents to EUR 1.20/hour): all match. Date check: 27 February is correct; this release (dated 1 March 2023) and the 26 Nov 2024 release both say 27 Feb. The 27 June 2023 Mobilitätsplan release says 20 March, which is the outlier/error. Item date 2023-02 = vote date (release is 2023-03-01), acceptable.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Opened the PDF (unofficial consolidated reading version, 'Stand 16 Dec 2024', in force 1 Jan 2025; 'Nicht amtliche' - only the Amtsblatt is authoritative). Zone I EUR 0.70 per started quarter-hour from 1 Jan 2024 (=2.80/h), Zones II and III EUR 0.40, Zone III daily max EUR 4.00 (Messestraße/Weser-Ems-Halle) all confirmed; Zone I boundary streets match (list is a subset). The source_title is a descriptive label built from the document heading plus gloss; the PDF has no embedded title. Overlaps with item 4 (same PDF) - could be merged.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Opened the 26 Nov 2024 release. Council on Monday 25 November, one vote against, suspended next step 'bis auf Weiteres'; evaluation concept to be presented by end of 2024, results to council bodies by summer 2025; Zone I stays EUR 2.80/h, Zone II EUR 1.60/h; about EUR 1 million lower revenue in 2025 ('voraussichtlich'). All match. Pause was on motion of Greens and SPD. Overlaps with item 3 (same release).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Same 26 Nov 2024 release: monitoring presented to the Ausschuss für Wirtschaftsförderung on 2 September (2024); occupancy of car parks near the centre fell and parking duration shortened. Matches. Date 2024-09 refers to the committee meeting; fine. Duplicate/overlap with item 2 (same source) - merge into item 2.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Opened the ordinance PDF, section 2(4): resident permit fee for zones A-F EUR 100/year from 1 Feb 2024 and EUR 200/year from 1 Jan 2025; flat amounts, no tiering by vehicle length anywhere in the text (3 pages). Confirms the author's caution: press reports of length-based tiers are not reflected in the ordinance. Same PDF as item 1 - overlap; merge or keep as the resident-permit fact.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Opened the city flyer PDF (embedded title 'Flyer Bewohnerparkzone G ab 1. Januar 2026', Stand Oktober 2025). Zone G in the Haareneschviertel in force 1 Jan 2026, applications from 1 Nov 2025, EUR 200/year, whole public parking area charged Mon-Sat 8-19 h, permit holders park without paying, decided in 2024 as part of the Teilkonzept Parkraummanagement. All match. 'Inner-city residential area' paraphrases 'innenstadtnahe Wohngebiete' (near the inner city).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Opened the 27 June 2023 release. Council on 26 June 2023 adopted the plan with votes of Greens, SPD, Jens Lükermann (Volt) and Lord Mayor Krogmann; sub-concepts listed (cycle streets/premium routes, parking management, Wallring feasibility, mobility stations, EV charging, P+R/B+R) match; the parking proposals (by the consultants) envisage no structural removal of spaces except where needed for transit/cycling/walking/safety/urban development: matches. Note this release wrongly gives 20 March for the fee decision (should be 27 Feb).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Opened the 28 May 2024 release. Council on Monday 27 May approved about 70 prioritised measures; seven premium cycle routes to the surroundings, ten more cycle streets, charging infrastructure and mobility stations, continuous Wallring bus lane pursued with priority; parking management, P+R/B+R, SPNV stops and pedestrian sub-concepts not pursued with high priority as a whole, but single measures such as the Haarenesch resident zone are. All match. Overlaps with items 6 and 8 on the Wallring bus lane.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Page opens (the draft URL redirects 301/308 to /teilkonzepte-und-zeitplan/teilkonzept-wallring.html; title 'Teilkonzept Wallring > Stadt Oldenburg' unchanged). Recommendation to close the Poststraße gap and add ÖPNV lanes on Schlosswall, Theaterwall, Heiligengeistwall; fewer general lanes on Poststraße, Paradewall, Schlosswall; one-way car traffic on Theaterwall/Heiligengeistwall; all car parks remain well accessible; pursued with priority, extensive preparatory planning needed; long report from council session 26 June 2023. All match. Recommend updating the stored URL to the redirect target. Overlaps with items 6 and 7.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Page opens (draft URL redirects 308 to /teilkonzepte-und-zeitplan/teilkonzept-modal-split.html; same title). First participation in SrV 2023 (TU Dresden), city data available since mid-February 2025; modal split within the city: bicycle 47% (2009: 43%), walking 21% (9%), MIV 28% (43%), bus 4% (5%). All match; confirms the 47% bicycle share of internal trips in 2023.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Page opens (draft URL redirects 308 to /standort-oldenburg/innenstadtmanagement/...; title 'City: Passantenfrequenzen > Stadt Oldenburg'). Achternstraße 2025: 6,585,685, best since counting began at end of 2019; Lange Straße 4,631,187, below 2023 (4,882,007) and above 2024 (4,549,296); oldest comprehensive pedestrian zone in Germany, about 4.6 km. All match. Only indirectly parking-related.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Opened the Oldenburger Onlinezeitung article (24 Oct 2024, title 'Smartparking per APP'). From 1 November drivers can pay parking fees by mobile phone via the city's cooperation with Smartparking; machines stay in service. Matches. It was written as an announcement; the city's own Parken page (item 12) confirms the cooperation is in operation. Secondary (local news) source, mirrors the city release.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Opened the city's Parken page. LED guidance system showing available spaces; online service for free spaces in city-centre car parks and large car parks updated every five minutes; about 2,900 paid on-street spaces and 152 meters, 95 contactless-capable; centre car parks mostly in private hands; ParkenPlus 50 cents refund on purchases from EUR 5. All match. The page also confirms Zone I EUR 2.80/h and Zone II EUR 1.60/h still apply (page last modified 17 July 2026).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Contipark Waffenplatz page checked: 617 total spaces (609 standard, 8 disabled; the 568 in the live feed is not on this page, so '617 per operator page' is correct as phrased), open 24 h, EUR 2.20/h, max EUR 15, Pcard EUR 2.00/h, max EUR 8 per 24 h. PROBLEM: the Staulinie figures (410 spaces, EUR 1.50/h, EUR 8 max, Pcard EUR 1.00/h, EUR 4 max) are not on the cited URL, which only lists Parkhaus Staulinie as a nearby facility. I verified them on the separate page https://www.contipark.de/de/parken/oldenburg/parkhaus-staulinie/ (all correct, open 24 h), so restore the Staulinie sentence only if that URL is added as a source. Source_title also carries a parenthetical for a different page.",
+   "corrected_text": "Contipark operates the Parkhaus Am Waffenplatz (Waffenplatz 4) in Oldenburg's centre: the operator page lists 617 spaces and 24-hour opening, with a charge of EUR 2.20 per started hour and a EUR 15 daily maximum (Pcard EUR 2.00 per hour, EUR 8 maximum per 24 hours). The page also lists the Contipark Parkhaus Staulinie nearby but gives no figures for it.",
+   "corrected_title": "Parkhaus Am Waffenplatz in Oldenburg | Contipark",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Same Contipark Waffenplatz page: 20 charging points ('Ladepunkte 20'), max power 11 kW, Type 2, EUR 0.55 per kWh (roaming tariffs may differ), provided by Contipark Germany. Matches. Overlaps with item 13 (same page) - merge or fold into item 13 if space is tight.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Opened augustcarree.de/parkhaus. 338 spaces (313 short-term, 25 permanent rental), beside the Evangelisches Krankenhaus Oldenburg and the Ärztehaus, open 24 h Mon-Sun, Goldbeck Parking Services named as service partner, Mon-Sat 6-20 h EUR 3.00 first hour then EUR 2.00, daily max EUR 18, address Auguststraße 7 (August Carrée GmbH). All match. The page title is exactly as given. Goldbeck is a service partner, not necessarily the owner.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Opened the Oldenburg Tourismus page (title tag 'Parkhaus Schlosshöfe Oldenburg'; the draft adds '(Oldenburg Tourismus)' as a publisher label). Contact: ECE Marketplaces GmbH & Co. KG, Schloßplatz 3; hours 6-21 h Mon-Sat, Sunday 10-21 h; rechargeable Parkwertkarte with 10% bonus on fees; car park of the Schlosshöfe shopping centre. The text is correctly hedged ('the listed contact is ECE Marketplaces'); the page does not say who operates the garage, so keep the medium confidence and do not call ECE the operator. Low value (no tariff).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Opened the city's P+R page. Hauptbahnhof Nord (Karlstraße 25) 358 spaces, day and night, unguarded, pay at machine; free sites near motorway exits: Prinzessinweg 202, Marschweg/OLantis Huntebad 227, Westfalendamm 277, Landwehrstraße 122, Haltepunkt Wechloy 141; bus links, tickets via VWG/VBN. All match (page last modified 28 Sept 2026).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "partly",
+   "note": "Opened the 25 July 2022 release. Matches: 27 public charging points at eight locations around the centre created with charging operators EWE GO and Olegeno plus e-carsharing; first two at Pferdemarkt opened by Lord Mayor Krogmann on Wednesday 18 May; Theaterwall 4 plus 9 at AGO. PROBLEMS: (1) several sites are planned, not built: four sites 'ab August' only 'if everything goes to plan', Schloßplatz and PFL 'follow afterwards', Stautor still under review; the list in the release sums to 25 points rather than 27. (2) The '125 public charging points' is stated as what will be available once the August sites open, not as a count at that time. (3) The 'pilot' in the release refers to the funding grant for carsharing vehicles (EUR 92,000), not to the charge points themselves. Date 2022-07 is fine. Weak/dated item.",
+   "corrected_text": "A July 2022 city release says the city, together with charging operators EWE GO and Olegeno, had created 27 public charging points at eight locations around the city centre, alongside e-carsharing bays. The first two, at Pferdemarkt, were opened by Lord Mayor Krogmann on 18 May 2022; four more sites (including Theaterwall with 4 points and the AGO car park with 9) were due to open from August 2022 if all went to plan, with Schloßplatz and PFL to follow and Stautor still under review. With the August sites the city expected to have 125 public charging points (excluding carsharing).",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "supported",
+   "note": "Opened the 16 Sept 2026 release. City recommends public transport; car park with about 300 spaces at Maastrichter Straße near the Weser-Ems-Hallen plus the lower grounds via 'Unterm Berg'; Agravis spaces no longer offered; mobile LED boards for traffic guidance; VWG denser timetable and extra night buses on high-demand days; about 220 plus about 30 bicycle spaces. All match. One-off event item, lowest parking-policy value.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "supported",
+   "note": "Opened the 10 April 2026 release. Council decision 26 Aug 2024 for free Saturday buses in 2025, run by VWG; continued in 2026 and extended to shopping Sundays; average passenger growth 2024/2025 26%, 34% in November and 42% in December 2025 on Saturdays; council approved continuation 29 Sept 2025 (additional funds for Sundays in Feb 2026). All match. Only indirectly about parking.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "partly",
+   "note": "Opened the 22 Dec 2023 release. Operator withdrew on short notice for economic reasons, had run the stations since 2002, stations Nord (ZOB) and Süd; from 2 Jan 2024 emergency operation 6:30-20:00, unstaffed, no day tickets sold, 24-h ground-floor access with monthly/annual card at Nord (and ground-floor access outside hours for card holders at Süd). Facts match, but the release is an announcement ('will ensure ... from 2 January 2024'), so 'ran an emergency operation' states as done what the source only announced. Tangential to car parking; low value.",
+   "corrected_text": "A December 2023 city release says the operator of the city's bicycle stations at the Hauptbahnhof (Nord at the ZOB, and Süd), who had run them since 2002, was withdrawing at short notice for economic reasons; from 2 January 2024 the stations were to run in emergency operation (6:30-20:00, unstaffed, no day tickets), with 24-hour ground-floor access for monthly and annual pass holders.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "partly",
+   "note": "Opened the kommunal.de article (author Gudrun Mallwitz, 27 Sept 2026, updated 30.9.2026). It says Oldenburg gets a new head: Jascha Rohr (Bündnis 90/Die Grünen) won the runoff against Ulf Prange (SPD); Krogmann did not stand again; 13 Sept first round. I also checked the city's own election page (https://www.oldenburg.de/startseite/rathaus/politik-verwaltung/wahlen/rats-oberbuergermeisterwahl-kommunalwahl/oberbuergermeisterwahl-2026.html): Wahlausschuss confirmed on 1 Oct 2026 that Rohr won the 27 Sept runoff with 30,792 votes (51.55%) vs Prange 28,945 (48.45%); Rohr takes office 1 Nov 2026. PROBLEMS: (a) the city page says Rohr is 'parteilos', nominated by the Greens and CDU, so 'Greens candidate' is only kommunal.de's label and is misleading; (b) 'Jürgen Krogmann (SPD)': the cited page gives no party for Krogmann. Result itself is verified by two sources; recommend citing the city page instead/as well. Weakly relevant to parking.",
+   "corrected_text": "After the municipal elections of 13 September 2026, Jascha Rohr won the 27 September 2026 runoff for Lord Mayor of Oldenburg against Ulf Prange (SPD); outgoing Lord Mayor Jürgen Krogmann did not stand again. The city's election page describes Rohr as non-party, nominated by the Greens and the CDU (kommunal.de labels him Greens), and gives a final result of 51.55% to 48.45%.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Oldenburg's council, with a Greens and SPD majority, voted in February 2023 for stepped increases in on-street parking fees (Zone I at EUR 0.70 per quarter-hour, i.e. EUR 2.80 per hour, since 2024; resident permits EUR 200 a year from 2025), then in November 2024 paused the next step pending an evaluation after city monitoring showed lower occupancy and shorter parking durations. The Mobilitätsplan 2030 was adopted in June 2023 and a Wallring bus lane is being pursued; the 2023 SrV survey puts the bicycle at 47% of trips within the city, and the Achternstraße counter recorded its best year in 2025. The city says most public car parks in the centre are privately owned (for example Contipark), it offers free P+R sites near the motorway exits, and a new resident parking zone G in the Haareneschviertel started on 1 January 2026. Jascha Rohr won the Lord Mayor runoff on 27 September 2026 against Ulf Prange (SPD)."
+}

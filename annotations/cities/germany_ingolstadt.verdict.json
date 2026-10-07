@@ -1,0 +1,265 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Opened IFG page: 1 June-31 Oct 2021, Theater West/Ost, Schloss, Muenster, first three hours from EUR 2 to EUR 1 per hour, Covid support for retail/gastronomy all confirmed. Page itself carries no publication date, so the 2021-05 date is inferred (reduction starts 1 June); acceptable. Low current value (expired 2021 measure).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Opened the Beschlussvorlage PDF (18 pp): V1101/21 dated 29.11.2021, Stadtrat decision scheduled 14.12.2021, point 6 = complete dismantling/rebuild of southern Theater West garage with bicycle spaces in Parkdeck D, IFG compensated; garage built 1975/76; 'insgesamt 130 Parkplaetze entfallen' if proposals are followed. Written as a proposal, outcome not shown - correct. Weak: 2021 proposal with unknown outcome; consider dropping.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Eurailpress (27 Aug 2021): DB and developer Ferdinand Faeth signed on 26.08.2021, 15-storey tower, two-storey base with travel centre/shops/Bundespolizei, Technical Town Hall moves in, start 2023, completion 2025 - all confirmed. But the page says Faeth invests about EUR 60m and DB Station&Service about EUR 5m; the draft attributes the whole 'investment about EUR 60 million'. Plans, not achievements - draft wording is correct. Only tangentially about parking; low value, candidate to drop.",
+   "corrected_text": "Deutsche Bahn and developer Ferdinand Fäth signed the building contract on 26 Aug 2021 for a new reception building at Ingolstadt Hauptbahnhof: a 15-storey high-rise with a two-storey base (travel centre, shops, federal police) and the City of Ingolstadt's Technical Town Hall on the upper floors; Fäth planned to invest about EUR 60 million and DB Station&Service about EUR 5 million, with construction planned to start in 2023 and finish in 2025.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "IFG page: Verwaltungsrat (meeting 17.07.2023 per page meta) raised Dauer- and Kurzparkgebuehren from 01.09.2023 at Theater West, Theater Ost, Muenster, Schloss, Reduit Tilly, Congress, Zeughaus, Hallenbad, Festplatz; 'letzte Erhoehung im September 2018'; 30-minute Taktung from 01.09.2023 at Theater West/Ost, Muenster, Schloss, Congress (five); Theater West spaces to min. 2.50 m; first 30 minutes stay free. All confirmed. Date 2023-09 is the effective date; decision was 17 Jul 2023.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Opened city page 'Massenverkehrsmittelstudie': tram (Strassenbahn) 'Verkehrswuerdigkeit aller Voraussicht nach in den naechsten 15 Jahren nicht gegeben'; higher-grade bus system ('busway') 'erhebliches wirtschaftliches Risiko', further studies shelved; findings used to optimise bus system (bus lanes, signal priority, route changes). Page lists Sitzungsvorlage Sachstand Oktober 2024, so date fine. 'bus rapid transit' is a fair gloss of 'hoeherwertiges Bussystem (busway)'.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "FashionUnited: Kaufhof closed 2020, building about 20,000 sq m, IFG Ingolstadt acquired it, OB Christian Scharpf quoted ('erheblicher Rueckschlag'), temporary partial letting then mixed-use concept (retail, gastronomy, services, housing). Date from URL 22 Oct 2024. Correctly says 'then mayor'. Minor: it is the IFG that plans the letting.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "IN-direkt (23 Feb 2025): CSU candidate won with 64.2% to 35.8% against Christian De Lapuente (SPD); Scharpf 'wird' hand over the chain of office on Sat 01.03.2025 and moves to Munich as Wirtschaftsreferent. The page is written before the handover, so it supports a planned handover on 1 March 2025, not 'took office'; it also does not use the word runoff (Stichwahl). Kern as mayor from 1 March 2025 is consistent with the page but the page itself only announces it. Draft correctly does not name Scharpf as current mayor.",
+   "corrected_text": "Michael Kern (CSU) won the Ingolstadt mayoral election on 23 Feb 2025 with 64.2% to 35.8% against Christian De Lapuente (SPD); outgoing mayor Christian Scharpf was due to hand over the chain of office on 1 March 2025 before moving to Munich city hall.",
+   "corrected_title": "Michael Kern ist Ingolstadts neuer Oberbürgermeister - IN-direkt Ingolstadt News",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "IFG page: fully cashless and ticketless system with licence-plate recognition, timber construction, photovoltaic modules to be fitted at the spiral ramp, green roof, rainwater cistern, 'Zur Teilinbetriebnahme am 20. Januar 2025 ... Kapazitaet fuer rund 330 Fahrzeuge'. Problems: the 20 Jan 2025 date is the partial commissioning, not a 'press item dated'; page does not say 'first' cashless/ticketless car park in Ingolstadt; PV is 'wird angebracht' (to be installed). The 330 figure is correct for this page (partial opening; the 570 total is in another article, not checked here).",
+   "corrected_text": "The IFG's new Parkhaus Arena was partly brought into service on 20 January 2025 with a fully cashless and ticketless system based on automatic licence-plate recognition; the garage is timber-built, with photovoltaic modules to be fitted on the spiral ramp, a green roof and a rainwater cistern, and the IFG item gives a capacity of about 330 vehicles at the partial commissioning.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "IFG page: 41 new signs (29 digital, 12 static), Hotel and Congress Centrum and new Parkhaus Arena integrated, completion 'fuer April 2025 geplant'. Problems: it is an IFG item, not 'the city'; 'now also integrates' reads as done though the page is a plan/announcement; the page carries no date, so 2025-03 is unverifiable (completion was only planned for April 2025). Note: brief said 'new guidance system (2025)' - only planned completion is supported here.",
+   "corrected_text": "The IFG announced a modernised parking guidance system with 41 new signs (29 digital, 12 static) that also integrates the Hotel and Congress Centrum and the new Arena car park; completion was planned for April 2025.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "City page: parking fees capped at EUR 0.50 (EUR 1.30 in high-pressure areas) per half hour; 'Ab 1. April 2025 duerfen alle Autos mit einem E am Ende des Kennzeichens auf allen oeffentlichen Parkplaetzen in Bayern bis zu drei Stunden kostenlos parken' (public, fee-managed areas only, not private barrier car parks). Supported. Overlaps item 10 (same EV rule); low value.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "IFG E-Mobilitaet page: 56 charging points in total; 2016 first charging posts with Stadtwerke at Hallenbad, Festplatz, Theater Ost, Schloss ('je zwei Saeulen a zwei Ladepunkte'); 2018 wallboxes in all garages (four each); IFG facilities count as private car parks, excluded from the free-parking rule. Error: draft says 'first 8 points at four sites' but two posts with two points each at four sites is 16 points (8 is the number of posts). Page undated; April 2025 date refers to the rule start. Overlaps item 9.",
+   "corrected_text": "IFG's car parks have 56 EV charging points in total (the first charging posts were installed with Stadtwerke Ingolstadt in 2016 at the Hallenbad, Festplatz, Theater Ost and Schloss car parks, two posts with two charging points each per site; wallboxes followed in all garages in 2018), and IFG states that, as private (barrier-controlled) car parks, its facilities are excluded from Bavaria's free-parking rule for electric vehicles that applies from 1 April 2025.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "IN-direkt press release 20 Aug 2025 (Pressestelle/Stadt Ingolstadt): after the Arena garage, Verwaltungsrat decided ticketless plate-recognition system for all IFG facilities, phased, starting in September with Hauptbahnhof West and Ost; P+R ticket stays at Reduit Tilly, Nordbahnhof, Festplatz. All confirmed. Page headline matches; site suffix now 'IN-direkt Ingolstadt News'.",
+   "corrected_text": null,
+   "corrected_title": "Umstellung auf ticketloses Parksystem - IN-direkt Ingolstadt News",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "City page: Mobilitaetsplan 2040+ in the style of an SUMP, 'Fortschreibung des VEP 2025', work began early 2025 after tender, TEN-V regulation of June 2024 requires all urban nodes to prepare a plan by end 2027, Ingolstadt is one of 78 nodes. Wording problem: the page says it updates/continues (Fortschreibung) the VEP 2025, not that it 'replaces' it. Title confirmed. Plan is in progress, correctly phrased as under development.",
+   "corrected_text": "The city is developing a Mobilitätsplan Ingolstadt 2040+ in the style of a Sustainable Urban Mobility Plan (SUMP) to update the Verkehrsentwicklungsplan (VEP 2025); work began in early 2025 and, as one of 78 urban nodes under the EU TEN-T regulation, Ingolstadt must prepare such a plan by the end of 2027.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "IN-direkt press release 28 Jan 2026 (Pressestelle/Stadt Ingolstadt): from Sunday 1 Feb 2026 the parking ticket at Parkhaus Nordbahnhof and Parkplatz Festplatz no longer entitles free bus use, because of low use; P+R at Tiefgarage Reduit Tilly unaffected. Confirmed.",
+   "corrected_text": null,
+   "corrected_title": "Kein P+R mehr für Parkhaus Nordbahnhof und Festplatz - IN-direkt Ingolstadt News",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "IN-direkt article of 29 Jul 2026: IFG Verwaltungsrat decided higher Kurz- and Dauerparkgebuehren from 1 Sep 2026; reasons = renovation/modernisation, maintenance, energy, Grundsteuer; Congress monthly EUR 99 and flex EUR 50 unchanged; first 30 minutes stay free; Nordbahnhof and Hauptbahnhof West/Ost EUR 2.50 per day unchanged. But this page does NOT give the decision date 8 June 2026 (nor the fee amounts). The 8 June 2026 date IS confirmed on the IFG parkIN page (item 17: 'Sitzung am 08.06.2026'), which should be cited for it. Item's date should be July 2026. Overlaps items 15, 16, 17.",
+   "corrected_text": "IN-direkt reported on 29 July 2026 that IFG's administrative board had decided to raise fees at inner-city garages from 1 Sept 2026, citing renovation and modernisation work and higher maintenance, energy and property-tax costs; the Congress garage monthly rate stays at EUR 99, the flex tariff at EUR 50, the first 30 minutes stay free, and the Nordbahnhof and Hauptbahnhof West/Ost daily rate stays at EUR 2.50.",
+   "corrected_title": "Parken in der Innenstadt wird teurer - IN-direkt Ingolstadt News",
+   "corrected_date": "2026-07",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "O-T(h)oene (published 22 May 2026; non-primary regional blog; only the header image is labelled 'KI generiertes Bild', the article is not labelled AI-generated). Confirmed: board to decide on 8 June; per Sitzungsvorlage short-term rates in nearly all facilities up about 12% on average; Nordbahnhof/Hauptbahnhof West/Ost excluded (state funding conditions); first hour in several downtown garages 2.20 -> 2.50, day 13 -> 14.50; about EUR 1.3m extra short-term, about EUR 200,000 permits; Hallenbad flat rate EUR 2 because of the theatre move to Jahnstrasse. Corrections: the Hallenbad rate is an evening AND Sunday/public-holiday flat rate (not 'weekend'); all figures were proposals ('sollen', per Sitzungsvorlage) before the 8 June decision; the article says IFG runs 15 facilities with over 7,000 spaces, which conflicts with the IFG page (14). The Congress price list (item 18) now shows 2.50 first hour / 14.50 day, consistent with the plan.",
+   "corrected_text": "A May 2026 report on the proposal before the IFG board's 8 June 2026 decision said short-term rates in nearly all IFG facilities were to rise about 12% on average (first hour in several downtown garages from EUR 2.20 to EUR 2.50, daily maximum from EUR 13 to EUR 14.50), with Nordbahnhof and Hauptbahnhof West/Ost excluded because of state funding conditions; IFG expected about EUR 1.3 million extra from short-term parking and about EUR 200,000 from monthly permits, plus a new EUR 2 evening and Sunday/public-holiday flat rate at the Hallenbad car park because the theatre is moving to Jahnstraße.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "IN-direkt 17 Sep 2026 (byline Steffi Kuerten, who writes as a former city councillor; it is a commentary/opinion piece, not a news report). Supported: fees raised 1 Sep 2026; first 30 minutes free; tariffs at commuter stations and fairground 'stabil geblieben oder gesenkt'; EUR 1.5m extra revenue (author's figure); shopkeepers fear harm to retail; criticism of new Hallenbad evening flat rate from culture/gastronomy; Ingolstadt 'im moderaten unteren Mittelfeld' vs Munich, Nuremberg, Regensburg, Augsburg (author's judgement). Problems: written as news fact though it is opinion; retailers 'befuerchten' (fear), cultural criticism concerned the Hallenbad evening rate; the draft title ('PARKENGEBUEHREN ... WUT') is not the page title. Confidence should be medium. Overlaps 14/15.",
+   "corrected_text": "An opinion piece by former city councillor Steffi Kürten in IN-direkt (17 Sept 2026) on the fee increases that took effect on 1 Sept 2026 said the first 30 minutes remain free, rates at the commuter stations and the fairground stayed stable or fell, the changes bring about EUR 1.5 million extra, city-centre retailers fear harm and the new Hallenbad evening flat rate drew criticism from culture and hospitality; in the author's view Ingolstadt remains in the moderate lower-middle range against Munich, Nuremberg, Regensburg and Augsburg.",
+   "corrected_title": "Neue Parkgebühren zwischen Notwendigkeit und Wut - IN-direkt",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "IFG parkIN page: 'betreibt die IFG 14 Parkeinrichtungen mit ueber 7.000 Parkplaetzen im Stadtgebiet und an den Bahnhoefen', 24-hour Leitstelle; the facilities named (Theater West/Ost, Muenster, Schloss, Reduit Tilly, Congress, Zeughaus, Arena, Hallenbad, Festplatz, Nordbahnhof, Hauptbahnhof West/Ost) all appear on the page. Same page also confirms the Verwaltungsrat decision on 08.06.2026 for the 1 Sep 2026 increase, 'last increase Sept 2023', Congress EUR 99, 30 free minutes, EUR 2.50 at Nordbahnhof/Hauptbahnhof. Note O-T(h)oene says 15 facilities; IFG page says 14.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "supported",
+   "note": "IFG Congress page: monthly pass cut from EUR 115 to EUR 99 from 01.01.2026; Flex-Tarif EUR 50/month, Mon-Fri 07:30-14:00; 719 Stellplaetze; short-term price list Mon-Sat 07:00-18:00 from EUR 2.50 (31-60 min) up to EUR 14.50 (24h flat); first 30 minutes free. Confirmed. Page undated (medium confidence appropriate); duplicates parts of item 14.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "partly",
+   "note": "IFG Parkhaus Nordbahnhof page: 252 Stellplaetze, 24-hour flat EUR 2.50, first 30 minutes free, banner about the switch to ticketless parking, icons for EV charging and plate recognition. It does NOT mention Hauptbahnhof Ost; the '240 spaces' for Hauptbahnhof Ost is on a different IFG page (parkhaus-hauptbahnhof-ost, which I checked: 240 Stellplaetze, EUR 2.50, 30 min free) and is not the cited source. The 252 vs 230 conflict: this page says 252, so the draft figure is right for this page. EV charging/plate recognition are only icons here, not text.",
+   "corrected_text": "IFG's Parkhaus Nordbahnhof lists 252 spaces and a rate of EUR 2.50 per 24 hours with the first 30 minutes free; its page shows symbols for EV charging and licence-plate recognition and a notice about the switch to ticketless parking.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "supported",
+   "note": "City page Bewohnerparkausweis: EUR 30 for a one-year first or renewal application, EUR 15 for a plate change; Altstadt quarters plus Eckstallerstrasse, Oestliche Ringstrasse, Rechbergstrasse, Elbrachtstrasse, Koernerstrasse; applicants must have no garage or parking space. Confirmed. Low value for utilisation, but accurate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "supported",
+   "note": "City page Projekt Fussgaengerzone: phases 1-2 finished 2019/2020; phase 3 (Mauthstrasse to Schliffelmarkt) street works 'Ende 2025 abgeschlossen'; phase 4 (Schliffelmarkt) and phase 5 (Theresienstrasse) 'durch Stadtratsbeschluss zurueckgestellt'. Confirmed. A blind-guidance strip is still planned for 2026.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "supported",
+   "note": "City article 5.9.2026 'Arbeitswege im Wandel': about 61,500 daily in-commuters (peak over 65,000 in 2018, falling since), out-commuters from about 20,000 in 2018 to over 25,000 in 2025; 70% of in-commuters from Landkreise Eichstaett, Neuburg-Schrobenhausen, Pfaffenhofen. Confirmed (the page ties 2025 explicitly to the out-commuter figure; 61,500 is given as the current figure).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 23,
+   "verdict": "supported",
+   "note": "Audi page: around 40,000 employees in Ingolstadt (as of 31 Dec 2025); train station on the factory grounds, Ingolstadt Audi stop opened 2019, employees 'take a train ride to work without traffic jams or searching for parking spots'; bus routes optimised with VGI and DB. Confirmed. Real page title is 'Profile of location | audi.com'. Company self-description, only indirectly about parking.",
+   "corrected_text": null,
+   "corrected_title": "Profile of location | audi.com",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 24,
+   "verdict": "partly",
+   "note": "IN-direkt 30 Jul 2026 (VGI press release): VGI tariff +4.9% from 1 Aug 2026; Deutschland-Ticket and EUR 365 ticket named as alternatives. Error: the 365-euro ticket is described as for 'Schuelerinnen und Schueler' (school pupils), not students; the page names a separate Bavarian discount ticket for Studierende and Auszubildende. Not about parking; weak item.",
+   "corrected_text": "The Verkehrsverbund Großraum Ingolstadt (VGI) raised public-transport fares by 4.9% on 1 Aug 2026 (announcement of 30 July 2026), pointing to the Deutschland-Ticket and the EUR 365 ticket for school pupils as lower-priced alternatives.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 25,
+   "verdict": "supported",
+   "note": "IN-direkt/Stadtwerke press release 17 Sep 2026: SWI built 18 new public charging points (nine stations with two points, up to 22 kW) at WestPark; WestPark already has six own EV charging points and twelve e-bike charging options. Confirmed. Off-topic for IFG parking supply; weak item.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "IFG Ingolstadt AöR runs 14 car parks with over 7,000 spaces, and its administrative board decided on 8 June 2026 to raise short- and long-term fees at inner-city garages from 1 Sept 2026 (the previous increase was in Sept 2023), keeping the first 30 minutes free and the Nordbahnhof and Hauptbahnhof West/Ost daily rate at EUR 2.50; a May 2026 report on the proposal cited a first hour rising from EUR 2.20 to EUR 2.50 and a day maximum from EUR 13 to EUR 14.50, and the Congress garage now lists EUR 2.50 to EUR 14.50. The IFG has introduced a cashless, ticketless system at the Arena garage (partly opened 20 January 2025), planned a new parking guidance system for April 2025, began rolling out ticketless parking at the Hauptbahnhof car parks from September 2025, and ended the free P+R bus for Nordbahnhof and Festplatz on 1 February 2026. The city study on mass transit found a tram unlikely to be viable within 15 years, a Mobilitätsplan 2040+ is being prepared, and Michael Kern (CSU) won the mayoral election on 23 February 2025 to succeed Christian Scharpf. About 61,500 people commute into Ingolstadt daily (down from over 65,000 in 2018), and Audi employs about 40,000 people at its Ingolstadt site."
+}

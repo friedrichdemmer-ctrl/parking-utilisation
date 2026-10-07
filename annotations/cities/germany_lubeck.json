@@ -1,0 +1,213 @@
+{
+ "country": "Germany",
+ "city": "Lübeck",
+ "researched": "2026-10-08",
+ "verified": "2026-10-07",
+ "summary": "Lübeck's public car parks and on-street fees are managed by the city company KWL GmbH under a fee ordinance in force since 1 June 2025, which charges EUR 3.00 per hour with no day ticket in the Altstadt and EUR 3.20 per hour (EUR 12 day ticket) in Travemünde's centre; residents' permits rose from EUR 30.70 to EUR 90 a year on 1 September 2026. Altstadt access is constrained by the Hubbrücke (closed to cars since February 2023), the Mühlentorbrücke (closed on 5 December 2025), the Beckergrube redesign (first phase due to finish in autumn 2026) and Christmas-market access restrictions, while the Parkhaus Am Holstentor has been closed since 31 December 2025 and KWL plans to demolish it and open a replacement in about the third quarter of 2028. In Travemünde the new Parkhaus Godewind was lightly used in 2025 (monthly utilisation between 6.7% and 16.7%, a loss of EUR 640,821.95), and Kanalstraße P1 in Lübeck was closed on 1 September 2025 for a school building expected to stand for about five years. Inner-city retail sales fell from EUR 294.4 million in 2024 to EUR 252.9 million in 2025, while the CITTI postcode area reported EUR 280.6 million.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2025-06",
+   "text": "The new Stadtverordnung über Parkgebühren took effect on 1 June 2025, replacing the 2008 ordinance. The city said it aims at more efficient use of parking space and a stronger steering effect in favour of environmentally friendly modes. Instead of a flat increase it uses five zones, with fees raised in heavily used zones such as the Altstadtinsel and Travemünde while peripheral car parks stay cheaper. Per-minute billing was replaced by 30-minute steps, the free short-stay 'Brötchentaste' was extended from 10 to 15 minutes, and free parking for electric vehicles was extended initially to the end of 2026. The city may also adjust fees at short notice during major events.",
+   "source_title": "Neue Parkgebührenverordnung tritt zum 1. Juni 2025 in Kraft",
+   "source_url": "https://www.luebeck.de/de/presse/pressemeldungen/pressemeldungen/neue-parkgebuehrenverordnung-tritt-zum-1-juni-2025-in-kraft-1311",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-06",
+   "text": "The ordinance text states that Lübeck's public parking areas are managed by KWL GmbH, and that Zone IV (Travemünde centre) comprises the car parks Leuchtenfeld, Möwenstein, Backbord, Vogteistraße, Hafenbahnhof, Fährhafenvorplatz, Kirchenstraße, Strandbahnhof, Kurgartenstraße, Am Fischereihafen, Trelleborgallee and Priwall (so Backbord, Hafenbahnhof and Am Fischereihafen are Travemünde Zone IV lots). Free parking for electric vehicles runs until 31 December 2026 on all fee-paying spaces except those in Zones I and IV.",
+   "source_title": "Stadtverordnung über Parkgebühren in der Hansestadt Lübeck vom 01.06.2025",
+   "source_url": "https://www.luebeck.de/file/stadtverordnung_ueber_parkgebuehren_in_der_hansestadt_luebeck_vom_01.06.2025.pdf",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-05",
+   "text": "In May 2025 CDU, Grüne and FDP in the Bürgerschaft moved to ask the Kommunalaufsicht whether the mayor may raise parking fees without the Bürgerschaft's consent; critics argued the increase makes the inner city less attractive for customers arriving by car. The mayor had rejected changes and presented a legal opinion that he may decide alone. The report notes that from 1 June parking in the Altstadt costs EUR 3 per hour and the day ticket there is abolished.",
+   "source_title": "Lübeck live: Parkgebühren: Bürgerschaft schaltet Kommunalaufsicht ein",
+   "source_url": "https://www.hl-live.de/text.php?id=172914",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-09",
+   "text": "The Bewohnerparkgebührenverordnung (BePVO), signed 28 August 2026, sets the fee for issuing a residents' parking permit at EUR 90.00 per year of validity (permits valid for 1 to 3 years) and entered into force on 1 September 2026.",
+   "source_title": "Stadtverordnung über die Gebühren für das Ausstellen von Bewohnerparkausweisen in der Hansestadt Lübeck vom 01.09.2026 (Bewohnerparkgebührenverordnung - BePVO)",
+   "source_url": "https://www.luebeck.de/file/stadtverordnung-ueber-bewohnerparkgebuehren-in-der-hansestadt-luebeck-vom-01-09-2026.pdf",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-10",
+   "text": "The first construction phase of the redesign of the upper Beckergrube (from Breite Straße to the Kupferschmiedestraße/Fünfhausen junction), a key project of the 2019 Rahmenplan Innenstadt mit Mobilitätskonzept, began in October 2024 and is due to finish in autumn 2026; it is co-funded with EUR 3.5 million from the federal programme 'Nationale Projekte des Städtebaus'.",
+   "source_title": "Projekt Beckergrube",
+   "source_url": "https://www.luebeck.de/de/stadtentwicklung/uebermorgen/innenstadt/projekt-beckergrube/projekt-beckergrube",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-02",
+   "text": "The road Hubbrücke over the Elbe-Lübeck-Kanal has been closed to cars since 9 February 2023. The pedestrian bridge was lifted out in November 2024, and the road and rail bridges were due to follow in 2026; the overhaul is estimated at EUR 40 million and the main works depend on federal budget funds.",
+   "source_title": "Lübeck live: Hubbrücken: Sanierung startet noch in diesem Jahr",
+   "source_url": "https://www.hl-live.de/text.php?id=179669",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12",
+   "text": "On 5 December 2025 the Mühlentorbrücke was closed to all traffic after an inspection rated its condition 4.0 (inadequate); the report called it the important access to the inner city from the south, and said it follows the closed Hubbrücke. Motor traffic was diverted via Berliner Platz, Possehlstraße and Wallstraße; pedestrians and cyclists can still use the temporary bridge.",
+   "source_title": "Lübeck live: Mühlentorbrücke ab sofort gesperrt",
+   "source_url": "https://www.hl-live.de/text.php?id=176631",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12",
+   "text": "In December 2025 access to the Altstadt via Große Burgstraße (Burgtor) was prohibited daily from 10:30 to 22:00 for the Christmas market, enforced by a speed-camera trailer with a EUR 50 fine. The administration also said the municipal enforcement service had stepped up checks on access to the traffic-calmed Altstadt (Rippenstraße, Große Burgstraße) to prevent increasing parking-search traffic by unauthorised drivers.",
+   "source_title": "Lübeck live: Schutzmaßnahme für Lübecks Altstadt: Blitzer gegen Terroristen",
+   "source_url": "https://www.hl-live.de/text.php?id=176776",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "KWL GmbH, which the city's fee ordinance names as manager of Lübeck's public parking areas, runs the parking site parken-luebeck.de. In October 2026 the site listed 76 parking locations in Lübeck and Travemünde (car parks, garages, kerbside areas, motorhome bays and permit spaces), only some with live free-space counts. Listed capacities of the measured car parks: Am Fischereihafen 393, Backbord 135, Hafenbahnhof 46, Kanalstraße P3 122, Kanalstraße P4 145, Kanalstraße P5 46, Kowitzberg 450, Lastadie P5 250, MuK 350, Radisson Blu 61 (undated live page, read in October 2026).",
+   "source_title": "KWL GmbH",
+   "source_url": "https://www.parken-luebeck.de/",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "KWL lists the MuK car park (Willy-Brandt-Allee) with 350 spaces, open 24 hours, charged Monday to Saturday 10-18 h at EUR 1.20 per 30 minutes (EUR 2.40 per hour) and EUR 8.00 per day, with free parking for electric cars.",
+   "source_title": "MuK | KWL GmbH",
+   "source_url": "https://www.parken-luebeck.de/parkmoeglichkeiten/detail/pp-muk/",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-03",
+   "text": "The Parkhaus Godewind in Travemünde was officially opened on 28 March 2025: seven levels, 301 spaces, ten EV charging points, barrier-free operation via camera number-plate recognition, EUR 2.00 per hour or EUR 8.00 per day, EUR 79 per month for long-term renters, and a planned connection to the city's parking guidance system. It was implemented by KWL on behalf of the city and built by Deutsche Industrie- und Parkhausbau GmbH.",
+   "source_title": "Lübeck live: Parkhaus Godewind offiziell eröffnet",
+   "source_url": "https://www.hl-live.de/text.php?id=171873",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-03",
+   "text": "The city administration's first review of Parkhaus Godewind (opened 28 March 2025) reported low use: monthly utilisation between 6.7% (April 2025) and 16.7% (July), the peak being 90% at 22:42 on 27 July 2025 during the Travemünder Woche; 14,150 motorists used it by year-end and it made a 2025 loss of EUR 640,821.95, of which Lübeck indirectly bears 80%.",
+   "source_title": "Lübeck live: Neues Parkhaus: Auslastung bei 11,6 Prozent",
+   "source_url": "https://www.hl-live.de/text.php?id=178452",
+   "confidence": "high",
+   "id": 17,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-09",
+   "text": "Parkhaus Falkenstraße, run by KWL, reopened fully to short-stay parkers in September 2025 after an investment of over EUR 4 million to repair chloride-induced corrosion. It has 316 spaces, is now barrier-free with card and mobile payment, has an online shop for weekly tickets, and seven EV charging points installed with Stadtwerke Lübeck plus reserved charging bays for StattAuto car-sharing.",
+   "source_title": "Lübeck live: Saniert und modernisiert: Parkhaus Falkenstraße wieder komplett geöffnet",
+   "source_url": "https://www.hl-live.de/text.php?id=175222",
+   "confidence": "high",
+   "id": 18,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-10",
+   "text": "KWL announced on 25 October 2025 that the Parkhaus Am Holstentor would be closed until further notice from 31 December 2025, because continued operation without extensive investigation was no longer possible; structural problems had been found seven years earlier and operation had been extended only temporarily after load tests. The Bürgerschaft had decided in 2019 to build a new garage at the same site.",
+   "source_title": "Lübeck live: Parkhaus Holstentor muss bis auf Weiteres geschlossen werden",
+   "source_url": "https://www.hl-live.de/text.php?id=175800",
+   "confidence": "medium",
+   "id": 19,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-06",
+   "text": "As of June 2026 KWL said the closed Parkhaus Am Holstentor will be demolished (estimated 5-7 months, about EUR 1.5 million) and replaced; the winner of the competition is the team of dip GmbH and Schmieder Dau Architekten. The building application was to be submitted in August 2026, construction is planned to start in Q1 2027 and opening is expected in Q3 2028, with construction costs of about EUR 13.2 million (planned figures).",
+   "source_title": "Lübeck live: Parkhaus Am Holstentor: Abriss kostet 1,5 Millionen Euro",
+   "source_url": "https://www.hl-live.de/text.php?id=179911",
+   "confidence": "high",
+   "id": 20,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-09",
+   "text": "The public car park Kanalstraße P1 was closed to the public from 1 September 2025 so that a modular interim school building (36 modules, up to 420 pupils from August 2026) can stand there for an expected five years; the city said sufficient parking is available nearby and that the lot was not heavily used.",
+   "source_title": "Lübeck live: Parkplatz wird zum Schulstandort",
+   "source_url": "https://www.hl-live.de/text.php?id=174494",
+   "confidence": "high",
+   "id": 22,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-07",
+   "text": "For the 137th Travemünder Woche (17-26 July 2026) KWL listed Am Fischereihafen with 400 spaces and Backbord with 135 spaces (both EUR 1.60 per 30 min, EUR 3.20 per hour, EUR 12 day ticket, charged 10-18 h), free Kowitzberg, about 300 of 750 spaces at Leuchtenfeld (hourly EUR 3, no day ticket), and Möwenstein closed by the organiser.",
+   "source_title": "Lübeck live: Parken während der Travemünder Woche",
+   "source_url": "https://www.hl-live.de/text.php?id=180582",
+   "confidence": "high",
+   "id": 23,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-01",
+   "text": "In answers to the Travemünde district conference of 8 January 2026 the city said a parking concept (Parkraumkonzept) for Travemünde was being prepared, partly to reduce parking-search traffic, and that dynamic signage with live data for Parkhaus Godewind was to be finished before the main season.",
+   "source_title": "Frage-Antwort-Protokoll Travemünde 08.01.2026",
+   "source_url": "https://www.luebeck.de/file/fragenkatalog_stadtteilkonferenz_travemuende_08.01.2026.pdf",
+   "confidence": "high",
+   "id": 25,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "KWL states that vehicles with the E-plate may park free under the Elektromobilitätsgesetz on listed lots, including Kanalstraße, Lastadie, MuK, Wallstraße and Müllergarten, and that this rule for free parking for e-cars ends in 2026; on spaces with the blue charging sign EVs park free for up to 3 hours while charging (2 hours at fast chargers).",
+   "source_title": "E-Mobilität | KWL GmbH",
+   "source_url": "https://www.parken-luebeck.de/e-mobilitaet/",
+   "confidence": "medium",
+   "id": 27,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Ratsinformationssystem / Bürgerschaft documents on luebeck.de (wicket PDFs, e.g. the 2025 Parkgebühren and Travemünde P+R reports) returned HTTP 404 and could not be opened, so the original Beschlussvorlagen are not cited.",
+  "NDR, Lübecker Nachrichten and Kieler Nachrichten are blocked to our search tool; local press coverage rests on HL-live.de (which only keeps three years of archive).",
+  "No usable source found for park-and-ride at Travemünde beyond a September 2024 committee request to examine a pop-up site and unofficial claims that it was later rejected; no source on Flughafen P+R.",
+  "No sourced figures found for the Hansa-Carré / Hanse Galerie / Citti-Park parking supply or Citti-Park parking changes; only the Einzelhandelsmonitor sales shift.",
+  "No sourced data on UKSH, Universität/Hochschule, cruise or ferry parking demand, or on Stadtverkehr/Stadtwerke Lübeck Mobil fare or timetable changes.",
+  "No source on a Luftreinhalteplan for Lübeck (only that no Umweltzone exists) and no sourced details on the Altstadt UNESCO-related access rules or Fußgängerzone changes beyond the Burgtor/Große Burgstraße restrictions.",
+  "Fehmarnbelt link effects on parking not sourced (the city's page only gives planned timing and general effects).",
+  "Operator details for Mitte, St. Marien and Pferdemarkt garages and private tariff changes (Q-Park, Contipark) could not be sourced; no explanation found for why capacities on the KWL site (e.g. Lastadie P5 250, Kanalstraße P3 122) differ from the measured-feed counts (299, 196).",
+  "Capacity and tariff items taken from parken-luebeck.de are live pages read in October 2026 and may change."
+ ],
+ "dropped": {
+  "low confidence": 9
+ }
+}

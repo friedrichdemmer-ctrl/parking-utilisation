@@ -1,0 +1,170 @@
+{
+ "country": "Germany",
+ "city": "Oldenburg",
+ "researched": "2026-10-08",
+ "verified": "2026-10-07",
+ "summary": "Oldenburg's council, with a Greens and SPD majority, voted in February 2023 for stepped increases in on-street parking fees (Zone I at EUR 0.70 per quarter-hour, i.e. EUR 2.80 per hour, since 2024; resident permits EUR 200 a year from 2025), then in November 2024 paused the next step pending an evaluation after city monitoring showed lower occupancy and shorter parking durations. The Mobilitätsplan 2030 was adopted in June 2023 and a Wallring bus lane is being pursued; the 2023 SrV survey puts the bicycle at 47% of trips within the city, and the Achternstraße counter recorded its best year in 2025. The city says most public car parks in the centre are privately owned (for example Contipark), it offers free P+R sites near the motorway exits, and a new resident parking zone G in the Haareneschviertel started on 1 January 2026. Jascha Rohr won the Lord Mayor runoff on 27 September 2026 against Ulf Prange (SPD).",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2023-02",
+   "text": "On 27 February 2023 the Oldenburg city council voted (Greens and SPD majority) for stepped increases in on-street parking fees: in the city-centre Zone I the fee was to rise to 50 cents per started quarter-hour from 1 June 2023 (previously 60 cents per half hour), then to 70 cents on 1 Jan 2024, 90 cents on 1 Jan 2025, EUR 1.10 on 1 Jan 2026 and EUR 1.30 on 1 Jan 2027. Zone I was also to be enlarged. The release notes fees had been raised only once in the previous 30 years (2011, to EUR 1.20 per hour).",
+   "source_title": "Parkgebühren steigen ab dem 1. Juni > Stadt Oldenburg",
+   "source_url": "https://www.oldenburg.de/metanavigation/presse/pressemitteilung/news/parkgebuehren-steigen-ab-dem-1-juni.html",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-01",
+   "text": "The consolidated Parkgebührenordnung in force from 1 January 2025 sets Zone I (city centre) at EUR 0.70 per started quarter-hour (from 1 Jan 2024), i.e. EUR 2.80 per hour, and Zones II and III at EUR 0.40 per quarter-hour; Zone III (Messestraße, Weser-Ems-Halle) has a EUR 4 daily maximum. Zone I is bounded by Peterstraße, Bismarckstraße, Schloßwall, Staupromenade, Alter Stadthafen, Bahnhofsvorplatz, Donnerschweer Straße and Pferdemarkt.",
+   "source_title": "Verordnung der Stadt Oldenburg (Oldb) über Parkgebühren (Parkgebührenordnung), consolidated reading version from 1 January 2025 (file 3.51)",
+   "source_url": "https://www.oldenburg.de/fileadmin/oldenburg/Benutzer/Dateien/22_Rechtsamt/3.51-ab_20250101-13Lesefassung_K_b.pdf",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-11",
+   "text": "On 25 November 2024 the city council, with one vote against, suspended the next fee step planned for 1 January 2025 until further notice, pending an evaluation of the impact of the earlier increases on the city centre. Zone I therefore stays at EUR 2.80 per hour and Zone II at EUR 1.60 per hour; the city expected about EUR 1 million lower revenue in 2025. Evaluation results were due to the council committees by summer 2025.",
+   "source_title": "Parkgebühren: Rat tritt auf die Bremse > Stadt Oldenburg",
+   "source_url": "https://www.oldenburg.de/metanavigation/presse/pressemitteilung/news/parkgebuehren-rat-tritt-auf-die-bremse.html",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-01",
+   "text": "The Parkgebührenordnung sets the annual resident parking permit fee for resident parking zones A to F at EUR 100 from 1 February 2024 and EUR 200 from 1 January 2025.",
+   "source_title": "Verordnung der Stadt Oldenburg (Oldb) über Parkgebühren (Parkgebührenordnung), consolidated reading version from 1 January 2025 (file 3.51)",
+   "source_url": "https://www.oldenburg.de/fileadmin/oldenburg/Benutzer/Dateien/22_Rechtsamt/3.51-ab_20250101-13Lesefassung_K_b.pdf",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01",
+   "text": "A new resident parking zone G in the Haareneschviertel (inner-city residential area) took effect on 1 January 2026, with permits at EUR 200 per year (applications from 1 November 2025). All public parking there is charged Monday to Saturday 8:00-19:00; residents with a permit park without paying. The city says the zone was decided in 2024 as part of the Mobilitätsplan 2030 parking-management sub-concept.",
+   "source_title": "Flyer Bewohnerparkzone G ab 1. Januar 2026 (Stadt Oldenburg)",
+   "source_url": "https://www.oldenburg.de/fileadmin/oldenburg/Benutzer/Dateien/42_Amt_fuer_Klimaschutz_und_Mobilitaet/422_Mobilitaet/Mobilitaetsplan_2030/Parkraummanagement/Flyer_DINlang_Bewohnerparkzone_barrierefrei.pdf",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-06",
+   "text": "On 26 June 2023 the council adopted the Mobilitätsplan Oldenburg 2030 (votes of Greens, SPD, Jens Lükermann of Volt and Lord Mayor Jürgen Krogmann). Its parts include cycle streets and premium cycle routes, parking management, a feasibility study for a continuous bus lane on the Wallring, mobility stations, EV charging, and park & ride. The release says the parking-management proposals envisage no structural removal of parking spaces, only where needed for public transport, cycling, walking, safety or urban development.",
+   "source_title": "Mobilitätsplan Oldenburg 2030: Umsetzungsplanung kann starten > Stadt Oldenburg",
+   "source_url": "https://www.oldenburg.de/metanavigation/presse/pressemitteilung/news/mobilitaetsplan-oldenburg-2030-umsetzungsplanung-kann-starten.html",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-05",
+   "text": "On 27 May 2024 the council approved about 70 prioritised measures of the Mobilitätsplan 2030, including seven premium cycle routes to surrounding municipalities, ten further cycle streets, charging infrastructure and mobility stations, and a continuous bus lane on the Wallring. The parking-management, park & ride and bike & ride sub-concepts were not given high priority as a whole, but single measures such as the Haarenesch resident parking zone were to be pursued.",
+   "source_title": "Mobilitätsplan Oldenburg 2030: Rat beschließt Maßnahmenpriorisierung > Stadt Oldenburg",
+   "source_url": "https://www.oldenburg.de/metanavigation/presse/pressemitteilung/news/mobilitaetsplan-oldenburg-2030-rat-beschliesst-massnahmenpriorisierung.html",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-06",
+   "text": "The Wallring feasibility study (council session of 26 June 2023) recommends closing the bus-lane gap on Poststraße and creating a public-transport lane on Schlosswall, Theaterwall and Heiligengeistwall; this would reduce general traffic lanes on Poststraße, Paradewall and Schlosswall, and limit car traffic on Theaterwall and Heiligengeistwall to one direction. The city states that all car parks would remain well accessible; the continuous bus lane is being pursued with priority, with extensive preparatory planning still needed.",
+   "source_title": "Teilkonzept Wallring > Stadt Oldenburg",
+   "source_url": "https://oldenburg.de/startseite/leben-umwelt/verkehr-mobilitaet/mobilitaetsplan-oldenburg-2030/das-beinhaltet-der-plan/parkraummanagement/teilkonzept-wallring.html",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-02",
+   "text": "Oldenburg's first participation in the TU Dresden SrV 2023 mobility survey (results available since mid-February 2025) gives a modal split for trips within the city of: bicycle 47% (43% in 2009), walking 21% (9%), motorised private transport 28% (43%), bus 4% (5%).",
+   "source_title": "Teilkonzept Modal Split > Stadt Oldenburg",
+   "source_url": "https://www.oldenburg.de/startseite/leben-umwelt/verkehr-mobilitaet/mobilitaetsplan-oldenburg-2030/das-beinhaltet-der-plan/teilkonzept-modal-split.html",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2024-11",
+   "text": "From 1 November 2024 drivers in Oldenburg can pay on-street parking fees by mobile phone app, through the city's cooperation with the Smartparking initiative; parking meters remain in service.",
+   "source_title": "Smartparking per APP (Oldenburger Onlinezeitung, 24 October 2024)",
+   "source_url": "https://www.oldenburger-onlinezeitung.de/oldenburg/smartparking-per-app-139674.html",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026",
+   "text": "The city operates an LED parking guidance system showing available spaces, plus an online service listing free spaces in city-centre car parks and large car parks, updated every five minutes. It manages about 2,900 paid on-street spaces and 152 parking meters, of which 95 accept contactless card payment, and states that the public car parks in the centre are mostly privately owned. The 'ParkenPlus' scheme refunds 50 cents on a purchase of EUR 5 or more at participating shops on showing the parking receipt.",
+   "source_title": "Parken > Stadt Oldenburg",
+   "source_url": "https://www.oldenburg.de/startseite/stadtraum/verkehr-mobilitaet/parken.html",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026",
+   "text": "Contipark operates the Parkhaus Am Waffenplatz (Waffenplatz 4) in Oldenburg's centre: the operator page lists 617 spaces and 24-hour opening, with a charge of EUR 2.20 per started hour and a EUR 15 daily maximum (Pcard EUR 2.00 per hour, EUR 8 maximum per 24 hours). The page also lists the Contipark Parkhaus Staulinie nearby but gives no figures for it.",
+   "source_title": "Parkhaus Am Waffenplatz in Oldenburg | Contipark",
+   "source_url": "https://www.contipark.de/de/parken/oldenburg/parkhaus-am-waffenplatz/",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026",
+   "text": "The Contipark Parkhaus Am Waffenplatz has 20 EV charging points (Type 2, 11 kW) at EUR 0.55 per kWh.",
+   "source_title": "Parkhaus Am Waffenplatz in Oldenburg | Contipark",
+   "source_url": "https://www.contipark.de/de/parken/oldenburg/parkhaus-am-waffenplatz/",
+   "confidence": "high",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026",
+   "text": "The Parkhaus August Carrée (Auguststraße 7) has 338 spaces (313 short-term, 25 permanent rental) beside the Evangelisches Krankenhaus Oldenburg and its medical centre, open around the clock, with Goldbeck Parking Services named as service partner. Tariff Monday-Saturday 6:00-20:00: EUR 3.00 first hour, EUR 2.00 per further started hour; daily maximum EUR 18.",
+   "source_title": "Das Parkhaus im August Carrée Oldenburg ist rund um die Uhr geöffnet.",
+   "source_url": "https://augustcarree.de/parkhaus/",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026",
+   "text": "The city's P+R facility at Hauptbahnhof Nord (Karlstraße 25) has 358 spaces, is open day and night and is unguarded; free P+R sites near motorway exits are Prinzessinweg (202 spaces), Marschweg/OLantis Huntebad (227), Westfalendamm (277), Landwehrstraße (122) and Haltepunkt Wechloy (141), with bus links into the centre (VWG).",
+   "source_title": "P+R Anlagen > Stadt Oldenburg",
+   "source_url": "https://www.oldenburg.de/startseite/stadtraum/verkehr-mobilitaet/parken/p-r-anlagen.html",
+   "confidence": "high",
+   "id": 17,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Outcome of the city's 2025 evaluation of parking fee increases and any later council decision on fees (no source found)",
+  "Umweltzone (none found); Fußgängerzone expansion; Verkehrsentwicklungsplan 2030 (the Mobilitätsplan 2030 was used instead)",
+  "Renovations, closures or ownership of Heiligengeist-Höfe, Galeria Kaufhof, Alter Stadthafen/Cinemaxx, Bahnhof/ZOB and Theaterwall car parks (NWZonline blocked automated access; aggregator sites not used)",
+  "Shift to shopping centres (Famila, Wardenburg, Europaallee, Marktkauf), Weihnachtsmarkt/university/hospital parking demand, and an Oldenburg parking company or APCOA/Q-Park presence (no primary source)",
+  "Published tariffs for Heiligengeist-Höfe, Schlosshöfe, Galeria Kaufhof and Alter Stadthafen from operator pages",
+  "Resident permit fee tiering by vehicle length (reported by local press) was not verifiable; official ordinance shows a flat EUR 100/200"
+ ],
+ "dropped": {
+  "low confidence": 8
+ }
+}

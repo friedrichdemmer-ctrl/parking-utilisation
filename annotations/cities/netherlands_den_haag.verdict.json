@@ -1,0 +1,255 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Page title 'Parkeerbeleid 2021-2030' correct; published 30 Aug 2021, modified 16 Sep 2026. Page says the municipality adopted the Parkeerstrategie Den Haag 2021-2030 in July 2021, that since 1 Jan 2022 only a set number of permits per area is available, and that extra resident spaces are made in some neighbourhoods. 'Underground' garages is NOT on the page: it only says the city investigates whether parking garages can be built in old districts with many parked cars, and whether resident garages can be refurbished.",
+   "corrected_text": "In July 2021 Den Haag adopted its Parkeerstrategie 2021-2030, based on resident permits and paid parking for visitors; since 1 January 2022 only a limited number of parking permits is available per area, the city creates extra parking spaces for residents in some neighbourhoods and investigates whether parking garages can be built in old districts with many parked cars and whether resident garages can be refurbished.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Press release 'Gemeente Den Haag actualiseert parkeerbeleid voor leefbare stad', 10 Sep 2024. Verified: stepwise paid parking in nearly the whole city; from 1 Oct parts of Architectenbuurt and Moerwijk; Morgonstond [sic] and Kijkduin on the 2025-2026 planning; no resident permits for a third car per household with the 2025 permit system; permit ceiling per zone based on street spaces; paid parking Mon-Sun 18:00-24:00 for new areas (default, local exceptions possible). These are 2024 plans; the July 2026 coalition (item 3) cancelled planned expansions except Houtwijk, so reader should not take Morgenstond/Kijkduin as current.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "PDF read with pypdf. Regeling parkeerregulering Den Haag 2026, Gemeenteblad 2026 nr. 9589, 9 January 2026; in force 1 Jan 2026 (art. 9.1); replaces the 2025 regulation (art. 9.2); art. 4.7: ceiling for 2nd and 3rd resident permits where parking pressure >90%; art. 4.8: waiting list ordered by registration date of the application (2nd permit prioritised over 3rd); toelichting: designation of paid-parking roads moves to a separate Aanwijzingsbesluit. No fees in the text. Fully supported.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Page 'Nieuwe coalitie presenteert plannen voor de stad - Den Haag' dated 10 July 2026; parties Hart voor Den Haag, VVD, CDA, DENK confirmed. Quote: all planned expansions of paid parking, except Houtwijk, 'gaan niet door'; tariffs 'blijven de komende tijd hetzelfde (los van indexatie)'; Actieplan Parkeren. This is a coalition agreement/plans, not implemented measures, and the tariff freeze is only 'for the coming period'.",
+   "corrected_text": "The new coalition of Hart voor Den Haag, VVD, CDA and DENK presented its plans on 10 July 2026: all planned expansions of paid parking except Houtwijk will not go ahead, parking tariffs are to stay the same for the coming period apart from indexation, and an 'Actieplan Parkeren' is to address parking problems area by area.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "NOS page 'Gemeente Den Haag stopt proef met hoge parkeertarieven', 14 July 2024. Content matches (trial began 'vorig jaar mei', flat EUR 50, shopkeepers lost customers, progressive pricing to follow) but the draft states the trial was already ended: NOS says the city is stopping it and the EUR 50 rate continues until the new system, then expected early 2025 (actually started 1 April 2026, see item 5). Title in draft has an extra '(NOS)'.",
+   "corrected_text": "In July 2024 the municipality announced it would stop its trial of a flat EUR 50 day rate in two areas of Scheveningen and the city centre (started May 2023) after shopkeepers reported losing customers, and said it would introduce a progressive tariff in which hourly rates rise with parking duration; the EUR 50 rate was to continue until then, with the new system expected in early 2025.",
+   "corrected_title": "Gemeente Den Haag stopt proef met hoge parkeertarieven",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Press release 'Nieuwe parkeertarieven moeten ruimte creëren én winkels bereikbaar houden', 23 March 2026. Verbatim: 'In de eerste 20 minuten bedraagt het tarief €0,35 per minuut. Daarna stijgt het tarief elke 10 minuten.' 'Wie langer dan 90 minuten blijft staan, betaalt in totaal €50.' Applies from 1 April 2026 to 22 streets (17 Old Centre, 5 Scheveningen), replacing the EUR 50 day rate. Supported. Overlaps with items 7 and 24 (same tariff).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Page 'Plattegronden en parkeerkosten - Den Haag' (modified 24 Sep 2026): EUR 2.75/h standard, EUR 7.15/h premium (T01A Centrum kernwinkelstraten max 120 min; Scheveningen beach T43 EUR 7.15/h), T01E Centraal Station EUR 2.75/h max 30 min. Supported.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Page 'Parkeren in stadsdeel Centrum - Den Haag' (modified 8 Sep 2026): zone 01 Mon-Sat 9-24, Sun 13-24; zone 43 Mon-Sun 10-24; progressive table EUR 7 (0-20 min), 10, 14, 19, 25, 32, 40, EUR 50 (80-90 min) from 1 April 2026 replacing the EUR 50 day rate. Supported. Overlaps with items 5 and 24 (merge candidate).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Page 'Veilig en prettig fietsen over de vernieuwde Gedempte Gracht', 28 April 2026. Source says 'Op straat parkeren was hier al niet meer mogelijk' (on-street parking was already not possible here before the redesign), so 'on-street parking is gone' wrongly implies the project removed it. Verbatim: 'Na 11.30 uur, wanneer vrachtverkeer niet meer is toegestaan en auto's niet meer op straat mogen parkeren' the route is quieter, with motorists using the parking garages. It is a cycling-route article, marginal for parking.",
+   "corrected_text": "On 28 April 2026 the municipality reported the redesigned Gedempte Gracht, Gedempte Burgwal and Lutherse Burgwal; on-street parking was already not possible there, and after 11:30, when freight traffic is no longer allowed and cars may not park on the street, motorists are expected to use the parking garages.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Press release dated 28 June 2024 (modified 3 July 2024), title exact. Zone covers the Centrumring incl. its interior (S100), Telderstracé (S200) and S103; cleanest vans until 2028, cleanest lorries until 2030; the college 'is voornemens' to extend towards the coast in 2026. But the source is a 2024 decision announcing that the zone will start on 1 January 2025; it cannot confirm it 'started'.",
+   "corrected_text": "In June 2024 the municipality confirmed that Den Haag's zero-emission zone for vans and lorries, covering the Centrumring including its interior, would start on 1 January 2025; the cleanest vans may enter until 2028 and the cleanest lorries until 2030, and the college intended to extend the zone towards the coast in 2026.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Press release 'Netwerkstrategie 2040 maakt de stad klaar voor de toekomst', 10 Feb 2025. Verbatim: 100,000 more residents by 2040; 'het aantal auto- en vrachtverkeer' falls 4% through planned measures (car AND freight traffic); parking more often in garages or at the city edge. Draft omits freight.",
+   "corrected_text": "The Netwerkstrategie 2040 (published 10 February 2025) expects 100,000 extra residents by 2040, projects car and freight traffic to decline by 4% through planned measures and states that parking will happen more often in garages or at the city edge.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Press release 'Den Haag zet in op deelvoertuigen voor leefbare stad', 12 July 2024. Goal: shared cars and cargo bikes available in nearly every street by 2030; fewer parked vehicles create space for bike parking, climate adaptation, play. A goal, correctly phrased as aim. Low value for parking occupancy.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Radar (AVROTROS) article 'Parkeren in het Haagse de Binckhorst kost bewoners 400 euro per maand', dated 22-09-2025. Supported: car-lite policy, no parking permits even for residents, Q-Park underground garages EUR 270-400+ per month. Medium-quality (consumer TV programme), single source.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Page 'Parkeren bij nieuwbouw - Den Haag' is dated: published 6 Aug 2021, modified 24 Sep 2026. It names Binckhorst, CID and Den Haag Zuidwest as low-car areas where resident permits are usually unavailable; lower parking norms apply generally where transit/shared cars are plentiful, and 0.5 = 1 space per 2 addresses is only the page's worked example, not a stated norm for these areas. Binckhorst residents can temporarily apply for visitor permits because parking options and public transport there are not yet fully arranged.",
+   "corrected_text": "The municipality's page on parking for new development names Binckhorst, the Central Innovation District and Den Haag Zuidwest as low-car areas where resident permits are usually unavailable; it says lower parking norms apply where public transport and shared cars are plentiful (example: a norm of 0.5 means one space per two addresses), and that Binckhorst residents can temporarily apply for visitor permits because parking options and public transport there are not yet fully arranged.",
+   "corrected_title": null,
+   "corrected_date": "2026-09",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Page 'BinckPark - Den Haag', published 15 July 2026, modified 9 Sep 2026. Verbatim: 'Openbare parkeergarage met 505 parkeerplaatsen', space for 9 homes, near Fokkerhaven; 'De bouw start midden 2026', expected ready mid-2027; project status 'Stap 2 van 4 Plan maken'. It is a plan and the page does not confirm construction has started even though mid-2026 has passed. Developers: municipality and VORM.",
+   "corrected_text": "BinckPark is a planned public garage with 505 parking spaces (plus space for 9 homes) near Fokkerhaven in Binckhorst; the project page (published 15 July 2026, modified 9 September 2026) shows the project in the plan-making phase, gives mid-2026 as construction start and mid-2027 as expected completion, and does not confirm that construction has begun.",
+   "corrected_title": null,
+   "corrected_date": "2026-07",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Page 'De Vlietlijn', published 24 June 2026, modified 13 Aug 2026. Route Den Haag Centraal via Lekstraat, Binckhorstlaan, Maanweg to station Voorburg confirmed; preferred variant set in 2023 by the councils of Den Haag, Leidschendam-Voorburg and Rijswijk; project in 'Plan maken' (phase 2 of 4), planning phase about 2 years, after council approval a realisation phase lasting 'nog een aantal jaren'. 'Would run' ok; 'realisation still several years away' slightly compresses this. Marginal for parking (tram, not parking).",
+   "corrected_text": "The Vlietlijn tram would run from Den Haag Centraal via Lekstraat, Binckhorstlaan and Maanweg to Voorburg station; the page (published 24 June 2026) shows the project in its plan-making phase (about two years), with the preferred route variant set by the councils in 2023 and a realisation phase of several more years to follow if the councils approve.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "Page 'Turfmarktgarage tijdelijk gesloten door werkzaamheden', 31 Aug 2026. Body: closed 'Van september 2026 tot en met februari 2027' because of works; alternatives Q-Park Spui, Q-Park Stadhuis, Q-Park Muzenplein. The page does NOT mention a new stairwell/elevator, does NOT call the garage municipal, and does NOT mention the Spui centre garage or Spuikwartier (that closure is from the city-centre page, item 17). Note: Q-Park Stadhuis is listed at Amsterdamse Veerkade 30, same address as 'Q-Park Centrum' in item 19.",
+   "corrected_text": "The Turfmarktgarage in Den Haag's centre is closed from September 2026 to February 2027 because of works; the municipality lists Q-Park Spui, Q-Park Stadhuis and Q-Park Muzenplein as alternatives.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Page 'Parkeren in de binnenstad' (published 10 May 2021, modified 5 June 2026). Verbatim: Spui Centre garage under Spuiplein closed due to the Spuikwartier rebuild; Stadhuis garage stays open during construction, entrance at Ammunitiehaven, Schedeldoekshaven ramp no longer exists. Same page says the Turfmarkt garage entrance moved to Schedeldoekshaven 204 (as of June 2026), which differs from the August 2026 closure notice only in timing - the item does not mention it. Page is not undated: use 2026-06 (last modified).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": "2026-06",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "partly",
+   "note": "Page title 'Parking Den Haag | Book parking from €15 per day | Q-Park' exact; 23 facilities listed and all named ones are in the list. Page carries no date (only copyright 1998-2026), so the date should be 'undated'.",
+   "corrected_text": "Q-Park lists 23 facilities in Den Haag, including Binck City Park, Centrum, City Parking, CS New Babylon, Grote Markt, Malieveld, Muzenplein, Spui and P+R Laan van NOI.",
+   "corrected_title": null,
+   "corrected_date": "undated",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "partly",
+   "note": "Page 'Electric charging at Q-Park Centrum' (undated): address Amsterdamse Veerkade 30, 2512 AJ; facts table 712 parking spaces and 48 electric charging points, but the page text says 54 charging stations twice, so the charging-point figure is inconsistent within the page. Same address is given by the municipality for 'Q-Park Stadhuis' (item 16) - possibly the same garage under two names. Weak item.",
+   "corrected_text": "Q-Park Centrum at Amsterdamse Veerkade 30 is listed with 712 parking spaces; the page's facts table gives 48 electric charging points while its descriptive text mentions 54 charging stations.",
+   "corrected_title": null,
+   "corrected_date": "undated",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "partly",
+   "note": "Page is third-party aggregator centrumparkeren.nl (title 'Parkeergarage Interparking Helicon Station Den Haag Centraal - Let op!'), undated (copyright 2026). Verified: Interparking Helicon, Zwarteweg 40, 'pal tegenover het Centraal Station', 224 spaces, 9 EV charging places, EUR 5.40 per hour, max day rate EUR 32, charged per 30 minutes, open 24h. Not the operator's own page.",
+   "corrected_text": "According to the aggregator site centrumparkeren.nl, Interparking's Parkeergarage Helicon, directly opposite Den Haag Centraal station, has 224 spaces including 9 EV charging places, charges EUR 5.40 per hour and has a maximum of EUR 32 per day.",
+   "corrected_title": null,
+   "corrected_date": "undated",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "partly",
+   "note": "Interparking page 'Station Leidschenveen garage in The Hague': 170 spaces (167 + 3 disabled), EUR 1.50 per hour, EUR 15 per 24 h; text supported. Page shows no date, so date should be 'undated'.",
+   "corrected_text": "Interparking's Station Leidschenveen garage has 170 spaces and charges EUR 1.50 per hour and EUR 15 per 24 hours.",
+   "corrected_title": null,
+   "corrected_date": "undated",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "supported",
+   "note": "Page 'Slim parkeren: Park + Ride (P+R)' published 13 Jan 2025, modified 11 Aug 2026. Verified: Laan van NOI 155 spaces, Q-Park, 5 min by train to Centraal; Leidschenveen Haven 169 spaces + 170 in adjacent garage, Interparking, special day rate; Ypenburg 222; Mariahoeve 232, free. Date can be 2026-08 (last modified).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": "2026-08",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 23,
+   "verdict": "supported",
+   "note": "Page 'Parkeergarages' published 24 Jan 2022, modified 5 June 2026. Noordwal Veenkade: 158 spaces, subscribers only, waiting list; Apeldoornselaan: 126 spaces, 'tijdelijk gesloten omdat deze verouderd is' while the municipality investigates what is needed. Supported.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 24,
+   "verdict": "partly",
+   "note": "Page 'Parkeerregels in Scheveningen en Duindorp - Den Haag' (published 12 Dec 2024, modified 31 Aug 2026). Street list on the page is Seinpostduin, Jongeneelstraat, Pellenaerstraat, Harteveltstraat (not 'Harteveltweg'), Gevers Deynootweg (bij de Oranjeflats). 'In de zomerperiode is er extra controle' and zone 43 Mon-Sun 10-24 confirmed. Duplicates the tariff content of items 5 and 7; the date 2026-04 is the tariff start date, not the page date.",
+   "corrected_text": "In Scheveningen the progressive tariff applies from 1 April 2026 on five streets (Seinpostduin, Jongeneelstraat, Pellenaerstraat, Harteveltstraat, Gevers Deynootweg), with extra checks on payment in the summer period and permit zone 43 paid parking running daily 10:00-24:00.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Den Haag manages centre parking through resident-permit ceilings with waiting lists (Regeling parkeerregulering 2026, in force 1 January 2026), paid parking and, from 1 April 2026 in 17 Old Centre and 5 Scheveningen streets, a progressive tariff (EUR 7 for the first 20 minutes rising to EUR 50 beyond 90 minutes, replacing the EUR 50 day rate). On 10 July 2026 a new coalition of Hart voor Den Haag, VVD, CDA and DENK announced plans to cancel all planned paid-parking expansions except Houtwijk and keep tariffs unchanged for the coming period apart from indexation. In the centre the Spui garage under Spuiplein is closed during the Spuikwartier rebuild and the Turfmarktgarage is closed from September 2026 to February 2027, with Q-Park Spui, Stadhuis and Muzenplein named as alternatives; the municipality also decided in 2024 on a zero-emission zone for vans and lorries starting 1 January 2025, and plans a 505-space BinckPark garage in Binckhorst, a low-car area where resident permits are usually unavailable. Garages are run mainly by Q-Park and Interparking, with two municipal automated garages (one temporarily closed)."
+}

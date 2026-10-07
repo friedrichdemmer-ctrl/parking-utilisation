@@ -1,0 +1,241 @@
+{
+ "country": "Switzerland",
+ "city": "St. Gallen",
+ "researched": "2026-10-08",
+ "summary": "St. Gallen manages centre surface parking with daily charging (since January 2022), an Extended Blue Zone with night permits and higher fees since 1 November 2024, despite a Price Supervisor recommendation (March 2024) to cut fees. Fees are now the main political issue: the Stadtparlament rejected the Parkgebühr-Initiative on 25 August 2026 and a popular vote is set for 28 February 2027, while a second initiative seeks above-ground parking at about 2015 levels. Garage supply is mixed: City Parking St. Gallen AG runs Bahnhof, Brühltor (and others), Indigo took over Neumarkt in April 2025 and runs the new Parkhaus Central (opened March 2025), and the city runs a live Parkleitsystem; Kreuzbleiche is under renovation June 2026-May 2027. Access debates also cover the Marktplatz/Bohl redesign, the failed Rosenbergtunnel package and OLMA's end of its own car park.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2021-11",
+   "text": "The city announced that from 1 January 2022 about 600 public surface parking spaces in the city centre (plus Spelteriniplatz) become fee-paying every day, 7am to midnight, instead of Monday-Saturday only. The rate is CHF 2.00 per hour by day and CHF 1.50 per hour at night (midnight-7am) and on Sundays. The city said the aim was to use spaces more appropriately and increase use of underground garages.",
+   "source_title": "Gebührenpflicht für Oberflächenparkplätze wird ausgedehnt",
+   "source_url": "https://www.stadt.sg.ch/news/stsg_medienmitteilungen/2021/11/gebuehrenpflicht-fuer-oberflaechenparkplaetze-wird-ausgedehnt.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-03",
+   "text": "The Swiss Price Supervisor, consulted on the city's planned parking-regulation changes, recommended on 20 March 2024 that Extended Blue Zone (EBZ) parking fees be cut by 37% and White Zone fees by 59%, and that planned fee increases be dropped. In the same letter, figures supplied by the city showed that only 455 of 2,800 car-park spaces in garages (16.25%) are publicly managed, so the supervisor treated garage prices as outside his remit.",
+   "source_title": "Parkiergebühren St.Gallen - Empfehlung des Preisüberwachers",
+   "source_url": "https://www.preisueberwacher.admin.ch/dam/pue/it/dokumente/empfehlungen/stadt_st_gallen-empfehlung_pue_parkiergebuehren.pdf.download.pdf/Stadt%20St.%20Gallen%20-%20Empfehlung%20PUE%20Parkiergeb%C3%BChren.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-07",
+   "text": "The city announced fee changes effective 1 November 2024: the daytime rate on white-zone surface parking in the centre rises from CHF 2.00 to CHF 2.50 per hour (night and Sunday stay at CHF 1.50), and outside the centre a night (midnight-7am) and Sunday rate of CHF 1.00 per hour is introduced.",
+   "source_title": "Die Stadt St.Gallen passt Parkiergebühren an",
+   "source_url": "https://www.stadt.sg.ch/news/stsg_medienmitteilungen/2024/07/die-stadt-st-gallen-passt-parkiergebuehren-an.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-07",
+   "text": "From 1 November 2024 a permit is required for regular night parking (at least twice weekly, 7pm-8am) in the Extended Blue Zone: CHF 10 per month extra for holders of a resident or commuter monthly permit, or CHF 30 per month for a night-only permit. The visitor day card rises from CHF 9 to CHF 10 and the commuter monthly permit from CHF 133 to CHF 150.",
+   "source_title": "Die Stadt St.Gallen passt Parkiergebühren an",
+   "source_url": "https://www.stadt.sg.ch/news/stsg_medienmitteilungen/2024/07/die-stadt-st-gallen-passt-parkiergebuehren-an.html",
+   "confidence": "low"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "As listed on the city's page in October 2026, the Extended Blue Zone requires a permit 8am-7pm and 7pm-8am; resident permits cost CHF 30/month (day) or CHF 40/month (day and night), commuter permits CHF 150/month (day) or CHF 160/month (day and night), night parking CHF 30/month and a 24-hour day pass CHF 10.",
+   "source_title": "Erweiterte Blaue Zone (EBZ) | stadt.sg.ch",
+   "source_url": "https://www.stadt.sg.ch/home/mobilitaet-verkehr/parkieren/parkzonen.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-07",
+   "text": "A parking initiative submitted by a committee behind the association Stadtstrasse reached 1,013 valid signatures (1,000 required), per the city chancellery. It asks for a 'moderate number' of above-ground parking spaces in the centre and old town 'at the level of around 2015', short-term customer parking, parking for public pools and sports facilities, and protected bike storage in residential buildings, to be set in a parking regulation. The same association had earlier submitted a separate parking-fee initiative that was declared valid on 28 January.",
+   "source_title": "Parkplatz-Initiative ist in der Stadt St. Gallen zustande gekommen",
+   "source_url": "https://www.suedostschweiz.ch/schweiz-und-welt/parkplatz-initiative-ist-in-der-stadt-st-gallen-zustande-gekommen-2096170",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-08",
+   "text": "On 25 August 2026 the Stadtparlament rejected the 'Parkgebühr-Initiative' by 38 to 20 votes with 1 abstention. It also debated counter-proposals: the FDP proposed abolishing fees on Sundays and at midday (12:00-13:30) plus lower EBZ rates, and the GLP proposed abolishing night parking fees in the EBZ; putting the initiative with the GLP counter-proposal to voters was rejected 31 to 28 (1 abstention).",
+   "source_title": "Beschlüsse des Stadtparlaments vom 25. August 2026",
+   "source_url": "https://www.stadt.sg.ch/news/stsg_medienmitteilungen/2026/08/beschluesse-des-stadtparlaments-vom-25--august-2026.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-09",
+   "text": "The Stadtrat set 28 February 2027 as the date of the popular vote on the Parkgebühr-Initiative, which the Stadtparlament rejected on 25 August 2026 without a counter-proposal.",
+   "source_title": "Parkgebühr-Initiative: Volksabstimmung im Februar | stadt.sg.ch",
+   "source_url": "https://www.stadt.sg.ch/news/stsg_home/2026/09/parkgebuehr-initiative--volksabstimmung-im-februar.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026",
+   "text": "A blue News report describes a 'wild patchwork' of garage tariffs in St. Gallen, citing CHF 2 per hour at Brühltor and Burggraben, CHF 2.60 at the station garage, CHF 2.40 at the town hall and a half-hour system at Neumarkt, and notes that a political initiative proposes cutting fees by 40-60% and free parking on Sundays and nights (7pm-7am). The page shows no publication date, so the year is inferred from the 2024-2025 events it describes.",
+   "source_title": "Parking tariff dispute in St. Gallen: City considers legal action against parking garage",
+   "source_url": "https://www.bluewin.ch/en/news/switzerland/parking-tariff-dispute-in-st-gallen-city-considers-legal-action-against-parking-garage-3232734.html",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026",
+   "text": "The same report says a uniform parking tariff has applied in the centre since November 2024 and that Parkhaus Central, opened in March 2025, charges CHF 2 for the first hour but less afterwards, contrary to its 2016 building permit (rates not below surrounding facilities, i.e. CHF 2 per hour). The city's building-permit office considers the tariff illegal and has been considering legal action for months, with no steps taken yet. Page undated; year inferred.",
+   "source_title": "Parking tariff dispute in St. Gallen: City considers legal action against parking garage",
+   "source_url": "https://www.bluewin.ch/en/news/switzerland/parking-tariff-dispute-in-st-gallen-city-considers-legal-action-against-parking-garage-3232734.html",
+   "confidence": "low"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Parkhaus Central (Unterer Graben 25) is operated by Indigo Suisse and listed with 614 spaces over 9 levels, open 24/7, 4 EV charging stations and 14 disabled spaces. Short-term tariffs listed: CHF 2.00 first hour, CHF 3.40 up to 2 hours, CHF 20.00 for 24 hours.",
+   "source_title": "Parkhaus CENTRAL - Indigo Suisse",
+   "source_url": "https://ch.parkindigo.com/de/parkings/parkhaus-central/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-03",
+   "text": "Indigo Suisse announced on 12 March 2025 that from 1 April 2025 it would operate the historic Neumarkt car park in St. Gallen, with a 24/7 remote management centre.",
+   "source_title": "Betrieb des NEUMARKT Parkhauses in St. Gallen",
+   "source_url": "https://www.park-indigo.ch/de/2025/03/12/betrieb-des-neumarkt-parkhauses-in-st-gallen/",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Parkhaus Neumarkt is listed by the Parkleitsystem with 274 publicly managed spaces, 10 EV charging stations (11 kW), operator INDIGO Suisse AG, open Monday-Saturday 05:00-00:40 and closed Sundays and holidays; tariff CHF 1.50 per 30 minutes in the first hour, then CHF 2.00 per 40 minutes, maximum CHF 25 per day.",
+   "source_title": "Parkhaus Neumarkt – Öffnungszeiten, Preise, freie Parkplätze | Parkleitsystem St. Gallen",
+   "source_url": "https://www.pls-sg.ch/parkraeume/neumarkt",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "The city's Parkleitsystem (PLS Parkleitsystem St. Gallen AG) publishes live free-space information for 13 listed facilities, including Neumarkt, Rathaus, Manor, Cityparking Bahnhof, Kreuzbleiche, Oberer Graben, Raiffeisenzentrum, Einstein, Burggraben, Spisertor, Brühltor, Stadtpark/AZSG and Spelteriniplatz.",
+   "source_title": "Freie Parkplätze in St. Gallen – Parkleitsystem PLS",
+   "source_url": "https://www.pls-sg.ch/parkraeume/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Cityparking Bahnhof is operated by City Parking St. Gallen AG (Oberer Graben 14), open 24 hours; the Parkleitsystem lists a standard rate of CHF 2.60 per hour (6am-10pm) and CHF 1.20 at night, 4 EV charging stations on level 4 underground, and day passes of CHF 25 (24h), CHF 50 (48h) and CHF 75 (72h).",
+   "source_title": "Cityparking Bahnhof – Öffnungszeiten, Preise, freie Parkplätze | Parkleitsystem St. Gallen",
+   "source_url": "https://www.pls-sg.ch/parkraeume/parking/bahnhof",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Cityparking Brühltor is operated by City Parking St. Gallen AG and listed as open 24 hours with 9 EV charging stations on level 2 underground; the Parkleitsystem lists CHF 2.00 for the first hour then CHF 1.00 per 30 minutes (Sunday-Friday 7am-midnight), CHF 1.20 at night, and CHF 2.40 on Saturdays and during events.",
+   "source_title": "Cityparking Brühltor – Öffnungszeiten, Preise, freie Parkplätze | Parkleitsystem St. Gallen",
+   "source_url": "https://www.pls-sg.ch/parkraeume/bruehltor",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Parkhaus Einstein (Wassergasse 7, near the cathedral) is listed with 126 publicly managed spaces, operator Wildegg Immobilien AG, a tariff of CHF 2.50 per hour around the clock, and night access via the hotel reception between midnight and 6am.",
+   "source_title": "Parkhaus Einstein – Öffnungszeiten, Preise, freie Parkplätze | Parkleitsystem St. Gallen",
+   "source_url": "https://www.pls-sg.ch/parkraeume/einstein",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Parkhaus Manor is listed with 134 publicly managed spaces, operator Privera AG, open Monday-Saturday 05:30-00:30 and closed Sundays and holidays except during events; tariff CHF 2.50 up to 1 hour, then CHF 1.00 per 20 minutes for hours 1-3.",
+   "source_title": "Parkhaus Manor – Öffnungszeiten, Preise, freie Parkplätze | Parkleitsystem St. Gallen",
+   "source_url": "https://www.pls-sg.ch/parkraeume/manor",
+   "confidence": "low"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Parkgarage Raiffeisenzentrum is listed with 99 publicly managed spaces including 2 EV charging stations, operator MIBAG Property Managers, at CHF 2.00 per hour for the first 3 hours, CHF 1.50 for hours 3-13 and CHF 1.00 beyond 13 hours.",
+   "source_title": "Parkgarage Raiffeisenzentrum – Öffnungszeiten, Preise, freie Parkplätze | Parkleitsystem St. Gallen",
+   "source_url": "https://www.pls-sg.ch/parkraeume/raiffeisen",
+   "confidence": "low"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Parkhaus Spisertor (Moosbruggstrasse 5) is listed with 52 publicly managed spaces, operator Livit AG Real Estate Management, open daily 06:00-01:00, with a maximum daily rate of CHF 30.",
+   "source_title": "Parkhaus Spisertor – Öffnungszeiten, Preise, freie Parkplätze | Parkleitsystem St. Gallen",
+   "source_url": "https://www.pls-sg.ch/parkraeume/spisertor",
+   "confidence": "low"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "Cityparking Stadtpark/AZSG (Steinacherstrasse 45, beside the OLMA/event area) lists a standard rate of CHF 1.60 per hour by day and CHF 2.40 per hour during special events/OLMA, with EV charging stations.",
+   "source_title": "Cityparking Stadtpark / AZSG, St. Gallen",
+   "source_url": "https://www.parking.ch/de/parkings/st-gallen/cityparking-stadtpark-azsg",
+   "confidence": "low"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-05",
+   "text": "The OLMA fair discontinued its Breitfeld car park near the Kybunpark stadium, which about 7,000 visitors a year had used. Organisers said over 70% of guests came by public transport the previous year; city police said fewer cars had parked there in recent years and that police would monitor blue zones in residential areas.",
+   "source_title": "Die grossen Publikumsmessen sagen Autofahrern den Kampf an",
+   "source_url": "https://www.blick.ch/wirtschaft/die-grossen-publikumsmessen-sagen-autofahrern-den-kampf-an-parkplatz-knatsch-an-bea-und-olma-id20834694.html",
+   "confidence": "low"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-06",
+   "text": "The city page for Parkgarage Kreuzbleiche (publicly run; tariff CHF 1.50 per hour by day, CHF 1.00 at night) states that the garage is being renovated between June 2026 and May 2027 with limited parking availability.",
+   "source_title": "Parkgarage Kreuzbleiche",
+   "source_url": "https://www.stadt.sg.ch/home/mobilitaet-verkehr/parkieren/parkierbewilligung.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-12",
+   "text": "The Stadtrat approved the construction project for redesigning Marktplatz and Bohl (about CHF 25.9 million net of third-party contributions): the Bohl stop would serve eastbound only with a new westbound stop at Marktplatz level, twelve taxi spaces are added, and work was planned to start at the earliest in autumn 2025 and take about three years.",
+   "source_title": "St.Gallen: Marktplatz und Bohl erhalten ein neues Gesicht",
+   "source_url": "https://www.nau.ch/ort/st-gallen/stgallen-marktplatz-und-bohl-erhalten-ein-neues-gesicht-66877845",
+   "confidence": "low"
+  },
+  {
+   "topic": "regulation",
+   "date": "2018-06",
+   "text": "Reporting on the city's mobility concept, SRF noted that voters approved the 'Städte-Initiative' on 7 March 2010 and that the concept aims to avoid, shift and make traffic more compatible; Tempo 30 applies in 80% of neighbourhoods and Tempo 20 in the centre.",
+   "source_title": "Mobilitätskonzept - St.Gallen investiert in den Öffentlichen Verkehr",
+   "source_url": "https://www.srf.ch/news/mobilitaetskonzept-st-gallen-investiert-in-den-oeffentlichen-verkehr",
+   "confidence": "low"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-11",
+   "text": "On 24 November 2024 Swiss voters rejected the national road expansion package that included the third Rosenberg tunnel tube; the canton of St. Gallen accepted it with 54.25%. The cantonal government said approval would have relieved the city of through traffic.",
+   "source_title": "Ja zu höherem Fahrkostenabzug und zwei Pflegevorlagen",
+   "source_url": "https://www.sg.ch/news/sgch_allgemein/2024/11/ja-zu-hoeherem-autopendlerabzug-und-zwei-pflegevorlagen.html",
+   "confidence": "low"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-10",
+   "text": "In an interview reported on 27 October 2025, the St. Gallen Stadtrat supported a third tunnel tube but opposed the Güterbahnhof motorway connection; the city parliament had removed the connection from the city's structure plan. The city rejected the November 2024 package.",
+   "source_title": "St. Galler Stadtrat lehnt Autobahnanschluss Güterbahnhof ab",
+   "source_url": "https://www.blick.ch/schweiz/ostschweiz/st-gallen/autobahn-st-galler-stadtrat-lehnt-autobahnanschluss-gueterbahnhof-ab-id21364515.html",
+   "confidence": "low"
+  },
+  {
+   "topic": "ev",
+   "date": "2022-01",
+   "text": "The city planned a pilot of six public EV charging stations (two at each of three locations chosen by resident vote from 38 candidate sites cut to 7) in Extended Blue Zone streets, at a cost of CHF 180,000, with operation planned before the 2022 summer holidays.",
+   "source_title": "Öffentliche Ladestationen - St. Galler sollen ihre Elektroautos in Blauer Zone laden können",
+   "source_url": "https://www.srf.ch/news/schweiz/oeffentliche-ladestationen-st-galler-sollen-ihre-elektroautos-in-blauer-zone-laden-koennen",
+   "confidence": "low"
+  }
+ ],
+ "gaps": [
+  "Cityparking St.Gallen AG ownership changes and Parkhaus-Gesellschaft history: no usable source found",
+  "Closures/renovations of Parkhaus Rathaus, Einstein, Raiffeisen and Spisertor: nothing found; Tagblatt articles were not openable (redirect to an odd domain, not followed)",
+  "Stadtparlament parking-reduction (Parkplatzabbau) votes, Parkierungskonzept and Stadtraum Bahnhof strategy: no openable source found",
+  "Aug 2023 Stadtparlament revision of the Parkierreglement known only from search snippets, not cited",
+  "Capacities differ across sources (e.g. Stadtpark 88 vs 178, Einstein 126 vs 187, Neumarkt 483 total vs 274 public); PLS figures are 'publicly managed' spaces",
+  "Park-and-ride, Citybus/VBSG fare changes, HSG/hospital/Weihnachtsmarkt demand drivers, Appenzeller Bahnen details: not sourced",
+  "Marktplatz/Bohl construction actual start and progress after Dec 2024 not confirmed; Preisüberwacher fr/it PDF text needed local extraction"
+ ]
+}
