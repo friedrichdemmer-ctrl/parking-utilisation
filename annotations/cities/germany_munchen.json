@@ -1,0 +1,174 @@
+{
+ "country": "Germany",
+ "city": "München",
+ "researched": "2026-10-08",
+ "verified": "2026-10-07",
+ "summary": "Munich charges EUR 2.00 per hour on street in most of the city and EUR 2.50 in the Altstadt, with a EUR 11 daily maximum under its fee ordinance (last amended 2023), while Bavaria's EUR 30.70 cap on resident permits was still in place in February 2025 with the state ministry planning no change. In December 2025 the city council approved the 'Altstadt für alle' principle resolution, which commissions a traffic concept for the Graggenauer Viertel, a gradual reorganisation of street space and examination of a digital parking guidance system, and the 2026-2032 coalition agreement lists aims such as allowing private parking towers, opening company and supermarket car parks to neighbours at night, more P+R capacity and intelligent parking guidance. The city-owned P+R Park & Ride GmbH looks after 38 P+R sites with more than 14,000 spaces, and Q-Park completed its purchase of Bavaria Parkgaragen in June 2025, while private operators such as Contipark (Marienplatz, per a listing site) and APCOA (Allianz Arena) run major central and event car parks.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2023-08",
+   "text": "The City of Munich's Parkgebührenordnung (version of 16 May 2018, last amended 15 August 2023) sets Rate 1 at EUR 0.50 per started 12 minutes (EUR 2.50 per hour) and Rate 2 at EUR 0.10 per started 3 minutes (EUR 2.00 per hour). Rate 1 applies in Parkzone 1 Altstadt from 08:00 to 23:00 (Rate 2 applies in the Altstadt at other times) and in the Hauptbahnhof zone; Rate 2 applies in the rest of the city. The daily maximum is EUR 11.00 on street sections with no posted time limit. Vehicles marked under the Elektromobilitätsgesetz are exempt from fees for the first 2 hours when using a parking disc or mobile payment.",
+   "source_title": "Verordnung über Parkgebühren in Bereichen mit Parkscheinautomaten in der Landeshauptstadt München (Parkgebührenordnung)",
+   "source_url": "https://stadt.muenchen.de/rathaus/stadtrecht/vorschrift/309/version5/0.html",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-02",
+   "text": "In February 2025 the Bavarian Interior Ministry told the dpa that there will continue to be no new regulation to raise the EUR 30.70 annual cap on resident parking permits. In a dpa survey Munich, Nuremberg, Regensburg and Erlangen spoke in favour of a higher cap, and the Bavarian Cities Association also calls for one. The article says the ministry announced in 2022 that it would present a proposal for new fees, but in 2023 put the reform on hold, citing high inflation, and says this remains the position.",
+   "source_title": "Parkgebühren für Anwohner bleiben in Bayern bei rund 30 Euro",
+   "source_url": "https://www.diebayern.de/wirtschaft/parkgebuehren-fuer-anwohner-bleiben-in-bayern-bei-rund-30-euro-2993079",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12",
+   "text": "On 17 December 2025 Munich's city council (Vollversammlung, item V 16852) approved the principle resolution 'Altstadt für alle' against the votes of CSU with Freie Wähler, ÖDP/München-Liste, FDP Bayernpartei and AfD. It tasks the Mobilitätsreferat with detailed planning with SWM/MVG and stakeholders, with a first urban traffic concept for the sub-area Graggenauer Viertel / eastern Angerviertel (EUR 300,000 planning funds for a tree-planting feasibility study). All future traffic and construction measures must be submitted to the council individually for decision. The decision also asks the administration to plan a gradual reorganisation of public street space with more room for pedestrians, cyclists and green space.",
+   "source_title": "Öffentliche Sitzung der Vollversammlung vom 17. Dezember 2025, Beschlussseite TOP B38 (20-26 / V 16852)",
+   "source_url": "https://www.muenchen-transparent.de/dokumente/9475197/datei",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-12",
+   "text": "The 17 December 2025 'Altstadt für alle' council decision asks that the traffic concept for the Graggenauer Viertel / eastern Angerviertel also examine: a digital multilingual parking and guidance system with real-time information on free spaces and access rights to steer search traffic into suitable garages, and a short-term parking concept with 10 minutes instead of 3. The figures on above- and underground spaces and pricing from the expert report are to be brought back to the council to develop a long-term parking concept. Separately, the decision requires all publicly accessible authority garages (Behördenparkhäuser) in the centre to be checked for use by residents and visitors, with results and possible use concepts negotiated with the authorities and put to the council for decision, and asks the Mobilitätsreferat to show how live occupancy data of all garages could be provided as an interim step.",
+   "source_title": "Öffentliche Sitzung der Vollversammlung vom 17. Dezember 2025, Beschlussseite TOP B38 (20-26 / V 16852)",
+   "source_url": "https://www.muenchen-transparent.de/dokumente/9475197/datei",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-05",
+   "text": "The 2026-2032 coalition agreement of Mayor Dominik Krause with the Greens, SPD, FDP, Rosa Liste and Freie Wähler (dated May 2026) says under 'Parken organisieren' that the coalition will allow private construction of space-saving parking structures such as parking towers, that areas should serve suitable uses depending on time of day (company garages and supermarket car parks made available to neighbours, especially at night), and that more P+R transfer capacity will be created with neighbouring municipalities. It also allows parking on pavements where locally necessary, in agreement with the district committees, and supports intelligent parking guidance systems. It holds in principle to the aims of the Radentscheid and Altstadt-Radlring citizen initiatives and to the 'Altstadt für alle' project.",
+   "source_title": "Aufbruch und Erneuerung. Zusammenhalt und Verlässlichkeit. Für München. Koalitionsvereinbarung für die Stadtratsperiode 2026 – 2032",
+   "source_url": "https://www.fdp-muenchen.de/sites/default/files/2026-05/260508_Koalitionsvertrag_Muenchen.pdf",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2021-06",
+   "text": "The Sitzungsvorlage for the mobility committee of 15 June 2021 (V 03507; the final decision lies with the Vollversammlung) puts forward the draft Mobilitätsstrategie 2035. It states the target that by 2025 at least 80 percent of traffic in the city should be by zero-emission vehicles, public transport, walking and cycling (a goal the council took over in 2017 from the citizen initiative 'Sauba sog I'). For parking it names three steering pillars: influencing supply (P+R/B+R, resident garages, Stellplatzsatzung), managing existing supply (information, multiple use of private spaces) and steering demand (pricing, resident permits, time limits). The strategy is meant to replace the 2006 Verkehrsentwicklungsplan.",
+   "source_title": "Mobilitätsstrategie 2035: Entwurf einer neuen Gesamtstrategie für Mobilität und Verkehr in München (Sitzungsvorlage 20-26 / V 03507)",
+   "source_url": "https://risi.muenchen.de/risi/dokument/v/6625968",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2022-03",
+   "text": "The city-owned P+R Park & Ride GmbH (founded 1992, sole shareholder the Landeshauptstadt München) looked after more than 9,500 car spaces in the city in March 2022: all P+R sites (7,233 spaces), nine resident garages (1,469 spaces) and other city car parks (1,141 spaces, e.g. Audi Dome and the CityParkplatz at Münchner Freiheit). It took over the automatic resident garage at Donnersberger Straße in 2006, which it calls the largest of its kind in Germany. It introduced P+R fees in 2000 and supports 14 municipalities in the MVV area.",
+   "source_title": "30 Jahre P+R Park & Ride GmbH – eine Erfolgsgeschichte (Presseerklärung 16.03.2022)",
+   "source_url": "https://www.parkundride.de/images/presse-pdf/2022-03-16%2030%20Jahre%20PR%20Presseerklarung_MOR.pdf",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "undated",
+   "text": "The muenchen.de P+R page says the municipal P+R Park & Ride GmbH looks after 38 P+R sites with more than 14,000 car spaces in Munich and the surrounding area. Daily fees (up to 24 hours) at its sites are roughly EUR 1 to 2, while many P+R sites elsewhere in the MVV area are free. Stays longer than 24 hours are only provided at Messestadt Ost, Neuperlach Süd, Fröttmaning, Daglfing, Freiham and Grafing Bahnhof, and some sites have a higher standard tariff for people who do not continue by public transport.",
+   "source_title": "P+R: Parken in und um München und mit dem ÖPNV weiterfahren",
+   "source_url": "https://www.muenchen.de/verkehr/autos/parken/parkride-muenchen-parkplaetze-und-preise",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-02",
+   "text": "The MVV area has P+R facilities at 187 stations with about 32,000 parking spaces (as of 2024), according to the MVV page on the P+R guide published in February 2025 by Mobile Zukunft München. The guide acknowledges that information, fee systems and usage rules are not standardised and that some locations need more capacity.",
+   "source_title": "P+R-Anlagen – Planen, Bauen und Betreiben (P+R-Leitfaden)",
+   "source_url": "https://www.mvv-muenchen.de/mvv-im-ueberblick/die-gesellschaft/planungen-und-projekte/park-ride-leitfaden/",
+   "confidence": "high",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-06",
+   "text": "Q-Park completed the purchase of 100% of Bavaria Parkgaragen GmbH on 30 June 2025: 26 car parks with more than 12,000 spaces and 174 EV charging points, mainly in Munich, Berlin, Düsseldorf and other German cities. The release, which says Q-Park had already acquired ParkOne in April 2025, describes Q-Park Germany as the third-largest private parking operator in Germany with 169 facilities and over 66,000 spaces, without saying whether these figures include the new acquisition. It does not list which Munich garages are included.",
+   "source_title": "Q-Park Acquires Bavaria Parkgaragen and Strengthens its Position in the German Parking Market",
+   "source_url": "https://www.parking.net/parking-news/q-park/acquires-bavaria-parkgaragen",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "undated",
+   "text": "The muenchen.de page on the Tiefgarage am Stachus (Herzog-Wilhelm-Str. 11) lists 700 spaces, a passage height of 2.20 m and a lift entrance from the Stachus-Passagen. It links to a Contipark website page for the garage, which points to ContiPark as operator, but the page text itself does not name the operator.",
+   "source_title": "Tiefgarage am Stachus: Lage, Parkplätze, Infos - muenchen.de",
+   "source_url": "https://www.muenchen.de/verkehr/tiefgarage-stachus",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "undated",
+   "text": "The bahnhof.de page for Munich Hauptbahnhof lists eleven parking options within walking distance. Only the Tiefgarage Hauptbahnhof Süd (242 spaces, EUR 3.30 per hour, EUR 32 per day) is listed under 'Parkmöglichkeiten von DB BahnPark'; the others, including Marsstraße (701 spaces, EUR 4 per hour, EUR 40 per day), Senefelderstraße (180 spaces, EUR 3.10 per hour) and Hopfenpost (583 spaces, EUR 3 per hour, EUR 17 per day, open 06:30-21:00 Monday to Saturday), are listed as 'Weitere Parkmöglichkeiten' without naming operators.",
+   "source_title": "Parken – München Hbf",
+   "source_url": "https://www.bahnhof.de/muenchen-hbf/parkplaetze",
+   "confidence": "medium",
+   "id": 19,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "undated",
+   "text": "APCOA's Allianz Arena car park (Werner-Heisenberg-Allee 25) is listed with 10,700 spaces and a note that it is only accessible during events. Match-day tariffs run from EUR 12 (licence-plate ticket bought up to a day before) to EUR 20 (cash at the exit); on match-free days parking is EUR 5 with the first 45 minutes free. APCOA lists the P+R Fröttmaning site next door with 1,259 spaces as an alternative.",
+   "source_title": "Allianz Arena - APCOA",
+   "source_url": "https://www.apcoa.de/en/park-once/locations/munich/allianz-arena",
+   "confidence": "medium",
+   "id": 20,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-04",
+   "text": "On 22 April 2026 SWM announced that 154 new charging points in the Parkharfe at the Olympiapark have been officially commissioned: 86 AC points (22 kW) and 68 DC fast-charging points (up to 50 kW), built and operated by SWM on grounds provided by Olympiapark München. SWM built a medium-voltage line and two compact transformer stations for the load, and the partnership already had 24 AC points elsewhere in the park.",
+   "source_title": "Im Olympiapark die Batterien aufladen: 154 neue E-Ladepunkte in der Parkharfe",
+   "source_url": "https://www.swm.de/unternehmen/presse/pressemitteilungen/2026/04-2026/swm-154-neue-ladepunkte-olympiapark",
+   "confidence": "medium",
+   "id": 22,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-05",
+   "text": "On 23 May 2025 the CSU/Freie Wähler council group tabled a motion asking the P+R Park & Ride GmbH to display occupancy and nearby alternative parking of other operators at its sites. The motion argues that P+R sites are full at peak times while private garages nearby often have space but are hard to find. It asks that the system be interoperable with the city's future Parkleitsystem. This is a motion, not a decision.",
+   "source_title": "Antrag: Die P+R Park&Ride GmbH informiert über Auslastung und Alternativen (CSU-FW-Fraktion, 23.05.2025)",
+   "source_url": "https://www.muenchen-transparent.de/dokumente/9097313/datei",
+   "confidence": "high",
+   "id": 24,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Premise check: no Bavarian fee-cap removal was found. Sources show the EUR 30.70 annual cap for resident permits still applies in Bavaria (Dec 2022 and Feb 2025); only the federal cap was dropped in 2020. Munich's resident permit fee therefore stays at the cap.",
+  "Could not source the final Stadtrat vote date of the 2022 on-street fee increase (the Abendzeitung article only says it was scheduled for the mobility committee); no official Ratsinformationssystem text for it could be opened.",
+  "Reports of a 2026 budget-consolidation package (hourly fee EUR 2.60, resident permits up to EUR 300) came only from a site that could not be opened (certificate error) and search snippets, so they are not used.",
+  "Operators of Parkhaus Betriebs GmbH München, Parkhaus am Viktualienmarkt / Parkgarage Schranne (174 spaces per muenchen.de, operator not named), Marsstraße garage (700 spaces, operator not named on muenchen.de), Theresienwiese, Arabella and the Olympiapark garages could not be confirmed from an opened primary source.",
+  "Which specific central Munich garages belong to Bavaria Parkgaragen / Q-Park or Park One was not stated in the pages opened.",
+  "No sourced figures for the shift from the city centre to shopping centres (PEP, Pasing Arcaden, OEZ); only Riem Arcaden (APCOA, Tesla chargers) was sourced.",
+  "No opened source for Munich Airport parking tariffs or garages, Messe München parking (APCOA operator not confirmed on an operator page), Christkindlmarkt, tourism or BMW as parking demand drivers.",
+  "The 'Parking 4.0' resolution (Dec 2023) on renewing the Parkleitsystem and the 2025 Wiesn / Allianz Arena traffic figures were seen only in search snippets and are not used.",
+  "Dieter Reiter's replacement by Dominik Krause is evidenced only by the coalition agreement and a tram news report; the official election result page could not be opened.",
+  "Titles of the schwaebische.de article and the UBA factsheet were reconstructed from page content/URL, so verify the exact wording; muenchen.de P+R, Stachus, Oper, bahnhof.de and APCOA Allianz Arena pages carry no date, so the date is given as 2026."
+ ],
+ "dropped": {
+  "low confidence": 10
+ }
+}

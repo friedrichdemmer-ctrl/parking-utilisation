@@ -1,0 +1,255 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Opened full AZ article (31 May 2022, Christina Hertel). Says the council will decide on Wednesday in the Mobilitaetsausschuss (a scheduled decision, not yet taken); ticket EUR 1 to EUR 2 per hour in the Parklizenzgebiete, day fee EUR 6 to EUR 11, Altstadt already EUR 2.50 and not raised; EUR 1.90 originally planned, changed because only full hours could be paid; up to six months to adapt machines; almost EUR 15m revenue. Title matches (page title adds '| Abendzeitung München'). Date correct. Note: the EUR 11 'day ticket' is the article's 'Tagesgebuehr'. Item is a scheduled decision, correctly worded; superseded by item 1 for the legal tariff.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "Opened the stadt.muenchen.de ordinance (version 5; amendments 22.12.2020, 07.07.2022, 15.08.2023). Rate 1 EUR 0.50/12 min and Rate 2 EUR 0.10/3 min confirmed; Rate 1 in Altstadt 08:00-23:00 and in Hauptbahnhof zone; day maximum EUR 11 where no time limit posted; EV exemption for the first 2 hours confirmed. Imprecise: Rate 2 also applies in the Altstadt outside 08:00-23:00 (not only 'all other areas'). The page <title> is '309 Parkgebuehrenordnung'; the draft title is the ordinance's formal heading, acceptable. Cannot confirm from this page that no later amendment exists. Date 2023-08 matches last amendment.",
+   "corrected_text": "The City of Munich's Parkgebührenordnung (version of 16 May 2018, last amended 15 August 2023) sets Rate 1 at EUR 0.50 per started 12 minutes (EUR 2.50 per hour) and Rate 2 at EUR 0.10 per started 3 minutes (EUR 2.00 per hour). Rate 1 applies in Parkzone 1 Altstadt from 08:00 to 23:00 (Rate 2 applies in the Altstadt at other times) and in the Hauptbahnhof zone; Rate 2 applies in the rest of the city. The daily maximum is EUR 11.00 on street sections with no posted time limit. Vehicles marked under the Elektromobilitätsgesetz are exempt from fees for the first 2 hours when using a parking disc or mobile payment.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Opened the dpa/BSZ article dated 19.12.2022. Confirms: federal EUR 30.70 cap dropped mid-2020; Interior Ministry spokesman said coordination ongoing and inflation burdens must be considered; Munich, Nuremberg, Augsburg, Regensburg charge max EUR 30.70; Erlangen, Fuerth and Munich 'announced adjustments once allowed' (this is the DUH's claim, reported by dpa, not the cities' own statement); Bavaria one of six states (with Brandenburg, Bremen, RLP, Sachsen-Anhalt, Schleswig-Holstein) not using the power. Title matches. Overlaps with item 3 (same cap, later update); item 3 supersedes it, so this is lower value.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Opened diebayern.de (dpa text, 22 Feb 2025). Confirms: ministry says there will continue to be no new regulation to raise the EUR 30.70 cap; Munich, Nuremberg, Regensburg, Erlangen favour a higher limit (dpa survey); Staedtetag demands a higher cap. Imprecise: the article says the ministry announced in 2022 it would present a proposal and in 2023 put the reform on ice citing inflation (the reversal was 2023, and it is a shelved reform, not a 'reversed proposal for fee restructuring'). Title matches. No Bavarian fee-cap removal found; cap still applies as of Feb 2025 (cannot verify later). Overlaps item 2.",
+   "corrected_text": "In February 2025 the Bavarian Interior Ministry told the dpa that there will continue to be no new regulation to raise the EUR 30.70 annual cap on resident parking permits. In a dpa survey Munich, Nuremberg, Regensburg and Erlangen spoke in favour of a higher cap, and the Bavarian Cities Association also calls for one. The article says the ministry announced in 2022 that it would present a proposal for new fees, but in 2023 put the reform on hold, citing high inflation, and says this remains the position.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Downloaded and read the PDF (Beschlussseite TOP B38, 20-26 / V 16852). It is an actual decision (Beschluss, 'Grundsatzbeschluss Altstadt fuer alle'), taken against the votes of CSU with FREIE WAEHLER, OeDP/Muenchen-Liste, FDP BAYERNPARTEI and AfD. Item 2 of the decision commissions the first urban traffic concept for Graggenauer Viertel / Oestliches Angerviertel; Baureferat feasibility study for tree planting with EUR 300,000 planning funds; all future traffic/construction measures to be submitted individually to the council; item 3 commissions successive reorganisation of public street space with more room for pedestrians, cyclists, green space. Decision date 17 Dec 2025 confirmed. Title is the page's heading. Overlaps with item 5 (same document; 5 covers the parking-specific sub-points).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "Same PDF as item 4. Confirmed within the points to be examined when drafting the traffic concept: digital multilingual park and guidance system with real-time info on free spaces and access rights to steer search traffic into suitable garages; logistics/short-term parking concept (10 instead of 3 minutes); the figures from the expert report on above/underground spaces and pricing to go back to the council for a long-term parking concept. Not accurate as worded: the check of publicly accessible Behoerdenparkhaeuser is a separate proviso ('Massgabe') under point 1, with results to be negotiated with the authorities and put to the council for decision, not part of the traffic-concept examination list. These are items to be examined/prepared, not implemented. Point 4 (interim live occupancy data for all garages, report on guidance system 'Parken 4.0' during 2026) is also in the decision. Duplicate source with item 4.",
+   "corrected_text": "The 17 December 2025 'Altstadt für alle' council decision asks that the traffic concept for the Graggenauer Viertel / eastern Angerviertel also examine: a digital multilingual parking and guidance system with real-time information on free spaces and access rights to steer search traffic into suitable garages, and a short-term parking concept with 10 minutes instead of 3. The figures on above- and underground spaces and pricing from the expert report are to be brought back to the council to develop a long-term parking concept. Separately, the decision requires all publicly accessible authority garages (Behördenparkhäuser) in the centre to be checked for use by residents and visitors, with results and possible use concepts negotiated with the authorities and put to the council for decision, and asks the Mobilitätsreferat to show how live occupancy data of all garages could be provided as an interim step.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Downloaded and read the coalition agreement PDF (hosted on fdp-muenchen.de; URL path and PDF creation date 8 May 2026; the text itself carries no explicit date). Cover states 'zwischen Oberbuergermeister Dominik Krause, den Muenchner Parteien DIE GRUENEN, SPD, FDP, Rosa Liste sowie dem Stadtverband der Freie Waehler'. Section 'Parken organisieren': 'ermoeglichen wir den privatwirtschaftlichen Bau platzsparender Abstellanlagen, etwa Parktuerme'; areas to serve suitable uses by time of day; solutions with companies such as company garages/supermarket car parks for neighbours especially at night; closer coordination with neighbouring municipalities and more transfer capacity (P+R); pavement parking possible where locally necessary with the Bezirksausschuesse; 'intelligente Parkleitsysteme' under 'Autoverkehr'. 'An den Anliegen der Buergerbegehren Radentscheid und Altstadt-Radlring halten wir grundsaetzlich fest' and the 'Altstadt fuer alle' project is named. All are coalition aims, not decisions; the page does state Krause as Oberbuergermeister. Nuance: 'in principle' applies to the Radentscheid; for Altstadt fuer alle the text says the heart of the city is made 'fit for the future' within the project. Date May 2026 rests on URL/metadata only.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Opened schwaebische.de dpa report (08.04.2025, 12:33). Facts match: DB forecast over 11 billion EUR (includes inflation to commissioning; end-2024 figure 9.369bn), commissioning earliest 2035, more likely 2036, maybe 2037; Bernreiter: DB is responsible for planning, costs and construction time; about 10 km, up to 48 m deep, between Laim and Leuchtenbergring, five new stations. The reconstructed title is wrong: the real headline is 'Bahn: Zweite Stammstrecke kostet ueber elf Milliarden Euro' (the '(dpa, schwaebische.de)' suffix is invented). The 11bn is a forecast (the text should say so). Weak/irrelevant to parking (S-Bahn cost); recommend dropping.",
+   "corrected_text": "In its forecast to the planned commissioning, Deutsche Bahn now puts the cost of the second S-Bahn Stammstrecke in Munich at more than EUR 11 billion (against EUR 9.369 billion reported for the end of 2024), assuming commissioning at the earliest in 2035, with 2036 or 2037 possible, according to a dpa report of 8 April 2025. Transport Minister Bernreiter stressed that DB is responsible for planning, costs and construction time. The report describes about 10 km of tunnel up to 48 m deep with five new stations between Laim and Leuchtenbergring.",
+   "corrected_title": "Bahn: Zweite Stammstrecke kostet über elf Milliarden Euro",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Opened stadt.muenchen.de page. Confirmed: initiative submitted two Buergerbegehren on 4 July 2019; council decided on 24 July 2019 to adopt their demands; five Massnahmenbuendel between Dec 2019 and Dec 2022 (18.12.2019, 4.3.2020, 30.9.2020, 21.12.2022); over 50 streets; completed sections Blumenstrasse (2020/2021), Thomas-Wimmer-Ring, Maximiliansplatz (2023-2024), Sendlinger-Tor-Platz (since 2024), Von-der-Tann-Strasse (since 2025). Unsupported: 'instead of a public vote' is not stated on the page. Title: H1 matches ('Radentscheid und Altstadt-Radlring', page title adds '- Landeshauptstadt Muenchen'). Cycling topic, only indirectly about parking; low value.",
+   "corrected_text": "The Radentscheid initiative submitted the two citizen petitions 'Radentscheid München' and 'Altstadt-Radlring' on 4 July 2019; on 24 July 2019 the council decided to adopt their demands. The council passed five packages of measures between December 2019 and December 2022 covering over 50 streets. Completed Altstadt-Radlring sections named by the city include Blumenstraße (2020-2021), Thomas-Wimmer-Ring, Maximiliansplatz (2023-2024), Sendlinger-Tor-Platz (since 2024) and Von-der-Tann-Straße (since 2025).",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Downloaded and read the UBA PDF (14 pages). Content matches: southern Sendlinger Strasse pedestrianised July 2016 as one-year trial, permanent 2017, rebuilt 2019-2020, EUR 3.5m financed by the city, 81 parking spaces removed, residents/businesses criticised parking loss, petition against the trial signed by about 600 (the planning committee postponed its decision and the rules were revised). Title is reconstructed: PDF metadata title is 'Fact Sheet Stadt Muenchen: Sendliner Strasse' (sic, typo in metadata) and the first-page heading reads 'Stadt Muenchen / Sendlinger Strasse'. Use 'Fact Sheet Stadt München: Sendlinger Straße'. Date of document not shown; event date 2016-07 is fine. Peripheral to current parking tariffs; low value.",
+   "corrected_text": "The southern section of Sendlinger Straße became a pedestrian zone in July 2016 as a one-year traffic trial, was made permanent in 2017 and rebuilt in 2019-2020 at a cost of EUR 3.5 million funded by the city. The conversion removed 81 parking spaces; residents and businesses criticised the loss of parking. A petition against the trial was signed by around 600 people; the planning committee then postponed its decision and the rules for the pedestrian zone were revised.",
+   "corrected_title": "Fact Sheet Stadt München: Sendlinger Straße",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Downloaded and read the 51-page PDF (PDF metadata title is wrong, ignore). First page: 'Beschluss des Mobilitaetsausschusses vom 15.06.2021 (VB)', Sitzungsvorlage 20-26 / V 03507. Content checks out: target of at least 80 percent of traffic by zero-emission vehicles, public transport, walking and cycling by 2025 (taken over by the council in 2017 from 'Sauba sog I'); three pillars for parking (supply: P+R/B+R, resident garages, Stellplatzsatzung; managing existing supply: information, multiple use of private spaces; steering demand: pricing, resident permits, time limits); replaces the 2006 Verkehrsentwicklungsplan. Problem: this is a submission for the committee (final decision by the Vollversammlung after pre-deliberation) and the strategy is only a first draft; the document does not show that the committee adopted it. The 80 percent figure is a target, not an outcome. Title matches the first page.",
+   "corrected_text": "The Sitzungsvorlage for the mobility committee of 15 June 2021 (V 03507; the final decision lies with the Vollversammlung) puts forward the draft Mobilitätsstrategie 2035. It states the target that by 2025 at least 80 percent of traffic in the city should be by zero-emission vehicles, public transport, walking and cycling (a goal the council took over in 2017 from the citizen initiative 'Sauba sog I'). For parking it names three steering pillars: influencing supply (P+R/B+R, resident garages, Stellplatzsatzung), managing existing supply (information, multiple use of private spaces) and steering demand (pricing, resident permits, time limits). The strategy is meant to replace the 2006 Verkehrsentwicklungsplan.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Downloaded and read the BayVGH press release (21 March 2024, Az. 22 A 23.40047). Facts match: court obliged Munich to update the Luftreinhalteplan including a diesel ban also covering Euro 5/V; DUH and VCD sued over the Sept 2023 change which suspended/dropped the staged ban introduced Oct 2022 and resident exemptions; zonal Euro 4/IV ban already applies (Landshuter Allee area; Mittlerer Ring/Umweltzone); Landshuter Allee and Moosacher Strasse named; for Moosacher Strasse the court did not see a diesel ban as mandatory. Title: the real headline is 'BayVGH: Landeshauptstadt Muenchen muss Dieselfahrverbot ausweiten'; the '(Pressemitteilung, 21.03.2024)' suffix is the draft's. Not about parking; recommend dropping.",
+   "corrected_text": "On 21 March 2024 the Bavarian Administrative Court (BayVGH) ordered Munich to update its Luftreinhalteplan again, in particular to introduce a diesel driving ban that also covers Euro 5/V vehicles. The case was brought by Deutsche Umwelthilfe and VCD against a September 2023 change that had suspended or dropped the staged Euro 5/V ban introduced in October 2022 and resident exemptions. A zonal ban for Euro 4/IV diesel already applies (Mittlerer Ring/Umweltzone area); the court named Landshuter Allee and Moosacher Straße as stretches with exceedances, and for Moosacher Straße did not regard a diesel ban as mandatory.",
+   "corrected_title": "BayVGH: Landeshauptstadt München muss Dieselfahrverbot ausweiten",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Downloaded and read the P+R press release PDF (Presseerklaerung 16.03.2022). Confirms: founded with notarisation 19 March 1992, sole shareholder Landeshauptstadt Muenchen; more than 9,500 spaces (P+R 7,233; nine resident garages 1,469; other city sites 1,141 incl. Audi Dome and CityParkplatz Muenchner Freiheit); took over the automatic resident garage Donnersberger Strasse in 2006, 'largest of its kind in Germany' (company's own claim); P+R fee introduced 2000; supports 14 municipalities in the MVV area. Heading matches. Self-published company press release.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Opened the muenchen.de page (page <title> 'Park+Ride in Muenchen: Parkplaetze und Preise - muenchen.de'; H1 matches draft title). Confirmed: city-owned P+R Park & Ride GmbH supervises 38 facilities with more than 14,000 spaces in Munich and surroundings; day price up to 24 h roughly EUR 1 to 2 (1, 1.50 or 2); many P+R sites elsewhere in the MVV area are free; some sites have a higher standard tariff when not continuing by public transport. Wrong: the page lists SIX sites where longer stays are allowed (Messestadt Ost, Neuperlach Sued, Froettmaning, Daglfing, Freiham, Grafing Bahnhof), not three. Page is undated (only a 2026 copyright footer), so date '2026' should read undated. Note: P+R page says the GmbH 'betreut' sites; some of the 38 are outside the city.",
+   "corrected_text": "The muenchen.de P+R page says the municipal P+R Park & Ride GmbH looks after 38 P+R sites with more than 14,000 car spaces in Munich and the surrounding area. Daily fees (up to 24 hours) at its sites are roughly EUR 1 to 2, while many P+R sites elsewhere in the MVV area are free. Stays longer than 24 hours are only provided at Messestadt Ost, Neuperlach Süd, Fröttmaning, Daglfing, Freiham and Grafing Bahnhof, and some sites have a higher standard tariff for people who do not continue by public transport.",
+   "corrected_title": null,
+   "corrected_date": "undated",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Opened the MVV page 'Park+Ride Leitfaden' (H1 'P+R-Anlagen - Planen, Bauen und Betreiben'). Confirms: in 2024 P+R facilities at 187 stations with about 32,000 spaces within the MVV area; guide by Mobile Zukunft Muenchen (MZM), download labelled 'Februar 2025'; text says information, fee systems and usage rules are not always uniform and that at some hotspots demand-based expansion is needed. Page status line 'Stand 20.04.2026' (page update, not the guide date). Title acceptable.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Opened the parking.net trade report (Tuesday, July 1, 2025). Confirms Q-Park acquired 100% of Bavaria Parkgaragen, transaction completed June 30th; 26 car parks, over 12,000 spaces, 174 EV charging stations, mainly Munich, Berlin, Duesseldorf and other German cities; Q-Park bought ParkOne in April 2025; no Munich garages listed ('attractive downtown locations in Munich' only). Unsupported: the 'third-largest' (169 facilities, over 66,000 spaces) comes from the boilerplate 'About Q-Park Germany' and the release does not say that the acquisition made Q-Park third-largest or whether the figures include Bavaria Parkgaragen. Title matches. Medium-confidence trade source (company release).",
+   "corrected_text": "Q-Park completed the purchase of 100% of Bavaria Parkgaragen GmbH on 30 June 2025: 26 car parks with more than 12,000 spaces and 174 EV charging points, mainly in Munich, Berlin, Düsseldorf and other German cities. The release, which says Q-Park had already acquired ParkOne in April 2025, describes Q-Park Germany as the third-largest private parking operator in Germany with 169 facilities and over 66,000 spaces, without saying whether these figures include the new acquisition. It does not list which Munich garages are included.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "Opened the muenchen.de page. Confirms Herzog-Wilhelm-Str. 11, 700 spaces, passage height 2.20 m (3 m wide), entrance from the Stachus-Passagen with lift. The page does not name an operator in its text; it only links to a Contipark site (mein-contipark.de ... tiefgarage-stachus) in its 'Auf einen Blick' box, so 'lists ContiPark as operator' is an inference from the link. Title is wrong: the draft title is a sub-heading; the page title is 'Tiefgarage am Stachus: Lage, Parkplaetze, Infos - muenchen.de'. Page undated (2026 copyright only).",
+   "corrected_text": "The muenchen.de page on the Tiefgarage am Stachus (Herzog-Wilhelm-Str. 11) lists 700 spaces, a passage height of 2.20 m and a lift entrance from the Stachus-Passagen. It links to a Contipark website page for the garage, which points to ContiPark as operator, but the page text itself does not name the operator.",
+   "corrected_title": "Tiefgarage am Stachus: Lage, Parkplätze, Infos - muenchen.de",
+   "corrected_date": "undated",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Opened mux.de listing (third-party listing site, Contipark named in running text: 'wird von Contipark bewirtschaftet'). Confirms Rindermarkt 16, 265 spaces, EUR 6.00 per hour and EUR 45 per day with 'Stand: 2026', entry height 1.80 m, 24-hour parking and exit, part of the spaces in an uncovered courtyard. Page carries a no-liability disclaimer on prices. Title matches H1 ('Parkhaus am Marienplatz (07)'). Medium confidence is right; low value as a source.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "supported",
+   "note": "Opened the muenchen.de page. Confirms Max-Joseph-Platz 4, 500 spaces, open daily 06:00-01:00 with exit possible 24 h, entry max height 2.10 m (and 2.40 m width), link to operngarage.de; the page names no operating company and gives no prices. Title matches the page title (minus '- muenchen.de'). Page is undated (copyright 2026 only), so the date '2026' should read undated. Low value.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": "undated",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "partly",
+   "note": "Opened bahnhof.de page (title 'Parken - Muenchen Hbf'). Figures match for the four named car parks: Hbf Sued 242 spaces EUR 3.30/h and EUR 32/day (listed under 'Parkmoeglichkeiten von DB BahnPark'); Marsstrasse 701, EUR 4/h, EUR 40/day; Senefelderstrasse 180, EUR 3.10/h; Hopfenpost 583, EUR 3/h, EUR 17/day, Mon-Sat 06:30-21:00. But: the page lists eleven car parks (incl. hotel garages such as Ibis, Sofitel Bayerpost, Le Meridien, King's Hotel, Froeschl, Hbf-City, Dachauer Strasse 17), not four, and it does NOT say the facilities are run by different operators; it only groups Hbf Sued under 'von DB BahnPark' and the rest under 'Weitere Parkmoeglichkeiten'. Draft title ('Muenchen Hbf: Parkplaetze (bahnhof.de)') is not the page title. Undated.",
+   "corrected_text": "The bahnhof.de page for Munich Hauptbahnhof lists eleven parking options within walking distance. Only the Tiefgarage Hauptbahnhof Süd (242 spaces, EUR 3.30 per hour, EUR 32 per day) is listed under 'Parkmöglichkeiten von DB BahnPark'; the others, including Marsstraße (701 spaces, EUR 4 per hour, EUR 40 per day), Senefelderstraße (180 spaces, EUR 3.10 per hour) and Hopfenpost (583 spaces, EUR 3 per hour, EUR 17 per day, open 06:30-21:00 Monday to Saturday), are listed as 'Weitere Parkmöglichkeiten' without naming operators.",
+   "corrected_title": "Parken – München Hbf",
+   "corrected_date": "undated",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "partly",
+   "note": "Opened the APCOA page. Confirms: Multistorey car park Werner-Heisenberg-Allee 25, 10,700 spaces, 'only accessible during events'; match-day tariffs EUR 12 (licence-plate ticket up to a day before) / EUR 15 (on match day via plate) / EUR 20 (cash); match-free days EUR 5 with 45 minutes free; P+R Froettmaning 1,259 spaces listed under alternatives. Title in draft is not the page title: page title is 'Allianz Arena - APCOA'. Page undated. Note: the tariff for 'match-free days' seems at odds with 'only accessible during events', both are on the page.",
+   "corrected_text": "APCOA's Allianz Arena car park (Werner-Heisenberg-Allee 25) is listed with 10,700 spaces and a note that it is only accessible during events. Match-day tariffs run from EUR 12 (licence-plate ticket bought up to a day before) to EUR 20 (cash at the exit); on match-free days parking is EUR 5 with the first 45 minutes free. APCOA lists the P+R Fröttmaning site next door with 1,259 spaces as an alternative.",
+   "corrected_title": "Allianz Arena - APCOA",
+   "corrected_date": "undated",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "partly",
+   "note": "Opened the APCOA press release (dated Munich, 09.10.2024; page shows October 11, 2024). Confirms eight Tesla Superchargers, up to 250 kW, open to all brands, in the APCOA-operated multi-storey car park of Riem Arcaden; 'Riem Arcaden is the largest shopping centre in Munich'; APCOA CCO quoted wanting up to 100,000 charging points in its European car parks by 2035 (a stated goal). Not stated: 'owned by Unibail-Rodamco-Westfield' appears only as boilerplate with a link, not as an ownership statement for this centre. The title is not the page title: real title is 'E-mobility as a customer service: Tesla Supercharger fast-charging stations for the car park at Munich's Riem Arcaden shopping centre'. EV-charging, only loosely parking policy.",
+   "corrected_text": "In October 2024 (release dated 9 October 2024) APCOA and Tesla opened eight Tesla Superchargers (up to 250 kW, open to all EV brands) in the APCOA-operated multi-storey car park of the Riem Arcaden shopping centre, which the release calls the largest shopping centre in Munich. APCOA's Chief Commercial Officer is quoted as saying APCOA wants to install up to 100,000 charging points in its European car parks by 2035.",
+   "corrected_title": "E-mobility as a customer service: Tesla Supercharger fast-charging stations for the car park at Munich's Riem Arcaden shopping centre",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "partly",
+   "note": "Opened the SWM press release dated 22.4.2026. Confirms 154 new charging points in the Parkharfe at Olympiapark officially commissioned: 86 AC points at 22 kW and 68 DC fast-charging points up to 50 kW; Olympiapark provided the land, SWM built and operates; medium-voltage line and two compact transformer stations built; 24 AC points were already in operation elsewhere on the grounds. Title is wrong: draft uses the header line '22.4.2026 - SWM: Information fuer die Medien'; the real title is 'Im Olympiapark die Batterien aufladen: 154 neue E-Ladepunkte in der Parkharfe'. Date correct.",
+   "corrected_text": "On 22 April 2026 SWM announced that 154 new charging points in the Parkharfe at the Olympiapark have been officially commissioned: 86 AC points (22 kW) and 68 DC fast-charging points (up to 50 kW), built and operated by SWM on grounds provided by Olympiapark München. SWM built a medium-voltage line and two compact transformer stations for the load, and the partnership already had 24 AC points elsewhere in the park.",
+   "corrected_title": "Im Olympiapark die Batterien aufladen: 154 neue E-Ladepunkte in der Parkharfe",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 23,
+   "verdict": "partly",
+   "note": "Opened oktoberfest.de page (footer: Landeshauptstadt Muenchen). Confirms: no parking near the Wiesn, surrounding resident zones are reserved for residents and vehicles are warned and towed; P+R recommended as the only sensible way by car; city-centre garages expensive, mostly full during the Wiesn, parking rarely allowed beyond 24 hours; since April 2024 parking for cars and motorhomes at Ostbahnhof (Grafinger Str. 27A). 'Fined' is paraphrase of 'verwarnt'. Title in draft is not the page title: it is 'Oktoberfest Parken: Parkplaetze in Muenchen waehrend der Wiesn - Oktoberfest.de' (section heading 'Parkplaetze in und um Muenchen'). Page undated (2026 copyright only). Seasonal/low value.",
+   "corrected_text": "The official Oktoberfest site (Landeshauptstadt München) says there are no parking spaces near the Wiesn, that vehicles parked in the surrounding resident zones are warned and towed, and that P+R is the recommended way to arrive by car. It says city-centre garages are expensive, mostly full during the Oktoberfest and rarely allow stays over 24 hours, and mentions parking for cars and campervans at the Ostbahnhof since April 2024.",
+   "corrected_title": "Oktoberfest Parken: Parkplätze in München während der Wiesn - Oktoberfest.de",
+   "corrected_date": "undated",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 24,
+   "verdict": "supported",
+   "note": "Downloaded and read the Antrag PDF: CSU-FW-Fraktion motion dated 23.05.2025 addressed to OB Dieter Reiter (signed Theiss, Mirlach, Menges, Hammer). Asks P+R Park&Ride GmbH to inform at its sites about occupancy and nearby alternative parking of other operators; argues P+R sites are full at peak times while private garages nearby often have space but are hard to find; system should be integrable and interoperable with the city's future Parkleitsystem, including private operators and neighbouring municipalities. It is a motion, not a decision (draft says so). Title matches the document heading.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Munich charges EUR 2.00 per hour on street in most of the city and EUR 2.50 in the Altstadt, with a EUR 11 daily maximum under its fee ordinance (last amended 2023), while Bavaria's EUR 30.70 cap on resident permits was still in place in February 2025 with the state ministry planning no change. In December 2025 the city council approved the 'Altstadt für alle' principle resolution, which commissions a traffic concept for the Graggenauer Viertel, a gradual reorganisation of street space and examination of a digital parking guidance system, and the 2026-2032 coalition agreement lists aims such as allowing private parking towers, opening company and supermarket car parks to neighbours at night, more P+R capacity and intelligent parking guidance. The city-owned P+R Park & Ride GmbH looks after 38 P+R sites with more than 14,000 spaces, and Q-Park completed its purchase of Bavaria Parkgaragen in June 2025, while private operators such as Contipark (Marienplatz, per a listing site) and APCOA (Allianz Arena) run major central and event car parks."
+}

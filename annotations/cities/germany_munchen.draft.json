@@ -10,7 +10,7 @@
    "text": "Munich's city council mobility committee was scheduled to approve a rise of the standard on-street parking fee in the Parklizenzgebiete from EUR 1.00 to EUR 2.00 per hour and of the day ticket from EUR 6.00 to EUR 11.00. The Altstadt stays at EUR 2.50 per hour. The city estimated up to six months to update all machines and projected almost EUR 15 million of extra revenue a year. The first proposal was EUR 1.90, changed because at EUR 1.90 only full hours could be paid.",
    "source_title": "Zwei Euro pro Stunde: Parken in München wird bald doppelt so teuer!",
    "source_url": "https://www.abendzeitung-muenchen.de/muenchen/zwei-euro-pro-stunde-parken-in-muenchen-wird-bald-doppelt-so-teuer-art-818544",
-   "confidence": "high"
+   "confidence": "low"
   },
   {
    "topic": "tariffs",
@@ -26,7 +26,7 @@
    "text": "Bavaria's cap on the annual resident parking permit fee stayed at EUR 30.70 after the federal cap was abolished in mid-2020. In December 2022 the Interior Ministry said coordination on further steps was ongoing, citing inflation burdens on citizens. Munich, Nuremberg, Augsburg and Regensburg charge the EUR 30.70 maximum; Munich, Erlangen and Fürth had signalled they would raise fees once the state allows it. Bavaria was one of six states that had not yet used its power to change the regulation.",
    "source_title": "Bayern bleibt bislang bei günstigen Anwohner-Parkgebühren",
    "source_url": "https://www.bayerische-staatszeitung.de/staatszeitung/kommunales/detailansicht-kommunales/artikel/bayern-bleibt-bislang-bei-guenstigen-anwohner-parkgebuehren.html",
-   "confidence": "high"
+   "confidence": "low"
   },
   {
    "topic": "regulation",
@@ -66,7 +66,7 @@
    "text": "Deutsche Bahn now estimates the second S-Bahn Stammstrecke in Munich at more than EUR 11 billion (up from EUR 9.369 billion cited for late 2024), with commissioning 'earliest in 2035' and 2036 or 2037 possible, according to a dpa report of 8 April 2025. Transport Minister Bernreiter stressed that DB bears responsibility for planning and budget. The report describes about 10 km of tunnel up to 48 m deep with five new stations between Laim and Leuchtenbergring.",
    "source_title": "Bahn: Zweite Stammstrecke kostet über elf Milliarden Euro (dpa, schwaebische.de)",
    "source_url": "https://www.schwaebische.de/regional/bayern/bahn-zweite-stammstrecke-kostet-ueber-elf-milliarden-euro-3481723",
-   "confidence": "medium"
+   "confidence": "low"
   },
   {
    "topic": "regulation",
@@ -74,7 +74,7 @@
    "text": "The Radentscheid initiative submitted the two citizen petitions 'Radentscheid München' and 'Altstadt-Radlring' on 4 July 2019; instead of a public vote the council adopted their demands on 24 July 2019. The council passed five packages of measures between December 2019 and December 2022 covering over 50 streets. Completed Altstadt-Radlring sections named by the city include Blumenstraße (2020-2021), Thomas-Wimmer-Ring, Maximiliansplatz (2023-2024), Sendlinger-Tor-Platz (2024) and Von-der-Tann-Straße (2025).",
    "source_title": "Radentscheid und Altstadt-Radlring",
    "source_url": "https://stadt.muenchen.de/infos/radentscheid.html",
-   "confidence": "high"
+   "confidence": "low"
   },
   {
    "topic": "regulation",
@@ -82,7 +82,7 @@
    "text": "The southern section of Sendlinger Straße became a pedestrian zone in July 2016 as a one-year traffic trial, was made permanent in 2017 and rebuilt in 2019-2020 at a cost of EUR 3.5 million funded by the city. The conversion removed 81 parking spaces; residents and businesses criticised the loss of parking. A petition against the trial was signed by around 600 people before the planning committee reworked the rules.",
    "source_title": "Fact Sheet Sendlinger Straße, München (Umweltbundesamt, Best-Practice-Factsheet)",
    "source_url": "https://www.umweltbundesamt.de/system/files/medien/366/dokumente/factsheet_best_practice_muv_muenchen.pdf",
-   "confidence": "high"
+   "confidence": "low"
   },
   {
    "topic": "regulation",
@@ -98,7 +98,7 @@
    "text": "On 21 March 2024 the Bavarian Administrative Court (BayVGH) ordered Munich to update its Luftreinhalteplan again, including a diesel driving ban that also covers Euro 5/V vehicles. The case was brought by Deutsche Umwelthilfe and VCD against a September 2023 change that had suspended or dropped the staged Euro 5/V ban and resident exemptions. A zonal ban for Euro 4/IV diesel already applies (Mittlerer Ring/Umweltzone area); the court named Landshuter Allee and Moosacher Straße as stretches with exceedances.",
    "source_title": "BayVGH: Landeshauptstadt München muss Dieselfahrverbot ausweiten (Pressemitteilung, 21.03.2024)",
    "source_url": "https://verwaltungsgerichtsbarkeit.bayern.de/mam/gerichte/bayvgh/presse/pressemitteilung_bayvgh_luftreinhalteplan_muenchen.pdf",
-   "confidence": "high"
+   "confidence": "low"
   },
   {
    "topic": "operators",
@@ -146,7 +146,7 @@
    "text": "The listing site mux.de gives Contipark as operator of the Tiefgarage Marienplatz (Rindermarkt 16) with 265 spaces, open around the clock, EUR 6.00 per hour and EUR 45.00 per day (stated as of 2026), entry height 1.80 m. Some spaces are in an uncovered courtyard.",
    "source_title": "Parkhaus am Marienplatz (07)",
    "source_url": "https://www.mux.de/Parkhaus-Marienplatz",
-   "confidence": "medium"
+   "confidence": "low"
   },
   {
    "topic": "operators",
@@ -154,7 +154,7 @@
    "text": "The muenchen.de page for the Tiefgarage vor der Oper (Max-Joseph-Platz 4) lists 500 spaces, opening daily 06:00 to 01:00 with 24-hour exit, and a maximum height of 2.10 m. It points to operngarage.de for information; the page does not name the operating company and gives no prices.",
    "source_title": "Tiefgarage vor der Oper: Parken am Nationaltheater München",
    "source_url": "https://www.muenchen.de/verkehr/tiefgarage-vor-der-oper",
-   "confidence": "medium"
+   "confidence": "low"
   },
   {
    "topic": "tariffs",
@@ -178,7 +178,7 @@
    "text": "In October 2024 APCOA and Tesla opened eight Tesla Superchargers (up to 250 kW, open to all EV brands) in the APCOA-operated multi-storey car park of the Riem Arcaden shopping centre, which the release calls the largest shopping centre in Munich and which is owned by Unibail-Rodamco-Westfield. APCOA says it aims for up to 100,000 charging points in its European car parks by 2035.",
    "source_title": "Tesla Supercharger for the car park at Munich Riem Arcaden",
    "source_url": "https://www.apcoa.com/news/tesla-supercharger-for-the-car-park-at-munich-riem-arcaden/",
-   "confidence": "high"
+   "confidence": "low"
   },
   {
    "topic": "ev",
@@ -194,7 +194,7 @@
    "text": "The official Oktoberfest site (Landeshauptstadt München) says there are no parking spaces near the Wiesn, that vehicles parked illegally in the surrounding resident zones can be fined and towed, and that P+R is the recommended way to arrive by car. It says city-centre garages are expensive, often full during the Oktoberfest and may bar stays over 24 hours, and mentions added parking for cars and campervans at Ostbahnhof since April 2024.",
    "source_title": "Oktoberfest: Parken - Parkplätze in und um München",
    "source_url": "https://www.oktoberfest.de/informationen/anreise/oktoberfest-parken-parkplaetze-in-und-um-muenchen",
-   "confidence": "medium"
+   "confidence": "low"
   },
   {
    "topic": "technology",
