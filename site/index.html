@@ -222,6 +222,8 @@ table.data tr.link:hover td { background: var(--accent-soft); }
 .brief .sources a { color: var(--accent); }
 .brief .unconf { margin: 0; padding-left: 1.1rem; display: grid; gap: .5rem; font-size: .88rem; color: var(--ink-2); max-width: 70ch; }
 .brief .unconf .muted { display: block; }
+.stale { margin: 0 0 1rem; padding: .7rem .9rem; border: 1px solid var(--rule-soft); border-left: 3px solid var(--warn); border-radius: 4px; background: var(--surface); font-size: .9rem; color: var(--ink-2); max-width: 70ch; }
+.stale b { color: var(--ink); font-weight: 600; }
 .brieffig { margin: .2rem 0 0; display: grid; gap: .2rem; }
 .ctx { list-style: none; padding: 0; margin: 0; display: grid; gap: .8rem; max-width: 70ch; }
 .ctx li { display: grid; gap: .15rem; padding-top: .8rem; border-top: 1px solid var(--rule-soft); }
@@ -728,6 +730,16 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     } catch (e) { document.getElementById("exCities").innerHTML = `<p class="error">${esc(e.message)}</p>`; }
   }
 
+  // A city's feed can stop without any error: the source keeps serving its last
+  // reading, so the page would otherwise show stale numbers as if they were live.
+  function staleNotice(data) {
+    if (!data || !data.stale) return "";
+    const when = data.last_reading.replace("T", " ").replace("Z", " UTC");
+    const src = data.sources.length === 1 ? "The source for this city" : `All ${data.sources.length} sources for this city`;
+    return `<p class="stale"><b>Data has stopped arriving.</b> ${esc(src)} last reported on ${esc(when)}.
+      The occupancy below is from then, not from now. Written briefings and the long-run figures are unaffected.</p>`;
+  }
+
   async function renderCity(name, country) {
     setExploreHead(`<a href="#explore">Explore</a> /`, name, "Loading…");
     exBody.innerHTML = `<p class="skeleton">Loading ${esc(name)}…</p>`;
@@ -741,6 +753,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
       `${fmt(d.garages.length)} garages with ${fmt(d.capacity)} spaces; ${live} reporting right now.`);
     const peak = d.profile ? d.profile.reduce((k, v, i, a) => (v != null && (a[k] == null || v > a[k]) ? i : k), 0) : null;
     exBody.innerHTML = `
+      ${staleNotice(d.data)}
       <div class="stats">
         <div class="stat"><b>${pct(d.now)}</b><span>occupied right now</span></div>
         <div class="stat"><b>${d.profile ? pct(d.profile.filter(v => v != null).reduce((a, b) => a + b, 0) / d.profile.filter(v => v != null).length) : "–"}</b><span>in a typical week</span></div>

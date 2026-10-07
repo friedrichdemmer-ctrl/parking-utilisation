@@ -13,6 +13,13 @@ sub-garages (Villa ArenA P4/P5, Riem Arcaden) swap places. Garages that
 garage_links.py lists as duplicates of another feed's garage are not candidates,
 so a link always points at the canonical one.
 
+Many of our feeds publish no coordinates at all (Hamburg, Dresden, Bonn, Lübeck,
+the Dutch NPR ones: 165 measured garages in cities that also have a price list),
+so distance cannot be used for them. For those a second pass matches on name
+within the same city, which needs a much better name agreement (NAME_ONLY_SIM)
+and, where both are known, capacities within the same tolerance. Rows from that
+pass carry dist_m = -1, so a reader can tell how a link was made.
+
 Usage: python3 competitive_links.py [out.csv]      (default competitive/links.csv)
 """
 
@@ -34,14 +41,36 @@ from garage_links import duplicates
 DB_PATH = Path(os.environ.get("PARKING_DB_PATH", Path(__file__).parent / "data" / "parking.db"))
 MAX_M = 250
 CAPACITY_TOLERANCE = 0.4
+NAME_ONLY_SIM = 0.86        # for garages with no coordinates: name agreement alone decides
+NAME_ONLY_DIST = -1         # dist_m of a name-only row
 WORDS = (r"\b(parkhaus|tiefgarage|parkgarage|parkplatz|parkdeck|garage|parking|parkeergarage|car ?park|"
          r"q-?park|apcoa|contipark|indigo|interparking|ncp|p\+r|p&r|park ?one|effia|parkbee)\b")
+
+
+# German names compound the facility word onto the place ("Marktgarage",
+# "Friedensplatzgarage") where the other side writes it separately or not at
+# all, so a trailing one is dropped too -- but only if something is left.
+SUFFIXES = ("tiefgarage", "parkgarage", "parkhaus", "parkplatz", "garage", "parking")
 
 
 def norm(s: str | None) -> str:
     s = unicodedata.normalize("NFKD", (s or "").replace("ß", "ss")).lower()
     s = "".join(ch for ch in s if not unicodedata.combining(ch))
-    return re.sub(r"[^a-z0-9]+", "", re.sub(WORDS, " ", s))
+    out = re.sub(r"[^a-z0-9]+", "", re.sub(WORDS, " ", s))
+    for suffix in SUFFIXES:
+        if out.endswith(suffix) and len(out) - len(suffix) >= 4:
+            return out[: -len(suffix)]
+    return out
+
+
+def strip_city(name: str, city: str) -> str:
+    """Drop a city label a feed adds to every garage name, so the name itself is
+    left to compare: the Dutch national register writes "Garage Helicon (Den Haag)"
+    and Q-Park's rows "DEN HAAG-Binck City Park", where the competitive set has
+    plain "Helicon" and "Binck City Park". Only a parenthesised suffix or a
+    leading "CITY-" prefix is removed, never the city name inside a name."""
+    out = re.sub(r"\s*\(\s*" + re.escape(city) + r"\s*\)\s*$", "", name or "", flags=re.I)
+    return re.sub(r"^\s*" + re.escape(city) + r"\s*[-–]\s*", "", out, flags=re.I)
 
 
 def metres(lat1, lon1, lat2, lon2) -> float:
@@ -58,6 +87,13 @@ def build() -> list[list]:
     ours = [r for r in conn.execute(
         "SELECT place_id, place_name, num_all, latitude, longitude FROM lots_meta "
         "WHERE latitude IS NOT NULL AND longitude IS NOT NULL AND num_all IS NOT NULL") if r[0] not in dup]
+    # the same, for the feeds that publish no coordinates -- matched by name below
+    no_coords: dict[str, list] = {}
+    for r in conn.execute(
+            "SELECT place_id, place_name, num_all, city_name FROM lots_meta "
+            "WHERE latitude IS NULL AND num_all IS NOT NULL AND city_name IS NOT NULL AND place_name IS NOT NULL"):
+        if r[0] not in dup:
+            no_coords.setdefault(r[3], []).append(r)
     conn.close()
     grid: dict[tuple[float, float], list] = {}
     for o in ours:
@@ -78,9 +114,22 @@ def build() -> list[list]:
                         if g["capacity"] and o[2] and abs(o[2] - g["capacity"]) / max(o[2], g["capacity"]) > CAPACITY_TOLERANCE:
                             continue
                         pairs.append((sim - d / 2000, key, o, d, sim))
+    name_pairs = []
+    for (country, city), gs in competitive.garages().items():
+        for o in no_coords.get(city, []):
+            ours_name = norm(strip_city(o[1], city))
+            for g in gs:
+                sim = difflib.SequenceMatcher(None, norm(g["name"]), ours_name).ratio()
+                if sim < NAME_ONLY_SIM:
+                    continue
+                if g["capacity"] and o[2] and abs(o[2] - g["capacity"]) / max(o[2], g["capacity"]) > CAPACITY_TOLERANCE:
+                    continue
+                name_pairs.append((sim, (country, city, g["id"]), o, NAME_ONLY_DIST, sim))
+    # distance-matched pairs first: a coordinate match is better evidence than a name
     pairs.sort(key=lambda p: -p[0])
+    name_pairs.sort(key=lambda p: -p[0])
     used_k, used_o, rows = set(), set(), []
-    for _, key, o, d, sim in pairs:
+    for _, key, o, d, sim in pairs + name_pairs:
         if key in used_k or o[0] in used_o:
             continue
         used_k.add(key); used_o.add(o[0])

@@ -208,6 +208,7 @@ France,Paris,SA29,bnls-other-fr-75101-P-003-les-halles-st-eustache,LES HALLES ST
 France,Paris,SA30,bnls-other-fr-75112-P-007-mediterranee-gare-de-lyon,MEDITERRANEE GARE DE LYON,0,1.0
 France,Paris,SA31,bnls-other-fr-75117-P-035-porte-de-champerret,PORTE DE CHAMPERRET,142,1.0
 France,Paris,SA32,bnls-other-fr-75106-P-057-saint-sulpice,SAINT SULPICE,2,1.0
+France,Poitiers,QP01,poitiers-live-6,Cordeliers,-1,0.87
 France,Saint Etienne,QP01,saint-etienne-qpark-42218-p-037,CHAVANELLE,62,0.65
 France,Saint Etienne,QP03,saint-etienne-qpark-42218-p-053,HÔTEL DE VILLE,43,1.0
 France,Saint Etienne,QP04,saint-etienne-qpark-42218-p-044,PALAIS DE JUSTICE,41,1.0
@@ -225,12 +226,52 @@ Germany,Aachen,APAG10,apag-parken-Aachen-Parkplatz-Luisenhospital,Parkplatz Luis
 Germany,Aachen,APAG11,apag-parken-Aachen-Parkplatz-Pontstrasse,Parkplatz Pontstraße,0,1.0
 Germany,Aachen,APAG12,apag-parken-Aachen-Parkhaus-Rathaus,Parkhaus Rathaus,0,1.0
 Germany,Aachen,APAG13,apag-parken-Aachen-Parkhaus-Tivoli,Parkhaus Tivoli,0,1.0
+Germany,Berlin,AP01,viz-berlin-333-prager-passage,Prager Passage,-1,1.0
+Germany,Berlin,AP02,viz-berlin-277-alexa,Alexa,-1,1.0
+Germany,Berlin,AP03,viz-berlin-25-schoenhauser-allee-arcaden,Schönhauser Allee Arcaden,-1,1.0
+Germany,Berlin,AP05,viz-berlin-267-victoria-center,Victoria Center,-1,1.0
+Germany,Berlin,AP06,viz-berlin-161-kant-enter,Kant Сenter,-1,0.95
+Germany,Berlin,AP09,viz-berlin-375-parkhaus-elcknerplatz-am-bahnhof-koepenick,Parkhaus Elcknerplatz am Bahnhof Köpenick,-1,1.0
+Germany,Berlin,AP10,viz-berlin-159-parkgarage-augsburger-strasse,Parkgarage Augsburger Straße,-1,1.0
+Germany,Berlin,AP12,viz-berlin-319-das-schloss-ebene-b,Das Schloss Ebene B,-1,1.0
+Germany,Berlin,AP18,viz-berlin-349-gropius-passagen-p2,Gropius Passagen P2,-1,1.0
+Germany,Berlin,AP33,viz-berlin-112-sony-center,Sony Center,-1,1.0
+Germany,Berlin,CP04,viz-berlin-51-der-clou,Der Clou,-1,1.0
+Germany,Berlin,CP05,viz-berlin-135-europa-center,Europa-Center,-1,1.0
+Germany,Berlin,CP07,viz-berlin-222-forum-landsberger-allee,Forum Landsberger Allee,-1,1.0
+Germany,Berlin,CP09,viz-berlin-374-neukoelln-arcaden,Neukölln Arcaden,-1,1.0
+Germany,Berlin,CP10,viz-berlin-170-rathaus-spandau,Rathaus Spandau,-1,1.0
+Germany,Berlin,CP11,viz-berlin-293-parkhaus-schloss-strassen-center,Parkhaus Schloss Strassen Center,-1,1.0
+Germany,Berlin,CP13,viz-berlin-308-steglitzer-kreisel,Steglitzer Kreisel,-1,1.0
+Germany,Berlin,CP14,viz-berlin-136-u-k-f-uhland-kant-fasanenstrasse,U-K-F Uhland-Kant-Fasanenstrasse,-1,0.89
+Germany,Berlin,CP17,viz-berlin-221-forum-landsberger-allee,Forum Landsberger Allee,-1,1.0
 Germany,Berlin,CP19,db-bahnpark-100023-parkplatz-berlin-ostbahnhof,Parkplatz Berlin Ostbahnhof,8,0.71
 Germany,Berlin,CP21,db-bahnpark-100028-bahnhof-berlin-suedkreuz-kiss-ride-ost,Bahnhof Berlin Südkreuz Kiss&Ride Ost,1,0.6
 Germany,Berlin,CP22,db-bahnpark-100027-bahnhof-berlin-suedkreuz-vorfahrt-ost,Bahnhof Berlin Südkreuz Vorfahrt Ost,26,0.72
 Germany,Berlin,CP23,db-bahnpark-104713-bahnhof-berlin-suedkreuz-vorplatz-west,Bahnhof Berlin Südkreuz Vorplatz West,33,0.62
+Germany,Berlin,CP25,viz-berlin-163-parkhaus-am-kadewe,Parkhaus Am KaDeWe,-1,1.0
+Germany,Berlin,CP27,viz-berlin-76-friedrichstadt-passagen,Friedrichstadt-Passagen,-1,0.92
+Germany,Berlin,CP28,viz-berlin-74-friedrichstadt-passagen-q-205,Friedrichstadt-Passagen (Q 205),-1,0.96
 Germany,Berlin,CP29,db-bahnpark-100022-parkhaus-berlin-hauptbahnhof,Parkhaus Berlin Hauptbahnhof,37,0.75
+Germany,Berlin,CP30,viz-berlin-220-kulturbrauerei,Kulturbrauerei,-1,1.0
+Germany,Berlin,CP31,viz-berlin-67-leibniz-kolonnaden,Leibniz Kolonnaden,-1,1.0
+Germany,Berlin,CP33,viz-berlin-164-parkhaus-los-angeles-platz,Parkhaus Los-Angeles-Platz,-1,1.0
 Germany,Berlin,CP34,db-bahnpark-100024-tiefgarage-berlin-ostbahnhof,Tiefgarage Berlin Ostbahnhof,14,0.71
+Germany,Berlin,CP36,viz-berlin-288-zehlendorfer-welle,Zehlendorfer Welle,-1,1.0
+Germany,Berlin,QP01,viz-berlin-244-am-alexanderplatz,Am Alexanderplatz,-1,1.0
+Germany,Berlin,QP02,viz-berlin-77-unter-den-linden-staatsoper,Unter Den Linden / Staatsoper,-1,1.0
+Germany,Berlin,QP03,viz-berlin-78-opern-carree,Opern Carree,-1,1.0
+Germany,Berlin,QP05,viz-berlin-154-bikini-berlin,Bikini Berlin,-1,1.0
+Germany,Berlin,QP06,viz-berlin-270-dom-aquar-e,Dom Aquarée,-1,1.0
+Germany,Berlin,QP07,viz-berlin-197-im-excelsior-haus,Im Excelsior Haus,-1,0.93
+Germany,Berlin,QP11,viz-berlin-165-kempinski-plaza,Kempinski Plaza,-1,1.0
+Germany,Berlin,QP12,viz-berlin-92-kranzler-eck,Kranzler Eck,-1,1.0
+Germany,Berlin,QP13,viz-berlin-71-parkgarage-luisenstrasse,Parkgarage Luisenstraße,-1,1.0
+Germany,Berlin,QP14,viz-berlin-6-maerkische-zeile,Märkische Zeile,-1,1.0
+Germany,Berlin,QP16,viz-berlin-113-quartier-potsdamer-platz,Quartier Potsdamer Platz,-1,1.0
+Germany,Berlin,QP19,viz-berlin-361-rollbergstrasse,Rollbergstraße,-1,1.0
+Germany,Berlin,QP20,viz-berlin-100-im-schultheiss-quartier,Im Schultheiss Quartier,-1,0.95
+Germany,Berlin,WB01,viz-berlin-269-rathaus-passagen,Rathaus Passagen,-1,1.0
 Germany,Bielefeld,AP01,sw-bielefeld-parken-Parkhaus-Am-Jahnplatz,Parkhaus Am Jahnplatz,19,0.63
 Germany,Bielefeld,AP02,sw-bielefeld-parken-Parkhaus-Bahnhofsviertel-1,Parkhaus Bahnhofsviertel 1,9,0.83
 Germany,Bielefeld,BG01,sw-bielefeld-parken-Parkhaus-Am-Zwinger,Parkhaus Am Zwinger,35,1.0
@@ -249,10 +290,27 @@ Germany,Bielefeld,OWL03,sw-bielefeld-parken-Tiefgarage-Willy-Brandt-Platz,Tiefga
 Germany,Bielefeld,OWL04,sw-bielefeld-parken-Tiefgarage-Welle,Tiefgarage Welle,14,1.0
 Germany,Bielefeld,PB01,sw-bielefeld-parken-Parkhaus-Am-Hauptbahnhof,Parkhaus Am Hauptbahnhof,41,1.0
 Germany,Bielefeld,QP01,sw-bielefeld-parken-Parkhaus-Centrum,Parkhaus Centrum,18,1.0
+Germany,Bonn,BCP01,bonn-bcp-parken-markt,markt,-1,1.0
+Germany,Bonn,BCP02,bonn-bcp-parken-muensterplatz,muensterplatz,-1,0.96
+Germany,Bonn,BCP03,bonn-bcp-parken-friedensplatz,friedensplatz,-1,1.0
+Germany,Bonn,BCP04,bonn-bcp-parken-stadthaus,stadthaus,-1,1.0
+Germany,Bonn,BCP06,bonn-bcp-parken-operngarage,operngarage,-1,1.0
+Germany,Bonn,BCP07,bonn-bcp-parken-unigarage,unigarage,-1,1.0
+Germany,Bonn,BCP08,bonn-bcp-parken-beethoven,beethoven,-1,1.0
+Germany,Dresden,AP01,dresden-parken-Altmarkt-Galerie,Altmarkt - Galerie,-1,1.0
+Germany,Dresden,AP04,dresden-parken-Haus-am-Zwinger,Haus am Zwinger,-1,1.0
+Germany,Dresden,AP07,dresden-parken-SP1-Strassburger-Platz,SP1 Straßburger Platz,-1,0.92
+Germany,Dresden,AP08,dresden-parken-Wohrl-Florentinum,Wöhrl / Florentinum,-1,1.0
+Germany,Dresden,CP02,dresden-parken-Wiesentorstrasse,Wiesentorstraße,-1,1.0
+Germany,Dresden,CP03,dresden-parken-Semperoper,Semperoper,-1,1.0
+Germany,Dresden,GB02,dresden-parken-Centrum-Galerie,Centrum - Galerie,-1,1.0
+Germany,Dresden,QP01,dresden-parken-Altmarkt,Altmarkt,-1,1.0
 Germany,Düsseldorf,AP03,vtmanager-duesseldorf-parken-PH-48,PH 48 - SEVENS/Saturn,46,0.55
 Germany,Düsseldorf,AP04,vtmanager-duesseldorf-parken-PH-16,PH 16 - Japan-Center,34,0.62
 Germany,Düsseldorf,AP06,vtmanager-duesseldorf-parken-PH-09,PH 09 - KII / Schauspielhaus,89,0.89
 Germany,Düsseldorf,BB02,vtmanager-duesseldorf-parken-PH-01,PH 01 - Ratinger Tor,14,0.85
+Germany,Düsseldorf,CP02,vtmanager-duesseldorf-parken-PH-52,PH 52 - Düsseldorf Arcaden,-1,0.89
+Germany,Düsseldorf,CP03,vtmanager-duesseldorf-parken-PH-17,PH 17 - Grupellostraße,-1,0.88
 Germany,Düsseldorf,CP07,vtmanager-duesseldorf-parken-PH-42,PH 42 - Rheinufer,97,0.6
 Germany,Düsseldorf,QP09,vtmanager-duesseldorf-parken-PH-29,PH 29 - Friedrichstr.,19,0.75
 Germany,Düsseldorf,QP13,vtmanager-duesseldorf-parken-PH-12,PH 12 - Kaufhof Wehrhahn,223,0.88
@@ -263,14 +321,38 @@ Germany,Frankfurt,AP03,ffh-parken-frankfurt-Mainzer-Landstrasse,Mainzer Landstra
 Germany,Frankfurt,AP05,ffh-parken-frankfurt-Messeturm,Messeturm,35,1.0
 Germany,Frankfurt,AP06,ffh-parken-frankfurt-MyZeil,MyZeil / PalaisQuartier,141,1.0
 Germany,Frankfurt,AP07,ffh-parken-frankfurt-Aculeum,Aculeum,25,1.0
+Germany,Frankfurt,AP08,frankfurt-mainziel-Parkhaeuser.109255-main-airport-center,Main Airport Center,-1,1.0
+Germany,Frankfurt,CP01,frankfurt-mainziel-Parkhaeuser.24276-turmcenter,Turmcenter,-1,1.0
 Germany,Frankfurt,PB01,ffh-parken-frankfurt-Hauptwache,Hauptwache,19,1.0
 Germany,Frankfurt,PB02,ffh-parken-frankfurt-Konstabler,Konstabler,5,1.0
 Germany,Frankfurt,PB03,ffh-parken-frankfurt-Alte-Oper,Alte Oper,5,1.0
+Germany,Frankfurt,PB04,frankfurt-mainziel-Parkhaeuser.18496-dom-roemer,Dom/Römer,-1,1.0
 Germany,Frankfurt,PB05,ffh-parken-frankfurt-Borse,Börse,52,1.0
+Germany,Frankfurt,PB06,frankfurt-mainziel-Parkhaeuser.18499-westend,Westend,-1,1.0
 Germany,Frankfurt,PB07,ffh-parken-frankfurt-Hauptbahnhof-Sud,Hauptbahnhof-Süd,114,1.0
+Germany,Frankfurt,PB08,frankfurt-mainziel-Parkhaeuser.105824-palmengarten,Palmengarten,-1,1.0
+Germany,Frankfurt,QP01,frankfurt-mainziel-Parkhaeuser.109332-opernplatz,Opernplatz,-1,1.0
+Germany,Frankfurt,QP02,frankfurt-mainziel-Parkhaeuser.105304-westendgate,WestendGate,-1,1.0
+Germany,Frankfurt,QP06,frankfurt-mainziel-Parkhaeuser.109333-colosseo,Colosseo,-1,1.0
+Germany,Frankfurt,QP07,frankfurt-mainziel-Parkhaeuser.109266-nordwestzentrum,Nordwestzentrum,-1,1.0
 Germany,Gießen,DBP01,giessen-live-am-bahnhof,Am Bahnhof,14,0.9
 Germany,Gießen,DP01,giessen-live-dern-passage,Dern-Passage,39,1.0
 Germany,Gießen,RH01,giessen-live-rathaus,Rathaus,145,1.0
+Germany,Hamburg,AP01,hamburg-viz-DE.HH.UP_PARKHAEUSER_10019-hanse-viertel,Hanse-Viertel,-1,1.0
+Germany,Hamburg,AP02,hamburg-viz-DE.HH.UP_PARKHAEUSER_10012-elbphilharmonie,Elbphilharmonie,-1,1.0
+Germany,Hamburg,AP06,hamburg-viz-DE.HH.UP_PARKHAEUSER_10004-berliner-tor,Berliner Tor,-1,1.0
+Germany,Hamburg,AP13,hamburg-viz-DE.HH.UP_PARKHAEUSER_10067-ekz-nedderfeld,EKZ Nedderfeld,-1,1.0
+Germany,Hamburg,CP01,hamburg-viz-DE.HH.UP_PARKHAEUSER_10069-hamburger-meile,Hamburger Meile,-1,1.0
+Germany,Hamburg,CP02,hamburg-viz-DE.HH.UP_PARKHAEUSER_10048-hahnenkamp,Hahnenkamp,-1,1.0
+Germany,Hamburg,CP06,hamburg-viz-DE.HH.UP_PARKHAEUSER_10039-speicherstadt,Speicherstadt,-1,1.0
+Germany,Hamburg,QP02,hamburg-viz-DE.HH.UP_PARKHAEUSER_10015-city-parkhaus,City-Parkhaus,-1,1.0
+Germany,Hamburg,SH01,hamburg-viz-DE.HH.UP_PARKHAEUSER_10002-am-hauptbahnhof,Am Hauptbahnhof,-1,0.92
+Germany,Hamburg,SH02,hamburg-viz-DE.HH.UP_PARKHAEUSER_10026-kunsthalle,Kunsthalle,-1,1.0
+Germany,Hamburg,SH03,hamburg-viz-DE.HH.UP_PARKHAEUSER_10016-grosse-reichenstrasse,Große Reichenstraße,-1,1.0
+Germany,Hamburg,SH04,hamburg-viz-DE.HH.UP_PARKHAEUSER_10031-michel-garage,Michel-Garage,-1,1.0
+Germany,Hamburg,SH06,hamburg-viz-DE.HH.UP_PARKHAEUSER_10081-rahlstedt,Rahlstedt,-1,1.0
+Germany,Hamburg,SH07,hamburg-viz-DE.HH.UP_PARKHAEUSER_10018-hafentor,Hafentor,-1,1.0
+Germany,Hamburg,SH10,hamburg-viz-DE.HH.UP_PARKHAEUSER_10102-parkplatz-cruise-center,Parkplatz Cruise Center,-1,1.0
 Germany,Hannover,CP02,hannover-live-rundestrasse-kaufland,Rundestraße (Kaufland),70,1.0
 Germany,Hannover,QP01,hannover-live-joachimstrasse-galerie-luise,Joachimstraße (Galerie Luise),19,0.63
 Germany,Heidelberg,BG01,heidelberg-live-P18,BG RCI,0,1.0
@@ -296,6 +378,35 @@ Germany,Heidelberg,SW07,heidelberg-live-P21,Heidelberg Congress Center,0,1.0
 Germany,Heidelberg,SW08,heidelberg-live-P22,Europaplatz,0,1.0
 Germany,Heidelberg,SW09,heidelberg-live-P25,Mathematikon,0,1.0
 Germany,Heidelberg,WS01,heidelberg-live-P7,Kaufhof,0,1.0
+Germany,Kaiserslautern,AP01,kaiserslautern-live-9-ph-k-in-lautern,PH K in Lautern,-1,0.91
+Germany,Kaiserslautern,CP02,kaiserslautern-live-2-ph-lutrinastrasse,PH Lutrinastraße,-1,0.93
+Germany,Kaiserslautern,QP01,kaiserslautern-live-6-ph-pfalztheater,PH Pfalztheater,-1,0.92
+Germany,Kaiserslautern,QP02,kaiserslautern-live-3-ph-stiftsplatz,PH Stiftsplatz,-1,0.92
+Germany,Kaiserslautern,ST01,kaiserslautern-live-10-ph-central,PH Central,-1,0.88
+Germany,Kiel,CP01,kiel-parken-CAP,CAP,-1,1.0
+Germany,Kiel,CP03,kiel-parken-Sophienhof-Parkhaus,Sophienhof (Parkhaus),-1,1.0
+Germany,Kiel,EP02,kiel-parken-Karstadt-Sophienblatt,Karstadt Sophienblatt,-1,0.95
+Germany,Kiel,FP01,kiel-parken-Forde-Parkhaus,Förde-Parkhaus,-1,1.0
+Germany,Kiel,KM01,kiel-parken-Exerzierplatz,Exerzierplatz,-1,1.0
+Germany,Kiel,KM02,kiel-parken-Dreiecksplatz,Dreiecksplatz,-1,1.0
+Germany,Kiel,KM03,kiel-parken-Gaarden,Gaarden,-1,1.0
+Germany,Kiel,QP01,kiel-parken-Altstadt,Altstadt,-1,1.0
+Germany,Kiel,QP02,kiel-parken-Holstenstrasse-I,Holstenstraße I,-1,1.0
+Germany,Kiel,QP03,kiel-parken-Holstenstrasse-II,Holstenstraße II,-1,1.0
+Germany,Kiel,ST01,kiel-parken-Hotel-Steigenberger-Conti-Hansa,Hotel Steigenberger - Conti Hansa,-1,0.9
+Germany,Köln,AP02,koeln-apps-parken-Gurzenich,Gürzenich,-1,0.9
+Germany,Köln,AP08,koeln-apps-parken-Im-Klapperhof,Im Klapperhof,-1,0.91
+Germany,Köln,CP05,koeln-apps-parken-BP-Lungengasse,BP Lungengasse,-1,0.92
+Germany,Köln,CP06,koeln-apps-parken-Opern-Passagen,Opern Passagen,-1,1.0
+Germany,Köln,CP15,koeln-apps-parken-Gross-St-Martin,Groß St. Martin (*),-1,0.9
+Germany,Köln,CP16,koeln-apps-parken-Hauptbahnhof,Hauptbahnhof,-1,1.0
+Germany,Köln,CP17,koeln-apps-parken-Heumarkt,Heumarkt,-1,1.0
+Germany,Köln,CP18,koeln-apps-parken-Kaiser-Wilhelm-Ring,Kaiser-Wilhelm-Ring,-1,1.0
+Germany,Köln,CP23,koeln-apps-parken-Philharmonie,Philharmonie (*),-1,1.0
+Germany,Köln,KP01,koeln-apps-parken-An-Farina,An Farina,-1,1.0
+Germany,Köln,KP03,koeln-apps-parken-Am-Neumarkt,Am Neumarkt,-1,1.0
+Germany,Köln,KP04,koeln-apps-parken-Bruckenstrasse,Brückenstraße,-1,1.0
+Germany,Köln,KP07,koeln-apps-parken-Rudolfplatz,Rudolfplatz,-1,1.0
 Germany,Leipzig,BB01,leipzig-garages-parkhaus-hoefe-am-bruehl,Parkhaus Höfe am Brühl,17,1.0
 Germany,Leipzig,BB03,leipzig-garages-parkhaus-am-bundesverwaltungsgericht,Parkhaus Am Bundesverwaltungsgericht,32,0.96
 Germany,Leipzig,CP01,leipzig-garages-parkhaus-martin-luther-ring,Parkhaus Martin-Luther-Ring,4,1.0
@@ -304,6 +415,8 @@ Germany,Leipzig,PH01,leipzig-garages-parkhaus-hauptbahnhof-promenaden-west,Parkh
 Germany,Leipzig,PH02,leipzig-garages-parkhaus-hauptbahnhof-promenaden-ost,Parkhaus Hauptbahnhof Promenaden Ost,135,0.6
 Germany,Leipzig,QP02,leipzig-garages-parkhaus-augustusplatz,Parkhaus Augustusplatz,57,1.0
 Germany,Leipzig,QP04,leipzig-garages-parkhaus-marktgalerie,Parkhaus Marktgalerie,127,1.0
+Germany,Moers,EN04,moers-live-neuer-wall,Neuer Wall,-1,1.0
+Germany,Moers,EN05,moers-live-altstadt,Altstadt,-1,1.0
 Germany,München,AP02,parkraumwende-muenchen-256-parkhaus-hofbraeukeller,Parkhaus Hofbräukeller,26,1.0
 Germany,München,AP03,parkraumwende-muenchen-5-tiefgarage-hotel-marriott,Tiefgarage Hotel Marriott,86,1.0
 Germany,München,AP04,parkraumwende-muenchen-6-tiefgarage-ibis-suite-novotel,Tiefgarage Ibis/Suite Novotel,28,0.91
@@ -313,7 +426,7 @@ Germany,München,AP12,parkraumwende-muenchen-24-parkhaus-p-r-messestadt-ost,Park
 Germany,München,AP15,parkraumwende-muenchen-12-riem-arcaden-sop,Riem Arcaden SOP,159,1.0
 Germany,München,AP17,parkraumwende-muenchen-287-sonnenhof-garage,Sonnenhof-Garage,1,1.0
 Germany,München,CP01,db-bahnpark-100213-tiefgarage-muenchen-hauptbahnhof-sued,Tiefgarage München Hauptbahnhof Süd,0,0.77
-Germany,München,CP02,parkraumwende-muenchen-292-marienplatz-grossgarage,Marienplatz Großgarage,17,0.67
+Germany,München,CP02,parkraumwende-muenchen-292-marienplatz-grossgarage,Marienplatz Großgarage,17,0.81
 Germany,München,CP03,parkraumwende-muenchen-240-hopfenpost-parkhaus,Hopfenpost Parkhaus,11,0.83
 Germany,München,CP04,parkraumwende-muenchen-246-parkhaus-oberanger,Parkhaus Oberanger,22,1.0
 Germany,München,QP01,parkraumwende-muenchen-257-park-one-amalien-passage,Park One Amalien-Passage,25,1.0
@@ -335,6 +448,14 @@ Germany,München,QP21,parkraumwende-muenchen-267-park-one-schwabinger-tor,Park O
 Germany,München,QP22,parkraumwende-muenchen-268-the-m-pire,The M.Pire,28,0.47
 Germany,München,QP23,parkraumwende-muenchen-297-welfenhoefe,Welfenhöfe,34,0.61
 Germany,München,QP25,parkraumwende-muenchen-274-westin-grand-hotel-muenchen,Westin Grand Hotel München,29,0.82
+Germany,Nürnberg,PSN02,tiefbauamt-nuernberg-parken-Findelgasse,Findelgasse,-1,1.0
+Germany,Nürnberg,PSN03,tiefbauamt-nuernberg-parken-Hans-Sachs-Platz,Hans-Sachs-Platz,-1,1.0
+Germany,Nürnberg,PSN04,tiefbauamt-nuernberg-parken-Hauptmarkt,Hauptmarkt,-1,1.0
+Germany,Nürnberg,PSN05,tiefbauamt-nuernberg-parken-Jakobsmarkt,Jakobsmarkt,-1,1.0
+Germany,Nürnberg,PSN06,tiefbauamt-nuernberg-parken-Katharinenhof,Katharinenhof,-1,1.0
+Germany,Nürnberg,PSN07,tiefbauamt-nuernberg-parken-Sebalder-Hofe,Sebalder Höfe,-1,1.0
+Germany,Nürnberg,PSN08,tiefbauamt-nuernberg-parken-Sterntor,Sterntor,-1,1.0
+Germany,Nürnberg,PSN09,tiefbauamt-nuernberg-parken-Theater,Theater,-1,1.0
 Germany,Stuttgart,AP01,mobidata-bw-49828-stuttgart-koenigsbau-passagen,"Stuttgart, Königsbau-Passagen",66,0.79
 Germany,Stuttgart,AP02,mobidata-bw-49826-stuttgart-am-schlossplatz,"Stuttgart, Am Schlossplatz",68,0.76
 Germany,Stuttgart,AP03,mobidata-bw-49824-stuttgart-schillerplatz,"Stuttgart, Schillerplatz",47,0.74
@@ -350,8 +471,10 @@ Germany,Stuttgart,AP19,mobidata-bw-7345-stuttgart-messe-stuttgart-p20,"Stuttgart
 Germany,Stuttgart,DB02,mobidata-bw-46527-parkplatz-bahnhof-stuttgart-zuffenhausen,Parkplatz Bahnhof Stuttgart-Zuffenhausen,90,0.78
 Germany,Stuttgart,DB04,mobidata-bw-46524-parkplatz-bahnhof-stuttgart-vaihingen,Parkplatz Bahnhof Stuttgart-Vaihingen,116,0.74
 Germany,Wiesbaden,CP01,ffh-parken-wiesbaden-Kurhaus-Casino,PH Kurhaus / Casino,133,0.64
+Germany,Wiesbaden,CP02,wiesbaden-parken-RheinMain-CongressCenter-RMCC,RheinMain CongressCenter (RMCC),-1,1.0
 Germany,Wiesbaden,LP01,ffh-parken-wiesbaden-City-2,PH City II,10,0.67
 Germany,Wiesbaden,LP03,ffh-parken-wiesbaden-Luisenplatz,PH Luisenplatz,37,0.92
+Germany,Wiesbaden,LP04,wiesbaden-parken-Theater,Theater,-1,1.0
 Ireland,Cork,APC01,cork-live-108,Merchants Quay,57,1.0
 Ireland,Cork,CCC01,cork-live-1,Paul Street,0,1.0
 Ireland,Cork,CCC02,cork-live-2,North Main Street,0,1.0
@@ -365,25 +488,37 @@ Ireland,Galway,CP03,galway-live-market-st-1,Market St,35,0.8
 Ireland,Galway,GC01,galway-live-dyke-road-10,Dyke Road,75,1.0
 Ireland,Galway,GC02,galway-live-mill-st-12,Mill St,25,0.75
 Ireland,Galway,GC03,galway-live-bowling-green-11,Bowling Green,53,1.0
+Netherlands,Amersfoort,IP01,npr-other-nl-0ac14c9a-92fc-4877-864a-faec60e2af42-garage-oppidium-amersfoort,Garage Oppidium (Amersfoort),-1,1.0
+Netherlands,Amersfoort,P102,npr-other-nl-29f5f6e2-5395-4438-b848-97c71ad071b7-garage-eemplein-amersfoort,Garage Eemplein (Amersfoort),-1,1.0
 Netherlands,Amersfoort,QP01,npr-qpark-nl-2d9b1280-25de-46c7-ad87-0bf425252ef7-amersfoort-beestenmarkt,AMERSFOORT-Beestenmarkt,0,0.71
 Netherlands,Amersfoort,QP03,npr-qpark-nl-b354b409-976e-4db7-a5f2-9c812be9b718-amersfoort-st-jorisplein,AMERSFOORT-St. Jorisplein,0,0.71
+Netherlands,Amersfoort,QP04,npr-other-nl-325f0f1e-f5e5-44fa-8335-a7086df8976e-p-r-barchman-wuijtierslaan-amersfoort,P+R Barchman Wuijtierslaan (Amersfoort),-1,0.93
 Netherlands,Amersfoort,QP05,npr-other-nl-b9211697-075c-4142-aab8-8eecf92f2161-p-r-piet-mondriaanplein-amersfoort,P+R Piet Mondriaanplein (Amersfoort),0,0.78
 Netherlands,Amstelveen,P101,npr-other-nl-27ec369b-68d1-4b74-b62c-78969d6ff706-garage-stadsplein-amstelveen,Garage Stadsplein (Amstelveen),28,0.67
 Netherlands,Amstelveen,QP01,npr-qpark-nl-90200a42-6efa-4008-9a6c-dc8d38ebb47c-amstelveen-buitenplein,AMSTELVEEN-Buitenplein,0,0.69
 Netherlands,Amstelveen,QP02,npr-qpark-nl-3f040290-7f82-4f36-9798-b547c918214f-amstelveen-handelsplein,AMSTELVEEN-Handelsplein,0,0.71
 Netherlands,Amsterdam,GA01,amsterdam-live-p-133-albert-cuyp-D876540A,P-133_ Albert Cuyp,96,0.83
 Netherlands,Amsterdam,GA04,amsterdam-live-p-132-de-hallen-D1CE7EA1,P-132_ De Hallen,28,0.8
+Netherlands,Amsterdam,GA06,npr-other-nl-9d21d7de-e982-43e0-a56d-de606abece4e-dome-garage-amsterdam,Dome-garage (Amsterdam),-1,1.0
+Netherlands,Amsterdam,GA11,npr-other-nl-16d1d783-3a53-4b62-9a69-a44993a10211-garage-markenhoven-amsterdam,Garage Markenhoven (Amsterdam),-1,1.0
 Netherlands,Amsterdam,GA14,amsterdam-live-pr-006-boven-t-y-09F14470,PR-006_ Boven 't Y,54,0.74
 Netherlands,Amsterdam,GA15,amsterdam-live-pr-007-noord-638B4D86,PR-007_ Noord,94,0.67
+Netherlands,Amsterdam,GA16,npr-other-nl-5e7238be-7205-4303-bbbc-b4f38ed2564e-garage-p1-arena-amsterdam,Garage P1 ArenA (Amsterdam),-1,1.0
 Netherlands,Amsterdam,GA17,amsterdam-live-pr-001-sloterdijk-F666897A,PR-001_ Sloterdijk,23,0.8
 Netherlands,Amsterdam,GA18,amsterdam-live-pr-004-zeeburg-2-1C1FC6F5,PR-004_ Zeeburg 2,32,0.64
 Netherlands,Amsterdam,GA19,amsterdam-live-pr-005-zeeburg-3-50C4B4EE,PR-005_ Zeeburg 3,78,0.61
+Netherlands,Amsterdam,GA20,npr-other-nl-5e24e192-5718-46da-945f-c59327a03294-garage-p10-plaza-arena-amsterdam,Garage P10 Plaza ArenA (Amsterdam),-1,1.0
 Netherlands,Amsterdam,GA21,amsterdam-live-p-218-p18-hva-roc-C77E4014,P-218_ P18 HvA/ROC,24,0.82
+Netherlands,Amsterdam,GA23,npr-other-nl-b72e1d6e-a1d2-4ac1-87e7-2aedc9fcff79-garage-p3-mikado-amsterdam,Garage P3 Mikado (Amsterdam),-1,1.0
+Netherlands,Amsterdam,GA24,npr-other-nl-43878fed-4dbf-4aef-a2b9-80168d11b5aa-garage-p4-villa-arena-amsterdam,Garage P4 Villa ArenA (Amsterdam),-1,1.0
+Netherlands,Amsterdam,GA25,npr-other-nl-e0f088ad-f1ee-40c4-ae79-170aa0784dd9-garage-p5-villa-arena-amsterdam,Garage P5 Villa ArenA (Amsterdam),-1,1.0
 Netherlands,Amsterdam,GA27,amsterdam-live-p-103-piet-hein-6A9A4383,P-103_ Piet Hein,195,0.8
 Netherlands,Amsterdam,GA28,amsterdam-live-p-136-rokin-EA9933EF,P-136_ Rokin,120,0.71
 Netherlands,Amsterdam,GA30,amsterdam-live-p-110-stadhuis-1F7A7814,P-110_ Stadhuis,34,0.8
 Netherlands,Amsterdam,GA31,amsterdam-live-p-117-willemspoort-35B30E04,P-117_ Willemspoort,12,0.86
 Netherlands,Amsterdam,PB059,amsterdam-live-p-127-kalverstraat-opendata-DF9D51A4,P-127_ Kalverstraat (opendata),22,0.67
+Netherlands,Amsterdam,PB092,npr-other-nl-6fd23205-2ad4-4e9b-839e-d2fd380c628c-garage-oranjekwartier-amsterdam,Garage Oranjekwartier (Amsterdam),-1,1.0
+Netherlands,Amsterdam,PB109,npr-other-nl-7f71b2b8-13a5-4be4-af85-fb6dbfb42706-garage-parnassusweg-amsterdam,Garage Parnassusweg (Amsterdam),-1,1.0
 Netherlands,Amsterdam,QP02,npr-qpark-nl-71e5d1a8-7852-407e-85c2-c018a3991098-amsterdam-amst,AMSTERDAM-AMST,0,0.47
 Netherlands,Amsterdam,QP03,npr-qpark-nl-33851d5f-be6b-4381-bd4a-0703b13e565c-amsterdam-amstel,AMSTERDAM-Amstel,0,0.57
 Netherlands,Amsterdam,QP04,npr-qpark-nl-36f85502-e61a-44a1-b95f-59385fe85b2d-amsterdam-amsterdam-centraal,AMSTERDAM-Amsterdam Centraal,0,0.79
@@ -396,14 +531,20 @@ Netherlands,Amsterdam,QP10,npr-qpark-nl-5f58de46-c1fc-4943-a13f-8d9da523427a-ams
 Netherlands,Amsterdam,QP11,npr-qpark-nl-3125c7c3-d852-419f-8169-d2aea9694332-amsterdam-centrum-oost,AMSTERDAM-Centrum Oost,0,0.71
 Netherlands,Amsterdam,QP12,npr-qpark-nl-f444a212-7004-4183-945e-023d4b46481f-amsterdam-de-bijenkorf,AMSTERDAM-de Bijenkorf,0,0.71
 Netherlands,Amsterdam,QP13,npr-qpark-nl-249abfe1-b2aa-4022-86b5-151950b31100-amsterdam-eurocenter,AMSTERDAM-Eurocenter,0,0.69
-Netherlands,Amsterdam,QP15,npr-qpark-nl-58fd8e31-6d72-4c16-b880-9fdaefdb116b-amsterdam-europarking,AMSTERDAM-Europarking,0,0.71
+Netherlands,Amsterdam,QP14,npr-qpark-nl-30c4718c-7e6c-4159-bc6c-6235371b9a84-amsterdam-europaplein,AMSTERDAM-Europaplein,-1,1.0
+Netherlands,Amsterdam,QP15,npr-qpark-nl-58fd8e31-6d72-4c16-b880-9fdaefdb116b-amsterdam-europarking,AMSTERDAM-Europarking,0,0.47
+Netherlands,Amsterdam,QP16,npr-other-nl-0c8410c5-702b-4e01-9bf2-2664133f815d-garage-gelderlandplein-amsterdam,Garage Gelderlandplein (Amsterdam),-1,1.0
 Netherlands,Amsterdam,QP17,amsterdam-live-p-130-heinekenplein-8039A0DF,P-130_ Heinekenplein,23,0.87
+Netherlands,Amsterdam,QP18,npr-qpark-nl-fc5aa13a-ce74-46a1-8afa-cd3f8c5a8fa4-amsterdam-ijhaven,AMSTERDAM-Ijhaven,-1,1.0
+Netherlands,Amsterdam,QP19,npr-other-nl-1fc4f305-8d3f-4626-af10-a145c5834554-garage-kalverstraat-amsterdam,Garage Kalverstraat (Amsterdam),-1,1.0
 Netherlands,Amsterdam,QP20,npr-qpark-nl-5ee1b47c-51af-4378-8179-34a33039d483-amsterdam-mahler,AMSTERDAM-Mahler,0,0.57
 Netherlands,Amsterdam,QP22,npr-qpark-nl-f58e2c3c-17db-427e-aa62-caa6c23c55d4-amsterdam-museumplein-bus,AMSTERDAM-Museumplein Bus,0,0.76
 Netherlands,Amsterdam,QP23,npr-qpark-nl-62a49a29-3a32-42e0-ba13-ba7a76b85f97-amsterdam-museumplein,AMSTERDAM-Museumplein,0,0.71
 Netherlands,Amsterdam,QP24,npr-qpark-nl-a2516312-3a0e-4143-91f5-3fce4b126bed-amsterdam-ndsm,AMSTERDAM-NDSM,0,0.47
 Netherlands,Amsterdam,QP25,npr-qpark-nl-aa3d03d3-6203-4c7f-a279-ea46f84665f6-amsterdam-nieuwendijk,AMSTERDAM-Nieuwendijk,0,0.71
 Netherlands,Amsterdam,QP26,npr-qpark-nl-b0c70988-86f2-4645-9dd1-ed6c75fab7bd-amsterdam-oostenburg,AMSTERDAM-Oostenburg,0,0.69
+Netherlands,Amsterdam,QP27,npr-qpark-nl-c13f7407-4ea9-4dbb-b127-40a43066a1a6-amsterdam-oostpoort,AMSTERDAM-Oostpoort,-1,1.0
+Netherlands,Amsterdam,QP28,npr-other-nl-639aa083-f160-4b59-9fe6-3ec06d3ca9f4-garage-osdorpplein-amsterdam,Garage Osdorpplein (Amsterdam),-1,1.0
 Netherlands,Amsterdam,QP29,npr-qpark-nl-108fb142-1e94-4afc-821d-efb7bfb02eae-amsterdam-prins-keizer,AMSTERDAM-Prins & Keizer,0,0.71
 Netherlands,Amsterdam,QP30,npr-qpark-nl-b15428bf-4694-4673-973c-511a90846a8a-amsterdam-ravel,AMSTERDAM-Ravel,0,0.53
 Netherlands,Amsterdam,QP32,npr-qpark-nl-49555c3b-1d67-4905-b22f-016332eeef31-amsterdam-symphony,AMSTERDAM-Symphony,0,0.64
@@ -411,8 +552,17 @@ Netherlands,Amsterdam,QP33,npr-qpark-nl-bcaba2a2-2f33-48f8-9789-e7ec744d6dc9-ams
 Netherlands,Amsterdam,QP34,npr-qpark-nl-ba22b4dd-de39-452a-bf40-8b7e05eeb46a-amsterdam-waterlooplein,AMSTERDAM-Waterlooplein,0,0.74
 Netherlands,Amsterdam,QP35,npr-qpark-nl-6235b209-08a2-4a55-be84-534471b8c766-amsterdam-weesperplein,AMSTERDAM-Weesperplein,0,0.73
 Netherlands,Amsterdam,QP36,npr-qpark-nl-d388fcd5-4032-4f2e-b58a-5b52aa060a5f-amsterdam-westergasfabriek,AMSTERDAM-Westergasfabriek,0,0.78
+Netherlands,Apeldoorn,QP01,npr-qpark-nl-cea4cffe-158c-4b08-b940-5d5eefeba089-apeldoorn-beekstraat,APELDOORN-Beekstraat,-1,1.0
 Netherlands,Apeldoorn,QP02,npr-qpark-nl-bbca34c0-27d4-4d50-8544-612826339d33-apeldoorn-museum-centrum,APELDOORN-Museum Centrum,0,0.74
 Netherlands,Apeldoorn,QP03,npr-qpark-nl-f3dca9dd-12f1-4890-9077-ff24322d5160-apeldoorn-oranjerie,APELDOORN-Oranjerie,0,0.67
+Netherlands,Apeldoorn,QP04,npr-other-nl-d713179a-5257-46e3-a989-705291add0c1-p-r-laan-van-de-mensenrechten-apeldoorn,P+R Laan van de Mensenrechten (Apeldoorn),-1,1.0
+Netherlands,Arnhem,GE01,npr-other-nl-301ed8b0-9019-46ca-890a-bb496c494ba0-garage-velperpoort-arnhem,Garage Velperpoort (Arnhem),-1,1.0
+Netherlands,Arnhem,GE07,npr-other-nl-fcc0b905-3971-4733-89c0-de96bfcffa68-p-r-station-arnhem-zuid-arnhem,P+R Station Arnhem-Zuid (Arnhem),-1,1.0
+Netherlands,Arnhem,GE08,npr-other-nl-45ebba00-1223-4af2-84a8-8e84794ba9ce-carpool-arnhem-noord-a12-arnhem,Carpool Arnhem-Noord A12 (Arnhem),-1,1.0
+Netherlands,Arnhem,HB01,npr-other-nl-55f5c0fa-d690-4528-90fb-5fe851c476ec-garage-velperplein-arnhem,Garage Velperplein (Arnhem),-1,1.0
+Netherlands,Arnhem,P101,npr-other-nl-b94f5b35-9793-43f9-927a-889478d76806-garage-centraal-arnhem,Garage Centraal (Arnhem),-1,1.0
+Netherlands,Arnhem,P102,npr-other-nl-3e43afd2-aa12-4986-9927-73f883d30e55-garage-musis-arnhem,Garage Musis (Arnhem),-1,1.0
+Netherlands,Arnhem,P103,npr-other-nl-45abe415-46d3-422f-9db5-4a783328e490-garage-rozet-arnhem,Garage Rozet (Arnhem),-1,1.0
 Netherlands,Arnhem,QP01,npr-qpark-nl-4756e8cd-cc3a-48c2-a2b2-56528d91d0da-arnhem-broerenstraat,ARNHEM-Broerenstraat,0,0.81
 Netherlands,Assen,P101,assen-live-citadel-3,Citadel,23,1.0
 Netherlands,Assen,P102,assen-live-de-nieuwe-kolk-8,De Nieuwe Kolk,17,1.0
@@ -422,16 +572,32 @@ Netherlands,Assen,P105,assen-live-neptunus-6,Neptunus,27,1.0
 Netherlands,Assen,P106,assen-live-stadhuis-2,Stadhuis,32,1.0
 Netherlands,Assen,P107,assen-live-triade-5,Triade,42,1.0
 Netherlands,Assen,QP01,npr-other-nl-e176fda1-54ab-4ee8-95eb-e428b9acf480-p-r-stationsplein-assen,P+R Stationsplein (Assen),0,0.84
+Netherlands,Bergen op Zoom,PBZ01,npr-other-nl-737ee0e7-a936-469e-9aa1-fa26e684b0b5-garage-de-parade-bergen-op-zoom,Garage De Parade (Bergen op Zoom),-1,1.0
+Netherlands,Bergen op Zoom,QP01,npr-other-nl-41306aac-28b3-4cbf-8df4-b1a6aa5647c8-p-r-parallelweg-bergen-op-zoom,P+R Parallelweg (Bergen op Zoom),-1,1.0
+Netherlands,Boxtel,boxtel_01,npr-other-nl-87657efe-b52a-40e4-9cf2-cf356a24017c-p-r-van-salmstraat-boxtel,P+R Van Salmstraat (Boxtel),-1,1.0
+Netherlands,Breda,IP01,npr-other-nl-c724ecc9-e6ae-42aa-b462-8ce7cf48912a-garage-de-barones-breda,Garage De Barones (Breda),-1,0.88
+Netherlands,Breda,IP02,npr-other-nl-4498b82f-6da9-4887-b2a1-be921341d1d0-garage-chass-parking-breda,Garage Chasséparking (Breda),-1,1.0
+Netherlands,Breda,IP03,npr-other-nl-c22bc535-e3cb-41e6-a4aa-0870f94ee478-garage-oranje-zuid-breda,Garage Oranje Zuid (Breda),-1,1.0
+Netherlands,Breda,IP04,npr-other-nl-6ea457a0-c73c-4b1a-8602-ff6af1114fe3-garage-het-turfschip-breda,Garage Het Turfschip (Breda),-1,1.0
+Netherlands,Breda,IP05,npr-other-nl-07f8962e-d251-4055-b9a8-0752024b355e-garage-de-prins-breda,Garage De Prins (Breda),-1,1.0
 Netherlands,Breda,QP01,npr-qpark-nl-e8ea0d92-041b-4dc2-9871-74e32fb5dee6-breda-centrum,BREDA-Centrum,0,0.74
+Netherlands,Breda,QP02,npr-other-nl-d5565e93-2f9f-4074-8548-e631b72bae66-p-r-station-breda,P+R Station (Breda),-1,1.0
 Netherlands,Breda,QP03,npr-other-nl-0958e08b-94be-44c6-95a2-3815bf0eba53-p-r-stationsweg-breda,P+R Stationsweg (Breda),0,0.81
 Netherlands,Den Bosch,QP01,npr-qpark-nl-2569fa10-d804-4f9d-bc23-47c10a6dce42-den-bosch-arena,DEN BOSCH-Arena,0,0.56
 Netherlands,Den Bosch,QP02,npr-qpark-nl-ec5e3536-447d-4607-af3c-919a931e0e46-den-bosch-tolbrug,DEN BOSCH-Tolbrug,0,0.64
+Netherlands,Den Haag,IP02,npr-other-nl-ca495787-8e55-4c7d-933b-c3192b40ddb8-garage-helicon-den-haag,Garage Helicon (Den Haag),-1,1.0
+Netherlands,Den Haag,IP03,npr-other-nl-ad4879fb-a2c3-459d-aec2-c6a9295d08d0-garage-leidschenhof-den-haag,Garage Leidschenhof (Den Haag),-1,1.0
+Netherlands,Den Haag,IP07,npr-other-nl-a6ec51a8-6739-4485-be5a-b10b12e4f2a6-garage-station-leidschenveen-garage-den-haag,Garage Station Leidschenveen Garage (Den Haag),-1,1.0
+Netherlands,Den Haag,PB19,npr-other-nl-34c37f55-160a-47fb-a659-35d74f70907b-garage-parkstraat-den-haag,Garage Parkstraat (Den Haag),-1,0.91
+Netherlands,Den Haag,QP01,npr-qpark-nl-76b80f7c-2455-4eab-ba88-d4c2eaa1e7e8-den-haag-binck-city-park,DEN HAAG-Binck City Park,-1,1.0
 Netherlands,Den Haag,QP02,npr-qpark-nl-685aee86-56ab-4f8e-99fa-e61a8e4bef57-den-haag-centrum,DEN HAAG-Centrum,0,0.67
 Netherlands,Den Haag,QP03,npr-qpark-nl-0efb4324-c065-4097-8194-476cfe42b95c-den-haag-city-parking,DEN HAAG-City Parking,0,0.53
 Netherlands,Den Haag,QP04,npr-qpark-nl-f2b30dbc-c65c-4c86-be8a-23b82fc53484-den-haag-cs-new-babylon,DEN HAAG-CS New Babylon,0,0.77
 Netherlands,Den Haag,QP05,npr-qpark-nl-af520a1a-343f-43ac-a4aa-6511b79c5227-den-haag-de-bijenkorf,DEN HAAG-de Bijenkorf,0,0.76
 Netherlands,Den Haag,QP06,npr-qpark-nl-d6d56649-c0c3-43e5-8c73-9a83cd15b506-den-haag-de-kroon,DEN HAAG-De Kroon,0,0.67
 Netherlands,Den Haag,QP07,npr-qpark-nl-6b153f0c-90b2-453f-944b-e2214f0c1726-den-haag-grote-markt,DEN HAAG-Grote Markt,0,0.74
+Netherlands,Den Haag,QP08,npr-qpark-nl-9c3aa5e9-686a-4cf2-bdc7-b2a0d3324b6e-den-haag-haagse-markt,DEN HAAG-Haagse Markt,-1,1.0
+Netherlands,Den Haag,QP09,npr-other-nl-2e7daa83-19e3-4133-8d57-3911d7681d40-garage-kurhaus-den-haag,Garage Kurhaus (Den Haag),-1,1.0
 Netherlands,Den Haag,QP10,npr-qpark-nl-cb4be1af-5a1a-4499-b428-ec5fa0344070-den-haag-laakhaven,DEN HAAG-Laakhaven,0,0.72
 Netherlands,Den Haag,QP11,npr-qpark-nl-d2b672eb-1cab-4db1-8fae-1646902bc000-den-haag-leyenburg,DEN HAAG-Leyenburg,0,0.72
 Netherlands,Den Haag,QP12,npr-qpark-nl-41f690ef-8c8f-486c-a1df-0af13649494e-den-haag-leyweg-1,DEN HAAG-Leyweg 1,0,0.67
@@ -440,44 +606,79 @@ Netherlands,Den Haag,QP14,npr-qpark-nl-344f361a-e77f-4524-8067-a9fae8edb269-den-
 Netherlands,Den Haag,QP15,npr-qpark-nl-879a9f89-f675-4ba3-bd02-2095b9f438d6-den-haag-malieveld,DEN HAAG-Malieveld,0,0.72
 Netherlands,Den Haag,QP16,npr-qpark-nl-e627c2e2-b71e-40b1-bdfc-7dd1e6ea7d70-den-haag-mauritskade,DEN HAAG-Mauritskade,0,0.76
 Netherlands,Den Haag,QP17,npr-qpark-nl-1c7da6a5-d40b-4c78-adcf-260542384d9d-den-haag-muzenplein,DEN HAAG-Muzenplein,0,0.74
+Netherlands,Den Haag,QP18,npr-other-nl-2cc6b90a-8460-4b11-a52e-5f9319ffd64b-garage-nieuwe-parklaan-den-haag,Garage Nieuwe Parklaan (Den Haag),-1,1.0
 Netherlands,Den Haag,QP19,npr-qpark-nl-a06ac794-80da-419e-a020-01e9664b51db-den-haag-noordeinde,DEN HAAG-Noordeinde,0,0.74
 Netherlands,Den Haag,QP20,npr-other-nl-94043c94-ce81-45cd-a84f-72c4d6891d0b-p-r-laan-van-noi-den-haag,P+R Laan van NOI (Den Haag),0,0.74
 Netherlands,Den Haag,QP22,npr-qpark-nl-6be29f42-4fcd-43d6-b876-a864f9291a01-den-haag-rijnstraat,DEN HAAG-Rijnstraat,0,0.74
 Netherlands,Den Haag,QP24,npr-qpark-nl-4959e43d-41e0-4984-8a39-e7184502f279-den-haag-spui,DEN HAAG-Spui,0,0.53
 Netherlands,Den Haag,QP25,npr-qpark-nl-b04f8ebb-3dd2-4ae6-8f80-b682605bd25b-scheveningen-strand,SCHEVENINGEN-Strand,0,0.5
 Netherlands,Den Haag,QP26,npr-qpark-nl-a441f748-e0d7-4139-9415-d4f52be133cf-scheveningen-strandweg,SCHEVENINGEN-Strandweg,0,0.6
-Netherlands,Den Haag,QP27,npr-qpark-nl-56ca1d41-a97c-42eb-a9e9-ce29eab961fd-den-haag-torengarage,DEN HAAG-Torengarage,0,0.76
+Netherlands,Den Haag,QP27,npr-qpark-nl-56ca1d41-a97c-42eb-a9e9-ce29eab961fd-den-haag-torengarage,DEN HAAG-Torengarage,0,0.59
+Netherlands,Deventer,CG01,npr-other-nl-9939a414-628f-4b60-8068-f7731ea5f31a-centrumgarage-deventer,Centrumgarage (Deventer),-1,1.0
 Netherlands,Deventer,QP01,npr-qpark-nl-cca8eb08-9e4c-4657-8724-3bc2c2654dfd-deventer-de-boreel,DEVENTER-De Boreel,0,0.67
 Netherlands,Deventer,QP02,npr-other-nl-a8be911f-6822-4a56-bba9-019540fd5a94-p-r-handelskade-deventer,P+R Handelskade (Deventer),0,0.73
+Netherlands,Dordrecht,GD01,npr-other-nl-fe585239-852e-4f52-84e8-56eda8239a8f-garage-spuihaven-dordrecht,Garage Spuihaven (Dordrecht),-1,1.0
+Netherlands,Dordrecht,GD03,npr-other-nl-5b3d8f1d-67f8-499e-a35c-92f3b181bfa1-garage-riedijkshaven-dordrecht,Garage Riedijkshaven (Dordrecht),-1,1.0
+Netherlands,Dordrecht,GD05,npr-other-nl-9db41fc3-238c-45aa-8dc5-f3c1ee7d73ab-garage-sportboulevard-dordrecht,Garage Sportboulevard (Dordrecht),-1,1.0
 Netherlands,Dordrecht,QP01,npr-qpark-nl-188c5ac1-4dc7-4294-803d-6d7a476fc20a-dordrecht-drievriendenhof,DORDRECHT-Drievriendenhof,0,0.77
 Netherlands,Dordrecht,QP02,npr-other-nl-55804410-e6f8-4dda-b20f-8b5e9db2246f-p-r-markettenweg-dordrecht,P+R Markettenweg (Dordrecht),0,0.73
+Netherlands,Duivendrecht,QP01,npr-other-nl-f0f161fb-e8f7-4dbb-81cd-fedce924d76c-p-r-stationsplein-duivendrecht,P+R Stationsplein (Duivendrecht),-1,1.0
 Netherlands,Ede,QP01,npr-qpark-nl-9de627c9-d074-405e-8c48-80f048b4c9c3-ede-achterdoelen,EDE-Achterdoelen,0,0.89
 Netherlands,Ede,QP02,npr-qpark-nl-2088bea9-dae1-4093-987e-9c253746f2a5-ede-markt,EDE-Markt,0,0.77
+Netherlands,Eindhoven,P101,npr-other-nl-049aa9d4-4759-42b9-af9c-4385060253b3-p-r-meerhoven-eindhoven,P+R Meerhoven (Eindhoven),-1,1.0
+Netherlands,Eindhoven,P102,npr-other-nl-c9951b83-0753-42e3-9e10-297689d85961-garage-veemgebouw-eindhoven,Garage Veemgebouw (Eindhoven),-1,1.0
+Netherlands,Eindhoven,P104,npr-other-nl-733120f4-051f-4c33-9180-8418a63dd14c-garage-de-grijze-generaal-eindhoven,Garage De Grijze Generaal (Eindhoven),-1,1.0
 Netherlands,Eindhoven,QP01,npr-qpark-nl-42e81435-b3a8-4fe9-8259-89b7058d5583-eindhoven-centrum-de-admirant,EINDHOVEN-Centrum De Admirant,0,0.79
 Netherlands,Eindhoven,QP02,npr-qpark-nl-43f2f941-28d2-427a-b312-d73ff528333d-eindhoven-de-bijenkorf,EINDHOVEN-de Bijenkorf,0,0.71
 Netherlands,Eindhoven,QP03,npr-qpark-nl-7deb44bc-2540-4298-bd1a-a4b6726575e4-eindhoven-heuvel,EINDHOVEN-Heuvel,0,0.57
 Netherlands,Eindhoven,QP04,npr-qpark-nl-91f16e04-24f3-4852-aa0d-6ef701e0d9e0-eindhoven-hooghuis,EINDHOVEN-Hooghuis,0,0.64
 Netherlands,Eindhoven,QP05,npr-qpark-nl-1ad52c86-f0eb-41ac-a990-4334f8ac9c8b-eindhoven-kennedyplein,EINDHOVEN-Kennedyplein,0,0.73
+Netherlands,Eindhoven,QP06,npr-other-nl-8e3f9207-563b-4e49-bd75-3830b0351f10-garage-mathildelaan-eindhoven,Garage Mathildelaan (Eindhoven),-1,1.0
+Netherlands,Eindhoven,QP07,npr-other-nl-cc7a3d99-d6f6-4407-86bc-008eb47549ea-p-r-fuutlaan-eindhoven,P+R Fuutlaan (Eindhoven),-1,1.0
 Netherlands,Eindhoven,QP08,npr-qpark-nl-e78e5b4e-b9c4-4e74-b486-554d5bd326ac-eindhoven-stadhuisplein,EINDHOVEN-Stadhuisplein,0,0.74
+Netherlands,Eindhoven,QP09,npr-qpark-nl-69a54734-54a0-4e32-aef5-328b9d5c57b6-eindhoven-witte-dame,EINDHOVEN-Witte Dame,-1,1.0
 Netherlands,Enschede,QP01,npr-qpark-nl-84c88d2a-8663-459a-856e-b73c7ab17ef4-enschede-enschede,ENSCHEDE-Enschede,0,0.67
+Netherlands,Enschede,QP02,npr-qpark-nl-75c52013-b44a-410a-8d76-94c962f32aef-enschede-p-r-parkweg,ENSCHEDE-P+R Parkweg,-1,1.0
+Netherlands,Gorinchem,QP01,npr-other-nl-1840ed29-74ce-46fc-8265-85c7c69c1acb-p-r-stationsweg-gorinchem,P+R Stationsweg (Gorinchem),-1,1.0
+Netherlands,Gouda,QP01,npr-qpark-nl-2ce5078b-4304-410e-848f-963c6c1f3696-gouda-bolwerk,GOUDA-Bolwerk,-1,1.0
 Netherlands,Gouda,QP02,npr-qpark-nl-b4d94be3-0ae6-45ff-969f-4616e0b015c4-gouda-nieuwe-markt,GOUDA-Nieuwe Markt,0,0.81
+Netherlands,Groningen,GG01,npr-other-nl-ee01efa0-3135-4bc5-9d7f-10709c54889c-garage-damsterdiep-groningen,Garage Damsterdiep (Groningen),-1,1.0
+Netherlands,Groningen,GG02,npr-other-nl-68eaaa71-768e-4bfe-87a9-7b2547c05541-garage-boterdiep-groningen,Garage Boterdiep (Groningen),-1,1.0
+Netherlands,Groningen,GG03,npr-other-nl-91d8f785-ea0f-47cb-b33e-25e192a72e81-garage-circus-groningen,Garage Circus (Groningen),-1,1.0
+Netherlands,Groningen,GG04,npr-other-nl-47a8f7c3-7e9c-4d73-8c8e-bd4c76b5a572-garage-euroborg-groningen,Garage Euroborg (Groningen),-1,1.0
+Netherlands,Groningen,GG05,npr-other-nl-7b77c357-8377-4021-a959-a0d2984511c3-garage-station-europapark-groningen,Garage Station Europapark (Groningen),-1,1.0
+Netherlands,Groningen,IP02,npr-other-nl-eda67214-1c0d-4fe2-843a-b9a20b4be727-garage-biosparking-groningen,Garage Biosparking (Groningen),-1,1.0
 Netherlands,Groningen,QP01,npr-qpark-nl-28ad7d8b-f703-43ac-beed-13373c65dc24-groningen-oosterpoort,GRONINGEN-Oosterpoort,0,0.71
 Netherlands,Groningen,QP02,npr-qpark-nl-34ba9f11-accf-4f56-95e1-2ddcca885095-groningen-rademarkt,GRONINGEN-Rademarkt,0,0.67
 Netherlands,Groningen,QP03,npr-qpark-nl-1246a98a-82d8-4596-b14f-40272b12a8aa-groningen-museum-centrum,GRONINGEN-Museum Centrum,0,0.74
 Netherlands,Groningen,QP04,npr-other-nl-cf95aa52-3b83-4493-b84d-5cb28a037bfc-p-r-hoofdstation-groningen,P+R Hoofdstation (Groningen),0,0.73
 Netherlands,Groningen,QP05,npr-qpark-nl-9abeacbc-30ad-45c9-b865-c5124b84e963-groningen-ossenmarkt,GRONINGEN-Ossenmarkt,0,0.69
 Netherlands,Groningen,QP06,npr-qpark-nl-11888b25-5638-4a61-a8d1-3d65e578f32f-groningen-westerhaven,GRONINGEN-Westerhaven,0,0.71
+Netherlands,Heerenveen,GH01,npr-other-nl-8e661d0a-c466-4fdf-b59e-e713119b5d78-garage-geerts-willigen-heerenveen,Garage Geerts Willigen (Heerenveen),-1,1.0
+Netherlands,Heerenveen,QP01,npr-other-nl-f7eafdd2-de31-4aff-b554-75270a60bc99-p-r-stationsplein-heerenveen,P+R Stationsplein (Heerenveen),-1,1.0
+Netherlands,Heerlen,IP01,npr-other-nl-813c44c8-50bb-4298-b46a-6b382292b883-garage-maankwartier-centrum-heerlen,Garage Maankwartier Centrum (Heerlen),-1,1.0
+Netherlands,Heerlen,IP02,npr-other-nl-2ad4ff1b-e537-42a5-817c-246259a7b112-garage-maanplein-heerlen,Garage Maanplein (Heerlen),-1,1.0
 Netherlands,Heerlen,QP01,npr-qpark-nl-00b1135d-8a84-43d1-a927-e59e34f691b1-heerlen-corio-center,HEERLEN-Corio Center,0,0.76
 Netherlands,Heerlen,QP02,npr-qpark-nl-b17ac0f9-5cd1-4a07-9a92-9a9a855fb0fb-heerlen-de-klomp,HEERLEN-De Klomp,0,0.67
+Netherlands,Heerlen,QP03,npr-other-nl-7565d9ad-4f5a-4cb0-b9c5-53d68a2ad323-p-r-parallelweg-heerlen,P+R Parallelweg (Heerlen),-1,1.0
 Netherlands,Heerlen,QP04,npr-qpark-nl-d0f1c79d-2fde-4977-a697-6c6ab6a07f03-heerlen-putgraaf,HEERLEN-Putgraaf,0,0.7
-Netherlands,Heerlen,QP05,npr-qpark-nl-889c789f-bc33-4a07-8fa6-06ae79d8e005-heerlen-raadhuisparking,HEERLEN-Raadhuisparking,0,0.81
+Netherlands,Heerlen,QP05,npr-qpark-nl-889c789f-bc33-4a07-8fa6-06ae79d8e005-heerlen-raadhuisparking,HEERLEN-Raadhuisparking,0,0.7
 Netherlands,Heerlen,QP06,npr-qpark-nl-09f8313a-dc71-409b-87b4-861539fc6a9b-heerlen-t-loon,HEERLEN-'t Loon,0,0.59
-Netherlands,Heerlen,QP07,npr-qpark-nl-ba803d0a-83ae-402f-b18d-ebbe6933ef6a-heerlen-teleparking,HEERLEN-Teleparking,0,0.76
+Netherlands,Heerlen,QP07,npr-qpark-nl-ba803d0a-83ae-402f-b18d-ebbe6933ef6a-heerlen-teleparking,HEERLEN-Teleparking,0,0.53
 Netherlands,Heerlen,QP08,npr-qpark-nl-3e551b40-200f-4a34-b4dd-eb323dd7b2bb-heerlen-theater-heerlen-parking,HEERLEN-Theater Heerlen Parking,0,0.8
+Netherlands,Helmond,GH01,npr-other-nl-d93af391-9b60-43e8-9c79-c7a72e736eb1-garage-doorneind-helmond,Garage Doorneind (Helmond),-1,1.0
+Netherlands,Helmond,GH02,npr-other-nl-5be7439a-bf35-4ca2-a043-f86bc29750d7-garage-boscotondo-helmond,Garage Boscotondo (Helmond),-1,1.0
+Netherlands,Helmond,GH03,npr-other-nl-20f005f9-d7e9-47d6-8039-81b8381b1b33-garage-city-helmond,Garage City (Helmond),-1,1.0
+Netherlands,Helmond,QP01,npr-other-nl-fed5c736-f2d8-4f91-8fd0-9d9188ba76bf-p-r-smalstraat-helmond,P+R Smalstraat (Helmond),-1,1.0
+Netherlands,Hengelo,P101,npr-other-nl-34e3978f-2883-4763-9407-4b293fabebe0-parkeergarage-de-beurs-hengelo,Parkeergarage De Beurs (Hengelo),-1,1.0
 Netherlands,Hengelo,QP01,npr-qpark-nl-63c272ff-1ecf-420d-a32a-a4abea97df9f-hengelo-de-brink,HENGELO-De Brink,0,0.67
+Netherlands,Hengelo,TB01,npr-other-nl-d71c972f-8094-4ca1-8ad2-c957f3ca382c-parkeergarage-thiemsbrug-hengelo,Parkeergarage Thiemsbrug (Hengelo),-1,1.0
+Netherlands,Hilversum,GH01,npr-other-nl-d52bb7ad-21c9-4558-94fd-f4807610ad7d-garage-gooiland-hilversum,Garage Gooiland (Hilversum),-1,1.0
+Netherlands,Hilversum,GH02,npr-other-nl-dd9c3c06-f0bf-4cac-98a7-b3738502bd5a-garage-gooische-brink-hilversum,Garage Gooische Brink (Hilversum),-1,1.0
 Netherlands,Hilversum,QP01,npr-qpark-nl-51b8f9a2-d266-4529-b8cc-30ffa1debc07-hilversum-hilvertshof,HILVERSUM-Hilvertshof,0,0.71
 Netherlands,Hilversum,QP02,npr-qpark-nl-85a02f3c-10c4-4457-8569-a8c213764efb-hilversum-markt,HILVERSUM-Markt,0,0.53
 Netherlands,Hoofddorp,QP02,npr-qpark-nl-a78cd3d6-ec05-45b3-ae49-33cf49f12bfb-hoofddorp-spaarne-gasthuis,HOOFDDORP-Spaarne Gasthuis,0,0.77
+Netherlands,Leeuwarden,QP01,npr-other-nl-9ed37ad1-9374-400a-918f-f02411eb8ce6-p-r-wijnhornsterstraat-leeuwarden,P+R Wijnhornsterstraat (Leeuwarden),-1,1.0
 Netherlands,Leiderdorp,QP03,npr-qpark-nl-77dbfd9c-0261-454b-ad7f-3a7c36e0b6d9-leiderdorp-rijnland-vierzicht-p3,LEIDERDORP-Rijnland Vierzicht P3,0,0.79
 Netherlands,Maastricht,QP01,npr-qpark-nl-32ef2fae-212c-4fb2-b137-6115ee9681fa-maastricht-bassin,MAASTRICHT-Bassin,0,0.55
 Netherlands,Maastricht,QP02,npr-qpark-nl-87907bba-5107-4a9e-a52f-fb18630330db-maastricht-bonnefantenmuseum,MAASTRICHT-Bonnefantenmuseum,0,0.77
@@ -486,25 +687,61 @@ Netherlands,Maastricht,QP04,npr-qpark-nl-1b8732fc-977e-4b60-ba83-9a77e92f6a74-ma
 Netherlands,Maastricht,QP05,npr-qpark-nl-acd8eae2-fd90-4ee5-b886-0d7d859bdcd1-maastricht-entre-deux,MAASTRICHT-Entre Deux,0,0.64
 Netherlands,Maastricht,QP06,npr-qpark-nl-8c617207-d177-44f4-80be-82378778b823-maastricht-frontenpark,MAASTRICHT-Frontenpark,0,0.69
 Netherlands,Maastricht,QP07,npr-qpark-nl-e44c6d32-cbbc-4799-9f3e-bd3fce8df172-maastricht-mosae-forum,MAASTRICHT-Mosae Forum,0,0.67
-Netherlands,Maastricht,QP08,npr-qpark-nl-624995d5-77eb-4e9a-ab7b-f36309698e35-maastricht-o-l-vrouweparking,MAASTRICHT-O. L. Vrouweparking,0,0.75
+Netherlands,Maastricht,QP08,npr-qpark-nl-624995d5-77eb-4e9a-ab7b-f36309698e35-maastricht-o-l-vrouweparking,MAASTRICHT-O. L. Vrouweparking,0,0.62
 Netherlands,Maastricht,QP11,npr-qpark-nl-40e10ca2-1bf5-4c5e-ad58-240bc88bb0a2-maastricht-plein-1992,MAASTRICHT-Plein 1992,0,0.64
 Netherlands,Maastricht,QP12,npr-qpark-nl-45b1b090-778f-4a65-99ba-7baf8e0f4413-maastricht-stadspark-i,MAASTRICHT-Stadspark I,0,0.67
 Netherlands,Maastricht,QP13,npr-qpark-nl-af0b223f-cfe3-4e84-8359-2724e26315a1-maastricht-stadspark-ii,MAASTRICHT-Stadspark II,0,0.69
 Netherlands,Maastricht,QP15,npr-qpark-nl-84ae62f4-f650-4c72-875f-a726cb5f2436-maastricht-vrijthof,MAASTRICHT-Vrijthof,0,0.62
+Netherlands,Middelburg,GM03,npr-other-nl-67119b14-972e-4404-95cc-7082438a8357-garage-kousteensedijk-middelburg,Garage Kousteensedijk (Middelburg),-1,1.0
+Netherlands,Middelburg,GM05,npr-other-nl-9404f581-7630-442c-baa5-3778e0131aa7-garage-kanaalweg-middelburg,Garage Kanaalweg (Middelburg),-1,1.0
 Netherlands,Middelburg,QP01,npr-other-nl-e8d34d20-b9f4-4dc7-8664-2adeca574dbf-p-r-segeerssingel-middelburg,P+R Segeerssingel (Middelburg),0,0.69
+Netherlands,Nieuwegein,GN01,npr-other-nl-f72ed684-0fb9-4cbf-8cab-25095b8d3770-garage-cityplaza-nieuwegein,Garage Cityplaza (Nieuwegein),-1,1.0
+Netherlands,Nieuwegein,GN02,npr-other-nl-fceaf79d-517c-4880-924a-f794853105a8-garage-stadhuis-nieuwegein,Garage Stadhuis (Nieuwegein),-1,0.94
+Netherlands,Nijmegen,GN05,npr-other-nl-7bf4c205-9afc-4543-aef6-4a17cff2d91c-garage-dukenburg-nijmegen,Garage Dukenburg (Nijmegen),-1,1.0
 Netherlands,Nijmegen,QP02,npr-other-nl-85d7e2a6-5985-401b-b4be-4665bf247d83-p-r-eerste-oude-heselaan-nijmegen,P+R Eerste Oude Heselaan (Nijmegen),0,0.82
+Netherlands,Oisterwijk,QP01,npr-other-nl-9a11d95d-87bc-4b26-aff8-4cd6f6c2fc75-p-r-spoorlaan-oisterwijk,P+R Spoorlaan (Oisterwijk),-1,1.0
+Netherlands,Oss,GM01,npr-other-nl-a79bf739-5018-4293-b64a-e85ff4d52d01-garage-bergoss-oss,Garage Bergoss (Oss),-1,1.0
+Netherlands,Oss,QP01,npr-other-nl-3cc2d8e4-53ef-48ba-8dda-c97047d16fe1-p-r-gasstraat-oss,P+R Gasstraat (Oss),-1,1.0
 Netherlands,Oud-Beijerland,QP01,npr-qpark-nl-b901a3ed-4940-403d-bd90-7ffab785d967-oud-beijerland-de-veiling,OUD BEIJERLAND-De Veiling,0,0.58
+Netherlands,Ridderkerk,IP01,npr-other-nl-f185aa8a-1b7b-49e3-8254-fec9da116ddb-garage-koningsplein-ridderkerk,Garage Koningsplein (Ridderkerk),-1,1.0
 Netherlands,Ridderkerk,QP01,npr-qpark-nl-268d20ea-635b-410e-95f9-53bb443fceb0-ridderkerk-ridderhof,RIDDERKERK-Ridderhof,0,0.64
 Netherlands,Ridderkerk,QP02,npr-qpark-nl-4f521154-f4ac-473d-ab19-fff1092fb400-ridderkerk-jorishof,RIDDERKERK-Jorishof,0,0.62
 Netherlands,Rijswijk,QP01,npr-qpark-nl-8b9b7099-8b2b-42cb-9e21-6586933c1369-rijswijk-bogaardplein,RIJSWIJK-Bogaardplein,0,0.75
 Netherlands,Rijswijk,QP02,npr-qpark-nl-9266069e-2ffe-4877-825b-186988078e4b-rijswijk-in-de-bogaard-p2,RIJSWIJK-In de Bogaard P2,0,0.76
 Netherlands,Rijswijk,QP03,npr-qpark-nl-d094b7f7-d0ff-44cd-b223-9fc2b26d4dec-rijswijk-in-de-bogaard-p7,RIJSWIJK-In de Bogaard P7,0,0.76
+Netherlands,Roermond,P101,npr-other-nl-98b01d37-38e3-4d1d-bdd0-3aa50245fe18-garage-kazerneplein-roermond,Garage Kazerneplein (Roermond),-1,1.0
+Netherlands,Roermond,P102,npr-other-nl-de52c048-994c-4c44-a052-75bf0d0a285b-garage-stationspark-roermond,Garage Stationspark (Roermond),-1,1.0
 Netherlands,Roermond,QP01,npr-qpark-nl-0889ef23-5a47-43f4-bae9-c84dce36633f-roermond-de-oranjerie,ROERMOND-De Oranjerie,0,0.73
 Netherlands,Roermond,QP02,npr-qpark-nl-9f7c88d2-52dd-4ac0-a8e5-c938d671a0a3-roermond-roercenter,ROERMOND-Roercenter,0,0.71
 Netherlands,Roermond,QP03,npr-other-nl-20018e23-6346-4343-ba81-018a065fe45d-p-r-godsweerdersingel-roermond,P+R Godsweerdersingel (Roermond),0,0.81
 Netherlands,Roermond,QP04,npr-other-nl-189504bb-3926-4fc3-bf7b-5d249d127fe5-p-r-veeladingstraat-roermond,P+R Veeladingstraat (Roermond),0,0.79
+Netherlands,Roosendaal,PBR01,npr-other-nl-02f38b89-a5a7-4df6-8e87-5de543d84440-garage-nieuwe-markt-roosendaal,Garage Nieuwe Markt (Roosendaal),-1,1.0
+Netherlands,Roosendaal,PBR02,npr-other-nl-b7fd59d7-ef6e-4b8b-804d-42ba6bb98dbf-garage-biggelaar-roosendaal,Garage Biggelaar (Roosendaal),-1,1.0
+Netherlands,Roosendaal,PBR03,npr-other-nl-9a2ca410-8fba-4ff7-ab8f-6f1a5398eab0-garage-roselaar-roosendaal,Garage Roselaar (Roosendaal),-1,1.0
+Netherlands,Roosendaal,PBR04,npr-other-nl-d13f96a4-ed41-41ae-88a1-921e9c067e3e-garage-mill-hill-roosendaal,Garage Mill Hill (Roosendaal),-1,1.0
+Netherlands,Roosendaal,PBR05,npr-other-nl-500f53b7-d700-4f9d-818b-72951caf4d40-garage-liga-roosendaal,Garage Liga (Roosendaal),-1,1.0
+Netherlands,Roosendaal,QP01,npr-other-nl-656ec2fe-54a8-4e3c-8118-2182adc93bd1-p-r-stationsplein-roosendaal,P+R Stationsplein (Roosendaal),-1,1.0
+Netherlands,Roosendaal,QP02,npr-other-nl-08e88e8e-9a59-4ea7-9511-4914d75364ee-p-r-stationsstraat-roosendaal,P+R Stationsstraat (Roosendaal),-1,1.0
+Netherlands,Rotterdam,GR01,npr-other-nl-0e8a3ed8-892c-4e7f-9c35-857b5d304821-garage-benthuizerstraat-rotterdam,Garage Benthuizerstraat (Rotterdam),-1,1.0
+Netherlands,Rotterdam,GR02,npr-other-nl-465ebb0c-ebc1-47a0-a922-fff022613d8b-garage-boulevard-zuid-rotterdam,Garage Boulevard Zuid (Rotterdam),-1,1.0
+Netherlands,Rotterdam,GR03,npr-other-nl-8190f650-9eeb-4dde-9f1d-e409987443a7-garage-colosseumweg-rotterdam,Garage Colosseumweg (Rotterdam),-1,1.0
+Netherlands,Rotterdam,GR04,npr-other-nl-37162b11-caae-47a3-9938-2585e73c2738-garage-de-boompjes-rotterdam,Garage De Boompjes (Rotterdam),-1,1.0
+Netherlands,Rotterdam,GR05,npr-other-nl-b0cfb9af-3776-46fc-a65b-c251ff2ed13f-garage-erasmusbrug-rotterdam,Garage Erasmusbrug (Rotterdam),-1,1.0
+Netherlands,Rotterdam,GR06,npr-other-nl-797f2e9b-cd22-45cc-b650-2929ffb228df-garage-hoogvliet-centrum-rotterdam,Garage Hoogvliet Centrum (Rotterdam),-1,1.0
+Netherlands,Rotterdam,GR07,npr-other-nl-e6263312-3060-4540-b045-4bcd9b48616e-garage-kiphof-rotterdam,Garage Kiphof (Rotterdam),-1,1.0
+Netherlands,Rotterdam,GR08,npr-other-nl-38e7695d-6b7d-4604-8997-22a71cc23ed6-garage-lusthofstraat-rotterdam,Garage Lusthofstraat (Rotterdam),-1,1.0
+Netherlands,Rotterdam,GR09,npr-other-nl-542b3d26-26fa-4c97-952a-b4a8de9b295a-garage-mathenesserplein-rotterdam,Garage Mathenesserplein (Rotterdam),-1,1.0
+Netherlands,Rotterdam,GR10,npr-other-nl-68906fa5-4cd6-4a2e-bd3b-e40e5e174399-garage-meent-rotterdam,Garage Meent (Rotterdam),-1,1.0
+Netherlands,Rotterdam,GR11,npr-other-nl-fe3e4d9d-06cc-417d-9592-c870a7b61844-garage-museumpark-rotterdam,Garage Museumpark (Rotterdam),-1,1.0
+Netherlands,Rotterdam,GR12,npr-other-nl-7bcb3b0a-2552-491b-92dc-d0156d0d7bc4-garage-nieuwe-binnenweg-rotterdam,Garage Nieuwe Binnenweg (Rotterdam),-1,0.97
+Netherlands,Rotterdam,GR13,npr-other-nl-68e974a1-fe30-495f-8f41-e3402f942e8c-garage-oude-haven-rotterdam,Garage Oude Haven (Rotterdam),-1,1.0
+Netherlands,Rotterdam,GR14,npr-other-nl-df043218-d4ff-44d1-9e01-6f0476f046cc-garage-schouwburgplein-1-rotterdam,Garage Schouwburgplein 1 (Rotterdam),-1,1.0
+Netherlands,Rotterdam,GR15,npr-other-nl-4cec63f2-1432-4ca1-8629-b98165a9ade8-garage-schouwburgplein-2-rotterdam,Garage Schouwburgplein 2 (Rotterdam),-1,1.0
+Netherlands,Rotterdam,GR16,npr-other-nl-d16bc891-6f7d-4f90-945d-236601dbcb83-garage-veranda-rotterdam,Garage Veranda (Rotterdam),-1,1.0
+Netherlands,Rotterdam,PB01,npr-other-nl-b3694638-3100-4bb9-b013-e43f6e0c6f47-garage-arrivals-parking-rotterdam,Garage Arrivals Parking (Rotterdam),-1,1.0
 Netherlands,Rotterdam,QP01,npr-qpark-nl-dc0e7717-f48e-4d02-a417-2fbe5f9fe137-rotterdam-alexandrium-megastores,ROTTERDAM-Alexandrium Megastores,0,0.82
 Netherlands,Rotterdam,QP02,npr-qpark-nl-19374849-cd1d-442b-83a0-460bbf97cbc8-rotterdam-boston-seattle,ROTTERDAM-Boston & Seattle,140,0.62
+Netherlands,Rotterdam,QP03,npr-qpark-nl-d6f2324a-9011-490d-8ae2-56d448a7775b-rotterdam-coolsingel,ROTTERDAM-Coolsingel,-1,1.0
 Netherlands,Rotterdam,QP04,npr-qpark-nl-f3fb9d47-925a-4c1d-a488-bb8b32a0b9fb-rotterdam-de-bijenkorf,ROTTERDAM-de Bijenkorf,0,0.71
 Netherlands,Rotterdam,QP05,npr-qpark-nl-c7102320-9240-49eb-9926-b4a8b8ac3851-rotterdam-de-rotterdam,ROTTERDAM-De Rotterdam,0,0.71
 Netherlands,Rotterdam,QP07,npr-qpark-nl-bec4a95b-3e7d-4aa0-bb1d-c601138a434e-rotterdam-hart-van-zuid,ROTTERDAM-Hart van Zuid,0,0.71
@@ -514,28 +751,57 @@ Netherlands,Rotterdam,QP11,npr-other-nl-32b5007c-91bd-4a4d-b54a-13a05e89d402-p-r
 Netherlands,Rotterdam,QP12,npr-qpark-nl-0070382f-f7a6-4d55-b91d-29402f67214e-rotterdam-rijnhaven,ROTTERDAM-Rijnhaven,0,0.67
 Netherlands,Rotterdam,QP14,npr-qpark-nl-919e5fc2-044c-4e64-98d6-92f817c4ed1d-rotterdam-schiecentrale,ROTTERDAM-Schiecentrale,0,0.74
 Netherlands,Rotterdam,QP15,npr-qpark-nl-5725a5e8-1a65-4638-9e0d-e17ebc755db5-rotterdam-weena,ROTTERDAM-Weena,0,0.53
+Netherlands,Rotterdam,QP16,npr-other-nl-6e8f92ee-1205-43b6-881e-28667a1f397f-garage-westblaak-rotterdam,Garage Westblaak (Rotterdam),-1,1.0
 Netherlands,Rotterdam,QP17,npr-qpark-nl-4941ea95-3e0e-4577-8ba9-45f427cc95dd-rotterdam-woonmall-alexandrium,ROTTERDAM-Woonmall Alexandrium,0,0.81
 Netherlands,Rotterdam,QP18,npr-qpark-nl-05088c15-1e54-4e0e-b66d-e9449bf464de-rotterdam-zorgboulevard,ROTTERDAM-Zorgboulevard,0,0.74
 Netherlands,Rotterdam,QP20,npr-qpark-nl-b24d0215-1b24-4933-9323-82878048f1c3-rotterdam-zuidplein-1,ROTTERDAM-Zuidplein 1,0,0.69
 Netherlands,Rotterdam,QP21,npr-qpark-nl-6c1a9828-e22b-4ac9-9ea2-df39fa8916f9-rotterdam-zuidplein-2,ROTTERDAM-Zuidplein 2,0,0.69
+Netherlands,Schiedam,GS01,npr-other-nl-b11dc298-9570-4d94-af7d-1842fb9ba928-garage-stadserf-schiedam,Garage Stadserf (Schiedam),-1,1.0
+Netherlands,Schiedam,NP01,npr-other-nl-d3db3e64-e574-4b18-a0bc-71085d1c1925-garage-nieuwe-passage-schiedam,Garage Nieuwe Passage (Schiedam),-1,1.0
 Netherlands,Schiedam,QP01,npr-other-nl-287934d1-9679-4e1d-9351-36afba67dacc-p-r-horvathweg-schiedam,P+R Horvathweg (Schiedam),0,0.71
+Netherlands,Sittard,IP02,npr-other-nl-0ab22d18-c120-42f1-8acb-33a602119b74-garage-abc-sittard,Garage ABC (Sittard),-1,1.0
+Netherlands,Sittard,IP03,npr-other-nl-a99c231a-fb32-4780-87c3-eb99fb85c84e-garage-hub-dassenplein-sittard,Garage Hub Dassenplein (Sittard),-1,1.0
+Netherlands,Sittard,QP01,npr-other-nl-46fa33ae-878c-4afa-b231-9930ee1fb073-p-r-transferium-sittard,P+R Transferium (Sittard),-1,1.0
+Netherlands,Utrecht,GU03,npr-other-nl-ed1ecb9f-bbf1-4578-97c7-16cd3ed8b4da-garage-de-grifthoek-utrecht,Garage De Grifthoek (Utrecht),-1,1.0
+Netherlands,Utrecht,GU05,npr-other-nl-5c7a3167-55bd-441f-bd09-60e97503a603-garage-kruisstraat-utrecht,Garage Kruisstraat (Utrecht),-1,1.0
+Netherlands,Utrecht,GU06,npr-other-nl-558ec6d7-e8e1-4683-8206-84e3f73caa6b-garage-springweg-utrecht,Garage Springweg (Utrecht),-1,1.0
 Netherlands,Utrecht,QP01,npr-qpark-nl-361b771e-4754-41ac-b566-ebd60f9e471a-utrecht-galgenwaard,UTRECHT-Galgenwaard,0,0.76
 Netherlands,Utrecht,QP02,npr-qpark-nl-13019d30-1366-4b1b-9b61-58a42e355dc1-utrecht-galgenwaard-noord,UTRECHT-Galgenwaard Noord,0,0.82
 Netherlands,Utrecht,QP04,npr-qpark-nl-ded2fb4e-c545-4ecf-8edf-54c45bd9511e-utrecht-la-vie,UTRECHT-La Vie,0,0.59
 Netherlands,Valkenburg aan de Geul,QP01,npr-other-nl-2a40bf32-ae3b-4bc8-a3af-3224382b0b3e-p-r-spoorlaan-valkenburg-aan-de-geul,P+R Spoorlaan (Valkenburg aan de Geul),0,0.49
+Netherlands,Veenendaal,GV02,npr-other-nl-38b7b9d8-8108-42bc-b21e-276be97aa08c-garage-tricotage-veenendaal,Garage Tricotage (Veenendaal),-1,1.0
+Netherlands,Veenendaal,GV03,npr-other-nl-d022d2fa-98e1-4623-b54a-bd01ee4eb6d6-garage-arie-van-hensbergen-veenendaal,Garage Arie van Hensbergen (Veenendaal),-1,1.0
 Netherlands,Veenendaal,QP01,npr-qpark-nl-ff4177bb-71c1-45af-89c7-05064d598ece-veenendaal-corridor,VEENENDAAL-Corridor,0,0.62
 Netherlands,Veenendaal,QP02,npr-qpark-nl-4ccfad20-6419-479a-9685-d271beddee92-veenendaal-passage,VEENENDAAL-Passage,0,0.58
+Netherlands,Veenendaal,SC01,npr-other-nl-a32d6153-7f95-40dd-a912-91f9eefeb419-parkeergarage-scheepjeshof-veenendaal,Parkeergarage Scheepjeshof (Veenendaal),-1,1.0
 Netherlands,Venlo,QP01,npr-qpark-nl-0690f003-ebc0-4ff5-bec1-199cbd488987-venlo-arsenaal,VENLO-Arsenaal,0,0.76
 Netherlands,Venlo,QP02,npr-qpark-nl-cc21b37a-710d-4ee6-9541-99de9035c20e-venlo-centrum-maasboulevard,VENLO-Centrum Maasboulevard,0,0.89
 Netherlands,Venlo,QP03,npr-qpark-nl-b9efc9ba-8fe6-4e25-9eca-48ed6ef1aac3-venlo-roermondsepoort,VENLO-Roermondsepoort,0,0.86
 Netherlands,Venlo,QP04,npr-qpark-nl-d4ae2345-7dc8-404c-b1a1-9f0def5e7cb4-venlo-maaswaard,VENLO-Maaswaard,0,0.78
 Netherlands,Venlo,QP05,npr-qpark-nl-46c0c819-ab79-4eec-bc0d-4ded8aa32028-venlo-nolensplein,VENLO-Nolensplein,0,0.81
 Netherlands,Venlo,QP06,npr-qpark-nl-fe4aabe2-03f9-45d3-913d-3d96565238e2-venlo-blok-van-gendt,VENLO-Blok van Gendt,0,0.83
+Netherlands,Vlaardingen,QP01,npr-other-nl-953eec27-3077-4c28-84df-0d4248d45b08-garage-hoogstraat-vlaardingen,Garage Hoogstraat (Vlaardingen),-1,1.0
+Netherlands,Vlaardingen,QP02,npr-other-nl-226e334b-3fdd-4aaa-bddf-a6b10a3c98ee-garage-liesveld-vlaardingen,Garage Liesveld (Vlaardingen),-1,1.0
+Netherlands,Vlaardingen,QP03,npr-other-nl-97a243f4-d0d9-4224-b0c1-72a9566bb677-garage-stadhuis-vlaardingen,Garage Stadhuis (Vlaardingen),-1,1.0
+Netherlands,Weert,GW01,npr-other-nl-a456820b-5747-4192-9261-189e77d37d96-parkeergarage-poort-van-limburg-weert,Parkeergarage Poort van Limburg (Weert),-1,1.0
+Netherlands,Weert,GW03,npr-other-nl-5d3eac2f-a0dc-44fd-9630-0be2a8676280-ursulinengarage-weert,Ursulinengarage (Weert),-1,1.0
+Netherlands,Weert,GW05,npr-other-nl-825ab397-1082-4179-a2d6-3b46ff171506-parkeergarage-centrum-weert,Parkeergarage Centrum (Weert),-1,1.0
+Netherlands,Weert,GW06,npr-other-nl-f04c87be-5d1e-41a3-9a9d-973878934809-parkeergarage-stationsplein-weert,Parkeergarage Stationsplein (Weert),-1,1.0
+Netherlands,Weert,QP01,npr-other-nl-2190c694-e24f-4b6c-a10b-d84b90945078-p-r-parallelweg-weert,P+R Parallelweg (Weert),-1,1.0
+Netherlands,Woerden,GW01,npr-other-nl-452669d1-db9f-4bb3-a676-6918844b62ff-garage-castellum-woerden,Garage Castellum (Woerden),-1,1.0
+Netherlands,Woerden,QP01,npr-other-nl-83c0ebb3-ef4b-49bd-b15d-e30fc58902bf-p-r-spoorlaan-woerden,P+R Spoorlaan (Woerden),-1,1.0
+Netherlands,Zaandam,IP01,npr-other-nl-a932e77a-2232-4105-89da-64bee2cf399f-garage-zaans-medisch-centrum-zaandam,Garage Zaans Medisch Centrum (Zaandam),-1,1.0
 Netherlands,Zaandam,QP01,npr-qpark-nl-6f0c95e1-3ce6-4795-ac53-3a125abb66d6-zaandam-hermitage,ZAANDAM-Hermitage,0,0.72
 Netherlands,Zaandam,QP02,npr-qpark-nl-b2206eb1-6623-483d-85e3-8d6196b96ec4-zaandam-rozenhof,ZAANDAM-Rozenhof,0,0.7
+Netherlands,Zaandam,QP03,npr-other-nl-3509fe81-59aa-47a7-a7ba-6d881d9a24fd-p-r-provincialeweg-zaandam,P+R Provincialeweg (Zaandam),-1,1.0
 Netherlands,Zutphen,IP01,npr-other-nl-3c539ca0-2661-459c-9450-a829b73cb9fb-gelre-ziekenhuizen-zutphen,Gelre Ziekenhuizen (Zutphen),10,0.72
+Netherlands,Zwijndrecht,QP01,npr-other-nl-c1aee7fe-47b9-48d8-98d0-6bc9aa033e6e-p-r-westelijke-parallelweg-zwijndrecht,P+R Westelijke parallelweg (Zwijndrecht),-1,1.0
+Netherlands,Zwolle,GZ02,npr-other-nl-92649a4d-67f8-4148-abc5-82cc95dedba3-parkeergarage-katwoldeplein-zwolle,Parkeergarage Katwoldeplein (Zwolle),-1,0.96
+Netherlands,Zwolle,GZ03,npr-other-nl-68d5fcce-596d-4f6d-97d5-e67f6f644ac7-parkeergarage-diezerpoort-zwolle,Parkeergarage Diezerpoort (Zwolle),-1,1.0
+Netherlands,Zwolle,GZ06,npr-other-nl-9e43035c-6707-4b47-a263-d62f0c5d5f84-parkeergarage-luebeckplein-zwolle,Parkeergarage Lübeckplein (Zwolle),-1,1.0
 Netherlands,Zwolle,QP01,npr-qpark-nl-27821ffa-cbe5-4fef-b5c6-2000da03a95a-zwolle-centrum,ZWOLLE-Centrum,0,0.7
 Netherlands,Zwolle,QP02,npr-qpark-nl-b6b6f67c-9366-4cb4-a11c-938780e1008e-zwolle-maagjesbolwerk,ZWOLLE-Maagjesbolwerk,0,0.82
+Netherlands,Zwolle,QP03,npr-qpark-nl-ee748840-6d7e-4be6-980e-5e26ba76ba24-zwolle-p-r-zwolle,ZWOLLE-P+R Zwolle,-1,1.0
 UK,Belfast,NCP01,dft-uk-carparks-2258,NCP Montgomery Street Car Park,10,1.0
 UK,Belfast,QP01,dft-uk-carparks-4930,Q Park Victoria Square,223,0.85
 UK,Birmingham,AP01,dft-uk-carparks-7588,APCOA (Rail) Birmingham New Street Short Stay,173,0.84

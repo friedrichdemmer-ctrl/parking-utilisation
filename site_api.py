@@ -281,7 +281,16 @@ def api_briefing():
     country, city = request.args.get("country", ""), request.args.get("city", "")
 
     def build():
-        return city_briefing.build(country, city, list(_report()["garages"].values()), _trends())
+        out = city_briefing.build(country, city, list(_report()["garages"].values()), _trends())
+        if out is not None:
+            import freshness
+
+            conn = _db()
+            try:
+                out["data"] = freshness.of_city(conn, out.get("measured_ids") or [])
+            finally:
+                conn.close()
+        return out
 
     out = _cached(f"briefing:{country}|{city}", 3600, build)
     if out is None:
@@ -388,6 +397,7 @@ def api_city(city: str):
     skip = _excluded(conn)
     rows = [r for r in conn.execute(f"SELECT {GARAGE_COLS} FROM lots_meta WHERE city_name = ? AND num_all IS NOT NULL", (city,))
             if r[0] not in skip and (country is None or _country(r[6]) == country)]
+    freshness = __import__("freshness").of_rows([(r[6], r[7]) for r in rows])
     conn.close()
     if not rows:
         return jsonify({"error": "No garages with a known capacity in this city."}), 404
@@ -417,6 +427,7 @@ def api_city(city: str):
         "capacity": sum(g["capacity"] for g in garages),
         "now": round(sum(g["now"] * g["capacity"] for g in live) / sum(g["capacity"] for g in live)) if live else None,
         "local_map": __import__("competitive").garages().get((garages[0]["country"], city)) is not None,
+        "data": freshness,
         "profile": profile if profiled else None, "profiled": len(profiled), "window": report["window"],
         "prices": {"garages": len(priced), "median_rate": rates[len(rates) // 2] if rates else None,
                    "min_rate": rates[0] if rates else None, "max_rate": rates[-1] if rates else None,

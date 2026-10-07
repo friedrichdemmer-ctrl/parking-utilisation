@@ -233,6 +233,7 @@ def build(country: str, city: str, util_garages: list[dict], trends: dict | None
         "garages": len(comp) or len(measured), "spaces": sum(r["spaces"] for r in rows.values()),
         "research_set": bool(comp),
         "measured": len(measured),
+        "measured_ids": [g["id"] for g in measured],
         "operators": operators,
         "price_occupancy": {"r": _pearson(xs, ys), "n": len(xs)},
         "ev": {"with_ev": sum(1 for v in ev_vals if v), "recorded_no": sum(1 for v in ev_vals if v is False),

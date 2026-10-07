@@ -26,6 +26,11 @@ the row for a city before trusting its numbers.
 
 `links.csv` -- which of these garages is also one of ours (a garage we measure occupancy for),
 matched by location, name and capacity; see `competitive_links.py`. Garages without a link have a
-price but no occupancy.
+price but no occupancy. A `dist_m` of -1 marks a row matched on name alone, within the same city,
+because our feed publishes no coordinates for that garage (Hamburg, Dresden, Bonn, Lübeck, Nürnberg,
+the Dutch national register and others); those rows need a much closer name agreement to be accepted.
+A missing link is not harmless: the city briefing then counts the same garage twice, once from the
+price list and once from the occupancy feed (Bonn read as 20 garages and 8,721 spaces before the
+name pass linked its seven BCP garages).
 
 The site reads this through `competitive.py`. Regenerate `links.csv` after either side gains garages.
