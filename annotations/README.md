@@ -28,10 +28,10 @@ Per-city notes shown in the city briefing on Explore (city_briefing.py, /api/bri
 
 Drafts and verdicts stay in the repo as the audit trail but are kept out of the Docker image.
 Proposals, plans and forecasts must stay worded as such; never state a price as in force unless the
-source says it is. Refresh each quarter. Researched and written 2026-10-06 (43 cities): Düsseldorf, Dresden, Bielefeld, Osnabrück, Frankfurt,
+source says it is. Refresh each quarter. Researched and written 2026-10-06 (46 cities): Düsseldorf, Dresden, Bielefeld, Osnabrück, Frankfurt,
 Amsterdam, Hamburg, Nürnberg, Lyon, Heidelberg, Zürich, Basel, Bordeaux, Mannheim, Münster, Torino,
-Nantes, Strasbourg, Dortmund, Freiburg, Karlsruhe, Heilbronn, Madrid, Marseille, Salzburg, Luxembourg, Bolzano, Jena, Bochum, Bonn, Lille, Vigo, Firenze, Helsinki, Gent, Regensburg, Kassel, Augsburg, Leipzig, Ulm, Wiesbaden, Trier, Potsdam.
-Candidates next (cities with measured or priced data only): Málaga, Newcastle upon Tyne, La Rochelle, Lübeck, St. Gallen, Ingolstadt, Oldenburg.
+Nantes, Strasbourg, Dortmund, Freiburg, Karlsruhe, Heilbronn, Madrid, Marseille, Salzburg, Luxembourg, Bolzano, Jena, Bochum, Bonn, Lille, Vigo, Firenze, Helsinki, Gent, Regensburg, Kassel, Augsburg, Leipzig, Ulm, Wiesbaden, Trier, Potsdam, Málaga, Newcastle upon Tyne, La Rochelle.
+Candidates next (cities with measured or priced data only): Lübeck, St. Gallen, Ingolstadt, Oldenburg.
 Sources a page itself labels as AI-written are not cited (Torino's via Roma item).
 
 

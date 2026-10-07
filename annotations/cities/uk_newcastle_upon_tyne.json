@@ -1,0 +1,181 @@
+{
+ "country": "UK",
+ "city": "Newcastle upon Tyne",
+ "researched": "2026-10-07",
+ "verified": "2026-10-07",
+ "summary": "Newcastle's Clean Air Zone has charged non-compliant taxis, buses, coaches and HGVs since 30 January 2023 and non-compliant vans £12.50 a day since 17 July 2023, but not private cars, and the council has proposed removing traffic from Blackett Street, New Bridge Street West and northern Pilgrim Street as part of its £50 million city-centre programme (the sources seen report plans and a March 2022 Cabinet review, not a final decision). In 2022 the council confirmed city-centre parking charges would run to 7pm and Sunday parking would move from a £3 fixed charge to standard hourly rates, and its November 2025 table shows surface car parks such as Ellison Place at £2.30 an hour and St Georges at £1.50, free from 7pm to 8am. Metro park and ride sites charge a flat £1.80 a day (6am-5pm Monday to Saturday), free after 5pm and on Sundays.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2020-01",
+   "text": "On 10 January 2020 Newcastle City Council announced proposals to transform the city centre's main shopping area, the biggest being to make Blackett Street traffic-free with buses re-routed; new delivery and servicing arrangements would also apply to businesses on Northumberland Street, Clayton Street, Nelson Street, Grey Street and Grainger Street, and taxi ranks, loading bays, on-street and disabled parking would be reorganised, with a consultation running until 31 January 2020.",
+   "source_title": "Ambitious Plans for City Centre Unveiled",
+   "source_url": "https://www.newcastle.gov.uk/citylife-news/transport/ambitious-plans-city-centre-unveiled",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-03",
+   "text": "On 17 March 2022 the council said its Cabinet would review the consultation feedback on pedestrianising Blackett Street, New Bridge Street West and northern Pilgrim Street on 21 March 2022; objectors feared the changes would be harder for older and disabled people, and if approved the matter might be referred to the Planning Inspectorate for a public inquiry. (The page reports no final decision.)",
+   "source_title": "Next steps for city centre traffic proposals to be decided",
+   "source_url": "https://www.newcastle.gov.uk/citylife-news/transport/next-steps-city-centre-traffic-proposals-be-decided",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-01",
+   "text": "The Newcastle and Gateshead Clean Air Zone launched on 30 January 2023 with charges for non-compliant taxis, buses, coaches and HGVs; private cars are not affected. The council confirmed on 15 May 2023 that non-compliant vans and light goods vehicles would be charged £12.50 a day from Monday 17 July 2023; the zone covers most of the city centre including the Tyne, Swing, High Level and Redheugh bridges.",
+   "source_title": "Clean Air Zone Charging Date for Vans Confirmed",
+   "source_url": "https://newcastle.gov.uk/citylife-news/transport/clean-air-zone-charging-date-vans-confirmed",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-11",
+   "text": "On 18 November 2025 the council announced the Clean Air Zone grants scheme would close on 30 January 2026; more than £5.5 million had been distributed to over 1,100 businesses, tradespeople and taxi drivers, any remaining funds were to go towards upgrading older bus fleets, and the zone was introduced following a government legal order to reduce illegal pollution levels.",
+   "source_title": "Clean Air Zone grants scheme to end next year",
+   "source_url": "https://new.newcastle.gov.uk/news/2025/clean-air-zone-grants-scheme-end-next-year",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2022-07",
+   "text": "On 8 July 2022 the council amended its proposals after about 650 objections and 25 in favour: charges would run to 7pm, not 10pm, in city-centre car parks and on-street bays, Sunday parking would move to standard hourly rates instead of the £3 fixed charge, and Manors and Quayside multi-storeys would charge until 6pm, with implementation expected by August 2022. The page links the extension to the withdrawal of 'Alive after Five' funding, which had allowed free parking from 5pm to 10pm.",
+   "source_title": "Proposals amended for car parking charges following public consultation",
+   "source_url": "https://newcastle.gov.uk/citylife-news/proposals-amended-car-parking-charges-following-public-consultation",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-01",
+   "text": "On 22 January 2024 the council set out proposed changes to most hourly and daily parking rates from April 2024 as part of an annual review: a 10p rise in the hourly rate for car parks outside the Clean Air Zone and 20p within the zone and on all on-street bays, and a £1 rise in the fixed daily rate in car parks (Kingston Park and Manors unchanged), to manage demand for parking and alleviate congestion; Blue Badge holders would continue to receive an hour of free parking at council-run car parks.",
+   "source_title": "Proposed changes to parking charges",
+   "source_url": "https://newcastle.gov.uk/citylife-news/transport/proposed-changes-parking-charges",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-11",
+   "text": "Newcastle City Council's off-street charges table (file dated 13.11.25) lists these multi-storey car parks, hourly rates and spaces: Dean Street £2.30 (257 spaces), Eldon Garden £2.60 or £13 fixed (445), Eldon Square £2.90 (497) and Grainger Town £1.70 or £11 fixed (401), all charged 8am-7pm, and Manors £1.40 or £10 fixed, charged Monday-Saturday 8am-6pm (486 spaces; £3 fixed charge on Sundays). Eldon Square and Eldon Garden are free from 7pm to 8am.",
+   "source_title": "MULTI-STOREY CAR PARKS (Newcastle City Council off-street parking charges, 13.11.25)",
+   "source_url": "https://www.newcastle.gov.uk/sites/default/files/2025-11/Parking%20charges%20off%20street%2013.11.25.docx",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-11",
+   "text": "The same council table lists the surface car parks Ellison Place (£2.30 an hour, 8am-7pm, 119 spaces) and St Georges (£1.50 an hour, 8am-7pm, 139 spaces), both free from 7pm to 8am, and states that since 1 July 2021 disabled badge holders pay charges with a one-hour grace period beyond the paid session.",
+   "source_title": "MULTI-STOREY CAR PARKS (Newcastle City Council off-street parking charges, 13.11.25)",
+   "source_url": "https://www.newcastle.gov.uk/sites/default/files/2025-11/Parking%20charges%20off%20street%2013.11.25.docx",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-09",
+   "text": "A council consultation starting on 15 September 2025 (the page text says it ends on 7 October 2025; its date field reads 8 October 2025) proposed that Grainger Town and Dean Street multi-storey car parks remain open 24 hours on Saturdays and Sundays and introduce a charge of 50p an hour between 7pm and midnight on Fridays and Saturdays; the results page thanks participants and refers to a news article headed 'Overnight parking in city multi-storeys given green light'. The council's later charges table (13.11.25) shows the 50p evening rate and all-times weekend opening at both car parks.",
+   "source_title": "Proposed Variation to the City of Newcastle upon Tyne (Off-Street Parking Places) Order 2021 - Dean Street MSCP and Grainger Town MSCP",
+   "source_url": "https://www.letstalknewcastle.co.uk/results/564",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-07",
+   "text": "A statutory notice dated 10 July 2026 (effective Monday 3 August 2026) raised on-street permit fees in most zones: first resident permit from £25 to £35, second from £75 to £90, third from £75 to £110, visitor permit from £25 to £35; city-centre resident annual permits rose from £500 to £550 and city-centre business annual permits from £1,200 to £1,500, with no change to the Low Emission Discounts.",
+   "source_title": "Newcastle Upon Tyne - Waiting Restrictions and on Street Parking Places (Public Notice Portal)",
+   "source_url": "https://publicnoticeportal.uk/notice/traffic-and-roads/6a50dff5d8b88b706e25e395",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-07",
+   "text": "Pilgrim Street improvement works (£6.2m: £4.3m Local Growth Fund, £1.9m council) included new paving, resurfacing, a two-way cycle lane and better crossings; from 31 July 2023 vehicles could travel only northbound on Pilgrim Street, with the southbound route on Grey Street, and completion was scheduled for summer 2024.",
+   "source_title": "Drivers advised of traffic changes on Pilgrim Street",
+   "source_url": "https://new.newcastle.gov.uk/news/2023/drivers-advised-traffic-changes-pilgrim-street",
+   "confidence": "high",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06",
+   "text": "Improvements to Gallowgate and Percy Street are due to begin in May 2026, with Eldon Square Bus Station closed from 10 to 29 June 2026 for resurfacing and main works at the Gallowgate/Percy Street junction (new traffic signals, upgraded crossings) starting 29 June 2026 for about six months, backed by the North East Mayoral Strategic Authority.",
+   "source_title": "City Centre: Gallowgate and Percy Street",
+   "source_url": "https://new.newcastle.gov.uk/travel/improvements/gallowgate",
+   "confidence": "high",
+   "id": 17,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026",
+   "text": "Travel North East's Metro car parking page gives a £1.80 daily flat tariff via PayByPhone, charged 6am-5pm Monday to Saturday, free after 5pm and all day Sunday; it lists Bank Foot, Callerton Parkway and Regent Centre among the sites with free Sunday parking, and digital permits of £24.00 (four weeks) or £295.00 (annual).",
+   "source_title": "Metro Car Parking - Travel North East",
+   "source_url": "https://travelnortheast.uk/ways-to-travel/metro/information/car-parking/",
+   "confidence": "medium",
+   "id": 21,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-12",
+   "text": "Newcastle Airport unveiled a free 'Airport Waiting Zone' at Callerton Parkway, next to the Metro station, allowing up to 90 minutes of free parking for pick-ups; according to the page (published 30 December 2025) a free electric shuttle bus to the terminal every 30 minutes was to begin on 6 January 2026, and the 15-minute free drop-off at Short Stay 2 was to end once the shuttle launched. The airport projected about six million passengers in 2026.",
+   "source_title": "Newcastle Airport's Free 90-Minute Waiting Zone at Callerton Parkway",
+   "source_url": "https://www.aph.com/community/holidays/newcastle-airports-new-waiting-zone-at-callerton-parkway-provides-up-to-90-minutes-of-free-parking-for-those-picking-up-arriving-passengers/",
+   "confidence": "medium",
+   "id": 22,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-11",
+   "text": "The council's off-street table records electric vehicle charging points at five of its multi-storey car parks: Eldon Garden 5, Dean Street 3, Eldon Square 3, Grainger Town 2 and Quayside 2; it also lists 14 EV charging bays for disabled users at The Garage at Helix and 11 EV charging points at the Civic Centre surface car park.",
+   "source_title": "MULTI-STOREY CAR PARKS (Newcastle City Council off-street parking charges, 13.11.25)",
+   "source_url": "https://www.newcastle.gov.uk/sites/default/files/2025-11/Parking%20charges%20off%20street%2013.11.25.docx",
+   "confidence": "medium",
+   "id": 24,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026",
+   "text": "Newcastle United states there are 'no unreserved public car parks on event days at St. James' Park', recommends public transport, runs matchday park and ride from the MetroCentre, and closes a section of Barrack Road to traffic for up to 45 minutes after the final whistle; St James' Metro station sits beside the stadium.",
+   "source_title": "Travelling to St. James' Park | NUFC",
+   "source_url": "https://www.newcastleunited.com/en/matchday-information-hub/travelling-to-st-james-park",
+   "confidence": "medium",
+   "id": 25,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "Whether the Blackett Street / New Bridge Street West / northern Pilgrim Street traffic removal was shelved (reports of a 2022 pause were only in blocked sources); outcome of the 21 March 2022 Cabinet decision not sourced",
+  "Newcastle World pages (403 blocked) and ITV page (timed out) could not be opened, so April 2024 tariff outcome, the Callerton Parkway expansion (192 to 349 bays, 36 EV points) and the 2025 CAZ air-quality update are unsourced",
+  "Nexus news pages for Metro park and ride changes, Bank Foot / Callerton Parkway works and Metro closures returned 404, so no dated Nexus primary item on park and ride growth or closures",
+  "Private operators (NCP, APCOA, Q-Park) and Eldon Square owner details: no opened source; Eldon Square ownership only from one trade article",
+  "Newcastle Local Plan parking policy, CPZ/permit policy detail beyond the 2026 fee notice, Stack / Forth Yards, Pilgrim Street surface car park closures, Utilita Arena and university/hospital demand: not sourced",
+  "Capacities for Bank Foot, Regent Centre, Manors-adjacent Metro sites not found; measured counts (e.g. Ellison Place 126, Grainger Town 410) differ slightly from the council table (119, 401)",
+  "No dated source for Workplace Parking Levy adoption (only an opposition proposal) or Sunday charging beyond 2021-22 council proposals"
+ ],
+ "dropped": {
+  "low confidence": 11
+ }
+}

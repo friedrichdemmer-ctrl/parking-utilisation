@@ -1,0 +1,275 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Page fetched; title (sentence case 'Ambitious plans for city centre unveiled'), date 10 Jan 2020 and consultation to 31 Jan 2020 confirmed. Blackett Street 'planned to be traffic free with buses re-routed' is confirmed. But the page says only the new DELIVERY AND SERVICING arrangements would also apply to Northumberland Street, Clayton Street, Nelson Street, Grey Street and Grainger Street; 'similar arrangements were proposed' for those streets overstates it as if they were also to be traffic-free. Overlaps with items 1 and 2 (same Blackett Street scheme).",
+   "corrected_text": "On 10 January 2020 Newcastle City Council announced proposals to transform the city centre's main shopping area, the biggest being to make Blackett Street traffic-free with buses re-routed; new delivery and servicing arrangements would also apply to businesses on Northumberland Street, Clayton Street, Nelson Street, Grey Street and Grainger Street, and taxi ranks, loading bays, on-street and disabled parking would be reorganised, with a consultation running until 31 January 2020.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Page fetched; title and date 15 March 2021 match. £50m programme, 'over £20million' secured, Grey Street to 'ultimately become' the primary pedestrian route to Quayside, and 'plans to remove vehicle traffic from Blackett Street' all confirmed (phrased as plans, matching the draft). Overlaps with items 0 and 2 (Blackett Street pedestrianisation).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Page fetched (URL redirects to /consultations/338/participate, same consultation). Title, 13 Sep-15 Oct 2021, 'vast majority of vehicular traffic', bus loop streets, removal of on-street pay-and-display and 'more than 700 responses' all confirmed. Written as a proposal, correctly. Overlaps with items 0, 1, 3.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Page fetched; title and date 17 March 2022 match. Cabinet on Monday 21 March; objectors feared it might be harder for older and disabled people; Cabinet to decide whether to proceed and refer to Secretary of State/Planning Inspectorate for a public inquiry. No decision reported, as the draft states. Draft's 'if approved' wording is slightly loose but not wrong.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Page fetched (dated 15 May 2023). CAZ launched 30 January with charges for non-compliant taxis, buses, coaches and HGVs; private cars not affected; £12.50/day for non-compliant vans from Monday 17 July; zone covers most of city centre incl. Tyne, Swing, High Level and Redheugh bridges routes. All confirmed. Page title is 'Clean Air Zone charging date for vans confirmed' (casing only differs).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Page fetched; dated 12 December 2023. Scheme paused from 17 December 2023 for review, relaunch in February 2024 with revised eligibility, applications made/submitted before the deadline processed with temporary CAZ exemption. All confirmed. Lower value: scheme administration, not parking.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Page fetched; dated 18 November 2025. Scheme closing 30 January 2026, 'more than £5.5m' paid to over 1,100 businesses, tradespeople and taxi drivers, remaining funding redirected to older bus fleets, CAZ introduced in response to a government legal order. All confirmed. Lower value for parking.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Page fetched; title and date 5 Nov 2021 match; current hours (6.30pm on-street, 5pm multi-storey, 6pm surface) and 10pm proposal confirmed; stated as proposals subject to statutory consultation. However the exclusion of Claremont Road and the Manors and Quayside multi-storeys is stated for the 10pm extension only; the Sunday change is described as removing the £3 fixed charge at car parks within the core city centre area, with car parks outside that area unaffected. Draft applies the exclusion to both. Superseded by item 8 (amended proposals) - overlap, could be merged.",
+   "corrected_text": "On 5 November 2021 the council proposed extending city-centre parking charge hours to 10pm (then 6.30pm on-street, 5pm in multi-storeys, 6pm at surface car parks), excluding the Claremont Road car park and the Manors and Quayside multi-storeys, and, on Sundays, removing the fixed £3 per day charge at car parks in the core city-centre area in favour of the standard hourly rate; the proposals were subject to statutory consultation.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Page fetched; title and date 8 July 2022 match. Charges extended to 7pm (not 10pm), Sundays at standard hourly rate instead of £3, Manors and Quayside multi-storeys extended by an hour to 6pm, about 650 objections and 25 in favour, implementation expected by August 2022, Alive after Five funding withdrawn (free 5pm-10pm, funded by NE1). All confirmed. Overlaps with item 7 (earlier proposal).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Page fetched; date 22 January 2024 matches but the real page title is 'Proposed changes to parking charges' (no 'in Newcastle'). The page presents PROPOSALS ('planning to make changes ... from April 2024', 'Proposals ... have been set out as part of an annual review'); the draft's 'announced parking changes to take effect' reads as settled and implementation is not confirmed by this page. Figures (10p outside CAZ, 20p inside CAZ and on-street, £1 daily rise except Kingston Park and Manors, Blue Badge one hour) confirmed; the page also proposes a 20p cut and £9 daily rate at Helix and a 20p rise at Paddy Freeman and Castle Farm.",
+   "corrected_text": "On 22 January 2024 the council set out proposed changes to most hourly and daily parking rates from April 2024 as part of an annual review: a 10p rise in the hourly rate for car parks outside the Clean Air Zone and 20p within the zone and on all on-street bays, and a £1 rise in the fixed daily rate in car parks (Kingston Park and Manors unchanged), to manage demand for parking and alleviate congestion; Blue Badge holders would continue to receive an hour of free parking at council-run car parks.",
+   "corrected_title": "Proposed changes to parking charges",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Opened the .docx (downloaded, text extracted; file created 13 Nov 2025; document title MULTI-STOREY CAR PARKS). Dean Street £2.30/257, Eldon Garden £2.60 or £13 fixed/445, Eldon Square £2.90/497, Grainger Town £1.70 or £11 fixed/401, Manors £1.40 or £10 fixed/486, Manors £3 fixed Sunday, Eldon Square and Eldon Garden free 7pm-8am: all confirmed. Error: the draft says 8am-7pm for all, but Manors charges Mon-Sat 8am-6pm (free 6pm-8am). The parenthetical in the source_title is the draft's own descriptor, not part of the document title. Overlaps with items 11, 12, 13 (same table).",
+   "corrected_text": "Newcastle City Council's off-street charges table (file dated 13.11.25) lists these multi-storey car parks, hourly rates and spaces: Dean Street £2.30 (257 spaces), Eldon Garden £2.60 or £13 fixed (445), Eldon Square £2.90 (497) and Grainger Town £1.70 or £11 fixed (401), all charged 8am-7pm, and Manors £1.40 or £10 fixed, charged Monday-Saturday 8am-6pm (486 spaces; £3 fixed charge on Sundays). Eldon Square and Eldon Garden are free from 7pm to 8am.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Opened the .docx. Ellison Place £2.30/hour 8am-7pm, 119 spaces, free 7pm-8am; St Georges £1.50/hour 8am-7pm, 139 spaces, free 7pm-8am; note that from 01.07.21 charges are payable by disabled badge holders with a 1-hour grace period beyond the paid session. All confirmed (capacity 119 as on this page, not 126). Same source as items 10, 12, 24.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Opened the .docx. Table lists Pay By Phone location codes for each site and covers Dean Street, Eldon Garden, Eldon Square, The Garage at Helix (517 spaces), Grainger Town, Manors, Oxford, Quayside and NUFC Stadium (545 spaces, £1.40/hour 8am-10pm, 24 hours on non-match/non-event days only). Confirmed; the 'indicating the council sets charges' clause is an inference from the council publishing the table. Low value / near-duplicate of items 10 and 11 (same table) - candidate to drop or merge.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Page fetched (redirects to /consultations/564/participate). Proposal content confirmed: Grainger Town and Dean Street MSCPs to remain open 24 hours Sat/Sun and 50p/hour 7pm-midnight Fri/Sat; results text thanks participants and links 'Overnight parking in city multi-storeys given green light'. The 13.11.25 table does show £0.50 Fri/Sat 7pm-midnight and all-times Sat-Sun opening at both. Corrections: the real title is 'Proposed Variation to the City of Newcastle upon Tyne (Off-Street Parking Places) Order 2021 - Dean Street MSCP and Grainger Town MSCP'; the page text says the consultation 'will end on 7th October 2025' while a date field shows 08 October 2025, so '8 October' is not safe. Overlaps with item 10 (same 50p evening rate shown in the table).",
+   "corrected_text": "A council consultation starting on 15 September 2025 (the page text says it ends on 7 October 2025; its date field reads 8 October 2025) proposed that Grainger Town and Dean Street multi-storey car parks remain open 24 hours on Saturdays and Sundays and introduce a charge of 50p an hour between 7pm and midnight on Fridays and Saturdays; the results page thanks participants and refers to a news article headed 'Overnight parking in city multi-storeys given green light'. The council's later charges table (13.11.25) shows the 50p evening rate and all-times weekend opening at both car parks.",
+   "corrected_title": "Proposed Variation to the City of Newcastle upon Tyne (Off-Street Parking Places) Order 2021 - Dean Street MSCP and Grainger Town MSCP",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Statutory notice on the Public Notice Portal fetched (the portal also offers an 'AI Explainer' button, but the text used is the notice itself, 'Dated: 10th July 2026'). Fees confirmed: resident 1st £25 to £35, 2nd £75 to £90, 3rd £75 to £110, visitor £25 to £35, city-centre resident annual £500 to £550, city-centre business annual £1,200 to £1,500, no change to Low Emission Discounts, effective Monday 3 August 2026, not applying in some zones (WL1, KP1, KP2) - 'most zones' is fair. Only the title is off: the portal page heading is 'Newcastle Upon Tyne - Waiting Restrictions and on Street Parking Places' (browser title 'Notice near NE2 1QQ and NE2 1QS'); the draft's longer title is the notice's own heading plus '(Public Notice Portal)'. Secondary host (newspaper-notice portal), correctly medium.",
+   "corrected_text": "A statutory notice dated 10 July 2026 (effective Monday 3 August 2026) raised on-street permit fees in most zones: first resident permit from £25 to £35, second from £75 to £90, third from £75 to £110, visitor permit from £25 to £35; city-centre resident annual permits rose from £500 to £550 and city-centre business annual permits from £1,200 to £1,500, with no change to the Low Emission Discounts.",
+   "corrected_title": "Newcastle Upon Tyne - Waiting Restrictions and on Street Parking Places (Public Notice Portal)",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Page fetched (Newcastle Liberal Democrats site, dated 3 Mar 2022). Title confirmed. Problems: the page says Cllr Greg Stone spoke at council 'last night' (i.e. the 2 March 2022 council meeting), so '3 March' is the posting date, not the proposal date; and the £5-6m and 3-5 years figures are Stone's account of what officers assessed ('Their assessment is ... They also assess it could generate £5-6m'), in a party press release, not an independently verified council assessment. Opposition amendment only; no adoption reported. Weak, partisan source - low value.",
+   "corrected_text": "On 2 March 2022 Liberal Democrat councillor Greg Stone moved an opposition amendment at Newcastle City Council calling for a Workplace Parking Levy to be investigated and implemented; in the party's press release of 3 March 2022 he said officers assessed it could raise £5-6 million a year and might take three to five years to introduce. This was an opposition proposal as reported by the party; the page does not report adoption.",
+   "corrected_title": null,
+   "corrected_date": "2022-03",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Page fetched; title matches (dated around w/c 31 July 2023). £6.2m investment (£4.3m Local Growth Fund via NE LEP, £1.9m council), new paving/resurfacing, two-way cycle lane, improved crossings, from Monday 31 July vehicles northbound only on Pilgrim Street with the southbound route on Grey Street, full programme due summer 2024. All confirmed (works are on the southern section of Pilgrim Street).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Page fetched; title matches. 'From May 2026' improvements on Percy Street area; Eldon Square Bus Station closed Wednesday 10 June to Monday 29 June (weekdays match 2026); main junction works from Monday 29 June expected to last 6 months; funded by the North East Mayoral Strategic Authority. All confirmed. Page carries no date, so the year and 'due to' framing are inferred; as of today (Oct 2026) the page may be stale (medium-confidence-style caveat).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "partly",
+   "note": "Page fetched (Place North East, 9 April 2024). Planning committee 12 April, two applications, 107,000 sq ft former Debenhams and 120,000 sq ft over seven floors for former Eldon Leisure Centre space all confirmed. Errors: the first application covers only the UPPER LEVEL of the ex-Debenhams store (Next takes the bulk of the remaining floorspace); and the article does not name an 'owner' - Intu Eldon Square is 'the vehicle responsible for the applications', Pradera Lateral is manager, and the centre is run by freeholder Newcastle City Council with intu Debenture. Not a final decision (approval 'expected'). Very little parking relevance - weakest tier.",
+   "corrected_text": "Two planning applications from Intu Eldon Square were due before Newcastle City Council's planning committee on 12 April 2024 (approval expected): transforming the upper level of the former 107,000 sq ft Debenhams store into a food and drink, events and entertainment project (with Next taking most of the remaining floorspace), and converting the former Eldon Leisure Centre space into a family-led leisure destination, about 120,000 sq ft over seven floors. The article says Pradera Lateral manages Eldon Square, which is run in partnership by freeholder Newcastle City Council and intu Debenture.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "partly",
+   "note": "Page fetched (British Trams Online, posted Tuesday 14 January 2025; real title 'Phased introduction of new Tyne and Wear Metro trains continues'). Confirmed: first of the eventually 46 trains entered passenger service Wednesday 18 December 2024; a Newcastle Chronicle article (as cited) says 23 trains should be in service by end of December 2025; Metrocars struggling. NOT on the page: the '£362 million project' and the '43-year-old' fleet age. Secondary hobbyist source. Overlaps with item 20; low parking relevance.",
+   "corrected_text": "The first of the eventually 46 new Stadler-built Metro trains entered passenger service on Wednesday 18 December 2024; according to a Newcastle Chronicle article cited on the page, 23 of the trains should be in service by the end of December 2025, while the Metro continued to struggle to run its advertised service with the older Metrocars.",
+   "corrected_title": "Phased introduction of new Tyne and Wear Metro trains continues",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "partly",
+   "note": "Page fetched (British Trams Online, Thursday 4 June 2026). Confirmed: Nexus said week commencing 22 June 2026 would be the last official week for the original Metrocars after over 46 years of service; the new fleet of 46 Stadler trains has been replacing them since the end of 2024; all 46 new trains on course to be in service by end of 2026. The real page title is 'Last official week for Metrocars will be week starting 22nd June 2026'; the draft title differs. This is a forecast of a last week, not a confirmation the trains were retired. Overlaps with item 19; low parking relevance.",
+   "corrected_text": "Reported on 4 June 2026, Nexus confirmed that the week commencing 22 June 2026 would be the last official week in service for the original Tyne and Wear Metrocars after over 46 years, with the 46 new Stadler trains replacing them; Nexus said it was on course to have all 46 new trains in service by the end of 2026.",
+   "corrected_title": "Last official week for Metrocars will be week starting 22nd June 2026",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "supported",
+   "note": "Page fetched; real title 'Metro car parking - Travel North East' (casing only). Daily tariff £1.80, chargeable 6.00am-5.00pm Monday to Saturday, free after 5pm Mon-Sat and all day Sunday, free Sunday parking listed incl. Callerton Parkway, Bank Foot, Regent Centre, PayByPhone 4-week (£24.00) or annual (£295.00) digital permit. All confirmed. Page is undated (hence date '2026' inferred).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "partly",
+   "note": "Page fetched (aph.com, a third-party parking-comparison site; publication metadata 30 Dec 2025, modified 5 Jan 2026; no AI label found). Facts confirmed: free Waiting Zone at Callerton Parkway, up to 90 minutes free, free electric shuttle every 30 minutes beginning 6 January 2026, six million passengers projected for 2026. Problems: (1) the draft's source_title is not the page's title - the page title is 'Newcastle Airport's Free 90-Minute Waiting Zone at Callerton Parkway'; (2) the page was published before the shuttle start and says the 15-minute free drop-off at Short Stay 2 'will end once the shuttle launches' - the draft writes it as already discontinued; (3) date should be the publication date 2025-12. Secondary source, same page as item 23.",
+   "corrected_text": "Newcastle Airport unveiled a free 'Airport Waiting Zone' at Callerton Parkway, next to the Metro station, allowing up to 90 minutes of free parking for pick-ups; according to the page (published 30 December 2025) a free electric shuttle bus to the terminal every 30 minutes was to begin on 6 January 2026, and the 15-minute free drop-off at Short Stay 2 was to end once the shuttle launched. The airport projected about six million passengers in 2026.",
+   "corrected_title": "Newcastle Airport's Free 90-Minute Waiting Zone at Callerton Parkway",
+   "corrected_date": "2025-12",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 23,
+   "verdict": "partly",
+   "note": "Same aph.com page as item 22. Confirmed: 'recently opened a 12-bay ultra-rapid electric vehicle (EV) charging station' at Callerton Parkway. Only the source_title (page title is 'Newcastle Airport's Free 90-Minute Waiting Zone at Callerton Parkway') and date (published 30 Dec 2025) are wrong. Secondary/promotional third-party source; could be merged into item 22.",
+   "corrected_text": "The same page states that Newcastle Airport had recently opened a 12-bay ultra-rapid electric vehicle charging station at Callerton Parkway.",
+   "corrected_title": "Newcastle Airport's Free 90-Minute Waiting Zone at Callerton Parkway",
+   "corrected_date": "2025-12",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 24,
+   "verdict": "partly",
+   "note": "Opened the .docx. EV points confirmed: Eldon Garden 5, Dean Street 3, Eldon Square 3, Grainger Town 2, Quayside 2. But the list is presented as the city-centre car parks' EV provision and is not complete: the same table also records 14 EV charging bays for disabled users at The Garage at Helix, 11 EV charging points at the Civic Centre surface car park and single points elsewhere (e.g. Akenside Hill 1, Leazes Park Road 1, St Nicholas Avenue 2). Wording should say 'five of its multi-storey car parks'.",
+   "corrected_text": "The council's off-street table records electric vehicle charging points at five of its multi-storey car parks: Eldon Garden 5, Dean Street 3, Eldon Square 3, Grainger Town 2 and Quayside 2; it also lists 14 EV charging bays for disabled users at The Garage at Helix and 11 EV charging points at the Civic Centre surface car park.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 25,
+   "verdict": "partly",
+   "note": "Page fetched. Confirmed: 'There are no unreserved public car parks on event days at St. James' Park', public transport recommended, Park & Ride from MetroCentre, a section of Barrack Road closed to traffic after the final whistle for up to 45 minutes or until crowds disperse, St. James' Metro Station directly beside the stadium. Only the title is off: the real title is 'Travelling to St. James' Park | NUFC'. Page is undated (2026 inferred from copyright and 2026/27 Magpie Mover reference).",
+   "corrected_text": "Newcastle United states there are 'no unreserved public car parks on event days at St. James' Park', recommends public transport, runs matchday park and ride from the MetroCentre, and closes a section of Barrack Road to traffic for up to 45 minutes after the final whistle; St James' Metro station sits beside the stadium.",
+   "corrected_title": "Travelling to St. James' Park | NUFC",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 26,
+   "verdict": "supported",
+   "note": "Page fetched; dated 15 January 2025; title matches (sentence case). 1.76 million visits (28% up on 2023), economic impact £90.6 million (60% up on £56.8m), Northumberland Street footfall +39% for 16 Nov-22 Dec vs 2023, based on an independent evaluation reported by the council. All confirmed. Low direct parking relevance.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Newcastle's Clean Air Zone has charged non-compliant taxis, buses, coaches and HGVs since 30 January 2023 and non-compliant vans £12.50 a day since 17 July 2023, but not private cars, and the council has proposed removing traffic from Blackett Street, New Bridge Street West and northern Pilgrim Street as part of its £50 million city-centre programme (the sources seen report plans and a March 2022 Cabinet review, not a final decision). In 2022 the council confirmed city-centre parking charges would run to 7pm and Sunday parking would move from a £3 fixed charge to standard hourly rates, and its November 2025 table shows surface car parks such as Ellison Place at £2.30 an hour and St Georges at £1.50, free from 7pm to 8am. Metro park and ride sites charge a flat £1.80 a day (6am-5pm Monday to Saturday), free after 5pm and on Sundays."
+}

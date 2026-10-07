@@ -1,0 +1,255 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Opened the city press-release PDF (5 pp). Confirmed: BOP publication 29 Nov 2024, in force 30 Nov 2024; ordinance covers ZBE, pedestrian-priority zones, SARE; ZBE '437 hectares'; plate recognition linked to DGT and padron data; year-1/2/3 access rules as described; title and date match. Note the 437 ha figure is the city's; the UMA study (item 2) says 404.03 ha. Overlaps with item 1 (same ordinance, same phased rules) and item 2 (entry-into-force date); the year-3 label B rule is affected by the TSJA annulment (items 3/4).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Opened the city press-release PDF (4 pp), dated 27 Nov 2025. Confirms second year starts Sunday 30 Nov 2025, restriction on unlabelled cars/motorbikes not domiciled in Malaga, CERO/ECO/C/B unrestricted in year 2, label B limit from 30 Nov 2026, 437 ha, 200 euro fine. Nuance: the release says 'domiciled in Malaga before the ordinance came into force (30 Nov 2024)' - the draft's shorthand 'not domiciled in Malaga' is acceptable but could add that. Title matches. Overlaps with item 0 (could be merged).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Downloaded the 21-page UMA PDF. Cover: 'Opinion ciudadana sobre la ZBE de Malaga: conocimiento y valoracion', Catedra de Gestion del Transporte, UMA, promoted by the city's Mobility Area, dated March 2026 (fieldwork 1 Feb-3 Mar 2026). Section 1.3: ZBE in force 30 Nov 2024, first year trial/information period, sanctioning phase began 30 Nov 2025; plate-recognition linked to DGT and padron so the label need not be displayed. All as stated. Note the study gives the ZBE area as 404.03 ha (vs 437 ha in city releases) - not used in this item. Overlaps item 0/1 on dates.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Opened the El Espanol article (human-written body; I ignored the 'Generado con IA' key-points box). Dated 10 June 2026. TSJA annulled the ZBE regulation (Title II, Chapter I of the ordinance) for discriminating between vehicles domiciled in the capital and those from other municipalities; the council's legal services will study the ruling without ruling out a cassation appeal; 'la resolucion no es firme y puede ser recurrida en casacion'. Title matches. Finality: as of that article not final; a web search found no report of the cassation outcome, so status remains unknown - the item correctly says 'not final' as reported. Overlaps with item 4 (same ruling).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "Opened the Motorpasion article (dated 2026-06-15, title matches). Supported: 14,271 fines until April, sanction 200 euros (100 with prompt payment), cameras to keep fining, fines only for unlabelled vehicles registered outside the capital, 34 affected streets. Problems: the 14,271 figure is attributed in the article to Cadena SER data, not Motorpasion's own reporting; and the article dates the start of sanctions to 1 Dec 2025 (city release and UMA study say 30 Nov 2025) - the draft text avoids the date, fine, but do not repeat 1 Dec. The article also says the council has a month to file before the Supreme Court and that nothing changes while a cassation appeal is pending. Overlaps item 3 (same ruling); lower reliability than item 3.",
+   "corrected_text": "Motorpasion reported on 15 June 2026 that, according to data published by Cadena SER, the city council had issued 14,271 fines to cars and motorbikes without a label and domiciled outside Malaga up to April 2026. It says the cameras would keep fining despite the TSJA ruling (the sanction is 200 euros, 100 euros with prompt payment) while a possible cassation appeal is pending, and that the fines apply only to unlabelled vehicles registered outside the capital, across 34 affected streets.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Opened the city press-release PDF dated 15/12/2023. Confirms completion of the renewal of the Carretería-Álamos axis (plus two squares), reduced traffic with access restricted to residents and authorised vehicles via video surveillance, a pedestrian-priority single platform (zona 20), reserved spaces for residents and motorbikes. Title matches (case only). Low parking relevance (public-realm project); the release also says the access restriction decree took effect 19 Oct 2023.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Opened the 55-page Semana Santa 2026 mobility plan PDF (cover title 'Plan de Movilidad Semana Santa 2026'). Confirms access control on Carretería-Álamos axis and calle Cisneros disabled Fri 27 March to Mon 6 April 2026; traffic cuts on Boquete del Muelle, Paseo del Parque, Plaza de la Marina, Alameda Principal, calle Córdoba; SARE suppressed on Avenida Manuel Agustín Heredia on 30, 31 March and 1, 4 April (plus other streets). The document carries no publication date; March 2026 is the event date. Same type as item 7 (different year).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Opened the city press-release PDF dated 9 April 2025. Confirms advice against private vehicle use 12-20 April, 400,000 additional EMT seats, closure of Camas, Tejón y Rodríguez and Plaza de la Marina car parks once Local Police cuts begin, restrictions at Alcazaba, Cervantes, Andalucía, and Cervantes, Andalucía, San Juan de la Cruz and Salitre remaining open (the release itself lists Cervantes and Andalucía as both restricted and open). Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Opened the 16-page Feria 2026 mobility plan PDF. Confirms Feria dates 15-22 Aug 2026; 5,066 spaces in the municipal network (Plaza la Marina, San Juan de la Cruz, Tejón y Rodríguez, Alcazaba, Camas, Andalucía, Cervantes, Salitre); the 12 car parks named stay open 24 h; Real parking table totals 3,185 (75 PMR + 870 + 640 + 1,600 'otros'), motorbike places listed separately; access control to follow the Bando de Feria; Real de Cortijo de Torres mentioned. Title matches (cover shows PLAN DE MOVILIDAD FERIA 2026).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Opened the ordinance PDF (5 pp). Confirms: header 'Texto aprobado por Acuerdo del Pleno de 30 de enero de 2025, publicacion en BOP 31 de diciembre de 2025, entrada en vigor el 1 de enero de 2026'; 1.00 euro/hour general rate with minimum 0.50 per 30 min and maximum 2.50 per 150 min; residents 0.20 per 24 h or 1.00 per 168 h; SMASSA assists in management/inspection/collection. Error: the 5.00 euro (excess time) and 9.00 euro (no ticket) charges both apply only if regularised voluntarily within three days - the draft attaches that condition only to the 9 euro charge. Title matches.",
+   "corrected_text": "The new fiscal ordinance no. 22 on the regulated on-street parking tax (SARE) took effect on 1 January 2026 (approved by the Pleno on 30 January 2025, published in the BOP on 31 December 2025). The general rate is 1.00 euro per hour, with a minimum of 0.50 euro per 30 minutes and a maximum of 2.50 euros per 150 minutes. Residents pay 0.20 euro per 24 hours or 1.00 euro per 168 hours. If the paid time is exceeded, the charge is 5.00 euros, and parking without a ticket costs 9.00 euros, in both cases if regularised voluntarily within three days. SMASSA assists the municipal tax administration in managing, inspecting and collecting the tax.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Opened the city press-release PDF dated 8 April 2025. Confirms SMASSA became 100% public after the city completed buying Unicaja and Empark's 49% on 30 Dec (2024); the board was to approve new statutes that afternoon (name to Sociedad Municipal de Aparcamientos y Servicios S.A.M.); the merger procedure with EMT began 30 January (2025) and the draft/report were still being prepared - so the merger is a plan/in progress as of April 2025, and the draft wording ('as part of a merger procedure ... so that one company manages') keeps it that way. Outcome of the merger after April 2025 not verified; item is 18 months old.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Opened the city press-release PDF dated 04/10/2023. Confirms 3 parking plans since 2000, 53 car parks, more than 14,140 resident spaces; 11 mixed car parks (San Juan de la Cruz, Tejón y Rodríguez, La Alcazaba, Carlos de Haya, Camas, Cruz de Humilladero, Avenida de Andalucía, El Palo, Cervantes, Salitre, Pío Baroja) and La Marina rotation-only; announces SMASSA is to start a viability/market study for an underground car park near Baños del Carmen (the draft says 'announced a study', correct; no capacity decided). Title matches. Dated; the Baños del Carmen project later changed to a surface car park (item 15).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Opened the city press-release PDF dated 01/03/2024. Confirms completion of commissioning of Pío Baroja car park, investment over 11 million euros (11,496,066.47 euros excl. VAT), 146 owned spaces and 276 rotation spaces operational since July 2023, tariffs 0.0370 / 0.0050 / 0.0001 euro per minute for the quoted minute bands (VAT excluded; the release skips minutes 31-60), owned spaces 23,140.50 euros each (VAT excluded). Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Fetched smassa.eu home page and the Cervantes page (smassa.eu/pcervantes.php). Page title matches. The home page shows live free-space counts for Alcazaba, Plz. de la Marina, Camas, El Palo, Avda. Andalucía, Tejón y Rodríguez, Cervantes, Carlos Haya, San Juan, Pío Baroja, Salitre and Cruz Humilladero, stamped 07-10-2026 15:00:20 when I checked; the draft's '14:52' timestamp is not reproducible (the figures refresh continuously). Cervantes page: ROTACIÓN 409, P.M.R. 9, MOTOCICLETAS 8, CONCESIÓN 440 - correct. The SMASSA parking page also says 12 car parks in operation offering 6,302 spaces. Weak item: a live counter is ephemeral and not citable as a fact about the year.",
+   "corrected_text": "On 7 October 2026 the SMASSA website showed live free-space counts for its car parks (figures that refresh continuously), including Alcazaba, Plz. de la Marina, Camas, El Palo, Avda. Andalucía, Tejón y Rodríguez, Cervantes, Carlos Haya, San Juan, Pío Baroja, Salitre and Cruz Humilladero. The SMASSA page for the Cervantes car park lists 409 rotation spaces, 9 PMR spaces, 8 motorcycle spaces and 440 concession spaces.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Opened the city press-release PDF dated 14/05/2024. The release says the board 'tiene previsto dar luz verde mañana' - i.e. the board session was planned for 15 May 2024, not 14 May (14 May is the release date). Otherwise supported: specifications for a mobile payment app for regulated on-street parking and municipal car parks, 12 rotation car parks, more than 4,400 regulated on-street spaces, mobile payment active since 2008, award of 50 SARE ticket machines to Flowbird España at 4,990 euros each excl. VAT. The EV-charging mention is only an evaluation criterion on integrating cross-cutting functions (street payment, car park payment, EV charging payment, etc.), not a firm requirement. It was a plan: approval outcome not verified. Title matches. Low value (procurement).",
+   "corrected_text": "On 14 May 2024 the city announced that the SMASSA board planned to approve the next day the specifications for a mobile-phone app to pay for regulated on-street parking and stays in municipal car parks, renewing a service that the city says covers the 12 municipal rotation car parks and more than 4,400 regulated on-street spaces, with mobile payment active in Málaga since 2008. Integration of functions such as payment for electric-vehicle charging was among the criteria to be assessed. The board was also to award 50 SARE ticket machines to Flowbird España at 4,990 euros each (VAT not included).",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Opened the city press-release PDF dated 16 June 2026. Confirms the construction project for a new surface rotation car park near Baños del Carmen (Málaga Este) to be managed by SMASSA: 135 rotation spaces on 3,641 m2, 4 PMR, 4 with EV charging (expandable), 89 new trees, links to EMT L3, L8, L11, L33, L34; municipal investment 2 million euros (1,424,534 euros works incl. VAT) plus 3.6 million euros by Urbanismo for the land. It is a project to be built ('va a impulsar la obra'); no construction date given - the draft wording ('presented the construction project') is accurate. Title matches. Related to item 11 (same area, earlier underground study) and items 16/17 (park-and-ride plans).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Opened the city press-release PDF dated 17 Oct 2025. Confirms the award to Desarrollo Organización y Movilidad S.A. of the demand/access/layout study for a park-and-ride near the MA-24 and the Totalán stream, 44,570.68 euros VAT included, 4-month period, and that the Martín Carpena study was done with its anteproyecto being drafted. Title matches. Plan/study only, not a built facility - the draft says so. Adjacent to item 17.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "Downloaded the 3-page ficha PDF. Content supported: 467 new spaces (16 EV, 10 PMR) in addition to 750 existing spaces, two-level hybrid solution, car park 20-23 M euros PBL with VAT (14-16 M PEM), accesses 6-14 M euros PBL, about 40-45% of demand due to other measures discouraging private vehicles (sensitivity analysis with ZBE), no tariff suggested 'en principio'; explicitly 'ideas preliminares que deberán ser detalladas en futuros proyectos'. Problems: (1) the document has no title page - the draft's source_title 'Ficha Resumen Disuasorio Martin Carpena' is the file name, the real heading is 'Asistencia técnica para la elaboración de un estudio de demanda, accesos y alternativas para aparcamiento disuasorio en el entorno del Palacio de Deportes Martín Carpena (Málaga)'; (2) the document is undated, so '2025' is an inference (it uses 2024 MITRANS data and the Oct 2025 release in item 16 says the study was already done); (3) the figures are tender budget (PBL) estimates, not approved funding. The draft's 'preliminary idea, not an approved project' caveat is correct. Medium confidence is right.",
+   "corrected_text": "An undated city mobility summary sheet (ficha) of a study commissioned by Promálaga and the city's Mobility Area proposes, as preliminary ideas to be detailed in future projects, a park-and-ride of 467 new spaces (16 for electric vehicles and 10 for reduced-mobility users) in a two-level solution at the Martín Carpena Sports Palace, in addition to the 750 existing spaces associated with the palace. It estimates a budget of 20-23 million euros for the car park plus 6-14 million euros for accesses (VAT included), says about 40-45% of the future demand would arise from other measures discouraging private vehicle use, with the ZBE being relevant, and in principle does not suggest charging a tariff.",
+   "corrected_title": "Asistencia técnica para la elaboración de un estudio de demanda, accesos y alternativas para aparcamiento disuasorio en el entorno del Palacio de Deportes Martín Carpena (Málaga)",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "partly",
+   "note": "Opened the El Espanol article (dated 24 Aug 2026, 16:43; headline 'Abren el parking...' but the body says 'a las 6:00 se abrirá el parking provisional' and the standfirst says it will be operational 'desde este martes'). 24 Aug 2026 was a Monday, so the planned opening was 06:00 on Tuesday 25 Aug 2026; the article does not confirm that it did open. Supported: 750 spaces, 163 for professionals (bonificadas) and 587 general, 0.61 euro/hour professional rate, price known since May, staff protest about moving from 0.80 euro/day. Inconsistency inside the source: body says 1.36 euros/hour, but the standfirst and the linked headline say 1.63; the earlier El Español article of 13 June 2026 (linked from the page) gives 1.36 in its body, so 1.36 is probably right and 1.63 a typo. The page also has an AI-generated key-points box, which I did not rely on. Title matches. Keep wording as 'was due to open', not 'is open'.",
+   "corrected_text": "On 24 August 2026 El Español reported that a provisional 750-space paid car park was due to open at 06:00 the following day (Tuesday 25 August) at the Hospital Civil while the new Hospital Virgen de la Esperanza is built: 163 spaces reserved and discounted for professionals and 587 for general use. The public rate was given as 1.36 euros per hour (known since May 2026; the article's standfirst says 1.63, apparently a typo) and the professional rate as 0.61 euro per hour; staff protested that they previously paid 0.80 euro a day.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "supported",
+   "note": "Opened the El Espanol article dated 19 May 2026 (human body; AI key-points box ignored). Confirms the Junta formalised the contract with Sando for the last Metro tramo to the Civil, 48,245,959.41 euros VAT included, Eugenio Gross-Blas de Lezo, about 510 m including the future Hospital Virgen de la Esperanza station, 36 months; start 'could take place in June' conditional on formalising the works-management technical assistance - the draft's 'expected to start in June 2026' is slightly firmer than the source ('podria'), but acceptable. Title matches. Whether works actually started is not verified. Tangential to parking (low value).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "partly",
+   "note": "Opened the 9-page city press-release PDF dated 11 Aug 2026. The Junta de Gobierno Local approved the Fycma detail study (more than 37,300 m2; the parcel is currently used for parking; two underground parking floors of about 2,000 spaces proposed to restore the affected spaces and serve new demand) - but the release makes clear this is a step in the planning process ('una vez acordada la aprobación inicial, se someterá a información pública y al informe vinculante de Aviación Civil'), i.e. initial approval, not final. The UMA action project for the 'green' long-stay car park on Finca La Máquina Grande (about 200 m east of the south threshold of runway 1; 45,117 m2; estimated 1,365 spaces) was approved as a project needing prior authorisation, with public consultation to follow. Draft omits the initial/pending status. Title matches.",
+   "corrected_text": "On 11 August 2026 the Junta de Gobierno Local gave approval to the detail study (stage described as initial approval, with public consultation and a binding Civil Aviation report still to follow) allowing the Palacio de Ferias y Congresos (Fycma) to be extended by more than 37,000 m2 on an adjacent plot currently used for parking; the proposal includes two underground parking floors of about 2,000 spaces to replace the affected spaces and serve new demand. The same release reports approval of an action project by the University of Málaga for a 'green' long-stay vehicle car park (about 1,365 spaces estimated) on the Finca La Máquina Grande, about 200 metres from the airport runway threshold, with public consultation still to open.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "supported",
+   "note": "Opened the Aena press-release PDF dated 13 January 2026. Confirms 26,760,549 passengers in 2025 (+7.4%), 186,990 flights (+6.9%), the busiest year in the airport's history. Title matches the heading.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "partly",
+   "note": "The PortsEurope page is behind a paywall ('Subscribe or log in to continue reading'); only the lead paragraph/teaser is readable. That teaser (posted 26 Jan 2026) says: over 600,000 passengers expected across more than 350 ship calls in 2026; 'a 15% increase in 2025, when the port welcomed 575,000 passengers, up from 492,000 in 2024'; the title matches. All draft figures appear in the teaser and the 2026 figure is correctly labelled an expectation. However the source's own arithmetic does not hold: 575,000 vs 492,000 is about +17%, not 15%. Medium confidence is appropriate; not parking related (low value); the rest of the article could not be read.",
+   "corrected_text": "A 26 January 2026 article (only the headline and lead paragraph were readable, the rest is behind a paywall) reports that the Port of Málaga welcomed 575,000 cruise passengers in 2025, up from 492,000 in 2024 (the article calls this a 15% increase, though the two figures imply about 17%), and that more than 600,000 passengers across more than 350 ship calls were expected in 2026 (an expectation, not a result).",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 23,
+   "verdict": "supported",
+   "note": "Opened the city press-release PDF dated 30 Dec 2024. Confirms more than 50 million EMT passengers in 2024, best result ever, previous record 47.4 million in 2018, 46.78 million in 2023, and that the 50% fare reduction would be maintained in the first half of 2025. Title matches. Tangential to parking demand.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 24,
+   "verdict": "supported",
+   "note": "Opened the city press-release PDF dated 24 Oct 2024. Confirms initial approval by the Junta de Gobierno Local of the PGOU change to bar new tourist dwellings in 43 neighbourhoods where they exceed 8% of the residential stock; 11,559 dwellings in Andalusia's tourism register; Centro-district neighbourhoods account for 65% of the places. The text has no parking content (confirmed: no 'aparcamiento'/'estacionamiento' in the release). Title matches. Weakest item: no link to parking.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Málaga's Sustainable Mobility ordinance has applied since 30 November 2024 and defines a Zona de Bajas Emisiones that the city puts at 437 hectares, controlled by licence-plate recognition, with fines for unlabelled vehicles not domiciled in the city from 30 November 2025; in June 2026 the Andalusian High Court annulled the domicile-based access rules, a ruling reported as not final and open to cassation appeal. On-street SARE parking has cost 1 euro per hour under a new fiscal ordinance since 1 January 2026, and SMASSA, the municipal car park company, has been 100% publicly owned since 30 December 2024, with a merger with the EMT bus company planned. The city's central municipal car park network offers 5,066 spaces (Feria 2026 plan), while new capacity is at the planning stage, including a 135-space surface car park near Baños del Carmen and park-and-ride studies for Martín Carpena and the Totalán stream. Demand pressures include 26.76 million airport passengers in 2025 and more than 50 million EMT bus trips in 2024."
+}

@@ -1,0 +1,213 @@
+{
+ "country": "France",
+ "city": "La Rochelle",
+ "researched": "2026-10-07",
+ "verified": "2026-10-07",
+ "summary": "La Rochelle closed the Vieux-Port quay to cars in July 2015 and made its central pedestrian zone permanent in July 2023. A parking reform applied from 2 January 2024, with a smaller orange zone (21 streets and squares instead of the 41 first planned), a green zone of nearly 3,500 spaces (instead of 1,583 planned) and a EUR 28 post-parking charge. A city presentation from April 2023 says the city keeps regulated parking in-house, and the on-street payment app Flowbird was replaced by EasyPark on 31 March 2026. The free first 30 minutes of on-street parking promised by mayor Olivier Falorni (elected March 2026) was still not in force in September 2026, when he said it would be done in the 2027 budget, and for low-emission zones only a March 2022 study launch is sourced.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2015-07",
+   "confidence": "high",
+   "text": "The Vieux-Port quay (quai Duperré) was closed to cars from the Saturday before 9 July 2015 and became pedestrian and cycle-only, with access kept for buses, taxis, tour coaches, delivery vans and craftspeople, emergency vehicles and shared electric cars; residents get a permit. The deputy mayor for urban mobility said 9,000 vehicles a day used the quay, 6,000 of them only passing through without stopping in the city centre.",
+   "source_title": "La Rochelle : le vieux port n'accueille plus les automobilistes (Caradisiac, 9 July 2015)",
+   "source_url": "https://www.caradisiac.com/La-Rochelle-le-vieux-port-n-accueille-plus-les-automobilistes-103593.htm",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2016-10",
+   "confidence": "medium",
+   "text": "A City of La Rochelle parking service presentation (given at a Cerema webinar on 4 April 2023; the PDF itself is undated) says that on 1 October 2016 the city applied lower car park tariffs, lower resident on-street tariffs and higher on-street tariffs (on-street dearer than car parks), to steer medium/long-stay visitors, especially tourists, to car parks and commuters and tourists to park-and-ride sites. It describes pricing in concentric circles, dearest in the hyper-centre.",
+   "source_title": "La Rochelle – Service Stationnement (présentation de la Ville au webinaire Cerema du 4 avril 2023)",
+   "source_url": "https://www.cerema.fr/system/files/documents/2024/01/webinair_tcsp_aap_-_stationnement_lr.pdf",
+   "id": 1,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-03",
+   "confidence": "high",
+   "text": "On 3 March 2022 the agglomeration's Bureau communautaire approved launching a study of a low-emission mobility zone (ZFE-m) covering phasing and acceptability, running 2022 to 2023 at up to EUR 115,000 (ADEME aid up to EUR 70,000), plus a EUR 22,500 assistance agreement with Cerema. The document says mobility accounts for 27% of the territory's carbon emissions under the La Rochelle Territoire Zéro Carbone project (target: divide emissions by 4 by 2040). This records a study, not an implemented zone.",
+   "source_title": "ZONE A FAIBLES EMISSIONS MOBILITE (ZFE-M) SUR LE TERRITOIRE DE L'AGGLOMERATION DE LA ROCHELLE - LANCEMENT D'UNE ETUDE ET CONVENTION D'ASSISTANCE A MAITRISE D'OUVRAGE AVEC LE CEREMA (Bureau communautaire, 3 March 2022)",
+   "source_url": "https://www.agglo-larochelle.fr/action-publique/elus-instances/chercher-une-deliberation-de-bureau-communautaire/-/recherche-avancee/proxy/fa410339-42cc-4802-b36d-cb4b93c5edb5/1.0/7_zfe-m_lancement_etude_convention_mo.pdf",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2022-09",
+   "confidence": "high",
+   "text": "On 12 September 2022 the municipal council voted (35 for, 9 against, 3 abstentions) to end free parking for electric and plug-in hybrid vehicles from 1 January 2023, citing 1,503 registered vehicles on-street (mostly in the orange zone, about 800 spaces) and 1,516 in car parks (about 2,400 spaces), which no longer allowed turnover. Free parking was kept for Yélomobile car-sharing vehicles, and the city said it would add charging points from 2023.",
+   "source_title": "STATIONNEMENT DES VEHICULES ELECTRIQUES ET HYBRIDES RECHARGEABLES A CABLE (Conseil municipal, 12 September 2022, question 12)",
+   "source_url": "https://www.larochelle.fr/fileadmin/mediatheque/2_Action_municipale/Elus_et_institution/DELIBERATIONS_CM_2022/12_STATIONNEMENT_VEHICULES_ELECTRIQUES.pdf",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-07",
+   "confidence": "high",
+   "text": "In July 2023, after consultation with traders and neighbourhood committees, the city made permanent the pedestrianisation trial it had run for three summers around the market: retractable bollards at the entrance to the heart of the city are raised 7 days a week, 24 hours a day, limiting through traffic while letting authorised users (residents, people with reduced mobility, health workers, home-care services, delivery drivers) in.",
+   "source_title": "Stationnement à La Rochelle : nouveaux ajustements en centre-ville pour un coeur de ville apaisé - Actualités - Agglo La Rochelle",
+   "source_url": "https://www.agglo-larochelle.fr/-/stationnement-a-la-rochelle-nouveaux-ajustements-en-centre-ville-pour-un-coeur-de-ville-apaise",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-12",
+   "confidence": "high",
+   "text": "After more than 50 consultations and public meetings, the municipal council on 18 December 2023 voted adjustments to the parking reform that applied from 2 January 2024: about 700 spaces (not the 900 first planned; about 600 existed) go into the orange zone, and 200 planned paid orange spaces move to the green zone, giving nearly 3,500 green-zone spaces instead of the originally planned 1,583. An annual resident on-street subscription was also made sliding by family income, vehicle weight and engine, reducible by up to 90%.",
+   "source_title": "Stationnement à La Rochelle : nouveaux ajustements en centre-ville pour un coeur de ville apaisé - Actualités - Agglo La Rochelle",
+   "source_url": "https://www.agglo-larochelle.fr/-/stationnement-a-la-rochelle-nouveaux-ajustements-en-centre-ville-pour-un-coeur-de-ville-apaise",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-01",
+   "confidence": "high",
+   "text": "The city's leaflet on the parking reform announced two new car parks: Les Salines (1,105 spaces on the former exhibition-centre site, under 10 minutes' walk from the heart of town, free until 31 March) and Moitessier at the end of the Encan, to be gated, paid and put into service in early 2024.",
+   "source_title": "Les nouveautés du stationnement – 2 janvier 2024 (Plaquette Refonte du stationnement), Ville de La Rochelle",
+   "source_url": "https://www.larochelle.fr/fileadmin/mediatheque/3_Vie_quotidienne/Stationnement/Plaquette_Refonte_du_stationnement.pdf",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-01",
+   "confidence": "high",
+   "text": "Per the city's leaflet on the reform effective 2 January 2024, on-street tariffs are: green zone EUR 0.50 per 15 minutes, EUR 8 for 4 hours (maximum stay 4 h); orange zone (hyper-centre) EUR 1 per 15 minutes, EUR 5 for 2 hours (maximum stay 2 h). A post-parking charge (FPS) of EUR 28 applies beyond the limit. The orange zone covers 21 streets and squares versus 41 originally planned. On-street parking is free 12:00-14:00, 18:30-09:00, on Sundays and on public holidays. Resident subscriptions cost EUR 15 a month for a first vehicle.",
+   "source_title": "Les nouveautés du stationnement – 2 janvier 2024 (Plaquette Refonte du stationnement), Ville de La Rochelle",
+   "source_url": "https://www.larochelle.fr/fileadmin/mediatheque/3_Vie_quotidienne/Stationnement/Plaquette_Refonte_du_stationnement.pdf",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-04",
+   "confidence": "medium",
+   "text": "A City of La Rochelle parking-service presentation (given at a Cerema webinar on 4 April 2023; the PDF itself is undated) lists the municipal network: underground Verdun (570 spaces), Vieux Port Sud (615) and Arsenal (40, weekends only); gated Encan (420), Maubec (241) and Vieux Port Ouest (410, ex St Jean d'Acre); surface mini-parks Verdun (93) and Cacaud (78); and an automated motorhome area (171). It says the city chose to keep regulated parking in-house (régie) rather than use a private company: 14 street parking wardens (ASVP) check and fine vehicles on foot or by bike, and parking is run through two régies.",
+   "source_title": "La Rochelle – Service Stationnement (présentation de la Ville au webinaire Cerema du 4 avril 2023)",
+   "source_url": "https://www.cerema.fr/system/files/documents/2024/01/webinair_tcsp_aap_-_stationnement_lr.pdf",
+   "id": 9,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2023-04",
+   "confidence": "medium",
+   "text": "A City of La Rochelle parking-service presentation (given at a Cerema webinar on 4 April 2023; the PDF itself is undated) lists technology in the car parks: an app ('La Rochelle au bout des doigts') showing real-time spaces available in each car park, plate reading (LAPI) at entry and exit, NFC and card payment, and a dedicated website for remote subscriptions (dated September 2023 on the slide). It says on-street payment by app began in 2015 (PayByPhone, 26 October 2015) and moved to multi-operator Flowbird in 2019.",
+   "source_title": "La Rochelle – Service Stationnement (présentation de la Ville au webinaire Cerema du 4 avril 2023)",
+   "source_url": "https://www.cerema.fr/system/files/documents/2024/01/webinair_tcsp_aap_-_stationnement_lr.pdf",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2024-06",
+   "confidence": "high",
+   "text": "Encan 1 (416 spaces, 6 accessible, in front of the Espace Encan) issues a ticket at entry and is paid at a pay station before exit. Encan 2 (former Bernard Moitessier car park, 140 spaces, 3 accessible, in front of the Maritime Museum) scans the number plate at entry, issues no ticket, and is paid at a pay station by typing in the plate number. Both are paid 08:00-20:00, 7 days a week, with a 2 m height limit.",
+   "source_title": "Flyer stationnement parkings Encan 1 et Encan 2 (juin 2024), Ville de La Rochelle",
+   "source_url": "https://larochelle.fr/fileadmin/mediatheque/3_Vie_quotidienne/Stationnement/Flyer_stationnement_parkings_Encan.pdf",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-06",
+   "confidence": "high",
+   "text": "Encan 1 and Encan 2 tariffs (June 2024 flyer): first hour free from 1 October to 30 June and 30 minutes free from 1 July to 30 September; beyond that, per started quarter-hour, 1 h EUR 1.50, 2 h EUR 3.10, 3 h EUR 4.50, 4 h EUR 5.40, 8 h EUR 8.60. A home/work subscription (waiting list) costs EUR 50 a month or EUR 500 a year.",
+   "source_title": "Flyer stationnement parkings Encan 1 et Encan 2 (juin 2024), Ville de La Rochelle",
+   "source_url": "https://larochelle.fr/fileadmin/mediatheque/3_Vie_quotidienne/Stationnement/Flyer_stationnement_parkings_Encan.pdf",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-08",
+   "confidence": "high",
+   "text": "An August 2024 Yélo leaflet lists five free park-and-ride sites in the agglomeration: Les Greffières (300 spaces), Vieljeux (60), Beaulieu (130), Saint-Rogatien (20) and Simone Veil (130), with a 'Tribu P+R' day pass at EUR 5 per car (1 to 5 people). The nearer car parks Jean Moulin and Les Salines are free for Yélo subscribers on the day of entry; if the car stays overnight, the city tariff applies from 08:30 the next morning.",
+   "source_title": "L'agglo et les parkings-relais (Yélo leaflet, édition août 2024)",
+   "source_url": "https://img-scoop-cms.airweb.fr/uploads/sites/5/240722_PR_Fiche-Produit.pdf",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-03",
+   "confidence": "high",
+   "text": "Since 31 March 2026 the on-street parking payment app Flowbird has been replaced by EasyPark (after a January 2025 takeover). EasyPark applies 15% fees by default, but the city negotiated that La Rochelle users pay no extra fee if they pick 'La Rochelle as favourite city' and the 'Basic' offer. In 2025, 55% of on-street payment and management operations in La Rochelle went through the Flowbird app.",
+   "source_title": "COMMUNIQUE DE PRESSE - VILLE DE LA ROCHELLE - Stationnement - L'application de paiement du stationnement en voirie Flowbird devient EasyPark (2 April 2026)",
+   "source_url": "https://www.larochelle.fr/fileadmin/mediatheque/1_Actualites/Espace_presse/Communique_de_presse_260402_-_VILLE_DE_LA_ROCHELLE_Stationnement_-_L_application_de_paiement_du_stationnement_en_voirie_Flowbird_devient_Easy_Park.pdf",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2023-02",
+   "confidence": "high",
+   "text": "The city's street-parking page (updated 20 April 2026) says charging points have been paid since February 2023, priced on the energy delivered rather than time, with a 2-hour maximum charge. Sockets are listed in the Verdun and Vieux-Port Sud underground car parks, and charging points at Verdun surface car park, place de l'Arsenal, place Foch and rue Chasseloup Laubat/Albert 1er.",
+   "source_title": "Stationner dans les rues de La Rochelle - Ville de La Rochelle",
+   "source_url": "https://www.larochelle.fr/vie-quotidienne/stationnement/stationner-dans-les-rues",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-03",
+   "confidence": "medium",
+   "text": "Olivier Falorni, a divers gauche candidate and sitting deputy, was elected mayor of La Rochelle on 22 March 2026 with 43.7% of the vote in the second round, six years after losing to Jean-François Fountaine, who won in 2020 by 181 votes.",
+   "source_title": "Le député Olivier Falorni est élu maire de La Rochelle, six ans après un premier échec aux municipales (France 3 Nouvelle-Aquitaine)",
+   "source_url": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/charente-maritime/la-rochelle/municipales-2026-a-la-rochelle-decouvrez-les-resultats-du-second-tour-3320199.html",
+   "id": 17,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-03",
+   "confidence": "high",
+   "text": "In a 13 March 2026 campaign interview, Olivier Falorni named as his first measure a free first half-hour for on-street parking and free buses every Saturday, to ease access to shops and events. This was a campaign pledge, not an enacted measure.",
+   "source_title": "Municipales 2026. Quelle serait la première décision d'Olivier Falorni s'il est élu maire de La Rochelle (La Rochelle info)",
+   "source_url": "https://larochelleinfo.media/falorni-programme-2026-elections-municipales-la-rochelle/",
+   "id": 18,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-09",
+   "confidence": "medium",
+   "text": "At the municipal council on Monday 21 September 2026, mayor Olivier Falorni, questioned about one of his campaign promises, said the free first 30 minutes of city-centre parking would be done 'dans le cadre du budget 2027' (so it was not yet in force), noting it has budgetary consequences. He also acknowledged some problems with the bus lines laid on for Stade Rochelais match nights (about 2,400 people on average at the first two matches) and said he wants to reduce wild parking at Port-Neuf on match nights.",
+   "source_title": "« Nous le ferons » : vers la gratuité des 30 premières minutes de stationnement dans le centre-ville de La Rochelle (INF La Rochelle)",
+   "source_url": "https://inf-info.fr/nous-le-ferons-vers-la-gratuite-des-30-premieres-minutes-de-stationnement-dans-le-centre-ville-de-la-rochelle/",
+   "id": 19,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-07",
+   "confidence": "medium",
+   "text": "The free 100% electric 'Navette Cœur de Ville' runs every day except public holidays, every 15 minutes, 09:00-19:30, from 4 July to 30 August 2026. The leaflet says it is financed by the City of La Rochelle with revenue from unpaid parking, shares stops with the Yélo network and connects to the park-and-ride sites.",
+   "source_title": "Navette gratuite Cœur de Ville - horaires du 04/07/2026 au 30/08/2026 (FH Navette coeur de ville ete 2026)",
+   "source_url": "https://img-scoop-cms.airweb.fr/uploads/sites/5/FH-Navette-coeur-de-ville-ete-2026.pdf",
+   "id": 20,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "Current ZFE-m status: only the 2022 study launch was sourced; no opened source on a decision, calendar or abandonment.",
+  "A published Plan de Mobilité (PDM) for the agglomeration: no opened source found.",
+  "Private operators (Q-Park, Indigo, Effia): the city leaflet map carries 'EFFIA' labels and station car parks appear to be Effia, but no primary source was opened; the 10 measured car parks appear municipal.",
+  "Any renovation, closure or works on Verdun, Vieux-Port, Maubec, Cacaud or Jean Moulin car parks: none found.",
+  "Sud Ouest, Actu and Europe 1 were not accessible, so local-press coverage relies on La Rochelle info, INF La Rochelle and France 3.",
+  "2020 mobility programme and history of Yélo bike-sharing and early electric shuttles: not opened (only the 2020 election margin is cited).",
+  "Île de Ré traffic volumes, summer peak occupancy figures, and car park counts on event days: not found.",
+  "Current P+R set: a January 2026 Yélo leaflet (six P+R including Périgny, about 1,000 spaces) carries no printed date, so it was not used; the P+R item relies on the August 2024 leaflet.",
+  "Whether the city's EV free-parking end (1 Jan 2023) was later amended: not checked."
+ ],
+ "dropped": {
+  "low confidence": 5
+ }
+}

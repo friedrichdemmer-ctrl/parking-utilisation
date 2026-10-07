@@ -1,0 +1,233 @@
+{
+ "country": "UK",
+ "city": "Newcastle upon Tyne",
+ "researched": "2026-10-07",
+ "summary": "Central Newcastle's parking policy is shaped by the Newcastle and Gateshead Clean Air Zone, which since January 2023 has charged older taxis, buses, coaches, HGVs and (from July 2023) vans but not private cars, and by a long-running city-centre transformation programme to remove traffic from Blackett Street and Pilgrim Street, now followed by Gallowgate and Percy Street junction works in 2026. The council sets charges at its own multi-storeys (Dean Street, Eldon Garden, Eldon Square, Grainger Town, Manors) and surface car parks (Ellison Place, St George's): tariffs rose in April 2024, evening charges were extended to 7pm in 2022, and Friday/Saturday evening charges with 24-hour weekend opening were introduced at Grainger Town and Dean Street after a 2025 consultation. Resident and city-centre permit fees were raised from August 2026. Metro park and ride (Bank Foot, Callerton Parkway, Regent Centre) charges a £1.80 day tariff with free Sundays and evenings, and the Metro's fleet is being replaced by 46 Stadler trains, with the old trains retired in June 2026. Demand drivers include Newcastle United matches, the Christmas Market (1.76 million visits in 2024), the Eldon Square leisure redevelopment and the airport's new Callerton Parkway waiting zone.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2020-01",
+   "text": "On 10 January 2020 Newcastle City Council announced proposals to transform the city centre's main shopping area, the most significant being to make Blackett Street traffic-free with buses rerouted; similar arrangements were proposed for Northumberland Street, Clayton Street, Nelson Street, Grey Street and Grainger Street, with a consultation running to 31 January 2020.",
+   "source_title": "Ambitious Plans for City Centre Unveiled",
+   "source_url": "https://www.newcastle.gov.uk/citylife-news/transport/ambitious-plans-city-centre-unveiled",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2021-03",
+   "text": "On 15 March 2021 the council unveiled a £50 million City Centre Transformation Programme, with over £20 million already secured. It named Grey Street as the primary pedestrian link between the city centre and Quayside and included removing vehicle traffic from Blackett Street.",
+   "source_title": "Newcastle City Council reveals vision for £50m transformation of city centre",
+   "source_url": "https://newcastle.gov.uk/citylife-news/newcastle-city-council-reveals-vision-ps50m-transformation-city-centre",
+   "confidence": "low"
+  },
+  {
+   "topic": "regulation",
+   "date": "2021-09",
+   "text": "A consultation from 13 September to 15 October 2021 proposed removing 'the vast majority of vehicular traffic' from Blackett Street, New Bridge Street West and the northern section of Pilgrim Street, with a 'bus loop' via Grainger Street, John Dobson Street, Market Street, Newgate Street, Percy Street and St Mary's Place, and removal of on-street pay-and-display parking on the affected streets. The council received more than 700 responses.",
+   "source_title": "City Centre Transformation: Proposed City Centre Traffic Changes 2021",
+   "source_url": "https://www.letstalknewcastle.co.uk/results/338",
+   "confidence": "low"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-03",
+   "text": "On 17 March 2022 the council said its Cabinet would review the consultation feedback on pedestrianising Blackett Street, New Bridge Street West and northern Pilgrim Street on 21 March 2022; objectors feared the changes would be harder for older and disabled people, and if approved the matter might be referred to the Planning Inspectorate for a public inquiry. (The page reports no final decision.)",
+   "source_title": "Next steps for city centre traffic proposals to be decided",
+   "source_url": "https://www.newcastle.gov.uk/citylife-news/transport/next-steps-city-centre-traffic-proposals-be-decided",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-01",
+   "text": "The Newcastle and Gateshead Clean Air Zone launched on 30 January 2023 with charges for non-compliant taxis, buses, coaches and HGVs; private cars are not affected. The council confirmed on 15 May 2023 that non-compliant vans and light goods vehicles would be charged £12.50 a day from Monday 17 July 2023; the zone covers most of the city centre including the Tyne, Swing, High Level and Redheugh bridges.",
+   "source_title": "Clean Air Zone Charging Date for Vans Confirmed",
+   "source_url": "https://newcastle.gov.uk/citylife-news/transport/clean-air-zone-charging-date-vans-confirmed",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-12",
+   "text": "On 12 December 2023 the council said the Clean Air Zone grants scheme would pause from 17 December 2023 for a review, with relaunch planned for February 2024 under revised eligibility criteria; applicants before the deadline received temporary charge exemptions.",
+   "source_title": "Clean Air Zone Grants Scheme to Pause for Review",
+   "source_url": "https://newcastle.gov.uk/citylife-news/transport/clean-air-zone-grants-scheme-pause-review",
+   "confidence": "low"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-11",
+   "text": "On 18 November 2025 the council announced the Clean Air Zone grants scheme would close on 30 January 2026; more than £5.5 million had been distributed to over 1,100 businesses, tradespeople and taxi drivers, any remaining funds were to go towards upgrading older bus fleets, and the zone was introduced following a government legal order to reduce illegal pollution levels.",
+   "source_title": "Clean Air Zone grants scheme to end next year",
+   "source_url": "https://new.newcastle.gov.uk/news/2025/clean-air-zone-grants-scheme-end-next-year",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2021-11",
+   "text": "On 5 November 2021 the council proposed extending city-centre parking charge hours to 10pm (then 6.30pm on-street, 5pm in multi-storeys, 6pm at surface car parks) and removing the fixed £3 Sunday charge in favour of the standard hourly rate, excluding Claremont Road and the Manors and Quayside multi-storeys; the proposals were subject to statutory consultation.",
+   "source_title": "New Parking Charges Proposed in Newcastle City Centre",
+   "source_url": "https://newcastle.gov.uk/citylife-news/new-parking-charges-proposed-city-centre-car-parks",
+   "confidence": "low"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2022-07",
+   "text": "On 8 July 2022 the council amended its proposals after about 650 objections and 25 in favour: charges would run to 7pm, not 10pm, in city-centre car parks and on-street bays, Sunday parking would move to standard hourly rates instead of the £3 fixed charge, and Manors and Quayside multi-storeys would charge until 6pm, with implementation expected by August 2022. The page links the extension to the withdrawal of 'Alive after Five' funding, which had allowed free parking from 5pm to 10pm.",
+   "source_title": "Proposals amended for car parking charges following public consultation",
+   "source_url": "https://newcastle.gov.uk/citylife-news/proposals-amended-car-parking-charges-following-public-consultation",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-01",
+   "text": "On 22 January 2024 the council announced parking changes to take effect in April 2024: a 20p hourly increase in car parks within the Clean Air Zone and on-street bays, 10p outside the zone, and a £1 rise in daily rates at most car parks (Kingston Park and Manors unchanged), to 'manage demand for parking and alleviate congestion'; Blue Badge holders keep one hour of free parking in council car parks.",
+   "source_title": "Proposed Changes to Parking Charges in Newcastle",
+   "source_url": "https://newcastle.gov.uk/citylife-news/transport/proposed-changes-parking-charges",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-11",
+   "text": "Newcastle City Council's off-street charges table (file dated 13.11.25) lists these multi-storey car parks and hourly rates (8am-7pm): Dean Street £2.30 (257 spaces), Eldon Garden £2.60 or £13 fixed (445 spaces), Eldon Square £2.90 (497 spaces), Grainger Town £1.70 or £11 fixed (401 spaces) and Manors £1.40 or £10 fixed (486 spaces; £3 fixed on Sundays). Eldon Square and Eldon Garden are free from 7pm to 8am.",
+   "source_title": "MULTI-STOREY CAR PARKS (Newcastle City Council off-street parking charges, 13.11.25)",
+   "source_url": "https://www.newcastle.gov.uk/sites/default/files/2025-11/Parking%20charges%20off%20street%2013.11.25.docx",
+   "confidence": "medium"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-11",
+   "text": "The same council table lists the surface car parks Ellison Place (£2.30 an hour, 8am-7pm, 119 spaces) and St Georges (£1.50 an hour, 8am-7pm, 139 spaces), both free from 7pm to 8am, and states that since 1 July 2021 disabled badge holders pay charges with a one-hour grace period beyond the paid session.",
+   "source_title": "MULTI-STOREY CAR PARKS (Newcastle City Council off-street parking charges, 13.11.25)",
+   "source_url": "https://www.newcastle.gov.uk/sites/default/files/2025-11/Parking%20charges%20off%20street%2013.11.25.docx",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-11",
+   "text": "The council's published off-street charges table, which carries Pay By Phone location codes for each site, covers Dean Street, Eldon Garden, Eldon Square, The Garage at Helix (517 spaces), Grainger Town, Manors, Oxford, Quayside and a 545-space NUFC Stadium car park (£1.40 an hour, open 24 hours on non-match and non-event days only), indicating the council sets charges for the main city-centre car parks.",
+   "source_title": "MULTI-STOREY CAR PARKS (Newcastle City Council off-street parking charges, 13.11.25)",
+   "source_url": "https://www.newcastle.gov.uk/sites/default/files/2025-11/Parking%20charges%20off%20street%2013.11.25.docx",
+   "confidence": "low"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-09",
+   "text": "A council consultation from 15 September to 8 October 2025 proposed that Grainger Town and Dean Street multi-storey car parks remain open 24 hours on Saturdays and Sundays and introduce a charge of 50p an hour between 7pm and midnight on Fridays and Saturdays; the results page thanks participants and refers to a news article headed 'Overnight parking in city multi-storeys given green light'. The council's later charges table (13.11.25) shows the 50p evening rate at both car parks.",
+   "source_title": "Proposed Variation to the City of Newcastle upon Tyne (Off-Street Parking Places) Order 2021",
+   "source_url": "https://www.letstalknewcastle.co.uk/results/564",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-07",
+   "text": "A statutory notice published on 10 July 2026 (effective 3 August 2026) raised on-street permit fees in most zones: first resident permit from £25 to £35, second from £75 to £90, third from £75 to £110, visitor permit from £25 to £35; city-centre resident annual permits rose from £500 to £550 and city-centre business annual permits from £1,200 to £1,500, with no change to the Low Emission Discounts.",
+   "source_title": "City of Newcastle Upon Tyne (Waiting Restrictions and On Street Parking Places) Order 2026 - Review of Parking Permit Fees 2026 (Public Notice Portal)",
+   "source_url": "https://publicnoticeportal.uk/notice/traffic-and-roads/6a50dff5d8b88b706e25e395",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-03",
+   "text": "On 3 March 2022 Liberal Democrat councillor Greg Stone proposed a Workplace Parking Levy for Newcastle, saying council officers had assessed it could raise £5-6 million a year, though implementation might take three to five years. This was an opposition proposal as reported by the party; the page does not report adoption.",
+   "source_title": "Boost for buses and Metro? Workplace parking levy is the answer say Liberal Democrats",
+   "source_url": "https://www.newcastle-libdems.org.uk/news/article/boost-for-buses-and-metro-workplace-parking-levy-is-the-answer-say-liberal-democrats",
+   "confidence": "low"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-07",
+   "text": "Pilgrim Street improvement works (£6.2m: £4.3m Local Growth Fund, £1.9m council) included new paving, resurfacing, a two-way cycle lane and better crossings; from 31 July 2023 vehicles could travel only northbound on Pilgrim Street, with the southbound route on Grey Street, and completion was scheduled for summer 2024.",
+   "source_title": "Drivers advised of traffic changes on Pilgrim Street",
+   "source_url": "https://new.newcastle.gov.uk/news/2023/drivers-advised-traffic-changes-pilgrim-street",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06",
+   "text": "Improvements to Gallowgate and Percy Street are due to begin in May 2026, with Eldon Square Bus Station closed from 10 to 29 June 2026 for resurfacing and main works at the Gallowgate/Percy Street junction (new traffic signals, upgraded crossings) starting 29 June 2026 for about six months, backed by the North East Mayoral Strategic Authority.",
+   "source_title": "City Centre: Gallowgate and Percy Street",
+   "source_url": "https://new.newcastle.gov.uk/travel/improvements/gallowgate",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-04",
+   "text": "Two planning applications for Eldon Square were due before Newcastle City Council's planning committee on 12 April 2024: converting the former 107,000 sq ft Debenhams store into a food, drink, events and entertainment venue and converting the former Eldon Leisure Centre into family leisure, about 120,000 sq ft across seven floors. The article names Intu Eldon Square (managed by Pradera Lateral) as owner.",
+   "source_title": "Next step for Eldon Square revamp",
+   "source_url": "https://www.placenortheast.co.uk/next-step-for-eldon-square-revamp/",
+   "confidence": "low"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-01",
+   "text": "The first of 46 new Stadler Metro trains (a £362 million project) entered passenger service on Wednesday 18 December 2024; Nexus planned 23 of the trains in service by the end of December 2025, while the 43-year-old older fleet continued to cause reliability problems.",
+   "source_title": "Phased Introduction of New Tyne and Wear Metro Trains Continues",
+   "source_url": "https://www.britishtramsonline.co.uk/news/?p=56890",
+   "confidence": "low"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-06",
+   "text": "Reported on 4 June 2026, the last official week of the original Metrocars was set for the week starting 22 June 2026 after 46 years of service, with the 46 new Stadler trains to replace them.",
+   "source_title": "Last Official Week for Metrocars (week starting 22 June 2026)",
+   "source_url": "https://www.britishtramsonline.co.uk/news/?p=63314",
+   "confidence": "low"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026",
+   "text": "Travel North East's Metro car parking page gives a £1.80 daily flat tariff via PayByPhone, charged 6am-5pm Monday to Saturday, free after 5pm and all day Sunday; it lists Bank Foot, Callerton Parkway and Regent Centre among the sites with free Sunday parking, and digital permits of £24.00 (four weeks) or £295.00 (annual).",
+   "source_title": "Metro Car Parking - Travel North East",
+   "source_url": "https://travelnortheast.uk/ways-to-travel/metro/information/car-parking/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-01",
+   "text": "Newcastle Airport opened a free 'waiting zone' at Callerton Parkway Metro station allowing up to 90 minutes of free parking, with a free electric shuttle bus to the terminal every 30 minutes from 6 January 2026, while the 15-minute free drop-off at Short Stay 2 car park was discontinued; the airport expected about six million passengers in 2026.",
+   "source_title": "Newcastle Airport's New Waiting Zone at Callerton Parkway (Airport Parking & Hotels, published 30 December 2025)",
+   "source_url": "https://www.aph.com/community/holidays/newcastle-airports-new-waiting-zone-at-callerton-parkway-provides-up-to-90-minutes-of-free-parking-for-those-picking-up-arriving-passengers/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-01",
+   "text": "The same page states that Newcastle Airport had recently opened a 12-bay electric vehicle charging station at Callerton Parkway.",
+   "source_title": "Newcastle Airport's New Waiting Zone at Callerton Parkway (Airport Parking & Hotels, published 30 December 2025)",
+   "source_url": "https://www.aph.com/community/holidays/newcastle-airports-new-waiting-zone-at-callerton-parkway-provides-up-to-90-minutes-of-free-parking-for-those-picking-up-arriving-passengers/",
+   "confidence": "low"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-11",
+   "text": "The council's off-street table records electric vehicle charging points at its city-centre car parks: Eldon Garden 5, Dean Street 3, Eldon Square 3, Grainger Town 2 and Quayside 2.",
+   "source_title": "MULTI-STOREY CAR PARKS (Newcastle City Council off-street parking charges, 13.11.25)",
+   "source_url": "https://www.newcastle.gov.uk/sites/default/files/2025-11/Parking%20charges%20off%20street%2013.11.25.docx",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2026",
+   "text": "Newcastle United states there are 'no unreserved public car parks on event days at St. James' Park', recommends public transport, runs matchday park and ride from the MetroCentre, and closes a section of Barrack Road for up to 45 minutes after the final whistle; St James' Metro station sits beside the stadium.",
+   "source_title": "Travelling to St. James' Park | Newcastle United",
+   "source_url": "https://www.newcastleunited.com/en/matchday-information-hub/travelling-to-st-james-park",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-01",
+   "text": "The council reported that the 2024 Christmas Market attracted 1.76 million visits (up 28% on 2023), generated £90.6 million of economic impact, and that Northumberland Street footfall rose 39% during the market period compared with 2023.",
+   "source_title": "Newcastle's Christmas Market Hailed a Huge Success",
+   "source_url": "https://new.newcastle.gov.uk/news/2025/newcastles-christmas-market-hailed-huge-success",
+   "confidence": "low"
+  }
+ ],
+ "gaps": [
+  "Whether the Blackett Street / New Bridge Street West / northern Pilgrim Street traffic removal was shelved (reports of a 2022 pause were only in blocked sources); outcome of the 21 March 2022 Cabinet decision not sourced",
+  "Newcastle World pages (403 blocked) and ITV page (timed out) could not be opened, so April 2024 tariff outcome, the Callerton Parkway expansion (192 to 349 bays, 36 EV points) and the 2025 CAZ air-quality update are unsourced",
+  "Nexus news pages for Metro park and ride changes, Bank Foot / Callerton Parkway works and Metro closures returned 404, so no dated Nexus primary item on park and ride growth or closures",
+  "Private operators (NCP, APCOA, Q-Park) and Eldon Square owner details: no opened source; Eldon Square ownership only from one trade article",
+  "Newcastle Local Plan parking policy, CPZ/permit policy detail beyond the 2026 fee notice, Stack / Forth Yards, Pilgrim Street surface car park closures, Utilita Arena and university/hospital demand: not sourced",
+  "Capacities for Bank Foot, Regent Centre, Manors-adjacent Metro sites not found; measured counts (e.g. Ellison Place 126, Grainger Town 410) differ slightly from the council table (119, 401)",
+  "No dated source for Workplace Parking Levy adoption (only an opposition proposal) or Sunday charging beyond 2021-22 council proposals"
+ ]
+}
