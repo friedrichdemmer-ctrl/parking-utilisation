@@ -2,7 +2,8 @@
  "country": "Germany",
  "city": "Leipzig",
  "researched": "2026-10-07",
- "summary": "Leipzig's central parking is privately operated (Q-Park, APCOA and others, about 6,900 spaces in ten garages listed by the Ordnungsamt in 2022) and shown on a Park-Leit-System, while the city's levers are on-street and resident parking, where only 2.3% of parking is managed and the resident fee is still 30.70 euro a year. In 2025-26 the council and administration moved towards wider Parkraumbewirtschaftung and a fee rising to 365 euro, but the long-term parking concept has slipped repeatedly and nothing is confirmed as adopted. Park-and-ride lots are free, promoted for the Weihnachtsmarkt and RB Leipzig matches, digitally monitored since 2023 (814 spaces at six sites), with a Heiterblick lot funded from 2026. The Umweltzone is being lifted (April 2026), car share of trips fell to 31% in 2023, and out-of-town centres such as Paunsdorf Center offer free parking.",
+ "verified": "2026-10-07",
+ "summary": "Central Leipzig garages are privately operated (operators such as Q-Park and APCOA; a September 2022 city leaflet lists eleven central facilities of about 7,000 spaces) and shown on a Park-Leit-System, while the city's own levers are on-street and resident parking. A Green council motion of November 2025 (revised in June 2026) says only 2.3% of parking is managed and proposes raising the resident fee, currently EUR 30.70 a year, gradually to EUR 365; the administration agreed in principle in April 2026 but nothing is adopted and the long-term parking concept is still pending. Park-and-ride lots are free and promoted for the Weihnachtsmarkt and RB Leipzig matches, with real-time availability tested since late September 2023 (814 spaces at six sites) and a Heiterblick lot budgeted from 2026. The city announced in April 2026 that it will lift its Umweltzone, and the 2023 mobility survey puts car trips at 31% of daily trips.",
  "items": [
   {
    "topic": "regulation",
@@ -10,23 +11,29 @@
    "text": "Leipziger Zeitung reported on 16 April 2026 that the city's Mobilitäts- und Tiefbauamt supports a Green-group motion (submitted November 2025) to extend resident parking (Bewohnerparken). The annual resident-parking fee is stated as 30.70 euro, unchanged for many years, and the motion proposes raising it gradually to 365 euro per vehicle. Management would be extended in three stages: all remaining areas of Mitte first, then districts with 90%+ occupancy such as Plagwitz and Gohlis-Süd, then Gründerzeit areas such as parts of Schleußig and Stötteritz. The first part of the 'Langfristkonzept ruhender Verkehr' was due to go to the council before summer 2026.",
    "source_title": "Verwaltung stimmt Grünen-Antrag zur Ausweitung des Bewohnerparkens zu: Der VCD Leipzig fordert eine zügige Umsetzung · Leipziger Zeitung",
    "source_url": "https://www.l-iz.de/wirtschaft/mobilitaet/2026/04/verwaltung-stimmt-grunen-antrag-zur-ausweitung-des-bewohnerparkens-zu-vcd-leipzig-fordert-zugige-umsetzung-653887",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
   },
   {
    "topic": "regulation",
    "date": "2025-11",
-   "text": "The Green council group's motion dated 20 November 2025 asks the mayor to expand parking management in stages: at least 5% of parking spaces managed by 2030 and 10% by 2035 (Gründerzeit neighbourhoods), with resident-parking fees standardised and raised gradually to 365 euro per vehicle by 2030. The motion states that only 2.3% of parking is currently publicly managed (it cites Munich 33% and Stuttgart 22%) and that the administration proposed deferring specific decisions until the long-term concept for stationary traffic is presented before summer 2026. This is a proposal, not a decision.",
+   "text": "The Green council group's motion of 20 November 2025 asks the mayor to expand parking management in stages: at least 5% of parking space managed by 2030 and at least 10% by 2035 (including the Gründerzeit neighbourhoods), with resident-parking fees standardised and raised gradually to 365 euro per vehicle from 2030. The motion states that only 2.3% of parking is currently publicly managed (it cites Munich 33% and Stuttgart 22%), and the administration proposed deferring specific decisions until the long-term concept for stationary traffic is presented before the 2026 summer break. The motion page also shows a revised version dated 17 June 2026 that restages the targets. This is a proposal, not a decision.",
    "source_title": "Antrag: Sicher und einfach Parken für Alle – Ausweitung der Parkraumbewirtschaftung und Anpassung der Parkgebühren in Leipzig - Bündnisgrüne Fraktion in Leipzig",
    "source_url": "https://www.gruene-fraktion-leipzig.de/beitrag/Antrag-Sicher-und-einfach-Parken-f%C3%BCr-Alle-Ausweitung-der-Parkraumbewirtschaftung-und-Anpassung-der-Parkgeb%C3%BChren-in-Leipzig.html",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 1,
+   "checked": "partly"
   },
   {
    "topic": "tariffs",
    "date": "2024-03",
-   "text": "Reported on 2 March 2024: Leipzig's resident-parking permits run from 10.20 to 30.70 euro under the national fee schedule. The Greens had asked for fees scaled by vehicle size (a rise towards about 365 euro a year was discussed), but the administration said existing law gives no authority for differentiated fees, citing a Federal Administrative Court ruling against Freiburg. The council backed the administration's position by 32:26 votes with two abstentions, i.e. lobbying the federal government for the legal basis; the city expected clarity by year end.",
+   "text": "Reported on 2 March 2024: Leipzig's resident-parking permits run from 10.20 to 30.70 euro under the national fee schedule. The Greens had asked for fees scaled by vehicle size (a rise towards about 365 euro a year was discussed), but the administration said there is no legal basis for differentiated fees, citing a Federal Administrative Court ruling against Freiburg. The council backed the administration's position by 32:26 votes with two abstentions, including lobbying the federal government for the legal basis; the city expected first answers on its room for setting fees by the end of the year.",
    "source_title": "Der Stadtrat tagte: Ein bisschen Klassenkampf um eine neue Parkgebührenstaffelung + Video · Leipziger Zeitung",
    "source_url": "https://www.l-iz.de/politik/leipzig/2024/03/stadtrat-tagte-bisschen-klassenkampf-um-parkgebuhrenstaffelung-video-579379",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 2,
+   "checked": "partly"
   },
   {
    "topic": "tariffs",
@@ -34,15 +41,19 @@
    "text": "In August 2020 the city presented a new on-street Parkgebührenverordnung, described as the first major update since 2011. It would merge three zones into two: in the merged Zone 1 cars would pay 1.50 euro per half hour (previously 0.70 to 1.00 euro) and in Zone 2 0.50 euro per half hour (up from 0.30 euro). Updating 216 parking meters was estimated at about 108,000 euro and extra revenue at about 1 million euro a year. The article reports the proposal; it does not confirm the final adopted rates.",
    "source_title": "Stadt legt neue Parkgebührenverordnung vor · Leipziger Zeitung",
    "source_url": "https://www.l-iz.de/melder/wortmelder/2020/08/Stadt-legt-neue-Parkgebuehrenverordnung-vor-346045",
-   "confidence": "medium"
+   "confidence": "medium",
+   "id": 3,
+   "checked": "supported"
   },
   {
    "topic": "regulation",
    "date": "2026-04",
-   "text": "Sachsen Fernsehen reported on 16 April 2026 that Leipzig is lifting its Umweltzone after about 15 years (in place since March 2011, covering roughly two-thirds of the city area and Saxony's only environmental zone). The city says legal air-pollutant limits have been met at all official measuring stations since 2019; the change is made through an update of the Luftreinhalteplan and the green sticker is no longer required. The city warned that stricter EU limits from 2030 may require new measures.",
+   "text": "Sachsen Fernsehen reported on 16 April 2026 that Leipzig is to lift its Umweltzone after about 15 years (in place since March 2011, covering roughly two-thirds of the city area and the only one of its kind in Saxony). The city says legal air-pollutant limits have been met at all official measuring stations since 2019; the lifting is to be implemented through the update of the Luftreinhalteplan, after which the green sticker is no longer required. The city warned that stricter EU limits from 2030 may require new measures.",
    "source_title": "Leipzig hebt Umweltzone nach 15 Jahren auf | Sachsen Fernsehen",
    "source_url": "https://www.sachsen-fernsehen.de/amp/leipzig-hebt-umweltzone-nach-15-jahren-auf-2214762/",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
   },
   {
    "topic": "demand",
@@ -50,15 +61,9 @@
    "text": "Leipzig's 2023 mobility survey (reported 26 March 2025) shows car trips at 31% of daily trips, down from 36.5% in 2018; walking 33% (27.3% in 2018), cycling about 20% (18.7%) and public transport 16% (17.5%). Average trip length fell from 6 to 5.3 km and about 12% of respondents worked fully or partly from home. The city's building department credited the 2030 mobility strategy.",
    "source_title": "Ergebnisse der Mobilitätsbefragung 2023 vorgestellt: Starke Zuwächse im Fuß- und Radverkehr, deutlicher Rückgang im MIV · Leipziger Zeitung",
    "source_url": "https://www.l-iz.de/wirtschaft/mobilitaet/2025/03/ergebnisse-der-mobilitatsbefragung-2023-vorgestellt-zuwachse-fuss-radverkehr-ruckgang-miv-620613",
-   "confidence": "high"
-  },
-  {
-   "topic": "regulation",
-   "date": "2024-04",
-   "text": "In April 2024 the Stadtrat approved an updated implementation framework for the Mobilitätsstrategie 2030 covering 2025-2028, passing 35:20. The city's planning dashboard lists 231 measures worth 1.3 billion euro, 197 of them in planning or construction. Councillors noted the lack of funds after years of budget cuts before 2018.",
-   "source_title": "Der Stadtrat tagte: Ein Fahrplan für die Mobilitätsstrategie für die nächsten vier Jahre + Video · Leipziger Zeitung",
-   "source_url": "https://www.l-iz.de/politik/leipzig/2024/04/der-stadtrat-tagte-fahrplan-mobilitatsstrategie-nachste-vier-jahre-586890",
-   "confidence": "low"
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
   },
   {
    "topic": "regulation",
@@ -66,23 +71,29 @@
    "text": "The Stadt Leipzig council paper 'Mobilitätsstrategie 2030 für Leipzig - Rahmenplan zur Umsetzung' (VII-DS-00547-NF-01; Verwaltungsausschuss 24 June 2020, Ratsversammlung planned for 8 July 2020) lists P+R measures in its measure list (status 22 February 2020): improving existing P+R (6.2 million euro), new P+R places 'insbesondere im Süden' (3.0 million euro) and digitisation of P+R and B+R infrastructure (2.0 million euro). These are planned measures in the paper; their delivery is not confirmed by it.",
    "source_title": "Mobilitätsstrategie 2030 für Leipzig - Rahmenplan zur Umsetzung (Vorlage VII-DS-00547-NF-01)",
    "source_url": "https://static.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.6_Dez6_Stadtentwicklung_Bau/66_Verkehrs_und_Tiefbauamt/Mobilitaetsstrategie/Mobilitatsstrategie-2030-Vorlage-Rahmenplan-zur-Umsetzung.pdf",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
   },
   {
    "topic": "regulation",
    "date": "2020-11",
-   "text": "On 11 November 2020 the Stadtrat approved a CDU motion 'Park & Ride schaffen - Umstieg auf den ÖPNV erleichtern', which called for more P+R in under-served areas and proposed making P+R parking paid, with the parking ticket allowing free use of public transport in Leipzig. Leipziger Zeitung reported in November 2022 that the administration's follow-up paper was still in administrative processing two years later.",
+   "text": "On 11 November 2020 the Stadtrat approved a CDU motion 'Park & Ride schaffen - Umstieg auf den ÖPNV erleichtern', which called for more P+R in areas without it and asked that charging for P+R parking be examined, with the parking ticket allowing free use of public transport in Leipzig. Leipziger Zeitung (an article by former councillor Thomas Köhler) reported in November 2022 that the administration's P+R paper was still in administrative processing two years later.",
    "source_title": "Zwei Jahre schon im Umlaufverfahren: Leipzigs Pendlerparkplätze · Leipziger Zeitung",
    "source_url": "https://www.l-iz.de/wirtschaft/mobilitaet/2022/11/zwei-jahre-schon-im-umlaufverfahren-leipzigs-pendlerparkplaetze-483068",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
   },
   {
    "topic": "technology",
    "date": "2023-10",
-   "text": "Since late September 2023 the city and LVB show real-time P+R availability in the LeipzigMOVE app and at leipzig.de/p+r for 814 spaces at six sites: Leipziger Messe, Knauthain, Schönauer Ring, Plovdiver Straße, Krakauer Straße and Lausen. Sixty new lamp-post sensors were installed at Knauthain and Lausen. The 150,000 euro 'Park IT' project is 50% federally and 40% ZVNL funded; officials plan to monitor informal P+R areas at bus and tram stops later.",
+   "text": "Since late September 2023 the city and LVB have been testing a real-time display of free P+R spaces in the LeipzigMOVE app and at leipzig.de/p+r, covering 814 spaces at six sites: Leipziger Messe, Knauthain, Schönauer Ring, Plovdiver Straße, Krakauer Straße and Lausen. Sixty new lamp-post sensors were installed at Knauthain and Lausen. The roughly 150,000 euro 'Park IT' project is 50% federally and 40% ZVNL funded; the city plans to later bring informal P+R areas at bus and tram stops into the system.",
    "source_title": "Umsteigen auf ÖPNV: Stadt Leipzig und LVB testen digitale Anzeige für P+R-Stellplätze · Leipziger Zeitung",
    "source_url": "https://www.l-iz.de/wirtschaft/mobilitaet/2023/10/umsteigen-auf-opnv-stadt-leipzig-lvb-digitale-anzeige-pr-stellplatze-558727",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
   },
   {
    "topic": "demand",
@@ -90,7 +101,9 @@
    "text": "On 13 January 2025 Leipziger Zeitung reported that the administration confirmed funding in the budget from 2026 for a new 'P+R S-Bahnhof Heiterblick', while a Meusdorf P+R site requested by the CDU was rejected for lack of available land. The CDU had asked for 500,000 euro a year in 2025-2026 (250,000 per site). The article links the P+R network to event traffic such as RB Leipzig matches and concerts.",
    "source_title": "CDU-Antrag zu P+R-Plätzen: Zumindest in Heiterblick wird 2026 ein Park-and-Ride-Platz gebaut · Leipziger Zeitung",
    "source_url": "https://www.l-iz.de/wirtschaft/mobilitaet/2025/01/cdu-antrag-zu-pr-platzen-heiterblick-2026-park-and-ride-platz-614116",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
   },
   {
    "topic": "demand",
@@ -98,7 +111,9 @@
    "text": "For the 2024 Weihnachtsmarkt (26 November to 22 December 2024) the city pointed to limited parking in the Innenstadt and recommended five P+R lots, Leipziger Messe, Schönauer Ring, Plovdiver Straße, Lausen and Völkerschlachtdenkmal, described as free of charge and served by regular public transport. Augustusplatz and Goethestraße were closed for the market period.",
    "source_title": "Verkehrseinschränkungen rund um den Leipziger Weihnachtsmarkt · Leipziger Zeitung",
    "source_url": "https://www.l-iz.de/melder/verkehrsmelder/2024/11/verkehrseinschraenkungen-rund-um-den-leipziger-weihnachtsmarkt-2-609946",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
   },
   {
    "topic": "demand",
@@ -106,7 +121,9 @@
    "text": "For the RB Leipzig home match of 18 October 2025 the city recommended the signed P+R lots Neue Messe, Schönauer Ring, Plovdiver Straße, Völkerschlachtdenkmal and Lausen. A match ticket allows free use of the whole MDV network for five hours before and after the game. Ranstädter Steinweg and Jahnallee were closed outbound and a resident protection zone ran from 12:30 to kick-off. A Simply Red concert the same evening added traffic near the Sportforum.",
    "source_title": "Verkehrseinschränkungen zum Heimspiel von RB Leipzig · Leipziger Zeitung",
    "source_url": "https://www.l-iz.de/melder/verkehrsmelder/2025/10/verkehrseinschraenkungen-zum-heimspiel-von-rb-leipzig-636721",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
   },
   {
    "topic": "operators",
@@ -114,7 +131,9 @@
    "text": "A Stadt Leipzig Ordnungsamt leaflet (September 2022) states that the garages and car parks in the city centre are privately operated, with prices on the operators' websites, and that free-space counts are shown on the Park-Leit-System (PLS) signs. It lists capacities: Parkhaus Augustusplatz 1,244; Am Bundesverwaltungsgericht 311; Burgplatz/Petersbogen 554; Fernbus-Terminal Hbf 550; Hauptbahnhof Promenaden Ost 574 and West 686; Höfe am Brühl 820; Martin-Luther-Ring 390; Marktgalerie 462; Zoo 1,350.",
    "source_title": "Park-and-Ride-Parkplätze in Leipzig (P+R)",
    "source_url": "https://static.leipzig.de/fileadmin/mediendatenbank/_pressebereich/2022/704-quo-Kontrollen-Stadion_Handzettel.pdf",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
   },
   {
    "topic": "tariffs",
@@ -122,15 +141,19 @@
    "text": "The Westfield Höfe am Brühl parking page (undated, read October 2026) gives 820 spaces, entry 06:00-23:00 with night exit, a tariff of 2.50 euro per commenced hour with a 24-hour maximum of 18.00 euro, payment via evopark or card, and electric charging including two Tesla chargers.",
    "source_title": "Parken | Höfe am Brühl",
    "source_url": "https://www.westfield.com/de/germany/hoefeambruehl/parken",
-   "confidence": "medium"
+   "confidence": "medium",
+   "id": 14,
+   "checked": "supported"
   },
   {
    "topic": "demand",
    "date": "2026",
-   "text": "Paunsdorf Center, a shopping centre on the eastern edge of Leipzig, advertises free parking everywhere on site with 4,400 spaces open 24 hours (page undated, read October 2026), plus EV charging stations (one with two connectors at the central lot and four with two connectors each at entrance 3). This contrasts with paid central garages.",
+   "text": "Paunsdorf Center, a shopping centre in Leipzig, advertises free parking everywhere on site with 4,400 spaces open 24 hours (page undated, read October 2026), plus EV charging stations (one with two connectors at the central lot and four with two connectors each at entrance 3).",
    "source_title": "Parken | Paunsdorf Center",
    "source_url": "https://www.westfield.com/de/germany/paunsdorfcenter/parken",
-   "confidence": "medium"
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
   },
   {
    "topic": "tariffs",
@@ -138,15 +161,9 @@
    "text": "The Deutsche Bahn station page for Leipzig Hbf (undated, read October 2026) lists Promenaden Hauptbahnhof West with 686 covered spaces (1 hour 2.00 euro, 8 euro for 24 hours) and Ost with 574 spaces (2 euro per hour, 16 euro per day), plus the Fernbus-Terminal with 550 spaces (1.50 euro per hour, 15 euro a day).",
    "source_title": "Parken – Leipzig Hbf",
    "source_url": "https://www.bahnhof.de/leipzig-hbf/parkplaetze",
-   "confidence": "medium"
-  },
-  {
-   "topic": "operators",
-   "date": "2019-07",
-   "text": "The Tiefgarage Neumarkt opened on 16 July 2019 with 400 spaces in Leipzig's city centre, run by APCOA; it was converted from the parking garage of a former department store. Only the headline and summary were readable (full text is behind registration).",
-   "source_title": "Tiefgarage Neumarkt eröffnet – 400 Parkplätze für Leipzigs Innenstadt - Konii",
-   "source_url": "https://www.konii.de/?p=58531",
-   "confidence": "low"
+   "confidence": "medium",
+   "id": 16,
+   "checked": "supported"
   },
   {
    "topic": "operators",
@@ -154,7 +171,9 @@
    "text": "Q-Park's Leipzig page (undated, read October 2026) lists five facilities: Am Museumswinkel, Augustusplatz (Goethestraße), Forum am Brühl, Marktgalerie and The Post. It advertises an economy tariff from 5 euro for 5 hours and monthly passes of 180 to 292 euro, with online booking.",
    "source_title": "Parking in Leipzig | Q-Park",
    "source_url": "https://www.q-park.de/en-gb/cities/leipzig/",
-   "confidence": "medium"
+   "confidence": "medium",
+   "id": 18,
+   "checked": "supported"
   },
   {
    "topic": "operators",
@@ -162,7 +181,9 @@
    "text": "APCOA's Petersbogen car park (Lotterstraße 1; undated page read October 2026) has 554 spaces open 24/7, rates from 2.60 euro per hour, a daytime maximum (8am-10pm) of 10 euro and an all-day maximum of 20 euro, 15 disabled bays and two EV charging stations; the APCOA FLOW app allows ticketless payment.",
    "source_title": "Petersbogen - APCOA",
    "source_url": "https://www.apcoa.de/en/park-once/locations/leipzig/petersbogen",
-   "confidence": "medium"
+   "confidence": "medium",
+   "id": 19,
+   "checked": "supported"
   },
   {
    "topic": "regulation",
@@ -170,7 +191,9 @@
    "text": "At the Stadtrat in May 2025 the CDU proposed letting residents use shopping-centre car parks in the evening and at weekends (the 'Düsseldorf model'), because private operators issue fines of up to three digits using camera plate capture. The Mobilitäts- und Tiefbauamt said evening parking can activate unused capacity, and the council unanimously approved further examination. A long-term parking concept was then expected by late 2025.",
    "source_title": "Der Stadtrat tagte: Können aus Parkplätzen an Einkaufscentern auch reguläre Stellplätze werden? + Video · Leipziger Zeitung",
    "source_url": "https://www.l-iz.de/politik/leipzig/2025/05/stadtrat-tagte-parkplaetzen-einkaufscentern-auch-regulaere-stellplaetze-video-625082",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 20,
+   "checked": "supported"
   },
   {
    "topic": "ev",
@@ -178,23 +201,9 @@
    "text": "A June 2024 article reports Leipziger Stadtwerke data of about 640 charging stations with about 1,200 charging points, of which about 350 stations / 700 points are publicly accessible. Goingelectric.de data cited for 1 May 2024 show 883 public normal and 216 fast charging points in Leipzig. 9,417 electric vehicles were registered, and the utility charges 53 cents/kWh (normal) and 63 cents/kWh (fast).",
    "source_title": "Elektromobilität: In Leipzig gibt es schon über 1.000 Ladepunkte und trotzdem zu wenig · Leipziger Zeitung",
    "source_url": "https://www.l-iz.de/wirtschaft/mobilitaet/2024/06/elektromobilitat-leipzig-uber-1000-ladepunkte-592037",
-   "confidence": "medium"
-  },
-  {
-   "topic": "regulation",
-   "date": "2026-05",
-   "text": "On 29 April 2026 the Stadtrat approved, 52:5 with 9 abstentions, a bicycle parking garage for 390 bikes on the east side of Leipzig Hauptbahnhof, costing about 2.178 million euro (about 1 million city, 1.18 million federal). Construction is due to start after summer 2026 with opening expected in Q2 2027, and currently unused car parking spaces will be converted for it.",
-   "source_title": "Der Stadtrat tagte: Grünes Licht für das Fahrradparkhaus auf der Hauptbahnhof-Ostseite + Video · Leipziger Zeitung",
-   "source_url": "https://www.l-iz.de/wirtschaft/mobilitaet/2026/05/der-stadtrat-tagte-grunes-licht-fahrradparkhaus-hauptbahnhof-ostseite-656698",
-   "confidence": "low"
-  },
-  {
-   "topic": "regulation",
-   "date": "2025-11",
-   "text": "The city administration proposed Sunday 21 February 2027 as the date for the next Oberbürgermeister election (runoff 21 March 2027). Burkhard Jung (SPD), in office since 2006, cannot run again under Saxon age limits and his term ends on 28 March 2027, so the parking and mobility agenda passes to a new mayor.",
-   "source_title": "Die Kandidatenkür kann beginnen: Leipzigs Oberbürgermeisterwahl soll am 21. Februar 2027 stattfinden · Leipziger Zeitung",
-   "source_url": "https://www.l-iz.de/politik/leipzig/2025/11/die-kandidatenkur-kann-beginnen-leipzigs-oberburgermeisterwahl-21-februar-2027-640098",
-   "confidence": "low"
+   "confidence": "medium",
+   "id": 21,
+   "checked": "supported"
   }
  ],
  "gaps": [
@@ -207,5 +216,8 @@
   "Contipark's takeover of Parkhaus Martin-Luther-Ring (Dec 2020) could not be opened; 'Leipziger Parkhausbetriebs GmbH' and LVZ-related operators not found",
   "Parkleitsystem renewal, Messe/Nova Eventis/Saalepark parking details and Weihnachtsmarkt/Messe visitor numbers: no usable source",
   "Several operator/garage pages (Westfield, bahnhof.de, Q-Park, APCOA) are undated; tariffs may change"
- ]
+ ],
+ "dropped": {
+  "low confidence": 4
+ }
 }
