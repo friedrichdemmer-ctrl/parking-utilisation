@@ -1,0 +1,265 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Schwaebische.de page opened; title matches, article dated 18 Feb 2022. Council vote 20:19 on Wednesday evening (16 Feb), fee 30 to 200 euros from August 2022, administration proposed 300 with a 200 transitional rate, FWG 150, Greens/SPD for 200, CDU/UfA opposed (wanted 120). All supported. Overlaps in fee history with item 18.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "ulm-news.de page opened (27 Jan 2026), title matches. Mischparken from 1 Feb 2026 in areas adjoining the centre; permit holders park around the clock, others need ticket/disc weekdays 9-20, four-hour maximum; fee 200 to 300 euros from 1 Feb 2026; earlier applications charged 200. Overlaps with items 2 and 3 on the 300 euro permit.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Schwaebische page opened (31 Jan 2026). The page <title> is the recorded one; the og:title is 'Stadt stellt kostenloses Parken ein, die Gebuehren steigen' (both are real). The article says only 'in Teilen der Zone F (Neustadt)' is paid from the start with a four-hour limit, not the whole zone; the other new zones use a disc, free for four hours, until meters are installed.",
+   "corrected_text": "From 1 Feb 2026 free parking ended in the new zones around the centre: in parts of Zone F (Neustadt) paid parking with a four-hour limit started straight away, while in the other new zones parking with a disc stays free for four hours until parking meters are installed.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Schwaebische page opened, dated 17 May 2026, title matches. Meters in the centre 2.50 euros per hour now; 'im kommenden Jahr soll dies laut Stadt drei Euro pro Stunde kosten' (planned); resident permit raised to 300 from 200 in February. Plan correctly labelled as not in force.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "ulm-news.de page opened (17 Apr 2025), title matches. Ulmer Parkbetriebs-GmbH; 1 May 2025; hourly 2.00 to 2.20 in the six named garages; 24h maximum 18 to 20 in the six named garages and 9 to 10 at CongressCentrumNord. Overlaps with item 5 (same increase, different details).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Schwaebische page opened (25 Apr 2025), title matches. Reasons given: higher operating and maintenance costs, funding infrastructure, upkeep, staff, cleaning, energy; Kiss + Ride 15 minutes free at Am Bahnhof; surface parking 2.50 euros per hour. Overlaps with item 4.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "parken-in-ulm.de/faq opened; real page title is 'FAQ | Parken in Ulm'. The FAQ lists seven public garages (Am Bahnhof, Am Rathaus, Deutschhaus, Fischerviertel, Salzstadel, Tiefgarage Theater, Congress Centrum Nord), plus Quartiersgarage Spitalhof (permit holders only) and Kornhaus (city staff only) - not eight public garages. Daily maximum 20 euros Mon-Fri and 5 euros Sun/holidays, no weekly/monthly tickets, permanent spaces minimum 6 months, licence plate recognition in four garages, Bike and Park 1 euro/day to 95 euros/year (collective locker facility): all supported. Page undated (date is retrieval date). Same URL as item 7.",
+   "corrected_text": "Ulmer Parkbetriebsgesellschaft (PBG) operates seven public garages plus one for city employees (Kornhaus) and one only for permit holders (Spitalhof). The daily maximum is 20 euros Mon-Fri and 5 euros on Sundays and public holidays; no weekly or monthly tickets are offered but permanent spaces need a minimum six-month term. Licence plate recognition operates in four garages, and 'Bike and Park' storage costs from 1 euro daily to 95 euros per year.",
+   "corrected_title": "FAQ | Parken in Ulm",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "parken-in-ulm.de/faq opened. EV charging points: Am Bahnhof 32, Am Rathaus 9 (11 kW), Salzstadel 18, Fischerviertel 18, Congress Centrum Nord 16 (11 kW) - all supported. Only the title is off: the real page title is 'FAQ | Parken in Ulm'. Page undated. Same URL as item 6.",
+   "corrected_text": "The operator's FAQ lists EV charging points in five garages: Am Bahnhof 32, Am Rathaus 9, Salzstadel 18, Fischerviertel 18 and Congress Centrum Nord 16.",
+   "corrected_title": "FAQ | Parken in Ulm",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "parken-in-ulm.de home page opened (title 'Parken in Ulm'). Capacities as listed are correct (Bahnhof 551, Rathaus 558, CCU Nord 400, CCU Sued 234 Maritim, Deutschhaus 596, Fischerviertel 371, Frauenstrasse 770 MSDU, Kornhaus 70 Stadt Ulm, Salzstadel 511, Sedelhoefe 676 B+B, Theater 74). Kornhaus is shown as closed to short-term parkers for renovation. But Theater is not shown as 'closed': it shows opening hours (Mo-Fr 18.30-2, Sa/Su 6.30-2) with 0 free spaces. Live page, undated.",
+   "corrected_text": "The 'Parken in Ulm' site lists capacities of 558 (Am Rathaus), 400 (CCU Nord), 596 (Deutschhaus), 371 (Fischerviertel), 511 (Salzstadel) and 74 (Theater), plus Am Bahnhof 551, Sedelhoefe 676 (B+B Parkhaus GmbH & Co. KG), Frauenstrasse 770 (MSDU), CCU Sued 234 (Maritim Hotel) and Kornhaus 70 (Stadt Ulm). At the time of reading Kornhaus was shown as closed to short-term parkers because of renovation work.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "parken-in-ulm.de home page opened. It describes the ParkenUlm-App showing current occupancy of Ulm garages in real time, with links to the Apple App Store and Google Play Store. Title 'Parken in Ulm' correct. Same URL as item 8; page undated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "designa.com page opened; title 'DESIGNA continues cooperation with Ulmer Parkbetriebsgesellschaft', dated 7 Sep 2023. 8 garages, over 3,000 spaces, Parkhaus am Bahnhof 540 spaces, opened 2022, 7 cashless and 3 cash-and-card pay stations, plate recognition due mid-September 2023. (The operator's own site now lists 551 spaces; not a contradiction of the source.)",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "parken-in-ulm.de blog post opened, dated 18 Feb 2025, title matches. Fischerviertel garage closed from 3 March 2025 until about 28 May 2025 for urgent roadway renovation; Am Bahnhof recommended.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Schwaebische page opened, 27 Apr 2020, title matches. The article says total cost of the underground garage and passage is now 65 million euros (third cost increase), PBG currently plans 32 charging posts (number not final), daily rate temporarily 5.40 euros during the pandemic. But it is the newspaper reporting on the Hauptausschuss approving the PBG business plan; the PBG itself is not said to have 'reported' the cost, and the city (not the PBG) lowered the fee.",
+   "corrected_text": "In April 2020 Schwaebische.de reported, in an article on the Ulm Hauptausschuss approving the Parkbetriebsgesellschaft's business plan, that the underground garage and passage at the main station would now cost about 65 million euros, the third cost increase; the PBG was planning 32 charging posts and the city had temporarily lowered the daily rate to 5.40 euros during the pandemic.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Schwaebische page opened; published 13 Jul 2014, title matches. 501-space Sedelhof garage closed Feb 2013; tickets sold fell 7% to 2.9 million; eight to seven public facilities with 2,765 spaces; 1969 Theater garage needs substantial investment.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Schwaebische page opened, dated 13 May 2019. Content matches (220-million-euro project, new garage with 700 spaces, access via Keltergasse/Wengengasse, surrounding streets rebuilt). But the real title is 'Rund um die Sedelhoefe entstehen viele Baustellen', not the URL-slug version.",
+   "corrected_text": "The Sedelhoefe project beside the main station was described as a 220-million-euro development with a new garage of 700 spaces, accessed via Keltergasse and Wengengasse, with surrounding streets being rebuilt (reported May 2019, before opening).",
+   "corrected_title": "Rund um die Sedelhöfe entstehen viele Baustellen",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "lebensmittelzeitung.net page opened; real title 'Einkaufsquartier: Stadt Ulm eroeffnet Sedelhoefe', dated 17 Jul 2020. The page is behind a paywall, only the teaser is readable, but the teaser covers every claim: four new buildings between main station and shopping mile, officially handed to the city that week, four years after first spade, vacancies still dominate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Schwaebische page opened, dated 24 Mar 2022, title matches. New owner cites 36% vacancy; HLG plans up to 1,000 homes, retail from over 37,000 to at most 10,000 sq m, underground garage kept; conversion 'could begin next year'. Correctly framed as planned.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "Schwaebische page opened, dated 19 Dec 2017, title matches. Organiser expected about one million visitors if the pace held to Friday; hardly any free spaces in garages (on the peak third-Advent Saturday) despite free bus/tram lines. The source says reinforcement buses (Verstaerkerbusse) ran 11:00-18:00, not shuttle buses.",
+   "corrected_text": "At the 2017 Ulm Christmas market, organisers expected about one million visitors if the pace held until the closing Friday; on the peak Saturday there were hardly any free places in the parking garages despite the free bus and tram lines, and additional reinforcement buses ran between 11:00 and 18:00.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "partly",
+   "note": "Schwaebische page opened, dated 20 Sep 2024, title matches. Supported: about 1,500 above-ground spaces in the old-town ring, long-term aim to move them into garages (Baubuergermeister von Winning), permit fee 30 to 200 euros. Wrong: the 21 Sep 'Green Parking Day' (about 30 spaces turned into action areas) is run by the Lokale Agenda Ulm organisers, not 'the city joined'; the IHK criticism concerned the early-2023 pedestrian zones that removed parking and said customers from the surrounding area mostly come by car.",
+   "corrected_text": "Ulm has about 1,500 above-ground parking spaces in the old-town ring; the stated long-term aim, by Baubuergermeister Tim von Winning, is to shift them into the garages. On 21 Sep 2024 the Ulm Green Parking Day, organised by the Lokale Agenda Ulm, turned about 30 parking spaces into action areas, while the IHK has criticised lost parking from new pedestrian zones, arguing that customers from the surrounding area mostly arrive by car.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "supported",
+   "note": "Schwaebische page opened, dated 25 Jun 2021, title matches. Council session Wednesday: S-Bahn top priority, five mobility stations by 2024, cycle paths, cargo bikes, speed limits; one FWG and one AfD councillor voted against (another FWG abstained), rest in favour; CDU/Greens/FWG disagreed on discouraging car use. Minor nuance: one FWG abstention.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "partly",
+   "note": "Schwaebische page opened; real title 'Neue Strassenbahnlinie 2 kann puenktlich starten', dated 19 Nov 2018 - before the opening. The article says the official opening is on Sunday 9 Dec (scheduled), so it cannot confirm the line 'started'. Other facts supported: 270 million euros, officially begun 15 Oct 2015, Hauptbahnhof-Eselsberg trip 18 to 7 minutes, five-minute peak frequency. The article does not mention 'Science Park' by name (Wissenschaftsstadt/Oberer Eselsberg).",
+   "corrected_text": "In November 2018 Ulm reported that tram Line 2 (Kuhberg - Hauptbahnhof - Oberer Eselsberg/Wissenschaftsstadt) was due to open officially on 9 Dec 2018; the 270-million-euro project began officially on 15 Oct 2015, and the trip from the main station to Eselsberg was to fall from 18 to seven minutes, with five-minute peak intervals.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "partly",
+   "note": "Page opened (English). Content supported: Science Park II (Line 2, 16 min), Donauhalle (Line 1, 9 min), Kuhberg Schulzentrum on Saturdays (Line 2, 11 min). Real page title is 'Parking in Ulm and Neu-Ulm' (Tourism Ulm/Neu-Ulm), not 'Parking (tourismus.ulm.de)'. Undated live page.",
+   "corrected_text": "The Ulm tourism site recommends three Park & Ride locations with tram links to the main station: Science Park II (Line 2, 16 minutes), Donauhalle (Line 1, 9 minutes) and Kuhberg Schulzentrum (Line 2, 11 minutes, Saturdays only).",
+   "corrected_title": "Parking in Ulm and Neu-Ulm",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "partly",
+   "note": "Schwaebische page opened, dated 14 Oct 2021, title matches. The council made a Grundsatzbeschluss (decision in principle, one abstention) for a tunnel to replace the bridge by the 2030 Landesgartenschau; Blaubeurer Ring replaced by two signalised junctions; heavy B10 restrictions from summer 2022. The accident hotspot is the Blaubeurer Ring (roundabout), not the bridge; costs still open, so it is a plan.",
+   "corrected_text": "In October 2021 Ulm's Gemeinderat decided in principle (one abstention) that a tunnel should replace the B10 bridge over the Blaubeurer Tor by the 2030 Landesgartenschau; the accident-prone Blaubeurer Ring roundabout is to be replaced by two signalised junctions, and major B10 restrictions were expected from summer 2022.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 23,
+   "verdict": "supported",
+   "note": "IHK Ulm page opened, title 'Verkehrsbehinderungen in der B10-Umbauphase in Ulm', Vollversammlung resolution of 11 Mar 2025 and open letter. 'Grosse Sorge', Blaubeurer Tor and new Wallstrasse bridge, expected end around 2030, asks city to avoid further restrictions incl. lane cuts on Neue Strasse and Friedrich-Ebert-Strasse (points 1-2 of the letter).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 24,
+   "verdict": "supported",
+   "note": "Regierungspraesidium Tuebingen page opened, title 'Luftreinhalteplan fuer die Stadt Ulm'. Green Umweltzone (Ulm incl. B10) lifted as of 04.06.2024; B10 speed reductions (50 km/h in town, 70 km/h outside) lifted as of 31.12.2024; NO2 at Zinglerstrasse 'deutlich unterhalb' the limits. The page is undated; date 2024-06 matches the abolition.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 25,
+   "verdict": "partly",
+   "note": "Schwaebische page opened, dated 11 Jul 2016, title matches. Opened Dec 1997, 392 spaces closed mid-May 2016 over structural safety, 240 rented in Glacis-Galerie garage (plus about 100 on a gravel lot), council approved buying a 390-space underground garage for up to 11.7 million euros. But demolition was only 'so gut wie klar' and its timing not decided; the new garage was planned (first cars end of 2018 if all went to plan). Neu-Ulm is a separate Bavarian city.",
+   "corrected_text": "In July 2016 Neu-Ulm said its station car park (opened Dec 1997, 392 spaces, closed in May 2016 over structural safety concerns) would almost certainly be demolished, with timing undecided; the city planned to buy a new 390-space underground garage for up to 11.7 million euros, and rented 240 spaces in the Glacis-Galerie garage plus prepared about 100 on a gravel lot in the interim.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Ulm's resident parking permit rose from 30 to 200 euros (Aug 2022) and to 300 euros on 1 Feb 2026, when 'Mischparken' with a four-hour limit began in areas around the centre; meters in the centre cost 2.50 euros per hour, with 3 euros reported as planned. The city-owned Ulmer Parkbetriebs-GmbH raised garage tariffs on 1 May 2025 (2.20 euros per hour; daily maximum 20 euros) and operates seven public garages, with a daily maximum of 20 euros Monday to Friday. The green Umweltzone was lifted on 4 June 2024, the B10 Blaubeurer Tor rebuild is expected to last to around 2030, and Park & Ride sites such as Science Park II and Donauhalle link to the main station by tram."
+}

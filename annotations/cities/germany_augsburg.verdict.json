@@ -1,0 +1,335 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "DAZ article dated 4 July 2022; title matches. Quotes confirm March 2022 council decision, 0.60->1.00 and 2.00->2.60 euro/h, minimum payments 0.50 (Innenstadt) / 0.20 (Sonstige), Semmeltaste abolished, works completed in the second week of July. Item date 2022-03 is the decision date; article is July 2022.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Downloaded PDF and extracted text: Amtsblatt Nr. 14 a, Sonderamtsblatt, 31 March 2025; ordinance signed Augsburg 28.03.2025 (OB Eva Weber); two rates 2.60 and 1.00 euro/h; Parkzone 1 covers resident areas A, B, C fully and D, F within the listed boundary (Viktoriastrasse ... Oberer Graben ... Halderstrasse); para 3 Grossveranstaltungen fee 0.50-10.00 euro per car. Supports text as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "City page title 'Parkgebühren & Bezahlmöglichkeiten | Parken in Augsburg'. Page says since 01.04.2025 electric cars (vehicles with E-Kennzeichen) park free up to 3 hours in Augsburg and all Bavaria; parking disc required; posted maximum duration still applies.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Page confirms resident parking since November 2023, Bauausschuss resolution of 11.03.2022, 80 percent as the threshold for high parking pressure (high pressure found in both Nord and Sued), 1 euro/h, 30 euro one-year permit. But the current zone list gives 3 hours maximum for paid zones, with '9:30-18:30' weekdays; the 'blue zones' label appears only in an older passage tied to a 2-hour limit, so '(blue zones)' and the blanket '3 hours' are shaky. Also the page says the city 'cites' the 80 percent only as the definition of high pressure.",
+   "corrected_text": "Resident-parking management has applied in the Rosenau and Thelott districts since November 2023, following a Bauausschuss resolution of 11 March 2022; the city says 80 percent occupancy marks high parking pressure and that high pressure was found in both the northern and southern areas. Paid parking applies on weekdays 9:30-18:30 at the current fee of 1 euro per hour with a maximum stay of three hours (resident-permit holders are exempt in the relevant zones), and a resident permit costs 30 euro for one year.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "City news page (16.12.2022) is an announcement of a planned trial: 1 May 2023 to 30 April 2024, northern Maximilianstrasse plus Apothekergaesschen, Winter- and Dominikanergasse; 50 spaces in Maximilianstrasse and 9 in Winter-/Dominikanergasse to be dissolved ('werden aufgeloest'). Draft writes it as having run/removed; the page only supports plan wording. The Aug 2023 court order (item 5) shows the pedestrian zone had to be undone.",
+   "corrected_text": "In December 2022 the city announced a traffic trial from 1 May 2023 to 30 April 2024 that would turn northern Maximilianstraße (between Herkules and Merkurbrunnen) plus Apothekergässchen, Winter- and Dominikanergasse into a pedestrian zone, with 50 parking spaces in Maximilianstraße and 9 in Winter-/Dominikanergasse to be removed.",
+   "corrected_title": null,
+   "corrected_date": "2022-12",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Downloaded PDF press release of Verwaltungsgericht Augsburg dated 4 August 2023, headline matches ('Verwaltungsgericht Augsburg gibt Eilantrag gegen Verkehrsversuch in der Maximilianstraße in Augsburg statt'). Two Anlieger; city had not substantiated concrete danger; city has until 18 August 2023 to remove signs. Case ref Au 3 S 23.1014. Related to item 4 (could be merged).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "Content supported: July 2021 'Radentscheid-Vertrag' with 'Fahrradstadt Jetzt', runs to July 2026, includes clause to convert around 550 car spaces in the city centre (bike parking, green areas...). Article dated 13.07.26. But the source_title is wrong: the page's title/H1 is 'Augsburg: Radentscheid-Vertrag läuft aus – Autos könnten zurückkehren' (og:title 'Richtungsstreit in Augsburg: Ende des „Anti-Auto-Vertrags“ könnte Innenstadtverkehr umkrempeln'). No AI label found. Same URL as item 7.",
+   "corrected_text": "An Augsburg Journal article (13 July 2026) says the city's 'Radentscheid-Vertrag' of July 2021 with the 'Fahrradstadt Jetzt' alliance, which obliged the city to expand cycling infrastructure by July 2026, included a clause to convert around 550 car parking spaces in the city centre into bicycle parking, green areas and similar uses over its term.",
+   "corrected_title": "Augsburg: Radentscheid-Vertrag läuft aus – Autos könnten zurückkehren",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Article text: Stadtrat Volker Ullrich (CSU Bezirksvorsitzender) 'stellt offen eine Wiedereinführung der Semmeltaste oder eines ähnlichen Systems in den Raum' (floats it); OB Freund (SPD): his group never big fans, but almost all business people raised it, 'Am Ende wird das im Stadtrat entschieden'. It is a debate, not a decision; draft wording is acceptable but 'or a similar system' omitted and 'businesses often raise' slightly softened. source_title is wrong (see item 6). Same URL as item 6 (distinct claim, keep).",
+   "corrected_text": "CSU district chairman and city councillor Volker Ullrich floats bringing back the 30-minute free 'Semmeltaste' parking or a similar system; Mayor Florian Freund (SPD) said his group was never big fans, but that nearly all business owners raised the issue and that the city council will decide.",
+   "corrected_title": "Augsburg: Radentscheid-Vertrag läuft aus – Autos könnten zurückkehren",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Page confirms: new city government of SPD, CSU, Freie Wähler and Gen Aux under OB Florian Freund (SPD), eight Referate; Referat 2 (urban development, planning, mobility and public transport, climate protection, etc.) - SPD had the right of proposal and decided to fill it by public application. The page does NOT mention 'March 2026 municipal elections' (only 'neue Stadtregierung'); also the page's real title is different (og:title is the draft's title). Article dated 13.07.26.",
+   "corrected_text": "Augsburg's new city government is formed by SPD, CSU, Freie Wähler and Gen Aux under Oberbürgermeister Florian Freund (SPD). Its eight Referate include Referat 2, covering urban development, urban planning, mobility and public transport and climate protection among other areas; the SPD, which had the right of proposal, decided to fill it through a public application process.",
+   "corrected_title": "Stadt Augsburg benennt acht Referenten für neue Rathaus-Koalition",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "b4bschwaben article of 24 Oct 2024; title matches. Says swa announced new schedule: opening between December 2026 and July 2027, reasons (supply chain, energy crisis, contractor capacity, new safety requirements), within up to 250 million euro budget. OVERLAP: superseded by item 10 (Oct 2025 swa press release) on the same tram stop; low value, candidate to drop or merge.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "swa press release 22 Oct 2025, title matches. 'Bis Ende 2026 / Mitte 2027 soll die Straßenbahnhaltestelle dann in Betrieb gehen' (expected, correctly phrased as 'should'); lines 3 and 4 via underground Wendeschleife; track work in Rosenaustraße planned spring 2026; line 6 through tunnel Friedberg West-Stadtbergen from 'voraussichtlich Ende 2027'. Note spring-2026 start is a 2025 plan, status not verified.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "City page 'Parkleitsystem Augsburg | Stadt Augsburg': in operation since 18 Oct 2021; 49 fully dynamic LED displays, 10 dynamic and 60 static signs; 15 Innenstadt garages in four colour zones (green Rathaus/Theater, red Hauptbahnhof, blue Maximilianstraße, yellow City-Galerie); free-space numbers in real time.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "City page h1 'Parken in Augsburg' (title tag 'Parken in Augsburg | Parkhäuser, Zonen & Regeln'), 'Zuletzt aktualisiert am: 14.07.2026'. Says 18 Parkhäuser in the city centre, seven Park-and-Ride sites, and more interactive data on the Smart-City-Dashboard smartes.augsburg.de; page also has a live occupancy display. Slight overlap with item 11 (guidance system) but complementary.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Contipark page: Halderstraße 3-9, 540 spaces, Mon-Thu 6:00-1:00, Fri-Sat 6:00-1:30 (Sunday 9:00-1:30 also listed), 3.50 euro per started hour, 16 euro daily cap, Pcard 1.80/h and 9.00 max. All supported. Only the title is wrong: page title is 'Parkhaus Halderstraße in Augsburg | Contipark', not '... - Mein Contipark'.",
+   "corrected_text": "Contipark runs Parkhaus Halderstraße (Halderstraße 3-9), listed with 540 spaces, open 06:00-01:00 Monday-Thursday and to 01:30 Friday-Saturday (Sunday 09:00-01:30). Its page shows 3.50 euro per started hour and a 16.00 euro daily maximum (Pcard holders 1.80 euro per hour, 9.00 euro maximum).",
+   "corrected_title": "Parkhaus Halderstraße in Augsburg | Contipark",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Contipark page 'Parkhaus Ludwigstraße in Augsburg | Contipark': Ludwigstraße 28, 350 spaces (337 standard + 13 women), open continuously, 3.50 euro per started hour, 18.00 euro daily max, Pcard 2.00/h and 10.00 max. Same URL as item 15; items 14 and 15 could be merged.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Same Contipark Ludwigstraße page lists 18 Type-2 charging points, up to 11 kW, 0.55 euro per kWh. Overlaps item 14 (same URL); merge or drop as low value.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "APCOA page states exactly two Augsburg car parks: Universitätsklinikum underground garage (Gesamtplätze 2500, 8 charging spaces, from 1.50 euro/h up to 16.00 euro/day) and Medizincampus Süd (320 spaces, from 1.50/h up to 8.00/day; surface lot). Text supported; source_title is not the page's real title.",
+   "corrected_text": "APCOA operates two Augsburg car parks, both at hospital campuses: the Universitätsklinikum underground garage (2,500 spaces, 8 EV charging spaces, from 1.50 euro per hour up to 16.00 euro per day) and Medizincampus Süd (320 spaces, from 1.50 euro per hour up to 8.00 euro per day).",
+   "corrected_title": "Parken in Augsburg – moderne Parkhäuser mit fairen Preisen - APCOA",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "bahnhof.de page lists DB BahnPark sites (Tiefgarage Viktoria-Passage 197 spaces 2.50/h; Im Helio 642 spaces 2.50/h or 15/day; P+R Bahnhof 524 spaces 2.20/h or 11/day) and 'Weitere Parkmöglichkeiten' (Halderstraße 540; Diako 240, 2.50/h). Numbers supported. Real page title is 'Parken – Augsburg Hbf', not 'Parkplätze Augsburg Hbf - bahnhof.de'. Note the operator-page Hbf price of 2.20/h conflicts with ParkingList's 1.70/h mentioned in the draft's gaps.",
+   "corrected_text": "Around the Hauptbahnhof the DB station page lists DB BahnPark Tiefgarage Viktoria-Passage (197 spaces, 2.50 euro per hour), Im Helio (642 spaces, 2.50 euro per hour or 15 euro per day) and P+R Bahnhof (524 spaces, 2.20 euro per hour or 11 euro per day), plus other options Halderstraße (540 spaces) and Diako (240 spaces, 2.50 euro per hour).",
+   "corrected_title": "Parken – Augsburg Hbf",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "supported",
+   "note": "city-parking page (title 'city-parking | Augsburg Parkhaus Schaezlerstraße'): Schaezlerstraße 9a, 24/7, short-term 2.50 euro/h steps to daily max 15.00, night rate 19:00-07:00 1.50/h max 7.00 (entry after 19:00, exit before 07:00), monthly standard contract 170 euro (6-month minimum). Operator named in footer 'city-parking Deutschland GmbH & Co. KG'.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "partly",
+   "note": "Page tariffs confirmed: 0.60 / 0.60 / 0.80 / then 1.00 euro per hour, 'ES GIBT KEIN TAGESTICKET', no space count. But ECE Marketplaces GmbH & Co. KG appears only as contact/footer entity ('Mieter werden', newsletter consent), not labelled 'centre management'. Real title is 'Parkhaus | City Galerie Augsburg'. Page also shows entry hours Mo-So 6:30-24:00.",
+   "corrected_text": "The City-Galerie shopping centre garage charges 0.60 euro for the first hour, 0.60 euro for the second, 0.80 euro for the third and 1.00 euro per hour thereafter; there is no day ticket. The page does not state the number of spaces and names ECE Marketplaces only in its contact/footer details.",
+   "corrected_title": "Parkhaus | City Galerie Augsburg",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "supported",
+   "note": "ParkingList is an aggregator (medium confidence). curl was blocked by Cloudflare ('Just a moment', 403) and was not bypassed; WebFetch could read the page: H1 'Parken in Augsburg - Parkplätze und Parkhäuser', capacities City-Galerie 2000, Ernst-Reuter-Platz 647, Fuggerstadt-Center 593, Hauptbahnhof 524, Halderstraße 520, Schaezlerstraße 460, Ludwigstraße 350; downtown fees 0.50-2.00 euro/h; 9 Parkzonen with ca. 4500 Stellplätze; no AI label. Caution: Halderstraße 520 differs from 540 on Contipark/bahnhof.de, and fees conflict with city tariff (2.60 euro/h), so aggregator data is partly outdated; City-Galerie 2,000 is single-source. Weak item.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "supported",
+   "note": "ParkingList detail page (aggregator, medium): title 'Parkhaus Ernst-Reuter-Platz - Augsburg', 647 Stellplätze, Mo-Sa 07:00-24:00, operator 'Ernst-Reuter-Platz Parkgaragen u. Immobilien GmbH & Co.KG', tariffs from 2.50 euro (1 h) in 2.50 steps to 16.00 euro (24 h). curl blocked by Cloudflare (not bypassed); read via WebFetch. Operator's own page not checked, so tariff may be outdated. Weak item; candidate to drop.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "supported",
+   "note": "b4bschwaben 10 Apr 2026, title matches. Fuggerstraße garage closes 15 April until September for modernisation; barriers removed, camera captures plate; from September only card, phone or app payment; prices to align with other downtown garages; 171 spaces fewer in city centre this summer. Text correctly uses 'would close' / 'is to be'. Report is a plan; reopening confirmed only partly by item 23.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 23,
+   "verdict": "supported",
+   "note": "DAZ article 18 Sept 2026, title matches: charging points expanded from 4 to 30, up to 11 kW, tariffs adjusted/reduced on 1 April with day/night tariffs and daytime blocking fees. The page does NOT say the garage reopened cashless, and the item does not claim it; the draft summary's 'modernised in 2026 to cashless' is therefore not supported by this item.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 24,
+   "verdict": "supported",
+   "note": "electrive.net article 23 Mar 2026, title matches (curl got Cloudflare block, not bypassed; WebFetch read it): from 1 April 2026 AC 0.37 euro/kWh 7-21h and 0.35 at night, DC up to 200 kW 0.44/0.42; swa plans to double ~100 charging points to at least 200 by end of 2026 (a plan, correctly phrased). Low relevance to parking utilisation.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 25,
+   "verdict": "supported",
+   "note": "b4bschwaben article dated 15 June 2026, title matches. Garage closed since 2012 due to condition; majority owner started demolition on a Saturday; Amtsgericht Augsburg injunction the following Monday after a minority co-owner objected; hotel director: missing garage 'existenzgefährdend'. 'District court' = Amtsgericht, fine. Overlaps item 26.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 26,
+   "verdict": "partly",
+   "note": "Radio Augsburg 16 June 2026, headline 'Abriss des Kongressparkhauses in Augsburg gestoppt'. About a quarter had been demolished before the stop (confirmed). But the mobility-hub sentence is NOT attributed to the city: article says 'Parallel laufen Überlegungen zur künftigen Entwicklung des Areals am Wittelsbacher Park - unter anderem mit Blick auf einen möglichen Mobilitätshub', so 'the city said it is exploring' overstates it. Overlaps item 25; merge.",
+   "corrected_text": "Radio Augsburg reported on 16 June 2026 that about a quarter of the Kongress am Park garage had been demolished before the injunction stopped the work; it adds that considerations are under way about the future development of the Wittelsbacher Park area, including a possible mobility hub.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 27,
+   "verdict": "partly",
+   "note": "DAZ 16 July 2025, title matches. The report describes a proposal: the Stellplatzsatzung decision was 'diesen Donnerstag' on the Bauausschuss agenda; city 'soll' reduce required spaces to 80 percent of the cap in Kern- and Kernrandzone (up to 50 percent possible for climate adaptation), max 2 spaces per flat in free housing, no obligation for single-/two-family and row houses from 1 Oct 2025, and Ablöse core zone 13,500 -> 18,000 euro. The draft does not say these are proposed and outcome is unknown. Medium confidence; weak, partly outdated item.",
+   "corrected_text": "A 16 July 2025 report says Augsburg's Bauausschuss was due to decide on a new Stellplatzsatzung, required by Bavaria's rules from 1 October 2025 that set maximum rather than minimum parking figures. The proposal reduces required spaces for housing in the core and edge-core zones to 80 percent of the cap (down to 50 percent possible for climate adaptation) and raises the core-zone in-lieu fee from 13,500 to 18,000 euro; state rules cap new housing at 2 spaces per flat and bar parking obligations for single-family, semi-detached and row houses. The outcome of the vote is not stated.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 28,
+   "verdict": "partly",
+   "note": "PDF (73 pages, 'Die Mobilitätsstrategie des Augsburger Mobilitätsplans') p.15: public transport share 16-18 % since 2003; car use 41 % in 2018 at the same level as 2003; 'Ein Hinzugewinn von Marktanteilen für den ÖPNV ist jedoch nicht erkennbar'. Supported. Date: the document is marked 'Stand 2023' but file metadata is Sept 2024, and no page states adoption; the draft 'states' is fine. The conclusion 'little change in mode choice' is the author's gloss, partly valid (cycling share did rise). Corrected text drops that gloss.",
+   "corrected_text": "The Mobilitätsstrategie of the Augsburger Mobilitätsplan states that the car share of trips was 41 percent in 2018, the same level as in 2003, and that public transport has held between 16 and 18 percent since 2003 with no visible gain in market share, while the cycling share of internal trips rose from about 14 percent in 2008 to over 19 percent in 2018.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 29,
+   "verdict": "supported",
+   "note": "Same PDF, pp.35 and 38: 'Szenario 2: Angebotsoffensive' is a modelled 'what if' scenario ('unterstellt'): tram/bus/cycling/walking expansion, measures for a car-light city centre (autoarme Innenstadt), spatial extension of Parkraumbewirtschaftung and higher fees, Tempo 30 across the network except a priority network. Correctly flagged as an assumption, not an adopted measure list. Same source as item 28 (could be merged).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 30,
+   "verdict": "partly",
+   "note": "Page title is 'Parking, Park & Ride - Ausburgs Christmas Market' (English version). The page says the Plärrer fairground P+R (fee) is available to Christmas-market visitors from 23 Nov to 24 Dec 2026, weekdays 2.50 euro, Sat/Sun 3.00 euro, tram line 4; downtown garages 'are generally filled quickly on the Advent weekends'. The dates are the P+R availability dates, not necessarily the market's. 'Street parking' in the draft is wrong: the page says park garages fill quickly.",
+   "corrected_text": "For Christmas-market visitors in 2026 the market's page recommends the Plärrer fairground P+R (available 23 November to 24 December 2026; 2.50 euro Monday-Friday, 3.00 euro Saturday and Sunday; tram line 4 runs nearby) and says downtown park garages 'are generally filled quickly on the Advent weekends'.",
+   "corrected_title": "Parking, Park & Ride - Ausburgs Christmas Market",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 31,
+   "verdict": "partly",
+   "note": "DAZ 14 Aug 2026: Park&Ride-Platz 'Plärrergelände' unavailable until 19 September; set-up starts Monday 17 August; Herbstplärrer 28 Aug-13 Sept. Text supported; title is longer than draft's.",
+   "corrected_text": "The P+R lot at the Plärrergelände was closed from 17 August to 19 September 2026 for set-up of the Herbstplärrer (28 August to 13 September 2026).",
+   "corrected_title": "Herbstplärrer 2026: Aufbau beginnt – Park&Ride-Platz ab 17. August gesperrt",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 32,
+   "verdict": "partly",
+   "note": "Page 'Travelling to the Stadium | FC Augsburg': P1 and P4 up to 24 hours, fee 10 euro; Messe Augsburg 6 euro including shuttle bus; 350 further bays at Fujitsu areas P1 and P6 on matchdays, 10 euro. Figures supported; page carries no season/date (only a 2026 copyright), so '2026' is not stated; title in draft is wrong. Medium confidence; low-value item.",
+   "corrected_text": "For FC Augsburg home matches at the WWK Arena, the club's page lists parking areas P1 and P4 at 10 euro for up to 24 hours, the Messe Augsburg lot at 6 euro including shuttle bus, and 350 bays at Fujitsu's areas P1 and P6 at 10 euro on matchdays (no season is stated on the page).",
+   "corrected_title": "Travelling to the Stadium | FC Augsburg",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Augsburg charges 2.60 euro per hour for on-street parking in the Innenstadt zone and 1.00 euro elsewhere (ordinance of 28 March 2025), after the 2022 increase that abolished the free 30-minute Semmeltaste, and since April 2025 vehicles with an E-plate park free for up to three hours. Under the 2026 SPD-led coalition, CSU's Volker Ullrich floats bringing the Semmeltaste back, and the Radentscheid contract (to July 2026) included converting about 550 city-centre spaces; Mayor Florian Freund says the council will decide, so neither is settled. The Hauptbahnhof tram stop is expected to open between end of 2026 and mid-2027. The city lists 18 city-centre garages and a guidance system linking 15 of them, with real-time occupancy on its Smart City Dashboard; the Fuggerstraße garage was announced to close until September 2026 for cashless modernisation and now has 30 charging points, while demolition of the Kongress am Park garage was halted by a court injunction."
+}

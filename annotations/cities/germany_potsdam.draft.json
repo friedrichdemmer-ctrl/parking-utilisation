@@ -1,0 +1,203 @@
+{
+  "country": "Germany",
+  "city": "Potsdam",
+  "researched": "2026-10-07",
+  "summary": "Potsdam combines a steadily tightening on-street regime with a growing park-and-ride system. Zone 1 inner-city parking has cost 3.00 EUR per hour since June 2022 (Zone 2 at 1.50 EUR, with a rise to 2.00 EUR proposed for 2026), resident permits rose to 145 EUR a year from September 2025, and the 'Innenstadt - Straßenräume neu denken' concept aims to remove about 500 paid inner-city spaces, starting with the Dortustraße trial. P+R lots at Pirschheide (from December 2024) and Campus Jungfernsee (from February 2026) are now managed and free only for public-transport ticket holders, and Park Sanssouci stays free to enter after the state covered the foundation's funding gap. On the supply side Contipark took over Parkhaus Zentrum Hegelallee in mid-2026 and cut prices, while Contipark (Luisenplatz, Schiffbauergasse) and APCOA (Bahnhofspassagen, Filmpark) are the main commercial operators.",
+  "items": [
+    {
+      "topic": "regulation",
+      "date": "2014-01",
+      "text": "The Stadtverordnetenversammlung's Stadtentwicklungskonzept Verkehr (StEK Verkehr, January 2014, horizon 2025) planned to extend Parkraumbewirtschaftung as a price-policy measure to shift traffic from cars to the Umweltverbund, assuming fully managed parking zones by 2020 and calling for parking fees to rise by 100 percent; it also foresaw central car parks on the inner-city ring (Friedrich-Ebert-Straße/Helene-Lange-Straße and Berliner Straße) to free street space rather than add capacity (planned measures, not outcomes).",
+      "source_title": "Stadtentwicklungskonzept Verkehr für die Landeshauptstadt Potsdam",
+      "source_url": "https://www.potsdam.de/system/files/documents/plugin-stek_verkehr_textteil.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2014-01",
+      "text": "The same StEK Verkehr (January 2014) planned a stepwise extension of the Potsdam P+R system - new sites at Bornstedter Feld, Wetzlarer Straße/Nuthestraße and Bahnhof Marquardt, expansion of Kirschallee and 'intensification' of Pirschheide, plus examination of further sites on main axes (about 800 spaces) - to relieve inner-city parking and reduce car traffic.",
+      "source_title": "Stadtentwicklungskonzept Verkehr für die Landeshauptstadt Potsdam",
+      "source_url": "https://www.potsdam.de/system/files/documents/plugin-stek_verkehr_textteil.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2014-01",
+      "text": "The StEK Verkehr (January 2014) judged the construction of a new Havel crossing to relieve the inner city as 'nicht zielführend', expecting a new Havel bridge to attract additional traffic from the surrounding area and the motorway; it instead relied on alternative mobility offers combined with restrictive measures for car traffic.",
+      "source_title": "Stadtentwicklungskonzept Verkehr für die Landeshauptstadt Potsdam",
+      "source_url": "https://www.potsdam.de/system/files/documents/plugin-stek_verkehr_textteil.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2017-06",
+      "text": "The Stadtverordnetenversammlung's Innenstadtverkehrskonzept (decision dated 7 June 2017) counted about 1,400 on-street spaces in the Einkaufsinnenstadt (about 630 resident, 440 fee-paying, 330 mixed) and about 2,800 spaces in or directly beside it; it listed Tiefgarage Luisenplatz (278), Tiefgarage Wilhelmgalerie (200), Parkhaus Stadtpalais (477) and Parkhaus Holländisches Viertel/Klinikum (342). It also reported that the Tiefgarage under Luisenplatz was 'häufig voll' while the Parkhaus in Hegelallee 'in der Regel' had free capacity, and that on-street demand in the central shopping area generally exceeded legal supply.",
+      "source_title": "Innenstadtverkehrskonzept für die Landeshauptstadt Potsdam",
+      "source_url": "https://www.potsdam.de/system/files/documents/ivk-textteil.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2017-06",
+      "text": "The Innenstadtverkehrskonzept (June 2017) stated that Potsdam had a dynamic Parkleitsystem into which not all car parks were integrated, and aimed to integrate the remaining facilities; it also noted that renting spaces in garages to residents and employees was already offered in almost all car parks and garages.",
+      "source_title": "Innenstadtverkehrskonzept für die Landeshauptstadt Potsdam",
+      "source_url": "https://www.potsdam.de/system/files/documents/ivk-textteil.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2022-06",
+      "text": "The Stadtverordnetenversammlung amended the Parkgebührenordnung on 1 June 2022: Parkzone 1 (inner city, bounded e.g. by Gregor-Mendel-Straße/Jägerallee, Behlertstraße/Berliner Straße, Am Kanal/Humboldtstraße/Breite Straße and Schopenhauerstraße) costs 3.00 EUR per hour and Parkzone 2 (rest of the city) 1.50 EUR per hour, minimum fee 0.50 EUR; payment by app is allowed where a system exists, and electric car-sharing vehicles park free until 31.12.2026.",
+      "source_title": "Gebührenordnung für die Nutzung gebührenpflichtiger Parkplätze im öffentlichen Straßenland auf dem Gebiet der Landeshauptstadt Potsdam (Parkgebührenordnung)",
+      "source_url": "https://www.potsdam.de/system/files/documents/pgo_02.06.2022.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2022-06",
+      "text": "The city announced on 30 June 2022 that the amended fee ordinance took effect on 24 June 2022: the enlarged Parkzone 1 rose from 2 to 3 EUR per hour and the previously separate lower zones were merged into Parkzone 2 at 1.50 EUR; the previous adjustment dated from 2016, and the city said the aim was a more liveable inner city by steering drivers to peripheral garages priced at 1.50-2.50 EUR per hour.",
+      "source_title": "339 | Parken in Potsdam: Geänderte Gebührenordnung in Kraft getreten | Landeshauptstadt Potsdam",
+      "source_url": "https://www.potsdam.de/de/339-parken-potsdam-geaenderte-gebuehrenordnung-kraft-getreten",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2024-03",
+      "text": "Potsdam's inner-city concept 'Innenstadt - Straßenräume neu denken!' was adopted by the city council in May 2023 (DS 23/SVV/0060); it aims to remove roughly 500 fee-paying parking spaces from the inner city and gradually reduce car traffic and especially parked cars. A one-year trial in Dortustraße started on 28 March 2024, with twelve resident-only spaces reserved in Hegelallee (Dortu-/Lindenstraße) as partial replacement.",
+      "source_title": "100 | Umsetzung des Konzeptes „Innenstadt – Straßenräume neu denken!“ | Landeshauptstadt Potsdam",
+      "source_url": "https://www.potsdam.de/de/100-umsetzung-des-konzeptes-innenstadt-strassenraeume-neu-denken",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-03",
+      "text": "After the Dortustraße trial the city decided on 28 March 2025 that the section Brandenburger Straße-Gutenbergstraße stays permanently traffic-calmed, while Gutenbergstraße-Hegelallee becomes a 20 km/h business zone where parking is prohibited except two disabled spaces and five short-term spaces.",
+      "source_title": "132 | Mehr Innenstadt: Weiterentwicklung des Modellversuchs Dortustraße | Landeshauptstadt Potsdam",
+      "source_url": "https://www.potsdam.de/de/132-mehr-innenstadt-weiterentwicklung-des-modellversuchs-dortustrasse",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-02",
+      "text": "In February 2025 a four-party alliance of Greens, SPD, Die Linke and Die Andere pushed a proposal through the traffic committee to raise the annual resident parking permit from 30 to 145 EUR amid the city's budget difficulties; the full council vote was to follow.",
+      "source_title": "Vierer-Bündnis für höhere Gebühren: Anwohnerparken in Potsdam soll 145 statt 30 Euro kosten",
+      "source_url": "https://www.tagesspiegel.de/potsdam/landeshauptstadt/vierer-bundnis-fur-hohere-gebuhren-anwohnerparken-in-potsdam-soll-145-statt-30-euro-kosten-13289623.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2025-07",
+      "text": "The Stadtverordnetenversammlung adopted the Bewohnerparkausweisgebührenordnung on 2 July 2025: a resident parking permit costs 145 EUR for one year and 275 EUR for two years (25 EUR for changes or replacement); the ordinance took effect on 1 September 2025.",
+      "source_title": "Bewohnerparkausweisgebührenordnung 2025 - Lesefassung (Gebührenordnung für das Ausstellen von Parkausweisen für Bewohnerinnen und Bewohner städtischer Quartiere mit erheblichem Parkraummangel)",
+      "source_url": "https://www.potsdam.de/system/files/document/Bewohnerparkausweisgeb%C3%BChrenordnung%202025%20-%20Lesefassung_0.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-06",
+      "text": "From 30 June 2025 the city extended resident-parking zone 510 in Babelsberg and created new zone 520 around Weberplatz (Kreuzstraße, western Wichgrafstraße, Bendastraße, part of Rudolf-Breitscheid-Straße); parking there requires a resident permit or payment, Monday-Friday 8-18 h and Saturday 8-12 h.",
+      "source_title": "230 | Veränderungen beim Bewohnerparken in Babelsberg zum 30. Juni | Landeshauptstadt Potsdam",
+      "source_url": "https://www.potsdam.de/de/230-veraenderungen-beim-bewohnerparken-babelsberg-zum-30-juni",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2025-11",
+      "text": "On 21 November 2025 Tagesspiegel reported a city-hall proposal to raise the hourly fee in Parkzone 2 (including parts of Babelsberg, Zentrum-Ost and Brandenburger Vorstadt) from 1.50 to 2.00 EUR, citing the poor municipal budget; the Stadtverordnetenversammlung was due to vote on 3 December 2025 and the increase would apply from March 2026 if approved (proposal; outcome not confirmed in sources opened).",
+      "source_title": "Von 1,50 auf zwei Euro pro Stunde: Potsdam will Parkgebühren auch außerhalb der Innenstadt erhöhen",
+      "source_url": "https://www.tagesspiegel.de/potsdam/landeshauptstadt/von-150-auf-zwei-euro-pro-stunde-potsdam-will-parkgebuhren-auch-ausserhalb-der-innenstadt-erhohen-14906690.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-07",
+      "text": "On 2 July 2025 Tagesspiegel reported that Brandenburg's culture minister would cover the 800,000 EUR a year that Potsdam stops paying the Schlösserstiftung from 2026, so the planned entrance fee for Park Sanssouci was averted and the park stays free to enter.",
+      "source_title": "Doch kein Eintritt in Park Sanssouci: Land übernimmt die Pflegekosten",
+      "source_url": "https://www.tagesspiegel.de/potsdam/doch-kein-eintritt-in-park-sanssouci-land-ubernimmt-die-pflegekosten-13959050.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2024-12",
+      "text": "Paid-parking management at the P+R lot Bahnhof Pirschheide started on 15 December 2024: enforcement was awarded to fair parken, the combined ticket and parking-ticket machines are run by the municipal transport company ViP, and the lot stays free for public-transport customers; the city said about 80 percent of use before management was by non-P+R users.",
+      "source_title": "Die Auswirkungen des P+R-Konzepts der Landeshauptstadt Potsdam auf den städtischen Verkehr (Präsentation Nils-Friso Weber, 13.03.2025)",
+      "source_url": "https://www.th-wildau.de/files/Studiengaenge/Verkehrssystemtechnik/Bilder_VST/Aktuelles/FoNeMo/2025/20250313-FoNeMo2025-Weber-P_R-Konzept_Potsdam.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2025-03",
+      "text": "A city transport-development presentation of 13 March 2025 lists P+R milestones: P+R Wetzlarer Straße (March 2021, still only a provisional lot, new garage timetable dependent on the StEK Verkehr update), Mobilitätsdrehscheibe Marquardt (December 2022), management of Pirschheide (December 2024); Golm and Campus Jungfernsee were planned to follow after first experience in Q2 2025; the P+R concept envisages 10 sites in the city.",
+      "source_title": "Die Auswirkungen des P+R-Konzepts der Landeshauptstadt Potsdam auf den städtischen Verkehr (Präsentation Nils-Friso Weber, 13.03.2025)",
+      "source_url": "https://www.th-wildau.de/files/Studiengaenge/Verkehrssystemtechnik/Bilder_VST/Aktuelles/FoNeMo/2025/20250313-FoNeMo2025-Weber-P_R-Konzept_Potsdam.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-01",
+      "text": "From Monday 2 February 2026 cars may be parked at the P+R Campus Jungfernsee only with a valid local public-transport ticket; the transport company installed a ticket machine on site and the free spaces were abolished (Tagesspiegel, 30 January 2026).",
+      "source_title": "Parken nur noch mit Ticket für den Nahverkehr: Keine kostenlosen Parkplätze mehr am Campus Jungfernsee in Potsdam",
+      "source_url": "https://www.tagesspiegel.de/potsdam/landeshauptstadt/parkplatz-nur-noch-mit-ticket-park-and-ride-am-campus-jungfernsee-15202186.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-07",
+      "text": "Contipark took over the Parkhaus 'Zentrum' on Hegelallee (built 2004, 475 spaces, city-administration grounds) from the Porth Group; Tagesspiegel (2 July 2026) reports the first hour now at 2.50 EUR (down 1.00 EUR), a daily maximum of 20 EUR (down from 35 EUR) and a new evening/night rate, with maintenance work planned that closes only individual areas.",
+      "source_title": "Parkraumbewirtschaftung in Potsdam: Neuer Betreiber für Kaufhaus-Parkhaus",
+      "source_url": "https://www.tagesspiegel.de/potsdam/landeshauptstadt/parkraumbewirtschaftung-in-potsdam-neuer-betreiber-fur-kaufhaus-parkhaus-15781508.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2026-10",
+      "text": "Contipark lists Tiefgarage Luisenplatz with 278 spaces (253 standard, 6 disabled, 15 women-only), 3.50 EUR per hour with a 20 EUR daily maximum, and 20 EV charging points (11 kW, Type 2) on level 2; its Potsdam page names four facilities (Schiffbauergasse, Zentrum Hegelallee, Luisenplatz and the partner garage Saba Parkhaus Am Holländischen Viertel).",
+      "source_title": "Tiefgarage Luisenplatz in Potsdam | Contipark",
+      "source_url": "https://www.contipark.de/de/parken/potsdam/tiefgarage-luisenplatz/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-10",
+      "text": "APCOA lists three Potsdam sites: Bahnhofspassagen PH 1 (1,041 spaces) and PH 2 (351 spaces) at the Hauptbahnhof, both from 1.50 EUR per hour up to 12 EUR per day, and Parkhaus Filmpark Babelsberg (957 spaces) from 3.00 EUR per hour up to 9 EUR per day.",
+      "source_title": "🚘 Parken in Potsdam – komfortabel & citynah - APCOA",
+      "source_url": "https://www.apcoa.de/einmal-parken/standorte/potsdam",
+      "confidence": "medium"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-10",
+      "text": "The city's mobil-in-Potsdam parking page describes 13 car parks and garages with more than 2,500 spaces, a Parkleitsystem and live occupancy data; it lists Tiefgarage Luisenplatz 278 spaces (3.50 EUR/h), Parkhaus Hegelallee 470 (2.50-3.50 EUR/h), Wilhelmgalerie 52 (2.00 EUR/h), Park Sanssouci P2 Voltaireweg 170 (0.50 EUR per 20 min), and P+R Pirschheide 184, Bahnhof Marquardt 120, Campus Jungfernsee 77 and Wetzlarer Straße 73 spaces.",
+      "source_title": "Die Stadt Potsdam bietet Ihnen 13 Parkhäuser bzw. Tiefgaragen sowie weitere Parkplätze. Mehr als 2.500 Stellflächen stehen Ihnen zur Verfügung. Das Parkleitsystem erleichtert Ihnen die Orientierung.",
+      "source_url": "https://www.mobil-potsdam.de/de/parken/parken-in-potsdam/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2024-04",
+      "text": "In April 2024 Tagesspiegel reported that the city planned to build nine car parks for the car-light Krampnitz district itself (seven by the city), costing more than 80 million EUR, with the first garage of more than 500 spaces due in 2027; the aim is to control parking prices; approval by the main committee was still pending (planned).",
+      "source_title": "Für mehr als 80 Millionen Euro: Potsdam baut Parkhäuser für Krampnitz selbst",
+      "source_url": "https://www.tagesspiegel.de/potsdam/landeshauptstadt/fur-mehr-als-80-millionen-euro-potsdam-baut-parkhauser-fur-krampnitz-selbst-11516639.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-11",
+      "text": "Entwicklungsstadt reported on 3 November 2025 that the tram extension to Krampnitz (planned for 2029) faces delay: ViP names no firm opening date, citing heritage-protection issues, possible lawsuits, termination of the planning-office contract and vehicle supply, and the project cost was reported to have risen from about 170 million EUR (2023) to at least 260 million EUR; a Planfeststellungsverfahren for the tram to Krampnitz/Fahrland began in January 2024 per a city presentation.",
+      "source_title": "Tram zum Stadtquartier Krampnitz droht sich zu verzögern | ENTWICKLUNGSSTADT - Jede Zeit baut ihre Stadt!",
+      "source_url": "https://www.entwicklungsstadt.de/ausbau-der-strassenbahnstrecke-zum-stadtquartier-krampnitz-droht-sich-zu-verzoegern/",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "Outcome of the 3 December 2025 Stadtverordnetenversammlung vote on raising Parkzone 2 fees from 1.50 to 2.00 EUR (March 2026) - only the proposal was found; the city's Ratsinformationssystem (egov.potsdam.de) refused connections.",
+    "Wilhelmgalerie garage: only the city's mobil-in-Potsdam listing (52 spaces, 2.00 EUR/h) was usable; no operator, renovation or closure news from an opened primary or press source (an aggregator mentioned construction closure but was not used).",
+    "Park Sanssouci P2 Voltaireweg: no dated press item on a fee, capacity or Parkleitsystem change; SPSG's own parking pages were not reachable.",
+    "Stern-Center / shopping-centre shift: no dated, sourced item (the Stern-Center page only says it has sufficient free parking, undated); no data on a shift from the centre.",
+    "Potsdam Hauptbahnhof and Bahnhofspassagen history: only current APCOA listing, no dated expansion/closure news.",
+    "Umweltzone: a search snippet suggested Potsdam relied on Zeppelinstraße measures rather than a low-emission zone, but no opened source confirmed it; Havel crossing (Neue Fahrt/Humboldtbrücke) debate only covered via the 2014 StEK statement; no recent decision found.",
+    "Parkleitsystem modernisation and any parking app: no dated source found beyond the 2017 concept and the current mobil-in-Potsdam page; Smart City 'Mobil in Potsdam' background and EWP/Stadtwerke charging statistics were not sourced.",
+    "Capacity figures differ between sources (Hegelallee 470/475/476; Jungfernsee page still shows 'free' while the February 2026 rule requires a ticket); Luisenplatz is 278 in sources versus 213 measured.",
+    "Film studio Babelsberg, Berlin commuter, and university demand drivers: only indirect evidence (Filmpark garage, population growth, Golm/Jungfernsee P+R); no tourism visitor statistics sourced."
+  ]
+}

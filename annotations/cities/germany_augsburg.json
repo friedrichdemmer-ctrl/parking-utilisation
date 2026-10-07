@@ -2,7 +2,8 @@
  "country": "Germany",
  "city": "Augsburg",
  "researched": "2026-10-07",
- "summary": "Augsburg's on-street policy is stable at 2.60 euro per hour in the Innenstadt zone and 1.00 euro elsewhere, after the 2022 increase and abolition of the Semmeltaste; since April 2025 E-plate vehicles park free for three hours. The 2026 change of city government (SPD-led with CSU, Freie Wähler and Generation Aux) has reopened debate on bringing the Semmeltaste back and on the Radentscheid commitment to convert about 550 city-centre spaces. The Hauptbahnhof tram stop is now expected between end of 2026 and mid-2027, with line 6 gap closure around end of 2027. Operators found include Contipark (Halderstraße, Ludwigstraße), APCOA (hospital sites), city-parking (Schaezlerstraße), the swa Fuggerstraße garage (modernised in 2026 to cashless, plate-recognition operation and expanded to 30 charging points), and the Kongress am Park garage demolition is stalled by a court injunction. The city runs a dynamic guidance system covering 15 centre garages and refers to a Smart City Dashboard with real-time occupancy.",
+ "verified": "2026-10-07",
+ "summary": "Augsburg charges 2.60 euro per hour for on-street parking in the Innenstadt zone and 1.00 euro elsewhere (ordinance of 28 March 2025), after the 2022 increase that abolished the free 30-minute Semmeltaste, and since April 2025 vehicles with an E-plate park free for up to three hours. Under the 2026 SPD-led coalition, CSU's Volker Ullrich floats bringing the Semmeltaste back, and the Radentscheid contract (to July 2026) included converting about 550 city-centre spaces; Mayor Florian Freund says the council will decide, so neither is settled. The Hauptbahnhof tram stop is expected to open between end of 2026 and mid-2027. The city lists 18 city-centre garages and a guidance system linking 15 of them, with real-time occupancy on its Smart City Dashboard; the Fuggerstraße garage was announced to close until September 2026 for cashless modernisation and now has 30 charging points, while demolition of the Kongress am Park garage was halted by a court injunction.",
  "items": [
   {
    "topic": "tariffs",
@@ -10,7 +11,9 @@
    "text": "In March 2022 Augsburg's city council approved changes to the parking fee ordinance: the standard on-street rate rose from 0.60 to 1.00 euro per hour and the rate in high-demand zones from 2.00 to 2.60 euro per hour, with minimum payments of 0.50 euro in the downtown zone and 0.20 euro elsewhere. The free 30-minute 'Semmeltaste' option was abolished; implementation took place in stages in July 2022.",
    "source_title": "Parkgebühren werden erhöht - Semmeltaste verschwindet",
    "source_url": "https://www.daz-augsburg.de/neue-parkgebuehrenordnung-semmeltaste-verschwindet/",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
   },
   {
    "topic": "tariffs",
@@ -18,7 +21,9 @@
    "text": "The city's Parkgebührenverordnung signed on 28 March 2025 (Amtsblatt Nr. 14 a, 31 March 2025) keeps two rates: 2.60 euro per hour in Parkzone 1 'Innenstadt' (covering resident-parking areas A, B, C and parts of D and F, bounded by Viktoriastraße, Halderstraße, Oberer Graben and others) and 1.00 euro per hour in the rest of the managed city area. For large events, official fee-charging parking spaces may be charged 0.50 to 10.00 euro per car.",
    "source_title": "Amtsblatt der Stadt Augsburg Nr. 14 a, Sonderamtsblatt, 31. März 2025",
    "source_url": "https://augsburg.de/fileadmin/user_upload/footer/amtsblatt/2025/Amtsblatt-2025-14_a_vom-31-03-2025.pdf",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
   },
   {
    "topic": "ev",
@@ -26,23 +31,29 @@
    "text": "Since 1 April 2025, vehicles with an E-plate may park free for up to three hours at fee-charging on-street spaces in Augsburg (parking disc required; posted maximum durations still apply). The city's page notes this applies across Bavaria.",
    "source_title": "Parkgebühren & Bezahlmöglichkeiten",
    "source_url": "https://www.augsburg.de/buergerservice-rathaus/verkehr/parken-neu/parkgebuehren-und-bezahlmoeglichkeiten",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
   },
   {
    "topic": "regulation",
    "date": "2023-11",
-   "text": "Resident-parking management was introduced in the Rosenau and Thelott districts in November 2023, following a Bauausschuss resolution of 11 March 2022; the city cites occupancy above 80 percent. Paid parking (blue zones) runs weekdays 9:30-18:30 at 1 euro per hour for up to 3 hours, and a resident permit costs 30 euro for one year.",
+   "text": "Resident-parking management has applied in the Rosenau and Thelott districts since November 2023, following a Bauausschuss resolution of 11 March 2022; the city says 80 percent occupancy marks high parking pressure and that high pressure was found in both the northern and southern areas. Paid parking applies on weekdays 9:30-18:30 at the current fee of 1 euro per hour with a maximum stay of three hours (resident-permit holders are exempt in the relevant zones), and a resident permit costs 30 euro for one year.",
    "source_title": "Parkraummanagement im Rosenau- und Thelottviertel",
    "source_url": "https://www.augsburg.de/buergerservice-rathaus/verkehr/parkraummanagement-im-rosenau-und-thelottviertel",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 3,
+   "checked": "partly"
   },
   {
    "topic": "regulation",
-   "date": "2023-05",
-   "text": "From 1 May 2023 the city ran a traffic trial turning northern Maximilianstraße (between Herkules and Merkurbrunnen) plus Apothekergasse, Winter- and Dominikanergasse into a pedestrian zone, planned until 30 April 2024; 50 parking spaces in Maximilianstraße and 9 in Winter-/Dominikanergasse were removed.",
+   "date": "2022-12",
+   "text": "In December 2022 the city announced a traffic trial from 1 May 2023 to 30 April 2024 that would turn northern Maximilianstraße (between Herkules and Merkurbrunnen) plus Apothekergässchen, Winter- and Dominikanergasse into a pedestrian zone, with 50 parking spaces in Maximilianstraße and 9 in Winter-/Dominikanergasse to be removed.",
    "source_title": "Verkehrsversuch: Die Maximilianstraße wird ab 1. Mai zur Fußgängerzone",
    "source_url": "https://www.augsburg.de/aktuelles-aus-der-stadt/detail/verkehrsversuch-die-maximilianstrasse-wird-ab-1-mai-zur-fussgaengerzone",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
   },
   {
    "topic": "regulation",
@@ -50,39 +61,39 @@
    "text": "On 4 August 2023 the Verwaltungsgericht Augsburg granted an urgent application by two adjoining owners against the Maximilianstraße pedestrian-zone trial, finding the city had not shown the concrete danger to traffic safety required for such an order; the city had until 18 August 2023 to remove the signs.",
    "source_title": "Verwaltungsgericht Augsburg gibt Eilantrag gegen Verkehrsversuch in der Maximilianstraße in Augsburg statt (Pressemitteilung)",
    "source_url": "https://www.vgh.bayern.de/mam/gerichte/vgaugsburg/pm_2023-08-04_eilantrag_verkehrsversuch_maximilianstrasse.pdf",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
   },
   {
    "topic": "regulation",
    "date": "2026-07",
-   "text": "An Augsburg Journal article (13 July 2026) says the city's 'Radentscheid-Vertrag' of July 2021, which runs until July 2026, required converting around 550 car parking spaces in the city centre into bicycle parking, green areas and similar uses.",
-   "source_title": "Augsburger Anti-Auto-Vertrag läuft aus (Die gespaltene Fahrradstadt: Augsburg zwischen Radler-Frust und Parkplatz-Lust)",
+   "text": "An Augsburg Journal article (13 July 2026) says the city's 'Radentscheid-Vertrag' of July 2021 with the 'Fahrradstadt Jetzt' alliance, which obliged the city to expand cycling infrastructure by July 2026, included a clause to convert around 550 car parking spaces in the city centre into bicycle parking, green areas and similar uses over its term.",
+   "source_title": "Augsburg: Radentscheid-Vertrag läuft aus – Autos könnten zurückkehren",
    "source_url": "https://www.augsburg-journal.de/stadt-region/die-gespaltene-fahrradstadt-augsburg-zwischen-radler-frust-und-parkplatz-lust/",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
   },
   {
    "topic": "tariffs",
    "date": "2026-07",
-   "text": "CSU politician Volker Ullrich openly proposes bringing back the 30-minute free 'Semmeltaste' parking; Mayor Florian Freund (SPD) responded cautiously, saying his group was never enthusiastic but businesses often raise the issue, and that the city council will decide.",
-   "source_title": "Augsburger Anti-Auto-Vertrag läuft aus (Die gespaltene Fahrradstadt: Augsburg zwischen Radler-Frust und Parkplatz-Lust)",
+   "text": "CSU district chairman and city councillor Volker Ullrich floats bringing back the 30-minute free 'Semmeltaste' parking or a similar system; Mayor Florian Freund (SPD) said his group was never big fans, but that nearly all business owners raised the issue and that the city council will decide.",
+   "source_title": "Augsburg: Radentscheid-Vertrag läuft aus – Autos könnten zurückkehren",
    "source_url": "https://www.augsburg-journal.de/stadt-region/die-gespaltene-fahrradstadt-augsburg-zwischen-radler-frust-und-parkplatz-lust/",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
   },
   {
    "topic": "regulation",
    "date": "2026",
-   "text": "Following the March 2026 municipal elections, Augsburg's new city government is formed by SPD, CSU, Freie Wähler and Generation Aux under Oberbürgermeister Florian Freund (SPD). Its eight Referate include one (SPD) covering city development, urban planning, mobility and climate protection, to be filled through a public application process.",
-   "source_title": "Sie steuern die Stadt: Rathaus-Kooperation verständigt sich auf acht Referenten",
+   "text": "Augsburg's new city government is formed by SPD, CSU, Freie Wähler and Gen Aux under Oberbürgermeister Florian Freund (SPD). Its eight Referate include Referat 2, covering urban development, urban planning, mobility and public transport and climate protection among other areas; the SPD, which had the right of proposal, decided to fill it through a public application process.",
+   "source_title": "Stadt Augsburg benennt acht Referenten für neue Rathaus-Koalition",
    "source_url": "https://www.augsburg-journal.de/stadt-region/sie-steuern-die-stadt-rathaus-kooperation-verstaendigt-sich-auf-acht-referenten/",
-   "confidence": "high"
-  },
-  {
-   "topic": "regulation",
-   "date": "2024-10",
-   "text": "On 24 October 2024 Stadtwerke Augsburg announced a new schedule for the underground tram stop at Augsburg Hauptbahnhof (Mobilitätsdrehscheibe): opening between December 2026 and July 2027, citing supply-chain problems, the energy crisis, contractor capacity and newly emerged safety requirements; the project is stated to remain within its 250 million euro budget.",
-   "source_title": "Straßenbahnhaltestelle im Augsburger Hauptbahnhof eröffnet erst 2026/2027",
-   "source_url": "https://www.b4bschwaben.de/b4b-nachrichten/augsburg_artikel,-strassenbahnhaltestelle-im-augsburger-hauptbahnhof-eroeffnet-erst-20262027-_arid,272319.html",
-   "confidence": "low"
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
   },
   {
    "topic": "regulation",
@@ -90,7 +101,9 @@
    "text": "A Stadtwerke Augsburg press release of 22 October 2025 says the Hauptbahnhof tram stop should go into operation by end of 2026 / mid-2027, with lines 3 and 4 serving it first via the underground turning loop. Track work for the line 6 gap closure (Lückenschluss) was expected to begin in spring 2026, with line 6 running through the tunnel between Friedberg West and Stadtbergen from about end of 2027.",
    "source_title": "Hauptbahnhof und Lückenschluss auf der Zielgeraden",
    "source_url": "https://www.sw-augsburg.de/ueber-uns/presse/detail/hauptbahnhof-und-lueckenschluss-auf-der-zielgeraden/",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
   },
   {
    "topic": "technology",
@@ -98,7 +111,9 @@
    "text": "Augsburg's parking guidance system has been in operation since 18 October 2021, with 49 fully dynamic LED displays, 10 dynamic and 60 static signs. It links 15 city-centre garages in four colour zones (green Rathaus/Theater, red Hauptbahnhof, blue Maximilianstraße, yellow City-Galerie) and shows free spaces in real time.",
    "source_title": "Parkleitsystem Augsburg",
    "source_url": "https://www.augsburg.de/buergerservice-rathaus/verkehr/parken-neu/parkleitsystem",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
   },
   {
    "topic": "technology",
@@ -106,15 +121,19 @@
    "text": "The city's parking page (last updated 14 July 2026) states that Augsburg's city centre has 18 parking garages and seven P+R facilities, and that real-time garage occupancy data is available on the city's Smart City Dashboard (smartes.augsburg.de).",
    "source_title": "Parken in Augsburg",
    "source_url": "https://www.augsburg.de/buergerservice-rathaus/verkehr/parken",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
   },
   {
    "topic": "operators",
    "date": "2026",
-   "text": "Contipark runs Parkhaus Halderstraße (Halderstraße 3-9), listed with 540 spaces, open 06:00-01:00 Monday-Thursday and to 01:30 Friday-Saturday. Its page shows 3.50 euro per started hour and 16.00 euro daily maximum (Pcard holders 1.80 euro per hour, 9.00 euro maximum).",
-   "source_title": "Parkhaus Halderstraße in Augsburg - Mein Contipark",
+   "text": "Contipark runs Parkhaus Halderstraße (Halderstraße 3-9), listed with 540 spaces, open 06:00-01:00 Monday-Thursday and to 01:30 Friday-Saturday (Sunday 09:00-01:30). Its page shows 3.50 euro per started hour and a 16.00 euro daily maximum (Pcard holders 1.80 euro per hour, 9.00 euro maximum).",
+   "source_title": "Parkhaus Halderstraße in Augsburg | Contipark",
    "source_url": "https://www.contipark.de/de/parken/augsburg/parkhaus-halderstrasse/",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
   },
   {
    "topic": "operators",
@@ -122,31 +141,29 @@
    "text": "Contipark also runs Parkhaus Ludwigstraße (Ludwigstraße 28): 350 spaces, open around the clock, 3.50 euro per hour with an 18.00 euro daily maximum (Pcard holders 2.00 euro per hour, 10.00 euro maximum).",
    "source_title": "Parkhaus Ludwigstraße in Augsburg",
    "source_url": "https://www.contipark.de/de/parken/augsburg/parkhaus-ludwigstrasse/",
-   "confidence": "high"
-  },
-  {
-   "topic": "ev",
-   "date": "2026",
-   "text": "Contipark's Parkhaus Ludwigstraße lists 18 Type-2 charging points (11 kW maximum) at 0.55 euro per kWh.",
-   "source_title": "Parkhaus Ludwigstraße in Augsburg",
-   "source_url": "https://www.contipark.de/de/parken/augsburg/parkhaus-ludwigstrasse/",
-   "confidence": "low"
+   "confidence": "high",
+   "id": 14,
+   "checked": "supported"
   },
   {
    "topic": "operators",
    "date": "2026",
-   "text": "APCOA operates two Augsburg car parks, both at hospital campuses: the Universitätsklinikum underground garage (2,500 spaces, 8 EV charging stations, from 1.50 euro per hour up to 16.00 euro per day) and Medizincampus Süd (320 spaces, from 1.50 euro per hour up to 8.00 euro per day).",
-   "source_title": "Parken in Augsburg - APCOA",
+   "text": "APCOA operates two Augsburg car parks, both at hospital campuses: the Universitätsklinikum underground garage (2,500 spaces, 8 EV charging spaces, from 1.50 euro per hour up to 16.00 euro per day) and Medizincampus Süd (320 spaces, from 1.50 euro per hour up to 8.00 euro per day).",
+   "source_title": "Parken in Augsburg – moderne Parkhäuser mit fairen Preisen - APCOA",
    "source_url": "https://www.apcoa.de/einmal-parken/standorte/augsburg",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 16,
+   "checked": "partly"
   },
   {
    "topic": "operators",
    "date": "2026",
-   "text": "Around the Hauptbahnhof the DB station-parking page lists several operators: DB BahnPark Tiefgarage Viktoria-Passage (197 spaces, 2.50 euro per hour), Im Helio (642 spaces, 2.50 euro per hour or 15 euro per day), P+R Bahnhof (524 spaces, 2.20 euro per hour or 11 euro per day), Halderstraße (540 spaces) and Diako (240 spaces, 2.50 euro per hour).",
-   "source_title": "Parkplätze Augsburg Hbf - bahnhof.de",
+   "text": "Around the Hauptbahnhof the DB station page lists DB BahnPark Tiefgarage Viktoria-Passage (197 spaces, 2.50 euro per hour), Im Helio (642 spaces, 2.50 euro per hour or 15 euro per day) and P+R Bahnhof (524 spaces, 2.20 euro per hour or 11 euro per day), plus other options Halderstraße (540 spaces) and Diako (240 spaces, 2.50 euro per hour).",
+   "source_title": "Parken – Augsburg Hbf",
    "source_url": "https://www.bahnhof.de/augsburg-hbf/parkplaetze",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
   },
   {
    "topic": "operators",
@@ -154,31 +171,19 @@
    "text": "Parkhaus Schaezlerstraße (Schaezlerstraße 9a) is operated by city-parking Deutschland GmbH & Co. KG: open 24/7, short-term tariff 2.50 to 15.00 euro (15 euro daily maximum), night rate 1.50 euro per hour (19:00-07:00, maximum 7.00 euro), monthly contract 170 euro.",
    "source_title": "city-parking Augsburg Parkhaus Schaezlerstraße",
    "source_url": "https://city-parking.de/standorte/augsburg-parkhaus-schaezlerstrasse/",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 18,
+   "checked": "supported"
   },
   {
    "topic": "tariffs",
    "date": "2026",
-   "text": "The City-Galerie shopping centre garage charges 0.60 euro for the first hour, 0.60 euro for the second, 0.80 euro for the third and 1.00 euro per hour thereafter; there is no day ticket. The page names ECE Marketplaces as centre management and does not state the number of spaces.",
-   "source_title": "Parkhaus City-Galerie Augsburg",
+   "text": "The City-Galerie shopping centre garage charges 0.60 euro for the first hour, 0.60 euro for the second, 0.80 euro for the third and 1.00 euro per hour thereafter; there is no day ticket. The page does not state the number of spaces and names ECE Marketplaces only in its contact/footer details.",
+   "source_title": "Parkhaus | City Galerie Augsburg",
    "source_url": "https://www.city-galerie-augsburg.de/services/parkhaus-s22555/",
-   "confidence": "high"
-  },
-  {
-   "topic": "operators",
-   "date": "2026",
-   "text": "The parking directory ParkingList (an aggregator, not an operator) lists central garages with capacities: City-Galerie 2,000 spaces, Ernst-Reuter-Platz 647, Fuggerstadt-Center 593, Hauptbahnhof 524, Halderstraße 520, Schaezlerstraße 460 and Ludwigstraße 350; it cites downtown fees of 0.50 to 2.00 euro per hour and about 4,500 city-centre spaces in nine zones.",
-   "source_title": "Parken in Augsburg - Parkplätze und Parkhäuser",
-   "source_url": "https://www.parkinglist.de/parkplatzsuche/augsburg/augsburg-deutschland",
-   "confidence": "low"
-  },
-  {
-   "topic": "operators",
-   "date": "2026",
-   "text": "ParkingList lists Parkhaus Ernst-Reuter-Platz (647 spaces, open Monday-Saturday 07:00-24:00) under operator 'Ernst-Reuter-Platz Parkgaragen u. Immobilien GmbH & Co.KG', with tariffs of 2.50 euro up to 1 hour rising by 2.50 euro per hour to 16.00 euro for up to 24 hours.",
-   "source_title": "Parkhaus Ernst-Reuter-Platz - Augsburg",
-   "source_url": "https://www.parkinglist.de/parkplatz/augsburg/parkhaus-ernst-reuter-platz-augsburg-4668",
-   "confidence": "low"
+   "confidence": "medium",
+   "id": 19,
+   "checked": "partly"
   },
   {
    "topic": "technology",
@@ -186,7 +191,9 @@
    "text": "On 10 April 2026 it was reported that Parkgarage Fuggerstraße (171 spaces) would close from 15 April until September 2026 for modernisation. After reopening it is to be barrier-free and cashless with licence-plate recognition cameras replacing barriers, accept only card, phone or app payment, and move to a simplified tariff meant to align with other downtown garages.",
    "source_title": "Augsburg: Parkgarage Fuggerstraße bis September geschlossen",
    "source_url": "https://www.b4bschwaben.de/b4b-nachrichten/augsburg_artikel,-parkgarage-fuggerstrasse-bis-september-geschlossen-_arid,274969.html",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 22,
+   "checked": "supported"
   },
   {
    "topic": "ev",
@@ -194,15 +201,9 @@
    "text": "Stadtwerke Augsburg expanded EV charging at the Fuggerstraße garage from 4 to 30 charging points (up to 11 kW per vehicle, per a report of 18 September 2026), and note day and night tariffs plus daytime blocking fees at their charging points since 1 April 2026.",
    "source_title": "eMobilität in der Innenstadt: 30 neue Ladepunkte in der Parkgarage Fuggerstraße",
    "source_url": "https://www.daz-augsburg.de/emobilitaet-in-der-innenstadt-30-neue-ladepunkte-in-der-parkgarage-fuggerstrasse/",
-   "confidence": "high"
-  },
-  {
-   "topic": "ev",
-   "date": "2026-03",
-   "text": "From 1 April 2026 Stadtwerke Augsburg charge 0.37 euro per kWh for AC charging between 7 and 21 hours and 0.35 euro at night, and 0.44 / 0.42 euro per kWh for DC up to 200 kW; swa planned to double its roughly 100 charging points to at least 200 by end of 2026.",
-   "source_title": "Stadtwerke Augsburg senken Ladepreise und führen Tages- und Nachttarife ein",
-   "source_url": "https://www.electrive.net/2026/03/23/stadtwerke-augsburg-senken-ladepreise-und-fuehren-tages-und-nachttarife-ein/",
-   "confidence": "low"
+   "confidence": "high",
+   "id": 23,
+   "checked": "supported"
   },
   {
    "topic": "demand",
@@ -210,63 +211,39 @@
    "text": "The long-closed Kongress am Park parking garage (closed since 2012 because of its poor condition) saw demolition start on a Saturday in mid-June 2026 by its majority owner; a district court injunction stopped the work on the following Monday after a minority owner objected. The hotel director called the missing garage existentially threatening.",
    "source_title": "Abriss des Parkhauses am Kongress gestoppt: Wie geht es jetzt weiter?",
    "source_url": "https://www.b4bschwaben.de/b4b-nachrichten/augsburg_artikel,-abriss-des-parkhauses-am-kongress-gestoppt-wie-geht-es-jetzt-weiter-_arid,275238.html",
-   "confidence": "high"
-  },
-  {
-   "topic": "demand",
-   "date": "2026-06",
-   "text": "Radio Augsburg reported on 16 June 2026 that about a quarter of the Kongress am Park garage had been razed before the injunction; the city said it is exploring future development of the Wittelsbacher Park area, including a potential mobility hub.",
-   "source_title": "Abriss des Kongressparkhauses in Augsburg gestoppt",
-   "source_url": "https://www.radio-augsburg.de/abriss-des-kongressparkhauses-in-augsburg-gestoppt-256905/",
-   "confidence": "low"
-  },
-  {
-   "topic": "regulation",
-   "date": "2025-07",
-   "text": "A 16 July 2025 report says Augsburg is updating its Stellplatzsatzung to follow Bavaria's new October 2025 rules that set maximum rather than minimum parking figures: a maximum of 2 spaces per dwelling, none mandatory for single-family homes, only 80 percent of the cap in the downtown core and transition zones (reducible to 50 percent), and higher ablation fees (core zone from 13,500 to 18,000 euro).",
-   "source_title": "Augsburg regelt private Stellplätze neu",
-   "source_url": "https://www.daz-augsburg.de/augsburg-regelt-private-stellplaetze-neu/",
-   "confidence": "low"
+   "confidence": "high",
+   "id": 25,
+   "checked": "supported"
   },
   {
    "topic": "regulation",
    "date": "2023",
-   "text": "The Mobilitätsstrategie of the Augsburger Mobilitätsplan states that the car share of trips was 41 percent in 2018, the same as in 2003, and that public transport held between 16 and 18 percent since 2003, so little change in mode choice had been achieved.",
+   "text": "The Mobilitätsstrategie of the Augsburger Mobilitätsplan states that the car share of trips was 41 percent in 2018, the same level as in 2003, and that public transport has held between 16 and 18 percent since 2003 with no visible gain in market share, while the cycling share of internal trips rose from about 14 percent in 2008 to over 19 percent in 2018.",
    "source_title": "Die Mobilitätsstrategie des Augsburger Mobilitätsplans",
    "source_url": "https://www.augsburg.de/fileadmin/user_upload/buergerservice_rathaus/verkehr/augsburger_mobilitaetsplan/Mobilit%C3%A4tsstrategie_der_Stadt_Augsburg.pdf",
-   "confidence": "high"
-  },
-  {
-   "topic": "regulation",
-   "date": "2023",
-   "text": "In the Mobilitätsstrategie, the modelled 'Szenario 2' (an assumed scenario, not an adopted measure list) combines expanded tram, bus, cycling and walking offers with a car-light city centre, a spatial extension of Parkraumbewirtschaftung and higher fees, and Tempo 30 on most streets.",
-   "source_title": "Die Mobilitätsstrategie des Augsburger Mobilitätsplans",
-   "source_url": "https://www.augsburg.de/fileadmin/user_upload/buergerservice_rathaus/verkehr/augsburger_mobilitaetsplan/Mobilit%C3%A4tsstrategie_der_Stadt_Augsburg.pdf",
-   "confidence": "low"
+   "confidence": "medium",
+   "id": 28,
+   "checked": "partly"
   },
   {
    "topic": "demand",
    "date": "2026",
-   "text": "For the 2026 Christkindlesmarkt (23 November to 24 December) the market's page recommends P+R: the Plärrer fairground lot costs 2.50 euro on weekdays and 3.00 euro at weekends (tram line 4), and street parking downtown is 'generally filled quickly on the Advent weekends'.",
-   "source_title": "Parking, Park & Ride - Augsburger Christkindlesmarkt",
+   "text": "For Christmas-market visitors in 2026 the market's page recommends the Plärrer fairground P+R (available 23 November to 24 December 2026; 2.50 euro Monday-Friday, 3.00 euro Saturday and Sunday; tram line 4 runs nearby) and says downtown park garages 'are generally filled quickly on the Advent weekends'.",
+   "source_title": "Parking, Park & Ride - Ausburgs Christmas Market",
    "source_url": "https://augsburgerchristkindlesmarkt.com/parkingpark-ride/?lang=en",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 30,
+   "checked": "partly"
   },
   {
    "topic": "demand",
    "date": "2026-08",
    "text": "The P+R lot at the Plärrergelände was closed from 17 August to 19 September 2026 for set-up of the Herbstplärrer (28 August to 13 September 2026).",
-   "source_title": "Herbstplärrer 2026: Aufbau beginnt",
+   "source_title": "Herbstplärrer 2026: Aufbau beginnt – Park&Ride-Platz ab 17. August gesperrt",
    "source_url": "https://www.daz-augsburg.de/herbstplaerrer-2026-aufbau-beginnt-parkride-platz-gesperrt/",
-   "confidence": "high"
-  },
-  {
-   "topic": "demand",
-   "date": "2026",
-   "text": "For FC Augsburg home matches at the WWK Arena, parking areas P1 and P4 cost 10 euro for up to 24 hours, the Messe Augsburg lot costs 6 euro including shuttle bus, and Fujitsu areas P1 and P6 cost 10 euro on matchdays.",
-   "source_title": "Stadion Anfahrt - FC Augsburg",
-   "source_url": "https://www.fcaugsburg.de/en/page/stadion-anfahrt-79",
-   "confidence": "low"
+   "confidence": "medium",
+   "id": 31,
+   "checked": "partly"
   }
  ],
  "gaps": [
@@ -279,5 +256,8 @@
   "Council decision on the Mobilitätsstrategie (Stadtrat 16 May 2024): the PDF link returned 404, so adoption could not be confirmed.",
   "Resident parking fee changes (currently 30 euro per year per city pages) and any planned increase; Umweltzone current status; Linie 5 to Uniklinik timeline and P+R Augsburg West capacities (only undated or unopened sources); Messe and university demand.",
   "Königsplatz redesign beyond its earlier completion, Fuggerstraße street changes and Bahnhofstunnel parking effects: no recent primary source found."
- ]
+ ],
+ "dropped": {
+  "low confidence": 9
+ }
 }
