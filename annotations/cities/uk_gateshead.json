@@ -1,0 +1,162 @@
+{
+ "country": "UK",
+ "city": "Gateshead",
+ "researched": "2026-10-08",
+ "verified": "2026-10-07",
+ "summary": "The Quays multi-storey car park on Quays Boulevard, Gateshead, was reported open on 5 October 2025 with over 1,000 spaces, 45 large accessible spaces and, according to the opening report, 50 EV charging bays; the reported charges were £2.60 for up to two hours and £5.70 for a day, and EV charging 66p/kWh, while a Zapmap listing updated in June 2026 shows 19 chargers at 50p/kWh, so the current EV provision and price are unconfirmed. It was built to serve the planned Gateshead Quays arena, where, as of June 2026, no construction had started; a £24 million grant for enabling works was announced in March 2026 (a contractor appointment was expected by the end of 2026), and Reform UK, which won control of the council on 7 May 2026, questioned the arena's viability in June 2026. A Gateshead Council cabinet report of 24 February 2026 proposed not increasing charges at a large section of car parks because the 2022/23 and 2023/24 rises had affected usage and some car parks were under-used because of work on the Tyne Bridge and the flyover; councillors signed off the budget on 26 February 2026 with the majority of car park charges frozen and modest rises for some permits and Queen Elizabeth Avenue short stay. The council's proposed 2025/26 schedule listed Charles Street, Quarryfield Road and the Heworth Metro car parks at the same prices as 2024/25. The Gateshead Highway flyover was closed on 13 December 2024 (Metro was withdrawn between Central Station and Heworth from 19 to 31 December 2024) and its last span was demolished on 29 September 2026, with the council hoping for about 1,100 new homes in the area; the council also expects a planning application and a mid-2027 start for the Old Town Hall scheme, which would replace surface car parks. Among private and venue car parks, the Metrocentre advertises about 10,000 free spaces, BALTIC charges £2.00 for the first hour and the Glasshouse £5.95 for a day. The Newcastle and Gateshead Clean Air Zone charged non-compliant taxis, buses, coaches and HGVs from 30 January 2023 and vans from 17 July 2023, but not private cars (as of a September 2023 report).",
+ "items": [
+  {
+   "topic": "operators",
+   "date": "2025-09",
+   "text": "The Quays multi-storey car park on Quays Boulevard, Gateshead Quays, was reported open on 5 October 2025 with over 1,000 spaces, 45 large accessible spaces and 50 electric vehicle charging bays. The report gives charges of £2.60 for up to two hours or £5.70 for a full day, paid through the PayByPhone app, with 3-month and annual season tickets available.",
+   "source_title": "New multi-storey car park opens in Gateshead",
+   "source_url": "https://bdaily.co.uk/articles/2025/10/05/new-multi-storey-car-park-opens-in-gateshead",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026",
+   "text": "Zapmap lists the Gateshead Quays MSCP (Hawks Road, NE8 3AD) as part of the APCOA charging network with 19 devices and 19 connectors, all Type 2 (13 at 22kW and 6 at 7.4kW), at a listed price of 50p/kWh; the page was last updated on 3 June 2026. The car park's opening report in October 2025 gave 50 charging bays at 66p/kWh, so the two sources do not agree and the current number of chargers and price are unconfirmed.",
+   "source_title": "Gateshead Quays MSCP EV charging point, Gateshead - Zapmap",
+   "source_url": "https://www.zapmap.com/charge-points/gateshead/D5K8WSI",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2021-04",
+   "text": "In April 2021 Gateshead Council appointed Willmott Dixon to build the £22.9 million steel-framed Quays multi-storey car park in the Baltic Quarter: 10 storeys and 1,000 spaces, with 50 EV charge points initially (room for 300 more) and a new link road through the Baltic Quarter, to support the planned Newcastle Gateshead Quays arena and conference scheme.",
+   "source_title": "Willmott Dixon awarded £22.9m Gateshead Quays multi-storey car park",
+   "source_url": "https://www.willmottdixon.co.uk/news/willmott-dixon-awarded-229m-gateshead-quays-multi-storey-car-park",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-03",
+   "text": "On 12 March 2026 Construction News reported that a contractor for the Gateshead Quays arena (12,000 to 15,000 seats, valued at £350 million) was expected to be appointed by the end of 2026, with earthworks scheduled for 2026 after a £24 million grant announced on 9 March 2026 by North East mayor Kim McGuinness; the previously planned international conference centre has been postponed and the scheme has seen repeated delays.",
+   "source_title": "£350m Gateshead arena job appointment due this year",
+   "source_url": "https://www.constructionnews.co.uk/buildings/gateshead-arena-contractor-appointment-due-this-year-12-03-2026/",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06",
+   "text": "On 4 June 2026 the new Reform leadership of Gateshead Council (leader Nick Allan, deputy leader Fiona Pearce) questioned the viability of the proposed 12,500 to 15,000-capacity Gateshead Quayside arena, while North East mayor Kim McGuinness defended the £24 million committed in March 2026 for infrastructure and enabling works.",
+   "source_title": "Reform casts doubt on future of Gateshead Quayside Arena",
+   "source_url": "https://www.placenortheast.co.uk/reform-throws-doubt-on-future-of-gateshead-quayside-arena/",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-02",
+   "text": "Gateshead Council's Fees and Charges 2026/27 Cabinet report (24 February 2026) proposed not increasing charges at a large section of car parks because the 2022/23 and 2023/24 increases had affected usage; it noted some car parks are under-used for reasons including work on the Tyne Bridge and the flyover, and proposed freezing prices to encourage people back to the town centre.",
+   "source_title": "Fees and Charges 2026/27 (Report to Cabinet, 24 February 2026)",
+   "source_url": "https://gateshead.moderngov.co.uk/documents/s47915/RTC%20-%20Fees%20and%20Charges%20202627%20A.pdf",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-02",
+   "text": "On 26 February 2026 Gateshead Council signed off its parking fee changes: most car park charges frozen, with modest rises including Queen Elizabeth Avenue short-stay parking up by 10 to 20 pence (to £2 and £3), seasonal permit increases at Cross Keys Lane, Whickham Shopping Centre and Garden Street (Oakwellgate), and second and third resident permits rising to £55 and £80 a year.",
+   "source_title": "Council signs off rise in parking permit fees across Gateshead",
+   "source_url": "https://uk.news.yahoo.com/council-signs-off-rise-parking-204003817.html",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025",
+   "text": "Gateshead Council's proposed 2025/26 fees schedule left unchanged from 2024/25 the charges at Charles Street car park (8am to 8pm, 3-hour maximum stay: £1.70 up to 1 hour, £5.10 up to 3 hours) and Quarryfield Road car park (up to 2 hours £2.60, up to 12 hours £5.70, up to 24 hours £8.00, up to 72 hours £24.00). The same schedule lists two Heworth Metro-station car parks, both unchanged from 2024/25: Heworth North (all times, maximum stay 7 days) at £2.20 up to 4 hours, £3.00 up to 12 hours and £4.20 per 24 hours; and Heworth South (Monday to Saturday 7am to 8pm, 4-hour maximum stay) at £2.40 up to 2 hours, £4.20 up to 4 hours and £2.20 fixed on Sundays.",
+   "source_title": "Gateshead Council Proposed Fees and Charges 2025/26",
+   "source_url": "https://gateshead.moderngov.co.uk/documents/s42972/Fees+and+Charges+202526+B.pdf",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-12",
+   "text": "Gateshead Council closed the Gateshead Highway flyover on 13 December 2024 on safety grounds; Nexus withdrew the Metro service between Central Station and Heworth on 19 December 2024 over concerns about the Metro tunnels, and after temporary propping (27 to 29 December) the Metro service was restored on 31 December 2024.",
+   "source_title": "Gateshead Highway Flyover - Update (Report to Cabinet, 18 March 2025)",
+   "source_url": "https://gateshead.moderngov.co.uk/documents/s43594/Flyover+Report+to+Cabinet+FINAL+130325.pdf",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-09",
+   "text": "The last span of the Gateshead flyover (A167) was demolished on 29 September 2026, ending a six-month project that began in April 2026. Gateshead Council had set aside £18 million for the demolition (plus £2.5 million from the North East Combined Authority); reported costs have since risen to £31 million, which the council's chief executive said includes the emergency propping works. The removal is described as opening the way for regeneration of the area, including 1,100 new homes.",
+   "source_title": "“New Era” for Gateshead as flyover demolition completes",
+   "source_url": "https://northeastbylines.co.uk/business/economy/new-era-for-gateshead-as-flyover-demolition-completes/",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06",
+   "text": "Gateshead Council said in June 2026 that it expects a planning application in September 2026 and a start on site in mid-2027 for Capital&Centric's redevelopment of the Grade II-listed Old Town Hall and surrounding surface car parks into 243 homes plus cafes, bars and restaurants, as part of a wider aim of 4,000 new town-centre homes.",
+   "source_title": "Gateshead signals mid-2027 start for Capital&Centric town centre renewal",
+   "source_url": "https://www.placenortheast.co.uk/gateshead-signals-mid-2027-start-for-capitalcentric-town-centre-scheme/",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026",
+   "text": "Metrocentre has six car parks with almost 10,000 spaces, free during centre opening hours with no time limit in the main colour-zoned car parks, while Metro Retail Park and MetrOasis have a 4-hour limit; all hold Park Mark awards.",
+   "source_title": "Free Parking | Metrocentre | Car Parks | Multi-Storey | Metrocentre",
+   "source_url": "https://themetrocentre.co.uk/centre-information/services-at-metrocentre/free-parking",
+   "confidence": "medium",
+   "id": 21,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026",
+   "text": "The BALTIC car park behind the gallery is pay on exit by card or cash at £2.00 up to 1 hour, £3.50 up to 2 hours, £5.00 up to 3 hours and £1.50 an hour thereafter, with free parking for Blue Badge holders.",
+   "source_title": "Getting to Baltic",
+   "source_url": "https://baltic.art/plan-your-visit/getting-to-baltic/",
+   "confidence": "medium",
+   "id": 22,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026",
+   "text": "The Glasshouse International Centre for Music car park (NE8 2BA) is managed with Euro Car Parks using ANPR, free for up to 1 hour and £5.95 all day; the venue lists Church Street, Quarryfield Road (500m) and The Quays multi-storey (700m, 1,000+ spaces) as alternatives and notes Mill Road and South Shore Road car parks as currently closed.",
+   "source_title": "Parking at The Glasshouse",
+   "source_url": "https://theglasshouseicm.org/your-visit/plan-your-journey/parking/",
+   "confidence": "medium",
+   "id": 23,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Gateshead Council web pages (gateshead.gov.uk, incl. the car parks, parking strategy, Quays car park opening and EV pages) returned HTTP 403 and were not used",
+  "Newcastle World / Chronicle Live and BBC pages were blocked or not accessible, so no local-press confirmation of the Quays car park tariff announcement beyond bdaily",
+  "ITV Tyne Tees pages on the Quays car park and arena timed out and were not used",
+  "Heworth Interchange capacity (393 long stay / 64 short stay), Nexus Heworth pages, the Heworth flood-alleviation car park works and the 2021 Heworth EV chargers could not be opened (404/403)",
+  "No opened source on NCP (Hudson Street), Q-Park or APCOA car park operations in Gateshead town centre beyond APCOA's EV network at the Quays car park",
+  "No opened source on current on-street charges, Controlled Parking Zone changes, or the Gateshead Quays event parking arrangements; Gateshead-specific LEVI/ORCS charger counts not found",
+  "Conflicting EV data for The Quays: 50 charging bays at 66p/kWh (bdaily) versus 19 connectors at 50p/kWh (Zapmap, undated)",
+  "Sage Gateshead and Trinity Square (demolished 2010) parking details not sourced from opened pages"
+ ],
+ "dropped": {
+  "low confidence": 12
+ }
+}

@@ -1,0 +1,265 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Opened bdaily page (Bdaily, 05 Oct 2025; title matches). Page says the car park 'is now open', on Quays Boulevard, over 1000 spaces, 45 large accessible spaces, 50 EV bays, PayByPhone, charges 'align with other nearby council car parks' at £2.60 up to two hours and £5.70 full day, 3-month or annual season tickets. ERROR: the page gives no opening date; 'Monday 29 September 2025' is not on the page (only the article date 5 Oct 2025). Also says the facility may later be contracted to a private operator. Cross-check: the same £2.60 / £5.70 appear for Quarryfield Road in the Gateshead 2025/26 fees schedule (item 11).",
+   "corrected_text": "The Quays multi-storey car park on Quays Boulevard, Gateshead Quays, was reported open on 5 October 2025 with over 1,000 spaces, 45 large accessible spaces and 50 electric vehicle charging bays. The report gives charges of £2.60 for up to two hours or £5.70 for a full day, paid through the PayByPhone app, with 3-month and annual season tickets available.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Same bdaily page re-opened. Confirms: EV charging 66 pence per kWh, 'with infrastructure in place to expand the number of charging bays'; £23 million development; funded through Gateshead Council's capital programme with a £2.8m contribution from the Government's Getting Building Fund (administered by NE LEP, now part of the North East Combined Authority). Title and date (Oct 2025) match. DUPLICATE SOURCE: same article as item 0; could be merged into item 0.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Opened Zapmap page (title matches 'Gateshead Quays MSCP EV charging point, Gateshead - Zapmap'; page marked 'Updated: 03rd June 2026'). Says: location Gateshead Quays MSCP, Hawks Road, NE8 3AD; network APCOA; 19 devices / 19 connectors; pricing 50p/kWh. Device list: 13 Type 2 at 22kW and 6 Type 2 at 7.4kW. ERROR in draft: it says 11 at 22kW and 8 at 7.4kW. The page does not mention 50 bays or 66p; the comparison is the drafter's. CONFLICT SUMMARY: bdaily (5 Oct 2025, opening report) says 50 EV charging bays at 66p/kWh with room to expand; Willmott Dixon (April 2021, plan) says 50 EV charge points initially, room for 300 more; Zapmap (updated 3 June 2026) lists 19 connectors at 50p/kWh. Zapmap is the later page; it is a third-party aggregator listing (APCOA network), not the council, and may count only live charge points. The conflict cannot be resolved from opened pages (gateshead.gov.uk returns 403 to curl and WebFetch).",
+   "corrected_text": "Zapmap lists the Gateshead Quays MSCP (Hawks Road, NE8 3AD) as part of the APCOA charging network with 19 devices and 19 connectors, all Type 2 (13 at 22kW and 6 at 7.4kW), at a listed price of 50p/kWh; the page was last updated on 3 June 2026. The car park's opening report in October 2025 gave 50 charging bays at 66p/kWh, so the two sources do not agree and the current number of chargers and price are unconfirmed.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Opened Willmott Dixon news page (13 April 2021; title matches). Confirms: £22.9m contract awarded by Gateshead Council via Scape framework; 10-storey steel-framed car park in the Baltic Quarter; 1,000 spaces; 50 EV charge points with potential for a further 300; link road through Baltic Quarter; to provide parking for the new £260m Newcastle Gateshead Quays development (arena, conference and exhibition centre). 'Appointed in April 2021' is fair (page dated 13 April 2021). Contractor press release, not independent.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Opened World Construction Network (12 Nov 2020; title matches). Confirms planning approval for the £260m scheme on the NewcastleGateshead Quayside: arena (12,500-seat), over 7,000m2 flexible event space, two hotels, bars, restaurants, car parking; ASM Global to operate; scheduled to open late 2023. The page says 'planning approval', so 'approved' is acceptable, but this is a 2020 plan whose timetable was missed (see items 5, 8). Weak/stale and not about parking utilisation.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Opened Construction News (12 Mar 2026; title matches). Lede: contractor should be appointed for the 12,000-15,000 capacity arena by the end of this year, the council said; valued at £350m by Glenigan; repeatedly delayed; earthworks due this year; £24m grant announced Monday 9 March by Kim McGuinness; International Conference Centre put on hold. Nuances not in the draft: the council spokesperson said the council aims to agree a new procurement route with NECA and Ask Patrizia 'by the end of 2026', revised planning applications may be needed, and the £24m 'remains subject to final approval later in March'. Draft is supported but should stay worded as expectation.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Opened Wikipedia '2026 Gateshead Council election'. Confirms election 7 May 2026, 66 seats, Labour control since creation in 1974, Reform UK won 38 (previously none), Lib Dems 13, Labour 12, Green 3, Labour leader Martin Gannon lost his seat. Accurate but no parking content; a Wikipedia page is a weak source. Candidate to drop.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Opened AOL page (BBC/Local Democracy Reporting Service syndication, updated 15 May 2026; title matches). Confirms Reform named Nick Allan group leader, 'lot of listening' before major policy announcements, and priority on changes to the road system to 'free up access to Newcastle city centre'. Draft wording 'road improvements' is a fair paraphrase. No parking content; overlaps with item 6. Candidate to drop.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Opened Place North East (4 June 2026; title matches). Confirms leader Nick Allan and deputy leader Fiona Pearce (Reform UK) cast uncertainty over the arena ('vanity project', reference to an AI analysis), mayor Kim McGuinness defended it; NECA committed £24m in March for infrastructure and enabling works on the 12,500-15,000 capacity scheme; no spades in the ground. The page itself is a normal bylined news article (Sally Gibson), not AI-labelled; it only mentions that Reform alluded to an AI analysis. Draft correctly says 'questioned'.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Opened the PDF with pypdf (Report to Cabinet, 24 February 2026, 'Fees and Charges 2026/27'). Confirms under 'Fees that are not changing': charges for a large section of car parking not proposed to increase; 2022/23 and 2023/24 saw significant increases which had an impact on usage; some car parks under-used for many reasons such as work on the Tyne Bridge and flyover; proposal is to freeze prices to encourage people back to the town centre. It is a cabinet report recommending to Council, so 'proposed' is the right wording. Title and date match.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Opened Yahoo News UK reprint (Chronicle Live content, Austen Shakespeare, 26 Feb 2026; title matches). Councillors signed off the charges alongside the budget; spokesperson: freezing the cost of parking at the majority of car parks, modest increases elsewhere. List includes Queen Elizabeth Avenue 2-3 hour parking up 10p and 20p to £2 and £3, seasonal permit rises at Cross Keys Lane, Whickham Shopping Centre (West) and Garden Street (Oakwellgate), annual second and third resident permits to £55 and £80. All as in the draft. Same decision as item 9 (proposal there, sign-off here); complementary, not a duplicate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Opened the PDF with pypdf ('Gateshead Council Proposed Fees and Charges 2025/26'). Charles Street car park (Mon-Sun 8am-8pm, 3hr max stay): up to 1 hour £1.70, up to 3 hours £5.10, same in 2024/25 and 2025/26 proposed columns. Quarryfield Road (all times, max 3 days): up to 2 hours £2.60, 4 hours £3.90, 12 hours £5.70, 24 hours £8.00, 48 hours £16.00, 72 hours £24.00, unchanged. Draft correctly says 'proposed' and 'left unchanged from 2024/25'. Note: this is a proposed schedule; the adopted schedule was not seen. Same PDF as item 12.",
+   "corrected_text": "Gateshead Council's proposed 2025/26 fees schedule left unchanged from 2024/25 the charges at Charles Street car park (8am to 8pm, 3-hour maximum stay: £1.70 up to 1 hour, £5.10 up to 3 hours) and Quarryfield Road car park (up to 2 hours £2.60, up to 12 hours £5.70, up to 24 hours £8.00, up to 72 hours £24.00). The same schedule lists two Heworth Metro-station car parks, both unchanged from 2024/25: Heworth North (all times, maximum stay 7 days) at £2.20 up to 4 hours, £3.00 up to 12 hours and £4.20 per 24 hours; and Heworth South (Monday to Saturday 7am to 8pm, 4-hour maximum stay) at £2.40 up to 2 hours, £4.20 up to 4 hours and £2.20 fixed on Sundays.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Same PDF re-opened. Heworth North Car Park (Metro station), all times, max stay 7 days: up to 4 hours £2.20, up to 12 hours £3.00, up to 24 hours £4.20, unchanged. Heworth South (Mon-Sat 7am-8pm, 4hr max): up to 2 hours £2.40, up to 4 hours £4.20, Sunday fixed £2.20, unchanged. All as drafted. DUPLICATE SOURCE: same document as item 11; merge into item 11 rather than keep both.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Opened the PDF with pypdf (Report to Cabinet 18 March 2025, 'Gateshead Highway Flyover - Update'; title matches). Confirms closure on 13 December 2024 for safety (delamination survey 10-16 Dec found pier problems); Nexus withdrew Metro service between Central Station and Heworth on 19 December 2024; temporary propping 27-29 December; Metro restored 31 December 2024. ERROR: the road number 'A167' does not appear in the report (it is on other sources, e.g. item 14, but not on this page).",
+   "corrected_text": "Gateshead Council closed the Gateshead Highway flyover on 13 December 2024 on safety grounds; Nexus withdrew the Metro service between Central Station and Heworth on 19 December 2024 over concerns about the Metro tunnels, and after temporary propping (27 to 29 December) the Metro service was restored on 31 December 2024.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Initially curl returned 403 with a Chrome user agent; with a Safari user agent the page opened in full (Northeast Bylines, Austen Shakespeare, 3 Oct 2026; title matches). Confirms final span demolished 29 September 2026, six-month project begun in April 2026 (16 April), A167 flyover, 1,100 new homes mentioned. ERROR/overstatement: page says the council had set aside £18m for demolition with £2.5m from NECA, and costs 'had climbed to £31m'; the chief executive says the £31m 'also includes the emergency works to prop up the structure' and other structures, so it is not simply a demolition budget. '1,100 new homes' is stated as part of the regeneration the removal is heralded to enable.",
+   "corrected_text": "The last span of the Gateshead flyover (A167) was demolished on 29 September 2026, ending a six-month project that began in April 2026. Gateshead Council had set aside £18 million for the demolition (plus £2.5 million from the North East Combined Authority); reported costs have since risen to £31 million, which the council's chief executive said includes the emergency propping works. The removal is described as opening the way for regeneration of the area, including 1,100 new homes.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Opened Place North East (10 June 2026; title matches). Strategic director Anneliese Hutchinson: planning application expected in September 2026, start on site mid-2027; Capital&Centric scheme for the Grade II-listed Old Town Hall and surrounding surface car parks into 243 homes, cafes, bars, restaurants and green spaces; wider aim of 4,000 new town-centre homes. Draft correctly worded as expectation. Note: a Jan 2026 source (item 16 page) says 275 homes; the draft uses the later 243. Whether the application was submitted in September 2026 was not checked on this page. Relevant because surface car parks would be lost.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Opened Hits Radio/Rayo page (Micky Welch, published 10 Jan 2026; title matches). Confirms redevelopment of the transport interchange and 'potentially pedestrianising Jackson Street', and Gannon interested in a railway station at the Baltic Quarter. Draft wording is cautious and correct. Page also says no construction has started on the arena and the £23m car park has opened. Gannon has since lost leadership (May 2026). Speculative, no parking content; candidate to drop.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "Opened trans.info (Gregor Gowans, dated 10.07.2023; title matches). Page is a pre-start reminder from Newcastle City Council: charges for non-compliant taxis, buses, coaches and HGVs 'have been in place since 30 January 2023'; van and LGV charges 'start on 17 July 2023' at £12.50 a day; private cars not affected. DATE ERROR: draft date '2023-01' but the page is July 2023. WORDING: the page announces the van start, it does not report that charges 'followed' (item 18's Newcastle CC page of 26 Sept 2023 does confirm the 17 July start). Source is a Newcastle City Council reminder about a joint Newcastle-Gateshead scheme, not Gateshead-specific. Redundant with item 18.",
+   "corrected_text": "A July 2023 report of a Newcastle City Council reminder says the Newcastle and Gateshead Clean Air Zone had charged non-compliant taxis, buses, coaches and HGVs since 30 January 2023, and that charges of £12.50 a day for non-compliant vans and light goods vehicles were due to start on 17 July 2023; private cars are not charged.",
+   "corrected_title": null,
+   "corrected_date": "2023-07",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "supported",
+   "note": "Opened Newcastle City Council citylife news (26 September 2023; title matches). Confirms £1,301,437 in grants paid out in the first six months and 369 older taxis, vans and HGVs replaced or upgraded to end of July; also confirms CAZ launched 30 January 2023, vans from 17 July 2023, private cars not charged. Page is a Newcastle City Council release about the joint scheme (Gateshead councillor quoted). Not about parking; the grant statistic is irrelevant to parking utilisation. Keep at most one CAZ line, drawn from this page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "supported",
+   "note": "Opened new.newcastle.gov.uk news (2 April 2026; title matches). Confirms two years on site, bridge kept open to traffic and pedestrians throughout, 1,546 repairs, 3,926 rivets, scaffolding on the bridge deck from autumn 2026, main arch work in 2027, programme on schedule to complete for the 2028 centenary; Esh Construction delivering for Newcastle and Gateshead councils. It is a Newcastle City Council page, but the project is jointly delivered; the page says nothing about parking. Candidate to drop (item 9 already gives the Tyne Bridge link to car park usage).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "supported",
+   "note": "Opened tynebridge.org project news (30 Oct 2025; title 'Next stage for the Tyne Bridge restoration' matches). Confirms weekday overnight closures to traffic from Monday 3 to Friday 28 November, 8pm to 6am, for east-footway scaffolding, with pedestrians and cyclists keeping access. One garbled sentence says the closures 'will be delayed' to help football fans, so the exact dates actually worked were not confirmed. Stale, project-site page, no parking content. Candidate to drop.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "supported",
+   "note": "Opened themetrocentre.co.uk free-parking page (page undated; title matches). Confirms 6 car parks, almost 10,000 spaces, free with no time restrictions in the main colour-zoned car parks during centre opening hours, 4-hour limit at Metro Retail Park and MetrOasis, all car parks have a Park Mark award. Centre address is in Gateshead (NE11 9YG). Private operator's marketing page; topic is tariffs/supply rather than 'demand'.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "supported",
+   "note": "Opened baltic.art (page undated; title matches). Car park behind the building, pay on exit by card or cash: up to 1 hour £2.00, up to 2 hours £3.50, up to 3 hours £5.00, thereafter £1.50/hour; Blue Badge holders park free. The page also carries a notice that the A167 flyover is 'currently closed', so the content dates from the closure period; the exact date cannot be confirmed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 23,
+   "verdict": "supported",
+   "note": "Opened theglasshouseicm.org parking page (undated; title matches). Car park postcode NE8 2BA, introduced changes with Euro Car Parks, ANPR barrier-free, first hour free, all day £5.95; alternatives Church Street, Quarryfield Road (around 500m) and The Quays multi-storey (around 700m, over 1,000 spaces), run by Gateshead Council, PayByPhone accepted; 'Mill Road and South Shore Road car parks aren't open anymore' (closed during Gateshead Quays work). Draft says 'currently closed' which is consistent with the page. Page date cannot be confirmed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 24,
+   "verdict": "partly",
+   "note": "Opened gatesheadhalf.com (event page, undated; title matches). Page says: runners advised to take Metro to Gateshead Stadium station; Metro park and ride to Gateshead Stadium station from Callerton Parkway, Regent Centre, Four Lane Ends, Northumberland Park, Heworth and Stadium of Light; car users are told to use the event car park at Bede Primary School or preferably a park and ride Metro station, and from the A19 there is a park and ride Metro car park at Heworth. ERRORS: the 'Travel North East says Metro runs at least every 12 minutes ... more frequently at peak times from Heworth' claim is not on the page (no 12 minutes, no Travel North East, no peak reference); and the advice is for the Half Marathon only, not 'events at Gateshead International Stadium' in general. Weak.",
+   "corrected_text": "The Gateshead Half Marathon & 10k website advises runners to travel by Metro to Gateshead Stadium station and lists Metro park and ride from Callerton Parkway, Regent Centre, Four Lane Ends, Northumberland Park, Heworth and Stadium of Light; drivers are told to use the event car park at Bede Primary School or, preferably, a park and ride Metro station, with a park and ride Metro car park at Heworth for traffic from the A19.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 25,
+   "verdict": "partly",
+   "note": "Opened northeast-ca.gov.uk news (published 17/02/2025, last updated 25/02/2025; title matches). Confirms the North East Combined Authority secured £15.8m of LEVI funding, more than 1,000 charge points by 2030, hundreds in the next three years, mainly residential areas without off-street parking. ERROR: the page does not mention Gateshead or Gateshead Council as a partner; the claim is the drafter's inference. Region-wide, not Gateshead-specific.",
+   "corrected_text": "In February 2025 the North East Combined Authority secured £15.8 million from the Local Electric Vehicle Infrastructure fund for more than 1,000 new charge points across its area by 2030, mainly in residential areas without off-street parking; the page does not mention Gateshead specifically.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "The Quays multi-storey car park on Quays Boulevard, Gateshead, was reported open on 5 October 2025 with over 1,000 spaces, 45 large accessible spaces and, according to the opening report, 50 EV charging bays; the reported charges were £2.60 for up to two hours and £5.70 for a day, and EV charging 66p/kWh, while a Zapmap listing updated in June 2026 shows 19 chargers at 50p/kWh, so the current EV provision and price are unconfirmed. It was built to serve the planned Gateshead Quays arena, where, as of June 2026, no construction had started; a £24 million grant for enabling works was announced in March 2026 (a contractor appointment was expected by the end of 2026), and Reform UK, which won control of the council on 7 May 2026, questioned the arena's viability in June 2026. A Gateshead Council cabinet report of 24 February 2026 proposed not increasing charges at a large section of car parks because the 2022/23 and 2023/24 rises had affected usage and some car parks were under-used because of work on the Tyne Bridge and the flyover; councillors signed off the budget on 26 February 2026 with the majority of car park charges frozen and modest rises for some permits and Queen Elizabeth Avenue short stay. The council's proposed 2025/26 schedule listed Charles Street, Quarryfield Road and the Heworth Metro car parks at the same prices as 2024/25. The Gateshead Highway flyover was closed on 13 December 2024 (Metro was withdrawn between Central Station and Heworth from 19 to 31 December 2024) and its last span was demolished on 29 September 2026, with the council hoping for about 1,100 new homes in the area; the council also expects a planning application and a mid-2027 start for the Old Town Hall scheme, which would replace surface car parks. Among private and venue car parks, the Metrocentre advertises about 10,000 free spaces, BALTIC charges £2.00 for the first hour and the Glasshouse £5.95 for a day. The Newcastle and Gateshead Clean Air Zone charged non-compliant taxis, buses, coaches and HGVs from 30 January 2023 and vans from 17 July 2023, but not private cars (as of a September 2023 report)."
+}
