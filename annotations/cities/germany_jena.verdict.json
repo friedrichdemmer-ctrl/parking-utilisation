@@ -1,0 +1,245 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Opened the page (curl, HTTP 200; real title matches; dated 11.12.2024). It states a uniform 50 percent rise from 01.02.2025 and Zone 1 EUR 2->3, Zone 2 EUR 1->1.50, Zone 3 EUR 0.50->0.75 per hour. Rates overlap with item 1 (same figures from a different document), not a strict duplicate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Downloaded the PDF and extracted text: Amtsblatt 3/25, dated 23 January 2025 carries the Parkgebührenordnung; Zone 1 3.00, Zone 2 1.50, Zone 3 0.75 EUR/hour; max 4.50 EUR/day at Seidelparkplatz, Wiesenstraße and Am Gries; in force 01.02.2025. Source title is descriptive (issue header is 'Amtsblatt der Stadt Jena 3/25', 23 January 2025). Rates repeat item 0.",
+   "corrected_text": null,
+   "corrected_title": "Amtsblatt der Stadt Jena 3/25 (23. Januar 2025)",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Page (title 'Adjustment of parking fees from 01.02.2025 | Jena Mobilität', press release dated 11 Dec 2024) says the permit fee was limited to EUR 30.70 and is now EUR 120/year from 01.02.2025, and that federal and state rules now allow fees reflecting privileged use of public space. The word 'uniform' is not on this page but the Amtsblatt (item 1) says 'einheitlich 120,00 EUR / Jahr'. Item date 2025-02 is the effective date; the page is from Dec 2024.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Quote verified verbatim in the Lord Mayor's statement on the page (11.12.2024). Zone 1 at EUR 3/hour is higher than a one-way bus/tram ticket (EUR 2.70); private garages average EUR 1 to 2.50 per hour; revenue for charging points in resident spaces, a photovoltaic-on-parking action programme and eco-mobility. Attribution is to the Lord Mayor/city press release, which is fine.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Downloaded PDF and read all 7 pages: Beschlussvorlage 21/1255-BV, 'beschlossen am 23.02.22'. Resolutions 001 (new resident zones only if finance/staff can be created) and 002 (2010 Parkraumkonzept, evaluated 2018, and 2017 Mobilitätskonzept remain the basis) match; the paper says extending resident parking is costly and not refinanceable and does not recommend a trial of mixed parking.",
+   "corrected_text": null,
+   "corrected_title": "Beschlussvorlage Nr. 21/1255-BV: Ergebnis Prüfauftrag zur Anpassung des Parkraumkonzeptes",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Same PDF, page 4-5. Zones and years match (Innenstadt 1992; Westvorstadt and Damenviertel 1997; Seidelparkplatz 2011, Emma-Heintz-Straße 2013, Ziegesarstrasse 2019). Minor omission: the paper also lists Wöllnitzer Straße (no year) among the decentral zones. Building on Inselplatz/Lutherplatz, Eichplatz and Schlossgasse reduces resident spaces mainly in the city centre (Zone 1): confirmed.",
+   "corrected_text": null,
+   "corrected_title": "Beschlussvorlage Nr. 21/1255-BV: Ergebnis Prüfauftrag zur Anpassung des Parkraumkonzeptes",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Same PDF, page 4 and 7: 'Zum 01.01.2022 ist die aktualisierte Parkgebührenordnung Jena in Kraft getreten'; last adjustment before that 2013; 2021 Stadtrat Beschluss 21/0781-BV tasked the administration to raise income from parking management by EUR 200T per year. Note: the city's Dec 2024 press release (item 0 source) says fees were 'last adjusted in 2021', which does not match the paper's wording; the item correctly reports only the paper.",
+   "corrected_text": null,
+   "corrected_title": "Beschlussvorlage Nr. 21/1255-BV: Ergebnis Prüfauftrag zur Anpassung des Parkraumkonzeptes",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Same PDF, pages 6-7: Inselplatz garage construction costs 'deutlich über 40T EUR pro Stellplatz'; Seidelstraße garage about 450 spaces, at least EUR 11 million; the 2018 ScaReal economic study found no refinancing within 15-20 years; stalled due to the Kernberge citizens' initiative, lack of political majority and unresolved financing. All as written. The paper calls Inselplatz the only municipal garage then in planning.",
+   "corrected_text": null,
+   "corrected_title": "Beschlussvorlage Nr. 21/1255-BV: Ergebnis Prüfauftrag zur Anpassung des Parkraumkonzeptes",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Downloaded PDF (Amtsblatt 34/22, 25 August 2022, p.262): Beschluss 22/1534-BV of 13.07.2022 amends the parking concept: Inselplatz facility reduced, partly offset by extra spaces at Eichplatz; mayor tasked to show options for about 200 car spaces at Inselplatz; add an underground level at Eichplatz Baufeld A and reserve land at Anger 26 and Parkplatz Seidelstraße. Matches (resolution date 13 July 2022; published Aug 2022).",
+   "corrected_text": null,
+   "corrected_title": "Amtsblatt der Stadt Jena 34/22 (25. August 2022)",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Source says 'der weitgehende Leerstand des Parkhauses Wiesencenter' and spaces 'ganztägig weitgehend leer' on several levels (confirmed). But the draft's 'a calculated parking deficit ... may arise once planned developments are completed' misstates it: the paper says the planned changes create a calculated deficit in the eastern city centre and that whether it actually materialises after all planned projects open 'bleibt abzuwarten' (remains to be seen); it also says the situation may change in future.",
+   "corrected_text": "The justification of the 13 July 2022 resolution (Amtsblatt 34/22, 25 August 2022) cites the 'weitgehende Leerstand' (largely empty) Wiesencenter garage next to the Inselplatz site, whose spaces are 'ganztägig weitgehend leer' on several levels. It says the planned changes create a calculated parking deficit in the eastern city centre, but that whether it becomes real once all planned projects are in operation 'remains to be seen' and the situation could change.",
+   "corrected_title": "Amtsblatt der Stadt Jena 34/22 (25. August 2022)",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Same Amtsblatt justification: the competition result provided for a garage directly on 'Am Anger' to cover the campus's parking need and replace the former Inselplatz spaces; at current building prices efforts to build a pure garage 'scheinen zu scheitern' (appear to be failing) because revenues are very unfavourable relative to construction costs. The draft's 'looked uneconomic' is faithful. The text is the council resolution's justification rather than an independent city statement.",
+   "corrected_text": null,
+   "corrected_title": "Amtsblatt der Stadt Jena 34/22 (25. August 2022)",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Page title is correct ('campus Inselplatz | Uni Jena'), under construction since March 2020, EU-funded buildings completed in 2024, remaining buildings by end-2026. But the draft's parenthetical lists Mathematics/Computer Science and the computer centre as remaining buildings; per the page those are the EU-co-financed buildings that were completed in 2024. The page does not say which buildings remain. The page is undated; 'by end-2026' is a stated plan.",
+   "corrected_text": "Friedrich Schiller University's Campus Inselplatz in central Jena has been under construction since March 2020; the university says the EU-co-financed buildings (Faculty of Mathematics and Computer Science and the computer centre) were completed in 2024 and the remaining buildings will be completed by end-2026 (page undated).",
+   "corrected_title": null,
+   "corrected_date": "2026",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Page (dated 09.08.2024, title correct) says the Thuringian State Administration Office's approval of the Eichplatz development plan reached the city on 7 August 2024 with no objections, with public announcement in the official gazette still to come; and that on 24.4.2024 the council approved the decision weighing the options, the implementation agreement and the resolution on the Eichplatz development in construction site A. The draft's 'council approved the development plan on 24 April 2024' and 'confirmed it in August' compress this. Low relevance to parking.",
+   "corrected_text": "On 7 August 2024 the city received the Thuringian State Administration Office's approval, without objections, of the development plan for the Eichplatz area (page dated 9 August 2024); the final step was public announcement in the official gazette. The council had approved the weighing decision, the implementation agreement and the resolution on the Eichplatz development in construction site A on 24 April 2024.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Article (IHK Ostthüringen, 'Finanzspritze für Jenas Nahverkehrs-Infrastruktur') gives 'am 29. November' without a year in the body; page metadata begins '5.12.2023', so the handover was 29 November 2023, not 2024: the draft date is wrong. Also, the body says funds 'vom Freistaat' handed over by a Thuringian state secretary while the photo caption and the mayor's quote refer to federal funds (Nahverkehr-Förderprogramm des Bundes), so 'Thuringia awarded' over-attributes. The EUR 31.4 million also covers further infrastructure in the north. Marginal to parking; consider dropping.",
+   "corrected_text": "On 29 November 2023 a Thuringian infrastructure ministry state secretary handed over a funding notice of EUR 31.4 million for the tram extension to the Himmelreich residential area, barrier-free stops on the future line 1 and further infrastructure in the north of Jena (article dated 5 December 2023; the page mentions both state and federal funds).",
+   "corrected_title": null,
+   "corrected_date": "2023-11",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Page (title correct) is written before the start: the work 'will begin - subject to suitable weather conditions - on 02.03.2026 and is expected to last until June 2029'; full closure 02.03. to 30.11.2026; total cost about EUR 53.8 million gross; 'a large proportion' coverable by federal and state subsidies, funding maximum 75 percent. The draft's 'started on 2 March 2026' is not confirmed by the page (it only says preparatory measures have been underway since end of January). Page is undated.",
+   "corrected_text": "Jena's city site says the fundamental expansion of Naumburger Straße including the tram extension to Himmelreich was due to begin on 2 March 2026 (weather permitting) and is expected to last until June 2029, with a full road closure from 2 March to 30 November 2026; total cost is about EUR 53.8 million gross, with federal and state subsidies of up to 75 percent possible for infrastructure measures.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Live page opened by curl (title 'Parking | Jena Mobilität', no date). At the time of checking it shows Goethe Galerie 246/523, Krautgasse 121/200, Eichplatz 66/300, Holzmarkt 61/120, Seidelparkplatz 48/161, Neue Mitte 0/165, plus others (City Carree 9/40, Windberg 63/75, Steinkreuz 41/60, etc.), and the sentence about gradual extension under the new guidance system. Free counts are a live snapshot; totals are what matters. Capacity 523 (city) vs 740 (APCOA) conflict is real.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Same page: 'Jena does not have a public P&R system (parking ticket = local transport ticket)'; outer lots with inexpensive day tickets (Seidelparkplatz, Wiesenstraße, Am Gries); parking fee max EUR 4.50 per day. Matches. Page undated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Same page: EVs may park free of charge in appropriately marked spaces even if not charging, at Schlossgasse, Ernst-Haeckel-Straße, Am Anger, Eichplatz and Rathausgasse; prerequisite 'E' on the licence plate. The page adds that the maximum parking time still applies (parking disc). Page undated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "partly",
+   "note": "Article read via WebFetch (curl got a Cloudflare block). Title 'Jena peilt für 2030 rund 1.500 Ladepunkte an', dated 21 October 2024. 'Aktuell betreiben die Stadtwerke Energie Jena-Pößneck insgesamt 470 Ladepunkte': 110 public eco-power points and 360 for households, tenants and businesses. The 2030 aim is phrased as raising 'die Anzahl aller Ladepunkte in Jena' to just under 1,500, not necessarily the utility's own; investment volume for e-charging points around EUR 500,000 (in 2024). The draft's attribution of the 1,500 target to the Stadtwerke and 'invested' are slightly looser than the wording; the source_title carries a '(electrive.net)' suffix that is not part of the title.",
+   "corrected_text": "Stadtwerke Energie Jena-Pößneck operated 470 charging points in October 2024, of which 110 were public eco-power points and 360 were for households, tenants and businesses; the article reports a goal of raising the number of all charging points in Jena to just under 1,500 by 2030 and puts the utility's investment volume for charging points at around EUR 500,000 in 2024.",
+   "corrected_title": "Jena peilt für 2030 rund 1.500 Ladepunkte an",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "supported",
+   "note": "Article read via WebFetch (curl got a Cloudflare block). Title 'Stadtwerke Jena senken Preis für Ladestrom', dated 1 December 2025: from 1 January 2026 AC 49 ct/kWh (from 52) and DC 59 ct/kWh (from 62); 'more than 120 public charging points'. Matches. Source title in the draft has an extra '(electrive.net)' suffix.",
+   "corrected_text": null,
+   "corrected_title": "Stadtwerke Jena senken Preis für Ladestrom",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "supported",
+   "note": "Downloaded the flyer PDF and extracted text ('Stand: Mai 2026'): since May 2016 a new garage for patients, visitors and staff; operated by Contipark incl. technical systems such as barriers and pay machines; open 365 days around the clock; 1,300 covered spaces. Matches. Draft title is partly descriptive.",
+   "corrected_text": null,
+   "corrected_title": "PARKEN am Universitätsklinikum Jena - Parkhaus (Flyer, Stand: Mai 2026)",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "supported",
+   "note": "Same flyer: EUR 2.20 per started hour, maximum EUR 12.00 per 24 hours, EUR 6.50 per further day; multi-day tickets 2 days EUR 14, 7 days EUR 35, 14 days EUR 50. Matches. The flyer does not itself name the operator as Contipark for the tariff but does in the same document. Near-duplicate source of item 20 but different content.",
+   "corrected_text": null,
+   "corrected_title": "PARKEN am Universitätsklinikum Jena - Parkhaus (Flyer, Stand: Mai 2026)",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "supported",
+   "note": "Page opened by curl (redirects to apcoa.de/en/park-once/locations/jena/goethe-galerie; title 'Goethe Galerie - APCOA'). Total spaces 740; Mon-Sat 06:00-22:00, Sunday closed; first hour 1.50, second 1.50, each additional hour 2.00, daily max 20.00 EUR (also free parking Mon-Sat 18:00-20:00, not mentioned in the draft). Undated. Capacity conflicts with the city page (523); the conflict is flagged in the item. The page lists the location on APCOA's site; it does not use the word 'operates'.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 23,
+   "verdict": "supported",
+   "note": "parkinglist.de blocks curl (Cloudflare 'Just a moment') but WebFetch returned the listing: Parkhaus Krautgasse, Krautgasse 22; operator Contipark Parkgaragengesellschaft mit beschränkter Haftung; 381 spaces; Montag-Sonntag 24 Stunden; EUR 2.00 per started hour, daily max EUR 13.00; monthly EUR 145.18 (also P Card tariff EUR 1.20/EUR 6.00). Matches the item. Third-party, undated, capacity conflicts with city page (200). Title as returned: 'Parkhaus Krautgasse - Jena'.",
+   "corrected_text": null,
+   "corrected_title": "Parkhaus Krautgasse - Jena",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Jena raised on-street parking fees by 50 percent from 1 February 2025 (city centre EUR 3.00 per hour, Zone 2 EUR 1.50, Zone 3 EUR 0.75) and resident permits from EUR 30.70 to EUR 120 a year; the city said the aim is to get visitors to use multi-storey and underground garages more. A February 2022 council paper called extending resident parking costly and not refinanceable and put a planned garage of about 450 spaces on the Seidelstraße car park at at least EUR 11 million, and in July 2022 the council asked the mayor to show options for about 200 car spaces at Inselplatz. Garages include the Contipark-run Universitätsklinikum garage (1,300 spaces, EUR 2.20 per started hour) and the Goethe Galerie garage, listed with 740 spaces by APCOA but 523 on the city page, and the city's parking page shows live free-space counts for some garages as part of a new parking guidance system."
+}

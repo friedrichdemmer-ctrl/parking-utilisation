@@ -1,0 +1,235 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Page (title matches, dated 27 Oct 2022) confirms reopening on 28 Oct, 475 spaces, seven-figure sum, red/green single-space indicators, EV stations 2 -> 11, 1960s structure damaged by road salt. But licence-plate recognition at entry was already existing/retained, not newly gained.",
+   "corrected_text": "BoWE (Bochum Wirtschaftsentwicklung) reopened the fully modernised underground garage P1 Husemannplatz from 28 October 2022 with 475 spaces after a seven-figure investment; it gained single-space red/green indicators, kept its licence-plate recognition at entry, and EV charging stations increased from 2 to 11. The 1960s structure had been badly affected by road salt.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "Facts checked: P7 about 430 spaces on six levels near main station, Husemann Karree more than 500, guidance with green lights, Smart Parken and online shop give 10% for registered customers. But the page says P7 opened on 6 Nov 2023 while Husemann Karree had opened 'a few weeks' earlier, so not 'almost simultaneously in November'. The page's real title is different from the draft's. The page speaks of no queueing at cash desks, not explicitly 'without tickets'.",
+   "corrected_text": "BoWE opened two new city-centre garages in autumn 2023: P7 Kurt-Schumacher-Platz (about 430 spaces on six levels, near the main station), which opened on 6 November 2023, and the Tiefgarage Husemann Karree (more than 500 spaces), which had opened a few weeks earlier. Both have a guidance system showing free spaces with green lights; registered Smart Parken customers and the online shop get a 10% discount and can pay digitally without queuing at the cash desk.",
+   "corrected_title": "BoWE eröffnet zwei neue Parkhäuser mit 1.000 Stellplätzen",
+   "corrected_date": "2023-11",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "PDF opened and read (press release dated 21 Nov 2023): title matches; P3 one hour longer Mon-Fri, P3 and P5 Sundays 10:00-24:00 from 3 Dec; about 1000 additional spaces from the newly opened Husemann Karree and P7 this year.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Page 'Nachhaltig mobil', 29 Feb 2024: 92 charging points in city-centre garages, number almost doubled in two years, about 40 created via P7 and Husemann Karree, expansion to 150 possible if demand grows.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "PDF opened and read (press release 13 March 2024): stairwells Kortumstrasse and Nord rebuilt as glass stairwells, first of two new lifts installed in Kortumstrasse; from 18 March 200 of 477 spaces available; fully accessible again from mid-July 2024; Husemann Karree over 500 and P2 375 named as alternatives. Draft title adds a '(BoWE press release PDF)' suffix, harmless.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Page dated 7 Aug 2024; CameraPark from 8 Aug in the eleven listed garages; Smartparker and season-parker customers unaffected (CameraPark is a supplementary offer). Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Page dated 12 Aug 2024; Touristinfo (Huestrasse 9) joined; EUR 25 goods value gives one hour free in BoWE garages except PH Stadionring; once per car per day. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Radio Bochum, 21 Apr 2023: proposed rise 22 -> 120 EUR, first in over 20 years, half price for pupils/trainees/social-benefit recipients, council vote June 2023, 13 zones, about 5,000 permits, NRW lifted fee cap in Feb 2022. Written as proposal, correctly.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Radio Bochum, 21 Nov 2024: council approved 22 -> 90 EUR from 2025 with SPD and Greens, 13 zones with about 1,700 spaces, garage space 450-1,300 EUR, applies to new applications and renewals. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "City press release 14 Jan 2025: three new areas (Hamme, Innenstadt-West, SW of Bergmannsheil), five existing areas to be enlarged (Stadtpark, St. Josef, Augusta, Ehrenfeld-West, Alsenstr./south of Hbf), aims as stated, over 900 participants in Sept 2024 online survey. Written as proposal, correctly.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Zukunftsnetz Mobilitaet NRW page (dated 20 Feb 2025, headline 'Bochum startklar fuer die 2. Stufe des Konzepts Ruhender Verkehr', HTML title 'Bochum Ruhender Verkehr'): committee approval on 19 Feb 2025, stage 1 introduced new resident zones, occupancy re-surveyed on over 14,000 street spaces along about 250 streets. Draft title matches the HTML title.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "First sentence is supported by bochum-mitgestalten.de (title 'Parkraumkonzept Innenstadt | Oeffentlichkeitsbeteiligung in der Stadt Bochum'): implementation incl. signage, extension of areas and new zones in summer 2026; spring 2023 occupancy 77% at 5:00 and 84% at 10:00, with pressure in NW/SW residential areas at night and near the centre, Bergmannsheil hospital and Stadtpark by day. Second sentence comes from a different page (4630.de, 26 June 2026, which I opened) not given as source_url; it is a local blog report relaying SPD Bochum-Ehrenfeld, saying the Ehrenfeld measures (one connected resident zone in west Ehrenfeld, 2-hour disc limit on Hattinger Strasse) are prepared but timing is open because of the city's tight budget. Occupancy 'highest' wording is loose (different times of day).",
+   "corrected_text": "The city's parking-concept page says implementation of the Innenstadt Parkraumkonzept, including signage, extension of existing resident areas and new areas, is to take place in summer 2026. A spring 2023 survey found 77% of public street spaces occupied at 5:00 and 84% at 10:00, with pressure in north-west/south-west residential areas overnight and around the centre, Bergmannsheil hospital and Stadtpark by day.",
+   "corrected_title": "Parkraumkonzept Innenstadt | Öffentlichkeitsbeteiligung in der Stadt Bochum",
+   "corrected_date": "2025-02",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Radio Bochum, 5 May 2021: proposal (cycling cross at town hall, Suedring cycle path with cars and public transport sharing one widened lane, closure of Hans-Boeckler-Str. and Viktoriastr. around Husemannplatz to car traffic), political discussion 26 May 2021, construction possibly from autumn 2022. Written as proposal. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Radio Bochum, 2 Nov 2022: through-traffic ban in place about a month on Willy-Brandt-Platz, Hans-Boeckler-Str., Viktoriastr. between town hall and Husemannplatz, many cars still drive there; disabled bays at Willy-Brandt-Platz doubled to eight; four fewer overall after construction.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "CORRECTIV.Ruhr, 19 June 2020: free parking for purchases of EUR 10 to revive the centre after lockdown, slogan as quoted, Klimabuendnis Bochum criticised it as contradicting the Leitbild Mobilitaet. Marginal/old but accurate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "BoWE page dated 29 June 2026, title 'Qualitaet, Sicherheit und Service sichern' (HTML title adds '- Bochum Wirtschaft'; draft title 'Anpassung der Parktarife: ...' is not the page title, minor, corrected below): 1.90/h (was 1.60), 17.10/day (14.40), night 18-10 5.00 (4.00), Wattenscheid Alter Markt 1.20/10.80/3.00, previous adjustment October 2022, cost reasons, clearly below neighbouring cities, 10% Smart parken discount.",
+   "corrected_text": null,
+   "corrected_title": "Qualität, Sicherheit und Service sichern",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Page dated 28 Mar 2025: freeflow barrier-free parking from 1 April at Castroper Strasse/Kirmesplatz, licence-plate recognition, pay via EasyPark app, cash terminal or online, EUR 5 per 24 h, Peter Park System GmbH (system), Mobility Hub Parkservice GmbH (on-site). Title matches. Note: the page says 'Kassenautomat' (cashless pay machine).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Page dated 21 Mar 2025: repairs from 24 March, expected until end of August 2025, about 100 of 543 spaces unavailable, garage stays open, levels 3 and 4 and P7 as alternatives. Text correctly says 'were to run'.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "supported",
+   "note": "Page dated 26 Sep 2025: about 30 free covered bicycle spaces and lockers for helmets and belongings from 26 September. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "supported",
+   "note": "Page dated 10 Sep 2026: five new charging points at P8, nearly 100 in total, nearly 40,000 sessions and about 500,000 kWh per year, consumption up about 40% year on year. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "partly",
+   "note": "Page dated 3 Sep 2026, title matches. Draft list and wording are inaccurate: P1, Husemann Karree, P2, Massenbergstrasse, Bochumer Fenster and P7 have regular hours (Fri/Sat 6:30-2:00, Sun 10:00-24:00); P3 was open three hours longer Fri/Sat and additionally Sunday; P5 only Sunday 10:00-24:00 (Fri/Sat regular); P6 has stated hours; P8 open round the clock all three days. Free parking on Sunday 13 Sep applies in the city-centre garages during their opening hours.",
+   "corrected_text": "For the Bochumer Musiksommer, Winzerfest and shopping Sunday on 11-13 September 2026 BoWE adjusted the opening hours of its central garages: P3 opened three hours longer on Friday and Saturday and also on Sunday (10:00-24:00), P5 opened on Sunday 10:00-24:00, and P8 was open 24 hours on all three days; P1, Husemann Karree, P2, Massenbergstrasse, Bochumer Fenster and P7 kept regular hours. Parking in BoWE's city-centre garages was free on the shopping Sunday (13 September) during opening hours.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "supported",
+   "note": "RUB page (title 'Parking Spaces for Cars on Campus'): lots and garages free and open 24 h; as of 19 Feb 2026 decks P1-P8 closed for renovation, central garage until spring 2028; alternatives East (P20), West (P12/P13), level P9 remains available. Date 2026-02 reflects the closure notice.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "supported",
+   "note": "German Wikipedia: reopened 4 Nov 2015 with new Suedmall after 2011-2015 modernisation; about 4,800 free customer spaces; retailers elsewhere feared losing sales to the out-of-town centre. The retail-fear statement relates to the centre's original construction era, so 'historically' is fair. Weak (encyclopedia) source and not a parking development; the draft summary's claim that it is 'the main out-of-centre competitor' is NOT supported by the page. Consider dropping the item.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Bochum's municipal company BoWE reopened the modernised P1 Husemannplatz garage in October 2022 (475 spaces), opened P7 Kurt-Schumacher-Platz and Husemann Karree in autumn 2023 (about 1,000 extra spaces), and introduced EasyPark CameraPark licence-plate payment in eleven garages in August 2024. Its EV charging network grew from 92 points in February 2024 to nearly 100 in September 2026, and garage tariffs rose on 1 July 2026 (EUR 1.90/hour, EUR 17.10/day), the first change since October 2022. On-street, the city raised the annual resident permit from EUR 22 to EUR 90 from 2025 and is extending resident parking areas under its Parkraumkonzept, with implementation including signage planned for summer 2026, though a June 2026 local report said the exact start was open because of budget pressure."
+}

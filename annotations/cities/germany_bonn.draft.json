@@ -1,0 +1,223 @@
+{
+ "country": "Germany",
+ "city": "Bonn",
+ "researched": "2026-10-07",
+ "summary": "Bonn's centre is served mainly by Bonner City Parkraum (BCP), a Stadtwerke Bonn subsidiary running about ten garages and car parks with flat hourly tariffs (EUR 2.00 for hours 1-2, EUR 2.50 after, EUR 25 daily max), alongside private garages such as the Stiftsgarage. Policy has pushed parking off the street: on-street fees were raised to EUR 4/hour in the centre in June 2022, resident-parking concepts (Venusberg, Nordstadt, Beuel) have spread, and bike-street plans have been contested; resident permit fees rose to EUR 360 a year but the council voted in March 2026 to cut them. BCP has refurbished or reopened several garages (Unigarage and Hauptbahnhof 2020, Friedensplatz 2023-24), added plate recognition, smartphone payment and EV charging, and opened a Beethoven-Parkplatz in December 2025. The June 2026 closure of the A565 Nordbruecke is the main new pressure on access, prompting park-and-ride expansion and a planned 200-space P+R at Vilich.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2022-05",
+   "text": "The Bonn city council approved a new parking fee ordinance (reported 6 May 2022) taking effect on 1 June 2022: on-street parking in central Bonn rises to EUR 4 per hour, EUR 3 in Beuel and Bad Godesberg and EUR 2 in Hardtberg. Fees in parking garages were unchanged, and operator Bonner City Parkraum said no price increases were planned for them. A Green councillor said the aim is to shift parking into garages and reduce street parking pressure.",
+   "source_title": "Ab 1.6. gelten neue Parkgebühren in Bonn - Radio Bonn / Rhein-Sieg",
+   "source_url": "https://www.radiobonn.de/artikel/ab-16-gelten-neue-parkgebuehren-in-bonn-1302048",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-03",
+   "text": "On 12 March 2026 the Bonn city council approved reduced resident parking permit fees of EUR 60 for six months, EUR 120 for one year and EUR 240 for two years. The page recalls earlier council-approved increases to EUR 180 a year from 1 March 2023 and EUR 360 a year from 1 March 2024. The formal adoption of the new ordinance was scheduled for May 2026.",
+   "source_title": "Rat beschließt geänderte Eckwerte für Bewohnerparkausweisgebühren (Haus & Grund Bonn/Rhein-Sieg)",
+   "source_url": "https://www.hausundgrund.de/verein/bonn-rhein-sieg/rat-beschliesst-geaenderte-eckwerte-fuer-bewohnerparkausweisgebuehren",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-02",
+   "text": "Bonn's council approved a corrected resident-parking fee ordinance after the Cologne Administrative Court found it lacked an explicit provision on who owes the fee. The 2022 substantive rules stayed unchanged, the correction applies retroactively from 1 March 2023, and the court raised no objection to the fee amounts. The council also asked the administration to evaluate the effects of the resident parking fee rules.",
+   "source_title": "Rat korrigiert Gebührenordnung für Bewohnerparken in Bonn (Haus & Grund Bonn/Rhein-Sieg)",
+   "source_url": "https://www.hausundgrund.de/verein/bonn-rhein-sieg/rat-korrigiert-gebuehrenordnung-fuer-bewohnerparken-bonn",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-11",
+   "text": "A new parking concept for the Nordstadt (next to the city centre) started on 4 November 2024: most public spaces need a resident permit or a paid ticket (EUR 2 per 30 minutes, daily ticket EUR 16 in zone D west of Hochstadenring/Kaiser-Karl-Ring; EUR 1 per 30 minutes, EUR 12 daily in zone I). Resident permits cost EUR 360 a year; tradespeople and social services can use special permits.",
+   "source_title": "Parkraumkonzept: Das Parken wird jetzt teuer - Bonn Innenstadt (Rheinische Anzeigenblätter)",
+   "source_url": "https://www.rheinische-anzeigenblaetter.de/bonn-innenstadt/c-nachrichten/das-parken-wird-jetzt-teuer_a326515",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-09",
+   "text": "The city announced (11 September 2025) that parking management would be introduced in Beuel-Zentrum from 2026, expected early in the year: three resident-permit zones (X, Y, Q), with the shopping-street business area excluded and parking there by paid ticket only, to encourage turnover. The city cites heavy parking-search traffic and narrow pavements.",
+   "source_title": "Arbeiten für das Parkraumkonzept Beuel-Mitte beginnen Ende September | Haus & Grund Bonn/Rhein-Sieg e.V.",
+   "source_url": "https://www.hausundgrund.de/verein/bonn-rhein-sieg/arbeiten-fuer-das-parkraumkonzept-beuel-mitte-beginnen-ende-september",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-08",
+   "text": "Bonn set up its first reserved business parking spaces (Wirtschaftsparkplätze) in Südstadt and Kessenich: nine locations, weekdays 8:00 to 18:00, for vehicles with craftsperson permits and authorised social-service, parcel-delivery and logistics permits. A pilot; the city plans to expand citywide if it works, and Cologne is coordinating similar zones.",
+   "source_title": "Erste Wirtschaftsparkplätze in Bonn eingerichtet - deutschlandweit Vorreiter (Haus & Grund Bonn/Rhein-Sieg)",
+   "source_url": "https://www.hausundgrund.de/verein/bonn-rhein-sieg/erste-wirtschaftsparkplaetze-bonn-eingerichtet-deutschlandweit-vorreiter",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-08",
+   "text": "A one-year pilot, 'Parken im Quartier', opened a first retail car park (ALDI Süd, Endenicher Strasse, up to 35 vehicles) to neighbours for after-work and evening parking, to relieve residential parking pressure. Dated 21 August 2025.",
+   "source_title": "Erster Einzelhandelsparkplatz für Nachbarschaften für Feierabendparken geöffnet (Haus & Grund Bonn/Rhein-Sieg)",
+   "source_url": "https://www.hausundgrund.de/verein/bonn-rhein-sieg/erster-einzelhandelsparkplatz-fuer-nachbarschaften-fuer-feierabendparken-geoeffnet",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-04",
+   "text": "Haus & Grund Bonn/Rhein-Sieg reported (21 April 2023) that the city administration planned to remove 700 parking spaces to create new bicycle infrastructure, and criticised the plan. The figure is as reported by this property-owners' association, not from a city document.",
+   "source_title": "Parkplatzverluste in Bonn beschädigen das bürgerschaftliche Klima der Stadt (Haus & Grund Bonn/Rhein-Sieg)",
+   "source_url": "https://www.hausundgrund.de/verein/bonn-rhein-sieg/parkplatzverluste-bonn-beschaedigen-das-buergerschaftliche-klima-der-stadt",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-08",
+   "text": "On 20 August 2024 the Cologne Administrative Court ruled the bicycle-street conversion in Ückesdorf unlawful (case 18 L 1279/24). Bonn suspended implementation of 20 further planned bicycle streets and was considering an appeal.",
+   "source_title": "Fahrradstraße in Bonn-Ückesdorf rechtswidrig (Haus & Grund Bonn/Rhein-Sieg)",
+   "source_url": "https://www.hausundgrund.de/verein/bonn-rhein-sieg/fahrradstrasse-bonn-ueckesdorf-rechtswidrig",
+   "confidence": "low"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-09",
+   "text": "On 26 September 2024 the business coalition 'Vorfahrt-Vernunft' (IHK Bonn/Rhein-Sieg, craft and retail associations, city-marketing bonn) urged quick action on traffic queues at the exits of the Markt and Uni garages in the city centre, proposing the Cityring be opened for outbound garage traffic. They warned that long waits on shopping Saturdays could lose regional customers to other locations.",
+   "source_title": "IHK Bonn/Rhein-Sieg: Stau in Tiefgaragen verprellt Kunden aus dem Umland",
+   "source_url": "https://www.ihk-bonn.de/pressemeldungen/pressemeldung-einzelansicht/stau-in-tiefgaragen-verprellt-kunden-aus-dem-umland",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06",
+   "text": "The A565 Nordbruecke (Rhine bridge, about 100,000 vehicles a day) has been fully closed since 3 June 2026 after structural damage; demolition of the left-bank approach started 15 July 2026 with completion expected by November 2026, and a new bridge is targeted for end of 2028. Bonn expanded park-and-ride, added shuttle bus services and converted environmental lanes to bus-only lanes.",
+   "source_title": "A565 in Bonn: Vollsperrung der Nordbrücke bleibt (ADAC)",
+   "source_url": "https://www.adac.de/news/verkehr-rheinbruecke-bonn-vollsperrung/",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06",
+   "text": "After the Nordbruecke closure the city council approved free public transport from 15 June to the end of June 2026, as part of a package including shuttle services from park-and-ride sites; continuation depended on the bridge's condition.",
+   "source_title": "Kostenloser ÖPNV soll Bonn nach Sperrung der Nordbrücke entlasten (ms-aktuell)",
+   "source_url": "https://ms-aktuell.de/welt/12062026-bonn-oepnv-kostenlos/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-06",
+   "text": "The Bonn city council approved (reported as 15 June 2026) a ground-level park-and-ride facility in Beuel-Vilich with 200 car spaces including accessible spaces and EV charging, over 100 covered bike spaces, taxi and car-sharing. A multi-storey garage was ruled out because of gas pipelines at the site. No cost or completion date was given.",
+   "source_title": "Rat beschließt moderne Park-and-Ride-Anlage für 200 Pkw in Vilich (Haus & Grund Bonn/Rhein-Sieg)",
+   "source_url": "https://www.hausundgrund.de/verein/bonn-rhein-sieg/rat-beschliesst-moderne-park-and-ride-anlage-fuer-200-pkw-vilich",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2020-01",
+   "text": "On 23 January 2020 Deutsche Umwelthilfe, the NRW government and the City of Bonn reached a court settlement on NO2: no diesel driving bans, instead measures such as 30 km/h and traffic-light control on Reuterstrasse, retrofitting the bus fleet to Euro 6/VI, electric buses and cycle-route expansion. Stricter measures including diesel bans could be imposed if limits were still exceeded.",
+   "source_title": "Deutsche Umwelthilfe, NRW-Landesregierung und Bundesstadt Bonn schließen gerichtlichen Vergleich für saubere Luft",
+   "source_url": "https://www.duh.de/presse/pressemitteilungen/pressemitteilung/deutsche-umwelthilfe-nrw-landesregierung-und-bundesstadt-bonn-schliessen-gerichtlichen-vergleich-fuer/",
+   "confidence": "low"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "BCP (Bonner City Parkraum GmbH, described in its news as a Stadtwerke subsidiary) lists 11 facilities: Marktgarage, Münsterplatzgarage, Friedensplatzgarage, Stadthausgarage, Operngarage, Unigarage, Parkhaus Hauptbahnhof (258 spaces, 24 hours, EV charging), Beethoven-Parkhaus, Alte Bahnhofgarage, Beethoven-Parkplatz and Parkplatz Charles-de-Gaulle-Strasse. Live occupancy is shown on its site and app; BCP also runs Bike&Ride at Hauptbahnhof and Stadthaus.",
+   "source_title": "BCP – Hier parkt Bonn",
+   "source_url": "https://bcp-bonn.de/",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "BCP's published tariff for Markt-, Münsterplatz-, Friedensplatz-, Stadthaus-, Uni- and Alte Bahnhofgarage (and Hauptbahnhof, Beethoven, Oper): EUR 2.00 per hour for hours 1 and 2, EUR 2.50 from hour 3, EUR 1.00 per hour on Sundays and holidays, night tariff EUR 1.00 per hour (max EUR 3.00) from 19:00, daily maximum EUR 25.00 on weekdays and EUR 8.00 on Sundays/holidays. Opera event flat rate EUR 5.00. Captured at time of research; page is undated.",
+   "source_title": "Preise – BCP",
+   "source_url": "https://bcp-bonn.de/preise/",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-04",
+   "text": "From April 2025 all BCP garages let customers pay parking tickets by smartphone: licence plates are captured at entry and printed on the ticket, a QR code starts payment (Apple Pay, Google Pay, cards), and the barrier opens automatically on plate recognition after payment. Cash and card machines remain.",
+   "source_title": "News – BCP (25.04.2025: Parktickets mit dem Smartphone bezahlen)",
+   "source_url": "https://bcp-bonn.de/news/",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-12",
+   "text": "BCP opened the Beethoven-Parkplatz next to the reopened Beethovenhalle in early December 2025: 58 spaces including eight charge points with two connections each, ticketless licence-plate recognition, cashless payment, open 24 hours. Day tariff from EUR 2.50 per hour (max EUR 25), night from EUR 1 per hour (max EUR 3), and an EUR 5 event tariff valid 120 minutes before and after performances. Free spaces appear in the city parking guidance system.",
+   "source_title": "News – BCP (11.12.2025: Schöner parken bei Beethoven)",
+   "source_url": "https://bcp-bonn.de/news/",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-11",
+   "text": "From 13 November 2025 the Operngarage pay machines preselect the EUR 5 event tariff on opera performance days (valid two hours before to two hours after), to speed exits and reduce back-ups at the single exit barrier; users can deselect it by button.",
+   "source_title": "News – BCP (13.11.2025: Neues Bezahlsystem in der Operngarage an Veranstaltungstagen)",
+   "source_url": "https://bcp-bonn.de/news/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-11",
+   "text": "BCP finished this year's concrete refurbishment of the Friedensplatzgarage on 22 November 2024 after work in live operation since August 2023: more than 150 concrete columns were replaced with slimmer ones, giving 375 modernised and partly wider car spaces including eight XXL spaces. Four EV charge places, a lift and LED lighting were still planned for early 2025.",
+   "source_title": "News – BCP (22.11.2024: Modernisiert und bereit fürs Weihnachtsgeschäft)",
+   "source_url": "https://bcp-bonn.de/news/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2020-05",
+   "text": "BCP opened the new Parkhaus Hauptbahnhof (Rabinstrasse) with 258 spaces on 18 May 2020; the Unigarage reopened after refurbishment on 1 April 2020 with 448 spaces and plate recognition; the Alte Bahnhofgarage (89 spaces) reopened on 20 November 2020.",
+   "source_title": "News – BCP (Eröffnung Parkhaus Hauptbahnhof / Unigarage / Alte Bahnhofgarage, 2020)",
+   "source_url": "https://bcp-bonn.de/news/",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-12",
+   "text": "BCP's managing director said (2 December 2025) that garage entries and revenue rise from November to January; the Christmas market fills garages, especially at weekends, and garages are sometimes nearly full when Black Friday and the Christmas market coincide. The most central garages such as Marktgarage fill first.",
+   "source_title": "News – BCP (02.12.2025: Eine Handvoll Fragen - hier parkt Bonn für Weihnachtseinkäufe)",
+   "source_url": "https://bcp-bonn.de/news/",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-12",
+   "text": "SWB Energie und Wasser, a subsidiary of Stadtwerke Bonn, reported reaching its target of 640 public charging points in Bonn (58 fast chargers of 75 to 150 kW), mostly on city parking areas and in garages. It was equipping the Friedensplatz and Münsterplatz garages with charging infrastructure.",
+   "source_title": "Bonner Stadtwerke-Tochter meldet 640 Ladepunkte am Netz (electrive)",
+   "source_url": "https://www.electrive.net/2025/12/10/bonner-stadtwerke-tochter-meldet-640-ladepunkte-am-netz/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2021-10",
+   "text": "Radio Bonn/Rhein-Sieg's garage test (20 October 2021) listed the Münsterplatzgarage (operator Bonner CityParkraum, 312 spaces, EUR 1.50 to 2.50 per hour, EUR 25 weekday max) and the Stiftsgarage (490 spaces, 24/7, integrated filling station and EV charging, EUR 1.00 to 2.50 per hour, EUR 19.50 max). It called the Hauptbahnhof garage newly completed, with EV charging from Stadtwerke Bonn and EUR 1.50 per hour.",
+   "source_title": "RBRS testet Parkhäuser - Radio Bonn / Rhein-Sieg",
+   "source_url": "https://www.radiobonn.de/artikel/rbrs-testet-parkhaeuser-1107816",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2017-12",
+   "text": "The Marktgarage reopened after about eleven months of refurbishment, in time for the Christmas market (IHK Bonn/Rhein-Sieg, retail association and city-marketing bonn release, 5 December 2017 on this aggregator). The same release said the 'City-Bogen' routing, part of the Masterplan Innere Stadt, should still reach all garages.",
+   "source_title": "\"Erreichbarkeit der Bonner Innenstadt entscheidend\" - Deutscher Presseindex",
+   "source_url": "https://www.deutscherpresseindex.de/?p=41988",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-01",
+   "text": "On 30 January 2023 Haus & Grund, IHK, city-marketing and the retail association supported the university's 'Forum des Wissens' at Viktoriakarree but said the council should address city-centre parking, warning that rejecting a new underground garage there would forfeit a chance to improve parking for decades. This is a business-lobby position, not a council decision.",
+   "source_title": "Wirtschaft und Haus & Grund fordern: Forum des Wissens im Viktoriakarree braucht Tiefgarage",
+   "source_url": "https://www.hausundgrund.de/verein/bonn-rhein-sieg/wirtschaft-und-haus-grund-fordern-forum-des-wissens-im-viktoriakarree-braucht-tiefgarage",
+   "confidence": "medium"
+  }
+ ],
+ "gaps": [
+  "No bonn.de pages could be opened (bot-protection challenge), so city press releases (Parkraumstrategie, Beuel concept, Vilich P+R) are cited via Haus & Grund/other reproductions or not at all",
+  "Operators of private garages (Stiftsgarage, DB BahnPark at Hbf, Contipark) and their tariff changes not confirmed from an operator source",
+  "No dated source found for Umweltzone status, Cityring/Viktoriabruecke/Rheinufer decisions, Bonn Center/Posttower garages, or UN campus/university parking demand",
+  "Occupancy statistics, park-and-ride occupancy and shift of demand to shopping centres not sourced",
+  "No source found for a council decision on the Viktoriakarree underground garage or on Markt/Uni garage Cityring exit"
+ ]
+}
