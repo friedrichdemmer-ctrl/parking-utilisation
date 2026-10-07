@@ -70,7 +70,11 @@ def _report() -> dict:
     if hit and hit[1][0] == (latest, latest.stat().st_mtime):
         return hit[1][1]
     data = json.loads(latest.read_text(encoding="utf-8"))
-    value = {"garages": {g["id"]: g for g in data["garages"]}, "window": data["window"]}
+    from garage_links import NOT_READINGS
+
+    # a report built before a source was declared "not readings" may still list its garages
+    value = {"garages": {g["id"]: g for g in data["garages"] if g.get("source") not in NOT_READINGS},
+             "window": data["window"]}
     _cache["report"] = (time.time(), ((latest, latest.stat().st_mtime), value))
     return value
 
@@ -399,7 +403,9 @@ def api_city(city: str):
     skip = _excluded(conn)
     rows = [r for r in conn.execute(f"SELECT {GARAGE_COLS} FROM lots_meta WHERE city_name = ? AND num_all IS NOT NULL", (city,))
             if r[0] not in skip and (country is None or _country(r[6]) == country)]
-    freshness = __import__("freshness").of_rows([(r[6], r[7]) for r in rows])
+    from garage_links import NOT_READINGS
+
+    freshness = __import__("freshness").of_rows([(r[6], r[7]) for r in rows if r[6] not in NOT_READINGS])
     conn.close()
     if not rows:
         return jsonify({"error": "No garages with a known capacity in this city."}), 404
