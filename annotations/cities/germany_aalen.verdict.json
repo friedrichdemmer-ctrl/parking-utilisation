@@ -1,0 +1,275 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Opened (Schwaebische, 17.11.2011; title and date match). Source says 60 percent of students are 'Heimgänger' who mostly commute by car; it does not say 60 percent commuted by car, and it does not describe 'parking pressure' as such but a wider traffic problem around the HTW. The Gemeinderat discussed a concept; the city and district 'want to try' extra Burren stop, semester ticket (students voted in favour), expanded bus service if needed and better parking (city planning: extra underground spaces at new university buildings, signposting existing car parks, new spaces on campus). Weak/low value (2011, university-area).",
+   "corrected_text": "In November 2011 the Gemeinderat discussed a concept for the traffic problems around the Hochschule Aalen: about 60 percent of students were 'Heimgänger' who mostly commute by car from across the region, and the city and the district responsible for local transport wanted to try to ease the situation with an extra bus stop at Campus Burren, a semester ticket, expanded bus services if needed and better parking, with city planners pointing to extra underground spaces at new university buildings, signposting of existing car parks and new spaces on the campus.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Opened (Schwaebische, 01.04.2014; title matches). Article describes a 'vision' (Campus Ostalb-Klinikum 2020) endorsed by the Krankenhausausschuss, including a second parking garage next to the existing one and a footbridge between the garages over the street to the new Frauenklinik; the OP wing is targeted for 2018, but 'for the other projects there is no timetable yet' and 2020 is only a vague target. Text correctly marks it as a plan. Medium confidence is right. Weak/low value: hospital-site plan from 2014 with no confirmation it was built, and not about city-centre parking.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Opened (Schwaebische, 25.07.2014; title/date match). Skusa's '64 percent are short-term parkers' and the 600,000 of about one million free 'Parkierungsvorgaenge' refer to the Parkhaeuser and Tiefgaragen (Stadtwerke garages), not all city-centre parkers. 30 free minutes in garages: correct. The 700 m figure is Skusa's rule of thumb ('one citizen per 1,000 inhabitants is willing to walk ten metres'; Aalen about 70,000 inhabitants -> up to 700 m), not a measured typical behaviour.",
+   "corrected_text": "In July 2014 city manager Reinhard Skusa said that 64 percent of users of the Stadtwerke garages and underground car parks were short-term parkers, who could park free for 30 minutes at that time, and that about 600,000 of the roughly one million parking transactions counted there each year were free; as a rule of thumb he said that in a city of about 70,000 residents people accept a walk of up to 700 metres for free parking.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Opened (Schwaebische, 30.12.2015; title matches; date OK). The article is written before the closure: the Rathaus garage (255 spaces) is to be closed from 11 January 'bis voraussichtlich 31. Mai' for refurbishment costing about 4 million euros - an expected end date, not a completed fact. The 'about 40 Kaufland spaces' is wrong: the roughly 40 surface spaces behind the former Kaufring were already unusable (121 Rathaus spaces had been out since 14 Sept); the Kaufland car park's size is not given, only that it goes with the demolition at end of January. Reichsstädter Markt = 409 spaces (114 short-term) on THIS page, confirming 409 vs 310 in our data. About 80 new free central spaces: correct (Stuttgarter Straße lane + Bischof-Fischer-Strasse lot).",
+   "corrected_text": "At the end of December 2015 it was reported that the Rathaus underground garage (255 spaces) would be fully closed from 11 January 2016 until, as expected, 31 May 2016 for refurbishment costing about 4 million euros (121 of its spaces had been unavailable since 14 September 2015). With the demolition of the Kaufland building at the end of January 2016 its car park would also be lost, and about 40 surface spaces behind the former Kaufring were already unusable. The city and city manager pointed to alternatives including the Reichsstädter Markt garage (409 spaces, 114 of them short-term) and about 80 newly created free central spaces.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Opened the aalen.de PDF (2 pages, Print-to-PDF copy of the Satzung; no separate web title, the document heading matches). Gemeinderat resolved it on 18 May 2017; in force 1 Sept 2017; 50 cents per 20 min and per further started 20 min, maximum parking duration 120 minutes (applies to meters other than station and Platanenweg); station: up to 20 min 50 cents, up to 40 min 1 euro; Platanenweg (Ostalbklinikum): 1 euro up to 45 min, up to 11 hours day ticket 6 euros; replaces the Satzung of 28 Oct 2004. All correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "Opened (Schwaebische/Aalener Nachrichten, 05.10.2017; title matches). Opening on Friday 6 Oct 2017, 35 spaces, 6-22 h with exit round the clock, above the Rathaus garage entrance, run by Stadtwerke (leased) - all correct (article is dated 5 Oct and says it opens 'this Friday'). 'Same rates as the other municipal facilities' over-generalises: the article names the Spitalstraße and P&R station garages and the Rathaus garage only.",
+   "corrected_text": "The Stadtwerke Aalen opened the Parkplatz Kubus above the Rathaus garage entrance on 6 October 2017 with 35 spaces, open 6 a.m. to 10 p.m. (exit possible at any time), charging the same fees as the Spitalstraße, station P&R and Rathaus garages.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "Opened (Schwaebische, 12.12.2017; title matches). Wrong date for removal of the Brötchentarif: the 30-minute free tariff was introduced with the opening of the Rathaus garage in September 2016 and dropped with the fee increase on 1 January 2017 (not removed in September 2016). Rest is as reported by the Aalener Nachrichten: first 20 min free from end of January 2018 with the reopened Spritzenhausplatz garage; Spiontaler worth 50 cents for purchases of 25 euros or more; the concept 'costs the Stadtwerke half a million euros' (a cost per the newspaper, not necessarily an investment) and the coin still needed BaFin approval. Overlaps thematically with item 7 (same garage/reopening) - low value.",
+   "corrected_text": "In December 2017 the Aalener Nachrichten reported that from the end of January 2018 the first 20 minutes would be free in the Stadtwerke garages (a free 30-minute 'Brötchentarif' introduced in September 2016 had been dropped with the fee increase of 1 January 2017), and that shops would hand out 50-cent 'Spiontaler' parking coins for purchases of 25 euros or more, a concept reported to cost the Stadtwerke about half a million euros and still awaiting BaFin approval.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Opened (Schwaebische, 30.01.2018; title matches). Spritzenhausplatz garage reopened shortly before after a one-year construction period; shops and Stadtwerke run a February promotion: purchases of at least 25 euros in participating shops -> free parking that day, maximum eleven hours; goal is to draw attention to the rebuilt garage. 'P3' is not in this article but is confirmed by item 16. Fine.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Opened the 4-page PDF via curl+pypdf (ministry press release 14 May 2020, 'Beschreibungen und Zitate zu den fünf ausgezeichneten Projekten'; title matches). Aalen section: planned dynamic, intelligent parking guidance system, sensor technology + data platform + app-based guidance, AI analysis tool to forecast available spaces, 'gefoerdert mit 334.015 Euro'. It is funding/plan only - draft says 'planned', correct. Programme name InKoMo appears in the document (Hockenheim quote, 'InKoMo 4.0') and in the file name, not in the Aalen paragraph.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Opened aalen.de press release (Stadtwerke Aalen, dated 30.11.2020; title matches including ' - Stadt Aalen'). From 1 Dec 2020 for energy customers with customer card: Mon-Fri 18:00-09:00, Sat from 14:00, Sundays/holidays all day; Rathaus, Reichsstädter Markt, Spitalstraße, Spritzenhausplatz, station garages; contract at least one year; 29 euros/month first six months then 39. (Omits a one-off 50 euro processing fee - minor.)",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Opened (Schwaebische Post, 18.06.2021; title matches). City administration PROPOSES the first hour free July-September 2021 (instead of the current 20 minutes) to strengthen the centre after the pandemic; rough cost 15,000 euros a month (45,000 total); initiative from the Freie Wähler; vote by the Gemeinderat on Thursday 24 June. Text correctly frames it as a proposal and notes the outcome is unknown. Medium confidence right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Opened (Schwaebische Post, 23.02.2022; title matches). OB Brütting 'decided today' that the general Parkgebührensatzung applies at the Kulturbahnhof: 50 cents first 20 min, 50 cents per further 20 min. But the lot had not been part of the parking-management concept because of its special status - the article does not say it was exempt from fees; Brütting calls it a reduction of fees for guests, while the lede says the spaces 'künftig Geld kosten'. Alternatives named: P&R garage at main station with night tariff, free Charlottenstraße lot, 60 bicycle spaces. 'Ending its previous exemption' is not supported.",
+   "corrected_text": "In February 2022 Oberbürgermeister Frederick Brütting decided that the city's general Parkgebührensatzung would apply at the Kulturbahnhof (KubAA) car park, which had not previously been part of the city's parking-management concept: 50 cents for the first 20 minutes and 50 cents per further started 20 minutes. He described this as a reduction of fees for guests and pointed to the P&R garage at the main station with its night tariff, the free Charlottenstraße lot and 60 bicycle spaces as alternatives.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Opened (Schwaebische Post, 16.11.2023; title matches). From 1 Jan 2024 new fees in Stadtwerke facilities (Spitalstraße, Reichsstädter Markt/station, Rathaus and Spritzenhausplatz garages, Kubus lots); first 20 min stay free, first full hour (from minute 21) 1 euro, second hour +1 euro, from third hour 1.50 euros per started hour, day maximum 12 euros; last adjustment 2018. All correct. Same URL as item 13.",
+   "corrected_text": "Stadtwerke Aalen announced new garage tariffs from 1 January 2024 for its facilities (Spitalstraße, Reichsstädter Markt, station, Rathaus, Spritzenhausplatz, Kubus): first 20 minutes still free, first full hour 1 euro, second hour 1 euro, from the third hour 1.50 euros per started hour, daily maximum 12 euros; the last increase had been in 2018. The Mercatura shopping-centre garage is run separately by B+B Parkhaus GmbH & Co. KG and was not covered by the change.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Opened the same page as item 12 (Schwaebische Post, 16.11.2023). The Mercatura garage is operated by 'B+B Parkhaus GmbH & Co. KG' and is not affected by the increase. Supported, but DUPLICATE/overlap: same source URL and article as item 12; the fact could be merged into item 12 and this item dropped.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Opened (Schwaebische Post, 18.12.2023; title matches). Gemeinderat adopted the CDU motion for an overall mobility concept (parking, P&R, cycling, public transport): correct. CDU motion that the city negotiate with DB over buying the land opposite the Kulturbahnhof was accepted; the administration's answer was to 'continue talks with DB in the first half of 2024' - draft slightly overstates 'negotiating over buying'. AfD request for one free hour rejected (stays at 20 min): correct. 'Existing spaces were expected to be lost to Gaulbad': the Westparkplatz spaces for the Gaulbad were already gone; only the Stuttgarter Straße spaces were still to go. Overlaps with item 15 on the free-parking stance.",
+   "corrected_text": "In the December 2023 budget debate the Gemeinderat adopted a CDU motion for an overall concept on city-centre mobility covering parking, park-and-ride, cycling and public transport, and accepted a CDU motion on the land opposite the Kulturbahnhof, with the administration saying it would continue its talks with Deutsche Bahn about the plots in the first half of 2024 to create extra parking there. An AfD request to extend free parking in the Stadtwerke garages from 20 minutes to one hour was rejected. Spaces at the former Westparkplatz (Gaulbad) had already gone, and more along Stuttgarter Straße were expected to go when it is redesigned.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Opened (Schwaebische, 19.08.2024). Page <title> is 'Kein kostenloses Parken in Aalen' but the on-page headline is 'Rückfall in die 70er-Jahre: Aalen schüttelt den Kopf über Autoträume der FDP' (the draft title is the tag title). Misattributions: Brütting called the whole FDP 'Politik für das Auto' programme (which includes dropping parking fees) a Rückfall in die 1970er - he did not specifically reject free parking in those words; it was Freie Wähler leader Claus Albrecht (also Bund der Selbststaendigen chair, ACA deputy chair) who rejected free parking. The 70-80 percent figure is a Handelsverband BW survey of 60 southwest-German cities (ACA member survey said the same), not an Aalen count. Parkleitsystem: 'in operation for a few days', 2,000 spaces digitally recorded: correct; Mercatura not yet integrated. This is NOT evidence of a formal 'council policy' rejecting free parking. Overlaps with item 14 (free parking) and item 19 (pedestrian zone mention).",
+   "corrected_text": "In August 2024, responding to an FDP programme 'Politik für das Auto' that includes dropping parking charges, Oberbürgermeister Brütting called the programme a regression to the 1970s ('Rückfall in die 1970er'), while Freie Wähler leader Claus Albrecht, a retail representative, said free parking was not the answer and that more affordably priced spaces were needed, citing a Handelsverband Baden-Württemberg survey of 60 southwest cities in which 70-80 percent of visitors travel by car. The article also reports that an intelligent parking guidance system recording 2,000 spaces digitally had gone into operation a few days earlier.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "Opened (Schwaebische/Aalener Nachrichten, 04.10.2024). Page <title> 'Umrüstung des Parkhauses Reichsstädter Markt verschoben'; on-page headline 'Parkhaus im Reichsstädter Markt: Umrüstung verschiebt sich'. Facts: by end of 2024 P1 (with Kubus lot), P2, P3, P5, P6 get camera-based plate recognition; P2 postponed from 7-9 Oct to 11-13 Nov; P1 stays 4-6 Nov. Draft omits that P3 (16-18 Sept) and P6 (23-25 Sept) had ALSO already been converted, and says only Spitalstraße was done. During conversion the garage cannot be entered from Monday 6 a.m. until Wednesday 7 a.m. (draft 'closed' is fair). Planned/ongoing as of 4 Oct 2024, not all complete.",
+   "corrected_text": "In October 2024 Stadtwerke Aalen was equipping its garages with electronic licence-plate recognition by the end of the year (Rathaus P1 with the Kubus lot, Reichsstädter Markt P2, Spritzenhausplatz P3, Spitalstraße P5 and the station P&R garage P6). P5 had been converted first as a trial, P3 followed on 16-18 September and P6 on 23-25 September; the P2 conversion was postponed from 7-9 October to 11-13 November 2024 and P1 was still scheduled for 4-6 November. During a conversion the garage cannot be entered from 6 a.m. on the Monday until 7 a.m. on the Wednesday.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "Opened (Schwaebische, 14.10.2024; title matches). It reports a council committee discussion of the redesign (two lanes, separate cycle and footpaths, more green and trees, signals removed, zebra crossings, crossing aid towards the future Gaulbad); the basic decision by the Gemeinderat was expected on 24 Oct - so a proposal, as the draft says. The ten percent traffic decrease after the Walkstraße underpass is the OB's estimate; the 10-11,000 vehicles a day figure is a Freie Wähler councillor's remark (Brütting said 'around 10,000'), not an official count. The article says nothing about parking. WEAK: no parking content, outcome unknown.",
+   "corrected_text": "In October 2024 a council committee discussed a redesign of Stuttgarter Straße (two lanes with separate cycle and pedestrian paths, more greenery and trees, signals removed, zebra crossings and a crossing aid towards the planned Gaulbad), with a basic decision by the Gemeinderat expected on 24 October. The Oberbürgermeister estimated that traffic would fall by about 10 percent once the Walkstraße rail underpass is finished; a councillor put the street's traffic at 10,000-11,000 vehicles a day.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "partly",
+   "note": "Opened (Schwaebische, 23.10.2024; title matches). Article: 'Wenn alles glattlaeuft' the Bahnhalt-West in Hofherrnweiler opens in December 2026; construction 'soll im Februar 2026 beginnen' (as printed); cost about 9.5 million euros (city share 3.5 million); about 30 P&R spaces and a covered bus stop on EACH side; covered bicycle parking planned. Draft says 'due to open' - it is a conditional expectation and a plan (the building-plan procedure was only to start in spring 2025). The 'planned' framing is right but 'due to open' should be softened. Medium confidence right. Marginal for city parking utilisation.",
+   "corrected_text": "In October 2024 it was reported that, if all goes smoothly, the planned Bahnhalt-West in Hofherrnweiler could open in December 2026, with construction expected to begin in February 2026 according to the article; the project costs about 9.5 million euros (3.5 million from the city), and the plans foresee about 30 park-and-ride spaces and a covered bus stop on each side of the line plus covered bicycle parking.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "partly",
+   "note": "Opened (Schwaebische Post, Stand 19.12.2024; title matches). The council vote was in 'der vergangenen Sitzung' (the previous meeting) - the article does NOT say it happened on 19 December; 19 Dec is only the publication date. It is a Grundsatzbeschluss (decision in principle: planning is now worked out further, a planning office is to be commissioned, 1-2 years to clear legal questions) - the extension is a plan, not done. 409,000 euros federal funding is 'in Aussicht gestellt' (city share max 260,500 euros); programme 'Zukunftsfähige Innenstädte und Zentren'. Brütting: situation 'hochkomplex'; he mentioned a possible parking garage in the east of the centre in reply to Albrecht's call for a Parkraumkonzept. Correct otherwise.",
+   "corrected_text": "In the council meeting before 19 December 2024 the Gemeinderat unanimously passed a basic resolution (Grundsatzbeschluss) to pursue extending the pedestrian zone to Rittergasse and parts of the Südlicher and Östlicher Stadtgraben; planning is now to be developed further, and the mayor said one to two years would be needed to clear open questions. The federal programme 'Zukunftsfähige Innenstädte und Zentren' has put 409,000 euros of funding in prospect. Oberbürgermeister Brütting called the traffic situation 'highly complex' and, when a councillor asked for a parking concept, spoke of a possible parking garage on the east side of the centre.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "supported",
+   "note": "Opened (Schwaebische/Aalener Nachrichten, 03.01.2025; title matches). Commuter products at P6 from 1 Jan 2025: monthly 45.50, half-year 136.50, annual 253.50 euros, only with proof (rail card, BW-Ticket or Deutschlandticket); price caps at P6: day maximum 6 euros (was 10), 24-hour maximum 8 euros (was 12). All correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "supported",
+   "note": "Opened (Schwaebische Post, 23.01.2025; title matches). PEUKA (start-up from Kiel) starts in Aalen with the first 20 spaces, 18 in the centre and 2 at Aal-Inn; prices set by landlords, 0.40 / 0.80 / 1 euro per hour; city manager Skusa doubts the model works for a mid-sized city because garages are empty from evening and local firms are reluctant. Correct. Marginal value (tiny private scheme).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "supported",
+   "note": "Opened (Schwaebische Post, 31.10.2025; page <title> 'Stadtwerke Aalen erhöhen Parkgebühren – Rabatte für Energiekunden'; on-page headline is 'Parken in Aalen wird 2026 teurer: Stadtwerke heben Preise an' - both legitimate). New structure from 1 Jan 2026: up to 30 min 50 cents (free for energy customers with customer card), 1 euro first hour, 1.50 euros per further started hour (3 or 6 percent discount for SWA+/SWA++), day maximum 12.50, night rate 0:00-6:00 maximum 4 euros, permit holders pay on average 8 euros gross more per month. Last increase was January 2024. All correct; a stated announcement, not a forecast. Overlaps with items 23 and 25 (same January 2026 tariff change).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 23,
+   "verdict": "partly",
+   "note": "Opened (Schwaebische Post, 24.01.2026; page <title> matches, on-page headline is '„Preishammer“-Schock in den Aalener Stadtwerke-Parkhäusern'). Old night tariff ran 19:30 to 7:00 (not 7 p.m.) at a maximum 2 euros; new one is 4 euros, 0:00-6:00 only; free 20 minutes for all dropped ('Brötchentarif' only for energy customers, others pay 50 cents for first 30 min). The 'customer criticism' is essentially one couple from Dewangen quoted (5.50 euros for 3.5 hours), not a documented wave; the garages listed are simply the Stadtwerke garages. Largely duplicates items 22 and 25 (same January 2026 tariff change/night tariff) - low incremental value.",
+   "corrected_text": "From January 2026 the Stadtwerke Aalen night tariff of a maximum 2 euros (7:30 p.m. to 7 a.m.) was replaced by a 4-euro maximum night tariff valid only from midnight to 6 a.m., and the free 20 minutes for all garage users ended (non-customers now pay 50 cents for the first 30 minutes, energy customers with the customer card park 30 minutes free). The article quotes a couple from Dewangen who paid 5.50 euros for three and a half hours in the Rathaus garage and called the change a 'Preishammer'.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 24,
+   "verdict": "supported",
+   "note": "Opened (Schwaebische, 13.01.2026; title matches). Gemeinderat (budget debate, large majority; AfD and one Freie Wähler councillor against) decided to have scan vehicles examined, proposed by the Greens (sidewalks/cycle paths, school areas, resident parking), after pilots in Mannheim and Heidelberg are evaluated; the administration then returns to the Gemeinderat, which decides whether to use one. The page names Buergermeister Bernd Schwarzendorfer (not Brütting) as supporting the motion in the meeting; Brütting appears only in a side exchange about parking. The draft correctly names nobody and does not claim deployment.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 25,
+   "verdict": "supported",
+   "note": "Opened (Schwaebische Post, Stand 05.02.2026; page <title> 'Stadtwerke-Parkhäuser: Rekordnutzung und finanzielle Auswirkungen', on-page headline 'Mehr Autos, aber weniger in der Kasse'). The count is 'Autos von Kurzzeitparkern' counted in the five Stadtwerke facilities (P1 Rathaus/Kubus, P2, P3, P5, P6): 763,584 (2023), 805,539 (2024), 1,031,224 (2025); December busiest, Kubus lot busiest in March; 195,000 euros extra revenue expected in 2026 while a deficit in the low six figures is planned. Correct as written. Caution: the article does not explain the 28 percent jump in 2025 (a new plate-recognition counting system went in late 2024 - possible measurement effect, not stated in the article).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 26,
+   "verdict": "supported",
+   "note": "Opened (Schwaebische, 30.04.2026; page <title> 'Ladeinfrastruktur in Aalen: Bedarf verdoppelt sich bis 2030', on-page headline 'Es droht die Lade-Lücke: Bedarf wächst rasant'). Council committee: supply covers about 75 percent of 2026 demand; demand more than doubles by 2030; the city will provide land to external operators rather than operate chargers itself; demand concentrated in the core city around the station etc. Correct. Low value for parking utilisation (city-level EV charging, not parking).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Aalen's central garages (Rathaus P1, Reichsstädter Markt P2, Spritzenhausplatz P3, Spitalstraße P5, station P&R P6) are run by the municipal Stadtwerke Aalen, which raised garage tariffs in January 2024 and again in January 2026 (daily maximum 12.50 euros, night tariff limited to midnight-6 a.m.); the Mercatura garage is privately run and was outside the 2024 change. Counted short-term parking in the five Stadtwerke facilities rose from 763,584 cars in 2023 and 805,539 in 2024 to 1,031,224 in 2025, and the Stadtwerke expect about 195,000 euros of extra revenue from the 2026 prices while still planning a low six-figure deficit. On-street fees follow the Parkgebührensatzung of May 2017 (50 cents per 20 minutes, 120-minute maximum), the state announced 334,015 euros of funding in 2020 for a planned parking guidance system, and in January 2026 the Gemeinderat voted to have camera scan vehicles for parking enforcement examined, with a decision still to come. In April 2026 the city said public EV charging covered about 75 percent of 2026 demand."
+}
