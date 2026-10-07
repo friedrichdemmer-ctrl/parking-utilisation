@@ -92,6 +92,21 @@ def _classify(error: str | None, offered: int) -> str:
     return "source_frozen" if offered else "source_empty"
 
 
+def silent_garages(conn: sqlite3.Connection, source_id: str) -> int:
+    """How many of a source's garages have not reported within its threshold."""
+    import alerts
+    from freshness import silent_after
+
+    limit = _now() - silent_after(source_id)
+    rows = conn.execute(
+        "SELECT last_observed_ts FROM lots_meta WHERE source_id = ? AND last_observed_ts IS NOT NULL "
+        "AND place_id NOT IN (SELECT place_id FROM frozen_places)", (source_id,)).fetchall()
+    recent = alerts.ACTIVE_DAYS
+    cutoff = _now() - __import__("datetime").timedelta(days=recent)
+    seen = [alerts._parse(t) for (t,) in rows if t]
+    return sum(1 for t in seen if t < limit and t >= cutoff)
+
+
 def _still_down(conn: sqlite3.Connection, source_id: str) -> bool:
     """Whether the source still counts as down after what we just wrote. A feed
     can be half alive -- Mannheim's Scheidt+Bachmann garages kept reporting
@@ -123,7 +138,7 @@ def repair(conn: sqlite3.Connection, source_id: str) -> dict:
         for cls in FALLBACKS.get(source_id, ()):
             fb = cls()
             fb_written, fb_error, _ = _run(conn, fb)
-            if fb_written and not _still_down(conn, source_id):
+            if fb_written and not (_still_down(conn, source_id) or silent_garages(conn, source_id)):
                 out = {"outcome": "fallback", "resolved": True, "written": written + fb_written,
                        "detail": f"{fb_written} readings from {fb.name} while {source_id} is down ({LABELS[outcome]})"}
                 break
@@ -168,8 +183,13 @@ def run_if_due(conn: sqlite3.Connection) -> None:
     if not _is_due(_last_success_at(conn, "watchdog", "sweep"), CHECK_INTERVAL_SECONDS):
         return
     try:
-        down = sorted(alerts.down_sources(conn))
-        results = sweep(conn, down) if down else {}
+        # Also sweep a source that has a fallback and some silent garages even
+        # when it is not "down" as a whole: Mannheim's live half keeps it above
+        # the down threshold while its frozen half would otherwise only be
+        # refreshed each time it dipped below, once every six hours.
+        down = set(alerts.down_sources(conn))
+        down |= {s for s in FALLBACKS if silent_garages(conn, s)}
+        results = sweep(conn, sorted(down)) if down else {}
         fixed = [s for s, r in results.items() if r["resolved"]]
         storage.record_run(conn, "watchdog", "sweep", "success", records_written=len(fixed))
         if fixed:
