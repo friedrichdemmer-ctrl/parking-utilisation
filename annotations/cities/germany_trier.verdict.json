@@ -1,0 +1,245 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Opened lokalo.de, article dated 12 Sep 2023, title matches. Figures confirmed: EUR 3 zone 1 (then 2.20), EUR 1.50 zone 2 (then 1.10), Haushaltsplanung 2024/Kommunalaufsicht, 30.70 nationwide, ~4,150 permits, EUR 200 starting figure, SWT garages 'maximal 2,40' (article says pre-agreed with SWT, decision still for SWT bodies). Proposed by transport councillor Becker in the Arbeitskreis Parken; text correctly frames them as proposals. Superseded by items 1-3.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "Opened lokalo.de article dated 12 Dec 2023 (title matches). 2.20->2.80 inside Alleenring, EUR 2.70 Pay by Phone, EUR 1.40 outer areas, SWT garages EUR 2 -> 2.40 are all confirmed. But the sentence that 'the article says the price gap is meant to make garages preferred and reduce search traffic' is wrong attribution: that is a quote from Green councillor Ole Seidel, who 'expects a steering effect' from the gap to garage fees; the article itself does not state it as policy aim.",
+   "corrected_text": "In its last session of 2023 Trier's city council debated the fee increases taking effect in January 2024: street parking inside the Alleenring rises from EUR 2.20 to EUR 2.80 per hour (EUR 2.70 with the Pay by Phone app), parking at managed spaces in the outer districts rises to EUR 1.40, and Stadtwerke Trier raise tariffs in their garages and underground car parks from EUR 2 to EUR 2.40 per hour. Green councillor Ole Seidel said he expected the gap to garage fees to steer drivers into garages and reduce parking-search traffic.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Same lokalo article (12 Dec 2023). Confirmed: council approved extending resident zone South to Aulstrasse (in force Q2 2024); fee from 30.70 to EUR 200 from January and stepwise to EUR 365 by 2028; administration sets fees without council vote under new state regulation where councils are only 'angehoert'; heavy criticism in the council (Left resolution failed 26-24). Overlaps with item 1 (same source) and with items 6-8 on the EUR 200 fee.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Downloaded PDF and extracted text. Title matches. Council heard 7 Dec 2023; in force 1 Jan 2024; zone 1 EUR 2.80/h at ticket machines (EUR 1.40 at meters), zone 2 EUR 1.40/h at machines (EUR 0.80 meters); app payment reduced to EUR 2.70/1.35 until 31 Dec 2025; boundary streets listed as stated. Primary source, high value.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Opened trier.de Parkraumkonzept page (title 'Parkraumkonzept'). Seven SWT-operated facilities with capacity of 3200 spaces 'nur sehr selten voll besetzt'; aims: shift parking into garages, reduce search traffic; garage tariffs always cheaper than street/large lots; from Jan 2024 EUR 2.80/h inside Alleenring vs EUR 2.40 garages. Page itself is undated (and also mentions the Komfort-Parken trial from 1 Jan 2026, so it was edited after Jan 2024); the 2024-01 date is the tariff start, not the page date. High value (core capacity/occupancy statement).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Opened lokalo article dated 24 May 2024, title matches. Freie Waehler Trier said, citing city administration, that 82 of original 162 spaces in the affected inner-city area were removed without replacement, incl. managed and disabled spaces; IHK survey of ~90 businesses; CDU criticism; Urban Security Concept elements (bollards, pedestrian zone extension, delivery times, exemption fees) listed. Claim is attributed to a party quoting the administration, correctly framed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Downloaded PDF. Title matches. Ordinance dated 9 Dec 2024: annual fee EUR 200, EUR 10 for replacement/amended permit, in force 1 Jan 2025. Overlaps with items 2, 7, 8 on EUR 200.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Opened lokalo article dated 5 Dec 2024, title matches. Council approved moratorium motion (CDU, Greens, FDP) 38 for, 13 against; planned further EUR 40 annual rises from 2025 suspended, fee stays EUR 200; AfD, Die Linke and smaller groups against. Article says the council meeting was 'gestern' (4 Dec). Text is accurate. Note the council vote was a recommendation (item 8).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Opened Wochenspiegel article dated 9 Dec 2024; title matches. States moratorium freezes fees at EUR 200, that the decision is 'nur eine Empfehlung' because final decision lies with transport councillor Dr. Thilo Becker, and that the earlier plan was a rise to EUR 365 within three years. Overlaps heavily with item 7; low added value except the recommendation-only caveat (the 9 Dec 2024 ordinance in item 6 kept EUR 200).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Opened trier.de West Line page (title matches). Trains since Monday 3 March 2025, first since 1983, stops Hafenstrasse, Pallien, West, Euren, Zewen; RB 83 hourly Mon-Sat Wittlich-Luxembourg Hbf. But the park-and-ride numbers are described as planned ('geplant') at the time of writing: 'Park-and-Ride-Station mit 30 Stellplaetzen ... geplant' at Hafenstrasse and 'Park-and-Ride-Platz mit 40 Stellplaetzen ... geplant' at Euren; the page says city works on surroundings/P+R can only start after the stops open. So 'lists capacity' reads as existing capacity; it is planned. Page undated.",
+   "corrected_text": "Passenger trains have run again on Trier's West Line since 3 March 2025 for the first time since 1983, with stops at Hafenstrasse, Trier-Pallien, Trier-West, Trier-Euren and Trier-Zewen; RB 83 runs hourly Mon-Sat between Wittlich and Luxembourg City. The city's page describes park-and-ride sites as planned, with 30 spaces at Hafenstrasse and 40 at Euren; it does not say they are built.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Opened trier.de page, dated 31.07.2025, title matches. 55,954 employees with workplace in Trier on 30 Jun 2024; 30,050 in-commuters, 19,560 out (2024); 8,880 (45.4%) to Luxembourg; 110 Luxembourg residents commute in; out-commuters +24.4% since 2015. All confirmed. Context only (no parking figure).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Same trier.de page (31.07.2025): 'rund vier bis fuenf Millionen Tagestouristen', on average 400,000 overnight; 2023 record 892,196 overnight stays; 2024 468,645 guest arrivals. Confirmed. Duplicate source with item 10; tourism context only, low value for parking.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Opened lokalo article dated 29 Aug 2025, title matches. Jamaika coalition (CDU, Greens, FDP) motion for council meeting 17 Sep 2025; garage tariffs on Mon-Wed and evenings/nights significantly cheaper than kerbside, minute-based billing or free parking up to 30 minutes 'in Betracht gezogen'. Proposal correctly framed as such.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Opened lokalo article dated 5 Nov 2025, title matches. From 1 Jan 2026 Komfort-Parken (app + plate recognition) EUR 2.40 -> 1.92 (20%) in City-Parkhaus, Viehmarkt, Hauptmarkt, Basilika, Konstantin; tickets pay old price; initially one year; SWT want to establish app/plate recognition. Minor: 'Announced on 5 Nov' is the article date, not necessarily the SWT release date. Also corroborated by the city Parkraumkonzept page (trial from 1 Jan 2026).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Opened 5vier article dated 31 Mar 2026. Confirmed: from 1 April 2026 Nachtparken, EUR 15/month flat, 17:00-09:00 Mon-Sun, for Komfort-Parken users. However the article says 'in einem der Parkhaeuser mit Kennzeichenerfassung' and separately lists the five Komfort-Parken garages; it does not explicitly state the night offer is limited to exactly those five. Source_title includes the site suffix '- 5VIER - 54... Trier-Mosel-Eifel-Hunsrueck', which is not part of the headline.",
+   "corrected_text": "From 1 April 2026 SWT added 'Nachtparken' for Komfort-Parken users: a flat EUR 15 per month to park from 17:00 to 09:00, Monday to Sunday, in garages with licence-plate recognition. The article names City-Parkhaus, Viehmarkt, Hauptmarkt, Basilika and Konstantin as the Komfort-Parken garages.",
+   "corrected_title": "SWT Nachtparken Trier: Günstig über Nacht parken in der Innenstadt ab 15 Euro monatlich",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Opened 5vier article dated 25 May 2026. All details confirmed: new payment machines, barriers and plate recognition at Plaza-Carree; EUR 1.20 per 30 min (previously EUR 2.50 per 60 min); daily max EUR 18; Sundays/holidays EUR 3.60 (previously EUR 18); Komfort- and Nachtparken available there. Only issue: source_title carries the site suffix '- 5VIER - 54... Trier-Mosel-Eifel-Hunsrueck'.",
+   "corrected_text": "On 25 May 2026 SWT reported that the Plaza-Carrée underground garage had new payment machines and barriers and licence-plate recognition, and that its tariff was cut to EUR 1.20 per 30 minutes (previously EUR 2.50 per 60 minutes), with a EUR 18 daily maximum and EUR 3.60 on Sundays and holidays (previously EUR 18); Komfort-Parken and Nachtparken now also work there.",
+   "corrected_title": "Smarter parken in Trier – Komfort- und Nachtparken ab sofort auch in der Tiefgarage Plaza-Carrée möglich",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Opened trier.de 'Sichere Innenstadt' page (title 'Sichere Innenstadt, Stadt Trier'). Confirmed: pedestrian zone extended around Domfreihof, Konstantinstrasse, Neustrasse; with Neustrasse made pedestrian street public parking spaces 'entfallen'; from 24 June 2026 Stockplatz bollards in operation, completing five bollard lines around Hauptmarkt; exemption permit needed. Page itself is undated. Gives no number of lost spaces (see item 5 for the 82-of-162 figure).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "Opened trier.de 'Parkhaeuser' page (title matches). Lists the seven SWT garages by name (City Parkhaus, Hauptmarkt, Plaza-Carree, Konstantin, Basilika, Viehmarkt, Ostallee), 'taeglich rund um die Uhr', SWT Parken GmbH operator, Parkleitsystem showing free capacity. But the page has NO capacity figures: '3,330 spaces in total' appears nowhere on it (table has name, address, entry height, hours only). The page is undated, so '2026' is not supported. The 3,200 figure is on the Parkraumkonzept page (item 4). Also: no 'Bahnhof'/'ParkPlaza' naming; page gives no mapping to feed abbreviations.",
+   "corrected_text": "The city lists seven public garages and underground car parks around the centre run by Stadtwerke Trier (operator SWT Parken GmbH), all open around the clock: City Parkhaus, Parkhaus Hauptmarkt, Parkhaus Plaza-Carrée, Tiefgarage Konstantin, Tiefgarage Basilika, Tiefgarage Viehmarkt and Parkhaus Ostallee. A parking guidance system (Parkleitsystem) shows free capacity. The page gives no total space count.",
+   "corrected_title": null,
+   "corrected_date": "undated",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "partly",
+   "note": "Opened bahnhof.de page (title 'Parken – Trier Hbf'). Confirmed: Bahnhofsplatz 8 (35 spaces, 2 h, ticket machine), Moltkestrasse (34 spaces, 2 h), covered 'Trier Hbf Ostallee' on Fabrikstrasse 860 spaces, EUR 2.40/h, EUR 18.00/24 h (a second tariff row shows EUR 3.60/24 h, probably weekend). The page shows no date; the draft's '2026' is not supported. Note this is the DB-listed 'Ostallee' garage at the station, which the page does not tie to the SWT 'Parkhaus Ostallee' or to any feed abbreviation.",
+   "corrected_text": "Deutsche Bahn's station page for Trier Hbf lists three parking options: 35 spaces at Bahnhofsplatz 8 and 34 at Moltkestraße (both open-air, 2-hour limit, ticket machine), and a covered garage 'Ostallee' on Fabrikstraße with 860 spaces, EUR 2.40 per hour and EUR 18.00 per 24 hours. The page is undated.",
+   "corrected_title": null,
+   "corrected_date": "undated",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "partly",
+   "note": "Opened trier.de Park & Ride page (redirected to /parken/8076.Park--Ride.html; title 'Park & Ride'). Confirmed Messepark (24 h except events; line 13 every 15 min Mon-Fri 06:30-18:00; line 303 for Luxembourg commuters) and Trier-Nord/Verteilerkreis (06:00-19:00), both free. Page is undated; '2026' not supported. Page also mentions Mitfahrerparkplatz Sirzenich outside the city as P+R-usable, which the item omits (fine, 'in Trier').",
+   "corrected_text": "Trier designates two free park-and-ride sites: Messepark in Trier-West (24 hours, except during events; bus line 13 every 15 minutes Mon-Fri 06:30-18:00; line 303 for commuters to Luxembourg) and Trier-Nord/Verteilerkreis (06:00-19:00). The page is undated.",
+   "corrected_title": null,
+   "corrected_date": "undated",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "partly",
+   "note": "Opened 5vier article dated 26 Nov 2013. Confirmed: 'In den vergangenen Monaten' all SWT inner-city garages equipped with Einzelplatzerfassung showing shortest route to nearest free space; Luxembourg/Saarland shoppers; free P+R buses on Advent Saturdays from Messepark, Hochschule and P+R Trier Nord with SWT Parken participating. Source_title has the 5VIER site suffix. Old (13 years) and mainly relevant as evidence that per-space detection exists.",
+   "corrected_text": "In 2013 SWT Parken equipped all its inner-city garages and underground car parks with individual-space detection showing the shortest route to the nearest free space. The same article says Christmas-season visitors include many shoppers from Luxembourg and the Saarland, and that free park-and-ride buses ran on Advent Saturdays from Messepark, the university (Hochschule) and P+R Trier Nord, with SWT Parken taking part.",
+   "corrected_title": "City-Initiative Trier e.V.: Parken in der Weihnachtszeit",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "supported",
+   "note": "Opened ZFK article dated 28.09.2021, title matches. SWT operate 64 public charging points in Trier 'in Parkhaeusern sowie auf oeffentlichen Parkplaetzen'; Portazon app lets SWT customers charge at household rate. Confirmed. Old, EV-only; low value for parking utilisation.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "partly",
+   "note": "Opened Wochenspiegel article dated 14 Nov 2024, title matches. Ruwerer Strasse 19a, four charging columns with eight charging points providing up to 400 kW in total ('ueber acht Ladepunkte eine Leistung von bis zu 400 kW'), largest public charging park in city per Mayor Leibe. The item's 'eight charging points of up to 400 kW' reads as 400 kW each, which is wrong, and '(not located in a garage)' is not stated by the source. Not parking-related; weak.",
+   "corrected_text": "In November 2024 SWT opened a charging park at Ruwerer Straße 19a with four charging columns and eight charging points providing up to 400 kW in total, which Mayor Wolfram Leibe called the largest public charging park in the city so far.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 23,
+   "verdict": "supported",
+   "note": "Opened de.wikipedia.org Moselaufstieg (last edited 10 July 2026; title 'Moselaufstieg – Wikipedia'). Text matches: planned ~6 km bypass linking B 51 at Konz and A 64; Trier city council voted against in 2019, Trier-Saarburg Kreistag still mostly in favour; in Sept 2025 environmental study expected to finish end of 2025 and preferred-variant pre-selection in Q1 2026. Accurately hedged, but the project is not parking-related and rests on a secondary source with no 2026 outcome: weak, recommend dropping.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Trier raised on-street parking fees to EUR 2.80 per hour in zone 1 and Stadtwerke Trier (SWT) garage tariffs to EUR 2.40 per hour from January 2024, and set resident permits at EUR 200; the council voted 38 to 13 in December 2024 for a moratorium on further rises, which the transport councillor was not bound by. The city's parking concept says the seven SWT-run garages offer about 3,200 spaces that are only very rarely fully occupied, and aims to move long stays into them; the Urban Security Concept extended the pedestrian zone and removed public parking at Neustraße. From January 2026 SWT cut digital Komfort-Parken to EUR 1.92 per hour in five garages, added EUR 15 per month night parking from April 2026 and extended the offer to the Plaza-Carrée garage in May 2026. Demand context is 8,880 residents commuting to Luxembourg and four to five million day tourists a year; park-and-ride sites at the reopened West Line stops are described by the city as planned."
+}

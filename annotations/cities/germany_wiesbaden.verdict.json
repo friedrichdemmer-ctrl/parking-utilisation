@@ -1,0 +1,305 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Opened the Textilwirtschaft article (title as given, published 2 Sep 2008): grand opening after three years of construction, 60 shops on four floors, about 20,000 m2, glass pedestrian bridge to a garage with 800 spaces. All as written. Secondary trade press, 2008 background; very low value for a current briefing.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Page title 'Lufthygiene | Landeshauptstadt Wiesbaden', no date. Page says an Umweltzone was introduced in 2013 because of high values; NO2 values at Schiersteiner Strasse and Ringkirche stations halved since 2015; particularly sharp decline in 2019. As written. Umweltzone since 2013 confirmed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Opened zfk (13.02.2019): DUH and VCD (suing Land Hessen) settled before the Verwaltungsgericht on Wednesday 13 Feb 2019 after the city's updated Luftreinhalteplan; 2018 NO2 was 'bis zu 48' (up to 48), not a flat 48; retrofit of 100 diesel buses plus refuse vehicles was announced during the hearing; cycling network, electric buses, new P&R places, target by 2020. Corrected the 'up to 48' figure and made the announcements read as announced plans. Overlaps item 3 (same settlement) and item 4.",
+   "corrected_text": "Wiesbaden avoided a diesel driving ban: Deutsche Umwelthilfe (DUH) and VCD, who had sued the state of Hesse, settled their case at the administrative court on 13 February 2019 after the city presented its updated clean air plan (NO2 reached up to 48 µg/m3 in 2018 against a 40 limit). During the hearing the city announced it wanted to retrofit not only 100 diesel buses but also refuse collection vehicles, and said it planned to expand the cycling network, introduce electric buses and create new park-and-ride spaces, aiming to meet the limit by 2020.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Opened Deutsche Handwerks Zeitung article (13 Feb 2019): bus lanes and cycle paths, higher parking costs in the centre, 85 diesel buses retrofitted from Euro 5 to Euro 6 already done; full switch to electric buses aimed for 2022; DUH to review monthly. As written. Duplicates item 2 (same settlement): merge or drop one.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "Page real title is 'Clean air plan | Landeshauptstadt Wiesbaden' (English-language page); it states 'The current 2nd update of the clean air plan for Wiesbaden came into force on February 11, 2019.' Text correct, title was wrong. Low value: overlaps items 2 and 3.",
+   "corrected_text": "The city's clean air plan page says the 2nd update of the Wiesbaden clean air plan came into force on 11 February 2019.",
+   "corrected_title": "Clean air plan (Landeshauptstadt Wiesbaden)",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Opened zfk (2 Nov 2020): 62.1% rejected the roughly 40 km tram in the Buergerentscheid on Sunday 1 Nov 2020 (preliminary official result), turnout about 46.2%, cost about EUR 426 million, at least 31,500 voters needed (quorum reached, vote binding), OB Mende said status quo cannot remain. All as written. The source spells the mayor 'Gerd-Uwe Mende'; the draft's 'Gert-Uwe' is the mayor's official spelling.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Page h1 'Bewohnerparken: Entspannt parken, komfortabel leben' (HTML title 'Bewohnerparken | Landeshauptstadt Wiesbaden'), no date shown. States EUR 120 a year (EUR 10 a month), Mon-Fri 9-22, visitors usually up to one hour free, in some areas two hours. As written. Resident parking EUR 120 confirmed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Opened hessenschau (22 Feb 2025): Wiesbaden residents pay EUR 120 a year; DUH demands a minimum of EUR 360. Supported. Nationwide article, only a mention of Wiesbaden; lowish value.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Opened hessenschau (7 Oct 2025): per the city, no plans to extend the parking zone or raise parking and permit fees; EUR 120 a year or EUR 70 for six months; about EUR 1.16 million net in 2024, used fully for a discounted 'Schuelerticket' (pupils' ticket) at EUR 10 or 15 a month. Draft said 'student ticket'; corrected to pupils' ticket.",
+   "corrected_text": "Hessenschau reported (7 Oct 2025) that, according to the city, Wiesbaden had no plans to extend its parking zone or raise parking or resident-permit fees (EUR 120 a year, EUR 70 for six months); about EUR 1.16 million net was raised from permits in 2024 and is used entirely to fund a discounted pupils' ticket (Schülerticket) at EUR 10 or 15 per month.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Opened the city press release 'Neue Parktarife für Wiesbadens Parkhäuser' (published 14 Feb 2025): since the start of the year the downtown garages Luisenplatz, Theater, City II and Mauritiusgalerie, previously billed hourly, have 15- or 20-minute steps, shortest stay payable at 50 cents; Luisenplatz hourly rate cut from EUR 3 to EUR 2. As written (Mauritiusgalerie also cut). A Dec 2025 release confirms the new tariff structure started at the beginning of 2025. January 2025 rate cuts confirmed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Same release: WiBau currently runs 'five Parkhaeuser und Tiefgaragen sowie Parkplaetze' with about 1,900 spaces in total (draft omitted car parks, so 'five garages with 1,900 spaces' is imprecise; later 2026 release says five garages with 1,870 spaces). Licence plate recognition for all facilities, better cashless payment and free-space display on parken-in-wiesbaden.de are all stated as intentions/future steps; draft keeps them as 'planned'. Overlaps item 9 (same source).",
+   "corrected_text": "The same press release states WiBau currently operates five garages and underground garages plus car parks with about 1,900 spaces in total, and says all facilities are to be converted to automatic licence plate recognition, cashless payment is to be improved (for example monthly account debit for registered customers) and, after modernisation, free spaces can be shown on parken-in-wiesbaden.de.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Opened Wiesbadenaktuell (2 Apr 2025; secondary local outlet): WiBau tariff at Warmer Damm / Wilhelmstrasse from April 2025, first 20 minutes free, then EUR 1 per 10 minutes; WiBau manager Guntrum says Theater garage is a cheaper alternative for longer stays. As written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Release of 2 Dec 2025 (page h1 'Parken an Adventswochenenden'; HTML title only 'Parkhaeuser | Landeshauptstadt Wiesbaden'): EUR 5 flat per day Fri-Sun in all municipal garages; listed spaces Mauritiusgalerie 432, City II 415, Theater 302, Luisenplatz 292, Friedrich-Ebert-Allee 185 (EUR 5 24-hour rate, Mon-Sun, 'permanently low'); RMCC garage EUR 6 a day; public transport free on the four Advent Saturdays. As written. Theater 302 confirmed on this page (Kurhaus page says 320; our measured 158 not checked).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Same release: 'Die Einfahrt in die staedtischen Parkhaeuser erfolgt mit automatischer Kennzeichenerfassung.' Supported. Thin item that duplicates items 10 and 15 (licence plate recognition); drop or merge.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Release of 18 Dec 2025 confirmed: WiBau presented 'Lilienparken' as new umbrella brand for the municipal parking areas it manages; Guntrum (WiBau CEO) and Kowol (Traffic Councillor) quoted; brand stands for reliability, fairness, quality. The 'expensive parking city' image is mentioned by WiBau parking-management head Charlotte Stritter as something the 2025 tariff changes counter, not as the brand's stated purpose; corrected. WiBau brand 'Lilienparken' confirmed.",
+   "corrected_text": "On 18 December 2025 WiBau, the municipal parking company, presented 'Lilienparken' as a new umbrella brand for the city-run parking facilities it manages (CEO Andreas Guntrum; Traffic Councillor Andreas Kowol), saying the brand stands for reliability, fairness, quality and modern service; the release adds that the tariff structure introduced at the start of 2025 was meant to counter Wiesbaden's image as an 'expensive parking city'.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Same release: 'All parking facilities now have digital licence plate recognition' (as of 18 Dec 2025); from January a second phase lets registered short-term parkers (users without a rental contract) skip the pay machine, billed collectively by monthly direct debit, with 10% off all parking; from February all monthly rental contracts go through a new digital registration tool. Draft's 'by end-2025' and 'registered users' slightly off, and the January/February steps are announced plans, not confirmed as delivered.",
+   "corrected_text": "A WiBau press release of 18 December 2025 said all its parking facilities now had digital licence plate recognition and announced that, from January 2026, short-term parkers without a rental contract could register to skip the pay machine, with monthly direct-debit billing and 10% off all parking, and that from February 2026 monthly rental contracts would be handled through a new digital registration tool.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "HTML title is 'Dauer- und Nachtparken | Landeshauptstadt Wiesbaden' (h1 'Dauer- und Nachtparken in Wiesbaden - was Sie wissen muessen'); no date. Mauritiusgalerie and City: Sorglostarif EUR 160 a month (24/7), night tariff EUR 60 (Mon-Fri 17-9, weekends/holidays all day); Elsaesser Platz garage has 429 spaces, open since July 2024. Text OK; title was wrong.",
+   "corrected_text": "The city's long-term and night parking page lists monthly tariffs at Parkhaus Mauritiusgalerie and Parkhaus City of EUR 160 for all-day (24/7) and EUR 60 for a night tariff (Mon-Fri 17:00-09:00, weekends and holidays all day); Parkhaus Elsässer Platz (WiBau, open since July 2024) has 429 spaces.",
+   "corrected_title": "Dauer- und Nachtparken (Landeshauptstadt Wiesbaden)",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "Page title is 'Parking | RheinMain CongressCenter Wiesbaden'. States 800 spaces, open 24 hours, Contipark Parkgaragengesellschaft mbH, EUR 2.50 per hour (max EUR 12 a day), 8 spaces with EV charging, dynamic signage showing free spaces. Text supported (800 vs 700 conflict: this page says 800); title corrected. Contipark runs RMCC garage confirmed.",
+   "corrected_text": "The city's RMCC visitor page states the garage beneath the RheinMain CongressCenter has 800 spaces, open 24 hours, operated by Contipark Parkgaragengesellschaft mbH; tariff EUR 2.50 per hour (maximum EUR 12 per day), 8 spaces with EV charging, dynamic signage showing free spaces.",
+   "corrected_title": "Parking | RheinMain CongressCenter Wiesbaden",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "partly",
+   "note": "Same page: 'Parkhaus Luisenplatz' 320 spaces, 5 minutes; 'Q-Park Lili/Liliencarree' with 1101 spaces, 10 minutes. Figures match the page as stated (conflicts with other sources e.g. Advent release Luisenplatz 292). Title corrected. Overlaps item 17 (same page); merge.",
+   "corrected_text": "The same page lists nearby alternatives: Parkhaus Luisenplatz (320 spaces, 5-minute walk) and Q-Park Lili/Liliencarree (1,101 spaces, 10-minute walk); it also names the Kurhaus underground garage (520 spaces, Contipark, about 12 minutes).",
+   "corrected_title": "Parking | RheinMain CongressCenter Wiesbaden",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "partly",
+   "note": "Page title is 'Arrival | Kurhaus Wiesbaden' (English page, no date). Intro: 'The parking garage operated by Contipark with 450 parking spaces and 70 outdoor parking spaces is located under the bowling green'; Theater garage one minute walk with 320 spaces. Text supported; title corrected. Contipark runs Kurhaus/Casino garage confirmed (RMCC page also says so, giving 520 spaces).",
+   "corrected_text": "The city's Kurhaus access page says the garage beneath the bowling green is operated by Contipark and has 450 spaces plus 70 outdoor spaces; the Theater garage (stated as 320 spaces) is a one-minute walk away.",
+   "corrected_title": "Arrival | Kurhaus Wiesbaden",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "partly",
+   "note": "Same page: eleven garages in the city centre with 5,106 spaces plus 1,490 spaces in five large car parks; parking guidance boards at entrance roads show direction to the nearest garage and number of free spaces. Text supported; title corrected. Overlaps item 19 (same page).",
+   "corrected_text": "The same page says the city centre has eleven parking garages with 5,106 spaces plus 1,490 spaces in five large car parks, and that parking guidance boards at the entrance roads show the direction to the nearest garage and the current number of free spaces.",
+   "corrected_title": "Arrival | Kurhaus Wiesbaden",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "supported",
+   "note": "Q-Park page 'Parking at the Lili in Wiesbaden': Lili car park directly under the Lili shopping centre, Bahnhofplatz 3, 1 minute walk (from main station), EUR 1 per hour, daily max EUR 10, day tariff 6-22 max EUR 6.50, night 22-6 max EUR 3.50. Operator Q-Park confirmed. Commercial operator site; no space count given. Prices are current-state claims and can change.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "supported",
+   "note": "Page 'Park & Ride in Wiesbaden' (no date): Moltkering ~218, Kahle Muehle ~250, Mainzer Strasse Ost ~120 and West ~50, Stadion Berliner Strasse ~100, Kleinaustrasse ~70, free; Salzbachaue is shown as charged in the parking guidance system. As written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 23,
+   "verdict": "supported",
+   "note": "Release of 28 May 2026 confirmed: 16 fast-charging points at Salzbachaue car park, Gartenfeldstrasse, up to 400 kW, Deutschlandnetz, partial closures from 26 May, further closures from about 15 June, completion expected early September 2026. As written (planned dates; the early-September target has passed by 7 Oct 2026, so check whether it opened). Peripheral to parking utilisation.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 24,
+   "verdict": "partly",
+   "note": "Release of 29 May 2026: 'fuenf Parkhaeuser mit 1.870 Stellplaetzen, von denen nun insgesamt 479 Stellplaetze mit Ladepunkten versehen sind', i.e. 479 spaces with charging points, not '479 charging points'; 20 new points (16 AC, 4 DC) at Luisenplatz in March-April; Elsaesser Platz 429 charging points incl. 8 DC and 45 minutes free parking while charging. Draft wording ambiguous; clarified. The '479 EV charging points' claim should read '479 spaces equipped with charging points'.",
+   "corrected_text": "WiBau runs five Lilienparken garages with 1,870 spaces, of which 479 spaces now have charging points; 20 more charging points (16 AC, 4 DC) went into operation at Parkhaus Luisenplatz in March-April 2026, and Parkhaus Elsässer Platz has 429 charging points including 8 DC fast chargers, with 45 minutes of free parking while charging.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 25,
+   "verdict": "supported",
+   "note": "Release of 17 Jul 2026: ESWE Versorgung has installed 446 new public charging points at 151 locations (beating its 420 target), ten-year concession aiming at 800 new points by 2030; Wiesbaden has 1,256 public charging points in total. As written. Citywide, not parking-specific; lowish value.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 26,
+   "verdict": "partly",
+   "note": "Release of 12 Sep 2025: first section (Hellmund- to Helenenstrasse) built within its EUR 1.8 million budget; Wiesbaden's first retractable bollards in test phase with city vehicles from 12 Sep; regular test operation with RFID tags 'follows at end of October' (a plan at release date, not an accomplished fact); second section to Walramstrasse expected from 2026; total about EUR 3.2 million. Corrected tense. Marginal to parking.",
+   "corrected_text": "The first section of the Wellritzstraße pedestrian zone (Hellmund- to Helenenstraße) was completed in September 2025 within its EUR 1.8 million budget, with Wiesbaden's first retractable bollards entering a test phase with city vehicles on 12 September 2025 and regular test operation with RFID tags for authorised users due to follow at the end of October; the second section to Walramstraße is expected from 2026 (total investment about EUR 3.2 million).",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 27,
+   "verdict": "partly",
+   "note": "English page, HTML title 'Traffic development plan | Landeshauptstadt Wiesbaden' (h1 'Inventory analysis and historical context'), no date. Says about 48% of journeys by private motorised transport, 52% walking/cycling/public transport, walking about 31% (cycling about 6%), and 'comprehensive parking space management' among measures. Text supported; title corrected. General context, low value.",
+   "corrected_text": "The city's traffic development plan page says about 48% of journeys are made by private motorised transport and about 52% by walking, cycling and public transport (walking about 31%), and lists comprehensive parking space management among its measures.",
+   "corrected_title": "Traffic development plan (Landeshauptstadt Wiesbaden)",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 28,
+   "verdict": "supported",
+   "note": "Hessenschau (16 Mar 2026): CDU 26.5% (2021: 23.5%), SPD 22.3%, Greens 15.2% (2021: 21.4%), AfD 11.9%, FDP 5.0% (2021: 10.4%). As written. Election results are only background for item 29; weak for a parking briefing.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 29,
+   "verdict": "supported",
+   "note": "Hessenschau 13 Aug 2026: CDU, FDP, Greens and Volt presented a coalition treaty; exactly one-vote majority; 'Auf Ausfallstrassen wird eine Rueckkehr zu Tempo 50 geprueft'; the Pfoertnerampel on Berliner Strasse 'wird probeweise abgeschaltet' (to be switched off on a trial basis); party conferences the following week had to approve, magistrate possibly confirmed 27 Aug. Draft phrasing keeps it as a plan/agreement subject to ratification; supported. Do not present as implemented (no later source checked).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Wiesbaden's municipal company WiBau runs five city garages (about 1,870 spaces) under the Lilienparken brand presented in December 2025, while Contipark operates the RMCC and Kurhaus/Casino garages and Q-Park the Lili garage. From the start of 2025 WiBau's downtown garages moved to 15- or 20-minute billing steps (shortest stay EUR 0.50) and the Luisenplatz hourly rate was cut from EUR 3 to EUR 2; by May 2026, 479 of the Lilienparken spaces had charging points. Resident parking costs EUR 120 a year, an environmental zone has existed since 2013, a February 2019 settlement with Deutsche Umwelthilfe averted a diesel ban, and the Citybahn tram was rejected by 62.1% in a November 2020 referendum. A CDU-FDP-Greens-Volt coalition treaty presented in August 2026, subject to party approval, envisages a trial switch-off of the Berliner Straße Pförtnerampel."
+}
