@@ -74,7 +74,7 @@
    "text": "On 28 April 2026 the municipality reported the redesigned Gedempte Gracht, Gedempte Burgwal and Lutherse Burgwal: on-street parking is gone, and after 11:30 freight traffic is prohibited and private cars cannot park on the street and are directed to garages.",
    "source_title": "Veilig en prettig fietsen over de vernieuwde Gedempte Gracht",
    "source_url": "https://www.denhaag.nl/pers/?p=4660",
-   "confidence": "high"
+   "confidence": "low"
   },
   {
    "topic": "regulation",
@@ -98,7 +98,7 @@
    "text": "On 12 July 2024 the city set out its shared-mobility strategy aiming for shared cars and cargo bikes in nearly every street by 2030, with fewer parked vehicles creating space for bike parking and greenery.",
    "source_title": "Den Haag zet in op deelvoertuigen voor leefbare stad",
    "source_url": "https://www.denhaag.nl/pers/?p=1795",
-   "confidence": "high"
+   "confidence": "low"
   },
   {
    "topic": "regulation",
@@ -130,7 +130,7 @@
    "text": "The Vlietlijn tram project would run from Den Haag Centraal via Lekstraat, Binckhorstlaan and Maanweg to Voorburg station; the page (published 24 June 2026) shows the project in its plan-making phase, with the preferred route variant approved by the councils in 2023 and realisation still several years away.",
    "source_title": "De Vlietlijn",
    "source_url": "https://www.denhaag.nl/nl/projecten-in-den-haag/de-vlietlijn/",
-   "confidence": "high"
+   "confidence": "low"
   },
   {
    "topic": "demand",
@@ -162,7 +162,7 @@
    "text": "Q-Park Centrum at Amsterdamse Veerkade 30 is listed with 712 parking spaces and 48 electric charging points.",
    "source_title": "Electric charging at Q-Park Centrum",
    "source_url": "https://www.q-park.nl/en-gb/parking/den-haag/elektrisch-laden-den-haag/centrum/",
-   "confidence": "medium"
+   "confidence": "low"
   },
   {
    "topic": "operators",
@@ -170,7 +170,7 @@
    "text": "Interparking operates Parkeergarage Helicon opposite Den Haag Centraal: 224 spaces including 9 EV charging spots, EUR 5.40 per hour, maximum EUR 32 per day.",
    "source_title": "Parkeergarage Interparking Helicon Station Den Haag Centraal",
    "source_url": "https://www.centrumparkeren.nl/den-haag/parkeergarages/helicon",
-   "confidence": "medium"
+   "confidence": "low"
   },
   {
    "topic": "operators",
@@ -202,7 +202,7 @@
    "text": "In Scheveningen the progressive tariff applies from 1 April 2026 on five streets (Seinpostduin, Jongeneelstraat, Pellenaerstraat, Harteveltweg, Gevers Deynootweg), with stepped-up enforcement in the summer period and permit zone 43 running daily 10:00-24:00.",
    "source_title": "Parkeerregels in Scheveningen en Duindorp",
    "source_url": "https://www.denhaag.nl/nl/parkeren/parkeren-in-scheveningen/",
-   "confidence": "high"
+   "confidence": "low"
   }
  ],
  "gaps": [

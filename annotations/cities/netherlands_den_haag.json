@@ -87,16 +87,6 @@
   },
   {
    "topic": "regulation",
-   "date": "2026-04",
-   "text": "On 28 April 2026 the municipality reported the redesigned Gedempte Gracht, Gedempte Burgwal and Lutherse Burgwal; on-street parking was already not possible there, and after 11:30, when freight traffic is no longer allowed and cars may not park on the street, motorists are expected to use the parking garages.",
-   "source_title": "Veilig en prettig fietsen over de vernieuwde Gedempte Gracht",
-   "source_url": "https://www.denhaag.nl/pers/?p=4660",
-   "confidence": "medium",
-   "id": 8,
-   "checked": "partly"
-  },
-  {
-   "topic": "regulation",
    "date": "2024-06",
    "text": "In June 2024 the municipality confirmed that Den Haag's zero-emission zone for vans and lorries, covering the Centrumring including its interior, would start on 1 January 2025; the cleanest vans may enter until 2028 and the cleanest lorries until 2030, and the college intended to extend the zone towards the coast in 2026.",
    "source_title": "College stelt verkeersbesluit vast: Haagse zero-emissiezone voor bedrijfsvoertuigen per 2025 definitief",
@@ -114,16 +104,6 @@
    "confidence": "medium",
    "id": 10,
    "checked": "partly"
-  },
-  {
-   "topic": "regulation",
-   "date": "2024-07",
-   "text": "On 12 July 2024 the city set out its shared-mobility strategy aiming for shared cars and cargo bikes in nearly every street by 2030, with fewer parked vehicles creating space for bike parking and greenery.",
-   "source_title": "Den Haag zet in op deelvoertuigen voor leefbare stad",
-   "source_url": "https://www.denhaag.nl/pers/?p=1795",
-   "confidence": "high",
-   "id": 11,
-   "checked": "supported"
   },
   {
    "topic": "regulation",
@@ -153,16 +133,6 @@
    "source_url": "https://www.denhaag.nl/nl/projecten-in-den-haag/binckpark/",
    "confidence": "medium",
    "id": 14,
-   "checked": "partly"
-  },
-  {
-   "topic": "regulation",
-   "date": "2026-06",
-   "text": "The Vlietlijn tram would run from Den Haag Centraal via Lekstraat, Binckhorstlaan and Maanweg to Voorburg station; the page (published 24 June 2026) shows the project in its plan-making phase (about two years), with the preferred route variant set by the councils in 2023 and a realisation phase of several more years to follow if the councils approve.",
-   "source_title": "De Vlietlijn",
-   "source_url": "https://www.denhaag.nl/nl/projecten-in-den-haag/de-vlietlijn/",
-   "confidence": "medium",
-   "id": 15,
    "checked": "partly"
   },
   {
@@ -196,26 +166,6 @@
    "checked": "partly"
   },
   {
-   "topic": "ev",
-   "date": "undated",
-   "text": "Q-Park Centrum at Amsterdamse Veerkade 30 is listed with 712 parking spaces; the page's facts table gives 48 electric charging points while its descriptive text mentions 54 charging stations.",
-   "source_title": "Electric charging at Q-Park Centrum",
-   "source_url": "https://www.q-park.nl/en-gb/parking/den-haag/elektrisch-laden-den-haag/centrum/",
-   "confidence": "medium",
-   "id": 19,
-   "checked": "partly"
-  },
-  {
-   "topic": "operators",
-   "date": "undated",
-   "text": "According to the aggregator site centrumparkeren.nl, Interparking's Parkeergarage Helicon, directly opposite Den Haag Centraal station, has 224 spaces including 9 EV charging places, charges EUR 5.40 per hour and has a maximum of EUR 32 per day.",
-   "source_title": "Parkeergarage Interparking Helicon Station Den Haag Centraal",
-   "source_url": "https://www.centrumparkeren.nl/den-haag/parkeergarages/helicon",
-   "confidence": "medium",
-   "id": 20,
-   "checked": "partly"
-  },
-  {
    "topic": "operators",
    "date": "undated",
    "text": "Interparking's Station Leidschenveen garage has 170 spaces and charges EUR 1.50 per hour and EUR 15 per 24 hours.",
@@ -244,16 +194,6 @@
    "confidence": "high",
    "id": 23,
    "checked": "supported"
-  },
-  {
-   "topic": "demand",
-   "date": "2026-04",
-   "text": "In Scheveningen the progressive tariff applies from 1 April 2026 on five streets (Seinpostduin, Jongeneelstraat, Pellenaerstraat, Harteveltstraat, Gevers Deynootweg), with extra checks on payment in the summer period and permit zone 43 paid parking running daily 10:00-24:00.",
-   "source_title": "Parkeerregels in Scheveningen en Duindorp",
-   "source_url": "https://www.denhaag.nl/nl/parkeren/parkeren-in-scheveningen/",
-   "confidence": "medium",
-   "id": 24,
-   "checked": "partly"
   }
  ],
  "gaps": [
@@ -265,5 +205,7 @@
   "Parkeerverwijssysteem/DRIP and EV-charging policy totals: no opened source; zero-emission zone coastal extension in 2026 not confirmed.",
   "Event/cruise demand drivers and Q-Park/Interparking tariff-change press releases not found."
  ],
- "dropped": {}
+ "dropped": {
+  "low confidence": 6
+ }
 }
