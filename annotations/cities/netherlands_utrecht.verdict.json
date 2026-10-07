@@ -1,0 +1,285 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "duic.nl returned 403 to curl; read via WebFetch (verbatim quotes requested). Article dated 20 June 2018, headline matches. Body: tariffs in all zones +10% (hourly A1 5.18, A2 3.64, B1 2.58 confirmed), resident permits +20%, business permits +15%; municipality wants to reduce street parking because spaces put heavy pressure on public space. Draft errors: 'rose' (article says will rise/'gaat'; effective date not given) and it presents the headline's 10-20% range as the tariff increase, whereas the hourly street tariffs rose 10% and 20% applied to resident permits. Rates themselves are correct (confidence medium is fair; confirmed against the article).",
+   "corrected_text": "In June 2018 Utrecht announced that parking tariffs in all zones would rise by 10 percent, resident permits by 20 percent and business permits by 15 percent. The hourly street rate would become EUR 5.18 in zone A1 (city centre), EUR 3.64 in zone A2 and EUR 2.58 in zone B1. The new city administration said it wants to reduce street parking because parking spaces put heavy pressure on public space.",
+   "corrected_title": null,
+   "corrected_date": "2018-06",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "duic.nl 403 to curl; read via WebFetch. Headline 'Utrecht heeft nu écht de grootste fietsenstalling ter wereld', dated 19 Aug 2019. Confirmed: 12,500 spaces from that day, first section open since August 2017, about 22,000 public bicycle spaces around Utrecht Centraal, plus room for 1,000 OV-fietsen. NOT in the article: that the facility is at Stationsplein and that Centraal 'sits directly beside the Hoog Catharijne car parks' (article mentions no Hoog Catharijne or car parking). Weakest-value item: it is about bicycle parking, not car parking.",
+   "corrected_text": "Utrecht's new bicycle parking garage opened in full on 19 August 2019 with 12,500 spaces (plus room for 1,000 OV-fietsen; the first section had been open since August 2017), which DUIC described as the largest in the world. About 22,000 public bicycle spaces now exist around Utrecht Centraal.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Treinreiziger article is dated 19 Nov 2019 (pre-opening announcement), so the item date should be 2019-11 and the start is a plan subject to an operating permit, not a confirmed event. Confirmed: line 22 Utrecht Centraal-Science Park, replaces bus 12, starts 10x/hour. Wrong/unsupported: frequency path is 12x/hour from September 2020 and 16x/hour 'not expected to be needed before December 2020' (not simply 'rise to 16 by Dec 2020'); the claim that the line serves the P+R at Utrecht Science Park is not in the article. Very weak relevance to parking; recommend dropping.",
+   "corrected_text": "A 19 November 2019 Treinreiziger article said the Uithoflijn tram (line 22) between Utrecht Centraal and the Science Park would start on 16 December 2019, subject to an operating permit, replacing bus line 12. It would begin with 10 trams per hour, rise to 12 per hour from September 2020, and reach 16 per hour not before December 2020.",
+   "corrected_title": null,
+   "corrected_date": "2019-11",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "utrecht.nl news item dated 21-07-2020, title 'Nieuwe tarieven P+R-garages'. Confirmed: from 1 September EUR 2 per day for users continuing by public transport, OV ticket EUR 4 for up to five persons, four garages (Utrecht Science Park, Westraven, Papendorp, Leidsche Rijn), others pay EUR 6. Minor: page says 'Zij betalen 6 euro' without the words 'per day'.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "utrecht.nl news item dated 01-10-2020. Confirmed figures: A1 36.84/month from 1 April, 40.94 in 2022; A2 12.99 to 20.47 in 2022; P+R and garage alternatives; about 100 spaces to be removed over five years. But the page presents these as the budget proposal ('In het begrotingsvoorstel'); rates 'worden definitief na vaststelling in de gemeenteraad in december'. Draft does not say they were proposals; also 2022 amounts exclude inflation correction.",
+   "corrected_text": "In October 2020 Utrecht proposed, in its budget proposal to the council, that residents' parking permits in and around the city centre become much more expensive: zone A1 to EUR 36.84 per month from April 2021 and EUR 40.94 in 2022; zone A2 from EUR 12.99 to EUR 20.47 per month in 2022 (excluding inflation correction); the rates were to become final after council approval in December. The city offered P+R and municipal garage subscriptions as alternatives and said it intended to remove and redesign about one hundred parking spaces step by step over five years.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "utrecht.nl news item dated 30-11-2020; title matches. Draft says the plan was 'published 30 November 2020'; the page says the municipality releases it for public input 'per 8 december' with reactions possible 8 December to 1 February. Limiting through traffic (Catharijnesingel, Ledig Erf, Utrecht Science Park) and 'P+R 2.0 buiten de snelwegring' confirmed. Residential-street part is softer than drafted: the municipality supports residents' initiatives to redesign, with parking spaces making way for green, play space or bicycle storage. It is a draft plan, written correctly as a proposal.",
+   "corrected_text": "A municipal news item of 30 November 2020 said the draft Mobiliteitsplan 2040 would be released for public input from 8 December 2020 to 1 February 2021. It aims to limit through traffic where space is scarce, naming Catharijnesingel, Ledig Erf and Utrecht Science Park, to encourage parking at a distance with some visitors using a 'P+R 2.0' outside the motorway ring, and to support residents' initiatives to redesign residential streets so parking spaces make way for green space, play space or bicycle storage.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "duic.nl 403 to curl; read via WebFetch. Headline correct, dated 18-11-2021. Confirmed: 750-1,500 spaces per year (0.5-1 percent of total in the neighbourhoods), hubs at city edge 'zoals de bestaande P+R's', 9,000 new bicycle spaces of which 5,000 around Hoog Catharijne (stated as aims, 'moeten komen'). Wrong: the article says that in May it became known that about fifty city-centre spaces 'zouden verdwijnen' this year (planned), not that 50 had been removed in May; it also says 14 spaces at Janskerkhof disappeared end of September.",
+   "corrected_text": "In November 2021 the municipality stated that it aims to remove 750 to 1,500 parking spaces per year (0.5 to 1 percent of the total), to create parking hubs at the city edge like the existing P+Rs, and to add 9,000 bicycle parking spaces, 5,000 of them around Hoog Catharijne. In May 2021 it had announced that about 50 city-centre spaces would disappear that year, and 14 spaces at Janskerkhof disappeared at the end of September 2021.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "lokaleregelgeving.overheid.nl CVDR668780/1: 'Geldend van 01-02-2022 t/m 21-04-2025', adopted by B&W 21 December 2021, in force 1 February 2022. Zones A1, A2, B1, B2, C (five). Max on-site regular car parking in A1 is 0%; up to 30% of the requirement convertible to bicycle spaces in A1 (20% A2, 15% B1) at 1.5 bike spaces per car space; in A1 and A2 up to 100% convertible to shared-car spaces (4 car spaces per shared car). Note this version was superseded after April 2025, so the item describes an expired rule; low current value.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "utrecht.nl news item dated 25-02-2022, title matches. Confirmed: Klepierre obliged under the 2008 agreement to build 3,000 bicycle spaces plus 1,300 extra if the offices are sold, all by 1 January 2027. But the 3,000 are an existing obligation (not 'new' under this deal), and the municipality 'has taken first steps' to make the sale of about 50,000 sq m of offices possible; the agreement had been sent to the council, not completed. 'Facilitated the sale' overstates.",
+   "corrected_text": "In February 2022 the municipality said that, under its agreements with Klépierre (Hoog Catharijne), Klépierre is obliged to provide 3,000 bicycle parking spaces (per the 2008 agreement) and must add 1,300 extra spaces if offices in Hoog Catharijne are sold, all to be realised by 1 January 2027 at the latest. The municipality has taken the first steps to make the sale of about 50,000 sq m of Hoog Catharijne offices possible; the agreement was sent to the city council.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "duic.nl 403 to curl; read via WebFetch. Headline correct, dated 23-09-2022. Confirmed: 20 to about 30 charge poles per month; about 1,300 public poles by 2030 (each pole serves two cars); about 3,800 points in 2025 at current pace vs need of about 4,600. The 460 fast chargers are at nineteen shopping centres and sports facilities; the station (for taxis) and about 60 along the ring road are a separate sentence, not part of the 460 or clearly additional. Draft wording merges them. Marginal relevance to parking (EV infrastructure); low value.",
+   "corrected_text": "In September 2022 Utrecht said it would speed up public charging-pole installation from about 20 to about 30 per month, adding about 1,300 public charging poles (each serving two cars) by 2030. It also plans 460 fast chargers at nineteen shopping centres and sports facilities, with fast chargers for taxis around the station and about 60 along the ring road. At the current pace the city projected about 3,800 charge points in 2025 against an estimated need of about 4,600.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "utrecht.nl news item dated 24-01-2023, title matches. Confirmed: Merwede car-free district with over 10,000 residents, low parking standard, underground garages of 1,800 spaces at the edge, mobility company set up January 2023, new P+R 'Mobiliteitshub XL' in Papendorp for 500-700 spaces. Written as planned. Overlaps item 16 (also Merwede); the two give different bicycle numbers (25,000 here vs 21,500 in the 2025 NOS article), so merge or keep only item 16.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "duic.nl 403 to curl; read via WebFetch (full-sentence quotes). Dated 25-01-2024. Confirmed: from 1 January 2025 vans and trucks bought from 2025 may only enter the zone if emission-free; Utrecht with Amsterdam, Arnhem and The Hague goes further than eleven other cities; fine EUR 110 for passenger cars/vans/buses, EUR 280 for trucks. Draft omits that diesel Euro-4 cars and vans are also barred from 2025, and 'cars' EUR 110 is the car/van/bus fine. Weak relevance to parking; low-value, candidate to drop.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "duic.nl 403 to curl; read via WebFetch. Article dated 26-04-2024 08:55 reports the vote 'donderdagavond' = Thursday 25 April 2024 (date inferred correctly). Confirmed: majority of council, paid parking citywide over the next twelve years, about 10,000 addresses per year, Monday-Friday 6:00-11:00, longer hours possible where parking pressure is high.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "utrecht.nl news item dated 08-10-2024, title matches. Confirmed: closure to through car and motorbike traffic between Stationsstraat and Spoorstraat in March 2025 (page uses definite 'sluit ... in maart 2025'), garages, shops and homes at Hoog Catharijne stay accessible for destination traffic via north and south routes. Draft correctly marks it as planned at that date. Superseded by item 27 (actual closure 21 Sept 2026); consider merging into 27.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Council letter PDF read with pypdf, dated 12 November 2024. Confirmed all points: 4.5% on all municipal garage and P+R products from 1 Jan 2025 (Voorjaarsnota 2024); max daily rate 10x hourly; P+R Westraven EUR 2.94/hour with max 5x hourly, day card dropped for those not continuing by public transport; Papendorp and USP day cards +EUR 0.50 to EUR 7.50; Voorjaarsnota aim of +EUR 1.25 million structurally. The real subject is 'Tarieven inpandig fietsparkeren en autoparkeren 2025'; 'Raadsbrief' and the date are the draft's descriptors.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Same council letter (12 Nov 2024, pypdf). Confirmed: 'Ruim driekwart' of P+R parkers are day visitors not continuing by public transport; Westraven is best used as a transfer facility; the dynamic parking guidance system is due for replacement in 2025 and the city wants to improve P+R signing from the main road network when replacing it (a wish, 'willen', not a done deal). Same source as item 14; consider merging.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "NOS article, Monday 3 March 2025. Confirmed: first pile today; 6,000 homes for more than 10,000 people; two garages at the edge for the cars of about one in three residents, about EUR 200 per month per space; 250 shared cars; 21,500 bicycle parking spaces; accelerated paid parking introduced in neighbouring Rivierenwijk (via NRC). Overlaps item 10 (Merwede).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "utrecht.nl news item dated 12-09-2025, title matches. Confirmed: the college proposes ('stelt voor') postponing block 2 of paid parking by six months, from 1 May 2026 to 1 November 2026; block 1 proceeds in November 2025. Correctly written as a proposal; outcome not stated on the page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "partly",
+   "note": "PDF wijkbericht (October 2025) read with pypdf. All counts match (53 spaces, 18+14 racks, 8 benches, 4 loading strips, 6 new general disabled spaces, permits kept, discount when swapping for garage or P+R subscription), but the bulletin is forward-looking ('halen we in november en december ... weg', works begin week of 3 November, finished within about seven weeks); the draft writes it as completed. The utrecht.nl 'Binnenstad autoluw maken' page (item 23) later says 53 spaces were removed in 2025, which corroborates it. Overlaps item 23. Title is the bulletin heading; 'Wijkbericht' prefix and month are descriptors.",
+   "corrected_text": "An October 2025 neighbourhood bulletin announced that in November and December 2025 the municipality would remove 53 parking spaces on the Oudegracht and in Twijnstraat as part of the car-light city centre ('binnenstad autoluw') programme, with work starting in the week of 3 November, and add bicycle racks, benches, loading bays and 6 new general disabled spaces; permit holders keep their permits and can swap them for a garage or P+R subscription at a discount.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "supported",
+   "note": "Council letter PDF dated 14 October 2025 read with pypdf. Confirmed: indexation 2.2% from 1 January 2026 (Voorjaarsnota 2025); Papendorp day card replaced by EUR 3.00/hour, max 5x hourly; USP day card replaced by EUR 2.50/hour, max 6x hourly; garage tariffs kept below street tariffs and edge-of-city parking cheaper than the centre. Overlaps item 21 (same USP change).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "partly",
+   "note": "PDF wijkbericht (November 2025) read with pypdf. Facts match (35 spaces, square part closed to cars in December, major maintenance and new layout from end 2027/early 2028, spaces removed every year since 2024) but the bulletin says what will happen ('In december sluiten we ... af'; works start 1 December, about two weeks); the draft writes it as done. Item 23's page later says 35 spaces were removed in 2025 at Janskerkhof, which corroborates the removal but does not mention a closure to cars. Overlaps item 23.",
+   "corrected_text": "A November 2025 neighbourhood bulletin announced that in December 2025 the municipality would close the square part of Janskerkhof to cars, removing 35 parking spaces (works from 1 December, about two weeks), in preparation for major maintenance and a new layout starting end 2027 or early 2028; it says spaces have been removed there every year since 2024.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "supported",
+   "note": "uu.nl news item dated 18 December 2025, title matches. Confirmed: from 1 Jan 2026 P+R USP hourly EUR 2.50, day rate from EUR 7.50 to EUR 15.00; university car parks hourly from EUR 1.80 to EUR 3.00, day rate stays EUR 18.00 (agreed jointly with the municipality and car park owners). Overlaps item 19 (same P+R USP change).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "partly",
+   "note": "https://www.utrecht.nl/parkeertarieven redirects to /wonen-en-leven/parkeren/kosten whose real title is 'Parkeerkosten | gemeente Utrecht', not 'Parkeertarieven (utrecht.nl, 2026)'. All numbers confirmed on the page: kort parkeren per hour 2026 A1 EUR 8.01, A2 EUR 6.94, zone BC EUR 5.34; garages per hour De Grifthoek 2.85, Kruisstraat 4.68, Berlijnplein 3.00, Springweg and Paardenveld 7.12. Suggest updating the URL to the redirected address.",
+   "corrected_text": "The municipality's 2026 parking costs page lists street parking at EUR 8.01 per hour in zone A1, EUR 6.94 in A2 and EUR 5.34 in zones B/C, and hourly rates in municipal garages of EUR 2.85 at De Grifthoek and EUR 4.68 at Kruisstraat (Berlijnplein EUR 3.00, Springweg and Paardenveld EUR 7.12).",
+   "corrected_title": "Parkeerkosten",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 23,
+   "verdict": "partly",
+   "note": "utrecht.nl page 'Binnenstad autoluw maken' confirms: since 2022 spaces removed step by step, about 50 per year; fewer new permits each year; 2026: 8 spaces north Oudegracht in autumn 2026 (date to follow), about 37 at Janskerkhof, 5 for resident initiatives and flexible space. The totals '196 spaces 2021 to 2025' and '2026 programme about 50' are NOT stated on the page; they are the draft author's sums of the listed items (2021 14, 2022 13, 2023 16, 2024 50, 2025 103 = 196; 8+37+5 = 50; arithmetic checks out). Also 'since 2022' vs the page listing 2021. 2026 items are planned. Also corroborates items 18 and 20 (53 and 35 spaces removed in 2025).",
+   "corrected_text": "The municipality's car-light city centre page says it has removed parking spaces in the inner city step by step since 2022, about 50 per year, and issues fewer new parking permits each year. It lists spaces removed each year from 2021 to 2025 (14, 13, 16, 50 and 103, which add up to 196). For 2026 it lists 8 spaces on the north Oudegracht (autumn 2026, date to follow), about 37 at Janskerkhof and 5 for resident initiatives and flexible space, about 50 in total.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 24,
+   "verdict": "partly",
+   "note": "Interparking page (redirected from /en/find-parking/P5-HoogCatharijne/ to /en/parkings/utrecht/hoog-catharijne-p5/), undated. Confirmed: 1,174 total spaces, 34 with charging point, EUR 45.00/24 h, EUR 2.00 first 20 minutes then EUR 1.00 per 10 minutes (EUR 1.20 on weekends 12:00-18:00), online pre-booking. Not supported: the name 'P5 (Vredenburg)' (page says it gives access to Vredenburgplein); the page lists Hoog Catharijne P1-P4 and P6 as nearby car parks, so 'P1 to P5' is not what Interparking states; page says P5 sits directly beneath the shopping centre, not 'next to' it. Page also carries a notice that the Catharijnesingel is closed to through traffic.",
+   "corrected_text": "Interparking's page for Hoog Catharijne P5 (directly beneath the Hoog Catharijne shopping centre) lists 1,174 car spaces including 34 with a charging point, EUR 45.00 for 24 hours, EUR 2.00 for the first 20 minutes then EUR 1.00 per 10 minutes (EUR 1.20 on weekends 12:00-18:00), and online pre-booking. Interparking's site also lists Hoog Catharijne P1 to P4 and P6 as nearby car parks.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 25,
+   "verdict": "partly",
+   "note": "Klépierre page (URL redirected from /en/centres/ to /en/our-malls/hoog-catharijne), undated apart from a '(c) 2026' footer; real title 'Hoog Catharijne Klépierre'. Confirmed: Klépierre's holding 100%, 3,500 parking places, 35 million annual visitors (page text elsewhere says 'nearly 30 million'). Not as drafted: it lists a renovation/extension described as 'projected' with investment EUR 438 million and delivery date 2021, while the data block says 'last renovation 2015'; it does not say a redevelopment was 'completed in 2021'. Marketing page, no date; low value.",
+   "corrected_text": "Klépierre's undated Hoog Catharijne page lists Klépierre's holding as 100 percent, 3,500 parking places and 35 million visitors annually (its text elsewhere says nearly 30 million), and a renovation and extension project with an investment of EUR 438 million and a delivery date of 2021 (the page also gives 2015 as the last renovation).",
+   "corrected_title": "Hoog Catharijne Klépierre",
+   "corrected_date": "undated",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 26,
+   "verdict": "partly",
+   "note": "Q-Park page (URL has trailing slash; undated, footer 2026). Confirmed: Sint Jacobsstraat 1, 3511 BR Utrecht; 344 spaces; 2 disabled; 36 electric charging points; EUR 42 per 24 hours if reserved online ('from'). Not supported: 'Bijenkorf' appears nowhere on the page. Page <title> is 'Affordable parking in Utrecht' (heading 'Q-Park La Vie / Parking in the heart of Utrecht'), so the draft title is a composite. Page also contains unrelated Park+Fly FAQ boilerplate. Low value.",
+   "corrected_text": "Q-Park's page for Q-Park La Vie at Sint Jacobsstraat 1, 3511 BR Utrecht, in the city centre, lists 344 car spaces (2 disabled) and 36 electric charging points, and offers parking from EUR 42 per 24 hours when reserved online.",
+   "corrected_title": "Affordable parking in Utrecht (Q-Park La Vie)",
+   "corrected_date": "undated",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 27,
+   "verdict": "supported",
+   "note": "utrecht.nl project page (redirected from /verkeersprojecten-in-binnenstad/ to /binnenstad/), status 'Uitgevoerd', title matches. Confirmed: on 21 September 2026 Catharijnesingel closed to through traffic for cars and motorbikes between Spoorstraat and Stationsstraat; warning period (letter) until 1 January 2027, fines after; recommended routes Centrum-Noord via Daalsetunnel and Stationsstraat to P3, P4, P5, Centrum-Zuid via Albatrosstraat and Spoorstraat to P1, P2, P5. The page does not itself mention the March 2025 date; the 'later than March 2025' comparison comes from item 13 (the page's timeline shows objection hearings March and December 2025, procedure completed April 2026, but does not state that as the reason for delay). Appeal hearing in first half 2027.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Utrecht is steadily squeezing street parking and steering drivers to garages and P+R: municipal garage and P+R tariffs rose 4.5% in 2025 and 2.2% in 2026, the P+R day cards at Papendorp and Utrecht Science Park were replaced by hourly rates, and in April 2024 the council voted to phase in paid parking citywide over about twelve years, with the municipality proposing in September 2025 to delay block 2 to November 2026. In the centre about 50 street spaces a year are removed under the car-light city centre programme, and on 21 September 2026 Catharijnesingel was closed to through traffic (fines from 1 January 2027, later than the March 2025 start announced in 2024), while the Hoog Catharijne garages, in a centre fully held by Klépierre, stay reachable by north and south routes. In 2026 street parking costs EUR 8.01 per hour in zone A1, against EUR 2.85 to 4.68 in the municipal garages De Grifthoek and Kruisstraat. Merwede, a car-free district, began construction in March 2025 with garages at its edge for about a third of residents' cars."
+}

@@ -1,0 +1,235 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Opened CVDR755611 (title matches; valid from 22-04-2026, decision in force 1 Jan 2026). Section 4: Stadsgarages Centrum (Boompjes, Erasmusbrug, Kiphof, Meent, Museumpark, Oude Haven, Schouwburgplein 1 and 2) EUR 1.00 per 14 min 06:00-22:00, EUR 1.00 per 29 min 22:00-06:00, max EUR 41.00 per 24 h; Stadsgarages Overig EUR 0.50 per 18 min, max EUR 16.00 (some exceptions, e.g. first hour free at Hoogvliet-Centrum, not mentioned). Same page also shows the 2026 P+R tariff (see items 13/20): free with public transport up to 24 h at Slinge/Kralingse Zoom, 72 h elsewhere; 'other use' EUR 0.50 per 13 min, max EUR 23.00 - no EUR 1/EUR 2 'low rate' appears there. Possible extra item.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "Opened CVDR749974/6 (title matches). Article 3: EUR 6.42 per hour 'in het centrumgebied' (centrum area, not 'Centro'); EUR 3.20 centrumring; EUR 2.24 elsewhere. Of ~218 Centrum street rows, 141 have Mon-Thu 09-23 / Fri-Sat 09-01 / Sun 12-23, 76 have Mon-Sat 09-23 / Sun 12-23, 1 differs, so 'most' is right but a third differ. Wording error: 'Centro tariff area'. Note the cited /6 version is a superseded version (valid 16-04 to 02-06-2026); the current version (from 01-07-2026) still has the EUR 6.42 centrum rate, so the figure holds.",
+   "corrected_text": "On-street parking in the centrum area (centrumgebied) costs EUR 6.42 per hour in the 2026 Tarievenoverzicht straatparkeren (EUR 3.20 in the centrumring and EUR 2.24 elsewhere); in most centre streets the paid hours are Monday-Thursday 09:00-23:00, Friday and Saturday 09:00-01:00 and Sunday 12:00-23:00, while roughly a third of centre streets have Monday-Saturday 09:00-23:00 and Sunday 12:00-23:00 (a few differ).",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "PDF raadsbrief M2409-3472, B&W 17 Dec 2024: 3.4% indexation of short-stay street parking and week/month cards; stop and shop stays EUR 0.20 for first 30 min; fiscal wheel clamp used where a manipulated licence plate is found (original plate has no parking tax paid); tariffs in force 1 Jan 2025. The PDF has no formal title, 'Tarievenoverzicht straatparkeren Rotterdam 2025' is its subject; the bracketed raadsbrief reference is an editorial addition. Low value (2025 indexation detail, superseded by 2026 tariffs).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "PDF dated 4 Oct 2022 (attachment 'Kader invoering betaald parkeren en verlenging venstertijden'). Says per coalition agreement paid hours go to 23:00 wherever paid parking applies, and paid parking is introduced in all neighbourhoods inside the ring (waterbed effect cited). It is a 2022 framework, which the text treats as a plan to be implemented; acceptable. Overlaps with items 4, 5, 6, 7 (same rollout).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "PDF raadsbrief M2411-5447, B&W 17 Dec 2024: college decided to introduce paid parking from Monday 3 March 2025 in the southern part of IJsselmonde including Hordijk (sectors 93 and 98); reasons are high parking pressure from commuters, visitors and non-residents. Title matches. Single-neighbourhood step; low value, can be merged into one 'phased rollout' item with 5 and 6.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "PDF raadsbrief M2503-1440, B&W 1 July 2025: 'Het college heeft besloten' to extend Sunday paid parking 12:00-23:00 from 1 Sept 2025 (Carnisse, Tarwewijk) and 1 Oct 2025 (Oud-Charlois, Charlois-West); framework Mon-Sat 09-23, Sun 12-23 confirmed. The source is a decision letter dated before the start dates, so it supports 'decided to extend', not that the extension happened. Title matches (hyphen differences only). Merge with 4/6.",
+   "corrected_text": "The college decided on 1 July 2025 to extend paid-parking hours on Sundays (12:00-23:00) in Carnisse and Tarwewijk from 1 September 2025 and in Oud-Charlois and the Charlois-West business area from 1 October 2025, in line with the framework of paid parking everywhere inside the ring Monday-Saturday 09:00-23:00 and Sunday 12:00-23:00.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2026 nr. 8842, 9 Jan 2026 (title matches): second amendment inserts Driemanssteeweg (sector 22 Charlois, zone 220) at EUR 2.24 per hour, Mon-Sat 09:00-23:00, Sun 12:00-23:00; enters into force 4 Feb 2026; the Toelichting says it concerns introduction of paid parking in sector 22 (Charloisse Poort/Charlois Zuidrand); recital cites coalition agreement 'Eén Stad' (phased paid parking inside the ring, hours to 23:00). A published legal instrument with a fixed in-force date, so 'introduced' is acceptable. Only one street row is inserted in the annex.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "NOS Nieuws, 10 June 2022 (title matches): coalition of VVD, D66, Leefbaar Rotterdam, Denk; narrow-street neighbourhoods made more car-light, more 30 km/h places, paid parking everywhere in the city, residents pay 20% less for first permit. Described as announced, which is right. Overlaps with item 3 (coalition-agreement origin); old (2022) and low value now.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "PDF raadsbrief M2306-295, B&W 20 June 2023: college adopted 'Aanpak VCP 2023-2030'. Coalition agreement says the VCP works towards making the inner city and some surrounding neighbourhoods as car-light as possible; Witte de Withstraat, Meent, Nieuwe Binnenweg, Zaagmolenstraat, Zwart Janstraat are listed as ambition streets with traffic effects still to be studied in the VCP. Correctly framed as ambition.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "NL Times, Friday 26 June 2026 (title matches, plus ' | NL Times' suffix). Coalition agreement 'Vaart maken' (PRO, D66, VVD, CDA, Volt): city centre largely car-free by 2040; at least five streets fully car-free by 2030 including Meent, Witte de Withstraat, Aert van Nesstraat; tourist tax and parking charges will rise, paid parking expanded to more areas; better public transport links from peripheral parking areas. Written as an aim, as required. Note the node URL (nltimes.nl/node/89819) returned 403 to a HEAD request but the GET redirects to the canonical article URL /2026/06/26/rotterdam-unveils-eu51bn-coalition-plan-focused-housing-mobility-growth and loads fine.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "PDF 'Verkeersbesluit Zero-Emissiezone - Nota van beantwoording', 1 May 2024 (opens via the exb-2024-17415.pdf file). It records the college's definitive decision to introduce the zone from 1 Jan 2025 for N1/N2/N3 inside the ring (Ring road and logistics estates along it excluded), with national transitional rules (class 5 vans until 31 Dec 2026, class 6 vans until 31 Dec 2027; lorry class 6 until 2030). Being a May 2024 document, it supports a decision and a planned start date, not that the zone actually started; the text should say 'decided'. The source does not mention the 2016 milieuzone as such (only 'huidige milieuzone voor vrachtauto's').",
+   "corrected_text": "In a traffic decision documented in a note of 1 May 2024, Rotterdam's college decided to introduce a zero-emission zone for vans and lorries (categories N1, N2, N3) from 1 January 2025 in the urban area inside the ring (the Ring road and logistics business parks along it are outside the zone); under national transitional rules, emission class 5 vans may enter until 31 December 2026 and class 6 vans until 31 December 2027.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Binnenlands Bestuur, 1 May 2016 (title matches): from Sunday, old polluting cars entering the milieuzone are fined EUR 90; zone in force since January with warnings only; petrol vehicles from before July 1992 and diesels before 2001 barred. 'Rotterdam's older milieuzone' is the draft's phrase, but the substance is right. Overlaps strongly with item 12 and is dated 2016; low current value.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Binnenlands Bestuur, 11 Nov 2016 (title matches): interim evaluation says soot emissions from traffic already 20% lower; zone set up 1 May; almost 15,000 motorists fined EUR 90 since May. Merge with 11 or drop (2016, low current value for a parking briefing).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "PDF 'Voortgangsrapportage 2024' (heading 'Voortgang P+R Strategie'; undated attachment to the 20 Dec 2024 letter): Tariefbesluit 2025 lowers maximum free parking with public transport use at P+R Kralingse Zoom and Slinge to 24 h per 1 Jan 2025; reason: about 5% improper use on weekdays so commuters sometimes cannot use the P+R. Source says 'wordt verlaagd' (decided in the tariff decision); independently the 2026 Tarievenbesluit (item 0 source) confirms 24 h at Slinge and Kralingse Zoom vs 72 h elsewhere, so 'in force' is safe. Same PDF is used by item 15; item 14 is the cover letter of the same material.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "PDF raadsbrief of 20 Dec 2024 (Onderwerp 'P+R strategie - uitrol abonnementsvormen'): for the P+R strategy 2024-2030 the programme of requirements for P+R Kralingse Zoom and for expansion of P+R Meijersplein is drawn up and an MRDH subsidy track is starting; interventions are also included in new-build plans at Meijersplein and Kralingse Zoom whose implementation agenda runs 2026-2030. Correctly a plan. Note the source says 'nieuwbouwplannen' (new-build) for the 2026-2030 agenda, so the briefing summary should say new-build plans rather than 'expansion' for Kralingse Zoom. Overlaps item 13 (same programme and same 2026-2030 sentence).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Same PDF as item 13 (page 5, section 2.3): in April 2024 the municipality and Ahoy drew up a proposition on event accessibility and P+R; space offered to event visitors as long as it does not displace commuters and weekend visitors; P+R sites have much spare capacity outside regular office hours. Same source URL as item 13 but a different fact, so not a duplicate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "RotterdamStyle, 24 April 2025 (body dateline 23 April; title 'Free public transport at Rotterdam P+Rs in May - RotterdamStyle.com'): free public transport at P+R Meijersplein and P+R Alexander on weekends 3-4, 10-11, 17-18, 24-25 May 2025; Nov-Dec 2024 campaign raised Meijersplein use by 18% vs previous year; 2,500 new spaces planned across Meijersplein and Kralingse Zoom. Phrasing 'said to be planned' is appropriate. Secondary (news site) source, bracketed outlet/date in source_title is editorial. The page's related-links sidebar lists newer headlines (12 Sept 2026 'Paid parking to reach more Rotterdam neighbourhoods', 30 June 2026 'Rotterdam P+R parking now free with shared bikes') which were not opened and could be follow-up leads.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "parking.net, Monday 8 July 2024 (title matches; republished Q-Park press release): Q-Park Rijnhaven under The View, 215 public spaces (+239 resident, 45 hotel), EUR 1 per quarter (15 min), max EUR 25 per day; 18th Rotterdam garage per headline; Q-Park already present with De Rotterdam, Boston & Seattle and Fenix. It is operator-supplied information, not independent. Does not concern the measured Q-Park Coolsingel garage.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "supported",
+   "note": "Interparking Markthal page: facts table shows 1040 total car spaces, 72 with charging point, max 11 kW, entry/exit 00:00-24:00 all days; tariff table (columns Time / Pcard+ / Price): 20 min EUR 1.53 / 1.80, 24 h EUR 29.75 / 35.00, so the draft's assignment is right. The page's marketing text says 'over 1,100 spaces', inconsistent with the 1040 figure in the facts table. Operator page, prices can change; 'lists' wording is appropriate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "partly",
+   "note": "Q-Park page (title is just 'Cheap parking Rotterdam'): 480 parking spaces, 5 disabled, 14 electric charging points; near Schouwburgplein and Rotterdam Centraal; pre-booked deal 'from EUR 25', 'Normally for EUR 30', '24 hours parking' (the 24 h is the length of the deal, not stated opening hours). No statement that the garage is open 24 hours was found, so 'is open 24 hours' is unsupported; the EUR 25 is a pre-booking deal, not a daily rate in general. Title should drop ' - Q-Park Weena'.",
+   "corrected_text": "Q-Park Weena, near Schouwburgplein and Rotterdam Centraal, is listed with 480 spaces including 14 electric charging points; the page offers a pre-booked deal of EUR 25 for 24 hours of parking, shown as 'normally EUR 30'.",
+   "corrected_title": "Cheap parking Rotterdam",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "partly",
+   "note": "RET page 'P+R terreinen': table lists 22 P+R sites (Alexander, Beverwaard, Capelsebrug, Hoek van Holland, Hoogvliet, Hoogvliet Tussenwater, Hoogvliet Zalmplaat, Kralingse Zoom, Maassluis Centrum, Maassluis West, Meijersplein, Melanchtonweg, Nesselande, Noorderhelling, Pernis, Schenkel, Slinge, Steendijkpolder, Vijfsluizen, Vlaardingen Oost/Centrum/West), not 23, and the page states no count. Rest is correct: 'op de meeste P+R terreinen ... gratis' with OV-chipkaart; Kralingse Zoom 1700 (4 oplaadpunten), Slinge 849 (44), Noorderhelling 500 (18); these are the largest by the table (Beverwaard 508, Meijersplein 500). The page carries no date; the table shows no low rate of EUR 1 or EUR 2.",
+   "corrected_text": "RET's P+R table lists 22 P+R sites in and around Rotterdam; parking is free on most if you continue by public transport with an OV-chipkaart, with Kralingse Zoom the largest (1,700 spaces, 4 charging points), Slinge second (849 spaces, 44 charging points) and Noorderhelling 500 spaces with 18 charging points.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "supported",
+   "note": "PDF raadsbrief M2504-3423, B&W 8 July 2025 (Onderwerp 'Laadstrategie en laadkader elektrisch vervoer'): college adopted charging strategy and placement policy 'Stroomversnelling', a 10-year plan from the 2022-2026 coalition agreement; expects doubling of public charge points by 2030 and quadrupling by 2035; grid congestion an important limiting factor. Forecast is written as expectation, good. Weak relevance to parking utilisation; candidate to drop.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "supported",
+   "note": "rotterdam.nl/fietsparkeren loads fine (not a 404; title 'Fietsparkeren | www.rotterdam.nl'; page is undated, so '2026' is only the check year). Lists 12 free municipal bicycle facilities (Binnenrotte in garage Meent, Blaak, Capelsebrug, Centraal Station, Coolsingel, Hoogstraat-Zijl, Hoogvliet, De Koopgoot, Kralingse Zoom, Lijnbaan, Meent, Slinge), including Central Station, Blaak, Meent, Coolsingel; OV-fiets at Meent and Centraal Station. Low value for a car-parking briefing; candidate to drop.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Paid on-street parking is being phased in across all neighbourhoods inside Rotterdam's ring under a framework of paid hours Monday-Saturday 09:00-23:00 and Sunday 12:00-23:00; sector 22 in Charlois was added from 4 February 2026, and the city decided to extend Sunday hours in several Charlois neighbourhoods in autumn 2025. The 2026 street tariff in the centre is EUR 6.42 per hour, while the municipal centre garages charge EUR 1.00 per 14 minutes (maximum EUR 41.00 per 24 hours). P+R sites are free with onward public transport, the free stay is capped at 24 hours at Kralingse Zoom and Slinge, and the city's progress report puts new-build plans at Meijersplein and Kralingse Zoom on a 2026-2030 agenda. The city decided on a zero-emission zone for vans and lorries from 1 January 2025, and the 2026 coalition agreement aims for a largely car-free centre by 2040 and higher parking charges (an aim, not yet a decision)."
+}
