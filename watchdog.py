@@ -27,7 +27,7 @@ from __future__ import annotations
 
 import sqlite3
 import traceback
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from scrapers.adapters.mobidata_bw_existing import (
     KarlsruheMobidataBwOccupancyAdapter,
@@ -92,19 +92,28 @@ def _classify(error: str | None, offered: int) -> str:
     return "source_frozen" if offered else "source_empty"
 
 
-def silent_garages(conn: sqlite3.Connection, source_id: str) -> int:
-    """How many of a source's garages have not reported within its threshold."""
+def silent_place_ids(conn: sqlite3.Connection, source_id: str) -> set[str]:
+    """The source's garages that reported recently but have now gone quiet."""
     import alerts
     from freshness import silent_after
 
     limit = _now() - silent_after(source_id)
-    rows = conn.execute(
-        "SELECT last_observed_ts FROM lots_meta WHERE source_id = ? AND last_observed_ts IS NOT NULL "
-        "AND place_id NOT IN (SELECT place_id FROM frozen_places)", (source_id,)).fetchall()
-    recent = alerts.ACTIVE_DAYS
-    cutoff = _now() - __import__("datetime").timedelta(days=recent)
-    seen = [alerts._parse(t) for (t,) in rows if t]
-    return sum(1 for t in seen if t < limit and t >= cutoff)
+    cutoff = _now() - timedelta(days=alerts.ACTIVE_DAYS)
+    return {pid for pid, ts in conn.execute(
+        "SELECT place_id, last_observed_ts FROM lots_meta WHERE source_id = ? AND last_observed_ts IS NOT NULL "
+        "AND place_id NOT IN (SELECT place_id FROM frozen_places)", (source_id,))
+        if cutoff <= alerts._parse(ts) < limit}
+
+
+def covered(cls) -> set[str]:
+    """The place_ids a fallback adapter can write."""
+    return {pid for ids in getattr(cls, "name_map", {}).values() for pid in ids}
+
+
+def repairable_silent(conn: sqlite3.Connection, source_id: str) -> set[str]:
+    """Silent garages of this source that one of its fallbacks could refresh."""
+    silent = silent_place_ids(conn, source_id)
+    return {pid for cls in FALLBACKS.get(source_id, ()) for pid in covered(cls) & silent}
 
 
 def _still_down(conn: sqlite3.Connection, source_id: str) -> bool:
@@ -127,18 +136,20 @@ def repair(conn: sqlite3.Connection, source_id: str) -> dict:
         return {"outcome": "no_adapter", "detail": "", "resolved": False, "written": 0}
 
     written, error, offered = _run(conn, adapter)
-    if written and not _still_down(conn, source_id):
+    if written and not _still_down(conn, source_id) and not repairable_silent(conn, source_id):
         out = {"outcome": "retry", "detail": f"{written} readings", "resolved": True, "written": written}
     else:
         outcome = _classify(error, offered) if not written else "source_frozen"
         detail = (error or "")[:200]
         if written:
-            detail = f"{written} readings came in, but most of its garages are still silent"
+            n = len(repairable_silent(conn, source_id))
+            detail = (f"{written} readings came in, but {n} of its garages are silent and covered by a fallback"
+                      if n else f"{written} readings came in, but most of its garages are still silent")
         out = {"outcome": outcome, "detail": detail, "resolved": False, "written": written}
         for cls in FALLBACKS.get(source_id, ()):
             fb = cls()
             fb_written, fb_error, _ = _run(conn, fb)
-            if fb_written and not (_still_down(conn, source_id) or silent_garages(conn, source_id)):
+            if fb_written and not _still_down(conn, source_id):
                 out = {"outcome": "fallback", "resolved": True, "written": written + fb_written,
                        "detail": f"{fb_written} readings from {fb.name} while {source_id} is down ({LABELS[outcome]})"}
                 break
@@ -188,7 +199,7 @@ def run_if_due(conn: sqlite3.Connection) -> None:
         # the down threshold while its frozen half would otherwise only be
         # refreshed each time it dipped below, once every six hours.
         down = set(alerts.down_sources(conn))
-        down |= {s for s in FALLBACKS if silent_garages(conn, s)}
+        down |= {s for s in FALLBACKS if repairable_silent(conn, s)}
         results = sweep(conn, sorted(down)) if down else {}
         fixed = [s for s, r in results.items() if r["resolved"]]
         storage.record_run(conn, "watchdog", "sweep", "success", records_written=len(fixed))
