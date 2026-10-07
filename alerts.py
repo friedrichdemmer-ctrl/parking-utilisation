@@ -116,18 +116,34 @@ def send(title: str, message: str, tags: list[str], priority: int = 3, dry_run: 
 
 
 def check_outages(conn: sqlite3.Connection, dry_run: bool = False) -> int:
+    import watchdog
+
     conn.execute(SCHEMA)
     now = datetime.now(timezone.utc)
     down = down_sources(conn, now)
     before = {r[0]: r for r in conn.execute("SELECT source_id, since, silent, active, alerted_at FROM alert_state")}
     new = sorted(set(down) - set(before))
     back = sorted(set(before) - set(down))
+    # Try to fix the new ones first and alert only on what is left, so a phone
+    # alert means "this needs you", not "something happened".
+    fixed = {}
+    if new and not dry_run:
+        for source_id, result in watchdog.sweep(conn, new).items():
+            if result["resolved"]:
+                fixed[source_id] = result
+        new = [s for s in new if s not in fixed]
+        if fixed:
+            down = down_sources(conn, datetime.now(timezone.utc))
+            back = sorted(set(before) - set(down))
     if new:
-        lines = [f"{s} ({_cities(conn, s)}): {down[s][0]} of {down[s][1]} garages silent, last reading {down[s][2]} UTC" for s in new]
+        lines = [f"{s} ({_cities(conn, s)}): {down[s][0]} of {down[s][1]} garages silent, last reading {down[s][2]} UTC"
+                 for s in new if s in down]
         send(f"Parking feed down: {len(new)} source{'s' if len(new) > 1 else ''}", "\n".join(lines), ["warning"], 4, dry_run)
     if back:
         lines = [f"{s} ({_cities(conn, s)}) is reporting again" for s in back]
         send(f"Parking feed back: {len(back)} source{'s' if len(back) > 1 else ''}", "\n".join(lines), ["white_check_mark"], 3, dry_run)
+    if fixed:
+        print(f"[alerts] repaired without alerting: {', '.join(sorted(fixed))}")
     if not dry_run:
         with conn:
             conn.executemany("DELETE FROM alert_state WHERE source_id = ?", [(s,) for s in back])
@@ -155,6 +171,11 @@ def digest(conn: sqlite3.Connection, dry_run: bool = False) -> None:
         f"Garages flagged: {status.get('stopped', 0)} stopped, {status.get('frozen', 0)} frozen "
         f"({new_frozen} new this week), {status.get('capacity', 0)} capacity, {status.get('oscillating', 0)} oscillating.",
     ]
+    repaired = conn.execute(
+        "SELECT kind, COUNT(*) FROM scraper_runs WHERE adapter = 'watchdog' AND status = 'success' AND run_at >= ? "
+        "GROUP BY kind ORDER BY 2 DESC", (week_ago,)).fetchall()
+    if repaired:
+        lines.append("Repaired without alerting: " + ", ".join(f"{s} ({n}x)" for s, n in repaired) + ".")
     if errors:
         lines.append("Most errors this week: " + ", ".join(f"{a} ({n})" for a, n in errors) + ".")
     lines.append(f"Reports: {APP_URL}/report and {APP_URL}/trends")
