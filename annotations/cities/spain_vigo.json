@@ -1,0 +1,249 @@
+{
+ "country": "Spain",
+ "city": "Vigo",
+ "researched": "2026-10-07",
+ "verified": "2026-10-07",
+ "summary": "Vigo's Low Emission Zone ordinance (Centro, Praza de Portugal, Bouzas and Calvario) was definitively approved on 27 July 2026 with fines of up to 200 euros, informative notices only in the first year according to Merca2, and entry into force expected about two months after approval. Street parking in the zona azul costs 0.60 euros for one hour and 1.45 euros for the two-hour maximum, while mechanical-ramp works on Rua Pintor Colmeiro will remove about 20 of its roughly 30 blue-zone spaces. New off-street capacity includes a 302-space car park licensed at Barrio do Cura and a planned underground car park at the former ETEA site, and the Concello agreed on 5 October 2026 to buy plots at Alcabre for free beach parking. Demand peaks come from the Christmas lights (82% hotel occupancy in December 2024; maximum-restriction mobility plan from 28 November 2025) and cruise calls (119 scheduled for 2026), and a committee has proposed keeping Vitrasa on the city bus contract to 2036.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2026-07",
+   "text": "On 27 July 2026 the Vigo plenary definitively approved the ordinance creating Low Emission Zones (ZBE) in four areas: Centro, Praza de Portugal, Bouzas and Calvario. It passed with PSOE votes only (PP and BNG against). Restrictions are phased: vehicles without an environmental label first, then label B, then label C; fines of up to 200 euros; entry into force expected within about two months of publication and processing of access authorisations. Exemptions include residents and business owners in the zones, public services, taxis and buses.",
+   "source_title": "Vigo da luz verde a sus Zonas de Bajas Emisiones: cuatro áreas, restricciones progresivas y multas de hasta 200 euros",
+   "source_url": "https://www.elespanol.com/treintayseis/vigo/20260727/vigo-da-luz-verde-zonas-bajas-emisiones-areas-restricciones-progresivas-multas-euros/1003744335353_0.html",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-07",
+   "text": "Merca2 reports the approved Vigo ZBE covers 67.18 hectares (about 0.6% of the municipal area) and affects about 62,100 vehicles registered in Vigo with no environmental label or label B or C. The fine is 200 euros; during the first year only informative notices are sent, with fines applying from year two.",
+   "source_title": "Vigo aprueba su Zona de Bajas Emisiones: multas de 200 euros y restricciones para 62.100 coches sin etiqueta, B y C",
+   "source_url": "https://www.merca2.es/2026/07/29/zona-bajas-emisiones-vigo-multas-200-2426610/",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-11",
+   "text": "Vigo's regulated on-street parking (zona azul/XER) runs Monday to Friday 9:00-14:00 and 16:00-20:00, free at weekends and holidays. Non-residents pay from 0.30 euros (minimum 33 minutes) up to 1.45 euros for the 120-minute maximum; residents with the XER card have no time limit and pay 0.35 euros per two hours; the resident card costs 98 euros a year (34 euros per quarter).",
+   "source_title": "Zona Azul de Vigo: horario, precio, multas...",
+   "source_url": "https://www.diariodepontevedra.es/articulo/vigo/zona-azul-vigo-horario-precio-multas/202311101159141278577.html",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-11",
+   "text": "A November 2025 guide to Christmas parking in Vigo gives zona azul prices of 0.60 euros for one hour and 1.45 euros for two hours (the maximum stay), payable 9-14h and 16-20h on weekdays and free at weekends and holidays. It says most central car parks charge more than 2 euros for the first hour (up to 2.88 euros at Nautico Cies), with some cheaper options such as Centro Comercial A Laxe (free for 30 minutes, then 1.29 euros) and Areal (Parking Vigo, Areal 142) at 1.98 euros per hour, and notes that prices in most paid car parks have risen over the previous 12 months.",
+   "source_title": "Dónde aparcar en Navidad en Vigo: parkings, zona azul y gratuito",
+   "source_url": "https://www.elespanol.com/treintayseis/vigo/20251120/aparcar-navidad-vigo-parkings-zona-azul-gratuito/1003744020746_0.html",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-11",
+   "text": "The Concello de Vigo converted an informal free parking area in front of the old railway station, at the access to the Vialia car park and taxi zone, into a 'kiss and go' passenger drop-off zone with a 15-minute maximum stop. The Concello acted because users had been using the space to avoid parking fees and blue-zone time limits.",
+   "source_title": "El Concello de Vigo pone fin a una zona de aparcamiento gratis en pleno centro",
+   "source_url": "https://metropolitano.gal/enfoque/el-concello-de-vigo-pone-fin-a-una-zona-de-aparcamiento-gratis-en-pleno-centro",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-08",
+   "text": "Installation of mechanical ramps on Rúa Pintor Colmeiro (Praza da Independencia to Hispanidad) will permanently remove about 20 of the street's roughly 30 surface blue-zone spaces (up to 65%), cutting daytime rotation parking near two health centres, two hospitals and a nursery school. The works are co-financed by the Pontevedra provincial government.",
+   "source_title": "Las obras dejan sin todo su aparcamiento a una calle de Vigo y la mitad se elimina para siempre",
+   "source_url": "https://metropolitano.gal/enfoque/las-obras-dejan-sin-todo-su-aparcamiento-a-una-calle-de-vigo-y-la-mitad-se-elimina-para-siempre/",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-02",
+   "text": "The Concello applied for European FEDER funds for the 'Plan de Actuación Integrado Vigo Vertical Travesas-Castrelos' (estimated cost about 20 million euros, 12 million requested), including mechanical ramps between Praza América and Rúa Tarragona, a bike lane from Praza América to Castrelos and nearly 4 million euros of electric buses. This was a funding application; the article says the EU decision was due on 27 August.",
+   "source_title": "Vigo busca fondos para revolucionar Gran Vía, Travesas y Castrelos: rampas, carril bici y más",
+   "source_url": "https://metropolitano.gal/enfoque/vigo-busca-fondos-para-revolucionar-gran-via-travesas-y-castrelos-rampas-carril-bici-y-mas",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-04",
+   "text": "Vigo presented the new urban bus contract: nine years from 2026 (shorter than previous contracts), estimated spend about 468 million euros, with the bidder required to invest 69 million euros. Vitrasa, which has operated the service for decades, was to receive a further extension only until January 2026.",
+   "source_title": "El nuevo contrato del bus urbano de Vigo será por 9 años y desde 2026",
+   "source_url": "https://www.atlantico.net/vigo/nuevo-contrato-bus-urbano-vigo_1_20250407-3481229.html",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-07",
+   "text": "On about 20 July 2026 the contracting committee proposed awarding the new Vigo urban bus contract to Vitrasa (maximum 468.6 million euros over 10 years, to 2036), pending final administrative steps. It replaces the concession model with a service-provision contract, with progressive incorporation of 55 new buses and technology upgrades, keeping the existing route structure.",
+   "source_title": "Vitrasa, a un paso de seguir al frente del autobús urbano de la ciudad hasta 2036",
+   "source_url": "https://www.vigoalminuto.com/2026/07/20/vitrasa-a-un-paso-de-seguir-al-frente-del-autobus-urbano-de-la-ciudad-hasta-2036/",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-01",
+   "text": "Vigo's Concello reported average hotel occupancy of 82% in December 2024, almost 11 points above December 2023, which Mayor Abel Caballero called the best December for tourism and hospitality in the city's history. About 40% of hotel guests were international, 62% of those from Portugal; the municipal data were still to be confirmed by the INE.",
+   "source_title": "\"Nunca pasó nada igual\", se congratula Caballero, tras un diciembre de récord en la Navidad de Vigo",
+   "source_url": "https://metropolitano.gal/enfoque/nunca-paso-nada-igual-se-congratula-caballero-tras-un-diciembre-de-record-en-la-navidad-de-vigo",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-11",
+   "text": "For Christmas 2025 Vigo activated its highest mobility-restriction level from 10:00 on 28 November to 21:30 on 1 December (also the Constitution Day weekend and 26 December). Intercity coaches get a drop-off/pick-up zone on calle Areal with a 15-minute limit and must park at the Samil beach car parks; Rúa Cervantes becomes one-way descending, and visitors are directed to enter via AP-9 exits.",
+   "source_title": "Navidad 2025: Vigo activa este fin de semana su plan de movilidad para los días de mayor afluencia",
+   "source_url": "https://www.elespanol.com/treintayseis/vigo/20251127/navidad-vigo-activa-fin-semana-plan-movilidad-dias-mayor-afluencia/1003744033041_0.html",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-11",
+   "text": "A November 2025 guide to Christmas parking says the Concello had indicated that no shuttle services to the city centre would be run because there is not enough demand, so visitors depend on public transport. It suggests free parking at Monte O Castro (walkable to the centre), in the Coia neighbourhood (urban bus or taxi to the centre) and at Samil beach, described as one of the usual deterrent car parks that requires public transport, sometimes with transfers.",
+   "source_title": "Dónde aparcar en Navidad en Vigo: parkings, zona azul y gratuito",
+   "source_url": "https://www.elespanol.com/treintayseis/vigo/20251120/aparcar-navidad-vigo-parkings-zona-azul-gratuito/1003744020746_0.html",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-04",
+   "text": "The Port of Vigo scheduled 17 cruise calls in April 2026 and expects 119 calls over the full year, including six calls in under a week in mid/late April (a triple call on 21 April with Le Bellot, Ventura and Britannia, and first calls of Norwegian Sky and Liberty of the Seas).",
+   "source_title": "El Puerto de Vigo se prepara para recibir seis cruceros en menos de siete días",
+   "source_url": "https://www.elespanol.com/treintayseis/economia/20260415/puerto-vigo-prepara-recibir-cruceros-dias/1003744207736_0.html",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2023-02",
+   "text": "Empark, concessionaire of the Praza do Portugal car park under a public concession awarded in 2017 (with a full building renovation), was set to raise 2023 tariffs by 3.9% under the concession's price formula (wages, energy, cement, copper). The monthly resident pass rose from 98.03 to 101.73 euros and the concession fee payable to the Concello rose to 126,464 euros a year.",
+   "source_title": "El parking de Praza do Portugal subirá sus tarifas este 2023, aunque por debajo de la inflación",
+   "source_url": "https://metropolitano.gal/enfoque/el-parking-de-praza-do-portugal-subira-sus-tarifas-este-2023-aunque-por-debajo-de-la-inflacion",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026",
+   "text": "Telpark (Empark group) lists the Plaza de Portugal car park, Vigo, with 183 car spaces and 10 motorbike spaces on two levels, open 24 hours, with electric charging, express entry by plate recognition, maximum height 185 cm, first hour 1.80 euros and daily maximum 19.90 euros (page undated; seen October 2026).",
+   "source_title": "Plaza de Portugal car park",
+   "source_url": "https://www.telpark.com/en/cities/vigo/plaza-de-portugal-car-park",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-03",
+   "text": "The Tribunal Superior de Xustiza de Galicia annulled the Concello's 2007 award of lot 1 of underground car-park concessions (Areal, Pintor Colmeiro and Policarpo Sanz, awarded to UTE Eloymar-Tranvias Electricos) because an expert report found that most spaces were smaller than the tender required (66.92% at Pintor Colmeiro, 67.55% at Policarpo Sanz, 70.32% at Areal). The court declared the winning bidder excluded but did not roll the procedure back, leaving the Concello to decide how to provide the service; the ruling could still be appealed.",
+   "source_title": "Anulan la adjudicación de varios aparcamientos en Vigo por incumplir el tamaño de las plazas",
+   "source_url": "https://metropolitano.gal/enfoque/anulan-la-adjudicacion-de-varios-aparcamientos-en-vigo-por-incumplir-el-tamano-de-las-plazas",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2022-06",
+   "text": "The Zona Franca de Vigo said the robotised A Laxe car park would be converted to a conventional car park with 184 spaces on two levels (works from 1 September 2022 for about six months, 1.6 million euros), which allowed the concession to be extended from 2025 to 2040. Zona Franca and the Port Authority were also discussing linking it with the Praza da Estrela car park for 400-500 additional spaces.",
+   "source_title": "Las obras del aparcamiento robotizado de A Laxe empezarán en septiembre y acabarán en primavera",
+   "source_url": "https://vigoe.es/?p=400912",
+   "confidence": "high",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2023-10",
+   "text": "The Praza da Estrela car park (452 spaces, operated by the Consorcio de la Zona Franca de Vigo) added 12 electric-vehicle charging points: eleven 22 kW AC and one 30 kW DC rapid charger, with dynamic power management; users start charging with their parking ticket and pay at the cash machine or payment office.",
+   "source_title": "El aparcamiento de la Praza da Estrela suma doce plazas para recargar vehículos eléctricos",
+   "source_url": "https://vigoe.es/vigo/local/el-aparcamiento-de-la-praza-da-estrela-incorpora-doce-plazas-para-recargar-vehiculos-electricos",
+   "confidence": "high",
+   "id": 17,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2021-05",
+   "text": "Vialia Vigo (railway-station shopping centre, opened March 2021 under a 50-year concession held by Ceetrus) announced about 1,600 car-park spaces, an hourly tariff of 0.48 euros from minute 16 then 0.030 euros per minute with a 25 euro daily maximum (first 15 minutes free), and monthly passes of 90 euros (24h), 70 (daytime) and 40 (night).",
+   "source_title": "Vialia Vigo anuncia sus tarifas por hora y precios de abonos del parking",
+   "source_url": "https://vigoe.es/vigo/local/vialia-vigo-anuncia-tarifas-por-hora-y-precios-de-abonos-del-parking",
+   "confidence": "high",
+   "id": 18,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-03",
+   "text": "Vigo's Urbanismo department approved licences for a 302-space public-use car park (four levels, budget about 2.4 million euros) within the Barrio do Cura residential development in central Vigo; 114 of the spaces sit on private parcels with public-use rights.",
+   "source_title": "Vigo completa el avance de Barrio do Cura: Urbanismo da luz verde a las obras de 302 plazas de parking",
+   "source_url": "https://www.vigoe.es/?p=594831",
+   "confidence": "high",
+   "id": 19,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-02",
+   "text": "Mayor Abel Caballero and the Zona Franca delegate signed an agreement (also involving the Xunta, which contributes 10 million euros) for urbanising area PS-1 of the former ETEA site, including a planned underground car park (number of spaces not given); the delegate said works would start in about a year and last about 18 months.",
+   "source_title": "\"Desbloqueada\" una demanda histórica en Vigo, hoja de ruta de las nuevas obras en la ETEA",
+   "source_url": "https://metropolitano.gal/enfoque/desbloqueada-una-demanda-historica-en-vigo-hoja-de-ruta-y-primeros-detalles-del-aparcamiento/",
+   "confidence": "medium",
+   "id": 20,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10-05",
+   "text": "On 5 October 2026 Mayor Abel Caballero and the State delegate to Zona Franca, David Regades, signed an agreement for the Concello to buy two plots (about 30,000 m2, 80,809 euros paid to the Consorcio de la Zona Franca) at Camino Borralleiro, Alcabre, next to O Cocho beach, which already serve as improvised beach parking; the Concello plans to turn them into free parking, with no completion date given.",
+   "source_title": "El Concello pondrá un aparcamiento junto a la playa de Alcabre",
+   "source_url": "https://www.atlantico.net/vigo/concello-pondra-aparcamiento-playa-alcabre_1_20261006-4440354.html",
+   "confidence": "medium",
+   "id": 21,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-02",
+   "text": "Only 92 private garage spaces were available to rent in central Vigo in February 2025, at an average of 91 euros a month (30 euros for a motorbike in Balaídos to 180 euros for a car on García Olloqui). The article describes Vigo as having Spain's highest vehicle-to-resident ratio and notes pedestrian-oriented urban redesigns reduce street parking.",
+   "source_title": "Las plazas de garaje en el centro de Vigo ya están en 91 euros y no hay ni un centenar disponible",
+   "source_url": "https://metropolitano.gal/enfoque/las-plazas-de-garaje-en-el-centro-de-vigo-ya-estan-en-91-euros-y-no-hay-ni-un-centenar-disponible",
+   "confidence": "high",
+   "id": 22,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Official Concello de Vigo (vigo.org / hoxe.vigo.org) pages were unreachable (connection refused), so no primary municipal source for ORA/XER tariffs or ZBE text was opened.",
+  "Current XER (ORA) concessionaire, contract term/expiry and any tariff update after 2023 could not be sourced from an opened page.",
+  "Status of underground car-park concessions (aparcamientos de rotación/residentes) and any recent tenders; no BOP/DOG notices opened.",
+  "No opened source for Saba, Indigo/Setex, Aparcamientos Vigo or Emvisa operating in Vigo; capacities and tariffs for Urzáiz, Calvario, Praza América, Independencia, Náutico Cíes and Policarpo Sanz after 2023.",
+  "Camiños Escolares, 'Vigo Peatonal' and the Plan de Movilidad Urbana Sostenible: no dated source opened.",
+  "Park-and-ride and occupancy data beyond Christmas anecdotes; actual ZBE entry-into-force date (only 'about two months' after approval).",
+  "Christmas 2025 outcome (visitors, occupancy) not found; December 2024 figures used instead. Vialia/A Laxe/Gran Vía current tariffs not opened."
+ ],
+ "dropped": {}
+}

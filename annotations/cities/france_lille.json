@@ -1,0 +1,260 @@
+{
+ "country": "France",
+ "city": "Lille",
+ "researched": "2026-10-07",
+ "verified": "2026-10-07",
+ "summary": "Lille has run its own on-street parking since the 2018 national reform decriminalised paid street parking; on 30 September 2022 the council voted to extend paid parking to almost the whole city by 2025, and from April 2023 on-street tariffs rose in all zones and the post-parking charge went from 17 to 25-35 euros. The metropolitan Plan de Mobilité (adopted 20 October 2023) and the PLU3 (June 2024) cap or lower parking norms in new buildings, and the metropolitan low-emission zone started on 1 January 2025 but bans only unclassified vehicles; the Conseil constitutionnel struck down the national abolition of such zones on procedural grounds on 21 May 2026. The metropolis counts about 19,600 city-centre and 5,500 park-and-ride spaces in access-controlled car parks, and an ADULM comparison found Lille car parks about 1.5 to 2 times dearer than Roubaix and Tourcoing. The Grand'Place became fully pedestrian on 12 January 2026 with its roughly 300-space underground car park kept open, and for the Braderie of September 2026 city-centre car parks were closed and 13 free park-and-ride sites offered.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2018",
+   "text": "France's 2018 on-street parking reform (MAPTAM law, in force 2018) decriminalised paid street parking: users pay a fee for use of the public domain and, if they do not pay properly, a post-parking charge (FPS) set by each local authority, replacing the former national fine of €17. In Lille the city runs on-street parking directly (en régie), unlike Roubaix, which delegated it to a SEM.",
+   "source_title": "Cahier du stationnement métropolitain 2024 (ADULM / Métropole Européenne de Lille, November 2024)",
+   "source_url": "https://www.adu-lille-metropole.org/wp-content/uploads/2024/11/Cahier-du-stationnement_BD-1.pdf",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-09",
+   "text": "On 30 September 2022 Lille's municipal council adopted a plan to extend paid on-street parking progressively, up to 2025, to almost the whole city. Moulins was already paid from February 2024 and Fives and Saint-Maurice-Pellevoisin were planned for end 2024; only Lille-Sud and Faubourg de Béthune kept free street parking at the time of the report. Stated aims were decluttering public space, tackling long-stay 'ventouse' cars and improving turnover.",
+   "source_title": "Cahier du stationnement métropolitain 2024 (ADULM / Métropole Européenne de Lille, November 2024)",
+   "source_url": "https://www.adu-lille-metropole.org/wp-content/uploads/2024/11/Cahier-du-stationnement_BD-1.pdf",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2023-04",
+   "text": "A new Lille on-street parking tariff grid took effect on 3 April 2023, with higher prices in all zones. The FPS (post-parking charge) rose from €17 to €35 in the city centre and €25 in other zones. The city said the aim was to reduce vehicles in town and ensure better rotation, targeting 'ventouse' cars while encouraging short stays.",
+   "source_title": "Stationnement : se garer coûte plus cher désormais à Lille depuis début avril - ICI",
+   "source_url": "https://www.ici.fr/infos/societe/stationnements-se-garer-coute-plus-cher-desormais-plus-cher-a-lille-depuis-debut-avril-2355999",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-06",
+   "text": "Paid on-street parking was extended to two more Lille districts, Vauban-Esquermes and Wazemmes, from 1 June 2023. Resident subscriptions were offered at three income-based levels (€10, €15 and the full €25 rate, per the city's grid).",
+   "source_title": "[Stationnement à Lille] Les nouveaux tarifs et les nouveaux quartiers payants au 1er juin 2023 - Zoom Sur Lille",
+   "source_url": "https://www.zoomsurlille.fr/actualites/stationnement-a-lille-les-nouveaux-tarifs-et-les-nouveaux-quartiers-payants-au-1er-juin-2023",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-11",
+   "text": "Lille's on-street parking is split into zones: orange (hypercentre, first 30 minutes free, no resident parking), yellow (wider centre incl. Vieux-Lille, Saint-Sauveur, rue Solférino), green (newly paid residential districts and Bois-Blancs, free on Saturday) and azur (shopping streets within the green zone, 30 minutes free). Resident subscriptions moved from a single €25 per month to three income-based levels (€10, €15, €25), and the FPS rose from €17 to €25 (azur/green) or €35 (orange/yellow).",
+   "source_title": "Cahier du stationnement métropolitain 2024 (ADULM / Métropole Européenne de Lille, November 2024)",
+   "source_url": "https://www.adu-lille-metropole.org/wp-content/uploads/2024/11/Cahier-du-stationnement_BD-1.pdf",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-10",
+   "text": "The Métropole Européenne de Lille adopted its Plan de Mobilité (PDM), horizon 2035, at the metropolitan council of 20 October 2023. It replaces the previous urban travel plan and is based on three axes (infrastructure, services, behaviours) with 52 actions.",
+   "source_title": "Plan de mobilité",
+   "source_url": "https://lillemetropole.fr/plan-de-mobilite",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-06",
+   "text": "The PDM treats parking as a central tool and recommends to 'maîtriser, optimiser et réglementer' supply: ceilings on parking in new offices, lower minimum norms for housing in well-served areas, regulation extended around high-quality public transport stops, and more relay parking upstream of dense areas. The PLU3, approved June 2024, translates this into parking norms, including a dedicated hyper-central Lille sector (S0.1).",
+   "source_title": "Cahier du stationnement métropolitain 2024 (ADULM / Métropole Européenne de Lille, November 2024)",
+   "source_url": "https://www.adu-lille-metropole.org/wp-content/uploads/2024/11/Cahier-du-stationnement_BD-1.pdf",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-01",
+   "text": "The MEL low-emission zone (ZFE-m) was set to start on 1 January 2025 across all 95 communes, for three years (to 31 December 2027). Only vehicles classed 'non classés' under Crit'Air (roughly pre-1997 registrations) are banned 24/7; the Crit'Air sticker must be displayed to circulate in the zone.",
+   "source_title": "Zone à faibles émissions mobilité de la Métropole Européenne de Lille : dossier de participation du public et projet d'arrêté (untitled PDF, lillemetropole.fr, Dossier_ZFE_MEL.pdf, December 2024)",
+   "source_url": "https://www.lillemetropole.fr/sites/default/files/2024-12/Dossier_ZFE_MEL.pdf",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-10",
+   "text": "MEL chose a minimal ZFE scenario in October 2024: only 'non classés' vehicles (about 6,290 across the 95 communes) were targeted. Of 95 communes consulted, 38 opposed a stricter scenario, 33 supported it, 9 abstained and 15 did not respond.",
+   "source_title": "Pollution : la métropole lilloise opte pour une ZFE… minimaliste",
+   "source_url": "https://www.mediacites.fr/decryptage/lille/2024/10/04/pollution-la-metropole-lilloise-opte-pour-une-zfe-minimaliste/",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-04",
+   "text": "On 15 April 2026 Parliament adopted the 'simplification of economic life' bill, which included abolishing low-emission zones; the MEL zone, in force since 1 January 2025, was the only ZFE in Hauts-de-France.",
+   "source_title": "ZFE : un dispositif qui a eu du mal à se mettre en place dans le Nord et le Pas-de-Calais - ICI",
+   "source_url": "https://www.ici.fr/hauts-de-france/nord-59/lille/zfe-un-dispositif-qui-a-eu-du-mal-a-se-mettre-en-place-dans-le-nord-et-le-pas-de-calais-2457202",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-05",
+   "text": "On 21 May 2026 the Conseil constitutionnel struck down article 37 of the 'simplification of economic life' law, which would have abolished the legal basis for low-emission zones, as a legislative rider (cavalier legislatif) unrelated to the bill, on procedural grounds and without ruling on the content; the legal framework for ZFEs therefore remained in force.",
+   "source_title": "Suppression de la ZFE : pourquoi le Conseil constitutionnel a retoqué la mesure ?",
+   "source_url": "https://demarchesadministratives.fr/actualites/suppression-de-la-zfe-pourquoi-le-conseil-constitutionnel-a-retoque-la-mesure",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01",
+   "text": "Lille's Grand'Place (place du Général de Gaulle) became fully pedestrian on 12 January 2026, with 500 bollards removed from the vehicle lane. The underground car park of about 300 spaces stays open via rue Nationale; the city notes about ten car parks within a 10-minute walk. Deliveries are allowed 7:00 to 11:00.",
+   "source_title": "“C’est le sens de l’histoire” : la Grand’Place, cœur battant de Lille, devient 100% piétonne",
+   "source_url": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/lille/c-est-le-sens-de-l-histoire-la-grand-place-c-ur-battant-de-lille-devient-100-pietonne-3280532.html",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-09",
+   "text": "Braderie de Lille, 5-6 September 2026: more than two million visitors were expected (a later headline on the same page reports 2.5 million attended). Central access was banned from Friday 4 September 7 p.m. to Monday 7 September 1 a.m., city-centre car parks closed from 4 September 7 p.m. to 7 September 6 a.m., 13 park-and-ride sites (42 to 2,041 spaces) were offered, and metro and tram ran without interruption over the two days.",
+   "source_title": "CARTE - Braderie de Lille 2026 : accès, circulation et stationnement, tout ce qu'il faut savoir pour venir chiner - ICI",
+   "source_url": "https://www.ici.fr/hauts-de-france/nord-59/lille/carte-braderie-de-lille-2026-acces-circulation-et-stationnement-tout-ce-qu-il-faut-savoir-pour-venir-chiner-1755521?at_locale=44",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-11",
+   "text": "Between the 1998 and 2016 household travel surveys the MEL car fleet grew from 457,000 to 530,000 cars (+16%), and in 2016 cars accounted for 2.4 million of 4.2 million daily trips (57.5%). The report says that where parking is restricted or priced the car share falls by nearly 20 points in well-served areas with tram or metro.",
+   "source_title": "Cahier du stationnement métropolitain 2024 (ADULM / Métropole Européenne de Lille, November 2024)",
+   "source_url": "https://www.adu-lille-metropole.org/wp-content/uploads/2024/11/Cahier-du-stationnement_BD-1.pdf",
+   "confidence": "high",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-11",
+   "text": "MEL counted more than one million parking spaces: about 330,000 public and 700,000 private. It identified 47 access-controlled car parks open to the public (city-centre car parks and park-and-ride); the city-centre car parks total 19,561 spaces and the P+R 5,526 (including 300 temporary spaces during works at Saint-Philibert).",
+   "source_title": "Cahier du stationnement métropolitain 2024 (ADULM / Métropole Européenne de Lille, November 2024)",
+   "source_url": "https://www.adu-lille-metropole.org/wp-content/uploads/2024/11/Cahier-du-stationnement_BD-1.pdf",
+   "confidence": "high",
+   "id": 17,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-11",
+   "text": "Access-controlled public car parks are mostly owned by MEL, but some are owned by the city of Lille (Grand Place and Vieux-Lille); none is run directly by MEL or the cities. They are operated under public-service concessions by private operators (Indigo, Effia) or the semi-public SEM Ville Renouvelée (named for Roubaix, and for Tourcoing under development concessions), while park-and-ride sites are run by Ilévia. Elsewhere the report names Indigo, Effia, SEM Ville Renouvelée and SORELI as the main concession players in the Lille metropolis, and says the privately owned Tanneurs shopping-centre car park is run by Indigo.",
+   "source_title": "Cahier du stationnement métropolitain 2024 (ADULM / Métropole Européenne de Lille, November 2024)",
+   "source_url": "https://www.adu-lille-metropole.org/wp-content/uploads/2024/11/Cahier-du-stationnement_BD-1.pdf",
+   "confidence": "medium",
+   "id": 18,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-11",
+   "text": "A 2023 ADULM comparison found Lille car parks cost on average 1.5 times more than Roubaix/Tourcoing from the first half hour and 2 times more from one hour, with an average monthly subscription of €134 in Lille against €40 (Roubaix) and €44 (Tourcoing). Effia-concession car parks (République, Opéra, Nouveau Siècle) were the cheapest of the public ones; Indigo's Euralille Gare A and Gare B were the dearest for long stays; the Tanneurs car park was the dearest up to the 10th hour.",
+   "source_title": "Cahier du stationnement métropolitain 2024 (ADULM / Métropole Européenne de Lille, November 2024)",
+   "source_url": "https://www.adu-lille-metropole.org/wp-content/uploads/2024/11/Cahier-du-stationnement_BD-1.pdf",
+   "confidence": "high",
+   "id": 19,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-10",
+   "text": "Lille opposition group Faire Respirer (speech tagged Violette Spillebout, council of 10 October 2025) claimed that the city's concession contracts with Indigo for the Grand'Place and Vieux-Lille car parks run for 50 years, to 2049 and 2054, with the city receiving 7% of turnover; citing Indigo's 2024 report, it said the two car parks together took EUR 3.02 million, of which EUR 218,000 went to the city, with 436,000 visitors and a EUR 2.80 hourly rate, the highest in Lille. This is an opposition group's claim, not an official figure.",
+   "source_title": "Parking Grand'Place - FAIRE RESPIRER",
+   "source_url": "https://fairerespirer.fr/2025/10/parking-grandplace/",
+   "confidence": "medium",
+   "id": 20,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Indigo Neo's page for Euralille Centre Commercial (open 24/7, automatic plate recognition) showed indicative rates for an entry on 7 October 2026 of €1.70 for 30 minutes and €2.40 for 1 hour; the page states only tariffs posted at the entrance apply.",
+   "source_title": "Parking Euralille Centre Commercial à Lille - INDIGO Neo",
+   "source_url": "https://www.indigoneo.fr/fr/parkings/15604/parking-euralille-centre-commercial",
+   "confidence": "medium",
+   "id": 21,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Indigo Neo's page for the Les Tanneurs car park (70 rue du Molinel, open 24/7, charging point, plate recognition) showed indicative hourly rates of €1.60 for 30 minutes and €3.20 for 1 hour for an entry on 7 October 2026.",
+   "source_title": "Parking Les Tanneurs à Lille - INDIGO Neo",
+   "source_url": "https://www.indigoneo.fr/fr/parkings/788/parking-les-tanneurs",
+   "confidence": "medium",
+   "id": 22,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Effia's page for Parking Lille Nouveau Siècle (19 place Mendès France, open 24/7) listed rates of €2.10 for 1 hour, €5.70 for 3 hours and €17.00 for 24 hours, a €3.20 evening rate (7 p.m.-1 a.m.) and a €108 monthly subscription price when opened on 7 October 2026, although the page also displayed the message that no more subscriptions were available for this car park.",
+   "source_title": "Parking Lille Nouveau Siècle - EFFIA",
+   "source_url": "https://www.effia.com/en/parking/parking-lille-nouveau-siecle-effia",
+   "confidence": "medium",
+   "id": 23,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-06",
+   "text": "The Saint-Philibert park-and-ride in Lomme (near Saint-Philibert metro station) is being rebuilt and extended from 335 to about 570 spaces, in a ten-half-level building with photovoltaic panels, works having started in September 2023, with commissioning announced for 6 September. Entry is free but exit requires validation of an ilévia or TER same-day ticket. The page is dated 4 June 2025.",
+   "source_title": "Lomme : le parking P+R Saint-Philibert double sa capacité",
+   "source_url": "https://www.lillemetropole.fr/actualites/lomme-le-parking-pr-saint-philibert-double-sa-capacite",
+   "confidence": "high",
+   "id": 24,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2024-07",
+   "text": "MEL's page says its Iléwatt public EV-charging service has been rolling out since July 2024 and is to reach nearly 900 charging points at nearly 300 locations. Separately, 12 park-and-ride sites have charging points (about 175, to rise to about 280), and 25 public car parks in Lille, Roubaix and Tourcoing have operator-set prices; as of 1 July 2025: Effia €0.40/kWh plus a €1.50 access fee, Indigo Neo €0.29/kWh with subscription and €0.45/kWh occasional, SEM Ville Renouvelée €0.20/kWh.",
+   "source_title": "Métropole Européenne de Lille - Grands projets - Bornes de recharge électrique",
+   "source_url": "https://www.lillemetropole.fr/bornes-de-recharge-electrique",
+   "confidence": "medium",
+   "id": 25,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2021-06",
+   "text": "In June 2021 MEL's council adopted a strategy to go from 400 public charging points to more than 4,000 within four years, to be delivered through a service concession; by 2025 it would equip 800 spaces in city-centre car parks and 300 in park-and-ride sites (against about 50 in total at the time).",
+   "source_title": "La Métropole Européenne de Lille équipe massivement le territoire de bornes de recharge pour accompagner le développement rapide de l'électromobilité",
+   "source_url": "https://www.lillemetropole.fr/communique-de-presse/la-metropole-europeenne-de-lille-equipe-massivement-le-territoire-de-bornes-de",
+   "confidence": "medium",
+   "id": 26,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "lille.fr pages (parking tariffs, Vieux-Lille pedestrian streets, resident parking) returned HTTP 401 and ilevia.fr returned 403, so they were not used",
+  "No opened source with capacities or recent works for Rihour-Printemps, République, Opéra, Plaza, Lille Flandres or Euralille garages (only tariffs for several); Q-Park presence in Lille not sourced",
+  "Nothing sourced on Euralille or Lille Grand Palais shopping/event effects, the Christmas market, Eurostar/TGV demand or student demand",
+  "No measured occupancy data, concession end dates other than the Grand'Place claim, or outcome of the 2026 parking consultation promised by the new mayor",
+  "Resident-subscription detail is inconsistent between sources (monthly vs annual figures), so only the ADULM and ICI figures were used"
+ ],
+ "dropped": {
+  "unsupported": 1,
+  "low confidence": 3
+ }
+}

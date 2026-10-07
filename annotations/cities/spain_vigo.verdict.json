@@ -1,0 +1,235 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Opened page (El Español, 27 Jul 2026, title matches). Confirms approval 'este lunes' (Mon 27 Jul), PSOE-only votes with PP and BNG against, four areas, phased restriction (no label, then B, then C), fines up to 200 EUR, entry into force expected in about two months once published and access authorisations processed, exemptions (empadronados, businesses/autonomos, public services such as police/fire/ambulances, taxis, buses, etc.). Page is subscriber-styled but full text was readable.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Opened Merca2 (29 Jul 2026, title matches). 67.18 ha, 'apenas el 0,6%' of municipal area, 62,100 vehicles registered in the municipality per DGT data without label or with B/C, 200 EUR fine, first year informative notices only, entry into force in about two months. Correctly attributed to Merca2. Medium confidence is reasonable (secondary outlet) but content matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Opened Diario de Pontevedra (10 Nov 2023, title matches). Hours 9-14 and 16-20 Mon-Fri, free Sat/Sun/holidays; non-residents from 0.30 EUR for min 33 min up to 1.45 EUR for max 120 min; residents 0.35 EUR per two hours and no time limit; resident card 34 EUR/quarter or 98 EUR/year. Generic SEO-style guide, and figures are as of Nov 2023; the 2025 El Espanol guide (item 3) shows the 1.45 EUR/2 h maximum is unchanged but the resident rates were not re-checked after 2023. Keep medium confidence.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Opened El Espanol (20 Nov 2025, title matches). Confirmed: zona azul 0.60 EUR for one hour and 1.45 EUR for two hours (the maximum stay), 9-14 and 16-20 weekdays, free weekends/holidays; most central car parks above 2 EUR for the first hour, listed up to 2.88 EUR (Nautico Cies); Areal (Parking Vigo, Areal 142) 1.98 EUR per hour. Problems: (a) 'the same rates as listed in 2023' is the author's inference - the 2023 Diario de Pontevedra page (item 2) only lists 0.30 EUR minimum and 1.45 EUR for 120 minutes, not a 0.60 EUR hourly rate, so only the 1.45 EUR maximum is shown to be unchanged; (b) A Laxe is listed as 'gratis los 30 primeros minutos y luego 1,29 euros' - the page does not say 'per hour' for A Laxe; (c) the page says prices of almost all paid car parks have risen versus 12 months earlier, and several car parks are below 2 EUR (A Laxe 1.29, Vialia outdoor 1.48 after 15 free min, Praza do Rei 1.78, Areal 1.98). Not a duplicate of item 11 (same URL, different facts).",
+   "corrected_text": "A November 2025 guide to Christmas parking in Vigo gives zona azul prices of 0.60 euros for one hour and 1.45 euros for two hours (the maximum stay), payable 9-14h and 16-20h on weekdays and free at weekends and holidays. It says most central car parks charge more than 2 euros for the first hour (up to 2.88 euros at Nautico Cies), with some cheaper options such as Centro Comercial A Laxe (free for 30 minutes, then 1.29 euros) and Areal (Parking Vigo, Areal 142) at 1.98 euros per hour, and notes that prices in most paid car parks have risen over the previous 12 months.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Opened Metropolitano (30/11/2024, title matches). Former informal free area in front of the old railway station facade, at Vialia car park and taxi access, now a 'kiss and go' zone with a 15-minute maximum stop, parking not allowed; the Concello had not regulated the space and users were using it to avoid parking fees and blue-zone limits. The URL on metropolitano.gal loads (HTTP 200, full article). The dev.metropolitano.gal host returns 401, so the author's metropolitano.gal URL is the correct public one and should be kept.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Opened Metropolitano (10/08/2025, title matches). Calle Pintor Colmeiro (Praza da Independencia to Hispanidad), about 30 surface blue-zone spaces; mechanical ramps will eliminate 'hasta el 65%'; 'unas 20 de las 30 plazas' removed once works end; blue zone ensured daytime rotation; two health centres, two hospitals (Povisa, Nicolas Pena) and a nursery school nearby; ramps co-financed by the Diputacion de Pontevedra. Parking is banned entirely during works.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Opened Metropolitano (26/02/2025, title matches). Concello 'ha solicitado' FEDER support, project about 20 million EUR with 12 million from FEDER; ramps between Rua Tarragona and Praza America (3.85 M), bike lane Praza America-Castrelos (1.06 M), purchase of electric public-transport vehicles (3.94 M); resolution expected 'el proximo 27 de agosto' (i.e. August 2025; the page gives no year and no outcome). Text correctly frames it as an application. The outcome is unknown as of Oct 2026, so it should stay labelled as a Feb 2025 application.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Opened Atlantico (7 Apr 2025, updated 8 Apr; title matches). Nine-year contract from January 2026, estimated spend 468 million EUR, bidder must invest 69 million EUR, Vitrasa to get a second extension only until January 2026, shorter than previous contracts. 'Vitrasa operated for decades' is supported (since 1968).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Opened Vigo al minuto (20 Jul 2026, title matches). Contracting committee proposes awarding to Vitrasa about 468.6 million EUR over ten years to 2036, still pending final administrative steps; moves from concession to service-provision contract; 55 new buses phased in plus technology upgrades; route structure kept. Note: of the 468.6 million, 195.9 million is the service-provision contract and the rest covers subsidised fares and related costs; the item's wording is acceptable but readers should not read 468.6 million as Vitrasa's service payment. Same topic as item 7 but a later, different development, not a duplicate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Opened Metropolitano (07/01/2025, title matches). 82% average December 2024 occupancy, 'casi 11 puntos' above December 2023, Caballero: best December in the city's history, 40% of hotel guests international and 62% of those from Portugal, municipal data to be endorsed by INE. The page does NOT attribute the result to the Christmas lights specifically (it speaks of tourism occupancy in the Christmas period); 'driven by the Christmas lights' is the author's addition. 'About 40% of visitors' should be 'of hotel guests'.",
+   "corrected_text": "Vigo's Concello reported average hotel occupancy of 82% in December 2024, almost 11 points above December 2023, which Mayor Abel Caballero called the best December for tourism and hospitality in the city's history. About 40% of hotel guests were international, 62% of those from Portugal; the municipal data were still to be confirmed by the INE.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Opened El Espanol (27 Nov 2025, title matches). Maximum restriction level ('afluencia muy alta') of the Plan de Mobilidade do Nadal from 10:00 on 28 Nov to 21:30 on Monday 1 Dec; the same level applies on the Constitution Day bridge and 26 Dec; discretionary coaches get a drop-off/pick-up space on calle Areal (15 min max) and wait at the Samil beach car parks, must enter via AP-9; calle Cervantes one-way descending Urzaiz to Alfonso XIII; preferred AP-9 exits 4V and 2V. Wording is acceptable as written (the page itself contains an obvious typo 'lunes, 1 de noviembre').",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Opened the same El Espanol guide as item 3 (20 Nov 2025). The page says the Concello 'ya avanzaron que no se pondran lanzaderas al centro porque no hay suficiente demanda, por lo que se depende del transporte publico'. It does not say shuttles would have run 'from deterrent car parks'. Free parking suggestions confirmed: Monte O Castro (walkable, incl. Vigo Vertical stairs), Coia (reach centre by urban bus or taxi), Samil beach described as one of the usual 'disuasorios' requiring public transport and even transfers. Not a duplicate in content of item 3, but shares its source.",
+   "corrected_text": "A November 2025 guide to Christmas parking says the Concello had indicated that no shuttle services to the city centre would be run because there is not enough demand, so visitors depend on public transport. It suggests free parking at Monte O Castro (walkable to the centre), in the Coia neighbourhood (urban bus or taxi to the centre) and at Samil beach, described as one of the usual deterrent car parks that requires public transport, sometimes with transfers.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Opened El Espanol (15 Apr 2026, title matches). 17 cruise calls in April 2026, six in under seven days, triple call on 21 April (Le Bellot, Ventura, Britannia), first calls of Norwegian Sky (16 Apr) and Liberty of the Seas (17 Apr), 119 calls scheduled for the year ('tiene previstas').",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Opened Metropolitano (02/02/2023, title matches; Europa Press-style piece). Empark concession won in 2017 including full building renovation; 2023 tariffs up 3.9% vs 2022 via formula (wages, energy, cement, copper); 24-hour resident monthly pass 98.03 to 101.73 EUR; concession fee to the Concello 126,464 EUR in 2023 (up from 121,894). Correctly worded as a planned 2023 increase.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Opened Telpark page (HTTP 200). H1 'Plaza de Portugal car park' (HTML title 'Park at Plaza de Portugal parking Telpark - Vigo Car Park'). Shows 183 car spaces and 10 motorbike spaces on two storeys, open 24h, electric charging, Entrada Express plate reading, max height 185 cm, first hour 1.80 EUR, daily maximum 19.90 EUR. The page has no publication date (only a 2026 copyright footer), which the item discloses; prices are an operator listing at the time of viewing and may change.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Opened Metropolitano/Europa Press (24/03/2023, title matches). The TSXG annulled the 2007 awards, but the article says it only upheld the challenge for lot 1 ('solo referidas al lote uno': Areal, Pintor Colmeiro, Policarpo Sanz, awarded to UTE Eloymar-Tranvias Electricos); lot 2 (Castelao, Jenaro de la Fuente, Rosalia de Castro, Puentes y Calzadas) is only mentioned as having been awarded, not as annulled. The article gives no '240 cm' figure; the expert report found 66.92% (Pintor Colmeiro), 67.55% (Policarpo Sanz) and 70.32% (Areal) of spaces smaller than the tender specification. The court excluded the bidder but did not roll back the procedure; the ruling can be appealed in cassation.",
+   "corrected_text": "The Tribunal Superior de Xustiza de Galicia annulled the Concello's 2007 award of lot 1 of underground car-park concessions (Areal, Pintor Colmeiro and Policarpo Sanz, awarded to UTE Eloymar-Tranvias Electricos) because an expert report found that most spaces were smaller than the tender required (66.92% at Pintor Colmeiro, 67.55% at Policarpo Sanz, 70.32% at Areal). The court declared the winning bidder excluded but did not roll the procedure back, leaving the Concello to decide how to provide the service; the ruling could still be appealed.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Opened VigoE (21 Jun 2022; short URL redirects to the full article, title matches). Zona Franca delegate David Regades: works start 1 Sept, about six months, conventional car park with 184 spaces on two levels, 1.6 million EUR investment which allowed the Port Authority to extend the concession 15 years (expiring 2025, extended in January to 2040); Zona Franca and Port Authority still talking about linking with Praza da Estrela for 400-500 new spaces. Written as planned, which matches the source.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Opened VigoE (20 Oct 2023, title matches). Praza da Estrela car park, 452 spaces, Consorcio de la Zona Franca; 12 charging points (eleven 22 kW AC, one 30 kW DC rapid), dynamic power management allowing simultaneous use; the entry ticket starts/stops charging and energy is paid at the cashier machine or central payment desk.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "supported",
+   "note": "Opened VigoE (20 May 2021, title matches). Vialia opened March 2021 with about 1,600 spaces, 50-year concession (Ceetrus); first 15 minutes free, 0.48 EUR from minute 16 then 0.030 EUR/min, 25 EUR daily maximum; monthly passes 24h 90, daytime 70, night 40 EUR (offered only through August 2021). Figures are launch tariffs from 2021 and may be out of date.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "supported",
+   "note": "Opened VigoE (31 Mar 2025, title matches). Urbanismo approved the works licence for a public-use car park of 302 spaces, four levels (one below ground), budget 2,398,989.65 EUR, 114 spaces on private parcels with public-use rights. 'Licences approved' is the correct status (not built).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "supported",
+   "note": "Opened Metropolitano (25/02/2026, title matches). Convenio signed on Wednesday 25 Feb by Caballero and Zona Franca delegate Regades for urbanising PS-1 of the former ETEA and building an underground car park; Xunta part of the agreement and contributing 10 million EUR for urbanisation (signed electronically earlier); joint tender to be approved within weeks, works to start in about a year, execution about 18 months (Regades). Number of spaces not given. The car park is planned, and the item words it as planned/agreed, not built.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "partly",
+   "note": "Opened Atlantico (published 6 Oct 2026, title matches). The article says Caballero and David Regades 'firmaron ayer' the purchase agreement, i.e. 5 October 2026, not 6 October (6 Oct is the publication date). Two plots in Camino Borralleiro (Alcabre), about 30,000 m2 in total, 80,809 EUR paid to the Consorcio; plots already serve as improvised parking; mayor says they will be transformed into free parking for users; no completion date given.",
+   "corrected_text": "On 5 October 2026 Mayor Abel Caballero and the State delegate to Zona Franca, David Regades, signed an agreement for the Concello to buy two plots (about 30,000 m2, 80,809 euros paid to the Consorcio de la Zona Franca) at Camino Borralleiro, Alcabre, next to O Cocho beach, which already serve as improvised beach parking; the Concello plans to turn them into free parking, with no completion date given.",
+   "corrected_title": null,
+   "corrected_date": "2026-10-05",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "supported",
+   "note": "Opened Metropolitano (27/02/2025, title matches). 92 garage spaces to rent in central Vigo (Idealista data), average about 91 EUR a month, range from 30 EUR (motorbike, Balaidos) to 180 EUR (car, calle Garcia Olloqui); Vigo described as the Spanish city with most vehicles per inhabitant; pedestrian-oriented redesigns reduce street parking.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Vigo's Low Emission Zone ordinance (Centro, Praza de Portugal, Bouzas and Calvario) was definitively approved on 27 July 2026 with fines of up to 200 euros, informative notices only in the first year according to Merca2, and entry into force expected about two months after approval. Street parking in the zona azul costs 0.60 euros for one hour and 1.45 euros for the two-hour maximum, while mechanical-ramp works on Rua Pintor Colmeiro will remove about 20 of its roughly 30 blue-zone spaces. New off-street capacity includes a 302-space car park licensed at Barrio do Cura and a planned underground car park at the former ETEA site, and the Concello agreed on 5 October 2026 to buy plots at Alcabre for free beach parking. Demand peaks come from the Christmas lights (82% hotel occupancy in December 2024; maximum-restriction mobility plan from 28 November 2025) and cruise calls (119 scheduled for 2026), and a committee has proposed keeping Vitrasa on the city bus contract to 2036."
+}

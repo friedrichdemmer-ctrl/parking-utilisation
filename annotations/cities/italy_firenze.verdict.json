@@ -1,0 +1,275 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Page title 'Attivazione Scudo Verde | Ambiente', dated 28 May 2025. Confirms 1 Apr 2025 start, ~38 km2, 66% of built-up centre, 37% of municipal area, 50 km perimeter, 77 gates, 24h, no new bans, no tolls, tourist bus ticket.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Same page (28 May 2025): gates technically activated 1 June 2025, sanctions postponed to 1 July 2025, no fines in pre-exercise phase. Not a duplicate of item 0 (different facts, same source).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Headline verified exactly; article dated 15 May 2024, fully readable. Launch postponed from 2 May to September 2024, ministry checks, 250-280k vehicles/day, no fines in 2024, no ticket fees for first three years.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Headline verified exactly; article dated 2 April 2025, readable. Mobility assessor Andrea Giorgio quoted on Euro 4 and EUR 1.2m fund; EUR 8,000 private / 5,000 business; no toll through 2027.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Headline verified exactly; article dated 1 April 2025, readable. 3 Apr to 5 Oct 2025, Thu-Sat 23-03, sectors A, B, O, G, F as stated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Title verified; article dated 1 April 2026. Summer hours from 2 April 2026 across five sectors, year-round hours as stated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "Content supported (EV prior free online authorisation, hours, inactive Sundays/holidays, park-and-ride list, Parterre shuttle C1; site calls itself official tourism website of the Municipality and Metropolitan City). Draft title is wrong: real page title is 'By car in Florence - ZTL'. Page carries (c)2025 Comune di Firenze, no article date.",
+   "corrected_text": "The Comune's tourism portal says purely electric vehicles may enter the ZTL after a free prior online authorisation, that ZTL hours are Mon-Fri 07:30-20:00 and Sat 07:30-16:00 (inactive Sundays and holidays), and lists park-and-ride options as Villa Costanza, Ponte a Greve (free), Via Sansovino, Viale Guidoni and Via Gelsomino, plus Parterre linked by shuttle bus C1.",
+   "corrected_title": "By car in Florence - ZTL",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Article dated 19 Dec 2024 and written as a plan ('from 1 Jan 2025 ... will be abandoned'), not as done. The page does not use the acronym ZCS. Mini-abbonamenti, vetrofanie, SAS registration for all residents and Cerbero on six vehicles (4 police, 2 SAS) are supported.",
+   "corrected_text": "Per a 19 December 2024 article, from 1 January 2025 Florence planned to abandon the Covid-era resident windscreen permits (vetrofanie) in favour of digital 'mini-abbonamenti'; all residents, even those not buying them, would have to register their plates on the SAS (Servizi alla Strada) website. Enforcement was to use 'Cerbero' plate-reading cameras on six vehicles (four municipal police, two SAS).",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Content verified (dated 23 Apr 2025: register by 30 Apr, automated checks from 1 May, EUR 10/month, EUR 5 with ISEE under 12,500, EUR 100/year, resident EVs free in blue spaces). Draft title is a made-up label; real headline differs.",
+   "corrected_text": "La Nazione reported on 23 April 2025 that residents had to register plates by 30 April 2025, with fully automated checks from 1 May; additional ZCS zones for residents cost EUR 10 a month (EUR 5 for households with ISEE below EUR 12,500) or EUR 100 a year, and resident electric vehicles keep free parking in blue spaces.",
+   "corrected_title": "Zcs Firenze, cambia tutto: ultimi giorni per registrare la targa. Ecco come fare",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Il Post article of 10 Apr 2026. Supported: first Italian city, ban from 1 April 2026, TAR rejected Bird's suspension request in February (no day given; a second request against removals also rejected). NOT supported: '21 February' and the reason 'helmet rules impossible to enforce without fixed pick-up points' - the article cites national rule changes (helmet, plate, insurance) and misuse/improper parking.",
+   "corrected_text": "Florence ended its e-scooter sharing service from 1 April 2026, becoming the first Italian city to do so. Il Post (10 April 2026) reported that the Tuscan administrative court (TAR) rejected operator Bird's request to suspend the ban in February 2026, and rejected a second request against the scooter removals. The city cited national rule changes (helmet, licence plate and insurance requirements) and persistent misuse and improper parking.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Headline verified; article dated 9 Feb 2019. T2 service starting 11 Feb 2019; Villa Costanza for T1 and Guidoni for T2 as park-and-ride. Source is pre-opening announcement but the date is correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Text supported (39 million+ passengers 2024, +11.8% vs 2023 per a Legambiente report; PNRR extension of 12.2 km; dated 16 Apr 2025). Draft title is not the real headline.",
+   "corrected_text": "La Nazione (16 April 2025) reported that the Florence tram carried over 39 million passengers in 2024, an increase of 11.8% on 2023, and that PNRR funding would extend the network by 12.2 km.",
+   "corrected_title": "Firenze, numeri record per la tramvia: 39 milioni di passeggeri nel 2024",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Article dated 9 May 2026. Works are announced/scheduled (11-31 May, Tue and Thu 21:00-01:00), not necessarily 'under way' on the article date; pre-service operations expected early 2027 is supported. Draft title is not the real headline.",
+   "corrected_text": "La Nazione reported on 9 May 2026 that night concrete-pouring works on Viale Europa for the tram line to Bagno a Ripoli (line 3.2.1) were scheduled for 11-31 May 2026 (Tuesdays and Thursdays, 21:00-01:00), with pre-service operations expected in early 2027.",
+   "corrected_title": "Tramvia, al via i getti per la sede in viale Europa",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Content supported (dated 6 Apr 2024; 358 spaces, 22 EV; over 500 with Viale Europa; Nardella ~2,000 vehicles/day). Draft title is not the real headline.",
+   "corrected_text": "In April 2024 works began on the Bagno a Ripoli tram park-and-ride (Viola park area) with 358 spaces, 22 of them with EV charging; together with a Viale Europa parking area it was to provide over 500 spaces, and Mayor Nardella said it would cut about 2,000 private vehicles a day in the area.",
+   "corrected_title": "Tramvia, iniziati i lavori al parcheggio scambiatore al Viola Park",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Headline verified; dated 16 Jan 2025. 1,530+ new spaces, 400 night spaces in Beccaria, Alberti and Parterre via agreements with Firenze Parcheggi, park-and-ride Viale Europa 458 and Bagno a Ripoli 374 'ad aprile'; properly framed as a promise.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Headline verified; dated 23 Oct 2025. Discount at Piazza Alberti EUR 2 to 1/hour via BMOVE from 22 Oct to December 2026; free overnight parking for residents in Parterre, Beccaria, Alberti.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Headline verified; 13 Aug 2024, not paywalled. SMN 570 spaces, EUR 3.835m revenue, +2.135m result; Fortezza 509 spaces, loss over 260k; Alberti 313 spaces, EUR 298k, loss over 400k; Sant'Ambrogio 'most used after SMN'.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "Article text: '14 parcheggi di Fipark' adding 5,000 spaces to Florence's 73,000; Parterre EUR 1.299m and San Lorenzo EUR 1.040m revenue. The article does not explicitly say they were the next-largest earners (Sant'Ambrogio revenue not given), so that ranking is an inference. Operator name 'Fipark' is confirmed by the article's own wording.",
+   "corrected_text": "The same La Nazione article refers to Fipark's 14 garages adding about 5,000 spaces to Florence's roughly 73,000 parking spaces; it gives 2023 revenue of EUR 1.299 million for Parterre and EUR 1.040 million for San Lorenzo.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "supported",
+   "note": "Headline verified; dated 27 May 2026, readable. All tariffs match (SMN 4/h, 3.80 via BMove, max above 30; Fortezza-Fiera 2/h cap 20; San Lorenzo 2.80/4/8; Parterre 2; Beccaria and Sant'Ambrogio 1.70; Oltrarno 2 first hour; private garages up to 35/day).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "partly",
+   "note": "Source sentence: 'Sempre piu strutture fiorentine - a oggi se ne contano 12 - hanno aderito al sistema Telepass': a present count of 12, with a 'more and more' trend; it does not say integration was 'expanding across 12'. Same article as item 18 (not a duplicate fact).",
+   "corrected_text": "The same La Nazione article (27 May 2026) said that 'more and more' Florence garage structures had joined the Telepass system, with 12 counted to date.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "partly",
+   "note": "Content supported: access via Telepass and plate detection, in a ZTL, deactivated 15 Nov to 3 Dec 2024 for the new BOE service. Page itself is undated. Real title has lowercase 'stazione'. Page also lists 880 spaces (conflicts with La Nazione's 570; not used in item).",
+   "corrected_text": "Telepass lists the Santa Maria Novella station garage (Piazza della Stazione, inside the ZTL) as accessible via Telepass and licence-plate detection, and noted it would be temporarily deactivated from 15 November to 3 December 2024 for the rollout of Telepass's new BOE service.",
+   "corrected_title": "Parcheggio stazione Santa Maria Novella Firenze | Telepass",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "partly",
+   "note": "Content supported (Via Tartini 11/13, 400 spaces on 4 underground levels, 24/7, EV charging stations, Telepass app entry). The page is undated, so date '2026' is unsupported. Real page title (which erroneously says Torino) differs from the draft title.",
+   "corrected_text": "Telepass lists the Manifattura Tabacchi underground garage (Via Tartini) as 400 spaces over four levels, open 24/7, with EV charging stations and automated entry via the Telepass app.",
+   "corrected_title": "Parcheggio sotterraneo Manifattura Tabacchi Torino: orari e tariffe | Telepass",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "partly",
+   "note": "Article 22 Jan 2020 (opposition councillors Palagi and Bundu): Ataf Spa holds 5.30% of Firenze Parcheggi; their request to return that stake directly to the Comune was rejected by the majority. The page does not say the Comune holds the majority of Firenze Parcheggi, so that claim is unsupported.",
+   "corrected_text": "As reported in January 2020, opposition councillors Palagi and Bundu said Ataf Spa held 5.30% of Firenze Parcheggi; their motions, including one to transfer that stake directly to the Comune, were rejected by the majority.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 23,
+   "verdict": "partly",
+   "note": "Page title verified (plus ' - Visit Florence News'); posted 16 Aug 2017. Supported: opened mid-June 2017, 505 car spaces (10 disabled), 25 coach spaces, 24/7, built by Autostrade per l'Italia, first hour EUR 1, full day EUR 7. NOT supported: 'managed by Unipark' (Unipark appears only re a bus-company agreement) and 'launch tariff' (the promotion on the page applies to buses, EUR 50/day).",
+   "corrected_text": "The Villa Costanza A1 motorway park-and-ride (Scandicci), linked to tram line T1, was described in August 2017 as having 505 car spaces (10 for disabled users) and 25 coach spaces, open 24/7 and built by Autostrade per l'Italia, with car tariffs of EUR 1 for the first hour and EUR 7 for the full day.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 24,
+   "verdict": "partly",
+   "note": "Text supported (6 Dec 2025: over 4m arrivals, 9.7m presences, +7.1% and +8.5%, tourist-bus permits +45.3%, ~8m day-trippers from mobile-phone data). Draft title was truncated with an invented suffix.",
+   "corrected_text": "La Nazione (6 December 2025) reported Florence recorded over 4 million tourist arrivals and 9.7 million overnight stays in January-October 2025 (+7.1% and +8.5% year on year), that tourist-bus permits rose 45.3% year on year, and that day-trippers were put at about 8 million a year on mobile-phone data.",
+   "corrected_title": "In dieci mesi 4 milioni di arrivi e 9,7 di presenze",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 25,
+   "verdict": "partly",
+   "note": "Content supported as a plan (13 Sep 2024; 950 m, Villa Medicea di Careggi stop, ~EUR 20m, 2028-2029, Serpiolle park-and-ride; Governor Giani; T2 extension). Draft title slightly wrong punctuation.",
+   "corrected_text": "La Nazione (13 September 2024) reported a planned 950 m tram extension from viale Pieraccini to the Meyer children's hospital (intermediate stop Villa Medicea di Careggi), costing about EUR 20 million, with completion targeted for 2028-2029 and a park-and-ride for Serpiolle residents included in the project (planned, not built).",
+   "corrected_title": "Tram Meyer, a ottobre il progetto. La nuova linea sarà lunga 950 metri. E costerà 20 milioni di euro",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 26,
+   "verdict": "partly",
+   "note": "Content supported (4 May 2026; Scandicci discussing T1 overcrowding at Villa Costanza with Florence; proposed higher fares for tourists and starting runs from downstream stops; mayor Sereni quoted). Draft title is not the real headline.",
+   "corrected_text": "La Nazione (4 May 2026) reported that Scandicci's administration was discussing overcrowding of the T1 tram at the Villa Costanza hub with Florence; the proposed measures included differential pricing for tourists and starting some runs from downstream stops to reserve seats for locals (proposals only).",
+   "corrected_title": "La giungla Villa Costanza. Tram al 'servizio' dei turisti. Nuovo assalto per il ponte. Pochi spazi per i fiorentini",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Florence's Scudo Verde environmental ZTL began in monitoring mode on 1 April 2025 (77 gates, about 38 km2), with sanctions postponed to 1 July 2025; the Comune says it adds no new bans and no toll, and La Nazione reported the Euro 4 exemption and a EUR 1.2 million vehicle incentive fund. The historic-centre ZTL runs summer Thursday-Saturday night closures (23:00-03:00), reinstated on 2 April 2026 across all five sectors. La Nazione's 2023 garage figures show the Santa Maria Novella station garage as the top earner (EUR 3.835 million revenue) with Fortezza and Piazza Alberti loss-making, and in October 2025 the Comune announced a 50% discount at the Alberti garage during piazza Beccaria tram works. Garage tariffs in May 2026 were about EUR 4 an hour at the station."
+}

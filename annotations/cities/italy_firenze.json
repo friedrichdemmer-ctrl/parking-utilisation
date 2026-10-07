@@ -1,0 +1,282 @@
+{
+ "country": "Italy",
+ "city": "Firenze",
+ "researched": "2026-10-07",
+ "verified": "2026-10-07",
+ "summary": "Florence's Scudo Verde environmental ZTL began in monitoring mode on 1 April 2025 (77 gates, about 38 km2), with sanctions postponed to 1 July 2025; the Comune says it adds no new bans and no toll, and La Nazione reported the Euro 4 exemption and a EUR 1.2 million vehicle incentive fund. The historic-centre ZTL runs summer Thursday-Saturday night closures (23:00-03:00), reinstated on 2 April 2026 across all five sectors. La Nazione's 2023 garage figures show the Santa Maria Novella station garage as the top earner (EUR 3.835 million revenue) with Fortezza and Piazza Alberti loss-making, and in October 2025 the Comune announced a 50% discount at the Alberti garage during piazza Beccaria tram works. Garage tariffs in May 2026 were about EUR 4 an hour at the station.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2025-04",
+   "text": "Florence's environmental ZTL 'Scudo Verde' began operating in monitoring (pre-exercise) mode on 1 April 2025: about 38 km2 (66% of the built-up centre, 37% of the municipal area), a 50 km perimeter and 77 telematic gates, active 24 hours a day all year. The Comune says it introduces no new bans and no toll, applying environmental bans already in force; tourist buses must pay an entry ticket.",
+   "source_title": "Attivazione Scudo Verde | Ambiente",
+   "source_url": "https://ambiente.comune.fi.it/dalle-redazioni/attivazione-scudo-verde",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-07",
+   "text": "According to the Comune di Firenze environment page (28 May 2025), the Scudo Verde gates were technically activated on 1 June 2025 and the sanctioning system was postponed to 1 July 2025; no fines were issued during the pre-exercise phase.",
+   "source_title": "Attivazione Scudo Verde | Ambiente",
+   "source_url": "https://ambiente.comune.fi.it/dalle-redazioni/attivazione-scudo-verde",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-05",
+   "text": "In May 2024 La Nazione reported that the Scudo Verde launch, planned for 2 May, was pushed to September 2024 after the Ministry of Infrastructure asked for further technical checks on the gates and signage; it said 250,000-280,000 vehicles enter Florence daily, that no fines would be issued in 2024 and that no ticket fees would apply for the first three years.",
+   "source_title": "Scudo Verde a settembre. Dal ministero chieste altre verifiche sui varchi. Le aree Ztl a raggi X",
+   "source_url": "https://www.lanazione.it/firenze/cronaca/scudo-verde-a-settembre-dal-ministero-chieste-altre-verifiche-sui-varchi-le-aree-ztl-a-raggi-x-30b993eb",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-04",
+   "text": "In April 2025 the Florence mobility assessor said Euro 4 vehicles would not be sanctioned by the Scudo Verde and that the city had a EUR 1.2 million incentive fund for low-emission vehicles (up to EUR 8,000 for private electric-car buyers, up to EUR 5,000 for businesses); the article says no entry toll would be introduced through 2027.",
+   "source_title": "Scudo verde a Firenze, pronti gli incentivi. 'Soldi per automobili e furgoni. Euro 4, non ci saranno divieti'",
+   "source_url": "https://www.lanazione.it/firenze/cronaca/scudo-verde-u6bw25wt",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-04",
+   "text": "The summer night ZTL returned on 3 April 2025 and ran to 5 October 2025: Thursday to Saturday nights from 23:00 to 03:00, covering sectors A, B and O plus sector G (piazza Cavalleggeri, lungarno della Zecca, piazza Piave) and sector F (San Niccolo and the Oltrarno).",
+   "source_title": "Firenze, da giovedì 3 aprile torna la Ztl notturna estiva. Tutte le novità",
+   "source_url": "https://www.lanazione.it/firenze/cronaca/ztl-notturna-estiva-vr04gx2o",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-04",
+   "text": "From 2 April 2026 Florence reinstated the summer ZTL evening hours (from 23:00 every Thursday, Friday and Saturday until 03:00 the next day) across all five sectors; year-round hours for sectors A, B and O are Monday-Friday 07:30-20:00 and Saturday 07:30-16:00.",
+   "source_title": "Ztl Firenze: il 2 aprile torna l'orario estivo",
+   "source_url": "https://www.sicurauto.it/news/ztl-firenze-mappa-orari-e-parcheggi/",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025",
+   "text": "The Comune's tourism portal says purely electric vehicles may enter the ZTL after a free prior online authorisation, that ZTL hours are Mon-Fri 07:30-20:00 and Sat 07:30-16:00 (inactive Sundays and holidays), and lists park-and-ride options as Villa Costanza, Ponte a Greve (free), Via Sansovino, Viale Guidoni and Via Gelsomino, plus Parterre linked by shuttle bus C1.",
+   "source_title": "By car in Florence - ZTL",
+   "source_url": "https://www.feelflorence.it/en/dalle-redazioni/car-florence-ztl",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-01",
+   "text": "Per a 19 December 2024 article, from 1 January 2025 Florence planned to abandon the Covid-era resident windscreen permits (vetrofanie) in favour of digital 'mini-abbonamenti'; all residents, even those not buying them, would have to register their plates on the SAS (Servizi alla Strada) website. Enforcement was to use 'Cerbero' plate-reading cameras on six vehicles (four municipal police, two SAS).",
+   "source_title": "Firenze introduce un nuovo sistema di parcheggio per residenti",
+   "source_url": "https://www.motorimagazine.it/firenze-introduce-un-nuovo-sistema-di-parcheggio-per-residenti/",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-04",
+   "text": "La Nazione reported on 23 April 2025 that residents had to register plates by 30 April 2025, with fully automated checks from 1 May; additional ZCS zones for residents cost EUR 10 a month (EUR 5 for households with ISEE below EUR 12,500) or EUR 100 a year, and resident electric vehicles keep free parking in blue spaces.",
+   "source_title": "Zcs Firenze, cambia tutto: ultimi giorni per registrare la targa. Ecco come fare",
+   "source_url": "https://www.lanazione.it/firenze/cronaca/zcs-firenze-registrazione-targa-jakn2ci2",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2019-02",
+   "text": "Tram line T2 (Santa Maria Novella to Peretola airport) opened on 11 February 2019; the park-and-ride facilities supporting the tram system were Villa Costanza (for T1 Leonardo) and Guidoni (for T2 Vespucci).",
+   "source_title": "Tramvia, presentata la nuova linea 2 (Santa Maria Novella-Aeroporto Peretola)",
+   "source_url": "https://www.gonews.it/?p=933671",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-04",
+   "text": "La Nazione (16 April 2025) reported that the Florence tram carried over 39 million passengers in 2024, an increase of 11.8% on 2023, and that PNRR funding would extend the network by 12.2 km.",
+   "source_title": "Firenze, numeri record per la tramvia: 39 milioni di passeggeri nel 2024",
+   "source_url": "https://www.lanazione.it/firenze/cronaca/firenze-tramvia-74c6a92b",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-05",
+   "text": "La Nazione reported on 9 May 2026 that night concrete-pouring works on Viale Europa for the tram line to Bagno a Ripoli (line 3.2.1) were scheduled for 11-31 May 2026 (Tuesdays and Thursdays, 21:00-01:00), with pre-service operations expected in early 2027.",
+   "source_title": "Tramvia, al via i getti per la sede in viale Europa",
+   "source_url": "https://www.lanazione.it/firenze/cronaca/tramvia-viale-europa-89e7ff37",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-04",
+   "text": "In April 2024 works began on the Bagno a Ripoli tram park-and-ride (Viola park area) with 358 spaces, 22 of them with EV charging; together with a Viale Europa parking area it was to provide over 500 spaces, and Mayor Nardella said it would cut about 2,000 private vehicles a day in the area.",
+   "source_title": "Tramvia, iniziati i lavori al parcheggio scambiatore al Viola Park",
+   "source_url": "https://www.lanazione.it/firenze/cronaca/tramvia-lavori-e601ce0d",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-01",
+   "text": "In January 2025 the Comune promised over 1,530 new parking spaces during works on tram line 3.2.1, including 400 night spaces (21:00-08:00) for residents in the Firenze Parcheggi garages Beccaria, Alberti and Parterre, and said park-and-ride lots at Viale Europa (458 spaces) and Bagno a Ripoli (374 spaces) would open 'starting in April' (a plan, not a completed opening).",
+   "source_title": "La promessa del Comune ai fiorentini: 'Settecento parcheggi per gli automobilisti'",
+   "source_url": "https://www.lanazione.it/firenze/cronaca/la-promessa-del-comune-ai-20860390",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-10",
+   "text": "In October 2025, as piazza Beccaria tram works got under way, the Comune announced a 50% discount at the Piazza Alberti garage from 22 October to December 2026 (EUR 2 to EUR 1 per hour when paying via the BMOVE app), alongside free overnight parking for residents in Parterre, Beccaria and Alberti.",
+   "source_title": "Cantieri e disagi per i parcheggi: ecco le agevolazioni",
+   "source_url": "https://www.lanazione.it/cronaca/sch-piazza-beccaria-come-sara-e3sjbe0l/cantieri-e-disagi-per-i-parcheggi-ecco-le-agevolazioni",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-08",
+   "text": "La Nazione (13 August 2024) reported 2023 garage results: Santa Maria Novella station garage 570 spaces and EUR 3.835 million revenue (positive operating result of EUR 2.135 million); Fortezza 509 spaces with an operating loss above EUR 260,000; Piazza Alberti 313 spaces, EUR 298,000 revenue and a loss above EUR 400,000; Sant'Ambrogio the next most-used after the station.",
+   "source_title": "Il business dei parcheggi interrati. Ricavi record in Santa Maria Novella. Ma Fortezza e Alberti sono in rosso",
+   "source_url": "https://www.lanazione.it/firenze/cronaca/il-business-dei-parcheggi-interrati-ricavi-record-in-santa-maria-novella-ma-fortezza-e-alberti-sono-in-rosso-a94ee278",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "supported",
+   "read_limit": "headline"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-08",
+   "text": "The same La Nazione article refers to Fipark's 14 garages adding about 5,000 spaces to Florence's roughly 73,000 parking spaces; it gives 2023 revenue of EUR 1.299 million for Parterre and EUR 1.040 million for San Lorenzo.",
+   "source_title": "Il business dei parcheggi interrati. Ricavi record in Santa Maria Novella. Ma Fortezza e Alberti sono in rosso",
+   "source_url": "https://www.lanazione.it/firenze/cronaca/il-business-dei-parcheggi-interrati-ricavi-record-in-santa-maria-novella-ma-fortezza-e-alberti-sono-in-rosso-a94ee278",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-05",
+   "text": "La Nazione (27 May 2026) listed Florence garage tariffs: Santa Maria Novella station EUR 4/hour (EUR 3.80 via BMove app), daily maximum above EUR 30; Fortezza-Fiera EUR 2/hour (daily cap EUR 20); San Lorenzo EUR 2.80 first hour, EUR 4 second, EUR 8 from the third; Parterre EUR 2/hour; Beccaria and Sant'Ambrogio EUR 1.70/hour; Oltrarno EUR 2 first hour; private garages near the station up to EUR 35/day.",
+   "source_title": "Il sistema parcheggi a confronto. A Firenze la sosta è un salasso: Milano e Bologna costano meno",
+   "source_url": "https://www.lanazione.it/firenze/cronaca/costo-parcheggi-firenze-t2q1llax",
+   "confidence": "high",
+   "id": 18,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-05",
+   "text": "The same La Nazione article (27 May 2026) said that 'more and more' Florence garage structures had joined the Telepass system, with 12 counted to date.",
+   "source_title": "Il sistema parcheggi a confronto. A Firenze la sosta è un salasso: Milano e Bologna costano meno",
+   "source_url": "https://www.lanazione.it/firenze/cronaca/costo-parcheggi-firenze-t2q1llax",
+   "confidence": "medium",
+   "id": 19,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2024-11",
+   "text": "Telepass lists the Santa Maria Novella station garage (Piazza della Stazione, inside the ZTL) as accessible via Telepass and licence-plate detection, and noted it would be temporarily deactivated from 15 November to 3 December 2024 for the rollout of Telepass's new BOE service.",
+   "source_title": "Parcheggio stazione Santa Maria Novella Firenze | Telepass",
+   "source_url": "https://www.telepass.com/it/privati/servizi/parcheggi/lista/parcheggio-stazione-santa-maria-novella-firenze",
+   "confidence": "medium",
+   "id": 20,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026",
+   "text": "Telepass lists the Manifattura Tabacchi underground garage (Via Tartini) as 400 spaces over four levels, open 24/7, with EV charging stations and automated entry via the Telepass app.",
+   "source_title": "Parcheggio sotterraneo Manifattura Tabacchi Torino: orari e tariffe | Telepass",
+   "source_url": "https://www.telepass.com/it/privati/servizi/parcheggi/lista/parcheggio-manifattura-tabacchi-firenze",
+   "confidence": "medium",
+   "id": 21,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2020-01",
+   "text": "As reported in January 2020, opposition councillors Palagi and Bundu said Ataf Spa held 5.30% of Firenze Parcheggi; their motions, including one to transfer that stake directly to the Comune, were rejected by the majority.",
+   "source_title": "Partecipate: Palagi e Bundu (SPC): 'Su Firenze Parcheggi e Ataf idee chiare'",
+   "source_url": "https://www.gonews.it/2020/01/22/partecipate-palagi-e-bundu-spc-su-firenze-parcheggi-e-ataf-idee-chiare/amp/",
+   "confidence": "medium",
+   "id": 22,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2017-08",
+   "text": "The Villa Costanza A1 motorway park-and-ride (Scandicci), linked to tram line T1, was described in August 2017 as having 505 car spaces (10 for disabled users) and 25 coach spaces, open 24/7 and built by Autostrade per l'Italia, with car tariffs of EUR 1 for the first hour and EUR 7 for the full day.",
+   "source_title": "Villa Costanza, il nuovo parcheggio per visitare Firenze",
+   "source_url": "https://visitflorence.com/blog/it/villa-costanza-il-nuovo-parcheggio-per-visitare-firenze/",
+   "confidence": "medium",
+   "id": 23,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-12",
+   "text": "La Nazione (6 December 2025) reported Florence recorded over 4 million tourist arrivals and 9.7 million overnight stays in January-October 2025 (+7.1% and +8.5% year on year), that tourist-bus permits rose 45.3% year on year, and that day-trippers were put at about 8 million a year on mobile-phone data.",
+   "source_title": "In dieci mesi 4 milioni di arrivi e 9,7 di presenze",
+   "source_url": "https://www.lanazione.it/firenze/cronaca/in-dieci-mesi-4-milioni-4491efbd",
+   "confidence": "medium",
+   "id": 24,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-09",
+   "text": "La Nazione (13 September 2024) reported a planned 950 m tram extension from viale Pieraccini to the Meyer children's hospital (intermediate stop Villa Medicea di Careggi), costing about EUR 20 million, with completion targeted for 2028-2029 and a park-and-ride for Serpiolle residents included in the project (planned, not built).",
+   "source_title": "Tram Meyer, a ottobre il progetto. La nuova linea sarà lunga 950 metri. E costerà 20 milioni di euro",
+   "source_url": "https://www.lanazione.it/firenze/cronaca/tram-meyer-a-ottobre-il-progetto-la-nuova-linea-sara-lunga-950-metri-e-costera-20-milioni-di-euro-eb11ce0b",
+   "confidence": "medium",
+   "id": 25,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-05",
+   "text": "La Nazione (4 May 2026) reported that Scandicci's administration was discussing overcrowding of the T1 tram at the Villa Costanza hub with Florence; the proposed measures included differential pricing for tourists and starting some runs from downstream stops to reserve seats for locals (proposals only).",
+   "source_title": "La giungla Villa Costanza. Tram al 'servizio' dei turisti. Nuovo assalto per il ponte. Pochi spazi per i fiorentini",
+   "source_url": "https://www.lanazione.it/firenze/cronaca/la-giungla-villa-costanza-tram-5295ea6d",
+   "confidence": "medium",
+   "id": 26,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "Comune di Firenze press-release pages (comune.fi.it / comune.firenze.it comunicati-stampa) returned HTTP 403, so only the ambiente.comune.fi.it Scudo Verde page was usable as a primary source.",
+  "FirenzeToday pages returned HTTP 403 and could not be used (mini-abbonamenti, Cerbero, park-and-ride fee increase).",
+  "Scudo Verde fine amounts conflict across sources (EUR 83 vs EUR 168), so no fine figure is recorded.",
+  "Santa Maria Novella garage capacity conflicts (570 per La Nazione vs 880 per Telepass), so only the La Nazione figure is used.",
+  "No opened source for Firenze Parcheggi concession terms/renewal, Parterre or Fortezza renovation, Careggi/Pieraccini-Meyer or Novoli/Leopolda garage capacities, Sant'Ambrogio or San Lorenzo capacity, Peretola/Nenni-Torregalli park-and-ride, or the PUMS.",
+  "No opened source for EV-charging counts in the city, tourist-coach rules beyond the Scudo Verde ticket, or Nardella-era ZTL changes.",
+  "Several La Nazione titles are reconstructed from search-result titles/URL slugs (e.g. tram, Villa Costanza, tourism pieces) and may differ slightly from the page headline; WebFetch gave summaries, so quotes should be rechecked."
+ ],
+ "dropped": {
+  "low confidence": 1
+ }
+}
