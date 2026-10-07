@@ -16,6 +16,7 @@ from pathlib import Path
 import alerts
 import feed_health
 import reports_job
+import watchdog
 from scrapers.registry import ADAPTERS
 from scrapers.runner import run_due_adapters
 
@@ -52,6 +53,7 @@ def main() -> None:
             conn.execute("PRAGMA busy_timeout=30000")
             run_due_adapters(conn, ADAPTERS)
             feed_health.run_if_due(conn)
+            watchdog.run_if_due(conn)      # repair what can be repaired, before alerts reports it
             alerts.run_if_due(conn)
             reports_job.spawn_if_due(conn)
             conn.close()

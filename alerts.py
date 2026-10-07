@@ -124,8 +124,9 @@ def check_outages(conn: sqlite3.Connection, dry_run: bool = False) -> int:
     before = {r[0]: r for r in conn.execute("SELECT source_id, since, silent, active, alerted_at FROM alert_state")}
     new = sorted(set(down) - set(before))
     back = sorted(set(before) - set(down))
-    # Try to fix the new ones first and alert only on what is left, so a phone
-    # alert means "this needs you", not "something happened".
+    # watchdog.run_if_due sweeps hourly, but a source that has just gone down
+    # should be tried before the alert goes out rather than up to an hour
+    # later, so alert only on what is still broken after a repair attempt.
     fixed = {}
     if new and not dry_run:
         for source_id, result in watchdog.sweep(conn, new).items():

@@ -150,6 +150,35 @@ def sweep(conn: sqlite3.Connection, source_ids) -> dict[str, dict]:
     return results
 
 
+CHECK_INTERVAL_SECONDS = 3600
+
+
+def run_if_due(conn: sqlite3.Connection) -> None:
+    """Hourly: try to repair every source that is currently down, not only the
+    ones that went down since the last check -- a fallback is most useful for
+    an outage that has been running for a day. Logged in scraper_runs as
+    adapter "watchdog", kind "sweep". Runs whether or not alerts are
+    configured: repairing does not depend on anyone being told."""
+    import traceback
+
+    import alerts
+    from scrapers import storage
+    from scrapers.runner import _is_due, _last_success_at
+
+    if not _is_due(_last_success_at(conn, "watchdog", "sweep"), CHECK_INTERVAL_SECONDS):
+        return
+    try:
+        down = sorted(alerts.down_sources(conn))
+        results = sweep(conn, down) if down else {}
+        fixed = [s for s, r in results.items() if r["resolved"]]
+        storage.record_run(conn, "watchdog", "sweep", "success", records_written=len(fixed))
+        if fixed:
+            print(f"[watchdog] repaired {', '.join(fixed)}")
+    except Exception as exc:
+        storage.record_run(conn, "watchdog", "sweep", "error", error_message=f"{exc}\n{traceback.format_exc()}")
+        print(f"[watchdog] sweep FAILED: {exc}")
+
+
 def line(source_id: str, result: dict) -> str:
     label = LABELS.get(result["outcome"], result["outcome"])
     detail = f" ({result['detail']})" if result.get("detail") else ""
