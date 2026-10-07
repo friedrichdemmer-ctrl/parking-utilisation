@@ -1,0 +1,162 @@
+{
+ "country": "Germany",
+ "city": "Bad Homburg",
+ "researched": "2026-10-08",
+ "verified": "2026-10-07",
+ "summary": "Bad Homburg's city-centre garages are run mainly by the municipal Kur- und Kongreß-GmbH, which raised garage tariffs on 1 April 2023 and moved four city-centre garages to a half-hour tariff on 1 May 2024; on-street fees and paid hours were changed in 2023 and again from 1 September 2024. The council adopted the mobility concept 2035 on 21 March 2024, whose starter measures include moving parked cars from streets into garages; the draft report's baseline (from a 2018 parking concept based on 2016 counts) found average garage occupancy of only about 43 percent. The U2 extension to the station is under construction with service targeted for 2029, the Galeria store was reported at risk in July 2026 (no closure decision), and a September 2026 tender (not yet awarded) covers new digital garage payment and access systems. The Güterbahnhof garage offers a EUR 50 monthly park-and-ride permit.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2023-04",
+   "text": "The city's parking company Kur- und Kongreß-GmbH raised garage tariffs on 1 April 2023 (Schloßgarage, Parkhaus am Markt, Kurhaus, Karstadt, Rathaus, Casino-Parkhaus and Parkhaus am Güterbahnhof). One hour went from EUR 1.50 to EUR 2.00 and three hours from EUR 3.00 to EUR 6.00. The company cited sharply higher operating costs (rents, security, cleaning) and a 10.2 percent rise in the consumer price index; the previous increase was on 15 January 2012. The notice says garages remain clearly cheaper than street parking (EUR 3 per hour, EUR 9 for three hours).",
+   "source_title": "Aktuelles I Parkhäuser Bad Homburg v. d. Höhe | Stadt Bad Homburg",
+   "source_url": "https://www.bad-homburg.de/de/erleben/informieren/parken/aktuelles",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-05",
+   "text": "From 1 May 2024 the Kur- und Kongreß-GmbH moved the Schloßgarage, Kurhausgarage, Karstadt-Parkhaus and Rathausgarage to a continuous half-hour tariff: the half hour stays at EUR 1 and the hour at EUR 2, but a stay of 1 hour 20 minutes falls from EUR 4.00 to EUR 3.00.",
+   "source_title": "Aktuelles I Parkhäuser Bad Homburg v. d. Höhe | Stadt Bad Homburg",
+   "source_url": "https://www.bad-homburg.de/de/erleben/informieren/parken/aktuelles",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-09",
+   "text": "The city council decided on 21 March 2024 to amend the parking fee ordinance, in force from 1 September 2024: zones Ost, West and Thomasbrücke EUR 0.40 per 10 minutes (minimum EUR 0.40); zone Süd and Horexstraße EUR 1.00 per 30 minutes and EUR 1.50 per 60 minutes (minimum EUR 1.00); fees at the Parkplatz Am Heuchelbach were dropped. The amendment is signed by Oberbürgermeister Alexander W. Hetjes (28 August 2024).",
+   "source_title": "10. Änderungssatzung zur Gebührenordnung zur Erhebung von Parkgebühren in der Stadt Bad Homburg v. d. Höhe (Parkgebührenordnung)",
+   "source_url": "https://bad-homburg.de/pdf-dokumente/announcements/generated/coo.1000.7700.9.185737.pdf",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-03",
+   "text": "On 21 March 2024 the city council adopted the integrated mobility and transport concept Bad Homburg 2035 (MoKo) as the basis for developing urban mobility over the next decade; the administration is to implement its 51 measures step by step.",
+   "source_title": "Mobilitätskonzept Bad Homburg 2035 | Stadt Bad Homburg",
+   "source_url": "https://www.bad-homburg.de/de/leben/mobilitaet/mobilitaetskonzept",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2023-10",
+   "text": "The mobility report (draft dated 9 October 2023) describes the baseline: four managed on-street parking zones (Altstadt, West, Ost, Süd) with 1,868 spaces, and ten public garages with 2,849 spaces; roughly a third of garage spaces are used by permit holders. It cites the 2018 draft parking management concept (based on 2016 counts) for average garage occupancy of 43 percent and on-street occupancy averaging 64 percent with maxima of 96 percent; the Kurhausgarage had the highest average (55 percent in daytime hours, 07-19), reaching above 90 percent at peaks in 2019 according to the Kur- und Kongress GmbH's own counts. The report concludes there are no serious capacity shortages and attributes the garage underuse partly to street tariffs having been cheaper than garage tariffs at the time, which it says has since been corrected.",
+   "source_title": "Integriertes Mobilitäts- und Verkehrskonzept Bad Homburg 2035 – Schlussbericht (draft dated 09.10.2023)",
+   "source_url": "https://app.bad-homburg.de/leben/mobilitaet/_mobilitaet/dokumente/2023/MoKo_Schlussbericht.pdf",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026",
+   "text": "The city's parking page states that visitors to the centre and Kurpark can choose between 10 garages and 3 parking decks or lots, with a parking guidance system showing currently free spaces. The Kur- und Kongreß-GmbH (department Parken + Sicherheit) operates 7 garages and 1 car park. The page's garage map, which shows free spaces per garage, listed seven garages (Casino-Parkhaus, Karstadt-Parkhaus, Kurhausgarage, Parkhaus La Vie, Parkhaus Louisen Arkaden, Rathausgarage and Schloßgarage), and the Bad Homburg app gives a free-space overview per garage.",
+   "source_title": "Parken in Bad Homburg v. d. Höhe | Stadt Bad Homburg",
+   "source_url": "https://www.bad-homburg.de/de/erleben/informieren/parken",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026",
+   "text": "The city's tariff overview lists capacities for the company-run garages: Kurhausgarage 343, Schloßgarage 311, Rathausgarage 250, Casino-Parkhaus 326, Parkhaus am Bahnhof 435, Parkhaus am Güterbahnhof 398 and Karstadt-Parkhaus 485 spaces, plus a 405-space garage at Seedammweg. Standard city-centre tariff: EUR 1.00 per half hour, EUR 20 daily maximum, EUR 5 evening ticket (from 18:00), EUR 4 Shopping-Samstag maximum (6:00-24:00) in Schloss, Rathaus and Karstadt; Casino-Parkhaus and Güterbahnhof EUR 1.50 per hour; Parkhaus am Bahnhof EUR 2 per hour. Karstadt-Parkhaus states no discount for customers of the Karstadt department store.",
+   "source_title": "Tarifübersicht Parkhäuser Bad Homburg v. d. Höhe | Stadt Bad Homburg",
+   "source_url": "https://www.bad-homburg.de/de/erleben/informieren/parken/uebersicht-parkhaeuser",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026",
+   "text": "The Dauerparkplätze page lists a EUR 50 per month Pendler-Ticket (park-and-ride) permit at the Parkhaus am Güterbahnhof (Horexstraße 1A); regular permits there cost EUR 90 per month and night parkers EUR 45. Permanent permits for the Kurhausgarage and Rathausgarage are not currently being newly issued because of high demand (waiting lists), while permits are offered for the Schloßgarage, Karstadt-Parkhaus, Parkhaus am Bahnhof, Casino-Parkhaus and Parkhaus am Güterbahnhof.",
+   "source_title": "Dauerparkplätze Parkhäuser Bad Homburg | Stadt Bad Homburg",
+   "source_url": "https://www.bad-homburg.de/de/erleben/informieren/parken/dauerparkplaetze",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-09",
+   "text": "The city of Bad Homburg published a tender on 9 September 2026 (deadline 9 October 2026) to completely renew five existing parking systems of Kur- und Kongreß-GmbH plus the Karstadt-Parkhaus system, adding licence plate recognition, QR-code functions, cashless web payment, digital discounts and self-service for short- and long-term parkers, installed during ongoing operation.",
+   "source_title": "Parking System for Smart Parking in Bad Homburg v. d. Höhe Urban Area | Patterno (tender notice ted-622769-2026)",
+   "source_url": "https://www.patterno.de/en/ausschreibungen/tender/stadtgebiet-bad-homburg-v-d-hoehe-smart-parking-parksystem-bad-homburg-v-d-hoehe-zztnl4u7oiym1zafii4xwtas",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-06",
+   "text": "On 19 June 2026 the Seedammweg garage (405 spaces, for the Taunus Therme and Seedammbad) reopened after a major fire, with a barrier and licence plate recognition, a digital info display with occupancy figures and a traffic light that blocks entry when full; it is reserved for spa guests (others pay EUR 50 per day) and part of the garage stays closed.",
+   "source_title": "Aktuelles I Parkhäuser Bad Homburg v. d. Höhe | Stadt Bad Homburg",
+   "source_url": "https://www.bad-homburg.de/de/erleben/informieren/parken/aktuelles",
+   "confidence": "high",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-07",
+   "text": "hessenschau reported on 22 July 2026 that the Galeria department store in Bad Homburg is among 33 of the chain's 83 stores whose future is at risk; Galeria is negotiating rents and floor space with landlords and said continuation depends on economic viability. No closure decision had been reported in the article.",
+   "source_title": "Galeria in Bad Homburg und Limburg: Zwei Filialen stehen auf der Kippe | hessenschau.de",
+   "source_url": "https://www.hessenschau.de/wirtschaft/galeria-in-bad-homburg-und-limburg-zwei-filialen-stehen-auf-der-kippe-v1,galeria-standorte-100.html",
+   "confidence": "high",
+   "id": 17,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2022",
+   "text": "The 'Vitale Innenstädte 2022' survey (about 600 passers-by in autumn 2022, commissioned by city management and economic development) rated the Bad Homburg centre 2.1 overall, but parking options only 3 and general car-friendliness 2.9, i.e. average against comparable towns. 64.3 percent named shopping as the main reason for visiting, 53.4 percent gastronomy and 23.1 percent leisure and culture.",
+   "source_title": "Studie \"Vitale Innenstädte\" | Stadt Bad Homburg",
+   "source_url": "https://www.bad-homburg.de/de/wirtschaft/citymanagement/studie-vitale-innenstaedte",
+   "confidence": "high",
+   "id": 18,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12",
+   "text": "hessenschau reported on 9 December 2025 that construction had started (Spatenstich) on the extension of the U2 from Gonzenheim to Bad Homburg station: about 1.6 km with 355 m in a tunnel, costing about EUR 200 million (initial forecasts put the city's share at almost EUR 52 million), with service targeted for 2029 at the latest. The article said the U2 would run to Gonzenheim for the last time on 11 January (2026), after which buses would replace it between Ober-Eschbach and Gonzenheim, and notes that over 70 percent voted for the extension in a 2018 citizen referendum.",
+   "source_title": "U2 wird nach Bad Homburg verlängert: Spatenstich für 200-Millionen-Projekt | hessenschau.de",
+   "source_url": "https://www.hessenschau.de/wirtschaft/u2-wird-nach-bad-homburg-verlaengert-spatenstich-fuer-200-millionen-projekt-v2,spatenstich-ubahnverlaengerung-100.html",
+   "confidence": "medium",
+   "id": 20,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2023-10",
+   "text": "The mobility report says Bad Homburg is more strongly shaped by commuting than average: surveyed commuters travel 27 km on average (national average 16.8 km), and by car longer distances are covered faster than by public transport. The station area combines the bus station, the 'Parkhaus am Bahnhof' with park-and-ride spaces and car sharing.",
+   "source_title": "Integriertes Mobilitäts- und Verkehrskonzept Bad Homburg 2035 – Schlussbericht (draft dated 09.10.2023)",
+   "source_url": "https://app.bad-homburg.de/leben/mobilitaet/_mobilitaet/dokumente/2023/MoKo_Schlussbericht.pdf",
+   "confidence": "medium",
+   "id": 23,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Fußgängerzone Louisenstraße: no dated decision or press release found beyond the description in the mobility report.",
+  "Regionalstadtbahn: no Bad Homburg-specific source found; only the U2 extension and a mention of the Regionaltangente West were sourced.",
+  "Bewohnerparken fee levels: no current Bad Homburg resident permit fee found (mobility report only gives about 1,900 permits issued, from the 2018 concept).",
+  "Rathaus, Schloss, Louisen-Arkaden, Am Bahnhof garage renovations or closures: no dated source found. Louisen-Arkaden ownership/operator (privately run per the mobility report) could not be confirmed on a primary page.",
+  "Operators APCOA, Contipark, Q-Park, Parkhaus Betriebs GmbH: no primary source opened; the city's own company Kur- und Kongreß-GmbH runs the city garages. Status of Parkhaus am Markt (in the April 2023 tariff change, absent from the current city garage list) not established.",
+  "Shift of retail demand to Main-Taunus-Zentrum / Nordwestzentrum, Hessentag, Weihnachtsmarkt, Spielbank visitor numbers, DHBW/Hochschule and headquarters commuter figures: no usable opened source.",
+  "Capacities differ from the feed: city lists Karstadt 485, Güterbahnhof 398, Am Bahnhof 435, Rathaus 250, Schloss 311, Kurhaus 343, so the feed's capacities (300, 198, 373, 135, 253, 236) apparently count a subset of spaces.",
+  "Local press (fnp.de, fr.de) is not accessible to the search tool; no Frankfurter Neue Presse or Rundschau articles were used. Stadtverordnetenversammlung minutes on parking and Oberbürgermeister politics were not found."
+ ],
+ "dropped": {
+  "low confidence": 10
+ }
+}

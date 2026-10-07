@@ -1,0 +1,225 @@
+{
+ "country": "Germany",
+ "city": "Braunschweig",
+ "researched": "2026-10-08",
+ "summary": "Braunschweig has steadily widened managed on-street parking in the centre: all spaces inside the Okerumflut became fee-paying in two phases (September 2023 and February 2024), followed by a EUR 9 24-hour ticket (May 2024) and EUR 29/EUR 79 long-term tickets in the Wall zone (December 2025). The council has repeatedly refused to loosen or tighten the regime, rejecting a CDU free-parking motion (reported July 2026) and a Greens/BIBS resident-permit increase (February 2026). The city's own Packhof garage reopened in August 2025 with 954 spaces after a long refurbishment, and the Eiermarkt garage went through closures and a planned cashless refit around the turn of 2024/25. Garages are a mix of municipal and external operators, with ContiPark listed at Wallstraße (605 spaces, EUR 2.90 per hour) and Eiermarkt. The Mobilitätsentwicklungsplan 2035+ (adopted February 2025) and the September 2026 tram order frame the longer-term shift towards public transport.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2022-11",
+   "text": "Braunschweig's administration proposed making all parking spaces within the Okerumflut fee-paying, ending free and parking-disc parking at places such as Neuer Weg, Kaiserstraße, Wilhelmitorwall, Inselwall, Gaußberg and Fallersleber-Tor-Wall. The report says the aim was to displace long-term and all-day parkers from public space, and that the Mobility, Civil Engineering and Contract Awards committee approved the proposal unanimously.",
+   "source_title": "Braunschweig: Kostenlose Parkplätze verschwinden aus Innenstadt",
+   "source_url": "https://regionalheute.de/braunschweig/kostenlose-parkplaetze-sollen-aus-der-innenstadt-verschwinden-braunschweig-1666775880/",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-12",
+   "text": "On 20 December 2022 the city council passed a new regulation expanding paid parking within the Okerumflut, on an amended SPD/Greens motion that took up suggestions from other groups. The report said fees were planned to start on 1 May 2023 in the first section, with further meters in autumn 2023 at the earliest.",
+   "source_title": "Parken in Braunschweig: Neue Verordnung beschlossen",
+   "source_url": "https://regionalheute.de/braunschweig/kostenpflichtiges-parken-in-braunschweig-rat-beschliesst-neue-verordnung-braunschweig-1671630244/",
+   "confidence": "low"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-09",
+   "text": "Phase 1 of the paid-parking expansion started on 1 September 2023 south of Celler Straße/Fallersleber Straße and on the east side of Wilhelmstraße: Monday to Saturday 9:00-20:00, zone 1 rates (EUR 0.90 per 30 minutes, EUR 1.80 per hour), maximum stay 3 hours, payable at meters or by PayByPhone. Resident permits then cost EUR 30.70 per year (EUR 15.35 for six months, EUR 61.40 for two years).",
+   "source_title": "Braunschweig: Parkgebührenpflicht wird ausgeweitet",
+   "source_url": "https://regionalheute.de/braunschweig/parkgebuehrenpflicht-innerhalb-der-okerumflut-wird-ausgeweitet-braunschweig-1693314943/",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-02",
+   "text": "Phase 2 of the paid-parking expansion started on 1 February 2024 for the area north of Celler Straße, Lange Straße and Fallersleber Straße inside the Okerumflut, with the same hours (Monday to Saturday 9:00-20:00) and zone 1 rates as phase 1.",
+   "source_title": "Braunschweig: In diesem Bereich werden jetzt Parkgebühren fällig",
+   "source_url": "https://regionalheute.de/braunschweig/ausweitung-der-parkgebuehrenpflicht-hier-muss-jetzt-gezahlt-werden-braunschweig-1704965266/",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-05",
+   "text": "A 24-hour parking ticket for EUR 9 became available from 1 May 2024 in parking zone Ib (the Wall area between the Okerumflut that became fee-paying in September 2023), purchasable after 5 hours of parking; the rest of the inner city kept its 180-minute maximum stay.",
+   "source_title": "24-Stunden-Parkschein für Braunschweig startet",
+   "source_url": "https://regionalheute.de/braunschweig/24-stunden-parkschein-in-der-innenstadt-jetzt-geht-es-los-braunschweig-1714464055/",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-09",
+   "text": "In a council proposal dated 22 September 2025 the administration said parking pressure in zone Ib, especially around the Wall areas, had fallen since fee-paying parking was extended inside the Okerumflut, leaving residents more free spaces; it also noted that there are no public car parks in the Wall areas. It proposed adding 7-day and 30-day tickets in zone Ib from 1 December 2025 for commuters and tradespeople.",
+   "source_title": "Stadt Braunschweig, Der Oberbürgermeister, 25-26453 Beschlussvorlage öffentlich (Zweite Satzung zur Änderung der ParkGO)",
+   "source_url": "https://www.braunschweig.de/politik_verwaltung/nachrichten/medien/Parken.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12",
+   "text": "From 1 December 2025 the city offers long-term parking tickets in the Wall-ring zone Ib: EUR 29 for 7 days and EUR 79 for 30 days, valid on consecutive calendar days including Sundays and holidays, bought only through parking apps. The report says the council approved the change on an administration proposal; the 30-day price is meant to be comparable with a monthly reserved space in a city-centre garage.",
+   "source_title": "Stadt Braunschweig führt Tickets für Langzeitparker in der Wallringzone ein",
+   "source_url": "https://regionalheute.de/braunschweig/stadt-fuehrt-tickets-fuer-langzeitparker-in-der-wallringzone-ein-braunschweig-1764586211/",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-02",
+   "text": "On 10 February 2026 the city council rejected, by a large majority, a Greens/BIBS motion to raise the annual resident parking permit from EUR 30.70 to a size-based fee of roughly EUR 180-424 from 2029; SPD, CDU and AfD voted against and Volt abstained.",
+   "source_title": "Ist Anwohnerparken in Braunschweig zu billig?",
+   "source_url": "https://regionalheute.de/braunschweig/ist-anwohnerparken-in-braunschweig-zu-billig-braunschweig-1770827042/",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-07",
+   "text": "A CDU motion to make parking free inside the city walls but outside the core area, to make Saturday parking free in the centre and to add a 15-minute free 'Brötchentaste' was rejected by a clear majority, according to a report of 6 July 2026; SPD, Greens and Die Fraktion speakers opposed it and the centre's paid-parking management stays.",
+   "source_title": "Braunschweig: Kostenloses Parken in der City wird nicht wieder möglich sein",
+   "source_url": "https://regionalheute.de/braunschweig/kostenloses-parken-in-der-city-wie-frueher-retro-vorstoss-erntet-kritik-braunschweig-1783336132/",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-02",
+   "text": "On 18 February 2025 the city council adopted the Mobilitätsentwicklungsplan 2035+ (MEP), which replaces the 1998 Verkehrsentwicklungsplan and contains 88 measures in 11 action fields, including stationary motor traffic (parking). The development process began in September 2020; the IHK says it is demanding economic impact assessments and guaranteed business accessibility in implementation.",
+   "source_title": "Mobilitätsentwicklungsplan 2035+ Stadt Braunschweig",
+   "source_url": "https://www.ihk.de/braunschweig/branchen/verkehr/verkehrspolitik/mobilitaetsentwicklungsplan-2035-stadt-braunschweig-5918732",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-04",
+   "text": "The citizens' initiative 'Stadt für alle', founded in 2024, staged temporary street-space actions on the Bohlweg on 28 April 2024, 21-22 September 2024 (European Mobility Week) and again in late April 2025. The initiative cites about 12,000 vehicles per day per direction on the Bohlweg as of 2016, mostly through traffic; this is an advocacy group's figure and not a city decision.",
+   "source_title": "Bohlweg – Stadt für alle",
+   "source_url": "https://stadtfueralle-bs.de/unsere-projekte/bohlweg/",
+   "confidence": "low"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-09",
+   "text": "Braunschweiger Verkehrs-GmbH ordered 12 new Twist 3.0 low-floor trams (option for up to 10 more) from PESA at about EUR 5.42 million net each, with EUR 24.0 million net of Lower Saxony subsidy; the vehicles are 33.3 m long and 2.40 m wide, with the first delivery at the end of 2029 and the full fleet in service by February 2031.",
+   "source_title": "Zwölf neue Straßenbahnen für Braunschweig",
+   "source_url": "https://regionalheute.de/braunschweig/zwoelf-neue-strassenbahnen-fuer-braunschweig-braunschweig-1790269243/",
+   "confidence": "low"
+  },
+  {
+   "topic": "demand",
+   "date": "2023-11",
+   "text": "In November 2023 the city presented an access concept for the pre-Christmas season because the Packhof underground garage was closed for refurbishment (expected to stay shut until the end of 2024 at that point). Measures: Magni garage entry until 22:00 and Eiermarkt entry until 21:00 (exit round the clock), about 40 temporary spaces on the Wollmarkt on Advent Saturdays, and a Park & Ride service from the Messegelände with bus line 413 for EUR 1 per person.",
+   "source_title": "Verwaltung stellt Konzept für gute Erreichbarkeit der Innenstadt in der Vorweihnachtszeit vor (Presseinformation 897/2023)",
+   "source_url": "https://www.braunschweig.de/politik_verwaltung/ob/textarchiv/textarchiv-2023/897_Parken_Vorweihnachtszeit_081123.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-11",
+   "text": "The city's November 2023 press release describes Magni and Eiermarkt as municipal underground garages, and says the garages Wilhelmstraße (closes 23:30), Haus Grüner Löwe, Wallstraße (open round the clock), Steinstraße (round the clock), ParkmaxX, Schlossarkaden (closes 21:30) and Schützenstraße (closes 20:30) are run by external operators.",
+   "source_title": "Verwaltung stellt Konzept für gute Erreichbarkeit der Innenstadt in der Vorweihnachtszeit vor (Presseinformation 897/2023)",
+   "source_url": "https://www.braunschweig.de/politik_verwaltung/ob/textarchiv/textarchiv-2023/897_Parken_Vorweihnachtszeit_081123.pdf",
+   "confidence": "low"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-11",
+   "text": "The city closed the Eiermarkt underground garage on Monday 25 November 2024 because its sprinkler system triggered repeated false alarms and two compressors had to be replaced (a rental unit bridged the delivery gap). The report notes this added to a shortage of central spaces while the Packhof garage, shut for refurbishment since early 2023, was not expected back before late May 2025.",
+   "source_title": "Braunschweig: Stadt sperrt Tiefgarage Eiermarkt – Parkplätze fehlen",
+   "source_url": "https://braunschweig.t-online.de/region/braunschweig/id_100539192/braunschweig-stadt-sperrt-tiefgarage-eiermarkt-parkplaetze-fehlen.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2024-10",
+   "text": "A report of 15 October 2024 says the Eiermarkt underground garage would be refurbished from 13 January 2025, with completion targeted for March 2025: cash payment would end, automatic number-plate recognition would replace barriers and tickets, and customers could pay at cashless terminals or online up to 48 hours after leaving. The article names the City of Braunschweig as operator.",
+   "source_title": "Braunschweiger Parkhaus: Bargeldzahlung bald nicht mehr möglich",
+   "source_url": "https://regionalheute.de/braunschweig/in-diesem-parkhaus-kann-man-bald-nicht-mehr-mit-bargeld-zahlen-braunschweig-1729019131/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-08",
+   "text": "The Packhof underground garage reopened on 20 August 2025 with 954 spaces after a refurbishment that cost EUR 20.1 million; flooding from heavy rain in summer 2023 and finds such as asbestos delayed completion. It has 12 EV charging points; round-the-clock operation was due from 1 November 2025, and until then it opens 7:00-24:00.",
+   "source_title": "Der „Packhof“ ist ab sofort wieder geöffnet (Presseinformation 535/2025)",
+   "source_url": "https://www.braunschweig.de/politik_verwaltung/ob/textarchiv/textarchiv-2025/535_Packhof_Eroeffnung_200825.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026",
+   "text": "The city's garage page says ten garages offer over 5,000 spaces in the centre. It lists ContiPark as operator of Eiermarkt (Güldenstraße 70) and Wallstraße, Park und Tank at Magni (Bohlweg 72), 'Galeria Parken' at Schützenstraße 4, Schloss Arkaden at Ritterbrunnen 1, and Parkhaus Bankplatz at Steinstraße 2; the page gives no space counts and carries no date.",
+   "source_title": "Parkhäuser in der Innenstadt",
+   "source_url": "https://www.braunschweig.de/leben/stadtplan_verkehr/parken-in-braunschweig/parkhaeuser.php",
+   "confidence": "medium"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026",
+   "text": "The city's garage page lists hourly rates and day maximums of EUR 1.20 and EUR 8 at Wilhelmstraße (open 6:00-23:30), EUR 2 and EUR 15 at Schützenstraße (Monday to Saturday 7:30-20:30), EUR 2 and up to EUR 20 at Schloss Arkaden, EUR 1.20 and EUR 9.60 at Packhof and Magni, and EUR 1.80 and EUR 18 at Steinstraße. The page carries no date.",
+   "source_title": "Parkhäuser in der Innenstadt",
+   "source_url": "https://www.braunschweig.de/leben/stadtplan_verkehr/parken-in-braunschweig/parkhaeuser.php",
+   "confidence": "medium"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026",
+   "text": "ContiPark lists Parkhaus Wallstraße (Wallstraße 1) with 605 spaces, open 24/7, at EUR 2.90 per hour with a maximum of EUR 19 per day (EUR 2.00 per hour and EUR 12 per day for Pcard holders), and 37 charging points of which 31 were accessible. The page carries no date.",
+   "source_title": "Parkhaus Wallstraße in Braunschweig",
+   "source_url": "https://www.contipark.de/de/parken/braunschweig/parkhaus-wallstrasse/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "technology",
+   "date": "2026",
+   "text": "The city's parking page says a parking guidance system helps visitors find free spaces, and that six payment apps are in use (PayByPhone, EasyPark, Parkster, Yellowbrick, mobilet, PARCO).",
+   "source_title": "Parken und Erreichbarkeit",
+   "source_url": "https://www.braunschweig.de/leben/innenstadt/parken.php",
+   "confidence": "low"
+  },
+  {
+   "topic": "ev",
+   "date": "2023-01",
+   "text": "The city's Christmas market access page says that free parking for electric vehicles on fee-paying public spaces ended on 1 January 2023, and that a parking guidance system shows location, opening hours and occupancy of garages.",
+   "source_title": "Anreise und Parken",
+   "source_url": "https://www.braunschweig.de/weihnachtsmarkt/park_ride.php",
+   "confidence": "low"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-08",
+   "text": "In its August 2025 reopening release the city says drivers can find a space in over ten garages during the day (Wallstraße, Steinstraße and Eiermarkt round the clock) and that seven free Park & Ride lots outside the core are linked to regular public transport.",
+   "source_title": "Der „Packhof“ ist ab sofort wieder geöffnet (Presseinformation 535/2025)",
+   "source_url": "https://www.braunschweig.de/politik_verwaltung/ob/textarchiv/textarchiv-2025/535_Packhof_Eroeffnung_200825.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2021-10",
+   "text": "The Parkhaus am Städtischen Klinikum (Salzdahlumer Straße) opened in early October 2021 with 1,300 spaces, run by APCOA; first 20 minutes free, EUR 1.20 for the first hour, EUR 1.40 per further hour, EUR 10 daily maximum, with EV charging billed via BS-Energy.",
+   "source_title": "Das kostet das Parken in Braunschweigs größtem Parkhaus",
+   "source_url": "https://regionalheute.de/braunschweig/das-kostet-das-parken-in-braunschweigs-groesstem-parkhaus-braunschweig-1634201755/",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-10",
+   "text": "TU Braunschweig announced paid parking on all its own car parks: EUR 10 per month for employees, students and guests, with a test phase from the end of 2025 and full operation in the first quarter of 2026, using camera-based number-plate recognition.",
+   "source_title": "TU Braunschweig führt Parkgebühren ein - auch Studenten sollen zahlen",
+   "source_url": "https://regionalheute.de/braunschweig/tu-braunschweig-fuehrt-parkgebuehren-ein-auch-studenten-sollen-zahlen-braunschweig-1760521723/",
+   "confidence": "low"
+  },
+  {
+   "topic": "demand",
+   "date": "2023-03",
+   "text": "On 13 March 2023 Mayor Thorsten Kornblum reacted to Galeria's announcement that it would close its last Braunschweig department store (Schuhstraße); the city's release recalls that the Galeria store on the Bohlweg closed in October 2020 and the former Karstadt building on Poststraße in September 2021.",
+   "source_title": "Verlust des letzten Warenhauses hinterlässt große Lücke (Presseinformation 195/2023)",
+   "source_url": "https://www.braunschweig.de/politik_verwaltung/ob/textarchiv/textarchiv-2023/195_Galeria_Schuhstrasse_Schliessung_neu_030323.pdf",
+   "confidence": "low"
+  }
+ ],
+ "gaps": [
+  "Ratsinfo (ratsinfo.braunschweig.de) documents sit behind a bot-check page and could not be opened, so the Okerumflut evaluation (DS 24-24003), MEP measure K7 on Bohlweg through-traffic and the Packhof decision papers are not sourced.",
+  "Hagenmarkt and Schloss-Arkaden redevelopment, and any shift of demand to shopping centres (Schloss-Arkaden, Weststadt, Rautheim): no openable source found with dated facts.",
+  "Umweltzone / Luftreinhalteplan current status: no openable, dated source obtained.",
+  "Official current capacities for Eiermarkt, Wilhelmstraße and Schützenstraße (the city garage page gives no space counts), and whether the Eiermarkt refit planned for January 2025 was completed.",
+  "Dated history of tariff changes at Wallstraße, Eiermarkt, Wilhelmstraße and Schützenstraße, and any Wallstraße-specific news explaining its low weekday use.",
+  "Stadtbahn expansion decisions (2.65 m vehicle concept) and Fußgängerzone/Verkehrsberuhigung decisions for Damm and Kohlmarkt: only the September 2026 tram order and the Bohlweg initiative could be sourced.",
+  "Eintracht stadium, Volkswagen and Messe demand effects beyond the Christmas Park & Ride service; Braunschweiger Zeitung and NDR are not accessible to the research tools."
+ ]
+}

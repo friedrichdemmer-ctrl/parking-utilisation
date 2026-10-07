@@ -1,0 +1,265 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Opened regionalHeute article of 09.11.2022: city administration's proposal (Beschlussvorlage), approved unanimously by the Mobility, Civil Engineering and Contract Awards committee on 8 Nov 2022; street examples and displacement aim match. Headline says 'Beschlossen' but only a committee vote, which the item states correctly. Title matches page title.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Article of 21.12.2022: council meeting 'gestern' (Tue 20 Dec 2022); SPD/Greens variant passed, incorporating other groups' suggestions; fees from May 2023 in first section, further meters autumn 2023 at the earliest. Note body says the council tasked the administration with the steps (headline says 'neue Verordnung beschlossen'); the May 2023 plan was not met (phase 1 began Sept 2023, see item 2). Overlaps thematically with item 0 (same measure, earlier step).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Article of 29.08.2023: phase 1 from Fri 1 Sept 2023, south of Celler/Fallersleber Straße and east side of Wilhelmstraße; Mon-Sat 9-20; zone 1 rates 0.90/30 min, 1.80/60 min; max stay 3 h; PayByPhone; resident permits 15.35/30.70/61.40. All match. Article is a pre-start announcement; item 3's and item 4's articles confirm the phase was completed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Article of 11.01.2024: phase 2 begins 1 Feb 2024, area north of Celler Straße, Lange Straße and Fallersleber Straße; same hours, zone 1 rates, 3 h max. Source is a pre-start announcement ('Beginn ist am 1. Februar'); item 4's article confirms this area became fee-paying by Feb 2024.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "Article of 30.04.2024 confirms: zone Ib created 1 May 2024, 24-hour ticket EUR 9 purchasable from 5 h parking, 0.90 per 30 min, rest of inner city keeps 180-min limit. But the draft's parenthetical '(the Wall area between the Okerumflut that became fee-paying in September 2023)' is garbled and the article does not say 'Wall area'; it says zone Ib is mostly the area made fee-paying between Sept 2023 and Feb 2024. Article also notes 1 May is a holiday so the rule applies de facto from 2 May.",
+   "corrected_text": "A 24-hour parking ticket for EUR 9 was introduced from 1 May 2024 (in practice from 2 May, as 1 May is a holiday) in parking zone Ib, which largely covers the area made fee-paying inside the Okerumflut between September 2023 and February 2024; it can be bought after 5 hours of parking, the rate stays EUR 0.90 per 30 minutes, and the rest of the inner city kept its 180-minute maximum stay.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "PDF (Beschlussvorlage 25-26453, dated 22.09.2025) read via pypdf: parking pressure in zone Ib esp. Wall areas has fallen; proposal for 7- and 30-day tickets in zone Ib from 1 Dec 2025 for e.g. employees and tradespeople; proposal is correctly written as a proposal. Two issues: the source says there are no public parking GARAGES (Parkhäuser) in the Wall areas, not 'public car parks'; and the source_title is a composite of header lines (the PDF has no title metadata; the subject line is 'Zweite Satzung zur Änderung der Gebührenordnung ... (ParkGO)'). The same PDF also contains the statute text 'vom 4. November 2025' (adopted, in force 1 Dec 2025), so the proposal was adopted; overlaps with item 6 (same measure).",
+   "corrected_text": "In a council proposal dated 22 September 2025 the administration said parking pressure in zone Ib, especially around the Wall areas, had fallen since fee-paying parking was extended inside the Okerumflut, leaving residents more free spaces; it also noted that there are no public parking garages in the Wall areas. It proposed adding 7-day and 30-day tickets in zone Ib from 1 December 2025 for commuters and tradespeople.",
+   "corrected_title": "Zweite Satzung zur Änderung der Gebührenordnung für das Parken auf gebührenpflichtigen Parkplätzen in der Stadt Braunschweig (ParkGO) - Beschlussvorlage 25-26453",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Article of 01.12.2025: 7-day EUR 29 and 30-day EUR 79 tickets for the Wallring zone, consecutive calendar days incl. Sundays/holidays, app purchase only, council adopted on administration proposal, 30-day price about the level of a monthly permanent space in the city centre. All match. Note the article says Parco was initially unavailable for these tickets (item 20 lists six apps generally). Confirmed also by the statute text in the item 5 PDF. Overlaps with item 5.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Article of 11.02.2026: council on Tue 10 Feb 2026 rejected by large majority the Greens/BIBS motion; fee formula EUR 40 x length x width from 2029, EUR 180 (Smart) to EUR 424 (S-Class); current EUR 30.70. Rejection is correctly written as a rejection. Error: the article does not say 'Volt abstained'; it says the Fraktion BS (Die Fraktion.BS) abstained, while Volt's Thomas Behrens called the approach right but premature. It also does not report vote counts for SPD/CDU/AfD, only that their speakers criticised the motion.",
+   "corrected_text": "On 10 February 2026 the city council rejected, by a large majority, a Greens/BIBS motion to raise the annual resident parking permit from EUR 30.70 to a size-based fee of roughly EUR 180-424 from 2029; SPD, CDU and AfD councillors criticised the proposal and the group Die Fraktion.BS abstained.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Article of 06.07.2026: CDU motion (free parking inside the walls but outside the core, free Saturday parking in the centre, 15-minute 'Brötchentaste') rejected by clear majority at the latest council meeting; SPD, Greens and Die Fraktion (Behrens) spoke against. Written as a rejection, correctly. Meeting date not given, report date 6 July 2026 is.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "IHK Braunschweig page (Stand 06/2025): council adopted the MEP 2035+ on 18 Feb 2025; replaces 1998 Verkehrsentwicklungsplan; 88 measures in 11 fields incl. 'Ruhender Kfz-Verkehr'; process started Sept 2020; IHK demands economic impact checks and equal accessibility of businesses/city centres. Source is the chamber of commerce, not the city; page title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Opened the initiative's page: founded 2024; actions 28 April 2024, one Saturday in Sept 2024 (21 Sept, between Kinderweltag 21.09 and car-free Sunday 22.09, in Mobility Week 16-22 Sept), and the last week of April 2025 (two consecutive days); about 12,000 vehicles per day per direction as of 2016, 'mainly through traffic and posers'. The draft's '21-22 September 2024' is inaccurate (the action was Saturday 21 Sept). The page says nothing about parking: very weak relevance, advocacy source. Candidate to drop.",
+   "corrected_text": "The citizens' initiative 'Stadt für alle', founded in 2024, staged temporary street-space actions on the Bohlweg on 28 April 2024, on Saturday 21 September 2024 (during European Mobility Week) and over two days in the last week of April 2025. The initiative cites about 12,000 vehicles per day per direction on the Bohlweg as of 2016, which it says are mainly through traffic; this is an advocacy group's figure and not a city decision.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Article of 24.09.2026 (BSVG press release): contract with PESA Bydgoszcz signed at InnoTrans for 12 Twist 3.0 low-floor Stadtbahn vehicles, option for up to 10 more, about EUR 5.42 m net each, EUR 24.0 m net Lower Saxony funding, 33.3 m x 2.40 m. Delivery and service dates are forecasts in the source ('soll Ende 2029 eintreffen', first service planned March 2030, all twelve 'sollen bis Februar 2031' in service), but the draft writes them as facts. Nothing about parking: low relevance, candidate to drop.",
+   "corrected_text": "In September 2026 the Braunschweiger Verkehrs-GmbH (BSVG) signed a contract with PESA Bydgoszcz for 12 new Twist 3.0 low-floor Stadtbahn vehicles (option for up to 10 more) at about EUR 5.42 million net each, supported by EUR 24.0 million net of Lower Saxony funding; the vehicles are 33.3 m long and 2.40 m wide. According to the report, the first vehicle is due to arrive at the end of 2029, first passenger service is planned for March 2030 and all twelve are planned to be in service by February 2031.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "City press release 897/2023 of 8 Nov 2023 (PDF read via pypdf): Packhof closed for refurbishment, expected to stay shut until end of 2024; Magni entry until 22:00, Eiermarkt entry until 21:00, exit round the clock; Wollmarkt ca. 40 temporary spaces on Advent Saturdays; P+R from Messegelände with bus 413, EUR 1 per person. Measures are partly worded as planned ('vorgesehen') in the source. Same PDF as item 13 (overlap/duplicate source).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Same press release 897/2023: calls Magni and Eiermarkt 'städtische Tiefgaragen'; says Wilhelmstraße, Haus Grüner Löwe, Wallstraße, Steinstraße, ParkmaxX, Schlossarkaden, Schützenstraße 'werden von externen Anbietern betrieben' with the stated closing times. Matches. Eiermarkt operator ambiguity: this 2023 release says municipal; the city garage page (item 17) links Eiermarkt to a ContiPark page; the 2024 regionalHeute article (item 15) says the city owns three garages. Not resolved here. Overlaps with item 12 (same source).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "t-online article of 26.11.2024 (title as headline; page <title> tag empty): city closed Tiefgarage Eiermarkt at short notice on Monday (25 Nov 2024), sprinkler system malfunction shown by repeated false alarms, two compressors to be replaced, a loan unit to bridge delivery time; Packhof under refurbishment since early 2023. Difference: the source says that in September the city announced completion by end of May 2025, not that it was 'not expected back before late May 2025'.",
+   "corrected_text": "The city closed the Eiermarkt underground garage at short notice on Monday 25 November 2024 because its sprinkler system triggered repeated false alarms and two compressors had to be replaced (a rental unit was to bridge the delivery time). The report notes this added to a shortage of central spaces while the Packhof garage, under refurbishment since early 2023, was by then expected to be finished by the end of May 2025 instead of the end of 2024.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "regionalHeute article of 15.10.2024: city (on request, spokesman Adrian Foitzik) says a cashless ANPR barrier-free system is PLANNED for Eiermarkt, works to start 13 January (2025), finished by March 2025; no cash; pay at cashless terminals or online up to 48 h after exit; no fee change. Plan correctly worded. Problem: the article never calls the city 'operator'; it says only that 24-hour operation is planned in 'all three garages that belong to the City of Braunschweig' (Eiermarkt is not named in that sentence). The article does not say whether the refit was done. Eiermarkt operator is ambiguous across sources (see items 13, 17); not resolved. Overlaps with item 14 (same garage).",
+   "corrected_text": "A report of 15 October 2024 says that, according to the city press office, the Eiermarkt underground garage was to be refitted from 13 January 2025 with completion targeted for March 2025: cash payment would end, barriers would be removed and automatic number-plate recognition used instead, and customers could pay at cashless terminals or online up to 48 hours after leaving. The article says the city owns three car parks (planning 24-hour operation in all three) but does not explicitly name an operator for Eiermarkt.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "City press release 535/2025 of 20 Aug 2025 (PDF): Packhof reopened Wed 20 Aug 2025, 954 spaces, EUR 20.1 m total cost, flooding in summer 2023 and asbestos finds delayed completion, 12 EV charging points, 24-hour operation from 1 Nov, until then 7:00-24:00. All match; 'was due' is correctly hedged. Item title omits the subtitle quote after the colon, acceptable. Same PDF as item 22 (overlap).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "City page 'Parkhäuser in der Innenstadt' (title matches). Undated: only a '(c) 2026 Stadt Braunschweig' footer, so say 'undated' (date '2026' is just the footer year). Confirms 'ten garages, over 5,000 spaces', addresses (Bohlweg 72, Güldenstraße 70, Steinstraße 2, Schützenstraße 4, Ritterbrunnen 1) and no per-garage space counts. BUT the page text does not name any operator; each garage only has a 'Link zum Betreiber'. The operators were inferred from link targets: Eiermarkt and Wallstraße links go to mein-contipark.de, Magni to parkundtank.de, Schützenstraße 4 to galeria-parken.de, Schloss to schloss-arkaden.de, Steinstraße to parkhausambankplatz.de. Eiermarkt operator thus not labelled on the page; other sources differ (13: municipal; 15: city-owned). Overlaps with item 18 (same page).",
+   "corrected_text": "The city's undated garage page says ten garages offer over 5,000 spaces in the centre. It gives no per-garage space counts and names no operators in its text; its 'operator' links lead to ContiPark pages for Eiermarkt (Güldenstraße 70) and Wallstraße, to Park und Tank for Magni (Bohlweg 72), to Galeria Parken for Schützenstraße 4, to Schloss Arkaden for Ritterbrunnen 1 and to the Parkhaus am Bankplatz site for Steinstraße 2.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "supported",
+   "note": "Same city page: Wilhelmstraße 1.20/h and 8/day, open 6:00-23:30; Schützenstraße 2/h and 15/day, Mon-Sat 7:30-20:30; Schloss 2/h, max 20; Packhof and Magni 1.20/h, 9.60/day; Steinstraße 1.80/h, 18/day. All match. Page carries no date (footer 2026 only) and warns that posted prices may differ. Note the city page's Wallstraße tariff (2.90/h, 17/day) differs from ContiPark's own page (19/day), see item 19. Overlaps with item 17.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "partly",
+   "note": "ContiPark page (title 'Parkhaus Wallstraße in Braunschweig | Contipark'): Wallstraße 1, 24/7, 605 spaces (Gesamtanzahl 605, 597 standard + 8 disabled), 2.90/h, max 19/day, Pcard 2.00/h and 12/day. Matches the 605 vs 485 feed discrepancy question: the official operator page says 605. Issues: '31 of 37 charging points were accessible' is a live availability counter at fetch time ('31/37 E-Ladepunkte verfügbar'), not a stable fact, and the same page's details list 40 charging points; the city page (item 17) lists 38 and a 17 EUR day rate. Page is undated.",
+   "corrected_text": "ContiPark's undated page for Parkhaus Wallstraße (Wallstraße 1) lists 605 spaces (597 standard, 8 disabled), open 24/7, at EUR 2.90 per hour with a maximum of EUR 19 per day (EUR 2.00 per hour and EUR 12 per day with a Pcard), and about 37-40 EV charging points (the page shows both numbers).",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "partly",
+   "note": "City page 'Parken und Erreichbarkeit' (title matches). Undated (footer only; text refers to the Packhof reopening, so it is from after Aug 2025). The six payment providers listed match (PayByPhone, EasyPark, Parkster, Yellowbrick, mobilet, PARCO). The page does not say the guidance system 'helps visitors find free spaces'; it calls it 'wichtige Orientierungshilfe' and mentions a city map with occupancy information. It also says over 5,000 spaces on street and in garages. Low value, generic.",
+   "corrected_text": "The city's undated parking page says there are over 5,000 spaces on public streets and in garages, describes the parking guidance system as an important orientation aid, and lists six mobile-payment providers (PayByPhone, EasyPark, Parkster, Yellowbrick, mobilet, PARCO).",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "partly",
+   "note": "City Christmas market page (H1 'Anreise und Parken'; page title 'Anreise und Parken | Weihnachtsmarkt braunschweig.de'): says free parking of electric vehicles on fee-paying spaces no longer possible since 01.01.2023 - matches. The guidance system gives 'Lage, Öffnungszeiten und Auslastung der Parkmöglichkeiten' (parking spaces and garages), not only garages. The page itself is an undated 'Weihnachtsmarkt 2026' event page; the 2023-01 date is the date of the rule, not of the page. Low value.",
+   "corrected_text": "The city's Christmas market access page (undated, 2026 edition) says that free parking for electric vehicles on fee-paying spaces has no longer been possible since 1 January 2023, and that the parking guidance system gives the location, opening hours and occupancy of parking options.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "supported",
+   "note": "Press release 535/2025 (PDF): 'in insgesamt über zehn Parkhäusern' a space during the day, Wallstraße, Steinstraße and Eiermarkt round the clock; seven free P&R lots outside the core served by regular public transport. Matches. Minor inconsistency across sources: 'over ten' here vs 'ten' on the city pages (items 17, 20). Same PDF as item 16 (overlap).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 23,
+   "verdict": "supported",
+   "note": "regionalHeute article of 14.10.2021: garage at Städtisches Klinikum, Salzdahlumer Straße, opened early October ('Anfang Oktober'), 1,300 spaces ('Braunschweigs größtes Parkhaus'), APCOA as Parkraumbewirtschafter, first 20 min free, 1.20 first hour, 1.40 each further, max 10/day, charging billed via BS-Energy. All match. Old (2021) and tariff may be outdated; low-medium value.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 24,
+   "verdict": "partly",
+   "note": "regionalHeute article of 15.10.2025: TU introduces paid parking on all its own car parks, EUR 10 per month, test phase end of 2025, full operation planned Q1 2026 ('soll'), camera-based plate recognition. Plan correctly hedged as announced. Differences: the fee is for 'Mitglieder der TU' (employees and students); the article says only that there will be special registration options for guests, service vehicles and company cars, plus exemptions for e.g. severely disabled people and hardship rules, not that guests pay EUR 10. TU car parks are private/institutional, not city policy.",
+   "corrected_text": "TU Braunschweig announced paid parking on all its own car parks: EUR 10 per month for TU members, with a test phase planned for the end of 2025 and full operation planned for the first quarter of 2026, using camera-based number-plate recognition; special registration options are planned for guests, service vehicles and company cars, and some groups, such as severely disabled people, may be exempt.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 25,
+   "verdict": "partly",
+   "note": "City press release 195/2023 of Mon 13 March 2023 (PDF): Mayor Kornblum reacted to Galeria's announcement to close the Schuhstraße store; Galeria on Bohlweg closed Oct 2020, former Karstadt house on Poststraße Sept 2021. Facts match. The source_title is truncated: full headline is 'Verlust des letzten Warenhauses hinterlässt große Lücke und kostet viele Arbeitsplätze'. The release says nothing about parking: weakest item, recommend dropping.",
+   "corrected_text": "On 13 March 2023 Mayor Thorsten Kornblum reacted to Galeria's announcement that it would close its last Braunschweig department store (Schuhstraße); the city's release recalls that the Galeria store on the Bohlweg closed in October 2020 and the former Karstadt building on Poststraße in September 2021.",
+   "corrected_title": "Verlust des letzten Warenhauses hinterlässt große Lücke und kostet viele Arbeitsplätze (Presseinformation 195/2023)",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Braunschweig extended fee-paying parking across the area inside the Okerumflut after a council decision in December 2022, with phase 1 starting on 1 September 2023 and phase 2 on 1 February 2024, and from 1 December 2025 added EUR 29 (7-day) and EUR 79 (30-day) tickets in the Wall-ring zone Ib. In July 2026 the council rejected a CDU motion to make parking free in parts of the centre. The Packhof underground garage reopened on 20 August 2025 with 954 spaces after a EUR 20.1 million refurbishment, and the council adopted the Mobilitätsentwicklungsplan 2035+ on 18 February 2025."
+}

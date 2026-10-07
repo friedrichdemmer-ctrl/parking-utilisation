@@ -1,0 +1,172 @@
+{
+ "country": "Finland",
+ "city": "Espoo",
+ "researched": "2026-10-08",
+ "verified": "2026-10-07",
+ "summary": "Espoo is expanding paid on-street parking to its city centres and metro and rail station surroundings: the Council set EUR 3.50/h (zone 1) and EUR 2.50/h (zone 2) from 1 January 2026, and the City Board approved the expansion principles in March 2026 (dated 2 March on the city's English news pages and 16 March in the minutes it cites). The 50% EV discount ended on 19 April 2026, and signs were announced to be replaced area by area, from June in Kaitaa and Leppavaara and from October in Tapiola and Otaniemi. Park-and-ride is priced separately, for example EUR 2 for 12 hours at Kivenlahti and at Tapiola Park with an HSL ticket, while the Raide-Jokeri light rail has run since 21 October 2023 and Espoonlahti metro station has its entrances in Lippulaiva.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2026-03",
+   "text": "The Espoo City Board approved principles for paid parking and decided that paid parking expands to Espoo's five city centres and to the surroundings of metro and railway stations. Zone 1 (closer to the centre) costs EUR 3.50 per hour and zone 2 EUR 2.50 per hour; fees apply Mon-Fri 8-20, Sat 8-18 and, in zone 1, Sun 8-18. Sports areas remain free. The Board also required a review of revenues and costs (including the split between city and parking-app companies) by spring 2027.",
+   "source_title": "Kaupunginhallitus: Maksullinen pysäköinti laajenee",
+   "source_url": "https://www.espoo.fi/fi/uutiset/2026/03/kaupunginhallitus-maksullinen-pysakointi-laajenee",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-03",
+   "text": "City of Espoo news (24 March 2026) says the City Board approved on 2 March 2026 the principles for expanding paid parking and new zone boundaries, and decided to end the 50% EV discount. Zone 1 covers densely populated areas within about 300 m of the city centre and zone 2 extends to about 600 m. A higher EUR 80 fine in zone 1 would apply if the Ministry of the Interior approves the proposal. The city estimates that the price increase (EUR 3.5/h zone 1, EUR 2.5/h zone 2, in force since early 2026) will bring EUR 2.5 million extra revenue in 2026 and EUR 4.5 million in following years. Paid parking is to take effect gradually as traffic signs are installed, estimated during summer and autumn 2026. Park-and-ride prices remain unchanged.",
+   "source_title": "Expansion of paid parking",
+   "source_url": "https://www.espoo.fi/en/news/2026/03/expansion-paid-parking",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-04",
+   "text": "Espoo discontinued its 50% parking-fee discount for fully electric cars; the City Board decision was taken in March 2026 and the last discount day was 19 April 2026 (announced 16 April 2026).",
+   "source_title": "Parking discount for electric vehicles ends in Espoo on 19 April 2026",
+   "source_url": "https://www.espoo.fi/en/news/2026/04/parking-discount-electric-vehicles-ends-espoo-on-19-april-2026",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12",
+   "text": "The Espoo City Council approved on 8 December 2025, as part of the 2026 budget, new on-street parking prices of EUR 3.50/hour (zone 1) and EUR 2.50/hour (zone 2) from 1 January 2026, with paid spaces and zones to be expanded regionally during 2026, mainly near public transport connections. The city also said it was seeking Ministry of the Interior authorisation to raise zone 1 fines from EUR 60 to EUR 80.",
+   "source_title": "Changes to paid parking from 1 January 2026",
+   "source_url": "https://www.espoo.fi/en/news/2025/12/changes-paid-parking-1-january-2026",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06",
+   "text": "On 17 June 2026 Espoo announced that, under the City Board's March 2026 decision, it would start updating traffic signs in the Kaitaa and Leppavaara areas in June; fees take effect immediately once signs are replaced (zone 1 EUR 3.50/h, zone 2 EUR 2.50/h; Mon-Fri 8-20, Sat 8-18, zone 1 also Sun 8-18).",
+   "source_title": "Paid parking to be expanded in Kaitaa and Leppävaara in June",
+   "source_url": "https://www.espoo.fi/en/news/2026/06/paid-parking-be-expanded-kaitaa-and-leppavaara-june",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-09",
+   "text": "On 18 September 2026 Espoo announced that traffic-sign changes extending paid parking to the Tapiola and Otaniemi areas would start in October 2026, following the City Board's March 2026 decision; fees apply immediately once signs are replaced (zone 1 EUR 3.50/h, zone 2 EUR 2.50/h).",
+   "source_title": "Paid parking to be expanded in Tapiola and Otaniemi in October",
+   "source_url": "https://www.espoo.fi/en/news/2026/09/paid-parking-be-expanded-tapiola-and-otaniemi-october",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-03",
+   "text": "A council initiative dated 23 March 2026, signed by 26 councillors, proposes abolishing mandatory parking-space norms for new construction so that parking is built as needed at market price and paid for by its users. It states that near metro stations Espoo still requires one space per 130 square metres of floor area or at least 0.5 spaces per dwelling, and that the environment and building committee already regularly deviates downward from the norm. This is an initiative (proposal), not a decision.",
+   "source_title": "Valtuustoaloite pysäköintinormista luopumiseksi",
+   "source_url": "https://www.espoo.fi/fi/kaupunki-ja-paatoksenteko/paatoksenteko/valtuusto/valtuustoaloite-pysakointinormista-luopumiseksi",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2023-12",
+   "text": "Aalto University announced on 18 December 2023 a campus parking pilot from 1 January 2024: most outdoor disc-parking areas in Otaniemi become paid (EUR 1/hour or EUR 45/month, Mon-Fri 8-18, plus payment-provider fees) and the Otaparkki car park opens with 260 paid spaces including 20 EV/hybrid charging spaces (EUR 1.50/hour or EUR 90/month). The page carries an update note of 15 February 2024 and links to a story that Otaparkki fees are being lowered, but gives no new figures.",
+   "source_title": "Otaniemen kampusalueen pysäköintikäytäntöjä yhtenäistetään vuoden vaihteessa",
+   "source_url": "https://www.aalto.fi/fi/uutiset/otaniemen-kampusalueen-pysakointikaytantoja-yhtenaistetaan-vuoden-vaihteessa",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2023-04",
+   "text": "Kivenlahti's park-and-ride car park (Kiviruukinkatu 2), built by Länsimetro Oy, opened on Saturday 1 April 2023 with 650 car spaces and 22 EV charging points. Park-and-ride costs EUR 2 per 12 hours plus EUR 1 per additional hour; operator EuroPark Finland Oy, open 24 hours, with rooftop solar panels of 100 kWp peak output.",
+   "source_title": "Kivenlahden liityntäpysäköintilaitos on valmistunut – käyttöön lauantaina 1.4.2023",
+   "source_url": "https://www.lansimetro.fi/uutiset/kivenlahden-liityntapysakointilaitos-on-valmistunut-kayttoon-lauantaina-1-4-2023/",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-01",
+   "text": "The AINOA Tapiola shopping centre site states that EuroPark Finland Oy has been the parking operator of Tapiola Park since 1 January 2026. The car park has 2,000 heated spaces, 22 EV charging points and 370 park-and-ride spaces, and one hour of parking is free for all users.",
+   "source_title": "Parking · Kauppakeskus AINOA Tapiola",
+   "source_url": "https://www.ainoatapiola.fi/en/parking",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-01",
+   "text": "From 1 January 2026 EuroPark's Tapiola Park park-and-ride (levels P3 and P4) charges EUR 2.00 for the first 12 hours and EUR 1.00 per 30 minutes otherwise. Users must present an HSL mobile-ticket QR code or HSL card immediately when parking starts; pedestrians reach the metro via the Sammonsilta passage.",
+   "source_title": "Liityntäpysäköinti Espoo, P-Liityntäpysäköinti Tapiola Park",
+   "source_url": "https://www.europark.fi/pysakointi/p-liityntapysakointi-tapiola-park/",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026",
+   "text": "The Tapiola Paikoitus Oy page for P-Urheilupuisto (Koivu-Mankkaantie 1) lists 200 park-and-ride spaces at EUR 2 per 12 hours when an HSL season or value ticket is validated; general parking is EUR 2/hour, with 40 EV charging spaces and 20 disabled spaces. The page does not give a total capacity and is undated.",
+   "source_title": "Urheilupuisto | Tapiola Paikoitus Oy",
+   "source_url": "https://www.tapiolapaikoitus.fi/placemarks/p-urheilupuisto",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2022-10",
+   "text": "When metro services commenced, Espoonlahti station was to provide 250 car spaces and more than 760 bicycle spaces; both station entrances are integrated into the Lippulaiva shopping centre, built by Citycon, whose predecessor was demolished in 2017. Lippulaiva is in Espoonlahti, not at Matinkylä.",
+   "source_title": "Metro makes Espoonlahti a public transport hub",
+   "source_url": "https://www.espoo.fi/en/news/2022/10/metro-makes-espoonlahti-public-transport-hub",
+   "confidence": "high",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2024-09",
+   "text": "In a notice dated 13 September 2024, Lansimetro said the HSL identification device for car park-and-ride at Espoonlahti had been moved from the entrance ramps at level P1 to the park-and-ride level P2 of the Lippulaiva parking structure, because the previous location at the entrances caused congestion; users need a valid public transport ticket.",
+   "source_title": "Espoonlahdessa autojen liityntäpysäköintitunnistautuminen siirretty P2-tasolle",
+   "source_url": "https://www.lansimetro.fi/uutiset/espoonlahdessa-autojen-liityntapysakointitunnistautuminen-siirretty-p2-tasolle/",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-10",
+   "text": "MTV Uutiset reported on 21 October 2023 that Raide-Jokeri light rail service, about 25 km between Keilaniemi in Espoo and Itakeskus in Helsinki, began that Saturday, with the first official departure leaving Otaniemi.",
+   "source_title": "Pikaratikan kyytiin jonotettiin jo aamuneljältä – katso videokooste ensimmäisestä matkasta",
+   "source_url": "https://www.mtvuutiset.fi/artikkeli/pikaratikan-kyytiin-jonotettiin-jo-aamuneljalta-katso-videokooste-ensimmaisesta-matkasta/8803586",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "HSL park-and-ride principles for 2025 and any rule that park-and-ride is free for ticket holders: HSL pages returned 403 or only search snippets; not sourced (Espoo pages show EUR 2 per 12 h tariffs instead).",
+  "Espoo parking policy (pysäköintipolitiikka) document and the parking norm for offices, plus norm reductions near metro stations: only the 1 per 130 m2 / 0.5 per dwelling figure via the council initiative was sourced.",
+  "Resident parking (asukaspysäköinti) rules and permit prices in Tapiola and Leppävaara: espoo.fi page gave no specifics.",
+  "Why Kivenlahti park-and-ride shows ~0% weekday occupancy: no source found on usage or data-reporting.",
+  "Lippulaiva (948) parking capacity, tariffs and operator: no source opened; note Lippulaiva is at Espoonlahti station, not Matinkylä. Also P-Urheilupuisto capacity of 796 vs 200 park-and-ride spaces, and Tapiola Park 1,565 vs 2,000 spaces, are unexplained.",
+  "Espoo city strategy 2025-2029 text on car use, Länsimetro extension plans (Kivenlahti metro centre station planned from end of 2027 is only a minor mention) and Matinkylä Iso Omena tariff changes: not sourced.",
+  "Aimo Park / EuroPark operator transition at Tapiola and Matinkylä: only the AINOA page (Tapiola Park, 1 Jan 2026) and an undated Länsimetro page were found; Matinkylä current operator unconfirmed.",
+  "Pages with date conflicts: Espoo's EV-discount article says the Board decided on 2 March 2026, while the Soukka/Finnoo page cites decision item 82 dated 16 March 2026; the exact paid-parking Board decision date is therefore given only as March 2026."
+ ],
+ "dropped": {
+  "low confidence": 4
+ }
+}

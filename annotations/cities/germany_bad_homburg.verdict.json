@@ -1,0 +1,245 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Page opened. News entry dated 15.03.2023 'Neue Parkgebuehren von 1. April 2023 an' matches: garages listed, EUR 1.50 to 2.00 per hour, EUR 3 to 6 for three hours, 10.2 percent CPI, rents/security/cleaning, last increase 15 Jan 2012, street parking EUR 3/9 'kuenftig'. Title matches. Overlaps with item 1 (which repeats the April 2023 garage rise).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Page opened; title and date (20.11.2023) match. Street zones, hours (18 to 21), fees, EV exemption abolished, garage first half hour 0.50 to 1.00, evening ticket 4 to 5 (all as of 1 April 2023) match. Council decision is described only as 'in 2023, by majority'. Partial overlap with items 0 and 4 (street hours/fees, garage rise).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Page opened; entry dated 30.04.2024 matches: Schlossgarage, Kurhausgarage, Karstadt, Rathausgarage, continuous half-hour tariff from 1 May 2024, 1h20 from EUR 4 to EUR 3. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "PDF opened (10. Aenderungssatzung). Council meeting 21.03.2024, in force 01.09.2024, EUR 0.40 per 10 min (min 0.40) for Ost/West/Thomasbruecke, EUR 1.00/30 min and 1.50/60 min (min 1.00) for Sued and Horexstrasse, Heuchelbach dropped, signed Hetjes 28.08.2024: all correct. But the last sentence (maximum stay of three hours, 30 minutes at Parkplatz Am Bahnhof) is NOT in this amendment; it comes from the consolidated ordinance (item 4's source). Overlaps heavily with item 4 (same ordinance, same 21 March 2024 decision).",
+   "corrected_text": "The city council decided on 21 March 2024 to amend the parking fee ordinance, in force from 1 September 2024: zones Ost, West and Thomasbrücke EUR 0.40 per 10 minutes (minimum EUR 0.40); zone Süd and Horexstraße EUR 1.00 per 30 minutes and EUR 1.50 per 60 minutes (minimum EUR 1.00); fees at the Parkplatz Am Heuchelbach were dropped. The amendment is signed by Oberbürgermeister Alexander W. Hetjes (28 August 2024).",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "PDF opened ('Ab September 2024 gueltige Fassung'). Footnotes confirm Council decision 30.03.2023 (para 1-3 of section 2 rewritten, para 4 deleted) and further adjustment 21.03.2024; hours and EUR 2.00/30-minute max stay at Parkplatz Am Bahnhof match. Document has no formal title beyond 'Gebuehrenordnung zur Erhebung von Parkgebuehren ... (Parkgebuehrenordnung)'; the draft title adds a descriptive suffix. Overlaps with items 3 and 1.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Page opened; title matches. States 21.03.2024 adoption by the Stadtverordnetenversammlung, basis for mobility over the next decade, administration begins step-by-step implementation of 51 measures.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "PDF press release dated 9 October 2023 opened. Ten starter measures listed incl. 'Verlagerung des ruhenden Verkehrs in die Parkhaeuser', Neuordnung Dorotheenstrasse/Loewengasse, Verbesserung des Verkehrsflusses auf dem Umgehungsring; OB Hetjes named; main goals reduce emissions and ensure accessibility; wording is 'soll'/planned. The PDF has no formal title, 'press release' label is the draft's. Note the release announces a public presentation on 18 Oct 2023 (not mentioned). Overlaps with item 5.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Report opened (stamped ENTWURF 09.10.2023, so draft). Upper Louisenstrasse (Haingasse to Rathaus) pedestrian zone crossed by roads, no Umweltzone, Luftreinhalteplan 2002, NO2 no longer at risk after Euro VI buses and an electric bus, Kaiser-Friedrich-Promenade traffic calming in the measure list: all supported. But the Altstadt zone is described as open in the daytime only to 'Anlieger' (frontage/access traffic), not 'residents'. Very weak parking relevance; air quality and Umweltzone details add little.",
+   "corrected_text": "The mobility concept report (draft dated 9 October 2023) says the upper Louisenstraße (Haingasse to Rathaus) is a pedestrian zone, though crossed by some motor-vehicle streets, and the Altstadt parking zone is a traffic-calmed area open in the daytime only to Anlieger (access traffic). It states there is no Umweltzone in Bad Homburg, that Hesse's air quality plan for the Rhine-Main area dates from 2002, and that the NO2 limits for spa towns are currently no longer at risk after the city bus fleet switched to Euro VI and an electric bus was bought. Its measures include traffic calming of Kaiser-Friedrich-Promenade (a proposed measure).",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Report opened (ENTWURF 09.10.2023). 1,868 on-street spaces in four zones, ten public garages with 2,849 spaces, about a third permit holders, 43 percent average garage occupancy (from 2018 draft concept, 2016 counts), Kurhausgarage 55 percent daytime, on-street average 64 percent with maxima of 96 percent, no serious capacity shortages: all in the report. Problems: the 'peaks above 90 percent in 2019' figure is from the Kur- und Kongress GmbH's own unpublished 2019 counts (footnote 36), not the 2018 concept; and the report adds that the tariff imbalance was countered in the meantime so garages are now cheaper than streets. Data are old (2016/2019). Overlaps with item 9 (same paragraph of the report).",
+   "corrected_text": "The mobility report (draft dated 9 October 2023) describes the baseline: four managed on-street parking zones (Altstadt, West, Ost, Süd) with 1,868 spaces, and ten public garages with 2,849 spaces; roughly a third of garage spaces are used by permit holders. It cites the 2018 draft parking management concept (based on 2016 counts) for average garage occupancy of 43 percent and on-street occupancy averaging 64 percent with maxima of 96 percent; the Kurhausgarage had the highest average (55 percent in daytime hours, 07-19), reaching above 90 percent at peaks in 2019 according to the Kur- und Kongress GmbH's own counts. The report concludes there are no serious capacity shortages and attributes the garage underuse partly to street tariffs having been cheaper than garage tariffs at the time, which it says has since been corrected.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Report opened (ENTWURF 09.10.2023). Three of ten public garages privately run (Louisen-Arkaden, Horex-Parkhaus, La Vie Shopping), rest by Kur und Kongress GmbH; guidance system linked to website and Bad Homburg app; mobil-parken/smartparking mobile parking: all as stated. It is a 2023 draft statement; the city's 2026 pages list Parkhaus am Gueterbahnhof (Horexstrasse) among the Kur- und Kongress GmbH garages, so 'Horex-Parkhaus' may be a different facility. Low value; overlaps with items 8 and 10.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Page opened; title matches. '10 Parkhaeuser und 3 Parkdecks bzw. -plaetze', Parkleitsystem, 'Kur- und Kongress-GmbH betreibt aktuell 7 Parkhaeuser und 1 Parkplatz', app overview: all supported. But the 7-name live list on the page (Casino, Karstadt, Kurhaus, La Vie, Louisen Arkaden, Rathaus, Schlossgarage) is the page's map of garages with free-space counters, not the company's list of operated garages; the tariff overview shows the company's seven as Kurhaus, Schloss, Rathaus, Casino, Bahnhof, Gueterbahnhof, Karstadt. The draft wording implies the company runs La Vie and Louisen-Arkaden. Overlaps with items 9 and 11.",
+   "corrected_text": "The city's parking page states that visitors to the centre and Kurpark can choose between 10 garages and 3 parking decks or lots, with a parking guidance system showing currently free spaces. The Kur- und Kongreß-GmbH (department Parken + Sicherheit) operates 7 garages and 1 car park. The page's garage map, which shows free spaces per garage, listed seven garages (Casino-Parkhaus, Karstadt-Parkhaus, Kurhausgarage, Parkhaus La Vie, Parkhaus Louisen Arkaden, Rathausgarage and Schloßgarage), and the Bad Homburg app gives a free-space overview per garage.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Page opened; title matches. Capacities (Kurhaus 343, Schloss 311, Rathaus 250, Casino 326, Bahnhof 435, Gueterbahnhof 398, Karstadt 485, Seedammweg 405), EUR 1.00 per half hour, EUR 20 daily max, EUR 5 evening ticket, EUR 4 Shopping-Samstag max (Schloss, Rathaus, Karstadt), Casino and Gueterbahnhof EUR 1.50/hour, Bahnhof EUR 2/hour, Karstadt no customer discount: all match. Page does not say Seedammweg is company-run, minor. Page is undated (live page). Overlaps with items 10, 13, 14.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Aktuelles page opened; entry dated 09.01.2023 confirms the Horexstrasse 'Parkhaus am Bahnhof' was renamed 'Parkhaus am Gueterbahnhof' from 1 January 2023. The claim that a separate 'Parkhaus am Bahnhof' (Basler Strasse 1) remains the station garage is not on this page; it appears only on the tariff overview page (other URL). Minor, low value.",
+   "corrected_text": "From 1 January 2023 the garage previously known as 'Parkhaus am Bahnhof' in Horexstraße was renamed 'Parkhaus am Güterbahnhof' (city notice of 9 January 2023).",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Dauerparkplaetze page opened; title matches. Supported: EUR 50/month 'Pendler-Ticket' at Gueterbahnhof, regular EUR 90, night parkers EUR 45, Kurhaus and Rathaus waiting lists/no new permits due to high demand, permits offered at Schloss, Karstadt, Bahnhof, Casino, Gueterbahnhof. NOT on this page: 'limited quota' and the job-ticket/annual-pass/RMV-ticket proof (those are on the tariff overview page) and the mobility-report sentence about P+R at Gonzenheim/Ober-Eschbach (report from 2023; Gonzenheim U-Bahn station has since been closed for U2 works). The EUR 50 permit is therefore supported but the draft cites the wrong page for the quota detail.",
+   "corrected_text": "The Dauerparkplätze page lists a EUR 50 per month Pendler-Ticket (park-and-ride) permit at the Parkhaus am Güterbahnhof (Horexstraße 1A); regular permits there cost EUR 90 per month and night parkers EUR 45. Permanent permits for the Kurhausgarage and Rathausgarage are not currently being newly issued because of high demand (waiting lists), while permits are offered for the Schloßgarage, Karstadt-Parkhaus, Parkhaus am Bahnhof, Casino-Parkhaus and Parkhaus am Güterbahnhof.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Tariff overview opened; title matches. Kurhaus 3 points (0.51/0.38 EUR per kWh), Schloss 3 (11 kW), Casino 3 (11 kW), Karstadt 5, Parkhaus am Bahnhof 20, Seedammweg none: all match. Low value (overlaps with item 11's source).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Patterno listing opened (third-party aggregator of TED notice 622769-2026, not the primary TED page). Contracting authority Stadt Bad Homburg Magistrat; published 09/09/2026; deadline 10/09/2026 10:00 with '2 days remaining' (consistent with 9 Oct 2026 on the 7 Oct check date, date format on the page is ambiguous); status Active; open procedure. Scope as stated: 5 Kur- und Kongress systems plus Karstadt garage renewed, licence plate recognition, QR, cashless web payment, digital discounting, self-service, installation during ongoing operation. It is an open tender, not an award; draft text keeps it as a tender. Title is the page's real title (draft appends the notice id).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Aktuelles page opened; entry dated 19.06.2026 matches: reopened 19 June 2026 10:00 after 'Grossbrand', 405 spaces, barrier, licence plate recognition, digital info display with occupancy, traffic light blocking entry when full, reserved for Taunus Therme/Seedammbad guests, EUR 50 daily flat rate otherwise, part remains closed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "hessenschau article opened; title matches, published 22.07.26. 33 of 83 Galeria sites 'auf der Kippe', Bad Homburg and Limburg named, negotiations on rents and floor space with landlords, retention depends on economic viability; article says stores could close if talks fail but no closure decision. Draft wording does not say closed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "supported",
+   "note": "City page opened; title matches. Survey autumn 2022 by IFH Koeln, about 600 passers-by, commissioned by Citymanagement and Wirtschaftsfoerderung; overall 2.1; parking options grade 3, general car-friendliness 2.9, 'average within comparison group'; 64.3 / 53.4 / 23.1 percent: all match. The page is undated (survey 2022).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "partly",
+   "note": "Page opened; title matches. Supported: video address by OB Hetjes on the planned new Kurhaus with casino operation; Buergerversammlung on 19.10.2023 with presentation of designs. The sentence about the Kurhausgarage EUR 3 theatre evening ticket is not on this page (it is on the tariff overview page) and has no link to the Zukunft Kurhaus project. Weak parking relevance, page content is thin (no figures, no dates beyond the assembly); recommend dropping.",
+   "corrected_text": "The city's 'Zukunft Kurhaus' project page features an address by Oberbürgermeister Hetjes on the planned new Kurhaus with casino operation (Spielbankbetrieb) and states that the citizens' assembly (Bürgerversammlung) took place on 19 October 2023, with a presentation of designs.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "partly",
+   "note": "hessenschau article opened; published 09.12.25; title matches. Spatenstich on Tuesday, about 1.6 km with 355 m tunnel, about EUR 200 million with city share almost EUR 52 million 'nach ersten Prognosen', 'spaetestens 2029' closing of the gap (planned commissioning 2028/2029), 2018 Buergerentscheid over 70 percent: supported. But the article (written 9 Dec 2025) only says the U2 'faehrt am 11. Januar das letzte Mal nach Gonzenheim' (future, year not stated, 'im neuen Jahr'); the draft states as a past fact that service ended on 11 January 2026. Neither this article nor the umleitung-u2 page confirms that it happened. Target 2029 is correctly worded as targeted.",
+   "corrected_text": "hessenschau reported on 9 December 2025 that construction had started (Spatenstich) on the extension of the U2 from Gonzenheim to Bad Homburg station: about 1.6 km with 355 m in a tunnel, costing about EUR 200 million (initial forecasts put the city's share at almost EUR 52 million), with service targeted for 2029 at the latest. The article said the U2 would run to Gonzenheim for the last time on 11 January (2026), after which buses would replace it between Ober-Eschbach and Gonzenheim, and notes that over 70 percent voted for the extension in a 2018 citizen referendum.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "supported",
+   "note": "City page opened (page title is literally 'umleitung-u2 | Stadt Bad Homburg'). U2X from 13 April 2026 between Ober-Eschbach (U), Gonzenheim (Ersatz) and Bad Homburg Bahnhof; lines 1, 11, 21, 35 and X27 available from Ober-Eschbach; route adjustments from 10.07.2026 after Quirinstrasse reopened: all match. Marginal for parking.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "partly",
+   "note": "IHK press release opened. Content supported (better accessibility of the centre, stronger commuter links Bad Homburg-Frankfurt, Regionaltangente West under construction). But the release is dated 5 December 2025 and welcomes the groundbreaking 'am 9. Dezember eingeleitet wird' (upcoming), not after it; and the real page title is longer than the draft's. Overlaps with item 20; lowest-value U2 item.",
+   "corrected_text": "On 5 December 2025 the IHK Frankfurt am Main welcomed the groundbreaking for the U2 extension, scheduled for 9 December, saying the direct station connection would improve the accessibility of the Bad Homburg centre and strengthen commuter links between Bad Homburg and Frankfurt; it also notes that the Regionaltangente West is under construction.",
+   "corrected_title": "U2-Lückenschluss in Bad Homburg macht Wirtschaftsstandort noch attraktiver IHK begrüßt den Spatenstich zur U-Bahn-Verlängerung am Dienstag - IHK Frankfurt am Main",
+   "corrected_date": "2025-12",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 23,
+   "verdict": "supported",
+   "note": "Report opened (ENTWURF 09.10.2023). Average commute of surveyed commuters 27 km vs national 16.8 km, car faster than public transport on longer distances, station area with bus station, 'Parkhaus am Bahnhof' with P+R and car sharing: all in section 2.2.10/2.2.11. Survey data are older (household and commuter survey from 2021).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Bad Homburg's city-centre garages are run mainly by the municipal Kur- und Kongreß-GmbH, which raised garage tariffs on 1 April 2023 and moved four city-centre garages to a half-hour tariff on 1 May 2024; on-street fees and paid hours were changed in 2023 and again from 1 September 2024. The council adopted the mobility concept 2035 on 21 March 2024, whose starter measures include moving parked cars from streets into garages; the draft report's baseline (from a 2018 parking concept based on 2016 counts) found average garage occupancy of only about 43 percent. The U2 extension to the station is under construction with service targeted for 2029, the Galeria store was reported at risk in July 2026 (no closure decision), and a September 2026 tender (not yet awarded) covers new digital garage payment and access systems. The Güterbahnhof garage offers a EUR 50 monthly park-and-ride permit."
+}
