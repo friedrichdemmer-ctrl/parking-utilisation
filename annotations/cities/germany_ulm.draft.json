@@ -1,0 +1,226 @@
+{
+ "country": "Germany",
+ "city": "Ulm",
+ "researched": "2026-10-07",
+ "summary": "Ulm has tightened parking policy: resident permits rose from 30 euros to 200 euros (Aug 2022) and to 300 euros (Feb 2026), when 'Mischparken' with a four-hour limit and fees began in areas around the centre. On-street meters are 2.50 euros per hour, with 3 euros reported as planned. The city-owned Ulmer Parkbetriebs-GmbH raised garage tariffs on 1 May 2025 (2.20 euros per hour, 20 euros daily maximum) and operates about eight central garages, including the Am Bahnhof garage next to the redeveloped station and the Sedelhöfe quarter. Tram Line 2 (Dec 2018), Park & Ride at Science Park II and Donauhalle, the B10 Blaubeurer Tor rebuild and the end of the Umweltzone (June 2024) shape access, and the Christmas market fills the garages on peak days.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2022-02",
+   "text": "On 16 Feb 2022 (reported 18 Feb) Ulm's Gemeinderat approved a resident parking permit fee of 200 euros per year, up from 30 euros, by 20 votes to 19, effective August 2022. The administration had proposed 300 euros with a transitional 200 euros; the FWG had suggested 150 euros. Greens and SPD backed the higher fee, CDU/UfA opposed it.",
+   "source_title": "Bewohnerparken in Ulm wird noch teurer als erwartet",
+   "source_url": "https://www.schwaebische.de/regional/ulm-alb-donau/ulm/bewohnerparken-noch-teurer-als-erwartet-90824",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01",
+   "text": "Ulm's new parking management for areas adjoining the city centre took effect on 1 Feb 2026 as 'Mischparken': permit holders may park without time limit, other users need a ticket or disc on weekdays 9:00-20:00 with a four-hour maximum. The resident permit fee rose from 200 to 300 euros per year from 1 Feb 2026; applications submitted before that date were still charged 200 euros.",
+   "source_title": "Anwohner in Ulm: Neues Parkraummanagement gilt ab 1. Februar - bis dahin noch einreichen und 100 Euro sparen",
+   "source_url": "https://www.ulm-news.de/weblog/ulm-news/view/dt/3/article/103769/Anwohner_in_Ulm:_Neues_Parkraummanagement_gilt_ab_1-_Februar_-_bis_dahin_noch_einreichen_und_100_Euro_sparen.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01",
+   "text": "From 1 Feb 2026 free parking ended in the zones around the centre: Zone F (Neustadt) became paid parking with a four-hour limit straight away, while in the other zones parking with a disc stays free for four hours until parking meters are installed.",
+   "source_title": "Kostenpflichtiges Parken startet in Ulm ab Februar",
+   "source_url": "https://www.schwaebische.de/regional/ulm-alb-donau/ulm/kein-kostenloses-parken-mehr-was-autofahrer-in-ulm-jetzt-wissen-muessen-4311099",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-05",
+   "text": "As of mid-May 2026 drivers pay 2.50 euros per hour at parking meters on public spaces in Ulm's centre; the article says that according to the city this is to cost 3 euros per hour in the coming year (planned, not yet in force). It also reports the resident permit raised to 300 euros from 200 euros in February.",
+   "source_title": "Das kostet das Parken in den Städten im Südwesten",
+   "source_url": "https://www.schwaebische.de/regional/baden-wuerttemberg/das-kostet-das-parken-in-den-staedten-im-suedwesten-4579850",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-04",
+   "text": "From 1 May 2025 Ulmer Parkbetriebs-GmbH raised its garage short-term rate from 2.00 to 2.20 euros per hour in Am Bahnhof, Deutschhaus, Salzstadel, Fischerviertel, Theater and CongressCentrumNord. The 24-hour maximum rose from 18 to 20 euros in Am Bahnhof, Am Rathaus, Deutschhaus, Salzstadel, Fischerviertel and Theater, and from 9 to 10 euros at CongressCentrumNord.",
+   "source_title": "Parkhäuser: Zum 1. Mai steigen die Parkgebühren in Ulm",
+   "source_url": "https://www.ulm-news.de/weblog/ulm-news/view/dt/3/article/100325/Parkhaeuser:_Zum_1-_Mai_steigen_die_Parkgebuehren_in_Ulm.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-04",
+   "text": "The operator gave rising operating and maintenance costs, and investment in technical infrastructure, upkeep, staff, cleaning and energy as reasons for the May 2025 garage tariff increase. The Am Bahnhof garage offers free 'Kiss + Ride' parking for up to 15 minutes. Surface parking was then 2.50 euros per hour.",
+   "source_title": "Soviel teurer wird das Parken in Ulm künftig",
+   "source_url": "https://www.schwaebische.de/regional/ulm-alb-donau/ulm/soviel-teurer-wird-das-parken-in-ulm-kuenftig-3527207",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Ulmer Parkbetriebsgesellschaft (PBG) operates eight public garages plus one for city employees and one for permit holders. The daily maximum is 20 euros Mon-Fri and 5 euros on Sundays and public holidays; no monthly permits are offered but permanent spaces need a minimum six-month commitment. Licence plate recognition operates in four garages, and 'Bike and Park' storage costs from 1 euro daily to 95 euros per year.",
+   "source_title": "FAQ",
+   "source_url": "https://parken-in-ulm.de/faq",
+   "confidence": "medium"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The operator's FAQ lists EV charging points in five garages: Am Bahnhof 32, Am Rathaus 9, Salzstadel 18, Fischerviertel 18 and Congress Centrum Nord 16.",
+   "source_title": "FAQ",
+   "source_url": "https://parken-in-ulm.de/faq",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The 'Parken in Ulm' site lists capacities of 558 (Am Rathaus), 400 (CCU Nord), 596 (Deutschhaus), 371 (Fischerviertel), 511 (Salzstadel) and 74 (Theater), plus Am Bahnhof 551, Sedelhöfe 676 (B+B Parkhaus GmbH & Co. KG), Frauenstraße 770 (MSDU), CCU Süd 234 (Maritim Hotel) and Kornhaus 70 (Stadt Ulm). At the time of reading Theater was shown as currently closed and Kornhaus as closed to short-term parkers for renovation work.",
+   "source_title": "Parken in Ulm",
+   "source_url": "https://www.parken-in-ulm.de",
+   "confidence": "medium"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "The ParkenUlm app, available on the Apple App Store and Google Play, gives a real-time overview of available spaces in Ulm's garages.",
+   "source_title": "Parken in Ulm",
+   "source_url": "https://www.parken-in-ulm.de",
+   "confidence": "medium"
+  },
+  {
+   "topic": "technology",
+   "date": "2023-09",
+   "text": "Ulmer Parkbetriebsgesellschaft continued its cooperation with DESIGNA: the operator runs 8 garages in the city centre with over 3,000 spaces. The Parkhaus am Bahnhof (540 spaces, opened 2022) has 7 cashless pay stations, 3 cash and card stations and a licence plate recognition system due to go live in mid-September 2023.",
+   "source_title": "DESIGNA continues cooperation with Ulmer Parkbetriebsgesellschaft",
+   "source_url": "https://designa.com/news/designa-führt-kooperation-mit-ulmer-parkbetriebsgesellschaft-fort",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-02",
+   "text": "Ulmer Parkbetriebs-GmbH announced (18 Feb 2025) that the Fischerviertel garage would be closed from 3 March to 28 May 2025 for urgent roadway renovation measures, recommending the Am Bahnhof garage as an alternative.",
+   "source_title": "Sanierungsarbeiten im Parkhaus Fischerviertel!",
+   "source_url": "https://parken-in-ulm.de/blog/archiv-2/sanierungsarbeiten-im-parkhaus-fischerviertel-8",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2020-04",
+   "text": "Ulm's municipal Parkbetriebsgesellschaft reported that the underground garage and passage at the main station would cost about 65 million euros, the third cost increase, with 32 EV charging stations planned and a temporary reduced daily rate of 5.40 euros at the time.",
+   "source_title": "Parkhaus am Ulmer Hauptbahnhof wird schon wieder teurer",
+   "source_url": "https://www.schwaebische.de/regional/ulm-alb-donau/ulm/parkhaus-am-ulmer-hauptbahnhof-wird-schon-wieder-teurer-211089",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2014-07",
+   "text": "The 501-space Sedelhof underground garage closed in February 2013 to make way for the Sedelhöfe development; the parking company's ticket sales fell 7% to 2.9 million and it went from eight to seven public facilities with 2,765 spaces. The article noted the 1969 Theater garage would need substantial investment.",
+   "source_title": "Schließung der Sedelhof-Garage hat Folgen",
+   "source_url": "https://www.schwaebische.de/regional/ulm-alb-donau/ulm/schliessung-der-sedelhof-garage-hat-folgen-775405",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2019-05",
+   "text": "The Sedelhöfe project beside the main station was described as a 220-million-euro development with a new garage of 700 spaces, accessed via Keltergasse and Wengengasse, with surrounding streets being rebuilt (reported May 2019, before opening).",
+   "source_title": "Viele Baustellen rund um die Sedelhöfe",
+   "source_url": "https://www.schwaebische.de/regional/ulm-alb-donau/ulm/viele-baustellen-rund-um-die-sedelhoefe-249628",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2020-07",
+   "text": "The Sedelhöfe shopping quarter, four new buildings between the main station and the shopping mile, was officially handed over to the city in July 2020, four years after groundbreaking; vacancies still dominated at the time.",
+   "source_title": "Einkaufsquartier: Stadt Ulm eröffnet Sedelhöfe",
+   "source_url": "https://www.lebensmittelzeitung.net/handel/nachrichten/Einkaufsquatier-Stadt-Ulm-eroeffnet-Sedelhoefe-147310",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2022-03",
+   "text": "The Blautalcenter shopping centre reported 36% vacancy; new owner HLG planned a mixed-use district of about 1,000 homes with retail cut from 37,000 to at most 10,000 square metres and the underground parking retained (planned, construction possibly from 2023).",
+   "source_title": "Das Ende des Blautalcenters in Ulm ist besiegelt",
+   "source_url": "https://www.schwaebische.de/regional/ulm-alb-donau/ulm/das-ende-des-blautalcenters-in-ulm-ist-besiegelt-41495",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2017-12",
+   "text": "At the 2017 Ulm Christmas market, organisers expected about one million visitors; parking garages were nearly full on peak days despite free buses and trams, and shuttle buses ran between 11:00 and 18:00.",
+   "source_title": "Eine Million Besucher auf Weihnachtsmarkt",
+   "source_url": "https://www.schwaebische.de/regional/ulm-alb-donau/ulm/eine-million-besucher-auf-weihnachtsmarkt-326886",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-09",
+   "text": "Ulm has about 1,500 above-ground parking spaces in the old-town ring; the stated long-term aim is to shift them into the garages. The city joined 'Green Parking Day' on 21 Sep 2024 by converting about 30 spaces, while the IHK warned of lost parking for customers from the surrounding area.",
+   "source_title": "Wohin mit all den Autos? Dilemma um Deutschlands Innenstädte",
+   "source_url": "https://www.schwaebische.de/regional/ulm-alb-donau/ulm/wohin-mit-all-den-autos-dilemma-um-deutschlands-innenstaedte-2910475",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2021-06",
+   "text": "Ulm's Gemeinderat approved a mobility programme to reduce car use (regional S-Bahn as top priority, five mobility stations by 2024, more cycle lanes, cargo-bike incentives, traffic calming); only FWG and AfD voted against, and Greens, CDU and FWG disagreed over how much to discourage cars.",
+   "source_title": "Ulm will Autos von den Straßen holen, doch das sorgt bereits für Streit",
+   "source_url": "https://www.schwaebische.de/regional/ulm-alb-donau/ulm/so-will-ulm-autos-von-den-strassen-holen-135602",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2018-11",
+   "text": "Tram Line 2 (Kuhberg - main station - university/Eselsberg - Science Park) started on 9 Dec 2018; the 270-million-euro project began on 15 Oct 2015 and cut the main station to Eselsberg trip from 18 to about 7 minutes, with five-minute peak intervals.",
+   "source_title": "Neue Straßenbahnlinie 2 kann pünktlich starten",
+   "source_url": "https://www.schwaebische.de/regional/ulm-alb-donau/ulm/die-linie-2-ist-vollendet-321848",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "The Ulm tourism site recommends three Park & Ride locations with tram links to the main station: Science Park II (Line 2, 16 minutes), Donauhalle (Line 1, 9 minutes) and Kuhberg Schulzentrum (Line 2, 11 minutes, Saturdays only).",
+   "source_title": "Parking (tourismus.ulm.de)",
+   "source_url": "https://tourismus.ulm.de/en/planning/travel-planning/arrival-and-publictransport/parking/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2021-10",
+   "text": "In October 2021 Ulm's Gemeinderat decided to replace the accident-prone Blaubeurer Tor bridge on the B10 with a tunnel by the 2030 Landesgartenschau, with the roundabout to be replaced by two signalised junctions and major B10 restrictions expected from summer 2022.",
+   "source_title": "Gemeinderat beschließt Tunnelbau am tückischen Blaubeurer Tor",
+   "source_url": "https://www.schwaebische.de/regional/ulm-alb-donau/ulm/der-tunnel-am-blaubeurer-tor-in-ulm-kann-kommen-4723",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-03",
+   "text": "In March 2025 IHK Ulm voiced great concern about the B10 rebuild (Blaubeurer Tor and new Wallstraße bridge, expected to run to around 2030) and asked the city to avoid further traffic restrictions such as lane cuts on Neue Straße and Friedrich-Ebert-Straße near the main station.",
+   "source_title": "Verkehrsbehinderungen in der B10-Umbauphase in Ulm",
+   "source_url": "https://www.ihk.de/ulm/hauptnavigation/politik-presse/aktuelle-meldungen-pressemitteilungen/pressemitteilungen2025/maerz2/b10-umbauphase-ulm-6667378",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-06",
+   "text": "The green Umweltzone for Ulm (including the B10) was abolished effective 4 June 2024, and the reduced B10 speed limits (50 km/h in town, 70 km/h outside) were lifted as of 31 Dec 2024; NO2 at the Zinglerstraße station was reported well below the limit.",
+   "source_title": "Luftreinhalteplan für die Stadt Ulm",
+   "source_url": "https://rpt.baden-wuerttemberg.de/abt5/ref541/luftreinhalteplaene/seiten/luftreinhaltung-ulm/",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2016-07",
+   "text": "Neu-Ulm announced demolition of its station car park (opened Dec 1997, 392 spaces, closed May 2016 over structural damage), with a new 390-space underground garage planned for about 11.7 million euros; as interim 240 spaces were rented in the Glacis-Galerie garage.",
+   "source_title": "Parkhaus in Neu-Ulm wird abgerissen",
+   "source_url": "https://www.schwaebische.de/regional/ulm-alb-donau/ulm/parkhaus-in-neu-ulm-wird-abgerissen-560208",
+   "confidence": "medium"
+  }
+ ],
+ "gaps": [
+  "Verkehrsentwicklungsplan / Mobilitätskonzept and Fahrradentwicklungsplan details (only search snippets seen; ulm.de documents not opened)",
+  "Gemeinderat decisions on the 2025/2026 Parkraummanagement and the planned 3 euro/hour meter tariff (ulm.de returned HTTP 403, not bypassed)",
+  "Theater and Kornhaus garage closures: reasons and dates not sourced beyond the operator's status page",
+  "Deutschhaus, Am Rathaus, Salzstadel and Münsterplatz renovation history",
+  "Contipark, APCOA, Q-Park presence in Ulm",
+  "Donau-Center and Glacis-Galerie shift of demand (only a 2012 retail article seen), university hospital/university/Messe parking demand figures",
+  "Date of Bahnhofsplatz/Am Bahnhof garage opening beyond the DESIGNA statement of 2022",
+  "Tram expansion beyond Line 2 (Kohlplatte, Ludwigsfeld) not sourced from an opened page"
+ ]
+}

@@ -2,47 +2,48 @@
  "country": "Finland",
  "city": "Helsinki",
  "researched": "2026-10-07",
- "summary": "Helsinki is tightening car access gradually: paid resident/business parking is spreading to new districts (decision March 2026), resident permits cost 45-64.50 euros a month with a rise in zone C on 1 December 2026, and the city council approved a plan to turn Kaivokatu by the Central Station into a public-transport street (construction from 2028). On park-and-ride, the City Environment Board adopted principles in May 2025 that rule out new car lots in the core area and move towards paid use (Kulosaari became paid in November 2024), while utilisation recovered from 52 percent in 2021 to 62 percent in 2023. Downtown garages are largely private (Aimo Park, formerly Q-Park, and others), and the Port of Helsinki changed operator and payment apps on 1 October 2026. Planning rules were loosened in 2025 (proposed end of parking minimums in southern Helsinki and Pasila) and Kluuvi/Kaartinkaupunki planning favours underground parking.",
+ "verified": "2026-10-07",
+ "summary": "Helsinki is tightening car access step by step: resident permits cost 45-64.50 euros a month (zone C rises to 69.30 euros on 1 December 2026), and on 24 March 2026 the City Environment Board decided to extend resident and business parking to Käpylä, Kumpula, Toukola and Kulosaari, with roll-out expected from autumn 2026 or spring 2027. City council approved a zoning change on 6 May 2026 for Kaivokatu by the Central Station, which is planned to become a public-transport street, with construction planned from 2028. On park-and-ride, the City Environment Board adopted principles on 20 May 2025 that stop car park-and-ride spaces being built into new parking facilities in the core area and plan a staged move to paid use; a city document puts average car utilisation at 52 percent in 2021 and 62 percent in 2023 (a later paper cites 71 percent for 2023). In May 2025 the city proposed ending parking minimums for new housing south of Hakamäentie and in Pasila, and the Port of Helsinki announced new payment apps and enforcement from 1 October 2026.",
  "items": [
   {
    "topic": "tariffs",
-   "date": "2026",
+   "date": "2026-09-07",
    "text": "The City of Helsinki lists 16 resident parking zones (A-P). Monthly resident permit prices are 64.50 euros in zones B, C and D, 60 euros in zones A, E, F, H, I, J, K and L, and 45 euros in zones M, N, O and P; a second vehicle costs 1.5 times the standard rate. The page states that the price in zone C rises from 64.50 to 69.30 euros per month on 1 December 2026 (electric vehicles 52 euros).",
    "source_title": "Asukaspysäköinti (City of Helsinki)",
    "source_url": "https://www.hel.fi/fi/kaupunkiymparisto-ja-liikenne/pysakointi/asukaspysakointi",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
   },
   {
    "topic": "regulation",
-   "date": "2026-03",
+   "date": "2026-03-24",
    "text": "On 24 March 2026 the City Environment Board decided (9-4) to extend resident and business parking to Käpylä, Kumpula, Toukola and Kulosaari; Kuusisaari and Lehtisaari were left out. Other drivers would be limited to 4 hours on weekdays 6-24. Traffic-management plans were targeted for June 2026, with roll-out in autumn 2026 or spring 2027; the board asked for a study of paid guest parking beyond 4 hours.",
    "source_title": "Pysäköinti, asukas- ja yrityspysäköinnin laajentaminen uusille alueille, Käpylä, Kumpula, Toukola, Kulosaari",
    "source_url": "https://paatokset.hel.fi/fi/asia/hel-2026-001145",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
   },
   {
    "topic": "tariffs",
-   "date": "2026",
+   "date": "2026-09-09",
    "text": "Street parking in Helsinki costs 4 euros per hour in zone 1 (city centre) and 2 euros per hour in zone 2 (inner city). Charges apply weekdays 9:00-21:00 and Saturdays 9:00-18:00. Payment is by the apps Aimo, EasyPark, eParking.fi, Moovy and ParkMan (all add a service fee), by text message to 16234 (1 euro fee, one hour only) or at ticket machines.",
    "source_title": "Parking areas, prices and payment methods",
    "source_url": "https://www.hel.fi/en/urban-environment-and-traffic/parking/parking-areas-prices-and-payment-methods",
-   "confidence": "high"
-  },
-  {
-   "topic": "tariffs",
-   "date": "2021-10",
-   "text": "Background: a Helsinki parking-policy draft dated 10 September 2021 proposed (not decided) raising the resident permit from 30 to a maximum of 90 euros a month by 2029 and zone 1 street parking from 4.00 euros (2023) to 7.10 euros an hour (2029), with maximum annual rises of 10 percent, and a shift to real-time pricing in 2026. Later city pages (see resident-permit item) show actual 2026 prices are far lower than the proposal.",
-   "source_title": "Helsingin pysäköintiin kaavaillaan roimia korotuksia – katso suunnitelmat",
-   "source_url": "https://moottori.fi/uutinen/helsingin-pysakointiin-kaavaillaan-roimia-korotuksia-katso-suunnitelmat/",
-   "confidence": "low"
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
   },
   {
    "topic": "ev",
    "date": "2024-08",
-   "text": "Helsinki tightened its low-emission parking discount: from 1 January 2025 only fully electric vehicles get the 50 percent street-parking discount (CO2 threshold 0 g/km instead of 50 g/km); vehicles losing eligibility kept the discount until 31 December 2024. The city reviews the criteria every two years.",
+   "text": "In August 2024 Helsinki proposed tightening its low-emission parking discount: from 1 January 2025 only fully electric vehicles would get the 50 percent street-parking discount (CO2 threshold 0 g/km instead of 50 g/km), with vehicles losing eligibility keeping the discount until the end of 2024. The proposal was due before the city board on 26 August 2024; the page does not state the outcome. The city says the criteria are updated every two years.",
    "source_title": "Pysäköinnin vähäpäästöisyysalennus jatkossa vain täyssähköajoneuvoille",
    "source_url": "https://www.hel.fi/fi/uutiset/pysakoinnin-vahapaastoisyysalennus-jatkossa-vain-tayssahkoajoneuvoille",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
   },
   {
    "topic": "regulation",
@@ -50,15 +51,19 @@
    "text": "Helsinki proposed (for the City Environment Board on 6 May 2025) to scrap mandatory parking-space requirements for new housing south of Hakamäentie and in Pasila, and to cut the requirement elsewhere to about one space per 220-280 built square metres (previously 100-150).",
    "source_title": "Helsinki uudistaa pysäköintimääräyksiä: vähemmän pakollisia paikkoja uusiin asuinrakennuksiin",
    "source_url": "https://www.hel.fi/fi/uutiset/helsinki-uudistaa-pysakointimaarayksia-vahemman-pakollisia-paikkoja-uusiin-asuinrakennuksiin",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
   },
   {
    "topic": "regulation",
-   "date": "2026-05",
-   "text": "Helsinki city council approved the zoning change for Kaivokatu (in front of the Central Station) on 6 May 2026; it is not yet legally binding. Planning runs April 2025 to June 2027; phase 1 construction starts in 2028 with one lane per direction kept open; in phase 2, after the Esplanade street renovation (early 2030s), Kaivokatu becomes a public-transport-only street with car traffic redirected to the Esplanades.",
+   "date": "2026-05-06",
+   "text": "On 6 May 2026 Helsinki city council approved the zoning change for Kaivokatu in front of the Central Station; it is not yet legally binding. Planning runs April 2025 to June 2027. Construction is planned in two phases: phase 1 is planned to start in 2028, keeping one lane per direction open to cars; in phase 2, after the renovation of the Esplanade streets (which begins in the early 2030s), Kaivokatu is planned to become a public-transport street with car traffic moved to the Esplanades.",
    "source_title": "Kaivokadun ympäristö",
    "source_url": "https://www.hel.fi/fi/kaupunkiymparisto-ja-liikenne/kaupunkisuunnittelu-ja-rakentaminen/suunnitelmat-ja-rakennushankkeet/kaivokadun-ymparisto",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
   },
   {
    "topic": "regulation",
@@ -66,15 +71,19 @@
    "text": "Helsinki Times reported (17 Sept 2024) a city proposal that would restrict Kaivokatu to public transport, pedestrians and recreational use, with through traffic rerouted via the Esplanade streets; the city was also studying access to all underground car parks connected to the service tunnels from any entry point. Completion was expected in the early 2030s.",
    "source_title": "Helsinki proposes plans for a pedestrian-friendly city center and improved public transport",
    "source_url": "https://www.helsinkitimes.fi/finland/finland-news/domestic/25610-helsinki-proposes-plans-for-a-pedestrian-friendly-city-center-and-improved-public-transport.html",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
   },
   {
    "topic": "regulation",
-   "date": "2025",
+   "date": "2025-09-26",
    "text": "The transport and urban space plan for Kluuvi and Kaartinkaupunki (planning 3/2025-3/2026) is to determine how parking is developed, with a focus on increasing the use of underground parking facilities. The city is studying a new entrance to the central service tunnel from Hakaniemi and a service-tunnel link joining the eastern and western underground car parks; draft plans were due in autumn 2025 and completion in winter-spring 2026.",
    "source_title": "Transport and urban space plan for Kluuvi and Kaartinkaupunki",
    "source_url": "https://www.hel.fi/en/urban-environment-and-traffic/urban-planning-and-construction/plans-and-building-projects/transport-and-urban-space-plan-for-kluuvi-and-kaartinkaupunki",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
   },
   {
    "topic": "regulation",
@@ -82,23 +91,29 @@
    "text": "Yle reported on 20 November 2024 that Helsinki was investigating an emission-free traffic zone for central Helsinki, restricting combustion-engine vehicles. It was only under investigation (preliminary review by Aalto University researchers); the deputy mayor would not say when a first zone could exist, and proposals to decision-makers could come in 2025.",
    "source_title": "Helsinki considering emission-free vehicle zone",
    "source_url": "https://yle.fi/a/74-20125927",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
   },
   {
    "topic": "regulation",
    "date": "2025-09",
-   "text": "Helsinki completed its largest street reconstruction, Mannerheimintie, three months early, by end of September 2025. The street keeps two traffic lanes per direction (one for buses); the side streets Ruusankatu, Savilankatu and Sallinkatu became one-way toward Mannerheimintie, allowing additional parking spaces; the tramway was upgraded to future light-rail standards and new cycle paths were built.",
+   "text": "Helsinki Times reported on 9 September 2025 that the city expected the Mannerheimintie reconstruction, its largest-ever street project, to be completed by the end of September, three months early. Mannerheimintie keeps two traffic lanes per direction (one reserved for buses); Ruusankatu, Savilankatu and Sallinkatu were made one-way toward Mannerheimintie, allowing added parking spaces, trees and climbing-plant structures; the tramway was upgraded to future light-rail standards and new cycle paths were built.",
    "source_title": "Mannerheimintie overhaul finishes three months early in Helsinki",
    "source_url": "https://www.helsinkitimes.fi/finland/finland-news/domestic/27876-mannerheimintie-overhaul-finishes-three-months-early-in-helsinki.html",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
   },
   {
    "topic": "demand",
-   "date": "2026-11",
-   "text": "HSL and the City of Helsinki announced that tram service to Laajasalo (Crown Bridges) begins on Saturday 7 November 2026, with tram 11 (Pasila-Kruunuvuorenranta) and tram 12 (Railway Square-Yliskylä); bus-route adjustments follow on 7 January 2027. The 1.2 km Kruunuvuorensilta bridge, opened to pedestrians and cyclists in April 2026, carries no regular car traffic.",
+   "date": "2026-08-31",
+   "text": "The City of Helsinki announced (31 August 2026) that tram service to Laajasalo is scheduled to begin on Saturday 7 November 2026, with tram 11 (Pasila-Kruunuvuorenranta) and tram 12 (Railway Square-Yliskylä); bus-route changes are planned for 7 January 2027. The 1.2 km Kruunuvuorensilta Bridge opened to pedestrians and cyclists in April 2026 and allows no car traffic apart from emergency vehicles.",
    "source_title": "Tram services to Laajasalo to begin on 7 November",
    "source_url": "https://www.hel.fi/en/news/tram-services-to-laajasalo-to-begin-on-7-november",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
   },
   {
    "topic": "demand",
@@ -106,71 +121,79 @@
    "text": "Helsinki city documents (city board, 22 April 2024) give average car park-and-ride utilisation across Helsinki of 83 percent in 2019, 52 percent in 2021 and 62 percent in 2023; the most popular lots are full while others have ample room. Free park-and-ride lots use a 12-hour time limit, and about 12 percent of users do not continue by public transport. Puotila, Itäkeskus and Mellunmäki metro-station lots were free at the time, and the city said it would start preparing park-and-ride principles in 2024.",
    "source_title": "V 15.5.2024, Valtuutettu Jenni Hjeltin aloite liityntäpysäköinnin periaatteiden valmistelun aloittamiseksi",
    "source_url": "https://ahjojulkaisu.hel.fi/7316661F-9B78-C803-87AF-8F2D9420000D.pdf",
-   "confidence": "high"
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
   },
   {
    "topic": "regulation",
-   "date": "2025-05",
-   "text": "On 20 May 2025 the City Environment Board approved (with an amendment by Risto Rautava) the principles for park-and-ride in Helsinki: no new car park-and-ride in the core zone (metro stations Koivusaari to Siilitie; rail stations from Pitäjänmäki, Pohjois-Haaga and Oulunkylä southward), a staged move toward paid use (parking facilities first, then high-demand ground-level lots), and proof of public-transport use at busy sites. The case text cites about 3,450 car and 5,500 bicycle park-and-ride spaces, with 71 percent car utilisation in 2023, and current pricing of 1-2 euros.",
-   "source_title": "Liityntäpysäköinnin periaatteet Helsingissä (HEL 2025-003308)",
+   "date": "2025-05-20",
+   "text": "On 20 May 2025 the City Environment Board approved, as guidance, the principles for park-and-ride in Helsinki (with an amendment by Risto Rautava): in the core area (metro stations Koivusaari to Siilitie; rail stations from Pitäjänmäki, Pohjois-Haaga and Oulunkylä southward) no car park-and-ride spaces are built into parking facilities in land-use development projects; paid use is to be extended in stages (parking facilities first, then high-load ground-level lots); and identification as a public-transport user is required at least at regionally significant, facility and heavily loaded sites. The case text cites about 3,450 car and 5,500 bicycle spaces, 71 percent car utilisation in 2023, and a current fee of 1-2 euros.",
+   "source_title": "Pysäköintijärjestelyt, liityntäpysäköinnin periaatteet Helsingissä (HEL 2025-003308)",
    "source_url": "https://paatokset.hel.fi/fi/asia/hel-2025-003308",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
   },
   {
    "topic": "tariffs",
-   "date": "2024-10",
-   "text": "The Kulosaari park-and-ride area (Kulosaaren Puistotie, by Kulosaari metro station) became paid on 23 November 2024: 1 euro for 12 hours with an HSL ticket (card or mobile ticket QR code), 1 euro per hour without one. The area is operated by Aimo Park Finland Oy; Kaupunkiliikenne Oy said the change aims to improve parking availability for transit users.",
+   "date": "2024-10-24",
+   "text": "Kaupunkiliikenne Oy announced on 24 October 2024 that charging at the Kulosaari park-and-ride area (Kulosaaren Puistotie) would start on 23 November: 1 euro for 12 hours when showing an HSL travel card or mobile-ticket QR code at the payment machine, and 1 euro per started hour without one. The area is operated by Aimo Park Finland Oy. The company said the change is meant to ease the parking situation, and that the pilot sign-in system had proved cumbersome to run.",
    "source_title": "Kulosaaren liityntäpysäköintialue muuttuu maksulliseksi",
    "source_url": "https://kaupunkiliikenne.fi/uutisartikkelit/kulosaaren-liityntapysakointialue-muuttuu-maksulliseksi/",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
   },
   {
    "topic": "technology",
    "date": "2024-05",
-   "text": "Fintraffic took over the park-and-ride information service LIIPI (previously HSL's system) as a national service from 20 May 2024 (parking.fintraffic.fi, free open API). The page says LIIPI is to move to the national PETI stop and accessibility database during 2026, giving each facility a national identifier; area managers are responsible for keeping facility data current.",
+   "text": "Fintraffic has operated the park-and-ride information service LIIPI (based on HSL's earlier local system) as a national service since 20 May 2024 (parking.fintraffic.fi); its interfaces can be used without logging in. The page says LIIPI is moving to the national PETI stop and accessibility database during 2026, with each facility getting a national identifier, planned available by the end of 2026; area managers are responsible for keeping facility data current.",
    "source_title": "Liityntäpysäköinnin tietopalvelu LIIPI (Fintraffic)",
    "source_url": "https://www.fintraffic.fi/fi/fintraffic/liityntapysakoinnin-tietopalvelu-liipi",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
   },
   {
    "topic": "tariffs",
    "date": "2026",
-   "text": "Aimo Park's Redi garage (Hermannin rantatie 5, Kalasatama) has 1,950 spaces including 370 EV spaces. Park-and-ride parking is offered on floor K6 on weekdays 6:00-17:30 at 2 euros per 10 hours with an HSL travel card.",
-   "source_title": "Redi (Aimo Park Helsinki)",
+   "text": "Aimo Park's Redi car park (Hermannin rantatie 5, Helsinki) has 1,950 spaces including 370 EV spaces. Park-and-ride parking is offered only on floor K6 on weekdays 6:00-17:30 at 2 euros per 10 hours, with an HSL travel card or QR code shown at the reader.",
+   "source_title": "Redi Parking - Aimo Park FI",
    "source_url": "https://aimopark.fi/en/cities/helsinki/redi",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 16,
+   "checked": "partly"
   },
   {
    "topic": "operators",
-   "date": "2026-09",
-   "text": "Port of Helsinki announced (11 Sept 2026) that from 1 October 2026 its parking is run by Moovy Oy with Finnpark Pysäköinti Oy as operational partner; the Aimo Park app ends 30 September and Moovy replaces it (EasyPark and ParkMan continue), most payment machines are removed (one stays at West Harbour), and enforcement moves to Ruutuluotsi.",
+   "date": "2026-09-11",
+   "text": "The Port of Helsinki announced (11 September 2026) that from 1 October 2026 payment via the Aimo Park app ends (after 30 September) and the Moovy app is introduced as a new payment method (EasyPark and ParkMan continue); the payment machines in outdoor parking areas are decommissioned on 30 September, with one machine remaining at West Harbour; and parking enforcement moves from Aimo Park to Ruutuluotsi. The port says its parking services are provided by Moovy Oy with Finnpark Pysäköinti Oy as operational partner.",
    "source_title": "Port of Helsinki parking services to be renewed in 2026",
    "source_url": "https://www.portofhelsinki.fi/en/about-us/port-of-helsinki/whats-new/port-of-helsinki-parking-services-to-be-renewed-in-2026/",
-   "confidence": "high"
-  },
-  {
-   "topic": "operators",
-   "date": "2019-09",
-   "text": "On 3 September 2019 it was announced that Q-Park's operations in Sweden, Norway and Finland, bought by Sumitomo Corporation, would be rebranded Aimo Park, rolling out gradually; in Finland the company operated over 90 paid parking facilities.",
-   "source_title": "Q-Park becomes Aimo Park",
-   "source_url": "https://www.sttinfo.fi/tiedote/69864397/q-park-becomes-aimo-park",
-   "confidence": "low"
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
   },
   {
    "topic": "tariffs",
    "date": "2026",
-   "text": "Aimo Park's Finlandia garage (Karamzininranta 2) has 650 spaces. Listed short-term prices are 2 euros per 30 minutes by app (8:00-22:00), 1 euro per 60 minutes at night, and 38 euros per 24 hours; the payment machine charges 2.50 euros per 30 minutes; a service fee of 10 percent applies.",
-   "source_title": "Finlandia (Aimo Park Helsinki)",
+   "text": "Aimo Park's Finlandia garage (Karamzininranta 2, Helsinki) has 650 spaces. Listed short-term prices are 2 euros per started 30 minutes by day (8:00-22:00), 1 euro per started 60 minutes at night (22:00-8:00) and 38 euros per 24 hours; payment-machine prices are 2.50 euros per 30 minutes by day, 1 euro per 60 minutes at night and 38 euros per 24 hours; a service fee of 10 percent (minimum 0.49, maximum 4 euros) is added to each session.",
+   "source_title": "Finlandia Parking - Aimo Park FI",
    "source_url": "https://aimopark.fi/en/cities/helsinki/finlandia",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 19,
+   "checked": "partly"
   },
   {
    "topic": "operators",
    "date": "2026",
    "text": "Kamppi Helsinki lists two car parks: P-Kamppi (250 spaces, entrance on Olavinkatu) and P-CityForum (1,300 spaces, entrances on Simonkatu, Jaakonkatu and Ruoholahdenkatu), open 6-24 daily with exit 24/7 and lifts to the shopping centre.",
-   "source_title": "Arriving at Kamppi Helsinki",
+   "source_title": "Arrival · Kamppi Helsinki",
    "source_url": "https://kamppihelsinki.fi/en/arrival",
-   "confidence": "high"
+   "confidence": "medium",
+   "id": 20,
+   "checked": "partly"
   }
  ],
  "gaps": [
@@ -181,5 +204,8 @@
   "City-owned parking companies (Helsingin Velvoitepysäköinti Oy) found only as undated articles of association; no dated news.",
   "Demand drivers (ferry traffic, events/Hartwall Arena), EV charging counts in garages, shopping-centre effects and Underground Helsinki tunnel changes: no dated, openable source beyond the Kluuvi plan.",
   "Whether the emission-free zone idea (Nov 2024) progressed in 2025-26, and an official source for the Yle-reported 77-5 Kaivokatu vote date/year, were not confirmed."
- ]
+ ],
+ "dropped": {
+  "low confidence": 2
+ }
 }

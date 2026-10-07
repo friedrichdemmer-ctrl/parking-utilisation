@@ -1,0 +1,265 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Facts check out against the page (stand 29.09.25: vote on Monday evening, CDU/FDP/Greens for, AfD/SPD/Left against, in force May 2026, EUR 110 instead of max EUR 30, EUR 3 million extra revenue, 'Parkgebührenzone II' named). Only the source_title is wrong: the page's real title is 'Ausweitung der Parkzonen in Kassel: Doppelt so groß, dreimal so teuer'; the 'Beschluss im Stadtparlament...' headline does not exist on the page. Overlaps with items 2 and 3 on the EUR 110 permit figure.",
+   "corrected_text": "On 29 September 2025 Kassel's city parliament approved a large expansion of paid parking (Parkgebührenzone II), with the CDU, FDP and Greens coalition voting in favour and AfD, SPD and Left against. The new rules were to take effect in May 2026; resident permits rise from a maximum of EUR 30 to EUR 110 a year, and the city expected about EUR 3 million extra revenue a year.",
+   "corrected_title": "Ausweitung der Parkzonen in Kassel: Doppelt so groß, dreimal so teuer (hessenschau.de)",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Page title matches. Enacted 29 Sept 2025 and in force 1 May 2026 (section 6); fees EUR 55/110/220 for 6/12/24 months; EUR 12 per change or replacement (section 4(2)). Overlaps with the EUR 110 figure in items 0, 2, 3.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Facts check out (published 30.04.26: about 300 meters existing, 368 new, 'sukzessive' from 1 May, area more than doubles by July, step by step per district; EUR 1/hour or EUR 6/day for non-residents; EUR 110 flat instead of max EUR 30; businesses and freelancers have no claim to special permits). The 'roughly 300 to 668' total is arithmetic (300+368) not stated on the page. source_title is wrong: the real title is 'In Kassel wird Parken ab Mai teurer - und für viele schwieriger'; the 'Parkgebührenzone ab Mai mehr als verdoppelt:' prefix is not on the page. Overlaps with items 0 and 3.",
+   "corrected_text": "From 1 May 2026 Kassel is extending its paid on-street parking zones: 368 new parking meters are added to the roughly 300 existing ones (about 668 in total), and the fee-charging area more than doubles by July 2026, introduced step by step from district to district. Non-residents pay EUR 1 per hour or EUR 6 per day; resident permits are a flat EUR 110 a year (previously max. EUR 30). Businesses and freelancers have no claim to special permits.",
+   "corrected_title": "In Kassel wird Parken ab Mai teurer - und für viele schwieriger (hessenschau.de)",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "District list, application from 1 April 2026 and 1 May 2026 effective date all match. Real page title is 'FAQs Bewohnerparken | Stadt Kassel' (draft title invented). The page has since been updated and now says the new rules already apply in Südstadt, Unterneustadt, Wesertor and Rothenditmold since July, so the draft's rollout wording (written as a plan) is stale; June wording matches ('Ab Juni 2026 folgen weitere Bereiche im Vorderen Westen, Wehlheiden sowie Bad Wilhelmshöhe'). Date should reflect the later page state.",
+   "corrected_text": "The city's resident-parking FAQ states that the expanded zone II covers streets in Bad Wilhelmshöhe, Nord-Holland, Rothenditmold, Südstadt, Unterneustadt, Vorderer Westen, Wehlheiden and Wesertor. Permits could be applied for from 1 April 2026 and 1 May 2026 was set as the earliest effective date; the expansion was rolled out in phases, starting in Vorderer Westen and Wehlheiden, with further areas there and in Bad Wilhelmshöhe from June 2026, and the page now says the new rules have applied in Südstadt, Unterneustadt, Wesertor and Rothenditmold since July.",
+   "corrected_title": "FAQs Bewohnerparken (Stadt Kassel)",
+   "corrected_date": "2026",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Page title 'Gebührenpflichtige Parkzonen | Stadt Kassel'. Zentrum Mon-Sat 9-20, max 3 h, EUR 1.00 (30 min) to EUR 6.00 (3 h); Zentrum II Bad Wilhelmshöhe Mon-Sat 9-18 (Berta-von-Suttner-Straße daily), max 2 h, EUR 1.00 to EUR 4.00; Graf-Bernadotte-Platz EUR 5 per day up to EUR 20 for 16 days; providers listed include PayByPhone, EasyPark, moBiLET (plus Yellowbrick/flowbird, Parkster, PARCO); the 368 machines of the extended zone II accept card, mobile wallets and Wero. Page is undated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Checked in the PDF (Vorlage 101.19.1192, Anfrage der Fraktion Die Linke dated 18.06.2024). Zentrum EUR 2 for 1 h and EUR 6 for 3 h; resident permits EUR 30/26/21 per year unchanged for ten years; fee revenue 2023 EUR 5,635,336.05 vs 2014 EUR 5,475,551.70; resident-parking revenue 2023 EUR 174,462.50 (rounded to 174,463 in the draft). 'Schriftliche Beantwortung' comes from the file name, the subject line is 'Städtische Kosten für Parkplätze im öffentlichen Raum'. Same document as item 6.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "Same PDF as item 5 (duplicate source, different facts). The document says only 'Im Jahr 2018 (Beschlussnr. 101.18.1084)': the hours in zone II, Zentrum II Bad Wilhelmshöhe and Willy-Brandt-Platz were cut from Mon-Sat 9-20 to 9-18 and fees up to 3, 5 and 9 hours set at EUR 3, 4 and 6. The month 'November' is not in the source.",
+   "corrected_text": "Kassel's Parkgebührenordnung was amended in 2018 (council decision 101.18.1084): the hours of fee obligation in zone II, Zentrum II Bad Wilhelmshöhe and Willy-Brandt-Platz were reduced from Mon-Sat 9-20 to Mon-Sat 9-18, and fees there for stays up to 3, 5 and 9 hours were reduced to EUR 3, EUR 4 and EUR 6.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Figures match the slides: fees up about 60% after the 2014 change, 400% on 60 of about 11,000 spaces in Zentrum (Markthalle area), revenue EUR 4,633,451 (2013) and EUR 7,051,909 (2015), long-term parkers displaced into car parks. But the document is a presentation by the Amt 66 (Straßenverkehrs- und Tiefbauamt, G. Förster) for the SPD faction motion 101.18.41, dated 29.09.2016, not a 'Bericht des Magistrats'; the draft title is the file name, not the document title ('Überprüfung der Parkgebührenordnung').",
+   "corrected_text": "A city-office presentation (Amt 66) dated 29 September 2016, prepared in response to an SPD-faction motion to review the 2014 Parkgebührenordnung, said the 2014 change raised parking fees by about 60% (and by 400% on 60 of roughly 11,000 spaces in the Zentrum zone). Parking-fee revenue was EUR 4.63 million in 2013 and EUR 7.05 million in 2015. The city noted long-term parkers had been displaced into the multi-storey car parks, improving chances for short-stay street parkers.",
+   "corrected_title": "Überprüfung der Parkgebührenordnung (Antrag der SPD-Fraktion 101.18.41), presentation of 29 September 2016",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Parkgebührenordnung page: 'Vom 19. Mai 2014 in der Fassung der Dritten Änderung vom 29. September 2025', amendment in force 1 May 2026; EVs marked as such pay no fee with a parking disc, exemption ends at end of 31 Dec 2026 - correct. The FAQ claim is inaccurate: the FAQ says holders of e-vehicles in new resident zones do not need a permit because e-vehicles may park free 'bis auf Weiteres' (until further notice); the 31 Dec 2026 date in the FAQ applies to paid short-stay bays (3 h with parking disc) and is tied to the Elektromobilitätsgesetz, whose extension is unpredictable.",
+   "corrected_text": "Under Kassel's Parkgebührenordnung (third amendment of 29 September 2025, effective 1 May 2026), electric vehicles marked as such pay no fee when using a parking disc; this exemption ends at the end of 31 December 2026. The resident-parking FAQ adds that holders of e-vehicles in the new resident-parking zones do not need a permit because e-vehicles may park fee-free until further notice, while on paid short-stay bays (up to 3 hours with a parking disc) the free parking applies until 31 December 2026 because it is tied to the Elektromobilitätsgesetz.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Checked in the PDF (Maßnahme 2025-KSR-11, Stand 10.06.2025, with the Umsetzungsbericht of the Straßenverkehrs- und Tiefbauamt). Charging infrastructure as of 01.06.2025: in operation 107 sites / 281 stations / 479 points; in planning 54/74/140; application and review process (Sondernutzung) established; concession award 'derzeit nicht zu empfehlen'. Same document as item 10.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Same PDF as item 9 (duplicate source, different facts). Stavo-Beschluss on the VEP update exists, VEP/SUMP update process started early 2025; Machbarkeitsstudie Innenstadtring, Planungsprojekt Am Stern and trial of terraces on the northern Untere Königsstraße listed under the 2021 open-air experiment (which is marked 'Experiment durchgeführt').",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Matches the 24.03.25 hessenschau article: one lane, about 75 m, one-year trial, three of five zones already set up, federal funding, Fedderke (Greens) quote about one lane. One tense issue: the article says a one-way street in Jägerstraße is to be set up soon ('soll bald'), the draft writes it as done.",
+   "corrected_text": "In March 2025 Kassel converted one traffic lane on the Untere Königsstraße (about 75 m) into outdoor dining space for a one-year trial; three zones were already in place and five were planned, with federal funding. Simone Fedderke (Greens) said a previous experiment showed traffic runs well on one lane; a one-way street was to be introduced soon in Jägerstraße.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Checked in the PDF: Antrag Vorlage 101.19.1375 dated 20 Feb 2025 by the Left faction asks the magistrate to extend the special-use zone (pedestrian zone) from Stern to Holländischer Platz permanently from spring 2026 and to present a plan to reduce traffic at Stern by end of 2025. It is a motion; no decision is recorded in the document. Item is only loosely about parking.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Article (Stand 05.03.26) title matches. Says a Jamaika coalition of CDU, Greens and FDP has governed since 2022 with Green mayor Sven Schoeller; CDU poster 'Für einen Verkehr, der wieder rollt'; FDP poster 'Tempo 30 ? Nein danke!'. Election date 15 March 2026 is stated. Weak relevance to parking beyond political context.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Published 25.08.26. The Kenya coalition (Greens, CDU, SPD) failed, driven by disputes about Dezernat posts; city to be governed with changing majorities; Schoeller said changing majorities can be the better model when a coalition does not get on internally. Wrong: 'after more than five months of talks' - the article says 'mehr als fünf Monate nach der Kommunalwahl' (more than five months after the election). The source_title is also wrong: real title is 'Doch keine Kenia-Koalition in Kassel: \"Müssen mit wechselnden Mehrheiten leben\"'. Weak relevance to parking.",
+   "corrected_text": "On 25 August 2026 hessenschau reported that the planned Kenya coalition (Greens, CDU, SPD) in Kassel had definitively failed, more than five months after the municipal election, amid disputes over the filling of administrative (Dezernat) posts. The city will be governed with changing majorities; mayor Sven Schoeller said this can be the better model when a coalition does not get on internally.",
+   "corrected_title": "Doch keine Kenia-Koalition in Kassel: \"Müssen mit wechselnden Mehrheiten leben\" (hessenschau.de)",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Content matches (published 06.11.24; closed since early October 2024 due to 'signifikanter Risse'; opened 1973; between Friedrichsstraße and Fünffensterstraße; further refurbishment uneconomic; demolition must happen; lead says 380 spaces, text says 360; demolition order could be awarded early 2025; city did not say whether new parking would be built). The source_title is a mix: the page title is 'Marodes Innenstadt-Parkhaus in Kassel muss abgerissen werden' (og title 'Marodes Innenstadt-Parkhaus in Kassel nicht mehr zu retten'). Note: the closure is given as 'since early October 2024' while the page does not say when exactly.",
+   "corrected_text": "The city-centre Parkhaus Garde du Corps near the Rathaus (between Friedrichsstraße and Fünffensterstraße, opened 1973) has been closed since early October 2024 because of 'significant cracks'; experts judged further refurbishment uneconomic and it must be demolished. The article gives 380 spaces in the lead and 360 later in the text. A demolition contract could be awarded in early 2025; the city did not initially say whether new parking would be built.",
+   "corrected_title": "Marodes Innenstadt-Parkhaus in Kassel muss abgerissen werden (hessenschau.de)",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "visit.kassel.de page 'Underground car park Friedrichsplatz': operator Parkhausgesellschaft der Stadt Kassel mbH; connected to Königs-Galerie, pedestrian zone and Staatstheater; entrances Steinweg/Friedrichsplatz and Du Ry Street; charging station for e-cars and e-bikes; Mon-Sat 6-24, Sun/holidays 9-24. Capacity not stated there (separate from item 17's 980).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "curl was blocked (403) but the page was readable via the sanctioned fetch tool; no bot-protection bypass was attempted. Page 'Parkhaus Königs Galerie Friedrichsplatz - Kassel': 980 spaces, EUR 2.00 per started hour, daily maximum EUR 20.00; Parkcard minimum top-up EUR 10, first half hour free, free Mon-Sat 18-20, evening maximum EUR 4. No date and no AI label on the page. Third-party directory, so medium confidence stands.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 18,
+   "verdict": "supported",
+   "note": "visit.kassel.de page 'Car park Kurfürsten Galerie': operator Apcoa Parking; entrance height 1.95 m; Mon-Sat 7-24, Sun/holidays 9-24; entrances Spohrstraße and Mauerstraße 6. parkinglist.de page 'Parkhaus Kurfürsten Galerie - Kassel' (read via the fetch tool): 602 spaces, EUR 1.70 per started hour, daily max EUR 15.00; no date or AI label. Medium confidence for the directory figures.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 19,
+   "verdict": "partly",
+   "note": "Release dated 9 July 2015 says DEMIRE 'concluded a contract to purchase' a 94.9% interest in Kurfürster Galerie GmbH; closing was still subject to Supervisory Board consent and bank-financing approval, so 'bought' overstates. Other figures match (about 21,000 m2 rental space, first shopping centre in Kassel in 1991, largest garage in the northern inner city with about 600 spaces, vacancy 6%). Low relevance to current parking.",
+   "corrected_text": "In July 2015 DEMIRE agreed to buy a 94.9% stake in the owner of the Kurfürsten Galerie (closing still subject to approvals). The release describes about 21,000 m2 of rental space, a 1991 opening as Kassel's first shopping centre, and the largest car park in the northern inner city with roughly 600 spaces; vacancy was 6% at the time of the announcement.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 20,
+   "verdict": "supported",
+   "note": "visit.kassel.de page 'Car park city hall': operator City of Kassel; entrance 1 (Obere Karlstraße, 2.10 m) shown as currently closed; entrance 2 Karlsplatz, 3.60 m; Mon-Thu from 5 pm, Fri from 1 pm, Sun/holidays 9-24, exit until 6 am; tariff 'Parking fees centre'. No capacity stated, so the 228 vs 298 discrepancy remains unresolved by this source.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 21,
+   "verdict": "partly",
+   "note": "Matches the DB page 'Parken - Bahnhof Kassel-Wilhelmshöhe' except for tariff attribution: EUR 2.00/hour and EUR 24/day are shown for the open lot (23 spaces) and the Parkdeck (370), but no tariff is shown for Parkplatz West (66 spaces). Atrium 150 spaces EUR 1/h, EUR 20/24 h and Graf-Bernadotte-Platz 102 spaces EUR 5/24 h are correct. The page title is 'Parken - Bahnhof Kassel-Wilhelmshöhe', not 'Parkplätze Kassel-Wilhelmshöhe'.",
+   "corrected_text": "DB's station page for Kassel-Wilhelmshöhe lists the Parkdeck (370 spaces) and an open lot (23 spaces), both at EUR 2.00 per hour or EUR 24 per day, and Parkplatz West (66 spaces, no tariff shown), plus nearby Kassel-Wilhelmshöhe Atrium (150 spaces, EUR 1.00 per hour, EUR 20 per 24 h) and Graf-Bernadotte-Platz (102 spaces, EUR 5 per 24 h). Page is undated.",
+   "corrected_title": "Parken - Bahnhof Kassel-Wilhelmshöhe (bahnhof.de)",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 22,
+   "verdict": "supported",
+   "note": "Article 'Wasserspiele in Kassel gestartet: Tipps für die historische Wasser-Show' (Stand 02.05.26): parking around the Bergpark often full on weekends and during the water shows; public transport recommended; KVG to add trams and buses on event days; tram 4 to Druseltal then buses 22/23 to Herkules; tram 1 to Wilhelmshöhe; bus 23 on water-show days. The draft URL returns a 301 redirect to the same article under a '-v2' slug (hessenschau URL now 'wasserspiele-in-kassel-gestartet-tipps-fuer-die-historische-wasser-show-v2,wasserspiele-bergpark-kassel-102.html'); article is the same.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 23,
+   "verdict": "supported",
+   "note": "documenta.de page dated 26 Sept 2022: dates announced on Sunday 25 September 2022 by Christian Geselle; documenta 16 runs 12 June to 19 September 2027. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 24,
+   "verdict": "supported",
+   "note": "Checked in the PDF (Ergebnisbericht May 2023, PROJECT M, commissioned by Stadt Kassel Dezernat VI Citymanagement, funded by the Hessian programme Zukunft Innenstadt). Management summary says the attractiveness of the Parkhäuser should be increased as entry points and car access secured, and non-motorised transport promoted; list of Erlebnisanker includes Untere Königsstraße with 'Freiraumexperiment'. Formal document title is 'Erlebnisraum Kassel Innenstadt - Zukunftskonzept für die Erlebnisinszenierung der Kasseler Innenstadt'; draft title is acceptable as a description. Concept document, not a decision.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 25,
+   "verdict": "partly",
+   "note": "The joint motion 101.19.658 dated 10 Nov 2022 backs keeping the GALERIA store at Obere Königsstraße/Opernplatz and asks the magistrate to press the group management. But it was filed by the factions B90/Grüne, SPD, CDU, Die Linke and FDP plus individual councillors (Klobuczynski, Gleuel, Rieger, Düsterdieck) - not 'all council factions' (no AfD). It is a motion; the document records no outcome. Not about parking; recommend dropping.",
+   "corrected_text": "On 10 November 2022 five council factions (Greens, SPD, CDU, Left and FDP) and several individual councillors filed a joint resolution (101.19.658) backing the retention of the GALERIA store at Obere Königsstraße/Opernplatz, asking the magistrate to press the group's management to avert closure of the Kassel site.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Kassel's biggest recent parking change is the expansion of paid zone II from 1 May 2026 (approved by the city parliament on 29 September 2025): 368 new meters were added to roughly 300 existing ones, the paid area more than doubles by July 2026, and resident permits cost a flat EUR 110 a year instead of at most EUR 30, with the city expecting about EUR 3 million extra revenue a year. Electric vehicles with a parking disc park fee-free until 31 December 2026. In the centre the Garde du Corps car park (reported as 360-380 spaces) has been closed since October 2024 and is to be demolished, and a lane on Untere Königsstraße was converted to outdoor dining in March 2025 for a one-year trial. Garages are run by the city, the Parkhausgesellschaft der Stadt Kassel and Apcoa, and demand drivers include documenta 16 (12 June-19 September 2027) and Bergpark Wilhelmshöhe, where parking is often full on water-show days."
+}
