@@ -61,6 +61,7 @@ from scrapers.adapters.mid_ulster_live import MidUlsterLiveAdapter
 from scrapers.adapters.nantes_naolib_live import NantesNaolibLiveAdapter
 from scrapers.adapters.moers_live import MoersLiveAdapter
 from scrapers.adapters.muenster_live import MuensterLiveAdapter
+from scrapers.adapters.mobilithek_pull import mobilithek_adapters
 from scrapers.adapters.muenchen_mvv_pr import MuenchenMvvParkAndRideAdapter
 from scrapers.adapters.muenchen_parkraumwende import MuenchenParkraumwendeAdapter
 from scrapers.adapters.other_operators_fr import OtherOperatorsFranceAdapter
@@ -260,4 +261,6 @@ ADAPTERS: list[SourceAdapter] = [
     NimesLiveAdapter(),
     ReimsLiveAdapter(),
     LeMansLiveAdapter(),
+    # Mobilithek pull subscriptions (client certificate), 2026-10-19
+    *mobilithek_adapters(),
 ]
