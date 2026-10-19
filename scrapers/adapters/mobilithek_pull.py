@@ -75,6 +75,11 @@ FEEDS = [
     # Parkbelegungsdaten Stadt Magdeburg (ifak e.V.), approved 2026-10-19
     Feed("mobilithek-magdeburg", "Magdeburg", dynamic="1048961318253412352", static="1048961358375899136",
          places=MAGDEBURG_PLACES),
+    # Parkdaten Stadt Köln dynamisch / statisch (Stadt Köln, DATEX II v2 parkingRecord), approved 2026-10-19: 41
+    # records with names, counted capacities and coordinates. Written under its own place_ids, not into the
+    # archive's koeln-apps-parken ones, because the counted capacity differs from the capacities on file for many
+    # of them (Mediapark 430 vs 1,148, Dom 220 vs 520) and occupancy is only right against the feed's own count.
+    Feed("mobilithek-koeln", "Köln", dynamic="1048984704203509760", static="1048985043690504192"),
 ]
 
 _context: ssl.SSLContext | None = None
@@ -137,36 +142,43 @@ def _utc(iso: str) -> str:
 
 
 def parse_status(xml: bytes) -> list[dict]:
-    """DATEX II v2 parking status: [{ref, vacant, occupied, closed, ts (UTC ISO)}]. Facilities without a
-    reference, counts or time are left out."""
+    """DATEX II v2 parking status: [{ref, vacant, occupied, closed, ts (UTC ISO)}]. Two shapes occur:
+    parkingFacilityStatus (Magdeburg, by ifak) and parkingRecordStatus (Köln). Facilities without a reference,
+    counts or time are left out; "closed" is the facility's own opening status."""
     out = []
     for e in ET.fromstring(xml).iter():
-        if _tag(e) != "parkingFacilityStatus" or not any(_tag(c) == "parkingFacilityReference" for c in e):
+        kind = _tag(e)
+        if kind not in ("parkingFacilityStatus", "parkingRecordStatus"):
             continue
-        ref = next(c.attrib.get("id") for c in e if _tag(c) == "parkingFacilityReference")
-        vacant, occupied = _int(_text(e, "totalNumberOfVacantParkingSpaces")), _int(_text(e, "totalNumberOfOccupiedParkingSpaces"))
-        when = _text(e, "parkingFacilityStatusTime")
-        states = {c.text.strip().lower() for c in e if _tag(c) == "parkingFacilityStatus" and c.text}
-        if not ref or vacant is None or occupied is None or not when:
+        ref_tag = "parkingFacilityReference" if kind == "parkingFacilityStatus" else "parkingRecordReference"
+        refs = [c.attrib.get("id") for c in e if _tag(c) == ref_tag]
+        if not refs:
+            continue                        # the inner <parkingFacilityStatus>spacesAvailable</..> text elements
+        vacant = _int(_text(e, "totalNumberOfVacantParkingSpaces") or _text(e, "parkingNumberOfVacantSpaces"))
+        occupied = _int(_text(e, "totalNumberOfOccupiedParkingSpaces") or _text(e, "parkingNumberOfOccupiedSpaces"))
+        when = _text(e, "parkingFacilityStatusTime") or _text(e, "parkingStatusOriginTime")
+        states = {x.text.strip().lower() for x in e.iter() if _tag(x) in ("parkingFacilityStatus", "parkingSiteOpeningStatus") and x.text}
+        if not refs[0] or vacant is None or occupied is None or not when:
             continue
-        out.append({"ref": ref, "vacant": vacant, "occupied": occupied, "closed": "closed" in states, "ts": _utc(when)})
+        out.append({"ref": refs[0], "vacant": vacant, "occupied": occupied, "closed": "closed" in states, "ts": _utc(when)})
     return out
 
 
 def parse_static(xml: bytes) -> dict[str, dict]:
-    """DATEX II v2 parking facility table: {ref: {name, capacity, lat, lon}}. Written against the standard
-    element names (parkingFacility id=, parkingFacilityName, totalParkingCapacity, latitude/longitude) and
-    not yet seen against a real delivery, because the Magdeburg static offer was still empty on 2026-10-19."""
+    """DATEX II v2 parking table: {ref: {name, capacity, lat, lon}}. Köln's parkingRecord (parkingName,
+    parkingNumberOfSpaces) is verified against a real delivery; the parkingFacility form (parkingFacilityName,
+    totalParkingCapacity) follows the standard and has not been seen with content (Magdeburg's static table is
+    empty). A facility with no capacity is returned with capacity None."""
     out = {}
     for e in ET.fromstring(xml).iter():
-        if _tag(e) != "parkingFacility" or not e.attrib.get("id"):
+        if _tag(e) not in ("parkingRecord", "parkingFacility") or not e.attrib.get("id"):
             continue
         name = None
         for c in e:
-            if _tag(c) == "parkingFacilityName":
+            if _tag(c) in ("parkingName", "parkingFacilityName"):
                 name = _text(c, "value") or (c.text or "").strip() or None
         lat, lon = _text(e, "latitude"), _text(e, "longitude")
-        out[e.attrib["id"]] = {"name": name, "capacity": _int(_text(e, "totalParkingCapacity")),
+        out[e.attrib["id"]] = {"name": name, "capacity": _int(_text(e, "totalParkingCapacity") or _text(e, "parkingNumberOfSpaces")),
                                "lat": float(lat) if lat else None, "lon": float(lon) if lon else None}
     return out
 

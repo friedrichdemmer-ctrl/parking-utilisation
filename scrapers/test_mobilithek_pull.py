@@ -68,4 +68,23 @@ valid, rejected = filter_valid(occ, caps)
 assert len(valid) == 9 and not rejected, rejected
 assert storage.write_occupancy(conn, valid) == 9
 assert storage.write_occupancy(conn, valid) == 0                           # the same delivery again adds nothing
+# --- Köln (parkingRecord flavour, real delivery of 2026-10-19)
+KS = (ROOT / "scrapers/fixtures/mobilithek_koeln_status.xml").read_bytes()
+KT = (ROOT / "scrapers/fixtures/mobilithek_koeln_static.xml").read_bytes()
+kfeed = next(f for f in m.FEEDS if f.source_id == "mobilithek-koeln")
+k = m.MobilithekPullAdapter(kfeed, pull_fn=lambda sid: KT if sid == kfeed.static else KS)
+kc = {c.place_id: c for c in k.fetch_capacity(None)}
+assert len(kc) == 40, len(kc)                                      # 41 records; PH01 has no capacity at all
+g = kc["mobilithek-koeln-ph19"]
+assert (g.place_name, g.num_all, g.city_name, round(g.latitude, 4)) == ("Am Gürzenich", 300, "Köln", 50.937), g
+ko = {o.place_id: o for o in k.fetch_occupancy(None, {})}
+assert ko["mobilithek-koeln-ph19"].free == 183 and ko["mobilithek-koeln-ph19"].ts == "2026-10-19T12:13:50+00:00"
+assert not any("w-p" in pid for pid in ko), "stadium car parks marked closed must not give readings"
+assert "mobilithek-koeln-d-p004" in ko and ko["mobilithek-koeln-d-p004"].free == 0   # a full car park is a reading, not an error
+kconn = sqlite3.connect(":memory:")
+kconn.executescript(import_historical.SCHEMA)
+storage.ensure_schema(kconn)
+storage.write_capacity(kconn, list(kc.values()))
+kvalid, krej = filter_valid(list(ko.values()), storage.known_capacities_for_source(kconn, k.name))
+assert not krej, krej
 print("mobilithek_pull: all checks passed")
