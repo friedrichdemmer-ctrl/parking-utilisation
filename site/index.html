@@ -466,7 +466,9 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     try { const d = await (await fetch("/api/access", { cache: "no-store" })).json(); access.unlocked = !!d.unlocked; access.configured = d.configured !== false; }
     catch (e) { access.unlocked = false; }
     updateAccessUi();
+    if (access.unlocked) loadPickers();
   }
+  const loadPickers = () => { exPicker.reload(); cmpPicker.reload(); };      // defined below; only called once they exist
   async function signOut() {
     try { await fetch("/api/logout", { method: "POST" }); } catch (e) { /* signed out locally either way */ }
     access.unlocked = false; updateAccessUi(); location.hash = "#overview";
@@ -674,11 +676,17 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     filt("city").addEventListener("input", renderCities);
     filt("garage").addEventListener("input", renderGarages);
     det.addEventListener("toggle", () => { if (det.open) scrollSelected(); });
-    once("pk:countries", () => api("/api/browse/countries")).then(d => { countries = d; renderCountries(); renderCities(); renderGarages(); })
-      .catch(e => { list("country").innerHTML = empty(esc(e.message)); });
+    // The countries are behind the access password. At page load nobody has signed in yet, so this waits;
+    // reload() runs once the sign-in is known (loadAccess) and again after a successful sign-in.
+    const loadCountries = () => {
+      if (access.unlocked !== true) return;
+      once("pk:countries", () => api("/api/browse/countries")).then(d => { countries = d; renderCountries(); renderCities(); renderGarages(); })
+        .catch(e => { list("country").innerHTML = empty(esc(e.message)); });
+    };
+    loadCountries();
     return {
       setPath, setOpen: b => { det.open = b; }, state: () => ({ ...st }),
-      refresh: () => { renderGarages(); head(); },
+      refresh: () => { renderGarages(); head(); }, reload: loadCountries,
     };
   }
   const exPicker = mountPicker(document.getElementById("exPicker"), {
@@ -1381,7 +1389,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
       const r = await fetch("/api/login", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ password: loginPw.value }) });
       const d = await r.json().catch(() => ({}));
       if (!r.ok) throw new Error(d.error || `The server answered ${r.status}. Try again shortly.`);
-      loginPw.value = ""; access.unlocked = true; updateAccessUi(); route();
+      loginPw.value = ""; access.unlocked = true; updateAccessUi(); loadPickers(); route();
     } catch (e) { loginMsg.className = "err"; loginMsg.textContent = e.message; loginPw.select(); }
     finally { btn.disabled = false; btn.textContent = "Sign in"; }
   });
