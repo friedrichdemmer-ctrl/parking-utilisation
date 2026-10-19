@@ -51,8 +51,11 @@ assert with_static["mobilithek-magdeburg-ph01"].num_all == 125 and with_static["
 assert with_static["mobilithek-magdeburg-ph04"].num_all == 187            # 27 + 160, no static entry
 assert with_static["mobilithek-magdeburg-ph04"].place_name == "Magdeburg PH04"
 assert "mobilithek-magdeburg-ph02" not in with_static                      # a negative count gives no capacity
+assert with_static["mobilithek-magdeburg-ph11"].place_name == "Allee-Center"          # from Feed.places, no static entry
+assert with_static["mobilithek-magdeburg-ph11"].num_all == 1300 and with_static["mobilithek-magdeburg-ph11"].latitude == 52.12998
+assert with_static["mobilithek-magdeburg-ph16"].place_name == "Elbauenpark P+R" and with_static["mobilithek-magdeburg-ph16"].latitude is None
 empty = m.MobilithekPullAdapter(feed, pull_fn=lambda sid: None if sid == feed.static else STATUS)
-assert empty.fetch_capacity(None)[0].place_name.startswith("Magdeburg PH")  # 204 from the static offer
+assert {c.place_id: c.place_name for c in empty.fetch_capacity(None)}["mobilithek-magdeburg-ph04"] == "Magdeburg PH04"   # unmatched stays a placeholder
 assert m.MobilithekPullAdapter(feed, pull_fn=lambda sid: None).fetch_occupancy(None, {}) == []   # nothing delivered yet
 
 # --- through the real storage and validation layers

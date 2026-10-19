@@ -11,7 +11,8 @@ and MOBILITHEK_KEY hold it as PEM text. Two things a plain request gets wrong (f
 Each entry of FEEDS is one city's feed. The live counts are a DATEX II v2 publication; a ParkingFacility
 Status carries only an id ("PH01"), the counts and a time, so the name, capacity and position come from the
 provider's separate static offer ("..statisch") once that has been approved and delivered. Until then the
-garage is named "<City> PH01" and its capacity is free + occupied from the live counts. A later weekly
+garage is named from Feed.places where a name could be established elsewhere, else "<City> PH01", and its
+capacity is free + occupied from the live counts. A later weekly
 capacity run replaces both with the static values.
 
 Other publishers deliver other shapes (the NRW bundle is a JSON list of ParkingSite objects and was found
@@ -31,7 +32,7 @@ import ssl
 import tempfile
 import urllib.request
 import xml.etree.ElementTree as ET
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import datetime, timezone
 
 from scrapers.base import CapacityRecord, OccupancyRecord, SourceAdapter
@@ -47,11 +48,33 @@ class Feed:
     city: str
     dynamic: str                 # subscription id of the live-counts offer
     static: str | None = None    # subscription id of the static offer (names, capacities, positions)
+    # ref -> (name, lat, lon): names from a source we could read, used while the static offer gives nothing
+    places: dict = field(default_factory=dict)
 
+
+# Magdeburg: the static offer ("Parkplätze Stadt Magdeburg") delivers an empty table (checked 2026-10-19), and the
+# live feed names its car parks PH01.. only. The names come from the city's own parking-guidance page,
+# movi.de/parkinfo (run with the Tiefbauamt Magdeburg), matched on 2026-10-19 at ~14:00 local by comparing its free
+# counts and times with the feed: Universitätsplatz 110 free = PH01 110; Allee Center 828 = PH11 827; Hotel Maritim 328
+# = PH06 327; Ulrichshaus 127 = PH07 126; Petriförder Ost 87 = PH09 85; Petriförder West 45 = PH10 45; Elbauenpark
+# 846 = PH16 841; Domviertel 50 = PH18 50 (both stamped 06:00). PH02 and PH04 match no listed car park and stay
+# unnamed. Coordinates are Nominatim's for the named place and approximate; none is given where the place is
+# ambiguous (Petriförder Ost, Domviertel, Elbauenpark).
+MAGDEBURG_PLACES = {
+    "PH01": ("Universitätsplatz", 52.13892, 11.63956),
+    "PH06": ("Hotel Maritim", 52.12933, 11.63205),
+    "PH07": ("Ulrichshaus", 52.13048, 11.63530),
+    "PH09": ("Petriförder Ost", None, None),
+    "PH10": ("Petriförder West", 52.13276, 11.64586),
+    "PH11": ("Allee-Center", 52.12998, 11.63754),
+    "PH16": ("Elbauenpark P+R", None, None),
+    "PH18": ("Domviertel", None, None),
+}
 
 FEEDS = [
-    # Parkbelegungsdaten Stadt Magdeburg (ifak e.V.), approved 2026-10-19; "Parkplätze Stadt Magdeburg" is the static offer
-    Feed("mobilithek-magdeburg", "Magdeburg", dynamic="1048961318253412352", static="1048961358375899136"),
+    # Parkbelegungsdaten Stadt Magdeburg (ifak e.V.), approved 2026-10-19
+    Feed("mobilithek-magdeburg", "Magdeburg", dynamic="1048961318253412352", static="1048961358375899136",
+         places=MAGDEBURG_PLACES),
 ]
 
 _context: ssl.SSLContext | None = None
@@ -180,7 +203,8 @@ class MobilithekPullAdapter(SourceAdapter):
         static = self._static()
         records = []
         for s in parse_status(body):
-            meta = static.get(s["ref"], {})
+            known = self.feed.places.get(s["ref"])
+            meta = static.get(s["ref"]) or ({"name": known[0], "lat": known[1], "lon": known[2]} if known else {})
             capacity = meta.get("capacity") or (s["vacant"] + s["occupied"] if s["vacant"] >= 0 and s["occupied"] >= 0 else 0)
             if capacity <= 0:
                 continue
