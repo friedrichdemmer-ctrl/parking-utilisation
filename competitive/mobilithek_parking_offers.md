@@ -9,6 +9,13 @@ Subscription held: Gebündelte Daten Parken NRW (NRW.Mobidrom, DATEX II v2, subs
 pull, no limit on retrievals). It bundles live data for Bergkamen, Bielefeld, Düsseldorf, Köln, Krefeld, Wuppertal and
 APAG Aachen, plus static APCOA, Contipark and Goldbeck lists.
 
+## Subscriptions (account friedrich.demmer, requested 2026-10-19; each needs the provider's approval except where noted)
+Active: Gebündelte Daten Parken NRW; Parkplätze Kieler Altstadt - Belegungsdaten (active at once, open data).
+Requested, dynamic + static pair each: München MVV P+R, München P+R GmbH, Augsburg PLS, Bremen, Erfurt, Göttingen PLS, Magdeburg,
+Mainz, Mönchengladbach, Oberstdorf PLS. Licences to check before publishing derived data: Augsburg, Bremen, Erfurt and Oberstdorf are
+"eingeschränkte Nutzung, kostenfrei" (restricted use, free); MVV, P+R GmbH and Mönchengladbach are "Sonstige vertragliche Regelung".
+Amberg's Parkleitsystem is a direct download and needs no subscription. Pull needs a machine certificate (mutual TLS).
+
 ## München (priority)
 | Offer | Provider | Notes |
 |---|---|---|
