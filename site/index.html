@@ -212,6 +212,11 @@ table.data tr.link:hover td { background: var(--accent-soft); }
 .askside h2 { font: 600 1.15rem var(--font-display); margin: 0; }
 .askside ul { margin: 0; padding-left: 1.1rem; display: grid; gap: .55rem; color: var(--ink-2); font-size: .93rem; }
 .askcta { border-top: 1px solid var(--rule-soft); padding-top: .9rem; display: flex; justify-content: space-between; align-items: center; gap: .6rem 1rem; flex-wrap: wrap; }
+:root { --lock: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M4 7V5a4 4 0 0 1 8 0v2h1v8H3V7h1zm2 0h4V5a2 2 0 0 0-4 0v2z'/%3E%3C/svg%3E"); }
+nav.sections a.locked::after { content: ""; display: inline-block; width: .6em; height: .6em; margin-left: .3em; vertical-align: -.02em; background: currentColor; opacity: .5; -webkit-mask: var(--lock) center / contain no-repeat; mask: var(--lock) center / contain no-repeat; }
+nav.sections a#navSignout { color: var(--ink-3); font-size: .88rem; }
+.gate { max-width: 26rem; }
+#loginMsg.err { color: var(--bad); }
 .brief section { display: grid; gap: .6rem; }
 .brief section + section { border-top: 1px solid var(--rule-soft); padding-top: .9rem; }
 .brief h3 { font: 600 1.1rem var(--font-display); margin: 0; }
@@ -246,6 +251,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
       <a href="#local" data-view="local">Local maps</a>
       <a href="#compare" data-view="compare">Compare</a>
       <a href="#reports" data-view="reports">Reports</a>
+      <a href="#signout" id="navSignout" hidden>Sign out</a>
     </nav>
     <a class="statuspill" href="#status" id="statusPill"><span class="dot"></span><span>Feeds</span></a>
   </div>
@@ -350,6 +356,21 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     <div class="cards" id="repCards"></div>
   </section>
 
+  <!-- SIGN IN: shown in place of Explore, Local maps, Compare and Reports until the access password is entered -->
+  <section class="view" id="view-login" hidden aria-labelledby="h-login">
+    <div class="intro">
+      <h1 id="h-login">Sign in to continue</h1>
+      <p class="sub" id="loginSub">Explore, Local maps, Compare and Reports need the access password. The Overview and the live map are open to everyone.</p>
+    </div>
+    <form class="panel askform gate" id="loginForm" novalidate>
+      <label>Access password
+        <input type="password" id="loginPw" autocomplete="current-password" required>
+      </label>
+      <div class="askbar"><button type="submit" class="btn primary" id="loginBtn">Sign in</button><span id="loginMsg" role="status"></span></div>
+      <p class="note">No password? Use the contact details on the <a href="/legal">legal page</a> to ask for access. Signing in sets one cookie for up to 30 days; see the <a href="/privacy">privacy notice</a>.</p>
+    </form>
+  </section>
+
   <!-- ASK -->
   <section class="view" id="view-ask" hidden aria-labelledby="h-ask">
     <div class="intro">
@@ -433,10 +454,32 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
   }
   const rampCss = () => `linear-gradient(90deg, ${(isDark() ? RAMP_DARK : RAMP_LIGHT).join(",")})`;
 
+  // ---------- access password ----------
+  // Explore, Local maps, Compare and Reports (and the APIs behind them) sit behind one shared password; see access.py.
+  const PROTECTED_VIEWS = new Set(["explore", "local", "compare", "reports"]);
+  const access = { unlocked: null, configured: true };   // unlocked is null until /api/access has answered
+  function updateAccessUi() {
+    document.querySelectorAll("nav.sections a[data-view]").forEach(a => a.classList.toggle("locked", PROTECTED_VIEWS.has(a.dataset.view) && access.unlocked !== true));
+    document.getElementById("navSignout").hidden = access.unlocked !== true;
+  }
+  async function loadAccess() {
+    try { const d = await (await fetch("/api/access", { cache: "no-store" })).json(); access.unlocked = !!d.unlocked; access.configured = d.configured !== false; }
+    catch (e) { access.unlocked = false; }
+    updateAccessUi();
+  }
+  async function signOut() {
+    try { await fetch("/api/logout", { method: "POST" }); } catch (e) { /* signed out locally either way */ }
+    access.unlocked = false; updateAccessUi(); location.hash = "#overview";
+  }
+
   async function api(url, opts) {
     const r = await fetch(url, opts);
     let body = null;
     try { body = await r.json(); } catch (e) { /* not JSON */ }
+    if (r.status === 401 && body && body.login) {      // the sign-in expired (or was never given): show the sign-in page
+      access.unlocked = false; updateAccessUi(); setTimeout(route, 0);
+      throw new Error("Sign in to use this part of the site.");
+    }
     if (r.status === 429) throw new Error("Too many requests from your connection. Wait a few minutes and try again.");
     if (!r.ok) throw new Error((body && body.error) || `The server answered ${r.status}. Try again shortly.`);
     return body;
@@ -1315,11 +1358,44 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     finally { btn.disabled = false; btn.textContent = "Send request"; }
   });
 
+  // ---------- sign-in page ----------
+  const loginForm = document.getElementById("loginForm"), loginMsg = document.getElementById("loginMsg"), loginPw = document.getElementById("loginPw");
+  function showGate(v) {
+    document.querySelectorAll("section.view").forEach(s => { s.hidden = s.id !== "view-login"; });
+    document.querySelectorAll("nav.sections a").forEach(a => { if (a.dataset.view === v) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
+    loginForm.hidden = !access.configured;
+    loginMsg.className = ""; loginMsg.textContent = "";
+    document.getElementById("h-login").textContent = access.configured ? "Sign in to continue" : "Not open yet";
+    document.getElementById("loginSub").textContent = access.configured
+      ? "Explore, Local maps, Compare and Reports need the access password. The Overview and the live map are open to everyone."
+      : "This part of the site is not open yet. The Overview and the live map are open to everyone.";
+    window.scrollTo(0, 0);
+    if (access.configured) setTimeout(() => loginPw.focus(), 0);
+  }
+  loginForm.addEventListener("submit", async ev => {
+    ev.preventDefault();
+    const btn = document.getElementById("loginBtn");
+    loginMsg.className = ""; loginMsg.textContent = "";
+    btn.disabled = true; btn.textContent = "Checking…";
+    try {
+      const r = await fetch("/api/login", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ password: loginPw.value }) });
+      const d = await r.json().catch(() => ({}));
+      if (!r.ok) throw new Error(d.error || `The server answered ${r.status}. Try again shortly.`);
+      loginPw.value = ""; access.unlocked = true; updateAccessUi(); route();
+    } catch (e) { loginMsg.className = "err"; loginMsg.textContent = e.message; loginPw.select(); }
+    finally { btn.disabled = false; btn.textContent = "Sign in"; }
+  });
+
   // ---------- routing ----------
   function route() {
     const parts = (location.hash.slice(1) || "overview").split("/").map(x => { try { return decodeURIComponent(x); } catch (e) { return x; } });
     const [view, kind, ...rest] = parts;
+    if (view === "signout") { signOut(); return; }
     const v = ["overview", "explore", "local", "compare", "reports", "status"].concat(ASK_ENABLED ? ["ask"] : []).includes(view) ? view : "overview";
+    if (PROTECTED_VIEWS.has(v) && access.unlocked !== true) {
+      if (access.unlocked === null) { loadAccess().then(route); return; }
+      showGate(v); return;
+    }
     document.querySelectorAll("section.view").forEach(s => { s.hidden = s.id !== "view-" + v; });
     document.querySelectorAll("nav.sections a").forEach(a => { if (a.dataset.view === v) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
     if (v === "overview") renderOverview();
@@ -1346,6 +1422,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
   matchMedia("(prefers-color-scheme: dark)").addEventListener("change", retheme);
   new MutationObserver(retheme).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
   addEventListener("hashchange", route);
+  loadAccess();
   route();
   let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { if (!location.hash.startsWith("#explore/garage") && !location.hash.startsWith("#explore/city")) return; route(); }, 250); });
 })();

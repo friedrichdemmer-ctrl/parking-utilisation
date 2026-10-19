@@ -1,7 +1,8 @@
 """The privacy notice (/privacy) and legal page (/legal), written for UK law.
 
 - Privacy notice: UK GDPR Articles 13-14 and the Data Protection Act 2018. It describes what the
-  site actually does (checked 2026-10-06): no cookies, no analytics; the Compare list kept in the
+  site actually does (checked 2026-10-06; updated 2026-10-19 for the access password): one
+  sign-in cookie only when a visitor enters the access password (strictly necessary, PECR-exempt), no analytics; the Compare list kept in the
   visitor's own browser (localStorage, exempt under PECR as strictly necessary for a feature the
   visitor asked for); fonts from Google, map code from cdnjs (Cloudflare) and map tiles from Esri,
   which see visitors' IP addresses; analysis requests stored for 12 months (requests_store.py).
@@ -84,7 +85,7 @@ def privacy(legal: dict) -> str:
 <p>The occupancy, capacity and price figures on this site describe car parks, not people. They come from public open-data feeds and operators' published tariffs and contain no personal information.</p>
 
 <h2>Visiting the site</h2>
-<p>We do not use cookies, analytics, tracking or advertising.</p>
+<p>We do not use analytics, tracking or advertising cookies. The only cookie we set is a sign-in cookie, and only if you enter the access password for Explore, Local maps, Compare and Reports: it holds a signed token that keeps you signed in for up to 30 days and is deleted when you sign out. It is strictly necessary for that feature, so it needs no consent.</p>
 <p>When your browser loads a page, our hosting provider receives the technical details every web request carries, such as your IP address, browser type and the page requested. We use these only to deliver the site, keep it secure and limit abuse. Our server keeps your IP address in memory for no more than a few minutes to stop anyone overloading the site, and does not write it to any log or database.</p>
 <p>To display the pages, your browser also fetches files directly from three other services, which receive your IP address and browser details when it does: fonts from Google Fonts (Google), the map software from cdnjs (Cloudflare), and map images from Esri. Each handles that information under its own privacy policy.</p>
 <p>If you use Compare, the list of cities and garages you choose is kept in your own browser's storage so it is still there next time. It is never sent to us, and you can clear it at any time in your browser settings. Because it only provides a feature you asked for, it needs no consent.</p>

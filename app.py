@@ -67,6 +67,10 @@ from site_api import bp as site_api_bp  # noqa: E402  (needs SOURCE_COUNTRY abov
 
 app.register_blueprint(site_api_bp)
 
+import access  # noqa: E402
+
+access.install(app)    # password gate on Explore, Local maps, Compare, Reports and their APIs
+
 # Per-visitor limit on the JSON API, so the archive can be browsed but not
 # bulk-copied by looping over garages. In-memory per gunicorn worker, so the
 # effective limit is a small multiple of this; fine for its purpose.
