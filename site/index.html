@@ -216,6 +216,19 @@ table.data tr.link:hover td { background: var(--accent-soft); }
 nav.sections a.locked::after { content: ""; display: inline-block; width: .6em; height: .6em; margin-left: .3em; vertical-align: -.02em; background: currentColor; opacity: .5; -webkit-mask: var(--lock) center / contain no-repeat; mask: var(--lock) center / contain no-repeat; }
 nav.sections a#navSignout { color: var(--ink-3); font-size: .88rem; }
 .gate { max-width: 26rem; }
+nav.sections .who { margin-left: auto; font: 500 .8rem var(--font-data); color: var(--ink-3); }
+nav.sections a.signin { color: var(--accent); font-weight: 600; }
+.signinbox { display: grid; gap: .8rem; max-width: 26rem; }
+.rolebadge { display: inline-block; font: 500 .72rem var(--font-data); text-transform: uppercase; letter-spacing: .05em; padding: .12rem .45rem; border-radius: 4px; background: var(--accent-soft); color: var(--accent); }
+.rolebadge.off { background: var(--rule-soft); color: var(--ink-3); }
+.adm-form { display: flex; flex-wrap: wrap; gap: .6rem 1rem; align-items: end; }
+.adm-form label { display: grid; gap: .3rem; font: 500 .85rem var(--font-body); }
+.adm-form input[type=email], .adm-form input[type=text], .adm-form select { font: 400 .92rem var(--font-body); color: var(--ink); background: var(--bg); border: 1px solid var(--rule); border-radius: 4px; padding: .45rem .6rem; min-width: 14rem; }
+.adm-form .check { display: flex; align-items: center; gap: .45rem; font-weight: 400; }
+.adm-cities { display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: .15rem .8rem; max-height: 22rem; overflow-y: auto; border: 1px solid var(--rule); border-radius: 4px; padding: .6rem .8rem; background: var(--bg); }
+.adm-cities label { display: flex; gap: .45rem; align-items: baseline; font-size: .9rem; color: var(--ink-2); }
+.adm-cities h3 { grid-column: 1 / -1; font: 500 .72rem var(--font-data); text-transform: uppercase; letter-spacing: .07em; color: var(--ink-3); margin: .6rem 0 .1rem; }
+#admMsg.ok, #admCityMsg.ok { color: var(--good); } #admMsg.err, #admCityMsg.err { color: var(--bad); }
 #loginMsg.err { color: var(--bad); }
 .brief section { display: grid; gap: .6rem; }
 .brief section + section { border-top: 1px solid var(--rule-soft); padding-top: .9rem; }
@@ -251,6 +264,9 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
       <a href="#local" data-view="local">Local maps</a>
       <a href="#compare" data-view="compare">Compare</a>
       <a href="#reports" data-view="reports">Reports</a>
+      <a href="#admin" data-view="admin" id="navAdmin" hidden>Admin</a>
+      <span class="who" id="navUser" hidden></span>
+      <a href="/login" id="navSignin" class="signin" hidden>Sign in</a>
       <a href="#signout" id="navSignout" hidden>Sign out</a>
     </nav>
     <a class="statuspill" href="#status" id="statusPill"><span class="dot"></span><span>Feeds</span></a>
@@ -356,19 +372,52 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     <div class="cards" id="repCards"></div>
   </section>
 
-  <!-- SIGN IN: shown in place of Explore, Local maps, Compare and Reports until the access password is entered -->
+  <!-- SIGN IN: shown in place of Explore, Local maps, Compare, Reports and Admin until someone is signed in -->
   <section class="view" id="view-login" hidden aria-labelledby="h-login">
     <div class="intro">
       <h1 id="h-login">Sign in to continue</h1>
-      <p class="sub" id="loginSub">Explore, Local maps, Compare and Reports need the access password. The Overview and the live map are open to everyone.</p>
+      <p class="sub" id="loginSub">Explore, Local maps, Compare and Reports are for invited users. The Overview and the live map are open to everyone.</p>
     </div>
-    <form class="panel askform gate" id="loginForm" novalidate>
+    <div class="signinbox" id="loginKinde" hidden>
+      <a class="btn primary" id="loginKindeBtn" href="/login" style="justify-content:center">Sign in</a>
+      <p class="note">Use the email address you were invited with. The first time, you create a login and confirm the address with a code we send. No invitation? Ask whoever gave you this address. Signing in sets one cookie, kept for up to 14 days. <span class="privlink" hidden>The <a href="/legal">legal page</a> has our contact details and the <a href="/privacy">privacy notice</a> explains the cookie.</span></p>
+    </div>
+    <form class="panel askform gate" id="loginForm" novalidate hidden>
       <label>Access password
         <input type="password" id="loginPw" autocomplete="current-password" required>
       </label>
       <div class="askbar"><button type="submit" class="btn primary" id="loginBtn">Sign in</button><span id="loginMsg" role="status"></span></div>
       <p class="note">No password? Ask whoever invited you. Signing in sets one cookie, kept for up to 30 days. <span class="privlink" hidden>The <a href="/legal">legal page</a> has our contact details and the <a href="/privacy">privacy notice</a> explains the cookie.</span></p>
     </form>
+  </section>
+
+  <!-- ADMIN: people and the demonstrator's cities (administrator only) -->
+  <section class="view" id="view-admin" hidden aria-labelledby="h-adm">
+    <div class="intro">
+      <h1 id="h-adm">Admin</h1>
+      <p class="sub">Who may sign in, and which cities a demonstrator may see. Only invited email addresses get in; a Kinde login alone gives nothing.</p>
+    </div>
+    <div class="panel">
+      <h2>Invite someone</h2>
+      <form class="adm-form" id="admInvite" novalidate>
+        <label>Email <input type="email" id="admEmail" required autocomplete="off" placeholder="name@example.com"></label>
+        <label>Name <span class="muted">(optional)</span> <input type="text" id="admName" autocomplete="off"></label>
+        <label>Role <select id="admRole"><option value="demonstrator">Demonstrator: selected cities</option><option value="full">Full user: everything</option><option value="admin">Administrator</option></select></label>
+        <label class="check"><input type="checkbox" id="admSend" checked> Send the invitation email</label>
+        <button type="submit" class="btn primary" id="admInviteBtn">Invite</button>
+      </form>
+      <p id="admMsg" role="status"></p>
+      <p class="note" id="admMailNote"></p>
+    </div>
+    <div class="panel"><h2>Users</h2><div class="scroll"><table class="data" id="admUsers"></table></div></div>
+    <div class="panel" id="admReqPanel" hidden><h2>Signed in but not invited</h2><p class="note">These addresses signed in through Kinde and have no account. Invite one with the form above, or ignore it.</p><div class="scroll"><table class="data" id="admReqs"></table></div></div>
+    <div class="panel">
+      <h2>Cities a demonstrator may see</h2>
+      <p class="note">Only cities with occupancy history are listed. Demonstrators see these in Explore, Local maps, Compare and the city briefings. The reports cover all cities.</p>
+      <div class="adm-form"><label>Filter <input type="text" id="admCityFilter" autocomplete="off" placeholder="type a city"></label><span class="note" id="admCityCount"></span></div>
+      <div class="adm-cities" id="admCities"></div>
+      <div class="askbar"><button type="button" class="btn primary" id="admCitySave">Save cities</button><span id="admCityMsg" role="status"></span></div>
+    </div>
   </section>
 
   <!-- ASK -->
@@ -454,27 +503,41 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
   }
   const rampCss = () => `linear-gradient(90deg, ${(isDark() ? RAMP_DARK : RAMP_LIGHT).join(",")})`;
 
-  // ---------- access password ----------
-  // Explore, Local maps, Compare and Reports (and the APIs behind them) sit behind one shared password; see access.py.
-  const PROTECTED_VIEWS = new Set(["explore", "local", "compare", "reports"]);
-  const access = { unlocked: null, configured: true };   // unlocked is null until /api/access has answered
+  // ---------- sign-in and roles ----------
+  // Explore, Local maps, Compare, Reports and Admin (and the APIs behind them) need a signed-in user; see access.py.
+  // Kinde does the signing in, accounts.py decides the role: administrator, full user or demonstrator.
+  const PROTECTED_VIEWS = new Set(["explore", "local", "compare", "reports", "admin"]);
+  const access = { unlocked: null, configured: true, mode: "kinde", user: null, cities: null };   // unlocked is null until /api/access has answered
+  const ROLE_LABEL = { admin: "Administrator", full: "Full user", demonstrator: "Demonstrator" };
   function updateAccessUi() {
-    document.querySelectorAll("nav.sections a[data-view]").forEach(a => a.classList.toggle("locked", PROTECTED_VIEWS.has(a.dataset.view) && access.unlocked !== true));
-    document.getElementById("navSignout").hidden = access.unlocked !== true;
+    const on = access.unlocked === true;
+    document.querySelectorAll("nav.sections a[data-view]").forEach(a => a.classList.toggle("locked", PROTECTED_VIEWS.has(a.dataset.view) && !on));
+    document.getElementById("navAdmin").hidden = !(on && access.user && access.user.role === "admin");
+    document.getElementById("navSignout").hidden = !on;
+    document.getElementById("navSignin").hidden = on || access.unlocked === null || access.mode !== "kinde";
+    const who = document.getElementById("navUser");
+    who.hidden = !(on && access.user);
+    if (access.user) who.textContent = `${access.user.email || "signed in"} · ${ROLE_LABEL[access.user.role] || access.user.role}${access.cities != null ? ` · ${access.cities} cities` : ""}`;
   }
   async function loadAccess() {
-    try { const d = await (await fetch("/api/access", { cache: "no-store" })).json(); access.unlocked = !!d.unlocked; access.configured = d.configured !== false; }
-    catch (e) { access.unlocked = false; }
+    try {
+      const d = await (await fetch("/api/access", { cache: "no-store" })).json();
+      Object.assign(access, { unlocked: !!d.unlocked, configured: d.configured !== false, mode: d.mode || "kinde", user: d.user || null, cities: d.cities ?? null });
+    } catch (e) { access.unlocked = false; }
     updateAccessUi();
     if (access.unlocked) loadPickers();
   }
   const loadPickers = () => { exPicker.reload(); cmpPicker.reload(); };      // defined below; only called once they exist
   async function signOut() {
-    try { await fetch("/api/logout", { method: "POST" }); } catch (e) { /* signed out locally either way */ }
-    access.unlocked = false; updateAccessUi(); location.hash = "#overview";
+    let url = null;
+    try { url = (await (await fetch("/api/logout", { method: "POST", headers: { "X-Requested-With": "tpa" } })).json()).logout_url; } catch (e) { /* signed out locally either way */ }
+    access.unlocked = false; access.user = null; updateAccessUi();
+    if (url) { location.href = url; return; }          // Kinde's own session ends too, so the next sign-in asks again
+    location.hash = "#overview";
   }
 
   async function api(url, opts) {
+    if (opts && opts.method && opts.method !== "GET") opts = { ...opts, headers: { "X-Requested-With": "tpa", ...(opts.headers || {}) } };
     const r = await fetch(url, opts);
     let body = null;
     try { body = await r.json(); } catch (e) { /* not JSON */ }
@@ -1371,14 +1434,17 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
   function showGate(v) {
     document.querySelectorAll("section.view").forEach(s => { s.hidden = s.id !== "view-login"; });
     document.querySelectorAll("nav.sections a").forEach(a => { if (a.dataset.view === v) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
-    loginForm.hidden = !access.configured;
+    const kinde = access.mode === "kinde";
+    document.getElementById("loginKinde").hidden = !(access.configured && kinde);
+    document.getElementById("loginKindeBtn").href = "/login?next=" + encodeURIComponent(v);
+    loginForm.hidden = !(access.configured && !kinde);
     loginMsg.className = ""; loginMsg.textContent = "";
     document.getElementById("h-login").textContent = access.configured ? "Sign in to continue" : "Not open yet";
     document.getElementById("loginSub").textContent = access.configured
-      ? "Explore, Local maps, Compare and Reports need the access password. The Overview and the live map are open to everyone."
+      ? "Explore, Local maps, Compare and Reports are for invited users. The Overview and the live map are open to everyone."
       : "This part of the site is not open yet. The Overview and the live map are open to everyone.";
     window.scrollTo(0, 0);
-    if (access.configured) setTimeout(() => loginPw.focus(), 0);
+    if (access.configured && !kinde) setTimeout(() => loginPw.focus(), 0);
   }
   loginForm.addEventListener("submit", async ev => {
     ev.preventDefault();
@@ -1389,9 +1455,91 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
       const r = await fetch("/api/login", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ password: loginPw.value }) });
       const d = await r.json().catch(() => ({}));
       if (!r.ok) throw new Error(d.error || `The server answered ${r.status}. Try again shortly.`);
-      loginPw.value = ""; access.unlocked = true; updateAccessUi(); loadPickers(); route();
+      loginPw.value = ""; await loadAccess(); route();
     } catch (e) { loginMsg.className = "err"; loginMsg.textContent = e.message; loginPw.select(); }
     finally { btn.disabled = false; btn.textContent = "Sign in"; }
+  });
+
+  // ---------- ADMIN ----------
+  const admJson = (url, method, body) => api(url, { method, headers: { "Content-Type": "application/json" }, body: body ? JSON.stringify(body) : undefined });
+  const admMsg = document.getElementById("admMsg");
+  const say = (el, text, ok) => { el.className = ok ? "ok" : "err"; el.textContent = text; };
+  const when = s => s ? s.replace("T", " ").slice(0, 16) : "never";
+  let admCities = { options: {}, selected: new Set() };
+
+  async function renderAdmin() {
+    if (!access.user || access.user.role !== "admin") { location.hash = "#overview"; return; }
+    try {
+      const d = await api("/api/admin/users");
+      document.getElementById("admMailNote").textContent = d.email_ready ? "" : "Invitation emails are switched off: Brevo is not set up yet (BREVO_API_KEY and BREVO_SENDER_EMAIL). People can still sign in once invited.";
+      document.getElementById("admUsers").innerHTML = `<thead><tr><th>Email</th><th>Name</th><th>Role</th><th>Last sign-in</th><th>Status</th><th></th></tr></thead><tbody>` +
+        d.users.map(u => `<tr data-email="${esc(u.email)}"><td>${esc(u.email)}</td><td>${esc(u.name || "")}</td>
+          <td>${u.protected ? `<span class="rolebadge">Administrator</span>` : `<select data-act="role" aria-label="Role of ${esc(u.email)}">${["demonstrator", "full", "admin"].map(r => `<option value="${r}"${r === u.role ? " selected" : ""}>${ROLE_LABEL[r]}</option>`).join("")}</select>`}</td>
+          <td class="muted">${esc(when(u.last_login))}</td><td>${u.disabled ? `<span class="rolebadge off">Disabled</span>` : u.last_login ? `<span class="rolebadge">Active</span>` : `<span class="rolebadge off">Invited</span>`}</td>
+          <td style="white-space:nowrap">${u.protected ? "" : `<button type="button" class="btn" data-act="toggle">${u.disabled ? "Enable" : "Disable"}</button> <button type="button" class="btn" data-act="remove">Remove</button>`}</td></tr>`).join("") + `</tbody>`;
+      document.getElementById("admReqPanel").hidden = !d.requests.length;
+      document.getElementById("admReqs").innerHTML = `<thead><tr><th>Email</th><th>First seen</th><th>Last seen</th><th class="r">Times</th><th></th></tr></thead><tbody>` +
+        d.requests.map(r => `<tr data-email="${esc(r.email)}"><td>${esc(r.email)}</td><td class="muted">${esc(when(r.first_at))}</td><td class="muted">${esc(when(r.last_at))}</td><td class="r num">${r.hits}</td><td><button type="button" class="btn" data-act="prefill">Invite…</button></td></tr>`).join("") + `</tbody>`;
+    } catch (e) { say(admMsg, e.message, false); }
+    try {
+      const c = await api("/api/admin/cities");
+      admCities = { options: c.options, selected: new Set(c.allowed.map(a => a.country + "|" + a.city)) };
+      drawAdminCities();
+    } catch (e) { say(document.getElementById("admCityMsg"), e.message, false); }
+  }
+  function drawAdminCities() {
+    const q = document.getElementById("admCityFilter").value.trim().toLowerCase(), el = document.getElementById("admCities");
+    let s = "";
+    for (const [country, cities] of Object.entries(admCities.options)) {
+      const rows = cities.filter(c => !q || c.toLowerCase().includes(q));
+      if (!rows.length) continue;
+      s += `<h3>${esc(country)}</h3>` + rows.map(c => { const k = country + "|" + c; return `<label><input type="checkbox" data-k="${esc(k)}"${admCities.selected.has(k) ? " checked" : ""}> ${esc(c)}</label>`; }).join("");
+    }
+    el.innerHTML = s || `<p class="note">No city matches.</p>`;
+    document.getElementById("admCityCount").textContent = `${admCities.selected.size} selected`;
+  }
+  document.getElementById("admCityFilter").addEventListener("input", drawAdminCities);
+  document.getElementById("admCities").addEventListener("change", ev => {
+    const k = ev.target.dataset.k; if (!k) return;
+    ev.target.checked ? admCities.selected.add(k) : admCities.selected.delete(k);
+    document.getElementById("admCityCount").textContent = `${admCities.selected.size} selected`;
+  });
+  document.getElementById("admCitySave").addEventListener("click", async () => {
+    const m = document.getElementById("admCityMsg");
+    try {
+      const d = await admJson("/api/admin/cities", "PUT", { cities: [...admCities.selected].map(k => { const [country, city] = k.split("|"); return { country, city }; }) });
+      say(m, `Saved: ${d.allowed.length} cities.`, true);
+    } catch (e) { say(m, e.message, false); }
+  });
+  document.getElementById("admInvite").addEventListener("submit", async ev => {
+    ev.preventDefault();
+    const btn = document.getElementById("admInviteBtn"), email = document.getElementById("admEmail").value.trim();
+    btn.disabled = true; admMsg.textContent = "";
+    try {
+      const d = await admJson("/api/admin/users", "POST", { email, name: document.getElementById("admName").value, role: document.getElementById("admRole").value, send_email: document.getElementById("admSend").checked });
+      say(admMsg, d.email_sent ? `Invited ${d.user.email} as ${ROLE_LABEL[d.user.role]}; the invitation email has been sent.`
+        : `Invited ${d.user.email} as ${ROLE_LABEL[d.user.role]}. No email was sent${d.email_error ? " (" + d.email_error.replace(/\.$/, "") + ")" : ""}. Tell them to sign in at this address with that email.`, true);
+      document.getElementById("admEmail").value = ""; document.getElementById("admName").value = "";
+      renderAdmin();
+    } catch (e) { say(admMsg, e.message, false); }
+    finally { btn.disabled = false; }
+  });
+  document.getElementById("view-admin").addEventListener("click", async ev => {
+    const b = ev.target.closest("button[data-act]"), tr = ev.target.closest("tr[data-email]");
+    if (!b || !tr) return;
+    const email = tr.dataset.email;
+    try {
+      if (b.dataset.act === "prefill") { document.getElementById("admEmail").value = email; document.getElementById("admEmail").focus(); window.scrollTo(0, 0); return; }
+      if (b.dataset.act === "toggle") await admJson("/api/admin/users/disable", "POST", { email, disabled: b.textContent.trim() === "Disable" });
+      if (b.dataset.act === "remove") { if (!confirm(`Remove ${email}? They lose access at once.`)) return; await admJson("/api/admin/users/delete", "POST", { email }); }
+      renderAdmin();
+    } catch (e) { say(admMsg, e.message, false); }
+  });
+  document.getElementById("view-admin").addEventListener("change", async ev => {
+    const s = ev.target.closest("select[data-act=role]"), tr = ev.target.closest("tr[data-email]");
+    if (!s || !tr) return;
+    try { await admJson("/api/admin/users/role", "POST", { email: tr.dataset.email, role: s.value }); say(admMsg, `${tr.dataset.email} is now ${ROLE_LABEL[s.value]}.`, true); renderAdmin(); }
+    catch (e) { say(admMsg, e.message, false); renderAdmin(); }
   });
 
   // ---------- routing ----------
@@ -1399,7 +1547,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     const parts = (location.hash.slice(1) || "overview").split("/").map(x => { try { return decodeURIComponent(x); } catch (e) { return x; } });
     const [view, kind, ...rest] = parts;
     if (view === "signout") { signOut(); return; }
-    const v = ["overview", "explore", "local", "compare", "reports", "status"].concat(ASK_ENABLED ? ["ask"] : []).includes(view) ? view : "overview";
+    const v = ["overview", "explore", "local", "compare", "reports", "status", "admin"].concat(ASK_ENABLED ? ["ask"] : []).includes(view) ? view : "overview";
     if (PROTECTED_VIEWS.has(v) && access.unlocked !== true) {
       if (access.unlocked === null) { loadAccess().then(route); return; }
       showGate(v); return;
@@ -1416,6 +1564,7 @@ footer { max-width: 76rem; margin: 0 auto; padding: 1.2rem max(16px, 3vw) 2.5rem
     else if (v === "local") renderLocal(kind || null, rest.length ? rest[0] : null);
     else if (v === "compare") renderCompare();
     else if (v === "status") renderStatus();
+    else if (v === "admin") renderAdmin();
     else if (v === "ask") renderAsk(kind ? [kind, ...rest] : []);
     window.scrollTo(0, 0);
   }

@@ -195,6 +195,31 @@ def _index() -> dict:
     return _cached("index", 3600, build)
 
 
+def _visible_index() -> dict:
+    """The index limited to what this user may see: everything, or a demonstrator's allowed cities."""
+    import access
+
+    idx, s = _index(), access.scope()
+    if s is None:
+        return idx
+    out = {}
+    for country, cs in idx.items():
+        kept = {city: gs for city, gs in cs.items() if (country, city) in s}
+        if kept:
+            out[country] = kept
+    return out
+
+
+def place_city(place_id: str) -> tuple[str | None, str | None]:
+    """(country, city) of a garage id, for the access check; (None, None) if unknown."""
+    conn = _db()
+    try:
+        row = conn.execute("SELECT city_name, source_id FROM lots_meta WHERE place_id = ?", (place_id,)).fetchone()
+    finally:
+        conn.close()
+    return (_country(row[1]), row[0]) if row else (None, None)
+
+
 # The browse endpoints list one level at a time: countries, then the cities
 # of one country, then the garages of one city. Entries with occupancy
 # history come first, so the useful ones are at the top of long lists
@@ -203,7 +228,7 @@ def _index() -> dict:
 @bp.route("/api/browse/countries")
 def api_browse_countries():
     rows = []
-    for country, cs in _index().items():
+    for country, cs in _visible_index().items():
         gs = [g for city in cs.values() for g in city]
         rows.append({"country": country, "cities": len(cs), "garages": len(gs),
                      "with_data": sum(1 for g in gs if g[3])})
@@ -212,7 +237,7 @@ def api_browse_countries():
 
 @bp.route("/api/browse/cities")
 def api_browse_cities():
-    cs = _index().get(request.args.get("country", ""))
+    cs = _visible_index().get(request.args.get("country", ""))
     if cs is None:
         return jsonify({"error": "Unknown country."}), 404
     rows = [{"city": city, "garages": len(gs), "with_data": sum(1 for g in gs if g[3])} for city, gs in cs.items()]
@@ -221,7 +246,7 @@ def api_browse_cities():
 
 @bp.route("/api/browse/garages")
 def api_browse_garages():
-    gs = _index().get(request.args.get("country", ""), {}).get(request.args.get("city", ""))
+    gs = _visible_index().get(request.args.get("country", ""), {}).get(request.args.get("city", ""))
     if gs is None:
         return jsonify({"error": "Unknown city."}), 404
     rows = [{"id": pid, "name": name, "capacity": cap, "has_data": has} for pid, name, cap, has in gs]
@@ -234,17 +259,28 @@ def api_browse_garages():
 
 @bp.route("/api/local/countries")
 def api_local_countries():
+    import access
     import competitive
 
-    return jsonify(competitive.countries())
+    rows = competitive.countries()
+    if access.scope() is not None:           # a demonstrator: only countries (and counts) of the allowed cities
+        kept = []
+        for r in rows:
+            cities = [c for c in competitive.cities(r["country"]) if access.city_ok(r["country"], c["city"])]
+            if cities:
+                kept.append({**r, "garages": sum(c["garages"] for c in cities), "cities": len(cities)})
+        rows = kept
+    return jsonify(rows)
 
 
 @bp.route("/api/local/cities")
 def api_local_cities():
     import competitive
 
+    import access
+
     country = request.args.get("country", "")
-    rows = competitive.cities(country)
+    rows = [r for r in competitive.cities(country) if access.city_ok(country, r["city"])]
     if not rows:
         return jsonify({"error": "Unknown country."}), 404
     return jsonify(rows)
@@ -254,6 +290,10 @@ def api_local_cities():
 def api_local_map():
     import competitive
 
+    import access
+
+    if not access.city_ok(request.args.get("country", ""), request.args.get("city", "")):
+        return access.forbidden()
     m = competitive.city_map(request.args.get("country", ""), request.args.get("city", ""))
     if m is None:
         return jsonify({"error": "No map for this city."}), 404
@@ -284,7 +324,11 @@ def api_briefing():
     sourced context we have researched for it (annotations/cities/). See city_briefing.py."""
     import city_briefing
 
+    import access
+
     country, city = request.args.get("country", ""), request.args.get("city", "")
+    if not access.city_ok(country, city):
+        return access.forbidden()
 
     def build():
         out = city_briefing.build(country, city, list(_report()["garages"].values()), _trends())
@@ -330,8 +374,10 @@ def api_search():
     if len(q) < 2:
         return jsonify({"cities": [], "garages": []})
     ql = q.lower()
+    import access
+
     cities = []
-    for country, cs in _index().items():
+    for country, cs in _visible_index().items():
         for city, gs in cs.items():
             if ql in city.lower():
                 cities.append({"city": city, "country": country, "garages": len(gs),
@@ -349,7 +395,8 @@ def api_search():
                ORDER BY (last_observed_ts IS NULL), (place_name LIKE ?) DESC, place_name LIMIT ?""",
             (like, like, f"{q}%", SEARCH_LIMIT * 2))
         if pid not in skip
-    ][:SEARCH_LIMIT - len(cities)]
+    ]
+    garages = [g for g in garages if access.city_ok(g["country"], g["city"])][:SEARCH_LIMIT - len(cities)]
     conn.close()
     return jsonify({"cities": cities, "garages": garages})
 
@@ -388,6 +435,10 @@ def api_garage(place_id: str):
     conn.close()
     if not row:
         return jsonify({"error": "No garage with a known capacity has this id."}), 404
+    import access
+
+    if not access.city_ok(_country(row[6]), row[2]):
+        return access.forbidden()
     report = _report()
     now = {g["id"]: g for g in _cached("now", NOW_TTL, _now_snapshot)["garages"]}
     summary = _garage_summary(row, report, now)
@@ -398,11 +449,15 @@ def api_garage(place_id: str):
 
 @bp.route("/api/city/<path:city>")
 def api_city(city: str):
+    import access
+
     country = request.args.get("country") or None   # Münster, Bruges, Burgdorf and Baden exist in two
+    if not access.city_ok(country, city):
+        return access.forbidden()
     conn = _db()
     skip = _excluded(conn)
     rows = [r for r in conn.execute(f"SELECT {GARAGE_COLS} FROM lots_meta WHERE city_name = ? AND num_all IS NOT NULL", (city,))
-            if r[0] not in skip and (country is None or _country(r[6]) == country)]
+            if r[0] not in skip and (country is None or _country(r[6]) == country) and access.city_ok(_country(r[6]), city)]
     from garage_links import NOT_READINGS
 
     freshness = __import__("freshness").of_rows([(r[6], r[7]) for r in rows if r[6] not in NOT_READINGS])

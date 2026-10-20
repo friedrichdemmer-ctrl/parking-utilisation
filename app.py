@@ -662,7 +662,12 @@ def download_csv():
 
 @app.route("/api/heatmap")
 def api_heatmap():
+    import access
+    from site_api import place_city
+
     place_id = request.args.get("place_id", "")
+    if not access.city_ok(*place_city(place_id)):
+        return access.forbidden()
     year = int(request.args.get("year", CURRENT_YEAR))
     granularity = int(request.args.get("granularity", 2))
     meta, grid, error = compute_heatmap(place_id, year, granularity)
@@ -673,11 +678,17 @@ def api_heatmap():
 @app.route("/api/compare", methods=["POST"])
 def api_compare():
     payload = request.get_json(force=True)
+    import access
+    from site_api import place_city
+
     entities = payload.get("entities", [])
     start = payload.get("start")
     end = payload.get("end")
     series = []
     for e in entities:
+        country_city = (e.get("country"), e["scope_value"]) if e["scope_type"] == "city" else place_city(e["scope_value"])
+        if not access.city_ok(*country_city):
+            return access.forbidden()
         data, error = compute_daily_series(e["scope_type"], e["scope_value"], None, start, end, e.get("country"))
         if error:
             return jsonify({"error": f"{e['scope_value']}: {error}"})
