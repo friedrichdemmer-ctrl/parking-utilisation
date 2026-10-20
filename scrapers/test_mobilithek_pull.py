@@ -87,4 +87,34 @@ storage.ensure_schema(kconn)
 storage.write_capacity(kconn, list(kc.values()))
 kvalid, krej = filter_valid(list(ko.values()), storage.known_capacities_for_source(kconn, k.name))
 assert not krej, krej
+def check(cond, msg):
+    assert cond, msg
+
+
+# --- Bremen (parkingRecord, like Köln) and Erfurt (parkingFacility with short-term and long-term groups)
+def feed_adapter(source, status, static):
+    f = next(x for x in m.FEEDS if x.source_id == source)
+    sb, tb = (ROOT / f"scrapers/fixtures/{status}").read_bytes(), (ROOT / f"scrapers/fixtures/{static}").read_bytes()
+    return m.MobilithekPullAdapter(f, pull_fn=lambda sid: tb if sid == f.static else sb)
+
+b = feed_adapter("mobilithek-bremen", "mobilithek_bremen_status.xml", "mobilithek_bremen_static.xml")
+bc = {c.place_id: c for c in b.fetch_capacity(None)}
+bo = {o.place_id: o for o in b.fetch_occupancy(None, {})}
+check(bc["mobilithek-bremen-ski-brill"].place_name == "PH02 Am Brill" and bc["mobilithek-bremen-ski-brill"].num_all == 769, "Bremen names and capacities from the static offer")
+check(bo["mobilithek-bremen-ski-brill"].free == 415, "Bremen live count")
+check("mobilithek-bremen-ski-klang" not in bo and "mobilithek-bremen-ski-bweid" not in bo, "Bremen's closed car parks give no readings")
+
+e = feed_adapter("mobilithek-erfurt", "mobilithek_erfurt_status.xml", "mobilithek_erfurt_static.xml")
+ec = {c.place_id: c for c in e.fetch_capacity(None)}
+eo = {o.place_id: o for o in e.fetch_occupancy(None, {})}
+check(len(ec) == 21 and len(eo) == 21, f"Erfurt: one record per car park, got {len(ec)} and {len(eo)}")
+check(ec["mobilithek-erfurt-ph08"].num_all == 432 and ec["mobilithek-erfurt-ph08"].place_name == "Forum 2+3", "Erfurt capacity is the public short-term group's (432 of 537)")
+check(eo["mobilithek-erfurt-ph08"].free == 68, "Erfurt free count is the short-term group's, not the 95 contract spaces")
+check(eo["mobilithek-erfurt-ph05"].ts.startswith("2026-10-20"), "the stale 2024 long-term record is not used")
+econn = sqlite3.connect(":memory:")
+econn.executescript(import_historical.SCHEMA)
+storage.ensure_schema(econn)
+storage.write_capacity(econn, list(ec.values()))
+evalid, erej = filter_valid(list(eo.values()), storage.known_capacities_for_source(econn, e.name))
+check(not erej and len(evalid) == 21, f"Erfurt passes validation: {erej}")
 print("mobilithek_pull: all checks passed")

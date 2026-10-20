@@ -50,6 +50,9 @@ class Feed:
     static: str | None = None    # subscription id of the static offer (names, capacities, positions)
     # ref -> (name, lat, lon): names from a source we could read, used while the static offer gives nothing
     places: dict = field(default_factory=dict)
+    # Erfurt reports each car park twice: its public "short-term" spaces and its contract "long-term" spaces, the second
+    # often never updated (some since 2021). "short" keeps the public group, which is what a visitor can use.
+    group: str | None = None
 
 
 # Magdeburg: the static offer ("Parkplätze Stadt Magdeburg") delivers an empty table (checked 2026-10-19), and the
@@ -71,6 +74,10 @@ MAGDEBURG_PLACES = {
     "PH18": ("Domviertel", None, None),
 }
 
+# Erfurt: 21 facilities (PH = car parks, PR = park and ride) in DATEX II parkingFacility form with names, capacities and
+# coordinates in the static offer; each has a short-term and sometimes a long-term group (see Feed.group).
+# Bremen: 15 parkingRecords in the same form as Köln. Every origin time in the dynamic feed read 2026-10-16T11:05:09Z on
+# 2026-10-20 while the publication time was current, so the counts may be four days old (watch freshness.py).
 FEEDS = [
     # Parkbelegungsdaten Stadt Magdeburg (ifak e.V.), approved 2026-10-19
     Feed("mobilithek-magdeburg", "Magdeburg", dynamic="1048961318253412352", static="1048961358375899136",
@@ -80,6 +87,8 @@ FEEDS = [
     # archive's koeln-apps-parken ones, because the counted capacity differs from the capacities on file for many
     # of them (Mediapark 430 vs 1,148, Dom 220 vs 520) and occupancy is only right against the feed's own count.
     Feed("mobilithek-koeln", "Köln", dynamic="1048984704203509760", static="1048985043690504192"),
+    Feed("mobilithek-bremen", "Bremen", dynamic="1048960985405804544", static="1048961024819875840"),
+    Feed("mobilithek-erfurt", "Erfurt", dynamic="1048961064208388096", static="1048961104301965312", group="short"),
 ]
 
 _context: ssl.SSLContext | None = None
@@ -142,7 +151,8 @@ def _utc(iso: str) -> str:
 
 
 def parse_status(xml: bytes) -> list[dict]:
-    """DATEX II v2 parking status: [{ref, vacant, occupied, closed, ts (UTC ISO)}]. Two shapes occur:
+    """DATEX II v2 parking status: [{ref, vacant, occupied, closed, ts (UTC ISO), group}]. group is "short" or "long" where
+    the publisher splits a car park's spaces (Erfurt), else None. Two shapes occur:
     parkingFacilityStatus (Magdeburg, by ifak) and parkingRecordStatus (Köln). Facilities without a reference,
     counts or time are left out; "closed" is the facility's own opening status."""
     out = []
@@ -158,9 +168,11 @@ def parse_status(xml: bytes) -> list[dict]:
         occupied = _int(_text(e, "totalNumberOfOccupiedParkingSpaces") or _text(e, "parkingNumberOfOccupiedSpaces"))
         when = _text(e, "parkingFacilityStatusTime") or _text(e, "parkingStatusOriginTime")
         states = {x.text.strip().lower() for x in e.iter() if _tag(x) in ("parkingFacilityStatus", "parkingSiteOpeningStatus") and x.text}
+        tags = {_tag(x) for x in e.iter()}
+        group = "short" if "totalParkingCapacityShortTermOverride" in tags else "long" if "totalParkingCapacityLongTermOverride" in tags else None
         if not refs[0] or vacant is None or occupied is None or not when:
             continue
-        out.append({"ref": refs[0], "vacant": vacant, "occupied": occupied, "closed": "closed" in states, "ts": _utc(when)})
+        out.append({"ref": refs[0], "vacant": vacant, "occupied": occupied, "closed": "closed" in states, "ts": _utc(when), "group": group})
     return out
 
 
@@ -179,6 +191,7 @@ def parse_static(xml: bytes) -> dict[str, dict]:
                 name = _text(c, "value") or (c.text or "").strip() or None
         lat, lon = _text(e, "latitude"), _text(e, "longitude")
         out[e.attrib["id"]] = {"name": name, "capacity": _int(_text(e, "totalParkingCapacity") or _text(e, "parkingNumberOfSpaces")),
+                               "short": _int(_text(e, "totalParkingCapacityShortTerm")), "long": _int(_text(e, "totalParkingCapacityLongTerm")),
                                "lat": float(lat) if lat else None, "lon": float(lon) if lon else None}
     return out
 
@@ -208,16 +221,25 @@ class MobilithekPullAdapter(SourceAdapter):
         body = self._pull(self.feed.static)
         return parse_static(body) if body else {}
 
+    def _statuses(self, body: bytes) -> list[dict]:
+        """The parsed live counts, keeping only the feed's group where the publisher splits a car park's spaces."""
+        rows = parse_status(body)
+        if self.feed.group:
+            rows = [r for r in rows if r["group"] in (None, self.feed.group)]
+        return rows
+
     def fetch_capacity(self, fetcher) -> list[CapacityRecord]:
         body = self._pull(self.feed.dynamic)
         if not body:
             return []
         static = self._static()
         records = []
-        for s in parse_status(body):
+        for s in self._statuses(body):
             known = self.feed.places.get(s["ref"])
             meta = static.get(s["ref"]) or ({"name": known[0], "lat": known[1], "lon": known[2]} if known else {})
-            capacity = meta.get("capacity") or (s["vacant"] + s["occupied"] if s["vacant"] >= 0 and s["occupied"] >= 0 else 0)
+            # the capacity the counts are measured against: the group's own (Erfurt's short-term spaces), else the total
+            capacity = (meta.get(self.feed.group) if self.feed.group else None) or meta.get("capacity") \
+                or (s["vacant"] + s["occupied"] if s["vacant"] >= 0 and s["occupied"] >= 0 else 0)
             if capacity <= 0:
                 continue
             records.append(CapacityRecord(
@@ -231,7 +253,7 @@ class MobilithekPullAdapter(SourceAdapter):
         if not body:
             return []
         return [OccupancyRecord(place_id=self.place_id(s["ref"]), ts=s["ts"], free=s["vacant"])
-                for s in parse_status(body) if s["vacant"] >= 0 and s["occupied"] >= 0 and not s["closed"]]
+                for s in self._statuses(body) if s["vacant"] >= 0 and s["occupied"] >= 0 and not s["closed"]]
 
 
 def mobilithek_adapters() -> list[MobilithekPullAdapter]:
