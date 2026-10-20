@@ -57,29 +57,23 @@ def send(to: str, subject: str, text: str, html_body: str | None = None, post=No
     return False, f"Brevo answered {status}: {str(msg)[:200]}"
 
 
-ROLE_TEXT = {
-    "full": ("full user", "all of the site: Explore, Local maps, Compare and the Reports, for every city."),
-    "demonstrator": ("demonstrator", "the site for a selected set of cities: Explore, Local maps, Compare, the city briefings and the Reports."),
-    "admin": ("administrator", "everything, including the user list."),
-}
-
-
-def invitation(to: str, role: str, name: str | None, invited_by: str) -> tuple[bool, str | None]:
-    label, what = ROLE_TEXT[role]
+def welcome(to: str, name: str | None) -> tuple[bool, str | None]:
+    """Sent when the administrator approves a sign-up (or adds a member): they now see every city."""
     hello = f"Hello {name}," if name else "Hello,"
-    text = (f"{hello}\n\n{invited_by} has given you access to TheParkingAnalysts as a {label}. You can use {what}\n\n"
-            f"To sign in, go to {SITE} and choose Sign in. Use this email address ({to}). The first time, you will be asked to create a "
-            f"login; a code sent to this address confirms it is yours.\n\n"
+    text = (f"{hello}\n\nYour sign-up to TheParkingAnalysts has been approved. You now have full access: Explore, Local maps and Compare for "
+            f"every city, as well as the reports and city briefings.\n\nSign in at {SITE} with {to}.\n\n"
             f"TheParkingAnalysts measures how full Europe's car parks are, from live city and operator feeds.\n")
-    page = (f"<p>{html.escape(hello)}</p><p>{html.escape(invited_by)} has given you access to <b>TheParkingAnalysts</b> as a "
-            f"<b>{html.escape(label)}</b>. You can use {html.escape(what)}</p>"
+    page = (f"<p>{html.escape(hello)}</p><p>Your sign-up to <b>TheParkingAnalysts</b> has been approved. You now have full access: Explore, "
+            f"Local maps and Compare for every city, as well as the reports and city briefings.</p>"
             f'<p><a href="{SITE}" style="display:inline-block;padding:10px 18px;background:#1d4f9c;color:#fff;text-decoration:none;border-radius:4px">Sign in</a></p>'
-            f"<p>Use this email address ({html.escape(to)}). The first time, you will be asked to create a login; a code sent to this address confirms it is yours.</p>"
+            f"<p>Use {html.escape(to)}.</p>"
             f"<p style='color:#6e7886'>TheParkingAnalysts measures how full Europe's car parks are, from live city and operator feeds.</p>")
-    return send(to, "You now have access to TheParkingAnalysts", text, page)
+    return send(to, "Your TheParkingAnalysts sign-up is approved", text, page)
 
 
-def access_request(admin: str, who: str) -> tuple[bool, str | None]:
-    text = (f"{who} signed in to TheParkingAnalysts but has no account yet.\n\n"
-            f"To give access, open {SITE}/#admin, add the address and choose a role. If you do not recognise the address, ignore this message.\n")
-    return send(admin, f"Access request: {who}", text)
+def new_signup(admin: str, who: str) -> tuple[bool, str | None]:
+    """Told to the administrator when someone signs up and is waiting for approval."""
+    text = (f"{who} has signed up to TheParkingAnalysts and is waiting for approval.\n\n"
+            f"To give them full access, open {SITE}/#admin and choose Approve. Until then they see the guest view (reports, city "
+            f"briefings and the sample cities). If you do not recognise the address, choose Reject.\n")
+    return send(admin, f"Sign-up waiting for approval: {who}", text)

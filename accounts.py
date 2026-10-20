@@ -1,15 +1,17 @@
-"""Who may sign in, and which cities a demonstrator may see.
+"""Who may sign in, and which cities a guest may see.
 
 Authentication is Kinde's (access.py); the roles live here, in a small SQLite file of their own on the Fly volume
-(ACCOUNTS_DB_PATH, default next to parking.db). Kinde says who someone is, this table says what they may do, so a
-person can create a Kinde login but sees nothing until the administrator has invited their email address.
+(ACCOUNTS_DB_PATH, default next to parking.db). Kinde says who someone is, this table says what they may do.
 
-Roles:
-  admin          everything, plus the Users and Cities pages. The address in ADMIN_EMAIL (default
-                 friedrich.demmer@gmail.com) is always an administrator, whatever the table says.
-  full           everything except the admin pages.
-  demonstrator   Explore, Local maps, Compare and the city briefings for the cities on the allowed list only;
-                 the reports; no raw legacy endpoints.
+Anyone may sign up; nothing changes for them until the administrator approves them:
+  guest (no account, or signed up but not yet approved)
+                 the Overview, the three reports and every city's written briefing; Explore, Local maps and
+                 Compare for the sample cities only (the list on the Admin page).
+  full           a member: everything, for every city.
+  admin          a member who also has the Admin page. The address in ADMIN_EMAIL (default
+                 friedrich.demmer@gmail.com) is always an administrator.
+Stored roles: "pending" (signed up, awaiting approval), "full", "admin". A person the administrator turns down is
+disabled, not deleted, so signing up again does not bring them back.
 """
 
 from __future__ import annotations
@@ -22,15 +24,15 @@ from contextlib import contextmanager
 from datetime import datetime, timezone
 from pathlib import Path
 
-ROLES = ("admin", "full", "demonstrator")
+ROLES = ("admin", "full")                 # what the administrator may grant; "pending" is what signing up gives
 ADMIN_EMAIL = os.environ.get("ADMIN_EMAIL", "friedrich.demmer@gmail.com").strip().lower()
 EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 
-# The allowed list a demonstrator starts with: the largest German cities that have data (13 of the 14 largest by
-# population; Essen is not in our data). The administrator edits it on the Cities page.
-DEFAULT_CITIES = [("Germany", c) for c in (
-    "Berlin", "Hamburg", "München", "Köln", "Frankfurt", "Stuttgart", "Düsseldorf",
-    "Leipzig", "Dortmund", "Bremen", "Dresden", "Hannover", "Nürnberg")]
+# The sample cities a guest starts with: five German cities with good measured data from our own feeds, and none of the
+# cities whose data comes through the Mobilithek (Köln, Düsseldorf, Magdeburg, München, Bremen...), which are held back
+# for members. The administrator edits the list on the Admin page.
+DEFAULT_CITIES = [("Germany", c) for c in ("Frankfurt", "Dortmund", "Dresden", "Nürnberg", "Mannheim")]
+SEED_KEY = "sample_cities_v2"
 
 _lock = threading.Lock()
 
@@ -56,12 +58,12 @@ def _conn() -> sqlite3.Connection:
             email TEXT PRIMARY KEY, role TEXT NOT NULL, name TEXT, invited_by TEXT, invited_at TEXT,
             last_login TEXT, disabled INTEGER NOT NULL DEFAULT 0);
         CREATE TABLE IF NOT EXISTS allowed_cities (country TEXT NOT NULL, city TEXT NOT NULL, PRIMARY KEY (country, city));
-        CREATE TABLE IF NOT EXISTS access_requests (email TEXT PRIMARY KEY, first_at TEXT, last_at TEXT, notified_at TEXT, hits INTEGER DEFAULT 1);
         CREATE TABLE IF NOT EXISTS meta (k TEXT PRIMARY KEY, v TEXT);
     """)
-    if not c.execute("SELECT 1 FROM meta WHERE k = 'cities_seeded'").fetchone():     # first use: start from the default list once
+    if not c.execute("SELECT 1 FROM meta WHERE k = ?", (SEED_KEY,)).fetchone():     # first use: start from the default list once
+        c.execute("DELETE FROM allowed_cities")                                       # (replaces the earlier demonstrator list)
         c.executemany("INSERT OR IGNORE INTO allowed_cities VALUES (?, ?)", DEFAULT_CITIES)
-        c.execute("INSERT INTO meta VALUES ('cities_seeded', ?)", (_now(),))
+        c.execute("INSERT INTO meta VALUES (?, ?)", (SEED_KEY, _now()))
         c.commit()
     return c
 
@@ -112,7 +114,23 @@ def list_users() -> list[dict]:
     return rows
 
 
-def invite(email: str, role: str, invited_by: str, name: str | None = None) -> dict:
+def register(email: str, name: str | None = None) -> tuple[dict, bool]:
+    """A first sign-in: create the account as "pending" (a guest until approved). Returns (user, created)."""
+    email = clean_email(email)
+    if not email:
+        raise ValueError("That is not a valid email address.")
+    if email == ADMIN_EMAIL:
+        return get_user(email), False
+    with _db() as c:
+        created = not c.execute("SELECT 1 FROM users WHERE email = ?", (email,)).fetchone()
+        if created:
+            c.execute("INSERT INTO users (email, role, name, invited_at, last_login) VALUES (?, 'pending', ?, ?, ?)",
+                      (email, (name or "").strip() or None, _now(), _now()))
+    return get_user(email), created
+
+
+def add_member(email: str, role: str, added_by: str, name: str | None = None) -> dict:
+    """The administrator adds (or approves in advance) an address: it has the role as soon as it signs in."""
     email = clean_email(email)
     if not email:
         raise ValueError("That is not a valid email address.")
@@ -123,8 +141,7 @@ def invite(email: str, role: str, invited_by: str, name: str | None = None) -> d
     with _db() as c:
         c.execute("INSERT INTO users (email, role, name, invited_by, invited_at) VALUES (?, ?, ?, ?, ?) "
                   "ON CONFLICT(email) DO UPDATE SET role = excluded.role, name = COALESCE(excluded.name, name), disabled = 0",
-                  (email, role, (name or "").strip() or None, invited_by, _now()))
-        c.execute("DELETE FROM access_requests WHERE email = ?", (email,))
+                  (email, role, (name or "").strip() or None, added_by, _now()))
     return get_user(email)
 
 
@@ -181,26 +198,7 @@ def set_allowed_cities(pairs) -> list[tuple[str, str]]:
     return clean
 
 
-def note_unknown_login(email: str, cooldown_hours: int = 24) -> bool:
-    """Record a sign-in by someone who has no account. True when the administrator should be told now
-    (at most once per address per cooldown), so repeated attempts do not fill the inbox."""
-    email = clean_email(email)
-    if not email:
-        return False
-    now = datetime.now(timezone.utc)
+def pending_users() -> list[dict]:
+    """People who have signed up and are waiting for approval, newest first."""
     with _db() as c:
-        r = c.execute("SELECT * FROM access_requests WHERE email = ?", (email,)).fetchone()
-        if r is None:
-            c.execute("INSERT INTO access_requests (email, first_at, last_at, notified_at) VALUES (?, ?, ?, ?)", (email, _now(), _now(), _now()))
-            return True
-        c.execute("UPDATE access_requests SET last_at = ?, hits = hits + 1 WHERE email = ?", (_now(), email))
-        last = datetime.fromisoformat(r["notified_at"]) if r["notified_at"] else None
-        if last is None or (now - last).total_seconds() > cooldown_hours * 3600:
-            c.execute("UPDATE access_requests SET notified_at = ? WHERE email = ?", (_now(), email))
-            return True
-    return False
-
-
-def pending_requests() -> list[dict]:
-    with _db() as c:
-        return [dict(r) for r in c.execute("SELECT email, first_at, last_at, hits FROM access_requests ORDER BY last_at DESC LIMIT 50")]
+        return [_row(r) for r in c.execute("SELECT * FROM users WHERE role = 'pending' AND disabled = 0 ORDER BY invited_at DESC")]

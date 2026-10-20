@@ -1,22 +1,24 @@
-"""Sign-in and roles for the analysis sections of the site.
+"""Sign-in and who sees what.
 
-Explore, Local maps, Compare and Reports, and every API behind them, need a signed-in user. Overview, the live
-map's data (/api/now, /api/totals), the status pages and the legal pages stay public.
+Three kinds of visitor:
+  guest   not signed in (or signed up but not yet approved). Sees the Overview and live map, the three reports, every
+          city's written briefing, and Explore / Local maps / Compare for the sample cities only.
+  member  signed up and approved by the administrator ("full"): everything, for every city.
+  admin   a member who also has the Admin page: approvals, members, the sample-city list.
 
-Who someone is comes from Kinde (OpenID Connect, authorization code with PKCE, back-end web app); what they may do
-comes from accounts.py: administrator, full user or demonstrator. A Kinde login alone gives nothing: the email
-address must have been invited by the administrator. A demonstrator sees only the cities on the allowed list; the
-API handlers in site_api.py and app.py ask scope() / city_ok() before they answer.
+Who someone is comes from Kinde (OpenID Connect, authorization code with PKCE, back-end web app). Anyone may sign up;
+a new sign-up is stored as "pending" and sees the guest view until the administrator approves it (accounts.py). The
+API handlers in site_api.py and app.py ask scope() / city_ok() before they answer, so a guest cannot reach a
+non-sample city through any endpoint.
 
 Modes (mode()):
   kinde     KINDE_DOMAIN, KINDE_CLIENT_ID and KINDE_CLIENT_SECRET are set: the flow above.
-  password  only SITE_PASSWORD is set: the shared-password gate used until Kinde was configured (2026-10-19). It
-            is the fallback while Kinde is being set up and is removed once the owner has signed in through
-            Kinde; everyone it admits is a full user.
-  none      neither: the protected parts answer 503 rather than opening (failing open would publish the data).
+  password  only SITE_PASSWORD is set: the shared-password bridge used until Kinde is configured (2026-10-19); whoever
+            enters it is a member. Removed once the owner has signed in through Kinde.
+  none      neither: everyone is a guest.
 
-The session is one cookie, tpa_session: a signed {email, exp}. The role is read from accounts.py on every request,
-so changing a role or disabling a user takes effect at once. HttpOnly, SameSite=Lax (the return from Kinde is a
+The session is one cookie, tpa_session: a signed {email, exp}. The role is read from accounts.py on every request, so
+approving, disabling or removing someone takes effect at once. HttpOnly, SameSite=Lax (the return from Kinde is a
 top-level GET), Secure on https; 14 days.
 """
 
@@ -50,15 +52,13 @@ FAIL_WINDOW = 5 * 60
 MAX_FAILURES = 8
 FAIL_DELAY = 0.6
 
-# path prefixes (end in "/") or exact paths that need a signed-in user
-PROTECTED_PREFIXES = ("/api/browse/", "/api/city/", "/api/garage/", "/api/local/", "/api/admin/")
-PROTECTED_EXACT = frozenset({
-    "/api/briefing", "/api/heatmap", "/api/search", "/api/compare", "/api/garages", "/api/query",
-    "/api/cities", "/api/operators", "/report", "/trends", "/yield",
-})
-PAGES = frozenset({"/report", "/trends", "/yield"})     # HTML pages: send to the site's sign-in, not a 401
-# the older whole-archive endpoints: not city-scoped, so a demonstrator may not use them
-FULL_ONLY = frozenset({"/api/garages", "/api/query", "/api/cities", "/api/operators"})
+# Answers that differ by visitor (sample cities for a guest, every city for a member): never held by a shared cache.
+SCOPED_PREFIXES = ("/api/browse/", "/api/city/", "/api/garage/", "/api/local/", "/api/admin/")
+SCOPED_EXACT = frozenset({"/api/briefing", "/api/heatmap", "/api/search", "/api/compare", "/api/garages", "/api/query",
+                          "/api/cities", "/api/operators", "/api/access"})
+# the older whole-archive endpoints are not city-scoped, so only members may use them
+MEMBER_ONLY = frozenset({"/api/garages", "/api/query", "/api/cities", "/api/operators"})
+ADMIN_PREFIX = "/api/admin/"
 
 bp = Blueprint("access", __name__)
 _fails: dict[str, list[float]] = {}
@@ -142,7 +142,7 @@ def check_password(candidate: str) -> bool:
 # ---------------------------------------------------------------- the current user and what they may see
 
 def current_user() -> dict | None:
-    """The signed-in, enabled user for this request, or None. Read once per request."""
+    """The signed-in, enabled account for this request (any role, "pending" included), or None. Read once per request."""
     if hasattr(g, "_tpa_user"):
         return g._tpa_user
     user = None
@@ -156,10 +156,20 @@ def current_user() -> dict | None:
     return user
 
 
+def role() -> str:
+    """admin, full (a member), pending (signed up, not yet approved) or guest (no account)."""
+    u = current_user()
+    return u["role"] if u else "guest"
+
+
+def is_member() -> bool:
+    return role() in ("admin", "full")
+
+
 _scope_cache: dict = {"t": 0.0, "v": frozenset()}
 
 
-def _allowed_set() -> frozenset:
+def _sample_set() -> frozenset:
     if time.time() - _scope_cache["t"] > 20:
         _scope_cache.update(t=time.time(), v=frozenset(accounts.allowed_cities()))
     return _scope_cache["v"]
@@ -170,9 +180,8 @@ def clear_scope_cache() -> None:
 
 
 def scope() -> frozenset | None:
-    """None when the user may see every city, else the set of (country, city) a demonstrator may see."""
-    u = current_user()
-    return _allowed_set() if u and u["role"] == "demonstrator" else None
+    """None when this visitor may see every city (a member), else the sample cities as a set of (country, city)."""
+    return None if is_member() else _sample_set()
 
 
 def city_ok(country: str | None, city: str | None) -> bool:
@@ -183,11 +192,11 @@ def city_ok(country: str | None, city: str | None) -> bool:
         return False
     if country:
         return (country, city) in s
-    return any(c == city for _, c in s)        # an older link without a country: only if some allowed city has that name
+    return any(c == city for _, c in s)        # an older link without a country: only if some sample city has that name
 
 
 def forbidden():
-    return jsonify({"error": "That city is not part of your access.", "scope": True}), 403
+    return jsonify({"error": "That city is for members. Sign up for full access.", "scope": True}), 403
 
 
 # ---------------------------------------------------------------- Kinde (OpenID Connect, authorization code + PKCE)
@@ -246,8 +255,13 @@ def _safe_next(n: str | None) -> str:
     return n if n in ("explore", "local", "compare", "reports", "admin") else "explore"
 
 
+@bp.route("/signup")
+def signup():
+    return login(create=True)
+
+
 @bp.route("/login")
-def login():
+def login(create: bool = False):
     if mode() != "kinde":
         return redirect("/#explore")
     verifier = secrets.token_urlsafe(48)
@@ -256,6 +270,7 @@ def login():
         "client_id": os.environ["KINDE_CLIENT_ID"], "redirect_uri": site_url() + "/callback", "response_type": "code",
         "scope": "openid profile email", "state": state, "code_challenge_method": "S256",
         "code_challenge": _b64(hashlib.sha256(verifier.encode()).digest()),
+        **({"prompt": "create"} if create else {}),         # Kinde's sign-up screen rather than its sign-in screen
     })
     resp = redirect(endpoints()["authorize"] + "?" + q, code=302)
     _set_cookie(resp, OAUTH_COOKIE, sign({"s": state, "v": verifier, "n": _safe_next(request.args.get("next"))}, OAUTH_LIFETIME), OAUTH_LIFETIME)
@@ -289,12 +304,14 @@ def callback():
         return _page("Sign-in failed", "<h1>We could not confirm your email address</h1><p><a href='/login'>Try again</a>.</p>", 400)
     name = " ".join(x for x in (info.get("given_name"), info.get("family_name")) if x) or info.get("name")
     user = accounts.get_user(email)
-    if user is None or user["disabled"]:
-        if user is None and accounts.note_unknown_login(email):
-            threading.Thread(target=mailer.access_request, args=(accounts.ADMIN_EMAIL, f"{name} <{email}>" if name else email), daemon=True).start()
-        resp = _page("No access yet", f"<h1>No access yet</h1><p>You are signed in as <b>{escape(email)}</b>, but this address has not been "
-                     f"invited. The administrator has been told. <a href='/logout'>Sign out</a>.</p>", 403)
+    if user is not None and user["disabled"]:
+        resp = _page("Access removed", "<h1>This account has no access</h1><p>Please contact the site owner if you think this is a mistake. "
+                     "<a href='/logout'>Sign out</a>.</p>", 403)
     else:
+        if user is None:                         # a first sign-in: a pending account, and the administrator is told
+            user, _ = accounts.register(email, name)
+            if user["role"] == "pending":
+                threading.Thread(target=mailer.new_signup, args=(accounts.ADMIN_EMAIL, f"{name} <{email}>" if name else email), daemon=True).start()
         accounts.touch_login(email, name)
         resp = redirect("/#" + _safe_next(oc.get("n")), code=302)
         _set_cookie(resp, COOKIE, sign({"email": email}, SESSION_LIFETIME), SESSION_LIFETIME)
@@ -322,8 +339,8 @@ def _public_user(u: dict | None) -> dict | None:
 def api_access():
     u = current_user()
     s = scope()
-    return jsonify({"mode": mode(), "configured": configured(), "unlocked": bool(u), "user": _public_user(u),
-                    "cities": len(s) if s is not None else None})
+    return jsonify({"mode": mode(), "configured": configured(), "signed_in": bool(u), "role": role(), "user": _public_user(u),
+                    "member": is_member(), "sample_cities": len(s) if s is not None else None})
 
 
 def _ip() -> str:
@@ -385,22 +402,38 @@ def _json() -> dict:
 def admin_users():
     if (denied := _admin_only()):
         return denied
-    return jsonify({"users": accounts.list_users(), "requests": accounts.pending_requests(), "email_ready": mailer.configured(),
-                    "roles": list(accounts.ROLES), "admin": accounts.ADMIN_EMAIL, "mode": mode()})
+    return jsonify({"users": [u for u in accounts.list_users() if u["role"] != "pending"], "pending": accounts.pending_users(),
+                    "email_ready": mailer.configured(), "roles": list(accounts.ROLES), "admin": accounts.ADMIN_EMAIL, "mode": mode()})
 
 
 @bp.route("/api/admin/users", methods=["POST"])
-def admin_invite():
+def admin_add():
+    """Add (approve in advance) an address as a member or administrator."""
     if (denied := _admin_only()):
         return denied
     b = _json()
     try:
-        user = accounts.invite(b.get("email"), b.get("role"), current_user()["email"] or accounts.ADMIN_EMAIL, b.get("name"))
+        user = accounts.add_member(b.get("email"), b.get("role", "full"), current_user()["email"] or accounts.ADMIN_EMAIL, b.get("name"))
     except ValueError as e:
         return jsonify({"error": str(e)}), 400
     sent, err = (False, "Email is not set up.")
     if b.get("send_email", True):
-        sent, err = mailer.invitation(user["email"], user["role"], user.get("name"), "Friedrich Demmer")
+        sent, err = mailer.welcome(user["email"], user.get("name"))
+    return jsonify({"user": user, "email_sent": sent, "email_error": err})
+
+
+@bp.route("/api/admin/users/approve", methods=["POST"])
+def admin_approve():
+    if (denied := _admin_only()):
+        return denied
+    b = _json()
+    try:
+        user = accounts.set_role(b.get("email"), "full")
+    except ValueError as e:
+        return jsonify({"error": str(e)}), 400
+    sent, err = (False, "Email is not set up.")
+    if b.get("send_email", True):
+        sent, err = mailer.welcome(user["email"], user.get("name"))
     return jsonify({"user": user, "email_sent": sent, "email_error": err})
 
 
@@ -459,31 +492,27 @@ def admin_set_cities():
 
 # ---------------------------------------------------------------- the guard
 
-def is_protected(path: str) -> bool:
-    return path in PROTECTED_EXACT or path.startswith(PROTECTED_PREFIXES)
+def is_scoped(path: str) -> bool:
+    return path in SCOPED_EXACT or path.startswith(SCOPED_PREFIXES)
 
 
 def require_access():
-    """before_request: stop requests to the protected paths unless a user is signed in with a role that may use them."""
+    """before_request: the admin pages are for the administrator and the whole-archive endpoints for members; everything else
+    is open and answers according to scope()."""
     path = request.path
-    if not is_protected(path):
-        return None
-    user = current_user()
-    if user is None:
-        if not configured():
-            return jsonify({"error": "This section is not available yet.", "login": False}), 503
-        if path in PAGES:
-            return redirect("/#reports", code=302)
-        return jsonify({"error": "Sign in to use this part of the site.", "login": True}), 401
-    if path in FULL_ONLY and user["role"] == "demonstrator":
-        return jsonify({"error": "Your access does not include this.", "scope": True}), 403
+    if path.startswith(ADMIN_PREFIX):
+        return None if role() == "admin" else (jsonify({"error": "Administrator only.", "login": not current_user()}),
+                                               403 if current_user() else 401)
+    if path in MEMBER_ONLY and not is_member():
+        return jsonify({"error": "This is for members.", "login": not current_user(), "scope": True}), 403 if current_user() else 401
     return None
 
 
 def keep_private(response):
-    """after_request: what only signed-in visitors may see is never stored by a shared cache."""
-    if is_protected(request.path):
+    """after_request: what depends on who is asking is never stored by a shared cache."""
+    if is_scoped(request.path):
         response.headers["Cache-Control"] = "private, no-cache"
+        response.headers["Vary"] = "Cookie"
     return response
 
 

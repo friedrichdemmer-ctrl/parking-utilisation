@@ -324,11 +324,7 @@ def api_briefing():
     sourced context we have researched for it (annotations/cities/). See city_briefing.py."""
     import city_briefing
 
-    import access
-
-    country, city = request.args.get("country", ""), request.args.get("city", "")
-    if not access.city_ok(country, city):
-        return access.forbidden()
+    country, city = request.args.get("country", ""), request.args.get("city", "")     # open to everyone: written briefings are public
 
     def build():
         out = city_briefing.build(country, city, list(_report()["garages"].values()), _trends())
