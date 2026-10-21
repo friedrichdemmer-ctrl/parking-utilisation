@@ -1,0 +1,164 @@
+{
+  "country": "France",
+  "city": "Montpellier",
+  "researched": "2026-10-21",
+  "summary": "Montpellier Méditerranée Métropole has made local public transport free for its residents since 21 December 2023, and the city has paired this with a reshaped parking offer: paid on-street zones were extended in 2023, free 30-minute shop-parking spaces were created, and residents can buy a 15-euro monthly permit. City-centre car parks are run by the TaM network (seven sites), Effia (eight) and Indigo (two), and park-and-ride sites on the tram lines are free for pass holders. Tram line 5 opened on 20 December 2025 with two new park-and-ride sites, and the pedestrian zone is being widened south of the Comédie square. The mayor said in April 2025 that city statistics show spare capacity in several central car parks, but no occupancy figures were found. The low-emission zone was reported in February 2025 as dormant, with no fines before 2027.",
+  "items": [
+    {
+      "topic": "regulation",
+      "date": "2023-03",
+      "text": "A city information sheet from January 2023 says paid parking was extended to the Clémenceau-Rondelet sector (orange zone), Monday to Saturday 9am-7pm and free on Sundays and public holidays. Checks were due to start on 31 March 2023 after a no-fine period, and free 30-minute spaces were created in the sector.",
+      "source_title": "Extension du stationnement payant dans votre quartier - secteur Clémenceau-Rondelet",
+      "source_url": "https://www.montpellier.fr/sites/default/files/2024-12/Stationnement-payant-Clemenceau-Rondelet.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2023-09",
+      "text": "A city sheet dated June 2023 says paid parking was extended to the Ovalie-Grisettes sector from 15 September 2023, Monday to Saturday 9am-7pm. New free 30-minute zones (8am-8pm, ticket required, checked by plate-reading cars) carry a 35-euro post-parking charge if the limit is exceeded.",
+      "source_title": "Extension du stationnement payant dans votre quartier - secteur Ovalie-Grisettes",
+      "source_url": "https://www.montpellier.fr/sites/default/files/2024-12/Stationnement-quartier-Ovalie.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2023-06",
+      "text": "As of the June 2023 sheet, the base resident permit cost 15 euros a month or 150 euros a year (two months free), and 3 euros or 30 euros with a TaM transit subscription. The monthly package for employees working in paid zones ran from 60 euros (green zone, electric or up to 7 CV) to 130 euros (orange zone, 8 CV and above).",
+      "source_title": "Extension du stationnement payant dans votre quartier - secteur Ovalie-Grisettes",
+      "source_url": "https://www.montpellier.fr/sites/default/files/2024-12/Stationnement-quartier-Ovalie.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2023-12",
+      "text": "On 21 December 2023 the metropolis became the largest in Europe to make public transport free every day for all its residents, in the words of the mobility magazine's editorial. Residents must first obtain a free pass (Pass gratuité), which can be requested online, in the M'Ticket app or at TaM mobility offices.",
+      "source_title": "Mobilités à Montpellier : une nouvelle ère pour les mobilités (magazine, January 2024)",
+      "source_url": "https://montpellier.fr/sites/default/files/2024-12/mobilite-magazine-2024.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2024-05",
+      "text": "Transit ridership rose 23.7% in the first quarter of 2024 against the first quarter of 2019, about 5 million extra trips. The counting method changed (from ticket validations to on-board counters), so the comparison carries a caveat, and the article cites 358,000 free-pass holders.",
+      "source_title": "Transports en commun gratuits à Montpellier : la fréquentation en hausse (Banque des Territoires / Localtis)",
+      "source_url": "https://www.banquedesterritoires.fr/transports-en-commun-gratuits-montpellier-la-frequentation-en-hausse",
+      "confidence": "medium"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2024-03",
+      "text": "In a March 2024 brochure, the 9 P+tram car parks are open 24/7 for up to 24 hours. They are free for Pass gratuité holders who declare their transit trip in the M'Ticket app, or can be used with a package at 5.20 euros (3.70 euros with the Pass Métropole) covering a return tram trip for the car's occupants.",
+      "source_title": "Accéder au centre-ville (brochure, March 2024)",
+      "source_url": "https://www.montpellier.fr/sites/default/files/2024-12/Brochure-acceder-au-centre-ville-mars-2024.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2023-09",
+      "text": "A city leaflet whose file metadata dates it to September 2023 announced that from 21 December 2023 the P+tram package would be free for Pass gratuité holders and that its price for others would rise from 5.20 to 8.00 euros. The March 2024 brochure still lists 5.20 euros, so the 8-euro figure should be treated as unconfirmed.",
+      "source_title": "Comment bien stationner à Montpellier (leaflet)",
+      "source_url": "https://www.montpellier.fr/sites/default/files/2024-12/Bien%20stationner%20%C3%A0%20Montpellier.pdf",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2024-03",
+      "text": "The March 2024 brochure says the city centre has 12 car parks and 22,000 parking spaces, whereas an earlier leaflet says 13. Capacities labelled on its map run from 239 spaces (Antigone) to 1,973 (Polygone), with Comédie at 836.",
+      "source_title": "Accéder au centre-ville (brochure, March 2024)",
+      "source_url": "https://www.montpellier.fr/sites/default/files/2024-12/Brochure-acceder-au-centre-ville-mars-2024.pdf",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-10",
+      "text": "On the city's parking page (undated, read in October 2026), seven central car parks are run by TaM (Antigone, Comédie, Corum, Europa, Gambetta, Saint-Roch, Hôtel de Ville), eight by Effia and two by Indigo (Triangle, Peyrou Pitot). Polygone shopping centre has its own car park, and 16 sites on the four tram lines offer over 5,000 spaces, free for TaM subscribers.",
+      "source_title": "Parking (montpellier.fr)",
+      "source_url": "https://montpellier.fr/en/daily-life/living-here/placing-yourself/I'm-placing-myself-in-a-car/parking",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-02",
+      "text": "Connexion France reported on 5 February 2025 that 31 mayors had agreed on 27 January to suspend fines in the metropolis's low-emission zone until 2027. The local council vote was still pending at that date, with no signs or checks planned meanwhile.",
+      "source_title": "City in south of France will not penalise ZFE breaches until 2027",
+      "source_url": "https://connexionfrance.com/news/city-in-south-of-france-will-not-penalise-zfe-breaches-until-2027/704868",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-02",
+      "text": "A February 2025 city leaflet plans to extend the pedestrian area to the south of the Comédie square, with vehicle access-control equipment being installed since January and commissioning planned for summer 2025. It also says the former Arceaux car park is being turned into a planted pedestrian esplanade, the future place Max Rouquette.",
+      "source_title": "Extension de l'aire piétonne Sud Comédie (leaflet, 02/25)",
+      "source_url": "https://participer.montpellier.fr/sites/default/files/BD_4p%20A4-Extension%20sud%20Come%CC%81die-2-25-LV.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2025-04",
+      "text": "At an 11 April 2025 public meeting, the mayor said city statistics show plenty of free spaces in the Corum, Comédie, Pitot and Europa car parks, where Écusson residents can leave their cars. He also said the south-Comédie pedestrian zone would soon launch with an access bollard on rue Joffre.",
+      "source_title": "Compte rendu de la réunion publique du 11 avril 2025 - quartier Centre",
+      "source_url": "https://participer.montpellier.fr/sites/default/files/2025-04/compte-rendu-reunion-publique-mcav-centre-2025.pdf",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-11",
+      "text": "On the city's pedestrian-area page, parking is prohibited in the pedestrian areas (Écusson, Antigone and others). Residents with a garage get permanent access, residents without one get 2 x 30 minutes a day, and motor vehicles face fines of up to 135 euros; since 27 November 2025 a cycle gallery lets bikes cross the Comédie sector at up to 25 km/h.",
+      "source_title": "Les aires piétonnes de Montpellier",
+      "source_url": "https://www.montpellier.fr/en/life-daily/living-here/emergencies-security-and-prevention/securing-the-public-way/les-aires-pietonnes-de-montpellier",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2022-07",
+      "text": "A July 2022 project letter lays out plans to modernise the Comédie car park: one entrance moved to avenue Frédéric Mistral, bike parking on level -1 and charging zones for bikes and electric cars. Works were planned to finish in mid-2025, and the tunnel entrance serves the Comédie and Triangle car parks (1,200 spaces).",
+      "source_title": "Redonner son éclat au cœur de métropole - Lettre du projet, July 2022",
+      "source_url": "https://montpellier.fr/sites/default/files/2025-01/Lettre%20du%20projet%20juillet%202022.pdf",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2025-11",
+      "text": "A 12 November 2025 press kit says two new tram park-and-ride sites open with line 5 at Girac (north) and Gennevaux (west), bringing the network to 11 P+R. It quotes 450 spaces each in one place and 500 at Girac in another, and keeps parking free for 24 hours for Pass gratuité and annual TaM subscribers who continue by transit.",
+      "source_title": "Dossier de presse - Un réseau de transport optimisé au service des habitants du territoire (12 November 2025)",
+      "source_url": "https://viamontpellier.fr/wp-content/uploads/2025-11_Nouveau-reseau-Dec-2025.pdf",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2025-12-20",
+      "text": "Tram line 5 opened on 20 December 2025. It runs about 16 km from Clapiers in the north to Grés de Montpellier in the south-west, with 27 stops.",
+      "source_title": "Montpellier inaugurates tram line 5 (Urban Transport Magazine, 10 January 2026)",
+      "source_url": "https://www.urban-transport-magazine.com/en/montpellier-inaugurates-tramline-5/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2024-01",
+      "text": "The January 2024 mobility magazine says the metropolis had installed 66 charging stations with 150 charge points, including at tram and park-and-ride car parks. From 2024 it planned to add 600 public charge points with the operator E-totem, the slowest charging being free for residents via the M'Ticket app.",
+      "source_title": "Mobilités à Montpellier : une nouvelle ère pour les mobilités (magazine, January 2024)",
+      "source_url": "https://montpellier.fr/sites/default/files/2024-12/mobilite-magazine-2024.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-09",
+      "text": "The metropolis publishes a map-point dataset of its multi-storey car parks on data.gouv.fr under an open database licence, last modified on 2 September 2026 (611 downloads). It covers locations only, not live space counts, and its creation date and update frequency are not stated.",
+      "source_title": "Parkings en ouvrage de Montpellier (data.gouv.fr)",
+      "source_url": "https://data.gouv.fr/es/datasets/parkings-en-ouvrage-de-montpellier",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "No official tariff grid for the TaM-run city-centre car parks (hourly, daily, monthly) could be found; the TaM site (https://www.tam-voyages.com/parkings/) returned only its title, and third-party aggregator figures (Zenpark, Parkopedia) were seen in search snippets only and left out.",
+    "Montpellier Méditerranée Métropole Parcs / Saemm / Q-Park: no page naming them as Montpellier parking operators was found. A Parkopedia snippet calls the TaM operator 'TaM SAEM' but that page was not opened, so the legal form and contract term of TaM's parking concession are unconfirmed.",
+    "Indigo and Effia contract terms and tariffs: only the city page listing their sites was read; no concession dates or prices found.",
+    "ZFE: the local council vote and its outcome could not be sourced. Europe 1 (https://www.europe1.fr/societe/zfe-a-montpellier-lagglomeration-recule-face-a-la-fronde-des-maires-de-petites-communes-666324) returned 403, and the planned July 2026 perimeter extension and the national ZFE repeal debate of 2026 were not verified on any opened page.",
+    "Unreadable or redirected pages: montpellier3m.fr PDFs (e.g. https://www.montpellier3m.fr/sites/default/files/zfe_04_2024.pdf, https://montpellier3m.fr/sites/default/files/fp_e-totem.pdf, dp_lancement_gratuite.pdf, dp_marc_bloch.pdf) redirect to the montpellier.fr home page and gave no content; the Roole article on the ZFE (https://media.roole.fr/transition/territoires/zfe-de-montpellier-que-faut-il-savoir) returned 429.",
+    "Actual start date of the south-Comédie pedestrian extension and of the Comédie car park works (planned for 2025) was not confirmed from a post-2025 source; the July 2022 and February 2025 documents are plans.",
+    "No Midi Libre, Le Monde, France Bleu/ICI Hérault or actu.fr article was reached: the search budget ran out before targeted searches for them could be made.",
+    "No occupancy or usage figures for individual car parks or park-and-ride sites were found (the mayor's April 2025 remark gives no numbers), and no on-street fine amounts (forfait post-stationnement) beyond the 35 euros for the 30-minute zones.",
+    "The city's parking page and the pedestrian-area page carry no publication date; the open-data developer page (https://data.montpellier3m.fr/node/5612) mentions real-time parking availability only as an example API use and no live parking feed was located. The tramway P+R dataset page (https://data.montpellier3m.fr/node/3417) shows a last-modified date of 2026-10-21 that looks unreliable.",
+    "Press accounts of the first-year free-transport results (e.g. https://lessentieldeleco.fr/282-transports-gratuits-a-montpellier-un-an-apres-quel-bilan/) were opened but not used because their dating was inconsistent with the 21 December 2023 start."
+  ]
+}

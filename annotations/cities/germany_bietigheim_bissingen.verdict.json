@@ -1,0 +1,165 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Opened the city page (undated; written in the 2016 introduction wording). Confirmed: 'Ab Februar 2016 wird im Bereich des Krankenhauses das Bewohnerparken eingeführt'; Gemeinderat gave its consent 'Ende 2014'; pressure from visitors and patients was shown by a Gutachten; at most 50 percent of spaces may be reserved for residents; remaining spaces need a parking disc 8:00-20:00; maximum 6 hours; fee 60 Euro (Laufzeit 2 Jahre). The Mobilitätsplan also confirms the zone 'seit Februar 2016'. Only issue: the page is undated and its wording dates from 2016, so the 60 euro fee is not confirmed as current; reworded to attribute it to the page.",
+   "corrected_text": "Resident parking around the hospital was introduced in February 2016, following a Gemeinderat consent at the end of 2014 after an expert report showed pressure from visitors and patients. At most half of the spaces may be reserved for residents; the remaining public spaces need a parking disc from 8:00 to 20:00 with a 6-hour maximum. The city's page (undated, read October 2026) gives the permit fee as 60 euros for 2 years.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "Opened the PDF (Drucksache GR 25.1/2023, dated 10.03.2023). It shows the Beschlussantrag for the Gemeinderat session of 21.03.2023: the Gemeinderat is asked to approve the Mobilitätsplan 2035 and the DRAFT Maßnahmen-Fahrplan; financial effects: 'zunächst keine konkreten Kosten', cost-relevant measures come back to the council with a separate proposal. The claim that a city press release of 5 April 2023 describes the plan as adopted is NOT on this page (not the source cited); the paper itself does not record the vote result, so adoption is unconfirmed here.",
+   "corrected_text": "The administration asked the Gemeinderat to approve the Mobilitätsplan 2035 and the draft Maßnahmen-Fahrplan at its session of 21 March 2023 (council paper dated 10 March 2023). The paper states no concrete costs arise at first, and the administration will bring cost-relevant measures to the council with a separate proposal. The paper does not record the outcome of the vote.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Opened the PDF (Anlage 2 zu GR 25.1/2023, Stand 10.03.2023) and checked the column positions of each X (kurzfristig 2023-2024, mittelfristig 2025-2028, langfristig 2029-2035). Confirmed short-term: Parkraumkonzept Innenstadt (also listed under F4) and Parkraumkonzept Bahnhof und Umgebung (Aurain, Buch-Nordwest, Lothar-Späth-Carré, Bogenviertel); medium-term: Parkraumkonzept Bissinger Ortsmitte and Wohn- und Gewerbegebiete; Sanierung Parkhäuser (Farbstraße, Turmstraße, Bahnhof) short+medium (2023-2028); Parkleitsystem Ellental 'Dynamisieren' (medium), Parkleitsystem Ortsmitte Bissingen 'Aufbauen' (medium), Handyparken concept (medium). Error: the Quartiersgaragen with charging in Aurain-Carré and Bogenviertel are marked short AND medium (2023-2028), not only medium-term. 'New' guidance system in Bissingen is 'aufbauen' (to build up) - fine.",
+   "corrected_text": "The draft Maßnahmen-Fahrplan (status 10 March 2023) schedules parking concepts with Parkraumbewirtschaftung, Bewohnerparken and Parkraummanagement for the Innenstadt and for the station area (Aurain, Buch-Nordwest, Lothar-Späth-Carré, Bogenviertel) as short-term measures (2023-2024), and for the Bissinger Ortsmitte and residential/commercial areas (a guideline, parking brokerage/sharing and reorganised street parking) as medium-term (2025-2028). It also lists renovation of the Farbstraße, Turmstraße and Bahnhof garages and neighbourhood garages with charging in Aurain-Carré and Bogenviertel (both 2023-2028), and, as medium-term items, making the Ellental parking guidance system dynamic, building up a guidance system in Bissingen, and a mobile-parking concept.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Opened the Mobilitätsplan PDF (68 pages). Title page says 'Bericht, Februar 2023' (not March). Page 27: 'Seit Februar 2016 gibt es rund um das Krankenhaus eine Sonderparkberechtigung'; '2013 und 2018 wurden ... Erhebungen durchgeführt, um Bewohnerparken einführen zu können. Die letzte Untersuchung ergab, dass durch den neu errichteten Parkplatz in der Farbstraße die Auslastung ... nicht hoch genug ist' - so the finding is attributed to the latest survey, not to both; dynamic Parkleitsystem with real-time data confirmed.",
+   "corrected_text": "The Mobilitätsplan 2035 (report dated February 2023) says occupancy surveys of the Innenstadt car parks were carried out in 2013 and 2018 to enable Bewohnerparken; the latest found that, because of the newly built Farbstraße car park, total occupancy was not high enough to meet the legal conditions for Bewohnerparken. It also notes the Innenstadt has a dynamic parking guidance system showing available spaces with real-time data.",
+   "corrected_title": null,
+   "corrected_date": "2023-02",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Opened the Mobilitätsplan PDF, page 28: eight city-owned garages named exactly as in the item; subsidy 'ca. 235.000 Euro' (2018) and 'ca. 285.000 Euro' (2020), 'rund 400 Euro bzw. 480 Euro pro Stellplatz und Jahr'; renovation of Farbstraße, Turmstraße and Bahnhof 'nach aktuellen ersten groben Hochrechnungen' about 10 million euros; about 1 million a year over 10 years. All correct and worded as an estimate. Document date is the report date February 2023 (title page), not March.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": "2023-02",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Opened the Mobilitätsplan PDF, page 59-60: 'ca. 500 öffentliche Parkplätze auf flächigen Parkierungsanlagen entlang des Parkrings ... Höchstparkdauer ... kostenlos'; 'rund 240 kostenpflichtige Parkplätze' in public garages; page 60 says there are still capacities especially in the Farbstraße and Turmstraße garages (and p.27 says total occupancy is not high). P+R: about 700 at the station, 90 at Ellental, Ellental 25 percent used 'laut Angaben des VVS', station 'nahezu voll ausgelastet'. All correct. Report dated February 2023.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": "2023-02",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Opened the 1-page PDF 'Parken in Bietigheim-Bissingen, Stand: 01.07.2021'. Kreuzstraße/Flößerstraße/Meierhofstraße and Farbstraße/Turmstraße and Löchgauer Straße: 0.10 euro per hour day and night; monthly passes daytime 20, 25, 35 euros; day and night 40, 40, 50 euros. Bahnhofsplatz: up to 2 h 1 euro, day ticket 3 euros. Kreuzäcker: 0.10 euro per hour (max. 5 hours), 2 euros per day. Correctly dated as of 1 July 2021 (file name says 11-2021, sheet says Stand 01.07.2021).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Same PDF: 'Parkhaus Stuttgarter Straße: ab 01.01.2017 wird das Parkhaus von der Bahnpark bzw. Contipark betrieben.' 'Parkhaus Borsigstraße West: Eröffnung zum 01.11.2017, ist Eigentum der Bietigheimer Wohnbau GmbH und wird von denen betrieben.' Correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Opened Bietigheimer Zeitung article (16.02.2024, Yannik Schuster). Says 'rund 1000 Parkplätze öffentlich verfügbar'; the city so far charges no fees at most public car parks; city subsidy for garages 'rund 285 000 Euro' in 2020; the Mobilitätsplan foresees a Parkraumkonzept for the Innenstadt; whether fewer spaces remain 'sei noch offen'; discussions on possible Parkraumbewirtschaftung 'noch nicht terminiert'. All correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Opened Stuttgarter Zeitung (14.05.2025, Philip Kearney). Confirmed: three garages in the inner city where an hour costs ten cents; city spokesperson Anette Hochmuth: garages are not the aim of profit/not profitable, a measure to support retail, competition with Breuningerland Ludwigsburg where parking is free. The 48 hours appears only in photo captions about one garage (the Löchgauer Straße garage is shown as one of the three), so it is not shown to apply to all three; the article does not call them 'city-run' explicitly in the lines I could read.",
+   "corrected_text": "In May 2025 the Stuttgarter Zeitung reported three inner-city garages in Bietigheim-Bissingen where an hour costs ten cents; a photo caption says parking for up to 48 hours is possible in the pictured garage. City spokesperson Anette Hochmuth said the garages are not profitable, are a measure to support retail, and compete with the free parking at Breuningerland Ludwigsburg.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Opened Stuttgarter Zeitung (23.07.2025, Frank Ruppert). More than 11.5 million euros missing in the Ergebnishaushalt, Nachtragshaushalt needed; Gemeinderat raised parent fees by 10 percent in each of the next five years (majority); parking in the garages stays at 10 cents an hour and was not raised for now; the topic is expected to 'wieder auf den Tisch' with further budget consolidation (no date); Green councillor Traute Theurer criticised the fairness. Correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Opened Bietigheimer Zeitung (09.12.2025, Uwe Mollenkopf). Budget 2026 approved, only AfD against; revenue about 164.2 million, expenses about 179.1 million, shortfall of nearly 15 million covered from reserves. On parking: SPD and GAL had jointly demanded introduction or raising of parking fees 'vor dem Nachtragshaushalt' (i.e. earlier; the article does not say they asked in the December session); Kessing said a proposal based on the existing concept will be submitted and that coordination with the Aktive Unternehmer 'bereits erfolgt' (already took place), not 'after' coordination. No fee decision reported.",
+   "corrected_text": "At the Gemeinderat session of 9 December 2025 that approved the 2026 budget (planned revenue about 164.2 million euros, expenses about 179.1 million, shortfall of nearly 15 million covered from reserves; only the AfD voted against), the Bietigheimer Zeitung reported that SPD and GAL had jointly demanded the introduction or raising of parking fees before the supplementary budget. Oberbürgermeister Jürgen Kessing said a proposal based on the existing concept would be submitted and that coordination with the Aktive Unternehmer had already taken place. No fee decision is reported.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Opened Bietigheimer Zeitung interview (21.08.2026, Uwe Mollenkopf). Quotes: 'Wir werden nicht umhin kommen, Parkgebühren einzuführen, das wird kommen'; 'Wir werden mit dem Gemeinderat diskutieren, ab wann, möglicherweise wird das ab 2027 sein'; start in the Altstadt and a ring around the Kernstadt, later possibly Buch or Bissingen; level and staggering still to be decided, no amounts named. Item correctly says stated intention, not adopted.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Opened Stuttgarter Zeitung (10.01.2025). The car park at Wilhelmstraße/B 27 was closed 'vor ein paar Tagen' only temporarily for felling shrubs and trees at the edge of the new development; plans for the quarter foresee a parking garage on the site but 'Das Parkhaus werde jetzt noch nicht gebaut'; Bietigheimer Wohnbau starts with a residential building in Austraße, start expected 'Anfang 2026'; lot expected to remain usable for years. Correct; medium confidence appropriate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Opened the Stadtwerke press release PDF (dated 08.04.2024). 18 charging locations after 6 new ones; 150 kW fast chargers at EgeTrans Arena, Buchzentrum and Stadtwerke Rötestraße; 504,000 kWh charged in the previous year at the Bietigheim-Bissingen charging locations; 11 kW column costs on average 10 T euro net. No garages named. Correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Opened bahnhof.de page (undated; date set to retrieval month October 2026). Parkhaus Süd, Stuttgarter Straße, DB BahnPark, 291 spaces, 1 hour 1.00 euro, 1 day 3.50 euro; P+R (covered) 2 h 1.00 euro, 24 h 3.00 euro; 'Sky' Borsigstraße 2, 200 spaces, 05:00-23:00, 24 h 5.00 euro; open lot Stuttgarter Straße 22 spaces; operators other than DB BahnPark not stated. Correct and correctly marked undated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Bietigheim-Bissingen owns eight inner-city and station garages (Kreuzstraße, Flößerstraße, Meierhofstraße, Farbstraße, Turmstraße, Löchgauer Straße, Kreuzäcker/Ellental and Bahnhofsplatz), according to its Mobilitätsplan 2035 (report dated February 2023). A city price list of 1 July 2021 showed 0.10 euro an hour in the central garages, and in May 2025 the press reported three inner-city garages still charging ten cents an hour; a city spokesperson said they are not profitable, support retail and compete with free parking at Breuningerland Ludwigsburg, and the city subsidy was about 285,000 euros in 2020. The 2023 plan counts about 500 free, time-limited public spaces in the Innenstadt against about 240 paid garage spaces. The only resident parking is around the hospital (since February 2016); the plan says surveys in 2013 and 2018 were meant to enable Bewohnerparken in the Innenstadt but the latest found occupancy too low. The administration asked the Gemeinderat to approve the plan on 21 March 2023 (the outcome is not confirmed in the pages read); the draft Maßnahmen-Fahrplan schedules parking concepts for the Innenstadt and station area in 2023-2024, renovation of the Farbstraße, Turmstraße and Bahnhof garages in 2023-2028 (rough estimate about 10 million euros) and guidance-system extensions. On fees: in July 2025 the council did not raise garage fees and the topic was expected to return; in December 2025 SPD and GAL had demanded fees and the mayor said a proposal would be submitted; in an August 2026 interview he said fees will come, possibly from 2027, first in the Altstadt and a ring around the core, with level and staggering still to be decided. The 2023 plan described the roughly 700 station P+R spaces as nearly full and the 90 at Ellental as about 25 percent used."
+}

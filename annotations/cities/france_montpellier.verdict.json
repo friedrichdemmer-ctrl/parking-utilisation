@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Read the PDF text with pypdf (file metadata created 12 Jan 2023; footer '01/2023'). Page 2 says paid parking in the orange zone Monday to Saturday 9h-19h, free Sundays and public holidays; a no-sanction teaching period until 31 March 2023, the start date of checks; free 30-minute spaces are created. It is an information sheet announcing the change, and the draft words it as such ('checks were due to start'). Title matches the cover (secteur Clemenceau-Rondelet).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "Read the PDF with pypdf (created 13 Jun 2023, footer '06/2023'). Cover says 'A partir du 15 septembre 2023'; page 2 says paid Monday to Saturday 9h-19h, free Sundays and public holidays; no-sanction period until 15 September 2023, the start of checks; free 30-minute zones 8h-20h, ticket required, plate-reading checks. This is an announcement sheet, not proof the extension ran. The sign on the sheet only shows 'Depassement 35' with a small euro sign; the phrase 'post-parking charge' (forfait post-stationnement) is not on this sheet (it appears only in the separate Sept 2023 leaflet).",
+   "corrected_text": "A city sheet dated June 2023 announces paid parking in the Ovalie-Grisettes sector from 15 September 2023, Monday to Saturday 9am-7pm and free on Sundays and public holidays, with checks starting that day after a no-sanction period. New free 30-minute zones (8am-8pm, ticket required, checked by plate-reading cars) show a sign reading 'Depassement 35 EUR' for exceeding the limit.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Same Ovalie sheet (pypdf). Base tariff 15 EUR monthly / 150 EUR annual ('soit 2 mois offerts'); with TaM subscription 3 EUR monthly / 30 EUR annual. Employee package per zone: green 100% electric or up to 7 CV 60 EUR, from 8 CV 80 EUR; orange 100 EUR and 130 EUR. The draft's 60-130 range and zone labels match. Worded 'as of the June 2023 sheet', which is right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Read the 44-page magazine with pypdf (metadata Jan 2024, footer 01/2024). Editorial: 'Le 21 decembre 2023, notre Metropole est devenue la plus grande d'Europe a instaurer la gratuite des transports en commun pour tous ses habitants', so attributed to the editorial correctly. Page 12 says the Pass gratuite must be held and lists three channels (Espaces Mobilite TaM, M'Ticket TaM, tam-voyages.com). The March 2024 brochure says the same in full sentences ('Demandez-le sur tam-voyages.com, via M'Ticket, ou en Espaces Mobilite TaM').",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Opened in the browser pane. Localtis (Banque des Territoires) article by Anne Lenormand, published 15 May 2024. Says +23.7% in Q1 2024 against Q1 2019, 'cinq millions de deplacements en plus', counting changed from validations to on-board counters (official's own caveat), 358,000 pass holders. The article is not AI-labelled.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Read the one-page brochure PDF (created 14 Mar 2024). The 9 P+tram are open 24/7 for up to 24 h; free for valid Pass gratuite holders who declare the trip in M'Ticket; package 5.20 EUR or 3.70 EUR with Pass Metropole at the car-park machines, valid for a return trip for all occupants travelling together (4 people). The brochure is a statement of that month, as the draft words it.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Read the 11-page leaflet (PDF created 27 Sep 2023). It says from 21 December 2023 the P+tram package (24 h parking plus a tram return trip) will be free for Pass Gratuite holders and paid for others, 'le tarif passera de 5,20 EUR a 8,00 EUR'. It is future-tense and the March 2024 brochure still shows 5.20 EUR, so the draft's 'unconfirmed' treatment is right. Same leaflet also says '13 parkings et 22 000 places' (used in the next item).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Brochure (14 Mar 2024) says 'dispose de 12 parkings et 22 000 places'; the earlier leaflet says '13 parkings et 22 000 places'. Map labels: Antigone 239, Comedie 836, Polygone 1973 (the largest); 12 labelled car parks in all. Matches the draft.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Opened in the browser pane (English version of montpellier.fr; page carries no date, so 2026-10 retrieval month is right). TaM: 7 city-centre car parks, names match. But Effia and Indigo are not called central: the page says 'In Montpellier and the surrounding area, 8 parking lots are managed by the private Effia network' (list includes the Sud de France station and bus station, and Castelnau-le-Lez). Indigo: 2 (Triangle, Peyrou Pitot). Polygone has its own car park. '16 parking lots connected to the 4 tramway lines offer over 5,000 spaces, free for TaM subscribers' is on the page. The draft's 'seven central car parks run by TaM, eight by Effia and two by Indigo' wrongly implies all 17 are central.",
+   "corrected_text": "On the city's parking page (undated, read in October 2026), seven city-centre car parks are managed by TaM (Antigone, Comedie, Corum, Europa, Gambetta, Saint-Roch, Hotel de Ville). The page says 8 car parks 'in Montpellier and the surrounding area' are managed by the private Effia network (including the Sud de France station, Foch Prefecture, Arc de Triomphe, Les Arceaux, La Mantilla and Castelnau-le-Lez) and 2 by Indigo (Triangle, Peyrou Pitot). The Polygone shopping centre has its own car park, and 16 car parks connected to the four tram lines offer over 5,000 spaces, free for TaM subscribers.",
+   "corrected_title": null,
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Opened in the browser pane. Connexion France article by Hannah Thompson, published 5 Feb 2025. Body says the metropolis will not fine ZFE breaches until 2027 ('dormant' ZFE from 13 Feb), the decision was approved by 31 mayors on 27 January, 'still yet to be voted by the local council, but it is expected to pass', and quotes the vice-president: 'no signs, no checks and no fines'. The headline and title tag are inconsistent (title tag says 'until 2025'), the body is clear. The article is a dated news report; the council vote and any later change (including national ZFE debate) were not checked, so the item may be superseded.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Read the 3-page leaflet with pypdf (footer 02/25, created 19 Feb 2025). 'Les travaux d'installation des equipements necessaires au controle d'acces des vehicules ont commence debut janvier... mise en service de la nouvelle aire pietonne etendue prevue a l'ete 2025'. Also: Arceaux 'ancien parking qui se transforme en une nouvelle esplanade pietonne arboree: la future place Max Rouquette'. Worded as a plan, correctly; no post-2025 confirmation of the start.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Read the 12-page minutes (PDF created 17 Apr 2025) of the 11 April 2025 meeting. Answer 21: 'Nous avons des statistiques qui montrent qu'il y a beaucoup de places dans les parkings Corum, Comedie, Pitot ou Europa. Or, les residents de l'Ecusson ont la possibilite d'y laisser leur voiture.' Another answer: 'On va bientot lancer la pietonisation du sud Comedie avec une borne rue Joffre.' The page says 'beaucoup de places' (many spaces), so 'free spaces' is a fair reading; no figures, as the draft says.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Opened in the browser pane (page undated; English version of montpellier.fr). Highway code bans parking in pedestrian areas; areas listed: Ecusson, Antigone, Celleneuve, Richter, Port Marianne, Odysseum. Residents with garage: permanent access; without garage: 2 x 30 min/day; motor vehicles up to 135 EUR. 'Depuis le 27 novembre 2025, la galerie cyclable de la Comedie permet aux cyclistes et EDPM de traverser le secteur Comedie... vitesse maximale autorisee de 25km/h.' Date 2025-11 comes from the gallery event; the page itself is undated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Read the 8-page project letter (cover 'JUILLET 2022', plan version 'JUIN 2022'). One of the two Comedie car-park entrances moves to avenue Frederic Mistral; bike parking on level -1; charging zones for bikes and electric cars; timeline 'Fin des travaux mi-2025'; tunnel entrance reserved for the Comedie and Triangle car parks (1200 places). All are plans from 2022 and the draft words them as such.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Read the 28-page press kit with pypdf (cover dated 12 November 2025). It is written before the opening: 'deux parkings relais P+R de 450 places chacun seront facilement accessibles'; 'les 11 P+R'; Girac (north) and Gennevaux (west) named on p.11; p.10 gives 450 car places at Gennevaux and 500 at Girac; yet p.10 also says the two new P+R 'sont situes aux extremites de la Ligne 5, a savoir Clapiers et Gres de Montpellier', which does not match the Girac/Gennevaux names. P+R free 24 h max for holders of a Pass gratuite (on M'Ticket) and an annual TaM subscription who continue by public transport. 'Keeps' is the draft's gloss, and the draft states the sites as open although the kit says 'will be'.",
+   "corrected_text": "A 12 November 2025 press kit, written ahead of the 20 December 2025 opening of line 5, says two new tram park-and-ride sites will be at Girac (north) and Gennevaux (west), bringing the network to 11 P+R. It gives 450 spaces each in one place and 450 at Gennevaux and 500 at Girac in another, and in a third place names the two new sites as Clapiers and Gres de Montpellier. Parking is free for up to 24 hours for holders of the Pass gratuite on M'Ticket and an annual TaM subscription who continue their trip by public transport.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Opened in the browser pane. Urban Transport Magazine, by Michael Levy, published 10 Jan 2026 (page metadata). 'On 20 December 2025, Montpellier Mediterranee Metropole officially launched its fifth tram line'; runs around 16 km between Clapiers and Gres de Montpellier, 27 stops. Not AI-labelled.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Same magazine (pypdf, January 2024). 'La Metropole a implante 66 bornes, avec 150 points de charge, notamment ... dans les parkings tramway et les parkings relais'; 'A partir de 2024, la Metropole va progressivement deployer 600 nouveaux points de charge ... avec son partenaire E-totem. La recharge la plus lente sera gratuite pour les metropolitains au travers de l'application M'ticket.' Worded as plan, correctly.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "Opened in the browser pane (data.gouv.fr dataset page). Description 'renseigne l'emplacement des parkings en ouvrage', licence ODbL, 'Derniere mise a jour September 2, 2026', Producer Montpellier Mediterranee Metropole. Locations only, no live counts. But the page shows two download figures: 544 downloads for the dataset (since Jul 2022) and 611 beside the single CSV file; the draft's '611 downloads' is the file counter only. Creation date and update frequency are not shown ('Couverture temporelle non renseignee').",
+   "corrected_text": "The metropolis publishes a map-point dataset of its multi-storey car parks on data.gouv.fr under an open database licence (ODbL), last updated on 2 September 2026. It covers locations only, not live space counts. The page shows 544 downloads for the dataset and 611 for its single CSV file; its creation date and update frequency are not stated.",
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Montpellier Mediterranee Metropole has made local public transport free for its residents since 21 December 2023, provided they hold a free Pass gratuite, and the city paired this with a reshaped parking offer. Paid on-street zones were extended in 2023 (Clemenceau-Rondelet from 31 March 2023 and Ovalie-Grisettes from 15 September 2023, per city information sheets), with free 30-minute shop-parking spaces and a resident permit priced at 15 euros a month on those sheets. In the city centre, seven car parks are run by TaM, and the city page lists eight car parks in and around Montpellier run by Effia and two by Indigo; the Polygone shopping centre has its own. Park-and-ride sites on the tram lines are free for pass holders who continue by transit, for up to 24 hours. Tram line 5 opened on 20 December 2025, and a pre-opening press kit presented two new park-and-ride sites with it. A February 2025 leaflet planned to widen the pedestrian zone south of the Comedie square from summer 2025, but the start was not confirmed by a later source. The mayor said in April 2025 that city statistics show many spaces in several central car parks, but no occupancy figures were found. The low-emission zone was reported in February 2025 as dormant, with no fines before 2027; that report is dated and may have been superseded."
+}

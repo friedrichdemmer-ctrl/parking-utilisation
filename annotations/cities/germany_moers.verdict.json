@@ -1,0 +1,165 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Opened the 1-page A3 PDF (text extracted; the status footer is font-encoded and decodes to 'Maßnahmenkatalog Stand 02/2018'). Item 10 'Kautzstraße': check of economic and building-law conditions for a new garage or a refurbishment, possibly other uses and replacement of spaces; item 8 'Königlicher Hof / Neuer Wall': retain/add parking offer through underground garages. Worded as plan items, correct. Date 2018-02 matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Opened (moers.de press page dated 15.11.2022; title matches). Parkleitsystem back in operation from Tuesday 15 November; conversion of parking-data capture via induction loops after removal of old barrier systems on some lots; Kastellplatz signs to follow after the Christmas market. All as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Opened (press page dated 21.11.2022; title matches). ASPU positively assessed and unanimously decided the administration's proposal on Thursday 17 November: one car lane per direction, cycle lane, Tempo 30, 6 m zebra crossing opposite the town hall. Committee had not yet decided on higher parking fees; city must pay 19 percent VAT on most managed car parks; federal ministry will 'wahrscheinlich' extend the option period by two years, so no need for an increase before 'Anfang bis 2025' (garbled on the page; 'about 2025' is a fair reading). Draft words this as expectation, correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Opened (ENNI page dated 19.09.2024; title 'Rückbau des Parkhauses Kautzstraße beginnt'). Supported: ENNI as operator found during routine maintenance that strengthening was needed, not technically feasible, closed June 2023; in service since 1972; earlier report predicted maximum operating life to February 2024. NOT supported as fact: 'ENNI began demolition on 9 October 2024'. The page is an advance announcement: site set-up from 29 September, demolition 'starten am Mittwoch, 9. Oktober' and 'voraussichtlich bis zum 22. November abgeschlossen'; the lot behind the Grafschafter Passage 'bleibt nutzbar' (future). Completion at end of 2024 is stated on the separate ENNI release of 3 July 2026 (item 11).",
+   "corrected_text": "ENNI, as operator, closed the Parkhaus Kautzstraße (in service since 1972) in June 2023 after routine maintenance showed that strengthening work was needed for structural safety that was not technically feasible; an earlier expert report had forecast a maximum service life to February 2024. In an announcement of 19 September 2024 ENNI said that, in coordination with the city, it would demolish the garage: site set-up from 29 September, demolition from 9 October and expected to be completed by 22 November 2024, with the public lot behind the Grafschafter Passage staying usable during the works; ENNI would then prepare the site on the city's behalf for ground-level parking.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Opened (moers.de press page dated 20.11.2023; title matches). ASPU positively assessed the first ideas of a feasibility study and presented three variants (replacement building possibly with redesign of the Grafschafter Passage lot; replacement plus extension/annex to the Grafschafter Passage; replacement plus overbuilding with a residential and commercial building) that 'sollen nun weiter ausgearbeitet werden'. Page says demolition planned for February (2024) with 88 interim surface spaces afterwards. The parenthetical about later sources is the draft's own cross-reference (confirmed in items 10 and 11).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Opened the 2-page PDF (text extracted). Rat der Stadt Moers resolved the amendment on 03.07.2024; in force 15.07.2024; replaces the version of 01.03.2019. Zones: Neumarkt 1.00 per 30 min; Zone 1 0.50 per 20 min; Zone 2 0.50 per 30 min; Zone 3 4 euros day, 10 week, 30 month; Zone 4 0.50 per 5 hours, month ticket 15, week ticket 4 (these P+R ticket prices are in the ordinance itself and on the city page, so the ENNI FAQ attribution is not even needed). No fee under 20 minutes in tariffs B, C, D, E. Annex: Zone 1 includes upper and lower Neuer Wall decks and Parkplatz and Parkhaus Kautzstraße.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Opened (moers.de press page dated 08.07.2024; title matches). Parkgebührenordnung adjusted after a political motion and majority council decision to secure the city budget; from Monday 15 July Mühlenstraße and Friedrich-Ebert-Platz areas: 4 euros/day, 10/week, 30/month; ENNI converts the machines; city instructed smart-parking providers to adjust fees in the apps.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Opened (ENNI page dated 11.09.2024; title matches). City tasked subsidiary ENNI to build and operate demand-oriented charging infrastructure by 2030; charging points double to 50 by year end; TankE study: about 300 public points needed in Moers by 2035; about 190 by 2030 as a target; first of five barrier-free charging sites inspected at Parkplatz Mühlenstraße/Nordring. As written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Opened the 4-page PDF (text extracted; file metadata created 20 Nov 2024, no date on the page itself). Under 'Perspektivische Projekte': Moerser Benden West (housing, potential for a day-care centre, 'Errichtung eines Parkhauses für wegfallende Stellplätze auf dem Parkplatz Mühlenstraße'); Kastellplatz: 'Beibehalten eines angemessenen Stellplatzangebotes'. G 4 'Grüne Achse Moerser Benden' (green axis from the Moersbach across the Parkplatz Mühlenstraße) is listed under 'Aktuelle Projekte'. The page calls the first group 'perspective' projects; 'not yet decided' is the draft's inference but fair. Date 2024-11 comes from the file metadata.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Opened the 2-page PDF (text extracted; no date on the page, file metadata created 6 June 2024, modified 19 June 2024). Resident parking introduced in 1995; now 9 zones; 30 euros per year; one permit per resident; not issued if a private space is available; no reservation of a specific space; 'Ein Fußweg ... von bis zu 1.000 Metern ist nicht auszuschließen' (cannot be ruled out; the draft's 'is possible' is a mild paraphrase). Date is from file metadata.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Opened (Radio K.W., published Thursday 20.03.2025 06:14; title matches). The page says the city originally expected 80,000 euros for 'den Abriss und den neuen Parkplatz' together, and that demolition alone cost almost 100,000; the draft's 'against 80,000 planned' for demolition alone misstates this. Also correct: 215,000 euros now expected for preparing the lot; 61 spaces; administration proposes to keep the project and expects annual income of over 150,000 euros; new garage could take years; the committee was discussing it that day.",
+   "corrected_text": "Radio K.W. reported on 20 March 2025 that the city had originally expected costs of 80,000 euros for the demolition and the new car park together, but that the demolition alone cost almost 100,000 euros because of unexpected damage to the supporting structure, and that preparing the interim lot (61 spaces) was now expected to cost 215,000 euros. The administration proposed to keep the project, expecting annual fee income of over 150,000 euros, and the report said a new garage on the site could take years.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Opened ENNI page (03.07.2026; title matches): about 60 additional spaces since 1 July on the former Parkhaus site, prepared by ENNI for the city; garage demolished by ENNI at the end of 2024; 'Langfristig soll hier ein neues Parkhaus entstehen'; tariff B (20 minutes 50 cent, under 20 minutes free); no permanent spaces. The Radio K.W. additions are not on that page, so I opened the Radio K.W. article of Monday 06.07.2026 06:50 ('60 neue Parkplätze an der Kautzstraße in Moers', https://www.radiokw.de/artikel/60-neue-parkplaetze-an-der-kautzstrasse-in-moers-2694285): about 280 central spaces fell away with the demolition; how a new garage looks and when it is built is 'völlig offen'; the cheapest of three variants was once estimated at 8 million euros. All confirmed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Opened (moers.de press page dated 25.09.2026; title matches). ASPU decided on Thursday 24 September; 'Auch die Parkgebühren wurden neu geregelt'; reason: legal VAT obligation for stand-alone public parking facilities outside public roads; explicitly not meant to raise extra revenue for the city (VAT passed on to the tax office). New tariffs 'gelten ab dem 1. Januar 2027': 1.20 per 30 min (A), 0.60 per 20 min (B), 0.60 per 30 min (C), 4.50 per day, 12 per week, 34 per month (D); Brötchentaste (20 minutes free) stays. Tariff A = Zone Neumarkt per the 2024 ordinance annex. Caution: the 2024 ordinance was enacted by the Rat and the page does not mention a Rat decision, so the committee decision should not be presented as the final legal act.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Opened (moers.de 'Parken in Moers', undated page; date should be the retrieval month 2026-10). About 5,300 spaces in the city centre (public street space, lots and garages); sufficient overall; district centres 200-500 spaces; fee times Mon-Fri 9-19, Sat 9-16 (Josefviertel 7.30-17.30 weekdays); Sundays and public holidays free. This is a city statement, not a count of use.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Opened (ENNI 'Parkplätze', undated page; date = retrieval month 2026-10). Twelve public car parks with more than 2,500 spaces; five barrier-controlled with 678 spaces; seven pay-and-display with 1,835 spaces; largest Mühlenstraße with 1,000 spaces and EV charging; ENNI manages the parking on behalf of the city and looks after the parking system, not the Parkleitsystem; Rat sets the tariffs and revenue goes to the city budget. The P+R ticket and Brötchentaste details are also on the page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Opened (moers.de Parkleitsystem page, undated; date = retrieval month 2026-10). Shows free space counts on display boards, public and private car parks; currently 9 public car parks and 2 private garages connected; responsibility: Fachdienst 08.2 Straßen- und Verkehrsplanung.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Moers manages its city-centre parking through the Parkgebührenordnung, which the council amended on 3 July 2024 (in force 15 July 2024) with five tariff zones, from the Neumarkt (1.00 euro per 30 minutes) to the P+R lot at the station (0.50 euro per 5 hours); the Mühlenstraße and Friedrich-Ebert-Platz areas charge 4 euros per day, 10 per week and 30 per month since 15 July 2024. ENNI Stadt & Service, a municipal subsidiary, manages the car parks on behalf of the city and lists twelve public car parks with more than 2,500 spaces, the largest being Mühlenstraße with 1,000, while the city itself is responsible for the Parkleitsystem, which currently connects 9 public car parks and 2 private garages. The city states that about 5,300 spaces are available in the centre and that this is sufficient overall. The 1972 Parkhaus Kautzstraße was closed in June 2023 for structural reasons and, according to ENNI, demolished at the end of 2024 (a demolition start on 9 October 2024 had been announced); the demolition cost almost 100,000 euros against an original estimate of 80,000 euros for demolition and the new lot together, and a surface lot with about 60 spaces opened there on 1 July 2026 as an interim solution. About 280 central spaces were lost, and a new garage is planned for the long term but with timing and design still open. On 24 September 2026 the planning committee (ASPU) decided new parking tariffs said to apply from 1 January 2027 (Tarif A 1.20 euros per 30 minutes), required by a new VAT obligation on stand-alone public car parks; the city says the change is not meant to raise revenue. ENNI is building out public EV charging, including a barrier-free charging point at the Mühlenstraße lot. No utilisation statistics, resident-parking fee decisions beyond the city information sheet (30 euros a year, 9 zones) or private-operator details were found in readable sources."
+}

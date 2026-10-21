@@ -1,0 +1,150 @@
+{
+  "country": "Italy",
+  "city": "Merano",
+  "researched": "2026-10-21",
+  "summary": "Merano (Meran) manages on-street parking through a two-zone Blue Park system, with hourly prices raised from 1 January 2023 and resident permits for people without a private space. Access to the historic centre is controlled by a camera-enforced restricted traffic zone with four entry points. The city's mobility plan (PUMS) and traffic plan (PGTU) were approved in March 2025. The big structural change is the 594-space Kavernengarage, a public-private underground car park financed by Meran Centrum Parking AG under a 50-year concession, which is meant to open together with the north-west bypass; the city gave 26 November 2026 for the bypass traffic release in October 2026. On 7 October 2026 the city presented a mobility concept with first city-centre measures planned from January 2027, including a reorganisation of central-area parking tied to the new garage. The province plans a mobility hub at the station with about 350 commuter spaces, and Green MPs report heavy use of the Therme Meran garage. Live availability of the city-centre car parks is published on mobility.meran.eu, but that site could not be read.",
+  "items": [
+    {
+      "topic": "tariffs",
+      "date": "2022-12-20",
+      "text": "The municipal executive unanimously decided on 20 December 2022 to change the Blue Park tariffs, with the new rates starting at the beginning of 2023. The page lists 2.50 euro per hour in Zone A and 1.50 euro in Zone B, and resident subscriptions of 180 euro (6 months) and 280 euro (12 months) for the first car, 270 and 420 euro for the second.",
+      "source_title": "Änderung Parkgebühren Blaue Zonen - Stadtgemeinde Meran",
+      "source_url": "https://www.gemeinde.meran.bz.it/de/Verwaltung/Dokumente/Aenderung_Parkgebuehren_Blaue_Zonen",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2023-02-13",
+      "text": "The municipal Blue Park ordinance divides paid street parking into Zone A (paid every day) and Zone B (paid Monday to Saturday), marked by signs and blue lines. Residents without a private parking space, social institutions and people with disabilities can apply for subscriptions; the street lists are in an annex PDF that was not opened.",
+      "source_title": "Verordnung über die Parkzonen Blue Park - Stadtgemeinde Meran",
+      "source_url": "https://www.gemeinde.meran.bz.it/de/Verwaltung/Dokumente/Verordnung_ueber_die_Parkzonen_Blue_Park",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-05-07",
+      "text": "As of the page's last update on 7 May 2026, the city says blue spaces are paid daily from 08:00 to 19:00 and can be paid at machines or by smartphone app, charging only the minutes used. It also points to mobility.meran.eu for locations and free spaces of the large city-centre car parks and links an urban parking concept (Stadtparkraumkonzept).",
+      "source_title": "Parkplätze - Stadtgemeinde Meran",
+      "source_url": "https://www.comune.merano.bz.it/de/Neuigkeiten/Bekanntmachungen/Parkplaetze",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-05-06",
+      "text": "The historic centre has several restricted traffic zones (ZTL) monitored by cameras at four points: Postbrücke, Obere Freiheitsstraße/Theaterplatz, Galileistraße after the Algunder Kellerei car park, and Zenobergstraße (Passeirer Tor). Residents and taxis are on the authorised list and disability-card holders can apply, with checks done digitally and fines issued automatically (page last updated 6 May 2026).",
+      "source_title": "Durchfahrt einer verkehrsbeschränkten Zone - Stadtgemeinde Meran",
+      "source_url": "https://www.gemeinde.meran.bz.it/de/Neuigkeiten/Bekanntmachungen/Durchfahrt_einer_verkehrsbeschraenkten_Zone",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-03-11",
+      "text": "The city council approved the sustainable urban mobility plan (PUMS, resolution no. 11) and the general urban traffic plan (PGTU, resolution no. 12) on 11 March 2025. The city page lists the plan documents but does not itself describe parking measures.",
+      "source_title": "Piano urbano della mobilità sostenibile (PUMS) con annesso Piano Generale del Traffico Urbano (PGTU) - Comune di Merano",
+      "source_url": "https://www.comune.merano.bz.it/it/Argomenti/Traffico_e_mobilita/Piano_urbano_della_mobilita_sostenibile_PUMS_con_annesso_Piano_Generale_del_Traffico_Urbano_PGTU_",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-10-07",
+      "text": "The city presented a mobility concept ('Kurstadt 2.0') and plans first city-centre measures from January 2027, including traffic calming, reversed flows in some streets, and a reorganisation of central-area parking linked to the new Kavernengarage. The north-west bypass has an opening ceremony planned for 21 November and traffic release on 26 November 2026; a shuttle bus to the hospital, Rennweg, the thermal baths and Untermais station is only an idea so far.",
+      "source_title": "Kurstadt 2.0: Schritt für Schritt zu neuer Mobilität - Stadtgemeinde Meran",
+      "source_url": "https://www.gemeinde.meran.bz.it/system/web/news.aspx?menuonr=224996926&detailonr=225827732-2418",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-10-07",
+      "text": "The city says the hospital car park is full on weekdays during school term, roughly 07:30 to 12:00. A plan for the health area envisages about 700 spaces, 155 more than today.",
+      "source_title": "Kurstadt 2.0: Schritt für Schritt zu neuer Mobilität - Stadtgemeinde Meran",
+      "source_url": "https://www.gemeinde.meran.bz.it/system/web/news.aspx?menuonr=224996926&detailonr=225827732-2418",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2024-02-01",
+      "text": "The Kavernengarage under the Küchelberg is a public-private partnership: the private partners financed it fully in return for a 50-year concession to run the car park. It is planned with 594 spaces, 12 EV charging stations and car-sharing spaces; cost rose from 27 to 39 million euro, and opening is not before 2026 because access depends on the second bypass tunnel section.",
+      "source_title": "Kavernengarage: Ausschuss- und Ratsmitglieder besichtigen die Baustelle - Südtirol News",
+      "source_url": "https://www.suedtirolnews.it/politik/kavernengarage-ausschuss-und-ratsmitglieder-besichtigen-die-baustelle",
+      "confidence": "medium"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2019-02-14",
+      "text": "When the city reached its agreement with the investor group in 2019, reported terms included a maximum hourly rate of 2.40 euro (adjustable for inflation) and a monthly pass capped at 183 euro. The city was to receive payments for up to 300 on-street blue spaces removed, starting at 150 euro per space per year; the final contract terms were not checked.",
+      "source_title": "Il garage in caverna avrà 600 posti - Alto Adige",
+      "source_url": "https://www.altoadige.it/cronaca/merano/il-garage-in-caverna-avr%C3%A0-600-posti-1.1909717",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2025-02-11",
+      "text": "In February 2025 the cavern garage, built by Meran Centrum Parking AG with the municipality, was reported to be due to open at the same time as the Küchelberg tunnel, which was planned for autumn 2026. The municipality had spent about 6 million euro on securing works, against an estimate of 3.7 million two years earlier.",
+      "source_title": "Küchelbergtunnel bis Herbst 2026 fertig - Salto.bz",
+      "source_url": "https://salto.bz/de/article/11022025/kuchelbergtunnel-bis-herbst-2026-fertig",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-08-10",
+      "text": "In a written question to the provincial government, three Green MPs state that 347,598 vehicles parked in the Therme Meran underground garage in the previous year, and that parking brought in more than 2.3 million euro, the third-largest revenue item of the baths. They expect revenue to fall once the tunnel and Kavernengarage open; these are the MPs' figures, and no reply was found.",
+      "source_title": "Was passiert in Meran nach der Eröffnung des Küchelbergtunnels? (Anfrage, Südtiroler Landtag)",
+      "source_url": "https://api-idap.landtag-bz.org/doc/IDAP_812947.pdf",
+      "confidence": "medium"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-10",
+      "text": "On the operator's FAQ (undated page, read October 2026), Terme Merano visitors with a day ticket can add 16 euro to park until midnight. With a 2 to 3 hour ticket the first hour is free and each further hour costs 3.20 euro; the 16 euro day option is not available during the whole Advent and Christmas season.",
+      "source_title": "Answers to frequently asked questions - Terme Merano",
+      "source_url": "https://www.termemerano.it/en/prices-and-information/faq/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-10",
+      "text": "On its own undated page (read October 2026), the St. Josef garage advertises 90 public, videomonitored spaces with 2 EV charging stations. It lists 1.40 euro per half hour from 07:00 to 20:00 and 0.90 euro per half hour overnight, open 24 hours.",
+      "source_title": "ST. JOSEF Parking Meran",
+      "source_url": "https://www.stjosef.it/parking",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2023-09-06",
+      "text": "The city commissioned Neogy (an Alperia and Dolomiti Energia company) to install 18 new charging columns at 11 locations, with the aim of 50 public charge points by 2025. The report lists six public columns with 12 charge points as the starting point, and a planned hub at Bahnhof Untermais with 3 hyperchargers and 3 fast 22 kW chargers.",
+      "source_title": "Elektromobilität in Meran: 18 neue Ladesäulen an elf Standorten - Südtirol News",
+      "source_url": "https://www.suedtirolnews.it/wirtschaft/elektromobilitaet-in-meran-18-neue-ladesaeulen-an-elf-standorten",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2024-12-30",
+      "text": "The province announced a mobility centre on the railway station site with about 350 parking spaces reachable underground, mainly for commuters, plus about 1,000 covered bike spaces. The announced cost was about 28.4 million euro (16.5 million from the national cohesion fund, over 11.9 million from the province); the timetable in that report (construction from 2026) has since slipped to a planned 2028-2029.",
+      "source_title": "Mobilitätszentrum Meran: Technische Daten und Finanzierung genehmigt - Südtirol News",
+      "source_url": "https://www.suedtirolnews.it/wirtschaft/mobilitaetszentrum-meran-technische-daten-und-finanzierung-genehmigt",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2025-10-02",
+      "text": "Stadtwerke Meran AG, wholly owned by the municipality, lists parking lots and garages in Meran among its responsibilities alongside water, environmental services and public lighting (page last updated 2 October 2025). The page gives no locations, capacities or rates, and does not say which car parks it runs.",
+      "source_title": "Stadtwerke Meran - Stadtgemeinde Meran",
+      "source_url": "https://www.gemeinde.meran.bz.it/de/Verwaltung/Einrichtungen/Stadtwerke_Meran",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "https://www.stol.it/artikel/panorama/meran-keine-tiefgarage-am-theaterplatz - only the headline was readable, no body or date (reported council vote on an underground garage at Theaterplatz not used).",
+    "https://www.stol.it/artikel/panorama/kavernengarage-schnelle-umsetzung-gefordert - only the headline was readable.",
+    "https://www.stol.it/artikel/chronik/kavernengarage-kostet-knapp-6-millionen-mehr - only the headline was readable; the reported Meran Centrum Parking request to raise the hourly tariff from 2.40 to 2.50 euro could not be confirmed from a page I read (the 31 Jul 2024 Südtirol News piece on the 5.9 million euro contribution does not mention it).",
+    "https://mobility.meran.eu - the city's live car-park availability site returned no readable content, so the parking guidance system, its car parks and occupancy could not be checked.",
+    "https://www.voxnews.online/artikel/meran-ein-einziges-angebot-fuer-kavernengarage - host not reachable (DNS error).",
+    "The Blue Park ordinance PDF and its street-list annex, and the Stadtparkraumkonzept and the 'Tariffe parcheggi bluepark' pages linked from the city pages, were not opened.",
+    "The city's two pages differ on Blue Park hours (Parkplätze page: paid Monday to Sunday 08:00-19:00; ordinance page: Zone B paid Monday to Saturday); not resolved.",
+    "https://www.telepass.com/it/privati/servizi/strisce-blu/merano - commercial and undated, not used. Parkhaus Plaza, Karl-Wolf, Meranarena, Obermais and Algunder Kellerei tariffs only appear on undated or 2023 private/tourism pages (e.g. https://www.visitmeran.it/parkplaetze-meran/, 'Update August 2023'), so they are not recorded.",
+    "No readable source found for: Etschwerke/SEAB, a 'Meraner Parkhaus-Gesellschaft', SASA's role in parking or park-and-ride, Parkhaus Theatergarage/Kurhaus/Postgebäude/Gärtnerei projects, and any Dolomiten, Rai Südtirol or Alto Adige piece on 2025-2026 parking usage statistics.",
+    "No official Gemeinde notice found on parking or traffic measures for the Christkindlmarkt; the organiser page https://www.christkindlmarkt.it/de/anreise-christkindlmarkt-meran is undated and only generic, so it is not recorded.",
+    "The final tariff and opening date of the Kavernengarage are not confirmed by any page I read; the city's October 2026 release gives bypass dates but no separate garage opening date or price.",
+    "The Landtag question (LTG_0005103) has no reply in the sources found, and the 'Therme Meran' figures are the MPs' own."
+  ]
+}

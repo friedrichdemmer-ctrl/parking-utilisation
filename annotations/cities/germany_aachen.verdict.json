@@ -1,0 +1,185 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Opened (aachen.de Bewohner*innenparken, read via browser; page undated, retrieval 2026-10). Fee formula confirmed: from 1 May 2025, 30 euros per occupied square metre (length x width) plus 15-euro administrative fee; 3, 6 or 12 months. But this page says only that the political bodies decided 'im Juni 2024'; the exact day 26 June 2024 appears only as a link title on a different city page (Autoverkehrskonzept), not on the cited page. Corrected text uses what the cited page says.",
+   "corrected_text": "The city's political bodies decided in June 2024 on a new fee for resident-parking permits. As of the city's page in October 2026, from 1 May 2025 a permit costs 30 euros per square metre of vehicle footprint (length times width) plus a 15-euro administrative fee for the application; permits can be requested for 3, 6 or 12 months.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "Opened same page. Confirmed: zones set up since 1982, about 40,000 cars registered in the zones, about 18,600 on-street spaces (Stand 2024), 21,743 permits issued at 31 Dec 2024. The page does say 'mittlerweile 25 Zonen', but the zone count is disputed between city pages (25 vs 28) and the same page announces BU 5 and nine more zones, so the count is not safe to state; dropped from corrected text. Zone count 25 is unconfirmed.",
+   "corrected_text": "Aachen has set up resident-parking zones since 1982; the city page gives about 40,000 cars registered in the zones, about 18,600 on-street spaces (2024) and 21,743 resident permits issued as of 31 December 2024.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Opened same page. BU 5 streets and fee-hours (Mon-Fri 9-19, Sat 9-14 for non-residents) are correct, and the nine further zones/extensions (ERZ, BU 4, West 1, extension J 1, extensions E, E2, K, VQ, RO 1) are listed in the order set in May 2023 by the Bezirksvertretung Aachen-Mitte and the Mobilitaetsausschuss. But the page words BU 5 as 'wird eingefuehrt' (to be introduced) 'zum 20. Juli 2026' and still uses future tense in October 2026; it says permits have been available since 18 June 2026. The text states that it 'takes effect' as fact; the page does not confirm it has happened. Also 'zones' should be 'zones or extensions'. Date 2026-07-20 matches the planned start.",
+   "corrected_text": "The city page says the new resident-parking zone BU 5 (streets between Eupener Straße, Salierallee and Hein-Görgen-Straße) is to be introduced on 20 July 2026 (the page still used the future tense in October 2026 and says resident permits have been available since 18 June 2026); non-residents then pay Monday-Friday 9:00-19:00 and Saturday 9:00-14:00. Nine further zones or zone extensions are planned in an order set in May 2023, starting with ERZ (Erzbergerallee).",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Opened aachen.de Parktarife Strassenrand (undated; retrieval 2026-10, and the text correctly says 'city page in October 2026'). Zone I (inside and on Alleenring plus a few named streets): Mon-Sat 9-21, 3 euros per started hour, max 4 hours. Zone II: 1 euro first 40 minutes, 0.50 euro per further started 20 minutes; day tickets 5/6/8 euros in listed resident zones. All as written (Zone II hours Mon-Fri 9-19, Sat 9-14 omitted but not contradicted).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Opened aachen.de Parkhaeuser (undated page; retrieval 2026-10 - the text does not itself say 'October 2026', add that if desired). Page: 24 garages, 9,100 spaces in the inner city, usually about 3,000 free; 18 garages with 7,600 spaces connected to the central parking guidance system 'erneuert 2015'. All as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "Opened aachen.de Innenstadtmobilitaet fuer morgen (the first browser read landed on a wrong page because the pane is shared; re-read in own tab). Confirmed: guidance system since the 1990s steers cars into garages of colour-coded areas inside the Alleenring; three steering points (Lenkungspunkte) decided 2023, only Karlsgraben implemented (2024), the other two deferred because of building sites; motion by CDU, SPD, Volt and FDP dated 3 July 2026 aims to reduce through traffic on the Grabenring by changed routing, steer cars to garages, and asks the administration to propose a short-term effective alternative to the existing Lenkungspunkt at Karlsgraben/Jakobstrasse. Wrong detail: on 15 July 2026 the council referred the motion 'an die zustaendigen Stellen' (to the responsible offices of the administration, which now prepares proposals), not to committees. Also the motion wants the steering point taken out of service once an alternative can be implemented.",
+   "corrected_text": "Aachen's parking guidance system, in use since the 1990s, steers cars into the garages of colour-coded areas inside the Alleenring. Of the three traffic-routing points (Lenkungspunkte) decided in 2023, only Karlsgraben has been built (2024); the other two were postponed because of building sites. A motion by CDU, SPD, Volt and FDP (3 July 2026) asks for changed routing to reduce through traffic on the Grabenring and to steer cars to the garages, and asks the administration to propose a quick, effective alternative to the Karlsgraben steering point; on 15 July 2026 the council referred it to the responsible offices, which are now preparing proposals for later political decisions.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Opened apag.de home page (live page text and DOM). Garage list on the home page includes Tivoli, Uniklinik RWTH, Galeria Kaufhof/City, Eurogress, EBV Carré, Adalbertsteinweg, Rathaus, Hauptbahnhof, Couvenstraße, Adalbertstraße; eight Bike-Stations listed (Adalbertsteinweg, Bahnhof Schanz, Brabantstraße, Büchel, Galeria Kaufhof/City, Jakobstraße, Rathaus, Uniklinik Franziskus); other garages in Berlin, Dülmen, Würselen (page header also names Datteln, not mentioned in the item). 'Municipal company' is not on apag.de but is on the city's Parkhaeuser page ('staedtische Gesellschaft APAG'), which the text attributes to the city - fine. No garage space figures used, so the home-page vs garage-page figure conflict is not relied on. Page undated: retrieval 2026-10; text does not say so.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Opened aachen.de Parkhaeuser. Sparkasse Aachen: Parkhaus Am Dom (Jesuitenstrasse) and Parkhaus Annastrasse, special night-parking rate 40 euros a month (Mon-Thu 16:00-9:00, Fri from 14:00 to Mon 9:00) - confirmed. The Parkhaus-Service entry is 'Cologne Parkhaus-Service', one garage: Parkhaus Kapuziner Karree (Borngasse); 'Kapuziner Karree, Borngasse' reads as two garages. The page lists these under special conditions for residents, not as a list of all operators. Page undated: retrieval 2026-10; text lacks the date.",
+   "corrected_text": "As shown on the city's Parkhäuser page in October 2026, the city lists, besides APAG, the operators Cologne Parkhaus-Service (Parkhaus Kapuziner Karree, Borngasse) and Sparkasse Aachen (Parkhaus Am Dom and Parkhaus Annastraße) among the garages with special conditions for residents; the Sparkasse garages have a special night-parking rate of 40 euros a month.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Opened the APAG pages for Couvenstraße, Hauptbahnhof and Rathaus (live, 21 Oct 2026). All three: Mo-Sa 08:00-20:00 2.50 euros/60 min; night (20:00-08:00) 2.50/60 min max 8 euros; Sunday/holiday max 6 euros; 24-hour max 18 euros. Parken-24 monthly: Hauptbahnhof 98.00, Couvenstraße 146.50; Rathaus page shows no monthly tariff ('demnächst wieder verfügbar'). All as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Opened APAG Tivoli page (live). Confirmed: 1.00 euro/60 min, 24-hour max 5.00 euros, Parken-24 67.50 euros monthly; garage reserved exclusively for visitors of CHIO and Alemannia home games. 'Has 18 charging points' is not supported: the number 18 is an unlabelled live availability badge (CSS class 'availability-car-charging', same style as the free-space count 1179 of 1240), so it is probably the number currently available, not the installed total. The page only shows AC charging tariffs.",
+   "corrected_text": "The APAG page for Parkhaus Tivoli (opened 21 October 2026) shows 1 euro per 60 minutes, a 24-hour maximum of 5 euros and 67.50 euros a month for Parken-24. The garage is reserved exclusively for visitors of CHIO and Alemannia home games, and the page lists AC charging.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Opened aachen.de Park + Ride (expanded accordions read via DOM). Sites and spaces: Tivoli 1200, Westfriedhof 179, Hangeweiher 120, Waldfriedhof 99, Jülicher Straße/Berliner Ring 80 = 1,678 (sum correct). Hangeweiher: 'ab sofort (14.09.26) wieder ganztägig und ohne beschränkte Parkdauer nutzbar' - ok (it is a return to all-day use). Ticket: the daily 'Park+Ride-Ticket' costs 5 euros for the return trip, up to five people, by bus to destinations on and inside the Alleenring; tickets are bought from bus drivers, at Tivoli on entering the garage, and the parking ticket also serves as fare ticket. The city page does not say the 5 euros 'covers parking' at every site (APAG's Tivoli page says 5 euros for parking and the ride there). Tivoli is not available for P+R on Alemannia home match days.",
+   "corrected_text": "The city lists five park-and-ride sites with 1,678 spaces in total (our sum of the listed figures): Tivoli 1,200, Westfriedhof 179, Hangeweiher 120, Waldfriedhof 99 and Jülicher Straße/Berliner Ring 80. The daily Park+Ride ticket costs 5 euros for the return trip for up to five people by bus to destinations on and inside the Alleenring; at Tivoli it is issued on entering the garage and the parking ticket also serves as the fare ticket. The Hangeweiher car park is again usable all day without a time limit from 14 September 2026.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Opened APAG article 'Sanierung des Parkhaus Rathaus beginnt' (10 Jan 2025; title and date match). Garage fully out of service from 13 Jan 2025 until probably May 2026; if on schedule, individual decks can be used step by step from June 2026; about 60-year-old building; concrete repairs and modernisation of technical equipment. Worded as expected/planned. As written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Opened APAG Rathaus page (live, 21 Oct 2026). 'Parkplätze 334 von 365', 'Geöffnet: 24/7', normal tariffs shown; banner: charging stations currently unavailable because of final maintenance work; 'Mietparken: tariffs demnächst wieder verfügbar'. Text's hedged wording is accurate; note the live count (334 of 365) suggests the garage is operating, but the page has no reopening statement, so 'not confirmed' is the right wording. Low confidence appropriate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Opened aachen.de Lademöglichkeiten. 'ca. 1.070 öffentlich nutzbare Ladepunkte (Stand 30.06.2026)', about 10 e-cars per charger vs 18 in Germany; free parking up to 2 hours in all resident-parking zones for electric cars with parking disc and E-plate, council decision May 2018; does not apply to private areas or garages. All as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Opened APAG Hauptbahnhof, Couvenstraße, Tivoli and Rathaus pages. AC charging: consumption 0.45 euro/kWh, 'Standzeit 08:00-20:00: ab 240. Min. 0,02 euro/Min.' (from the 240th minute), 20:00-08:00 included; Mobility-Key required; parking fees excluded/billed separately. But 'APAG garages offer' overgeneralises: the Rathaus page says charging stations are currently unavailable (maintenance) and the tariffs are shown only partly; only four garage pages were checked. 'After the first 240 minutes' vs the page's 'ab 240. Min.' is a slight rewording.",
+   "corrected_text": "On the APAG pages for Hauptbahnhof, Couvenstraße and Tivoli (opened 21 October 2026), AC charging requires an APAG Mobility-Key and costs 0.45 euro per kWh, with a standing-time fee of 0.02 euro per minute from the 240th minute between 08:00 and 20:00 (included between 20:00 and 08:00). Parking fees are billed separately. On the Rathaus page the charging stations were unavailable because of maintenance.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Opened aachen.de Verkehrskonzept Büchel. Timeline: '2021: Abriss Parkhaus Büchel' - confirmed. Page says foot access for customers arriving by car is provided 'insbesondere durch die umliegenden Parkhäuser (Rathaus, Seilgraben, Couvenstraße und Adalbertstraße)'. The remark that 'another city page says 2022' is not on the cited page (the page lists 2022 as the start of the temporary use); it was not confirmed. Rathaus garage was itself under renovation.",
+   "corrected_text": "The Büchel garage was demolished in 2021 according to the city's Büchel traffic-concept page. The city says that access on foot for customers arriving by car is provided in particular by the surrounding garages (Rathaus, Seilgraben, Couvenstraße and Adalbertstraße).",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Opened aachen.de Verkehrskonzept Büchel. Mobility committee on 10 July 2025 commissioned the administration to run public participation based on the 'Fußgängerzone' concept; participation 16 Sept-13 Oct 2025; a continuous pedestrian zone is expected to cut through traffic and short stays by about 50-60 percent; 'vrstl. 1. Halbjahr 2026' draft resolution and decision, 'vrstl. 2. Halbjahr 2026' re-designation of streets and signage. Worded as planned, with 'no decision was found'. Page is undated; its 'Aktuelles' box mentions an information event on 8 Sept 2026 about construction start (not about the pedestrian-zone decision). As written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Opened aachen.de Autoverkehrskonzept. 116,733 cars on 01.01.2024 = 444 per 1,000 residents; about 33 percent of residents in a household without a car; 46 percent of trips ('Wege') by car; target value 36 percent in the mobility strategy. As written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Aachen's central garages are mostly run by the municipal APAG (Aachener Parkhaus GmbH), with further garages run by Sparkasse Aachen and Cologne Parkhaus-Service. The city counts 24 inner-city garages with about 9,100 spaces, 18 of them (about 7,600 spaces) connected to a parking guidance system renewed in 2015. On the garage pages opened on 21 October 2026, APAG shows 2.50 euros per 60 minutes in its central garages (Couvenstraße, Hauptbahnhof, Rathaus; 24-hour maximum 18 euros) and 1 euro per 60 minutes at the Tivoli park-and-ride garage (24-hour maximum 5 euros), while on-street parking inside and on the Alleenring costs 3 euros per started hour with a four-hour limit. The city's political bodies decided in June 2024 to price resident permits by vehicle footprint (30 euros per square metre plus a 15-euro fee) from 1 May 2025, and a new resident zone, BU 5, was announced to start on 20 July 2026, with nine more zones or extensions planned. Policy is aimed at reducing car traffic: the Büchel garage was demolished in 2021, a pedestrian zone for the Büchel quarter is proposed (a decision was planned for the first half of 2026 but none was found), and a July 2026 council motion, referred to the responsible offices on 15 July 2026, asks for changed routing that steers cars to the garages. The Rathaus garage was closed from 13 January 2025 for renovation with partial reopening planned from June 2026; on 21 October 2026 its APAG page showed normal tariffs but unavailable charging stations and no monthly rental, and its operating status is not confirmed. The city reports about 1,070 public charging points as of 30 June 2026. Most figures come from the city and APAG web pages as opened in October 2026; local press and council papers were not opened, so utilisation statistics, the resident-zone count and the outcome of several plans remain open."
+}

@@ -1,0 +1,166 @@
+{
+  "country": "France",
+  "city": "Rennes",
+  "researched": "2026-10-21",
+  "summary": "Rennes's public multi-storey car parks are sold under the C-Park brand and run by Citédia, a publicly owned local company, which also handles on-street paid-parking enforcement for the city. The city has been widening and re-pricing paid on-street parking: new districts became paid in June and October 2025, rates rose about 2% on 15 July 2026, and a further extension to the Thabor and Saint-Martin areas is planned from 16 November 2026. In the centre, the Vilaine car park closed for good on 1 September 2025 and its slab was demolished to reopen the river, as part of a 29 million euro quays project running to the end of 2028. A low-emission zone inside the ring road has applied since January 2025, with tighter steps planned from 2027, and C-Park is replacing its charge points, aiming for 308 by summer 2026. Eight park-and-ride sites are free with a validated Star transit ticket. Local reporting of the Plan de déplacements urbains dashboard puts the car's share of trips at 47.2% in the metropolis in 2023, with Star ridership up 17% on 2019.",
+  "items": [
+    {
+      "topic": "regulation",
+      "date": "2025-01",
+      "text": "A low-emission zone (ZFE) has applied inside Rennes's ring road since 1 January 2025, with the boulevard des Alliés as its eastern edge, and only vehicles with a Crit'Air sticker may enter. The city's page, updated 20 March 2026, sets out planned steps: Crit'Air 5 and unclassified vehicles from 1 January 2027, Crit'Air 4 from 2029 and Crit'Air 3 from 2030, with park-and-ride sites still usable.",
+      "source_title": "La zone à faibles émissions de Rennes Métropole",
+      "source_url": "https://transport.metropole.rennes.fr/la-zone-a-faible-emission-de-rennes-metropole/",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-10",
+      "text": "The city's page on the limited-traffic zone (ZTL) in the historic centre, last updated 27 October 2025, says speed is capped at 20 km/h and entry is limited to listed users such as residents and deliveries. It says five car parks (Hoche, Kléber, Chézy-Dinan, Lices, Vilaine) with 2,200 spaces are open to everyone; the list still names Vilaine, which had closed in September 2025.",
+      "source_title": "La zone à trafic limité",
+      "source_url": "https://transport.metropole.rennes.fr/la-zone-a-trafic-limite/",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-07",
+      "text": "On-street parking rates rose about 2% from 15 July 2026, which the city put down to roughly 16% cumulative inflation over 2020-2025. The post-parking charge (FPS) went from 40.60 to 41.60 euros in the red zone and from 25.40 to 26.20 euros in the green zone, and the green zone gained a third price band from 2h15 to 3h at 0.20 euros per 5 minutes.",
+      "source_title": "Évolution et extension du stationnement payant (Rennes Ville et Métropole press release, 1 July 2026)",
+      "source_url": "https://presse.metropole.rennes.fr/communiques-et-dossiers-de-presse/2026-07-01-evolution-et-extension-du-stationnement-payant/",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-07",
+      "text": "The city plans to extend paid on-street parking from 16 November 2026 to parts of Thabor/Saint-Hélier/Alphonse-Guérin (north to rue de Fougères, east to boulevard de Metz) and Saint-Martin. The council agenda of 29 June 2026 listed it as a proposal, and the release, updated 1 September 2026, calls these streets heavily saturated but gives no space count.",
+      "source_title": "Évolution et extension du stationnement payant (Rennes Ville et Métropole)",
+      "source_url": "https://presse.metropole.rennes.fr/evolution-et-extension-du-stationnement-payant/",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-10",
+      "text": "As of the page's 13 October 2026 update, the post-parking charge is 41.60 euros in the red zone (4-hour maximum stay) and 26.20 euros in the green zone (8-hour maximum). Resident monthly passes cost 49 euros in the red zone and 14.70 euros in the green zone, and the visitor pass is 3.20 euros a day.",
+      "source_title": "Payer son stationnement",
+      "source_url": "https://transport.metropole.rennes.fr/payer-son-stationnement/",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2025-12",
+      "text": "A visitor pass (Pass visiteur) started on 15 December 2025, letting residents of paid areas buy a day of parking for guests at 3.20 euros, up to 52 uses per household per year. It is valid only in the resident's own sector and bought online in advance.",
+      "source_title": "Unidivers article on the Rennes Pass visiteur (1 December 2025)",
+      "source_url": "https://unidivers.fr/rennes-un-pass-visiteur-stationnement-payant/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-10",
+      "text": "Paid on-street parking was widened twice in 2025: on 16 June (Sud-Gare, part of Saint-Martin, Maurepas-Bellangerais) and on 13 October (Antrain, Tanneurs and parts of Thabor, Saint-Hélier and Alphonse-Guérin). The article says the July 2025 tariff revision raised the green-zone maximum stay from 6h15 to 8h.",
+      "source_title": "Unidivers article on paid-parking extensions in Rennes (7 October 2025)",
+      "source_url": "https://unidivers.fr/rennes-quartiers-stationnement-payant/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "technology",
+      "date": "2024-01",
+      "text": "Since 2 January 2024, on-street parking control in Rennes has used vehicles with automatic number-plate reading and handheld devices, supplied by Egis to the public company Citédia Métropole under a 5-year contract. The system also feeds a parking observatory dataset.",
+      "source_title": "The city of Rennes appoints Egis to digitalise paid parking enforcement",
+      "source_url": "https://www.egis-group.com/all-news/the-city-of-rennes-appoints-egis-to-digitalise-paid-parking-enforcement",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-10",
+      "text": "As of 13 October 2026 the city lists twelve public C-Park car parks run by Citédia, plus eight park-and-ride sites that are free with a Star ticket validated within the hour before leaving. The page gives no capacity figures for either.",
+      "source_title": "Stationner à Rennes",
+      "source_url": "https://transport.metropole.rennes.fr/stationnement-rennes/",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-01",
+      "text": "A new 7-year contract to run the Star transit network, which includes the park-and-ride sites, went to Keolis from 1 January 2026, through a dedicated company called Keolis Rennes Métropole. The source does not mention park-and-ride sites specifically.",
+      "source_title": "Début de nouveaux contrats d'exploitation dans les transports publics (Transbus)",
+      "source_url": "https://www.transbus.org/actualite/actu-2026-01-janvier-nouveaux-contrats-transport-public.html",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-09",
+      "text": "C-Park announced on 31 July 2025 that the Vilaine car park on quai Duguay-Trouin would close permanently on 1 September 2025. It named the scheme to reopen the covered river as the reason and gave no space count.",
+      "source_title": "Fermeture définitive du parking Vilaine (C-Park)",
+      "source_url": "https://www.c-park.fr/2025/07/31/fermeture-definitive-du-parking-vilaine/",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-04",
+      "text": "Demolition of the Vilaine car park slab began on 13 October 2025. By early April 2026 half of the 270 m was gone and about 6,000 tonnes of concrete had been removed; the last metres were due in late April, with completion expected by early June. The article gives no figure for spaces lost and names no replacement car park.",
+      "source_title": "Déconstruction du parking Vilaine : le chantier à mi-parcours",
+      "source_url": "https://presse.metropole.rennes.fr/deconstruction-du-parking-vilaine-le-chantier-a-mi-parcours/",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-07",
+      "text": "The 29 million euro Vilaine quays and place de la République scheme (4 hectares) moved into its next phase on 6 July 2026, with works on the République slab planned to run to spring 2027. Public-space works are planned from autumn 2026 to the end of 2028.",
+      "source_title": "Découverte de la Vilaine et aménagement des quais : le chantier entre dans une nouvelle phase",
+      "source_url": "https://presse.metropole.rennes.fr/communiques-et-dossiers-de-presse/2026-07-01-decouverte-de-la-vilaine-et-amenagement-des-quais-le-chantier-entre-dans-une-nouvelle-phase/",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2025-10",
+      "text": "On 29 October 2025 C-Park announced a rollout of interoperable charge points, 308 in total, installed car park by car park from late October 2025 with the first due in service in January 2026. Users need a subscription with an approved operator such as Chargemap, and existing chargers are unavailable during the works.",
+      "source_title": "Vos parkings C-Park évoluent : de nouvelles bornes de recharge arrivent !",
+      "source_url": "https://www.c-park.fr/2025/10/29/vos-parkings-c-park-evoluent-de-nouvelles-bornes-de-recharge-arrivent/",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2026-10",
+      "text": "The city page updated 13 October 2026 still describes 308 chargers (7 to 22 kW) as due in summer 2026 in nine C-Park car parks. Charging costs 1 euro to connect plus 0.40 euro per kWh plus the parking fee; the page does not say whether the rollout is finished. It also lists about 200 free slow-charge spaces at eight park-and-ride sites.",
+      "source_title": "Stationner à Rennes",
+      "source_url": "https://transport.metropole.rennes.fr/stationnement-rennes/",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2025-03",
+      "text": "On 4 March 2025 C-Park opened resident subscriptions at its Hôtel Dieu car park (305 spaces on three levels, 20 with EV charging), from 183 euros including VAT. The car park opened on 24 January 2023 after nearly four years of work.",
+      "source_title": "L'abonnement résident est disponible au parking Hôtel Dieu (C-Park)",
+      "source_url": "https://www.c-park.fr/2025/03/04/labonnement-resident-est-disponible-au-parking-hotel-dieu/",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2016-09",
+      "text": "A data.gouv.fr dataset, published by Rennes Métropole with Citédia as creator and last modified on 7 September 2016, describes an open API (ODbL licence) covering the 10 underground car parks. It lists opening hours, rates, location, status, capacity and real-time free spaces; whether the endpoint still works was not checked.",
+      "source_title": "API Parkings Rennes Métropole (data.gouv.fr)",
+      "source_url": "https://www.data.gouv.fr/datasets/api-parkings-rennes-metropole",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2025-03",
+      "text": "Citing the Plan de déplacements urbains dashboard run by the Audiar planning agency, a local magazine reports that the car's share of trips in 2023 was 47.2% across the metropolis and 31% inside the ring road. It also reports Star transit ridership up 17% from 2019 to 2023 and car distances driven in Rennes down 23%; the dashboard itself was not seen.",
+      "source_title": "Unidivers article on the Rennes PDU dashboard (25 March 2025)",
+      "source_url": "https://unidivers.fr/rennes-trafic-routier-veloo-metro/",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "Council outcome for the 16 November 2026 extension: the only page found that reports the 29 June 2026 vote (https://info.fr/rennes-stationnement-payant-etend-1100-places-riverains-contestent/) labels itself AI-written, so it was not used. The roughly 1,100 spaces and the residents' legal challenge it mentions are therefore unconfirmed; the city's pages used say neither.",
+    "Q-Park, Indigo and Effia: no source found showing any of them operates public parking in Rennes. The official pages name Citédia (C-Park, a local public company) for car parks and on-street enforcement. Operator claims on Zenpark and Yespark pages were not used.",
+    "Terms of the Citédia contract or delegation (duration, who holds it, revenue) were not found.",
+    "Vilaine car park capacity: the official pages give no space count. A Le Bonbon article quoting 246 spaces (https://en.lebonbon.fr/rennes/news/this-parking-in-downtown-rennes-is-going-to) was left out as a non-preferred secondary source.",
+    "Star pages could not be opened (HTTP 403): https://www.star.fr/se-deplacer/info-trafic/parc-relais/henri-freville, https://www.star.fr/se-deplacer/info-trafic/parc-relais/la-poterie and https://www.star.fr/foire-aux-questions?question=parc-relais-borne-recharge-vehicule-electrique. As a result, park-and-ride capacities and usage were not obtained, and no new or closed park-and-ride site was found.",
+    "Ouest-France is not fetchable with our tools (https://www.ouest-france.fr). Le Télégramme, 20 Minutes Rennes, ICI Armorique and Le Monde were not reached through search, so no press coverage was read.",
+    "No occupancy, utilisation or footfall statistics for Rennes car parks were found. A claim that city-centre car park attendance has fallen since 2010 appeared only in a search snippet and was not used.",
+    "Current C-Park hourly tariffs: the only grid seen (Les Lices page, https://www.c-park.fr/parking/parking-les-lices/) is undated, and the main C-Park pages list no prices, so none are reported. The red-zone hourly rates on the city's tariff page were also not reported because the figures could not be read reliably.",
+    "Open data: https://data.rennesmetropole.fr/explore/dataset/export-api-parking-citedia/information/ rendered without update frequency or modification date, and the current real-time parking feed on data.rennesmetropole.fr was not located. The Rennes Métropole parking layer on data.gouv.fr (https://www.data.gouv.fr/datasets/parkings-sur-le-territoire-de-rennes-metropole, updated 10 October 2023) gives no capacity figures on the page.",
+    "Plan de déplacements urbains (PDU) parking provisions and a centre-ville traffic plan: no official document was opened. The press release page on the city-centre consultation (presse.metropole.rennes.fr, 25-19817) returned 404, and the 2023-2024 ZFE consultation was seen only in search results.",
+    "The press release on the visitor pass (https://presse.metropole.rennes.fr/stationnement-le-pass-visiteur-un-nouveau-tarif-preferentiel-pour-faciliter-la-venue-des-proches/) returned 404, so the 15 December 2025 start rests on a secondary local source.",
+    "Unidivers is a Rennes cultural magazine rather than one of the preferred outlets. Its articles are not marked as AI-written, and the paid-parking and Pass visiteur items agree with the city's own pages. They are rated medium."
+  ]
+}

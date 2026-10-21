@@ -1,0 +1,164 @@
+{
+ "country": "UK",
+ "city": "Durham",
+ "researched": "2026-10-21",
+ "summary": "Durham is a heritage city where the county council uses price and access rules to manage demand: a Road User Charge zone on the peninsula (shown on the council page as £5 a day, 10am to 2am, seven days), on-street charging that was proposed to extend to Sundays in 2024 with the income earmarked for Sunday Park and Ride, and a Controlled Parking Zone that needs a permit from 8am to 6pm every day. Council leaders approved a rise from April 2026 of 30p an hour in Durham City off-street car parks, 15p an hour on-street and 4p a day on permits, and a variation notice dated 14 May 2026 took The Sands and Sidegate to £2.10 for up to two hours then £1.10 an hour from 4 June 2026. Park and Ride is the main relief valve: Sniperley was expanded by 261 bays to 587 in November 2024, Belmont has 533 spaces and Howlands 361, with a day pass at £2.20. The council lists Prince Bishops, Riverwalk, Walkergate and the LNER station as third-party multi-storeys without tariffs; Prince Bishops Place is being redeveloped with student rooms above the retained car park, and a new pay car park at The Light was the subject of an August 2026 order at £1 an hour. Charging infrastructure is growing through a 250-location county rollout, and the main hospital moved to number-plate recognition in May 2025.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2025-01",
+   "text": "In January 2025 Durham County Council was reported to be proposing to raise the Road User Charge for the Durham peninsula from £2 to £5 a day, to charge on Sundays and bank holidays (except Christmas Day, Boxing Day and New Year's Day) and to extend enforcement from 10am-4pm to 10am-2am. The council cited disruptive parking, safety and air pollution, and said up to 30,000 vehicles pass through the area each month; the City of Durham Parish Council was reviewing the plans.",
+   "source_title": "Durham County Council Proposes Changes to Road User Charge (Palatinate)",
+   "source_url": "https://www.palatinate.org.uk/durham-county-council-proposes-changes-to-road-user-charge/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "As shown on the council's Road User Charge Zone page when read on 21 October 2026 (the page carries no date), the charge is £5 a day for using the zone between 10am and 2am, Monday to Sunday, except Christmas Day, Boxing Day and New Year's Day. An ANPR camera at Silver Street and Claypath records vehicles, payment is up to 2 weeks ahead or within 24 hours, and an unpaid charge can bring a £50 Penalty Charge Notice.",
+   "source_title": "Durham Road User Charge Zone (Durham County Council)",
+   "source_url": "https://durham.gov.uk/ruc",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-11",
+   "text": "A November 2023 delegated-decision report said the council had proposed a revised parking strategy in which availability of spaces together with price is the main driver of modal shift. It proposed Sunday tariffs on all Durham City on-street pay-and-display bays, estimated at £119,890 extra income a year, with on-street charging then running 8am to 6pm on all days; it noted that charging had been Monday to Saturday since on-street charges began on 5 May 2003.",
+   "source_title": "Delegated Decision, Durham City (North East) Parking & Waiting Restrictions TRO 2024 (REG 2408)",
+   "source_url": "https://democracy.durham.gov.uk/documents/s182223/REG 2408 - Part A.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-02-20",
+   "text": "On 20 February 2024 the council's Highways Committee endorsed in principle the Durham City parking orders, which proposed Sunday on-street operation from 8am to 6pm and a 20p per hour tariff rise, with the extra income to fund a Sunday Park and Ride service. The officers' presentation said free Sunday bays were being filled by long-stay parkers and that queues had been seen at city-centre private car parks, and recorded public objections citing cost of living, effects on businesses and falling visitor numbers.",
+   "source_title": "Highways Committee 20 February 2024, item 5 and officers' presentation (Durham City Parking Place TRO 2024)",
+   "source_url": "https://democracy.durham.gov.uk/mgAi.aspx?ID=64662",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-03-23",
+   "text": "On 23 March 2026 the BBC Local Democracy Reporting Service reported that council leaders had approved, from April 2026, rises of 30p an hour for off-street and 15p an hour for on-street parking in Durham City council car parks, and 10p an hour in Barnard Castle, Bishop Auckland, Chester-le-Street and Seaham. Permit prices were to rise by 4p per permit per day, the first permit increase since 2015, worth an estimated £400,000; the council said its city charges are competitive with private operators.",
+   "source_title": "County-wide parking charge increase from April (Local Democracy Reporting Service via AOL)",
+   "source_url": "https://www.aol.com/articles/county-wide-parking-charge-increase-204128498.html",
+   "confidence": "medium"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-05-14",
+   "text": "A notice dated 14 May 2026 varied the Durham City off-street order with effect from 4 June 2026: Sidegate and The Sands multi-storey move from £1.80 for 0-2 hours then 80p an hour to £2.10 then £1.10 an hour (8am-10pm), and Providence Row from 40p to 55p per half hour (8am-6pm). The council's Durham City car parks page lists the same new tariffs.",
+   "source_title": "Notice of Variation of Parking Charges, Durham City (Off-Street Parking Places) Order 2008, Variation No. 1 (2026)",
+   "source_url": "https://publicnoticeportal.uk/notice/traffic-and-roads/6a06d535f1029c7a89fd0abd",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-05-14",
+   "text": "A notice for Wharton Park, Durham, varied its charge from 70p to 80p per half hour from 4 June 2026, for all days 8am to 6pm with a 3-hour maximum stay. The council lists Wharton Park as a 25-space car park with 2 EV points that accepts cash and PayByPhone only.",
+   "source_title": "Wharton Park, Durham: Variation of Off-Street Parking Charges (Variation No 1, 2026)",
+   "source_url": "https://publicnoticeportal.uk/notice/traffic-and-roads/6a06d5ccb92233b6c53fd72e",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The council's Durham City car parks page (undated, read 21 October 2026) lists four council pay-and-display sites: The Sands multi-storey (277 spaces, 14 x 7kW EV points), Sidegate (107 spaces, 2 x 22kW), Providence Row (19) and Wharton Park (25). It lists Prince Bishops, The Riverwalk, Walkergate and LNER Durham station as third-party car parks and gives no spaces or charges for them.",
+   "source_title": "Durham City car parks (Durham County Council)",
+   "source_url": "https://durham.gov.uk/DurhamCityCarParks",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-11-19",
+   "text": "The £2 million expansion of Sniperley Park and Ride, funded through the Transforming Cities Fund, was announced complete on 19 November 2024. It added 261 bays to a total of 587, including 28 disabled bays, 14 EV bays, 2 accessible EV bays and 3 motorhome bays.",
+   "source_title": "Expansion of Sniperley Park and Ride complete (Durham County Council)",
+   "source_url": "https://durham.gov.uk/article/32180/News-Expansion-of-Sniperley-Park-and-Ride-complete",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The council's Belmont Park and Ride page (undated, read 21 October 2026) lists 533 spaces and 8 EV points (2 x 7.4kW, 4 x 22kW, 2 x 50kW), open 7am-7pm every day with buses every 15 minutes. The adult day pass is £2.20, Pop PAYG £2, Durham University students £1.10, and overnight motorhome parking is £5 a night.",
+   "source_title": "Belmont Park and Ride (Durham County Council)",
+   "source_url": "https://durham.gov.uk/article/22363/Belmont-Park-and-Ride",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The council's Howlands Farm Park and Ride page (undated, read 21 October 2026) lists 361 spaces and 4 x 7.4kW EV points. It is open 7am-7pm Monday to Saturday only, closed on bank holidays, with buses every 15 minutes and the same £2.20 adult day pass; Belmont and Sniperley are listed as open every day.",
+   "source_title": "Howlands Farm Park and Ride (Durham County Council)",
+   "source_url": "https://durham.gov.uk/article/22364/Howlands-Park-and-Ride",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-08-13",
+   "text": "A notice dated 13 August 2026 reported a Durham County Council order, made 7 August 2026, for off-street parking at The Light, Durham (DH1 5TU), with a charge of £1 an hour from 8am to 8pm on all days, EV charging bays, staff and visitor permits and a cashless payment service. The notice gives an inconsistent in-force date (4/7/2024), so the start date is unclear.",
+   "source_title": "The County Council of Durham (The Light, Durham) (Off-Street Parking Places) Order 2026",
+   "source_url": "https://publicnoticeportal.uk/notice/traffic-and-roads/6a7d9b9bddbceeb3d7888c7a",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-07-08",
+   "text": "Durham County Council's planning committee approved the Prince Bishops Place redevelopment on 8 July 2024 (Citrus Group with Galliard Homes): shops, a hotel, student accommodation and a public square, with the existing well-used multi-storey car park to be retained. Construction was expected to start in mid-2025, with student housing due in autumn 2028.",
+   "source_title": "Green light for Prince Bishops Place redevelopment (Place North East)",
+   "source_url": "https://www.placenortheast.co.uk/green-light-for-prince-bishops-place-redevelopment/",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-02-02",
+   "text": "On 2 February 2026 Place North East reported revised Prince Bishops Place plans: the approved hotel is dropped, student accommodation rises to around 500 rooms above the car park and retail units, and the existing multi-storey car park stays. A new planning application was expected by the end of February 2026; the report gives no space numbers.",
+   "source_title": "Citrus revises Prince Bishops Place plans (Place North East)",
+   "source_url": "https://www.placenortheast.co.uk/citrus-revises-prince-bishops-place-plans/",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-04-23",
+   "text": "County Durham and Darlington NHS Foundation Trust announced on 23 April 2025 that from 1 May 2025 the University Hospital North Durham visitor car park would use number-plate recognition with no entry ticket. Drivers get 20 minutes to find a space, pay by registration at a machine, then have 20 minutes to leave; Blue Badge holders park free in designated bays, and the patient section has 11 EV charge points.",
+   "source_title": "Changes to parking at University Hospital North Durham: what you need to know when visiting (CDDFT)",
+   "source_url": "https://www.cddft.nhs.uk/about-us/news/changes-parking-university-hospital-north-durham-what-you-need-know-when-visiting",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The council's Durham City Controlled Parking Zone page (undated, read 21 October 2026) says a permit is needed from 8am to 6pm, Monday to Sunday including bank holidays, and parking is free outside those hours. It lists resident permits at £56 a year for the first and £84 for the second (maximum two per household), business permits at £500 a year and visitor vouchers at £12 per block of 36 three-hour vouchers.",
+   "source_title": "Durham City Controlled Parking Zone (CPZ) (Durham County Council)",
+   "source_url": "https://durham.gov.uk/article/22294/Durham-City-Controlled-Parking-Zone-CPZ-",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-11",
+   "text": "A notice published 11 June 2026 proposed amendments to four Durham City on-street parking orders (North East, North West, South West, South East) to change which holidays are excluded from bay restrictions: Good Friday and bank holidays removed from the exemption list and Boxing Day added. Objections were invited from 11 June to 2 July 2026; the notice gives no charge amounts or in-force date.",
+   "source_title": "Durham - Amendments to Parking & Waiting Restrictions & Parking Charge Exemptions (public notice)",
+   "source_url": "https://publicnoticeportal.uk/notice/traffic-and-roads/6a2a9c40a0f79f091bc207a5",
+   "confidence": "medium"
+  },
+  {
+   "topic": "ev",
+   "date": "2024-07-21",
+   "text": "On 21 July 2024 ElectricDrives reported that Durham County Council and charge-point operator Zest would install 250 public charging locations across County Durham, with over £11 million combined (about £4 million from the government's LEVI scheme and £7 million from Zest), aimed at the roughly 40% of residents without driveways. The article does not mention Durham city specifically.",
+   "source_title": "County Durham set for electric boost with 250 new Zest charge points (ElectricDrives)",
+   "source_url": "https://electricdrives.tv/county-durham-set-for-electric-boost-with-250-new-zest-charge-points/",
+   "confidence": "medium"
+  }
+ ],
+ "gaps": [
+  "No dated source opened for when the Road User Charge actually rose to £5: the council RUC page is undated, the 6 May 2025 council post on X (https://x.com/DurhamCouncil/status/1918198776436789288) returned HTTP 402, and the Palatinate article (Jan 2025) describes only a proposal",
+  "No opened source for the actual in-force Sunday on-street charging or a Sunday Park and Ride service: the Feb 2024 committee endorsed it in principle, but the council's Park and Ride pages show Howlands Monday to Saturday only and Belmont and Sniperley seven days; Durham Cathedral's page (https://www.durhamcathedral.co.uk/visit-us/plan-your-visit/parking-getting-to-durham-cathedral) says all three run Monday to Saturday, a conflict with the council pages",
+  "Council 'Car parking charges and tariff review' (https://durham.gov.uk/article/30424/Car-parking-charges-and-tariff-review) and 'Views sought on parking proposals' (https://durham.gov.uk/article/30496/Views-sought-on-parking-proposals) returned 404; Sniperley expansion-start page (https://durham.gov.uk/article/31304/Sniperley-Park-and-Ride-expansion-work-to-begin) returned 404",
+  "Hartlepool Mail pages (https://hartlepoolmail.co.uk/news/contactless-payments-to-be-introduced-for-parking-durham-city-and-charges-are-going-up-356395 and the Aykley Heads demolition article at https://hartlepoolmail.co.uk/news/politics/council/plans-approved-to-demolish-durham-county-council-hq-to-make-way-for-new-4000-job-development-at-aykley-heads-3053652) returned 403, so the 2023 contactless/tariff round and Aykley Heads parking provision are not covered",
+  "Durham University 2025-26 Parking Policy PDF (https://durham.ac.uk/media/durham-university/professional-services/energy-and-sustainability-team/DU-Parking-Policy-2025-26.pdf) returned 403; the university travel page opened but gives no permit charges or space counts, and detail is on internal SharePoint",
+  "No opened source on tariffs, operators or ownership for the third-party car parks (Prince Bishops, Walkergate, Riverwalk, LNER station); the only tariffs seen were third-party listings and a 2022 cathedral document, which were not used. No opened source on NCP, APCOA or Q-Park in Durham city (the council page lists no such operators)",
+  "No opened source for Salvus House, Sherburn Road or Gilesgate car park schemes, Milburngate multi-storey capacity, or Aykley Heads (county HQ redevelopment) parking numbers; no Durham-specific Clean Air Zone or low-emission zone found; no stand-alone 'Durham parking strategy' document found beyond the 2023 delegated-decision report",
+  "The Light order notice gives a conflicting in-force date (4/7/2024) against an order made 7/8/2026, and the sealed order was not opened; the site's relationship to Milburngate is not stated in any opened source",
+  "Two Durham County Council committee PDFs (Highways Committee presentation and REG 2408) were read from locally decoded text; REG 2408 pages 5 to 16 are map extracts only. Durham Pointers (https://www.durhampointers.co.uk/explore/parking-in-durham), a visitor guide, was opened but not used as support because it is an unofficial guide with an unclear date",
+  "LEVI/Zest charge-point numbers actually live in Durham city, and the Durham County Council own-site EV tariff, were not found; Durham World Heritage Site restriction documents were not found beyond the Road User Charge"
+ ]
+}

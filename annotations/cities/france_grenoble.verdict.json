@@ -1,0 +1,185 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "City page (last updated 27 Aug 2026) read in full via the browser. Green zone: paid Mon-Sat 9-12 and 14-19, 1h = 2 EUR, 8h = 10.50 EUR. Orange/violet: paid Mon-Sat 9-19 with half price 12-14, 1h = 3 EUR, 3h = 7 EUR. FPS 35 EUR for unpaid or expired parking; 135 EUR for 'très gênant' parking. Title matches. All figures are stated as current tariffs on the page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "City page (updated 28 Sep 2026, i.e. before the start date) is written in the future tense: 'À partir du 5 octobre 2026, deux véhicules ... circuleront'. It does not itself say the cars are already in service. Everything else is on the page: check against a payment at the meter or in EasyPark, an agent always issues the fine ('c'est toujours un agent'), plate must always be entered when paying. The in-service fact is only confirmed by the Place Gre'net article (item 2).",
+   "corrected_text": "On the city page (last updated 28 September 2026), Grenoble says that from 5 October 2026 two vehicles with automatic plate-reading cameras (LAPI) will circulate to check that each parked vehicle matches a payment registered at a meter or in the EasyPark app. The page says an agent always issues the fine, and that drivers must always enter their plate when paying.",
+   "corrected_title": null,
+   "corrected_date": "2026-09",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Place Gre'net article dated 8 Oct 2026 (read via page innerText; get_page_text only returned a comment). It says the city announces the deployment 'depuis le 5 octobre 2026' of two camera cars doing pre-checks in paid zones; goal better rotation, shorter search for a space, teams refocused on obstructive parking; agents verify and issue fines. 2022 video-enforcement: 1,200 PVs in nine months is on the page. But the page does not say the city announced it 'on 8 October'; 8 Oct is the article date, and the article calls it a pre-check. This article is what confirms the cars have been running since 5 Oct.",
+   "corrected_text": "Place Gre'net reported on 8 October 2026 that the city announced two cars with plate-reading cameras had been deployed since 5 October 2026 to pre-check parked vehicles in paid zones, aiming at faster turnover of spaces and freeing street-surveillance agents to focus on obstructive parking. Agents still check and issue the fines. The article notes that a 2022 video-enforcement scheme produced 1,200 fines in nine months.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "City page (updated 5 Oct 2026). Prices are right: 12 EUR month, 9 EUR week, 3 EUR day; resident right must be opened first; in the orange zone the ticket is valid only 9-10h (green and violet all day). But the ZFE sentence reads: 'aucun droit résident ne pourra être délivré aux résidents détenteurs d'un véhicule utilitaire léger et poids-lourds, non classé ou Crit'Air 3, 4 et 5'. The draft drops 'poids-lourds' and presents light commercial vehicles as barred outright, which the page does not clearly say.",
+   "corrected_text": "As of the city page updated 5 October 2026, a resident ticket costs 12 euros a month, 9 euros a week or 3 euros a day, after opening an annual resident right. The page says that, because of the low-emission zone, no resident right can be issued to holders of a light commercial vehicle or heavy goods vehicle that is unclassified or Crit'Air 3, 4 or 5. In the orange zone the resident ticket is valid only between 9am and 10am; in the green and violet zones it is valid all day.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Place Gre'net 3 Jul 2026 (read in full). Métropole announced on Thursday 2 July 2026 a one-year postponement of the end of the pedagogical (no-fine) period, from 30 June 2026 to 30 June 2027; now covers all cars, motorised two-wheelers, utility vehicles and heavy trucks whatever the Crit'Air sticker, including Crit'Air 4 and 5. Only vehicles with no sticker remain liable to fines, notably during pollution peaks. Title is the page's og title variant; URL matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "Same article. It does say the decision was motivated by improving air quality and persistent national uncertainty over ZFEs, and that the regulatory framework stays unchanged after the Constitutional Council struck down an article meant to abolish them. It does NOT report Parliament voting for abolition on 14 April 2026: that date appears only in a 'A lire aussi' teaser for a different article. The claim that other Place Gre'net material dates it differently is not supported by this page.",
+   "corrected_text": "The same Place Gre'net article says the Métropole gave two reasons for the extension: continued improvement in air quality and persistent national uncertainty over the future of low-emission zones. It adds that the legal framework requiring such zones remains unchanged after the Constitutional Council struck down an article meant to abolish them.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "ParkGAM home page (cookie banner declined): 'Vos parkings changent d'exploitant ! Depuis le 1er avril 2026, la Métropole de Grenoble a confié la gestion de ses 21 parkings à la Société publique locale du stationnement de la région grenobloise, Société Anonyme à capital 100% public.' Supported. The page lists no '21 car parks from Gares-Europole to Arlequin': the car park listing page has 20 entries (Gares-Europole first, Troubadours last, Arlequin second to last). The home page says 'Service 24h/24' and Presqu'île/Gares-Europole pages say 24/7. Date conflict: ParkGAM says 1 Apr 2026; ADES blog (item 8) planned 1 Jan 2026. ParkGAM, as the operator's own site, is the better source for the actual start; the January date was a plan.",
+   "corrected_text": "ParkGAM's home page says that since 1 April 2026 the Métropole has entrusted the management of its 21 car parks to the Société publique locale du stationnement de la région grenobloise, a public limited company with 100% public capital. The site's car park list shows 20 car parks, and its home page says they are available around the clock.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Place Gre'net 3 Apr 2019. The article is truncated by a paywall (67% unread) but the readable opening supports every claim: since 1 April 2019 the 21 Métro car parks and 7,752 spaces under a Semop called Park Grenoble Alpes Métropole; previously private operators under DSPs; Effia (previous manager) and the Métropole 50% each, with one extra share giving the Métropole the final say. Note the conflict: the ADES blog (item 8) gives Métropole 51% / Effia 49%. The draft states the Place Gre'net version, correctly attributed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "ADES (association 'Le Rouge et le Vert') blog post published 3 Jan 2025; an advocacy blog, not an official source, so it is not sufficient support for facts about the SPL and nothing in the summary should rest on it. What the page says: 31 May 2024 council approved in principle delegated management to a dedicated SPL; the contract 'prendra effet le 1er janvier 2026'; first capitalisation 600 kEUR in 2025 with Métro 90% (540,000 EUR) and SMMAG 10% (60,000 EUR); current Semop contract effective 1 Apr 2019, initial 5 years, extended by 21 months to 31 Dec 2025. NOT on the page: 'six-year' delegation (dropped). The 1 Jan 2026 start was a plan and is superseded by ParkGAM's 1 April 2026 statement (item 6). The page also gives Métro 51% / Effia 49% for the old Semop, conflicting with Place Gre'net's 50/50 plus one share.",
+   "corrected_text": "A January 2025 post on a local association blog (ADES), not an official source, reported that on 31 May 2024 the Métropole council approved in principle delegating the car parks to a dedicated publicly owned company (SPL), with a contract then planned to start on 1 January 2026. It said the Métropole would hold 90% and the SMMAG transport authority 10%, after a first capital injection of 600,000 euros planned for 2025, and that the existing joint-venture contract with Effia had been extended to 31 December 2025. ParkGAM's own site later gives 1 April 2026 as the start date.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Métropole page (undated; read in October 2026; the sections are collapsed so I read the DOM text). Says: 22 public car parks, about 8,000 spaces; all operated by 'la société Park Grenoble Alpes Métropole' except Chavant, operated by Q-Park; 7 are subscriber-only (Irvoy, Cèdre, Troubadours, 3 Quartiers, Lionel Terray, Gervasoti, Arlequin); 'une majoration tarifaire est appliquée aux abonnés dont le véhicule dépasse 1,5 tonne'. Note the page still uses the old joint-venture name and does not mention the SPL or 1 April 2026; contact is parkgam.fr. Undated, so date 2026-10 is the retrieval month.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "ParkGAM Presqu'île page (undated; read Oct 2026; subscription tab is in hidden DOM text). 475 places; 1h 2.40 EUR; 24h 29.00 EUR; evening half price from 19h to 8h next day; monthly Standard 130 EUR, Standard majoré 140 EUR, Résident Standard 65 EUR, Résident malus environnemental 71 EUR; environmental surcharge for combustion vehicles over 1,550 kg and EV/plug-in hybrids over 1,800 kg. All match. The date and rate at which the surcharge was introduced remain unconfirmed (not on this page).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "ParkGAM Gares-Europole page (undated; read Oct 2026): 1001 places, 66 'Bornes électriques', 1h 2.40 EUR, 24h 33.00 EUR, weekend package 39 EUR (valid entry after Friday 14h, exit before Monday 12h). All correct. The phrase 'the biggest page read' is not on the page and is a statement about the researcher's reading, so it is removed.",
+   "corrected_text": "ParkGAM's Gares-Europole car park has 1,001 spaces and 66 EV charging stations. Its listed rates (page undated, read October 2026) are 2.40 euros for 1 hour and 33 euros for 24 hours, with a 39-euro weekend package.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Q-Park Chavant page (read Oct 2026; accordions are collapsed so I read the DOM and expanded 'Standard rates' after declining optional cookies). Correct: 385 spaces, 20 electric charging points, opening hours Monday-Sunday 24-7 entry and exit, next to Parc Mistral (Stade des Alpes, Palais des sports). WRONG: the page does show tariffs: the standard rates section lists 15 min 0.60 EUR, 1 hour 2.30 EUR, 6 hours 16.00 EUR, 24 hours 29.00 EUR and season-ticket prices (a 'No tariffs available online' string exists in the HTML but is in a hidden element).",
+   "corrected_text": "The Q-Park operator page for the Chavant car park (next to Parc Mistral, home of the Stade des Alpes and the Palais des sports) lists 385 spaces, 20 EV charging points and 24/7 entry and exit. Its standard rates section lists 0.60 euro for 15 minutes, 2.30 euros for 1 hour, 16 euros for 6 hours and 29 euros for 24 hours, and it also shows season-ticket prices (page undated, read October 2026).",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "ParkGAM home page: 'Facilitez votre stationnement avec L'Appli M. Disponible sur les parkings Park Grenoble Alpes Métropole: barrières s'ouvrent automatiquement grâce à la reconnaissance de votre plaque; prélèvement automatique le mois suivant.' The page does not say 'some of its car parks'; it says available on the Park Grenoble Alpes Métropole car parks without specifying which. It gives no start date (draft correct on that).",
+   "corrected_text": "ParkGAM's home page promotes its 'L'Appli M' app, saying it is available at the Park Grenoble Alpes Métropole car parks: barriers open automatically by number-plate recognition and payment is debited automatically the following month. The page does not say which car parks or when this started.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Place Gre'net 7 Oct 2025 (read in full). EasyPark takes over from Paybyphone from 6 Oct 2025 after a public-contract renewal; 850 meters being replaced, with card payment and solar panels, campaign due to end early 2026 ('devrait s'achever début 2026'); one ticket in two is now bought via an app; the 15% surcharge for paying by app is unchanged. Title matches (the page title is shortened).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Same Place Gre'net article. Figures match as the CITY's figures: 35,500 parking spaces, of which 3,100 'spécifiques' (footnote: reserved for deliveries, taxis or disabled people), 13,500 paid, 18,900 free. The page says 'places de stationnement' and does not say 'on-street'. On reduction: 'La municipalité ne cache pas œuvrer à réduire la part du stationnement gratuit, par exemple dans les quartiers Berriat, Europole ou Île Verte. Ou encore sur le parking de l'Esplanade.' That is the city working on it, not a formal plan, and the article only gives examples.",
+   "corrected_text": "Place Gre'net reported in October 2025 the city's figures for Grenoble: 35,500 parking spaces, of which 13,500 are paid, 18,900 free and 3,100 reserved for deliveries, taxis and disabled users. It added that the city does not hide that it is working to reduce the share of free parking, for example in the Berriat, Europole and Île Verte districts and on the Esplanade car park.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Place Gre'net 26 Feb 2022. Tariffs rise from 1 Mar 2022 whatever the duration; the first 10 minutes (orange and violet) and first quarter hour (green) become chargeable at 0.50 EUR; Jean-Macé near the station becomes paid; 'À l'horizon 2023' the whole enlarged city centre 'devrait' go paid under the Métropole's PDU 2030, as the city recalls. The draft words it as 'due to', correctly. Historical page, not current tariffs.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "M réso page (URL redirects to reso-m.fr/58-les-parkings-relais.htm). 45 P+R in the Grenoble area, over 5,000 places; Métropole 22, Grésivaudan 10, Pays Voironnais 13; parking free with a valid transport ticket validated within 2 hours; Métropole P+R limited to 1 day maximum; at Vallier-Catane M réso subscribers can park 24/7 with a complementary subscription at 12 EUR a month. Undated page, so 2026-10 retrieval. The Métropole's own page (item 9) counts 22 P+R with 2,300 places for the Métropole only, consistent with this.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Grenoble's multi-storey car parks changed operator in 2026. Place Gre'net reported that a joint venture with Effia, named Park Grenoble Alpes Métropole, ran the Métropole's 21 car parks from 1 April 2019. ParkGAM's website now says that since 1 April 2026 the Métropole has entrusted their management to the Société publique locale du stationnement de la région grenobloise, a company with 100% public capital; a January 2025 association blog had planned a 1 January 2026 start, and sources differ on the old joint venture's share split (50/50 plus one share for the Métropole, or 51/49). The Métropole's own page, which still uses the old company name, lists 22 public car parks with about 8,000 spaces, all run by Park GAM except Chavant, which Q-Park operates. It says subscribers whose vehicle weighs more than 1.5 tonnes pay a surcharge, and ParkGAM's Presqu'île page lists higher subscription prices for heavy vehicles (for example 140 instead of 130 euros a month). On-street paid parking has three zones, a 35-euro post-parking charge and a 12-euro monthly resident ticket. The city says that from 5 October 2026 two plate-reading camera cars check payments, and Place Gre'net reported on 8 October that they had been running since that date, with an agent always issuing the fine. The city says it is working to reduce the share of free parking, for example in the Berriat, Europole and Île Verte districts. The Métropole announced on 2 July 2026 that the no-fine period of its low-emission zone is extended to 30 June 2027, although vehicles with no sticker can still be fined. No occupancy or utilisation figures for Grenoble's car parks were found."
+}

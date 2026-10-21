@@ -1,0 +1,194 @@
+{
+ "country": "Germany",
+ "city": "Köln",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Köln manages about 50,000 paid on-street spaces in two fee zones (Innenstadt/Deutz and districts 2 to 9). The current street tariff dates from a fee ordinance approved by the council on 26 September 2019 and implemented from February 2020 (1 euro per started 15 minutes in the centre and Deutz, 0.50 euro elsewhere, long-term areas 5 euros per 24 hours). In November 2024 the administration proposed raising short-term parking to 5 euros an hour in the centre and 2.50 euros elsewhere and long-term parking to 30 euros a day; the council postponed the decision on 27 May 2025, and t-online reported on 9 September 2026 that there is still no council decision, with the draft before the council since 13 February 2025. For residents' parking, the city announced in September 2024 that the annual permit fee rose from 30 to 100 euros on 1 October 2024 and would be tiered at 100, 110 and 120 euros by vehicle length from 1 March 2025; a 2026 confirmation of this was not checked. On 16 December 2025 the council decided to raise tariffs in nine city garages (average hourly rate from 1.44 to 2.10 euros), with the city expecting a start around 1 February 2026, which was not confirmed from a city source. The Tiefgarage Groß St. Martin was closed to the public on 15 September 2025 for structural investigations, and the koeln.de garage page still said on 21 October 2026 that it remains closed until further notice. For Advent 2025 the city said its Parkleitsystem covers garages with 22,000 spaces and 27 LED boards; occupancy data is also published through the Mobilithek. Q-Park announced management contracts for the I/D Cologne garage in Mülheim (May 2023, 896 spaces) and the Barthonia Forum in Ehrenfeld (from 1 May 2024, 1,043 spaces). Access policy is changing at the edges: a twelve-month Deutzer Freiheit pedestrian-zone trial was announced for June 2022 and temporary traffic changes at Trankgasse near the Dom were made in spring 2023 (criticised by the IHK). Stadtwerke Köln signed a contract in December 2022 for 1,000 further public charging points with the last one planned for 2026 (progress not checked), and in August 2025 the city proposed a combined car and bicycle Parkpalette at the Weiden-West P+R. The sources found do not show current Umweltzone rules, Mobilstation figures or a Köln-wide utilisation statistic.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2020-01-29",
+   "text": "On 29 January 2020 the city announced that from 3 February 2020 it would start converting its roughly 2,750 parking meters, area by area and beginning in the centre, to the fee ordinance approved by the council on 26 September 2019: 1 euro per started 15 minutes in the centre and Deutz and 0.50 euro in the other districts (previously charged per 20 minutes), and long-term areas (12,700 spaces citywide) rising from 4 to 5 euros per 24 hours. It was the first increase after seven years of constant fees, with about 1.8 million euros of extra revenue earmarked for the KVB.",
+   "source_title": "Stadt Köln setzt die neue Parkgebührenordnung um",
+   "source_url": "https://www.stadt-koeln.de/politik-und-verwaltung/presse/mitteilungen/21387/index.html",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-06-01",
+   "text": "On 1 June 2022 the city announced that on 10 June 2022 it would set up a pedestrian zone ('Radfahrer frei') on large parts of the Deutzer Freiheit for a twelve-month trial, as decided at the end of 2021 by the Bezirksvertretung Innenstadt; delivery traffic would be allowed on weekdays from 6 to 11 a.m. In the section between Neuhöfferstraße and Graf-Geßler-Straße, which had to be excluded from the trial, parking spaces are converted to other use; the release gives no number of spaces.",
+   "source_title": "Zwölfmonatiger Verkehrsversuch startet (Deutzer Auto-Freiheit)",
+   "source_url": "https://www.stadt-koeln.de/politik-und-verwaltung/presseservice/deutzer-auto-freiheit",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2022-11-14",
+   "text": "In its November 2022 Advent traffic plan the city said the garages connected to the Parkleitsystem had a combined capacity of more than 20,000 spaces, and listed ten KVB/DB park-and-ride sites (for example Weiden West 685, Marsdorf Haus Vorst 621, RheinEnergieStadion 571 spaces). P+R parking in Köln was free for up to 24 hours with a valid public transport ticket.",
+   "source_title": "Für die Adventszeit empfiehlt die Stadt P+R, Verkehrskalender und Parkleitsystem",
+   "source_url": "https://www.stadt-koeln.de/politik-und-verwaltung/presse/mitteilungen/25266/index.html",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2022-12-13",
+   "text": "The city signed a contract with Stadtwerke Köln (SWK) for site selection, planning, building and operation of 1,000 further public EV charging points, with an investment of 30.6 million euros. The 1,000th point is planned for 2026; the council's 2021 target had been the end of 2024, which the city called unrealistic.",
+   "source_title": "Stadt und SWK schließen Betreibervertrag für den Bau 1.000 weiterer E-Ladepunkte (Köln lädt nach)",
+   "source_url": "https://www.stadt-koeln.de/politik-und-verwaltung/presseservice/koeln-laedt-nach",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "An undated page of the IHK Köln says that in spring 2023 a package of temporary changes to traffic routing around the Dom was implemented on Trankgasse: a car-free area between Marzellenstraße and am Domhof, Marzellen- and Komödienstraße converted to one-way streets and a bicycle street between Tunisstraße and am Domhof. Access from the Rheinuferstraße side to a hotel and the exit from the Tiefgarage am Dom towards Rheinuferstraße are, according to the page, 'theoretically' still possible through a release for motor traffic in a section of the bicycle streets. The IHK and many of its member firms assess the redesign critically, and its plenary adopted a position paper in March 2023 calling for the routing to be thoroughly evaluated with the local businesses.",
+   "source_title": "Verkehrsprojekt Trankgasse (IHK Köln)",
+   "source_url": "https://www.ihk.de/koeln/hauptnavigation/mobilitaet-und-logistik/verkehrsprojekt-trankgasse-6091580",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-05-22",
+   "text": "Q-Park Operations Germany announced a new management contract for the I/D Cologne car park in Köln-Mülheim: 896 spaces on 6 levels, 24 charging stations, with Q-Park's Book and Reserve service and cashless ticketless parking planned.",
+   "source_title": "Q-Park Operations Germany GmbH & Co. KG Takes Over the I/D Cologne Car Park in Cologne-Mülheim",
+   "source_url": "https://www.parking.net/parking-news/q-park/id-cologne-car-park-in-cologne-muelheim",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-11-17",
+   "text": "In November 2023 the administration proposed residents' parking permit fees tiered by vehicle length at 100, 110 and 120 euros a year (up to 4,109 mm, 4,110-4,709 mm, 4,710-5,600 mm), after withdrawing a May 2023 proposal of 330 to 390 euros. Köln then had 47 residents' parking zones with about 51,400 spaces and 61,020 permits (31 December 2022); the city assumed about 20 percent fewer permits and about 5.3 million euros a year of income.",
+   "source_title": "Angepasste Bewohnerparkgebührenordnung im Gremienlauf",
+   "source_url": "https://www.stadt-koeln.de/politik-und-verwaltung/presse/mitteilungen/26309/index.html",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2023-12-19",
+   "text": "After the first three Advent weekends of 2023 the city said its traffic concept had worked: about 722 coaches (roughly 85 percent from abroad) used the Koelnmesse P22 car park with a shuttle to Heumarkt. The Lanxess-Arena and Kaiser-Wilhelm-Ring garages were well used, with late-afternoon queues in front of full garages.",
+   "source_title": "Verkehre konnten reibungslos abgewickelt werden",
+   "source_url": "https://www.stadt-koeln.de/politik-und-verwaltung/presseservice/adventsverkehr-konzept-aufgegangen",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-04-17",
+   "text": "Q-Park announced it would take over the Barthonia Forum underground car park in Köln-Ehrenfeld (Vogelsanger Straße 84) from 1 May 2024: 1,043 spaces on two levels, about 569 for long-term parkers, at 2.00 euros an hour and 29.00 euros a day. Licence-plate recognition and public EV charging were planned.",
+   "source_title": "Q-Park Is Expanding Its Portfolio In Cologne",
+   "source_url": "https://www.parking.net/parking-news/q-park/is-expanding-its-portfolio-in-cologne",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-09-27",
+   "text": "The city stated that the annual residents' parking permit fee rose from 30 to 100 euros on 1 October 2024 (transitional rule until 28 February 2025) and, from 1 March 2025, is tiered by vehicle length at 100, 110 and 120 euros; owners of vehicles over 5,600 mm generally no longer have a right to a permit.",
+   "source_title": "Ab 1. Oktober 2024 kostet der Bewohnerparkausweis 100 Euro",
+   "source_url": "https://www.stadt-koeln.de/politik-und-verwaltung/presseservice/bewohnerparken",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-11-22",
+   "text": "The administration proposed (not adopted) a Parkgebührenordnung 2025 keeping the two fee zones: short-term parking from 4 to 5 euros per hour in Innenstadt/Deutz and from 2 to 2.50 euros in the other districts, long-term parking at 30 euros a day, and an end to long-term parking inside the Kölner Ringe. The city described a managed system of about 50,000 spaces and 21.25 million euros of fee income in 2023, with a council decision planned for February 2025.",
+   "source_title": "Neue Parkgebührenordnung geplant",
+   "source_url": "https://www.stadt-koeln.de/politik-und-verwaltung/presse/mitteilungen/27174/index.html",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-05-28",
+   "text": "On 27 May 2025 the council again postponed its decision on the proposed new Parkgebührenordnung (5 euros per hour in the centre instead of 4, 2.50 euros in the other districts instead of 2, 30 euros a day instead of at most 5 on the city's 24-hour car parks) after the CDU group asked for more time to deliberate, as it had at the early-April session. t-online, citing party circles, reported that further delays were not unlikely given the municipal election due in the autumn.",
+   "source_title": "Neue Parkgebühren in Köln: CDU verzögert erneut Entscheidung (t-online Köln)",
+   "source_url": "https://koeln.t-online.de/region/koeln/id_100741890/neue-parkgebuehren-in-koeln-cdu-verzoegert-erneut-entscheidung.html",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-08-11",
+   "text": "The city plans a combined car and bicycle Parkpalette at the Weiden-West P+R, estimated at 21.25 million euros with a city and KVB own share falling from 10.13 to 2.9 million euros through higher grants. 66 planned car spaces would become about 130 bicycle boxes and more than 200 bicycle stands, and the construction contract was awarded on 4 July 2025; the extra bicycle order still needs a council decision.",
+   "source_title": "Pilotprojekt für kombiniertes Parken in Weiden-West",
+   "source_url": "https://www.stadt-koeln.de/politik-und-verwaltung/presse/mitteilungen/27788/index.html",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-09-15",
+   "text": "The Tiefgarage Groß St. Martin (entrance Große Neugasse) was closed to the public with immediate effect on 15 September 2025 for structural investigations, with about 50 concrete columns to be sampled before planned renovation; no reopening date was given. The city named Am Dom, Philharmonie, An Farina, Hauptbahnhof and Heumarkt as alternatives.",
+   "source_title": "Grund sind Untersuchungen an der Konstruktion (Tiefgarage Groß St. Martin)",
+   "source_url": "https://www.stadt-koeln.de/politik-und-verwaltung/presse/mitteilungen/27894/index.html",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-11-14",
+   "text": "For Advent 2025 the city announced that the garages connected to its Parkleitsystem have a capacity of 22,000 spaces and that 27 LED variable-message boards on the main access roads show the occupancy of the parking quarters. On the four Advent Saturdays (29 November, 6, 13 and 20 December 2025) the parking tickets of the Lanxess-Arena garages P1, P2 and P4 and of the Tiefgarage Kaiser-Wilhelm-Ring would serve as group day tickets for up to five people on buses and trains. From 27 November to 23 December 2025, between 10 a.m. and 10 p.m., the approach from the Deutzer Brücke via Markmannsgasse to the Rheinufer and the Parkhaus Heumarkt was to be closed, reserved for emergency vehicles, buses and taxis.",
+   "source_title": "Stadt Köln, Verkehrsunternehmen und Polizei Köln informieren (Adventsverkehr 2025)",
+   "source_url": "https://www.stadt-koeln.de/politik-und-verwaltung/presse/mitteilungen/28044/index.html",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12-17",
+   "text": "On 16 December 2025 the council decided to raise parking fees in the city's garages (Tiefgaragen Am Dom, Breslauer Platz/Hauptbahnhof, Groß St. Martin, Philharmonie, Kaiser-Wilhelm-Ring, Mülheim, Kalk, Neptunplatz and Parkhaus Am Zoo; the city owns all but Groß St. Martin, of which it is part-owner) to an average hourly rate of 2.10 euros, up from 1.44 euros. For example, Breslauer Platz rises from 0.60 to 0.80 euro per started 20 minutes with the daily maximum going from 18 to 24 euros, while Tiefgarage Am Dom stays at 0.80 euro and 24 euros. According to the city's planning at the time, the new rates were expected to start on 1 February 2026; the page does not confirm that they did.",
+   "source_title": "Tarife liegen weiterhin unterhalb des Durchschnitts umliegender Parkquartiere",
+   "source_url": "https://www.stadt-koeln.de/politik-und-verwaltung/presse/mitteilungen/28115/index.html",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-09-09",
+   "text": "t-online Köln reported on 9 September 2026 that there is still no council decision on the proposed Parkgebührenordnung (5 euros per hour in the centre instead of 4, 2.50 euros in the other districts instead of 2, 30 euros a day instead of 5 on 24-hour car parks). A city spokeswoman told the paper that the administration submitted the draft to the mobility committee on 26 November 2024 and that it has been before the council for a decision since 13 February 2025. According to t-online itself, the topic has not been on the council agenda since the municipal election, and short-term street parking stays unchanged for now because the political majority is lacking.",
+   "source_title": "Parken in Köln: Preise könnten um 500 Prozent steigen - Entscheidung offen (t-online Köln)",
+   "source_url": "https://koeln.t-online.de/region/koeln/id_101427750/parken-in-koeln-preise-koennten-um-500-prozent-steigen-entscheidung-offen.html",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "Outcome and status of the Parkgebührenordnung 2025 beyond t-online reporting to 9 September 2026; no council paper (Ratsinformationssystem, vo0050.asp?__kvonr=120836) or official outcome was opened",
+  "Umweltzone: the only page opened on it (https://www.stadt-koeln.de/leben-in-koeln/umwelt-tiere/luft-umweltzone/66584/index.html) covers the undated DUH/NRW/Köln settlement and not current zone rules; no dated current Umweltzone source found",
+  "Masterplan Parken (council resolution of 14 December 2021) itself, the Kölner Verkehrswende and Altstadt/Domumgebung access rules beyond the 2023 Trankgasse measures, and the outcome of the Deutzer Freiheit trial were not found in an opened source",
+  "Mobilstationen and KVB P+R expansion (other than Weiden-West) not covered: search budget ran out; open-data set https://ckan.open.nrw.de/dataset/park-and-ride-anlagen-in-koeln-k was not opened (https://ckan.open.nrw.de/dataset/parkhausbelegung-k could not be fetched, connection refused)",
+  "Contipark: pages https://www.contipark.de/wp-content/uploads/2022/01/220114_PM_CP-Jahresrueckblick-2021.pdf, https://www.contipark.de/wp-content/uploads/2021/08/210810_PM_Wiedereroeffnung-PH-Opern-Passagen-Koeln.pdf, https://www.contipark.de/wp-content/uploads/2022/12/221202_PM_Contipark-Uebernahmen-Dezember-2022.pdf and https://contipark.de/wp-content/uploads/2024/07/240718__Contipark_Koeln___FINAL.pdf returned only a truncated generic Köln page (24 facilities), so the city tender win for nine garages, the Opern Passagen reopening (August 2021) and similar claims are unverified",
+  "APCOA in Köln and the operator of the Parkleitsystem itself: no opened source names either (the city's parking page does not say who operates the system)",
+  "Weihnachtsverkehr 2024 presentation (https://www.stadt-koeln.de/mediaasset/content/pdf13/presse/2024/weihnachtsverkehr_2024_präsentation.pdf) and Parkhaus finden mit System PDF (https://www.stadt-koeln.de/mediaasset/content/pdf66/parken/parkhaus-finden-mit-system-10-2021.pdf) were unreadable",
+  "No Köln-wide parking utilisation statistic, Messe or Dom event occupancy figures, or total current public EV charging point count for Köln found; 2021 council paper figure of 370 public charging points was seen in a 29 June 2021 press release (https://www.stadt-koeln.de/politik-und-verwaltung/presse/mitteilungen/23579/index.html) but not used as an item",
+  "Undated city pages (Parken rund um die Uhr, about 13,300 spaces at 5 euros per 24 hours) were not used as support because they carry no date",
+  "Whether the December 2025 garage tariffs actually took effect on 1 February 2026 was not confirmed"
+ ],
+ "dropped": {
+  "low confidence": 1
+ }
+}

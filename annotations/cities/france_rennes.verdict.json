@@ -1,0 +1,149 @@
+{
+"items": [
+{
+"index": 0,
+"verdict": "supported",
+"note": "Page (published 26 Feb 2025, updated 20 Mar 2026): since January 2025 only vehicles with a Crit'Air sticker may drive inside the ring road, with boulevard des Alliés as eastern limit. Dated bans: unclassified from 1 Jan 2025; Crit'Air 5 (and unclassified) from 1 Jan 2027; Crit'Air 4 from 1 Jan 2029; Crit'Air 3 from 1 Jan 2030. Park-and-ride sites remain reachable. Title matches.",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 1,
+"verdict": "supported",
+"note": "Page (published 26 Feb 2025, updated 27 Oct 2025): ZTL in the historic centre, speed 20 km/h, priority to pedestrians and cyclists, entry for listed users (residents, shopkeepers, deliveries, etc.). 'L'accès aux parkings Hoche, Kléber, Chézy-Dinan, Lices et Vilaine, totalisant 2 200 places, est possible pour tout le monde.' Vilaine is indeed still listed. Title matches.",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 2,
+"verdict": "partly",
+"note": "Press release published 1 July 2026 (updated 2 Sept 2026) is written in the future tense: tariffs 'évolueront à partir du 15 juillet 2026', FPS 'augmentera', green third band 'sera créée', and it calls the changes 'évolutions proposées'. Figures match (about 2%, close to 16% cumulative inflation 2020-2025, FPS 40.60 to 41.60 and 25.40 to 26.20, third green band 2h15-3h at 0.20 euro per 5 min). The release does not say the rise took effect, and says the red-zone hourly rate stays the same (only its first band shortens from 1h25 to 1h20). The city's separate 'Payer son stationnement' page (updated 13 Oct 2026) lists the new rates as 'en vigueur à partir du 15/07/2026', but that is not this item's source. Title OK.",
+"corrected_text": "A city press release of 1 July 2026 announced that on-street parking tariffs would change from 15 July 2026, by about 2%, citing cumulative inflation of nearly 16% between 2020 and 2025. It said the post-parking charge (FPS) would rise from 40.60 to 41.60 euros in the red zone and from 25.40 to 26.20 euros in the green zone. The red-zone hourly rate would stay the same, with its first band shortening from 1h25 to 1h20, and the green zone would get a third band from 2h15 to 3h at 0.20 euros per 5 minutes.",
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 3,
+"verdict": "partly",
+"note": "Page published 29 June 2026, updated 1 Sept 2026 (not 'release updated' only). Extension from 16 Nov 2026 and the street boundaries are right: Thabor/Saint-Hélier/Alphonse-Guérin up to rue de Fougères (north) and boulevard de Metz (east), both excluded; Saint-Martin (part of rue de Saint-Malo and avenue Gros-Malhon to the Cimetière du Nord). 'Saturation importante' is on the page and no space count is given. NOT on the page: any mention of a council agenda of 29 June 2026 or of the extension being a 'proposal' (the page says it 'sera étendu'; only the tariff changes are called 'proposées'). The page's own date 29/06/2026 is not an agenda. Remove that claim.",
+"corrected_text": "The city says paid on-street parking will be extended from 16 November 2026 to part of the Thabor/Saint-Hélier/Alphonse-Guérin district (as far as rue de Fougères to the north and boulevard de Metz to the east, both excluded) and to part of Saint-Martin (parts of rue de Saint-Malo and avenue Gros-Malhon and their surroundings, up to the Cimetière du Nord). The city press release, published 29 June 2026 and updated 1 September 2026, describes parking in these districts as heavily saturated and gives no space count.",
+"corrected_title": null,
+"corrected_date": "2026-06"
+},
+{
+"index": 4,
+"verdict": "partly",
+"note": "Page updated 13 Oct 2026. Correct on the page: FPS 41.60 euros red / 26.20 euros green; maximum stay 4 h red / 8 h green; resident month 49 euros red / 14.70 euros green (table 'Tarifs résidents au 15 juillet 2026'). NOT on this page: the 3.20 euros visitor pass (it appears in the press release and the 'Stationner à Rennes' page, not here). Professional tariff 3.20 euros per day is on this page but is a different product. Remove the visitor-pass sentence.",
+"corrected_text": "As of the page's 13 October 2026 update, the post-parking charge is 41.60 euros in the red zone (4-hour maximum stay) and 26.20 euros in the green zone (8-hour maximum). Resident monthly passes cost 49 euros in the red zone and 14.70 euros in the green zone, in the page's table of resident rates as of 15 July 2026.",
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 5,
+"verdict": "partly",
+"note": "Unidivers article published 1 Dec 2025 (not marked AI-written; no AI label seen). It says 'À partir du 15 décembre 2025, la Ville de Rennes met en place' the Pass visiteur: 3.20 euros per day, 52 uses per year per household, only in the resident's own residential sector, bought in advance online via the e-habitant account. Details are right, but an article written two weeks before the start date cannot confirm it 'started'. (The city's 2026 pages show the pass at the same price, but they are other sources.) Title matches, 'medium' fair.",
+"corrected_text": "A Unidivers article of 1 December 2025 says the city would introduce a Pass visiteur from 15 December 2025. It would let residents of paid-parking sectors buy a day of parking for visitors at 3.20 euros, up to 52 uses per household per year, valid only in the resident's own residential sector and bought in advance online through the e-habitant account.",
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 6,
+"verdict": "partly",
+"note": "Unidivers article published 7 Oct 2025 (no AI label seen). 16 June 2025 wave (Sud-Gare, Saint-Martin sector near the youth hostel, Maurepas-Bellangerais near the Gayeulles) and the 13 Oct 2025 wave (Antrain, Saint-Martin addition, Tanneurs, streets of Thabor-Saint-Hélier-Alphonse-Guérin) are on the page, as is the 16 July 2025 revision raising the green-zone maximum from 6h15 to 8h. But the article is dated 6 days before the 13 October wave, so it cannot confirm that wave happened; it is written in past tense about a future date. Draft also omitted the Saint-Martin addition on 13 Oct. Title matches.",
+"corrected_text": "A Unidivers article published on 7 October 2025 says paid on-street parking was widened in two steps in 2025: from 16 June (Sud-Gare, a Saint-Martin sector and the Maurepas-Bellangerais area near the Gayeulles) and from 13 October, a date after the article's publication (Antrain, Tanneurs, a Saint-Martin addition and streets of Thabor, Saint-Hélier and Alphonse-Guérin). The article says the 16 July 2025 tariff revision raised the green-zone maximum stay from 6h15 to 8h.",
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 7,
+"verdict": "partly",
+"note": "Egis page is undated. It says the new service 'has been in operation since 2 January 2024'; Egis supplies Citédia Métropole with ANPR and PDA equipment (two electric ANPR vehicles, 14 PDAs; a third vehicle in H2 2024); 5-year contract. The page says Egis supplies 'management and use of the data required to set up a Parking Observatory' - it does not say the system 'feeds a parking observatory dataset'. Date 2024-01 reflects the start date, page itself undated.",
+"corrected_text": "Egis says that since 2 January 2024 on-street parking control in Rennes has run on a service it supplies to the public company Citédia Métropole: automatic number-plate reading vehicles (two electric vehicles, a third planned for the second half of 2024) and 14 handheld devices, plus management of the data needed to set up a parking observatory, under a 5-year contract.",
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 8,
+"verdict": "supported",
+"note": "Page (updated 13 Oct 2026): 'Douze parkings publics gérés par Citédia'; eight park-and-ride sites, free with a Star ticket validated in the hour before the vehicle is retrieved; the page names C-Park for the Citédia car parks and gives no capacity for either group. Title matches.",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 9,
+"verdict": "partly",
+"note": "Transbus article (2 Jan 2026): Rennes Métropole 'a réattribué l'exploitation du réseau Star au groupe Keolis pour 7 ans', a new dedicated company Keolis Rennes Métropole was formed; headline says Keolis was 'reconduit' (renewed), i.e. the incumbent. The page does not say the contract 'includes the park-and-ride sites' - the draft's own last sentence concedes this, so the claim must go. '1 January 2026' is the start date of listed contracts generally.",
+"corrected_text": "Transbus reported on 2 January 2026 that Rennes Métropole had re-awarded operation of the Star transit network to Keolis for 7 years from the start of 2026, through a newly formed dedicated company, Keolis Rennes Métropole. The article does not mention park-and-ride sites.",
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 10,
+"verdict": "supported",
+"note": "C-Park notice dated 31 July 2025: Vilaine car park, quai Duguay Trouin, 'fermera définitivement le 1er septembre 2025'; the closure 'marque le début d'un vaste projet' to rediscover the Vilaine; no space count. Draft wording ('would close') is right. Title matches.",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 11,
+"verdict": "supported",
+"note": "Press release (dated 2 Apr 2026, published 9 Apr, updated 1 Sept 2026): started 13 Oct 2025; half of the 270 m of slab removed; heading '6 000 tonnes de béton déconstruits et évacués'; last metres in week of 27 April 2026; end of works end May - early June; no space count and no replacement car park named. Title matches.",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 12,
+"verdict": "partly",
+"note": "Press release published 1 July 2026 (updated 2 Sept 2026) says the next phase 'à partir du 6 juillet' / 'du 6 juillet 2026 au printemps 2027' is strengthening of the République slab; 4 ha and 29 million euros are on the page; 'Automne 2026 à fin 2028' for public-space works is on the page. Because the release predates 6 July, 'moved into its next phase on 6 July' overstates; it was scheduled. Wording corrected.",
+"corrected_text": "A city press release of 1 July 2026 says the next phase of the 29 million euro Vilaine quays and place de la République scheme (4 hectares) was due to start on 6 July 2026, with strengthening of the République slab running to spring 2027. Works to lay out public spaces and build structures on the river are scheduled from autumn 2026 to the end of 2028.",
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 13,
+"verdict": "partly",
+"note": "C-Park notice 29 Oct 2025 is future-tense ('seront installées progressivement à partir de fin octobre 2025, premières mises en service prévues en janvier 2026'; 308 points 'au total'; subscription with an approved operator such as ChargeMap, Ouest Charge; existing chargers temporarily unavailable). 'Installed car park by car park' is not on the page ('progressivement' only) and 'Chargemap' alone omits Ouest Charge. Reworded as a plan.",
+"corrected_text": "On 29 October 2025 C-Park announced that new interoperable charge points (308 in total) would be installed gradually from late October 2025, with the first due in service in January 2026. Users would need a subscription with an approved operator such as ChargeMap or Ouest Charge, and the existing chargers would be temporarily unavailable during the deployment.",
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 14,
+"verdict": "supported",
+"note": "Page (updated 13 Oct 2026): '308 bornes de charge rapide ... seront accessibles à l'été 2026' in nine car parks (Arsenal, De Gaulle-Gare, Chézy-Dinan, Gare Sud, Hoche, Kléber, Lices, Hôtel-Dieu, Colombier); 7 to 22 kW; 1 euro connection + 0.40 euro/kWh + parking cost; eight park-and-ride sites with free slow charging, about 200 spaces. Page does not say the rollout is finished. Title matches (same page as item 8).",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 15,
+"verdict": "partly",
+"note": "C-Park notice 4 Mar 2025: 64 rue de Saint-Malo, 305 spaces on three levels, 20 EV-equipped spaces, resident subscription 'à partir de 183 euros TTC'. NOT on the page: 'The car park opened on 24 January 2023 after nearly four years of work' - remove.",
+"corrected_text": "On 4 March 2025 C-Park announced that resident subscriptions had become available at its Hôtel Dieu car park (64 rue de Saint-Malo; 305 spaces on three levels, 20 equipped with EV charging), from 183 euros including VAT.",
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 16,
+"verdict": "partly",
+"note": "data.gouv.fr page: last update 7 Sept 2016; ODbL; Citédia listed as creator and publisher (distributor: Rennes Métropole); API covers 'les 10 parkings en ouvrage' (structured/multi-storey car parks) - the page does not say 'underground'. Hours, rates, location, status, maximum places and real-time free places are on the page. Update frequency not given. Wording corrected.",
+"corrected_text": "A data.gouv.fr dataset, with Citédia as creator and publisher (distributed by Rennes Métropole) and last updated on 7 September 2016, describes an open API (ODbL licence) covering the 10 structured (multi-storey) car parks of Rennes. It lists opening hours, rates, location, status, maximum number of spaces and real-time free spaces; whether the endpoint still works was not checked.",
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 17,
+"verdict": "supported",
+"note": "Unidivers article of 25 March 2025 (no AI label seen): PDU 2020-2030 dashboard run by Audiar; car modal share 2023 47.2% for the metropolis and 31% for Rennes inside the ring road; Star +17% 2019-2023; car distance driven in Rennes down 23%. Draft correctly attributes to the magazine and says the dashboard was not seen. Title matches.",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+}
+],
+"corrected_summary": "Rennes's twelve public car parks are run by Citédia, a publicly owned local company, which the city's pages list under the C-Park brand, and Citédia Métropole also handles on-street paid-parking enforcement, with Egis supplying the equipment under a 5-year contract. Eight park-and-ride sites are free with a validated Star ticket. A low-emission zone inside the ring road has applied since January 2025, with Crit'Air 5 and unclassified vehicles banned from 1 January 2027 and tighter steps in 2029 and 2030. The city announced in a June/July 2026 press release a tariff change of about 2% from 15 July 2026 and an extension of paid on-street parking to parts of the Thabor and Saint-Martin districts from 16 November 2026; a local magazine reported earlier extensions in June and October 2025. The Vilaine car park closed permanently on 1 September 2025, its slab was demolished from October 2025 to make way for a 29 million euro quays scheme running to the end of 2028. C-Park announced a replacement of its charge points (308 in total), which the city's page says will be available in summer 2026, and a local magazine citing the transport dashboard puts the car's share of trips at 47.2% in the metropolis in 2023, with Star ridership up 17% on 2019."
+}

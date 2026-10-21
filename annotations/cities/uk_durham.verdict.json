@@ -1,0 +1,185 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Opened Palatinate page in the browser pane (17 January 2025, Finn Watton and Thomas Tomlinson; title matches). Page says the council 'has suggested' raising the entry fee from £2 to £5 a day, applying it on Sundays and bank holidays (excluding Christmas Day, Boxing Day and New Year's Day), and extending the fining period from 10am-4pm to 10am-2am; plans under review by the City of Durham Parish Council; up to 30,000 vehicles a month; stated aim to curb disruptive parking, safety issues and air pollution. Worded as a proposal, which is correct. Student newspaper, not AI-labelled.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Opened durham.gov.uk/ruc in the browser pane. Page carries no date (so date 2026-10 and 'read on 21 October 2026' wording are right). Text: daily charge of £5 for using the zone between 10.00am and 2.00am, Monday to Sunday (excluding Christmas Day, Boxing Day and New Year's Day); ANPR system at the junction of Silver Street and Claypath; pay up to 2 weeks before or within 24 hours; £50 Penalty Charge Notice if unpaid. All claims match. Note this page does not say when the charge rose to £5.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Downloaded REG 2408 - Part A.pdf (16 pages) to a fresh temp dir and extracted text with pypdf (python3 -I). Report is headed 'Delegated Decision November 2023, Durham City (North East) Parking & Waiting Restrictions TRO 2024'. Para 2: revised parking strategy; availability of spaces together with the price point is the major determinant of modal shift. Para 3: Sunday tariff points on all on-street pay and display bays, est. additional £119,890 income per annum. Para 5/8: pay and display currently Monday-Saturday 8am-6pm; proposed 8am-6pm all days. Para 6: on-street charges first introduced 5 May 2003; days/hours unchanged. Recommendation is only to approve consultation, so 'proposed' wording is right. Pages 5-16 are map extracts.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Opened the committee minutes page (Highways Committee, Tuesday 20 February 2024, item 5) and extracted the linked officers' presentation PDF with pypdf. Minutes: presentation said income from extending charging to Sundays and an increase of charges by 20p/hour would allow a Sunday Park and Ride service; resolution (i)-(v) 'endorsed the proposal, in principle' with the final decision for the Corporate Director under delegated powers. Presentation: Sunday operation 8am-6pm, free Sunday bays occupied by long-stay parkers, 'queuing observed at city centre private car parks', objection chart categories include Cost of Living, Negatively Effects Businesses, Visitors Will Decline. Wording is correctly 'endorsed in principle' (not a final decision). The final delegated decision and any in-force date were not on the page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "Opened the AOL page in the browser pane: 'County-wide parking charge increase from April', by Bill Edgar, Local Democracy Reporting Service, 23 Mar 2026; not AI-labelled; it is a syndicated LDRS story with a 'Follow BBC North East' line, but no BBC byline, so 'BBC Local Democracy Reporting Service' is the drafter's attribution. Page: council leaders approved 'the increase in Durham' by 30p/hour off-street and 15p/hour on-street 'in council-run car parks'; 10p/hour in Barnard Castle, Bishop Auckland, Chester-le-Street and Seaham; permits +4p per permit per day, which Cllr McGuinness 'previously' called a modest increase and the first permit rise since 2015; permit rise estimated to generate an extra £400,000 'according to the Local Democracy Reporting Service'; council said city centre charges competitive with private operators. Issues: (1) page says 'in Durham', not 'Durham City'; (2) 'from April 2026' is inferred from 'next month' in a 23 March 2026 article, the page names no April date; (3) 'first increase since 2015' is a quoted councillor remark. The page gives no effective date or order reference and is a news report, not the council decision.",
+   "corrected_text": "On 23 March 2026 the Local Democracy Reporting Service (carried on AOL) reported that Durham County Council leaders had approved parking increases 'next month' (April 2026): 30p an hour for off-street and 15p an hour for on-street parking in council-run car parks in Durham, and 10p an hour in all on- and off-street council car parks in Barnard Castle, Bishop Auckland, Chester-le-Street and Seaham. Permit prices were to rise by 4p per permit per day, which a councillor had described as the first increase in permit charges since 2015, and the permit rise was estimated to bring in an additional £400,000. The council said its city centre parking charges were competitive compared with private sector operators in Durham and elsewhere in the North East.",
+   "corrected_title": "County-wide parking charge increase from April (Local Democracy Reporting Service, via AOL)",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Opened the notice in the browser pane: 'NOTICE OF VARIATION OF PARKING CHARGES, Durham City (Off-Street Parking Places) Order 2008 (Variation No 1) 2026', published 14/05/26, dated 14/5/2026, variations 'will come into force on 4th Day of June 2026'. Sidegate: 0-2 hours £1.80 then 80p/hour changes to £2.10 then £1.10/hour, 8am-10pm; Providence Row 40p to 55p per half hour, 8am-6pm; The Sands MSCP £1.80/80p to £2.10/£1.10, 8am-10pm. The last sentence (council car parks page lists the same tariffs) is confirmed on durham.gov.uk/DurhamCityCarParks (The Sands and Sidegate up to 2 hours £2.10, £1.10 each hour after; Providence Row 55p each half hour). Notice shows status 'Expired' on the portal, meaning the notice period, not the tariff.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Opened the notice in the browser pane: 'Wharton Park, Durham - Variation of Off-Street Parking Charges', Order 2015 (Variation No 1) 2026, in force 4th June 2026, charging hours 8am-6pm, all days, 70p to 80p per half hour, maximum stay 3 hours (also for disabled badge bays). Portal publication date 14/05/26 (the notice itself is dated 15/5/2026), so date 2026-05-14 is the portal publication date. Council car parks page (durham.gov.uk/DurhamCityCarParks) lists Wharton Park as 25 vehicles including 2 EV charging points, 'cash and PayByPhone payments only'. Note the council page shows opening hours 9.00am to 5.00pm for Wharton Park versus 8am-6pm charging in the notice; the draft text does not state opening hours, so no error.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Opened durham.gov.uk/DurhamCityCarParks in the browser pane (page undated). The Sands multi-storey: 277 vehicles including 10 disabled bays and 14 EV 7kW points; Sidegate 107 vehicles including 2 disabled and 2 EV 22kW points; Providence Row 19 vehicles; Wharton Park 25 vehicles. 'Car parks operated by third parties': Prince Bishops (multi-storey), The Riverwalk (multi-storey), Walkergate (multi-storey), LNER Durham Railway Station, listed with links only and no spaces or charges. All claims match.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Opened the council news page: 'Expansion of Sniperley Park and Ride complete', published 19 November 2024. Page: £2 million expansion scheme; extra 261 bays, total 587, including 28 disabled bays, 14 EV bays, two accessible EV bays and three motorhome bays; open from Tuesday 19 November; follows a successful Transforming Cities Fund application. Same page also quotes Cllr Scott that the service is 'now also operating on Sundays... seven days a week' and says Sniperley and Belmont services run 7am-7pm seven days a week, Howlands Farm Monday to Saturday. SUNDAY P&R CONFLICT: the Durham Cathedral 'Getting to Durham Cathedral' page (opened) says Belmont, Sniperley and Howlands are open 7am-7pm Monday to Saturday and that the Cathedral Bus 'will be operating on Sundays until 1 November'; this contradicts the council, which is the operator, and the Cathedral page is a third-party page (likely stale or loosely worded). The council's own dated news (Nov 2024) and its Belmont page support seven-day Belmont/Sniperley; recommend stating this as 'the council says' and not as independently confirmed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Opened the Belmont Park and Ride (PR1) page in the browser pane (undated). Confirmed: 533 spaces including 12 disabled bays; 2 x 7.4kW, 4 x 22kW, 2 x 50kW EV points; buses every 15 minutes; adult day pass £2.20; Pop PAYG day pass £2. ERRORS/OVERSTATEMENTS: (1) 'open every day' - page says 7.00am to 7.00pm, Monday to Sunday, including bank holidays EXCEPT Christmas Day, Boxing Day and New Year's Day; (2) the £1.10 student fare reads 'with a valid Durham University student ID. Boarding at Howlands Park and Ride site only', so it is not a Belmont fare as the draft implies; (3) motorhome parking is £5 per night for a maximum of two consecutive nights (no return within three days), 7pm-7am, plus a 15p service charge, which the draft omits. Sites close at 7pm and cars cannot be left overnight (other than the motorhome scheme).",
+   "corrected_text": "The council's Belmont Park and Ride page (undated, read 21 October 2026) lists 533 spaces including 12 disabled bays, and 8 EV points (2 x 7.4kW, 4 x 22kW, 2 x 50kW). The car park is open 7am to 7pm, Monday to Sunday including bank holidays (except Christmas Day, Boxing Day and New Year's Day), with buses every 15 minutes. The adult day pass is £2.20 and the Pop pay-as-you-go day pass is £2. The £1.10 Durham University student fare applies only when boarding at Howlands. Overnight motorhome parking is £5 a night for a maximum of two consecutive nights, 7pm to 7am.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Opened the Howlands Farm Park and Ride (PR2) page in the browser pane (undated). Confirmed: 361 spaces including 12 disabled bays; 4 x 7.4kW EV points; open 7.00am to 7.00pm Monday to Saturday; buses every 15 minutes, Monday to Saturday; closed on bank holidays; adult day pass £2.20. NOT ON THIS PAGE: 'Belmont and Sniperley are listed as open every day' - the Howlands page says nothing about the other two sites. (Belmont's own page and the Nov 2024 Sniperley news do say seven days, but that is a different source; see notes on items 8 and 9 on the Cathedral-page conflict.)",
+   "corrected_text": "The council's Howlands Farm Park and Ride page (undated, read 21 October 2026) lists 361 spaces including 12 disabled bays and 4 x 7.4kW EV points. It is open 7am to 7pm Monday to Saturday only and is closed on bank holidays, with buses every 15 minutes, Monday to Saturday. The adult day pass is £2.20.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Opened the notice in the browser pane: 'Durham - Off-Street Parking Places Order at The Light', DH1 5TU, published 13/08/26. Text: 'On 7/8/2026 the Council made an Order... comes into operation on 4/7/2024'; brings into force off-street parking at The Light for motor cars, motorcycles, EV charging bays, disabled badge holders only, staff and visitor permit parking; cashless parking service; charges during 8am-8pm all days being £1 per hour; dated 13/8/2026. The draft's wording ('reported', start date unclear because of the 4/7/2024 inconsistency) is accurate and cautious. The notice does not say the car park is 'new'; do not use 'new' in the summary.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Opened the Place North East article dated 8 July 2024 (Neil Tague). It says 'Durham County Council has now approved the city centre project' (planning committee support quoted by Citrus), submitted in March 2024; scheme includes shops and leisure uses, public space, hotel and PBSA (student living); Citrus Group in joint venture with Galliard Homes; 'The well-used multi-storey car park will be retained'; work expected to start mid-2025, student housing opening autumn 2028. ERROR: the page does not state that the committee approved it 'on 8 July 2024' - that is the article date, so the approval date is not confirmed. The mid-2025 start and 2028 opening are expectations from 2024 (superseded by the Feb 2026 revision in item 13, which says a new application is needed).",
+   "corrected_text": "On 8 July 2024 Place North East reported that Durham County Council had approved the Prince Bishops Place redevelopment by Citrus Group in joint venture with Galliard Homes, a scheme of shops and leisure uses, public space, a hotel and student accommodation, with the well-used multi-storey car park to be retained. At that date work was expected to start on site in mid-2025, with the student housing opening in autumn 2028.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Opened the Place North East article dated 2 February 2026 (Sally Gibson). Page: green light in July 2024 but changes including removal of the hotel mean a new application must be submitted, expected 'by the end of the month' (February); hotel replaced by additional student accommodation taking total to around 500 rooms; around 32 commercial units; 'student accommodation above retail units and the multi-storey car park'; 'The existing multi-storey car park will remain'; no space numbers given. All claims match. Worded as a plan, which is correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Opened the CDDFT news page (published 23 April 2025). 'What's changing from 1 May 2025': ANPR cameras installed, no ticket on entry; 20 minutes to find a space before paying starts; payment before leaving by entering registration at the machine; 20 minutes to exit after payment; 11 EV charging points within the patient section. Blue Badge: free parking in designated bays, but the page adds conditions (badge displayed and scanned at the payment machine) that the draft omits; this is a minor omission, not an error. Note the page is a pre-change announcement ('will soon go paperless'), so the summary should say the change was announced to take effect from 1 May 2025, not that the hospital 'moved' in May 2025; the page does not call it the 'main hospital'.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Opened the CPZ page in the browser pane (undated). Page text: permit needed 8.00am to 6.00pm, Monday to Sunday including bank holidays (except Christmas Day, Boxing Day and New Year's Day); outside these times parking is free. Resident permits £56 per year first, £84 second; business permits £500 per year, limited to 1 per business address. The collapsed accordions (read through the page DOM) also confirm 'Households can have a maximum of 2 permits' and visitor vouchers 'at a cost of £12 per block... 1 block contains 36 vouchers, each lasting 3 hours'. All claims match. The visible text omits the visitor price and the 2-permit cap because they are in collapsed sections.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Opened the notice in the browser pane: 'Durham - Amendments to Parking & Waiting Restrictions & Parking Charge Exemptions', published 11/06/26, dated 11/6/2026. The Council 'proposes to make' four amendment orders (Durham City South East, North West, South West, North East); each amends the 'Initial Charge' article to remove reference to Good Friday and Bank Holidays and insert Boxing Day (26th), leaving Christmas Day, Boxing Day and New Year's Day as the listed days. Objections by no later than 2/7/2026 (portal feedback window 11 June to 2 July 2026). No charge amounts or in-force date given. Worded as a proposal, which is correct. Note: practical effect is that charges would apply on Good Friday and bank holidays; the notice does not spell that out, so the draft's wording sticks to what it says.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "Opened the ElectricDrives article (21 July 2024, John Hills). Page: Durham County Council has teamed up with Zest to install 250 new charging locations across the county ('250 EV charging points' in the standfirst); over £11 million combined funding; LEVI backing with £4 million and Zest contributing £7 million to provide and operate the points; targets the 40% of residents without driveways; installation begins in September. It does not mention Durham city. Issues: the word 'public' is not on the page (it is the drafter's), and the page gives it as a planned installation, not completed. Third-party trade site, not the council.",
+   "corrected_text": "On 21 July 2024 ElectricDrives reported that Durham County Council and charge-point operator Zest would install 250 new charging locations across County Durham, with over £11 million of combined funding (£4 million from the government's LEVI scheme and £7 million from Zest), aimed at the 40% of residents without driveways, with installation due to begin in September 2024. The article does not mention Durham city specifically.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Durham County Council manages demand in the historic city mainly through price and access rules. The Road User Charge zone on the peninsula is shown on the council's undated page (read 21 October 2026) as £5 a day between 10am and 2am, Monday to Sunday, with an ANPR camera at Silver Street and Claypath; a January 2025 student-newspaper report described the rise from £2, Sunday charging and longer hours as a council proposal. A 2023 delegated-decision report and a February 2024 Highways Committee meeting dealt with extending on-street pay and display charging to Sundays (8am to 6pm) with a 20p an hour rise, the income to fund a Sunday Park and Ride service; the committee endorsed this in principle, and no source opened confirms the final decision or the in-force date. The Controlled Parking Zone needs a permit from 8am to 6pm every day including most bank holidays, with resident permits at £56 and £84 a year. A March 2026 Local Democracy Reporting Service story (carried on AOL) said council leaders had approved rises from the following month of 30p an hour off-street and 15p an hour on-street in Durham's council car parks and 4p per permit per day; a notice dated 14 May 2026 varied the Sands and Sidegate tariffs to £2.10 for up to two hours then £1.10 an hour from 4 June 2026, Providence Row to 55p per half hour and Wharton Park to 80p per half hour, and a June 2026 notice proposed amending the on-street orders so that Good Friday and bank holidays would no longer be excluded. Park and Ride is the main alternative: Sniperley was expanded by 261 bays to 587 in November 2024, Belmont has 533 spaces and Howlands Farm 361, with an adult day pass of £2.20; the council says Belmont and Sniperley run seven days and Howlands Monday to Saturday, although the Cathedral's own page says all three run Monday to Saturday. The council lists Prince Bishops, The Riverwalk, Walkergate and the LNER station as third-party car parks with no spaces or charges given. Developer plans reported in February 2026 would keep the Prince Bishops Place multi-storey car park under around 500 student rooms, subject to a new planning application. An August 2026 order set a £1 an hour charge from 8am to 8pm for off-street parking at The Light, although its notice gives an inconsistent start date. A July 2024 report said the council and Zest would install 250 charging locations across the county, and the hospital trust announced number-plate recognition at University Hospital North Durham from 1 May 2025."
+}

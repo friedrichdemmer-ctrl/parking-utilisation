@@ -1,0 +1,163 @@
+{
+ "country": "Italy",
+ "city": "Val Gardena",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Parking policy in Val Gardena in 2026 centres on managing access to passes and lifts rather than on new car parks. A trial traffic limit on the Passo Gardena (Grödner Joch) planned for 1 September 2026 was cancelled in August and replaced by a voluntary digital test from 22 September to 5 October 2026, which has ended and introduced no permanent rule. In March 2026 il Dolomiti reported a municipal proposal for a limited-traffic zone from May to October starting in summer 2027, with 150 paid parking spaces bookable online, subject to approval by the provincial government; no approval was found. The Seceda cable car above Ortisei introduced time-slot booking from the 2026 season, and in October 2025 a plan including a 500-space car park about 1 km from its valley station was reported, with the Province still to approve the lift capacity expansion; the Seiser Alm has required a parking booking since 29 June 2026 (P1 at EUR 15 and P2 at EUR 30 a day). Posted tariffs on the tourism portal range from EUR 2.00 per hour (Setil, Monte Pana P1) and EUR 2.50 per hour (Garage Central) to EUR 2.50 per 30 minutes at the Seceda car park, with daily figures of EUR 10 at Monte Pana P1, EUR 20 at Garage Central and a EUR 30 maximum at Seceda. The three municipalities announced in July 2026 a Club Card rate of EUR 0.50 per hour for the first five hours at named public car parks, and the portal shows available-space counters with last-update times for ten listed car parks. No dated source was found on new garages in Ortisei, Santa Cristina or Selva, on EV charging inside car parks (only one Pana listing without operator details), or on valley-wide occupancy statistics.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2026-03-24",
+   "text": "Il Dolomiti reported a proposal by the Val Gardena and Val Badia municipalities for a limited-traffic zone on the Passo Gardena from May to October, starting in summer 2027, with 150 online-only, paid parking spaces for day visitors; it needs final approval from the provincial government. The article cites up to 11,000 passages a day in peak season (publication day is 24 March, the year is taken from the URL).",
+   "source_title": "Passo Gardena a traffico limitato per frenare l'assalto dei turisti: strade chiuse ai non residenti - il Dolomiti",
+   "source_url": "https://www.ildolomiti.it/cronaca/2026/passo-gardena-a-traffico-limitato-per-frenare-lassalto-dei-turisti-strade-chiuse-ai-non-residenti",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-08-12",
+   "text": "Suedtirol News reported that the Province's mobility department and the working group would run a digital test phase for a traffic-calmed zone at the Grödner Joch from September 2026, simulating access permits and limits. The test also checks whether roundabouts, checkpoints, a third priority lane and info points in Gröden and Gadertal would be needed.",
+   "source_title": "Verkehrsberuhigung am Grödner Joch: Ab September digitale Testphase",
+   "source_url": "https://www.suedtirolnews.it/politik/verkehrsberuhigung-am-groedner-joch-ab-september-digitale-testphase",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-09-22",
+   "text": "The municipality of Wolkenstein announced a digital test phase at the Grödner Joch from 22 September to 5 October 2026. Drivers could register their crossing voluntarily and answer a questionnaire, and lodging and restaurant businesses tested digital interfaces.",
+   "source_title": "Gemeinde Wolkenstein in Gröden - News (digitale Testphase am Grödner Joch)",
+   "source_url": "https://www.selva.eu/system/web/news.aspx?menuonr=219901551&detailonr=225825587-921",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10-21",
+   "text": "The project website (read on 21 Oct 2026) says the digital test phase has ended and registration is closed, and that it did not introduce a permanent traffic rule. The planned zone covers SS 243 from km 0.00 (Miramonti junction) to km 11.600 (Restaurant Mesoles); the page does not mention parking.",
+   "source_title": "Dolomites Low Emission - Grödner Joch pilot project",
+   "source_url": "https://www.dolomites-lowemission.com",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-09-22",
+   "text": "South Tyrol's ORF reported about 6,000 cars crossing the Grödner Joch on heavily used days (other 2026 reports quote up to 11,000 vehicles a day). It also said the restriction planned for 1 September 2026 was cancelled in August and the pass stays open without registration, and that the Sellajoch tested timed driving bans in 2017 and a registration model in 2018.",
+   "source_title": "Digitale Testphase statt echter Beschränkung - südtirol.ORF.at",
+   "source_url": "https://suedtirol.orf.at/stories/3372185",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-29",
+   "text": "For summer 2026 the Seiser Alm road is closed to private uphill traffic from 09:00 to 17:00 while the cable car runs, and from 29 June 2026 a parking booking (up to six days ahead) is required for the lots P1 Spitzbühl (EUR 15 a day for cars) and P2 Compatsch (EUR 30 a day for cars). Parking on the Seiser Alm is banned from 23:00 to 05:00 (page read 21 Oct 2026).",
+   "source_title": "Zufahrt Seiser Alm - Seiser Alm Marketing",
+   "source_url": "https://www.seiseralm.it/de/info-service/mobilitaet/zufahrt-seiser-alm.html",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-05-06",
+   "text": "ORF reported that the Seceda cable car above St. Ulrich requires advance online booking of time slots from summer 2026, and that a return ticket costs 70 euro this year. South Tyrol residents are exempt, and the report says the change follows the crowding and queues of summer 2025.",
+   "source_title": "Seceda: Reservieren für den Almbesuch - südtirol.ORF.at",
+   "source_url": "https://suedtirol.orf.at/stories/3352781/",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-10-09",
+   "text": "Südtirol News reported in October 2025 that plans for the Seceda cable car include a car park with 500 car and 25 bus spaces about 1 km from the valley station, on land owned by the Seceda company, with electric buses taking day visitors to the lift. A working group of the cable car company, the Province, the municipality, IDM and the tourism association works on the project. The same article says the Province still had to approve the planned doubling of lift capacity (1,200 to 2,400 people per hour on the lower section); it does not say whether the car park itself needed approval, and no later confirmation of approval or construction was found.",
+   "source_title": "Seceda führt Online-Ticketing ein",
+   "source_url": "https://www.suedtirolnews.it/wirtschaft/seceda-fuehrt-online-ticketing-ein",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10-21",
+   "text": "The tourism portal lists the paid Seceda car park and garage at the valley station at EUR 2.50 per 30 minutes from 05:00 to 19:00 and EUR 0.80 per hour from 19:00 to 05:00, with a daily maximum of EUR 30. The page says prices can vary by season and shows no update date for the tariff (page read 21 Oct 2026).",
+   "source_title": "Parkplatz + Garage Seceda - DOLOMITES Val Gardena",
+   "source_url": "https://www.valgardena.it/de/adressen-groeden/detail/base/poi/ortisei-val-gardena/parking-garage-seceda/4E61AB3556B44454B83666FCD7C00D22/",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10-21",
+   "text": "The website of Park Urtijëi Srl says the Garage Central at Via Stazione 1 in Ortisei was built by the municipality of Ortisei in 2000 and has about 222 covered parking spaces. Listed prices are EUR 2.50 for up to one hour, EUR 2.50 for each additional hour and EUR 20 for one day. A rechargeable Happy Hour Card (EUR 10 deposit) allows free parking for up to 90 minutes, and vehicle entry and exit are open 24 hours. The page does not state who operates the garage (page read 21 Oct 2026).",
+   "source_title": "Parcheggio Ortisei Garage Central - Park Urtijëi",
+   "source_url": "https://www.parkurtijei.it/en/garage-central",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10-21",
+   "text": "The tourism portal lists the Setil car park next to the valley station of the Seiser Alm cable car in St. Ulrich at EUR 2.00 per hour for cars, EUR 3.00 per hour for campers and EUR 45 per day for buses, open 24 hours all year with no multi-day or weekly rates (page read 21 Oct 2026).",
+   "source_title": "Parkplatz Setil / Parkplatz Plan de Gralba - DOLOMITES Val Gardena",
+   "source_url": "https://www.valgardena.it/de/adressen-groeden/detail/base/poi/ortisei-val-gardena/parking-setil/86A378B5EE944362B156724D663E9113/",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10-21",
+   "text": "The portal lists the Monte Pana P1 car park in Santa Cristina at EUR 2.00 per hour and EUR 10 per day, with paid parking from 07:00 to 14:00 and free from 14:00. Paid periods are given as 1 Dec-31 Mar and 1 Jun-15 Oct (year not stated), and parking is banned from 22:00 to 06:00 (page read 21 Oct 2026).",
+   "source_title": "Parcheggio P1 - Monte Pana - DOLOMITES Val Gardena",
+   "source_url": "https://www.valgardena.it/it/indirizzi/dettaglio/base/poi/st-christina-groeden/parkplatz-p1-monte-pana/E1362E88CFED4D62BC8EE200D9549E7F/",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-07-28",
+   "text": "The three Val Gardena municipalities announced reduced parking for Club Card holders (residents): EUR 0.50 per hour for the first five hours, regular tariff from the sixth hour. It applies at named public car parks including Setil, the Pana and Central garages in St. Ulrich, Monte Pana P1 and P2 in Santa Cristina, and Plan de Gralba and the Nives and Chemun garages in Selva.",
+   "source_title": "Vergünstigtes Parken mit der Val Gardena Club Card - Gemeinde St. Ulrich",
+   "source_url": "https://www.gemeinde.stulrich.bz.it/system/web/news.aspx?menuonr=219370885&detailonr=225815246-557",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10-21",
+   "text": "The tourism portal's public parking list shows an available-spaces figure for each of the ten car parks on its first page (for example Plan de Gralba, Setil, Monte Pana P1, the Central garage and the Dantercëpies garage), each with a 'last update' tooltip stamped between 08:45 and 08:59 on 21 Oct 2026; the Seceda car park's own page showed 48 spaces, last updated 09:00 on 21 Oct 2026. The list says it gives real-time availability for many car parks but does not say which sensors or system feed the figures (page read 21 Oct 2026).",
+   "source_title": "Public parking places - DOLOMITES Val Gardena",
+   "source_url": "https://www.valgardena.it/en/public-parking-places/",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "No source found or opened on new or planned garages (Tiefgaragen) at Ortisei, Santa Cristina or Selva, including Piz Seteur, Dantercepies, Col Raiser and Ciampinoi; Col Raiser's page (https://www.val-gardena.com/de/col-raiser/) only says there is a large car park, with no fees or capacity.",
+  "stol.it articles on the Grödner Joch closure (https://www.stol.it/artikel/chronik/verkehrssperre-am-groedner-joch-der-teufel-liegt-im-detail and https://www.stol.it/artikel/chronik/verkehrssperre-was-ist-wann-geplant-am-groedner-joch) returned only titles; planmountain.com on the Seceda parking project (https://www.planetmountain.com/it/notizie/ambiente/accesso-seceda-val-gardena-prenotazione-online.html) returned 403.",
+  "Mayoral order no. 15 of 2 May 2025 on use of the Pana garage (page https://www.comune.ortisei.bz.it/de/Verwaltung/Dokumente/Anordnung_des_Buergermeisters_Nr_15_vom_02_05_2025): only the page was read, not the PDF, so reserved resident spaces, paid hours and tariffs there are unconfirmed. The Ortisei council basic decision on pass traffic calming of 4 May 2026 was not readable (only a title page).",
+  "Operator or ownership of the Pana, Nives, Chemun and Seceda garages, and the role of Park Urtijëi Srl, could not be confirmed from a page that states it; tariffs for the Nives and Chemun garages, Ruacia and Col Raiser were not found on an official page.",
+  "Whether the 500-space Seceda car park was approved, built or dropped after October 2025 could not be confirmed; it is a plan only in the sources read.",
+  "Whether the 2027 limited-traffic zone (including the 150 bookable spaces) or a Sellajoch measure has been approved by the Province could not be confirmed; no provincial press release was found.",
+  "EV charging: only one listing without operator or power data was found; no information on charging points inside the main car parks or on Alperia/Neogy in Gröden.",
+  "No Val Gardena municipality-level tourism statistics (arrivals, overnight stays) or valley-wide parking utilisation data were found; Passo Gardena traffic counts differ between sources (about 6,000 and up to 11,000 per day).",
+  "Many tariff pages on valgardena.it carry no publication date, so tariffs are dated as read on 21 Oct 2026."
+ ],
+ "dropped": {
+  "low confidence": 1
+ }
+}
