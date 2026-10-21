@@ -1,0 +1,162 @@
+{
+ "country": "Netherlands",
+ "city": "Apeldoorn",
+ "researched": "2026-10-21",
+ "summary": "Apeldoorn runs a differentiated paid-parking system under its Verordening parkeerbelastingen 2026, adopted by the council on 18 December 2025 and levied from 1 January 2026: street parking costs EUR 3.73 per hour (two-hour maximum) in the high inner-city zone, EUR 3.21 in the middle zone and EUR 0.53 in the neighbourhoods, and the municipality itself owns and operates five garages (Marktplein, Haven Centrum, Brinklaan/Brinkpark, Orpheus, Anklaar). Q-Park runs the other central garages (Beekstraat 105 spaces, Museum Centrum 636, Oranjerie 519) and the 188-space P+R at Laan van de Mensenrechten by the station. Policy aims at a car-light inner city, Spoorzone and Kanaalzone: the Beleidsregels Parkeren 2024 make developers solve their own parking demand (with a EUR 12,000 per space buy-out into municipal facilities in the inner city), the 2021 mobility vision for the inner city wants surface parking fields moved into garages, and the 2026-2029 budget document lists real-time parking data, digital enforcement with a scan car and a study into moving street parking into garages. The main new supply is a municipal 584-space garage at the Vlijtseweg in the Kanaalzone, specified in February 2026 for opening alongside the new swimming pool (target 1 September 2027 in an earlier announcement), plus a planned garage in the Spoorzone; the Oranjerie shopping-centre redevelopment (zoning plan adopted July 2024) relies on the existing Q-Park garage under it. The 2026-2029 budget document proposes raising on-street parking charges from 1 January 2027 through tariff differentiation, and EV charging is rolled out through a regional concession with 2026 traffic decisions reserving spaces. The municipal website was offline when read, so permit pages, the zone map and current garage information from the city could not be checked.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2025-12-18",
+   "text": "The council adopted the 2026 parking tax ordinance on 18 December 2025, levying from 1 January 2026. Its tariff table sets street parking at EUR 3.73 per hour (two-hour maximum) in the high inner-city zone, EUR 3.21 in the middle inner-city zone and EUR 0.53 in the neighbourhood zones, with disabled-badge holders exempt.",
+   "source_title": "Verordening op de heffing en de invordering van parkeerbelastingen 2026",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR754173",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12-18",
+   "text": "The same table sets lot tariffs of EUR 3.21 per hour at Rosariumstraat (EUR 17.91 daily maximum) and EUR 2.67 per hour at Sprengenweg and P.W.A.-Laan (EUR 16.99 maximum), free parking for two hours at Leonorestraat, and EUR 11.11 per 24 hours for campers.",
+   "source_title": "Verordening op de heffing en de invordering van parkeerbelastingen 2026",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR754173",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12-18",
+   "text": "Municipal garage rates in the 2026 table: P1 Marktplein EUR 2.77 per hour by day (08-18h, EUR 13.85 day maximum) and EUR 1.03 per hour at night; P2 Haven Centrum and P3 Brinklaan EUR 1.13 per hour (EUR 8.82 per 24 hours); P4 Orpheus EUR 2.77 per hour (EUR 11.08 per 24 hours); P5 Anklaar free for 120 minutes, then EUR 1.64 per hour. Garage rates include 21 percent VAT.",
+   "source_title": "Verordening op de heffing en de invordering van parkeerbelastingen 2026",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR754173",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12-18",
+   "text": "Permits in the 2026 table: inner-city street resident permit EUR 12.84 per month, EUR 0.00 listed for neighbourhood resident permits, garage resident permits EUR 25.67 per month at Marktplein, Haven Centrum and Brinklaan, public garage subscriptions EUR 97.04 (Mon-Fri 07-19h) or EUR 154.15 (24/7). Resident visitor parking costs EUR 1.88 per hour in the inner city and EUR 0.28 in the neighbourhoods; the enforcement charge is EUR 82.00.",
+   "source_title": "Verordening op de heffing en de invordering van parkeerbelastingen 2026",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR754173",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2021-01",
+   "text": "Since 1 January 2021 the five municipal garages (Anklaar, Brinklaan, Haven Centrum, Marktplein, Orpheus) are designated areas where permit holders may park, because there are too few street spaces for all residents, businesses and visitors.",
+   "source_title": "Aanwijzingsbesluit parkeergarages voor vergunninghouders",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR651027/1",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-08-30",
+   "text": "The Beleidsregels Parkeren 2024, in force from 30 August 2024 (council adoption dated 13 June 2024), require developers to cover their own parking demand rather than push it onto public roads and aim to reduce the role of the car in the Binnenstad, Spoorzone and Kanaalzone; the 2019 Parkeervisie remains the policy basis.",
+   "source_title": "Beleidsregels Parkeren 2024",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR724038/",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-08-30",
+   "text": "In the inner city, a developer's parking demand within about 400 metres can be transferred to an existing municipal facility for a buy-out of EUR 12,000 per space (2024 price level, indexed), and a mobility correction of up to 20 percent on the requirement is possible where car sharing is secured.",
+   "source_title": "Beleidsregels Parkeren 2024",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR724038/",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-01-20",
+   "text": "Summarising the 2021 Mobiliteitsvisie Binnenstad, a consultant report states the centre has 5,367 parking spaces (3,102 in six garages, 2,265 on street) with maximum average occupancy of 50 percent, and that the vision aims to move the surface parking fields into garages and to facilitate parking at the edge of the inner city.",
+   "source_title": "Herontwikkeling Oranjerie Apeldoorn - Verkeer en parkeren (Movares, January 2023)",
+   "source_url": "https://www.ruimtelijkeplannen.nl/documents/NL.IMRO.0200.bp1494-vas2/b_NL.IMRO.0200.bp1494-vas2_tb12.pdf",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Q-Park's Apeldoorn page (read 21 October 2026) lists four Q-Park sites: Beekstraat (105 spaces, 2 charge points, open 24/7, plate recognition), Museum Centrum (636 spaces, 5 charge points), Oranjerie (519 spaces) and P+R Laan van de Mensenrechten (188 spaces, no advance reservation, reduced rate for same-day train travellers).",
+   "source_title": "Q-Park Apeldoorn (Beekstraat, Museum Centrum, Oranjerie, P+R pages)",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/apeldoorn/",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "On the same Q-Park city page (read 21 October 2026) Q-Park advertises parking at Beekstraat from EUR 13 per day and day rates of EUR 16.50 at Museum Centrum and Oranjerie; the per-hour tariffs did not load on the individual garage pages.",
+   "source_title": "Q-Park Apeldoorn",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/apeldoorn/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-11",
+   "text": "The municipality's 2026-2029 budget document says it manages and operates five garages (Marktplein, Haven Centrum, Brinkpark, Anklaar, Orpheus) and six bicycle stores (Marktplein, Stadhuis, Mariastraat, Hofstraat, Paslaan, ACEC), and that the number and position of bike stores may change with the centre plans.",
+   "source_title": "Meerjarenbegroting 2026-2029 Apeldoorn (doelen en prestaties, programma 2)",
+   "source_url": "https://apeldoorn.begroting-2026.nl/p39490/doelen-prestaties",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2022-11",
+   "text": "Counts around the Oranjerie in 2022 found the Q-Park Oranjerie garage (517 spaces) at 21 percent on a late-August weekday evening, 2 percent at night and 44 percent on a Saturday afternoon, and 50 percent on a Saturday in late November; Brinklaan (238 spaces) showed 31, 8 and 48 percent in the August counts.",
+   "source_title": "Herontwikkeling Oranjerie Apeldoorn - Verkeer en parkeren (Movares, January 2023)",
+   "source_url": "https://www.ruimtelijkeplannen.nl/documents/NL.IMRO.0200.bp1494-vas2/b_NL.IMRO.0200.bp1494-vas2_tb12.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-07-04",
+   "text": "The council adopted the amended Oranjerie zoning plan on 4 July 2024 (raadsbesluit 112-2024) and decided to deviate from the 2019 parking policy rule; the plan (about 500 homes, a hotel and about 14,000 sqm retail replacing a 30,000 sqm centre) relies on the existing Q-Park garage, which the council says has sufficient capacity.",
+   "source_title": "Raadsbesluit 112-2024 en zienswijzennota bestemmingsplan Oranjerie",
+   "source_url": "https://www.ruimtelijkeplannen.nl/documents/NL.IMRO.0200.bp1494-vas2/vb_NL.IMRO.0200.bp1494-vas2.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-02-11",
+   "text": "The municipality's final tender specification (11 February 2026) for a new Parkeergarage Vlijtseweg in the Kanaalzone calls for 584 car spaces, about 100 bicycle spaces and EV charging, to serve the new swimming pool, nearby homes and residential towers because parking there is currently insufficient; an earlier market pre-announcement targeted opening on 1 September 2027 together with the pool.",
+   "source_title": "Parkeergarage Vlijtseweg - Vraagspecificatie UAV-GC 2025 (Gemeente Apeldoorn)",
+   "source_url": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/412447/documenten/13750500/content",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-11",
+   "text": "The 2026-2029 budget document says the Vlijtseweg garage is part of a national housing-impulse subsidy for Kanaalzone Noord and that an operating-deficit budget (EUR 357,000 in 2027 plus a pro-memoria item) still had to be added; it also describes a planned garage on the Netten/Talens site in the Spoorzone and says the 'Grift garage' tender is planned for 2026.",
+   "source_title": "Meerjarenbegroting 2026-2029 Apeldoorn (nieuwe ontwikkelingen, programma 2)",
+   "source_url": "https://apeldoorn.begroting-2026.nl/p39542/nieuwe-ontwikkelingen",
+   "confidence": "medium"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-11",
+   "text": "The 2026-2029 budget document lists work on digitising parking products, releasing real-time parking data, a scan car for digital enforcement, promoting transfer points and hubs, and studying moving inner-city street parking into garages to add green space.",
+   "source_title": "Meerjarenbegroting 2026-2029 Apeldoorn (doelen en prestaties, programma 2)",
+   "source_url": "https://apeldoorn.begroting-2026.nl/p39490/doelen-prestaties",
+   "confidence": "medium"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-11",
+   "text": "The 2026-2029 budget document proposes raising street parking charges from 1 January 2027 through tariff differentiation (EUR 160,000 per year in its savings list), indexing 2026 tariffs by 2.6 percent, returning to annual indexation and introducing a tariff for a second parking permit; this is a budget proposal, not a published 2027 tariff.",
+   "source_title": "Meerjarenbegroting 2026-2029 Apeldoorn (ombuigingen; lokale heffingen)",
+   "source_url": "https://apeldoorn.begroting-2026.nl/p39188/ombuigingen",
+   "confidence": "medium"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-05-04",
+   "text": "Traffic decisions published 2 March and 4 May 2026 reserve spaces for EV charging under a regional charging concession; the May decision names twelve proactive 2026 locations (for example Deventerstraat 244A and Loolaan 500), partly where grid congestion gives low-voltage charge points low connection priority, with siting forecasts to 2035 and two charge points per pole.",
+   "source_title": "Gemeenteblad 2026, 206207 and 93617 - Verkeersbesluit reserveren parkeerplaatsen voor elektrische voertuigen",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-206207.html",
+   "confidence": "high"
+  }
+ ],
+ "gaps": [
+  "apeldoorn.nl was offline on 21 October 2026 (notice about PHP vulnerabilities), so municipal pages on parking zones, regulation hours, permits and the Marktplein garage could not be read: https://www.apeldoorn.nl/parkeren and https://www.apeldoorn.nl/en/rules-and-facts/parkeren-en-verkeer/parkeren-in-apeldoorn/parkeergarages/",
+  "The ordinance's Bijlage 2 (zone map and list of locations, four pages) is an image and was not readable, so paid-parking hours and zone boundaries are not confirmed from an official source.",
+  "Q-Park hourly tariffs did not load on the Q-Park garage pages; the P+R Laan van de Mensenrechten tariff and the NS traveller discount were not confirmed from an official source.",
+  "Council information system https://apeldoorn.raadsinformatie.nl/ timed out; the full Parkeervisie 2019 and Mobiliteitsvisie Binnenstad 2021 texts were not opened, and the result of the 6 November 2025 budget vote and the Vlijtseweg tender award were not found.",
+  "No local press (RTV Apeldoorn, De Stentor) or operator statements on utilisation or demand were read; the web search budget ran out, so the park-and-ride sites Osseveld and De Maten, a Spoorzone parking vision and the station-area policy are only on listing portals, which were not used.",
+  "A search hit for 'Tarieven van de parkeergarages voor 2026' (lokaleregelgeving CVDR754187) concerns garages De Kamp, Houtplein and Raaks, which are not in Apeldoorn, and was not used.",
+  "A October 2024 press report (Samen1, https://samen1.nl/regio/49048/nieuwe-meerjarenbegroting-apeldoorn-klaar-voor-de-toekomst/) on a draft budget proposing lower Marktplein tariffs on shopping evenings and weekends and paid EV charging in municipal garages was read but not used, as adoption is not confirmed.",
+  "The current construction status of the Oranjerie redevelopment after the July 2024 zoning decision was not found; the Movares report is a January 2023 planning study."
+ ]
+}

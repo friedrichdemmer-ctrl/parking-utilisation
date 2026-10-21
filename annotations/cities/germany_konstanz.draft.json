@@ -1,0 +1,162 @@
+{
+ "country": "Germany",
+ "city": "Konstanz",
+ "researched": "2026-10-21",
+ "summary": "Konstanz manages its pressured centre with paid street parking left of the Rhine (3.00 euros per hour since council decision of 16 December 2025, first hour 4.00 euros from May 2026), resident permits at 150 euros a year, new resident zones in Petershausen from April 2026, and manual traffic management by traffic cadets on about 60 high-load days a year, mostly Saturdays, Swiss National Day and Advent. Since October 2025 the Bahnhofplatz is closed to cars under the 2014 C-Konzept, so the Marktstaette and Fischmarkt car parks are reached only via Konzilstrasse and LAGO via Bodanstrasse. The council still refuses to cut street spaces unless compensated, while the Stadtwerke subsidiary KMG added the 740-750-space Parkhaus Europabruecke (July 2025, 1.00-1.50 euros per hour, with bus and a Wasserbus link) and took over the Augustiner garage (288 spaces, closed since March 2026 for a 9 million euro refurbishment); the Doebele surface car park (435 spaces, 4 euros first hour) is slated for redevelopment. A draft Climate Mobility Plan 2035 proposes much higher resident and visitor fees but faces opposition and is not yet decided.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2025-12-16",
+   "text": "On 16 December 2025 the council raised the on-street fee in the left-of-Rhine city to 3.00 euros per hour (base amount of 1.00 euro unchanged), Strandbad Horn to 2.50 euros/hour (15 euros/day) and Strandbad Klausenhorn to 2.00 euros/hour (11 euros/day); the bylaw took effect on 17 December 2025. The stated aim is that car parks are the cheap option for long stays and street spaces serve short stays, and the city cites VAT it must now pay on car park income.",
+   "source_title": "Langzeitparken in Parkhaeusern, kurzes Abstellen im Strassenraum - Stadt Konstanz (press release 19 Dec 2025)",
+   "source_url": "https://www.konstanz.de/service/presse/pressemitteilungen/langzeitparken+in+parkhaeusern_+kurzes+abstellen+im+strassenraum",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-05",
+   "text": "The city's May 2026 climate report says an earlier fee proposal was rejected by the council on 29 April 2025 (20:20 votes) and that the new rates apply from May 2026: first hour 4.00 euros including the base amount, second hour 7.00 euros, then 3.00 euros per further hour. It also plans a council paper in the third quarter of 2026 to evaluate the 2024 rise in resident permit fees and decide a further increase.",
+   "source_title": "Klimaschutzstrategie Konstanz, M1 Parken teurer als OePNV (14th report, 05/2026)",
+   "source_url": "https://klimaschutzbericht.konstanz.de/actions/M1",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-04-01",
+   "text": "A new parking management scheme for Petershausen (1,110 public spaces, mixed resident-only and resident-plus-visitor zones, 16 new ticket machines) started charging on 1 April 2026, following a committee decision of 30 April 2024. The climate report gives the visitor fee there as 1.00 euro per half hour, maximum two hours.",
+   "source_title": "Parkraumkonzept Petershausen ist in Umsetzung - Stadt Konstanz (press release, updated 20 Feb 2026)",
+   "source_url": "https://www.konstanz.de/service/presse/pressemitteilungen/parkraumkonzept+petershausen+ist+in+umsetzung",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The resident parking permit costs 150 euros per year (3-month short permit 45 euros) according to the city service portal read on 21 October 2026; day passes for residents' visitors cost 12 euros (blue, Paradies) or 17 euros (violet, old town and Laube).",
+   "source_title": "Bewohnerparkausweis beantragen - Stadt Konstanz Serviceportal",
+   "source_url": "https://www.konstanz.de/serviceportal/-/verfahrensbeschreibung/vbid6002753",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-12",
+   "text": "Local outlet seemoz reports that the draft Climate Mobility Plan 2035, presented to the council committee in June 2026, lists extending parking management to more areas, with resident fees rising step by step to 600 euros per year and visitor fees to 6 euros per hour as one of five key projects (a proposal, not in force). The paper said Freie Waehler, CDU and FDP oppose higher parking charges and each measure still needs its own council decision.",
+   "source_title": "Knappe Mehrheiten fuer gute Ideen - seemoz (12 June 2026)",
+   "source_url": "https://www.seemoz.de/knappe-mehrheiten-fuer-gute-ideen/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-05",
+   "text": "The council has decided in principle that on-street spaces left of the Rhine are removed only if compensated elsewhere, so the climate-strategy aim of halving about 2,700 street spaces by 2035 has not started. The report notes the number of resident permits is roughly double the number of spaces, and that the 78-space Stephansplatz car park is due to close from late 2026 (the city's Stephansplatz page says 14 September 2026).",
+   "source_title": "Klimaschutzstrategie Konstanz, M2 Halbierung der Strassenstellplaetze (14th report, 05/2026)",
+   "source_url": "https://klimaschutzbericht.konstanz.de/actions/M2",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01",
+   "text": "The city uses manual traffic management on about 60 high-load days a year (nearly all busy shopping Saturdays, 1 August Swiss National Day, Advent days, bridge days): traffic cadets close and reopen access roads depending on car park occupancy, usually for 5 to 15 minutes. Drivers are redirected to car parks right of the Rhine (Seerhein-Center, Benediktinerplatz, Europabruecke), and a digital traffic management system is planned for the medium term.",
+   "source_title": "Verkehrsmanagement Hochlasttage - Stadt Konstanz (page dated 12 Jan 2026)",
+   "source_url": "https://www.konstanz.de/leben+in+konstanz/mobilitaet/parkleitsystem/verkehrsmanagement+hochlasttage",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-10",
+   "text": "The rebuilt Bahnhofplatz with a new roundabout at the LAGO was completed in October 2025 (about 9.8 million euros, council 'C-Konzept' of November 2014). The square is closed to cars; Marktstaette and Fischmarkt car parks are reached only via Konzilstrasse, LAGO and Augustiner via Bodanstrasse. Before 2023 over 8,000 vehicles and 550 buses used the square daily, up to 10,000 vehicles on high-load days.",
+   "source_title": "Sanierung Bahnhofplatz / C-Konzept - Stadt Konstanz",
+   "source_url": "https://www.konstanz.de/stadt+gestalten/verkehrsplanung/c-konzept",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The city's guidance system lists these car parks (spaces; operator): Altstadt 359 (Parkhaus Laube Betriebs-GmbH & Co KG), LAGO 931 (Girlan Immobilien GmbH), Marktstaette 277 (Parkingmanagement Ostendorf UG), Fischmarkt 161 (Parkhaus Fischmarkt Konstanz GmbH), Doebele 435 (City of Konstanz), Europabruecke 745 (Stadtwerke Konstanz Mobil GmbH), P+R Seepark 209. Page read on 21 October 2026; Marktstaette live counts were noted as unavailable during the Bahnhofplatz works.",
+   "source_title": "Parkleitsystem - Stadt Konstanz (car park pages)",
+   "source_url": "https://www.konstanz.de/leben+in+konstanz/mobilitaet/parkleitsystem",
+   "confidence": "medium"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "LAGO car park (931 spaces, 1.90 m height limit, open 07:00-01:30) charges 3.00 euros per hour up to five hours, then 4.00 euros per further hour, maximum 30 euros per 24 hours (operator page read on 21 October 2026).",
+   "source_title": "Parkhaus - LAGO Konstanz",
+   "source_url": "https://www.lago-konstanz.de/parkhaus/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Parkhaus Europabruecke (read on 21 October 2026): zone A (levels 0-2) 1.50 euros/hour and 18 euros/day, zones B and C 1.00 euro/hour and 14 euros/day; weekly maximum 70-90 euros; monthly permit 50 euros (Mon-Fri) or 75 euros (Mon-Sun). Barrier-free with licence-plate recognition, open 24 hours.",
+   "source_title": "Parkhaus Europabruecke - Stadtwerke Konstanz",
+   "source_url": "https://www.stadtwerke-konstanz.de/parken-laden/parkhaus-europabruecke/",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-06",
+   "text": "Parkplatz Doebele (435 spaces, run by the City of Konstanz) charges 4.00 euros for up to one hour, 7.00 for two hours and 3.00 euros per further hour, maximum 25 euros per day, 9:00-20:00 for cars (all day for motorhomes); the page is marked 'status June 2026'.",
+   "source_title": "Parkplatz Doebele - Stadt Konstanz",
+   "source_url": "https://www.konstanz.de/leben+in+konstanz/mobilitaet/parkleitsystem/parkplatz+doebele",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2022-01",
+   "text": "The city page for Parkhaus Altstadt (359 spaces, 2.05 m height limit) lists 2.00 euros per hour (first half hour 1.00 euro) and a 24-euro daily maximum, but is marked 'status January 2022', so the figures may be outdated.",
+   "source_title": "Parkhaus Altstadt - Stadt Konstanz",
+   "source_url": "https://www.konstanz.de/leben+in+konstanz/mobilitaet/parkleitsystem/parkhaus+altstadt",
+   "confidence": "low"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-07",
+   "text": "Parkhaus Europabruecke (about 740-750 spaces, 80-90 charge points) opened in July 2025 as a mobility hub with bus, bike hire and the long-distance bus station; it cost about 18 million euros including land, of which 2.5 million came from the state's E-Quartiershub programme. Operator is Stadtwerke Konstanz Mobil GmbH, payment by plate recognition (PRM).",
+   "source_title": "Das neue Parkhaus Europabruecke - Stadtwerke Konstanz",
+   "source_url": "https://www.stadtwerke-konstanz.de/bus/aktuelles/das-neue-parkhaus-europabruecke/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Tiefgarage Augustiner (288 spaces) has been closed since 1 March 2026 for a refurbishment of about 9 million euros, expected until about the end of 2026; it passed from the private operator B+B Parkhaus to the Stadtwerke group (Stadtwerke Konstanz Mobil GmbH will run it) after a council decision. It is to reopen with 288 spaces and 30 charge points; about 60 permanent-parker contracts were ended for 31 December 2025.",
+   "source_title": "Tiefgarage Augustiner - Stadtwerke Konstanz (update October 2026)",
+   "source_url": "https://www.stadtwerke-konstanz.de/parken-laden/tiefgarage-augustinerplatz/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-05",
+   "text": "The city and the Stadtwerke are planning a mobility house at the Doebele (three variants, one a hybrid with housing, parking and local shops, presented in May 2025; bidder talks followed). The Doebele is also planned as a new district with 0.5 car spaces per dwelling, so the surface car park there is expected to be redeveloped (a plan, no date given).",
+   "source_title": "Doebele aktuell / Doebele Mobilitaet - Stadt Konstanz",
+   "source_url": "https://www.konstanz.de/stadt+gestalten/bauen+_+wohnen/stadtplanung/doebele_aktuell",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-05",
+   "text": "The climate report says the Europabruecke car park was still under-used on Saturdays in late 2025 because its fee has no bus ticket included; its busiest day was 2 May 2026 (790 parking events, peak 493 cars at once, on a day with free bus and boat links). The Wasserbus boat to the harbour, running since April 2026, carried 300-460 passengers a day in April and 1,500 on 2 May.",
+   "source_title": "Klimaschutzstrategie Konstanz, M3 Ausbau von Park & Ride (13th and 14th reports)",
+   "source_url": "https://klimaschutzbericht.konstanz.de/actions/M3",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-05",
+   "text": "Stadtwerke Konstanz Mobil operates 185 public charge points at 34 sites; 112 were commissioned in 2025 (including the Europabruecke car park), and more are planned for 2026 in the LAGO, Altstadt and Augustinerplatz car parks.",
+   "source_title": "Klimaschutzstrategie Konstanz, M9 Ausbau der Ladeinfrastruktur (14th report, 05/2026)",
+   "source_url": "https://klimaschutzbericht.konstanz.de/actions/M9",
+   "confidence": "high"
+  }
+ ],
+ "gaps": [
+  "Blick.ch articles on the Saturday traffic jams after the C-Konzept and Swiss shopping tourism returned 403 Access Denied (e.g. https://www.blick.ch/ausland/neues-verkehrskonzept-in-konstanz-wird-mega-flop-id21498661.html); no source on Einkaufstourismus volumes was read.",
+  "Council papers on konstanz.sitzung-online.de/public show a bot check page, so the Gemeinderat decisions were taken from city press releases, the climate report and seemoz instead; the Klimamobilitaetsplan adoption status after June 2026 is unknown.",
+  "Suedkurier and SWR were not reachable for search; konstanz-info.com/planen-buchen/anreise returned 502; the city's 'Chronik 2025' PDF returned 404.",
+  "No operator tariff pages found for Marktstaette, Fischmarkt, Parkhaus Altstadt (only a January 2022 city page) or Seerhein-Center; no utilisation statements except for Europabruecke.",
+  "Our feed lists Marktstaette with 288 spaces, but the city guidance page says 277 (the closed Tiefgarage Augustiner has 288 spaces), so a label or capacity mismatch in the feed is possible and unchecked.",
+  "Outcome of the planned third-quarter 2026 council paper on resident permit fees, and the 2024 resident fee rise, were not found; the Fahrradparkhaus citizens' vote (29 November 2026) and Seepark P+R (209 spaces, Saturday ticket = bus ticket, city page 14 Sept 2026) are only mentioned in passing.",
+  "Swiss-side parking policy (Kreuzlingen) and Seehas/rail park-and-ride sites were not researched.",
+  "Strandbad Horn / Staad ferry car park cashless and plate-recognition details (Stadtwerke news page, undated) were read but not used as an item because the publication date is unknown."
+ ]
+}

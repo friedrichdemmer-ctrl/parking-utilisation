@@ -1,0 +1,180 @@
+{
+ "country": "Netherlands",
+ "city": "Boxtel",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Boxtel is a small Noord-Brabant town where street parking in the paid area is charged at 0.21 euros per 12 minutes (about 1.05 euros an hour) for the first two hours and 0.41 euros per 12 minutes after that, under the 2026 parking-tax ordinance adopted on 4 November 2025 (the same rates applied in 2024 and 2025). Permits range from 129 to 478 euros a year depending on type and area, with the cheapest tied to residents of part of the area. A two-hour parking-disc zone was set around the station and in Breukelen-Zuid and the centre west of the Dommel by a 2017 decision (weekday hours 9.00-18.00, Friday to 21.00, Saturday to 17.30), and a 2025 council programme still says a blue zone around the station keeps out long-stay train travellers, but current zone hours could not be checked because boxtel.nl was unavailable. The 2025 environment vision and mobility programme state intentions for a car-light centre, parking moved towards the edges and the station developed into a regional mobility hub. A parking-norms note published on 23 January 2026 uses the lowest national norms for new housing near the station and lets centre developers who cannot provide parking on their own land pay 10,000 euros per missing space into a municipal accessibility fund. A March 2025 decision set up a pedestrian zone in part of the Stationsstraat. The park-and-ride at Van Salmstraat (193 spaces, open 24/7) appears on Q-Park's website, while the national open-data register still carries a 2021-era record naming NS with a tariff of 0.77 euros an hour and 5.41 euros a day, which should not be read as the current price. A survey from October 2016 found no overall shortage in the centre but a distribution problem at busy moments, and no newer published utilisation figures were found. On 21 September 2026 the municipality designated 48 charging-only bays in Boxtel and Liempde under a Vattenfall contract concluded by the provinces of Noord-Brabant and Limburg. A December 2024 council amendment suggesting a tower with an underground car park at the Salmstraat P+R was only a proposal and its outcome is unknown.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2025-11-04",
+   "text": "The Boxtel council adopted the Verordening parkeerbelastingen 2026 on 4 November 2025, with levy from 1 January 2026. Paid street parking costs 0.21 euros per 12 minutes in the first and second hour (about 1.05 euros an hour) and 0.41 euros per 12 minutes after that, unchanged from the 2024 and 2025 rates.",
+   "source_title": "Verordening op de heffing en invordering van parkeerbelastingen 2026 (Boxtel)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR747018/1",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-11-04",
+   "text": "Permit tariffs in the 2026 table (Verordening parkeerbelastingen 2026, adopted 4 November 2025) are 32.25 euros per quarter (129 euros a year) for a plate-bound permit for part of the paid area where the holder lives as a private person in that part (34.75 per quarter, 139 a year, if not), 70.25 euros per quarter (281 euros a year) for a plate-bound permit for the whole area or a non-plate-bound permit for part of the area, and 119.50 euros per quarter (478 euros a year) for a non-plate-bound permit for the whole area. The 2025 version of the ordinance had 31.25, 68.25 and 116.25 euros per quarter for the plate-bound part-area (resident), plate-bound whole-area and non-plate-bound whole-area permits.",
+   "source_title": "Verordening op de heffing en invordering van parkeerbelastingen 2026 (Boxtel)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR747018/1",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2023-01-01",
+   "text": "Earlier versions of the Boxtel parking-tax ordinance show the hourly rate was 0.20 euros per 14 minutes (about 0.86 euros an hour) until the end of 2022, 0.20 euros per 12 minutes (1.00 euros an hour) in 2023, and 0.21 euros per 12 minutes from 2024. The long-stay rate after two hours moved from 0.40 to 0.41 euros per 12 minutes in 2024.",
+   "source_title": "Verordening op de heffing en de invordering van parkeerbelastingen 2015, versions 2015-2024 (Boxtel)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR342383/4",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01-23",
+   "text": "On 23 January 2026 Boxtel published a new Parkeernormennota for cars and bikes in the Gemeenteblad, replacing the 2007 norms. It adds bicycle-parking norms and rules for car-sharing, and a new sub-area Centrum Stationsgebied (within about 10 minutes walk of the station) where, for housing only, the lowest end of the national CROW range is used as the car norm; the note describes this as steering rather than following parking demand. The note says the municipality monitors parking pressure in the centre with a measurement once every three years.",
+   "source_title": "Parkeernormennota voor auto en fiets Gemeente Boxtel (Gemeenteblad 2026, 29605)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-29605.pdf",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01-23",
+   "text": "Under the 2026 norms note, developers in the centre who cannot provide the required parking on their own land can pay 10,000 euros per missing space into a municipal fund 'Bereikbaarheid centrumgebied Boxtel', used for shared car and bike parking or public transport. This needs spare public capacity nearby (usable up to 85 percent) shown by a parking survey, and the note cites the 'Visie op de Bezoekerseconomie 2022-2030' that rates the fragmented centre parking as a weakness.",
+   "source_title": "Parkeernormennota voor auto en fiets Gemeente Boxtel (Gemeenteblad 2026, 29605)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-29605.pdf",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-03-12",
+   "text": "The Omgevingsvisie Boxtel, adopted by the council on 4 February 2025 and published on 12 March 2025, says Boxtel station is to be developed into a mobility hub with more space for shared mobility. It states that car access and parking remain important but have lower priority and are moved more towards the edges, and it announces area programmes for the town and the station area (front and back of the station).",
+   "source_title": "Omgevingsvisie Boxtel (Gemeenteblad 2025, 108246)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-108246.pdf",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-01",
+   "text": "The Programma Duurzame Mobiliteit Boxtel 'Op weg naar 2040' (January 2025) aims for a car-light centre where cars drive around the centre and long-stay parking is at its edges, and says the municipality does not size parking for peak days or events. It states that a blue zone around the existing station keeps out long-stay train travellers, and that new parking policy will look at tariff differentiation, car-sharing parking, smart parking systems and regular parking-pressure measurements.",
+   "source_title": "Programma Duurzame Mobiliteit Boxtel, Op weg naar 2040 (January 2025)",
+   "source_url": "https://boxtel.bestuurlijkeinformatie.nl/Document/View/eb4fc37f-aefc-4fd4-951e-c689a667a3fd",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-01",
+   "text": "The programme says the province names Boxtel station as a regional node and the municipality wants to make it a regional mobility hub with province and region. It treats use of the existing station car parking as part of the trip to the train, and mentions the P+R on the west side of the station in connection with links from the villages.",
+   "source_title": "Programma Duurzame Mobiliteit Boxtel, Op weg naar 2040 (January 2025)",
+   "source_url": "https://boxtel.bestuurlijkeinformatie.nl/Document/View/eb4fc37f-aefc-4fd4-951e-c689a667a3fd",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-09-21",
+   "text": "By a decision signed on 21 September 2026 (Gemeenteblad of 25 September 2026), Boxtel designated 48 parking spaces for charging only, at various locations in Boxtel and Liempde. After views were submitted on the draft decision, 9 locations were dropped. The charging points come from a contract that the provinces of Noord-Brabant and Limburg signed with Vattenfall on behalf of participating municipalities. A second bay at a post is reserved once the post uses at least 3,500 kWh.",
+   "source_title": "Verkeersbesluit Aanwijzen parkeerplaatsen opladen elektrische voertuigen diverse locaties Boxtel en Liempde (Gemeenteblad 2026, 450690)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-450690.pdf",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2019-09-04",
+   "text": "Boxtel's policy rules for public charge points, published on 4 September 2019, take a facilitating role: charging bays are reserved by traffic decision, and payment is still due when charging in paid-parking areas (a parking disc in disc zones). The rules also cite a Nuon/Heijmans contract running until end 2019, so they are dated.",
+   "source_title": "Beleidsregels Openbare Oplaadpalen voor elektrische voertuigen (Gemeenteblad 2019, 217047)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2019-217047.pdf",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2016-11",
+   "text": "A parking-pressure and parking-motive survey in the first week of October 2016 (Trajan, report of 28 November 2016) found no overall shortage in the centre and Breukelen Zuid, because public spaces were never all occupied at once, but a distribution problem with some locations above the accepted pressure at busy times (targets 85 percent in mixed areas, 90 percent in residential areas). This is old data, quoted in the 2017 parking vision.",
+   "source_title": "Parkeervisie en -reguleringsmaatregelen Boxtel 2017",
+   "source_url": "https://boxtel.bestuurlijkeinformatie.nl/Document/View/8f793b5c-e1fc-43b5-a95f-301aebd6aa3f",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2017-08-24",
+   "text": "Since 24 August 2017 (still listed as in force in October 2026) the decision on parking-disc exemptions in the Centrum/Breukelen Zuid zone has been mandated to the director of P1 On Street B.V., under a service agreement of 28 July 2017 after a tender.",
+   "source_title": "Mandaatbesluit uitbesteding taken parkeerontheffingen P1 (Boxtel)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR463493/1",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2017-05",
+   "text": "According to the 2017 parking vision, Boxtel agreed with NS in 2013 to introduce permit parking around the NS car park on the centre side of the station in return for NS providing bicycle storage; if the municipality failed, it would owe a fee based on 64 parking spaces times the P+R annual subscription. In December 2016 the two parties agreed that regulating the Parallelweg Noord car park and opening it to groups other than commuters through exemptions or permits would be an effective way to meet the agreements, so that P+R travellers use the NS facility on the west side of the station. This describes the 2013 to 2017 position and may be out of date.",
+   "source_title": "Parkeervisie en -reguleringsmaatregelen Boxtel 2017",
+   "source_url": "https://boxtel.bestuurlijkeinformatie.nl/Document/View/8f793b5c-e1fc-43b5-a95f-301aebd6aa3f",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2017-06-06",
+   "text": "A traffic decision of 6 June 2017 set a two-hour parking-disc zone in Breukelen-Zuid and the centre west of the Dommel (including Stationsplein, Stationsstraat, Prins Hendrikstraat and Parallelweg Noord), valid Monday to Thursday 9.00-18.00, Friday 9.00-21.00 and Saturday 9.00-17.30. It also withdrew paid parking in several streets near the station. Later changes to the zone were not checked.",
+   "source_title": "Verkeersbesluit Instellen parkeerschijfzone Breukelen-Zuid en Centrum (westzijde Dommel), 6 June 2017",
+   "source_url": "https://boxtel.bestuurlijkeinformatie.nl/Document/View/b0e45d08-8b31-4a6d-92e4-1f77aea2f6c6",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-03-20",
+   "text": "By a traffic decision dated 20 March 2025 (published 25 March 2025), Boxtel made the Stationsstraat between Molenstraat and Prins Bernhardstraat a pedestrian zone: cyclists allowed, mopeds not, loading 7.00-13.00. Residents and businesses with private parking reachable only through the zone can obtain exemptions.",
+   "source_title": "Verkeersbesluit Voetgangerszone Stationsstraat (Gemeenteblad 2025, 128072)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-128072.pdf",
+   "confidence": "high",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Q-Park's page for P+R Van Salmstraat (Salmstraat, 5281 RS Boxtel), read on 21 October 2026, shows 193 spaces, open 24/7 for arrival and departure, and a traveller discount for same-day domestic train journeys. The tariff section did not load, so no current price was read.",
+   "source_title": "Q-Park P+R Van Salmstraat (page read 21 October 2026)",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/boxtel/p-r-van-salmstraat/",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "https://www.boxtel.nl/in-de-gemeente/parkeren, https://www.boxtel.nl/aanvragen-regelen-en-melden/vergunningen/parkeervergunning and other boxtel.nl pages returned a 503 maintenance error on 21 October 2026, so the current municipal pages on blue-zone hours, paid-parking areas (Bijlage a map of the ordinance is an image) and permits were not read; the zone hours given are from a 2017 traffic decision.",
+  "Current Q-Park tariffs for P+R Van Salmstraat: the Q-Park page's tariff widget did not load; third-party listing portals were not used.",
+  "No recent (post-2016) parking-pressure or utilisation report for the centre was found; the 2026 norms note says a measurement is made every three years but the results were not located. Council-information portal boxtel.bestuurlijkeinformatie.nl search and report lists are JavaScript-rendered and could not be read, so council papers on parking since 2024 (raadsvoorstel of 30 September 2025 on the tariffs, Visie op de Bezoekerseconomie 2022-2030, Parkeervisie follow-ups) were not opened.",
+  "No source found on new, closed or refurbished centre car parks, on a concrete P+R or station-area parking project, or on the outcome of the December 2024 amendment (Salmstraat P+R as tower with underground car park). The Markt reconstruction and the compensating parking facility planned in 2017 were not confirmed.",
+  "No local press (Brabants Dagblad, Omroep Brabant, local weeklies) was read: the Omroep Brabant article on the 54 charging bays labels itself automatically compiled and was not used; the web-search budget ran out before local news could be searched.",
+  "The Omgevingsvisie, Gemeenteblad PDFs and the 2026 EV decision were read in full for the cited passages only; annexes with charging locations (bijlage 1 and 2 of the EV decision) were not available as text, so whether any bays are at the station or centre car parks is unknown."
+ ],
+ "dropped": {
+  "low confidence": 2
+ }
+}

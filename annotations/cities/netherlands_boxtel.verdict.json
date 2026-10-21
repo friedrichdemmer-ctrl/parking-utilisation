@@ -1,0 +1,104 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "[Verordening parkeerbelastingen 2026, CVDR747018/1] Page read in full. Raad meeting 4 Nov 2025; art. 13: date of levy 1 Jan 2026; in force (as listed) from 18-11-2025. Tariff table: first hour, second hour 0.21 per 12 min; following hours 0.41 per 12 min (5 x 0.21 = 1.05/h is arithmetic, fine). 'Unchanged from 2024 and 2025' is not on this page but I confirmed it on CVDR342383/5 (valid 1-1-2024 to 19-12-2024) and /6 (20-12-2024 to 31-12-2025): both 0.21/0.21/0.41. Note the 2025 rules were the amended 2015 ordinance, not a separate '2025 ordinance'. The tariff applies in the area on Bijlage a (an image, not readable)."
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "[CVDR747018/1 tariff table, item 2] Numbers correct: 32.25/qtr (129/yr), 70.25/qtr (281/yr), 119.50/qtr (478/yr). But the 129 euro permit (2a) is only for a plate-bound permit for part of the area AND only if the holder lives (as a natural person) in that part; non-residents pay 34.75/qtr (139/yr) (2b). The 70.25 (281/yr) figure is also the price of a non-plate-bound permit for part of the area (2d); the whole-area plate-bound permit is 70.25 (2c). The draft omits the residence condition and 2b/2d. 2025 comparison figures (31.25, 68.25, 116.25 per quarter for types a, c, e) confirmed on CVDR342383/6, a different page from the cited one.",
+   "corrected_text": "Permit tariffs in the 2026 table (Verordening parkeerbelastingen 2026, adopted 4 November 2025) are 32.25 euros per quarter (129 euros a year) for a plate-bound permit for part of the paid area where the holder lives as a private person in that part (34.75 per quarter, 139 a year, if not), 70.25 euros per quarter (281 euros a year) for a plate-bound permit for the whole area or a non-plate-bound permit for part of the area, and 119.50 euros per quarter (478 euros a year) for a non-plate-bound permit for the whole area. The 2025 version of the ordinance had 31.25, 68.25 and 116.25 euros per quarter for the plate-bound part-area (resident), plate-bound whole-area and non-plate-bound whole-area permits."
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "[CVDR342383 versions] The cited URL (/4) is only the 2023 version (0.20 per 12 min, 0.40 after). The other claims are on other versions of the same regulation, which I opened: /2 (12-2-2015 to 31-12-2022) 0.20 per 14 min first and second hour, 0.40 after; /3 and /4 (2023) 0.20 per 12 min, 0.40; /5 (2024) and /6 (to 31-12-2025) 0.21, 0.21, 0.41 per 12 min. 0.20 per 14 min = about 0.86/h and 0.20 per 12 min = 1.00/h are correct arithmetic. All claims supported; the source_url should ideally list /2, /4 and /5."
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "[Gemeenteblad 2026, 29605, 22-page PDF, read in full] Published 23 January 2026; successor of the 2007 norms (which lapse on entry into force); adds bicycle norms, car-sharing rules; 'Centrum Stationsgebied' sub-area uses the minimum CROW figures and is described as 'sturend' (steering) rather than 'volgend' (following) parking policy; monitoring '1x/3jaar parkeerdrukmeting centrum'. Correction: the Centrum Stationsgebied sub-area is 'alleen relevant voor woondoeleinden' (only relevant for housing), based on under 10 minutes walking from the station; the draft implies car norms generally. The three-yearly measurement is monitoring for the centre generally, as part of the policy, not a plan specific to the sub-area.",
+   "corrected_text": "On 23 January 2026 Boxtel published a new Parkeernormennota for cars and bikes in the Gemeenteblad, replacing the 2007 norms. It adds bicycle-parking norms and rules for car-sharing, and a new sub-area Centrum Stationsgebied (within about 10 minutes walk of the station) where, for housing only, the lowest end of the national CROW range is used as the car norm; the note describes this as steering rather than following parking demand. The note says the municipality monitors parking pressure in the centre with a measurement once every three years."
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "[Gemeenteblad 2026, 29605, section 1.7 and 3.2.4] 10,000 euros per unrealised space paid into the voorziening 'Bereikbaarheid centrumgebied Boxtel'; allowed only in sub-areas Centrum or Centrum Stationsgebied; requires spare public capacity near the plan (up to 85 percent usable) shown by a proper parking survey; funds used for collective parking for bikes and cars or public transport. The note cites the SWOT of the 'Visie op de Bezoekerseconomie Boxtel 2022-2030' calling the fragmented parking a weakness. Nuance (not a correction): the contribution is not mandatory in advance; it is asked where a developer cannot or will not provide the required parking on its own land."
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "[Gemeenteblad 2025, 108246] Notice says the Omgevingsvisie was adopted (gewijzigd vastgesteld) by the raad on 4 February 2025; published 12 March 2025, in force the day after. Text: station to be developed further into a mobility hub with more room for shared mobility; car access and parking remain important but have lower priority and are moved more towards the edges; area-based programmes for the core of Boxtel and the station area (voor- als achterzijde). These are stated intentions of a vision, which the draft words as such."
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "[Programma Duurzame Mobiliteit Boxtel, Jan 2025] Cover reads 'Jan 2025'. Section 5.4: by 2040 cars drive around the centre and (long-stay) parking is at the edges, 'zo veel mogelijk'; 'We dimensioneren ons parkeeraanbod niet op piekdagen of evenementen'; section 5.1: 'rondom het huidige station een blauwe zone van kracht om langparkeerders (treinreizigers) te weren'; section 4.7: differentiation in parking tariffs, shared-mobility parking, smart parking systems; 5.4: parking pressure measured every three years. All stated as ambitions or current situation; the page does not state when or whether the raad adopted it, so keep wording as 'aims'. The zone hours are not given here."
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "[Programma Duurzame Mobiliteit Boxtel, section 5.3 and 4.5] Provincial Beleidskader Mobiliteit names the Boxtel station as a regional knot (future picture); municipality joins the provincial/regional ambition for a regional mobility hub; 'We beschouwen het gebruik van de huidige voorziening als onderdeel van het voortransport naar de trein' (car parking at the station); P+R on the west side mentioned for links from Esch, Liempde, Lennisheuvel. All on the page. Topic 'operators' is a loose label; no operator is named."
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "[Gemeenteblad 2026, 450690] Page: decision signed 21 September 2026, Gemeenteblad of 25 September 2026; decision 1: 48 spaces exclusively for charging at the locations of annexes 1 and 2; second space reserved with high use, at least 3,500 kWh per post; 'ontwerpverkeersbesluit ... zienswijzen ... 9 locaties zijn komen te vervallen'. NOT on this page: '54' and '29 June 2026'. I found the draft decision separately (Gemeenteblad 2026, 307290, published 29 June 2026, signed 19 June 2026) and it says 54 spaces, so the 54 is true but from a different source than cited. The page does not say 9 locations equals the 6-bay difference (locations vs bays), so do not tie them. Contract: the page says the provinces of Noord-Brabant and Limburg concluded the contract with Vattenfall on behalf of participating municipalities, so 'province-wide' is inaccurate. 'Objections' = zienswijzen (views submitted).",
+   "corrected_text": "By a decision signed on 21 September 2026 (Gemeenteblad of 25 September 2026), Boxtel designated 48 parking spaces for charging only, at various locations in Boxtel and Liempde. After views were submitted on the draft decision, 9 locations were dropped. The charging points come from a contract that the provinces of Noord-Brabant and Limburg signed with Vattenfall on behalf of participating municipalities. A second bay at a post is reserved once the post uses at least 3,500 kWh."
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "[Gemeenteblad 2019, 217047, 5 pages] Published 4 September 2019; Boxtel chooses the facilitating role; traffic decisions reserve bays at charge points; rules by regime: paid parking - payment compulsory also when charging; disc zone - preferably outside the zone, otherwise parking disc compulsory; contract with Nuon/Heijmans 'tot eind 2019'. The draft flags it as dated. The page does not say whether the rules were later replaced; the 2026 decision uses a different contract (Vattenfall), so these rules are likely superseded in part."
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "[Parkeervisie en -reguleringsmaatregelen Boxtel 2017 (May 2017), 19 pages] 'In de eerste week van oktober' 2016 a parking pressure and motive survey; footnote 'Parkeeronderzoek Boxtel, Trajan, 28-11-2016'; 'geen sprake van een kwantitatief parkeerprobleem ... nooit allemaal tegelijk bezet ... wel een distributieprobleem'; Table 1: maximum permitted pressure 90 percent residential area, 85 percent mixed area. Dated correctly as old."
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "[CVDR463493/1] 'Geldend van 24-08-2017 t/m heden'; mandate to the director of P1 On Street B.V. for deciding on exemptions from the ban on parking in disc zones; service agreement of 28 July 2017 after a tender. Caution: the page's signature line reads 'vastgesteld in de vergadering van 3 augustus 2018', which conflicts with the 2017 start; 'still in force' rests only on the register listing, with no check that P1's contract still runs. Keep the wording 'still listed'."
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "[Parkeervisie Boxtel 2017, section 2.3 'Afspraken NS / Q-Park'] 2013 agreement: NS would provide good bicycle storage; in return the municipality would introduce permit parking (vergunninghoudersparkeren) around the NS car park on the centre side of the station - correct. December 2016: municipality and NS agreed that regulating the Parallelweg Noord terrain and making it available to groups other than commuters through exemptions or permits is an effective way to meet the agreements; NS would waive a fee if P+R travellers are steered to the NS facility on the west side - correct in substance. The number 64 appears only as the count of spaces used in the compensation formula (spaces (64) x P+R annual subscription), and the text does not name the Parallelweg Noord car park as having 64 spaces, so that attribution is an inference.",
+   "corrected_text": "According to the 2017 parking vision, Boxtel agreed with NS in 2013 to introduce permit parking around the NS car park on the centre side of the station in return for NS providing bicycle storage; if the municipality failed, it would owe a fee based on 64 parking spaces times the P+R annual subscription. In December 2016 the two parties agreed that regulating the Parallelweg Noord car park and opening it to groups other than commuters through exemptions or permits would be an effective way to meet the agreements, so that P+R travellers use the NS facility on the west side of the station. This describes the 2013 to 2017 position and may be out of date."
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "[Verkeersbesluit Instellen parkeerschijfzone, Boxtel 6 juni 2017, 2 pages] Signs E10zb/E11ze with sub-sign 'ma t/m do 09.00-18.00h, vr 9.00-21.00h, zat 9.00-17.30h'; zone max 2 hours; streets include Stationsplein, Stationsstraat (Breukelsestraat to Parkeerterrein Zwaanse Brug), Prins Hendrikstraat, Parallelweg Noord; points 2-3 withdraw paid parking in Baroniestraat, Breukelsestraat, Stationsstraat, Stationsplein, Molenstraat and the permit zones in Stationsstraat and Prins Hendrikstraat. Hours were tied to the then paid-parking hours. The document is an old decision; today's hours are unverified (boxtel.nl returned 503 again on a polite retry on 21 October 2026), and the draft already says later changes were not checked."
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "[Gemeenteblad 2025, 128072] Decision signed 20 March 2025, Gemeenteblad of 25 March 2025: pedestrian zone Stationsstraat (Molenstraat to Prins Bernhardstraat), signs 'fietsen toegestaan' and 'laden en lossen toegestaan tussen 7.00-13.00 uur'; mopeds not allowed (recital); residents and businesses with parking on private land reachable only through the zone can get exemptions; also a 12 m length ban. Note it is a decision to set up the zone (the street 'wordt heringericht'); the page does not confirm the signs or the rebuilt street are in place."
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "[Q-Park page, fetched 21 Oct 2026] Page title 'Parkeren bij Q-Park P+R Van Salmstraat | Boxtel': Salmstraat, 5281 RS Boxtel; Parkeerplaatsen 193; opening 24-7 for arrival and departure; 'De tarieven konden helaas niet geladen worden'; traveller discount for a domestic rail trip checked in at another station and leaving the same day. Wrong: it is the page of one facility, not a Boxtel city page that 'lists one facility'; it shows P+R Spoorlaan under 'garages nearby' (a different facility). Undated live page: date 2026-10, read 21 October 2026.",
+   "corrected_text": "Q-Park's page for P+R Van Salmstraat (Salmstraat, 5281 RS Boxtel), read on 21 October 2026, shows 193 spaces, open 24/7 for arrival and departure, and a traveller discount for same-day domestic train journeys. The tariff section did not load, so no current price was read.",
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "[RDW NPR open data, static record 87657efe-..., JSON] Operator 'Nederlandse Spoorwegen', capacity 193, tariffs '0,77 per uur' and '5,41 per dag' open-ended since 28 May 2021 (timestamps 1622209187/1622209194), before that 'gratis parkeren' in May 2021. RDW index: staticDataLastUpdated 1733981525 = 12 December 2024 - confirmed. A second record 'P+R Salmstraat (Boxtel)' (77dae242-...) names Q-Park Nederland BV, limitedAccess true, last updated April 2021 - confirmed. The draft's inference that the NS operator entry conflicts with the Q-Park page is fair. Live open-data page: per the brief the date should be 2026-10 (the 12 Dec 2024 date is the record's last update) and the text should say the record was read on 21 October 2026 (it does). The tariff figures are 2021 data and are not evidence of the current price.",
+   "corrected_text": "The national parking register (NPR) open data, read on 21 October 2026, holds two records for the Van Salmstraat P+R: one naming Nederlandse Spoorwegen as operator with 193 spaces and a tariff of 0.77 euros per hour and 5.41 euros per day since May 2021 (index shows the record last updated on 12 December 2024), and a second, older limited-access record naming Q-Park Nederland (last updated April 2021). The tariffs are old and the operator entry does not match Q-Park's own page, so neither should be taken as the current price or operator.",
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "[Amendement Gebiedsvisie Stationsomgeving, 1 page PDF] Dated for the raad meeting of 10 December 2024, signed PvdA-GroenLinks (Mirjam Bemelmans, Miek Nooijen). Considerations: 'het P+R terrein van Salmstraat zou ontwikkeld kunnen worden tot een woon-werk toren en (ondergrondse) parkeergarage'. Decision: add to the text on page 33 ('Deze kansen spelen in het centrum vooral in de stationsomgeving van Boxtel...') that an integrated area vision for the station surroundings, front and back of the station, be developed 'op korte termijn'. That quoted passage is in the Omgevingsvisie, so the amendment was to the Omgevingsvisie draft, not to an existing 'area vision'. The adopted Omgevingsvisie (Gemeenteblad 2025, 108246) shows that passage without the added sentence, though it announces area programmes for the station area; this suggests, but does not prove, that the amendment was not adopted. Outcome of the vote not found; the draft already says so.",
+   "corrected_text": "On 10 December 2024 the PvdA-GroenLinks group submitted an amendment, titled 'Gebiedsvisie Stationsomgeving', to the draft Omgevingsvisie for the council meeting of that day. It proposed adding that an integrated area vision for the station surroundings, on both the front and back of the station, be developed in the short term, and its considerations say the Salmstraat P+R site could be developed into a live-work tower with an underground car park. This was a proposal only; the outcome of the vote was not found."
+  }
+ ],
+ "corrected_summary": "Boxtel is a small Noord-Brabant town where street parking in the paid area is charged at 0.21 euros per 12 minutes (about 1.05 euros an hour) for the first two hours and 0.41 euros per 12 minutes after that, under the 2026 parking-tax ordinance adopted on 4 November 2025 (the same rates applied in 2024 and 2025). Permits range from 129 to 478 euros a year depending on type and area, with the cheapest tied to residents of part of the area. A two-hour parking-disc zone was set around the station and in Breukelen-Zuid and the centre west of the Dommel by a 2017 decision (weekday hours 9.00-18.00, Friday to 21.00, Saturday to 17.30), and a 2025 council programme still says a blue zone around the station keeps out long-stay train travellers, but current zone hours could not be checked because boxtel.nl was unavailable. The 2025 environment vision and mobility programme state intentions for a car-light centre, parking moved towards the edges and the station developed into a regional mobility hub. A parking-norms note published on 23 January 2026 uses the lowest national norms for new housing near the station and lets centre developers who cannot provide parking on their own land pay 10,000 euros per missing space into a municipal accessibility fund. A March 2025 decision set up a pedestrian zone in part of the Stationsstraat. The park-and-ride at Van Salmstraat (193 spaces, open 24/7) appears on Q-Park's website, while the national open-data register still carries a 2021-era record naming NS with a tariff of 0.77 euros an hour and 5.41 euros a day, which should not be read as the current price. A survey from October 2016 found no overall shortage in the centre but a distribution problem at busy moments, and no newer published utilisation figures were found. On 21 September 2026 the municipality designated 48 charging-only bays in Boxtel and Liempde under a Vattenfall contract concluded by the provinces of Noord-Brabant and Limburg. A December 2024 council amendment suggesting a tower with an underground car park at the Salmstraat P+R was only a proposal and its outcome is unknown."
+}

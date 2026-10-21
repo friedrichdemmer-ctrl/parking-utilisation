@@ -1,0 +1,110 @@
+{
+  "items": [
+    {
+      "index": 0,
+      "verdict": "supported",
+      "note": "Zone bleue page (tourcoing.fr, read 21 Oct 2026): 'gratuit', limited to 1 hour from arrival, 9h-12h and 14h-19h, Monday to Saturday, except public holidays. Page metadata dateModified is 2026-03-19, matching the draft."
+    },
+    {
+      "index": 1,
+      "verdict": "partly",
+      "note": "Free resident and professional cards, application to the Voirie (roads) service and 'sous quinze jours ouvrables' are all on the zone-bleue pages (the professional card is on the parent Zone bleue page, not the resident-card page). But 'proof of address less than 3 months old' is too strong: the card page accepts a taxe d'habitation, a lease, a utility bill less than 3 months old, or a payment schedule; only the utility bill carries the 3-month limit. The card page also requires a vehicle registration document (carte grise) updated to the address in the zone, which the draft omits. Resident-card page metadata dateModified is 2026-04-01.",
+      "corrected_text": "Residents living in the regulated blue-zone area can get a free resident parking card; traders, craftspeople and professionals with premises in the zone can get a free professional card. Applications go to the town hall roads (Voirie) department. For the resident card the city asks for a signed application form, the vehicle registration document updated to the address in the zone, and proof of address (a housing tax notice, a lease, a utility bill less than 3 months old, or a payment schedule). The city says it replies within 15 working days of receiving the file.",
+      "corrected_date": "2026-04"
+    },
+    {
+      "index": 2,
+      "verdict": "supported",
+      "note": "Page text reads: 137 places supplementaires ont ete recemment creees; 2 321 places (en surface et en structure); stationnement gratuit a duree limitee avec zone bleue; Espace Saint-Christophe shops give 1h30 free with any purchase (4h for the cinema). The figures are NOT dated on the page: only 'recemment'. The same sentence appears on the city's Transports page (published 14 Aug 2025), and this page was published 18 Aug 2025, last modified 1 Apr 2026, so the count was in place by Aug 2025 at the latest but its real date is unknown. Keep the wording 'the city says ... recently', do not present 2,321 as a 2026 count."
+    },
+    {
+      "index": 3,
+      "verdict": "supported",
+      "note": "Page lists open-air blue-zone car parks Grand'Place, Place de la Resistance (behind Saint-Christophe church), Rue Nationale, Place du Theatre, Hotel de Ville; covered: Espace Saint-Christophe, Hotel de Ville (rue de la Bienfaisance), Gare Tourcoing, plus links labelled 'Onepark - Parking Tourcoing' and 'Parking Indigo Tourcoing'. The page names no operators itself; the draft correctly says 'links labelled'. Note: Onepark appears here but not in the MEL operator list."
+    },
+    {
+      "index": 4,
+      "verdict": "supported",
+      "note": "MEL page table (read 21 Oct 2026) lists 25 public car parks; Tourcoing rows: 'Hotel de ville - Centre / Rue de la Bienfaisance', 'Miss Cavell / Avenue Allende', 'St Christophe / Rue des Anges', all operator INDIGO. The three operators named are EFFIA, INDIGO and Ville Renouvelee (SEM VR); Effia rows are all Lille, SEM VR rows all Roubaix (Indigo also runs several Lille car parks, which does not contradict the draft). The page is undated; only the tariff block carries a date (1 July 2025), so the operator list should be dated 2026-10 as read on 21 October 2026.",
+      "corrected_date": "2026-10"
+    },
+    {
+      "index": 5,
+      "verdict": "supported",
+      "note": "MEL page tariff block headed 'Tarifs parcs et stationnement au 1er juillet 2025': INDIGO NEO 'Avec abonnement 0,29 EUR/kWh ; 0,45 EUR/kWh occasionnel ; sans carte INDIGO 0,55 EUR/kWh' (Effia 0.40 EUR/kWh + 1.50 EUR access; SEM VR 0.20 EUR/kWh). Prices are correctly dated 1 July 2025. Minor points: the page's operator column says 'INDIGO' and the tariff row says 'INDIGO NEO' so equating them is the draft's reading; the page does not say these are the prices in force in October 2026. Page undated, so item date should be 2026-10 (with the 1 July 2025 price date kept in the text).",
+      "corrected_date": "2026-10"
+    },
+    {
+      "index": 6,
+      "verdict": "supported",
+      "note": "MEL page: Ilewatt 'en cours de deploiement depuis juillet 2024', 'pres de 900 points de recharge dans pres de 300 lieux dedies' (future, 'dans les prochains mois'); 'Actuellement 12 parkings P+R disposent de bornes', 'Environ 175 points de recharge sont actuellement mis a disposition, et a terme pres de 280'. All as drafted. Undated page, so the 'currently' statuses are as of the read on 21 October 2026 and may be stale; item date should be 2026-10.",
+      "corrected_date": "2026-10"
+    },
+    {
+      "index": 7,
+      "verdict": "partly",
+      "note": "MEL ZFE page (read 21 Oct 2026): ZFE 'applies from 1 January 2025 within the 95 communes of the MEL' (and the structuring road network A1, A25, A22, A27, A23, N227, N356, N41, N47); Crit'Air sticker required permanently 24/7; ban on 'Non Classes' vehicles registered before 1 January 1997; '6 290 vehicles in 2025'. Problems: (1) 'only ... are barred' is the draft's inference; the page does not say nothing else is barred, and it lists exemptions (motorised two/three-wheelers, disabled-badge vehicles, collector vehicles, etc.) and derogations (under 8,000 km a year, Pass Pass subscribers, etc.); (2) the page is undated and written partly in future tense (implementation 'prevue au 1er janvier 2025', 'cela concernera 6 290 vehicules en 2025', controls 's'effectueront'), so 6,290 is a forecast; (3) nothing on the page tells us the zone's legal status in October 2026 (national ZFE law was in flux; a search snippet only, not verified), so state it as the MEL page's account. The other MEL page 'Se deplacer en voiture' also says ZFE-m in place since 1 January 2025.",
+      "corrected_text": "The MEL's low-emission zone (ZFE-m) is presented by the MEL as applying from 1 January 2025 across all 95 MEL communes (Tourcoing included) and the main motorway network. A Crit'Air sticker is required at all times, and the ban targets unclassified vehicles registered before 1 January 1997 (the MEL estimated about 6,290 such vehicles in 2025). Motorised two- and three-wheelers and several categories of vehicle are exempt, and derogations exist. The page is undated and was read on 21 October 2026.",
+      "corrected_date": "2026-10"
+    },
+    {
+      "index": 8,
+      "verdict": "supported",
+      "note": "MEL 'Se deplacer en voiture' page: aims to promote 'un usage raisonne de la voiture' under the 'Plan de Deplacements urbains 2010>2020'; '12 Parcs-Relais (soit 5500 places de parkings)' spread across the metropolis, 'a proximite immediate d'une station de metro, d'un pole d'echanges bus ou d'une gare TER'. Matches the draft. Caveat: the 5,500 figure is undated and the page text is legacy (it still cites the 2010-2020 plan), so it should be treated as an undated MEL figure; the draft already says so."
+    },
+    {
+      "index": 9,
+      "verdict": "supported",
+      "note": "MEL bornes page: P+R 'exclusivement reserves aux clients ilevia ou TER grace au systeme Pass Pass'; entry freely accessible, exit controlled, need a ticket validated the same day on the ilevia network; 'n'entraine pas de frais supplementaires'. As drafted. Page undated: item date should be 2026-10 (read 21 October 2026).",
+      "corrected_date": "2026-10"
+    },
+    {
+      "index": 10,
+      "verdict": "supported",
+      "note": "City Transports page (published 14 Aug 2025, modified 6 Oct 2025): metro line 2 stations Bourgogne, Pont de Neuville, Phalempins, Colbert, Tourcoing Centre, Gare de Tourcoing, Mercure; tram line T 'Tourcoing Centre - Gare Lille Flandres' with 4 stops in Tourcoing; 25 V'Lille stations, 200 bikes; 2 Lilas Autopartage stations (Tourcoing Centre on place de la Resistance, Tourcoing Mairie rue Paul Doumer). All as drafted."
+    },
+    {
+      "index": 11,
+      "verdict": "partly",
+      "note": "City station-district page (modified 13 Oct 2025) says '+ de 2 000 voyageurs' pass daily through the station and 'pres de 25 000 voyageurs [par semaine], soit 3 500 voyageurs par jour' as a potential from long-distance trains; it calls for a multimodal exchange hub, lists 40 parking spaces in the Halle redevelopment (2020 stage) and says the P+R works end in summer 2021 with opening in September 2021. The wording is faithful, but all of this is text from about 2020-2021 (it refers to services added in September 2016), so the 2,000 and 3,500 figures are old, not current traffic; the page never confirms the P+R opened or its capacity. (Separately, the MEL Extramobile FAQ lists an existing P+R Gare de Tourcoing with 222 places and Pont de Neuville with 40.)",
+      "corrected_text": "The city's station-district project page (last modified October 2025, but written around 2020-2021) says more than 2,000 travellers passed through Tourcoing station daily at the time of writing and cites a potential of about 3,500 a day (derived from long-distance train services), and sets out the aim of a multimodal exchange hub. Its 2020-2021 timeline lists 40 parking spaces in the Halle site redevelopment and a park-and-ride whose works were to end in summer 2021, with opening planned for September 2021. The page does not confirm the opening or the capacity."
+    },
+    {
+      "index": 12,
+      "verdict": "partly",
+      "note": "MEL Extramobile page (undated, read 21 Oct 2026) says: new north-south line Neuville-en-Ferrain - Tourcoing - Roubaix - Hem, tram T extended Tourcoing Centre - Gare de Tourcoing, tram R extended Eurotéléport - Wattrelos ('Une infrastructure, trois lignes'); 5 communes, 38 stations, 20.5 km of infrastructure to create, 60,000 trips a day estimated at commissioning; DUP (public utility declaration) signed, environmental authorisation to follow, 'horizons envisages' 2033 for the north-south axis and 2035 for the east-west axis (Roubaix - Wattrelos). Corrections: 38 stations / 20.5 km are for the whole three-line project, not the Neuville-Hem line alone; 2035 is the Roubaix-Wattrelos axis. NOT on this page: street-space reallocation, one-way streets, removed on-street parking, residents' parking preserved. Those come from the separate MEL FAQ page (lillemetropole.fr/faq-tramway-du-pole-metropolitain-roubaix-tourcoing), which says parking on some axes will be reduced and reorganised and 'selon les etudes' traffic may be one-way on rue Jules Guesde; it does not literally say residents' parking is preserved. If the caller wants that content it needs the FAQ URL as source and a rewording.",
+      "corrected_text": "The MEL's Extramobile programme plans a tramway project for the Roubaix-Tourcoing area: a new north-south line Neuville-en-Ferrain - Tourcoing - Roubaix - Hem, an extension of tram line T from Tourcoing Centre to Gare de Tourcoing, and an extension of tram line R from Eurotéléport to Wattrelos (38 stations and 20.5 km of new infrastructure for the whole project). The prefectoral declaration of public utility has been signed and an environmental authorisation is still to come. The MEL page gives envisaged commissioning horizons of 2033 for the north-south axis and 2035 for the east-west axis (Roubaix - Wattrelos). It is a plan, not built. The page is undated and was read on 21 October 2026.",
+      "corrected_date": "2026-10"
+    },
+    {
+      "index": 13,
+      "verdict": "partly",
+      "note": "Same MEL page: it says 'Des poles d'echanges multimodaux et aires relais seront creees' so all users can benefit, and gives '60 000 voyages par jour estimes a la mise en service'. NOT on this page: 'existing hubs may be reinforced', 'new ones created near the new lines' and 'park-and-ride and parking supply to be sized after a needs analysis'. Related content exists elsewhere on MEL pages: the sectors page mentions the Pont de Neuville hub being reinforced; the FAQ lists four new aires relais with targeted capacities (60+40+30+50 places, 'premiere estimation') plus existing P+R Pont de Neuville (40) and Gare de Tourcoing (222), 'quelques 450 places' in all. Those would need their own source URLs.",
+      "corrected_text": "The same MEL page says multimodal exchange hubs and park-and-ride areas (aires relais) will be created so that all users can benefit from the tramway project, and it estimates 60,000 trips a day at commissioning (a forecast). It gives no parking capacities. The page is undated and was read on 21 October 2026.",
+      "corrected_date": "2026-10"
+    },
+    {
+      "index": 14,
+      "verdict": "partly",
+      "note": "Cited page (published 1 June 2024, modified 23 Mar 2026): 3.6 km of boulevard, 420 new trees, 11 km of secure cycle lanes, cost 20 million EUR with 15 million from the MEL and 5 million from the city; 'Un maintien des capacites de stationnement pour les automobilistes' among the advantages; works over 4 years; says the city 'comptera bientot' these. The July 2025 start and the 950 m section are NOT on the cited URL; they are on another tourcoing.fr page (travaux-de-voiries/requalification-du-boulevard-industriel/, modified 1 Apr 2026), which says 'Demarrage previsionnel des travaux : Juillet 2025', starting with tronçon 3 (Chaussee Denis Papin / Fernand Forest), about 950 m. That is a provisional start date now in the past; the page does not confirm it began. Add that URL as a second source if the claim is kept.",
+      "corrected_text": "The city's page on the Boulevard Industriel green belt (published 1 June 2024) describes 3.6 km of planted boulevard, 420 new trees and 11 km of cycle lanes, at a cost of 20 million EUR of which 15 million is paid by the MEL and 5 million by the city, with works over four years. It lists maintained car-parking capacity for motorists among the project's advantages."
+    },
+    {
+      "index": 15,
+      "verdict": "supported",
+      "note": "City home page (dateModified 2026-10-13, read 21 Oct 2026): 'manege d'automne sur la Grand Place du 21 octobre au 1er novembre de 14h a 21h ... Un parking temporaire sera installe sur le parvis Saint-Christophe.' The year is 2026 (the same page dates other items 16 Oct 2026 and 31 Oct 2026). Wording: 'manege d'automne' is an autumn fairground ride/carousel, 'funfair' is a slight stretch; the text is fine as 'autumn fairground attraction'."
+    },
+    {
+      "index": 16,
+      "verdict": "supported",
+      "note": "City open-data page points to https://www.data.gouv.fr/organizations/ville-de-tourcoing (page published 22 May 2025, modified 1 Oct 2025). I checked the data.gouv.fr API for that organisation: 15 datasets (subsidies 2024 and 2025, sports facilities, cycle network, polling stations, QPV, schools, districts, AGEC declaration, cycle parking, play areas, dog-waste bins, trees, local address base, council deliberations) and no car-park occupancy dataset; this absence claim is therefore the verifier's check on 21 Oct 2026, not something the city page says."
+    },
+    {
+      "index": 17,
+      "verdict": "partly",
+      "note": "Tourcoing page: 'La MEL realisera une enquete sur les deplacements quotidiens a partir du 13 novembre 2024 et jusqu'en avril 2025' under the title 'Enquetes Mobilite Certifiees CEREMA'; an attached letter is labelled 'Enquete EMC2 Madame le Maire'. The page is written as an announcement (future tense), so the draft's 'ran' states more than the page says; 'household' and 'Cerema method' are the draft's reading (page says daily travel, certified Cerema surveys). No results shown, as the draft says.",
+      "corrected_text": "A Tourcoing city page announced that the MEL would carry out a daily-travel survey from 13 November 2024 to April 2025 (the page is titled certified Cerema mobility surveys, and the attached letter is labelled EMC2). The page shows the announcement only, with no results."
+    }
+  ],
+  "corrected_summary": "Tourcoing says on-street parking in its centre is free but time-limited under a blue zone (1 hour from arrival, 9:00-12:00 and 14:00-19:00 Monday to Saturday except public holidays), with free resident and professional cards, and the city says the centre has 2,321 parking spaces on the surface and in structures after 137 were recently added (the page gives no date for these figures). The Métropole Européenne de Lille (MEL) lists the three large centre car parks (Hôtel de Ville, Miss Cavell and Saint-Christophe) as operated by Indigo, and publishes electric-vehicle charging prices for Indigo car parks as of 1 July 2025 (0.29, 0.45 and 0.55 EUR/kWh depending on subscription). The MEL says its low-emission zone applies from 1 January 2025 across all 95 communes with a Crit'Air sticker required and a ban on unclassified vehicles registered before 1 January 1997, and that it runs 12 park-and-rides with 5,500 spaces (an undated figure). The centre is served by metro line 2 and tram line T, and the city's station-district page, written around 2020-2021, describes a planned multimodal hub with a park-and-ride due to open in September 2021 without confirming it. The MEL's Extramobile project plans a new Roubaix-Tourcoing tramway with envisaged commissioning in 2033 (north-south) and 2035 (east-west) and a tram T extension to the station; it is a plan, not built. The city's home page, read on 21 October 2026, announces an autumn fairground attraction on the Grand Place from 21 October to 1 November 2026 with a temporary car park on the Saint-Christophe forecourt."
+}

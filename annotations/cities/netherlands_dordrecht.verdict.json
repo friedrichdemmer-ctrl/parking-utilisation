@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "CVDR754215 (Verordening op de heffing en de invordering van parkeerbelastingen Dordrecht, 'Geldend van 01-01-2026 t/m heden'): preamble cites the college proposal of Tuesday 11 November 2025; signed 'vastgesteld in de openbare vergadering van 16 december 2025'; art. 12: in force 1 January 2026; art. 11 withdraws the Verordening parkeerbelastingen Dordrecht of 26 November 2024. All as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "CVDR754215 Bijlage I Tarieventabel: A1 per hour zone 1A 4.90, 2A 3.60, 2B 3.10, 3 3.10, 4 2.10, 5 3.10, 6 3.10; A4 zone 1B day card (24 consecutive hours) 39.20; A3 zone 7 1.00 for the first 24 hours then 0.50 per hour. Ordinance in force from 1 Jan 2026. Matches the item exactly. The ordinance itself has no zone map text (Bijlage II is a map), so which streets are in which zone is not verified.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "CVDR754215 Tarieventabel: A7 and A9 1.60 for first 40 minutes then 9.80 per hour; A8 1.60 then 6.20 per hour (on road sections named in art. 2 of the Besluit CVDR749214); A5 visitor scheme 0.60 per hour with max top-up 115.00 per calendar year; D1 naheffingsaanslag 82.00. All as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "CVDR749214 (Besluit aanwijzing plaatsen en tijdstippen parkeerbelasting Dordrecht, geldend van 01-01-2026): signed by the college 2 December 2025, in force 1 January 2026. Art. 2 lid 1: Mon-Sat 09:00-22:00 and Sun 12:00-17:00 in the area enclosed by the listed boundary streets; lid 3-4: Prinsenstraat-Voorstraat-Steegoversloot-Spuihaven area, payment capped at one day at a time. The item gets the outer-street hours wrong: lid 6 and 7 charge Mon-SATURDAY 09:00-18:00 (not weekdays), only lid 11 (Leerpark streets, Prof. Kohnstammlaan etc.) charges Mon-Fri 09:00-16:00; lid 2 (Rie Mastenbroekweg, Karel Lotsyweg, south side Overkampweg) is charged Mon-Sun 09:00-22:00. Art. 3: no charge on New Year's Day, Easter Sunday, Whit Sunday and Christmas Day; the second holiday days and Ascension count as Sundays. The phrase 'surrounding districts' is not on the page, which defines the area by boundary streets (Oude Maas, Weeskinderendijk, railway lines, Noordendijk, Wantij etc.).",
+   "corrected_text": "Under the college decision signed on 2 December 2025, in force 1 January 2026, paid parking runs Monday to Saturday 09:00-22:00 and Sunday 12:00-17:00 in the area enclosed by the Oude Maas, Weeskinderendijk, the railway lines, Noordendijk and the Wantij, with some exceptions. Parking tax in the Prinsenstraat-Voorstraat-Steegoversloot-Spuihaven area is capped at one day at a time. Some outer streets are charged only Monday to Saturday until 18:00 and some Leerpark streets only Monday to Friday 09:00-16:00, while a few streets (Rie Mastenbroekweg, Karel Lotsyweg, south side of Overkampweg) are charged Monday to Sunday 09:00-22:00. New Year's Day, Easter Sunday, Whit Sunday and Christmas Day are free.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "CVDR754215 Tarieventabel B2/B8/B11: bewonersvergunning per half year area A 84.08 (first) and 249.12 (second), area B 42.04 and 84.08; B11 first bewoners garagevergunning 180.00; B8 first zakelijke vergunning 264.32, second 528.51. All as written (permit period is a half year, art. 1 'half jaar').",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2026 nr. 7331, 6 januari 2026 (7-page PDF, all pages read), Nadere regels Parkeerverordening Dordrecht: art. 6 lid 2 max. two bewonersvergunningen per zelfstandige woning; lid 8: a second permit is issued only if the sector maximum from the Besluit aanwijzing maximaal aantal vergunningen has not been reached, otherwise the application goes on a sector waiting list by date of receipt. Rules decided by the college 11 November 2025, in force 1 January 2026 (art. 22); 6 January 2026 is the publication date. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "TenderNed 404682 PDF 'Aanbestedingsleidraad Parkeergarage Spuihaven v1.0' (37 pages), dated 10 december 2025, status Definitief. Section 1.1: 'gemeente Dordrecht is voornemens de parkeergarage Spuihaven te slopen en te vervangen door een nieuwe parkeergarage met 726 parkeerplaatsen'; the old garage is dated and cannot be extended to the number of spaces wanted for surrounding housing; part of the Spuiboulevard area development. Item correctly words it as intention. It is a tender document, so this is a plan, not a delivered project.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Same tender guide, section 1.2 milestone table and budget section: demolition phase starts 1 April 2027; construction of the new garage starts 1 October 2027; 'gebruiksklare oplevering' 2 October 2028; target budgets (taakstellend budget) EUR 600,000 for demolition incl. asbestos removal and EUR 25,338,000 for construction, excluding insurance, price increases, extra costs, VAT. All numbers match and the item words them as planning and target budgets. Caution: these are tender-stage dates from December 2025; the same guide plans the building-team contract for 10 July 2026 and the outcome is unknown, so dates may have moved and the item must stay a plan.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "TenderNed document 'Nota van inlichtingen 2 d.d. 16 februari 2026' (1 page): Q5 request to lower the 400-space reference requirement is refused ('Hier gaat de aanbestedende dienst niet mee akkoord', requirement kept; the guide asks for a garage with at least 400 spaces); Q7: the pile-foundation standard was revised (NEN 9997-1:2025), earlier foundation assumptions 'niet toereikend', costs to be re-estimated and the target budget for the realisation 'mogelijk bijgesteld'. Item wording ('may be adjusted') is accurate. Implication: the 25,338,000 target in the December 2025 guide may have been revised later.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "CVDR760677 (Nadere regels laadinfrastructuur elektrische voertuigen in de openbare ruimte Dordrecht, geldend van 15-04-2026 t/m heden): signed 'vergadering van dinsdag 17 maart 2026'; art. 4: concession to a CPO, regular posts and fast chargers placed at existing parking bays; art. 6 charging bays not exempt from paid or permit parking; art. 2 rules do not apply to garages, P+R and other municipal car parks; art. 15 separate plan map for fast chargers (>22 kW per point, art. 1 m). Matches. These are placement rules, not a count of installed posts.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "CVDR749215 (Besluit aanwijzing maximaal aantal vergunningen Dordrecht, version 'Geldend van 01-01-2026 t/m 30-06-2026', decided 11 November 2025): art. 2 lid 2 sector maxima A 2,380, D 800, G 960, H 1,375 (also B 210, C 570, DA 63, DD 90, E 700, F 550, L 250, W 16); lid 3: 50 autodeel permits; lid 4: no new second permits to residents and businesses in sectors A, B, C, D and DD. All as written. The decision expired on 30 June 2026; the item states the period correctly but the second-half-2026 ceilings were not read, so the sentence must not be read as current on 21 October 2026.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "CVDR730367 version from 11-03-2026 (Beleidsregels parkeren bij nieuwbouwprojecten Dordrecht, decided 3 December 2024; art. 8: in force 1 January 2025): art. 3 lid 2h zero norm for autoluw gebied/voetgangerszone; lid 14 table 1: Dordrecht CS -20% at 500 m (as-the-crow-flies walking distance), -10% at 1,000 m. Lid 16, however, only allows a 5% reduction where a mobility concept approved by the college ('First and Last Mile on Wheels') relies on P+R or a mobility hub and the project is within 1,500 m of P+R Weeskinderendijk, Energiehuis or Gezondheidspark. The item states the 5% as a plain reduction without that condition. Also the page lists these three as the P+R locations only for this reduction rule, it is not a general municipal list of P+R sites.",
+   "corrected_text": "The college's rules on parking for new buildings (decided 3 December 2024, version in force from 11 March 2026) apply a zero parking norm in the pedestrian and low-traffic area of the old centre. They also allow reductions for nearby public transport, for example minus 20 percent within 500 metres (as the crow flies) of Dordrecht Centraal. A further 5 percent reduction is allowed only for projects with a mobility concept approved by the college that relies on park and ride or a mobility hub, and that lie within 1,500 metres of the Weeskinderendijk, Energiehuis or Gezondheidspark park-and-ride sites.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "CVDR627558 (Verordening ontheffingen autovrij gebied Dordrecht, 'Geldend van 01-04-2020 t/m heden', decided 10 September 2019, in force 1 April 2020, art. 9). Definitions of voetgangerszone, autoluw gebied and knip are correct. Art. 3 venstertijden: Mon/Tue/Wed/Fri 00:00-11:00 and 17:00-24:00, as in the item, but they are open to anyone (art. 1 o: 'eenieder') for loading and unloading goods or letting passengers on and off, not only delivery vehicles; also Thursday 00-11 and 21-24, Saturday 00-11 and 18-24, Sundays and holidays 00-12 and 17-24. The ordinance's main purpose is exemptions (ontheffingen) for residents, businesses and works. Read 21 October 2026 and 'geldend t/m heden' - dated wording fine.",
+   "corrected_text": "The ordinance on exemptions for the car-free area, in force since 1 April 2020 and read on 21 October 2026, defines a pedestrian zone, a low-traffic area closed to motor vehicles and cut-off points in the centre. In set time windows anyone may drive into the low-traffic area to load or unload goods or to let passengers on or off: Monday, Tuesday, Wednesday and Friday 00:00-11:00 and 17:00-24:00, Thursday 00:00-11:00 and 21:00-24:00, Saturday 00:00-11:00 and 18:00-24:00, and Sundays and public holidays 00:00-12:00 and 17:00-24:00.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Gemeenteblad 2025, 241918 ('Algemene parkeervoorwaarden voor het gebruik van de gemeentelijke parkeergarages en parkeerterreinen Dordrecht'): metadata published 2025-06-04, decided 6 May 2025, in force the day after publication. Art. 2/parkeerovereenkomst: agreement is between the gemeente and the parkeerder; art. 11 15 minutes to leave after payment; art. 10 leaving without payment forbidden; art. 19 subscription at least 3 months; art. 9 lid 3 tariffs shown at the entrance, the pay machines and on the municipal website. Wrong detail: 'barrier-controlled car parks' comes from the title of the withdrawn 2022 version ('door slagbomen afgesloten parkeerterreinen', art. 32); the 2025 terms cover municipal garages and car parks (parkeerlocatie = parkeergarage en/of parkeerterrein) without the barrier wording.",
+   "corrected_text": "The municipality itself is the contracting party for its car parks. The general parking terms decided on 6 May 2025 and published on 4 June 2025 cover the municipal garages and car parks, require payment before leaving with 15 minutes to leave afterwards, set subscriptions at a minimum of 3 months, and say tariffs are shown at the entrance, at the pay machines and on the municipal website.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "NPR open data (npropendata.rdw.nl/parkingdata/v2 plus the per-facility static records, fetched 21 October 2026, 14,991 facilities nationally, 16 Dordrecht-related). Capacities and operators match: Spuihaven 514, Energiehuis 326, Sportboulevard 626, Riedijkshaven 46 (operator 'Dordrecht'); Veemarkt 560 (operator 'Dordrecht'); Visstraat 172 and Terrein Maasplaza 400 (APCOA Parking); Drievriendenhof 440 (operator 'P1'). Problem: the Garage Veemarkt record has validityEndOfPeriod 27 June 2022 (all its tariffs end 2022), i.e. the register itself marks it as no longer valid, which the item does not say, although its list entry was touched on 9 Dec 2025. The register also lists Terrein Gezondheidspark (572 spaces, operator Dordrecht) and P+R Energiehuis/Weeskinderendijk/Stadspolders (operator Dordrecht, no capacity). Self-reported data of mixed age.",
+   "corrected_text": "In the national NPR open-data register (read 21 October 2026) the municipality is listed as operator of the garages Spuihaven (514 spaces), Energiehuis (326), Sportboulevard (626) and Riedijkshaven (46), and of the Gezondheidspark lot (572). Veemarkt (560) is also listed under the municipality, but its record is marked as valid only until 27 June 2022. Visstraat (172) and the Maasplaza lot (400) are listed under APCOA Parking and Drievriendenhof (440) under 'P1'. The register is operator-reported and of mixed age.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "NPR static records read 21 October 2026. Charge points match: Spuihaven 2, Riedijkshaven 1, Energiehuis 5, Sportboulevard 4, Drievriendenhof 3 (Veemarkt 0). Tariffs: Spuihaven '1,89 per uur' valid from 14 July 2020 (no end date) and Energiehuis '1,65 per uur' from 16 December 2020 are correct. But 'mostly date from 2020' is inaccurate: Sportboulevard (1.70 per hour, day maximum 17.00) dates from 18 Dec 2013, Drievriendenhof (1.00 per 28 min) from 22 July 2014, Visstraat from 2016, Energiehuis has a newer day maximum of 16.48 from 12 Dec 2024, Veemarkt tariffs ended in 2022. They span 2013-2024. The cautious reading (probably not current) is right.",
+   "corrected_text": "The NPR register (read 21 October 2026) shows only a few charge points inside the city-centre garages: 2 at Spuihaven, 1 at Riedijkshaven, 5 at Energiehuis, 4 at Sportboulevard and 3 at Drievriendenhof. Its garage tariff entries are old and of mixed age: for example 1.89 euros per hour at Spuihaven, valid from 14 July 2020, and 1.65 at Energiehuis from 16 December 2020 (with a day maximum of 16.48 from 12 December 2024), while the Sportboulevard and Drievriendenhof entries date from 2013 and 2014. They are probably not current prices.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "NPR records read 21 October 2026. Confirmed: P+R Markettenweg (Markettenweg 50) capacity 148, operator Nederlandse Spoorwegen, '24/7', tariffs '1,51 per uur' and '7,40 per dag', list entry staticDataLastUpdated 12 Dec 2024; second entry operator Q-Park, 138 spaces, limitedAccess true, last updated 19 April 2021. Corrections: both NS tariffs are dated from 15 June 2021, which the item presents without a date; and 'the municipality's own list of park-and-ride sites' was not read (dordrecht.nl returned 426 on a retry, not worked around). The only support is the new-build rule CVDR730367 art. 3 lid 16, which names Weeskinderendijk, Energiehuis and Gezondheidspark for a reduction; that is not a P+R list and does not contradict an NS-run Markettenweg site. The NPR itself also lists P+R Weeskinderendijk, P+R Energiehuis and P+R Dordrecht Stadspolders (operator Dordrecht, no data). 'Behind the station' in the summary is not on any source read.",
+   "corrected_text": "The NPR register (read 21 October 2026) lists P+R Markettenweg (Markettenweg 50) with 148 spaces, operator Nederlandse Spoorwegen, open 24/7, and tariff entries of 1.51 euros per hour and 7.40 euros per day valid from 15 June 2021 (possibly out of date); its static data was last updated on 12 December 2024. A second, older Markettenweg entry (138 spaces, Q-Park, limited access) was last updated in April 2021. Dordrecht's new-build parking rules name Weeskinderendijk, Energiehuis and Gezondheidspark as park-and-ride sites, and the register also lists P+R entries for Weeskinderendijk, Energiehuis and Stadspolders under the municipality, without capacity or tariffs.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "NPR record 3d3c049e-7602-4866-aafb-db51054658e4 'ZE Zone Dordrecht': validityStartOfPeriod 1 July 2026, specification usage 'Zero Emissie Ontheffingen', operator name 'Nederland', no capacity, no access points, no tariffs, no restrictions; list entry updated 17 June 2026. The item states exactly this and hedges ('apparently', no municipal source found). Low value: the record proves only that an entry exists, not that a zero-emission zone is in force; keep it clearly marked as unconfirmed or leave it out.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Dordrecht's paid parking is set by the Verordening parkeerbelastingen (council decision of 16 December 2025, in force 1 January 2026), with street tariffs of 2.10 to 4.90 euros per hour by zone, a 39.20 euro day card in one zone, and charging Monday to Saturday 09:00-22:00 and Sunday 12:00-17:00 in the central area enclosed by the Oude Maas, Weeskinderendijk, the railway lines and the Wantij, with shorter hours on some outer streets. Resident permits are rationed per sector with waiting lists (ceilings for 1 January to 30 June 2026 are set by college decision, and no new second permits are issued in sectors A, B, C, D and DD), and the new-build parking rules apply a zero norm in the pedestrian area. According to the national parking register (operator-reported, partly outdated), the municipality operates the centre garages Spuihaven, Energiehuis, Sportboulevard and Riedijkshaven itself, while P+R Markettenweg is registered under NS with 2021 tariffs. The municipality's tender documents of December 2025 describe a plan to demolish the Spuihaven garage (planned start 1 April 2027) and replace it with a new garage of 726 spaces, planned for handover on 2 October 2028, with target budgets that may be revised; the outcome of the tender is not known. Rules for public EV charging were updated and have been in force since 15 April 2026, providing for posts at existing bays under a concession with a charge-point operator."
+}

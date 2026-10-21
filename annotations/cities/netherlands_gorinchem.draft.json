@@ -1,0 +1,165 @@
+{
+ "country": "Netherlands",
+ "city": "Gorinchem",
+ "researched": "2026-10-21",
+ "summary": "Gorinchem's walled centre is regulated almost entirely by paid parking run by the municipality itself: the Kweeklust and Kazerneplein garages, the outer car parks Paardenwater, Buiten de Waterpoort and Bagijnenwal, and well over 2,000 street spaces. Tariffs were raised sharply on 1 January 2025 (about 40 percent, to 3.22 euros per hour in streets and 1.93 euros in the garages) and again slightly for 2026 (3.32 and 2.00 euros), with paid hours extended to Sundays; in 2024 parking earned the municipality a surplus of about 1 million euros. The 2021-2025 parking programme aimed at a maximum 80 percent street occupancy, frozen first resident permits and more evening use of the garages, and recorded night-time street occupancy above 90 percent. The P+R Stationsweg (127 spaces) next to the railway station is listed with NS as operator and marketed by Q-Park rather than run by the municipality; councillors said in 2025 that the large Q-Park facility is usually not used, while the station area is planned for redevelopment with housing under a low parking norm. Neighbourhood EV charging bays are being added, and no published occupancy statistics for the centre garages were found.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The municipal parking ordinance for Gorinchem (version in force from 25 December 2025, page read on 21 October 2026) carries a 2026 tariff table: 2.00 euros per hour in the Kweeklust and Kazerneplein garages, 3.32 euros per hour for other streets inside the ramparts, 4.16 euros per hour at Groenmarkt / Achter de Kerk, and 1.66 euros per hour on the outer car parks (Paardenwater and Buiten de Waterpoort, capped at 4.98 euros per day).",
+   "source_title": "Parkeerverordening gemeente Gorinchem 2021 (current version, tariff table 2026)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR664931",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Under the same ordinance (read 21 October 2026) the municipality issues residents', business, visitor, temporary-works and all-areas permits for at most one year. The first resident permit costs 98.60 euros per year, a second one 505.70 euros per year, and a business permit for one plate 629.55 euros per year; the visitor scheme costs 0.61 euros per hour.",
+   "source_title": "Parkeerverordening gemeente Gorinchem 2021 (current version, tariff table 2026)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR664931",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-12-10",
+   "text": "On 10 December 2024 the executive board designated the paid-parking areas and times (published 2 January 2025): in the lower town (Benedenstad) paid parking runs 10:00-22:00 Monday to Saturday and, newly, 12:30-17:00 on Sundays; the upper town (Bovenstad) runs 10:00-24:00 every day; the garages 10:00-17:00 (Thursday until 20:00) and Sunday 12:30-17:00. Public holidays New Year's Day and both Christmas days are free; this 2025 notice may since have been revised.",
+   "source_title": "Aanwijzingsbesluit parkeerapparatuurplaatsen, Gemeenteblad 2025, 2052",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-2052.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-12-24",
+   "text": "A written council question from D66 (24 December 2024) described the tariff rise from 1 January 2025 as a regular 10 percent index plus an extra 30 percent, taking street parking from 2.30 to 3.22 euros and garages from 1.38 to 1.93 euros per hour. It cited extra revenue of about 1 million euros a year, a letter of concern from the city-centre traders' association Hartje Gorkum, and asked the executive to explore a park-and-ride on the edge of town.",
+   "source_title": "Schriftelijke vragen D66: Parkeren in de binnenstad wordt fors duurder",
+   "source_url": "https://gorinchem.bestuurlijkeinformatie.nl/Document/View/725fa196-f1d8-4b2f-9047-50df660a4bd9",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-09-19",
+   "text": "At a council theme session on 19 September 2024 the municipality showed 2024 parking revenue of about 2.61 million euros (2.20 million from machines in streets and garages, 0.31 million permits, 0.10 million fines) against about 1.59 million euros of costs, leaving a surplus of about 1.02 million euros. It said there are well over 2,000 street spaces in the centre and that the garages are run by the municipality as a VAT-liable economic activity.",
+   "source_title": "Themasessie kosten en opbrengsten parkeren binnenstad (presentation, 19 September 2024)",
+   "source_url": "https://gorinchem.bestuurlijkeinformatie.nl/Document/View/24fc768e-e209-42dc-99ee-110efd699f87",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-09-19",
+   "text": "The same presentation compared private garages in Gorinchem: Q-Park at the NS station charged 1.53 euros per hour (travellers 2.50 euros per day), the events hall 10 euros per parking action and a hotel 35 euros. It also compared 2024 tariffs with Tiel, Gouda and Dordrecht (garages 1.50-2.00 euros per hour elsewhere against 1.38 euros in Gorinchem).",
+   "source_title": "Themasessie kosten en opbrengsten parkeren binnenstad (presentation, 19 September 2024)",
+   "source_url": "https://gorinchem.bestuurlijkeinformatie.nl/Document/View/24fc768e-e209-42dc-99ee-110efd699f87",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-04-15",
+   "text": "On 15 April 2025 the municipality published a traffic decision (dated 8 April 2025) designating extra EV charging bays next to existing charge points at four neighbourhood sites (Kruithoorn in Hoog Dalem, Anna Blamanstraat in Laag Dalem, Arkelse Onderweg and Van Hoornestraat in Lingewijk), citing the National Agenda Charging Infrastructure.",
+   "source_title": "Gemeenteblad 2025, 161789: aanwijzen parkeerplaatsen voor het opladen van elektrische voertuigen",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-161789.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2021-03-30",
+   "text": "The city's Parkeerprogramma binnenstad 2021-2025 (document of 30 March 2021, under the Mobiliteitsvisie 2040) aimed for at most 80 percent average occupancy of centre street spaces, keeping paid parking as the regulation tool, and freezing new first resident permits; it recorded night-time street occupancy above 90 percent, locally over 100 percent, in the southern parts of the upper and lower town. It is an older plan; later programme versions were not found.",
+   "source_title": "Bijlage 1: Parkeerprogramma binnenstad Gorinchem 2021-2025 (version 1.3)",
+   "source_url": "https://gorinchem.bestuurlijkeinformatie.nl/Document/View/37322381-27fd-4b65-b2b6-40e19b7d5013",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2021-03-30",
+   "text": "The same 2021 programme counted 830 resident permits in the upper town (832 street spaces) and 959 in the lower town (674 street spaces, plus access to the two garages, 1,382 spaces in total), and noted that the outer car park Bagijnenwal was structurally above 80 percent occupied in the evening while Paardenwater had room.",
+   "source_title": "Bijlage 1: Parkeerprogramma binnenstad Gorinchem 2021-2025 (version 1.3)",
+   "source_url": "https://gorinchem.bestuurlijkeinformatie.nl/Document/View/37322381-27fd-4b65-b2b6-40e19b7d5013",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2021-03-30",
+   "text": "According to the 2021 programme the centre has two barrier garages (Kweeklust and Kazerneplein, pay on exit) and three outer car parks without barriers (Buiten de Waterpoort, Bagijnenwal, Paardenwater, pay in advance). Its stated measures included expanding Kweeklust, studying an expansion of Bagijnenwal, opening Kazerneplein to residents in the evening, a parking guidance system, garage occupancy monitoring and digital permits.",
+   "source_title": "Bijlage 1: Parkeerprogramma binnenstad Gorinchem 2021-2025 (version 1.3)",
+   "source_url": "https://gorinchem.bestuurlijkeinformatie.nl/Document/View/37322381-27fd-4b65-b2b6-40e19b7d5013",
+   "confidence": "medium"
+  },
+  {
+   "topic": "ev",
+   "date": "2021-03-30",
+   "text": "The 2021 programme estimated a need for 95 public charge points in Gorinchem, capped per quadrant inside the historic centre because of the high parking pressure, and proposed a car-sharing pilot (shared cars were then offered by Visscher2Go).",
+   "source_title": "Bijlage 1: Parkeerprogramma binnenstad Gorinchem 2021-2025 (version 1.3)",
+   "source_url": "https://gorinchem.bestuurlijkeinformatie.nl/Document/View/37322381-27fd-4b65-b2b6-40e19b7d5013",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The national parking open-data register (NPR, read 21 October 2026) lists the P+R Stationsweg at Stationsweg 21 with 127 spaces, no charge points, open 24/7, operator given as Nederlandse Spoorwegen, with a static tariff record of 1.46 euros per hour and 6.69 euros per day (the static record was last updated in December 2024, so the tariff may be out of date).",
+   "source_title": "RDW NPR open data: P+R Stationsweg (Gorinchem), static record",
+   "source_url": "https://npropendata.rdw.nl/parkingdata/v2/static/1840ed29-74ce-46fc-8265-85c7c69c1acb",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-06-26",
+   "text": "In the council committee session of 26 June 2025 on the station-area framework, one councillor asked what would happen to the large Q-Park facility at the station that 'is usually not used', and another suggested investigating why so little use is made of the P+R options; these are councillors' remarks, not measurements.",
+   "source_title": "Parallelsessie Beraad & Advies, Uitgangspunten Stationsgebied, 26 juni 2025 (summary report)",
+   "source_url": "https://gorinchem.bestuurlijkeinformatie.nl/Document/View/e5f8a521-a14f-4718-ba86-cecc508a5ae9",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-06-26",
+   "text": "The same session discussed a draft framework for redeveloping the station area (part of the 'Vleugels van de stad' transformation, a 2,000-home indicative target across three sub-areas) with the lowest possible parking norm for homes and offices and possible double use of station parking for the city centre; the VVD group wanted active talks with Q-Park and NS so that the P+R function stays in balance. The Banneweg / roundabout redesign would remove some parking places.",
+   "source_title": "Parallelsessie Beraad & Advies, Uitgangspunten Stationsgebied, 26 juni 2025 (summary report)",
+   "source_url": "https://gorinchem.bestuurlijkeinformatie.nl/Document/View/e5f8a521-a14f-4718-ba86-cecc508a5ae9",
+   "confidence": "medium"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12-16",
+   "text": "The council adopted the 4th amendment of the Parkeerverordening on 16 December 2025 (published 24 December 2025), with the 2026 tariff table applying from 1 January 2026 and the supplementary assessment (fine) for non-payment raised from 78.80 to 82.00 euros. Compared with the 2025 designation decision, the garage rate rose from 1.93 to 2.00 euros and street parking from 3.22 to 3.32 euros per hour.",
+   "source_title": "Gemeenteblad 2025, 565271: 4e wijziging Parkeerverordening gemeente Gorinchem 2021",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-565271.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12-01",
+   "text": "In December 2025 the municipality published new exemption rules for the access-restricted city centre: a pedestrian zone (Groenmarkt, Grote Markt, Hoogstraat and 12 other streets), a pedestrian area at Buiten de Waterpoort and a low-traffic street (Westwagenstraat). Exemptions are granted only for immediate loading and unloading, drop-off of people who cannot walk, or reaching a private parking space, as day, temporary or annual passes issued per licence plate.",
+   "source_title": "Gemeenteblad 2025, 518285: Ontheffingenbeleid stadstoegangen 2025",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-518285.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Q-Park's website (read 21 October 2026) lists P+R Stationsweg, Stationsweg, 4205 AA, as its only facility in Gorinchem: 127 spaces, open 24/7 with licence-plate recognition, bicycle parking and disabled bays, and a traveller discount for a domestic train trip returning the same day; the tariff block did not load on the page.",
+   "source_title": "Q-Park P+R Stationsweg Gorinchem",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/gorinchem/p-r-stationsweg/",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-11-11",
+   "text": "In November 2025 the municipality published a traffic decision for the reconstruction of Banneweg and Stationsweg between the Beatrix hospital and the station square: new cycle paths, a bus lane on Stationsweg, a new Banneweg-Mollenburgseweg roundabout, and removal of the Stadhuisplein car park connection to roundabout De Kom (access moved to Banneweg). The decision mentions adjacent car parks but gives no space counts.",
+   "source_title": "Gemeenteblad 2025, 485418: Diverse verkeersmaatregelen Banneweg, Mollenburgseweg en Stationsweg",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-485418.html",
+   "confidence": "high"
+  }
+ ],
+ "gaps": [
+  "https://www.gorinchem.nl/parkeren and other gorinchem.nl pages returned HTTP 503 on 21 October 2026, so the municipal parking pages (garage capacities, subscriptions, permit rules, P+R information) could not be read.",
+  "https://www.mooigorinchem.nl (Kweeklust garage page) was offline (maintenance notice) when fetched.",
+  "Garage capacities (Kazerneplein, Kweeklust), garage operator details beyond the municipal-run statement and the current garage tariffs on the street were only found on listing portals (centrumparkeren.nl), which are not used as support.",
+  "No 2026 designation decision (paid-parking hours and areas) was found; the hours in the items come from the December 2024 decision (Gemeenteblad 2025, 2052), which may have been revised.",
+  "Council papers for the 2026 tariff decision (raadsvoorstel Dec 2025) and any evaluation of the 2025 tariff rise, answers to the D66 questions, the outcome of the Kweeklust garage expansion, the parking guidance system and any new parking programme after 2025 could not be found: the iBabs council portal lists are loaded dynamically and no further web searches were possible (search budget exhausted).",
+  "No occupancy or utilisation statistics for the centre garages or the P+R were found in official documents; the only statements are councillors' remarks (June 2025) and the 2021 programme's occupancy findings.",
+  "EV charging: only the April 2025 traffic decision for four neighbourhood sites was found; no figures on charge points in the garages or the centre, and the NPR record lists no charge points at the P+R.",
+  "The Q-Park P+R Stationsweg page did not load its tariff block, and no official NS or Q-Park tariff for 2026 could be confirmed; the NPR tariff is a December 2024 static record.",
+  "Station-area redevelopment: the council decision adopting the framework (after the 26 June 2025 committee session) and any plan for the P+R site were not found.",
+  "Low-emission or environmental zones: no source found (none appears to exist in Gorinchem; not confirmed).",
+  "Local press (AD/Gorcums nieuws) was not searched or read."
+ ]
+}

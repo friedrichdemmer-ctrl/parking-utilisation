@@ -1,0 +1,108 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "CVDR750785 (read 21 Oct 2026, 'Geldend van 19-12-2025 t/m heden'): adopted in the council of 11 December 2025, heffing date 1 January 2026; Bijlage 1 gives centre 1,90 per hour (units of 10 cent), longer than 4:45 hours calendar-day rate 9,00; station west half day 2,50, whole day 5,00 (half day = half of the paid hours that day). All figures match."
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Same page: tariff 3.1/3.2 = 105 (art. 3(3)(a)-(b); zone permits also 105), 3.3 = 378 (art. 3(3)(c) or (e)), 3.4 social institutions 51, 3.5 klusbus permit 105; art. 10 naheffing 83,90; art. 4 disabled card exempt at machines; art. 11 no kwijtschelding. All as stated. Minor context: 378 is the general (c)/(e) rate, but the (e) sub-categories social institution (51) and klusbus (105) are cheaper. Zone permits (3.2) were 49 euros in 2025 and are 105 in 2026, which the draft does not mention."
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "CVDR733567/1 ('Regeling vervallen per 01-01-2026', valid 2025 only, council 19 Dec 2024): centre 1,80 per hour, 'Langer dan 5 uren' day rate 9,00, station west 2,50 half day / 5,00 whole day, permit 3.1 = 102. 1.90/1.80 = +5.6 percent, so 'about 6 percent' is fair. Note the 2025 zone permit was 49 and 2026 is 105, so the permit change is not uniformly small."
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "CVDR754356/1 (Tarievenbesluit, 'Geldend van 01-01-2026 t/m heden', college 18 Nov 2025): short stay 1,90 per hour, max day 7,00; abonnement 5/7 40 per month, 7/7 60 per month; paid hours Mon, Tue, Wed, Fri 9-20, Thu 9-21, Sat 9-20, Sundays and national holidays free; short-stay entry 5:00-22:00. All correct. However, '(1.80 in 2025)' is not on this page. (I found it on a different official page, CVDR733582/1, which shows 1,80 per hour and 7,00 from 4 hours for 2025, but it is not the cited source, so it is removed from the corrected text.)",
+   "corrected_text": "The municipality itself sets the tariffs for its Geerts Willigenplein garage in the centre (college decision of 18 November 2025, in force 1 January 2026): short stay 1.90 euros per hour with a 7.00 euro daily maximum, and subscriptions of 40 euros per month (Mon-Fri) or 60 euros per month (7/7). Paid hours are 9:00-20:00 (Thursday to 21:00, Sunday and national holidays free) and short-stay entry is open 5:00-22:00."
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2023, 115323 (college 14 March 2023, Z.23.393803; art. 4: in force 15 March 2023). Art. 1 designates centre and 'schil' streets for paid and permit parking; art. 2: Mon-Fri 9-20, Thursday to 21:00, Saturday 9-20, Sundays and national holidays free; art. 3: cash, bank card or phone login. Matches. The decision text itself does not say it is still in force; see item 5 for that."
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Same Gemeenteblad: art. 1.2 lists zones VN1, VN2, SG1, SG2, NH1, NH2 (permit-only); art. 2.2 permit hours Mon-Fri 9-17 for VN1/VN2/NH1/NH2 and Mon-Sat 9-17 for SG1/SG2; NH1 'Beugel' says 'M.u.v. P&R parkeerterrein aan de westzijde NS-station'; 'station' area lists 'Beugel: parkeerterrein gelegen tussen station en Beugel 1 t/m 175'. In-force check (flagged point): I read lokaleregelgeving.overheid.nl/CVDR693590 on 21 Oct 2026: 'Aanwijzingsbesluit parkeren 2023, Geldend van 15-03-2023 t/m heden'; the SRU register lists no later Heerenveen aanwijzingsbesluit (2021 version ended 2023-03-15). Claim confirmed. Caveat: the 2026 tariff ordinance (art. 9) delegates designation to the college, so the 2023 decision remains the designation instrument."
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2026, 57015 (published 10 Feb 2026): adopted in the council of 29 January 2026; art. 5: 6.318 / 12.636 / 18.954 per space for low/middle/high housing and 12.636 for other uses (prijspeil januari 2026); art. 2 and 7: municipality builds the bought-out spaces within ten years, otherwise refund; art. 3: centre, 500 m walking distance to Burgemeester Kuperusplein and/or Geerts Willigen garage. Matches. Note the draft says 'ordinance' correctly; the Verordening replaces a council decision of 24 October 2024 and the buy-out is indexed yearly."
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2025, 418408 (published 29 Sep 2025; decision established 22 September 2025): parking ban with sign E1 and 'parkeren verboden van vr. 22.00 t/m za 19.00' on the northern part of BK-plein; market moves because Sieversstraat/Gemeenteplein/Wettertoer is unusable from end of October 2025; text calls the plein 'een belangrijke parkeergelegenheid voor bezoekers' and says ample space remains in Geerts Willigen, Veldschans and Abe Lenstraboulevard. Matches. The market arrangement is described as temporary."
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "NPR JSON (npropendata.rdw.nl, read 21 Oct 2026): name 'P+R Stationsplein (Heerenveen)', capacity 144, usage P+R, chargingPointCapacity 0, operator Nederlandse Spoorwegen, Stationsplein 12; 14 tariff entries '1,14 per uur' and '9,02 per dag'. The facts are right. But all tariff entries and the record date from 14-15 June 2021 (timestamps), which the draft does not say, and the inference that 'the register entry may be out of date' because it differs from the municipal west-station rates is unsupported: nothing in the record shows it is the same facility as the municipal 'westzijde station' tariff area (the 2023 designation lists a separate 'P&R parkeerterrein aan de westzijde NS-station'). Live open-data page: date 2026-10, read 21 October 2026.",
+   "corrected_text": "The national parking open-data register (NPR, static record read on 21 October 2026) lists P+R Stationsplein (Stationsplein 12) as a 144-space park-and-ride operated by Nederlandse Spoorwegen, with no charging points and tariff entries of 1.14 euros per hour and 9.02 euros per day, all entered in June 2021. The record does not say whether it is the same facility as the area covered by the municipal west-of-station rates of 2.50 / 5.00 euros in the 2026 ordinance, so the two are not compared here and it is not known which is current.",
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "ruimtelijkeplannen.nl PDF 'Dynamische parkeerbalans Centrum-Oost Heerenveen' (signed WdH 11-10-2022): 560 spaces for visitors and permit holders; March 2022 parking pressure survey, Saturday afternoon busiest, 407 occupied = 73 percent; Schilwijk Oost 21 of 69 occupied = 30 percent; at 90 percent occupancy the supply is 'volledig benut', above it too much search traffic. Matches (407/560 = 72.7). Single-day count from 2022 for the eastern centre only."
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "The page (Raadsvoorstel Aanvullend krediet parkeergarage BK Plein, Z.22.380040 / D.24.1756979) says: 'Op zaterdagmiddag is de bezettingsgraad van parkeerplaatsen nu al meer dan 90%, en dat resulteert in extra zoekverkeer', based on 'recente tellingen' (no count date, area or method given, and it conflicts with the 73 percent of the March 2022 survey for the eastern centre; the draft's 'of the centre's parking' is an interpretation), and 'minstens 2.000 woningen tot 2030'. Errors: (1) the draft's 'January 2024' is not on the page; the document lists a WoonFriesland letter of 1 March 2024 as annex, mentions the Perspectiefnota 2024, and the PDF was created 20 March 2024, so it is at least a later version than January 2024 (a web search showed a committee item scheduled for 11 January 2024, so there may be earlier versions). (2) 'greening of three squares (30-60 percent of surface spaces lost)' misreads the text: the page says the three squares are greened 'tussen de 30% - 60%', not that 30-60 percent of spaces are lost. The page also holds the 14.7 to 24.1 million credit proposal and the nearly one-year delay (used in the corrected text).",
+   "corrected_text": "A council proposal for an extra credit for the Burgemeester Kuperusplein garage (Z.22.380040; the page is undated but lists a letter of 1 March 2024 as an annex) asks the council to continue building the underground garage of about 350 spaces and to add 9.4 million euros of credit, raising the total investment from the 14.7 million euros approved in December 2022 to 24.1 million euros (a binding ceiling), and reports a delay of almost a year. It says the three squares (Burgemeester Kuperusplein, Ernst van Harenplein, Gashoudersplein) are to be greened by between 30 and 60 percent, that the parking spaces lost must be absorbed in the garage, that recent counts show Saturday-afternoon occupancy of parking spaces already above 90 percent with extra search traffic (no count date or area is given, and the figure is higher than the 73 percent found in the March 2022 eastern-centre survey), and that housing growth of at least 2,000 homes to 2030 will raise parking pressure further. The page does not show whether the council approved it.",
+   "corrected_title": "Raadsvoorstel Aanvullend krediet parkeergarage BK Plein (Z.22.380040, 2024, undated page)",
+   "corrected_date": "2024"
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "The cited URL (2ebc57c5..., Z.22.380040 / D.22.1588873, PDF created 23 Nov 2022, ahead of the December 2022 decision) is the 2022 proposal, not a January 2024 paper. On this page: two-level garage of about 350 spaces instead of a one-level 250-space garage, credit 14.700.000 (about 42.000 per space), Verlengde Veldschans ('een idee ... zo'n 150 parkeerplaatsen' on the plan map) and Molenplein Zuid, design basics including Laadpalen, kentekenherkenning and fietsparkeren. Correct. Not on this page: council backing in December 2022, the 9.4 million extra credit and 24.1 million total, the year of delay (these are on the other raadsvoorstel e295fd2b, i.e. item 10's URL, and are placed in item 10's corrected text), 'I did not find the final decision' (first-person research note, not publishable) and the date 2024-01. Wording should also say 'proposal', not decision.",
+   "corrected_text": "A college proposal to the council (Z.22.380040, document created November 2022) proposed an underground two-level garage of about 350 spaces under Burgemeester Kuperusplein instead of the one-level 250-space garage in the centre vision, for an investment credit of 14.7 million euros (about 42,000 euros per space), saying this would give about 100 extra spaces and more room for greenery on the surface. It also proposed extra parking at Verlengde Veldschans (a plan-map idea of about 150 spaces) and Molenplein Zuid, and listed charging points, number-plate recognition and bicycle parking among the design basics.",
+   "corrected_title": "Raadsvoorstel Parkeren & inrichting openbare ruimte centrumontwikkelingen Heerenveen (Z.22.380040, November 2022)",
+   "corrected_date": "2022-11"
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Gemeenteblad 2026, 61839 (published 10 Feb 2026, 'eerste publicatie'): 'De gemeenteraad heeft op 13 mei 2025 de Gebiedsvisie A32 ... vastgesteld'; the existing parking regime 'zal worden uitgebreid tot aan de A32', P6 'gratis toegankelijk', 'In totaal worden ruim 2.000 parkeerplaatsen verbeterd' (P2 redesigned, P6 and P8 improved), P6/P8 not optimally used because of 'matige bereikbaarheid en inrichting', P6 'nu hoofdzakelijk tijdens evenementen' used, 'Instellen betaald parkeren Sportstad' under tertiaire prioriteit. Problems: (1) the lots P3 and P9 'komen te vervallen' but only P9 is explicitly compensated by 'een nieuw, groter parkeerterrein direct ten zuiden'; the draft says both are replaced by one larger lot, which overstates. (2) The second half (October 2025 mobility programme: sharp demand rise during top-sport matches, transferium or mobility hub at Abe Lenstra station and/or event station IJsstadion near Thialf) is not in this document; it is in gmb-2025-469488 (section 4.1.3, read and correct there, but a different URL). Wording is an intention, as the draft says. Also the document is internally inconsistent: it says there is currently no parking regulation in Sportstad but also refers to an existing regime up to Karst de Jongweg.",
+   "corrected_text": "On 13 May 2025 the council adopted the Gebiedsvisie A32 (published 10 February 2026) for the area around Sportstad. It states intentions rather than measures in force: extend the existing paid-parking regime up to the A32 and make the east-side lot P6 free and redesigned so that visitors use it; improve over 2,000 spaces in total (P2 redesigned, P6 and P8 improved); and let the lots P3 and P9, which lie on development sites, disappear, with P9 compensated by a new, larger lot directly south of it. P6 and P8 are said to be underused because of poor access and P6 is mainly used during events at the Abe Lenstra stadium. Introducing paid parking in Sportstad is listed only as a tertiary priority."
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2025, 469488 (30 Oct 2025), Omgevingsprogramma Mobiliteit, section on Parkeervoorzieningen: visitors are stimulated to use 'Parkeergarage Geerts Willigen en de nog te bouwen Parkeergarage Burgemeester Kuperusplein', 'door het straatparkeren duurder te maken dan het parkeren in de parkeergarages', gradually reducing street spaces, 'geen sprake van directe afname van parkeercapaciteit, maar enkel van verschuiving'; new developments in the centres (Heerenveen and Akkrum) must park on own site, use central facilities or use the Mobiliteitsfonds; the 350 underground spaces are mentioned elsewhere in the document. Matches. Stated as policy intent. Cross-check: in the 2026 tariffs the centre street rate and the garage hourly rate are both 1.90 per hour (street day rate 9.00 against garage maximum 7.00), so the 'more expensive' aim is not yet visible in the hourly rates; the page itself does not say when the document was adopted by the council (published 30 Oct 2025)."
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Same Gemeenteblad, section Meer prioriteit energietransitie en elektrische voertuigen: 'in de afgelopen 3 jaar fors gestegen, bijna een verdrievoudiging'; 'laadpalen gestegen naar 80 openbare locaties met in totaal 200 beschikbare laadpunten'; delays in placing posts and a grid 'tegen zijn grens aan loopt'; aim of 'voldoende en strategisch geplaatste laadpalen, onder andere bij winkelcentra, parkeergarages, woonwijken en vervoersknooppunten'. Matches. The figures are given without a precise reference date (chart source 'Allecijfers 2022-2025')."
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Heerenveen Lokaal technical questions (iBabs ID 172; received 7-8-2024, answers due 21-8-2024; PDF created 8 Oct 2024): about 75 public regular AC charging locations on municipal land (28 Total Energies, 18 Allego, 28 Park'n'Charge), seven expected shortly, 17 requests pending; concession holder places posts up to 1 December 2025 and operates until 1 December 2032; CPO price August 2024 Total Energies 0,35 per kWh incl. VAT, Allego 0,82. All matches. The 2025 mobility programme (item 14) gives 80 locations, consistent."
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "sc-heerenveen.nl stadium visit page (undated, read 21 Oct 2026): lists P3, P5A, P6 (a parking card is needed for these three, single match or season), the free carpool spot Plein Noord near McDonald's about 20 minutes' walk, paid parking in the centre, and the station about 20 minutes' walk from the stadium. Overstated: the page does not say that all supporters parking in residential streets will be strictly checked; it says many supporters park in residential areas, that they must observe the parking rules, and that police with the municipality will check strictly for wrong parking (foutparkeren: parks, bends, crossings). It is the club's own page, not a municipal source. P3 is planned to disappear under the Gebiedsvisie A32.",
+   "corrected_text": "The club's visitor page (read on 21 October 2026) lists the stadium lots P3, P5A and P6, which need a single-match or season parking card, the free carpool site Plein Noord (about 20 minutes' walk), and paid parking in the centre. It notes that many supporters park in residential areas, tells them to follow the parking rules, and says police and the municipality will check strictly for wrongly parked cars during the season. It says the station is about a 20 minute walk from the stadium.",
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "Newsletter Programma Centrum Heerenveen (PDF created 19 Dec 2024; page itself undated, so 2024-12 is inferred): Molenplein Zuid works 'inmiddels afgerond'; Verlengde Veldschans to be made permanent, about 150 spaces, two phases, works 'naar verwachting medio februari 2025', 3 to 4 months with the lot unavailable; information meeting on 9 January 2025. Correct. Error: the two extra charge posts (four connections) are announced under the heading 'Kernwinkelgebied' for 'de bestaande laadvoorziening' (location not named, not Veldschans), not 'there' at Veldschans. These are plans from December 2024; the status in October 2026 was not checked.",
+   "corrected_text": "A programme newsletter issued ahead of a 9 January 2025 information meeting reported that the Molenplein Zuid parking works were finished and that the Verlengde Veldschans was to be made permanent with about 150 spaces in two phases, with works expected from mid-February 2025 and the lot closed for 3-4 months. Under the core shopping area it separately announced that an existing charging facility (location not named) would get two extra charge posts (four connections), during or right after construction. These were plans as of December 2024; the page is undated and the PDF was created on 19 December 2024."
+  }
+ ],
+ "corrected_summary": "Heerenveen charges for parking in the centre Monday to Saturday (9:00-20:00, Thursday to 21:00, free on Sundays and national holidays). For 2026 the council set 1.90 euros per hour (9.00 euro day rate above 4 hours 45 minutes) on the street in the centre, up from 1.80 euros per hour (day rate above 5 hours) in 2025, and 2.50 / 5.00 euros per half / whole day on the west side of the station, unchanged; the municipal Geerts Willigenplein garage charges 1.90 euros per hour with a 7.00 euro daily maximum, with subscriptions of 40 or 60 euros per month. Annual permit fees are 105 euros for the standard permit categories (zone permits, which cost 49 euros in 2025, are also 105 euros in 2026) and 378 euros for another category. The 2023 designation decision remains listed as in force from 15 March 2023 in the national legislation database. A Mobility Fund ordinance adopted on 29 January 2026 lets developers in the centre buy out parking obligations for 6,318 to 18,954 euros per housing space, with the municipality obliged to build the spaces within ten years. The October 2025 mobility programme states the intention to steer visitors to the Geerts Willigen garage and the still-to-be-built Burgemeester Kuperusplein garage (350 underground spaces) by making street parking dearer than the garages, although the 2026 hourly rates are equal at 1.90 euros. A November 2022 council proposal put the Kuperusplein garage at 14.7 million euros, and a later 2024 proposal sought an extra 9.4 million euros (24.1 million in total) and reported almost a year of delay; the final decision was not found. A March 2022 survey of the eastern centre found 73 percent Saturday-afternoon occupancy (407 of 560 spaces), while the 2024 proposal says recent counts, undated and without an area, show more than 90 percent on Saturday afternoons. For Sportstad, the Abe Lenstra stadium and Thialf, the Gebiedsvisie A32 (adopted May 2025) states the intention to improve over 2,000 spaces, make lot P6 free and extend paid parking towards the A32, and the mobility programme floats a transferium or mobility hub at Abe Lenstra station and/or the IJsstadion event station. Public charging stood at about 80 locations and 200 charge points in 2025. The national register lists a 144-space P+R Stationsplein run by NS with tariffs of 1.14 euros per hour and 9.02 euros per day entered in 2021; it is not known whether this is the same facility as the municipal west-of-station tariff area, and no occupancy figures for it or the garage were found. The municipal website was offline when checked."
+}

@@ -1,0 +1,162 @@
+{
+ "country": "Netherlands",
+ "city": "Bergen op Zoom",
+ "researched": "2026-10-21",
+ "summary": "Bergen op Zoom (Noord-Brabant) charges for street parking in its historic centre under the Verordening parkeerbelastingen 2026, adopted on 13 November 2025 and effective 1 January 2026: 2.70 euros for the first two hours then 5.00 euros per hour in the core, 2.10 to 2.00 euros per hour in the surrounding squares and ring, and lower rates near the hospital, Plein XIII and the harbour; resident permits cost between 53 and 71 euros a year for the first car. The two centre garages, De Parade and Grote Markt, are described in council papers as less popular with visitors than the parking squares, and a council memo of October 2025 says De Parade suffers from falling occupancy, nuisance and nearby shop vacancies. The council funded an improvement of De Parade in March 2026 (works planned for 2027; a proposal of 2.58 million euros including a 1.0 million euro national subsidy), and policy documents point to a new Nota Mobiliteit 2025-2035 and parking norms, a possible parking hub near Mineurplein, shared-car and charging-point roll-outs in 2026, and the conversion of retail space to housing in the centre. No official source on the station park-and-ride at Parallelweg, on garage operators or on measured occupancy could be read, so the picture of actual utilisation is thin.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2025-11-13",
+   "text": "The council adopted the Verordening parkeerbelastingen Bergen op Zoom 2026 on 13 November 2025 (published 11 December 2025, levy effective 1 January 2026). Street tariffs by zone: Zone A (core inside the singels) 2.70 euros for the first 2 hours then 5.00 euros per hour; Zone B (Mineurplein, St. Catharinaplein, Korenmarkt, Pastoor Joorenplein) 2.10 euros per hour with a 13.50 euro day card; Zone C (ring around A) 2.00 euros per hour, 9.00 euro day card.",
+   "source_title": "Gemeenteblad 2025, 539473 - Verordening parkeerbelastingen Bergen op Zoom 2026",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-539473.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-11-13",
+   "text": "Further 2026 street zones: Zone E (Plein XIII and De Kaai/harbour, including the coach bay) 1.50 euros per hour, day card 7.50 euros; Zone D (streets next to Lievensberg hospital) 1.10 euros per hour, day card 5.00 euros; Zone F (around Bravis hospital) 12.00 euros per day only; Zone G (camper spaces on the Boulevard) 10.00 euros per overnight stay. The ordinance sets the amounts, while payment hours are set by a separate college designation decision that I did not read.",
+   "source_title": "Gemeenteblad 2025, 539473 - Verordening parkeerbelastingen Bergen op Zoom 2026",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-539473.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-11-13",
+   "text": "The 2026 ordinance sets resident permits per year of 71.40 euros (permit zone A, first permit), 60.60 euros (zone B), 62.40 euros (zone C) and 53.40 euros (zone D); a second or further resident permit costs 261.00, 246.00, 252.60 and 79.20 euros respectively. Business permits cost 523.80 euros (zone A), 426.60 (B), 438.00 (C) and 397.20 (D) per year; visitor permits cost 2.30 euros per day (1.30 in zone D).",
+   "source_title": "Gemeenteblad 2025, 539473 - Verordening parkeerbelastingen Bergen op Zoom 2026",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-539473.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-11-13",
+   "text": "The 2026 ordinance also sets subscription spaces in zone C (2.70 euros per day or 349 euros per year, Monday to Sunday) and zone D (same prices, Monday to Friday), and service permits for deliveries and repairers (2.50 euros per day, 43 euros per month, 501 euros per year). The parking-fine surcharge (naheffing) is 82.00 euros, wheel-clamp removal 168.65 euros, and no remission (kwijtschelding) is granted.",
+   "source_title": "Gemeenteblad 2025, 539473 - Verordening parkeerbelastingen Bergen op Zoom 2026",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-539473.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-10-06",
+   "text": "Garage De Parade sits in the multi-owner building Blok 6 and falls under a homeowners' association (VvE) in which the municipality holds no majority; the municipality is co-owner with Krabbegat Vastgoed. A council memo of 6 October 2025 says the garage suffers from falling occupancy, nuisance from unwanted persons and vacant shops around it.",
+   "source_title": "Bijlage 3 Memo Verbetering parkeergarage de Parade (6 October 2025)",
+   "source_url": "https://bergenopzoom.bestuurlijkeinformatie.nl/Document/View/fcea3dc0-c5b8-47cd-9898-4f971044d17f",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-10-06",
+   "text": "The council memo says De Parade is little used because of its poor access and limited social control, with fewer visitors and less need to park at this location in recent years; it gives no occupancy figures. The garage is described as one of the visitor parking locations of the inner city.",
+   "source_title": "Bijlage 3 Memo Verbetering parkeergarage de Parade (6 October 2025)",
+   "source_url": "https://bergenopzoom.bestuurlijkeinformatie.nl/Document/View/fcea3dc0-c5b8-47cd-9898-4f971044d17f",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-10-06",
+   "text": "The October 2025 proposal for refurbishing De Parade (widened car entrance and clearer signing, open stairs to the first floor, a lockable entrance on Sint-Josephstraat, renovation of the 2nd-level floor) is costed at 2.58 million euros, with 1.0 million euros from the national Impulsaanpak Winkelgebieden subsidy and 1.24 million euros municipal co-financing. This is a proposal in a council memo; it states the estimate carries a 20 percent margin and a co-ownership agreement with Krabbegat Vastgoed was still to be drawn up.",
+   "source_title": "Bijlage 3 Memo Verbetering parkeergarage de Parade (6 October 2025)",
+   "source_url": "https://bergenopzoom.bestuurlijkeinformatie.nl/Document/View/fcea3dc0-c5b8-47cd-9898-4f971044d17f",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-10-06",
+   "text": "The memo says the garage could be made more sustainable, for example with a solar carport that would allow extra charging points, but this was not yet costed and was left to the wider sustainability programme for municipal property.",
+   "source_title": "Bijlage 3 Memo Verbetering parkeergarage de Parade (6 October 2025)",
+   "source_url": "https://bergenopzoom.bestuurlijkeinformatie.nl/Document/View/fcea3dc0-c5b8-47cd-9898-4f971044d17f",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-06-26",
+   "text": "In answers to council questions of 26 June 2025 the executive said that 24-hour security in the De Parade building, hired by the VvE in 2023, was stopped in January 2024 because of high monthly costs. The pedestrian entrance now closes after the Jumbo supermarket closes at 21:00 (later when the gym opens, 23:00) and is then accessible only to parkers with a parking ticket, via QR code or licence plate.",
+   "source_title": "Antwoorden schriftelijke vragen overlast De Parade (26 June 2025)",
+   "source_url": "https://bergenopzoom.bestuurlijkeinformatie.nl/Document/View/4f3d77e4-91ba-4aae-a174-0184ac0a5161",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-04-23",
+   "text": "In a council communication of 23 April 2025 the executive announced that four older documents (Visie Verkeer en Parkeren 2012, Beleidsnota Parkeren 2013, Verkeersplan 2014, Nota Parkeernormering 2015) would be replaced by a new Nota Mobiliteit 2025-2035 and a new Nota Parkeernormering, drafted with Royal HaskoningDHV. The direction set out included smarter, area-based control of parking in the regulated area and a neighbourhood approach based on a parking survey.",
+   "source_title": "Raadsmededeling RMD25-0015 Nota Mobiliteit (23 April 2025)",
+   "source_url": "https://bergenopzoom.bestuurlijkeinformatie.nl/Document/View/d8ca3018-99f6-418f-b81b-7411492a959e",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-04-23",
+   "text": "The same communication says that for city-centre visits the De Parade garage and a possible new form of parking at Mineurplein should form the basis, and that more parking capacity would be pursued together with the housing programme. This was a consultation text, not a decision.",
+   "source_title": "Raadsmededeling RMD25-0015 Nota Mobiliteit (23 April 2025)",
+   "source_url": "https://bergenopzoom.bestuurlijkeinformatie.nl/Document/View/d8ca3018-99f6-418f-b81b-7411492a959e",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12-18",
+   "text": "On 18 December 2025 the council debated the Bergse Nota Mobiliteit 2025-2035 (RVB25-0077), a first amendment to the 2026 parking-tax ordinance, and a Nota Parkeernormen (RVB25-0078). Motions tabled asked the executive to investigate abolishing or compensating paid parking for disabled-card holders on regular spaces (they have paid since 2021) and to re-submit the parking norms with neighbourhood-level differentiation in Q2 2026; I did not read the vote outcome.",
+   "source_title": "Motie Toegankelijk en betaalbaar parkeren / Motie Parkeernormen Wijkgericht (18 December 2025)",
+   "source_url": "https://bergenopzoom.debatrijk.nl/documents/46/6288/documents/80574/Motie%20Parkeernormen%20Wijkgericht.pdf",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-12-07",
+   "text": "The concept Toekomstbeeld Binnenstad (7 December 2022, by Urhahn for the municipality and province) states that the two garages and several squares give enough visitor parking and that the aim is to reduce cars on the squares. Ideally all visitors park in the garages and as little as possible on the street; garages are to become parking hubs with shared cars, and an area near Mineurplein is named as search area for a new parking hub on the north side of the ring.",
+   "source_title": "Toekomstbeeld Binnenstad Bergen op Zoom (concept, 7 December 2022)",
+   "source_url": "https://sterck.bergenopzoom.nu/wp-content/uploads/2024/11/Bijlage-1-Visie-Binnenstad-2022.pdf",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2022-12-07",
+   "text": "The same concept vision says visitors currently like the two city-centre garages less than the parking squares, and that the garages could be used better by improving findability (Grote Markt garage) and accessibility (De Parade). It also says inner-city residents park on the street, on a square, in the Grote Markt garage, or outside the centre at Plein13 or De Kaai.",
+   "source_title": "Toekomstbeeld Binnenstad Bergen op Zoom (concept, 7 December 2022)",
+   "source_url": "https://sterck.bergenopzoom.nu/wp-content/uploads/2024/11/Bijlage-1-Visie-Binnenstad-2022.pdf",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-04",
+   "text": "A news item of April 2026 on the Sterck Bergen op Zoom city-centre programme website (not a council document; I could not confirm the site's owner) reports that at its meeting of 10 March 2026 the council made funding available for improving De Parade garage, with the works planned for 2027. The council's stated priorities are safe construction and routing, better flow at the entrances and exits, and a more attractive appearance.",
+   "source_title": "Aanpak Binnenstad Bergen op Zoom (news item, 2 April 2026)",
+   "source_url": "https://sterck.bergenopzoom.nu/wp-content/uploads/2026/04/2026-04-02-Nieuws_Aanpak-binnenstad-003.pdf",
+   "confidence": "medium"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-07-16",
+   "text": "A collective traffic decision of 16 July 2026 designates 1 or 2 public charging spaces each at seven residential-street locations in Bergen op Zoom and Halsteren (not the centre). It says the municipality uses charging-session and kWh data of existing posts to decide where to expand, and that it has a contract with a market party for public charging services.",
+   "source_title": "Verzamelverkeersbesluit laadplekken LG14072026 (decision of 16 July 2026)",
+   "source_url": "https://repository.officiele-overheidspublicaties.nl/externebijlagen/exb-2026-25409/currentItem",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-06-26",
+   "text": "A decision published in the Gemeenteblad on 26 June 2026 (LG24062026) reserves parking spaces for shared cars as part of a three-year Greenwheels pilot, citing the Bergse Nota Mobiliteit 2025-2035. Locations were chosen from CBS demographic data, car ownership, public-transport proximity and existing Greenwheels use.",
+   "source_title": "Gemeenteblad 2026, 306191 - Verzamelverkeersbesluit deelauto's LG24062026",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-306191.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-02",
+   "text": "The college's designation decision of 2022 (in force 1 February 2022; the national registry still lists it as valid when read on 21 October 2026) set paid-parking hours: Monday-Saturday 9:00-21:00 in the core zone A (with a 2-hour maximum stay) and zone B squares, Monday-Saturday 9:00-18:30 (Friday late opening to 21:00) in zone C, which includes Parallelweg and Stationplein, and in zone E (Plein XIII, De Kaai), and Monday-Friday 8:00-19:00 around the hospital. Because the 2026 ordinance has a different zone-A tariff structure (no 2-hour cap), these hours may since have been amended; I did not find a newer decision.",
+   "source_title": "Besluit tot aanwijzing plaatsen betaald parkeren 2022 (CVDR672709)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR672709/1",
+   "confidence": "medium"
+  }
+ ],
+ "gaps": [
+  "https://www.bergenopzoom.nl/parkeren - municipal parking pages returned a 'temporarily unavailable (security precaution)' notice on 21 October 2026; no municipal tariff or P+R page could be read.",
+  "P+R at the station (Parallelweg): no official or operator source found or read (capacity, tariff, operator, plans); only commercial listing pages (centrumparkeren.nl) mention it and were not used.",
+  "Operators of the garages De Parade and Grote Markt (VvE/municipality co-ownership of De Parade is documented, but not who runs the barrier system or Grote Markt) and garage tariffs: only commercial listings found, not used.",
+  "No occupancy count, parking survey or utilisation statement for the centre or P+R found; the council memo of 6 October 2025 gives no figures.",
+  "Bergse Nota Mobiliteit 2025-2035 and Nota Parkeernormen 2025 (RVB25-0077/0078): the documents themselves and the vote result of 18 December 2025 were not found/read; the motions' outcome is unknown.",
+  "Council proposal and decision of 10 March 2026 on funding for De Parade (only a secondary news item read); final budget unknown. Mineurplein parking hub: only mentioned as search area/possible, no project document found.",
+  "Current paid-parking hours and any later amendment of the 2022 designation decision (and of the 2026 ordinance, whose first amendment was on the 18 December 2025 agenda) not verified; the map annexes of the 2026 ordinance are images and were not read.",
+  "Low-emission or pedestrian-zone regulation, and any park-and-ride or EV-charging facts for the two centre garages: nothing found."
+ ]
+}

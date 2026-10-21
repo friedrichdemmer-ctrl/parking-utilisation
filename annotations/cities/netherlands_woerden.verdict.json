@@ -1,0 +1,185 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "[Verordening parkeerbelastingen 2026, CVDR749985/1] Page says valid from 01-01-2026, decided by the council on 27 November 2025 (voorstel d.d. 4 Nov 2025). Tariff table: zone 4400 max 180 min, 4401 max 30 min, 4404 max 120 min ('maximale aanmeldduur'), each 0.32 per 6 minutes (billed per minute); zone 4403 6.20 per hour 'of deel daarvan' up to a maximum of 24.80 per calendar day. 0.32 per 6 min = 3.20 an hour is simple arithmetic and is correct. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "[Gemeenteblad 2025, 571510] Published 30-12-2025 09:00; 'Aldus besloten op 9 december 2025'; art. 3: zones 4400/4401/4404 Mon-Sat 10.00-18.30, zone 4403 Mon-Sat 10:00-22:00; art. 7 table confirms the same hours; replaces 'Nadere voorschriften parkeren gemeente Woerden 2024 vastgesteld op 18 maart 2025'. The payment wording is looser than the page: art. 4 says payment is made in advance by giving the area code to a service provider 'telefonisch, of op een andere door de serviceprovider geaccepteerde methode', or (para 2) by electronic means (PIN/credit card/NFC) at the machine. The page never says 'phone app'. Corrected text uses the page's wording.",
+   "corrected_text": "The mayor and aldermen decided on 9 December 2025 (published in the municipal gazette on 30 December 2025) that paid parking applies Monday to Saturday 10:00-18:30 in zones 4400, 4401 and 4404 and 10:00-22:00 in zone 4403. Payment is made in advance by giving the area code to a parking service provider by phone (or another method the provider accepts), or by electronic means (debit or credit card, NFC) at the parking machine. The decision replaces the earlier 'Nadere voorschriften parkeren 2024' decision (adopted 18 March 2025) and takes effect the day after publication.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "[Verordening parkeerbelastingen 2026, CVDR749985/1] All amounts check against the tariff table: business 906.80, first residents 240.20, second residents 480.40, commuter (Forenzenvergunning) 240.20, visitor 0.32 per hour (paid per minute) capped at 96 per calendar year (Onderdeel 3), work-parking day permit 18.00, penalty (art. 8) 82.00. But the permit table's column header is cut off in the published text ('Bedrag per' with no period) and nothing on the page says the permit prices are per year, so 'a year' for the residents' permits is not confirmed. Corrected text drops it.",
+   "corrected_text": "Prices in the 2026 tariff table: first residents' permit 240.20 euros, second residents' permit 480.40 euros, business permit 906.80 euros and commuter permit 240.20 euros (the published table header does not state the period, so a yearly price is not confirmed). Visitor parking costs 0.32 euros an hour (paid per minute) with a ceiling of 96 euros per calendar year. A work-parking day permit costs 18 euros and the penalty charge (naheffingsaanslag) is 82 euros.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "[Gemeenteblad 2025, 571510] Art. 6 table 'Totaal/gem.': 844 spaces, 94%, ceiling 790, of which 57 second permits; commuter permit 'Alleen geldig in de Oostsingel en Oostlaan'; art. 6 para 3 bars residents of 4401/4400 holding a Castellum or Defensie-eiland residents' subscription from a first residents' or business permit. Everything is as written. RELIABILITY FLAG: the visible rows of the same table sum to 866 spaces (233+22+202+149+94+56+90+20; the zone 4400 row is blank in the published text), not 844, whereas the permit column does sum to 790 and the second-permit column to 57. Treat 844 as the gazette's stated total, not as a verified count of spaces.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "[Gemeenteblad 2025, 570832, Castellum terms] Published 30-12-2025, in force 1 January 2026 (art. 17). Art. 7: 2.50 per 60 min Mon-Thu 08:00-18:30 and Fri/Sat 8:00-18:30; 1.25 per 60 min Mon-Thu 22:00-24:00; zero tariff Mon-Sat 18:30-22:00 and 24:00-08:00 and all day Sunday; day ticket 18.60; owner may adjust or index yearly. Art. 9: open 24 hours, 7 days (exceptions announced). Address 'Meulmansweg 8s'. All as written. Note the page does not state a price for Fri/Sat 22:00-24:00. The Castellum terms themselves contain a stray reference to 'parkeergarage Defensie-eiland' in art. 6.5b (payment by plate registration), i.e. the two documents share text in both directions.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "[Gemeenteblad 2025, 570832, Castellum terms] Full subscription 777.00 incl. VAT from 1 April 2026 (art. 11.5); off-peak ('dalurenabonnement') 518.00 (art. 12.3); residents' subscription 206.00 with a ceiling of 220 and a waiting list (art. 13.3, 13.5); art. 17.1: terms are published on the website of Coöperatie ParkeerService U.A., www.parkeerservice.nl/woerden. As written. That website returned 403 for the draft author and was not opened.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "[Gemeenteblad 2025, 571228, Defensie-eiland terms] Published 30-12-2025, in force 1 January 2026. Art. 7 tariffs, day ticket 18.60, 777 full subscription (here 'per jaar') and 206 residents' subscription are word for word the same as Castellum. The definitions section still reads 'Parkeergarage Castellum, Meulmansweg 8s', and the residents' and business subscription articles still give rights to a place 'in parkeergarage Castellum', which confirms the copy-paste. The document does contain some Defensie-eiland-specific text (art. 5.12 on apartment owners; art. 6.5b). RELIABILITY FLAG: because the text is evidently a copy, it is not clear that the stated Defensie-eiland tariffs and subscriptions are what is actually charged; the words 'terms carry the same tariff' are the safe wording. Medium confidence is right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "[Q-Park P+R Spoorlaan page] Page shows Spoorlaan, 3445 AE Woerden; Parkeerplaatsen 172; opening hours Monday-Sunday 24-7; services Kentekenherkenning, Fietsenstalling, Mindervalideplekken, OV Knooppunt; tariffs: 'De tarieven konden helaas niet geladen worden'. The Q-Park Woerden city page (q-park.nl/nl-nl/parkeren/woerden/) lists 1 facility, P+R Spoorlaan, which supports 'single Woerden site'. Live undated page, date 2026-10 is right. Nothing on the page links this site to the name 'P+R Noord' or to the municipality's documents.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "[Uitbreiding parkeerregulering Woerden, main project page] The page does NOT contain '3,500 to 5,000 homes' or '10 to 15 years'; it says only that homes will be built 'in de komende 15 jaar' near the bus and train station. The 3,500-5,000 over 10-15 years appears on the FAQ page (item 9's source) and on the Nota van opbrengsten (item 10's source), so the figure is real but misattributed here. Other claims are on the page: Snellerpoort gets fewer public spaces; 'hoge parkeerdruk op de P&R Houttuinlaan' with parkers in adjacent housing and business areas; the three sub-areas Nieuw-Middelland, Stationsgebied-Zuid/Hoofdstedenbuurt and Snellerpoort (named as klankbordgroep areas, the spill-over reasons are given for Snellerpoort/Stationsgebied and the P&R, not for each area). STALENESS: the page reads as a spring/autumn 2025 snapshot (info evening 4 Feb 2025, questionnaire to 3 Mar 2025, 'Voor de kerst wordt er nog een ronde met de klankbordgroepen georganiseerd', 'voorlopige planning'); it carries no 2026 content. Its 'Raadsbesluit uitbreiding parkeerregulering' link goes to the February 2024 start-note proposal, not to a later decision.",
+   "corrected_text": "The municipality's project page on extending parking regulation south of the station (read 21 October 2026; the content appears to date from 2025, for example it mentions a feedback round 'before Christmas' and a provisional planning) says homes will be built over the next 15 years close to the bus and train station, and that Snellerpoort will have fewer public parking spaces. It names high parking pressure at the P&R Houttuinlaan, with parkers using neighbouring residential and business areas, and spill-over from Snellerpoort into adjacent areas such as Stationsgebied/Hoofdstedenbuurt, as reasons for extra rules south of the station. Working groups are set up for Nieuw-Middelland, Stationsgebied-Zuid/Hoofdstedenbuurt and Snellerpoort.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "[Veelgestelde vragen over uitbreiding parkeerregulering] FAQ says: if paid parking is chosen it 'sluit aan bij de parkeerregels in de binnenstad'; the council principle is no loss and no profit; 'In de startnotitie ... zijn ook de schilgebieden rondom de binnenstad ten noorden van het spoor aangewezen. De raad heeft voor nu besloten daar nog niet aan de slag te gaan.' All as written, and the draft correctly flags it as undated. STALENESS: the FAQ is a spring 2025 snapshot ('Begin vorig jaar' = start note of early 2024; aim to have the council decide 'voor de zomer'; reactienota 'in april'); it is not evidence of the 2026 position. This page is also where the 3,500-5,000 homes in 10-15 years figure is stated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "[Nota van opbrengsten uitbreiding parkeerregulering] Subtitle 'Input van ideeën en suggesties (2 juni 2025)'. Counts: Nieuw-Middelland 56, Stationsgebied/Hoofdstedenbuurt 248, Snellerpoort 41, 'Ergens anders' 103, 'Overig' 27, total 475; 'We verwachten dat de gemeenteraad begin oktober een besluit neemt'. 4 Feb to 3 Mar 2025 is right. Correction: the 475 are 'keer ideeën en reacties' (ideas and comments, collected via the online map tool Smarticipatie, in writing, by phone or in conversation), not 475 respondents or 'responses' as people, and 131 of them were not assigned to the three areas. The most frequent opinion was 'Houd het parkeren gratis'.",
+   "corrected_text": "The Nota van opbrengsten (summary of public input, dated 2 June 2025) counted 475 ideas and comments submitted between 4 February and 3 March 2025, mostly through an online map tool: 248 for Stationsgebied/Hoofdstedenbuurt, 56 for Nieuw-Middelland, 41 for Snellerpoort, 103 'elsewhere' and 27 'other'. The most frequently voiced opinion was to keep parking free. The municipality expected the council to decide on parking regulation in early October 2025; the page does not report any decision and none was found.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "[Reactienota parkeerregulering] The page is a summary of the 20 most frequent questions and answers, not the full note. Supported: municipality finds it important that the P&R terrain is regulated so that parkers from surrounding homes do not use it (mentioned in the Middelland parking vision); at the same time the site is meant for public-transport travellers; 'We onderzoeken of we parkeren voor OV-reizigers gratis kunnen houden. Hierbij kunnen we het systeem bij P&R noord als voorbeeld gebruiken ... De voorwaarden ... staan op de website van Q-park'; lower parking norms in Nieuw-Middelland, Snellerpoort and Stationsgebied; 'De gemeente heeft nu geen plannen om extra openbare parkeerplaatsen aan te leggen'. Not literally on the page: that P+R Noord is 'run by Q-Park' (it only points to Q-Park's website for the conditions). The page also does not equate P+R Noord with Q-Park's P+R Spoorlaan.",
+   "corrected_text": "In the reply note (undated; the public page summarising the most frequent questions, read 21 October 2026) the municipality says it considers it important that the P&R Zuid site is regulated so that parkers from the surrounding new homes do not use it, while also wanting it to remain usable by public-transport travellers. It is investigating whether parking for travellers can stay free, using the system at P&R Noord as an example; the conditions are stated on Q-Park's website. It says new-build residents must park on their own land under lower parking norms in Nieuw-Middelland, Snellerpoort and Stationsgebied, and that it currently has no plans to create extra public parking spaces.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "[Reactienota parkeerregulering] Page text: 'Veel genoemd is de constatering dat treinreizigers niet op de P&R terreinen parkeren maar parkeerplaatsen in de woonstraten bezetten'; 'Zolang het parkeren in de omliggende straten niet gereguleerd is, parkeren sommige bezoekers van het ziekenhuis op plekken ... waar dat gratis is'; 'Houd het parkeren gratis ... Deze mening komt het vaakst voor'. These are summarised opinions without counts, as the draft says. Confidence 'low' is appropriate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "[Verkeer en leefbaarheid] Page lists Verkeersvisie 2030, Strategienota Verkeersvisie 2030, Laadvisie and 'Parkeervisie: We willen minder auto's op straat, vooral in het centrum. Parkeren in garages heeft de voorkeur, en in woonwijken zijn parkeerplekken vooral voor bewoners.' As written. Undated page; date 2026-10 and the read-date wording are right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "[Gemeenteblad 2026, 27906: Omgevingsvisie Woerden] Metadata: published 21-01-2026, 'Datum ondertekening' 09-06-2022. The gazette notice is a college decision of 20 January 2026 to make the Omgevingsvisie 'die op 9 juni 2022 door de gemeenteraad is vastgesteld' available on the digital Omgevingsloket (STOP-TPOD format); it is a re-publication of the 2022 vision, not a new 2026 policy. Content checks: 'autoluwe binnenstad is het uitgangspunt'; parking policy 'breiden we de gebieden met parkeerregulering uit en hanteren we lagere parkeernormen bij nieuwe ontwikkelingen, mits voldaan wordt aan vooraf gestelde voorwaarden'; 'In 2026 wordt de Rembrandtbrug aangelegd'; Polanertunnel closed to car traffic in both directions 'pas als het alternatief gereed is'; P&R sites 'vanaf 2022 in regionaal verband nader uitgewerkt'. These are statements of 2022, so the 2026 bridge date is a 2022 plan and not confirmation that it is being built. Date corrected to the adoption date.",
+   "corrected_text": "The Omgevingsvisie was adopted by the municipal council on 9 June 2022; the mayor and aldermen decided on 20 January 2026 to make it available on the digital Omgevingsloket, and it was published in the municipal gazette on 21 January 2026. As written in 2022, it aims at a car-light town centre, extension of the areas with regulated parking and lower parking norms for new development if set conditions are met. It also planned, as of 2022, to build the Rembrandtbrug in 2026, to close the Polanertunnel to cars in both directions once the alternative is ready, and to work out P&R sites regionally from 2022.",
+   "corrected_title": null,
+   "corrected_date": "2022-06-09",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "[Nieuw-Middelland project list] PLAN Woerden: Watermolenlaan 1, 134 homes, 'Start bouw naar verwachting 2026'; Zaagmolenhof 4, 59 homes, planning 'Nog niet bekend'; Molenkwartier: 132 homes at Watermolenlaan 4 and Houttuinlaan 5, 'Start bouw naar verwachting 2026'; Houttuinlaan 6 t/m 12: 285 rental homes, 'Start bouw eind 2027'. All as written. Undated planning page: dates are expectations; the sewer page read on the same day says demolition at Watermolenlaan 1 is in autumn 2026 and the Houttuinlaan 5 start is 'later this year'.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "[Aanleg riool Houttuinlaan] Supported: the Houttuinlaan 5/Watermolenlaan 4 scheme (132 homes) and the Watermolenlaan 1 scheme (134 homes) each get a 'halfverdiepte parkeerkelder'; Watermolenlaan closed for a long time from 21 September and 'gedurende de gehele bouwperiode afgesloten'; bypass works start 19 oktober 2026 and 'De straat is 4 weken afgesloten'. Not on the page: that the two schemes are 'next to the Houttuin car park'. The page places only the sewer bypass 'ter hoogte van parkeergarage De Houttuin' (a garage). The page also says the main-sewer works were postponed and restart in 2027.",
+   "corrected_text": "The municipal page on the sewer in Houttuinlaan (read 21 October 2026) says the two new housing schemes in Nieuw-Middelland, at Watermolenlaan 4/Houttuinlaan 5 (132 homes) and Watermolenlaan 1 (134 homes), will each have a half-sunken parking cellar, that Watermolenlaan is closed from 21 September for the whole construction period, and that works for a sewer bypass in the Houttuinlaan at the level of parking garage De Houttuin start on 19 October 2026, with the street closed for 4 weeks. Work on the main sewer was postponed and is due to restart in 2027.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "[Laadpaal aanvragen] The cited page (undated) supports only the first sentence: 'Aan het eind van dit jaar gaan wij laadpalen plaatsen op basis van data (verwachte groei van elektrische auto's per wijk, het gebruik van bestaande laadpalen en de mogelijkheden op locatie)'; residents then need not apply; they can still report a missing point; where there is no point an application can be made via Park&Charge. The page does not state which year 'dit jaar' is. The second sentence (cable from home across the pavement to a public bay, up to 10 m, no permit) is NOT on this page. It is on a different page, woerden.nl/Verkeer/Parkeren/Elektrische_auto_opladen (which I read): a 'verlengde private aansluiting' needs no permit but is allowed only if the resident has no own parking place and the charge point is on their own land, with a CE-marked cable of at most 10 m; the draft omitted these conditions. Source title in the draft also merges the two pages.",
+   "corrected_text": "The municipal page for requesting charge points (undated, read 21 October 2026) says that at the end of 'this year' (the year is not stated on the page) the municipality will place charge points on the basis of data: expected growth of electric cars per neighbourhood, use of existing charge points and the possibilities on location. Residents then no longer need to apply, but can report a missing charge point; where no charge point exists they can apply through Park&Charge. The page also says the number of charge points will be expanded in the coming years.",
+   "corrected_title": "Laadpaal aanvragen (gemeente Woerden)",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Woerden (province of Utrecht) charges for on-street parking in four tariff zones (4400, 4401, 4403, 4404). Under the parking tax ordinance adopted by the council on 27 November 2025 and in force from 1 January 2026, zones 4400, 4401 and 4404 cost 0.32 euros per 6 minutes (3.20 euros an hour), with maximum stays of 180, 30 and 120 minutes, and zone 4403 costs 6.20 euros an hour up to 24.80 euros a day. A decision of the mayor and aldermen of 9 December 2025 sets paid hours at Monday to Saturday 10:00 to 18:30, and until 22:00 in zone 4403. The 2026 table lists a first residents' permit at 240.20 euros and a second at 480.40 euros (the period is not stated in the published table), and the decision caps permits per zone, with a stated total of 790 permits on 844 spaces (the zone rows add up to more than 844, so that total is not fully reliable). The published terms for the Castellum garage set short-stay parking at 2.50 euros an hour on Monday to Saturday from 08:00 to 18:30, free on evenings from 18:30 to 22:00 and on Sundays, with a day ticket of 18.60 euros and a 777 euro full subscription from 1 April 2026; the terms for the Defensie-eiland garage repeat the same figures but are evidently copied from the Castellum terms, so they should be treated with caution. Q-Park runs the P+R Spoorlaan (172 spaces, open 24 hours, plate recognition); its tariff did not load, and no source links it to the 'P+R Noord' that the municipality mentions. The municipality's plans for parking regulation south of the station rest on a 2025 process: the public input summary of 2 June 2025 counted 475 ideas and comments (248 for Stationsgebied/Hoofdstedenbuurt, 56 for Nieuw-Middelland, 41 for Snellerpoort), with keeping parking free the most frequent opinion, and the FAQ and reply note (undated, apparently from 2025) say 3,500 to 5,000 homes will be built over 10 to 15 years with low parking norms and parking on private land. The municipality says it wants the P+R Zuid site regulated while investigating keeping it free for rail travellers. Whether the council took a decision on the extension, and any utilisation statistics, could not be established. The Omgevingsvisie, adopted in 2022 and republished on 21 January 2026, aims at a car-light town centre, more regulated parking areas and lower parking norms for new development."
+}

@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Council release of 7 Jan 2026 (title matches): 'Este 1 de enero han entrado en vigor' tariffs for the eight concessions, +2.7% (October-to-October CPI); council checks the calculations and approves tariffs each year. Daily maxima incl. VAT confirmed: Plaza del Castillo 19.3935 (48.0205 for 6-15 July), Audiencia 18.9517, Carlos III 15.2184, Rincon de la Aduana 20.0917, Plaza de Toros 14.0063 (ten hours or more). Small caveat: Audiencia and Carlos III exceptions run 5-15 July, not 6-15. The page contains a typo ('entraran en vigor el 1 de enero de 2024' in paragraph 1) but the headline and date say 2026.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "Hospital-zone figures match the 2026 table for worker rotation 0.0363 (0-15 min) and 0.0121 (121-600 min), other users 0.0604 and 0.0201, worker monthly day pass 13.2412. The other-user monthly day pass is 52.9954 euro, which rounds to 53.00, not 52.99 (draft truncated).",
+   "corrected_text": "The hospital-zone car park has separate 2026 rotation tariffs for hospital workers (0.036 euro per minute for the first 15 minutes, 0.012 for minutes 121-600) and other users (0.060 and 0.020); monthly day season tickets cost 13.24 euro for staff and 53.00 euro for other users (VAT included).",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Dec 2024 release (9 Dec 2024; 1.8% for 2025, in force from 1 Jan 2025) lists the same operators: SABA, ACVIL, Aparcamiento San Roque, Gestion y Aparcamientos Pamplona, Empark Aparcamientos y Servicios (Blanca de Navarra and Zona Hospitalaria), UTE Estacion de Autobuses. For Rincon de la Aduana the 2024 prose says 'UTE Parkings de Pamplona' but its own table says PARKING RINCON DE LA ADUANA S.L., and the Jan 2026 release calls it 'Parking Rincon de la Aduana' with no UTE. So 'a UTE' is not reliable. Operator names are as of Dec 2024 / Jan 2026 council releases.",
+   "corrected_text": "The eight municipal concession car parks (tariffs rose 1.8% for 2025) are run by SABA Aparcamientos (Plaza del Castillo), ACVIL Aparcamientos (Plaza de Toros), Aparcamiento San Roque (Audiencia), Gestion y Aparcamientos Pamplona (Carlos III), Parking Rincon de la Aduana (the December 2024 text calls it UTE Parkings de Pamplona, the January 2026 release names it without UTE), Empark Aparcamientos y Servicios (Blanca de Navarra and the hospital zone) and UTE Estacion de Autobuses de Pamplona (bus station). The council approved the 2025 update on 9 December 2024.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Figures check: 34,307 regulated spaces, 18,710 orange, 13,230 blue, 42,447 active permits (41,290 resident cards + 1,072 activity cards listed; page does not say 'business' beyond 'actividad'), 3,066 spaces in 'una docena' of park-and-ride lots (the twelve listed lots sum to 3,066), Casco Antiguo 2,581 cards for 686 spaces, Ensanches 3,449 spaces. 'Ten sectors' is not stated on this page (sector 10 is mentioned; the ten sectors are on the council zones page and the May 2026 release). The Iturrama (-254) and Rochapea (-73) losses are measured against the figures in the September 2025 tender, mainly after resurfacing and road renewals, not absolute losses. Note: the 11 May 2026 award release gives 34,410 regulated spaces, so 34,307 is a January 2026 count.",
+   "corrected_text": "On 27 January 2026 the council reported 34,307 regulated on-street spaces (18,710 orange, 13,230 blue), 127 more than assumed in the September 2025 tender, and 42,447 active resident and activity permits (41,290 resident cards, 1,072 activity cards). It also reported 3,066 spaces in a dozen park-and-ride lots. The Casco Antiguo has 2,581 resident permits for 686 spaces and the Ensanches 3,449 spaces. Compared with the tender figures, Iturrama has 254 fewer spaces and Rochapea 73 fewer, mainly after resurfacing and street works.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "Undated live council page (read 21 Oct 2026). Hours confirmed: blue and orange Mon-Fri 08:30-14:00 and 16:00-20:00, Sat 08:30-14:00; red zone from 09:00 (Mon-Fri 9-14 and 16-20, Sat 9-14). Orange: ticket up to one day, residents of the sector without time limit. Telpark app and meters confirmed. NOT on this page: 'blue up to two hours' (the page only says blue ticket holders park for the time paid); the two-hour limit is on the Jan 2026 release (node/76559). Exceptions on the page: San Jorge (Renfe) 24h, a lot opposite the Education Department, San Fermin set each year.",
+   "corrected_text": "Regulated parking runs Monday-Friday 08:30-14:00 and 16:00-20:00 and Saturday 08:30-14:00 (red zones from 09:00). Blue zone: vehicles with the sector's resident card park without time limit and others pay for the time ticketed; orange: ticket for a maximum of one day, with residents of the sector parking without a time limit. Tickets come from meters or the Telpark app. Exceptions include San Jorge (Renfe area) 24 hours a day. Page read on 21 October 2026.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Release dated 11 May 2026 (title matches): Junta de Gobierno Local approved the award to Dornier S.A. for 45,757,381.27 euro, four years, 'hasta el ano 2030'; scope is the blue zone, all park-and-ride lots, the motorhome lot, the tow-truck service and access control for the ZAC (Casco Antiguo) and ZBE. The release gives 34,410 regulated spaces, 3,066 park-and-ride spaces and 33 motorhome spaces. The 11 May date is the page date; the decision itself was 'approved' by the Junta, exact meeting date not stated. Tension to note: the 5 May 2026 release (item 17) calls Telpark the regulated-parking concessionaire, and the council zones page lists Dornier with telpark.com email addresses.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "Council release of 27 Aug 2025 is about the DRAFT ordinance ('proyecto'), which 'debera entrar en vigor el 1 de enero de 2026'; scope 'coincide con la Zona de Acceso Controlado del Casco Antiguo' (Casco Antiguo only, no Ensanches); sanctions apply 'a partir del 1 de mayo de 2026' per the draft's moratorium. The release was written before approval (initial Pleno approval, BON publication, public exposure and final approval in December were still to come), so it must be worded as planned. Exemptions confirmed (residents, garage and shop holders, reduced mobility, loading/unloading, taxis and public transport). 650 fewer vehicles a day and 19.7% confirmed; the 'about 3,300' base figure is NOT on the page (derived). Extension to other districts 'con horizonte 2030' confirmed as possible. That the ordinance was finally approved and sanctions started 1 May 2026 is not confirmed by this source.",
+   "corrected_text": "On 27 August 2025 the Junta de Gobierno Local approved the draft ordinance for a low emission zone whose area coincides with the Casco Antiguo controlled-access zone. The draft was due to take effect on 1 January 2026, with a moratorium so that infringement and penalty provisions apply only from 1 May 2026. Residents, holders of garage spaces or shops in the zone, holders of the reduced-mobility card, loading and unloading, taxis and regular public transport are not subject to the environmental-badge restriction. The council forecast about 650 fewer vehicles a day (19.7%) and said the zone could be extended gradually to other districts by 2030. Final approval was still pending when the release was written.",
+   "corrected_title": null,
+   "corrected_date": "2025-08"
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "EITB/Orain roundup dated 9 July 2026 (08:53). Says Bilbao, San Sebastian, Vitoria-Gasteiz and Pamplona 'ya sancionan con 200 euros' (100 euros with early payment) entry without environmental label, and describes Pamplona's exclusion area as the Casco Antiguo bounded by Taconera, Navas de Tolosa, Paseo de Sarasate, Duque de Ahumada, Juan de Labrit, Vergel and Huertas de Santo Domingo, plus ZAC rules. Scope is Casco Antiguo only (no Ensanches). Reliability: single secondary media source (public broadcaster) with no official confirmation; the 1 May 2026 sanctions start is not stated on this page and no official Pamplona source or fine count was found. Keep confidence medium.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Council release of 8 Jan 2025 (title matches): nine lots with first 24 hours free and 2,464 spaces; 1,463,691 entries in 2024 vs 1,200,796 in 2023 (+21.8%); Mendebaldea 337,623 entries (average stay 428.5 min, about 7 hours); 22,380 vehicles (1.53%) paid for staying more than 24 h. These are accesses (entries), not unique vehicles. Note the June 2025 release (item 9) gives 2,486 spaces for the same nine lots.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Release of 5 June 2025 says San Juan is 'listo para empezar a funcionar en los proximos dias', i.e. ready to open within days, so 'opened in June 2025' is not confirmed by it. 238 spaces plus 6 reduced-mobility, plate-reading entry, first 24 h free, next 24 h 4.35 euro (further daily fractions 2.85 euro) confirmed. Total works for four lots 870,032.74 euro (Next Generation EU) confirmed, but on that date only San Juan was ready; the other three (Lezkairu, Txantrea Sur, Ezkaba) were expected to open 'en las proximas semanas', so 'were upgraded' is not confirmed. (The 5 July 2026 release lists San Juan, Lezkairu, Txantrea Sur and Ezkaba lots in use.)",
+   "corrected_text": "On 5 June 2025 the council announced that the San Juan park-and-ride (238 spaces plus 6 for reduced-mobility users) was ready to start operating within days, with licence-plate entry, 24 hours free and then 4.35 euro for the next 24 hours. San Juan, Lezkairu, Txantrea Sur and Ezkaba were adapted in the same 870,033-euro Next Generation EU works; San Juan was the first to open and the other three were expected to follow within weeks.",
+   "corrected_title": null,
+   "corrected_date": "2025-06"
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Page is the council release of 19 June 2026 about the Bando Municipal that the mayor was due to sign 'en los proximos dias', so it is an announcement, not a confirmation of what happened. Content: practically the whole city except sector 1 becomes orange zone 00:00 on 5 July to 23:59 on 14 July; as a novelty all park-and-ride lots adopt the orange rate (reasons: avoid unregulated overnight stays and improve security); Casco Antiguo closed to traffic from 22:00 on 5 July to 14:00 on 15 July. The bus-station and Baluarte car parks close ENTRY and exit 22:00-24:00 on festival days (draft says only exits). The page says 'catorce aparcamientos en superficie' while the later 7 July release says twelve lots, so no lot count should be stated. Draft's 'park-and-ride lots pay-parking at orange-zone rates' is right.",
+   "corrected_text": "The council announced on 19 June 2026, in the San Fermin municipal order (Bando) due to be signed in the following days, that practically the whole city except sector 1 would be an orange parking zone from 5 July to 14 July 2026. As a novelty, the park-and-ride lots would also charge the orange-zone rate, to avoid unregulated overnight stays and increase safety. The Casco Antiguo would be closed to traffic from 22:00 on 5 July to 14:00 on 15 July, and vehicle entry and exit at the bus-station and Baluarte car parks would be closed from 22:00 to 24:00 on festival days.",
+   "corrected_title": null,
+   "corrected_date": "2026-06"
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Release of 7 July 2026 (title matches): 1,117 operations on 5-6 July at the twelve now-paid park-and-ride lots, average stay 284 minutes (4 h 44 min); the 2025 strike with minimum services is mentioned. Villavesa figures are internally inconsistent: the page says 22.64% more than 6 July 2025 but also '255.19' persons (typo for about 255,19x) versus 192,977 in 2025, 62,192 more, which is about +32%, not +22.6%. So the percentage cannot be relied on. 'Operations' are movements, not unique cars.",
+   "corrected_text": "On 5-6 July 2026, the first two days of paid parking in the twelve park-and-ride lots, the council counted 1,117 operations with an average stay of 284 minutes. It reported about 255,000 villavesa (urban bus) boardings on 6 July against 192,977 in 2025, when a strike limited service; the release gives the increase as 22.64%, but its own figures imply about 32%.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Release of 16 Sep 2024 (title matches): Junta approved the third contract under the mobility works framework agreement, UTE Urbanismo Tactico Pamplona, 204,557.64 euro, about three months of works; 51 new regulated spaces on the plot in front of Pabellon C, to give the haematology and oncology area rotation parking 'que facilite el acceso a las consultas'. The page says 'visitors' nowhere; it is consultations. It says the hospital 'cuenta en la actualidad' (Sept 2024) with 1,290 open-air spaces, 83 reserved for disabled users 'y 39 plazas para motocicletas' (not stated to be inside the 1,290). Completion of the 51 spaces is not confirmed.",
+   "corrected_text": "In September 2024 the Hospital Universitario de Navarra had 1,290 open-air car spaces, 83 of them reserved for disabled users, plus 39 motorcycle spaces. On 16 September 2024 the council announced the award of a 204,558-euro contract (about three months of works) to create 51 regulated rotation spaces on a plot in front of Pabellon C, to give the haematology and oncology area rotation parking that eases access to consultations.",
+   "corrected_title": null,
+   "corrected_date": "2024-09"
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Onda Vasca/Noticias de Navarra article of 15 Feb 2023, reporting a council-commissioned audit (audit itself not seen): 38 concession car parks, 13,944 spaces (10,665 resident-only, 3,279 rotation), 4,681 resident spaces in Casco Antiguo and Ensanche all occupied, 1,001 on waiting lists in the centre and 448 for the hospital car park (for staff). But the article itself says waiting lists may include people on several lists and are old, and that 585 resident spaces were free citywide (258 at Audiencia, so 'all occupied' only applies to the Casco Antiguo and Ensanche concessions as stated by the source). Single regional secondary source; 3.5 years old; the draft drops the caveat. Medium confidence is appropriate; no newer audit found.",
+   "corrected_text": "A council-commissioned audit of the city's 38 concession car parks, reported by regional press on 15 February 2023, found 13,944 spaces (10,665 resident-only, 3,279 rotation). It said all 4,681 resident spaces in the Casco Antiguo and Ensanche were occupied, with 1,001 people on waiting lists there and 448 for the hospital car park aimed at staff. The council cautioned that people may appear on several lists and that the lists are old, and the article also counted 585 free resident spaces elsewhere in the city. This is an older figure from a single regional press report; the audit itself was not seen.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Council release of 23 Nov 2023: four-storey, 346-space car park under Calle Sangüesa (project that 'describe' the infrastructure and 'tendria' two pedestrian exits), 75-year concession, works began in July after San Fermin and were suspended in less than a month; consultation 11-17 Dec announced. The 13,735,868 euro is the tender amount of the combined concession-and-works contract for both the car park and the Plaza de la Cruz redevelopment, of which the council pays 2,579,330 euro (only for the plaza) and the concessionaire 11,156,538 euro; it is not a 13.7 million 'budget' for the car park. The page does not say the car park is for residents or that it is in the 'Segundo Ensanche' (Calle Sangüesa is named; resident use is in the Onda Vasca article, which only says it was requested by neighbours).",
+   "corrected_text": "In November 2023 the council described a proposed four-storey, 346-space underground car park in Calle Sangüesa. It was tendered together with the Plaza de la Cruz redevelopment as a single concession-and-works contract worth 13.7 million euro, of which the council would pay 2.58 million (for the plaza only) and the concessionaire 11.16 million, on a 75-year concession. Works began in July 2023 and were suspended less than a month later. A citizen consultation on both projects was announced for 11-17 December 2023.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Council release of 14 Dec 2023 (title matches): the consultation (opened Monday 11 Dec, due to run to 17 Dec) was suspended after a no-confidence motion was filed by EH Bildu, Geroa Bai, Contigo-Zurekin and PSN and because those groups had not said whether they would accept the results; the suspension was to stay until they say so. Note the release does not say the car park itself was cancelled. 'No later status found' is an honest gap, not a fact from the page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "Council release of 18 July 2025 is an announcement written before 1 August: 'cobrara a partir de agosto'. Figures confirmed: 29 public charging stations, 65 charge points; after 15 minutes from the end of charging, 0.20 euro per minute, maximum 50 euro; reason is use of centre charging bays as parking. Draft words it as already in force from 1 August 2025; the page only announces it. Date should be 2025-07.",
+   "corrected_text": "On 18 July 2025 the council announced that from 1 August 2025 electric vehicles left in a charging bay more than 15 minutes after charging ends would pay 0.20 euro per minute (maximum 50 euro), because charging bays in the city centre were being used as parking. At that date Pamplona had 29 publicly accessible charging stations with 65 charge points.",
+   "corrected_title": null,
+   "corrected_date": "2025-07"
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "Council release of 5 May 2026 is an announcement of a campaign for 11-17 May, so 'ran' is too strong. Content confirmed: Telpark app, three car parks (Zona Hospitalaria, Baluarte, Blanca de Navarra), 25 semi-fast up to 22 kW and 4 fast up to 60 kW points; release says 'Telpark, empresa concesionaria del estacionamiento regulado en Pamplona' and 'gestiona mas de 2.400 plazas en sus tres aparcamientos'. Naming: the Jan 2026 tariff release names Empark Aparcamientos y Servicios S.A. as operator of Blanca de Navarra and Zona Hospitalaria (the same car parks), while this release says Telpark. Telpark's own site shows it carries the 'Grupo Empark' label and empark.com lists Telpark, so Telpark is the Empark group's brand/app; the council releases do not explain it. Baluarte is not one of the eight concession car parks. The 'concessionaire of regulated parking' wording is the release's; the on-street contract was awarded to Dornier on 11 May 2026 (item 5), so do not present Telpark as holder of that contract.",
+   "corrected_text": "On 5 May 2026 the council and Telpark announced a free electric-vehicle charging campaign for 11-17 May 2026 in the Zona Hospitalaria, Baluarte and Blanca de Navarra underground car parks, using the Telpark app, with 25 semi-fast (up to 22 kW) and 4 fast (up to 60 kW) charge points. The release describes Telpark as concessionaire of regulated parking in Pamplona and as managing more than 2,400 spaces in these three car parks.",
+   "corrected_title": null,
+   "corrected_date": "2026-05"
+  }
+ ],
+ "corrected_summary": "Pamplona (about 205,000 people, per the draft; not re-checked) has eight municipal concession underground car parks (Plaza del Castillo, Plaza de Toros, Audiencia, Carlos III, Rincon de la Aduana, Blanca de Navarra, the hospital zone and the bus station) run by SABA, ACVIL, Aparcamiento San Roque, Gestion y Aparcamientos Pamplona, a Rincon de la Aduana operator, Empark (whose app brand is Telpark) and a bus-station joint venture. Council-approved tariffs rose 1.8% for 2025 and 2.7% for 2026 (in force from 1 January 2026), with 2026 daily maxima between 14.01 and 20.09 euro, and 48.02 euro at Plaza del Castillo on 6-15 July. On the street the council counted 34,307 regulated spaces in January 2026 (34,410 in its May 2026 award release), with 42,447 active resident and activity permits and 2,581 resident permits for 686 spaces in the Casco Antiguo. In May 2026 the regulated-parking and tow-truck contract was awarded to Dornier for 45.76 million euro over four years. A low emission zone covering the Casco Antiguo (not the Ensanches) was planned in the August 2025 draft ordinance for 1 January 2026, with penalties from 1 May 2026; a July 2026 press roundup reports fines of 200 euro, but no official confirmation of the sanctions start was found. Nine older park-and-ride lots with 2,464 spaces and free parking for 24 hours recorded 1.46 million entries in 2024; San Juan was announced as ready to open in June 2025, and for San Fermin 2026 the council announced that all park-and-ride lots would charge the orange-zone rate, with 1,117 operations recorded on 5-6 July. A 346-space underground car park in Calle Sangüesa was suspended in 2023, and the hospital had 1,290 open-air spaces in 2024 with 51 more rotation spaces contracted. A 2023 audit reported in regional press found all 4,681 resident spaces in the Casco Antiguo and Ensanche concession car parks occupied."
+}

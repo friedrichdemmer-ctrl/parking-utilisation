@@ -1,0 +1,198 @@
+{
+ "country": "Netherlands",
+ "city": "Assen",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Assen's municipal parking is regulated through a 2026 parking tax ordinance and a paid-parking designation decision. Under the ordinance, which took effect for the levy on 1 January 2026, all garages charge 0.50 euro per 15 minutes with an 8 euro daily maximum for consecutive hours (the same amounts as in 2025; in 2023 the rate was 0.50 euro per 14 minutes with a 7.50 euro maximum and a 3 euro evening cap in six garages and 5 euros at De Nieuwe Kolk), on-street meters charge 0.50 euro per 12 minutes, and Veemarktplein and part of Industrieweg charge 0.30 euro per 10 minutes with a 6 euro daily maximum. The Aanwijzingsbesluit version valid since 19 December 2025 sets paid parking in zones 1-8 on Monday to Saturday 9:00-21:00 and Sunday 12:00-18:00, zone 9 (Assen Oost) on weekdays 9:00-18:00, and the inner city on 9:00-18:00 Monday to Saturday (Friday until 21:00), with 120-minute limits for paid visitors in the zones and in a list of named inner-city streets. A zero-emission zone for delivery vans and lorries has applied in the pedestrian inner city since 1 January 2025. The July 2025 Visie mobiliteit 2040 states, citing the municipal parking monitor, that about 450 spaces in the centre's garages stay unused at the Saturday-afternoon peak and that fewer than 400 of more than 800 on-street centre spaces are occupied. It sets out intentions, not decisions: a parking strategy with area-based plans, a phased extension of regulated parking where pressure is high, a parking ring leading to the garages, and a station that could become the main mobility hub of Drenthe; in January 2026 the council's list of commitments still showed the parking strategy and a Havenkwartier parking vision as open, pointing to a college letter of 9 January 2026 that could not be read. The Havenkwartier structure vision of May 2024 plans a low-car district with collective parking facilities and a parking fund. The Laadvisie 2023-2027 (February 2023) states that the municipality owns the eight public parking garages (seven in the inner city, one in Kloosterveen) and projects the growth of electric cars; a June 2026 decision designated two EV-only spaces at Vaart N.Z. 76. Q-Park lists P+R Stationsplein (266 spaces, no tariffs shown online) as its only car park in Assen, and in December 2025 the municipality received a permit application to alter the Doevenkamp 3 garage (outcome not found). A 2019 Sweco survey of 1,809 visitors found 41 percent of those parking outside the garages used Mercuriusplein. The municipal website assen.nl returned HTTP 429 and was not read, so current municipal tariff and garage pages were not checked.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2025-12-18",
+   "text": "Assen's council adopted the Verordening parkeerbelastingen 2026 on 18 December 2025, in force with levy from 1 January 2026. Its tariff table sets 0.50 euro per 12 minutes (2.50 euros per hour) at on-street meters and 0.30 euro per 10 minutes with a 6 euro daily maximum at Veemarktplein and part of Industrieweg; the table lists the same amounts for 2025 and 2026.",
+   "source_title": "Verordening op de heffing en de invordering van parkeerbelastingen 2026 (Assen)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR752814/1",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12-18",
+   "text": "For all municipal car parks the 2026 tariff table sets 0.50 euro per 15 minutes (2.00 euros per hour) and an 8 euro daily maximum that applies only to consecutive hours within one day. Monthly garage passes are 37.50 euros for Assen residents, 68.50 euros for a 7x24 worker pass and 80 euros for a 7x24 pass for non-residents.",
+   "source_title": "Verordening op de heffing en de invordering van parkeerbelastingen 2026 (Assen)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR752814/1",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12-18",
+   "text": "Street resident permits where meters apply cost 15.48 euros per month or 180.60 euros per year, and a worker permit (5x24, by plate) costs 36.12 euros per month. The fine-related naheffingsaanslag costs 82 euros plus one hour of the local tariff, and the council budgeted about 4,000 of them for 2026.",
+   "source_title": "Verordening op de heffing en de invordering van parkeerbelastingen 2026 (Assen)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR752814/1",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12-19",
+   "text": "Under the Aanwijzingsbesluit parkeren (the version valid from 19 December 2025, as shown on the register page read on 21 October 2026), paid parking in zones 1-8 runs Monday-Saturday 9:00-21:00 and Sunday 12:00-18:00; in zones 1-8 and in zone 9 (Assen Oost) paid visitors without a permit may park at most 120 minutes at a time. Zone 9 (Assen Oost) is paid Monday-Friday 9:00-18:00. In the inner city (Binnenstad) paid parking runs 9:00-18:00 Monday-Saturday (Friday until 21:00); at Veemarktplein parking is allowed for 24 hours at a time, and at De Stelling, Oude Molenstraat, Zuidersingel and Zuidhaege for 240 minutes at a time (a section of Oude Molenstraat between Kanaal and Ceresplein is listed with 120 minutes).",
+   "source_title": "Aanwijzingsbesluit parkeren Gemeente Assen 2024 (version from 19-12-2025)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR707391/2",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12-19",
+   "text": "The same decision lists inner-city streets where parking is limited to 120 minutes at a time, including Stationsstraat, Groningerstraat, Mercuriusplein, Torenlaan, Brinkstraat and Weiersstraat. Its zone overview names streets for parking zones 1-8 (including Vaart, Het Kanaal, Beilerstraat, Doevenkamp and Veemarkt streets) and for zone 9, Assen Oost (Anemoonstraat, Oosterparallelweg, Vredeveldseweg and others).",
+   "source_title": "Aanwijzingsbesluit parkeren Gemeente Assen 2024 (version from 19-12-2025)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR707391/2",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2023-01",
+   "text": "In the 2023 ordinance (tariff table with 2022 and 2023 columns, adopted 22 December 2022) garages cost 0.50 euro per 14 minutes with a 7.50 euro daily maximum that applies only to consecutive hours. For the garages Mercuriusplein, Stadhuis, Drents Museum, Neptunus, Triade and Citadel an evening maximum of 3 euros applied (Monday-Thursday 18:00-07:00 and Friday 21:00 to Saturday 07:00), and at De Nieuwe Kolk 5 euros (Monday-Saturday 18:00-07:00).",
+   "source_title": "Verordening parkeerbelastingen 2023 (Assen), tariff table",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR689503/1",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-07-17",
+   "text": "Assen published its Visie mobiliteit 2040 in the Gemeenteblad on 17 July 2025. It says the centre should become a destination with the ring road turned into a 'parking ring' leading to garages, and announces a Parkeerstrategie with area-based parking plans because of rising parking nuisance and housing growth (e.g. Stadskwartier). It also proposes a phased extension of regulated parking where pressure is high, simpler rules than today's patchwork of regimes, and at least one parking survey per year; these are policy intentions, not decisions on specific zones.",
+   "source_title": "Assen toekomstgericht op weg: Visie mobiliteit 2040 (Gemeenteblad 2025, 314762)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-314762.html",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-07-17",
+   "text": "The Visie mobiliteit 2040 states, citing the municipal parking monitor, that on Saturday afternoon (the peak) about 450 garage spaces in the centre stay unused, and that of more than 800 on-street spaces in the centre fewer than 400 are occupied. The council therefore plans to repurpose some on-street spaces for bicycles, greenery and seating.",
+   "source_title": "Assen toekomstgericht op weg: Visie mobiliteit 2040 (Gemeenteblad 2025, 314762)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-314762.html",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-07-17",
+   "text": "The vision says the station could become the main mobility hub of Drenthe, that the municipality is working on a hub in Kloosterveen and, in the longer term, Assen-Zuid, and that bus station Marsdijk will be upgraded to a mobility hub. Hubs are to combine functions such as public transport stops, covered bike storage, parking spaces with EV charging, and shared cars and bikes. It also states that parking space remains needed because the region is car-dependent and, in its logistics section, that scarce electricity grid capacity poses major challenges for charging infrastructure and will probably set the pace of greening logistics.",
+   "source_title": "Assen toekomstgericht op weg: Visie mobiliteit 2040 (Gemeenteblad 2025, 314762)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-314762.html",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-11-12",
+   "text": "A zero-emission zone for delivery vans and lorries has applied in Assen's pedestrian and window-time inner city (Markt, Brink, Oudestraat, Mercuriusplein and others) since 1 January 2025, enforced by ANPR cameras. A decision published 16 June 2026 only replaces the traffic signs with the new model signs and changes no rule.",
+   "source_title": "Verkeersbesluit wijziging verkeersborden zero-emissiezone Binnenstad Assen (Gemeenteblad 2026, 279181)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-279181.html",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-06-26",
+   "text": "On 26 June 2026 the municipality designated two parking spaces near Vaart N.Z. 76 for EV charging only, referring to its Laadvisie 2023-2027. The decision adds that the second space applies only once usage exceeds 4,500 kWh, with charging points placed so a network has a maximum walking distance of 250 metres.",
+   "source_title": "Verkeersbesluit laadplaats voor elektrische auto's, Vaart N.Z. 76, Assen (Gemeenteblad 2026, 309053)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-309053.html",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-12-18",
+   "text": "On 18 December 2025 the municipality published that it had received, on 16 December 2025, an application for an environmental permit (omgevingsvergunning) to alter (verbouwen) the parking garage at Doevenkamp 3. The notice gives no details of the works and says the municipality will probably decide within eight weeks.",
+   "source_title": "Aanvraag omgevingsvergunning, verbouwen parkeergarage Doevenkamp 3, Assen (Gemeenteblad 2025, 554772)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-554772.html",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Q-Park lists P+R Stationsplein (Stationsplein, 9404 RT Assen) as its only car park in Assen: 266 spaces, 2.10 m height limit, open 24/7 with number plate recognition, bike parking and public transport nearby, and no tariffs shown online. The page was read on 21 October 2026.",
+   "source_title": "Q-Park: PR Stationsplein, Assen",
+   "source_url": "https://www.q-park.nl/en-gb/parking/assen/pr-stationsplein/",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-02",
+   "text": "Assen's Laadvisie 2023-2027 (version 1, February 2023) states that the municipality owns the 8 public parking garages, 7 in the inner city and 1 in Kloosterveen. It also says charging points in garages fall outside the provincial charging concession and that an exploratory study into installing charging infrastructure was started in four central garages (Stadhuis, De Nieuwe Kolk, Cité and Mercurius).",
+   "source_title": "Laadvisie 2023-2027 gemeente Assen",
+   "source_url": "https://assen.bestuurlijkeinformatie.nl/Document/View/0837b55e-4ada-4bce-9186-9b5b76138c23",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2023-02",
+   "text": "The Laadvisie 2023-2027 (version 1, February 2023) projects about 1,000 electric cars in Assen in 2021, about 3,800 in 2025 and about 9,000 in 2030, with a computed need of 52, 190 and 465 public charging posts (laadpalen). It aims to complete a covering network with a mesh of about 250 metres in the 2023-2027 concession period and cites the national guideline that 5 percent of parking spaces should have a charge point in 2025 and 10 percent in 2030, which in principle also applies to garages.",
+   "source_title": "Laadvisie 2023-2027 gemeente Assen",
+   "source_url": "https://assen.bestuurlijkeinformatie.nl/Document/View/0837b55e-4ada-4bce-9186-9b5b76138c23",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2019-04",
+   "text": "The Sweco parking survey for the municipality (report dated 11 April 2019, marked final draft; fieldwork from late February to late March 2019) interviewed 1,809 visitors in the 7 garages and at street locations. Of visitors parking outside the garages, 41 percent used Mercuriusplein, 10 percent Veemarktterrein and 9 percent the P+R site at the NS station; this is a 2019 survey and may no longer reflect current use.",
+   "source_title": "Parkeeronderzoek Assen 2019, Sweco (effectmeting)",
+   "source_url": "https://assen.bestuurlijkeinformatie.nl/Document/View/f020e5c8-84c8-41a8-9cc2-e242f0738828",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-05",
+   "text": "The Structuurvisie Havenkwartier (definitive version, May 2024) plans a low-car district near the station and city centre with a parking standard of one space per dwelling excluding visitor parking, resident parking concentrated in collective parking facilities in building fields II and III, and a parking fund to which all building initiatives must contribute. It says the municipality has received funds from the national Woningbouwimpuls and the provincial Regiostedenfonds (no amount stated), and it links the area to the Stadskwartier Assen vision.",
+   "source_title": "Structuurvisie Havenkwartier, Assen (definitieve versie mei 2024)",
+   "source_url": "https://assen.debatrijk.nl/documents/15/2742/documents/31466/2.%20Structuurvisie%20Havenkwartier%20definitief%20mei%202024.pdf",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01-16",
+   "text": "The council's working list of commitments (toezeggingen) dated 16 January 2026 shows three parking-related items still marked open (lopend): the alderman's promise of 13 February 2025 to develop a parking strategy that year (25.04), the promise of 23 May 2024 of a further parking vision for the Havenkwartier (24.13) and the promise of 18 September 2025 to work with market parties on marketable parking solutions in the Havenkwartier (25.44). All three refer to a college letter of 9 January 2026 for current information, which we could not read.",
+   "source_title": "Overzicht toezeggingen januari 2026 (gemeente Assen)",
+   "source_url": "https://assen.debatrijk.nl/documents/15/5968/documents/81884/overzicht%20toezeggingen%20januari.pdf",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "www.assen.nl returned HTTP 429 'temporarily offline' (security vulnerability notice) on 21 October 2026, so municipal parking, permit, garage and P+R pages (e.g. https://www.assen.nl/parkeren and https://www.assen.nl/locaties-en-tarieven) could not be read.",
+  "P+R Stationsplein tariffs and traveller (NS) discount: Q-Park shows 'no tariffs available online'; only commercial listing portals gave figures, which were not used. Station P+R ownership and the NS role not confirmed from a primary source.",
+  "Individual garage capacities and operator arrangements (Citadel, Mercurius, Triade, Nieuwe Kolk, Neptunus, Drents Museum, Stadhuis/Doevenkamp, Kloosterveste) could only be sourced from commercial portals, which were not used; the Laadvisie only confirms municipal ownership.",
+  "The college letter of 9 January 2026 on the Parkeerstrategie and Havenkwartier parking vision, the parkeermonitor data behind the 450 unused spaces, and the outcome of the Doevenkamp 3 permit application were not found.",
+  "No news article (RTV Drenthe, Dagblad van het Noorden) on garages, tariffs or parking policy was opened; no 2026 utilisation statement beyond the 2025 mobility vision was found.",
+  "The 2019 college proposal 'Taakstelling parkeerexploitatie & herijking parkeerbeleid' and the 2021 Binnenstadvisie were not opened."
+ ],
+ "dropped": {}
+}

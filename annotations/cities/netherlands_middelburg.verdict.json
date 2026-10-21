@@ -1,0 +1,93 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2025, 563946 (published 23-12-2025, 'Behoort bij raadsbesluit van 18 december 2025', heffing from 1 January 2026): tariff table 1.1.1 yellow zone 3,20 per hour for the first two hours and 6,40 per hour from the third; 1.1.2 purple zone (Damplein) 3,20 for the first four hours and 6,40 from the fifth. Every number and date in the item is on the page. The page is the regulation text itself; it was not checked whether it was amended later in 2026."
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Same Gemeenteblad page: green-zone items 1.2-1.4 (Hof van Tange, Loskade, Molenwater from Molenwater parkeerplein to Koepoort) 3,20 per hour and 16,00 day card. The 2025 comparison (3,00 per hour, 15,00 per day) is NOT on the cited URL; I confirmed it on CVDR739536 (lokaleregelgeving.overheid.nl, in force 1 June to 30 December 2025), so 'the same register' is loose wording but the figures are right (about 6.7 percent rise). 'Garages not priced in either regulation' is true: the word garage does not appear in either table."
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Besluit B&W within Gemeenteblad 2025, 563946: signed 'Middelburg, 12 november 2025', effective 1 January 2026; paid parking Monday to Saturday 08.00-20.00 except public holidays (list given). No Sunday is listed. Minor: the appended 'Bijlage 1' map is stamped 'besluit ... van 18 november 2025', a different date inside the same publication; the main decision date 12 November matches the item."
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Tariff table 2 and 4 of Gemeenteblad 2025, 563946: resident permit first 8,70 per month, second at same address 28,80; business permit first 26,10 per month; woonwerkvergunning (commuter) 30,80 per month; social-visitor app tariff 0,65 per 60 minutes in tariff zone 2 with limit of 110 euros per year. All as stated."
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "CVDR739536/1 (Eerste wijziging verordening 2025, heffing from 1 June 2025, raadsbesluit 17 April 2025): progressive table 3,00 per hour for first two hours and 6,00 from third; Damplein first four hours then from the fifth hour; map 'Maximum parkeerduur' replaced by 'Progressief parkeertarief'. The cited page does not itself say '2-hour maximum stay', 'garages excluded' or the aim; those are corroborated by the July 2025 report (section 2.1.6: previous 2-hour max, exceptions Hof van Tange/Loskade/Molenwater/garages) and by the Omroep Zeeland article (aim to discourage long-stay parking). Text is accurate; sources for the secondary details are items 5 and 6."
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Omroep Zeeland, 27 mei 2025 17:55: progressive tariff starts 'Maandag', 3 euro first two hours then 6 euro, Damplein from fifth hour; not applicable to Hof van Tange, Loskade, Molenwater (stay at 3 euro); garage tariff 2,30 euro per hour does not change; scan car for checks from May. All as stated. Single news source, medium confidence appropriate; the article is a pre-event report ('Vanaf volgende week'), and the item words it as a report."
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "Report p.12 (section 2.1.5): street tariff 3,00 per hour and garages 2,30 per hour, 'prijspeil 2024'; garages cheaper deliberately to relieve street parking. Numbers right. But the source is the municipality's 'Gewijzigde conceptrapportage ... 1-7-2025' (a draft), not an adopted 'council's' report; calling it the council's report implies adoption. No evidence of adoption was shown.",
+   "corrected_text": "The municipality's amended draft parking-policy report (1 July 2025) states that the street tariff was 3.00 euros per hour and the garage tariff 2.30 euros per hour (2024 price level), and says the garages are deliberately cheaper to pull visitors off the street."
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Report section 2.1.1: four public garages Geere, Kousteensedijk, Achter de Houttuinen, Kanaalweg; Oude Veerseweg free car park; about 3200 street spaces and about 1000 garage spaces in the binnenstad (the area within the Vesten); 'Alle parkeerplaatsen vallen onder het beheer van de Gemeente Middelburg'. Section 2.1.9 gives about 230 free spaces at Oude Veerseweg (expanded from 30 before 2010; the 230 is a historic expansion figure stated in the draft report, not a fresh count)."
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Report section 3 (counts by Groen Licht Verkeersadviezen, August and October 2023): high and low season differ little; hardly any spare capacity for growth; Oude Veerseweg overloaded; Saturday afternoon peaks; south-west of the centre has highest pressure. Also says October occupancy was higher than August. 2023 data, dated correctly."
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Report section 6.6: edge facilities well used, 'amper restcapaciteit' at busy moments; the parking guidance system points visitors to full garages and directs them to alternatives ('Op moment van schrijven ... geen acuut probleem'); municipality intends to review/optimise the system (to go into the implementation plan). All as stated."
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Report summary and sections 7.1, 9.3: draft advises scenario 1 as first step once one or more edge facilities exist ('Wijzigen van het parkeerregiem ... kan alleen op het moment dat vervangende parkeercapaciteit gerealiseerd is'); residential streets reserved for residents, their social visitors and business-permit holders; autoluw ambition. The item says regulation hours would extend 'from 6 to 24 hours'. The report means 6 to 24 o'clock (06:00-24:00), seven days a week, against the current Monday-Saturday 08:00-20:00; '6 to 24 hours' misstates it. The draft status is correctly flagged; no adoption evidence (council papers were not reachable).",
+   "corrected_text": "The 1 July 2025 draft report (a proposal; no adoption is shown in any source) steers towards a car-light centre where residential streets are reserved for residents, their social visitors and business-permit holders. Its advised first step (scenario 1) would extend regulation from the current Monday to Saturday 08:00-20:00 to 06:00-24:00, seven days a week, but only once new edge parking has been realised."
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Report summary and 6.6: station P+R (Segeerssingel; municipality is not the owner, NS Vastgoed) and Oude Veerseweg are the two locations most likely; indicative extra capacity 360 (station), 300 (Oude Veerseweg), 120 (Hof van Tange). Hof van Tange: a council amendment of 30 January 2025 added it to the INVESTIGATION of parking expansion, and the report calls expansion there complex because of cultural-heritage value (part of a rijksmonument) and not directly obvious to study. The item's 'added by a council amendment' reads as if Hof van Tange were chosen. The consultation report (gmb-2025-292408) stresses no site has been chosen.",
+   "corrected_text": "The 1 July 2025 draft report names the NS station park-and-ride site (Segeersingel, owned by NS Vastgoed, not the municipality) and Oude Veerseweg as the two most likely sites for extra edge parking, with indicative extra capacity of 360 and 300 spaces. A council amendment of 30 January 2025 added Hof van Tange (indicatively 120 extra spaces, described as complex because of heritage value) to the study of expansion options; no site had been chosen."
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Report section 10 table: Hof van Tange 15 mln for 120 spaces, Oude Veerseweg 13 mln for 300, Station 6 mln for 360 (described as 'ruwe indicatie'); 3 to 5 years (summary and 9.3) covering research, participation, land acquisition, procedures and construction; funding 'Investeringsfonds' (a direction of thought); section 6.6 concludes a bus-served transferium 'lijkt geen interessant middel'. 'Advises against' is a fair paraphrase. The table also lists Nieuwlandsedreef 3 mln for 350, not mentioned in the item. Items are worded as draft estimates."
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2025, 292408 (published 16-07-2025): inspraak 26 March to 7 May 2025 (6 weeks), '100 zienswijzen ontvangen'; repeated statement that 'we nog geen locatie hebben gekozen voor parkeeruitbreiding' and that three locations (Oude Veerseweg, P+R NS-station, Hof van Tange) are designated for study. Page text is a long document; I confirmed the stated count and dates."
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Q-Park page fetched 21 October 2026 (HTTP 200, no block): 'Parkeerplaatsen: 240', 'Doorrijhoogte: 2.10 meter', services Kentekenherkenning and Fietsenstalling, opening Maandag - Zondag 24-7 for arrival and departure, rail-traveller discount section ('reizigerskorting'), and 'De tarieven konden helaas niet geladen worden'. Page structured data also says 240 (and lists chargingPoints 0, bicycleSpots 0). So the operator's own page gives 240, contradicting the feed's 182; I cannot say which is right (operator marketing figure vs feed); should be flagged as unresolved rather than silently overridden. Date 2026-10 correct."
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2023, 3950 (published 03-01-2023): 'Exploitant: de publiekrechtelijke rechtspersoon Gemeente Middelburg'; article refers to 'Parkeer Management Systeem'; tariffs set in the tariff table to the Verordening parkeerbelastingen; abonnementen regulated in part II; rule 17 and 20 refer to designated charging posts and bays with 'elektrisch oplaadpunt', and definition of 'Laadpunt' in the garages. Matches the item."
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2024, 523709 (published 18-12-2024, decision of 10 December 2024): title '17 locaties laadplaatsen'; includes Molenwater 99 (parking area opposite the theatre) and Segeerssingel (two westernmost bays by the railway side); it also withdraws two Carl Perkinsstraat bays from the earlier decision and refers to the decision of 13 February 2024 (Gemeenteblad 2024, 68347) covering 16 locations. Gemeenteblad 2022, 92207 (published 09-03-2022): refers to the decision of 21 December 2021 covering 28 locations, and says charging already exists in the parking garages and on the charging square at Oude Veerseweg. All as stated. These are traffic decisions designating bays, not proof of installed or operating chargers; net counts were later adjusted (Duunmede 72 dropped in 2022, Carl Perkinsstraat bays withdrawn in 2024)."
+  }
+ ],
+ "corrected_summary": "Middelburg runs its own paid parking: about 3,200 on-street spaces inside the Vesten and about 1,000 spaces in four municipal garages (Geere, Kousteensedijk, Achter de Houttuinen, Kanaalweg), plus a free edge car park of about 230 spaces at Oude Veerseweg (figure from a July 2025 draft report). Paid parking applies Monday to Saturday 08:00-20:00 excluding public holidays, and from 1 January 2026 the on-street tariff in the yellow zone is 3.20 euros per hour for the first two hours and 6.40 euros from the third (Damplein: 3.20 for four hours, then 6.40); Hof van Tange, Loskade and Molenwater charge 3.20 per hour or 16.00 per day. Resident permits cost 8.70 euros a month for the first car. The garage tariff of 2.30 euros per hour dates from a 2024 price level in a July 2025 draft report and is not confirmed for 2026. A municipal draft parking-policy report of 1 July 2025 (a proposal; no adoption is shown in any source) aims for a car-light centre with visitor parking at the edge, extended regulation from the current 08:00-20:00 Monday to Saturday to 06:00-24:00 seven days a week once new edge capacity exists, and indicative extra capacity of about 360 spaces at the station park-and-ride (Segeersingel), about 300 at Oude Veerseweg and about 120 at Hof van Tange (added to the study by a council amendment, no site chosen), with rough costs of 6, 13 and 15 million euros and a 3 to 5 year lead time. Counts in August and October 2023 showed almost no spare capacity in the centre and an overloaded Oude Veerseweg car park. Q-Park lists the P+R Segeersingel car park at 240 spaces, open 24/7 (page read on 21 October 2026; its tariff panel did not load)."
+}

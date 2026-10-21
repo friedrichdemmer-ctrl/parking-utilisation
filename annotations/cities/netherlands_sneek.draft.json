@@ -1,0 +1,168 @@
+{
+ "country": "Netherlands",
+ "city": "Sneek",
+ "researched": "2026-10-21",
+ "summary": "Sneek's centre parking is a municipal paid-parking regime set by Súdwest-Fryslân: street and surface parking is paid Monday to Saturday 09:00-21:00 and Sunday 13:00-21:00, the Verordening Parkeerbelastingen 2026 (council decision of 18 December 2025) charges 1.03 euros per half hour up to two hours and 1.54 euros per half hour beyond, and the two garages P-Zuid Waterpoort (ex Boschplein) and P-Oost Normandiaplein give the first 24 hours free, then 1.54 euros per half hour up to 5.00 euros per day. The 2026 table keeps the free first half hour only when the plate is registered (in 2025 it was unconditional) and keeps resident permits at 106 euros per year inside the canals. Policy is moving towards fewer cars in the centre: a trial 'autoluwe binnenstad' with camera-enforced through-traffic bans ran from January 2024 (Prins Hendrikkade ban withdrawn in October 2024), the January 2026 Omgevingsvisie envisages phasing out surface parking in the centre zone in favour of built parking hubs at its edge, and the February 2026 Mobiliteitsprogramma stresses 'transferpunten' at the edge of the centre, a possible station hub and an Oppenhuizerweg search area. The station P+R at Kanaalstraat is a separate Q-Park site with 126 spaces, open 24/7. Council decisions after the evaluation of the trial (October 2025), the Parkeervisie 2019 and any utilisation statements could not be read, because the municipality's website was offline and the council information systems block automated access.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2025-12-18",
+   "text": "The municipal council of Súdwest-Fryslân adopted the Verordening Parkeerbelastingen 2026 on 18 December 2025, in force from 1 January 2026. For on-street and surface parking in Sneek it sets 1.03 euros per half hour up to two hours and 1.54 euros per half hour beyond two hours, with the first half hour per day at 0.00 euros if the licence plate is registered at the machine or in the central computer.",
+   "source_title": "Verordening op de heffing en invordering van parkeerbelastingen 2026 (Súdwest-Fryslân)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR754219/1",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12-18",
+   "text": "The 2026 tariff table makes the two Sneek garages P-Zuid Waterpoort (formerly Boschplein) and P-Oost Normandiaplein free for the first 24 hours, then 1.54 euros per half hour with a maximum of 5.00 euros per day, including VAT.",
+   "source_title": "Verordening op de heffing en invordering van parkeerbelastingen 2026 (Súdwest-Fryslân)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR754219/1",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-01",
+   "text": "For comparison, the 2025 tariff table had the first half hour per day free without conditions, 1.00 euro per half hour up to two hours and 1.50 euros per half hour beyond two hours in Sneek; the garage terms (first 24 hours free, 5.00 euros daily maximum) were unchanged in 2026.",
+   "source_title": "Verordening op de heffing en invordering van parkeerbelastingen 2025 (Súdwest-Fryslân)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR732023/1",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-01-07",
+   "text": "The Aanwijzingsbesluit parkeerbelastingen 2025 (decided by the executive on 7 January 2025, effective retroactively from 1 January 2025) sets paid parking in Sneek at Monday to Saturday 09:00-21:00 and Sunday 13:00-21:00, and the two garages are paid 24 hours a day. It also records that the garages were renamed in March 2024 (Boschpleingarage became P-Zuid Waterpoort, Normandiagarage became P-Oost Normandiaplein) and the surface lots Veemarkt and Bolswarderpoort became P-West Theater and P-Noord Bolswarderpoort.",
+   "source_title": "Aanwijzingsbesluit parkeerbelastingen 2025 Súdwest-Fryslân",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR734311/1",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-01-07",
+   "text": "The 2025 designation lists about 32 paid streets and lots in Sneek, including Boschplein, Normandiaplein and Sint Antoniusplein (surface), the Sint Antoniusplein parking deck, Lemmerweg, Leeuwarderweg, Martiniplein, Oude Koemarkt, Parkeerterrein Steenklip, P-Noord Bolswarderpoort (western part) and P-West Theater (north-western part). Payment is by bank card at the machine or by phone app via a provider linked to the SHPV.",
+   "source_title": "Aanwijzingsbesluit parkeerbelastingen 2025 Súdwest-Fryslân",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR734311/1",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12-18",
+   "text": "Resident permits for paid zones inside the Sneek canals cost 106.00 euros per year in 2026, business permits (short-stay zones) 495.00 euros per year, and permits for long-stay parking outside the canals (including the garages) 30.00 euros per month or 300.00 euros per year. These permit prices are identical to 2025.",
+   "source_title": "Verordening op de heffing en invordering van parkeerbelastingen 2026 (Súdwest-Fryslân)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR754219/1",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2021-02-23",
+   "text": "The municipality's permit rules (Nadere regels parkeervergunningen en -ontheffingen 2021, decided 23 February 2021 and still shown as in force) split Sneek into paid-parking areas 1.1 (inside and outside the canals) and 1.2 (long stay outside the canals, including the two garages) plus 13 resident zones. Residents of area 1.1 get at most two permits per address, and permit holders in the garages can obtain a pass for entry and exit.",
+   "source_title": "Nadere regels parkeervergunningen en -ontheffingen Súdwest-Fryslân 2021",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR655435",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-07-11",
+   "text": "On 11 July 2023 the executive of Súdwest-Fryslân decided a trial 'autoluwe binnenstad' for Sneek: no physical closure, but signs and enforcement cameras on four through-routes (Singel, Prins Hendrikkade, Harinxmakade, Kleine Kerkstraat), banning through traffic from 12:00 to 18:00 seven days a week. The decision states that all homes, businesses and parking places in the centre stay reachable and that the parking policy places the large car parks (transfer points) within walking distance of the centre, with enough spaces in the centre for quick errands and for visitors with reduced mobility.",
+   "source_title": "Verkeersbesluit proef Autoluwe binnenstad Sneek (Gemeenteblad 2023, 297788)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2023-297788.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-03-06",
+   "text": "The trial started on 2 January 2024. After a first monitoring round the executive shortened the through-traffic bans on Prins Hendrikkade, Singel and Harinxmakade to 12:00-17:00 (decision of 6 March 2024), reporting that daily traffic on Prins Hendrikkade and Singel had fallen by 37-49 percent against a target of at least 25 percent, while traffic rose on Worp Tjaardastraat/Goeman Borgesiuslaan/Berkenlaan and Willem Lodewijkstraat.",
+   "source_title": "Verkeersbesluit wijzigen tijdsduur doorrijdverboden proef Autoluwe binnenstad Sneek (Gemeenteblad 2024, 101874)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2024-101874.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-10-17",
+   "text": "On 15 October 2024 the executive withdrew the through-traffic ban on Prins Hendrikkade (it had been suspended since 19 June 2024), citing public incomprehension and that the street is used mainly as traffic space; counts of September 2023 gave about 9,000 vehicles per day on Prins Hendrikkade and 6,000 on Singel, roughly halved in January 2024. The bans on the other routes continued as part of the trial.",
+   "source_title": "Intrekken doorrijverbod Prins Hendrikkade proef Autoluwe binnenstad Sneek (Gemeenteblad 2024, 433843)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2024-433843.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2022-03-31",
+   "text": "A collective traffic decision published on 31 March 2022 designates two parking places per charge point as charging-only bays at five residential locations (including Wassenberghstraat 18, De Hoppen 1 and Kleine Vos 32 in Sneek), but only one bay per location is actually equipped initially, with the second to be added if demand shows. This is about neighbourhood street charging, not the town-centre car parks.",
+   "source_title": "Verkeersbesluit reserveren parkeerplaats voor het opladen van elektrische auto's (Gemeenteblad 2022, 144068)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2022-144068.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-02-10",
+   "text": "The executive of Súdwest-Fryslân adopted the Mobiliteitsprogramma (outlook to 2040) on 10 February 2026; it was published in the Gemeenteblad on 28 July 2026. For Sneek and Bolsward it aims to keep through traffic out of the centre by routing it around the centre, with the car 'a guest' in the centres.",
+   "source_title": "Mobiliteitsprogramma Súdwest-Fryslân (Gemeenteblad 2026, 363823)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-363823.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-02-10",
+   "text": "The Mobiliteitsprogramma describes 'transferpunten' as large car parks where roads from outside end and visitors walk or use public transport; it says Sneek already has several, within short walking distance of the centre, and that new ones are to be placed at strategic spots linked to public transport. It also says Sneek's parking follows the Parkeervisie of 2019 and a Parkeernormennota, and that in urban areas the aim is to study where combined and built (structured) parking is possible.",
+   "source_title": "Mobiliteitsprogramma Súdwest-Fryslân (Gemeenteblad 2026, 363823)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-363823.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-02-10",
+   "text": "The Mobiliteitsprogramma lists as exploratory actions turning Sneek station into a multifunctional hub (with a water-transport 'Blue Mobility' stop) and upgrading transfer points, naming a search area on Oppenhuizerweg in Sneek, and suggests boats could carry people from the Sneek transfer points to the inner city. These are explorations listed for the implementation programme, not decided projects.",
+   "source_title": "Mobiliteitsprogramma Súdwest-Fryslân (Gemeenteblad 2026, 363823)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-363823.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-02-10",
+   "text": "The Mobiliteitsprogramma says the municipality applies a charging policy aiming at a sufficient public charging network for electric vehicles, and its implementation programme lists expanding the charging network, with a possible link to mobility hubs. No charger numbers for Sneek's car parks are given in it.",
+   "source_title": "Mobiliteitsprogramma Súdwest-Fryslân (Gemeenteblad 2026, 363823)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-363823.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-26",
+   "text": "A traffic decision published on 26 June 2026 for the Sneekweek (event 31 July to 7 August 2026) closes the centre to motor traffic from 19:00 to 02:30 on 31 July to 6 August and closes the Martiniplein to through traffic from 28 July to 6 August. Its attached 'Parkeren rond om Sneek' map shows the municipal parking sites: P-Noord Bolswarderpoort, P-Station Sneek (Kanaalstraat 24), P-West Theater (Korte Veemarktstraat 12), P-Zuid Waterpoort (Boschplein 7), P-Oost Normandiaplein (Normandiaplein 7) and the Zuidersportpark.",
+   "source_title": "Verkeersbesluit afzettingen in en rondom centrum Sneek wegens Sneekweek (Gemeenteblad 2026, 306011)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-306011.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01-29",
+   "text": "The council of Súdwest-Fryslân decided on 29 January 2026 (published 4 February 2026) an amended Omgevingsvisie whose Sneek 2050 section says surface parking inside the centre zone is no longer wanted and is to be phased out, with parking explored in multifunctional built 'parkeerhubs' at the edge of the centre zone. It also says more homes and facilities must not lead to more cars in the inner city. This is a long-term vision, not a dated construction programme.",
+   "source_title": "Omgevingsvisie gemeente Súdwest-Fryslân (Gemeenteblad 2026, 52628)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-52628.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-01-29",
+   "text": "The Omgevingsvisie text proposes to investigate, for the Veemarkt/rail-zone area next to the station, built alternatives to surface parking to free space for green and event use, and to examine the road, parking, public-transport and slow-traffic structure there. It also mentions making Sneek station a multifunctional, multimodal hub with building heights of up to 10 storeys in the station zone. These are explorations in the vision.",
+   "source_title": "Omgevingsvisie gemeente Súdwest-Fryslân (Gemeenteblad 2026, 52628)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-52628.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Q-Park lists 'P+R Station, Sneek' (Kanaalstraat, 8601 GA) as its only Sneek facility, with 126 spaces, a 1.90 m height limit and 24/7 access, and states that rail travellers get a P+R discount under conditions (a domestic train journey checking out at a different station and leaving the lot the same day). Page read on 21 October 2026; the tariff section did not load on the page.",
+   "source_title": "Q-Park P+R Station, Sneek",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/sneek/p-r-station-sneek/",
+   "confidence": "medium"
+  }
+ ],
+ "gaps": [
+  "https://sudwestfryslan.nl/ (all pages, incl. /parkeren/, /nieuws, wp-content PDFs such as the Aanwijzingsbesluit annexes 2023-2024 and the Actieve informatie notes on the autoluwe binnenstad) and https://pdc.sudwestfryslan.nl/wp-content/uploads/2025/09/Evaluatierapport-proef-autoluwe-binnenstad-Sneek.pdf returned HTTP 503 'Temporarily offline (PHP vulnerability)' on 21 October 2026, so the evaluation report of the autoluwe-binnenstad trial (college decision 2 September 2025, council 16 October 2025) and its outcome could not be read.",
+  "Council papers: https://sudwestfryslan.notubiz.nl/ returned 403 with a JavaScript challenge, https://www.ibabs.eu/nl/sudwestfryslan returned a Cloudflare block, https://sudwestfryslan.raadsinformatie.nl/ returned 522 and sudwestfryslan.bestuurlijkeinformatie.nl returned an error page; none were bypassed, so no raadsvoorstel on parking or the outcome of the trial was read.",
+  "Parkeervisie 2019 and the Parkeernormennota (both cited by the Mobiliteitsprogramma) and the Ruimtelijke Strategie Sneek 2050 were not found or opened, so no stated parking supply numbers, occupancy figures or utilisation statements for Sneek's garages could be sourced.",
+  "Q-Park's tariff for P+R Station Sneek did not load on its page (https://www.q-park.nl/nl-nl/parkeren/sneek/p-r-station-sneek/); a tariff of 1.20 euros per hour (maximum 5.00 per day) appears only on the listing portal centrumparkeren.nl, which is not used as a source. The operator of the garages and the number of spaces in P-Zuid Waterpoort and P-Oost Normandiaplein were not found in an official or operator source.",
+  "No 2025-2026 local press (Sneeker Courant, Omrop Fryslan, Leeuwarder Courant) on Sneek parking, the Sneekweek parking arrangements beyond the traffic decision, or EV charging in Sneek car parks was found; the WebSearch budget was exhausted before these could be searched.",
+  "The 2023 Aanwijzingsbesluit and a 2022 EV charging decision relate only to residential street chargers; no Sneek-wide EV charging statistics were found."
+ ]
+}

@@ -1,0 +1,161 @@
+{
+  "country": "France",
+  "city": "Tourcoing",
+  "researched": "2026-10-21",
+  "summary": "Tourcoing manages on-street parking in its centre as a free time-limited blue zone rather than paid parking, with a free resident or professional card, and the city says the centre has 2,321 parking spaces on the surface and in structures. The three large centre car parks (Hôtel de Ville, Miss Cavell and Saint-Christophe) are listed by the Métropole Européenne de Lille as operated by Indigo. Since 1 January 2025 a metropole-wide low-emission zone applies in all 95 MEL communes, barring only unclassified pre-1997 vehicles. The centre is served by metro line 2, a tramway and the Tourcoing station, which has long been planned as a multimodal hub with a park-and-ride.",
+  "items": [
+    {
+      "topic": "regulation",
+      "date": "2026-03",
+      "text": "The city's blue zone offers free parking limited to 1 hour from arrival, 9:00-12:00 and 14:00-19:00 Monday to Saturday except public holidays. The page was last modified on 19 March 2026.",
+      "source_title": "Zone bleue - Tourcoing",
+      "source_url": "https://www.tourcoing.fr/ma-ville/demarches-administratives/zone-bleue/",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-03",
+      "text": "Residents of the regulated zone can get a free resident parking card on proof of address less than 3 months old, and traders, craftspeople and professionals based in the zone can get a free professional card. Applications go to the town hall roads department, which answers within 15 working days.",
+      "source_title": "Zone bleue / Carte zone bleue pour résidents - Tourcoing",
+      "source_url": "https://www.tourcoing.fr/ma-ville/demarches-administratives/zone-bleue/carte-zone-bleue-pour-residents/",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-04",
+      "text": "The city says centre-ville parking is free with limited duration under the blue zone, and that 137 places were recently added for a total of 2,321 surface and structure spaces in the centre. Shops at Espace Saint-Christophe give 1h30 of free parking with a purchase (4 hours for the cinema).",
+      "source_title": "Stationner facilement au centre-ville - Tourcoing",
+      "source_url": "https://www.tourcoing.fr/stationner-facilement-au-centre-ville/",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-04",
+      "text": "The city lists open-air blue-zone car parks at Grand'Place, Place de la Résistance, Rue Nationale, Place du Théâtre and the town hall, plus covered car parks at Espace Saint-Christophe, the Hôtel de Ville (rue de la Bienfaisance), the station, and links labelled Onepark and Indigo.",
+      "source_title": "Stationner facilement au centre-ville - Tourcoing",
+      "source_url": "https://www.tourcoing.fr/stationner-facilement-au-centre-ville/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2025-07",
+      "text": "The Métropole Européenne de Lille lists Indigo as operator of the three Tourcoing centre car parks: Hôtel de ville - Centre (rue de la Bienfaisance), Miss Cavell (avenue Allende) and St Christophe (rue des Anges). In the 25 public car parks of Lille, Roubaix and Tourcoing in this list, the other operators are Effia (Lille) and the SEM Ville Renouvelée (Roubaix).",
+      "source_title": "Bornes de recharge électrique - Métropole Européenne de Lille",
+      "source_url": "https://www.lillemetropole.fr/bornes-de-recharge-electrique",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2025-07",
+      "text": "In the Lille, Roubaix and Tourcoing centre car parks, the MEL page gives charging prices as of 1 July 2025 by operator. For Indigo Neo (Tourcoing's operator) these are 0.29 EUR/kWh with subscription, 0.45 EUR/kWh occasional, and 0.55 EUR/kWh without an Indigo card.",
+      "source_title": "Bornes de recharge électrique - Métropole Européenne de Lille",
+      "source_url": "https://www.lillemetropole.fr/bornes-de-recharge-electrique",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2025-10",
+      "text": "The MEL's Iléwatt on-street charging service has been rolling out since July 2024 and is planned to reach nearly 900 charging points in nearly 300 locations. In the 12 MEL park-and-ride car parks about 175 charging points are available, with nearly 280 planned.",
+      "source_title": "Bornes de recharge électrique - Métropole Européenne de Lille",
+      "source_url": "https://www.lillemetropole.fr/bornes-de-recharge-electrique",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-01",
+      "text": "The MEL's low-emission zone has applied since 1 January 2025 in all 95 MEL communes, so Tourcoing is inside it. A Crit'Air sticker is required at all times, and only unclassified vehicles registered before 1 January 1997 (an estimated 6,290 vehicles in the metropolis in 2025) are barred.",
+      "source_title": "Zone à faibles émissions (ZFE) - Métropole Européenne de Lille",
+      "source_url": "https://www.lillemetropole.fr/zfe",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-10",
+      "text": "The MEL says it promotes a reasoned use of the car and operates 12 park-and-ride sites with 5,500 spaces across the metropolis, next to metro stations, bus hubs or TER stations. The page was read on 21 October 2026 and still refers to the 2010-2020 urban mobility plan.",
+      "source_title": "Se déplacer en voiture - Métropole Européenne de Lille",
+      "source_url": "https://www.lillemetropole.fr/se-deplacer-en-voiture",
+      "confidence": "medium"
+    },
+    {
+      "topic": "technology",
+      "date": "2025-10",
+      "text": "MEL park-and-rides are reserved for ilévia or TER customers: entry is free, and exit requires a ticket validated the same day on the ilévia network, at no extra parking charge.",
+      "source_title": "Bornes de recharge électrique - Métropole Européenne de Lille",
+      "source_url": "https://www.lillemetropole.fr/bornes-de-recharge-electrique",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2025-10",
+      "text": "The city lists metro line 2 (stations Bourgogne, Pont de Neuville, Phalempins, Colbert, Tourcoing Centre, Gare de Tourcoing, Mercure) and tramway line T with 4 stops in Tourcoing. It also reports 25 V'Lille bike-share stations with 200 bikes, and two Lilas car-sharing stations in the centre.",
+      "source_title": "Transports - Tourcoing",
+      "source_url": "https://www.tourcoing.fr/developpement-durable/transports/",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2025-10",
+      "text": "The city's station-district project page describes a planned multimodal hub: it says over 2,000 travellers pass through Tourcoing station daily and gives an estimated potential of about 3,500 per day. It lists a park-and-ride car park under works in 2021, planned to open September 2021 (a historical schedule on a page last modified in October 2025), and 40 parking spaces in the Halle site redevelopment.",
+      "source_title": "Le quartier de la gare - Tourcoing",
+      "source_url": "https://www.tourcoing.fr/travaux-a-tourcoing/grands-projets/le-quartier-de-la-gare/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-10",
+      "text": "The MEL's Extramobile programme plans a new Neuville-en-Ferrain - Tourcoing - Roubaix - Hem tramway (38 stations, 20.5 km, first axis planned for 2033, east-west axis 2035), plus an extension of tram line T from Tourcoing Centre to the station. The page, read on 21 October 2026, says street space may be reallocated, which could mean some one-way streets or removed on-street parking, with residents' parking preserved as far as possible.",
+      "source_title": "Extramobile : le tramway du pôle métropolitain Roubaix-Tourcoing - Métropole Européenne de Lille",
+      "source_url": "https://www.lillemetropole.fr/extramobile-tramway-roubaix-tourcoing",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-10",
+      "text": "The same MEL page says existing multimodal hubs may be reinforced and new ones created near the new lines, with park-and-ride and parking supply to be sized after a needs analysis. It estimates 60,000 trips per day at opening (a forecast).",
+      "source_title": "Extramobile : le tramway du pôle métropolitain Roubaix-Tourcoing - Métropole Européenne de Lille",
+      "source_url": "https://www.lillemetropole.fr/extramobile-tramway-roubaix-tourcoing",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-04",
+      "text": "The city's page on the Boulevard Industriel green belt (3.6 km, 420 trees, 11 km of cycle lanes, 20 million EUR of which 15 million from the MEL) lists maintained car-parking capacity among its advantages. Works were announced from July 2025 starting with one 950 m section.",
+      "source_title": "Le boulevard industriel se transforme ! / Boulevard Industriel (Ceinture Verte) - Tourcoing",
+      "source_url": "https://www.tourcoing.fr/2024/06/01/le-boulevard-industriel-se-transforme/",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-10",
+      "text": "Tourcoing's home page, read on 21 October 2026, announces an autumn funfair on the Grand Place from 21 October to 1 November and says a temporary car park will be set up on the Saint-Christophe forecourt.",
+      "source_title": "Accueil - Ville de Tourcoing",
+      "source_url": "https://www.tourcoing.fr/",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2025-05",
+      "text": "The city publishes open data on data.gouv.fr (Ville de Tourcoing organisation). No car-park occupancy dataset was identified on it.",
+      "source_title": "Opendata (Données ouvertes) - Tourcoing",
+      "source_url": "https://www.tourcoing.fr/ma-ville/open-opendata-donnees-ouvertes/",
+      "confidence": "low"
+    },
+    {
+      "topic": "demand",
+      "date": "2024-11",
+      "text": "The MEL ran a certified household mobility survey (EMC2, Cerema method) from 13 November 2024 to April 2025; the Tourcoing page shows the announcement only, not results.",
+      "source_title": "Enquêtes Mobilité Certifiées CEREMA - Tourcoing",
+      "source_url": "https://www.tourcoing.fr/urbanisme-a-tourcoing/actualites-d-urbanisme/enquetes-mobilite-certifiees-cerema/",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "https://www.ville-tourcoing.fr (older city domain) refused connections from this environment; the city's current site www.tourcoing.fr was read via curl and its public WordPress JSON content endpoint.",
+    "https://www.ilevia.fr (transport network, park-and-ride and tariffs) returned a Cloudflare 403 block; not worked around.",
+    "No Indigo or Indigo Neo page with hourly or subscription tariffs and exact capacities for Hôtel de Ville, Miss Cavell and Saint-Christophe could be read (Indigo Neo search page is JavaScript-only; parkindigo.com did not respond). Operator naming rests on the MEL page.",
+    "No page on tourcoing.fr about paid on-street parking or forfait post-stationnement was found; the city presents a free blue zone. Third-party portals disagree, and were not used.",
+    "No council deliberation, concession contract or press article (La Voix du Nord, Nord Éclair) on the car parks, usage statistics or occupancy was read; the web-search budget ran out, so press coverage is missing.",
+    "dataMEL (data.lillemetropole.fr) is JavaScript-only, so no occupancy dataset documentation was read; the station-district page on tourcoing.fr gives only 2020-2021 schedules (park-and-ride 'to open September 2021') with no confirmation of opening or capacity.",
+    "No Tourcoing-specific EV charging data (public chargers per site) beyond MEL-level Iléwatt figures; no Tourcoing Cœur de ville project page was found."
+  ]
+}

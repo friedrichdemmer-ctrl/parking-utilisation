@@ -1,0 +1,91 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2025 nr. 561707 (PDF, all 4 pages read): adopted by the council 11 Dec 2025 (published 22 Dec 2025), levy starts 1 Jan 2026 (art. 13). Tariff table: Zone Centrum 0.25 first quarter, 0.55 per quarter for 2nd and 3rd, 0.80 for 4th, 2.40 per hour from the second hour; Zone Overig (yellow on the map) 1.55 per hour; day ticket 6.20. Minor nuance: the table itself still refers to the map of the Aanwijzingsbesluit 2025; the 2026 map (checked separately) carries the same legend."
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "CVDR754103/1 read as HTML: 'Geldend van 01-01-2026 t/m heden'; signed Oisterwijk 16 Dec 2025; art. 2 hours Mon-Thu 09-18, Fri 09-21, Sat 09-17; free outside these hours and on Sundays; art. 3 payment by coins or (contactless) card at the machine, or logging in by phone, SMS or internet with the central system; in force 1 Jan 2026. Page read 21 Oct 2026."
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Tarieventabel in Gemeenteblad 2025 nr. 561707 (page 4): residents' permits 49.65 / 114.00 / 114.00 / 226.75; business permits 152.70 / 305.40 / 305.40 / 609.60; naheffingsaanslag 76.00 (art. 9); no remission (art. 10). All numbers match."
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Art. 6 of the 2026 ordinance: no tax for holders of a disabled parking card on marked disabled bays (card visibly displayed) and for electric vehicles that are being charged at charge points. Matches."
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Checked against the three ordinances themselves (draft cites only the 2024 one): CVDR685084 (2023, adopted 10 Nov 2022, applies 2023): centre 2.30 from 2nd hour, other zone 1.50, day ticket 6.00; CVDR711301 (2024, adopted 14 Dec 2023): 2.40 / 1.55 / 6.20, first residents' permit 48.35; CVDR731207 (2025, adopted 12 Dec 2024): same parking rates, first permit 48.35; 2026: 49.65. All correct. Weakness: the cited URL CVDR711301 shows only 2024; the source list should also give CVDR685084 and CVDR731207. Note the 48.35 permit fee was already the 2024 fee (unchanged 2024 to 2025)."
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Read the published map image (Bijlage I, 1089x769 PNG) as an image. Legend: purple = 0.25 / 0.55 / 0.80 / 2.40 per hour; yellow/olive = 1.55 p/u, day ticket 6.20. Numbered car parks: 1 Stationsplein, 2 Gemullehoekenweg, 3 Spoorlaan-Jumbo, 4 Marktpad, 5 Burg. Verwielstraat, 6 Vloeiweg-AH, 7 Gemullehoekenweg, 8 Vloeiweg-Mevio = eight, all yellow. The Spoorlaan street section is yellow. No P+R is named, no space counts. Matches. Date: the decision was signed 16 Dec 2025 and in force 1 Jan 2026 (2026-01 acceptable). Live register page read 21 Oct 2026."
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "Rates are correct: the 2019 map (PDF, one page, also viewed as image) shows 0.20 first quarter, 0.50 for quarters 2-4, 2.00 per hour from the second hour, 1.20 p/u elsewhere, day ticket 4.80; 2.00 to 2.40 is +20 percent. But the claim that the map shows 'the same eight car park numbers' is wrong: the 2019 list is 1 Stationsplein, 2 Gemullehoekenweg, 3 Spoorlaan-Jumbo, 4 Marktpad, 5 J. Lenartzstraat, 6 Burg. Verwielstraat, 7 Vloeiweg-AH, 8 Gemullehoekenweg; there is no Vloeiweg-Mevio and the numbering differs from 2026. Also the month of the 2019 decision (2019-01) is not on the map; only 'Oisterwijk 2019' is shown.",
+   "corrected_text": "For comparison, the map attached to the 2019 designation decision (Aanwijzingsbesluit betaald parkeren Oisterwijk 2019) showed eight numbered car parks (including Stationsplein and Spoorlaan-Jumbo, but with J. Lenartzstraat instead of the later Vloeiweg-Mevio) and older rates: 0.20 euro for the first quarter-hour, 0.50 euro per quarter for quarters two to four and 2.00 euro per hour from the second hour in the centre, 1.20 euro per hour elsewhere and a day ticket of 4.80 euro; the centre hourly rate has since risen by 20 percent (2.00 to 2.40 euro).",
+   "corrected_date": "2019"
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "CVDR609491/1: 'Geldend van 17-04-2018 t/m heden' (signed 10 April 2018, in force 17 April 2018). Recitals: long-stay parkers cause nuisance in streets around the paid centre. Exemptions (art. 3, 4, 5) for residents and businesses inside the disc zone, licence-plate-bound, no time limit within the zone, granted for one calendar year; renewal by 1 November. Matches; conditions (max two per address, own-parking deductions, business need) are omitted but not contradicted. Read 21 Oct 2026."
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2025 nr. 373477 (PDF, 2 pages): published 4 Sept 2025 (decision signed 26-08-2025): 30-minute parking disc zone Mon-Sat 9-18 on four parking bays of the 22 angled bays on the parallel road of the Moergestelseweg (at house no. 1); reason: bays near businesses occupied for long periods, short-stay visitors find no space within walking distance. Matches."
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Nota Parkeernormen 2016 (PDF, all 58 pages): colophon says determined 24 Aug 2016, published 20 October (year not stated), replaces the Parkeerfondsverordening 2010; areas centre / schil / rest of built-up area; table 3 amounts 5,000 / 7,500 (centre) and 3,500 / 5,000 (elsewhere), price level 2016, annual indexation by the municipality. Errors: (1) the Nota is adopted by the college (section 3.5), not the council; (2) the mobility fund is conditional ('Wanneer door de gemeenteraad ... besloten wordt om een mobiliteitsfonds in te stellen') - the Nota does not itself establish a fund, so 'sets ... a mobility fund: a developer pays' overstates; the table is a rate card for if a fund is set up.",
+   "corrected_text": "The Nota Parkeernormen (determined by the college on 24 August 2016, replacing the 2010 Parkeerfondsverordening) sets parking standards for new developments by area (centre, edge zone, rest of built-up area). It also contains a rate table for a possible mobility fund, to apply if the council establishes one by ordinance: compensation of 5,000 euro per space in the centre (7,500 euro if compensation spaces in public space are not possible) and 3,500 or 5,000 euro elsewhere (2016 price level, indexed yearly by the municipality). This is an old policy document; whether a newer one exists was not checked."
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Staatscourant 2021 nr. 11744 (PDF, 3 pages): published 5 March 2021 (decision signed 28 Feb 2021): two-hour disc zone in the Schoolstraat with sign text Mon-Thu 09:00-18:00, Fri 09:00-21:00, Sat 09:00-17:00, forming one connected area with the already introduced Peperstraat zone; recitals: paid parking in the centre pushes long-stay parkers into residential streets, some edge-of-centre car parks made free, parking survey showed this insufficient, free car park at the Peperstraat (at right angles to the Schoolstraat) available for long-stay parkers. All matches and is dated 2021; the current status of these 2021 arrangements was not checked."
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Bouwstenen beleid recreatie en toerisme Oisterwijk (PDF, 50 pages, 18 July 2022, Bureau Stedelijke Planning for the municipality), table 2 from the Koopstromenonderzoek 2021: 'Parkeren auto' Oisterwijk 7.0, Moergestel 8.1, Haaren 8.1; total score Oisterwijk centre 8.2. Matches."
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Same study, section on demand: Oisterwijkse Bossen en Vennen 'jaarlijks 416.000 bezoekers', fifth most visited nature area in Noord-Brabant (the table gives it as the 2021 value). Recommendations (section 5): a closer analysis of peak-time bottlenecks incl. parking in verges and adding parking places; Natuurpoorten possibly extended with an extra location. Worded as recommendations in the draft; correct. Small nuance: the source says 'bezoekers' (visitors) and the figure is for 2021."
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Page read (HTML, published 29 Sep 2026): content matches (new public charge points, two bays per charge point only for vehicles actually charging, traffic decision with six-week objection period, criteria traffic safety, pedestrian space, green, grid connection). But the page states 'Dit artikel is automatisch samengesteld' (this article was automatically composed), so it is not an edited news report, and it says the charge points will be placed 'binnenkort' (soon). The facts about two bays and the six-week objection are corroborated by the Gemeenteblad decision (see item 15), which is the better source.",
+   "corrected_text": "Omroep Brabant (29 September 2026, an article that states it was automatically composed) reported that the municipality is expanding its public charging network, with new charge points to be placed soon; two parking bays are assigned to each new charge point, only for vehicles that are actually connected and charging. The placement is done through traffic decisions, which can be objected to within six weeks of publication. Locations were chosen with regard to traffic safety, pedestrian space, green and the grid connection. The official traffic decision (Gemeenteblad 2026 nr. 454344) confirms the two bays and the objection period."
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "The 29 Sep 2026 article (k; automatically composed, labelled so) says the pilot with Vattenfall runs 1 Aug 2026 to 31 Jan 2027 at six locations (Donatus Haaren, Kruizenmunt, Van Beugenkwartier, Hopveld Moergestel, Drogerij, Den Deel) with chargers any car may use (laadtegel or green information sign instead of traffic signs). The 7 Jul 2026 article (6016347, also 'automatisch samengesteld'; the cited source_url) lists Langeweg Haaren, Langvennen Noord, Moergestelseweg, Hopveld, Drogerij and Den Deel, gives 31 Jan 2027 in its intro but 'tot juli 2027' in the body, and does not mention Vattenfall. The two articles therefore disagree on locations and the end date, and both are machine-composed; the draft's own wording of the disagreement is accurate but the pilot is presented too firmly as fact. The 7 July article was written before the 1 Aug start so it describes a planned pilot. No official source found. Source_url only points to the July article.",
+   "corrected_text": "Two Omroep Brabant articles, both stating they were automatically composed, report a pilot with chargers without reserved bays (any car may park, also if not charging). The article of 7 July 2026, written before the start, says the pilot begins on 1 August and lasts until 31 January 2027 in its introduction but until July 2027 in its body, and lists six locations including Langeweg (Haaren), Langvennen Noord and Moergestelseweg. The article of 29 September 2026 says the municipality and Vattenfall run the pilot from 1 August 2026 to 31 January 2027 and names a different set of six locations (Donatus Haaren, Kruizenmunt, Van Beugenkwartier, Hopveld Moergestel, Drogerij, Den Deel). The end date and the exact locations are therefore unconfirmed, and no official source for the pilot was found."
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Gemeenteblad 2026 nr. 454344 (PDF, 8 pages): published 1 Oct 2026, decision dated 22 Sep 2026, kenmerk 2026-18, title 'Verzamelverkeersbesluit 11 laadpalen cyclus 5'; two bays reserved per charge point (sign E08c); nine data-driven locations plus Sportlaan 22 as the strategic location with '2 x 2 parkeerplaatsen' (so ten sites, eleven charge points); recital that a possible rise in parking pressure is no ground to refrain from placing a charge point. Matches except the concession wording: the page says the provinces of Noord-Brabant and Limburg concluded a contract with Vattenfall InCharge for placement and operation of smart charging infrastructure (no date given), and separately that in July 2024 the province of Noord-Brabant on behalf of all Brabant municipalities concluded a concession agreement; it does not state that the July 2024 concession is with Vattenfall InCharge or that it was concluded by 'the provinces'.",
+   "corrected_text": "On 1 October 2026 the college published a traffic decision (dated 22 September 2026) reserving two parking bays at each of 11 new charge points (nine data-driven locations chosen where existing chargers are heavily used, plus Sportlaan 22 as a strategic location with two charge points). The decision states that the provinces of Noord-Brabant and Limburg have a contract with Vattenfall InCharge for placing and operating smart charging infrastructure on behalf of the municipality, and that in July 2024 the province of Noord-Brabant concluded a concession agreement on behalf of all Brabant municipalities. It also states that a possible rise in parking pressure is no reason to refrain from placing a charge point. Objections are possible within six weeks of publication."
+  }
+ ],
+ "corrected_summary": "Oisterwijk is not a free-parking town. The municipal Verordening parkeerbelastingen 2026 (adopted 11 December 2025, levy from 1 January 2026) charges in a centre zone (De Lind, Dorpsstraat, Hoogstraat, Kerkstraat, Stationsstraat, Burgemeester Verwielstraat) 0.25 euro for the first quarter-hour, 0.55 euro per quarter for the second and third, 0.80 euro for the fourth and then 2.40 euro per hour from the second hour, and in an 'other' zone of streets and car parks 1.55 euro per hour with a day ticket of 6.20 euro; these parking rates are unchanged since 2024. Under the Aanwijzingsbesluit 2026 paid hours are Monday-Thursday 09:00-18:00, Friday 09:00-21:00 and Saturday 09:00-17:00, with free parking in the evening and on Sundays. The map attached to the decision shows eight paid car parks, all in the 'other' zone at 1.55 euro per hour, including Stationsplein and Spoorlaan-Jumbo; the 2019 map had a different eighth car park and lower rates (centre 2.00 euro per hour, other zone 1.20 euro). Around the centre, 2018 policy rules and a 2021 decision describe two-hour disc zones and exemptions to keep long-stay parkers out of residential streets (2021 position: some edge-of-centre car parks free, a free car park at the Peperstraat); a 30-minute disc zone was set on the Moergestelseweg parallel road in September 2025. Public charging is being expanded: a traffic decision published on 1 October 2026 reserves two bays at each of 11 new charge points. Machine-composed Omroep Brabant articles report a pilot with chargers without reserved bays from August 2026, but they disagree on the end date and locations, so that pilot is unconfirmed. A 2022 recreation study estimated about 416,000 visitors a year to the Oisterwijkse Bossen en Vennen (2021 figure) and recommended analysing peak-time parking in verges; it also reports a 7.0 out of 10 visitor rating for parking by car in the centre (Koopstromenonderzoek 2021). The 2016 Nota Parkeernormen (old) sets parking standards for new developments and a rate table for a possible mobility fund. The municipal website was offline when read on 21 October 2026, so no official page on station park-and-ride, car park capacities or utilisation could be read."
+}

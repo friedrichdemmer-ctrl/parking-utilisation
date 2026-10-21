@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Press release (created 19 Dec 2025) confirms: council session 16 Dec 2025; left-of-Rhine fee raised to 3.00 euros/h with the 1.00 euro base amount unchanged; Strandbad Horn 2.50/h and 15 euros/day; Klausenhorn 2.00/h and 11 euros/day; bylaw in force on 17 Dec 2025 via publication; aim (car parks cheap for long stays, street for short stays); VAT the city has paid on car park income since 2025. All numbers match. But the release is written in the future tense ('künftig'), and the city's 14th climate report (read at item 1) says the hourly rate in the left-bank old town was raised from 2.00 to 3.00 euros in May 2026 and that Horn 2.50/15 applies 'seit Mai 2026'. The effective date of the new hourly rates is therefore May 2026 per that report, not 17 Dec 2025 (17 Dec is only when the amending bylaw took effect). The 3.00/h (December decision) and the 4.00 first hour (May 2026 report) are the same tariff (3.00 + 1.00 base), not two different rates. The climate report names Strandbad Dingelsdorf (2.00/h, 11 euros/day) where the press release names Klausenhorn: unresolved difference between sources.",
+   "corrected_text": "On 16 December 2025 the council decided to raise the on-street parking fee in the left-of-Rhine city to 3.00 euros per hour (the 1.00 euro base amount stays), Strandbad Horn to 2.50 euros per hour (15 euros per day) and Strandbad Klausenhorn to 2.00 euros per hour (11 euros per day). The amending bylaw took effect on 17 December 2025; the city's May 2026 climate report says the higher hourly rate in the left-bank old town and at Strandbad Horn applies from May 2026. The stated aim is that car parks are the cheaper option for long stays and street spaces serve short stays, and the fees take account of VAT that the city has had to pay on car park income since 2025.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "14th climate report (05/2026) and 13th report (to Dec 2025), both on the M1 page, confirm: 29 April 2025 rejection by 20:20 votes of the rise from 2.00 to 3.00 euros/h plus beach fees; new proposal approved December 2025 (VAT added as a new reason); May 2026 rise from 2.00 to 3.00 euros/h; first hour 4.00 euros 'plus base amount' (= 3.00 + 1.00); second hour 7.00; each further hour 3.00 more. Corrections: the report adds '(nur am Döbele möglich)' to the second/further-hour steps, so 7.00 for two hours and 3.00 for further hours is the Döbele car park structure (item 11 shows the same table) and should not be read as the on-street rate. The rejected 29 April 2025 proposal was the earlier 2-to-3-euro rise, which is what the December decision then adopted, so the two are not mixed up. The Q3 2026 council paper is only 'planned' in the May 2026 report (evaluate the 2024 permit fee rise and decide on a further increase); its outcome is not on the page.",
+   "corrected_text": "The city's climate report of May 2026 says the earlier proposal to raise short-stay fees in the left-of-Rhine old town from 2.00 to 3.00 euros per hour, with the beach fees, was rejected by the council on 29 April 2025 by 20 votes to 20, and that a new proposal was approved in December 2025 (the new element being VAT on car park income). It says the hourly rate was raised in May 2026: the first hour now costs 4.00 euros including the 1.00 euro base amount, the second hour 7.00 euros and each further hour 3.00 euros more, a pattern the report marks as possible only at the Döbele. As of May 2026 the report lists a council paper for the third quarter of 2026 to evaluate the 2024 rise in resident permit fees and to decide on a further increase; its outcome is not known.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Press release (created 20 Jan 2026, changed 20 Feb 2026) is a pre-event announcement: heading 'Gebühren werden voraussichtlich ab April 2026 erhoben', sign and machine installation 'bis Ende März 2026', 'Die Erhebung der Parkgebühren beginnt am 1. April 2026'. It confirms 1,110 public spaces, committee (Technischer und Umweltausschuss) decision of 30 April 2024, three zone types (resident-only all day; resident and visitor all day; resident and visitor by day, resident-only at night) and 16 new ticket machines (plus 8 existing). It does not say charging actually started. The climate report M1 (14th report, May 2026) states in the past tense that new resident zones were set up in Petershausen in April 2026 and that the visitor fee is 1.00 euro per half hour up to two hours; that supports the 1.00/half hour figure but not an exact start day. The zone mix in the draft ('mixed resident-only and resident-plus-visitor') is fine. Draft title/date should be worded as announcement.",
+   "corrected_text": "A parking management scheme for Petershausen (1,110 public spaces, three kinds of zone: resident-only all day, resident and visitor all day, and resident and visitor by day with resident-only at night; 16 new ticket machines) follows a committee decision of 30 April 2024. The city's press release (updated 20 February 2026) said charging was due to begin on 1 April 2026. The city's May 2026 climate report says new resident parking zones were set up in Petershausen in April 2026 and gives the visitor fee as 1.00 euro per half hour, up to a maximum of two hours.",
+   "corrected_title": "Parkraumkonzept Petershausen ist in Umsetzung - Stadt Konstanz (press release, updated 20 Feb 2026; announced start 1 April 2026) and Klimaschutzstrategie M1 (14th report, 05/2026)",
+   "corrected_date": "2026-04"
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Service portal page says: fee for the permit 150.00 euros per year; short permit (3 months) 45.00 euros; blue day passes (Paradies) 12.00 euros; violet (Altstadt and Laube) 17.00 euros, bought by residents of the left-of-Rhine area for visitors (max 10 per purchase). The portal page itself is stamped 'Freigegeben am 10.11.2022 / 15.08.2023', so it is an old page; the 150/45 euros are corroborated by the city's Petershausen press release of Feb 2026 ('Die Bewohnerparkkarte kostet 150 Euro, Kurzgenehmigung 45 Euro'). Day passes only on the portal. Draft correctly says read on 21 October 2026, date 2026-10.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "seemoz article of Friday 12 June 2026: the technical and environmental committee (TUA) was presented the key points of the Klimamobilitätsplan 2035 (KMP); five key projects, one being to extend parking management to further areas, with resident parking fees to rise step by step to 600 euros per year and visitor parking to six euros per hour. Article states the KMP is a non-binding guideline, each measure needs separate council approval, and Freie Wähler, CDU and especially FDP object to the planned parking fee rise (SPD would accept it with social exceptions). The TUA had not yet voted on the KMP. It is worded in the draft as a proposal, not in force. Source is a single local independent outlet with an opinionated tone, hence medium confidence is right; the city's own KMP paper was not read. Adoption status after June 2026 unknown.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "14th climate report (05/2026), M2 page: council in-principle decision to reduce left-of-Rhine street spaces only if compensated elsewhere; no further spaces removed except 8 resident spaces on the Laube converted to carsharing/charging; progress marker 'Nicht begonnen'; about 2,700 street spaces in the inner city; permits issued about twice the space supply; 78 Stephansplatz spaces 'ab Ende 2026' lost, overcompensated by 82 extra spaces at the Döbele after bus bays were removed, plus the 740 spaces at Europabrücke. Corrections: the halving target is not simply 'by 2035': the page says the inner-city street spaces were to be halved by 2025 and outside the inner city gradually by 2035. The 14 Sept 2026 date is not on this page; it is on the city's Stephansplatz page (dated 14 Sep 2026: 'Der Parkplatz entfällt ab dem 14. September', market moves to the Döbele on 15 Sept), which I read, so by 21 Oct 2026 the car park should already have closed. 'Has not started' is the report's own status label, but the measure did produce the 8 converted spaces. The M2 task text still lists the Döbele as 335 spaces (210 visitor, 125 resident), unlike the city's current 435 (item 11).",
+   "corrected_text": "The city's May 2026 climate report says that, because of an in-principle council decision to reduce street spaces in the left-of-Rhine public space only if they can be compensated elsewhere, no further spaces have been removed apart from 8 resident spaces on the Laube converted to carsharing and charging spaces. The measure to halve the roughly 2,700 inner-city street spaces (originally due by 2025, with a gradual halving outside the inner city by 2035) is marked as not begun. The report notes that the number of resident permits issued is about double the supply of spaces and that the 78 Stephansplatz spaces are to be lost from the end of 2026 (the city's Stephansplatz page, dated 14 September 2026, says the car park ceases from 14 September), while 82 new spaces appeared at the Döbele and the Europabrücke car park added 740.",
+   "corrected_title": "Klimaschutzstrategie Konstanz, M2 Halbierung der Strassenstellplaetze (14th report, 05/2026)",
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "City page (stamp 12 Jan 2026) confirms: since 2015 the city commissions the Verkehrskadetten Konstanz-Hegau for manual traffic management; about 60 high-load days a year (nearly all busy shopping Saturdays, 1 August, Advent days, various bridge days); closes and re-opens access roads depending on car park occupancy; usually 5 to 15 minutes; right-of-Rhine alternatives Seerhein-Center, Benediktinerplatz (plus the Landratsamt car park on Saturdays) and Europabrücke. The sentence that a digital traffic management system is planned for the medium term is NOT on this page (it appears on the C-Konzept page, item 7: 'Mittelfristig soll der Zufluss ... mit einem digitalen Verkehrsmanagementsystem reguliert werden'). So that claim is unsupported by this source. 'Nearly all' is the city's wording.",
+   "corrected_text": "The city uses manual traffic management on about 60 high-load days a year (nearly all busy shopping Saturdays, 1 August Swiss National Day, Advent days and various bridge days). Traffic cadets (Verkehrskadetten Konstanz-Hegau, commissioned since 2015) temporarily close and re-open access roads depending on how full the car parks are, which in practice usually takes five to fifteen minutes. Drivers are pointed to car parks on the right of the Rhine: Seerhein-Center, Benediktinerplatz (and the Landratsamt car park on Saturdays) and Europabrücke.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "City C-Konzept page (stamp 11 Dec 2025): council decided the C-Konzept in November 2014; the rebuild of the Bahnhofplatz with a roundabout at the Lago was completed in October 2025; the square between Bodanstraße and Dammgasse is closed to motor vehicles since, with exceptions (buses and cyclists, deliveries 6-10h, residents with an exemption); before 2023 more than 8,000 vehicles and 550 buses daily, up to 10,000 vehicles on high-load days; Marktstätte reached via Konzilstraße, Lago and Augustiner via Bodanstraße. Not on the page: the cost of about 9.8 million euros (unsupported, remove). 'Closed to cars' needs the exceptions. 'Only via Konzilstraße' for Marktstätte and Fischmarkt is stated by the city's Hochlasttage page (item 6), not this page, which says reachable via Konzilstraße. The page also says Fischmarkt has a provisional turning option.",
+   "corrected_text": "The rebuilt Bahnhofplatz with a roundabout at the LAGO was completed in October 2025, following the council's 'C-Konzept' decision of November 2014. Since then the square between Bodanstraße and Dammgasse is closed to car traffic, with exceptions for buses and cyclists, deliveries between 6 and 10 o'clock and residents with an exemption. The Marktstätte and Fischmarkt car parks are reached via Konzilstraße, and the LAGO and Augustiner garages via Bodanstraße. Before 2023 more than 8,000 vehicles and 550 buses used the square daily, up to 10,000 vehicles on high-load days. The page says a digital traffic management system is to regulate inflow to the centre in the medium term.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "The cited listing page (stamp 31 Jul 2026) only shows live free-space counts and links; it does not itself list capacities or operators. The figures are on the individual car park pages, which I read: LAGO 931 spaces, operator Girlan Immobilien GmbH (page 6 Oct 2025); Marktstätte 277, Parkingmanagement Ostendorf UG (page 6 Oct 2025); Fischmarkt 161, Parkhaus Fischmarkt Konstanz GmbH (22 Apr 2026); Altstadt 359, Parkhaus Laube Betriebs-GmbH & Co KG (15 Aug 2022); Döbele 435, Stadt Konstanz (2 Jul 2026); Europabrücke 745, Stadtwerke Konstanz Mobil GmbH (15 Apr 2026); P+R Seepark 209 (14 Sep 2026). All match. The Marktstätte note about live counts being unavailable is an old notice on the Marktstätte page (6 Oct 2025, during the works that finished in Oct 2025); the current listing page no longer shows Marktstätte at all, so this should not be presented as current. Several sub-pages are dated 2022 or 2025, not Oct 2026; also the M2 task text gives the Döbele as 335 spaces, a difference to flag.",
+   "corrected_text": "The city's car park pages (reached from its guidance system page, read on 21 October 2026) list these car parks (spaces; operator): Altstadt 359 (Parkhaus Laube Betriebs-GmbH & Co KG), LAGO 931 (Girlan Immobilien GmbH), Marktstätte 277 (Parkingmanagement Ostendorf UG), Fischmarkt 161 (Parkhaus Fischmarkt Konstanz GmbH), Döbele 435 (City of Konstanz), Europabrücke 745 (Stadtwerke Konstanz Mobil GmbH) and P+R Seepark 209. Individual pages carry dates between 2022 and 2026, and the guidance system's live counts currently list no figure for Augustiner (closed) or Petershausen.",
+   "corrected_title": "Parkleitsystem - Stadt Konstanz (individual car park pages: LAGO, Marktstätte, Fischmarkt, Altstadt, Döbele, Europabrücke, P+R Seepark)",
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Operator page: tariffs match exactly (3.00 euros per hour up to 5 hours, then +4.00 euros per further started hour, maximum 30.00 euros per 24 hours); entry 07:00-01:30 daily, exit 24 hours; height limit 1.90 m. But the operator page says 'über 900 Stellplätze' (9 parking levels), not 931; 931 comes from the city's page. Opening hours are for entry only. Page is undated (read 21 Oct 2026 is stated in the draft).",
+   "corrected_text": "The LAGO car park (over 900 spaces according to the operator, 931 per the city's page; 1.90 m height limit; entry 07:00-01:30, exit around the clock) charges 3.00 euros per hour up to five hours, then 4.00 euros per further started hour, maximum 30 euros per 24 hours (operator page, undated, read on 21 October 2026).",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Stadtwerke page: zone A (levels 0-2) 1.50 euros/h, 18 euros/day, 90 euros/week; zones B (levels 3-11) and C (levels 12-15) 1.00 euro/h, 14 euros/day, 70 euros/week; monthly 50 euros (Mon-Fri) and 75 euros (Mon-Sun) for permanent parking, advance registration required; open 00:00-24:00; barrier-free with automatic licence-plate recognition, payment at terminals or via PRM online. Weekly maximum 70-90 matches. Page undated; the draft states it was read on 21 Oct 2026.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "City page for Parkplatz Döbele (page stamp 2 Jul 2026): 435 spaces, operator Stadt Konstanz; fee-paying time for cars Mon-Sun 9:00-20:00, for motorhomes all day; 4.00 euros up to 1 h, 7.00 up to 2 h, then 3.00 per further hour (10, 13, 16, 19, 22), daily maximum 25.00; 'Stand Juni 2026, Angaben ohne Gewähr'. All matches. This is the same 4/7/+3 table the climate report quotes (item 1).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "City page for Parkhaus Altstadt (page stamp 15 Aug 2022): 359 spaces, height 2.05 m; day tariff 07:00-22:00: first half hour 1.00, up to 1 h 2.00, up to 2 h 4.00, each further started hour 2.00, daily maximum 24.00; 'Stand Januar 2022, Angaben ohne Gewähr'; night tariff to be asked on site. The draft correctly dates this to January 2022 and flags it as possibly outdated; the figures are four years old and must not be shown as current. Low confidence is right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Stadtwerke page lists 750 car spaces (entry height 2.10 m), 90 charge points in the offer list and 80 charge points in the 'Strom laden' paragraph, 124 bike spaces, KMG as operator, plate recognition/PRM payment, bus, bike hire (konrad), long-distance bus station, cost about 18 million euros including land, 2.5 million from the state's E-Quartiershub call. Parts of the page read as pre-opening text (e.g. 'fußläufig erreichbar (ab Fertigstellung)', 'werden 2,70 Meter breit'). The opening date July 2025 is NOT on the cited page. I confirmed it from a ZfK trade-press article dated 7 Aug 2025 ('Im Juli haben die Stadtwerke Konstanz das neue Parkhaus Europabrücke in Betrieb genommen') and the 13th/14th climate reports ('seit Juli 2025 in Betrieb', 740 spaces of which 80 with charging). The page does not itself give 'about 740-750'; the 745 is from the city page and 740 from the climate report. Mobility hub wording is the page's own.",
+   "corrected_text": "Parkhaus Europabrücke (750 car spaces per the operator; 740 per the city's climate report; 80 to 90 charge points depending on the passage) is a mobility hub with bus, bike hire and the long-distance bus station next to it. It cost about 18 million euros including land, of which 2.5 million came from the state's E-Quartiershub programme. The operator is Stadtwerke Konstanz Mobil GmbH and the barrier-free garage works by licence-plate recognition, with payment through the PRM service. The Stadtwerke page does not give an opening date; a ZfK article of 7 August 2025 and the city's climate reports say it went into operation in July 2025.",
+   "corrected_title": "Das neue Parkhaus Europabruecke - Stadtwerke Konstanz (opening date from ZfK, 7 Aug 2025, and Klimaschutzbericht M3)",
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Stadtwerke page (update October 2026): refurbishment began 1 March 2026, cost estimated at about 9 million euros ('geschätzt', actual costs to be verified after work starts; borne by the new operator); 'Seit 1. März ist das Parkhaus bis voraussichtlich Ende 2026 ... geschlossen'; 288 spaces to be restored in the same number; 30 charge points after refurbishment; council decision then return by the former operator B+B Parkhaus GmbH & Co. KG in March 2026 to the city and transfer to the Stadtwerke Konstanz GmbH; Stadtwerke Konstanz Mobil GmbH will run it afterwards; about 60 permanent parking contracts terminated by B+B for 31 Dec 2025. Minor inconsistency on the page: headline says 'für rund acht Monate' (about end of October) while the FAQ says 'voraussichtlich Ende 2026'; the draft uses the FAQ wording. Forward-looking items (reopening, 30 charge points) are plans, as the draft words them.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "City Döbele page (stamp 20 May 2025): pre-planning for the mobility house presented to the GBR on 7 May 2025 by the administration with Steimle Architekten and the Stadtwerke; three variants, two pure mobility houses and a third hybrid combining housing, parking and local supplies; TUA to decide on 27 May 2025; the participation competition is complete; bidder talks 'Anfang September' (future, stated as planned); council started the planning on 26 Oct 2023. Not on the page: '0.5 car spaces per dwelling' (unsupported) and that 'bidder talks followed' (the page says they were planned for early September). The M2 climate report task text separately says the Döbele car park is to be built over with housing and its parking moved into a mobility house of about 500 spaces; that supports 'expected to be redeveloped', as a plan without a date.",
+   "corrected_text": "A page of the city (dated 20 May 2025) says pre-planning for a mobility house at the Döbele was presented to the committee on 7 May 2025: the administration, with Steimle Architekten and the Stadtwerke, worked out three variants, two pure mobility houses and a hybrid combining housing, parking and local shops. The technical and environmental committee was to decide on 27 May 2025 which to pursue; the participation competition was complete and bidder talks were planned for early September. The city's climate report says the Döbele car park is to be built over with housing and its parking moved into a mobility house of about 500 spaces. This is a plan with no date given.",
+   "corrected_title": null,
+   "corrected_date": "2025-05"
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "M3 page, 14th report (05/2026): Europaquartier/Europabrücke car park with 740 spaces (80 with charging) in operation since July 2025; highest use on 2 May 2026 with 790 parking events and a peak of 493 cars at once; Wasserbus (one diesel boat) since April 2026 with 300-460 passengers a day in April and 1,500 on 2 May 'bei kostenlosem Angebot'. 13th report (to Dec 2025): fees lower than in the left-bank centre but, as no bus use is implied, the car park is still used too little even on Saturdays; plate-recognition operation, so a digital solution for the bus ride is needed. Correction: the report says the free offer on 2 May is tied to the boat passenger figure; it does not say the day had free bus links. Also the Wasserbus 'running since April 2026' (city page: since 4 April 2026, Saturdays on the Europabrücke page, Friday-Sunday on the guidance page).",
+   "corrected_text": "The city's climate report says the Europabrücke car park (740 spaces, 80 with charging) was still used too little on Saturdays in late 2025 because its fee carries no bus ticket. Its busiest day so far was 2 May 2026, with 790 parking events and 493 cars at the peak. The Wasserbus boat to the harbour has run since April 2026 and carried 300 to 460 passengers a day in April and 1,500 on 2 May, when the offer was free.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "M9 page, 14th report (05/2026): 112 public charge points commissioned in 2025 at 6 sites (Obere Laube/Lutherkirche, Zur Laube at the Döbele, Gottlieberstraße, Schnetztor, Friedrichstraße and Parkhaus Europabrücke); more planned for 2026 in the car parks at LAGO, Altstadt and Augustinerplatz; 'In Summe werden derzeit 185 öffentliche Ladepunkte an 34 Standorten von der Stadtwerke Konstanz Mobil GmbH betrieben'. Caution: the 13th report (status Oct 2025, 110 points at 5 sites) quotes the identical 185/34 total, so the total may not have been updated for the two extra points added later; treat as roughly 185 as of 2025/2026.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Konstanz manages its pressured centre with paid street parking left of the Rhine. The council decided on 16 December 2025 to raise the on-street hourly fee to 3.00 euros (plus a 1.00 euro base amount, so the first hour costs 4.00 euros), with Strandbad Horn at 2.50 euros an hour; the city's May 2026 climate report says the higher hourly rate applies from May 2026, after a similar proposal failed on a 20:20 council vote on 29 April 2025. Resident permits cost 150 euros a year, and a new parking scheme with resident zones in Petershausen was due to start charging on 1 April 2026. Traffic cadets manage car park access by hand on about 60 high-load days a year, mostly shopping Saturdays, the Swiss National Day and Advent days. Since the Bahnhofplatz rebuild was finished in October 2025 the square is closed to car traffic (with exceptions) under the council's 2014 C-Konzept, and the city says the Marktstätte and Fischmarkt car parks are reached only via Konzilstraße. The council has decided in principle to remove street spaces left of the Rhine only if they are compensated elsewhere, so no significant reduction has happened. The Stadtwerke subsidiary KMG opened the Europabrücke car park (about 740 to 750 spaces, 1.00 to 1.50 euros an hour) in July 2025, with bus and, since April 2026, Wasserbus links; it was still under-used on Saturdays in late 2025. KMG is also taking over the Augustiner garage (288 spaces), which has been closed since 1 March 2026 for a refurbishment estimated at about 9 million euros and is expected to reopen around the end of 2026. The Döbele surface car park (435 spaces, 4.00 euros for the first hour) is planned to be redeveloped with a mobility house, with no date. The LAGO garage charges 3.00 euros an hour; the figures for the Altstadt garage date from January 2022. A draft Climate Mobility Plan 2035, reported in June 2026, proposes raising resident fees step by step to 600 euros a year and visitor fees to 6 euros an hour, but this is only a proposal: it faces opposition from Freie Wähler, CDU and FDP and each measure needs its own council decision. KMG operates 185 public charge points at 34 sites. Not read: Blick.ch (403 Access Denied) and the council information system (bot check) were not worked around."
+}

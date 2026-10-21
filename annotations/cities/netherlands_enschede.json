@@ -1,0 +1,198 @@
+{
+ "country": "Netherlands",
+ "city": "Enschede",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Enschede's council voted the Verordening Parkeerbelastingen 2026 on 27 October 2025, in force from 1 January 2026: on-street parking costs 3.85 euros an hour in tariff area A and 3.45 euros in area B from 09:00 to 19:00, with area A also charging 3.85 euros from 19:00 to 23:00. Annual resident permits cost 268 euros in area A and 84 euros in area B. The Parkeervisie (later called Parkeervisie 2023-2030 in a 2024 council proposal, which says it was adopted in 2023) was proposed to the council in September 2023: it steers drivers from the street into garages by keeping the street tariff above the garage tariff, proposed no new street permits in the inner city, turning blue zones into green zones and digital enforcement from 2026; a 1 euro evening garage tariff was proposed then, but this research did not confirm it is in force. For 2025 a council proposal of October 2024 suggested 3.80 and 3.40 euros an hour on the street (the final 2025 figures were not read). The municipality's Parkeerbedrijf operates the municipal garages, and general garage conditions were decided by the college on 23 June 2026 and published on 26 June 2026. Q-Park lists a 466-space garage at Zuidmolenstraat 1 and the P+R Parkweg with 156 spaces (page read on 21 October 2026). A May 2024 council proposal asked for a 1.116 million euro credit for feasibility studies, 366,000 euros for an underground car park at the bus station and 750,000 euros for a station bicycle store, and says 14.8 million euros of a national housing grant remain for the car park and bus station, to be spent by 2035; the council vote is not shown, but the budget text lists the study as an investment, and a car park at Kennispark is described there as delayed. A July 2023 executive agenda form proposed letting Kennispark firms use the free car parks around the Grolsch Veste (almost 900 spaces) for 3 to 5 years. The University of Twente reported about 2,551 free campus spaces in its 2021 plan, and the city's 2022 charging vision counted about 300 public charge points against a need of about 1,000 for 2025.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2025-10-27",
+   "text": "The council adopted the Verordening Parkeerbelastingen 2026 on 27 October 2025, in force from 1 January 2026. On-street parking costs 3.85 euros an hour in tariff area A and 3.45 euros in area B, charged from 09:00 to 19:00, with area A also charging 3.85 euros between 19:00 and 23:00.",
+   "source_title": "Verordening parkeerbelastingen 2026 (Enschede), lokaleregelgeving.overheid.nl",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR746130/1",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-10-27",
+   "text": "Annual permits in 2026: resident permit for one zone 268 euros in area A and 84 euros in area B; business permit (two zones) 745 euros in A and 185 euros in B; resident permit with guaranteed space (bracket or barrier) 576 euros; passe-partout permit 1,107 euros a year or 92 euros a month in A.",
+   "source_title": "Verordening parkeerbelastingen 2026 (Enschede), lokaleregelgeving.overheid.nl",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR746130/1",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-09",
+   "text": "The college proposed to the council (submitted 6 September 2023) a new Parkeervisie 'Leefbaar, Aantrekkelijk en Bereikbaar', building on the 2012 vision 'Parkeren in Balans' and the March 2020 mobility vision. It states that capacity problems now exist and that much public space is used for parking.",
+   "source_title": "Raadsvoorstel Parkeervisie Enschede (6 September 2023), enschede.bestuurlijkeinformatie.nl",
+   "source_url": "https://enschede.bestuurlijkeinformatie.nl/Document/View/6b4e0251-ab76-4a77-8acf-100162b28b07",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2023-09",
+   "text": "The 2023 proposal provides for a 1 euro per hour evening tariff from 19:00 in the garages and extends paid street parking to 23:00; the street tariff is to be 50 cents above the garage tariff and grow over the years to a 1 euro gap. The street tariff quoted for 2023 was 3.30 euros an hour.",
+   "source_title": "Raadsvoorstel Parkeervisie Enschede (6 September 2023), enschede.bestuurlijkeinformatie.nl",
+   "source_url": "https://enschede.bestuurlijkeinformatie.nl/Document/View/6b4e0251-ab76-4a77-8acf-100162b28b07",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-09",
+   "text": "The proposal stops issuing new street parking permits in the inner city (only garage subscriptions), turns blue zones into 'green zones' (free for a set time after registering the plate, then the normal street tariff) and aims for fully digital products and scan-car enforcement from 2026.",
+   "source_title": "Raadsvoorstel Parkeervisie Enschede (6 September 2023), enschede.bestuurlijkeinformatie.nl",
+   "source_url": "https://enschede.bestuurlijkeinformatie.nl/Document/View/6b4e0251-ab76-4a77-8acf-100162b28b07",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-09",
+   "text": "The same document says garage tariffs are set yearly by the college and street tariffs by the council (Wet Markt en Overheid split). It says the draft vision was shared with Q-Park as commercial parking operator, whose own vision matches the city's course, and that 440 survey responses were received.",
+   "source_title": "Raadsvoorstel Parkeervisie Enschede (6 September 2023), enschede.bestuurlijkeinformatie.nl",
+   "source_url": "https://enschede.bestuurlijkeinformatie.nl/Document/View/6b4e0251-ab76-4a77-8acf-100162b28b07",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-09",
+   "text": "The proposal also said a new garage near the station would be built and that a park-and-ride at Oldenzaalsestraat and Westerval would be studied. These were proposals at the time, not decisions.",
+   "source_title": "Raadsvoorstel Parkeervisie Enschede (6 September 2023), enschede.bestuurlijkeinformatie.nl",
+   "source_url": "https://enschede.bestuurlijkeinformatie.nl/Document/View/6b4e0251-ab76-4a77-8acf-100162b28b07",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-05",
+   "text": "The council was asked (for 14 May 2024) for a 1,116,000 euro credit: 366,000 euros to study an underground car park at the bus station and 750,000 euros (up to 650,000 euros co-financing with ProRail) for a station bicycle store. A national housing grant leaves 14.8 million euros for the garage and bus station, to be spent by 2035.",
+   "source_title": "Raadsvoorstel Krediet Parkeergarage en Fietsenstalling Centrumkwadraat (14 May 2024), enschede.bestuurlijkeinformatie.nl",
+   "source_url": "https://enschede.bestuurlijkeinformatie.nl/Document/View/318d7d3e-58d0-4435-9fae-87b940f320e1",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-05",
+   "text": "The proposal says about 800 homes were built in Centrumkwadraat in ten years and 1,750 more are planned. A dynamic parking balance from April 2022 (Spark) showed a new garage becomes necessary in 2025-2030 as street spaces are removed.",
+   "source_title": "Raadsvoorstel Krediet Parkeergarage en Fietsenstalling Centrumkwadraat (14 May 2024), enschede.bestuurlijkeinformatie.nl",
+   "source_url": "https://enschede.bestuurlijkeinformatie.nl/Document/View/318d7d3e-58d0-4435-9fae-87b940f320e1",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2023-07",
+   "text": "A B&W (executive) agenda form for 11 July 2023 proposed that the executive approve an agreement with the Kennispark business association VONK, for a period of 3 to 5 years, under which firms on the Business & Sciencepark with building or other-use plans may meet extra parking demand at the free car parks around the Grolsch Veste (almost 900 spaces). The form says the city would not introduce a parking charge there for now and that the city and VONK would monitor the effects. Firms more than 800 metres' walk from those car parks would have to attach a mobility plan to their permit application. The form is a proposal: its decision line is blank in the copy read, and signing was planned for 14 July 2023.",
+   "source_title": "B&W agenda form 'Afspraken inzake parkeren Kennispark' (11 July 2023), enschede.bestuurlijkeinformatie.nl",
+   "source_url": "https://enschede.bestuurlijkeinformatie.nl/Document/View/2b89d8fb-f13f-40ba-853b-3d5e05711bbf",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Q-Park lists two Enschede facilities: Q-Park Enschede at Zuidmolenstraat 1 with 466 spaces (4 charge points, 3 disabled spaces, 2.00 m height, plate recognition, open 24/7) and P+R Parkweg (Parkweg opposite 37-39) with 156 spaces, open 24/7. The page also describes a traveller discount for train journeys that end on the same day. Page read on 21 October 2026; tariffs did not load, and Q-Park also lists P+R Station (Gieskesstraat) and De Brink (Brink 118) nearby.",
+   "source_title": "Q-Park Enschede / P+R Parkweg pages, q-park.nl",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/enschede/p-r-parkweg/",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-10",
+   "text": "A council proposal for 1 October 2024 proposed a 2025 street tariff of 3.80 euros an hour in zone 1 and 3.40 euros in zones 2-8, permit tariffs indexed by 2.2 percent and a higher tariff for a second resident permit. It says the garage tariff 'gaat gelden' at 3.30 euros an hour, keeping the street about 50 cents above the garage in zone 1.",
+   "source_title": "Raadsvoorstel Verordening Parkeerbelastingen 2025 (1 October 2024), enschede.bestuurlijkeinformatie.nl",
+   "source_url": "https://enschede.bestuurlijkeinformatie.nl/Document/View/4b6b9b5f-3895-4fb5-984b-dbe706c4ea3f",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-10",
+   "text": "The same proposal says the municipal Parkeerbedrijf Enschede manages and operates the paid parking on street and in garages, that garage and P+R tariffs are set by the college because of their private-law character, and that street tariffs are set by the council. Its operating calculation includes depreciation for the construction of the H.J. van Heekgarage and a municipal investment of over 20 million euros since 2016 to adapt that garage for the MST hospital.",
+   "source_title": "Raadsvoorstel Verordening Parkeerbelastingen 2025 (1 October 2024), enschede.bestuurlijkeinformatie.nl",
+   "source_url": "https://enschede.bestuurlijkeinformatie.nl/Document/View/4b6b9b5f-3895-4fb5-984b-dbe706c4ea3f",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2023-09-28",
+   "text": "A memo to the council dated 28 September 2023 says that with the then-current garage day tariff of 3.20 euros and a proposed evening tariff of 1.00 euro the garage budget balances under the Wet Markt en Overheid. It also says visitor permits are to get an hours limit and become digital (via an app), and that there are no plans to remove the pay machines, but drivers would have to enter the plate there.",
+   "source_title": "Memo toelichting parkeervisie (28 September 2023), enschede.bestuurlijkeinformatie.nl",
+   "source_url": "https://enschede.bestuurlijkeinformatie.nl/Document/View/9abe4dd2-6cb8-4228-8090-0b61403bb3bd",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-06-26",
+   "text": "On 26 June 2026 the college published general garage conditions (proposal dated 23 June 2026) for garages run by the municipality, naming Gemeente Enschede as operator. Tariffs are shown on boards, entrance screens and enschede.nl/parkeren; vehicles up to 5.00 m long, 2.20 m wide and 2,800 kg are admitted, and plate registration or QR codes may serve as parking proof.",
+   "source_title": "Algemene stallingsvoorwaarden parkeergarages van de gemeente Enschede, Gemeenteblad 2026 nr. 306560",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-306560.pdf",
+   "confidence": "high",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2022-10-13",
+   "text": "The Integrale Laadvisie 2022-2035 (dated 13 October 2022) counted about 300 public charge points and estimated about 1,000 needed in 2025, 1,500 in 2030 and 3,100 in 2035. It prefers a concession with the provinces of Overijssel and Gelderland and plans a zero-emission logistics zone in the centre.",
+   "source_title": "Integrale Laadvisie 2022-2035 Enschede, enschede.bestuurlijkeinformatie.nl",
+   "source_url": "https://enschede.bestuurlijkeinformatie.nl/Document/View/e80f46d5-61be-4472-9f5c-8039d851264d",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The municipal budget 2025-2028 (paragraphs chapter, read as a live page on 21 October 2026) lists a credit for a car park building at Kennispark as delayed pending the Next Twente development, and an investment for a feasibility study into a new underground car park and bicycle store in Centrumkwadraat (the station area). It gives the maintenance provision for car parks and bicycle stores a budgeted balance of 3.6 million euros at 1 January 2025.",
+   "source_title": "Gemeentebegroting 2025-2028, Paragrafen, documenten.enschede.nl",
+   "source_url": "https://documenten.enschede.nl/paragrafen2530",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2021-06-18",
+   "text": "The University of Twente's sustainable mobility plan (18 June 2021) says the campus offers all car drivers free parking in about 2,551 spaces, with 37 permit-only spaces and 31 charging points (2020, 0.25 euros per kWh), and is testing sensors showing free spaces. It notes paid parking as an intervention used at other universities.",
+   "source_title": "Sustainable Mobility Plan 2021-2030, University of Twente",
+   "source_url": "https://www.utwente.nl/en/sustainability/attachments-forms/2021-2030-sustainable-mobility-plan.pdf",
+   "confidence": "high",
+   "id": 17,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "https://www.enschede.nl/parkeren, /parkeertarieven and /parkeertarieven-en-parkeerlocaties returned HTTP 429 (not worked around), so the municipality's current garage tariffs and P+R Zuiderval page were not read.",
+  "https://www.visit-enschede.com/plan-your-trip/parking-car/car-parks and https://www.utoday.nl/news/load/19898 returned HTTP 503; https://ioplus.nl/archive/nl/selected/gemeente-en-hmo-zetten-stap-om-een-nieuw-tech-area-op-kennispark-te-ontwikkelen/ returned 522 (a reported 300-space Kennispark garage was therefore not verified).",
+  "Q-Park tariff tables for Q-Park Enschede and P+R Parkweg did not load on q-park.nl; no operator tariff read.",
+  "Not confirmed: whether the 1 euro evening garage tariff and extension of paid parking to 23:00 beyond area A are in force; the 2026 garage tariff decision; the outcome of the station garage feasibility study; any council decision after 2024 on P+R at Oldenzaalsestraat/Westerval.",
+  "No utilisation or occupancy statements (garages, P+R) found in official sources; no low-emission zone or pedestrian-zone source read except the charging vision's planned zero-emission logistics zone.",
+  "Zuiderval P+R and Aanwijzingsbesluit parkeren januari 2026 (CVDR) were not opened."
+ ],
+ "dropped": {}
+}

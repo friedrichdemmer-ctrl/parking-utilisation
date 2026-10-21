@@ -1,0 +1,163 @@
+{
+ "country": "Netherlands",
+ "city": "Woerden",
+ "researched": "2026-10-21",
+ "summary": "Woerden (province of Utrecht) runs paid parking in the old town and its fringe through four tariff zones (4400, 4401, 4403, 4404): in 2026 the on-street tariff is 0.32 euros per 6 minutes (3.20 euros an hour) in zones 4400, 4401 and 4404 and 6.20 euros an hour in zone 4403, enforced Monday to Saturday from 10:00, with residents' permits capped per zone (first permit 240.20 euros, second 480.40 euros). Two municipal garages, Castellum and Defensie-eiland, charge 2.50 euros an hour in the day and nothing in the evening (18:30-22:00) or on Sundays, with a day ticket of 18.60 euros and a 777 euro annual subscription from April 2026. The municipality's main policy theme is the Poort van Woerden south of the railway station, where 3,500 to 5,000 homes are planned over 10 to 15 years with low parking norms and mostly parking on private land; to stop spill-over into existing streets and the P+R, the council has been preparing extended parking regulation for Nieuw-Middelland, Stationsgebied/Hoofdstedenbuurt and Snellerpoort (consultation 2025 drew 475 responses, free parking being the most common wish), and the municipality says it wants to regulate the P+R Zuid site while investigating keeping it free for rail travellers. Q-Park operates the P+R Spoorlaan (172 spaces, open 24/7, plate recognition), which appears to be the P+R Noord that the municipality refers to as a Q-Park site. The final council decision on the extension, the outcome of the 2025 political process and any utilisation statistics could not be sourced because the council information system was offline on 21 October 2026.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2025-11-27",
+   "text": "The council adopted the Parking Tax Ordinance 2026 on 27 November 2025, in force from 1 January 2026. Paid zones 4400, 4401 and 4404 cost 0.32 euros per 6 minutes (3.20 euros an hour) with maximum stays of 180, 30 and 120 minutes; zone 4403 costs 6.20 euros an hour up to 24.80 euros a day.",
+   "source_title": "Verordening op de heffing en de invordering van parkeerbelastingen 2026 (Woerden)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR749985/1",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12-09",
+   "text": "The mayor and aldermen decided on 9 December 2025 (published 30 December 2025) that paid parking applies Monday to Saturday 10:00-18:30 in zones 4400, 4401 and 4404 and 10:00-22:00 in zone 4403. Payment is by phone app or by card at the machine, and the decision replaces the 2024 rules.",
+   "source_title": "Gemeenteblad 2025, 571510: Nadere voorschriften parkeren gemeente Woerden 2026",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-571510.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-11-27",
+   "text": "2026 permit prices in the tariff table: first residents' permit 240.20 euros a year, second residents' permit 480.40 euros, business permit 906.80 euros, commuter permit 240.20 euros, visitor parking 0.32 euros an hour capped at 96 euros a year. A work-parking day permit costs 18 euros and the penalty charge is 82 euros.",
+   "source_title": "Verordening op de heffing en de invordering van parkeerbelastingen 2026 (Woerden)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR749985/1",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12-09",
+   "text": "Permits are capped per zone: the 2026 decision lists 844 permit-zone spaces, with a ceiling of 790 permits (94 percent) and at most 57 second permits. The commuter permit is valid only in Oostsingel and Oostlaan, and residents of zones 4400 and 4401 who hold a Castellum or Defensie-eiland garage subscription cannot also get a first residents' or business permit.",
+   "source_title": "Gemeenteblad 2025, 571510: Nadere voorschriften parkeren gemeente Woerden 2026",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-571510.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12-30",
+   "text": "The terms for the Castellum garage (Meulmansweg 8), effective 1 January 2026, set short-stay parking at 2.50 euros an hour Monday to Saturday 08:00-18:30, 1.25 euros an hour Monday to Thursday 22:00-24:00, and free on evenings 18:30-22:00, nights and Sundays. A day ticket costs 18.60 euros, the garage is open 24 hours, and the owner may index prices yearly.",
+   "source_title": "Gemeenteblad 2025, 570832: Algemene Voorwaarden Parkeergarage Castellum Woerden, januari 2026",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-570832.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12-30",
+   "text": "Castellum subscriptions from 1 April 2026: full subscription 777 euros a year, off-peak subscription 518 euros, residents' subscription 206 euros with a ceiling of 220 residents' subscriptions and a waiting list above that. The terms name Coöperatie ParkeerService U.A. as the website where they are published.",
+   "source_title": "Gemeenteblad 2025, 570832: Algemene Voorwaarden Parkeergarage Castellum Woerden, januari 2026",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-570832.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12-30",
+   "text": "The terms for the Defensie-eiland garage, also effective 1 January 2026, carry the same short-stay tariff as Castellum (2.50 euros an hour by day, free evenings and Sundays, day ticket 18.60 euros) and the same 777 euro full and 206 euro residents' subscription prices from April 2026. The document's definitions section still names the Castellum address, so the text appears copied from the Castellum terms.",
+   "source_title": "Gemeenteblad 2025, 571228: Algemene Voorwaarden Parkeergarage Defensie-eiland Woerden, januari 2026",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-571228.html",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Q-Park lists a single Woerden site, P+R Spoorlaan (3445 AE), with 172 spaces, open 24 hours on all days, licence-plate recognition, bicycle parking and disabled bays. Its tariff widget did not load when the page was read on 21 October 2026.",
+   "source_title": "Q-Park P+R Spoorlaan Woerden",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/woerden/p-r-spoorlaan/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The municipality's page on extending parking regulation south of the station, read 21 October 2026, says 3,500 to 5,000 homes will be built over 10 to 15 years near the bus and train station and that Snellerpoort will have fewer public parking spaces. It names high parking pressure at the P&R Houttuinlaan and spill-over into neighbouring housing and business areas as reasons for regulation in Nieuw-Middelland, Stationsgebied-Zuid/Hoofdstedenbuurt and Snellerpoort.",
+   "source_title": "Uitbreiding parkeerregulering Woerden (gemeente Woerden)",
+   "source_url": "https://www.woerden.nl/Verkeer/Parkeren/Uitbreiding_parkeerregulering_Woerden",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The FAQ on the same project page (undated, read 21 October 2026, referring to a 2025 process) says paid parking, if chosen, would follow the town-centre rules and that the council policy is to make neither profit nor loss. The FAQ adds that the council decided for now not to start on the fringe areas around the old town north of the railway, which the 2024 starting note had also named.",
+   "source_title": "Veelgestelde vragen over uitbreiding parkeerregulering (gemeente Woerden)",
+   "source_url": "https://www.woerden.nl/Verkeer/Parkeren/Uitbreiding_parkeerregulering_Woerden/Veelgestelde_vragen_over_uitbreiding_parkeerregulering",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-06-02",
+   "text": "The summary of public input dated 2 June 2025 counted 475 responses from the 4 February to 3 March 2025 consultation: 248 for Stationsgebied/Hoofdstedenbuurt, 56 for Nieuw-Middelland and 41 for Snellerpoort. The municipality expected the council to decide on parking regulation in early October 2025, but that outcome was not found.",
+   "source_title": "Nota van opbrengsten uitbreiding parkeerregulering (gemeente Woerden)",
+   "source_url": "https://www.woerden.nl/Verkeer/Parkeren/Uitbreiding_parkeerregulering_Woerden/Nota_van_opbrengsten_Uitbreiding_parkeerregulering",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "In the reply note (undated, read 21 October 2026) the municipality says it wants P+R Zuid regulated so surrounding residents do not fill it, while investigating keeping it free for rail travellers, with P+R Noord run by Q-Park as the model. It says it has no plans for extra public parking spaces and that new-build residents must park on their own land at lower parking norms.",
+   "source_title": "Reactienota parkeerregulering (gemeente Woerden)",
+   "source_url": "https://www.woerden.nl/Verkeer/Parkeren/Uitbreiding_parkeerregulering_Woerden/Reactienota_parkeerregulering",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "The reply note (read 21 October 2026) reports that residents often said rail travellers park in residential streets instead of the P&R sites, that hospital visitors use free streets near the hospital, and that free parking was the most frequent request. These are summarised resident opinions, not counts.",
+   "source_title": "Reactienota parkeerregulering (gemeente Woerden)",
+   "source_url": "https://www.woerden.nl/Verkeer/Parkeren/Uitbreiding_parkeerregulering_Woerden/Reactienota_parkeerregulering",
+   "confidence": "low"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The municipality's traffic page (read 21 October 2026) states the parking vision: fewer cars on the street especially in the centre, garages preferred, and residential parking mainly for residents. It also lists the Traffic Vision 2030 and a charging vision.",
+   "source_title": "Verkeer en leefbaarheid (gemeente Woerden)",
+   "source_url": "https://www.woerden.nl/Verkeer/Op_de_weg/Verkeer_en_leefbaarheid",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01-21",
+   "text": "The Omgevingsvisie (signed 9 June 2022, published in the municipal gazette on 21 January 2026) aims at a car-light town centre, extension of regulated parking areas and lower parking norms for new development if conditions are met. It also plans to close the Polanertunnel to cars once an alternative is ready, to build the Rembrandtbrug in 2026, and to work out P&R sites regionally from 2022.",
+   "source_title": "Gemeenteblad 2026, 27906: Omgevingsvisie Woerden",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-27906.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "Nieuw-Middelland projects listed by the municipality (read 21 October 2026): 134 homes at Watermolenlaan 1 and 132 homes at Watermolenlaan 4/Houttuinlaan 5, both expected to start building in 2026, 59 homes at Zaagmolenhof 4, and 285 rental homes at Houttuinlaan 6-12 with construction starting at the end of 2027.",
+   "source_title": "Nieuw-Middelland (gemeente Woerden)",
+   "source_url": "https://www.woerden.nl/Stadsontwikkeling/Nieuwbouwprojecten/Nieuw_Middelland",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "The sewer project page (read 21 October 2026) says the two Nieuw-Middelland schemes next to the Houttuin car park will each have a half-sunken parking cellar, that Watermolenlaan is closed for the whole construction period, and that a sewer bypass closes the Houttuinlaan for 4 weeks from 19 October 2026.",
+   "source_title": "Aanleg riool Houttuinlaan (gemeente Woerden)",
+   "source_url": "https://www.woerden.nl/Stadsontwikkeling/Projecten_openbare_ruimte/Aanleg_riool_Houttuinlaan",
+   "confidence": "medium"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The municipal charging page (undated, read 21 October 2026) says new public charge points will be placed from the end of the year on the basis of data (expected EV growth per neighbourhood, use of existing points). Residents may also charge through a cable from home across the pavement to a public bay (up to 10 m, no permit).",
+   "source_title": "Laadpaal aanvragen / Elektrische auto opladen (gemeente Woerden)",
+   "source_url": "https://www.woerden.nl/Verkeer/Parkeren/Laadpaal_aanvragen",
+   "confidence": "medium"
+  }
+ ],
+ "gaps": [
+  "Council information system (gemeenteraad.woerden.nl, secure-woerden.gemeenteoplossingen.nl) returned HTTP 503 (offline for maintenance) on 21 October 2026, so none of its papers could be read: raadsinformatiebrief Stand van zaken diverse parkeerdossiers July 2025, raadsvoorstel belastingverordeningen 2026 (3.5 percent indexation), Q&A budget committee on parking Nov 2025, startnotitie uitbreiding parkeerregulering 2024, laadvisie, parkeervisie.",
+  "The final council decision on extended parking regulation in Poort van Woerden (expected October 2025) and any later introduction date or tariffs for P+R Zuid were not found.",
+  "Zone maps (which streets belong to zones 4400, 4401, 4403, 4404) are attachments (Bijlage 1-7) not extracted; zone 4403 tariff of 6.20 euros an hour was read from the ordinance table but its streets and rationale are not confirmed.",
+  "woerden.parkeerservice.nl returned 403 and was not worked around; Parkeerservice tariffs, bezoekersregeling and permit pages unread.",
+  "nieuw-middelland.nl and snellerpoort.nl returned 503; q-park.nl P+R Spoorlaan tariff widget did not load; no 2026 P+R tariff found.",
+  "centrumparkeren.nl was not used because it is a parking-listing portal; its figures (e.g. 520 spaces in Castellum, 80 in Defensie-eiland, 1.69 euros an hour at P+R) are unverified.",
+  "The Gemeenteblad 2024, 229848 charging policy page named the municipality of Oudewater in its text, so it was not used.",
+  "No utilisation statements (occupancy of garages or P+R) found in sources opened; the July 2025 letter said to mention 17 of 18 Defensie-eiland subscriptions was only seen in a search summary and is not cited.",
+  "No source found on EV charging in the garages, a parking guidance system, or open data from Woerden; web search budget was exhausted so no local press (Woerdense Courant, Indebuurt, AD) was reviewed."
+ ]
+}

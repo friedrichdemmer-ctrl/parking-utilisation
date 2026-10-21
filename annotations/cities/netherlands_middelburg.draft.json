@@ -1,0 +1,153 @@
+{
+ "country": "Netherlands",
+ "city": "Middelburg",
+ "researched": "2026-10-21",
+ "summary": "Middelburg runs its own paid parking: about 3,200 on-street spaces inside the Vesten and about 1,000 spaces in four municipal garages (Geere, Kousteensedijk, Achter de Houttuinen, Kanaalweg), plus a free edge car park at Oude Veerseweg. Paid parking applies Monday to Saturday 08:00-20:00, and from 1 January 2026 the on-street tariff is 3.20 euros per hour for the first two hours and 6.40 euros from the third. Resident permits cost 8.70 euros a month for the first car. A 2025 policy update, still a draft in July 2025, aims for a car-light centre with visitor parking at the edge, extended regulation hours and new capacity at the station park-and-ride (Segeersingel, about 360 extra spaces), Oude Veerseweg and possibly Hof van Tange, with a 3 to 5 year lead time. The 2023 counts showed almost no spare capacity in the centre and an overloaded Oude Veerseweg car park.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2025-12-23",
+   "text": "The Middelburg parking-tax regulation 2026 (council decision of 18 December 2025, levy from 1 January 2026) sets on-street machine parking in the yellow zone at 3.20 euros per hour for the first two hours and 6.40 euros per hour from the third hour. The purple zone (Damplein) charges 3.20 euros for the first four hours and 6.40 euros afterwards.",
+   "source_title": "Verordening op de heffing en invordering van parkeerbelastingen Middelburg 2026 (Gemeenteblad 2025, 563946)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-563946.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12-23",
+   "text": "For 2026 the three green-zone car parks Hof van Tange, Loskade and Molenwater charge 3.20 euros per hour or 16.00 euros per day. The 2025 amendment table read on the same register shows 3.00 euros per hour and 15.00 euros per day, so these rose by about 7 percent; the garages are not priced in either regulation.",
+   "source_title": "Verordening parkeerbelastingen Middelburg 2026 (Gemeenteblad 2025, 563946)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-563946.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-11-12",
+   "text": "A mayor-and-aldermen decision of 12 November 2025, effective 1 January 2026, keeps paid parking Monday to Saturday from 08:00 to 20:00, excluding public holidays. There is no Sunday charging in this 2026 decision.",
+   "source_title": "Besluit aanwijzing plaatsen en werkingsduur betaald parkeren (in Gemeenteblad 2025, 563946)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-563946.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12-23",
+   "text": "The 2026 permit prices are 8.70 euros a month for a first resident permit and 28.80 euros for a second one at the same address. A business permit costs 26.10 euros a month, a commuter permit 30.80 euros, and the social-visitor app rate is 0.65 euros per 60 minutes (capped at 110 euros a year).",
+   "source_title": "Verordening parkeerbelastingen Middelburg 2026 (Gemeenteblad 2025, 563946)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-563946.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-06-01",
+   "text": "A progressive on-street tariff took effect on 1 June 2025, replacing the former 2-hour maximum stay: 3 euros per hour for the first two hours and 6 euros from the third (Damplein: from the fifth hour). Hof van Tange, Loskade, Molenwater and the garages were excluded, and the aim was to discourage long-stay parking in the centre.",
+   "source_title": "Eerste wijziging verordening parkeerbelastingen Middelburg 2025 (CVDR739536)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR739536/1",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-05-27",
+   "text": "Omroep Zeeland reported on 27 May 2025 that the garage tariff of 2.30 euros per hour would not change with the progressive street tariff. The report also says the municipality would use a scan car for parking checks from May 2025.",
+   "source_title": "Middelburg verdubbelt parkeertarief in binnenstad voor langparkeerders - Omroep Zeeland",
+   "source_url": "https://www.omroepzeeland.nl/nieuws/17504552/middelburg-verdubbelt-parkeertarief-in-binnenstad-voor-langparkeerders",
+   "confidence": "medium"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-07-01",
+   "text": "The council's 2025 parking-policy report states that the street tariff was 3.00 euros per hour and the garage tariff 2.30 euros per hour (2024 price level). It says the garages are deliberately cheaper to pull visitors off the street.",
+   "source_title": "Actualisering fiets- en autoparkeerbeleid Middelburg 2030 (gewijzigd conceptrapport, 1 July 2025)",
+   "source_url": "https://repository.officiele-overheidspublicaties.nl/externebijlagen/exb-2025-24511/currentItem",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-07-01",
+   "text": "The report describes four public garages in and around the centre (Geere, Kousteensedijk, Achter de Houttuinen, Kanaalweg), about 1,000 garage spaces and about 3,200 on-street spaces inside the Vesten. All are managed by the municipality, and a free car park of about 230 spaces lies at Oude Veerseweg.",
+   "source_title": "Actualisering fiets- en autoparkeerbeleid Middelburg 2030 (gewijzigd conceptrapport, 1 July 2025)",
+   "source_url": "https://repository.officiele-overheidspublicaties.nl/externebijlagen/exb-2025-24511/currentItem",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-07-01",
+   "text": "Counts by Groen Licht Verkeersadviezen in August and October 2023 found little difference between high and low season and hardly any spare capacity for demand growth. Oude Veerseweg was overloaded, Saturday afternoon was the peak, and the south-west of the centre had the highest pressure.",
+   "source_title": "Actualisering fiets- en autoparkeerbeleid Middelburg 2030 (gewijzigd conceptrapport, 1 July 2025)",
+   "source_url": "https://repository.officiele-overheidspublicaties.nl/externebijlagen/exb-2025-24511/currentItem",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-07-01",
+   "text": "The report says the existing parking guidance system sends visitors away from full garages, and the municipality intends to review and optimise it. It describes the edge car parks as so well used that there is hardly any spare capacity at busy moments, though not yet an acute problem.",
+   "source_title": "Actualisering fiets- en autoparkeerbeleid Middelburg 2030 (gewijzigd conceptrapport, 1 July 2025)",
+   "source_url": "https://repository.officiele-overheidspublicaties.nl/externebijlagen/exb-2025-24511/currentItem",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-07-01",
+   "text": "Draft policy (a proposal, not confirmed as adopted in any source I read) steers towards a car-light centre where residential streets are reserved for residents, social visitors and business permits. Step one would extend regulation hours from 6 to 24 hours, seven days a week, but only once new edge parking exists.",
+   "source_title": "Actualisering fiets- en autoparkeerbeleid Middelburg 2030 (gewijzigd conceptrapport, 1 July 2025)",
+   "source_url": "https://repository.officiele-overheidspublicaties.nl/externebijlagen/exb-2025-24511/currentItem",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-07-01",
+   "text": "The draft report names the NS station park-and-ride site (Segeersingel, owned by NS Vastgoed, not the municipality) and Oude Veerseweg as the two most likely expansion sites, with Hof van Tange added by a council amendment of 30 January 2025. Indicative extra capacity is 360 spaces at the station site, 300 at Oude Veerseweg and 120 at Hof van Tange.",
+   "source_title": "Actualisering fiets- en autoparkeerbeleid Middelburg 2030 (gewijzigd conceptrapport, 1 July 2025)",
+   "source_url": "https://repository.officiele-overheidspublicaties.nl/externebijlagen/exb-2025-24511/currentItem",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-07-01",
+   "text": "The draft report's rough investment estimates are 6 million euros for the station site, 13 million for Oude Veerseweg and 15 million for Hof van Tange. It expects 3 to 5 years from research to completion, with funding sought from the municipal investment fund, and it advises against a bus-served transferium.",
+   "source_title": "Actualisering fiets- en autoparkeerbeleid Middelburg 2030 (gewijzigd conceptrapport, 1 July 2025)",
+   "source_url": "https://repository.officiele-overheidspublicaties.nl/externebijlagen/exb-2025-24511/currentItem",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-07-16",
+   "text": "The consultation on the draft parking policy ran from 26 March to 7 May 2025 and drew 100 written responses. The municipality's consultation report stresses that no expansion location had been chosen yet.",
+   "source_title": "Eindverslag inspraakprocedure conceptrapport Actualisering fiets- en autoparkeerbeleid Middelburg 2030 (Gemeenteblad 2025, 292408)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-292408.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Q-Park lists P+R Segeersingel at the station as a 240-space car park with 2.10 m clearance, licence-plate recognition, bicycle parking and 24/7 opening, with a rail-traveller discount. The page was read on 21 October 2026, and its tariff panel did not load.",
+   "source_title": "Q-Park P+R Segeersingel, Middelburg",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/middelburg/p-r-segeersingel/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-01-03",
+   "text": "The terms for Middelburg's public garages (published 3 January 2023) name the municipality itself as operator, with a parking management system and tariffs set in the municipal tariff table. They also provide for subscriptions and for designated EV charging bays inside the garages.",
+   "source_title": "Algemene Voorwaarden Openbare Parkeergarages Middelburg (Gemeenteblad 2023, 3950)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2023-3950.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2024-12-18",
+   "text": "A traffic decision of December 2024 reserves bays for charging at 17 locations, including the Molenwater car park and Segeerssingel street bays. Earlier decisions covered 16 locations (February 2024) and 28 locations (December 2021); a 2022 decision says charging already exists in the garages and on a charging square at Oude Veerseweg.",
+   "source_title": "Verkeersbesluit 17 locaties laadplaatsen (Gemeenteblad 2024, 523709) and Duunmede/Grootmede (Gemeenteblad 2022, 92207)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2024-523709.html",
+   "confidence": "high"
+  }
+ ],
+ "gaps": [
+  "https://www.middelburg.nl/parkeren, /parkeren-in-middelburg, /progressief-parkeertarief, /abonnement-parkeergarages: all returned a 'temporarily unavailable' security notice on 21 October 2026, so current garage tariffs (2.30 euros per hour was only found in the July 2025 report and a May 2025 news article), daily maximum, subscriptions and permit pages could not be read.",
+  "https://middelburg.notubiz.nl (council papers) returned a Cloudflare 'Just a moment' challenge; https://middelburg.raadsinformatie.nl returned error 522; https://middelburgontmoet.nl returned 502. Not worked around, so the council decision on the 2030 parking policy after July 2025 (and any station P+R or Oude Veerseweg project decision) could not be confirmed.",
+  "https://www.centrumparkeren.nl/Middelburg/parkeergarages and /middelburg/station, parkerenindestad.nl and the ANWB parking page: commercial or portal pages, not used as support; the garage daily maximum and P+R station tariff are therefore not stated.",
+  "The Q-Park P+R Segeersingel tariff panel did not load, so the park-and-ride tariff and current rail-traveller discount are unconfirmed.",
+  "Search results for 'Tarieven van de parkeergarages voor 2026' (CVDR754187, De Kamp/Houtplein/Raaks) and the garage subscription rules CVDR726998 concern Haarlem and Deventer, not Middelburg, and were not used.",
+  "No source found or opened on garage-level utilisation statistics, an open-data feed, new garages under construction, or the Omroep Zeeland article on 'about 500 fewer parking spaces' in the centre (URL not found; web search budget exhausted).",
+  "The 2025 report's garage and street tariffs date from 2024/2025; I did not find an official source for the 2026 garage tariff."
+ ]
+}

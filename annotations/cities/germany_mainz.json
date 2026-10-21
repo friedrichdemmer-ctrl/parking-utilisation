@@ -1,0 +1,192 @@
+{
+ "country": "Germany",
+ "city": "Mainz",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Mainz's central garages are run mostly by the municipal PMG Parken in Mainz GmbH (shareholders: the Mainzer Aufbaugesellschaft and the city), which says it has about 10,000 spaces in 25 facilities on its company page (its other pages say 27 or 28). Typical PMG city-centre tariffs, read on 21 October 2026, are 0.80 euro for the first half hour and a 10.00 euro daytime maximum, with 15.50 euro at Roemisches Theater and CineStar and 3.00 euro per 24 hours at Parkhaus Wallstrasse. PMG announced a Park@Night tariff in March 2025 for July 2025; its offers page now lists it at 16.99 euro per month in 18 garages. The city parking guidance shows free or occupied status based on live garage data, and PMG put 26 charging points into service at Parkhaus Rathaus in February 2026. On the street, according to regional press (Mainz&), resident permit fees rose on 1 July 2025 from 30 euro to roughly 130 to 300 euro per year and free parking for electric cars ended in September 2024. The tram link through Binger Strasse opened on 10 August 2026, and from 1 August 2026 the Grosse Bleiche has been closed to ordinary car traffic towards the Rhine; the inner-city tram route was decided in April 2025 with opening planned for 2032 to 2034. An IHK survey reported by Mainz& says building sites and traffic changes hurt city-centre access, and park-and-ride in Mainz is minor: a 2019 report on a 2018 study saw demand for about 70 to 110 work-commuter spaces at the Hechtsheim end of the tram. Mainz has roughly 80,000 in-commuters (June 2025). Official mainz.de pages were not available (HTTP 503).",
+ "items": [
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The municipal PMG Parken in Mainz GmbH (owned by the Mainzer Aufbaugesellschaft and the city) runs most central garages; its company page (read 21 October 2026) gives about 10,000 spaces in 25 facilities, eight owned and the rest leased or managed, plus about 2,300 spaces on the Universitätsmedizin grounds. PMG's other pages give 27 or 28 facilities, so the count is approximate, and the parking ticket also serves as a bus and tram ticket of Mainzer Mobilität.",
+   "source_title": "PMG Parken in Mainz - Unternehmen",
+   "source_url": "https://www.parken-in-mainz.de/de/unternehmen",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "PMG's FAQ (read 21 October 2026) says Mainz has a city parking guidance system and that garage occupancy figures are sent regularly to the city, so the free/occupied display is based on live data; a garage shown as 'occupied' may still have spaces reserved for permanent parkers. Payment is cashless everywhere except Parkhaus Rheinallee III, and a lost ticket costs 25 euro.",
+   "source_title": "PMG Parken in Mainz - FAQ",
+   "source_url": "https://www.parken-in-mainz.de/de/faq",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-05-12",
+   "text": "PMG moved its garages to licence plate recognition: the first six were converted in 2024 (PMG 40-year page), and Parkhaus CityPort at Hauptbahnhof West was closed fully from 12 May to 1 June 2025 for the same change (city statement quoted by Mainz&).",
+   "source_title": "Mainz& - Baustelle am Hauptbahnhof Mainz, Parkhaus CityPort dicht",
+   "source_url": "https://mainzund.de/baustelle-am-hauptbahnhof-mainz-alicenbruecke-wird-erneuert-je-zwei-fahrspuren-gesperrt-parkhaus-cityport-dicht/",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Typical PMG city-centre tariff (Parkhaus Kronberger Hof, Löhrstraße, Rathaus, Deutschhausplatz and others, page read 21 October 2026): 0.80 euro first half hour, 1.00 euro second and third half hour, 1.10 euro fourth, then 2.10 euro per hour; daytime (6:00-19:00) maximum 10.00 euro, night rate (19:00-6:00) 0.90 euro per half hour with a 5.00 euro night maximum.",
+   "source_title": "PMG Parkhaus Kronberger Hof - Tarife",
+   "source_url": "https://www.parken-in-mainz.de/de/parkhaeuser-tarife/parkhaus-kronberger-hof",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Some PMG garages price differently (pages read 21 October 2026): Römisches Theater and CineStar have a daytime maximum of 15.50 euro, Gonsberg Campus gives the first hour free then 1.00 euro (second hour) and 1.50 euro per hour with an 8.00 euro maximum, and Tiefgarage Weinlager charges 1.00 euro per hour and 24.00 euro per 24 hours. Parkhaus Wallstraße (303 spaces, outside the inner city) charges 3.00 euro per 24 hours with a 6.00 euro weekend flat rate (Saturday 8:00 to Monday 8:00).",
+   "source_title": "PMG Parkhaus CineStar / Gonsberg Campus / Weinlager - Tarife",
+   "source_url": "https://www.parken-in-mainz.de/de/parkhaeuser-tarife/parkhaus-cinestar",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "PMG special tariffs listed in its FAQ (read 21 October 2026): a 5 euro event tariff in Kronberger Hof, Theater and Parkplatz Schloss (Mon-Sat 18:00-8:00, Sun 10:00-16:00), a 4 euro cinema tariff at CineStar, 20 percent off for Taubertsbergbad swimming pool visitors, and 10 percent off short-term parking with Park&Go.",
+   "source_title": "PMG Parken in Mainz - FAQ",
+   "source_url": "https://www.parken-in-mainz.de/de/faq",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-03-31",
+   "text": "On 31 March 2025 PMG, with Lord Mayor Nino Haase and transport councillor Janina Steinkrüger, announced the night tariff 'Park@Night' from 1 July 2025: 16.99 euro per month for Mon-Sat 17:00-9:00 and all day Sundays/holidays, or 26.99 euro with all of Saturday. PMG said about 5,000 spaces were available at night in the participating garages, and the city planned to evaluate the offer after three months.",
+   "source_title": "PMG - PMG kündigt Park@Night-Tarif an",
+   "source_url": "https://www.parken-in-mainz.de/de/aktuelle-informationen/pmg-k%C3%BCndigt-parknight-tarif-an",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Park@Night is now offered as a one-year contract at 16.99 euro (Park@Night) or 26.99 euro (Park@Night Plus) per month, valid in 18 listed garages (Bleiche, Augustusplatz, CineStar, CityPort, Deutschhausplatz, Gonsberg Campus, Kronberger Hof, Löhrstraße, Rathaus, Rheinufer, Römisches Theater, Schillerplatz, Schloss, Taubertsberg, Theater, Wallstraße, Weinlager, Weißliliengasse); the PMG offers page was read on 21 October 2026. It requires a prior Park&Go registration (plate recognition or card), and Park&Go gives 10 percent off short-term tariffs.",
+   "source_title": "PMG - Angebote",
+   "source_url": "https://www.parken-in-mainz.de/de/angebote",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "PMG capacities listed on its site (read 21 October 2026) include CityPort 1,105, Taubertsberg 767, Rheinufer 497, Rathaus 545, Kronberger Hof 460, Weißliliengasse 460, CineStar 459, Römisches Theater 436, Schillerplatz 420, Gonsberg Campus 316, Wallstraße 303, Bleiche 227, Theater 207, Deutschhausplatz 190, Weinlager 171, Löhrstraße 145 and Rheinallee III 94 spaces. These are PMG's stated total spaces and can differ from the subset of spaces covered by a live feed.",
+   "source_title": "PMG Parken in Mainz - Parkhäuser / Tarife",
+   "source_url": "https://www.parken-in-mainz.de/de/parkhaeuser-tarife",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-03-28",
+   "text": "At the presentation of the Park@Night tariff on 28 March 2025 (Mainz& report), Lord Mayor Nino Haase said the PMG garages, about 10,000 spaces, were at night only about 10 percent occupied (his statement, not a published count). PMG's director Ralf Sadowski said the earlier night tariff, at 50 to 80 euro per month, had not been well accepted; until then PMG's main product was permanent bays at 150 to 179 euro per month.",
+   "source_title": "Mainz& - Neuer Tarif Park@Night ab Juli in Mainz",
+   "source_url": "https://mainzund.de/neuer-tarif-parknight-ab-juli-in-mainz-guenstige-parktarife-fuer-die-nacht-in-mainzer-parkhaeusern-geplant/",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-02-27",
+   "text": "On 27 February 2026 PMG put 26 new charging points into service in Parkhaus Rathaus (24 on level 2, 2 accessible on level 1), described as the first accessible public charging points in Mainz. Power comes largely from the PV system on the Rheingoldhalle roof, the price is a flat 54 cent per kWh including VAT, and further charging points were announced for Parkhaus Löhrstraße in 2026.",
+   "source_title": "PMG - Neue E-Ladestationen im Parkhaus Rathaus",
+   "source_url": "https://www.parken-in-mainz.de/de/aktuelle-informationen/neue-e-ladestationen-im-parkhaus-rathaus-gr%C3%BCner-strom-zum-g%C3%BCnstigen-festpreis",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-07-01",
+   "text": "Mainz raised resident parking permit fees on 1 July 2025, from 30 euro per year to a size-based formula (31.20 euro times vehicle width times length), giving roughly 130 to 300 euro per year; new permits are valid for at most one year, existing two-year permits stay valid, and the city said there would be no social discount. Before the increase the city counted about 14,500 permits against roughly 8,900 public spaces in about 25 resident zones, with about 7,600 permits in the Neustadt (regional press report, Mainz&).",
+   "source_title": "Mainz& - Anwohnerparken in Mainz wird drastisch teurer",
+   "source_url": "https://mainzund.de/anwohnerparken-in-mainz-wird-drastisch-teurer-kuenftig-zwischen-130-und-300-euro-pro-jahr-stadt-folgt-koblenzer-modell/",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-09-12",
+   "text": "Mainz ended free on-street parking for electric cars in September 2024; the 2017 exemption had been extended once in 2022, and e-vehicles now need a parking ticket except at charging stations. The city said about 10 percent of Mainz-registered cars were electric or hybrid.",
+   "source_title": "Mainz& - Kein kostenloses Parken mehr für E-Autos in Mainz",
+   "source_url": "https://mainzund.de/kein-kostenloses-parken-mehr-fuer-e-autos-in-mainz-trotz-dramatischem-einbruch-beim-absatz-von-stromern/",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-08-07",
+   "text": "Mainz& reported on 7 August 2026 that since 1 August 2026 the Grosse Bleiche, between Flachsmarkt and Peter-Altmeier-Allee near the Landtag, is closed to ordinary car traffic in the direction of the Rhine; only buses, taxis and bicycles may pass. The city council had decided this in June 2026 as a 'Modalfilter' to protect the capacity of the new Binger Strasse tram link, and the transport department expects it to cut traffic there by about 80 percent. The paper reported confusion and detours via Bauhofstrasse and Flachsmarkt.",
+   "source_title": "Mainz& - Sperrung Große Bleiche in Mainz Richtung Rhein",
+   "source_url": "https://mainzund.de/sperrung-grosse-bleiche-in-mainz-richtung-rhein-autofahrer-verwirrt-mainzer-stinksauer-haben-die-mainzer-fuer-diese-sperrung-gestimmt/",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-08-10",
+   "text": "The new tram line through Binger Strasse (Alicenplatz to Muensterplatz) went into service on 10 August 2026; line 53 from Lerchenberg now runs from Hauptbahnhof West through Binger Strasse to the new stop Muensterplatz D. Construction ran from June 2024 to August 2026. A project news item of 30 June 2026 said the street would stay single-lane for car traffic for the time being.",
+   "source_title": "M wie Zukunft - Teilprojekt 1 Binger Straße",
+   "source_url": "https://www.m-wie-zukunft.de/teilprojekt-binger-strasse",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-04-09",
+   "text": "The Mainz city council decided on 9 April 2025 on the preferred route for the inner-city tram: Ludwigstraße - Flachsmarkt - Große Bleiche - Rheinallee - Goethe- and Nahestraße - Zollhafen. The published timeline foresees planning approval proceedings from late 2027, a construction decision in early 2029 and opening between 2032 and 2034.",
+   "source_title": "M wie Zukunft - Teilprojekt Innenstadt, Planungsstand",
+   "source_url": "https://www.m-wie-zukunft.de/teilprojekt-innenstadt-planungsstand",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-09-08",
+   "text": "An IHK Rheinhessen survey of its member firms, run in August 2026 and reported by Mainz& on 8 September 2026, found that 78 percent of responding firms rate the economic effect of the traffic situation as mostly negative, and four in five said access to their site had worsened further since the previous IHK survey in 2024. The car is a central factor for reaching the city centre for 94 percent of surveyed firms (sample size not given). Federal Pendleratlas figures cited in the article give about 80,000 in-commuters, 62.4 percent of roughly 128,000 employees subject to social insurance, in June 2025.",
+   "source_title": "Mainz& - Wirtschaft kritisiert Verkehrspolitik in Mainz",
+   "source_url": "https://mainzund.de/wirtschaft-kritisiert-verkehrspolitik-in-mainz-baustellen-bremsen-mainzer-innenstadt-pendleratlas-62-prozent-einpendler-pro-tag/",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "https://www.mainz.de/ (all pages, including parken, Bewohnerparken, park-ride, Stadtrat/Ratsinformation and the PDF mainz.de/medien/internet/downloads/RP_Noerdliche-Neustadt_parkraumkonzept.pdf) returned HTTP 503 Service Unavailable on 21 October 2026, so no official city pages could be read; resident-parking and Modalfilter facts rest on regional press (Mainz&) only.",
+  "Mobilithek (https://mobilithek.info/) is a JavaScript application whose offer pages could not be read as text, so the Mainz parking guidance data offer and its description could not be verified; the live guidance system is documented only through PMG's FAQ.",
+  "No Park@Night evaluation, subscriber numbers or utilisation figures were found; the city said in March 2025 it would evaluate after three months.",
+  "No current official list of park-and-ride sites and capacities (Hechtsheim/Mühldreieck, Layenhof, Lerchenberg, Kurmainz-Kaserne) was found; only 2019 press reports, so current P+R capacity is unknown.",
+  "The Allgemeine Zeitung and SWR could not be searched or opened (not accessible to the search tool), so regional press coverage relies on the independent online paper Mainz& (opinionated in places).",
+  "Not found: the council papers (Ratsinformationssystem) for the 2025 resident-parking fee ordinance and the June 2026 Modalfilter resolution, Quartiersgarage decisions, Umweltspur or pedestrian-zone decisions, and any Mainz garage tariff council decision (PMG sets its own tariffs; no tariff change date was found).",
+  "Our feed shows capacities such as Römisches Theater 247, Kupferberg 515, Kronberger Hof 215, Trajanstraße 225, Löhrstraße 71, while PMG lists Römisches Theater 436, Kronberger Hof 460 and Löhrstraße 145; Kupferberg and Trajanstraße are not on PMG's list, so their operators were not identified.",
+  "Dropped for the 18-item cap (all sourced): Heiligkreuz tram decision of 19 June 2026, 0-Euro-Samstag (free buses on first Saturday of the month), Mainz 05 match-day park-and-ride at the Messegelände, 2020 diesel-ban settlement, 2025 green-verge enforcement dispute, and the 2022 PMG presentation."
+ ],
+ "dropped": {
+  "low confidence": 1
+ }
+}
