@@ -89,6 +89,9 @@ FEEDS = [
     Feed("mobilithek-koeln", "Köln", dynamic="1048984704203509760", static="1048985043690504192"),
     Feed("mobilithek-bremen", "Bremen", dynamic="1048960985405804544", static="1048961024819875840"),
     Feed("mobilithek-erfurt", "Erfurt", dynamic="1048961064208388096", static="1048961104301965312", group="short"),
+    # Dynamische / Statische Parkdaten Mainz (Stadt Mainz Stadtplanungsamt, DATEX II v2), subscribed 2026-10-19: 29
+    # facilities with names, capacities and coordinates; live counts were current (13:46Z) when pulled 2026-10-21.
+    Feed("mobilithek-mainz", "Mainz", dynamic="1048961984803815424", static="1048962028764286976"),
 ]
 
 _context: ssl.SSLContext | None = None
