@@ -1,0 +1,17 @@
+{
+ "as_of": "2026-10",
+ "sections": [
+  {
+   "title": "Policy and access to the centre",
+   "text": "Saint-Jean-de-Braye, on the eastern side of Orléans, leaves most transport matters to Orléans Métropole; the town itself says trams and buses are the Métropole's competence and that it has many bus lines and the terminus of tram line B [12]. The Métropole says it aims to reduce solo driving and favour public transport and active modes, though its on-street zones and prices are not shown to apply in Saint-Jean-de-Braye [5]. The town's own measures are local: a page from July 2020 announced blue-zone visitor spaces (disc, 1h30) on rues Bernard Cognet and Arnaud de Saxcé to curb wild parking that hampered waste collection [10]. For the renovation of the RD960 in the town centre, the project page says the Métropole's counts found an average parking occupancy of 18% for the area; it does not say which spaces, which year or how. It keeps the Longues Allées car park (59 spaces) and the municipal car park by the florist (25), and parking in front of shops stays, with a switch to blue zone or short-stop parking under study [8][9]."
+  },
+  {
+   "title": "Parking developments",
+   "text": "The first phase of the RD960 renovation, from the Mondésir roundabout to rue de la Gare, costs 1.895 million euros including tax, is funded by the Métropole, and was due to start on 15 July 2026 for nine months [9]. The EcoQuartier du Hameau has built about 900 homes, with 350 more expected by 2027 in Clos du Hameau Nord; the page does not mention parking [13]. The urban mobility plan (PDU) was adopted in July 2019 and runs to 2028, and the Métropole must adopt its first mobility plan in 2028 [14]. On charging, the Métropole's 2023 dataset lists one public station in the town, rue Jean Zay, with two 22 kW points run by Freshmile and in service since 15 July 2021 [6]. The Métropole's tariff for its posts is 0.50 euro per kWh from 1 January 2024, with a flat fee of 25 euros against long stays [7]. Its 2024 key-figures report counts 287 charge points in the metropolis in 2023 and says it holds 54% of the Loiret's publicly open points, 155 [16]."
+  },
+  {
+   "title": "Operators, positioning and utilisation",
+   "text": "The two big sites are Tao's tram park-and-rides. Gaudier Brzeska (214 spaces) and Clos du Hameau (204) are reserved for Tao customers: entry is free, but the exit barrier opens only with a valid Tao ticket [0]. A P+R ticket costs 4.50 euros and covers parking plus a same-day return trip for everyone in the car, up to five people; the tariffs are stated as of 1 July 2025 and may have changed [1]. The rules, updated on 1 October 2026, set a 3.5-tonne weight limit and a 15 km/h speed limit, and forbid stays over seven days without agreement [2]. The rules name Keolis as operator, while the open-data file names Effia stationnement, so the split is unclear [3]. The file lists neither site with electric spaces [4]. A 2024 report charts use of the Métropole's 16 park-and-rides, but we could not read reliable figures from it [17].\n\nOur data cover the two park-and-rides, 418 spaces together, for 17 days since 5 October 2026. Clos du Hameau averaged about 19% on weekdays and 9% at weekends, with a peak of 53% on a Tuesday afternoon. Gaudier Brzeska averaged 5% on weekdays and 4% at weekends and peaked at 11%. Both have plenty of room, the second almost always empty."
+  }
+ ]
+}

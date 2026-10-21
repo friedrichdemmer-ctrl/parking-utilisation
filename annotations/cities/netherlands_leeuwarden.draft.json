@@ -1,0 +1,138 @@
+{
+ "country": "Netherlands",
+ "city": "Leeuwarden",
+ "researched": "2026-10-21",
+ "summary": "Leeuwarden regulates its centre with tariff zones A to D: for 2026 on-street parking costs 3.50 euros per hour in zone A, 2.10 in zone B, 1.40 in zone C and 0.90 in zone D, charged Monday to Saturday 08:00-22:00 (08:00-18:00 in outer zones, plus late opening evenings) and, in zones A and B, Sunday 12:00-18:00. Resident permits cost 286 euros per year in zones 1-4 and 143 euros in zones 6-10, with permit ceilings and refusals for new-build addresses that received a parking-norm exemption. The central garages (Zaailand, Oldehove/Oldehoofsterkerkhof, Klanderij, Hoeksterend, De Revius, Oosterstraat) have council-set tariffs; the latest official decision found is for 2023-2025 (Zaailand 1.65 euros per hour excluding VAT, day maximum 8.26 euros), and a 2026 garage tariff decision was not found. Garage operation sits with a municipality-linked partnership and foundation (Parkeergarages Leeuwarden / Stichting Parkeergarages), which also run the guarded bicycle garages. The 2015 parking plan counted about 5,200 city-centre spaces, judged capacity more than sufficient and made garages the primary visitor parking; EV charging growth is being steered to above-ground garages (Hoeksterend has 76 charging points, prepared for 352) because of grid and fire-safety limits in the underground garages. Further measures at proposal or exploration stage include a zero-emission zone for delivery vehicles (1 January 2028 considered realistic in 2024), paid parking in all blue zones under the Beleidskader Mobiliteit 2040, and shared-car pilots. The municipal website leeuwarden.nl was offline when read, so policy pages on the low-traffic city centre and park-and-ride could not be checked, and no official source on the P+R sites was read.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2026-02-17",
+   "text": "By decision of 17 February 2026 the council set the 2026 paid-parking designation: tariff zones A and B charge Monday to Saturday 08:00-22:00 and Sunday 12:00-18:00; zones B*, C and D charge Monday to Saturday 08:00-18:00 plus late opening evenings to 22:00; zone D/WTC charges Monday to Friday 08:00-18:00. Paid street parking includes Stationsplein, Fonteinland, Jacob Catsplein, Sixmaplein, Oosterbuurt and the Dirk Zeperweg car park.",
+   "source_title": "Aanwijzingsbesluit betaald- en vergunninghoudersparkeren Leeuwarden 2026 (Gemeenteblad 2026-84587)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-84587.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-11-05",
+   "text": "The tariff table to the Verordening parkeerbelastingen Leeuwarden 2026 (attached to a council decision of 5 November 2025) sets on-street rates per 60 minutes at 3.50 euros in zone A, 2.10 in zones B and B*, 1.40 in zone C and 0.90 in zones D, D* and D/WTC, with a zone D day rate of 4.60 euros Monday to Saturday.",
+   "source_title": "Tarieventabel behorende bij de Verordening parkeerbelastingen Leeuwarden 2026",
+   "source_url": "https://leeuwarden.bestuurlijkeinformatie.nl/Document/View/9f8f8f89-50d7-4c14-bf13-da584d185bc4",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-11-05",
+   "text": "The same 2026 tariff table sets resident parking permits at 286 euros per year in city-centre zones 1-4 and 143 euros per year in zones 6-10 (36.60 euros in Grou), with business permits at 570 euros (zones 1-4) or 286 euros (zones 6-10). Day permits cost 16.60 euros in zones 1-4 and 4.70 euros in zones 6-10, and a day exemption for car-restricted streets such as Nieuwestad and Peperstraat costs 29 euros.",
+   "source_title": "Tarieventabel behorende bij de Verordening parkeerbelastingen Leeuwarden 2026",
+   "source_url": "https://leeuwarden.bestuurlijkeinformatie.nl/Document/View/9f8f8f89-50d7-4c14-bf13-da584d185bc4",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2022-11-09",
+   "text": "The council's garage tariff decision of 9 November 2022 (stated as valid for 2023-2025, in force from 1 January 2023) set Zaailand and Oldehoofsterkerkhof at 1.65 euros per hour excluding VAT, a day maximum of 8.26 euros and an evening maximum (19:00-06:00) of 3.31 euros, while Klanderij, De Revius and Hoeksterend were 1.40 per hour (day maximum 5.79, 5.79 and 3.31 euros). A Zaailand resident's annual pass was 636.36 euros. These are 2023 figures excluding VAT; a decision for 2026 was not found.",
+   "source_title": "Tarievenbesluit parkeergarages Leeuwarden 2023 (geldend voor 2023-2025)",
+   "source_url": "https://repository.officiele-overheidspublicaties.nl/externebijlagen/exb-2022-70777/currentItem",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2016-11-07",
+   "text": "For comparison, the council's garage tariff decision of 7 November 2016 for 2017 set Zaailand and Oldehoofsterkerkhof at 2.07 euros per hour excluding VAT with a day maximum of 7.27 euros, and listed Klanderij, Tesselschadestraat, Hoeksterend and Oosterstraat garages, so the hourly rate was higher in 2017 than in the 2023 decision while the day maximum was lower.",
+   "source_title": "Tarievenbesluit parkeergarages Leeuwarden 2017",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR435579",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2015",
+   "text": "The 2015 parking policy plan counted just over 5,200 parking spaces in the city centre: nearly 1,800 paid street spaces, nearly 500 permit-holder street spaces and over 2,500 spaces in five garages, plus about 250 at the P+R site and about 250 at the Leeuwarder Courant site. It judged capacity on average more than sufficient, with occupancy falling after 2011 except on Saturdays, and local shortages only near Eewal and Tweebaksmarkt.",
+   "source_title": "Parkeerbeleidsplan gemeente Leeuwarden 2015",
+   "source_url": "https://leeuwarden.bestuurlijkeinformatie.nl/Document/View/3edd6388-0f01-4ff3-bfa8-2d020a19db46",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2015",
+   "text": "The 2015 plan made the garages the primary parking locations for city-centre visitors and set the principle that parking costs are in essence paid by the user, with restrictive policy where space is scarce and alternatives exist. It also reported that all garages had licence-plate recognition and accepted all payment methods, and that the ring of neighbourhoods around the centre was regulated with a blue zone to discourage long-stay parking.",
+   "source_title": "Parkeerbeleidsplan gemeente Leeuwarden 2015",
+   "source_url": "https://leeuwarden.bestuurlijkeinformatie.nl/Document/View/3edd6388-0f01-4ff3-bfa8-2d020a19db46",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2019",
+   "text": "A draft notarial deed (2019 file, with unfilled placeholders and a decision date of 2020) describes Parkeergarages Leeuwarden C.V., based at Zaailand 5, as operating the garages De Klanderij, Oldehove, Hoeksterend (Bastion) and Wilhelminaplein (Zaailand), with the municipality as limited partner and Parkeergarages Leeuwarden B.V. as managing partner. Because this is an unsigned draft, the final ownership structure is not confirmed.",
+   "source_title": "Wijziging vennootschapscontract Parkeergarages Leeuwarden C.V. (draft deed)",
+   "source_url": "https://leeuwarden.bestuurlijkeinformatie.nl/Document/View/35a7dfa4-b0ae-4670-a5cd-d012b0d9db84",
+   "confidence": "low"
+  },
+  {
+   "topic": "ev",
+   "date": "2024-05-07",
+   "text": "In a reply of 7 May 2024 to council questions, the executive said grid capacity and fire-safety rules make extra charging points in the underground garages Oldehove and Zaailand undesirable, so expansion is going into the above-ground garages Hoeksterend and Klanderij. Garage charging cost 0.70 euros per kWh including VAT, set yearly by the garage foundation, and the questioners had stated that Zaailand had only two charging points.",
+   "source_title": "Antwoord B&W op schriftelijke vragen Lijst058 over openbare laadmogelijkheden stadscentrum (2024-079440)",
+   "source_url": "https://leeuwarden.bestuurlijkeinformatie.nl/Document/View/7c185390-1c70-470d-af56-b28a94da2c79",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2024-09-30",
+   "text": "A trade press release from IP Parking dated 30 September 2024 reported that 76 charging points were installed in the Hoeksterend garage with load balancing prepared for expansion to 352, and that charging was free from 25 to 30 September. This is a supplier press release.",
+   "source_title": "IP Parking: IP Charging - Charging Solution in Parking Garage Hoeksterend in Leeuwarden (parking.net)",
+   "source_url": "https://www.parking.net/parking-news/ip-parking/charging-solution-in-parking-garage-hoeksterend",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-04-23",
+   "text": "In a letter of 23 April 2024 the executive told the council that a consultant's 2023 exploration judged a zero-emission zone for delivery vans and lorries (not passenger cars) feasible within the parking ring, with 1 January 2028 considered realistic. It was a proposal at that stage: businesses were to be consulted and an announcement decision was expected later in 2024, and a final traffic decision would be needed about a year before introduction; the current status was not found.",
+   "source_title": "Brief aan de gemeenteraad: Verkenning zero-emissie-zone Leeuwarden (2024-077762)",
+   "source_url": "https://leeuwarden.bestuurlijkeinformatie.nl/Document/View/7407fcb5-0f04-4688-b6ea-56ef007d1ba9",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-19",
+   "text": "The Parkeerverordening Leeuwarden 2025 (college proposal of 14 October 2025; the version read here is stated as in force from 19 June 2026) provides resident, business, care-provider, day, blue-zone and commercial car-sharing permits, and lets the college set a permit ceiling per zone with an open-ended waiting list. It also bars new permits for addresses in the city centre (zones 1 and 2 fully, zones 3 and 4 partly) where a parking-requirement exemption was granted.",
+   "source_title": "Parkeerverordening Leeuwarden 2025 (Lokale wet- en regelgeving, CVDR747805)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR747805",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-10-16",
+   "text": "At the 16 October 2024 council debate on the Beleidskader Mobiliteit 2040, a motion by FNP and VVD stated that the framework provides for paid parking in all blue zones, and asked the college to pilot it first in the zones with most nuisance and evaluate before proposing roll-out. This is a motion text; whether it was adopted was not found.",
+   "source_title": "Motie: betaald parkeren blauwe zones, eerst een pilot",
+   "source_url": "https://leeuwarden.bestuurlijkeinformatie.nl/Document/View/7de779ad-3ae5-494a-80cb-2becff0144c7",
+   "confidence": "medium"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-07-30",
+   "text": "By traffic decision VB-26-42 of 30 July 2026 (Gemeenteblad of 12 August 2026) the city reserved two charging-equipped spaces at the Trefplak car park on Redbadwei in Middelsee for Commshare electric car-sharing vehicles, as a pilot to reduce car ownership and parking pressure in residential areas.",
+   "source_title": "Verkeersbesluit VB-26-42 deelauto's parkeerterrein Trefplak (Gemeenteblad 2026-374807)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-374807.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2025",
+   "text": "A 2025 council proposal (case 2025-108206) to fund a guarded bicycle garage under the former V&D building on Nieuwestad (800-1,300 bicycles, 1.96 million euros investment, opening planned for mid-2026) says the Stichting Parkeergarages Leeuwarden would manage it as it does the city's two other guarded bicycle garages, and would contribute 250,000 euros. The proposal says it would also draw 710,000 euros from the parking reserve, leaving about 400,000 euros, and ties it to the Nieuwestad redesign; the council outcome was not read.",
+   "source_title": "Raadsvoorstel Krediet realisatie en exploitatie fietsenstalling Nieuwestad (2025-108206)",
+   "source_url": "https://leeuwarden.bestuurlijkeinformatie.nl/Document/View/c4de3221-17c9-4a44-9dd8-44b7675b4af3",
+   "confidence": "medium"
+  }
+ ],
+ "gaps": [
+  "https://www.leeuwarden.nl (all pages, including parkeren, parkeertarieven, autoluwe binnenstad, P+R) returned 503 'Website offline' on 21 October 2026; not read.",
+  "https://leeuwarden.nl/wp-content/uploads/2024/06/Verkenning-ZE-zone-Leeuwarden.pdf, .../2024/07/Nieuwsbrief-Mobiliteit-juli-2024.pdf, .../2025/01/Nieuwsbrief-autoluwe-binnenstad-januari-2025.pdf, .../2023/11 november newsletter and .../2024/07/Beleidskader-Mobiliteit.pdf returned the offline page; the low-traffic city centre (ANPR from 13 January 2025), Hoeksterend resident subscriptions and the full Beleidskader Mobiliteit 2040 parking content are therefore not sourced.",
+  "No official 2026 garage tariff decision (Tarievenbesluit parkeergarages 2026) was found; the latest read is the 2023 decision (valid 2023-2025, excluding VAT). Commercial listings (e.g. parkerenindestad.nl) show higher 2026 figures but were not used as support.",
+  "No official or operator source was read for the P+R sites (Wijnhornsterstraat behind the station, Kalverdijkje, WTC-Expo), their operator, tariffs or occupancy; the ANWB, centrumparkeren.nl, parkerenindestad.nl and Visit Leeuwarden pages returned 404 or are listing portals and were not used.",
+  "https://www.ipparking.com/en/about-us/projects/ip-charging-leeuwarden/ returned 403 (bot protection); the parking.net copy of the press release was used instead.",
+  "No Leeuwarder Courant or Omrop Fryslan article was read (LC and several press domains are not accessible to the search tool; the web search budget was exhausted), so no press coverage of tariff changes, garage occupancy or council debates is included.",
+  "Status of the zero-emission zone announcement decision (expected late 2024), the outcome of the October 2024 blue-zone motion, the Nieuwestad bicycle garage council vote, and the Beleidsregel Parkeernormen 2025 were not found or read.",
+  "No sources found or read on Harmonie or Willemskade garages, the Fonteinland charging plaza plan beyond the 2024 council answer, or any garage utilisation statistics after 2014."
+ ]
+}

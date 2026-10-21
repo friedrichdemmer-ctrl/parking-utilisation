@@ -1,0 +1,130 @@
+{
+ "country": "Netherlands",
+ "city": "Zutphen",
+ "researched": "2026-10-21",
+ "summary": "Zutphen (Gelderland) runs paid street and lot parking through a municipal parking-tax ordinance; the council adopted the 2026 version on 15 December 2025 (in force 1 January 2026) with hourly rates of 3.10 euros in the core and 2.50 euros at the fringe, 5 to 10 cents above 2025, and cheaper long-stay lots at Houtwal, Vispoortplein and Roodsplein (1.95 euros per hour, 11.55 euros per day; 3.20 euros per day on the Houtwal lot behind the police station). Resident permits cost 198.60 euros per year. Council papers from 2022 to 2023 set an 'autoluw' inner-city policy: fewer on-street spaces and three large car parks at the edge (Station, Polsbroek, Houtwal), while a May 2025 Burgerbelang amendment to the Omgevingsvisie proposed stimulating parking garages at the centre's edge and counted about 500 spaces in and around the centre (outcome of the vote not found). The only major dedicated structure found is the NS-operated P+R Lijmerij next to the station (375 spaces, completed 2017, 1.62 euros per hour or 8.11 euros per day in the national parking register), and public EV charging is being rolled out as paired charge-only bays under a 2023 charging vision. The municipal website was down for maintenance on 21 October 2026, so official parking pages, paid-parking hours and local press could not be read.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2025-12-15",
+   "text": "The Zutphen council adopted the Verordening parkeerbelastingen 2026 on 15 December 2025 (proposal from the executive dated 18 November 2025); it replaces the 2025 ordinance and applies from 1 January 2026. The charge for a parking fine (naheffingsaanslag) is set at 82 euros.",
+   "source_title": "Verordening parkeerbelastingen gemeente Zutphen 2026 (CVDR751393)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR751393",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-01",
+   "text": "The 2026 tariff table (in force from 1 January 2026) sets on-street hourly rates of 3.10 euros in the core (Groenmarkt, Hagepoortplein, Laarstraat, Nieuwstad, Stationsplein, Zaadmarkt and others) and 2.50 euros at fringe locations (Brasseroord, IJsselkade, Martinetsingel, Noorderhaven, Rozengracht and others).",
+   "source_title": "Verordening parkeerbelastingen gemeente Zutphen 2026 (CVDR751393)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR751393",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-01",
+   "text": "The 2026 table gives long-stay lots a cheaper rate: Vispoortplein/Houtwal, Roodsplein, Isendoornstraat and Molengracht-west cost 1.95 euros per hour with a day ticket of 11.55 euros, and the Houtwal lot behind the police station costs 1.05 euros per hour or 3.20 euros per day. A motorhome bay on that lot costs 14.80 euros per day.",
+   "source_title": "Verordening parkeerbelastingen gemeente Zutphen 2026 (CVDR751393)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR751393",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-12",
+   "text": "The 2025 ordinance (council decision of 16 December 2024, in force from 1 January 2025) had core on-street rates of 3.00 euros, fringe rates of 2.40 euros, long-stay lots at 1.90 euros per hour (day ticket 11.15 euros) and the Houtwal lot behind the police station at 1.00 euro per hour or 3.10 euros per day. The 2026 table therefore raised these rates by 5 to 10 cents per hour.",
+   "source_title": "Verordening parkeerbelastingen gemeente Zutphen 2025 (raadsstuk, tariff table 2025)",
+   "source_url": "https://zutphen.bestuurlijkeinformatie.nl/Document/View/0f5e1730-1cc2-41fb-a32f-31fca105257a",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01",
+   "text": "Under the 2026 tariff table an annual resident permit for a reserved resident bay costs 198.60 euros (192.00 euros in 2025), a second resident permit 321.60 euros, a business permit 649.80 euros and a visitor pass 40.05 euros per month. Annual subscriptions for the pay-and-display lots range from 389.40 euros (for example Houtwal, Roodsplein, Isendoornstraat, IJsselkade) to 1,142.40 euros (for example Spittaalstraat, Laarstraat, Nieuwstad, Rijkenhage/Hagepoortplein).",
+   "source_title": "Verordening parkeerbelastingen gemeente Zutphen 2026 (CVDR751393)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR751393",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-12-15",
+   "text": "The 2026 cost decision for parking fines (adopted by the council on 15 December 2025) estimates 2,600 fines at a calculated cost of 123.56 euros each (total costs 321,265 euros; the table is labelled 2025 costs). The fine set in the ordinance is 82 euros, so this is an enforcement-cost estimate, not a usage statistic.",
+   "source_title": "Kostenbesluit naheffingsaanslag parkeerbelastingen gemeente Zutphen 2026 (CVDR751365)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR751365",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2017-03",
+   "text": "The P+R car park next to Zutphen station (Noorderhaven district) was reported as newly completed in March 2017, with 375 car spaces and more than 600 bicycle spaces; it was designed by MoederscheimMoonen Architects, with Continental Car Parks among the contractors.",
+   "source_title": "P+R Car Park Zutphen / MoederscheimMoonen Architects (ArchDaily)",
+   "source_url": "https://www.archdaily.com/867106/p-plus-r-car-park-zutphen-moederscheimmoonen-architects",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-12",
+   "text": "The national parking register (RDW NPR open data) lists P+R Lijmerij (Zutphen, Lijmerij 2) with Nederlandse Spoorwegen as operator, 375 spaces, 2.1 m height limit, open 24/7, at 1.62 euros per hour or 8.11 euros per day (tariff entries dating from June 2021, record last updated December 2024). Its live status feed read on 21 October 2026 reports a parking capacity of 308, not 375, so the published capacity figures differ.",
+   "source_title": "RDW Open Parkeerdata (NPR): P+R Lijmerij (Zutphen), static and dynamic feed",
+   "source_url": "https://npropendata.rdw.nl/parkingdata/v2/static/7b4e7874-59b9-4e9c-9486-206453b5a2a5",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-05",
+   "text": "The council paper 'Kaderstellende notitie bestuursopdracht Binnenstad 2023-2026' (file created May 2023) states that the number of car parking places in the inner city is to be 'forcibly reduced', with three large car parks at the edge of the inner city as the starting point, and visitors to be directed as far as possible to the central car parks at the Station, Polsbroek and Houtwal.",
+   "source_title": "Kaderstellende notitie bestuursopdracht Binnenstad 2023-2026",
+   "source_url": "https://zutphen.bestuurlijkeinformatie.nl/Document/View/c7c2b501-1006-49ae-b6e9-5ff01710639f",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-01",
+   "text": "A Zutphen executive paper (file created January 2022) set seven priority mobility measures, including removing about 23 mostly permit-holder parking places in characteristic parts of the inner city, working towards merging permit and regular parking, about 280 new bicycle spaces at the edge of the core shopping area, and a better walking route from the Houtwal car park to the centre (planned 2022-2023).",
+   "source_title": "Toelichting op de maatregelen uitvoeringsplan (college, Zutphen)",
+   "source_url": "https://zutphen.bestuurlijkeinformatie.nl/Document/View/b32ff932-0f7d-4979-9d17-2d435b37c92b",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-05-26",
+   "text": "On 26 May 2025 councillor Marloes Roerdink (Burgerbelang) filed amendment 2025-A0012 to the draft Omgevingsvisie: replace 'three central car parks around the inner city' with a network of parking facilities, have the municipality stimulate parking garages at the edge of the centre, and cut on-street spaces only after replacements exist. The amendment states Zutphen currently has about 500 parking places in and around the centre; the council vote on it was not found.",
+   "source_title": "Amendement 2025-A0012 'Een groene en bereikbare binnenstad' (Burgerbelang)",
+   "source_url": "https://zutphen.bestuurlijkeinformatie.nl/Document/View/58aa0bb7-0cd8-4a8d-8b98-ee92c2960ceb",
+   "confidence": "medium"
+  },
+  {
+   "topic": "ev",
+   "date": "2023-06-12",
+   "text": "On 12 June 2023 the executive designated two charge-only bays at each of 10 new public charge posts (for example Emmerikseweg 252, Jan Rozeboomstraat 32, Oranjelaan 24), citing a forecast that about 424 charge points would be needed in 2025 and a contract with a charge operator; 17 proactive posts had been approved in 2022.",
+   "source_title": "Gemeenteblad 2023, 254704: aanwijzen parkeerplaatsen voor opladen elektrisch voertuig (verzamelbesluit)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2023-254704.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-05-28",
+   "text": "A further collective traffic decision published on 28 May 2025 designates two charge-only bays at each of 27 listed locations (for example Bakerstraat 14, Braamkamp 103, 's Gravenhof 14, Het Glacis 23), with a second bay applying only once a post reaches 1,750 kWh a year, and an execution deadline of 31 May 2027.",
+   "source_title": "Gemeenteblad 2025, 231109: aanwijzen parkeerplaatsen voor opladen elektrisch voertuig (verzamelbesluit)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-231109.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2024-08-22",
+   "text": "The municipal policy rule on charge posts and charging on public land (Beleidsregel oplaadpalen en opladen op openbaar terrein 2024) has been in force since 22 August 2024 and replaces earlier rules.",
+   "source_title": "Beleidsregel oplaadpalen en opladen op openbaar terrein gemeente Zutphen 2024 (CVDR723808)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR723808/",
+   "confidence": "high"
+  }
+ ],
+ "gaps": [
+  "https://www.zutphen.nl (parking, permits, zone maps, Omgevingsvisie and Polsbroek PDFs) showed a 'tijdelijk niet bereikbaar' maintenance page on 21 October 2026, so paid-parking hours, the current zone map and the Polsbroek spatial framework (April 2024) could not be read.",
+  "Paid-parking hours (Parkeerverordening Zutphen 1991 / permit regulation 2019) not found in a source I could open; third-party claims of Monday-Saturday 08-18 and Friday to 21 were not used.",
+  "Outcome of the council vote on amendment 2025-A0012 and the adopted Omgevingsvisie text not found; no 2026 council paper on the tariff increase or on new garages found.",
+  "No De Stentor, RTV Oost or other regional press article on Zutphen parking could be found or opened; WebSearch budget ran out, so press coverage, the Mobiliteitsvisie Binnenstad 2018 and the parking implementation plan (parkeervisie) remain unread.",
+  "No occupancy, usage or visitor statistics for the centre car parks found; the number of spaces in the Station, Polsbroek and Houtwal lots is not stated in sources read (only the amendment's 'about 500 places in and around the centre').",
+  "NS pages for P+R Lijmerij (ns.nl) are script-rendered and gave no readable tariff text; P+R tariff comes only from the RDW NPR record, whose entries date from June 2021 and may be outdated.",
+  "https://www.world-architects.com/de/architecture-news/works/pandr-parking returned a Cloudflare block (403) and was not used.",
+  "Gelre Ziekenhuizen car park (Q-Park, 250 spaces) appears in the RDW NPR but its record expired in 2022; not used."
+ ]
+}

@@ -1,0 +1,171 @@
+{
+ "country": "Italy",
+ "city": "Racines",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Racines (Ratschings in German) is a small mountain municipality in South Tyrol, and its parking story is about the lift car park at the Ratschings-Jaufen ski and hiking area rather than a town centre. The South Tyrol Open Data Hub, read on 21 October 2026, lists two lift car parks (zone 1 with 222 spaces, zone 2 with 60 spaces, 282 in total, both marked underground and without charging), while the lift operator's undated page describes a multi-storey car park at the valley station with about 300 spaces, free in summer and 1.50 euros per hour in the winter season, with three EV chargers (two 22 kW, one 7.4 kW); the difference in space counts and the charging flag are unexplained. A second public charging point is in Stange. Access without a car relies on a free ski bus for guests with the activeCard (winter 2025/26 timetable poster: 5-8 and 12-14 December, then 19 December 2025 to 12 April 2026) and roughly hourly public buses from Sterzing; the lift company announces the 2026/27 winter season from 4 December 2026 to 4 April 2027. The municipal register, which shows titles only, lists a council decision of 23 April 2026 approving an ordinance on parking, camping and overnight stays (text not available), an executive decision of 8 October 2025 approving the written record of an agreement with Plenitude on the road GmbH on EV charging infrastructure, and 2025 contract awards for a new public car park at Stange I, asphalting at an existing car park in Ridnaun and a new car park at the association hall in Jaufental. A register search found no decision on lift car park charges, though the register covers 2021 to 2026 and titles only.",
+ "items": [
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "The South Tyrol Open Data Hub lists two lift car parks for the Ratschings-Jaufen (Racines-Giovo) ski area, 'Zone 1' (capacity 222) and 'Zone 2' (capacity 60), 282 spaces in total, both flagged 'underground', passenger cars only, with surveillance and no reservation. The live record is fed by a Skidata system and was read on 21 October 2026.",
+   "source_title": "South Tyrol Open Data Hub mobility API, ParkingStation 'Parcheggi impianti risalita Racines'",
+   "source_url": "https://mobility.api.opendatahub.com/v2/tree/ParkingStation?limit=-1&distinct=true&select=sname,sorigin,scode,smetadata&where=sname.re.Racines",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The lift operator's page (read 21 October 2026, undated) says the multi-storey car park at the valley station has about 300 spaces, is free to use in summer and costs 1.50 euros per hour in the winter season; maximum clearance is 2.20 metres. This is the only published tariff found for the site.",
+   "source_title": "Parkhaus Ratschings-Jaufen: Direkt an der Talstation",
+   "source_url": "https://www.ratschings-jaufen.it/de/bergbahnen/service/parkhaus.html",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The multi-storey car park sits directly at the valley station (Talstation) of the Ratschings-Jaufen cabin lift and is presented on the website of the lift company Bergbahnen Ratschings-Jaufen, which suggests the lift company runs it (the page does not state the operator in so many words). An escalator leads from the car park to the cabin lift. Page read on 21 October 2026, undated.",
+   "source_title": "Parkhaus Ratschings-Jaufen: Direkt an der Talstation",
+   "source_url": "https://www.ratschings-jaufen.it/de/bergbahnen/service/parkhaus.html",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The car park has three EV charging stations on the first floor (second entrance): two 22 kW three-phase connectors and one 7.4 kW single-phase connector. The car park is accessible all year; the page says additional parking costs apply during the winter season, from December to April. Page read on 21 October 2026, undated.",
+   "source_title": "E-Tankstelle Ratschings: Ladesäulen für dein Auto",
+   "source_url": "https://www.ratschings-jaufen.it/de/bergbahnen/service/e-tankstelle.html",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The tourist office lists a second public charging point in Stange next to the sports zone (one 50 kW CCS, one 50 kW CHAdeMO, one 43 kW Type 2), plus the three charging stations at the valley-station car park. Page read on 21 October 2026.",
+   "source_title": "E-Tankstellen Ratschings (Ratschings Tourismus)",
+   "source_url": "https://www.ratschings.info/de/urlaub-in-ratschings/nachhaltigkeit/e-tankstellen.html",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-10-08",
+   "text": "On 8 October 2025 the municipal executive (Gemeindeausschuss, decision no. 550) approved an agreement with Plenitude on the road GmbH on the supply, installation and management of EV charging infrastructure; the register shows only the title, not locations or numbers.",
+   "source_title": "Gemeinde Ratschings, Beschlüsse und Maßnahmen (search 'Ladeinfrastruktur')",
+   "source_url": "https://www.ratschings.eu/system/web/sgvbeschluesse.aspx?menuonr=221612748&sprache=1&page=1&sgvNummer=&sgvQuelle=&sgvjahr=0&sgvsuchbegriff=Ladeinfrastruktur",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-04-23",
+   "text": "On 23 April 2026 the municipal council (Gemeinderat, decision no. 17) approved an ordinance regulating parking, camping and other forms of overnight stays. Only the register title is public in the listing; the text, zones and fines could not be read.",
+   "source_title": "Gemeinde Ratschings, Beschlüsse und Maßnahmen (search 'Parken')",
+   "source_url": "https://www.ratschings.eu/system/web/sgvbeschluesse.aspx?menuonr=221612748&sprache=1&page=1&sgvNummer=&sgvQuelle=&sgvjahr=0&sgvsuchbegriff=Parken",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-03-30",
+   "text": "On 30 March 2022 the municipal executive (decision no. 231) recorded a further commitment under the commission to TIB consulting engineering GmbH (Brixen) for drawing up a mobility concept as part of the municipal development programme for space and landscape. The register shows only the title; the outcome of that concept was not found.",
+   "source_title": "Gemeinde Ratschings, Beschlüsse und Maßnahmen (search 'Mobilität')",
+   "source_url": "https://www.ratschings.eu/system/web/sgvbeschluesse.aspx?menuonr=221612748&sprache=1&page=1&sgvNummer=&sgvQuelle=&sgvjahr=0&sgvsuchbegriff=Mobilit%C3%A4t",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-10-20",
+   "text": "On 20 October 2023 the municipal council (decision no. 36) dealt with an item titled 'amendment of the land-use plan: designation of a roundabout in Stange', the municipal seat. The register shows only the title and does not say whether it was an adoption or a final approval.",
+   "source_title": "Gemeinde Ratschings, Beschlüsse und Maßnahmen (search 'Verkehr')",
+   "source_url": "https://www.ratschings.eu/system/web/sgvbeschluesse.aspx?menuonr=221612748&sprache=1&page=1&sgvNummer=&sgvQuelle=&sgvjahr=0&sgvsuchbegriff=Verkehr",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-10-01",
+   "text": "In 2025 the municipal executive awarded contracts for a new public car park at the Stange I extension zone (C/3): staking out the boundaries (decision no. 107, 12 February), construction of the public car park (no. 520, 24 September) and drainage and asphalting of the municipal road and the 'covered public car parks' (no. 540, 1 October 2025). The register shows award titles only, so completion and the number of spaces are not known.",
+   "source_title": "Gemeinde Ratschings, Beschlüsse und Maßnahmen (search 'Parkplätze')",
+   "source_url": "https://www.ratschings.eu/system/web/sgvbeschluesse.aspx?menuonr=221612748&sprache=1&page=1&sgvNummer=&sgvQuelle=&sgvjahr=0&sgvsuchbegriff=Parkpl%C3%A4tze",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12-17",
+   "text": "In December 2025 the municipal executive commissioned smaller village car park works: asphalting at the public car park in Ridnaun Dorf (17 December) and a new car park at the association hall in Jaufental (3 December).",
+   "source_title": "Gemeinde Ratschings, Beschlüsse und Maßnahmen (search 'Parkplatz')",
+   "source_url": "https://www.ratschings.eu/system/web/sgvbeschluesse.aspx?menuonr=221612748&sprache=1&page=1&sgvNummer=&sgvQuelle=&sgvjahr=0&sgvsuchbegriff=Parkplatz",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-12",
+   "text": "The ski bus for winter 2025/26 was free for guests showing the activeCard and ran from December to April from the surrounding villages to the valley station, promoted by the lift company as an alternative to looking for parking. The timetable poster shows operation on 5-8 Dec, 12-14 Dec and 19 Dec 2025 to 12 Apr 2026, with three routes (Ridnaun valley, Jaufental/Gasteig, Telfes/Mareit) and one to three runs per day.",
+   "source_title": "Skibus Ratschings-Jaufen (and timetable poster 2025/26)",
+   "source_url": "https://www.ratschings-jaufen.it/de/bergbahnen/service/skibus.html",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "The tourist office says regular public buses run roughly hourly from the railway station in Sterzing (about 10 km away) to the Ratschings, Ridnaun and Jaufental valleys (line 319 to Ratschings), and that the activeCard given by most accommodations allows free use of all public transport in South Tyrol. Page read on 21 October 2026.",
+   "source_title": "Deine Anreise nach Ratschings (Ratschings Tourismus)",
+   "source_url": "https://www.ratschings.info/de/urlaubsplanung/anreise-mobilitaet.html",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "The lift company states that the summer 2026 cable-car season began on 30 May 2026 and that children born 2012 or later ride free all summer. Page read on 21 October 2026.",
+   "source_title": "Ratschings-Jaufen, Sommer",
+   "source_url": "https://www.ratschings-jaufen.it/de/bergbahnen/live/sommer.html",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "The lift company's winter page (read 21 October 2026) announces the 2026/27 winter season from 4 December 2026 to 4 April 2027. The page does not mention parking; the car park page gives the 1.50 euro per hour tariff for the 'winter season' without dates, and the EV charging page speaks of parking charges from December to April.",
+   "source_title": "Ratschings-Jaufen, Winter",
+   "source_url": "https://www.ratschings-jaufen.it/de/bergbahnen/live/winter.html",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "Text of the Gemeinderat ordinance on parking, camping and overnight stays (decision no. 17 of 23 April 2026): the register lists only the title, no document is attached.",
+  "No council decision, press report or official statement was found on the winter parking fee at the valley station (who set 1.50 euros per hour, since when) or on any plan to enlarge the car park; the tariff comes only from the lift operator's undated page.",
+  "Why the lift operator quotes about 300 spaces while the Open Data Hub totals 282 (222 + 60) is unexplained; the open-data metadata also marks both zones as 'no charging' although the operator lists three chargers.",
+  "Occupancy statements (peak days, overflow parking on the access road) were not found in any official or press source.",
+  "Mobility concept of the municipality (TIB consulting, contract 2022) was not found online; the ratschings.eu topic pages 'Parkplätze', 'Verkehr' and 'Nachhaltige Mobilität' are empty.",
+  "Mobile browser tab could not be opened (tab cap), so all pages were read with curl; WebFetch/search snippets were not used as support. Other searches (Dolomiten, salto, Südtirol News) found nothing on Ratschings parking.",
+  "Summer hiking access (e.g. paid or free parking at the Ridnaun, Ratschingstal and Jaufental trailheads, summer bus timetable) was not researched in detail."
+ ],
+ "dropped": {
+  "low confidence": 1
+ }
+}

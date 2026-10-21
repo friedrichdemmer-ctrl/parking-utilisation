@@ -1,0 +1,200 @@
+{
+ "country": "France",
+ "city": "Castelnau-le-Lez",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Castelnau-le-Lez, the second-largest commune of Montpellier Méditerranée Métropole (as its town site says), manages centre parking mainly through a free two-hour blue zone with a 35 euro State fine; the town's pages describe it in the future tense, and on the blue-zone page the four pay-and-display machines in the centre were to be removed by TaM in a first phase. A sticker exempting shopkeepers and professionals from the blue-zone limit was announced in August 2026 (two per business, applied for at the municipal police). For longer stays, the town's 2024 pages list three free long-stay car parks (Jules Ferry 20, Rose de France 130, Des écoles 80 spaces), two further car parks near tram stops (50 and 100 spaces, tariff not stated), the 64-space underground Vicarello (paid with free periods) and the TaM P+Tram car parks on tram line 2 at Notre-Dame de Sablassou (350 spaces on the town page) and Charles de Gaulle (200). The Metropolis's free transport for residents since December 2023 lets Pass gratuité holders park free for 24 hours at P+Tram sites, and a May 2025 leaflet announced bustram A to Sablassou from 23 May 2025. A June 2024 town map shows a TER station at the Sablassou hub as to come, with a horizon of 2030 (a plan). Castelnau was in the first phase of the Metropolis's low-emission zone (January 2025 brochure); a February 2025 press report said fines and signage were to be suspended until 2027, and the later status was not verified. Charging points were announced in July 2024 and installation was not confirmed. Most town figures come from pages last edited in 2024 and may have changed; P+Tram tariffs were not confirmed.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2025-09",
+   "text": "The town's blue-zone pages describe a free zone bleue limited to 2 hours with a parking disc, to apply 8am-8pm. The two town pages disagree on the days: the news article (published October 2022, last edited September 2025) says every day except weekends and public holidays, while the blue-zone page (last edited July 2024) says every day except Sunday and public holidays. Both pages use the future tense ('will apply'), so neither gives a start date; an August 2026 town page on a shopkeepers' sticker refers to the blue-zone time limit as existing. The fine is 35 euros, imposed and collected by the State. The stated aims are more turnover for shops (more spaces near them), fewer long-stay 'ventouse' cars, and easier parking for residents close to home, especially in the evening and at weekends.",
+   "source_title": "Zone bleue : de la place pour tous (Ville de Castelnau-le-Lez)",
+   "source_url": "https://www.castelnau-le-lez.fr/actualite/mobilites/fonctionnement-zone-bleue/",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-07",
+   "text": "On the town's blue-zone page (last edited July 2024), the four pay-and-display machines in the centre (Parking Sud VO, Carré Rivoli, Madison, and the private Netto car park) are to be removed by TaM in a 'first phase' as a consequence of the blue-zone policy. The page does not date the removal, so on-street paid parking appears to have been replaced by the free time-limited blue zone in the centre.",
+   "source_title": "Zone bleue (Ville de Castelnau-le-Lez)",
+   "source_url": "https://www.castelnau-le-lez.fr/transports-et-mobilites/transports/stationnements-parking/zone-bleue/",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-08-21",
+   "text": "On 21 August 2026 the town announced a parking sticker (macaron) for shopkeepers and professionals with a local in Castelnau-le-Lez, exempting them from the blue-zone time limit. It is limited to two stickers per business, applied for at the municipal police, and must be renewed every year.",
+   "source_title": "Un macaron de stationnement pour faciliter le quotidien des commerçants",
+   "source_url": "https://www.castelnau-le-lez.fr/actualite/commercants/macaron-commercant/",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-09",
+   "text": "The town's page lists three free long-stay car parks: Jules Ferry (20 spaces), Rose de France (the former boulodrome, 130) and Des écoles (80), page last edited 4 September 2024. The separate blue-zone page (last edited July 2024) says other car parks 'were created' near tram stations: parking du stade (Stade Jean Fournier, 50 spaces) and parking des Centurions (100); it does not state their tariff or time limit.",
+   "source_title": "Les parkings à Castelnau (Ville de Castelnau-le-Lez)",
+   "source_url": "https://www.castelnau-le-lez.fr/transports-et-mobilites/transports/stationnements-parking/les-parkings-a-castelnau/",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-09",
+   "text": "The public underground car park Le Vicarello has 64 spaces, open 7am to midnight every day. It is paid from 7am to 12pm and 2pm to 8pm with 2 free hours per half-day; it is free between 12 and 2pm, on Sundays and after 8pm. Hourly users and subscribers are accepted (subscriptions via the Hôtel de Ville one-stop desk). Short stops are limited to 20 minutes at roughly 20 'arrêt minute' posts in the centre (7am-7pm, time counted automatically). Information as on the page last edited 4 September 2024.",
+   "source_title": "Les parkings à Castelnau (Ville de Castelnau-le-Lez)",
+   "source_url": "https://www.castelnau-le-lez.fr/transports-et-mobilites/transports/stationnements-parking/les-parkings-a-castelnau/",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-09",
+   "text": "Notre-Dame de Sablassou is a TaM-run P+Tram car park of 350 spaces on the Route de Nîmes, linked to tram line 2, open 24/7, with a bike park, car-sharing spaces and disabled spaces. A P+Tram day package is sold by TaM. The town page (last edited September 2024) gives its capacity as 350; other sources found in searching gave 379, which this research could not reconcile.",
+   "source_title": "Les parkings à Castelnau (Ville de Castelnau-le-Lez)",
+   "source_url": "https://www.castelnau-le-lez.fr/transports-et-mobilites/transports/stationnements-parking/les-parkings-a-castelnau/",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-09",
+   "text": "Residents living nearby (riverains) can subscribe to park at Notre-Dame de Sablassou for 20 euros a month, with no commitment: from 5:30pm to 8:30am Monday to Friday and all day at weekends and public holidays. Parking outside those periods is paid at the hourly rate at the automatic pay stations. Price and hours as stated on the town page last edited September 2024.",
+   "source_title": "Les parkings à Castelnau (Ville de Castelnau-le-Lez)",
+   "source_url": "https://www.castelnau-le-lez.fr/transports-et-mobilites/transports/stationnements-parking/les-parkings-a-castelnau/",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-09",
+   "text": "The Charles de Gaulle car park (200 spaces, Place Charles de Gaulle, entrance from Rue du Prado, under the Prado-Concorde residence) is linked to tram line 2 and open 24/7, with disabled spaces. Holders of a valid TaM card (transport subscribers) park free for up to 24 hours; hourly users pay on the P+tram price grid, which the page refers to ('voir tableau ci-dessous') but does not display, so the prices are not known from this page. Town page, last edited September 2024.",
+   "source_title": "Les parkings à Castelnau (Ville de Castelnau-le-Lez)",
+   "source_url": "https://www.castelnau-le-lez.fr/transports-et-mobilites/transports/stationnements-parking/les-parkings-a-castelnau/",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The Metropolis has made TaM buses and trams free for its residents holding a Pass gratuité since 21 December 2023. Residents with the pass can also park free for 24 hours in one of the 9 P+trams if they declare their transit trip in the M'Ticket TaM app. Non-residents with monthly or annual passes keep free P+Tram access, and others can buy a P+Tram pass at ticket machines. This is Montpellier's city page for the whole Metropolis, undated, read on 21 October 2026.",
+   "source_title": "Getting around for free: The Free Pass (montpellier.fr)",
+   "source_url": "https://www.montpellier.fr/en/daily-life/living-here/get-around/get-around-in-common-transportation/get-around-for-free",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-02",
+   "text": "Tram line 2 has served Castelnau-le-Lez since 2006 with 8 stations in the commune (Charles-de-Gaulle, Clairval, La Galine, Centurions, Notre-Dame de Sablassou, Aube Rouge, Via Domitia, Georges-Pompidou). The town says a trip to the Place de la Comédie in Montpellier takes under 15 minutes. Page last edited February 2025.",
+   "source_title": "Tramway – 2ème ligne (Ville de Castelnau-le-Lez)",
+   "source_url": "https://www.castelnau-le-lez.fr/transports-et-mobilites/transports/tramway-2eme-ligne/",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-08",
+   "text": "At the Notre-Dame de Sablassou stop the town lists bus lines 21, 29, 30, 31, 46 and 51 (towards Vendargues, Baillargues/Saint-Brès, Le Crès, Castries/Beaulieu, the Castries college and Place de l'Europe), and at Charles de Gaulle lines 15, 16, 35, 36 and 41. Lines 31 and 35 are on-demand services booked through Résa'TaM. Page last edited August 2024.",
+   "source_title": "Bus de la TaM - les correspondances à Castelnau (Ville de Castelnau-le-Lez)",
+   "source_url": "https://www.castelnau-le-lez.fr/transports-et-mobilites/transports/bus-tam-les-correspondances-sur-castelnau/",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-05",
+   "text": "A TaM / Montpellier Méditerranée Métropole leaflet (May 2025) announced bustram line A from 23 May 2025 between Place de l'Europe (Montpellier) and Notre-Dame de Sablassou: 8 stations, 16 minutes, a bus every 10 minutes in the day (7am-7pm on weekdays) and service from 5am to midnight. It was to be extended to Castries via Le Crès and Vendargues in 2028 (the leaflet says autumn 2028 in one place and mid-2028 in its timeline box, so the date is a plan). Residents of Le Crès, Vendargues and Castries are invited to park at Notre-Dame de Sablassou and take the bustram.",
+   "source_title": "Bustram A leaflet, Montpellier Méditerranée Métropole / TaM (PDF, May 2025)",
+   "source_url": "https://bustram.montpellier3m.fr/app/uploads/2025/06/TAM-bustram-ligneA-depliant_A4_8-pages-v16-WEB-planches-1.pdf",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-05",
+   "text": "The same leaflet says P+tram sites (including the one at the Notre-Dame de Sablassou terminus) are open 24/7 and free for up to 24 hours for holders of a transport ticket, annual TaM pass or Pass gratuité who continue by public transport.",
+   "source_title": "Bustram A leaflet, Montpellier Méditerranée Métropole / TaM (PDF, May 2025)",
+   "source_url": "https://bustram.montpellier3m.fr/app/uploads/2025/06/TAM-bustram-ligneA-depliant_A4_8-pages-v16-WEB-planches-1.pdf",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2024-06",
+   "text": "The town's June 2024 mobility map (Tram, bustram, vélo) presents a 'Pôle multimodal de Sablassou'. Its legend lists as existing then a tram station, a P+tram car park and a bike line (véloligne), and as 'à venir' (to come) a bustram station and a TER station ('Gare TER (horizon 2030)'). The map gives no further detail or funding, so 2030 is a target shown on a map, not a decision. A May 2025 leaflet by the mayor also speaks of a 'future gare TER' without a date.",
+   "source_title": "Tram, bustram, vélo: l'offre des mobilités s'étend à Castelnau-le-Lez (map, PDF)",
+   "source_url": "https://castelnau-le-lez.fr/app/uploads/2024/06/cartographie-mobilites-castelnau.pdf",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2024-07",
+   "text": "In July 2024 the town announced electric-vehicle charge points at the Palais des Sports (4 spaces), Avenue Georges-Frêche near the Maison des Proximités (4), P+Tram Notre-Dame de Sablassou (6 spaces plus an e-bike charger), P+Tram Georges-Pompidou (6), and a rapid-charge station at the Charles-de-Gaulle car park in front of the shops (5). The article says the car parks 'will be equipped', so it is an announcement; installation dates are not stated.",
+   "source_title": "Des bornes de recharge électrique E-Totem sur plusieurs parkings ! (Ville de Castelnau-le-Lez)",
+   "source_url": "https://www.castelnau-le-lez.fr/actualite/travaux/des-bornes-de-recharge-electrique-e-totem-sur-plusieurs-parkings/",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-01",
+   "text": "Castelnau-le-Lez is one of the 11 communes in the first phase (1 July 2022 to 30 June 2026) of the Metropolis's low-emission zone (ZFE), with all 31 communes planned from 1 July 2026. In the January 2025 brochure, the 2025 driving ban concerned only petrol vehicles registered up to 2005 and diesel vehicles up to 2010; a Crit'Air sticker is required for all vehicles. Whether the 2026 extension took effect was not confirmed.",
+   "source_title": "Zone à faibles émissions de Montpellier Méditerranée Métropole (brochure, January 2025)",
+   "source_url": "https://www.montpellier.fr/sites/default/files/2025-06/ZFE_8PAGES_A4-01_2025.pdf",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-02",
+   "text": "Connexion France reported on 5 February 2025 that 31 mayors had agreed on 27 January to treat the Montpellier ZFE as 'dormant' from 13 February, with no fines and no signage until 2027. It said the council vote was still to come. Later developments were not verified here.",
+   "source_title": "City in south of France will not penalise ZFE breaches until 2027 (Connexion France)",
+   "source_url": "https://connexionfrance.com/news/city-in-south-of-france-will-not-penalise-zfe-breaches-until-2027/704868",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "The Metropolis's open-data portal has a 'Parkings de Castelnau-le-Lez' dataset, but it is an automatic weekly OpenStreetMap extract of car-park locations (ODbL licence), not live availability. Its metadata showed a modification on 21 October 2026 (page read that day).",
+   "source_title": "Parkings de Castelnau-le-Lez (Open Data Montpellier Méditerranée Métropole)",
+   "source_url": "https://data.montpellier3m.fr/dataset/parkings-de-castelnau-le-lez",
+   "confidence": "high",
+   "id": 17,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "TaM P+Tram tariff pages (tam-voyages.com presentation and carte_interactive pages, boutique.tam-voyages.com) returned an empty JavaScript page; current hourly grid, day package price and subscription prices for Notre-Dame de Sablassou and Charles de Gaulle are therefore not confirmed.",
+  "The Charles de Gaulle hourly price table on castelnau-le-lez.fr is an image/table not available as text; capacity (200 on the town page) was not checked against TaM.",
+  "The Metropolis OAP document for Sablassou (montpellier3m.fr/sites/default/files/02-castelnau_le_lez_sablassou.pdf) and the older ZFE PDF (zfe_04_2024.pdf) redirected to the homepage HTML instead of a PDF; not used. The TER station timetable and any Sablassou car-park extension remain unconfirmed.",
+  "Midi Libre and actu.fr are not accessible to the search tool; no regional press coverage of Castelnau parking (zone bleue introduction, resident or shop reactions, occupancy statements) was found. No official occupancy or utilisation statement for Castelnau car parks was found.",
+  "No dedicated resident parking permit (carte de résident) scheme was found on the town site; only the riverain subscription at Sablassou and the shopkeepers' macaron. The date of the blue zone's introduction is only inferred from a news item published October 2022 and a page published May 2024.",
+  "Current status of the ZFE (the 2026 extension to 31 communes, the dormant status, and national legislation on abolishing ZFEs) was not verified from a primary source in 2026.",
+  "EV charging data come only from the town's July 2024 announcement; no operator or data.gouv source on real current points, tariffs or power was opened (aggregator sites were not used).",
+  "Wikipedia, Parkopedia and similar portals were not used; their capacity (379) and tariff figures conflict with the town's and could not be verified."
+ ],
+ "dropped": {}
+}

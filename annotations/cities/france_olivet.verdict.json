@@ -1,0 +1,133 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "olivet.fr 'En voiture' (undated, read 21 Oct 2026). Intro says 'plus de 600 places de parking dont 430 en centre-ville' and that all parking is free with duration limits. Zones match: red 20 min, blue 1h30 with disc, white no limit; abusive parking (max 7 days) can be sanctioned. Title matches. Minor: the page says abusive parking 'can be' sanctioned, not automatically after seven days.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Same page. The list holds exactly 11 car parks (Mairie, T. Jourdan, La Petite Borde, Marcel Belot, Jules-Marie Simon, Louis Sallé, Marie Curie, Ronsard, Arcades, Savonniers, Marronniers). No operator is named; the page says parking is free. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Magazine d'Olivet n.185, June 2017, pp.2, 10-13. IPROCIA counted vehicles in centre car parks on weekdays incl. Friday-afternoon market day, all time slots, and Saturday morning; also merchant interviews. Finds the offer 'bien dimensionnée', saturation peaks on market day, Saturday late morning and school exit times; all car parks within 5 minutes' walk. Dating note: the study was commissioned in late 2016 ('fin d'année dernière' / 'l'hiver dernier') and reported in the June 2017 issue; the item dates the report, which is correct, and flags it as old. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Same magazine, p.13. 'La commune n'envisage donc pas de création de nouveaux parkings en centre-ville, elle les optimise' (signage, adjusted blue/white/red share); parking stays free everywhere; 345 Clos du Bourg homes get on average two underground spaces each; fine of 17 (euro sign is a garbled glyph in text extraction but the amount is 17 and the context is euro fines). Written as 2017 facts. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Open-data export read 21 Oct 2026 (31 records). Les Aulnaies: 244 spaces, 5 PMR, 623 Rue de la Bergeresse 45160 Olivet, insee 45232, Effia stationnement, real-time yes. Victor Hugo: 141, 3 PMR, Boulevard Victor Hugo, Olivet, Effia, real-time yes. Zénith: 190 spaces, insee 45234, address in Orléans. All match. Item correctly says Effia is the manager named in the feed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Same olivet.fr page. Says three park-and-rides in Olivet on tram line A (Zénith / Parc des Expositions, Victor Hugo, Les Aulnaies); a Tao ticket validated on arrival gives access; the P+R ticket gives unlimited parking plus a return ticket for all occupants, max 7 people. Matches. (Open data places Zénith under Orléans, which item 4 already notes.)",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Chiffres clés 2024 PDF p.15 (read in full by text extraction): P+R described as car parks reserved for public-transport users, free and secure; 12 tram P+R along the 2 lines, 4 bus P+R; a chart of annual attendance for 2018-2023 whose labels are scattered numbers in the text, so not quoting figures is right. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Page read 21 Oct 2026 (undated). Aim of cutting 'autosolisme' in favour of tram/bus/active modes and encouraging long stays in car parks, short stays on street: correct. 15-min free in orange zones (since Feb 2024) and 25 euro FPS: correct. But the page never says these are 'for Orléans and Fleury-les-Aubrais': it only introduces its offer as being in Orléans (3 of the 14 multi-storey car parks are in Fleury, nothing on-street is attributed to Fleury), and it never mentions Olivet. The claim about Fleury and the contrast with Olivet is the drafter's inference.",
+   "corrected_text": "The Métropole's parking page (read on 21 October 2026) sets the aim of reducing solo car driving in favour of tram, bus and active modes, and of encouraging long stays in car parks and short stays on street. The page describes paid on-street zones, a free 15-minute stay in orange zones since February 2024 and a 25-euro post-parking charge, presenting its parking offer as being in Orléans; it does not mention Olivet, where the commune says parking is free.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Mobility page lists 'Plan de Déplacements Urbains 2019-2028' (read 21 Oct 2026). The 2024 key-figures PDF (p.3) says the PDU was adopted in July 2019, expires in 2028, a mid-term review starts in the second half of 2024, and the Métropole 'devra adopter son premier PDM' in 2028 (the item's 'will be replaced' is a fair paraphrase). The July 2019 / 2028 / PDM details come from the PDF, not the HTML page, but are accurately attributed in the text.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "olivet.fr bus and tram page (undated, read 21 Oct 2026). Tram: 5 min 30 peak, 7 min off-peak; line A 18 km, 24 stations (15 interchanges). Bus lines 1 (La Source hospital to Cap Saran, via Victor Hugo), 13 (mairie, Victor Hugo, université), 17, 22, 23 listed. Résa'NUIT 'mis en oeuvre au 1er septembre 2025', in all communes of the Métropole, 22 communes. Matches. The page also contains 2019 material and says 'six parcs relais', which the item does not use.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Both stations verified in the export (read 21 Oct 2026): 'Olivet, rue de L'Yvette' and '238 Rue Du Général De Gaulle', each nbre_pdc 2, 22 kW, Voirie, Payant, Accès libre, 24/7, date_mise_en_service 2021-07-15, date_maj 2023-07-03, amenageur Orléans Métropole, operator Freshmile. All claims correct. Only fix: live open-data item should be dated 2026-10 and say it was read on 21 October 2026.",
+   "corrected_text": "The Métropole's EV-charging open data export (read on 21 October 2026) lists two Olivet stations, rue de l'Yvette and 238 rue du Général de Gaulle, each with 2 points of 22 kW on street, paid, open 24/7 and put into service on 15 July 2021. The most recent update date in the dataset is July 2023, so the list may be incomplete or outdated.",
+   "corrected_title": null,
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Page (undated, read 21 Oct 2026) says: from 1 January 2024 charging tariff aligned to the Métropole's car parks, 0.50 euro TTC/kWh from the first minute; the single fee against long stays rises to 25 euro TTC; 30 'bornes' in service across the 22 communes. Those facts are right. The sentence that the tariff 'presumably applies' to the two Olivet stations is the drafter's inference: the export shows Orléans Métropole as aménageur and Freshmile as operator, but the page does not name Olivet or the stations. The page is undated, so the date should be 2026-10.",
+   "corrected_text": "The Métropole's parking page (read on 21 October 2026) says that from 1 January 2024 the tariff of the Métropole's charge points is 0.50 euro per kWh including tax from the first minute, with a single fee of 25 euros including tax to deter long stays. It counts 30 Métropole charge points in service across the 22 communes. The page does not name individual stations, so it does not state that this tariff applies to the two Olivet stations (which the open data lists with Orléans Métropole as developer and Freshmile as operator).",
+   "corrected_title": null,
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Key-figures PDF p.13: 287 charge points on the metropolis in 2023 (251 normal, 36 fast); Loiret 531. The 54% is mis-stated in the item: the PDF says Orléans Métropole holds 54% of the public-access charge points of the Loiret department (287/531 is 54%), not that 54% of the metropolis's points are in the Loiret. The PDF's own 'soit 155 points' next to the 54% does not fit 54% of 531, so the source is internally inconsistent on that line. The 287 figure is under the heading Electromobilité and is presented as points on the metropolis in 2023; the PDF says the plan covers publicly accessible infrastructure.",
+   "corrected_text": "According to the Métropole's 2024 key-figures report, the metropolis had 287 charge points in 2023 (251 normal, 36 fast), against 531 in the Loiret department. The report says Orléans Métropole accounts for 54% of the public-access charge points of the Loiret, although the 155-point figure it quotes next to that percentage does not match.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Slides (30 pages, read in full): p.15 'Parking rue Paul Genain (40 places de stationnement en zone bleue)'; p.17 planning: Jan-Mar 2025 tender, Apr-Aug 2025 works, Sept-Oct 2025 'Mise en service, plantations', estimated works cost 500 000 euro HT, plus lost revenue from the sale of îlot 5, and a concession amendment 'sera proposé au conseil municipal'. Figures right and correctly worded as a proposal. Not supported: the slides do not say the commune and SEMDO 'presented' it (no presenter is named; 'Comité de pilotage 11 octobre 2024' header on many slides). Also the council approval of the amendment was still pending. Opening remains unconfirmed; the item says so.",
+   "corrected_text": "A slide presentation for the public meeting of 12 December 2024 on the Clos du Bourg (Éclosion) project showed a proposed landscaped car park on rue Paul Genain with 40 blue-zone spaces. The forecast schedule was tender in January-March 2025, works April-August 2025 and entry into service with planting in September-October 2025, at an estimated works cost of 500,000 euros excluding VAT, plus lost revenue from the sale of block 5. The slides said an amendment to the development concession would be proposed to the municipal council. This was a proposal; the opening was not confirmed in the sources found.",
+   "corrected_title": null,
+   "corrected_date": "2024-12-12"
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Éclosion page (undated, read 21 Oct 2026). Confirms: renamed Clos du Bourg; about 300 homes (20% social); pedestrian mall between place Louis Sallé and parc du Poutyl; commune financial contribution 18.3 million euros; café-restaurant du Cèdre opening end 2027 / early 2028; 12 Dec 2024 public meeting adaptations include a 'parking paysagé'. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Press release PDF (2 pages, read in full). 'Jeudi 17 octobre' (year not printed, but 17 Oct 2024 was a Thursday and the release refers to the 2019-2024 contract ending and a start on 1 Jan 2025): council approved Keolis as delegate for 6 years from 1 Jan 2025; new contract includes operation of 'Parking relais (P+R)'; target of +20% ridership by 2030; 35.6 million trips in 2023. All match. The Keolis-versus-Effia conflict is not resolved by this document: it says Keolis operates P+R under the contract from 2025, while the open-data feed (read 21 Oct 2026) still names Effia stationnement as manager. The item flags this correctly and does not claim who runs the sites.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Olivet is one of the 22 communes of Orléans Métropole, just south of Orléans, and its parking policy differs from Orléans: the commune says it has more than 600 public parking spaces, 430 of them in the town centre, and that all parking is free but time-limited, with red (20 minutes), blue (1h30, parking disc) and white (no time limit, abusive parking sanctionable after a maximum of seven days) zones. A 2017 study reported in the commune's magazine found the town-centre supply well sized, with saturation peaks on market day, Saturday late morning and school exit times, and the commune said then that it would optimise rather than add centre car parks. The Métropole's open data lists two Olivet park-and-rides on tram line A, Victor Hugo (141 spaces) and Les Aulnaies (244), with Effia stationnement named as manager, although the Métropole's October 2024 press release says park-and-ride operation is part of the Keolis contract from January 2025, a difference that was not explained. The Métropole's stated aim is to reduce solo driving in favour of tram, bus and active modes. The main centre development is the Éclosion housing project (about 300 homes), where a December 2024 presentation proposed a 40-space blue-zone car park on rue Paul Genain for opening in autumn 2025; whether it was built was not confirmed. No resident-permit scheme, paid zone or Olivet-specific EV charging policy was found; the Métropole's open data lists two on-street charging stations in Olivet (2 points of 22 kW each, put into service in 2021, developed by the Métropole and operated by Freshmile)."
+}

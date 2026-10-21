@@ -1,0 +1,200 @@
+{
+ "country": "Netherlands",
+ "city": "Oss",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Oss (about 95,000 inhabitants) has a municipal, cost-covering parking company (Parkeerbedrijf) whose accounts include the Bergoss and Oostwal-Oost garages and the Jurgensplein lot; in 2021 it ran them with outside operational management. On 26 May 2025 the council adopted the policy note 'Parkeren in Oss 2025': bundle long-stay parking in built facilities at the edge of the centre, give pedestrians, cyclists and greenery more room, add free guarded bicycle parking, and raise tariffs and paid hours to fund new facilities. The new tariffs, announced in September 2025 to apply from 1 October 2025 (paid parking until 22:00, garage day rate from 4 to 6 euros), met strong protest from residents and traders; in October 2025 the alderman announced a 12-euro day cap on surface lots from 1 November 2025, subject to council approval. In June 2026 the municipality proposed a softer scheme, and the council adopted the ordinance on 25 June 2026: from 1 October 2026 paid parking runs Monday to Saturday 09:00-20:00, lots and garages cost 2 euros per hour with a 6-euro day maximum, and shopping streets cost 2 euros per hour, according to the municipal tariff page read on 21 October 2026. The 2025 note assumes a public garage of about 700 spaces on the Raadhuislaan next to the railway line, but in June 2026 its financing was still described as unresolved, and several smaller projects (a guarded bicycle garage at Eikenboomgaard, upgrades to Oostwal-Oost, a Burchtplein facility) were postponed. The centre management organisation reports fewer central spaces (1,594 in 2022 to 1,349 in October 2025), while the municipality's own note finds spare capacity on normal weekdays and peaks on Saturdays and during events. Station parking is separate: Q-Park runs P+R Gasstraat (246 spaces; tariffs could not be read), and the policy note aims to upgrade Station Oss as a mobility hub with lower parking norms in the Spoorzone. The 2024 charging vision says Oss needs 1,365 public charging points by 2030 against about 340 then.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2025-05",
+   "text": "The Oss council adopted the policy note 'Parkeren in Oss 2025' on 26 May 2025 (published 11 June 2025). It aims to bundle car parking in built facilities at the edge of the centre, direct long-stay visitors to the Bergoss and Oostwal-Oost garages, Burchtplein and a future Raadhuislaan facility, make paid hours run until 22:00, and give the centre more room for pedestrians, cyclists and greenery.",
+   "source_title": "Beleidsnota Parkeren in Oss 2025 (gemeente Oss, PDF)",
+   "source_url": "https://www.oss.nl/Tonen-op-pagina-standaard/Parkeren-in-Oss-2025.htm",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-05",
+   "text": "The 2025 policy note set out a new tariff structure: 2 euros per hour with a 6-euro day maximum in the Bergoss and Oostwal-Oost garages, Burchtplein and Raadhuishof, 2 euros for the first hour and then 4 euros per hour on other streets, and 1 euro for the first 30 minutes then 4 euros per hour on a few 'flash visit' streets. Resident permits were set at 75 euros (first) and 150 euros (second) per year, and garage subscriptions at 450 (night), 600 (office hours) and 900 euros (24/7) per year.",
+   "source_title": "Beleidsnota Parkeren in Oss 2025 (gemeente Oss, PDF)",
+   "source_url": "https://www.oss.nl/Tonen-op-pagina-standaard/Parkeren-in-Oss-2025.htm",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-05",
+   "text": "The municipal Parkeerbedrijf (a closed, cost-covering account since 1994) runs paid parking, permits, guarded bicycle parking and the garages. According to the policy note, street parking and the Jurgensplein lot are profitable and cross-subsidise the loss-making bicycle parking and the Oostwal-Oost and Bergoss garages.",
+   "source_title": "Beleidsnota Parkeren in Oss 2025 (gemeente Oss, PDF)",
+   "source_url": "https://www.oss.nl/Tonen-op-pagina-standaard/Parkeren-in-Oss-2025.htm",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-05",
+   "text": "The municipality's own assessment in the 2025 policy note: on average weekdays there are ample spaces, pressure is highest on Saturdays and during events, and the Jurgensplein, Boschpoorthof and Eikenboomgaard lots are heavily used. The Bergoss and Oostwal-Oost garages almost always have free spaces except during the kermis, and evening pressure is rising because of hospitality visits.",
+   "source_title": "Beleidsnota Parkeren in Oss 2025 (gemeente Oss, PDF)",
+   "source_url": "https://www.oss.nl/Tonen-op-pagina-standaard/Parkeren-in-Oss-2025.htm",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-09",
+   "text": "Omroep Brabant reported on 2 September 2025 that from 1 October 2025 the municipality would change its parking policy: parking would cost more for people leaving their car in or around the centre for longer than half an hour, the day rate in the garages would rise from 4 to 6 euros, and paid parking would run until 22:00 instead of 18:00. The municipality said this would make room for cyclists, pedestrians and greenery. More than 200 residents reacted indignantly under the announcement by Weekblad Regio Oss.",
+   "source_title": "Inwoners boos over nieuw parkeerbeleid (Omroep Brabant, 2 September 2025)",
+   "source_url": "https://www.omroepbrabant.nl/nieuws/4743787/inwoners-boos-over-nieuw-parkeerbeleid-ze-zijn-van-de-pot-gerukt",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-10-10",
+   "text": "After the uproar, alderman Sidney van den Bergh announced a maximum day tariff of 12 euros from 1 November 2025 for the surface lots Eikenboomgaardplein, Boschpoorthof, Oostwal, Kruisstraat, Maasvallei, Lievekamplaan, Ridderhof, Spoorlaan and Jurgensplein. The announcement was still to go through the college and the council (23 October); a 6-euro day rate already applied at Bergoss, Oostwal, Burchtplein and behind the town hall, and the full evaluation was planned for end 2026.",
+   "source_title": "Wethouder grijpt in na ophef over hoge parkeertarieven (Omroep Brabant, 10 October 2025)",
+   "source_url": "https://www.omroepbrabant.nl/nieuws/4761831/Wethouder-grijpt-in-na-ophef-over-hoge-parkeertarieven",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-10-20",
+   "text": "The centre management organisation (CMO), reporting on a meeting with centre traders on 20 October 2025, said that the number of central parking spaces fell by 15.4 percent from 1,594 in 2022 to 1,349 in October 2025, including about 200 spaces at Maasvallei lying unused behind a fence. It put Burchtplein at 253 spaces (a considerable share taken by permit holders) and Oostwal-Oost at 142 spaces, and cited a September 2023 study in which cars made up 37 percent of visitors but 55 percent of turnover. This is the CMO's own account, not an official count.",
+   "source_title": "Verslag bijeenkomst nieuwe parkeerbeleid centrum Oss, 20 oktober 2025 (Centrummanagement Oss)",
+   "source_url": "https://oss.bestuurlijkeinformatie.nl/Document/View/f278364d-824d-4702-a565-1637733cda39",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-01-23",
+   "text": "Omroep Brabant reported on 23 January 2026 that centre traders were to start a signature campaign on the following Tuesday against the higher tariffs and longer paid hours, running until early March. One chocolatier said he lost 18 percent of turnover in the last three months of the year, and a clothing retailer said shoppers had become 'runshoppers' instead of 'funshoppers'. The centre management did not support the action. These are traders' statements.",
+   "source_title": "Ondernemers starten handtekeningenactie tegen parkeertarief (Omroep Brabant, 23 January 2026)",
+   "source_url": "https://www.omroepbrabant.nl/nieuws/6002475/ondernemers-starten-handtekeningenactie-tegen-parkeertarief-omzet-omlaag",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-03",
+   "text": "Omroep Brabant reported on 3 June 2026 that the municipality proposed to partly reverse the increase: paid parking would end at 20:00 instead of 22:00, streets would all cost 2 euros per hour, and lots and garages would get a maximum of 6 euros per day, starting 1 October if the council agreed at the end of the month. The alderman said tariffs would not be discussed again for now.",
+   "source_title": "Parkeren centrum Oss wordt weer goedkoper na maanden kritiek (Omroep Brabant, 3 June 2026)",
+   "source_url": "https://www.omroepbrabant.nl/nieuws/6011808/parkeren-centrum-oss-wordt-weer-goedkoper-na-maanden-kritiek",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-25",
+   "text": "The council adopted the Verordening Parkeerbelastingen Oss 2026-II on 25 June 2026, valid from 1 October 2026. Paid parking at machines runs Monday to Saturday 09:00-20:00 (not on public holidays); the listed surface lots (Eikenboomgaardplein, Boschpoorthof, Oostwal-West, Kruisstraat, Maasvallei, Lievekamplaan, Ridderhof, Spoorlaan, Burchtplein, Raadhuishof) cost 2 euros per hour up to 6 euros per day, listed centre streets 2 euros per hour, and all other locations in the centre and fringe zones 2 euros for the first hour and then 4 euros per hour. Resident permits cost 75 euros (first) and 150 euros (second) per year.",
+   "source_title": "Verordening op de Heffing en Invordering van Parkeerbelastingen 2026-II (lokaleregelgeving.overheid.nl)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR764532",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-07-07",
+   "text": "The Uitwerkingsbesluit Parkeren Oss en Ravenstein 2026 (signed by the municipal executive on 7 July 2026, in force from 1 October 2026) sets permit zones around the centre (zones A to H and J, plus separate Ravenstein zones) and a cap on permits per zone, for example zone A 190 permits for 247 spaces, zone B 230 for 406 and zone C only 20 for 423 spaces (zone C is for business permits only). Residents in centre zones A and B can get at most one permit per address, and only without private parking.",
+   "source_title": "Uitwerkingsbesluit Parkeren Oss en Ravenstein 2026 (lokaleregelgeving.overheid.nl)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR764533",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The municipal tariff page (read on 21 October 2026) states that from 1 October 2026 most parking spaces in and around the centre are paid 09:00-20:00 and free on Sundays and official holidays, while the garages (Bergoss, Oostwal 177; Oostwal-Oost, Oostwal 241) charge 24 hours a day, every day, also on holidays. Garages and lots (including Jurgensplein, where payment is made afterwards) cost 2 euros per hour up to 6 euros per day, shopping streets 2 euros per hour with no day maximum, and in some residential areas around the centre 2 euros for the first hour and then 4 euros per hour. The Rusheuvel lot north of the centre stays free. Parking is by licence plate, with no ticket.",
+   "source_title": "Nieuwe parkeertarieven vanaf 1 oktober 2026 (gemeente Oss)",
+   "source_url": "https://www.oss.nl/inwoners/parkeren/Nieuwe-parkeertarieven-vanaf-1-oktober-2026.htm",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2021-09",
+   "text": "In 2021 the municipal Parkeerbedrijf operated the Bergoss garage (open since September 2009), the Jurgensplein lot and the Oostwal-Oost deck, which is in shared ownership with ImmoPartners Beheer. On-site management of Bergoss by IBN cost about 0.2 million euros a year, and the plan proposed shorter opening hours to save about 45,000 euros.",
+   "source_title": "Beheerplan Parkeren 2021-2022 (gemeente Oss)",
+   "source_url": "https://oss.bestuurlijkeinformatie.nl/Document/View/50ffa4c2-ce45-4f5e-9e43-284dbee82cee",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-05",
+   "text": "The 2025 policy note assumes, for its financial calculations, a public above-ground garage of a rounded 700 spaces parallel to the railway on the current lot behind the town hall and De Lievekamp (Raadhuislaan-zuid; scenario 2 of an options paper discussed in a council committee on 21 November 2024). It describes the facility as a shared one for the theatre, city-centre visitors, residents and workers, which the municipality plans to co-invest in and operate. In the longer term the Burchtplein lot could become a built facility, and the Koornstraat lot is to be converted into guarded bicycle parking. These are plans, not completed projects.",
+   "source_title": "Beleidsnota Parkeren in Oss 2025 (gemeente Oss, PDF)",
+   "source_url": "https://www.oss.nl/Tonen-op-pagina-standaard/Parkeren-in-Oss-2025.htm",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-03",
+   "text": "As part of the June 2026 proposal, a guarded bicycle garage at Eikenboomgaard, improvements to the Oostwal-Oost garage and a future lot at Burchtplein were postponed because of lower parking revenue. The financing of the new Raadhuiskwartier garage was still described as a challenge needing a solution, while the Lievekamp expansion, a new garage and redesign of Raadhuislaan and Lievekamplaan were said to have funding agreements.",
+   "source_title": "Parkeren centrum Oss wordt weer goedkoper na maanden kritiek (Omroep Brabant, 3 June 2026)",
+   "source_url": "https://www.omroepbrabant.nl/nieuws/6011808/parkeren-centrum-oss-wordt-weer-goedkoper-na-maanden-kritiek",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-05",
+   "text": "For the Spoorzone around Station Oss the policy note foresees an upgraded station as a regional mobility hub (train, bus rapid transit, bike, shared mobility), lower parking norms for new housing (Nota Parkeernormen 2023) and the option of pro-active paid parking with permits in a wider 'potentially regulated' area, with new residents of such projects not eligible for street permits.",
+   "source_title": "Beleidsnota Parkeren in Oss 2025 (gemeente Oss, PDF)",
+   "source_url": "https://www.oss.nl/Tonen-op-pagina-standaard/Parkeren-in-Oss-2025.htm",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Q-Park's website (read on 21 October 2026) lists P+R Gasstraat, Gasstraat, 5349 AV Oss, with 246 spaces, 2.10 m clearance, 24/7 access, licence-plate recognition, bicycle storage and disabled spaces. Train travellers get a discount if they check in and out at different stations and leave on the day of the return train trip; the page could not load the tariffs.",
+   "source_title": "Parkeren bij Q-Park P+R Gasstraat (Q-Park)",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/oss/p-r-gasstraat/",
+   "confidence": "high",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2024",
+   "text": "The municipal charging vision 2024-2030 states that Oss needs 1,365 public charging points by 2030 against about 340 at the time of writing, for an expected 13,573 electric vehicles. It says the rollout of public charge points was assigned to Vattenfall under a joint Noord-Brabant and Limburg concession for 2020-2024, with a new joint concession being prepared to start in July 2024. The municipality does not place fast chargers in public space and in principle leaves them to the market.",
+   "source_title": "Vooruitblik laadinfrastructuur en realisatiekader 2024-2030 (gemeente Oss)",
+   "source_url": "https://oss.nl/Tonen-op-pagina-standaard/Laadinfrastructuur-vooruitblik-en-realisatiekader.htm",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "The oss.nl pages /parkeren and /parkeertarieven returned empty or redirect pages when fetched directly (the tariff page and the policy note PDF were reachable via their full URLs and read in full).",
+  "Q-Park P+R Gasstraat tariff table did not load on q-park.nl; the P1 page (p1.nl) was offline (503); aggregator sites were not used. No municipal or press source on P+R Gasstraat was found.",
+  "Appendix 1 of the policy note (current parking situation, occupancy figures) was not in the downloaded PDF.",
+  "No press report or council paper was found that confirms the outcome of the council vote of 23 October 2025 on the 12-euro cap, or any coverage of the 25 June 2026 vote beyond the adopted ordinance.",
+  "The Omroep Brabant pages of 23 January and 3 June do not print a year; years were inferred from context and the adopted 2026 ordinance.",
+  "D66 motion PDF of May 2025 (d66.nl) returned an HTML page instead of a PDF and was not used; the Brabants Dagblad (bd.nl) is not accessible to the search tool and Het Ossche Weekblad / Weekblad Regio Oss articles were not found.",
+  "No official data on garage utilisation (occupancy rates) or on Station Oss car park usage was found; the Raadhuislaan garage capacity (about 700) is a planning figure from April/May 2025 only.",
+  "Traders' figures (CMO) and resident reactions are claims by interest groups and are marked medium or low confidence."
+ ],
+ "dropped": {}
+}

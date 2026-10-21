@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "CVDR658981 version 2 'Geldend van 01-01-2024 t/m heden'; adopted 8 June 2021, in force 1 July 2021. Zone A 'Centrum' is paid and permit parking and includes 'Theater/Duivenweide (zone A1)'. Street hours Mon-Sat 09:00-20:00, Friday evening and other shopping evenings 20:00-22:00, Sundays and listed holidays free: all correct. Two overstatements: this page does not describe zone A as 'inside the ring' (the phrase 'Binnen centrumring' appears only in the tariff table, item 2), and zone B ('Schil') is not purely permit-only, because art. 4 makes the De Sterke Arm car park in zone B paid and permit parking.",
+   "corrected_text": "The Aanwijzingsbesluit parkeren Veenendaal (version valid from 1 January 2024; adopted 8 June 2021, in force 1 July 2021) designates paid and permit parking in zone A (the centre, including Theater/Duivenweide as zone A1) and permit-holder parking in the surrounding zone B ('schil'), apart from the De Sterke Arm car park in zone B, which is paid and permit parking. Street parking is regulated Monday-Saturday 9:00-20:00, with Friday evenings and other shopping evenings until 22:00. Sundays and listed public holidays are free.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Art. 6: garages A-P1 Arie van Hensbergen, A-P2 Gemeentehuis, A-P3 Tricotage 'per 1 jan 2023' as paid and permit parking. Art. 7: regulated Monday to Sunday, 'gedurende de gehele dag'; Sundays and holidays (Nieuwjaarsdag, 2e Paasdag, 2e Pinksterdag, Hemelvaartsdag, 1e en 2e Kerstdag) 'Gratis / geen regulering'. Art. 8: street = licence-plate parking or phone app; garages = take a ticket at the entrance and pay at the machine afterwards, or log in/out with Belparkeer providers. Everything matches. Caution for users of the data: the 2026 tariff table (item 3) still lists a Sunday daily maximum in the garages, so the Sunday-free rule here and the tariff table are not fully consistent.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "CVDR604947 version 13, 'Geldend van 01-01-2026 t/m heden'. Tariff table 'tarief 2026 (conform vastgestelde indexering van 2,7%)': 'Zone A - Binnen centrumring', per hour, EUR 2.94, Mon-Sat 09:00-20:00, Fridays and shopping evenings 09:00-22:00. All as stated. The researcher's flag (2.94 on the street) is confirmed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Same table: Parkeerterrein Duivenweide EUR 2.50 per hour (Mon-Sat 09:00-20:00, Fridays and shopping evenings until 22:00); garages Arie van Hensbergen, Gemeentehuis and Tricotage EUR 2.50 per hour 'Dagelijks van 0:00 tot 23:59'; day rate EUR 8.00 at Duivenweide Mon-Fri and in the garages Sunday-Friday; EUR 9.50 on Saturday at Duivenweide and garages. All as stated. The researcher's flag (2.50 at the three garages and Duivenweide) is confirmed. Note the Sunday day rate for garages conflicts with the Aanwijzingsbesluit, which says Sundays are free (see item 1).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Same table: first residents' permit zones A and B EUR 79.28 per year; 2nd (zone A only) EUR 142.79; 3rd EUR 202.62; business permit EUR 1,289.06 per year. Garages Tricotage & Arie van Hensbergen: general permit EUR 1.309.24 (sic) per year, employee permit EUR 296.42. Art. 10 and tariff table: naheffingsaanslag EUR 82. All figures match.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "Tender notice dated 07/06/2021 (TenderNed 'Aankondiging van een gegunde opdracht', title 'Marktconsultatie - Scanoplossing parkeervoorzieningen'). Municipality 'eigenaar en exploitant' of on-street parking and 'enkele openbare gebouwde parkeervoorzieningen'; ca. 1,700 public spaces in the centre, ca. 4,800 regulated spaces in the ring, Gemeentehuis 156, Arie van Hensbergen 704, Tricotage 1,008 to be added later; contract not awarded ('Andere redenen (stopzetting van de procedure)'; the notice says this ends a market consultation and the tender itself was expected on 7 or 8 June 2021). Numbers all correct. The draft's 'scan-car enforcement' is not on the page: it says 'scanoplossing' and digital enforcement. The page also says the municipality 'owns and operates' the on-street parking and some parking buildings, and lists these three garages as municipal; it does not itself name Duivenweide.",
+   "corrected_text": "A municipal notice dated 7 June 2021 (a TenderNed notice of a market consultation on a scan solution for digital parking enforcement) states that the municipality is owner and operator of the on-street parking and of some public parking buildings. It lists about 1,700 public spaces in the centre, about 4,800 regulated spaces in the ring around the centre, the Gemeentehuis garage (156 spaces) and the Arie van Hensbergen garage (704 spaces), with the Tricotage garage (1,008 spaces) to be added to enforcement later. The notice records that the consultation ended without an award and that the formal tender was expected to follow on 7 or 8 June 2021.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "ACM decision dated 'Den Haag, 26 september 2017' (para 14-16): Q-Park runs Passage and Corridor, 780 paid spaces; the municipality offers 936 spaces in three garages (Arie van Hensbergen, Gemeentehuis, Tricotage) and 755 on two car parks (Coornhertpad, Duivenweide), owned and run by the municipality, behind a barrier; tariff EUR 0.10 per three minutes (EUR 2 per hour), daily maximum EUR 6 on working days and EUR 7.50 on Saturday. All matches and is dated as old. Extra fact not in the draft: para 29 names Corridor, Passage and Scheepjeshof as the commercial garages in the Veenendaal centre.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "ACM decision 26 Sept 2017, para 91: the college has breached art. 25i para 1 Mw 'vanaf 1 juli 2014 tot en met in ieder geval 31 december 2016' in running the municipal garages and car parks; complaint from Q-Park (para 3); Saturday free-parking trial started 14 November 2015 because of many empty shop and hospitality premises (para 17). All matches. The appeal outcome is correctly not stated; the decision itself notes the Rotterdam court on 31 Aug 2017 had revoked the public-interest decision on the trial and that appeal to the CBb was possible.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Cover: 'vastgesteld in de raadsvergadering van 20 april 2023'. Chapter 1: replaces 'Parkeernormen Veenendaal 2008' and 'Parkeernormen Veenendaal Centrum 2012' (art. of adoption: both withdrawn). Chapter 6: mobility plan can earn a maximum 25% reduction of the parking requirement. Section 4.11 'Beter benutten': principle 'eerst (beter) benutten van het bestaande parkeerareaal, daarna pas bijbouwen'. All as stated. It concerns norms for new developments, not tariffs or occupancy.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Parkeervisie 2013-2020, 'Versie definitief, d.d. 1 maart 2013'. Section 4 (p.17): max occupancy of the 3,662 public spaces in the centre on Saturday afternoon 'maximaal ruim 70%'. Section 5.1.1: 'op centrumniveau geen tekort aan parkeerplaatsen'; at a few locations high parking pressure (> 85%); in a few streets 'soms sprake van enige overlast (bijvoorbeeld Tuinstraat, Helling)'. The draft ties the 85% figure to Tuinstraat and Helling by name, but the page names those two streets as examples of nuisance, not as measured over 85%.",
+   "corrected_text": "The 2013-2020 parking vision (final version 1 March 2013, an old document) reported that the maximum occupancy of the 3,662 public spaces in the centre at the busiest moment, Saturday afternoon, was just over 70 percent. It concluded that the centre had no overall shortage, while a few locations had high parking pressure (over 85 percent) and a few streets, for example Tuinstraat and Helling, sometimes had some nuisance.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "CVDR658995 version 1, 'Geldend van 01-07-2021 t/m heden'; adopted 8 June 2021; in force 1 July 2021. Art. 1 (i): municipal garages are within zone A but 'hebben een eigen parkeerregeling en tariefstelling'. Art. 4: a garage permit 'kan door een ieder zonder verdere voorwaarden worden aangevraagd'. Art. 3(3): at most three residents' permits per address (a business permit or disabled card counts towards the maximum). Art. 3(4) and art. 15: some addresses have a street residents' permit maximum of zero, but a garage permit can be requested. All matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "TenderNed notice of 18/07/2022: supply of new parking equipment and licence-plate recognition for 'fiscaal betaald parkeren' in the Gemeentehuis, Arie van Hensbergen and Tricotage garages, plus multi-year management and maintenance; contract concluded 18/07/2022; one bid; Taxameter Centrale B.V.; EUR 912,301.00 excluding VAT; existing equipment due for replacement and aim to work 'zonder slagboom' so drivers pay afterwards. All correct. The one overstatement: the notice says delivery 'zal gefaseerd worden gedaan, waarbij Parkeergarage Tricotage in januari 2023 als laatste zal plaatsvinden', i.e. a plan at the time, so 'converted last in January 2023' is not confirmed as done by this page (although the Aanwijzingsbesluit lists A-P3 Tricotage 'per 1 jan 2023').",
+   "corrected_text": "On 18 July 2022 the municipality awarded the supply and multi-year maintenance of new parking equipment and licence-plate recognition for the Gemeentehuis, Arie van Hensbergen and Tricotage garages to Taxameter Centrale B.V., for 912,301 euros excluding VAT (one bid received). The aim was to replace ageing equipment and let drivers pay afterwards without a barrier (fiscal parking). The notice says delivery would be phased, with Tricotage last, planned for January 2023.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Parkeervisie 2013 (dated 1 March 2013): Appendix 3 'Actuele knelpunten' from interviews: 'Het PRIS functioneert matig'; section 5.1.3: improve the Parkeer Route Informatie Systeem per action programme Beste Binnenstad 2013, and develop a parking app or use private apps showing where spaces are and how many are free; section 5.1.2: 'anders betalen' (pay per minute) via bel-/sms-parkeren so people can pay afterwards. Matches, and framed as plans in an old document.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Parkeervisie 2013, section 5.1.1: 'Gezien de goede autobereikbaarheid van het centrum en de beschikbaarheid van parkeerplaatsen zien we zonder gewijzigde uitgangspunten en inzichten geen toegevoegde waarde voor een nieuwe/Transferium P+R-voorziening voor parkeerders met het centrum als bestemming'. Section 5.1.2: 'Het gehele centrum moet derhalve gereguleerd zijn' and 'betaald parkeren' is the most suitable form. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Gemeenteblad 2026, 192918, published 22-04-2026 09:00, signed 17 April 2026: nine locations each with two spaces reserved for charging (Brinkersteeg, Jaap Spruijtwarande, Korenbloemstraat, Prins Willem-Alexanderpark, Schrijverspark, Sportlaan, Stationsplein, 't Melkhuis, Uiverstraat); June 2024 charging vision; 250 m; Vattenfall InCharge; 7,300 electric cars forecast for 2030 (now 2,245) from EV outlooks 2024. Correction: the draft says the nine locations follow from seven requests; the page says seven requests were received and, separately, two further charge points are to be added near two heavily used existing ones. The decision takes effect only once the charge point and signs are installed.",
+   "corrected_text": "A traffic decision published on 22 April 2026 designates nine on-street locations, each with two spaces reserved for charging electric cars (including Schrijverspark and Stationsplein). Seven of the locations follow requests from drivers of electric cars without private parking and with no charge point within 250 metres; two more come from heavy use of two existing charge points. The decision takes effect once the charge point and signs are in place. It cites the college's June 2024 charging vision, a 250 metre walking-distance rule, an agreement with Vattenfall InCharge, and a national forecast of 7,300 electric cars in Veenendaal in 2030 against 2,245 at the time.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2025, 547318, published 16-12-2025 10:59: 'dertien locaties met elk twee parkeergelegenheden' for charging; reason: intensive use of thirteen existing charge points, usage 'ruim boven de beleidsmatig vastgestelde norm voor uitbreiding'; per the adopted charging vision a car need not be removed from the charge point between 23.00 and 07.00. Matches. (The body of the decision says 'een tiental' locations but lists and titles thirteen.)",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "The cited URL (…/dynamic/0cbc7e9b-…) is only the Garage Scheepjeshof feed: name 'P3 - Scheepjeshof', parkingCapacity 395, vacantSpaces 242, lastUpdated 21 Oct 2026 12:41 UTC. The Duivenweide and Gemeentehuis feeds are different RDW URLs, which I opened separately: Duivenweide (…/dynamic/83e8b817-f383-453b-a4fc-b7a99a45dc18) name 'Duivenweide' (not 'P1'), parkingCapacity 441, vacant 46; Gemeentehuis (…/dynamic/5ba03aad-2871-4fba-85bf-748798d2eb87) name 'P7 - Gemeentehuis', parkingCapacity 9999, vacantSpaces 8823. Static data for the Gemeentehuis garage elsewhere gives capacity 75, so 9,999 is plainly not a capacity; the draft does not present it as one, but 'placeholder' is an inference, and '(P1)' for Duivenweide is not in the feed name. Live page: date 2026-10 and read-on-21-October wording are right. Source URL should be extended to the other two feeds or the text limited to Scheepjeshof.",
+   "corrected_text": "The national parking open-data register (RDW), read on 21 October 2026, holds live occupancy feeds for Garage Scheepjeshof, Terrein Duivenweide and Garage Gemeentehuis. The Scheepjeshof feed (named 'P3 - Scheepjeshof') declares a capacity of 395. The separate Duivenweide feed declares 441. The separate Gemeentehuis feed (named 'P7 - Gemeentehuis') declares a capacity of 9,999, which is evidently not a real capacity for a garage and should not be used. These are live open-data feeds and the figures change.",
+   "corrected_title": "RDW NPR parking data v2: dynamic feeds Veenendaal (Scheepjeshof, Duivenweide, Gemeentehuis)",
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "The cited URL is the static entry 0cbc7e9b 'Garage Scheepjeshof (Veenendaal)': operator 'Aberdeen Asset Management' (operator validity open-ended), facility validityEndOfPeriod 26 Aug 2020, tariff '0,50 euro per 17 minuten' valid to Aug 2020; no capacity given. The other claims come from separate RDW entries that I also opened: Duivenweide static (capacity 445, operator 'P1', tariff 1,55 per uur ended 8 Mar 2016); Gemeentehuis (operator 'P1', same tariff end 2016); Arie van Hensbergen (operator 'P1', capacity 356, tariff end 2016); a second entry 'Parkeergarage Scheepjeshof' (a32d6153-…, 470 spaces, 1.85 m, operator named 'Veenendaal', validity 4-5 Nov 2014). These are correct. Weaknesses: 'names the municipality' is an interpretation of the operator name 'Veenendaal'; and 'not confirmed by any current official source' is a statement about sources not read. Independently, the 2017 ACM decision (para 29) lists Scheepjeshof among the commercial garages in the centre, and the 2013 parking vision speaks of 'Q-Park en Aberdeen' as providers, so Scheepjeshof is not a municipal garage in those documents.",
+   "corrected_text": "In the RDW register (read on 21 October 2026) the static entry for Garage Scheepjeshof names Aberdeen Asset Management as operator, with a facility validity and tariff (0.50 euros per 17 minutes) that both ended in August 2020. Other RDW static entries read on the same day are also outdated: Duivenweide (445 spaces), Gemeentehuis and Arie van Hensbergen name the operator as 'P1', and their listed tariffs of 1.55 euros per hour ended in March 2016. A second Scheepjeshof entry (470 spaces, 1.85 m height limit) lists 'Veenendaal' as operator and was valid only on 4-5 November 2014. No current owner, operator or tariff for Scheepjeshof could be established from these entries.",
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Veenendaal's municipality owns and operates the Gemeentehuis, Arie van Hensbergen and Tricotage garages and the Duivenweide car park, while in 2017 Q-Park ran the Passage and Corridor garages in the centre. The paid-parking zone A covers the centre (Monday to Saturday 9:00-20:00, Friday evenings and shopping evenings until 22:00, Sundays and listed holidays free on the street), with a ring of mainly permit-only zone B around it. The 2026 tariff table in the parking-tax ordinance (stated as indexed by 2.7 percent) sets 2.94 euros per hour on the street in zone A and 2.50 euros per hour in the three municipal garages and at Duivenweide, with a daily maximum of 8.00 euros and 9.50 euros on Saturday. Policy background is a 2013 parking vision (old: a demand-following centre, public-space occupancy peaking just over 70 percent at that time, no park-and-ride wanted for centre visitors), a 2023 update of parking standards for new developments allowing up to 25 percent reduction through mobility plans, a 2017 ACM decision that the municipality had breached the full-cost rule in its barrier-controlled garages and car parks from July 2014 to at least the end of 2016 after a Q-Park complaint (the outcome of any appeal was not read), and a 2022 award for new equipment to let drivers pay afterwards without a barrier in the three municipal garages. In 2025 and 2026 the municipality designated further on-street charging spaces. The Scheepjeshof garage could not be tied to a current owner, operator or tariff: the 2017 ACM decision called it one of the commercial garages in the centre, and its entries in the national parking register are outdated. A live RDW feed gives a capacity of 395 for Scheepjeshof and 441 for Duivenweide, but the Gemeentehuis feed's 9,999 is not a real capacity. The municipal website was offline on 21 October 2026."
+}

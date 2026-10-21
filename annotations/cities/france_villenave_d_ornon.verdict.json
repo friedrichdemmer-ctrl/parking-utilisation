@@ -1,0 +1,105 @@
+{
+  "items": [
+    {
+      "index": 0,
+      "verdict": "supported",
+      "note": "TBM P+R list page (live, undated): under tram C list, Pyrénées, Open to all, Avenue des Pyrénées 33140 Villenave d'Ornon, max height 1,90m, 753 spaces, 20 disabled, 20 EV charging, 8 secure bicycle spaces. All as written. Read 21 Oct 2026, date 2026-10 correct."
+    },
+    {
+      "index": 1,
+      "verdict": "supported",
+      "note": "TBM park-the-day page: same-day parking included in a TBM subscription; ticket 4.50 or 3.50 reduced rate; 7 round trips for 1-7 people; Villenave-Pyrénées is 11th of 11 listed reduced-price P+Rs; unvalidated ticket will not allow exit. Minor caveat: the page does not explicitly say the 3.50 ticket applies only at the 11 reduced-price sites, it just lists both; the item text does not claim otherwise."
+    },
+    {
+      "index": 2,
+      "verdict": "supported",
+      "note": "List page says open when trams run, 5am-1am Mon/Tue/Wed/Sun/holidays, 5am-2am Thu-Sat, fine EUR 15 per day incl. part days. Day-parking page says open until 1:30 AM Sun-Wed and 2:30 AM other days, flat-rate fine EUR 25 per day. The two pages do disagree (the day page also gives a separate Arena line of 1am Thu / 2am Fri-Sat). The draft attributes each figure to its page and states the inconsistency; neither is asserted as fact."
+    },
+    {
+      "index": 3,
+      "verdict": "supported",
+      "note": "TBM 2-5 days page: EUR 12 (2 days/1 night), 15 (3/2), 20 (4/3), 25 (5/4), includes a round trip; 11 of 28 P+Rs listed, Southwest includes Villenave Pyrénées. All as written."
+    },
+    {
+      "index": 4,
+      "verdict": "supported",
+      "note": "TBM overnight-near-home page: within 500 m, EUR 300/year or EUR 25/month by direct debit for 12 months; six P+Rs listed (Gare de Pessac Alouette, Mérignac les Pins, 40 journaux, Cantinolle, Lauriers, Les Aubiers); Pyrénées absent. Correct."
+    },
+    {
+      "index": 5,
+      "verdict": "supported",
+      "note": "Se Déplacer page (published 30/10/2024, updated 13/01/2026): ZFE since 1 Jan 2025, intra-rocade, rocade excluded, 7j/7 24h/24; unclassified vehicles barred (cars petrol/diesel registered before 1 Jan 1997 etc.); Crit'Air sticker mandatory for all; pass ZFE up to 24 days a year. All as written."
+    },
+    {
+      "index": 6,
+      "verdict": "supported",
+      "note": "Page lists exactly the 11 P+Rs named (Brandeburg, 40 Journaux, Gare de Bruges, Hippodrome, Les Pins, Bougnard, Unitec, Arena, Dravemont, Buttinière, Lauriers); Villenave Pyrénées is not among them; the page does not say whether Villenave lies inside the ring road. Draft correctly makes no inference."
+    },
+    {
+      "index": 7,
+      "verdict": "partly",
+      "note": "Figures match the page (0,38 EUR TTC/kWh since 6 Jan 2025; 4 EUR/h supplement after 4h on slow sockets; supplement waived 23h-8h on AC; max 48 EUR TTC beyond 14h; no Villenave station list). But the page was last updated 28/05/2025 and says 'une évolution est entamée'; it does not confirm the tariff is still current in October 2026. Wording must give the page date.",
+      "corrected_text": "Bordeaux Métropole's public charging page (published 7 January 2025, last updated 28 May 2025; read 21 October 2026) says that since 6 January 2025 the metropolitan network charges 0.38 euro per kWh (incl. VAT), plus 4 euros an hour if a slow-charge session exceeds 4 hours (waived 11pm-8am on AC sockets), with a maximum of 48 euros beyond 14 hours. The page is metropolis-wide and does not list Villenave-d'Ornon stations; it does not show whether the tariff is unchanged since May 2025.",
+      "corrected_date": "2025-05-28"
+    },
+    {
+      "index": 8,
+      "verdict": "partly",
+      "note": "Numbers match (54% rise in Q1 2025 vs Q1 2024; 61,367 charges 'l'année dernière' i.e. 2024; SDIRVE voted end 2022, over 90 additional stations over the plan's 3 years). Date 2025-03 is wrong: page updated 28/05/2025 and a Q1 figure cannot predate April 2025.",
+      "corrected_text": "The same page (last updated 28 May 2025) says use of the metropolitan public charging network rose 54% in the first quarter of 2025 versus the first quarter of 2024, and that 61,367 charges were made on the network in 2024. It also says the charging-infrastructure plan voted at the end of 2022 foresees over 90 additional street stations over its three years (metropolis-wide figures).",
+      "corrected_date": "2025-05-28"
+    },
+    {
+      "index": 9,
+      "verdict": "supported",
+      "note": "Town page 'Rappel civilité': stationnement unilatéral alterné, mostly 15-day alternation; 1st-15th odd numbers, 16th to month end even numbers; fixed one-sided streets signed. Correct. Page shows a dynamic 'Publié le 21/10/2026'; date 2026-10 fine."
+    },
+    {
+      "index": 10,
+      "verdict": "supported",
+      "note": "Municipal police page lists stationnement gênant among offences officers record; no paid-parking or blue-zone scheme on that page. Note: absence on one page is not proof of absence of schemes; the draft words it correctly."
+    },
+    {
+      "index": 11,
+      "verdict": "supported",
+      "note": "Page published 10/06/2026: rue René Voisin 'va prochainement faire l'objet d'un réaménagement' after consultation meetings; 28 spaces 'seront créées' on the odd side; bus flow and safer exits; no start date. Worded as a plan; correct."
+    },
+    {
+      "index": 12,
+      "verdict": "supported",
+      "note": "Page 'Mis à jour le 08/10/2026': rue Jean-Pagès rebuilt 6 Jan 2026 to 26 Nov 2027, one-way from route de Toulouse to avenue Clémenceau, parking banned beside works, project illustration lists creation of parking for light vehicles and heavy goods vehicles. Correct."
+    },
+    {
+      "index": 13,
+      "verdict": "supported",
+      "note": "Town mobility page (undated): 22 km of cycle paths, four Vélo par TBM stations, mobile shop at P+R Villenave Pyrénées, TBM network changed September 2023. All as written."
+    },
+    {
+      "index": 14,
+      "verdict": "partly",
+      "note": "Town page is written in the future tense ('seront mises en service le 6 décembre'; kit distributed 10-21 November) though its update stamp is 23/01/2026; it does not itself confirm the changes took place. A web search also only returned announcements. Line C description (Parc des Expositions - Stade Atlantique / Villenave Pyrénées, Blanquefort branch taken over by new line E, 10-minute daytime frequency) is correct as an announcement.",
+      "corrected_text": "The town's page (written in the future tense, stamped as updated 23 January 2026) announces that new tram lines E and F would enter service on 6 December 2025 and that line C would be simplified to run between Parc des Expositions - Stade Atlantique and Villenave Pyrénées, with the Blanquefort branch taken over by line E and a tram every 10 minutes in the daytime. The page does not itself confirm that the change took place.",
+      "corrected_date": "2025-12"
+    },
+    {
+      "index": 15,
+      "verdict": "supported",
+      "note": "Press release 9 June 2026 (PDF read in full): site visit with Villenave mayor; third track Bègles-Saint-Médard-d'Eyrans 12 km; crossing points at Bègles, Villenave d'Ornon, Cadaujac, Saint-Médard-d'Eyrans; 4 pôles d'échange multimodaux among objectives; works began 2025; service entry 2032; quote refers to 'pôles multimodaux' at Bègles and Villenave-d'Ornon. No station parking figures. Caveat: the release does not name which station gets which of the four hubs; Villenave is tied to a hub only via the minister's quote and the regional page. Still worded as planned."
+    },
+    {
+      "index": 16,
+      "verdict": "partly",
+      "note": "Page is NOT undated: 'Modifié le mardi 3 septembre 2024'. It is a pre-works planning page ('étapes prévisionnelles': 2025 works at Villenave d'Ornon station; services successively interrupted; +10 min on TER 44 between Bordeaux and Saint-Médard-d'Eyrans; stations to be made accessible and connected via multimodal hubs). Draft words these as if scheduled/in effect without noting it is a 2024 forecast.",
+      "corrected_text": "The regional transport page (last modified 3 September 2024; read 21 October 2026) is a forward-looking description of the programme: it gives a provisional schedule with the Villenave-d'Ornon station works in 2025 and says services will be interrupted in turn at the four stations during station works; it says TER line 44 Bordeaux - Agen journey times will be 10 minutes longer for all trains between Bordeaux and Saint-Médard-d'Eyrans, and that the four stations will be made accessible and connected to other modes through multimodal hubs, with the programme running from December 2024 to 2032. It may not reflect the situation in October 2026.",
+      "corrected_date": "2024-09-03"
+    },
+    {
+      "index": 17,
+      "verdict": "partly",
+      "note": "Press release 20 March 2026 (PDF read): works since 'mai dernier' (May 2025), square on route de Léognan ready for the Wednesday market, surface suited to market and parking 'avec 18 places matérialisées', inauguration on 25 March at 11h; written before the event. Unsupported in draft: 'the town's May 2025 notice calls a useful parking space outside market day' (not in this source) and 'keeps 18 spaces' (release says the renovated surface has 18 marked spaces, not that they are retained).",
+      "corrected_text": "The town's press release of 20 March 2026 (written before the event) says the renovated market square on route de Léognan in the Chambéry district, under works since May 2025, was to be inaugurated on Wednesday 25 March 2026 at 11am and has a surface suited to the market and to parking, with 18 marked parking spaces.",
+      "corrected_date": "2026-03-20"
+    }
+  ],
+  "corrected_summary": "Villenave-d'Ornon is a commune of Bordeaux Métropole where the town's own on-street parking rules found are simple (alternate-side parking by fortnight; municipal police record obstructive parking), and no municipal paid-parking or blue-zone scheme appears on the pages read (absence not proven). The main organised parking offer is the metropolitan park-and-ride Villenave Pyrénées at the end of tram line C: according to TBM's list it has 753 spaces, 20 with EV charging. Same-day parking is included in a TBM subscription; otherwise TBM's day-parking page gives a park-and-ride ticket at 4.50 euros or 3.50 euros at the reduced rate (Villenave Pyrénées is among 11 reduced-price sites), and short-stay tickets of 12 to 25 euros for 2 to 5 days; two TBM pages give conflicting closing times and out-of-hours fines (15 or 25 euros). The metropolitan low-emission zone has covered the area inside the ring road since 1 January 2025 and bars only unclassified vehicles; Villenave Pyrénées is not among the 11 park-and-rides listed for them, and the source does not say whether Villenave lies inside the zone. The metropolis' page (updated May 2025) gives a public EV charging tariff of 0.38 euro per kWh since January 2025. Local projects announced or under way include 28 new marked spaces in rue René Voisin (planned, no start date), the rue Jean-Pagès rebuild (6 January 2026 to 26 November 2027, with new parking for cars and heavy goods vehicles) and a renovated Chambéry market square with 18 marked spaces (inauguration planned for 25 March 2026). The town announced a tram network reorganisation for 6 December 2025 (line C simplified to Villenave Pyrénées), not confirmed as done by the page. The rail works south of Bordeaux, with entry into service planned for 2032, include planned multimodal hubs at stations including Villenave-d'Ornon; no station parking figures were found."
+}

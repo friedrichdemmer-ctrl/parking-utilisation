@@ -1,0 +1,17 @@
+{
+ "as_of": "2026-10",
+ "sections": [
+  {
+   "title": "Policy and access to the centre",
+   "text": "Bègles, on the southern edge of Bordeaux, is managing pressure on residential streets. A commune article of 15 October 2026 says the town has 356 recorded streets and has grown by nearly 10,000 residents in 20 years, that many households own two or more cars, that it cannot guarantee a space in front of every home, and that it is targeting pavement parking and abandoned cars [0]. The main tool is the blue zone, in place since 2020 and now covering nearly a third of the commune. It applies Monday to Saturday from 9am to 7pm, allows non-residents two hours with a disc, gives residents a free Pass'Zone Bleue (at most two per household) and carries fines of 35 to 135 euros [1]. Outside it, parking in some streets alternates by half-month between odd and even sides, and the commune links the changes to the arrival of the Bus Express [2]. In October 2026 it also opened a consultation on the traffic plan of the north-west district, with a public feedback meeting planned for the first quarter of 2027 [3]. The metropolitan low-emission zone applies inside the ring road, and the two Bègles park-and-rides are not among the 11 open to unclassified vehicles [4]."
+  },
+  {
+   "title": "Parking developments",
+   "text": "The commune's page of 20 May 2025 said that switch works at Porte de Bourgogne will create new tram lines E and F, with line F to link Bègles station to the airport in about one hour [10]. A lifestyle site reported the same line in November 2025 with a different journey time, and we could not confirm line F on an official page. Bordeaux Euratlantique's Bègles Garonne zone covers 80 hectares in the north-east of the commune, with up to 5,000 homes and 140,000 square metres of business floor space planned; a separate page says the metropolitan RER will serve Bègles station once in service, and neither gives parking numbers [15]. METPARK's development plan aims at 1,500 charge points in 26 car parks and a 25 million euro renovation of four car parks, but the page does not confirm that any of this is done [8]. Metropolis-wide, on-street charging is billed at 0.38 euro per kWh plus 4 euros an hour after 4 hours of slow charging [13]."
+  },
+  {
+   "title": "Operators, positioning and utilisation",
+   "text": "METPARK, the public body of Bordeaux Métropole, runs 36 car parks in 7 communes with over 15,000 spaces [7], among them Les Sécheries (13 allée de Francs): 405 spaces, 30 with charging according to METPARK, open 24 hours [5]. It charges 0.60 euro per 15 minutes up to four hours and 9 euros from four to 24 hours, with a monthly subscription at 70 euros and a resident rate of 50 euros [6]. The metropolitan open-data record lists 8 charging spaces, not 30, and its live counter uses a smaller total than the 405 shown [11], so those figures do not agree. TBM runs two park-and-rides in Bègles on avenue Lénine, Rostand on tram A (204 spaces) and Bègles Station on tram C (193 spaces), both open to all, with a 15 euro daily fine for cars left outside tram hours [9]. The open-data file lists the station site as operated by Keolis, though with a status of closed when read [12].\n\nOur data cover Les Sécheries, with a feed capacity of 399 spaces, for 28 days since 24 September 2026. Occupancy averaged about 57% on weekdays and 62% at weekends, weighted by spaces, with a peak of 89% late on a Thursday night. The two park-and-rides are not in our data."
+  }
+ ]
+}

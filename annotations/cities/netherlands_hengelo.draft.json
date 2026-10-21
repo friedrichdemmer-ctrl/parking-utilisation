@@ -1,0 +1,160 @@
+{
+ "country": "Netherlands",
+ "city": "Hengelo",
+ "researched": "2026-10-21",
+ "summary": "Hengelo's paid-parking area covers the centre and edge car parks, with four garages (the municipal De Beurs, Thiemsbrug, De Brink and the station P+R, listed by the municipality as Q-Park P+R Station Hengelo and by the national registry as the NS-operated P+R Industrieplein with 270 spaces) and more than 900 street spaces. Since 1 January 2026 the street tariff is 1.00 euro per 27 minutes (council ordinance of 12 November 2025), with free Sunday street parking, a 30-minute blue-zone replacement for Shop & Go since January 2024, and permit rules that exclude new Binnenstad and Hart van Zuid housing from resident permits. A 2019 survey quoted in council papers found garages only 38 percent occupied at their busiest and street parking about 50 percent. Main developments are paid-parking regulation phased into the ring around Hart van Zuid and the Lange Wemen redevelopment, which would replace the Thiemsbrug garage with a public garage for about 430 cars (masterplan approved 17 December 2025, construction start expected end of 2027).",
+ "items": [
+  {
+   "topic": "demand",
+   "date": "2019-10",
+   "text": "A 2019 parking survey (Trajan), quoted in the council's 2021 parking-norms paper, found street and car-park occupancy around the centre averaged about 50 percent (about 40 percent on weekday daytimes, 58-60 percent on Saturday afternoon and Thursday evening). At the busiest moment the four garages together were 38 percent occupied with 835 spaces free, about 500 of them in De Brink and the station P+R garage; De Beurs reached 53 percent during a theatre evening and Thiemsbrug 62 percent on a Saturday afternoon.",
+   "source_title": "Parkeernormen Binnenstad en Hart van Zuid (version 23 Aug 2021, incl. Trajan 2019 data)",
+   "source_url": "https://repository.officiele-overheidspublicaties.nl/externebijlagen/exb-2021-66577/currentitem",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2019-10",
+   "text": "The Parkeerplan Hengelo of 2019 counted 3,216 paid-zone parking spaces, 1,351 of them in four garages: De Beurs 315, De Brink 377, Thiemsbrug 380 and the Station P+R 279. It expected ground-level capacity to fall by 254 spaces by 2023 because of developments, reported the street tariff at 1.90 euros per hour unchanged since 2010, and prepared temporary lots (Kloosterhof, more than 100 spaces; Marskant, 54 spaces) to compensate for removed spaces on Burgemeester Jansenplein.",
+   "source_title": "Parkeerplan Hengelo 2019 (PDF hosted by 1Twente)",
+   "source_url": "https://media-r2.1twente.nl/Documents/20191001_parkeerplan_hengelo_2019.pdf",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2019-10",
+   "text": "The 2019 Parkeerplan proposed four measures: a Shop & Go pilot of about 20 free 30-minute spaces, a 1-euro tariff from the third hour, paid hours aligned to shop hours (Mon-Fri 9-18, Sat 9-17, Thursday evening to 21:00) and a friendly-enforcement pilot with a first-time warning. A 2021 consultant note says the council adopted the plan with three measures: Shop & Go, aligned hours and friendly enforcement.",
+   "source_title": "Parkeerplan Hengelo 2019 (PDF hosted by 1Twente); Parkeernormen Binnenstad en Hart van Zuid 2021",
+   "source_url": "https://media-r2.1twente.nl/Documents/20191001_parkeerplan_hengelo_2019.pdf",
+   "confidence": "medium"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2022-10",
+   "text": "In October 2022 regional press (1Twente with RTV Oost) reported that Hengelo was the only large Overijssel city not raising parking tariffs for 2023, keeping 1.90 euros per hour because the centre was under construction. In the same article Enschede was named the most expensive at 3.30 euros from 1 January, Deventer was at 2.73 and Zwolle at 3.00 euros per hour.",
+   "source_title": "Alle Overijsselse steden verhogen parkeertarieven, behalve Hengelo (1Twente, 7 Oct 2022)",
+   "source_url": "https://www.1twente.nl/artikel/1972553/alle-overijsselse-steden-verhogen-parkeertarieven-behalve-hengelo",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-09",
+   "text": "In September 2023 the college answered council questions: Shop & Go would end because it could not be enforced, and a tariff increase (the questioners cited the Zomernota plan of +8.9 percent, from 1.90 to 2.10 euros per hour) was defended because Hengelo's tariffs remain low versus Enschede, Almelo, Deventer, Zwolle and Emmen. About two thirds of Hengelo residents cycle to the centre and 16 percent drive; about two thirds of car visitors come from outside Hengelo. The college also aims at a zero-emission centre by 2030 and said a new parking policy paper would start in Q2 2024.",
+   "source_title": "Raadsvragen afschaffen Shop and Go en verhogen parkeertarieven (college answer, 5 Sep 2023)",
+   "source_url": "https://www.hengelo.nl/bestanden/documenten/bestuur/schriftelijke-vragen/2023/2023-09-05%20Antwoord_College_vragen%20_LokaalHengelo_afschaffen%20Shop%20and%20Go%20en%20verhogen%20parkeertarieven.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-12",
+   "text": "On 5 December 2023 the college replaced the 13 Shop & Go spaces (in place since July 2020) with 13 blue-zone spaces with a 30-minute maximum from January 2024, as a temporary measure until the parking policy is updated, and set De Beurs garage at 0.50 euros per 14 minutes with a day maximum of 10.50 euros from 1 January 2024 (indexation under the Zomernota 2023-2027; the 7-euro evening tariff stayed).",
+   "source_title": "Openbare besluiten B&W 5 december 2023",
+   "source_url": "https://www.hengelo.nl/bestanden/documenten/bestuur/collegebesluiten/2023/1205-o%20besluitenlijst%20bw.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-09",
+   "text": "On 10 September 2024 the college informed the council of its final decision to introduce paid parking in the ring around Hart van Zuid north of the Esrein, phased per sub-area as housing is completed, with the blue zone kept in the shopping area; about 2,800 addresses were written to and 160 formal objections received. The council's principle decision dates from 29 September 2021, when it set lower parking standards for the inner city and Hart van Zuid (at least 1,500 homes by 2030) conditional on paid parking, a steering rather than facilitating policy.",
+   "source_title": "Definitief besluit parkeren schil Hart van Zuid (college letter, 10 Sep 2024)",
+   "source_url": "https://hengelo.nl/bestanden/documenten/bestuur/collegebrieven/2024/2024-09-10%20Definitief%20besluit%20parkeren%20schil%20Hart%20van%20Zuid%20(3804272).pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-12",
+   "text": "On 26 November 2024 the college decided that paid parking with permits applies in De Clercqdwarsstraat (Hofmakerij project) from 1 January 2025, at the request of new residents; elsewhere in the Hart van Zuid ring, paid parking stays linked to completion of the Hart van Zuid projects.",
+   "source_title": "Stand van zaken betaald parkeren schil Hart van Zuid (college letter, 4 Dec 2024)",
+   "source_url": "https://hengelo.nl/bestanden/documenten/bestuur/collegebrieven/2024/2024-12-04%20Stand%20van%20zaken%20betaald%20parkeren%20schil%20Hart%20van%20Zuid%20(3845248).pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-09",
+   "text": "On 30 September 2025 the college sent the Parkeerverordening 2026 and the parking tax ordinance 2026 to the council, removed the special e-charging permit and exemption, ruled that no first resident permit is given if a private space is available, and indexed permits and De Beurs subscriptions by 4 percent in line with the Zomernota. Blue zones added in 2025: Billiton- and Timorstraat and part of 't Wilbert.",
+   "source_title": "Openbare besluiten B&W 30 september 2025",
+   "source_url": "https://www.hengelo.nl/bestanden/documenten/bestuur/collegebesluiten/2025/0930-o%20besluitenlijst%20bw.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-11",
+   "text": "The Verordening parkeerbelastingen 2026, adopted by the council on 12 November 2025 and in force from 1 January 2026, sets the street and day-car-park tariff at 1.00 euro per 27 minutes, a day maximum of 8.80 euros at the five day car parks, and 0 euros with a disabled parking card. The resident permit for the centre area is 158.20 euros per year.",
+   "source_title": "Verordening op de heffing en de invordering van parkeerbelastingen 2026 (CVDR747282)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR747282/1",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01",
+   "text": "The Uitwerkingsbesluit Parkeerverordening Hengelo 2026 (in force 1 January 2026) defines six permit areas with paid times Mon-Wed and Fri 9:00-18:00, Thursday 9:00-21:00 and Saturday 9:00-17:00, and issues no visitor permits in areas 1-3. Addresses in the inner-city and Hart van Zuid development areas with a building permit granted after 29 September 2021 get no resident or visitor permit.",
+   "source_title": "Uitwerkingsbesluit Parkeerverordening Hengelo 2026 (CVDR746331)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR746331/1",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The municipal page 'Parkeren in en om het centrum' (read 21 October 2026) lists 4 garages, more than 900 street spaces and 13 blue-zone spaces (free 30 minutes with a disc). The municipality itself runs garage De Beurs (0.50 euro per 14 minutes, 11.10 euros per 24 hours, 7 euros maximum 18:00-05:00); the other facilities are garages Thiemsbrug and De Brink and the Q-Park P+R Station Hengelo. Garages charge on Sundays and holidays, street parking does not.",
+   "source_title": "Parkeren in en om het centrum (gemeente Hengelo)",
+   "source_url": "https://www.hengelo.nl/Welkom-in-Hengelo/GPDC-Producten-catalogus-1/_Burger-en-Bedrijven/Parkeren-in-en-om-het-centrum.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-06",
+   "text": "The Lambertuskermis 2026 information booklet (version 10 June 2026) lists garage Thiemsbrug at 1.80 euros per hour (max 14.00 per 24 hours, open 08:00-22:00), De Brink at 1.00 euro per 22 minutes (max 11.00) and the Q-Park P+R Station Hengelo, Gieskesstraat, at 2.19 euros per hour with a 10.50 euro day maximum.",
+   "source_title": "Informatieboekje Lambertuskermis 2026 (gemeente Hengelo)",
+   "source_url": "https://www.hengelo.nl/bestanden/documenten/ondernemers/Kermis/2026/Informatieboekje%20kermis%202026.pdf",
+   "confidence": "medium"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Permit prices (read 21 October 2026): 'algemeen Centrum' 72.40 euros per month (minimum one month, three months for De Beurs access), the day car parks 173.50 euros per year, a De Beurs subscription 839 euros per year. Centre residents pay 158.20 euros per year and can use De Beurs with an access pass; a resident needs a car registered at the address and no private space or space for rent in the complex.",
+   "source_title": "Parkeervergunning algemeen and Parkeervergunning voor bewoners (gemeente Hengelo)",
+   "source_url": "https://www.hengelo.nl/Welkom-in-Hengelo/GPDC-Producten-catalogus-1/_Burger-en-Bedrijven/Parkeervergunning-algemeen.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-01",
+   "text": "De Beurs uses licence-plate recognition at the barriers and for subscriptions, is open 24 hours (speed gates 18:00-08:00, 2.00 m height limit), and street permit enforcement relies on plates registered in the municipal Parkeerapp, which scans plates for blue-zone exemptions, visitor permits and general permits.",
+   "source_title": "Besluit Parkeergarage De Beurs 2026 (CVDR745524); Parkeerapp (gemeente Hengelo)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR745524/1",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The national parking data registry (RDW NPR, read 21 October 2026) lists 'P+R Industrieplein (Hengelo)' at Gieskesstraat with 270 spaces, 2.1 m minimum height, no charging points, open 24/7, operator Nederlandse Spoorwegen, tariff text 2.05 euros per hour (record dating from June 2021, so probably outdated). The municipality's pages list a 'Q-Park P+R Station Hengelo' on Gieskesstraat, apparently the same site (279 spaces in the 2019 plan).",
+   "source_title": "RDW NPR parkingdata: P+R Industrieplein (Hengelo)",
+   "source_url": "https://npropendata.rdw.nl/parkingdata/v2/static/222fa1c9-20df-433b-ba27-5c7c7c128f3d",
+   "confidence": "medium"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "Hengelo's charging page (read 21 October 2026) says Vattenfall places and manages public chargers on resident request, aiming at one within 250 metres of every resident without private parking; two spaces are reserved per charger and users pay parking fees in paid zones and garages. The Laadpalenkaart was adopted in 2022.",
+   "source_title": "Elektrisch rijden en laadpalen (gemeente Hengelo)",
+   "source_url": "https://www.hengelo.nl/Welkom-in-Hengelo/GPDC-Producten-catalogus-1/_Burger-en-Bedrijven/Elektrisch-rijden-en-laadpalen.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-12",
+   "text": "The council unanimously approved the Masterplan Lange Wemen on 17 December 2025 and the college signed an anterior agreement with VanWonen (decision of 26 May 2026). The plan has about 310 homes and a public garage for about 430 cars plus 500-750 bicycle spaces, replacing the Thiemsbrug garage; the college said in 2022 it is a replacement, with the Kloosterhof lot, not an extra garage. Construction of the first block was expected to start end of 2027.",
+   "source_title": "Gemeentenieuws 18 Nov 2025; Openbare besluiten B&W 7 juli 2026; college answer 6 Dec 2022",
+   "source_url": "https://www.hengelo.nl/bestanden/documenten/Gemeentenieuws/2025/Gemeentenieuws_Hengelo_18november2025.pdf",
+   "confidence": "high"
+  }
+ ],
+ "gaps": [
+  "Q-Park Hengelo pages (garage De Brink, P+R) could not be opened (404) and no Q-Park or NS operator tariff page was read; Brink, Thiemsbrug and P+R tariffs rest on the municipal Lambertuskermis booklet, and the P+R tariff in the RDW record dates from 2021.",
+  "No Tubantia, RTV Oost or 1Twente article from 2024-2026 on city-centre parking was found or opened; only a 1Twente/RTV Oost article of October 2022 was read. Tubantia was not searched directly.",
+  "The municipal permit page lists 80.50 euros per year for Thiemsland, Tuindorp and Weidedorp residents, while the 2026 tariff table (CVDR747282) lists 41.10 euros (extra cars 123.50) for areas 4 and 6; the discrepancy is unresolved, so those prices are not stated in items.",
+  "The promised new parking policy paper (parkeernota, work due to start Q2 2024) and any council decision on it were not found; the Zomernota 2023 and 2025 themselves, the Trajan parking survey report and any post-2019 occupancy data were not opened.",
+  "No source found for current garage occupancy, a parking guidance or open-data system for the centre, or the status of the Hart van Zuid mobility hub and paid parking in the Hart van Zuid ring after December 2024.",
+  "The centrumparkeren.nl portal (2025 tariffs of 2.10 euros per hour) was opened but not used because it is a parking-listing portal and conflicts with the official 2026 tariff of 1.00 euro per 27 minutes."
+ ]
+}

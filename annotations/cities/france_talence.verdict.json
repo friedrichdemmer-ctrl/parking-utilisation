@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Read talence.fr/stationnement/ directly: page says 'huit zones bleues et deux zones payantes', regulated parking 9h-19h Monday to Saturday (excluding public holidays), surveillance suspended 14 July-15 August, all procedures via the e-habitants platform. Two other commune pages (talence.fr/quotidien/deplacements/parkings-talence/ and /quotidien/deplacements/) say 'sept zones bleues'; the commune's 2024 pro blue-zone guide and the 10 July 2025 map both give eight (A-H). Page undated; text says so.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Page: 1h30 free with European parking disc in blue zones; residents' rights free for up to two vehicles per household; visitor cards free in blue zones, 35 free days a year via the 'Pack visiteur'. All as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Page: paid zones give every driver 1h30 free, validated at a meter or on Flowbird/Easypark; beyond that tariff applies from the first quarter hour for the whole parking time. No hourly rates on the page. All as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Guide (PDF, file created 13 Dec 2024) confirms: first resident vehicle free, free subscriptions valid 2 years, second vehicle must pay, two subscriptions per household (1 free + 1 paid). It does NOT say motorised two-wheelers park 'free' (it says they use spaces in all regulated zones without prior registration; the free-parking claim comes from the separate stationnement web page, 'sur les places dédiées'). The 'tarif vert' section lists vehicle types GPL/electric/hybrid by registration code (P3 field) and says free across the whole commune of Talence; it does not mention CNG/GNV (the web page does) nor 'registered in Talence' (web page says Talence resident owners).",
+   "corrected_text": "In paid zones a resident's first vehicle gets a free subscription valid for 2 years; a second vehicle must pay for a subscription, and two subscriptions per household are allowed (one free, one paid). Residents with LPG, electric or hybrid vehicles (identified by a registration-document code) can take a 'tarif vert' subscription that the guide says is free across the whole commune of Talence. Motorised two-wheelers can use parking spaces in all regulated zones without prior registration. From the December 2024 resident guide.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Guide p.18: FPS 25 euros, reduced to 17 euros if paid within 5 days of the windscreen notice; p.16: visitor pack 35 days per calendar year at 2 euros a day; p.18: municipal order no. 112/1970 of 2 Oct 1970 limits parking to 48 hours. All as written. Guide created 13 Dec 2024 (PDF metadata).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "Tarif-pro.pdf is a single slide: 'Tarifs abonnement Professionnel: annuel 120 euros, trimestriel 40 euros, mensuel 20 euros'. It does not name any zone and has no date on its face; the PDF's internal title is 'Guide stationnement PPT - PRO zone bleue' and it was created 13 Dec 2024 (metadata). So 'regulated zones' (blue and paid) is not supported; it may be the blue-zone tariff only.",
+   "corrected_text": "A one-slide Talence tariff sheet for professional parking subscriptions lists 120 euros a year, 40 euros a quarter and 20 euros a month. The slide does not name the zone (the file's internal title refers to a blue-zone professional guide) and carries no date; the file was created in December 2024.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "Map: 'Date de tracé 10/07/2025'; legend shows paid parking, 'ayants droit' paid parking, blue zone, 'Zone bleue extension'; zones 1, 2 and A-H labelled. But the map DOES state the year: 'Extension dernier trimestre 2025'. The draft says year not stated - wrong. As of 21 Oct 2026 the page does not say whether the extension happened.",
+   "corrected_text": "The commune's parking-zone map is dated 10 July 2025. It shows paid zones 1 and 2 and blue zones A to H (eight), and marks a blue-zone extension labelled 'Extension dernier trimestre 2025' (planned for the last quarter of 2025; the map does not say whether it was done).",
+   "corrected_title": "Plan des zones de stationnement Talence (talence.fr PDF)",
+   "corrected_date": "2025-07"
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Page lists Joliot-Curie, Espeleta, Notre-Dame (35 places each, paid Mon-Sat 9h-19h), Cours Gambetta (53, paid), Thouars sports ground (90, free); it also lists Parking Leo Lagrange (free, limited stay, no place count), which the draft omits. The 7e Art page text refers to 'services METPARK' at the covered car park by the UGC cinema; Bordeaux Metropole open data (item 8 source) confirms 'geree par Metpark'. Page undated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Re-fetched the open-data API: Talence 7e Art, exploit METPARK, info 'Parking du cinema gere par Metpark', np_global 321, th_2 0, th_3 4.5, th_4 6.6, th_24 15, mdate 2026-02-20. Matches; draft already discloses that field meanings (th_2 = 2 hours etc.) are interpreted from names. Record also shows ta_resmoi 50 and ta_nres7j 70 (not used).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "TBM list page (read 21 Oct 2026, undated): Arts & Metiers, 'Open to all', Avenue de l'Universite, max height 1.90 m, 593 spaces, 12 disabled, 10 EV-charging, 22 secure and 11 unsecured bike spaces, 10 Boogi car-share, TBM sales point; tram B; hours 5am-1am (Mon-Wed, Sun, holidays) and 5am-2am (Thu-Sat); 15 euro/day fine outside tram hours. No closure notice found. BUT 'open to all' means not subscriber-only, not 'currently operating'; the page is a static description. Moreover Bordeaux Metropole's own news page (sedeplacer.bordeaux-metropole.fr/actualites/parcs-relais-tbm-informations-pratiques-aux-voyageurs, published 27/01/2026, updated 19/05/2026, read 21 Oct 2026) still says Arts et Metiers has been closed since Saturday 24 January 2026 for an indefinite period pending compliance work. So the status conflict is real.",
+   "corrected_text": "TBM's park-and-ride list (page undated, read on 21 October 2026) describes Arts & Metiers (Avenue de l'Universite, Talence, tram B) as 'open to all' (not subscriber-only), with 593 spaces, 12 disabled, 10 EV-charging, 22 secure and 11 unsecured bike spaces and 10 car-share spaces, and no closure notice on the page. The page is a static description and gives no live status. TBM says park-and-rides open when trams run and use outside those hours can be fined 15 euros per day.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Le Bonbon (English edition, 26 Jan 2026, byline 'The Editor'): closed Saturday 24 January 2026 for an indefinite period by Bordeaux Metropole after a safety inspection showing need for compliance work; five-yearly inspection; TBM said reopening date to be determined; alternatives Unitec and Cap Metiers; 2019 closure of several months for leaks and weakened slab. All as written (the page adds that the findings came from the security commission of the city of Talence). Corroborated by Bordeaux Metropole's page updated 19/05/2026 (closed since 24 Jan 2026, indefinite). Not labelled AI-written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Re-fetched the API record 'Parc Relais Arts Et Metiers': exploit KEOLIS, np_pr/total 590, nb_niv 4, np_pmr 12, np_vle 10, np_covoit 10, etat LIBRE, mdate 2026-10-21T12:42 UTC, ta_ntitul 4.5, ta_titul 0. Matches. Extra: the record has a live counter (libres 56, connecte 1), which supports 'operating' but is still an inference; the item rightly hedges. However the Metropole's own news page (updated 19/05/2026) still says closed, so 'suggests reopened' should not be read as confirmed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Talence's parkings page says the Arts & Metiers park-and-ride, managed by Bordeaux Metropole, has 199 places (confirmed; page undated). The 'mid-2023: 432 spaces open out of 593 in total' note is in the open-data record (field infor: 'mi 2023 : 432 places ouvertes sur 593 au total'), which is a different source from the one cited here, and is not on the Talence page.",
+   "corrected_text": "Talence's own parking page says the Arts & Metiers park-and-ride, managed by Bordeaux Metropole, has 199 parking places. This conflicts with the 593 spaces on TBM's page and the 590 in the open data, so the capacity is unclear. The Talence page is undated; read on 21 October 2026.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Page updated 13/01/2026: ZFE since 1 Jan 2025, 7/7 24h/24 inside the rocade; unclassified vehicles (e.g. petrol/diesel cars registered before 1 Jan 1997) cannot circulate or park inside but may use 11 listed P+Rs including Unitec and Bougnard (Pessac); Arts et Metiers not on the list. Talence not named in the ZFE text. As written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Page (updated 03/02/2024) says: a parking study on the 'domaine universitaire' tracked actual occupancy of the 11,000 spaces on a typical day; car parks 'globalement tres surdimensionnes'; at the busiest time more than 4,000 spaces remain free. A similar mobility plan was done on the domaine in 2023; the page does not give a date for the parking study itself. The page does NOT mention Talence-Pessac-Gradignan, three communes, 235 ha, 60,000 students or 10,000 staff; those details are unsupported by this source. The page is dated Feb 2024.",
+   "corrected_text": "The Universite de Bordeaux campus mobility page (updated 3 February 2024) says a parking study on the university estate tracked occupancy of its 11,000 spaces on a typical day, found the car parks largely oversized, and found more than 4,000 spaces still free at the busiest time. A similar mobility plan was done for the estate in 2023; the page gives no date for the parking study. The page does not name the communes, so the figures cannot be attributed to Talence alone.",
+   "corrected_title": null,
+   "corrected_date": "2024-02"
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Press kit (PDF, dated 22 Sept 2025, 20 pages read): halte reopened 21 Sept 2025; PEM timeline shows 'Printemps 2026' and 'Fin 2026'; PEM car park 'Nombre de places de stationnement: 55 pour les voitures, motos, autopartage et taxis; 260 velos; 4 places depose-minute'; Bus Express 'debut 2028'. These are plans. Overreach: the kit says the Bus Express line links Pellegrin hospital with Talence-Thouars and Gradignan-Malartic; it does not say the line serves the campus. Also, Talence's EV page (item 16) says 2 EV points are already in service at the Medoquine hub, so the hub is partly in use by Oct 2026.",
+   "corrected_text": "The Talence-Medoquine rail halt reopened on 21 September 2025. The September 2025 press kit says the multimodal hub there is scheduled for spring and end 2026, and lists 55 spaces for cars, motorbikes, car-share and taxis, 260 bike spaces and 4 drop-off spaces; these figures are plans. A Bus Express line linking Pellegrin hospital with Talence-Thouars and Gradignan-Malartic is planned for early 2028.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Recomputed from the page's own site list: Joliot-Curie 2, Forum/cours de la Liberation 4, Roustaing/Peixotto 2, Victor Hugo 2, Aristide-Briand 2, Charles-de-Gaulle 2, Parking Beaulieu 4, PEM Medoquine 2, Parking Mairie 2 = 22 points on 9 sites, matching the page's headline 'Aujourd'hui, 9 sites equipes, soit 22 points de recharge accessibles au public'. Page says three equipments appeared 'cette annee' (no year given): a double point up to 24 kW at the Victor Hugo / cours Gambetta car park, 4 points at the new Beaulieu car park, 2 at the Medoquine hub; managed by Bordeaux Metropole. As written; page undated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "Page (published 07/01/2025, updated 28/05/2025): 364 charging places on 146 stations in May 2025 (confirmed); tariff since 6 Jan 2025: 0.38 euro TTC/kWh plus 4.00 euro TTC/h if the session exceeds 4 h on slow sockets; waived 23h-8h on AC charging (confirmed). But the network is 'gerees par la Metropole' with supervision (user relations, operations, revenue) run by Freshmile, not simply 'operated by Freshmile'. Page also notes a 48 euro cap after 14 h of session (omitted).",
+   "corrected_text": "As of May 2025 Bordeaux Metropole managed 364 on-street charging places at 146 stations, with supervision by the operator Freshmile. Since 6 January 2025 the tariff is 0.38 euros per kWh including tax, plus 4 euros an hour once a session on slow sockets exceeds 4 hours; the time charge is waived from 11pm to 8am on AC charging, and a 48 euro maximum applies beyond 14 hours. Metropolis-wide context, not Talence-specific.",
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Talence regulates on-street parking itself: blue zones (eight according to its main parking page and July 2025 map, seven on two other commune pages) with 1h30 free by disc, and two paid zones with 1h30 free, enforced 9am-7pm Monday to Saturday except 14 July to 15 August, with free first-vehicle resident subscriptions valid two years, a 25 euro post-parking charge (17 euros if paid within five days) and an online-only subscription platform. A blue-zone extension was marked on the July 2025 map for the last quarter of 2025; whether it happened is not stated. The commune lists only small public car parks (35 to 90 spaces) plus the covered Talence 7e Art car park managed by Metpark. The Arts et Metiers park-and-ride on tram B is the main commuter facility, but its status is conflicting and its size is disputed: a January 2026 press report and Bordeaux Metropole's own news page (updated 19 May 2026, read 21 October 2026) say it closed on 24 January 2026 for an indefinite period after a safety inspection, while TBM's park-and-ride list shows no closure notice (593 spaces) and the open-data record read on 21 October 2026 shows state LIBRE with a live counter and 590 spaces; Talence's page says 199 spaces. The metropolis's low-emission zone applies inside the ring road at all hours and only bars unclassified vehicles. A university parking study (reported on a page updated February 2024) found more than 4,000 of the university estate's 11,000 spaces free at the busiest time; the page does not name the communes. Talence lists 22 public EV charge points on 9 sites, and the Medoquine rail halt reopened on 21 September 2025, with a multimodal hub planned there offering 55 spaces according to the September 2025 press kit."
+}

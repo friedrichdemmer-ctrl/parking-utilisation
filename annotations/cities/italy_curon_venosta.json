@@ -1,0 +1,170 @@
+{
+ "country": "Italy",
+ "city": "Curon Venosta",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Research on Curon Venosta (Graun im Vinschgau) rests only on the municipality's own register of executive and council decisions, which lists decision titles without documents, amounts or locations; the tourism sites could not be opened. The register shows that the municipality runs paid car parks with numbered names such as 'Graun 8 Turm' and 'Reschen 13 Piz', raised the fees for those two car parks in April and May 2022, took a council decision on the operation of its car parks on 29 September 2025, approved an ordinance on parking, camping and other overnight stays on 9 February 2026, and set tariffs and exemption permits for the paid car parks on 20 April 2026. It approved an agreement with Schöneben AG on running the car park 'Piz' in 2022 (extension) and 2023, and each year approves the accounts of the parking fee collection. Between 2023 and 2026 it worked on car parks at the former ANAS site in Reschen (certificate of execution approved September 2024), in Graun together with bus stop infrastructure (November 2024) and at Maseben in Langtaufers (final account approved September 2026). In 2026 it approved a project for a bus stop at the location Piz in Reschen, approved a project and a first variant for demolishing and rebuilding the lift installation Reschen - Piz-Schöneben, commissioned an extension of electronic payment at the parking meters (29 June 2026) and ran a tender for allocating municipal land for EV charging stations (May 2026). No tariff amounts, occupancy figures or press coverage could be verified.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2026-02-09",
+   "text": "On 9 February 2026 the Graun municipal council (Gemeinderat, decision no. 2/2026) approved an ordinance regulating parking, camping and other forms of overnight stays. The register lists only the decision title; the document text was not published, so no amounts or locations are stated here.",
+   "source_title": "Gemeinde Graun im Vinschgau - Beschlüsse und Maßnahmen (Gemeindeausschuss/Gemeinderat register)",
+   "source_url": "https://www.gemeinde.graun.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-04-20",
+   "text": "On 20 April 2026 the municipal executive (Gemeindeausschuss, decision no. 201/2026) set the tariffs for the paid car parks and the exemption permits under the heading 'operation of the car parks in the municipality of Graun'. The register lists only the decision title; the document text was not published, so no amounts or locations are stated here.",
+   "source_title": "Gemeinde Graun im Vinschgau - Beschlüsse und Maßnahmen (Gemeindeausschuss/Gemeinderat register)",
+   "source_url": "https://www.gemeinde.graun.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-09-29",
+   "text": "On 29 September 2025 the municipal council (decision no. 47/2025) took a decision titled 'Operation of the car parks of the municipality of Graun im Vinschgau'. The register lists only the decision title; the document text was not published, so no amounts or locations are stated here.",
+   "source_title": "Gemeinde Graun im Vinschgau - Beschlüsse und Maßnahmen (Gemeindeausschuss/Gemeinderat register)",
+   "source_url": "https://www.gemeinde.graun.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2022-05-23",
+   "text": "In 2022 the executive raised the fees for the numbered car parks 'Reschen 13 Piz' (decision of 19 April 2022, no. 173) and 'Graun 8 Turm' (decision of 23 May 2022, no. 260), amending its framework decision no. 235 of 26 April 2021 on the operation of the car parks. The register lists only the decision title; the document text was not published, so no amounts or locations are stated here. This is old; the 2026 tariff decision may have replaced these fees.",
+   "source_title": "Gemeinde Graun im Vinschgau - Beschlüsse und Maßnahmen (Gemeindeausschuss/Gemeinderat register)",
+   "source_url": "https://www.gemeinde.graun.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-06-12",
+   "text": "On 19 April 2022 (decision no. 176) the municipal executive approved an extension of the agreement with Schöneben AG on the running of the car park 'Piz', and on 12 June 2023 (decision no. 317) it approved an agreement with Schöneben AG on the running of the car park 'Piz'. The register lists only the titles; the terms and the current status are not published. A separate fee decision of 19 April 2022 (no. 173) concerns the car park 'Reschen 13 Piz'.",
+   "source_title": "Gemeinde Graun im Vinschgau - Beschlüsse und Maßnahmen (Gemeindeausschuss/Gemeinderat register)",
+   "source_url": "https://www.gemeinde.graun.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-04-20",
+   "text": "Each year the executive approves the accounts of the fee collection for the public car park (financial year 2025 approved on 20 April 2026, no. 196; 2024 on 28 April 2025; 2023 on 29 April 2024; 2022 on 15 May 2023; 2021 on 6 September 2022). The register gives no revenue figures.",
+   "source_title": "Gemeinde Graun im Vinschgau - Beschlüsse und Maßnahmen (Gemeindeausschuss/Gemeinderat register)",
+   "source_url": "https://www.gemeinde.graun.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-06-29",
+   "text": "The register shows orders for pay-and-display machines (Parkscheinautomaten): one machine bought on 18 July 2022 (no. 347), two machines on 11 March 2024 (no. 95), a repair of the machine 'Turm' after a lightning strike ordered on 18 March 2024 (no. 104) and maintenance on 9 March 2026 (no. 115). On 29 June 2026 (no. 362) the executive commissioned Giovacchini Time Solutions of Bolzano to extend the system for electronic payment at the 'Parkuhr'. The register lists only the decision titles; completion of the extension is not stated and no amounts or locations are given.",
+   "source_title": "Gemeinde Graun im Vinschgau - Beschlüsse und Maßnahmen (Gemeindeausschuss/Gemeinderat register)",
+   "source_url": "https://www.gemeinde.graun.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-05-18",
+   "text": "On 4 May 2026 (decision no. 232) the municipal executive approved the tender and tender documents for the allocation (Vergabe) of public land owned by the municipality for the installation and operation of EV charging stations, and on 18 May 2026 (decision no. 271) it approved the minutes of the award procedure and the allocation of public areas for the construction and operation of EV charging stations. The register lists only the decision titles; no operator, amounts or locations are stated.",
+   "source_title": "Gemeinde Graun im Vinschgau - Beschlüsse und Maßnahmen (Gemeindeausschuss/Gemeinderat register)",
+   "source_url": "https://www.gemeinde.graun.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-11-18",
+   "text": "In Graun the municipality redesigned and extended the public car park and built infrastructure for the bus stop and the associated public green areas (title: 'Umgestaltung und Erweiterung des öffentlichen Parkplatzes und Bau von Infrastrukturen der Bushaltestelle und der dazugehörigen öffentlichen Grünflächen in Graun'). The executive awarded the works on 26 June 2023 (decision no. 340) and approved the certificate of proper execution on 18 November 2024 (decision no. 546/2024). The register lists only the decision titles; no amounts or locations are stated.",
+   "source_title": "Gemeinde Graun im Vinschgau - Beschlüsse und Maßnahmen (Gemeindeausschuss/Gemeinderat register)",
+   "source_url": "https://www.gemeinde.graun.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-09-16",
+   "text": "A new public car park on the former ANAS site in Reschen was built in 2023-24: preliminary project approved by the council on 28 November 2022, execution project on 3 April and 8 May 2023, certificate of proper execution on 16 September 2024 (decision no. 452/2024). The register lists only the decision title; the document text was not published, so no amounts or locations are stated here.",
+   "source_title": "Gemeinde Graun im Vinschgau - Beschlüsse und Maßnahmen (Gemeindeausschuss/Gemeinderat register)",
+   "source_url": "https://www.gemeinde.graun.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-09-21",
+   "text": "The council approved the feasibility project for the extension of the car park Maseben/Langtaufers on 28 April 2025 (decision no. 13), the executive approved the execution project on 3 June 2025 (no. 233) and approved the final account (Endstand) on 21 September 2026 (no. 508). The register lists only the decision titles; whether the works are finished is not stated, and no amounts or locations are given.",
+   "source_title": "Gemeinde Graun im Vinschgau - Beschlüsse und Maßnahmen (Gemeindeausschuss/Gemeinderat register)",
+   "source_url": "https://www.gemeinde.graun.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-06-29",
+   "text": "In Reschen the municipality is arranging a bus stop for 3 line buses at the location 'PIZ': the council approved the project guideline document (DIP) on 29 June 2026 (no. 19), the executive approved the execution project on 7 August 2026 (no. 425), and the mayor's urgency measure of 4 September 2026 (no. 21/2026, traffic safety and protection of persons) was ratified on 21 September 2026 (no. 520). The register lists only the decision titles; no amounts or exact location are stated.",
+   "source_title": "Gemeinde Graun im Vinschgau - Beschlüsse und Maßnahmen (Gemeindeausschuss/Gemeinderat register)",
+   "source_url": "https://www.gemeinde.graun.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-06-15",
+   "text": "The executive approved the project for the demolition and rebuilding of the lift installation (Aufstiegsanlage) Reschen - Piz-Schöneben on 28 April 2025 (decision no. 204) and approved the project's first variant on 15 June 2026 (decision no. 332). The register lists only the decision titles; whether works have started is not stated and no amounts are given.",
+   "source_title": "Gemeinde Graun im Vinschgau - Beschlüsse und Maßnahmen (Gemeindeausschuss/Gemeinderat register)",
+   "source_url": "https://www.gemeinde.graun.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-04-27",
+   "text": "On 27 April 2026 the executive commissioned a feasibility study for a roundabout at the junction of the SS 40 and the Langtaufererstraße in Graun, and on 13 April 2026 it approved a draft land-use plan change for a leisure-facility zone at Haideralm. The register lists only the decision title; the document text was not published, so no amounts or locations are stated here.",
+   "source_title": "Gemeinde Graun im Vinschgau - Beschlüsse und Maßnahmen (Gemeindeausschuss/Gemeinderat register)",
+   "source_url": "https://www.gemeinde.graun.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-12-11",
+   "text": "The 'Turm' car park in Graun (at the sunken church tower) has a public toilet with coin machines (two new ones ordered on 11 December 2023), and the municipality commissioned the social cooperative VISO for cleaning of the square and toilet at the tower in 2021 and 2022. The register lists only the decision titles; no visitor or revenue figures are given.",
+   "source_title": "Gemeinde Graun im Vinschgau - Beschlüsse und Maßnahmen (Gemeindeausschuss/Gemeinderat register)",
+   "source_url": "https://www.gemeinde.graun.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Tariff amounts and the text of the 2026 parking ordinance and tariff decisions (Gemeindeausschuss 201/2026, Gemeinderat 2/2026 and 47/2025): the register at https://www.gemeinde.graun.bz.it/de/Beschluesse_und_Massnahmen publishes titles only, no attached documents; the Amtstafel https://www.gemeinde.graun.bz.it/de/Amtstafel also offered none.",
+  "https://www.schoeneben.com/ (ski area operator) redirects through JavaScript to /lander, which returned 403; not worked around. No ski-area parking, tariff or EV information read from the operator.",
+  "https://www.reschensee.com/ (formerly reschenpass.it) returned only a cookie-information page; not worked around.",
+  "https://www.stol.it/artikel/chronik/rieseninvestitionen-auf-schoeneben returned only a page title via curl (no article text, likely paywall or JavaScript), so the Piz-Schöneben gondola investment (27 million euro as per search snippet) is not used.",
+  "A review portal (skiresort.info) states parking at the Reschen-Piz and St. Valentin valley stations is free, which conflicts with the municipal register's 2022 fee increase for 'Reschen 13 Piz'; the page is undated and a portal, so not used.",
+  "Tourist-traffic, Reschensee/church-tower visitor numbers, peak-season congestion, Vinschgerbahn (terminates at Mals; electrification closure and Reschen rail plans) and Dolomiten/Salto/Alto Adige coverage: web searches in German and Italian returned no usable local press articles, so nothing is recorded.",
+  "EV charging: only the 2026 tender/award titles were found; operator, locations and number of chargers unknown. Our live data (Parcheggio Schöneben, 250 spaces) not verified against any municipal source.",
+  "Several items rest on decision titles only; the register may have been updated after 21 October 2026 and documents may exist outside the web page."
+ ],
+ "dropped": {}
+}

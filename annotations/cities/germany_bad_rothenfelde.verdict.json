@@ -1,0 +1,125 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Municipal news page (dated 07.02.2025 14:45) says the municipality 'entwickelt ein Verkehrskonzept für den innerstädtischen Bereich', with focus on Aufenthaltsqualität, Barrierefreiheit and a reduction of motorised individual traffic, plus Verkehrsberuhigung and stronger use of the Umweltverbund (walking, cycling, public transport). Worded as 'developing', so no adoption is implied. The page links three PDFs (Erläuterungsbericht 8.6 MiB, Anlage I, Anlage II). Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Read all 115 PDF pages (112 numbered; title page dated 17.12.2024, signed Wallenhorst 17.12.2024, IPW Ingenieurplanung). Section 2.3.2: counts on Thursday 01.06.2023 and Sunday 04.06.2023. Section 2.2.2: 'rund 2.000 Stellplätze', '39 inkludierte Parkstandorte'. Fig. 9: frei 274 (14%), Kunden/Patienten 778 (39%), Parkscheibe 124 (6%), Parkschein/Schranke 819 (41%), sum 1,995; text: free and unrestricted 'nur 14 %'. All numbers match. Note: the PDF itself is not at the cited URL (the URL is the news page that links it); the 'sites' are car parks and roadside parking strips. Regulation shown is the majority rule per site.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "34% (Thursday peak, 11:00) and 53% (Sunday peak, 16:00) are confirmed from the occupancy charts (n=1,995, excluding the Schüchtermann garage, which is assessed separately); Sunday higher because of 'Kurbetriebe wie die Therme' and events: confirmed. But the draft misplaces the locations: the Kurpark roadside strip was the one site classed 'unzureichend' on the THURSDAY (p. 49), not on the Sunday. On the Sunday (p. 50) Kirchstraße (no. 28) and Am Kurpark (no. 27), west of the park, reached full occupancy only 'zeitweise' (at times); Frankfurter Straße reached 'mangelhaft'; parking pressure was high around the Gradierwerk, especially Bahnhofstraße. Clinic area: 'partiell mangelhaft bis ungenügend' on the Thursday.",
+   "corrected_text": "The concept's parking counts of Thursday 1 June and Sunday 4 June 2023 (excluding the Schüchtermann clinic multi-storey car park, which was assessed separately) show peak occupancy of about 34 percent on the Thursday and about 53 percent on the Sunday, with the Sunday higher because of the Therme and events. On the Thursday the roadside parking at the Kurpark reached an insufficient level and the streets next to the clinics were partly poor to insufficient. On the Sunday Kirchstraße and Am Kurpark, west of the park, were at times full, and parking pressure was high around the Gradierwerk, especially on Bahnhofstraße.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Operator data for the Schüchtermann garage (no. 6.2, p. 48): used 'zum übergroßen Teil' by permit holders (clinic staff) and 'an den Wochenenden große Stellplatzpotenziale frei'. 'Largely empty' overstates this. Section 3.2 (p. 61): in the overall view 'keine mangelhafte oder ungenügende Qualitätsstufe' is reached; clinic quarter busy on weekdays, Kurpark area at weekends, while sites at the edge stay free, inducing 'unnötige Parksuchverkehre', 'insbesondere im Zentrum des Kurorts'. The report never calls supply 'adequate' (in its scale 'ausreichend' is a specific 80-89% grade, which it did not assign); section 5.2.1 speaks of 'moderate räumliche Disbalancen'.",
+   "corrected_text": "For the Schüchtermann clinic multi-storey car park, operator data show it is used mostly by permit holders (clinic staff), with large numbers of spaces free at weekends. Overall the concept found no deficient or insufficient level of parking supply, but an uneven use: critical occupancy in some areas (the clinic quarter on weekdays, the Kurpark area at weekends) while sites around and at the edge of the town stay free, which causes avoidable parking-search traffic, especially in the spa centre.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Section 3.2 (p. 63): existing signs 'ausnahmslos statisch', one damaged, they start only in the town centre ('setzt erst im Ortskern an'), point mainly to the Zentralparkplatz and Heristo-Sportpark; quality 'eher mangelhaft'. Section 5.2.1 (p. 94): 'empfiehlt sich ein dynamisches Parkraummanagement unter Einbezug von punktuell statischer Beschilderung', LED displays on the 'verkehrswichtigen innerörtlichen Straßen', cheaper static signs in the subordinate streets leading into the sites; sensors would have to be retrofitted; 'konkrete Ausgestaltung ... in der Ausführungsplanung zu prüfen'. Table 17: Parkleitsystem cost high, priority high. Worded as a recommendation. Minor nuance: 'static signs on access streets' means the subordinate feeder streets to the car parks, not the town entrances (those would get information boards).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "Page 94-95: spatial price grading 'kann ... unterstützend wirken'; peripheral car parks such as Palsterkamp 'könnten weiterhin kostenfrei angeboten oder mit nur geringen Gebühren' be offered; bus transport for users of outer car parks 'zu prüfen' (event shuttle buses mentioned on p. 92); mobile parking payment in cities such as Bad Salzuflen, Ahlen, Oelde: all confirmed. 'Revenue ... to be considered first' is not in the text: it says the municipality's parking revenue structure 'ist bei der Entwicklung einer solchen Preisstaffelung zu berücksichtigen' (to be taken into account), with no priority order. Adoption not established.",
+   "corrected_text": "The concept says graded pricing could support the outer car parks: peripheral car parks such as Palsterkamp could continue to be free or carry only low fees compared with the higher-priced car parks near the centre, with the municipality's parking revenue to be taken into account. It also says bus transport for users of outer car parks (including event shuttles) should be examined, and mentions app-based mobile parking payment, as used in Bad Salzuflen, Ahlen and Oelde. These are recommendations in a consultant report; adoption is not established.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "Pages 95-98 confirm: Zentralparkplatz is 'der wichtigste Standort im Ortskern', 'stark erneuerungsbedürftig', 'grundlegende Sanierung mindestens als langfristiges Ziel anzustreben'; issues named are full sealing, shade, EV charging concepts and cycle parking (trees via 'Stadtbäume' is the cheap fallback); it should be tied into the guidance system with sensors, and fees could be set. Not supported: 'near the old Gradierwerk' (the text only says it lies on the north side of Salinenstraße); 'gravel car parks' for the Heristo-Sportpark (only Palsterkamp has gravel and the Freibad lot gets re-gravelling; Heristo gets white paving-stone markings). The parking deck at the Freibad lot is only a medium- to long-term 'könnte' option. Table 17: optimisation of existing car parks is medium priority.",
+   "corrected_text": "The concept describes the Zentralparkplatz (on the north side of Salinenstraße) as the most important car park in the town centre but badly in need of renewal. It recommends a fundamental renovation at least as a long-term goal, dealing with sealing, shade and trees, EV charging and quality cycle parking, and tying the car park into the parking guidance system, after which fees could be set. It suggests marking out spaces at the Palsterkamp, Freibad (carpesol) and Heristo-Sportpark car parks, where inefficient parking was observed, and says a parking deck at the Freibad lot could in the medium to long term relieve the Zentralparkplatz. These are suggestions in a consultant report; the optimisation of existing car parks is rated medium priority.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Section 5.1.2 (p. 85-86) and Table 17 (p. 110): Begegnungszone Salinenstraße in the same design as Frankfurter Straße is 'denkbar', a 'Kompromisslösung', cost high and priority high; section 5.6 calls it 'zu prüfende Umsetzung'. Misleading omission: the temporary closures of Salinenstraße and Hannoversche Straße (5.1.1, p. 79-84) were examined but NOT recommended: the fire brigade concluded full closures would make normal response times 'unmöglich', traffic would shift into residential streets, and the concept says the measure is 'nicht zu empfehlen' and leaves the closures out of the priority list ('keine unmittelbare Umsetzungsempfehlung'). The draft's 'examines a temporary closure' without this is too favourable. No council decision recorded in the PDF.",
+   "corrected_text": "The concept proposes examining a shared-space-style Begegnungszone for Salinenstraße (the main shopping street next to the Kurpark), in the same design as the existing one in Frankfurter Straße, and rates it as high priority and high cost. It also examined temporary closures of Salinenstraße and Hannoversche Straße to car traffic but advised against them: the local fire brigade said full closures would make normal response times impossible, traffic would shift into residential streets, and the closures are left out of its priority list. These are proposals in a consultant report; the text read does not record a council decision.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Page 24: 'Nach Informationen der Gemeinde sind im Bestand 12 öffentliche bzw. halböffentliche E-Ladesäulen vorhanden. Im Rahmen der konzeptionellen Ladeinfrastrukturplanung beabsichtigt Bad Rothenfelde einen schrittweisen Ausbau der Ladekapazitäten.' The number and the expansion intent are confirmed. But the German word is Ladesäulen (charging stations/columns, which usually have two sockets), not 'charging points', so 'points' may understate capacity; and no date is given for the count (the report mixes 2023 surveys and a December 2024 date).",
+   "corrected_text": "According to the municipality, as quoted in the concept, there were 12 public or semi-public EV charging stations (Ladesäulen) in the town (no date given), and Bad Rothenfelde intends a step-by-step expansion of charging capacity as part of its charging-infrastructure planning.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Tourism office page (Kur und Touristik Bad Rothenfelde GmbH, undated, shown as 'Parkplatzsuche'): 'Im Ortskern gibt es mehrere Parkplätze, die teils von der Osnabrücker Parkraumgesellschaft (OPG) und von Privatpersonen unterhalten werden ... Über diese individuellen Gebührensätze hat die Gemeindeverwaltung keine Kenntnis.' Palsterkamp (Bahnhofstraße between the roundabout at Niedersachsenring and Lidl) is free, about 15 minutes' walk to the Kurpark; coach parking: Zentralparkplatz/Ulmenallee. All confirmed. Name note: OPG's own site gives its legal name as Osnabrücker Parkstätten-Betriebsgesellschaft mbH, so 'Parkraumgesellschaft' is the tourism page's wording.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "OPG page 'Parkplatz carpesol' (live, undated): Frankfurter Str. 15, daily 00:00-24:00, 'Überwacht'; first hour 2.00 EUR, second hour 2.00 EUR, each further hour 1.00 EUR, Tageshöchstsatz 8.00 EUR; 'Besucher carpesol (Rabattierung im carpesol) 1,00 EUR', 'Besucher Freibad (Rabattierung im Freibad) 1,00 EUR', 'Besucher Rehazentrum (Parkticketentwertung im Rehazentrum) kostenlos'; 'Freie Parkplätze: 0 von 0', 'Gesamtkapazität: 0'. All figures match. The free rate for rehab-centre visitors depends on validating the ticket at the centre, and the 1.00 EUR rates are discounts obtained by validation at the carpesol/Freibad, which the draft omits. Live page: date 2026-10, read 21 October 2026.",
+   "corrected_text": "The OPG page for Parkplatz carpesol (Frankfurter Straße 15, open 00:00-24:00 daily, monitored) lists 2.00 euros for the first hour, 2.00 euros for the second hour, 1.00 euro per further hour and a daily maximum of 8.00 euros. It also lists 1.00 euro for visitors of the carpesol and of the Freibad (a discount applied at the carpesol or Freibad) and free parking for visitors of the rehabilitation centre once the ticket is validated there. Page undated, read on 21 October 2026; its live capacity field showed 0 of 0 at that time.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "carpesol FAQ: first parking answer says the Thermenparkplatz is entered from Hannoversche Straße; guests get a single-use QR code at reception, enter the plate at the pay machine, scan the QR code to discount the parking, pay any remainder at the machine by EC/Girocard only ('keine Barzahlung'); OPG on-call help via the call button. The draft matches that block. However the same page contains a second, differing FAQ block: it says tickets can be paid with coins, notes and cards, and a ticket can be discounted to 0.50 EUR (the OPG page says 1.00 EUR); its tariffs and rental prices also differ from the first block. The page is therefore internally inconsistent and one block may be outdated. Page undated.",
+   "corrected_text": "According to the carpesol Therme FAQ, the Thermenparkplatz is entered from Hannoversche Straße; guests get a single-use QR code at reception, enter the licence plate at the pay machine and scan the code to get the parking fee discounted, then pay any remainder by card only at the machine, and faults are handled by OPG's on-call service. The same page also carries a second, differing FAQ block that mentions cash payment and a 0.50 euro discount, so these details may be partly outdated. Page undated, read on 21 October 2026.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "OPG portal start page (Osnabrücker Parkstätten-Betriebsgesellschaft mbH, Gerberhof 10, Osnabrück; 'wichtigster Anbieter und Betreiber von Parkraum in der Stadt und der Region Osnabrück') lists 'Parkplatz carpesol' in its Parkplatzsuche. Every entry in the list shows 'keine Info' for live occupancy. Claim confirmed. Low value as a policy fact; the operator name in the summary should be the legal name given here.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Tourism office page 'Wohnmobilstellplatz beim campotel': 60 Stellplätze with supply and disposal stations; 'TIPP: Fragen Sie unbedingt beim Einchecken nach Ihrer Gästekarte. Sie ist nicht im Preis für den Stellplatz enthalten, da es sich bei WoMos um eine reine Parkgebühr handelt.' Claim matches. Nuance: the guest card can still be obtained at check-in (guests only need to personalise it). Undated; this is a private-campsite pitch rather than a municipal parking policy.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Tourism office 'Anreise' page: 'Ab Osnabrück und Bielefeld fährt die NordWestBahn bis zum Bahnhof Dissen-Bad Rothenfelde. Ein Shuttle-Bus der VOS (Linie 475 oder 467) bringt die Reisenden kostenlos bis Ortsmitte zum ZOB an der Bahnhofstraße'; line 475 also runs the clinic loop. The 2.2 km figure is on the carpesol FAQ ('Entfernung zur Therme 2,2 km'); the Verkehrskonzept confirms the station lies in Dissen. Undated; read 21 October 2026.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Bad Rothenfelde is a small spa town of about 8,500 inhabitants in the Osnabrück district. A consultant's Verkehrskonzept Ortskern, dated 17 December 2024 and put online by the municipality on 7 February 2025 as a concept it is developing, surveyed about 2,000 spaces in 39 car parks and parking strips on Thursday 1 and Sunday 4 June 2023. Of the public spaces, only 14 percent are free and unrestricted, 39 percent are reserved for customers or patients, 6 percent use a parking disc and 41 percent are pay-and-display or barrier-controlled. Peak occupancy was about 34 percent on the Thursday and about 53 percent on the Sunday (excluding the Schüchtermann clinic garage). The concept found no deficient supply overall but an uneven use, with weekday pressure around the clinics and Sunday pressure around the Kurpark and Gradierwerk while car parks at the edge stay free. It recommends, without any adoption being established, a mainly dynamic parking guidance system with LED signs (high priority), price grading in favour of peripheral car parks such as Palsterkamp, a long-term renovation of the Zentralparkplatz, marking out the gravel car parks, and a Begegnungszone in Salinenstraße (high priority); it examined but advised against temporary road closures. The municipality reported 12 public or semi-public EV charging stations at the time of the concept. The spa baths car park (Parkplatz carpesol, Frankfurter Straße 15) is listed on the site of the Osnabrücker Parkstätten-Betriebsgesellschaft (OPG) with 2 euros for each of the first two hours, 1 euro per further hour, a daily maximum of 8 euros, and 1 euro for carpesol visitors after validation (page read on 21 October 2026, live capacity field 0 of 0). The tourism office tells visitors that several central car parks are run partly by OPG and partly by private owners, that the municipal administration does not know their fees, and that Palsterkamp is free, about 15 minutes on foot from the Kurpark. No council minutes or press reports on a parking-fee decision were found."
+}

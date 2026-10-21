@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Tao page 'Parcs relais et parkings' (header KEOLIS Orléans Métropole Mobilité): '12 Parcs Relais Tram'; Ligne B lists 'Gaudier Brzeska - avenue Denis Papin, Saint-Jean de Braye' and 'Clos du Hameau – Rue de la Gare, Saint-Jean-de-Braye'; 'Les Parcs Relais sont réservés à la clientèle TAO. Si l'entrée du parking est libre, la sortie n'est possible qu'avec un titre TAO en cours de validité.' Page is undated, so date 2026-10 / read 21 Oct 2026 wording is right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Tickets page: 'P+R 4,50 €', purchase channel 'Stations Tram', valid for parking in a Parc Relais plus a same-day return trip for all occupants, max 5 people incl. driver; 1 Voyage 2,00 EUR; 24 Heures 5,00 EUR; footer 'Tarifs en vigueur au 1er juillet 2025'. The text correctly dates the tariffs. Note: prices are 15 months old by 21 Oct 2026 and may have changed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Règlement PDF (7 pages, text layer read in full): header 'Règles d'utilisation des parcs relais Tram – 1er octobre 2026', art. 1 'mis à jour au 1er octobre 2026'; art. 3 names Clos du Hameau and Gaudier Brzeska; art. 4.2 exit requires a valid TAO ticket; art. 5.1 max 3.5 t, no caravans or trailers; art. 5.2 15 km/h; art. 5.3 no stay over seven days without the operator's prior agreement. All as in the item.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Rules PDF art. 1 names 'Keolis Orléans Métropole Mobilités' as 'Exploitant'; art. 11 gives its head office as 64 rue Pierre Louguet, 45800 Saint-Jean-de-Braye. The Métropole open-data parking file (fetched 21 Oct 2026) has nom_gestionnaire 'Effia stationnement' for both Clos du Hameau (P21) and Gaudier Brzeska (P18). The item records the conflict as unresolved ('exact split is unclear'), which is right. The Effia claim comes from the open-data file, not from the PDF cited as source_url.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Open-data JSON (31 rows): Gaudier Brzeska 214 places, nb_pmr 5, hauteur_max 220 cm, nb_voitures_electriques 0, real-time 'oui', etat 'en service'; Clos du Hameau 204 places, nb_pmr 5, hauteur_max 190 cm, EV 0, real-time 'oui', 'en service'. 214+204=418. Live file; read 21 Oct 2026.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Page says the Métropole set itself the goal of reducing 'autosolisme' by favouring public transport (tram, bus, TAD) and active modes; '12 parcs relais Tram' and '4 parcs relais Bus gratuits'. The page is about Orléans on-street and car-park offer and does not name Saint-Jean-de-Braye zones or prices. Wording is accurate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "IRVE JSON (30 rows, 30 distinct stations, 60 charge points in total): 'Saint-Jean-De-Braye, rue Jean Zay', implantation Voirie, nbre_pdc 2, puissance_nominale 22, Payant, horaires 24/7, operator Freshmile SAS, amenageur Orléans Métropole, date_mise_en_service 2021-07-15; it is the only Saint-Jean-de-Braye row. Row date_maj values are June-July 2023 and dataset metadata says modified 2023-07-07, so 'last updated July 2023' is right. The 'no P+R electric spaces' claim comes from the parking file (nb_voitures_electriques 0), not this file.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Page: 'Évolution des tarifs à partir du 1er janvier 2024 ... 0,50 € TTC/kWh dès la 1re minute de charge ... Le forfait unique visant à dissuader le stationnement longue durée passe à 25€ TTC.' The page says '30 bornes sont en service dans les 22 communes', i.e. 30 charging posts, not 30 charge points. The Métropole file has 30 stations with 60 points in total, so the item's '30 points' is wrong.",
+   "corrected_text": "The Métropole says the tariff of its public charging posts is 0.50 euro per kWh including tax from the first minute, since 1 January 2024, and that the single flat fee meant to deter long stays rose to 25 euros including tax. The page (read on 21 October 2026) says 30 charging posts (bornes) are in service across the 22 communes.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Project page text: 'des études de comptage sur l'occupation moyenne du stationnement ont été réalisées par Orléans Métropole. On constate une occupation moyenne des stationnements à hauteur de 18%.' It sits under 'L'offre de stationnement' for the RD960 zone. It says nothing about 'on-street' spaces, the year of the count or the method, so 'on-street' is an addition. Car parks kept: Longues Allées 59 places, municipal car park next to the florist 25 places; 'Nouveau parking aménagé rue de la Gare au niveau du Narval'. The page text carries no year; 19 June 2026 is the page's publication metadata (updated 19 Aug 2026).",
+   "corrected_text": "For the RD960 (avenue Louis-Joseph Soulas) renovation in the town centre, the town's project page says Orléans Métropole ran counts of average parking occupancy for the area and found 18%. The page does not say which spaces were counted, in which year or how. It keeps the Longues Allées car park (59 spaces) and the municipal car park next to the florist (25 spaces), and lists a new car park on rue de la Gare near the Narval.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Page (metadata: published 19 June 2026, updated 19 Aug 2026; a linked PDF is dated 16.06.2026): works on the Mondésir roundabout to rue de la Gare section 'débuteront le 15 juillet pour une durée de 9 mois'; financed by Orléans Métropole, 1 895 000 EUR TTC; 'Le parking devant les commerces sera maintenu, avec un passage en zone bleue ou arrêt minute à l'étude'. The item words it as 'was due to start', which is right. The year is not in the page text. The page does not state outright that works began on 15 July, though its August update describes works-related traffic changes (from 14 Aug, network burying from 17 Aug), so 'started July 2026' is likely but not stated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "The page text is undated, but its metadata shows published 8 July 2020 and modified 27 July 2020. It announces new visitor spaces in 'zone bleue', 1h30 maximum, rues Bernard Cognet and Arnaud de Saxcé, to curb 'stationnement sauvage' hampering collection of underground waste bins, marking works 'à compter du 6 juillet' for 15 days, municipal police patrol and can fine. The page does not mention the Hameau eco-district or any 2026 date, so those parts are unsupported.",
+   "corrected_text": "A town page, published in July 2020 according to its metadata (the text carries no date), announced new visitor spaces in blue zone (disc, 1h30 maximum) on rues Bernard Cognet and Arnaud de Saxcé, to curb wild parking that hampered collection of the underground waste bins. Ground marking was to start on 6 July for about 15 days. The page says municipal police patrol regularly and can fine offenders.",
+   "corrected_title": null,
+   "corrected_date": "2020-07"
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "The listing page shows exactly these titles under 2026 (ARR2026_0243 zone bleue rue de la Gare; ARR2026_0228 rue des Grazons; ARR2026_0220 115 avenue L.J. Soulas; ARR2026_0199 stationnement plus de 24h00 sur la ville). The linked PDFs are image scans without a text layer, but they are legible when viewed as images, so I read them. 0243 (signed 8 Oct 2026): blue zone, 1h30, 13 marked bays on rue de la Gare starting at the sixth bay from rue de l'Ardoise, Monday to Sunday 9:00-19:00. 0228 (29 Sep 2026): 4 bays on the west side of rue des Grazons, 1h30, daily including public holidays 8:00-22:00. 0220 (16 Sep 2026): 7 bays at 115 avenue Louis Joseph Soulas, 30 minutes, Mon/Tue/Fri/Sat 6:00-19:30, Sun and public holidays 6:00-13:15. 0199 (2 Jul 2026): parking of all vehicles limited to 24 hours across the whole commune, longer stays treated as abusive under R.417-12, immediate impoundment possible. Each order takes effect on the day the signage is installed; the PDFs give no installation dates. Council item 20261015CM129 (15 Oct 2026, unanimous) is about transferring two parcels (1,035 sq m) on rue Louis Gallouédec to Orléans Métropole for one euro so the school car park can be enlarged and opened to residents 24h a day; it is not in this draft's items.",
+   "corrected_text": "The town's list of administrative acts (read on 21 October 2026) links four 2026 mayoral orders on parking, scanned PDFs that I read as images. Rue de la Gare (order dated 8 October 2026): blue zone, 1h30, 13 marked bays, Monday to Sunday 9:00-19:00. Rue des Grazons (29 September 2026): 4 bays on the west side, 1h30, daily 8:00-22:00 including public holidays. 115 avenue Louis Joseph Soulas (16 September 2026): 7 bays, 30 minutes, Monday, Tuesday, Friday and Saturday 6:00-19:30 and Sundays and public holidays 6:00-13:15. Parking over 24 hours (2 July 2026): parking of any vehicle is limited to 24 hours across the commune, and longer stays count as abusive and can lead to immediate impoundment. Each order takes effect when the signage is put up; the PDFs do not say when that happened.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Town page: 'il s'agit de compétences d'Orléans Métropole' for the tram/bus network; 'Saint-Jean de Braye dispose de nombreuses lignes de bus et du terminus de la ligne de tram B. La ligne de tram B est-ouest dessert les communes de St-Jean de Braye, Orléans, St-Jean de la Ruelle et La Chapelle St-Mesmin.' Item matches. Note the draft summary's 'eastern terminus' is not on the page (it says terminus of an east-west line).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Page (published 2023, modified 25 Aug 2025): 'L'ÉcoQuartier du Hameau entame désormais sa dernière tranche de travaux avec 350 logements attendus d'ici 2027 dans le Clos du Hameau Nord'; key figures '900 logements construits'; last phase and last lots 'jusqu'en 2027'. The page does not mention parking, and nothing on it links the eco-district to the Clos du Hameau park-and-ride or says the rue de la Gare car park is in the same area; that link is the researcher's inference from the shared name.",
+   "corrected_text": "The town's EcoQuartier du Hameau page (published 2023, updated August 2025) says the project has built about 900 homes and is entering its last works phase, with 350 homes expected by 2027 in Clos du Hameau Nord, and that the last building plots are due to be finished by 2027. The page does not mention parking.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Key-figures PDF (page 3 of 'Chiffres clés 2024'): 'Le PDU actuel a été adopté en juillet 2019, il arrivera à échéance en 2028'; 'Cette démarche de bilan à 5 ans commencera au deuxième semestre 2024'; 'En 2028, Orléans Métropole devra adopter son premier PDM' under the LOM law of December 2019. Item matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Page lists '55% des trajets effectués en voiture par les habitants (49% visés dans 10 ans)' and '10,5 % des déplacements en transports en commun'. The page is undated and text such as 'Depuis le 1er janvier 2019 ... Keolis, pour une durée de 6 ans' suggests older content, so the item's caveat (targets, not current values) is appropriate. Low confidence is right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "PDF page 13 ('Électromobilité'): '531 points de charge sur le Loiret'; '287 points de charge sur la métropole en 2023: 251 points normaux & 36 points rapides'; and separately 'Orléans Métropole compte 54% des points de charge ouverts au public du département du Loiret soit 155 points de charge'. The report does not call the 287 'public'; its definition of normal points includes residential and company sites, while 155 is the public figure. '54% of those in the Loiret' is a garbled reading. SDIRVE drawn up in 2023 by the Métropole and the Loiret department is correct.",
+   "corrected_text": "The 2024 key-figures report counts 287 charge points in the metropolis in 2023 (251 normal and 36 fast; normal points include residential and company sites), against 531 in the Loiret. It also says the metropolis holds 54% of the publicly open charge points of the Loiret, 155 points. A charging masterplan (SDIRVE) was drawn up in 2023 by the Métropole and the Loiret department.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "PDF page 15 has the chart 'Évolution de la fréquentation annuelle des P+R' for 2018-2023 with series TRAM A, TRAM B and TOTAL A+B, and says P+R are 'parcs de stationnement automobile réservés aux utilisateurs des transports collectifs'; '12 P+R TRAM' and '4 P+R bus'. No numbers are quoted in the item, which is prudent because the chart labels extract jumbled. Note the report also says P+R allow parking 'gratuitement', which differs from the Tao rule that exit needs a valid ticket; the item does not repeat it.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Saint-Jean-de-Braye (Loiret) has the terminus of tram line B of the Orléans Métropole network. Its two tram park-and-rides, Gaudier Brzeska (214 spaces) and Clos du Hameau (204 spaces), are listed in the Métropole open-data file. Tao says the park-and-rides are reserved for Tao customers, with free entry and a valid ticket needed to exit; a 4.50-euro P+R ticket covers parking plus a same-day return trip for up to five people (tariffs stated as in force on 1 July 2025). The rules for the sites were updated on 1 October 2026. The rules name Keolis as operator while the open-data file names Effia stationnement, and this conflict is unresolved. The town sets local parking rules itself and leaves tram and bus matters to the Métropole. Its 2026 mayoral orders create small blue zones (rue de la Gare, 13 bays, 1h30; rue des Grazons, 4 bays, 1h30; 115 avenue Soulas, 7 bays, 30 minutes) and limit parking of any vehicle to 24 hours across the commune. For the RD960 town-centre renovation, a Métropole count found 18% average parking occupancy in the project area (year and method not stated); the existing car parks are kept and works were planned to start on 15 July 2026 for 9 months. One public charging station (rue Jean Zay, 2 points of 22 kW, Freshmile, in service since July 2021) appears in a 2023 Métropole dataset. The Métropole's urban mobility plan (PDU 2019-2028) is due to be replaced by a first mobility plan in 2028."
+}

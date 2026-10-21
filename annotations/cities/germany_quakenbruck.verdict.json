@@ -1,0 +1,85 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Page (undated, read 21 Oct 2026): 'Mehr als 500 innerstädtische Parkplätze ... ganz bequem und kostenlos abzustellen, unter anderem am großen Parkplatz Neuer Markt'. Also short-stay spaces ('Kurzzeitparkplätze') along Lange Straße, customer spaces in front of shops, disabled spaces, and parking at the station and Artland Arena ('Hinzu kommen'). Title matches. Note: the page does not say that the Lange Straße short-stay spaces or the station/Arena parking are free or part of the 500; the draft text keeps them separate, which is correct, but the draft summary merges them into the free count.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "CKQ page 'Parkplätze' (undated, read 21 Oct 2026): 'Kostenpflichtige Parkmöglichkeiten ... die erste halbe Stunde ist kostenlos, dann 1 Euro/Stunde - der Tageshöchstsatz beträgt 10 Euro'; 'Ermäßigungen sind daher leider nicht möglich'. All claims on the page. Source is the hospital itself, so it covers hospital car parks only.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Same CKQ page: 'Betreiber unserer Parkplätze ist die Osnabrücker Parkstätten Betriebsgesellschaft mbH'; 'Im Eingangsbereich darf keinesfalls geparkt werden'; 'Die Parkplätze sind unbewacht'. All as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Besuchszeiten/Anreise page (read 21 Oct 2026) repeats the 'Parken' block: P1 reserved for staff 05:00-14:00, visitors asked to use P2. Visiting hours 'täglich von 14:00 Uhr bis 19:00 Uhr', but with exceptions (intensive care, maternity, palliative patients) and special hours for psychiatry and psychosomatics. The claim 'so visitor demand falls mainly in the afternoon' is the researcher's inference and is not on the page.",
+   "corrected_text": "The hospital's page (read on 21 October 2026) says car park P1 is reserved for staff from 05:00 to 14:00 and asks visitors to use P2 during that time. General visiting hours are daily 14:00 to 19:00, with exceptions for intensive care, maternity and palliative patients and separate hours for psychiatry and psychosomatics.",
+   "corrected_title": null,
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "Disabled parking: 'direkt vor dem Haupteingang Haus 1 (Danziger Strasse), auf dem Wirtschaftshof und vor dem hinteren Eingang Haus 2 (Goethestrasse)' - correct. Rail: the page does not 'recommend' train travel; it lists train, car, long-distance bus and plane options. It says ICE/IC connect at Oldenburg and Osnabrück and from there Nord-West-Bahn trains run hourly. Car: A1/E3 (exit Lohne/Dinklage) and B68 - correct.",
+   "corrected_text": "The CKQ visitor page (read on 21 October 2026) places disabled parking directly in front of the main entrance of Haus 1 (Danziger Straße), in the service yard and in front of the rear entrance of Haus 2 (Goethestraße). For arrival it lists several options: ICE/IC connections at Oldenburg and Osnabrück with hourly Nord-West-Bahn trains onward, and by car via the A1 (exit Lohne/Dinklage) and the B68.",
+   "corrected_title": null,
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "bahnhof.de page (live, read 21 Oct 2026): 'An diesem Bahnhof vorhanden: Fahrradstellplätze, Parkplätze, Taxi'; 'Bahnhof ist nicht personalbesetzt'. No number of spaces or tariff on the page. Title matches (Bahnhof Quakenbrück).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Page (undated, read 21 Oct 2026): MOIN+ station funded via a BMDV programme; 'gesicherte Fahrradabstellstation mit insgesamt 40 Abstellplätzen', repair station, new bus shelter ('Buswartehalle'), information stele. Prices 1 EUR/day, 5 EUR/month, 50 EUR/year, booked via an online booking website (facilities described as app-controlled). BMDV is the ministry's former name; 'federal transport ministry' is fine.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Page (undated, read 21 Oct 2026): 'Seit dem 01. Juli 2024 ... an zehn ausgewählten Standorten im Landkreis Osnabrück ... um insgesamt zehn E-Autos erweitert'; 'In Quakenbrück sind zwei Stadtteilautos verfügbar' (VW ID3 at the station, Wilhelmstraße; Toyota ProAce City Verso E at Park der deutschen Einheit, Kolpingstraße). Reduced joining fee 14.50 EUR for residents of the municipalities. All numbers right, but the page is undated and live, so it shows the current offer as of 21 Oct 2026; it does not say the two Quakenbrück cars have been there continuously since 1 July 2024 - that date is the start of the district-wide expansion.",
+   "corrected_text": "The Samtgemeinde page (undated, read on 21 October 2026) says that since 1 July 2024, under the MOIN+ pilot, ten electric cars operated by stadtteilauto Osnabrück were added at ten sites in the district. Two are in Quakenbrück: one at the station (Wilhelmstraße) and one at the Park der deutschen Einheit (Kolpingstraße). The reduced joining fee for residents of the municipalities is 14.50 euro.",
+   "corrected_title": null,
+   "corrected_date": "2024-07-01"
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Page (undated, read 21 Oct 2026) lists for Quakenbrück: E-Auto-Ladestation am BIQ (Professor-von-Klitzing-Str. 9), Edeka (Hasestr. 13), Marktplatz (Markt 2). It says 'Aktuell wird an einer Erweiterung des Ladenetzes gearbeitet. Bisher sind die unten aufgeführten ... Stationen ... verfügbar.' The page lists stations; it gives no number of charge points per station and does not say 'public' or open to all (operators shown include Innogy, WAYDO). The Innogy branding suggests the list may be dated.",
+   "corrected_text": "The Samtgemeinde's charging list (undated, read on 21 October 2026) names three e-car charging stations in Quakenbrück: at the BIQ business park (Professor-von-Klitzing-Str. 9), at the Edeka store (Hasestr. 13) and at the Marktplatz (Markt 2). The page says the charging network is being extended; since it is undated, the list may be out of date. It gives no number of charge points per station.",
+   "corrected_title": null,
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Article on artland.de, created 21.10.2026, says 'Ab dem 1. Oktober wird das ÖPNV-Angebot in Menslage erweitert': moobil+ buses (line M07) call at two stops in Menslage (Merschstraße and Bahnhof), every two hours between 8 and 18, with connections towards Quakenbrück and via Löningen towards Cloppenburg; enabled by an agreement with Landkreis Cloppenburg. The mayor's quote speaks of reaching Quakenbrück etc. without one's own car. But the year is not stated, and an article dated 21 Oct 2026 that says 'from 1 October' with 'the exact timetable will be announced shortly' is internally unclear: 1 October 2026 had already passed. 'From 1 October 2026' is therefore not confirmed. Also the page does not say that the 'every two hours' pattern applies to the whole day or that service had started.",
+   "corrected_text": "A Samtgemeinde Artland news item dated 21 October 2026 announces that 'from 1 October' (year not stated) the moobil+ bus line M07 will call at two stops in Menslage (Merschstraße and the station), every two hours between 8:00 and 18:00, with connections towards Quakenbrück and, via Löningen, towards Cloppenburg. The exact timetable was still to be announced. The municipality presents this as another way to reach Quakenbrück without a car. Menslage is a neighbouring municipality, not Quakenbrück itself.",
+   "corrected_title": null,
+   "corrected_date": "2026-10-21"
+  }
+ ],
+ "corrected_summary": "Quakenbrück is a small Hanseatic town in the Artland (Landkreis Osnabrück), administered by the Samtgemeinde Artland. The Samtgemeinde's tourism page, read on 21 October 2026, says more than 500 inner-city parking spaces can be used free of charge, among them the large Neuer Markt car park; it also lists short-stay spaces along Lange Straße, customer spaces in front of shops, disabled spaces and parking at the railway station and the Artland Arena, without saying whether those are free. The Christliches Krankenhaus Quakenbrück says its car parks are paid (first 30 minutes free, then 1 euro per hour, 10 euro daily maximum) and are operated by Osnabrücker Parkstätten Betriebsgesellschaft mbH; car park P1 is reserved for staff from 05:00 to 14:00. On mobility alternatives, the Samtgemeinde describes a MOIN+ mobility station at the station with 40 secured bicycle spaces, two stadtteilauto electric cars in Quakenbrück (part of a district-wide expansion that began on 1 July 2024), and an undated list of three charging stations. An item dated 21 October 2026 announces a moobil+ bus extension to Menslage from 1 October (year not stated). No council decisions, fee ordinances or press coverage on parking could be read, because the town website could not be opened securely and the local press sites were not accessible."
+}

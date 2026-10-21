@@ -1,0 +1,143 @@
+{
+ "country": "Germany",
+ "city": "Dülmen",
+ "researched": "2026-10-21",
+ "summary": "Dülmen (Kreis Coesfeld) runs its centre parking itself: its website counts about 650 paid spaces, 630 free long-stay spaces, 300 parking-disc spaces and 300 private customer spaces, with a numbered parking guidance system and mobile payment (1.50 euros per hour on the city service page). The 2023 ISEK traffic study found the free car parks at the western edge (Am Wasserturm, Altes Mesem) heavily used, the paid Nonnengasse car park (over 90 spaces) often full at shop hours, and the underground garage of the Stadtquartier Overbergplatz (about 160 spaces, privately owned per the charging concept, paid) clearly under-used, typically about one-third occupied. Following the consultant's advice to bring centre fees up to the garage's level, the council approved on 14 March 2024 a seventh amendment of the parking fee ordinance, with the increase planned for 1 July 2024; the October 2024 mobility concept says centre fees were raised in spring 2024. The same concept sees no need for new car parks or parking decks, proposes examining resident-only zones south of Lüdinghauser/Borkener Straße and a reduction of short-stay spaces, and describes the rebuilt station (opened August 2023) with about 260 park-and-ride spaces, plus a planned mobility station with EV charging at Nonnengasse. A November 2024 charging concept counted 42 public charge points at the end of 2023 and ranks the Overbergplatz garage first among proposed charging sites. The garage operator (the brief mentions APAG) and its current tariff could not be confirmed from any page opened.",
+ "items": [
+  {
+   "topic": "demand",
+   "date": "2023-09",
+   "text": "The ISEK analysis lists the Overbergplatz underground garage (about 160 spaces) as the second-largest parking capacity in the centre, paid and clearly less used than the free car parks Am Wasserturm (220 spaces) and Altes Mesemgelände (just under 130 spaces), which are free and heavily used, especially by people working in the centre.",
+   "source_title": "ISEK Innenstadt Dülmen, Abschlussbericht Langfassung (Stadt Dülmen, September 2023)",
+   "source_url": "https://www.duelmen.de/fileadmin/user_upload/duelmen.de/Stadtentwicklung/Dokumente/ISEK_Abschlussbericht.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2023-09",
+   "text": "The ISEK describes the Nonnengasse car park (over 90 spaces, on the site of the demolished Woolworth building) as very popular despite fees and heavily to fully used during shop hours; it also concludes that the centre has enough parking but that parking-search traffic burdens main and shopping streets.",
+   "source_title": "ISEK Innenstadt Dülmen, Abschlussbericht Langfassung (Stadt Dülmen, September 2023)",
+   "source_url": "https://www.duelmen.de/fileadmin/user_upload/duelmen.de/Stadtentwicklung/Dokumente/ISEK_Abschlussbericht.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-10",
+   "text": "According to the mobility concept, the ISEK traffic study found free long-stay car parks 90-100 percent occupied at certain times of day, enough spaces in the centre at all times, and the recent underground garage at the Overbergplatz usually only about one-third occupied.",
+   "source_title": "Mobilitätskonzept für Dülmen (Stadt Dülmen, Endfassung, Stand Oktober/November 2024)",
+   "source_url": "https://www.duelmen.de/fileadmin/user_upload/duelmen.de/Mobilitaet/dokumente/Mobilit%C3%A4tskonzept.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-10",
+   "text": "The mobility concept says the parking survey found Dülmen's fees low compared with other medium-sized towns and the consultant advised raising them moderately to the Overbergplatz garage's level (which was somewhat dearer than the rest of the centre); it states the centre's fees were raised by ordinance in spring 2024. No tariff figures are given.",
+   "source_title": "Mobilitätskonzept für Dülmen (Stadt Dülmen, Endfassung, Stand Oktober/November 2024)",
+   "source_url": "https://www.duelmen.de/fileadmin/user_upload/duelmen.de/Mobilitaet/dokumente/Mobilit%C3%A4tskonzept.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-03-14",
+   "text": "On 14 March 2024 the council approved (39 yes, 2 no) the 7th amendment to the parking fee ordinance for pay-and-display machines (original of 14.05.1992, last amended 23.09.2022) and told the Stadtbetriebe Dülmen GmbH shareholders to set the Nonnengasse fee at 0.75 euros per half hour. The increase was to be applied from 1 July 2024; the amended fee table was not in the document read.",
+   "source_title": "Bekanntgabe der wesentlichen Beschlüsse Stadtverordnetenversammlung 14.03.2024 (Stadt Dülmen)",
+   "source_url": "https://www.duelmen.de/fileadmin/user_upload/medien/bekanntmachungen/20240315_Bekanntgabe_der_wesentl._Beschl%C3%BCsse_SV_14.03.2024.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The city's service page (undated, read on 21 October 2026) gives the mobile-payment price as 1.50 euros per hour, with 0.75 euros for the first 30 minutes (minimum fee) and 0.05 euros per further 2 minutes, and a maximum parking duration of two or three hours depending on zone.",
+   "source_title": "Parken in Dülmen - Serviceportal Dülmen",
+   "source_url": "https://serviceportal.duelmen.de/detail/-/vr-bis-detail/dienstleistung/329/show",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "The city page (undated, read on 21 October 2026) counts about 630 free long-stay spaces, 300 spaces with parking disc, 650 paid spaces, 20 short-stay spaces (free for up to 10 minutes), 50 accessible spaces and 300 private customer spaces around the centre.",
+   "source_title": "Stellplätze / Parkleitsystem (Stadt Dülmen)",
+   "source_url": "https://www.duelmen.de/parken",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "The city page (undated, read on 21 October 2026) describes a parking guidance system of large signs on arterial roads with parking zones numbered clockwise around the centre, and smartphone parking checked by enforcement staff on their handheld devices.",
+   "source_title": "Stellplätze / Parkleitsystem (Stadt Dülmen)",
+   "source_url": "https://www.duelmen.de/parken",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-10",
+   "text": "The mobility concept sees no current need to add capacity: parking decks at the Mesem and former Stadtwerke sites were discussed in the ISEK but the existing supply was kept and will be monitored. It proposes examining resident-only parking zones south of Lüdinghauser/Borkener Straße (high parking pressure) and reviewing the 30-plus short-stay spaces, which generate search traffic.",
+   "source_title": "Mobilitätskonzept für Dülmen (Stadt Dülmen, Endfassung, Stand Oktober/November 2024)",
+   "source_url": "https://www.duelmen.de/fileadmin/user_upload/duelmen.de/Mobilitaet/dokumente/Mobilit%C3%A4tskonzept.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-10",
+   "text": "The mobility concept notes the hospital (Christophorus-Kliniken) has long needed more spaces and plans a car park at Lüdinghauser Straße/Am Stadtgarten as a future relief, and that the city is to check whether 'smart parking' can be introduced under its digitalisation strategy.",
+   "source_title": "Mobilitätskonzept für Dülmen (Stadt Dülmen, Endfassung, Stand Oktober/November 2024)",
+   "source_url": "https://www.duelmen.de/fileadmin/user_upload/duelmen.de/Mobilitaet/dokumente/Mobilit%C3%A4tskonzept.pdf",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-03-14",
+   "text": "The Nonnengasse car park is run by the city-owned Stadtbetriebe Dülmen GmbH (the council instructed its shareholders' representatives on the fee), while the Overbergplatz underground garage is listed as privately owned in the charging concept (operator not named in any page read).",
+   "source_title": "Bekanntgabe der wesentlichen Beschlüsse Stadtverordnetenversammlung 14.03.2024 (Stadt Dülmen)",
+   "source_url": "https://www.duelmen.de/fileadmin/user_upload/medien/bekanntmachungen/20240315_Bekanntgabe_der_wesentl._Beschl%C3%BCsse_SV_14.03.2024.pdf",
+   "confidence": "medium"
+  },
+  {
+   "topic": "ev",
+   "date": "2024-11-15",
+   "text": "The charging concept counts 42 publicly accessible charge points in Dülmen at the end of 2023 and expects 129 by 2030; it estimates up to 101 (conservative) to 215 (progressive) additional points needed by 2035.",
+   "source_title": "Kommunales Ladeinfrastrukturkonzept Stadt Dülmen, Abschlussbericht (EE ENERGY ENGINEERS, 15.11.2024)",
+   "source_url": "https://duelmen.de/fileadmin/user_upload/duelmen.de/Umwelt-_und_Klimaschutz/dokumente/2024-11-21_Final_Abschlussbericht_Ladeinfrastrukturkonzept_D%C3%BClmen.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2024-11-15",
+   "text": "The charging concept ranks the Overbergplatz garage first of all inspected sites (score 85 of 100) as a proposed AC charging location, and says two existing sites (station and Nonnengasse) were to be upgraded in 2025 with the operator GFC.",
+   "source_title": "Kommunales Ladeinfrastrukturkonzept Stadt Dülmen, Abschlussbericht (EE ENERGY ENGINEERS, 15.11.2024)",
+   "source_url": "https://duelmen.de/fileadmin/user_upload/duelmen.de/Umwelt-_und_Klimaschutz/dokumente/2024-11-21_Final_Abschlussbericht_Ladeinfrastrukturkonzept_D%C3%BClmen.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2024-10",
+   "text": "The mobility concept plans a mobility station at the Nonnengasse car park (funding application June 2024, implementation planned for 2025) with secure bike parking and extra EV and pedelec charging; construction depended on a funding decision.",
+   "source_title": "Mobilitätskonzept für Dülmen (Stadt Dülmen, Endfassung, Stand Oktober/November 2024)",
+   "source_url": "https://www.duelmen.de/fileadmin/user_upload/duelmen.de/Mobilitaet/dokumente/Mobilit%C3%A4tskonzept.pdf",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-08",
+   "text": "The rebuilt Dülmen station was officially opened on 11 August 2023 with park-and-ride South (about 180 spaces), park-and-ride East at Baumschulenweg (about 80 spaces) and a two-storey bicycle parking garage for about 700 bikes, booked by app.",
+   "source_title": "Bahnhof Dülmen (Stadt Dülmen)",
+   "source_url": "https://www.duelmen.de/bahnhof",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-10",
+   "text": "The mobility concept says about 250 park-and-ride spaces were newly created at the station, giving about 450 spaces at the site, and the hub also offers EV and pedelec charging.",
+   "source_title": "Mobilitätskonzept für Dülmen (Stadt Dülmen, Endfassung, Stand Oktober/November 2024)",
+   "source_url": "https://www.duelmen.de/fileadmin/user_upload/duelmen.de/Mobilitaet/dokumente/Mobilit%C3%A4tskonzept.pdf",
+   "confidence": "high"
+  }
+ ],
+ "gaps": [
+  "Operator of the Overbergplatz garage (APAG or other) and its current tariff not found: no opened page names an operator or price; the garage is described only as paid, privately owned and about 160 spaces",
+  "Amended fee table (VII. Änderung der Parkgebührenordnung, effective 1 July 2024) not read; the council notice does not include the annex, so the exact centre tariff in force is not confirmed beyond the city's service page",
+  "Press (Westfälische Nachrichten, Dülmener Zeitung) not used: web search budget was exhausted and wn.de is not reachable by the search tool; no press article opened",
+  "Resident parking permit regulations and fees not found; duelmen.de/fileadmin/.../Parkplatzkarte_01.pdf (resident/business zones map) is a map only and was not usable",
+  "bahnhof.de/duelmen/parkplaetze (DB) gives inconsistent P+R counts (65 and 77 at Baumschulenweg) and no tariffs, so it was not used"
+ ]
+}

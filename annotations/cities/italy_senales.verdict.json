@@ -1,0 +1,107 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Register at gemeinde.schnals.bz.it (sgvbeschluesse.aspx, searched with the site's own public search URL): Gemeinderat 15.05.2023 Nr.23 'Grundsatzbeschluss betreffend die Parkplatzbewirtschaftung in Kurzras und Abschluss einer Konvention mit der Schnalstaler Gletscherbahnen AG' and Nr.24 'Parkplatzbewirtschaftung in Kurzras - Abgrenzung der Flächen - Genehmigung der Konvention' (CIG Z293B0C64C) exist with those numbers and date. The titles say car-park management (Bewirtschaftung), not 'charging'; the word charging is an inference. No download or attachment is linked for either entry.",
+   "corrected_text": "On 15 May 2023 the Gemeinderat of Schnals took a basic decision (no. 23) on car-park management (Parkplatzbewirtschaftung) in Kurzras and the conclusion of a convention with the Schnalstaler Gletscherbahnen AG, and approved that convention delimiting the areas (no. 24). Only the register titles are published; no documents are attached online, so the content and any charging rules are unknown."
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "Register at gemeinde.schnals.bz.it (sgvbeschluesse.aspx, searched with the site's own public search URL): Gemeinderat 13.11.2024 Nr.39 'Grundsatzbeschluss betreffend die geregelte Parkplatzbewirtschaftung in Kurzras und Abschluss einer entsprechenden Konvention mit der Schnalstaler Gletscherbahnen AG' and Nr.40 'Geregelte Parkplatzbewirtschaftung in Kurzras - Abgrenzung der Flächen - Genehmigung der Konvention' exist. Titles say regulated car-park management, not charging; the word 'new' convention is not in the title (it follows the 2023 entry but that is inference). No attachments.",
+   "corrected_text": "On 13 November 2024 the Gemeinderat of Schnals again took a basic decision (no. 39) on regulated car-park management (geregelte Parkplatzbewirtschaftung) in Kurzras and the conclusion of a convention with the Schnalstaler Gletscherbahnen AG, and approved the convention delimiting the areas (no. 40). Only the register titles are published, so the content of the convention is unknown."
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Page read in full: Outdoor Parking about 100 m from the valley station; 'Von 00:00 - 17:00 Uhr: Freiparkdauer 60 min, Tagesticket 6,00 EUR, jeder weitere Tag 12,00 EUR; Von 17:00 - 24:00 Uhr keine Bezahlung erforderlich; Bei versäumter Bezahlung werden pro Tag 80,00 EUR berechnet'. All figures match (60 min, not the 120 min of third-party listings; I did not open those listings). Problem: the page says 'Schrankenloses Parken' (no barrier/gate), which the draft renders as 'barrier-free', a term readers will take as step-free accessibility. Page is undated, so date 2026-10 and 'read 21 October 2026' is right.",
+   "corrected_text": "The Gletscherbahnen page, read on 21 October 2026, lists the outdoor car park about 100 m from the valley station in Kurzras as gateless (no barrier or ticket; the number plate is recorded automatically): 60 minutes free from 00:00 to 17:00, then a day ticket of 6 euro and 12 euro for each further day; no payment is required from 17:00 to 24:00. Unpaid stays are charged 80 euro per day. The page is undated."
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Same Anreise page: 'Die Parkraumbewirtschaftung erfolgt durch die Mobility Hub Parkservice Italia S.R.L.'; pay at the Kassenautomat (cash coins only, card, Apple/Google Pay), online via QR code within 24 hours after leaving the car park, and 'Auch die Bezahlung über EasyPark ist möglich'. All as written. Page undated, read 21 Oct 2026 as stated."
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "Indoor Parking: 'etwa 40 Stellplätze', 1,50 EUR per hour, maximum 18,00 EUR per day, contactless at the exit, automatic card cash desk accessible 24h next to the ticket counter (cash at the ticket counter until 16:30). Those claims match. Disabled bays are wrong: the current page lists two paid bays in the Tiefgarage plus ONE free bay outside (three in total, the page text even has the singular 'ein kostenloser ... Parkplätze'), and does not say 'four'. The older 28.03.2025 news item says four (2+2).",
+   "corrected_text": "The page read on 21 October 2026 gives the indoor car park at the Kurzras valley station as about 40 spaces at 1.50 euro per hour with a daily maximum of 18 euro, payable at the exit by contactless card or at a card machine accessible 24 hours (cash at the ticket counter until 16:30). The page signs three disabled bays: two paid ones in the underground garage and one free one outside directly in front of it."
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "News item 'Vieles NEU in der Alpin Arena Schnals', dated 28.03.2025: Indoor Parking 'rund 40 Stellplätze', 'Pro Stunde 2,50 EUR, Maximal pro Tag 24,00 EUR'. Matches. The comparison with the undated current page (1.50 / 18 EUR) is hedged ('apparently lowered') and fair; the reason and date of any change are unknown. Note the same news item names four disabled bays (2 indoor + 2 outside), the current page three."
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "Bautagebuch: entry 22 'Fertiggestellt - Die Talstation ist fertiggestellt!' dated 23.12.2024; intro: second building phase (2. Baulos) started 8 April 2024; new Gletscherbahn opened 23 December (2023); entry 16 (02.01.2024): about 2,150 m, about 1,180 m height gain, less than 6 minutes, in operation at Christmas 2023. All that matches. The 44-space figure comes only from entry 20 (19.09.2024): 'Der Rohbau der Tiefgarage mit 44 Stellplätzen ist abgeschlossen' (shell construction complete), i.e. a build-stage figure; the operator's own current page and the 28.03.2025 news say about 40 spaces. The draft does not flag this discrepancy.",
+   "corrected_text": "The construction diary of the Schnalstaler Gletscherbahnen reports that the new valley station in Kurzras was completed on 23 December 2024; the second building phase had started in April 2024 and included an underground garage, a restaurant and a covered access to the cable car. A diary entry of 19 September 2024 says the shell of the underground garage 'with 44 spaces' was finished, whereas the operator's parking page and a March 2025 news item give about 40 spaces. The new reversible cable car (about 2,150 m long, about 1,180 m of height gain, under 6 minutes) went into operation at Christmas 2023."
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Register at gemeinde.schnals.bz.it (sgvbeschluesse.aspx, searched with the site's own public search URL): Gemeinderat 29.04.2026 Nr.19 'Einführung der gebührenpflichtigen Parkzonen in Vernagt.' Matches title, number, date and body. No attachment linked, so tariffs and zones are unknown as the draft says. (Related register entries: Fuchs Technik ticket machines for the Vernagt car park ordered 30.04.2024, paper rolls for the Vernagt Parkscheinautomaten 08.07.2026.)"
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Register at gemeinde.schnals.bz.it (sgvbeschluesse.aspx, searched with the site's own public search URL): Gemeindeausschuss 06.05.2026 Nr.232 'Genehmigung der Vereinbarung mit der Fa. EasyPark Italia GmbH aus Mailand betreffend die Bezahlung der Parkgebühren über das System EasyPark' and Nr.233 'Genehmigung der Vereinbarung mit der Fa. Nexi Payments AG aus Mailand betreffend die Bezahlung der Parkgebühren über den Dienst Pagobancomat'. Numbers, date and subjects match. The sentence 'This fits the start of the paid zones in Vernagt' is speculation not in the titles; 'municipality's' is implied but not in the title.",
+   "corrected_text": "On 6 May 2026 the Gemeindeausschuss approved an agreement with EasyPark Italia GmbH of Milan (resolution no. 232) on paying parking fees through the EasyPark system, and an agreement with Nexi Payments of Milan (no. 233) on paying parking fees through the Pagobancomat service. The register titles do not name the location or the start date of any charging; only titles are published."
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Register at gemeinde.schnals.bz.it (sgvbeschluesse.aspx, searched with the site's own public search URL): Gemeindeausschuss 13.05.2026 Nr.236 'Genehmigung der Auflagen für die Nutzung einer Fläche - Teile der Gpp. 262/2, 263/1 und 1212/1 K.G. Unserfrau - als provisorischer Parkplatz in der Örtlichkeit Vernagt für das Jahr 2026'. 2024/2025: Nr.346 (24.07.2024) and Nr.331 (23.07.2025) commission Kofler Lukas & Co. OHG with building a temporary car park in Vernagt; Nr.392 (10.09.2025) 'Liquidierung der Entschädigung für die zeitweilige Grundbesetzung und für den Ernteausfall wegen der Errichtung eines zeitweiligen Parkplatzes in Vernagt in den Jahren 2024 und 2025'. All matches. (Later register entries also exist: Nr.316 of 30.06.2026 on compensation and Nr.327 of 08.07.2026 on another temporary car park.)"
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Register at gemeinde.schnals.bz.it (sgvbeschluesse.aspx, searched with the site's own public search URL): Car park: Nr.208 (23.04.2025) approves the Endstand of 'Parkplatzgestaltung in Vernagt und Errichtung eines Verbindungsgehsteigs'; Nr.275 (25.06.2025) certificate of proper execution and release of the bond; Nr.479 (29.10.2025) road-marking and signage at the Vernagt car park by Sanin GmbH. Those match. 'Parkplatzgestaltung' is car-park layout/design works (not just a design study). Toilets: the register shows works commissioned 2023, invoices December 2024 (Nr.637, 638), expenditure commitment 27.12.2024 (Nr.673), final state approved 23.04.2025 (Nr.209), bond released 25.06.2025 (Nr.276); so 'built in 2024' is not supported, they were completed in 2025.",
+   "corrected_text": "The register shows the Vernagt car-park layout works with a connecting pavement (Parkplatzgestaltung) were closed out in 2025 (final state of works approved 23 April 2025; certificate of proper execution and release of the bond on 25 June 2025). The public toilets at Vernagt were built in a separate project, tendered in 2023, with the final state of works approved on 23 April 2025 and the bond released on 25 June 2025. A contract for road markings and signage at the Vernagt car park followed on 29 October 2025. Only register titles are published."
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Register at gemeinde.schnals.bz.it (sgvbeschluesse.aspx, searched with the site's own public search URL): Gemeindeausschuss 30.10.2024 Nr.514 'Beauftragung des Büro Planpunkt GmbH ... mit der Ausarbeitung einer technisch-ökonomischen Variantenuntersuchung für die Verbesserung der Parkplatzsituation in Karthaus' and 27.12.2024 Nr.676 'Machbarkeitsstudie für einen Parkplatz in Karthaus - technische Beauftragung: Verpflichtung der Ausgabe'. Matches (the second is formally the commitment of expenditure for the technical commissioning). Karthaus as municipal seat: municipal address is Karthaus 100. A search of the register for Karthaus/Park found no building decision; Nr.587 (27.11.2024) only orders removal of speed humps and adaptations at the Karthaus car park."
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Register at gemeinde.schnals.bz.it (sgvbeschluesse.aspx, searched with the site's own public search URL): Gemeinderat 20.12.2023 Nr.62 'Raumordnung und Bauwesen - Festlegung des als Ersatz für die Errichtung von Parkplätzen bei Neubauten und Erweiterungen geschuldeten Beitrages gemäß Art. 7, Abs. 1 des DLH Nr. 17 vom 07.05.2020.' DLH = Dekret des Landeshauptmanns (provincial decree). Matches; amount not in title."
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Register at gemeinde.schnals.bz.it (sgvbeschluesse.aspx, searched with the site's own public search URL): Nr.254 (18.06.2025): 'Gewährung eines Beitrages an die Tourismusgenossenschaft Schnalstal für die Durchführung des Skibusdienstes 2023/2024, für die Instandhaltung von Spazier- und Wanderwegen und für Marketingmaßnahmen im Jahr 2025' - the draft leaves out that it also covers trails and marketing. Nr.562 (20.11.2024): Kofler Lukas & Co. OHG commissioned with 'zwei Bodenplatten für die Bushaltestellen in Kurzras' (two ground slabs for bus stops; 'new' is not in the title). Nr.196 (15.04.2026): 'Anpassung und Versetzung der Bushaltestellen auf der Landesstraße LS3 in der Ortschaft Vernagt - Beauftragung ... mit der Ausführung von verschiedenen technischen Leistungen' (technical services, later works contract Nr.263 of 27.05.2026). 'Public transport in the valley is supported locally' is a generalisation.",
+   "corrected_text": "On 18 June 2025 the Gemeindeausschuss granted a contribution to the Tourismusgenossenschaft Schnalstal for running the ski bus service (the title refers to 2023/24), for trail maintenance and for marketing in 2025. On 20 November 2024 it commissioned the construction of two ground slabs for bus stops in Kurzras, and on 15 April 2026 it commissioned technical services for adapting and relocating the bus stops on provincial road LS3 in Vernagt. Only register titles are published."
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Anreise page: 'Die Straße ins Schnalstal ist bis Kurzras geteert und ganzjährig befahrbar ... Die Linie 261 verkehrt stündlich von Meran bis nach Kurzras.' Caravan park page https://www.caravanpark-schnals.com/de/schnalstal/anreise-mobilitaet (not the cited source_url, but I read it): 'Ein Linienbus verkehrt tagsüber im Stundentakt von Kurzras ...' and SkibusCard free on Linienbusse/Skibusse 'nur innerhalb des Schnalstals' from October to early May. All matches. Reliability: the two pages differ in scope; the official page says 261 runs from Meran, while a 2022 Südtirolmobil announcement said direct Meran services of 261 would be cancelled; current routing remains unconfirmed. The source_url given covers only the first two claims."
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Page (English and German versions) is dated 05.12.2022 (HTML datePublished 2022-12-05; German version shows 05.12.2022); the displayed '12/05/2022' is US month/day format, so the draft's 12 May 2022 is wrong. The text is future tense: 261 Naturns - Schnalstal gets additional early-morning and evening trips and 'continuous hourly services also on Sundays'; 'Direct services to Merano/Meran will be suspended' (German: 'werden gestrichen'), change to line 251 or the train in Naturns. The draft words these as already done.",
+   "corrected_date": "2022-12-05",
+   "corrected_title": "More bus connections in the peripheries (Südtirolmobil news, 05.12.2022)",
+   "corrected_text": "A Südtirolmobil news item dated 5 December 2022 announced more services on line 261 Naturns - Schnalstal (additional early-morning and evening trips and continuous hourly service also on Sundays) and said direct services to Meran on line 261 would be cancelled, with passengers changing to line 251 or the train in Naturns. The Gletscherbahnen page now says line 261 runs hourly from Meran to Kurzras, so the current routing is unconfirmed."
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Caravan park price page: daily price per vehicle 46/41/36 EUR across periods from 27.06.2026 to 09.05.2027, electricity and persons on board included. Home page: 'Auf 40 Stellplätzen ... Die Einfahrt ist rund um die Uhr möglich'. 'Wissenswertes': 'Es sind 80 Stellplätze'. Availability page: booking only online; QR code needed to open the barrier (Schranke) on arrival. All as written; 40 vs 80 contradiction on the operator's own pages is real. Only the price claims are on the cited source_url; the rest are on the operator's other pages."
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "Gem2go page 'Zahlen und Fakten': 'Einwohner mit Stand am 31.12.2025: 1229'. The figure is right. The second half (visitors, not residents, drive parking demand) is the researcher's inference and appears nowhere on the page.",
+   "corrected_text": "The municipality of Schnals had 1,229 inhabitants at 31 December 2025."
+  }
+ ],
+ "corrected_summary": "Senales (Schnals, population 1,229 at 31 December 2025) is a South Tyrolean valley municipality whose parking centres on the glacier ski area at Kurzras at the valley head, reached by a road that is asphalted and open all year. The operator says bus line 261 runs hourly from Meran to Kurzras, while a 2022 provincial notice announced that direct Meran services would be cancelled with a change at Naturns, so current routing is unconfirmed. The Gemeinderat took decisions on car-park management in Kurzras and conventions with the Schnalstaler Gletscherbahnen AG in May 2023 and November 2024, but only the register titles are published. On the operator's page, read on 21 October 2026, the outdoor car park by the valley station is gateless with number-plate recognition, run by Mobility Hub Parkservice Italia, with 60 minutes free, 6 euro a day and nothing to pay from 17:00 to 24:00, and the indoor car park (about 40 spaces, with the rebuilt valley station completed in December 2024) charges 1.50 euro per hour up to 18 euro a day; a March 2025 news item quoted 2.50 euro per hour and 24 euro a day. In Vernagt the municipality finished a car park and toilets in 2025, runs temporary car parks (2024 to 2026), and decided to introduce paid parking zones on 29 April 2026, with EasyPark and Pagobancomat payment agreements approved on 6 May 2026; tariffs and start dates are unknown. A feasibility study for a car park in Karthaus was commissioned in December 2024. The Caravan Park Schnals at Kurzras is barrier-controlled with online booking; its own pages state 40 and 80 pitches. No information on EV charging was found. Most municipal evidence consists of register titles only."
+}

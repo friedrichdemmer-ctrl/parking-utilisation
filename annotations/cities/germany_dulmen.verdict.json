@@ -1,0 +1,133 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "ISEK Abschlussbericht Langfassung (Dülmen/Dortmund, September 2023), p.34: Am Wasserturm 220 spaces and Altes Mesemgelände 'knapp 130' spaces, both free and therefore heavily used, first choice for people employed in the centre; Tiefgarage Stadtquartier Overbergplatz 'rd. 160 Plätze', second-largest capacity, 'bewirtschaftet und deutlich schwächer ausgelastet'. All claims match. Note the ISEK long report itself gives no 'one-third' figure and names no owner or operator.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "ISEK p.34 matches on Nonnengasse: over 90 spaces, built on the site of the demolished Woolworth building, 'trotz Parkgebühren sehr beliebt', 'zu Geschäftszeiten stark bis vollständig ausgelastet', and 'ausreichendes Parkplatzangebot'. But the ISEK says the heavy use of the main road system and parking-search traffic cause conflicts with other modes and burden residents; the wording about burdening 'main and shopping streets' comes from the 2024 mobility concept, not from the ISEK page cited.",
+   "corrected_text": "The ISEK describes the Nonnengasse car park (over 90 spaces, built on the site of the demolished Woolworth building) as very popular despite parking fees and heavily to fully used during shop hours. It concludes that the centre has an adequate supply of parking, and that heavy traffic on the main road system and parking-search traffic cause conflicts with other road users and burden residents.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Mobilitätskonzept (signed 'Dülmen, Oktober 2024'), section 4.5 p.29: in the ISEK traffic study the free long-stay car parks are 90-100% occupied at certain times, enough spaces at all times; section 4.5.4 p.31: the parking survey part of the study found the recent Tiefgarage at Overbergplatz 'zumeist nur zu einem Drittel ausgelastet'. All match. The title suffix 'Endfassung' does not appear in the document text; the document is dated October 2024 and mentions a council committee on 13.11.2024 as upcoming.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Mobilitätskonzept 4.5.4 p.31: fees are low compared with other medium-sized towns; the Tiefgarage fees are 'etwas höher' than elsewhere in the centre; the consultant advised raising fees moderately to the garage level; 'Durch eine entsprechende Verordnung sind die Parkgebühren für die Innenstadt im Frühjahr 2024 erhöht worden.' No tariff figures given. All match. Caution: the council notice (item 4) sets 1 July 2024 for the increase on city areas, while the concept says 'spring 2024', so the exact effective date is not consistent across sources.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Council notice (Bekanntgabe, session of 14.03.2024, item 6, 057/2024): result 'mehrheitlich angenommen, Ja 39 Nein 2 Enthaltung 0'; VII. amendment of the Parkgebührenordnung (of 14.05.1992, in the version of the VI. amendment of 23.09.2022); the shareholders' meeting members of Stadtbetriebe Dülmen GmbH are instructed to decide a Nonnengasse fee of 0.75 euro per started half hour; the increase 'soll' be implemented together with the increase for city-owned areas on 01.07.2024. The text is worded as planned, as the notice itself is a decision, not proof of implementation. The annex with the fee table is not in the PDF (9 pages read), as the draft states. Notice filename dated 15 March 2024.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Serviceportal page has no date. Text read 21 October 2026: Smartparking price '1,50 EUR pro Stunde; 0,75 EUR für die ersten 30 Minuten (Mindestgebühr); 0,05 EUR für jeweils 2 weitere Minuten'; maximum parking duration 'je nach Parkzone zwei oder drei Stunden'. All match. Caveat: the page cannot be tied to a date, so it is unknown whether the 1.50 euros per hour reflects the 2024 fee increase; the price is the mobile-payment price, not a machine tariff table.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "duelmen.de/parken, undated, read 21 October 2026: ca. 630 free long-stay, ca. 300 with parking disc, ca. 650 paid, ca. 20 short-stay spaces (free up to 10 minutes), ca. 50 accessible, ca. 300 private customer spaces. All match. Note: the 2024 mobility concept mentions 'über 30' short-stay spaces, so the counts differ by source and date; both are approximate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "duelmen.de/parken, undated, read 21 October 2026: large signs on the main roads, parking zones numbered clockwise around the centre; Smartparking linked to the mobile devices of the city enforcement staff (Fachbereich Bürgerdienst und Ordnung). Matches; the Serviceportal page says the same about the Ordnungsamt.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Mobilitätskonzept 4.5.1/4.5.2/4.5.5 pp.29-31: no current need to expand supply ('Ein aktueller Handlungsbedarf ... wird daher nicht gesehen'); parking decks at the Mesem and old Stadtwerke sites were discussed in the ISEK but the current supply is left as it is and observed; the consultant proposes resident-only zones south of Lüdinghauser/Borkener Straße (high parking pressure), to be examined in the Marktstraße redesign (table says from 2029); 'über 30 Kurzzeitstellplätze', consultant recommends reducing them, to be decided street by street. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Mobilitätskonzept 4.5.2 p.30: at the hospital there has long been a need for more spaces; the Parkhaus 'perspektivisch geplant' by the Christophorus-Kliniken at Lüdinghauser Straße/Am Stadtgarten 'könnte hier zu einer Entlastung beitragen'; 'Vor dem Hintergrund der Digitalisierungsstrategie ... ist zu prüfen, ob Formen des Smarten Parkens umgesetzt werden können'. Matches (hospital plan is a possibility, as the draft words it).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "The cited council notice only shows that the council instructed the members of the Stadtbetriebe Dülmen GmbH shareholders' meeting to decide a higher fee for the Nonnengasse car park and that the GmbH management is to implement it. It does not state that the GmbH runs the car park or that the GmbH is city-owned (inferred from the council instructing its shareholders). The claim about Overbergplatz is not in this source: it is in the Ladeinfrastrukturkonzept (15.11.2024), Table 21/26 and Annex 9.17: Overbergplatz 4, 'Eigentumsverhältnisse Privat', 'Art der Stellfläche Parkhaus'; no operator is named in any page read (APAG not found anywhere in the documents read).",
+   "corrected_text": "A council decision of 14 March 2024 instructed the representatives in the shareholders' meeting of Stadtbetriebe Dülmen GmbH to set a higher fee of 0.75 euros per started half hour for the Nonnengasse car park, to be implemented by the company's management together with the increase on city-owned areas on 1 July 2024. The notice does not say who operates the car park. The Overbergplatz underground garage is listed as privately owned (parking structure) in the November 2024 charging concept; no page read names its operator.",
+   "corrected_title": null,
+   "corrected_date": "2024-03-14"
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Ladeinfrastrukturkonzept (EE ENERGY ENGINEERS, Abschlussbericht 15.11.2024, 111 pages), Table 1 p.9: existing publicly accessible charge points end of 2023 = 42; planned new to end 2025 = 14; new to 2030 = 74; total 2030 = 129. Table 2: additional points needed by 2035: 101 (conservative), 156 (central), 215 (progressive). All match (draft omits the central scenario).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Ladeinfrastrukturkonzept Table 21 and Table 26 / Annex 9.17: Standortprofil ID 14 StadtQuartier Overbergplatz, Overbergplatz 4, private, Parkhaus, proposed AC, Gesamtbewertung 85, 'Ranking im Vergleich zu allen Standorten 1'; final report text p.~65: 'In 2025 werden zwei bestehende LIS-Standorte (Bahnhof und Nonnengasse) in Kooperation mit der GFC ertüchtigt'; the existing-sites table lists GFC mbH at Nonnengasse 11 and Bahnhofstr. 48. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Mobilitätskonzept 4.6.2 p.33: Nonnengasse mobility station decided in 2024, funding application submitted June 2024, implementation 'soll in 2025 erfolgen', with secure bike parking, extra charging for e-cars and pedelecs, e-scooter spot; a construction decision is to be prepared after the funding notice. Matches as a plan stated in October 2024; whether it was built is not confirmed by any page read.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "duelmen.de/bahnhof (undated page): 'im August 2023 ... offiziell eröffnet', photo heading 'Bilder der Eröffnung am 11. August 2023'; P+R Süd 'rund 180 Stellplätze', P+R Ost am Baumschulenweg 'rund 80 Stellplätze'; two-storey bicycle parking garage for 'rund 700 Fahrräder', booking by app. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Mobilitätskonzept 4.5.2 p.30 and the table on p.39: 'ca. 250 Park&Ride-Stellplätze neu geschaffen, so dass an dem Standort insgesamt ca. 450 Stellplätze vorgehalten werden'; section 4.6.1 mentions charging for e-cars and pedelecs at the station. Matches. Minor: the city's station page adds up to about 260 P+R spaces (180 + 80).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Dülmen (Kreis Coesfeld) manages its centre parking itself. The city's website, read on 21 October 2026 and undated, counts about 650 paid spaces, 630 free long-stay spaces, 300 parking-disc spaces and 300 private customer spaces, and describes a parking guidance system with zones numbered clockwise around the centre. The city's service page, also undated, gives a mobile-payment price of 1.50 euros per hour (0.75 euros minimum for the first 30 minutes) with a maximum stay of two or three hours by zone; it is not known whether this reflects the 2024 increase. The September 2023 ISEK describes the free car parks at the western edge (Am Wasserturm, 220 spaces; Altes Mesem, just under 130) as heavily used, the paid Nonnengasse car park (over 90 spaces) as heavily to fully used in shop hours, and the paid Overbergplatz underground garage (about 160 spaces) as clearly less used; the October 2024 mobility concept, citing the ISEK traffic study, puts the garage's occupancy at usually about one-third and finds enough parking in the centre at all times. The November 2024 charging concept lists the garage as privately owned; no page read names its operator or its tariff (the APAG mentioned in the brief could not be confirmed). The mobility concept says centre fees were raised by ordinance in spring 2024 after the consultant advised moving them moderately up to the garage's level and found fees low compared with other medium-sized towns; a council notice of 14 March 2024 (39 yes, 2 no) records a seventh amendment of the parking fee ordinance and an instruction to raise the Nonnengasse fee to 0.75 euros per started half hour, with the increase on city-owned areas planned for 1 July 2024. The fee table itself was not read. The mobility concept sees no current need for new car parks or parking decks, proposes examining resident-only zones south of Lüdinghauser/Borkener Straße and reducing short-stay spaces, notes that the hospital's operator plans a car park, and describes the rebuilt station (officially opened 11 August 2023) with about 250 to 260 park-and-ride spaces and a planned mobility station with extra EV charging at Nonnengasse (funding application June 2024, implementation planned for 2025). The November 2024 charging concept counted 42 public charge points at the end of 2023, expects 129 by 2030, and ranks the Overbergplatz garage first among proposed charging sites."
+}

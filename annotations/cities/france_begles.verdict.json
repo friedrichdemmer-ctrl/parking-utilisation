@@ -1,0 +1,133 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Page 'Stationnement a Begles : mieux partager l'espace public', published 15/10/2026: '356 voies recensees', 'pres de 10 000 nouveaux habitant.es en 20 ans', 'de nombreux foyers comptent au moins deux vehicules', 'impossible de garantir a chaque Beglais.e ... une place juste devant son domicile', warns against pavement parking, and 'les voitures ventouses sont aussi dans le viseur de la municipalite'. Title, date and URL match. The article is partly a call to residents rather than a new rule; the text does not claim a rule.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Page published 01/02/2023, updated 18/04/2025. 'La zone bleue de Begles, mise en oeuvre en 2020, s'etend aujourd'hui sur pres d'un tiers de la commune'; sectors: north-west districts (barriere de Begles to route de Toulouse), Terres Neuves and Terre Sud, Place du Bicentenaire; car parks impasse du 4 Septembre (26) and Saky Limousin (30). Monday-Saturday 9h-19h except Sundays/holidays; residents' Pass'Zone Bleue free and unlimited, max two rights per household; non-residents max 2 h with a blue disc; fines 35 to 135 euros. Note: this page words the two car parks as future ('seront egalement inclus'); the commune's news item of 3 Oct 2024 (not the cited URL) says the zone, including both car parks, was extended from 7 Oct 2024. 'Now covers' should be read as of the April 2025 update.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Same page: three major axes being made one-way to prepare the arrival of the Bus Express ('mise en sens unique de trois axes majeurs'), a number of central streets (Route de Toulouse - Cours Victor Hugo side) concerned by the opening of parking rights for a resident Pass; outside the blue zone, alternating half-monthly one-side parking (odd side 1st-15th, even side 16th to end of month) applies in some streets. A commune news item of Oct 2024 says four axes were made one-way in August 2024, but the cited page says three, so the text matches its source.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Page published 01/10/2026 (updated 06/10/2026): consultation ('diagnostic partage') through October for residents of La Ferrade, La Castagne and La Raze on the north-west traffic plan 'mis en oeuvre il y a quatre ans' to reduce through-traffic; public feedback meeting ('reunion publique') in the first quarter of 2027 at the Paul-Langevin complex. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Page published 30/10/2024, updated 13/01/2026: ZFE since 1 January 2025 inside the ring road (intra-rocade), 24/7; unclassified ('non classes') vehicles can no longer drive or park inside but may use the 11 listed park-and-rides; Crit'Air 1-5 and electric vehicles are not barred. The 11 listed are Brandeburg, 40 Journaux, Gare de Bruges, Hippodrome, Les Pins, Bougnard, Unitec, Arena, Dravemont, Buttiniere, Lauriers: none in Begles. The statement that the two Begles park-and-rides are not among the 11 is an inference from the list and is correct. The page does not say whether Begles is inside the ring road (already listed as a gap).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "METPARK page read 21 Oct 2026 (undated, footer 2024): address 13 allee de Francs, covered ('couvert', 'en ouvrage'), 405 places, of which '30 places equipees pour la recharge', 19 bike places, 24h/24 and 7j/7, maximum height 2,10 m, 'sans reservation'. The 'public body' wording comes from METPARK's Qui sommes-nous page (EPIC, board of Bordeaux Metropole elected members), not from this page, but is correct. Conflicts with open data (kept in item 11): 8 EV spaces, and height 1.9 m standard / 3.0 m max. Downstream use should keep 30 EV as 'METPARK says'.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "METPARK page read 21 Oct 2026: day rate up to 4h 0.60 EUR per 15 min; 4h-24h 9 EUR; night rate 20h-7h beyond 1h30 of parking 5 EUR; monthly 70, weekly 35, resident monthly 50, motorbike monthly 30 EUR (also annual METSTATION 50 EUR, not claimed). Open-data record (th_quar 0.6, th_24 9, th_nuit 5, ta_resmoi 50, ta_nres7j 70, ta_moimot 30) agrees. Page is undated, so 'read on 21 October 2026' wording is right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Qui sommes-nous page read 21 Oct 2026: EPIC, 36 car parks, 7 communes of the metropolis, +15,000 spaces, 11,000 subscribers, '+3.6 millions de clients en 2025' all confirmed. The claim that the resident subscription gives a reduced price to people living within 1 km of a METPARK car park is NOT on this page; it is on https://www.mtpk.fr/nos-abonnements/ ('si vous habitez a moins d'1km d'un parking METPARK'), which I opened separately. Because it is attributed to the cited page, it is dropped here.",
+   "corrected_text": "METPARK describes itself as a public industrial and commercial body (EPIC) running 36 car parks in 7 communes of the metropolis, with over 15,000 spaces, 11,000 subscribers and 3.6 million customers in 2025 (page read on 21 October 2026).",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Qui sommes-nous page, section 'Grands projets 2023-2026': over 25 million EUR by 2026 for the complete renovation of 4 car parks; all 16 bike rooms in 7 communes to become METSTATION by 2026; deployment of 1,500 EV charge points ('bornes') in 26 car parks by 2026 through a public concession. These are plans, correctly worded. The sentence on TotalEnergies points payable by QR code, bank card or badge is NOT on the cited page; it is on https://www.mtpk.fr/service/recharge-electrique/ (a different URL I opened). Dropped from this item. No evidence on the page that the plan was completed.",
+   "corrected_text": "METPARK's 2023-2026 development plan, as stated on its page read on 21 October 2026, is to install 1,500 EV charge points in 26 car parks through a public concession by 2026, to turn its 16 bike rooms into METSTATION bike facilities by 2026, and to invest over 25 million euros to renovate 4 car parks completely. These are stated plans; the page does not confirm they are finished.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "TBM page (English, undated) read 21 Oct 2026: tram A list has 'Rostand - Open to all - Av. Lenine 33130 Begles - Maximum Height 2.10m - 204 spaces available - 5 disabled - 5 Boogi car-sharing'; tram C list has 'Begles Station - Open to all - Av. Lenine - 2.10m - 193 spaces available - 4 disabled - 5 Boogi car-sharing'. Opening times 5am-1am (Mon-Wed, Sun, holidays) and 5am-2am (Thu-Sat); 'fined EUR 15 per day (including part days)' if used outside tram hours. Text says 'cars left outside operating hours', which is a slight reading of 'use', acceptable. Title matches. Number of spaces is a capacity listing, not live availability.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Commune page published 20/05/2025, updated 04/06/2025: tram C not running between Quinconces and Pyrenees from 2 June to 31 August because of switch and safety works at Porte de Bourgogne, which 'permettront de creer deux nouvelles lignes de tramway E et F. Cette derniere reliera directement la gare de Begles a l'aeroport en une heure environ'. Also lists the paid METPARK Les Secheries car park (13 allee de Francs) for cars and motorbikes for the Fete de la Morue. The line F statement is future/planned on that page, matching the text's wording. Title matches. Note the 'about one hour' differs from the 'about 45 minutes' announced in item 13.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Live open-data API read 21 Oct 2026 (2 records for insee 33039). Begles Les Secheries: exploit METPARK, propr METPARK, type SILO, nb_niv 3, an_serv 2016, np_total 405, np_pmr 9, np_vle 8, np_veltot 19, real-time total 399 with 227 free, etat LIBRE. Static 405 vs real-time 399, and 8 EV vs 30 on METPARK's page, both confirmed. Undated live data, so 'read on 21 October 2026' wording is right. 8 'vle' is read as electric vehicle spaces (field name np_vle), which is consistent with the draft's own interpretation.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Same open-data call: second record 'Parc Relais Gare De Begles', exploit KEOLIS, propr BORDEAUX_METROPOLE, type SURFACE, 1 level, an_serv 2015, np_total 193, 4 PMR, 5 carpool, ta_type PAYANT_TARIF_PARC_RELAIS, th_2 4.5, info '4.5 EUR pour 1 a 5 passagers dans le VL'. Record shows etat FERME at read time (already a gap); it also shows Rostand is absent from Begles records. Only two records for Begles, so 'one other public car park' is correct. Live data read 21 Oct 2026.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Page published 07/01/2025, updated 28/05/2025: 'reseau de 364 places de recharge ... sur 146 stations en mai 2025'; since 6 January 2025 tariff 0.38 EUR TTC/kWh plus 4.00 EUR TTC/h immobilisation if the session exceeds 4h on slow sockets, removed between 23h and 8h for AC charging; max 48 EUR TTC beyond 14h of session (not claimed). Metropolis-wide scope is stated in the text. Title matches. Note the page calls the change 'une evolution est entamee', i.e. partial move to this tariff.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Le Bonbon (lifestyle site, not an official body) article dated 7 Nov 2025 reports a press conference of Thursday 6 Nov by Bordeaux Metropole and Keolis: new TBM offer takes effect on 6 Dec 2025; line F to connect gare de Begles, gare Saint-Jean, hopital Pellegrin and Merignac airport, 'environ 45 minutes'; '10 minutes' frequency in the daytime. Text matches the page, but this is a pre-launch announcement from a single secondary source; I tried the official TBM line F page (infotbm.com/fr/lignes/tram/f) and it returned a page with no usable text (JavaScript), so nothing official confirms that line F actually runs. Whether service began is unconfirmed. Rate as low and keep announcement wording; calling the outlet 'local media report' is generous.",
+   "corrected_text": "A Le Bonbon article of 7 November 2025 reported that, following a press conference on 6 November by Bordeaux Métropole and Keolis, new tram lines E and F were due to start on 6 December 2025, with line F linking Bègles station, Saint-Jean station, Pellegrin hospital and Mérignac airport in about 45 minutes, every 10 minutes during the day. This is a pre-launch announcement; it has not been confirmed from an official TBM page that the line is running.",
+   "corrected_title": null,
+   "corrected_date": "2025-11-07"
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "ZAC Begles Garonne page (last updated 29 Aug 2025): 80 hectares in north-east Begles; maximum 5,000 housing units and 140,000 sq m of business floor space 'devraient etre crees' (planned). Correct. The statement about the metropolitan RER serving Begles station is NOT on this URL; it is on the separate Begles Faisceau page (https://www.bordeaux-euratlantique.fr/nos-realisations/les-territoires-de-projets/begles-faisceau, also updated 29 Aug 2025: 'mise en service du RER metropolitain qui desservira la gare de Begles' as a potential for urban change, wording is future and about development potential, not a timetable). Neither page gives parking numbers. Faisceau claim kept but attributed to its own page.",
+   "corrected_text": "Bordeaux Euratlantique's ZAC Bègles Garonne page (last updated 29 August 2025) says the zone covers 80 hectares in north-east Bègles, with a maximum of 5,000 homes and 140,000 square metres of business floor space planned. A separate Bègles Faisceau page by the same body (also updated 29 August 2025) says the metropolitan RER, once in service, will serve Bègles station. Neither page states parking numbers.",
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Bègles regulates street parking mainly through a blue zone (zone bleue) introduced in 2020 that, according to the commune's page updated in April 2025, covers nearly a third of the commune. Residents with a free Pass'Zone Bleue (at most two per household) may park without a time limit, while other drivers may stay two hours with a disc, Monday to Saturday 9am-7pm, with fines of 35 to 135 euros. In an article of 15 October 2026 the commune said the population has grown by nearly 10,000 in 20 years and that it is targeting pavement parking and abandoned cars; it also opened a consultation in October 2026 on the north-west traffic plan, with a public feedback meeting planned for the first quarter of 2027. Off-street, the Les Sécheries car park is run by the metropolitan body METPARK: its page, read on 21 October 2026, shows 405 spaces, 0.60 euro per 15 minutes up to four hours and a 50 euro resident monthly subscription. Its page says 30 spaces have EV charging but Bordeaux Métropole open data lists 8, a conflict that is unresolved. TBM lists two park-and-rides in Bègles, Rostand on tram A with 204 spaces and Bègles Station on tram C with 193, both open to all. The Bordeaux Métropole low-emission zone inside the ring road has applied since January 2025 and bars only unclassified vehicles; the Bègles park-and-rides are not among the 11 open to them. A 2025 announcement of a new tram line F from Bègles station to the airport comes from a single secondary source and is not confirmed. Euratlantique's Bègles Garonne zone plans up to 5,000 homes, but we found no official parking figures for it."
+}

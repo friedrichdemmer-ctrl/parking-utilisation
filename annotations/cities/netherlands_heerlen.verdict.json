@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Read the consolidated text on lokaleregelgeving.overheid.nl (CVDR702949/1). Signed after the council meeting of 31 May 2023; art. 12 says it replaces the Parkeerverordening 2016; art. 3(3) permits per plate and address; art. 5(1) six months; art. 3(7) lets the college set maximum issue per type and/or per sector; combi places are defined in art. 1(m). The page shows 'Geldend van 09-11-2023' as the in-force date of this version; the item does not claim an in-force date.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2026, 154172, published 01-04-2026 09:00, decided by the college on 10-02-2026. Art. 1: max two permits per dwelling, one active plate per permit, five plate changes per calendar year. Art. 2: max two per business, one in sectors 108, 220, 221. Art. 4(6)-(7): waiting list once the cap is reached; residents rank above businesses. Art. 16: in force one day after publication. All as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Numbers verified against the Art. 3 table in Gemeenteblad 2026, 154172: I summed capacity (166+149+113+128+94+182+8+127+550+81+133+20+31+8) = 1,790 and permits (199+194+147+154+131+210+10+165+660+96+159+24+37+8) = 2,194 over exactly the 14 sectors listed; the percentage column runs from 100 to 140; sector 230 has 550 spaces and 660 permits; sectors 220 and 221 carry 11 and 12 business permits with no capacity figure (11+12=23). Problem: the item calls all 14 sectors 'resident' sectors, but sector 108 is reserved for catering businesses with home delivery (8 spaces, 10 permits) and 220/221 are business-only. 'Decision of 10 Feb 2026' is correct but is not in the item.",
+   "corrected_text": "The 2026 issuing decision (Gemeenteblad 2026, 154172, college decision of 10 February 2026, published 1 April 2026) sets a cap of 2,194 permits against 1,790 maximum parking capacity across 14 sectors (101-106, 108, 210, 230, 240, 250, 310, 320, 410), which is 100 to 140 percent of capacity; sector 108 is reserved for home-delivery catering businesses (8 spaces, 10 permits). In addition 11 permits are issued to businesses in the centre (sector 220) and 12 to businesses on Willemstraat (221), with no capacity figure given. Sector 230 (Baronstraat/Parallelweg area) is the largest at 660 permits for 550 spaces.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2026, 151279, published 01-04-2026, college decision of 10-03-2026, enters into force the day after publication. Regime legend: A1 max 60 minutes, A2 max 120 minutes, A3-A5 whole day, A6 max 15 minutes (A7 is a further 120-minute regime, not mentioned). Time pattern D: Mon-Sat 09.00-18.00, Thursday until 21.00, Sundays and holidays 12.00-18.00 (pedestrian area until 12:00). Item wording matches, and 'for example' correctly signals other time patterns exist.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "Gemeenteblad 2025, 497301 (published 17-11-2025, council decision 6 Nov 2025, levy from 1 Jan 2026): 1.50 per hour in centre, 't Loon and outside the centre; 3.00 per 12 hours on designated long-stay places (centre and outside) and at Nieuw Eyckholt; first resident permit 13.60 and second 17.00 per month; first business permit 19.90; penalty charge 82.00 - all correct. Error: the 5.40 applies per 12 hours on the other designated places, not 'per day' (the 2025 text said 'per dag', the 2026 table says 'per 12 uur'). Also note for the summary: 1.50 per hour already applied from 1 Jan 2025, so the 2026 ordinance did not raise it; what rose in 2026 is Nieuw Eyckholt (1.50 per 12 hours in 2025, 3.00 in 2026).",
+   "corrected_text": "Council decision of 6 November 2025 (Verordening parkeerbelastingen Heerlen 2026, levy from 1 January 2026, published 17 November 2025): 1.50 euros per hour for street parking in the centre, 't Loon and outside the centre; at most 3.00 euros per 12 hours on designated long-stay spaces and at Nieuw Eyckholt; at most 5.40 euros per 12 hours on other designated spaces. A first resident permit is 13.60 euros per month (second 17.00), a first business permit 19.90, and the penalty charge is 82.00 euros.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "Gemeenteblad 2024, 484735 (published 18-11-2024, council 7 Nov 2024, levy from 1 Jan 2025, builds on a college proposal of 24 Sep 2024): 1.50 per hour; long-stay places max 3.00 per day, other designated places max 5.40 per day; first resident permit 13.30 (second 15.00); penalty 78.80 - verified. But this page never mentions 1.00 or a 'raise' or 'unchanged'. I checked the previous ordinance (Gemeenteblad 2023, 528854, Verordening parkeerbelastingen Heerlen 2024, council 2 Nov 2023, levy from 1 Jan 2024): 1.00 per hour, max 3.00 per day, max 5.40 per day, penalty 76.70. So the rise from 1.00 to 1.50 and the unchanged 3.00 cap are true, but they rest on a source not cited in the item; the corrected text states what the cited page supports and adds the 2024 ordinance as the source of the old figure.",
+   "corrected_text": "The council decided on 7 November 2024 to set street parking at 1.50 euros per hour from 1 January 2025, with long-stay places capped at 3.00 euros per day. A first resident permit was set at 13.30 euros per month and the penalty charge at 78.80 euros. The previous ordinance (Verordening parkeerbelastingen Heerlen 2024, Gemeenteblad 2023, 528854) had 1.00 euro per hour and the same 3.00 euro cap, so this was a rise from 1.00 to 1.50 euros per hour.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "L1 Nieuws, 20 Dec 2023, 'Maastricht uitzondering met forse stijging parkeertarieven'. Page says other large Limburg municipalities keep tariffs the same 'komend jaar' (2024); Kerkrade centre 1.50, Weert 1.60, Sittard-Geleen generally 1.90, Venlo 2.80 and Roermond 2.80 (centre), Maastricht centre 3.50; 'Heerlen is de goedkoopste met een tarief van 1 euro'. The 1.00 figure for 2024 is also confirmed by the 2024 parking tax ordinance (Gemeenteblad 2023, 528854). Comparison is of centre or general rates among the towns L1 surveyed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "The page is a council PROPOSAL (Voorstel gemeenteraad, 30 November 2021, 'Parkeertarief 2022'), not a record of a decision; the raadsbesluit block on page 3 is blank and the vote is not on the page. What it states: the 2022 parking ordinance lowered tariffs in and outside the centre from 2.00 and 1.80 to 1.00 per hour, other tariffs including day tariffs unchanged; a budget amendment kept a 'first hour free' phrase by mistake; a motion on 22 Nov 2021 asked for a corrected budget proposal by 15 Dec 2021; the proposal asks to fix 1 euro per hour for 2022 without the free first hour; the lost revenue 'will be covered from the corona budget'. So 'the council reduced' and 'was to be covered' need proposal wording.",
+   "corrected_text": "A council proposal dated 30 November 2021 (Parkeertarief 2022) states that the 2022 parking ordinance lowered street tariffs in and outside the centre from 2.00 and 1.80 euros to 1.00 euro per hour, with day tariffs unchanged. A budget amendment had by mistake kept a free first hour, and the proposal asked the council to fix 1 euro per hour for 2022 without it, with the lost revenue to be covered from the corona budget. The page does not record the council's vote.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Written questions form (art. 33), submitter Besir Karabacak, dated 20 January 2025, subject 'Parkeren Heerlen Centrum'; party field blank on the form but the text speaks as 'CDA Heerlen'. Explanation says Q-Park garages can reach 3 euros per hour, street parking is 1.50 per hour and 3 euros per day in many places, mentions a 'hoge bezettingsgraad' of street spaces, and asks about the coalition agreement promise to make municipal and Q-Park tariffs visible. No answer on the page. Item wording correctly marks it as a question and opinion. For the summary: the claim that garage prices shape the image is the member's assertion, not a finding.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Q-Park Heerlen page (opened 21 Oct 2026) lists 8 facilities: Corio Center, De Klomp, P+R Parallelweg, Putgraaf, Raadhuisparking, 't Loon, Teleparking, Theater Heerlen Parking. Individual pages give 504, 364, 236, 307, 379, 383, 451, 504 spaces; I recomputed the sum = 3,128. Tariff sections on every page read 'De tarieven konden helaas niet geladen worden'. Live page, date 2026-10 and 'read on 21 October 2026' wording are right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Charge points on the individual Q-Park pages (opened 21 Oct 2026): 't Loon 16, Raadhuisparking 12, Corio Center 8, Teleparking 8, Theater Heerlen Parking 8, De Klomp 4, Putgraaf 4; P+R Parallelweg lists no charge points. Recomputed sum 16+12+8+8+8+4+4 = 60. The cited URL is only the Corio Center page; the other figures come from the sibling garage pages, which the item title already says. Live pages, so dated 2026-10.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Q-Park P+R Parallelweg page (opened 21 Oct 2026): 236 spaces, Doorrijhoogte 2.10 m, opening 24-7 for arrival and departure, service 'Kentekenherkenning', tariffs did not load. The traveller discount text: domestic train journey, check-in at a different station than check-out, leaving the P+R terrain on the same day as the return train journey. The item's phrasing 'with a different check-out station' is compressed but not wrong; no discount amount is on the page and the item gives none.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Raadsinformatiebrief of 8 January 2019 (registration BWV-18003520), file also contains an OPH question form dated 29 Jan 2019. Tariffs at 1 January 2019: Corio and Raadhuis 1.00 per 24 min, day 15.00; P+R Parallelweg 2.32 per hour, day 13.91, NS day 4.00; Teleparking and Klompstraat day 9.50; Parking+Protection/Interparking manages Maanplein and Maankwartier Centrum, day 7.50; 4,027 garage places and 756 street places (174+376+64+142) counted in the indicated areas. All as written and flagged as old.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Same 2019 council letter. June 2018 survey: average 69 percent in the whole study area on Tuesday 11:00-12:00 (market day), 62 percent Saturday 13:00-14:00; A1 zone close to 100 percent in shopping hours; B1 about 94 percent on working days; Nieuw Eyckholt (B2) around 100 percent on working days; target 50-80 percent. 'Whole study area' is rendered as 'centre study area', which is acceptable. Dated as old in the item.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "L1 article published Thursday 5 Sep 2024: De Klomp is 'tijdelijk gesloten' and stays closed because safety cannot be guaranteed; the fire was on 'dinsdagavond' in a parked car, i.e. Tuesday 3 Sep 2024, not 'the evening before' 5 Sep. The cause was unknown; cleaning work was under way and the structure was being checked; Q-Park awaited 'het rapport' (type not stated, not specifically a safety report), expected to take a few more days; customers could drive out and park elsewhere. Reopening not stated.",
+   "corrected_text": "L1 Nieuws reported on 5 September 2024 that Q-Park's garage De Klomp (Klompstraat) in Heerlen was temporarily closed because the safety of visitors and staff could not be guaranteed, after a fire in a parked car on Tuesday evening (3 September 2024); the cause was unknown. Cleaning work was under way and the structure was being checked. Q-Park was waiting for a report, expected to take a few more days, before deciding on next steps, and customers with cars inside could drive out and park elsewhere. The article does not state when the garage reopened.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Concept Parkeernota 'Visie- en Ambitiedocument', CONCEPT, 23 November 2015 (41 pages). Verified: after selling its parking real estate the municipality is 'slechts een speler op de markt van straatparkeren'; 'Heerlen (behalve in Heerlerheide) geen eigen parkeergarages in haar bezit heeft en enkel sturend is op ... straatparkeren'; listed measures: invoeren betaald parkeren op koopzondagen, 'stapsgewijs streven naar een straattarief dat hoger ligt dan het garagetarief', 'mogelijkheid onderzoeken' of a P+R at station De Kissel, multi-year agreement with Q-Park on tariffs. Not supported: the 2019 letter only refers to a Visie- en Ambitiedocument 'uit 2016'; it never says it was adopted, and the Parkeerverordening 2016 mentioned elsewhere is a different document. Also, the 'owns no garages' statement is from 2015 and should stay dated.",
+   "corrected_text": "A concept Parkeernota (vision and ambition document) dated 23 November 2015 states that after selling its parking real estate the municipality owns no garages (except in Heerlerheide) and steers only street parking. As concept measures it listed paid parking on shopping Sundays, gradually aiming for a street tariff above the garage tariff, a study of a P+R at station De Kissel with free transport to Heerlen, and a multi-year tariff agreement with Q-Park. This is an old concept; the 2019 council letter refers to a Parkeernota Visie- en Ambitiedocument from 2016, but the concept text itself does not show what was adopted.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2022, 433, 4 January 2022 (decision dated 20-12-2021): two parking places reserved for charging EVs at the Kloosterstraat/Rietrastraat car park, motivated by demand 'in de nabijheid van het centrum van Hoensbroek'; cites the college policy rule of 22 Nov 2016, the Dec 2019 college decision to join the Noord-Brabant charging concession (BWB-19000139), which started on 21-07-2020, with the other Parkstad municipalities. The page does not say Hoensbroek is part of Heerlen municipality, but the decision is taken by Heerlen's college, so that is not in doubt. 'Participation since 21 July 2020' is the concession start date.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "L1 Nieuws, 5 March 2026 (page shows '5 maart' without year; page metadata datePublished 2026-03-05). Article: 't Loon plagued by vacancy after Karnevalswierts closes; owners want to convert part of the complex to housing; with the shrinking number of shopping streets in the centre the heyday is over; an underground car park is mentioned (2011 subsidence). The Q-Park 't Loon page lists 383 spaces at Apollolaan 11 (verified). Reliability concern: the article says nothing about parking occupancy, so it is weak evidence for parking demand.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Heerlen sets street parking itself. The council tariff has been 1.50 euros per hour since 1 January 2025 (it was 1.00 euro per hour in 2024) and the 2026 ordinance keeps it, with a cap of 3.00 euros per day or per 12 hours on designated long-stay spaces and 3.00 euros per 12 hours at Nieuw Eyckholt (1.50 in 2025); a March 2026 college decision fixes paid hours and regimes street by street. Resident and business permits are rationed by sector: the 2026 issuing decision caps 2,194 permits against 1,790 spaces in 14 sectors (one of them, 108, reserved for home-delivery catering businesses), plus 11 and 12 business permits in the centre and on Willemstraat, with no capacity figure given. Permits run for six months and a first resident permit costs 13.60 euros per month. A 2015 concept parking note said the municipality owned no garages except one in Heerlerheide; Q-Park's Heerlen page, read on 21 October 2026, lists eight facilities with 3,128 spaces in total, including the 236-space P+R Parallelweg at the station, and 60 charge points across the garages, while Interparking ran the Maanplein and Maankwartier garages in 2019. In January 2025 a CDA council member argued in written questions that Q-Park garage prices (up to 3 euros per hour) shape the image of expensive centre parking and pointed to a coalition agreement promise to make tariffs visible; no college answer was found. An L1 article of March 2026 describes vacancy at the 't Loon shopping centre but says nothing about parking occupancy, and the only occupancy figures found are from a June 2018 survey. The municipal website showed a 'temporarily unavailable' notice again on 21 October 2026, so current municipal parking pages could not be read, and no 2025-2026 plan for new or closed garages or for the P+R was found."
+}

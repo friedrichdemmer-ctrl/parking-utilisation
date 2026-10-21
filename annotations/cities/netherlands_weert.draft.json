@@ -1,0 +1,176 @@
+{
+ "country": "Netherlands",
+ "city": "Weert",
+ "researched": "2026-10-21",
+ "summary": "Weert (Limburg) runs paid parking in and around its centre under a municipal system of zone 1 and 2 (paid street parking Monday to Saturday 09:00-18:00), zone 3 (permit-only streets) and six municipal car parks plus the surface lot Centrum-Noord, which charge 24 hours a day. Since 1 January 2026 the flat tariff is 1.70 euros per hour and 6.60 euros per day in garages and on the street (1.60 and 6.40 in 2024), a 24/7 garage subscription costs 600 euros a year, and the municipality has stopped issuing employee parking bundles for three busy garages because of high occupancy. The P+R lot at Parallelweg by the station is not municipal: it is run by Q-Park with its own tariffs, and the station area is the subject of a draft Spoorzone vision (possible car-free station square and a car tunnel, not yet decisions). Council papers on the new parking framework (Parkeerkaders and Nota Parkeernormen 2025) and on smart parking guidance could not be opened because the council site was offline, so their content and adoption status are not confirmed here.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2025-12-16",
+   "text": "The council adopted the 2026 parking tax ordinance on 16 December 2025 (published 19 December 2025, effective 1 January 2026). Garages and the Centrum-Noord lot charge 0.17 euros per 6 minutes, 1.70 euros per hour and 6.60 euros per day, 24 hours a day, 7 days a week.",
+   "source_title": "Verordening parkeerbelastingen gemeente Weert 2026 (Gemeenteblad 2025, 558275) with Tarieventabel 2026",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-558275.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12-16",
+   "text": "Street parking in zone 1 and zone 2 has the same rates (1.70 euros per hour, 6.60 euros per day) and is charged Monday to Saturday 09:00-18:00; some streets (for example Beekstraat, Korenmarkt, Hegstraat, Emmasingel, the Dries strip) have a 2-hour maximum and no day rate. The enforcement surcharge (naheffingsaanslag) is 82.00 euros in 2026, up from 78.80 euros in 2025.",
+   "source_title": "Verordening parkeerbelastingen gemeente Weert 2026 (Gemeenteblad 2025, 558275) with Tarieventabel 2026",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-558275.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-12-18",
+   "text": "Tariffs were 1.60 euros per hour and 6.40 euros per day under the 2024 ordinance (adopted 20 December 2023) and rose to 1.70 and 6.60 euros in the 2025 ordinance adopted on 18 December 2024; the 2026 ordinance keeps 1.70 and 6.60.",
+   "source_title": "Verordening parkeerbelastingen gemeente Weert 2025 (Gemeenteblad 2024, 541494)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2024-541494.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12-16",
+   "text": "The 2026 tariff table lists a 24/7 garage subscription at 600 euros per year (Centrumgarage, Poort van Limburg, Stationspleingarage, Muntgarage, Ursulinengarage, Walburgpassage), an OV-traveller subscription for Stationspleingarage or Centrumgarage at 504 euros, and a Centrum-Noord lot subscription raised from 298.50 to 313.90 euros. Resident street permits cost 156.95 euros per year in zones 1 and 2 and 40.15 euros in zone 3.",
+   "source_title": "Verordening parkeerbelastingen gemeente Weert 2026 (Gemeenteblad 2025, 558275) with Tarieventabel 2026",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-558275.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12-16",
+   "text": "The digital visitor scheme for zone 3 is priced in the 2026 tariff table at 0.15 euros per hour for residents' visitors and 0.30 euros per hour for businesses.",
+   "source_title": "Verordening parkeerbelastingen gemeente Weert 2026 (Gemeenteblad 2025, 558275) with Tarieventabel 2026",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-558275.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-06-20",
+   "text": "The municipal designation decision (Aanwijzingsbesluit betaald parkeren 2023, effective 20 June 2023, published 30 June 2023) sets paid street parking in zones 1 and 2 for Monday to Saturday 09:00-18:00 and names seven pay-after-parking sites open round the clock: Centrumgarage, Walburgpassage, Ursulinengarage, Poort van Limburg, Stationspleingarage, Muntgarage and the lot Centrum-Noord. Permit-only zone 3 covers about 66 streets, among them Parallelweg, Spoorstraat, Maaseikerweg and Suffolkweg.",
+   "source_title": "Aanwijzingsbesluit betaald parkeren 2023 (Gemeenteblad 2023, 284792)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2023-284792.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-06-20",
+   "text": "The 2023 designation decision sets zone 3 permit hours at Monday to Saturday 09:00-18:00 with Thursday until 20:00 (until 21:00 near the hospital for 09:00-20:00 streets); the 2026 tariff table words these hours slightly differently (18:00 or 20:00, Thursday until 21:00), so the exact current hours should be checked.",
+   "source_title": "Aanwijzingsbesluit betaald parkeren 2023 (Gemeenteblad 2023, 284792)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2023-284792.html",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The municipal parking pages (read on 21 October 2026) say street parking is free on Thursday evenings, Sundays and public holidays, disabled badge holders park free for up to 3 hours on general disabled bays on the street but not in garages, and street permit holders are exempt from the 2-hour limit but may not use the garages.",
+   "source_title": "Parkeermogelijkheden en tarieven - Gemeente Weert",
+   "source_url": "https://www.weert.nl/parkeermogelijkheden-en-tarieven",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: residents in zones 1 and 2 may receive at most 2 street permits per address and in zone 3 at most 3, minus any private parking space or driveway; some addresses in the centre receive no street permit and must use a garage. Employees in zone 1 and 2 businesses can only get a zone 2 street permit, and the municipality says residents cannot expect to park in front of their door.",
+   "source_title": "Parkeervergunning bewoners (op straat parkeren) and Parkeren - Gemeente Weert",
+   "source_url": "https://www.weert.nl/parkeervergunning-bewoners",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: the municipality itself operates six garages (Centrumgarage under the town hall, Walburgpassage, Ursulinengarage, Poort van Limburg, Stationspleingarage, Muntgarage) and the Centrum-Noord lot. The P+R lot at Parallelweg is operated by Q-Park, is not municipal and has its own tariffs.",
+   "source_title": "Parkeermogelijkheden en tarieven - Gemeente Weert",
+   "source_url": "https://www.weert.nl/parkeermogelijkheden-en-tarieven",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Q-Park's page for P+R Parallelweg (6001 HM Weert, read on 21 October 2026) shows a 2.10 m clearance, licence-plate recognition, an NS rail-traveller discount for same-day train journeys and subscription options, but the tariff and space-count fields did not load when read.",
+   "source_title": "Parkeren bij Q-Park P+R Parallelweg - Q-Park Weert",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/weert/p-r-parallelweg/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2021-04-26",
+   "text": "In April 2021 the municipality published a European tender for the digital issue of parking products (permits, subscriptions, bundles), contract start planned 1 September 2021. An attached municipal memo describes the products and says subscriptions and bundles are managed in the Parkbase system of IP Parking.",
+   "source_title": "Digitale uitgifte parkeerproducten Weert (TenderNed 226166) and attached memo",
+   "source_url": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/226166/documenten/6595210/content",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: the 500-hour employee parking bundle (100 euros, 0.20 euros per hour, valid one year) is temporarily unavailable for Centrumgarage, Walburgpassage and Poort van Limburg because of high parking pressure, and Poort van Limburg shows a waiting list. The bundle is still offered for Stationspleingarage, Muntgarage, Ursulinengarage and Centrum-Noord.",
+   "source_title": "Parkeerbundel (voor werknemers binnenstad) - Gemeente Weert",
+   "source_url": "https://www.weert.nl/parkeerbundel-voor-werknemers-binnenstad",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The municipal parking map (read on 21 October 2026) lists public charge points inside the car parks: Centrumgarage 10, Ursulinengarage 4, Walburgpassage 4, Poort van Limburg 2 and Muntgarage 2, with none listed for Stationspleingarage; opening hours are 24/7 except Ursulinengarage (06:00-23:00 entry) and clearances are 1.90-2.10 m.",
+   "source_title": "Parkeermogelijkheden en tarieven - Gemeente Weert",
+   "source_url": "https://www.weert.nl/parkeermogelijkheden-en-tarieven",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-08-10",
+   "text": "The municipality announced on 10 August 2026 that the Weerterlandpas and Stadsparkeren card readers for street parking stop working from 1 October 2026 because the 2G network is being phased out nationally. The Stadsparkeren app remains usable and nothing changes for other parkers.",
+   "source_title": "Paslezers voor straatparkeren verdwijnen per 1 oktober 2026 - Gemeente Weert",
+   "source_url": "https://www.weert.nl/paslezers-voor-straatparkeren-verdwijnen-per-1-oktober-2026",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "The garages use licence-plate recognition for subscribers with a pass as fallback, and some street machines and the Stationspleingarage and Poort van Limburg accept card payment only; the municipal page lists cash, debit card, credit card and pay-later by phone.",
+   "source_title": "Parkeermogelijkheden en tarieven - Gemeente Weert; Parkeerabonnement (parkeergarage of -terrein)",
+   "source_url": "https://www.weert.nl/parkeerabonnement-parkeergarage-of-terrein",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The municipal parking page (read on 21 October 2026) points to a 'Nota parkeernormen 2025' as Weert's parking standards for new development; the council papers behind it (committee Ruimte en Economie, 30 October 2025) could not be opened, so its content and adoption are not confirmed here.",
+   "source_title": "Parkeren - Gemeente Weert",
+   "source_url": "https://www.weert.nl/parkeren",
+   "confidence": "low"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10-05",
+   "text": "At a public meeting on 5 October 2026 (33 participants) on the station area, the municipality presented a first future picture with a possible car-free station square, a new southern station entrance and a tunnel for car traffic; the report says these are not decisions. A concept vision slide adds cars and bicycles parking on the embankment along the railway.",
+   "source_title": "Inloopavond stationsgebied levert waardevolle input op; Verslag en presentatie 5 oktober 2026 (Spoorzone)",
+   "source_url": "https://www.weert.nl/inloopavond-stationsgebied-levert-waardevolle-input-op",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-03-05",
+   "text": "The second Spoorzone festival on 5 March 2026 (120 participants) presented a concept area vision; recorded resident comments include difficulty imagining 'parking in hubs' and worry about where cars will park with many new homes. The municipal page then expected the council to discuss the vision in May or June 2026; the outcome was not found.",
+   "source_title": "Spoorzone - Gemeente Weert; Beeldverslag Tweede Spoorzone Festival",
+   "source_url": "https://www.weert.nl/spoorzone",
+   "confidence": "medium"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: permits, subscriptions and bundles are requested and managed through a digital parking desk, and the municipal page names the ParkerenPlus app for mobile payment in Weert; the August 2026 notice names the Stadsparkeren app.",
+   "source_title": "Parkeren - Gemeente Weert",
+   "source_url": "https://www.weert.nl/parkeren",
+   "confidence": "high"
+  }
+ ],
+ "gaps": [
+  "Council site gemeenteraad.weert.nl returned HTTP 503 ('omgevingen tijdelijk offline', PHP precaution) on 21 October 2026, so none of these could be read: Raadsvoorstel Parkeerkaders en Nota Parkeernormen (https://gemeenteraad.weert.nl/Vergaderingen/Raadscommissie-Ruimte-en-Economie/2025/30-oktober/19:30/Parkeerkaders-en-nota-parkeernormen/Raadsvoorstel-Parkeerkaders-en-Nota-Parkeernormen-Weert.pdf), Bijlage 1 Parkeerkaders and Bijlage 2 Nota Parkeernormen, the VVD questions of 26 March 2025, the motion on smart parking systems of 9 April 2025, and the Raadsvoorstel Belastingverordeningen en tarieven 2026. Adoption of the parking framework and any parking guidance decision are therefore unconfirmed.",
+  "Q-Park P+R Parallelweg: tariffs and space count did not load on https://www.q-park.nl/nl-nl/parkeren/weert/p-r-parallelweg/; no independent source on its occupancy found.",
+  "No readable regional press (De Limburger, L1, Weert24, Hart van Limburg) on Weert parking was found or opened; no utilisation statistics, parking guidance (PGS) or open-data feed for the city centre was found.",
+  "The Spoorzone concept presentation of 5 March 2026 (https://www.weert.nl/Downloads/Spoorzone/Spoorzone%20-%2004%20Festival%202%20Presentatie%20concept%20gebiedsvisie%2005-03-2026.pdf) is image-only and was not readable; the council outcome on the vision (May/June 2026) was not found.",
+  "weert.nl/parkeerabonnement-parkeergarage-of-terrein still shows the old Centrum-Noord subscription price of 298.50 euros; the 2026 tariff table (313.90) was used.",
+  "WebSearch budget was exhausted before a targeted search of regional press (L1, De Limburger, Hart van Limburg, Weert24) could be made."
+ ]
+}

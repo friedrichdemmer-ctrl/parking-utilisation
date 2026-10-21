@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Article (JSON-LD: published 25 Oct 2022, modified 23 Sep 2025) says blue zone is free, limited to 2h, disc, 8h-20h 'tous les jours sauf week-end et jours fériés', 35 euro fine 'imposée et encaissée par l'État', aims as listed. Blue-zone page (modified 23 Jul 2024) says 'sauf dimanche et jours fériés', so the day conflict is correctly reported. BUT both pages are in the future tense ('s'appliquera'), so neither says the zone is in force or since when; draft states 'The town runs a blue zone' as fact. The Aug 2026 shopkeepers' sticker article (item 2) does refer to 'la limitation de durée de la zone bleue' as existing, which supports operation by then. Title matches.",
+   "corrected_text": "The town's blue-zone pages describe a free zone bleue limited to 2 hours with a parking disc, to apply 8am-8pm. The two town pages disagree on the days: the news article (published October 2022, last edited September 2025) says every day except weekends and public holidays, while the blue-zone page (last edited July 2024) says every day except Sunday and public holidays. Both pages use the future tense ('will apply'), so neither gives a start date; an August 2026 town page on a shopkeepers' sticker refers to the blue-zone time limit as existing. The fine is 35 euros, imposed and collected by the State. The stated aims are more turnover for shops (more spaces near them), fewer long-stay 'ventouse' cars, and easier parking for residents close to home, especially in the evening and at weekends.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Page (published 28 May 2024, modified 23 Jul 2024) under 'Conséquence directe': 'les horodateurs qui sont au nombre de quatre seront retirés par la TaM pour cette première phase', listing Parking Sud VO, in front of Carré Rivoli, in front of Madison, and the private Netto car park. Future tense and 'first phase' correctly rendered as planned; no removal date on page. The final inference ('appears to have been replaced') is the draft's own and is hedged; the page does not itself say on-street paid parking was replaced. Title acceptable.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Page says the town 'met en place' a macaron for shopkeepers with a local in Castelnau; 'désormais' lets them park without the blue-zone time limit; reserved for managers/employees of shops and liberal professions; max two macarons per business; form filed with the Police Municipale; renewal annually. Visible text carries no date: 21 August 2026 comes from the page's JSON-LD datePublished (modified 25 Aug 2026). Wording 'announced' is fine.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Page (modified 4 Sep 2024) lists 'Parkings gratuits longue durée': Jules Ferry 20, Rose de France (ex boulodrome) 130, Des écoles 80: correct. Parking du stade (Stade Jean Fournier) 50 and parking des Centurions 100 are NOT on this page; they appear on the blue-zone page (modified 23 Jul 2024) in a sentence 'D'autres ont été créés en proximité des stations de tramway' whose antecedent is missing from the page, and that page does not say they are free or long-stay. Draft's lead sentence implies all five are free long-stay.",
+   "corrected_text": "The town's page lists three free long-stay car parks: Jules Ferry (20 spaces), Rose de France (the former boulodrome, 130) and Des écoles (80), page last edited 4 September 2024. The separate blue-zone page (last edited July 2024) says other car parks 'were created' near tram stations: parking du stade (Stade Jean Fournier, 50 spaces) and parking des Centurions (100); it does not state their tariff or time limit.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "All figures match the page (modified 4 Sep 2024): Vicarello 64 places; open 7h-minuit every day; paid 7h-12h and 14h-20h; 2 free hours per half-day; free 12h-14h, Sundays and after 20h; hourly users and subscribers; subscription via Guichet Unique at the Hôtel de Ville. Arrêt minute: regulated 7h-19h, 20 minutes, time counted automatically, '20 bornes existent'. Dated as of the page edit.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Page says Notre-Dame de Sablassou, 350 places, Route de Nîmes, correspondance ligne 2, open 7j/7 24h/24, Véloparc, places réservées au covoiturage, PMR places, 'Forfait P+Tram disponible + d'info sur le site de la TaM', and calls it 'parking TAM Notre Dame du Sablassou'. Capacity 350 is on the page as written; the 379 from other sources was not checked (draft honestly says unreconciled). Page last edited 4 Sep 2024.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Page says riverains can subscribe to park at the TAM Notre-Dame-du-Sablassou car park: 17h30-8h30 Mon-Fri, 24h/24 on Saturday, Sunday and public holidays, 20 euro/month, 'renouvelable chaque mois - aucun engagement'; outside those periods paid at the hourly rate at the automatic pay stations. Page undated for this passage ('désormais'); page edited 4 Sep 2024, so correctly dated as of then. Current price not verified against TaM (site unreadable).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Facts match: Charles de Gaulle 200 places, Place Charles de Gaulle, entry via Rue du Prado, under the Prado-Concorde residence, ligne 2, 7j/7 24h/24, PMR places; free for 24h for transport subscribers with a valid TaM card; hourly vehicles on the P+tram price grid (Sabines, Sablassou, Occitanie, Mosson, Euromédecine). The draft says the grid is 'shown only as a table that could not be read as text'; in the page as served the sentence says 'voir tableau ci-dessous' but no table or image follows at all, so the grid is simply absent from the page.",
+   "corrected_text": "The Charles de Gaulle car park (200 spaces, Place Charles de Gaulle, entrance from Rue du Prado, under the Prado-Concorde residence) is linked to tram line 2 and open 24/7, with disabled spaces. Holders of a valid TaM card (transport subscribers) park free for up to 24 hours; hourly users pay on the P+tram price grid, which the page refers to ('voir tableau ci-dessous') but does not display, so the prices are not known from this page. Town page, last edited September 2024.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "English page on montpellier.fr: 21 Dec 2023 free public transport for all inhabitants; since 21 Dec 2023 the Pass gratuité lets residents park free for 24h in one of the 9 P+trams with combined tram use, declaring the journey on M'Ticket TaM; P+Trams stay free for non-residents with monthly or annual passes; non-residents can buy a P+Tram pass at automatic ticket machines. Page undated (links a PDF network map dated 20 Dec 2025); read 21 Oct 2026, date 2026-10 and wording correct. Official city source; not AI-labelled.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Page (modified 3 Feb 2025) says since 2006 Castelnau is served by tram line 2 with 8 stations: Charles-de-Gaulle, Clairval, La Galine, Centurions, Notre-Dame de Sablassou, Aube Rouge, Via Domitia, Georges-Pompidou; Place de la Comédie trip under 15 minutes ('Le saviez-vous ?'). The 'under 15 minutes' is the town's claim and the draft attributes it to the town.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Page (modified 30 Aug 2024): Sablassou lines 21 Vendargues, 29 Baillargues-St Brès, 30 Le Crès, 31 Castries-Beaulieu, 46 Collège de Castries, 51 Place de l'Europe; Charles de Gaulle lines 15, 16, 35, 36, 41; lines 31 and 35 are on-demand via RésaTaM. All match. Caveat: the page predates the May 2025 bustram A network reorganisation (the leaflet says the bustram 'réorganise le réseau dans le secteur'), so the line list may be out of date; draft dates it August 2024, which is acceptable.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Leaflet (5 pages, footer 'TaM - Mai 2025', PDF created 6 Jun 2025) matches on: bustram A from Friday 23 May 2025 between Place de l'Europe and Notre-Dame de Sablassou; 8 stations; 16 min; 'un bustram toutes les 10 min en journée' (the timetable says 10 min 7h-19h on weekdays); service 5h-minuit; extension to Castries via Le Crès and Vendargues 'à l'automne 2028' (page 3 text and page 4 map) and the P+tram invitation to residents of Le Crès, Vendargues and Castries to park at Notre-Dame de Sablassou. BUT the timeline box on page 3 gives 'Mi-2028' for the Castries section and the mayor's text says 'à horizon 2028', so the leaflet is internally inconsistent; 'autumn 2028' alone is too precise. Written before opening, so 'announced' is right. Title says June 2025: footer says May 2025 (file uploaded June).",
+   "corrected_text": "A TaM / Montpellier Méditerranée Métropole leaflet (May 2025) announced bustram line A from 23 May 2025 between Place de l'Europe (Montpellier) and Notre-Dame de Sablassou: 8 stations, 16 minutes, a bus every 10 minutes in the day (7am-7pm on weekdays) and service from 5am to midnight. It was to be extended to Castries via Le Crès and Vendargues in 2028 (the leaflet says autumn 2028 in one place and mid-2028 in its timeline box, so the date is a plan). Residents of Le Crès, Vendargues and Castries are invited to park at Notre-Dame de Sablassou and take the bustram.",
+   "corrected_title": "Bustram A leaflet, Montpellier Méditerranée Métropole / TaM (PDF, May 2025)",
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Leaflet page 3: the P+tram sites 'situés au terminus Notre-Dame de Sablassou de votre bustram et aux abords des lignes de tramway' are accessible 7j/7 24h/24 and let holders of a transport ticket ('titre de transport'), an annual TaM subscription or a Pass gratuité on M'Ticket park free for up to 24h if they continue by public transport. Matches. It is a May 2025 promotional leaflet, not a current tariff; the draft dates it 2025-05. Title should read May 2025 (footer 'TaM - Mai 2025').",
+   "corrected_text": null,
+   "corrected_title": "Bustram A leaflet, Montpellier Méditerranée Métropole / TaM (PDF, May 2025)",
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "One-page PDF (created 27 Jun 2024, URL /2024/06/). The 'Pôle multimodal de Sablassou' callout lists 'Actuellement': station de tramway, parking P+TRAM, véloligne; and 'À venir': station de bustram ligne 1 and 'Gare TER (horizon 2030)'. So TER 'à venir, horizon 2030' is right and correctly a plan, but the draft lists the hub as already having 'bus': the map shows the bustram station as still to come (the bustram opened in 2025). The map calls the bustram 'ligne 1 bus tram' (later renamed line A). The hub callout is a map graphic; the TER station is shown only in the legend.",
+   "corrected_text": "The town's June 2024 mobility map (Tram, bustram, vélo) presents a 'Pôle multimodal de Sablassou'. Its legend lists as existing then a tram station, a P+tram car park and a bike line (véloligne), and as 'à venir' (to come) a bustram station and a TER station ('Gare TER (horizon 2030)'). The map gives no further detail or funding, so 2030 is a target shown on a map, not a decision. A May 2025 leaflet by the mayor also speaks of a 'future gare TER' without a date.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Page (JSON-LD published 19 Jul 2024; no date in visible text) says 'certains parkings vont être équipés de bornes de recharge': Palais des Sports 4 places; avenue Georges-Frêche near Maison des Proximités 4; P+Tram Notre-Dame de Sablassou 6 plus a VAE charger; P+Tram Georges-Pompidou 6; rapid-charge station at Charles-de-Gaulle car park in front of the shops, 5 places. Future tense, no dates; draft correctly calls it an announcement. Whether installed is not verified.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Brochure cover 'JANVIER 2025' (PDF created 8 Jan 2025, modified 4 Jun 2025). Page 4-5: 1st phase 1 Jul 2022 to 30 Jun 2026 lists 11 communes including Castelnau-le-Lez; 'perspective au 1er juillet 2026' = all 31 communes (a perspective, not in force). 2025 ban: petrol first registered up to 31 Dec 2005, diesel up to 31 Dec 2010 (VL/VUL); Crit'Air sticker obligatory for all vehicles. Matches; 'not confirmed' wording for 2026 is right. The brochure predates the Feb 2025 'dormant' decision in item 16, so item 15's regime was not necessarily enforced; the two items together are not contradictory as worded.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Connexion France article, published 5 Feb 2025 (modified same day): 'from February 13' Montpellier and surrounding towns 'considered a dormant ZFE'; approved by 31 mayors on January 27; 'not signposted until 2027', no fines until 2027 (Crit'Air 3 and worse not fined); 'still yet to be voted by the local council, but expected to pass'. Julie Frêche quoted via Midi Libre: 'no signs, no checks and no fines'. Draft wording matches, including the pending council vote. Caveat: the standfirst says Montpellier 'has voted', which the body contradicts; secondary press source, status after Feb 2025 unverified.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Open-data page: dataset 'Parkings de Castelnau-le-Lez', described as extracted automatically every Sunday from OpenStreetMap (tags amenity=parking and not private, or parking_space with wheelchair=yes); files are point and polygon location files; licence ODbL; producer OpenStreetMap; 'Date de modification 2026-10-21 08:10 am', publication 2016-07-06. Matches; date 2026-10 right for a live page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Castelnau-le-Lez, the second-largest commune of Montpellier Méditerranée Métropole (as its town site says), manages centre parking mainly through a free two-hour blue zone with a 35 euro State fine; the town's pages describe it in the future tense, and on the blue-zone page the four pay-and-display machines in the centre were to be removed by TaM in a first phase. A sticker exempting shopkeepers and professionals from the blue-zone limit was announced in August 2026 (two per business, applied for at the municipal police). For longer stays, the town's 2024 pages list three free long-stay car parks (Jules Ferry 20, Rose de France 130, Des écoles 80 spaces), two further car parks near tram stops (50 and 100 spaces, tariff not stated), the 64-space underground Vicarello (paid with free periods) and the TaM P+Tram car parks on tram line 2 at Notre-Dame de Sablassou (350 spaces on the town page) and Charles de Gaulle (200). The Metropolis's free transport for residents since December 2023 lets Pass gratuité holders park free for 24 hours at P+Tram sites, and a May 2025 leaflet announced bustram A to Sablassou from 23 May 2025. A June 2024 town map shows a TER station at the Sablassou hub as to come, with a horizon of 2030 (a plan). Castelnau was in the first phase of the Metropolis's low-emission zone (January 2025 brochure); a February 2025 press report said fines and signage were to be suspended until 2027, and the later status was not verified. Charging points were announced in July 2024 and installation was not confirmed. Most town figures come from pages last edited in 2024 and may have changed; P+Tram tariffs were not confirmed."
+}

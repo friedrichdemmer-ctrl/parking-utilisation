@@ -1,0 +1,181 @@
+{
+ "country": "France",
+ "city": "Saint-Jean-de-Braye",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Saint-Jean-de-Braye (Loiret) has the terminus of tram line B of the Orléans Métropole network. Its two tram park-and-rides, Gaudier Brzeska (214 spaces) and Clos du Hameau (204 spaces), are listed in the Métropole open-data file. Tao says the park-and-rides are reserved for Tao customers, with free entry and a valid ticket needed to exit; a 4.50-euro P+R ticket covers parking plus a same-day return trip for up to five people (tariffs stated as in force on 1 July 2025). The rules for the sites were updated on 1 October 2026. The rules name Keolis as operator while the open-data file names Effia stationnement, and this conflict is unresolved. The town sets local parking rules itself and leaves tram and bus matters to the Métropole. Its 2026 mayoral orders create small blue zones (rue de la Gare, 13 bays, 1h30; rue des Grazons, 4 bays, 1h30; 115 avenue Soulas, 7 bays, 30 minutes) and limit parking of any vehicle to 24 hours across the commune. For the RD960 town-centre renovation, a Métropole count found 18% average parking occupancy in the project area (year and method not stated); the existing car parks are kept and works were planned to start on 15 July 2026 for 9 months. One public charging station (rue Jean Zay, 2 points of 22 kW, Freshmile, in service since July 2021) appears in a 2023 Métropole dataset. The Métropole's urban mobility plan (PDU 2019-2028) is due to be replaced by a first mobility plan in 2028.",
+ "items": [
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Tao's park-and-ride page (read on 21 October 2026) lists Gaudier Brzeska (avenue Denis Papin) and Clos du Hameau (rue de la Gare), both in Saint-Jean-de-Braye, among the 12 tram park-and-rides. They are reserved for Tao customers: entry is free, but the exit barrier opens only with a valid Tao ticket.",
+   "source_title": "Parcs relais et parkings - TAO",
+   "source_url": "https://www.tao-mobilites.fr/fr/b8L-Parcs-relais-et-parkings.html",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "A 'P+R' ticket of 4.50 euros, sold at tram station machines, covers parking in a park-and-ride plus one same-day return trip for everyone in the car (up to 5 people). The same page, which states tariffs as in force on 1 July 2025, gives 2.00 euros for a single trip and 5.00 euros for a 24-hour ticket.",
+   "source_title": "Tickets - TAO",
+   "source_url": "https://www.tao-mobilites.fr/fr/pP-Tickets.html",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10-01",
+   "text": "The rules for the tram park-and-rides, updated on 1 October 2026, name Clos du Hameau and Gaudier Brzeska and say the exit barrier requires a valid Tao ticket. They set a 3.5-tonne weight limit, a 15 km/h speed limit and no caravans or trailers, and forbid stays over 7 days without the operator's agreement.",
+   "source_title": "Règlement d'utilisation des parcs relais Tram TAO (PDF)",
+   "source_url": "https://tao-mobilites.fr/upload/mentions_legales/REGLEMENT_UTILISATION_PARCS-RELAIS.pdf",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The rules name Keolis Orléans Métropole Mobilités (headquartered in Saint-Jean-de-Braye) as operator of the tram park-and-rides. The Métropole open-data file read on 21 October 2026 lists 'Effia stationnement' as manager of Gaudier Brzeska and Clos du Hameau, so the sources name different operators and the exact split is unclear.",
+   "source_title": "Règlement d'utilisation des parcs relais Tram TAO (PDF)",
+   "source_url": "https://tao-mobilites.fr/upload/mentions_legales/REGLEMENT_UTILISATION_PARCS-RELAIS.pdf",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "The Orléans Métropole parking open-data file (read on 21 October 2026) lists Gaudier Brzeska (214 spaces, 5 accessible, height limit 2.20 m) and Clos du Hameau (204 spaces, 5 accessible, height limit 1.90 m), neither with electric-vehicle spaces. Both are flagged as in service with real-time free-space counts, together 418 spaces.",
+   "source_title": "Orléans Métropole open data: parcs de stationnement (JSON export)",
+   "source_url": "https://data.orleans-metropole.fr/api/explore/v2.1/catalog/datasets/om-mobilite-parcs-stationnement/exports/json",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Orléans Métropole says it aims to reduce solo car driving and to favour public transport and active modes; it also operates 12 tram park-and-rides and 4 free bus park-and-rides. The page (read on 21 October 2026) is mostly about Orléans, and its on-street zones and prices are not shown to apply in Saint-Jean-de-Braye.",
+   "source_title": "Stationnement - Orléans Métropole",
+   "source_url": "https://www.orleans-metropole.fr/actions-et-services/mobilite-et-deplacements/stationnement",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The Métropole's charge-point dataset (last updated July 2023) lists one public station in Saint-Jean-de-Braye, rue Jean Zay: 2 charge points of 22 kW, on-street, open 24/7, paid, run by Freshmile for Orléans Métropole and in service since 15 July 2021. The file has 30 stations across the metropolis, and none of the Saint-Jean-de-Braye park-and-rides is marked with electric spaces.",
+   "source_title": "Infrastructures de recharge pour véhicules électriques - Orléans Métropole (open data)",
+   "source_url": "https://data.orleans-metropole.fr/api/explore/v2.1/catalog/datasets/om-mobilite-irve/exports/json",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The Métropole says the tariff of its public charging posts is 0.50 euro per kWh including tax from the first minute, since 1 January 2024, and that the single flat fee meant to deter long stays rose to 25 euros including tax. The page (read on 21 October 2026) says 30 charging posts (bornes) are in service across the 22 communes.",
+   "source_title": "Stationnement - Orléans Métropole",
+   "source_url": "https://www.orleans-metropole.fr/actions-et-services/mobilite-et-deplacements/stationnement",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-06-19",
+   "text": "For the RD960 (avenue Louis-Joseph Soulas) renovation in the town centre, the town's project page says Orléans Métropole ran counts of average parking occupancy for the area and found 18%. The page does not say which spaces were counted, in which year or how. It keeps the Longues Allées car park (59 spaces) and the municipal car park next to the florist (25 spaces), and lists a new car park on rue de la Gare near the Narval.",
+   "source_title": "Requalification de la RD960 : projet & infos pratiques - Saint-Jean de Braye",
+   "source_url": "https://www.saintjeandebraye.fr/actualite/requalification-de-la-rd960-projet-infos-pratiques/",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-19",
+   "text": "The first phase of the RD960 renovation (Mondésir roundabout to rue de la Gare, 1.895 million euros incl. tax, funded by the Métropole) was due to start on 15 July 2026 and last 9 months. Parking in front of the shops is kept, with a switch to blue zone or short-stop parking under study.",
+   "source_title": "Requalification de la RD960 : projet & infos pratiques - Saint-Jean de Braye",
+   "source_url": "https://www.saintjeandebraye.fr/actualite/requalification-de-la-rd960-projet-infos-pratiques/",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2020-07",
+   "text": "A town page, published in July 2020 according to its metadata (the text carries no date), announced new visitor spaces in blue zone (disc, 1h30 maximum) on rues Bernard Cognet and Arnaud de Saxcé, to curb wild parking that hampered collection of the underground waste bins. Ground marking was to start on 6 July for about 15 days. The page says municipal police patrol regularly and can fine offenders.",
+   "source_title": "Modification de la circulation et du stationnement - Saint-Jean de Braye",
+   "source_url": "https://www.saintjeandebraye.fr/point-d-interet/modification-de-la-circulation-et-du-stationnement/",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The town says tram and bus matters are Orléans Métropole's competence, and describes Saint-Jean-de-Braye as having many bus lines and the terminus of tram line B. Line B runs east-west through Saint-Jean-de-Braye, Orléans, Saint-Jean-de-la-Ruelle and La Chapelle-Saint-Mesmin (page read on 21 October 2026).",
+   "source_title": "Déchets, mobilité, eau potable - Saint-Jean de Braye",
+   "source_url": "https://www.saintjeandebraye.fr/ma-ville-au-quotidien/dechets-mobilite-eau-potable/",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "The town's EcoQuartier du Hameau page (published 2023, updated August 2025) says the project has built about 900 homes and is entering its last works phase, with 350 homes expected by 2027 in Clos du Hameau Nord, and that the last building plots are due to be finished by 2027. The page does not mention parking.",
+   "source_title": "L'ÉcoQuartier du Hameau - Saint-Jean de Braye",
+   "source_url": "https://www.saintjeandebraye.fr/ma-ville-au-quotidien/grands-projets/lecoquartier-du-hameau/",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024",
+   "text": "Orléans Métropole's 2024 key-figures report says the current urban mobility plan (PDU) was adopted in July 2019 and runs to 2028, and that the metropolis must adopt its first mobility plan (PDM, under the LOM law) in 2028. A mid-term review of the PDU was due to start in the second half of 2024.",
+   "source_title": "Les chiffres clés de la mobilité dans la métropole orléanaise 2024 (PDF)",
+   "source_url": "https://www.orleans-metropole.fr/fileadmin/orleans-metropole/MEDIA/document/deplacement/Chiffres_cles_Mobilite_2024.pdf",
+   "confidence": "high",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2024",
+   "text": "The 2024 key-figures report counts 287 charge points in the metropolis in 2023 (251 normal and 36 fast; normal points include residential and company sites), against 531 in the Loiret. It also says the metropolis holds 54% of the publicly open charge points of the Loiret, 155 points. A charging masterplan (SDIRVE) was drawn up in 2023 by the Métropole and the Loiret department.",
+   "source_title": "Les chiffres clés de la mobilité dans la métropole orléanaise 2024 (PDF)",
+   "source_url": "https://www.orleans-metropole.fr/fileadmin/orleans-metropole/MEDIA/document/deplacement/Chiffres_cles_Mobilite_2024.pdf",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2024",
+   "text": "The 2024 key-figures report has a chart of annual use of the 12 tram and 4 bus park-and-rides for 2018-2023, split by tram line A, line B and total. It also describes them as parking reserved for public-transport users. The figures could not be reliably assigned to years or lines from the PDF text, so no numbers are quoted.",
+   "source_title": "Les chiffres clés de la mobilité dans la métropole orléanaise 2024 (PDF)",
+   "source_url": "https://www.orleans-metropole.fr/fileadmin/orleans-metropole/MEDIA/document/deplacement/Chiffres_cles_Mobilite_2024.pdf",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Town hall PDFs (2026 orders on blue zones and parking over 24 h, and council item CM129 'transfert parking rue Gallouédec - Orléans Métropole' of 15 October 2026) are image scans with no text layer and no OCR tool was available: contents not read. https://www.saintjeandebraye.fr/ma-mairie/publication-actes/",
+  "No town page on paid on-street parking, resident permits or a resident scheme was found; only blue zones. No evidence either way for resident permits in Saint-Jean-de-Braye.",
+  "La République du Centre and actu.fr could not be searched (domains blocked for the search tool); no press on the two car parks was read.",
+  "reseau-tao.fr did not respond; tao-mobilites.fr was used. The Tao park-and-ride page gives no occupancy history or opening hours per site; the October 2025 height-limit PDF was jumbled and not used (heights come from the open-data file).",
+  "The annual park-and-ride attendance figures in the 2024 key-figures PDF (chart text) could not be assigned to lines/years, so no line B numbers are given.",
+  "No Saint-Jean-de-Braye-specific low-emission zone, tram B extension or park-and-ride expansion document was found. The town's 'Travaux rue de la Gare' news page (and a late-2025 tram works page) returned 404 on 21 October 2026, so search-snippet details about rue de la Gare works were not used.",
+  "No document found on a 'Gaudier Brzeska' or 'Clos du Hameau' car park besides the tram park-and-rides, so the two sites in our data are taken as those park-and-rides."
+ ],
+ "dropped": {
+  "low confidence": 2
+ }
+}

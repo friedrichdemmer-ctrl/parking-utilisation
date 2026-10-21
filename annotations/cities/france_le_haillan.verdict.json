@@ -1,0 +1,101 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Page (published 30 Oct 2024, updated 13 Jan 2026) says the ZFE has applied since 1 Jan 2025, 24/7, and 'correspond a l'intra-rocade' (the ring road itself is outside and open to all). Crit'Air sticker mandatory; unclassified vehicles (petrol and diesel cars registered before 1 Jan 1997 etc.) barred but may reach 11 listed park-and-rides: Brandenburg, 40 Journaux, Gare de Bruges, Hippodrome (Eysines), Les Pins, Bougnard, Unitec, Arena, Dravemont, Buttiniere, Lauriers. Neither Cantinolle nor Le Haillan Rostand is listed. The words 'Le Haillan' do not appear anywhere on the page, so the draft's caveat (page does not say whether Le Haillan lies inside the zone) is correct and must stay.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "PDF (reachable via curl, 2 pages) is a town map: legend 'Stationnement a duree non limitee' vs 'Zone Bleue duree limitee', with per-street counts such as 23, 55, 61 pl. No time limits or prices on it. Date 2025-11 comes only from the upload path /2025/11/; PDF metadata says created 30 July 2025 and the map also mentions items 'a compter d'avril 2026' and a school provisional until November 2026, so it is a 2025 edition with forward-looking labels. Wording about unconfirmed rules is appropriate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Cantinolle page (live directory, 'Mise a jour le 21/10/2026'): 620 spaces, Allee de Jallepont 33185 Le Haillan, tariff 3.5 EUR for 1, 2, 3, 4 and 10 hours. Le Haillan Rostand figures (4.5 EUR flat, Rue Adrienne Bolland, 204 spaces) are on the separate page /parking/262, not on the cited /parking/623, though the title names both. Price categories are indeed unexplained (tabs 'Titulaire carte handicap' / 'Autre' with the same prices). Both read 21 Oct 2026; date 2026-10 right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Listing page confirms '100 parcs de stationnements' and 'les 28 parcs-relais du reseau TBM'. Both Le Haillan pages (parking/623 and /262, not the cited URL) give https://www.infotbm.com/fr/plans/plan-dynamique/p+r as 'Site de l'exploitant' and show live free-space counts (522 of 620 and 179 of 204 on 21 Oct 2026). Le Haillan does not appear in the listing text I could read (page 1, Bordeaux only). The claim that this makes the sites 'measurable through the metropolitan open-data feed' appears nowhere on these pages: it is the researcher's inference and must be dropped.",
+   "corrected_text": "On the Bordeaux Metropole parking directory (read on 21 October 2026), which lists 100 car parks and says the TBM network has 28 park-and-rides, the individual pages for Cantinolle and Le Haillan Rostand give the TBM site as operator website and show live free-space counts (522 of 620 and 179 of 204 spaces free when read).",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Rostand page: 204 spaces, 5 disabled, 5 car-sharing, 20 bicycle, 0 charging, 0 motorcycle, max height 2.1 m. Cantinolle (on /parking/623, not the cited page): 620 spaces, 15 disabled, 20 charging, 16 motorcycle, 0 bicycle, max height 2.9 m. All as drafted. Live page read 21 Oct 2026. Source URL only covers Rostand; Cantinolle figures are on /parking/623.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "TBM page (undated, 'Keolis ... 2026' footer): short-stay tickets 2 days/1 night 12 EUR, 3/2 15, 4/3 20, 5/4 25 EUR, including a round trip. '11 of 28' park-and-rides offer it: 40 Journaux, Cantinolle, Les Pins, Les Aubiers, Pessac Alouette, Cap Metiers, Villenave Pyrenees, La Gardette Nord/Sud, Lauriers, Floirac Dravemont. Le Haillan Rostand not listed. Read 21 Oct 2026; date 2026-10 right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "Railway Gazette (3 March 2020): 5.5 km extension of Line D opened on 29 February (year from the dateline), Mairie du Bouscat to Eysines Cantinolle, EUR 250m, nine stops and two car parks opened the same day. The article does not say anything about the park-and-ride address; the stop is named 'Eysines Cantinolle'. The Le Haillan address comes from the Bordeaux Metropole directory (Allee de Jallepont 33185 LE HAILLAN), a different source.",
+   "corrected_text": "Tram line D was extended by 5.5 km from Mairie du Bouscat to a terminus named Eysines Cantinolle on 29 February 2020 (EUR 250m, nine stops and two car parks opened the same day), according to Railway Gazette International. The stop is named after Eysines, while the Bordeaux Metropole directory (read 21 October 2026) gives the Cantinolle park-and-ride address as Allee de Jallepont, Le Haillan.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Press release dated 1 June 2024: mayors including Le Haillan's inaugurated line G Saint-Aubin-de-Medoc to Bordeaux Saint-Jean; 21 km; serves Bordeaux, Merignac, Eysines, Le Haillan, Saint-Medard-en-Jalles, Saint-Aubin; 5-minute peak frequency Bordeaux-Saint-Medard; aims at 50,000 passengers a day and 18,000 fewer car trips a day; seven Bus Express lines by 2027. All as drafted. Note the release says the electric buses are planned for spring 2025.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Le Bonbon article (7 July 2026): 366 spaces (10 reduced mobility), 74 charging points, 70 bicycle places, 14 motorcycle places, inaugurated 2 July at Le Haillan near Mermoz station of line G, 31 park-and-rides and over 7,500 spaces; address 57 avenue Pasteur is in the info box. But the headline says '400 places avec 75 bornes' while the body gives 366 and 74, and the article names no official source in its text (only image credits to Bordeaux Metropole), so 'cites Bordeaux Metropole' is too strong. Single secondary source, no official page found: keep confidence medium, worded as reported.",
+   "corrected_text": "A press article (Le Bonbon, 7 July 2026) reports that a new park-and-ride called Mermoz, at 57 avenue Pasteur in Le Haillan next to the Mermoz stop of Bus Express line G, was inaugurated on 2 July 2026 with 366 spaces (10 for people with reduced mobility), 74 charging points, 70 bicycle places and 14 motorcycle places. The article's headline rounds this to 400 spaces and 75 charging points, it names no official source in its text, and no official page was found to confirm it. It also says the metropolis then had 31 park-and-rides with over 7,500 spaces.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Map (PDF page 2): Le Haillan-Rostand labelled Terminus Tram A, Cantinolle Terminus Tram D with 'Acces tram passage souterrain', 'PARC-RELAIS MERMOZ (ouverture 1er trimestre 2026)' and 'ZAE MERMOZ (EN 2027)'; label positions checked. All correct. The parenthetical 'it actually opened on 2 July 2026' is not on the map; it rests on a single press article (item 8) and must be attributed.",
+   "corrected_text": "The town's 2025 map shows Le Haillan Rostand as the tram A terminus, Cantinolle as the tram D terminus with an underground passage giving tram access, and a Mermoz park-and-ride with planned opening in the first quarter of 2026. It also shows an economic zone 'ZAE Mermoz' planned for 2027. (A single press article reports the Mermoz park-and-ride inaugurated on 2 July 2026.)",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Page (published 7 Jan 2025, updated 28 May 2025): 364 charging spaces, 146 stations in May 2025; tariff since 6 Jan 2025: 0.38 EUR/kWh, 4.00 EUR/h if the session exceeds 4 h on slow sockets, waived 23:00-08:00 on AC sockets, 48.00 EUR TTC maximum beyond 14 h. Corrections: the stations are managed by the metropolis and Freshmile only handles supervision (user relations, operations monitoring, revenue management), so 'run with the operator Freshmile' overstates; the 4 EUR/h applies to slow sockets only; the page calls it an evolution 'entamee' (begun) and may be out of date by October 2026. No Le Haillan station is named, as the draft says.",
+   "corrected_text": "Bordeaux Metropole's street-charging network had 364 charging spaces at 146 stations in May 2025. The stations are managed by the metropolis, with supervision by the operator Freshmile. Since 6 January 2025 the tariff is 0.38 euros per kWh, plus 4.00 euros per hour if a session on slow sockets exceeds 4 hours (waived 23:00-08:00 on AC sockets), with a maximum of 48.00 euros after 14 hours. The page was last updated on 28 May 2025; this is metropolis-wide context and no Le Haillan station is named.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Insee Analyses Nouvelle-Aquitaine no. 95, May 2021: OIM Bordeaux Aeroparc covers parts of Merignac, Le Haillan and Saint-Medard-en-Jalles, 2,515 ha including the airport; end of 2017: 3,000 establishments and 36,600 employees; 15% of the metropolis's 'emploi marchand' (non-agricultural market sector, a close match to 'private-sector') and 17% of payroll. Perimeter is the original September 2015 one. No mention of parking. The figures are from 2017 and are dated as old in the draft.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Le Haillan is a commune of Bordeaux Metropole on the north-western edge of the Bordeaux area, partly within the Bordeaux Aeroparc business zone, which an Insee study of May 2021 counted at 36,600 employees at the end of 2017 (an old figure). Its parking story is mostly park-and-ride: the metropolitan parking directory, read on 21 October 2026, lists Cantinolle (620 spaces, 20 with charging, a flat 3.50 euros) and Le Haillan Rostand (204 spaces, a flat 4.50 euros), and Cantinolle is one of 11 park-and-rides offering TBM short-stay tickets of 2 to 5 days. The town map of 2025 shows Rostand at the tram A terminus and Cantinolle at the tram D terminus. Tram D reached Eysines Cantinolle in February 2020 and Bus Express line G was inaugurated in June 2024. A single press article (Le Bonbon, July 2026) reports a third park-and-ride, Mermoz, inaugurated on 2 July 2026 with 366 spaces and 74 charging points; no official page confirms it. The low-emission zone covers the area inside the Bordeaux ring road and lists neither Le Haillan site among the 11 park-and-rides open to unclassified vehicles; the metropolitan page does not say whether Le Haillan lies inside the zone. The town's map marks street parking as unlimited-duration or blue zone, but the town hall website was behind bot protection, so tariffs, time limits, resident rules and council decisions could not be verified."
+}

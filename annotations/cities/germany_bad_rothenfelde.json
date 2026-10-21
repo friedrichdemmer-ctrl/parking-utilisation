@@ -1,0 +1,168 @@
+{
+ "country": "Germany",
+ "city": "Bad Rothenfelde",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Bad Rothenfelde is a small spa town of about 8,500 inhabitants in the Osnabrück district. A consultant's Verkehrskonzept Ortskern, dated 17 December 2024 and put online by the municipality on 7 February 2025 as a concept it is developing, surveyed about 2,000 spaces in 39 car parks and parking strips on Thursday 1 and Sunday 4 June 2023. Of the public spaces, only 14 percent are free and unrestricted, 39 percent are reserved for customers or patients, 6 percent use a parking disc and 41 percent are pay-and-display or barrier-controlled. Peak occupancy was about 34 percent on the Thursday and about 53 percent on the Sunday (excluding the Schüchtermann clinic garage). The concept found no deficient supply overall but an uneven use, with weekday pressure around the clinics and Sunday pressure around the Kurpark and Gradierwerk while car parks at the edge stay free. It recommends, without any adoption being established, a mainly dynamic parking guidance system with LED signs (high priority), price grading in favour of peripheral car parks such as Palsterkamp, a long-term renovation of the Zentralparkplatz, marking out the gravel car parks, and a Begegnungszone in Salinenstraße (high priority); it examined but advised against temporary road closures. The municipality reported 12 public or semi-public EV charging stations at the time of the concept. The spa baths car park (Parkplatz carpesol, Frankfurter Straße 15) is listed on the site of the Osnabrücker Parkstätten-Betriebsgesellschaft (OPG) with 2 euros for each of the first two hours, 1 euro per further hour, a daily maximum of 8 euros, and 1 euro for carpesol visitors after validation (page read on 21 October 2026, live capacity field 0 of 0). The tourism office tells visitors that several central car parks are run partly by OPG and partly by private owners, that the municipal administration does not know their fees, and that Palsterkamp is free, about 15 minutes on foot from the Kurpark. No council minutes or press reports on a parking-fee decision were found.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2025-02-07",
+   "text": "On 7 February 2025 the municipality announced that it is developing a traffic concept for the town centre, aiming at better stay quality, accessibility and less motorised traffic, with traffic calming and a stronger use of walking, cycling and public transport.",
+   "source_title": "Verkehrskonzept (Nachricht, Gemeinde Bad Rothenfelde)",
+   "source_url": "https://gemeinde.bad-rothenfelde.de/nachricht/verkehrskonzept.html",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-12-17",
+   "text": "The Verkehrskonzept Ortskern (report dated 17 December 2024, survey days Thursday 1 June and Sunday 4 June 2023) counted about 2,000 spaces in 39 car parks in the town centre. Of the public spaces, 14 percent (274) are free and unrestricted, 39 percent (778) are reserved for customers or patients, 6 percent (124) use a parking disc and 41 percent (819) are pay-and-display or barrier-controlled.",
+   "source_title": "Verkehrskonzept Ortskern, Erläuterungsbericht (PDF, Gemeinde Bad Rothenfelde)",
+   "source_url": "https://gemeinde.bad-rothenfelde.de/nachricht/verkehrskonzept.html",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-12-17",
+   "text": "The concept's parking counts of Thursday 1 June and Sunday 4 June 2023 (excluding the Schüchtermann clinic multi-storey car park, which was assessed separately) show peak occupancy of about 34 percent on the Thursday and about 53 percent on the Sunday, with the Sunday higher because of the Therme and events. On the Thursday the roadside parking at the Kurpark reached an insufficient level and the streets next to the clinics were partly poor to insufficient. On the Sunday Kirchstraße and Am Kurpark, west of the park, were at times full, and parking pressure was high around the Gradierwerk, especially on Bahnhofstraße.",
+   "source_title": "Verkehrskonzept Ortskern, Erläuterungsbericht (PDF, Gemeinde Bad Rothenfelde)",
+   "source_url": "https://gemeinde.bad-rothenfelde.de/nachricht/verkehrskonzept.html",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-12-17",
+   "text": "For the Schüchtermann clinic multi-storey car park, operator data show it is used mostly by permit holders (clinic staff), with large numbers of spaces free at weekends. Overall the concept found no deficient or insufficient level of parking supply, but an uneven use: critical occupancy in some areas (the clinic quarter on weekdays, the Kurpark area at weekends) while sites around and at the edge of the town stay free, which causes avoidable parking-search traffic, especially in the spa centre.",
+   "source_title": "Verkehrskonzept Ortskern, Erläuterungsbericht (PDF, Gemeinde Bad Rothenfelde)",
+   "source_url": "https://gemeinde.bad-rothenfelde.de/nachricht/verkehrskonzept.html",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2024-12-17",
+   "text": "The concept judges the existing parking signage as poor: it is entirely static, starts only inside the town centre, and points mainly to the Zentralparkplatz and the Heristo-Sportpark. It recommends mainly dynamic guidance (LED displays with occupancy sensors) with static signs on access streets, rates it a high-priority measure, and says implementation design would still have to be worked out (a recommendation, not a decision).",
+   "source_title": "Verkehrskonzept Ortskern, Erläuterungsbericht (PDF, Gemeinde Bad Rothenfelde)",
+   "source_url": "https://gemeinde.bad-rothenfelde.de/nachricht/verkehrskonzept.html",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-12-17",
+   "text": "The concept says graded pricing could support the outer car parks: peripheral car parks such as Palsterkamp could continue to be free or carry only low fees compared with the higher-priced car parks near the centre, with the municipality's parking revenue to be taken into account. It also says bus transport for users of outer car parks (including event shuttles) should be examined, and mentions app-based mobile parking payment, as used in Bad Salzuflen, Ahlen and Oelde. These are recommendations in a consultant report; adoption is not established.",
+   "source_title": "Verkehrskonzept Ortskern, Erläuterungsbericht (PDF, Gemeinde Bad Rothenfelde)",
+   "source_url": "https://gemeinde.bad-rothenfelde.de/nachricht/verkehrskonzept.html",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-12-17",
+   "text": "The concept describes the Zentralparkplatz (on the north side of Salinenstraße) as the most important car park in the town centre but badly in need of renewal. It recommends a fundamental renovation at least as a long-term goal, dealing with sealing, shade and trees, EV charging and quality cycle parking, and tying the car park into the parking guidance system, after which fees could be set. It suggests marking out spaces at the Palsterkamp, Freibad (carpesol) and Heristo-Sportpark car parks, where inefficient parking was observed, and says a parking deck at the Freibad lot could in the medium to long term relieve the Zentralparkplatz. These are suggestions in a consultant report; the optimisation of existing car parks is rated medium priority.",
+   "source_title": "Verkehrskonzept Ortskern, Erläuterungsbericht (PDF, Gemeinde Bad Rothenfelde)",
+   "source_url": "https://gemeinde.bad-rothenfelde.de/nachricht/verkehrskonzept.html",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-12-17",
+   "text": "The concept proposes examining a shared-space-style Begegnungszone for Salinenstraße (the main shopping street next to the Kurpark), in the same design as the existing one in Frankfurter Straße, and rates it as high priority and high cost. It also examined temporary closures of Salinenstraße and Hannoversche Straße to car traffic but advised against them: the local fire brigade said full closures would make normal response times impossible, traffic would shift into residential streets, and the closures are left out of its priority list. These are proposals in a consultant report; the text read does not record a council decision.",
+   "source_title": "Verkehrskonzept Ortskern, Erläuterungsbericht (PDF, Gemeinde Bad Rothenfelde)",
+   "source_url": "https://gemeinde.bad-rothenfelde.de/nachricht/verkehrskonzept.html",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2024-12-17",
+   "text": "According to the municipality, as quoted in the concept, there were 12 public or semi-public EV charging stations (Ladesäulen) in the town (no date given), and Bad Rothenfelde intends a step-by-step expansion of charging capacity as part of its charging-infrastructure planning.",
+   "source_title": "Verkehrskonzept Ortskern, Erläuterungsbericht (PDF, Gemeinde Bad Rothenfelde)",
+   "source_url": "https://gemeinde.bad-rothenfelde.de/nachricht/verkehrskonzept.html",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The tourism office states that several central car parks are partly run by the Osnabrücker Parkraumgesellschaft (OPG) and partly by private owners, and that the municipal administration does not know their individual fees. It lists free parking at Palsterkamp (Bahnhofstraße, about 15 minutes' walk to the Kurpark) and says Zentralparkplatz/Ulmenallee is the coach parking area. Page undated, read on 21 October 2026.",
+   "source_title": "Parkplatzsuche (Bad Rothenfelde Heilbad im Osnabrücker Land)",
+   "source_url": "https://www.bad-rothenfelde.de/parken",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The OPG page for Parkplatz carpesol (Frankfurter Straße 15, open 00:00-24:00 daily, monitored) lists 2.00 euros for the first hour, 2.00 euros for the second hour, 1.00 euro per further hour and a daily maximum of 8.00 euros. It also lists 1.00 euro for visitors of the carpesol and of the Freibad (a discount applied at the carpesol or Freibad) and free parking for visitors of the rehabilitation centre once the ticket is validated there. Page undated, read on 21 October 2026; its live capacity field showed 0 of 0 at that time.",
+   "source_title": "Parkplatz carpesol (OPG - Parken in Osnabrück)",
+   "source_url": "https://www.parken-osnabrueck.de/parken/parkplatzsuche/detail/parkplatz-carpesol.html",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "According to the carpesol Therme FAQ, the Thermenparkplatz is entered from Hannoversche Straße; guests get a single-use QR code at reception, enter the licence plate at the pay machine and scan the code to get the parking fee discounted, then pay any remainder by card only at the machine, and faults are handled by OPG's on-call service. The same page also carries a second, differing FAQ block that mentions cash payment and a 0.50 euro discount, so these details may be partly outdated. Page undated, read on 21 October 2026.",
+   "source_title": "FAQ (carpesol Spa Therme)",
+   "source_url": "https://carpesol.de/information/faq/",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The OPG parking portal (Osnabrück-based operator) lists Parkplatz carpesol among its car parks, showing that the Osnabrück-region operator also runs this site outside Osnabrück city. Page read on 21 October 2026, where all car parks showed 'keine Info' for live occupancy.",
+   "source_title": "OPG - Parken in Osnabrück",
+   "source_url": "https://www.parken-osnabrueck.de/",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The tourism office states that the 60-space motorhome area at the campotel charges a pure parking fee, so the guest card is not included in the price. Page undated, read on 21 October 2026.",
+   "source_title": "Wohnmobil-Stellplatz (Bad Rothenfelde Heilbad im Osnabrücker Land)",
+   "source_url": "https://www.bad-rothenfelde.de/wohnmobil-stellplatz",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "For visitors arriving by rail, the tourism office says trains stop at Dissen-Bad Rothenfelde station (in Dissen, about 2.2 km from the carpesol according to the Therme) and that a free VOS shuttle bus (lines 475 or 467) runs to the central bus station on Bahnhofstraße; line 475 also serves the clinics. Page undated, read on 21 October 2026.",
+   "source_title": "Anreise - Routenbeschreibungen (Bad Rothenfelde Heilbad im Osnabrücker Land)",
+   "source_url": "https://www.bad-rothenfelde.de/anreise",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "No council (Gemeinderat) minutes, parking-fee ordinance or press report (Neue Osnabrücker Zeitung, Dissener Zeitung, Kreis Osnabrück) on parking decisions could be found or opened; web search returned only listing portals and unrelated towns. Whether the Verkehrskonzept was formally adopted and which measures were decided is therefore unknown.",
+  "Tariffs and rules for other OPG or private car parks in the centre (Zentralparkplatz, Schüchtermann clinic garage) were not found on an official page; the municipality says it does not know them. A third-party listing figure for the clinic garage was not used.",
+  "No official page on Kurgäste versus day-visitor parking rules (e.g. guest-card parking privileges) was found.",
+  "The Gradierwerk area has no dedicated parking policy page; only the Verkehrskonzept mentions Sunday pressure around it.",
+  "EV charging: only the concept's count of 12 charging points was sourced; no operator or tariff page was opened (an Electromaps listing was not used).",
+  "Not opened: Anlage I and II of the Verkehrskonzept (maps of the 39 car parks), noz.de and dissener-zeitung press archives."
+ ],
+ "dropped": {}
+}

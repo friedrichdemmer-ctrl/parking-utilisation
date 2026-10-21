@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "CVDR746400 (Verordening parkeerbelastingen 2026): decided by the council in its public meeting of 23 October 2025 ('Aldus besloten'); art. 14(3) levy start date 1 January 2026. Tariff table 1.1-1.5, per 60 minutes, 'Na het tweede uur dubbel tarief': A Binnenstad EUR 2.80; B Singelring en Spoorzone West 1.90; C Roerzicht / Voorstad St. Jacob 1.90; D Buitenop / Maashaven 1.90; E Vrijveld / Roermondse Veld 1.70. All numbers and area names match. Minor wording: 'signed' is really 'adopted/decided'.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Same tariff table: P01 Maashaven EUR 1.90/h max 11.00 per 24h; P02 Arlo 1.90/h max 11.00; P14 ECI 1.90/h max 6.50 per 24h; P12 Wilhelminaplein 2.80/h (double after second hour); short-stay bays (max 30 min) 1.40 per 30 min; area E first 60 minutes EUR 0.00 if plate registered and at least two hours since the end of the previous parking action. Kazerneplein/Stationspark/P+R do not appear in the table (the table has a P08 Brandweerkazerne, which is a different site). All matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Same tariff table, section 3: resident permit 1 EUR 12.00/month (area E EUR 39.15/year); resident permit 2 EUR 33.00/month; visitor permit EUR 0.24 per 60 min; car-park permits week 44.00, workday 33.00, weekend 33.00 per month; business permit 1 EUR 69.00/month, business permit 2 EUR 85.00/month; business day permit EUR 11.00 per day. All matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2025 nr. 479516 (11 Nov 2025): college decision of 19 August 2025, art. III in force 1 January 2026. Annex 1 B: Mon-Sat 08:00-22:00 and Sun 12:00-22:00 in areas A, B, C, D; Mon-Sat 08:00-20:00 and Sun 12:00-20:00 in area E (P14 ECI is a separate case, 08:00-18:00 Mon-Sat, Sun 12:00-18:00). 2021 action plan measure package 1-C.3 says window times to be stretched from 20:00 to 22:00 to discourage hospitality visitors parking on street (conditional on pressure staying too high). Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "College proposal 112635-2025 dated 10 Dec 2025. Confirmed: remaining spaces mainly for city-centre residents; says the council decided on 23 Oct 2025 to extend paid hours from 20:00 to 22:00 (the proposal's own wording; the Gemeenteblad shows the college decision of 19 Aug 2025); college decided 18 Nov 2025 that the special Wilhelminaplein permits lapse on 1 Jan 2026; Arlo to be open 24/7 during works (proposal item 4); Albert Heijn owner willing to provide parking for permit holders (agreements stated to be made); works planned Q3-Q4 2026. Not exact: the proposal says 'ruime halvering' (a generous halving) of the capacity, not 'roughly half'. It is a proposal; adoption not shown on the page.",
+   "corrected_text": "A college proposal of 10 December 2025 on the Wilhelminaplein final design says the design assumes a generous halving ('ruime halvering') of the square's parking capacity, with the remaining spaces mainly for city-centre residents. It notes that the council extended paid-parking hours in the city centre from 20:00 to 22:00 on 23 October 2025, and that the college decided on 18 November 2025 that the special Wilhelminaplein parking permits lapse on 1 January 2026. The proposal suggests opening the Arlo car park 24/7 during the works (planned for Q3-Q4 2026) and notes that the Albert Heijn owner is willing to make parking available for permit holders during the works.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Council proposal 35338-2024 dated 16 April 2024: credit EUR 15,770,000 excl. VAT requested; the adopted Visie says the tree/parking-strip design makes a reduction of about 20% of spaces unavoidable; in phase 3, 16 of the present 90 spaces have no room (18%); final plan adds 11 compensating spaces on Molenweg and Akcros; net reduction of 5 spaces (-5.5%). All matches. It is a proposal to the council; the page does not show adoption or completion.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Actieplan 2021-2030, Spark v1.2, 8 July 2021, p.16-18. Target: average street pressure in the whole city centre inside the Singels not systematically above 90% at the peak moment; street spaces meant for residents' first cars and short-stay visitors. Packages: 1-A (Wilhelminaplein regime, garage-permit study), 1-B (dearer second-car permit), 1-C (no second permit for new residents; paid hours 20:00 to 22:00), 1-D (permit ceiling). Table 1 walking distances for Binnenstad: 400 m living, 600 m work, 300 m other. Parkeervisie adopted 17 Dec 2020. Matches. The page says later packages apply only if pressure stays too high; the draft does not claim they were applied.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Actieplan p.13 and 19: 2019 pressure measurement shows street pressure inside the Singels can exceed 100% on weekday evening, Saturday morning and Saturday evening; municipal garages mostly have enough capacity at those times; 'rond de 350' spare at Kazerneplein and 150-175 unused at Stationspark in the evening and night (Parkeermonitor Roermond 2019); city centre has 6-7 million visitors a year under normal conditions. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Actieplan p.41-42 and 8-A: 'In 2025 is 5%' and 'In 2030 is 10%' of spaces in the municipal garages to have a charge point; measure 8-A.1 'streven naar' 5% by 2025 with Kazerneplein 4 of 400 and Stationspark 3 of 350 at writing; Vattenfall places and operates (part of) the infrastructure until 2027 under a concession; on-street 'laadpaal volgt auto' (reactive, on resident request). Matches. These are 2021 targets; the page cannot show whether the 2025 target was met, and the draft does not claim it was.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Evaluatie parkeren Roermond, version 1.0, dated 20-08-2019, p.8 table: Kazerneplein 400, Stationspark 541, Oranjerie 585, Roercenter 415; designer outlet P1 garage 3,000, P2 3,000, P3 2,000. But the table has two columns, 'Exploitant' and 'Beheerder': for Kazerneplein and Stationspark the Exploitant (operator) is 'Gemeente' and the Beheerder (manager) is 'Q-Park'; for Oranjerie and Roercenter both are Q-Park; for the outlet both are Designer Outlet Roermond. The page does not say 'municipal property'; it says the municipality is operator. Text states the municipality sets tariffs for Kazerneplein and Stationspark, Q-Park for Oranjerie and Roercenter, the outlet for its own land: matches. The 2021 plan gives Stationspark as 350 spaces (confirmed). Data are from 2019 (old).",
+   "corrected_text": "The 2019 parking evaluation (20 August 2019) lists the Kazerneplein (400 spaces) and Stationspark (541) garages with the municipality as operator and Q-Park as manager, Oranjerie (585) and Roercenter (415) as operated and managed by Q-Park, and the Designer Outlet car parks P1 (3,000), P2 (3,000) and P3 (2,000) as run by the outlet. The municipality sets tariffs only for the first two; Q-Park and the outlet set their own. The 2021 action plan gives Stationspark as 350 spaces, so the capacity figure differs between documents. These are 2019 arrangements and figures.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "College proposal 122372-2022 dated 20 Dec 2022. Confirmed: exit cards for Kazerneplein and Stationspark sold to entrepreneurs; tariff set equal to the Designer Outlet tariff (previously EUR 3, at that time EUR 4); standard day rate EUR 6.50 in 2023; about 800 cards a month in 2019 (bought by City Management Roermond) and about 1,400 a month in January-May 2022; contribution capped at EUR 42,000 a year (about 20,000 cards). NOT on this page: the sentence that the 2019 evaluation noted municipal tariffs had not been raised since 2014. That statement is in the 2019 evaluation (item 9's source, p.7), not in this proposal; dropped here.",
+   "corrected_text": "A college proposal of 20 December 2022 says the exit cards that entrepreneurs can buy for the Kazerneplein and Stationspark garages and resell to customers were priced equal to the Designer Outlet day rate (previously EUR 3, at that time EUR 4), against a standard garage day rate of EUR 6.50 in 2023. Purchases by City Management Roermond rose from about 800 cards a month in 2019 to about 1,400 a month in January-May 2022, and the proposal reserves up to EUR 42,000 a year (about 20,000 cards) in the budget to pay for the discount.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "College proposal 80578-2023 dated 25 July 2023: proposes no more scratch cards from 1 January 2024 and validity of issued cards to lapse on 1 July 2024; 4.9% of households with a visitor scheme (168 households) still used them; reasons include that enforcement cannot use a scan vehicle with manual cards; amended rule: 270 hours per calendar year in area A and 405 hours in areas B-E. Matches and is worded as a proposal.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Live page read 21 Oct 2026 (undated page; opening hours list 19 Oct-1 Nov). Confirmed: 'The first 30 minutes are free - just drive through without stopping. A full day costs EUR 7,- payable by card or cash.' Premium Parking EUR 12.50 per day, bookable/reservable. Blink charging in Parking P1, P2 and Premium Parking. FlixBus and NS Spoordeel offers present. Not confirmed: 'near P1' - the page says the premium spaces are 'close to our main entrance at Guest Services', and does not mention P1 for Premium Parking.",
+   "corrected_text": "Page read on 21 October 2026: Designer Outlet Roermond says its car parks offer the first 30 minutes free (drive through without stopping) and EUR 7 for a full day by card or cash. Premium Parking at EUR 12.50 per day can be booked in advance and is close to the main entrance at Guest Services. Blink charge points are in P1, P2 and Premium Parking, and the outlet lists FlixBus and NS Spoordeel train offers.",
+   "corrected_title": null,
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "NOS, Friday 18 April 2025, 11:49: 'jaarlijks ruim acht miljoen bezoekers - van wie 60 procent uit Duitsland'; 'de wegen naar het outletcentrum lopen geregeld vol, vooral op dagen waarop mensen in Duitsland vrij zijn'; BIZ chair Stef Strous: 'De meeste mensen komen met de auto'; 'Uit onderzoeken blijkt dat tussen de 10 en 20 procent van de bezoekers ... ook nog naar het centrum van Roermond komt'. All matches (short URL nos.nl/l/2564042 redirects to the article). Single press source, figures as reported in 2025.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "College proposal 72197-2024 dated 1 April 2025. Confirmed: expansion request of about 3,500 m2 retail and 1,500 m2 food; the vision states an ambition to grow to about 10 million visitors a year 'op termijn'; the proposal says the extra traffic movements 'niet te kunnen worden afgewikkeld binnen de bestaande infrastructuur'; asks that further aspects incl. mobility, parking, infrastructure be studied (decision point 5); existing frameworks for phases 1-4 remain; vision and annexes withheld under the Woo. Imprecise: the page says the ~12% is relative to the current ~30,000 m2 retail floor area (3,500/30,000), not retail plus food together (food is about 58% on the current catering area). Vision horizon 2035-2040. It is a proposal ('voorgesteld'); outcome not shown.",
+   "corrected_text": "A college proposal of 1 April 2025 records that the outlet's future vision asks for about 3,500 m2 more retail floor space (about 12 percent on the current roughly 30,000 m2) and about 1,500 m2 more food and drink space, with an ambition to grow to about 10 million visitors a year over time (vision horizon 2035-2040). The proposal says the extra traffic could not be handled on the existing infrastructure and proposes further study of the other effects, including mobility and parking. Existing planning frameworks for phases 1-4 remain in place, and the vision itself is withheld under the open-government act.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "L1 Nieuws, 26 May 2022 14:29 (updated 21:01): traffic stuck in several places because of a large inflow of German day visitors to the Designer Outlet; delay on the N280 at the border over an hour all day; many traffic marshals at the outlet and on side roads; only destination traffic admitted in Boukoul and Asenray; the municipality called on people not to visit the town by car, with crowding expected through Sunday. Matches ('until the weekend' is roughly 'through Sunday'). Single regional press item from 2022.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Actieplan p.37-39, action line 7 'Roermond parkeert op afstand': 2019 feasibility study within the European project Resolve found three potentially suitable Park+Bike locations: carpool place Merum, hockey club Concordia and Hatenboer; Hatenboer not an existing car park; Merum has room for 44 cars; Concordia: long-stay tolerated on working days, reserved for the club at weekends. Described as candidates ('kansrijke P+B locaties') with planned actions; no station P+R in this line. Matches. Dated 2021 planning; current status unknown.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "Minutes of the informal council meeting on 31 Oct 2019: planning list 'P+R en OV-Boulevard Veeladingstraat in 2020 of 2021?' confirmed. Temporary bus station 'mogelijk rond de Godsweerdersingel 10; we kijken ook naar de locatie P+R-terrein Veeladingstraat' confirmed. But 'all buses routed via Veeladingstraat' is out of context: it is the answer to the question whether during the construction of the bus station all buses go via Veeladingstraat ('Ja, alle bussen gaan via Veeladingstraat'), i.e. a construction-phase arrangement, not the permanent layout. Also the minutes refer to the 'P&R-terrein Godsweerdersingel' staying intact for the next 5 years. Planning-stage and old (2019).",
+   "corrected_text": "Minutes of an informal council meeting on 31 October 2019 about the station vision list 'P+R en OV-Boulevard Veeladingstraat in 2020 of 2021?' in the planning, with a question mark. For the construction of the new bus station, a temporary bus station was considered around Godsweerdersingel 10, with the P+R site at Veeladingstraat also being looked at, and the project manager said all buses would run via Veeladingstraat during the works. The minutes also mention the existing P+R site at Godsweerdersingel, expected to stay intact for the next five years. This is planning-stage and old (2019) context.",
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Roermond runs paid street parking in five zones (A, the city centre, to E, Vrijveld and Roermondse Veld). The council's parking levy ordinance for 2026, adopted on 23 October 2025 and applying from 1 January 2026, sets street rates per hour of EUR 2.80 in zone A, EUR 1.90 in zones B to D and EUR 1.70 in zone E, with the rate doubling after the second hour, and the municipality's designation decision (Gemeenteblad, 11 November 2025) sets paid hours to 22:00 in zones A to D and 20:00 in zone E. The same tariff table lists car-park rates (for example EUR 1.90 per hour at Maashaven and Arlo with a EUR 11.00 daily maximum) and permit prices. A college proposal of December 2025 on the Wilhelminaplein redesign assumes a generous halving of that car park's capacity, with works planned for the second half of 2026, and a council proposal of April 2024 on the Singelring phase 3 reconstruction foresees a net loss of 5 spaces in the project area after 11 compensating spaces. The 2021-2030 action plan sets a target of at most 90 percent street parking pressure at peak and aims for charge points at 5 percent of spaces in the municipal garages by 2025 and 10 percent by 2030, and names three park-and-bike candidate sites; these are plans from 2021, and the page does not show whether they were met. A 2019 evaluation listed Kazerneplein and Stationspark as garages operated by the municipality and managed by Q-Park, with Oranjerie and Roercenter run by Q-Park; this is old. The Designer Outlet's own page, read on 21 October 2026, shows EUR 7 for a full day with the first 30 minutes free. NOS reported in April 2025 that the outlet draws over 8 million visitors a year, and L1 reported road jams on a German holiday in May 2022. A college proposal of 1 April 2025 records the outlet's ambition of about 10 million visitors a year and says the extra traffic could not be handled on existing roads, asking for further study of mobility and parking. Current garage tariffs and the operator and prices of the two station park-and-ride sites could not be confirmed; only a 2019 planning-stage note on the Veeladingstraat site was found."
+}

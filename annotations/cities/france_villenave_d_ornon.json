@@ -1,0 +1,200 @@
+{
+ "country": "France",
+ "city": "Villenave-d'Ornon",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Villenave-d'Ornon is a commune of Bordeaux Métropole where the town's own on-street parking rules found are simple (alternate-side parking by fortnight; municipal police record obstructive parking), and no municipal paid-parking or blue-zone scheme appears on the pages read (absence not proven). The main organised parking offer is the metropolitan park-and-ride Villenave Pyrénées at the end of tram line C: according to TBM's list it has 753 spaces, 20 with EV charging. Same-day parking is included in a TBM subscription; otherwise TBM's day-parking page gives a park-and-ride ticket at 4.50 euros or 3.50 euros at the reduced rate (Villenave Pyrénées is among 11 reduced-price sites), and short-stay tickets of 12 to 25 euros for 2 to 5 days; two TBM pages give conflicting closing times and out-of-hours fines (15 or 25 euros). The metropolitan low-emission zone has covered the area inside the ring road since 1 January 2025 and bars only unclassified vehicles; Villenave Pyrénées is not among the 11 park-and-rides listed for them, and the source does not say whether Villenave lies inside the zone. The metropolis' page (updated May 2025) gives a public EV charging tariff of 0.38 euro per kWh since January 2025. Local projects announced or under way include 28 new marked spaces in rue René Voisin (planned, no start date), the rue Jean-Pagès rebuild (6 January 2026 to 26 November 2027, with new parking for cars and heavy goods vehicles) and a renovated Chambéry market square with 18 marked spaces (inauguration planned for 25 March 2026). The town announced a tram network reorganisation for 6 December 2025 (line C simplified to Villenave Pyrénées), not confirmed as done by the page. The rail works south of Bordeaux, with entry into service planned for 2032, include planned multimodal hubs at stations including Villenave-d'Ornon; no station parking figures were found.",
+ "items": [
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "TBM's park-and-ride list (page read on 21 October 2026) shows Pyrénées, avenue des Pyrénées, Villenave-d'Ornon, under the tram C park-and-rides: 753 spaces, 20 disabled spaces, 20 with EV charging points, 8 secure bicycle spaces, maximum height 1.90 m, open to all.",
+   "source_title": "Opening times, maps and list of Parcs-Relais (TBM)",
+   "source_url": "https://www.infotbm.com/en/opening-times-maps-and-list-parcs-relais.html",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "On TBM's day-parking page (read on 21 October 2026), same-day park-and-ride parking is included in a TBM subscription; other users buy a park-and-ride ticket at 4.50 euros, or 3.50 euros at the reduced rate, which gives 7 round trips for 1 to 7 people. Villenave-Pyrénées is on the list of 11 reduced-price park-and-rides, and an unvalidated ticket does not open the exit.",
+   "source_title": "Park for the day (TBM)",
+   "source_url": "https://www.infotbm.com/en/park-day.html",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "TBM's park-and-ride list page (read on 21 October 2026) says the sites are open when trams run (5am to 1am Mon-Wed, Sun and holidays; to 2am Thu-Sat) and parking outside those hours risks a 15 euro fine per day. The day-parking page of the same site (also read on 21 October 2026) gives different closing times and a 25 euro flat fine, so the figures are inconsistent between TBM pages.",
+   "source_title": "Opening times, maps and list of Parcs-Relais (TBM)",
+   "source_url": "https://www.infotbm.com/en/opening-times-maps-and-list-parcs-relais.html",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Villenave Pyrénées is one of 11 of the 28 metropolitan park-and-rides that sell short-stay tickets (page read on 21 October 2026): 12 euros for 2 days/1 night, 15 euros for 3 days, 20 euros for 4 days and 25 euros for 5 days, each with a round trip on the TBM network.",
+   "source_title": "Park for 2 - 5 days (TBM)",
+   "source_url": "https://www.infotbm.com/en/park-2-5-days.html",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "TBM's overnight-near-home offer (300 euros a year, or 25 euros a month by direct debit, for residents within 500 m) covers six park-and-rides; Villenave Pyrénées is not among them (page read on 21 October 2026).",
+   "source_title": "Park overnight (near home) (TBM)",
+   "source_url": "https://www.infotbm.com/en/park-overnight-near-home.html",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01",
+   "text": "Bordeaux Métropole's low-emission zone has applied inside the ring road (rocade excluded) since 1 January 2025, day and night; the page was updated on 13 January 2026. Only unclassified vehicles (no Crit'Air sticker, such as petrol or diesel cars registered before 1 January 1997) are barred, but every vehicle needs a sticker, and a pass allows unclassified vehicles in for up to 24 days a year.",
+   "source_title": "ZFE (Zone à Faibles Émissions) : ce qu'il faut savoir (Se Déplacer Bordeaux Métropole)",
+   "source_url": "https://sedeplacer.bordeaux-metropole.fr/en-voiture/zfe-ce-quil-faut-savoir",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01",
+   "text": "The same metropolitan page lists 11 intra-rocade park-and-rides reachable by unclassified vehicles (Brandeburg, 40 Journaux, Gare de Bruges, Hippodrome, Les Pins, Bougnard, Unitec, Arena, Dravemont, Buttinière, Lauriers). Villenave Pyrénées is not on the list; the page does not say whether it lies inside the zone.",
+   "source_title": "ZFE (Zone à Faibles Émissions) : ce qu'il faut savoir (Se Déplacer Bordeaux Métropole)",
+   "source_url": "https://sedeplacer.bordeaux-metropole.fr/en-voiture/zfe-ce-quil-faut-savoir",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-05-28",
+   "text": "Bordeaux Métropole's public charging page (published 7 January 2025, last updated 28 May 2025; read 21 October 2026) says that since 6 January 2025 the metropolitan network charges 0.38 euro per kWh (incl. VAT), plus 4 euros an hour if a slow-charge session exceeds 4 hours (waived 11pm-8am on AC sockets), with a maximum of 48 euros beyond 14 hours. The page is metropolis-wide and does not list Villenave-d'Ornon stations; it does not show whether the tariff is unchanged since May 2025.",
+   "source_title": "Recharger mon véhicule électrique (Se Déplacer Bordeaux Métropole)",
+   "source_url": "https://sedeplacer.bordeaux-metropole.fr/en-voiture/recharger-mon-vehicule-electrique",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-05-28",
+   "text": "The same page (last updated 28 May 2025) says use of the metropolitan public charging network rose 54% in the first quarter of 2025 versus the first quarter of 2024, and that 61,367 charges were made on the network in 2024. It also says the charging-infrastructure plan voted at the end of 2022 foresees over 90 additional street stations over its three years (metropolis-wide figures).",
+   "source_title": "Recharger mon véhicule électrique (Se Déplacer Bordeaux Métropole)",
+   "source_url": "https://sedeplacer.bordeaux-metropole.fr/en-voiture/recharger-mon-vehicule-electrique",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The town's civility page (read on 21 October 2026) says on-street parking in Villenave-d'Ornon is mostly alternate-side: odd house numbers from the 1st to the 15th of the month, even numbers from the 16th to month end; some streets have fixed one-sided parking marked by signs.",
+   "source_title": "Rappel civilité (Ville de Villenave d'Ornon)",
+   "source_url": "https://www.villenavedornon.fr/87/proximite-citoyennete/entretien-et-gestion-du-domaine-public/rappel-civilite.htm",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The town's municipal police page (read on 21 October 2026) lists obstructive parking (stationnement gênant) among the offences its officers record; it describes no paid-parking or blue-zone scheme.",
+   "source_title": "Police municipale (Ville de Villenave d'Ornon)",
+   "source_url": "https://www.villenavedornon.fr/92/proximite-citoyennete/securite-et-tranquillite-publiques/police-municipale.htm",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-10",
+   "text": "Published on 10 June 2026: rue René Voisin is to be redeveloped after resident consultation, creating 28 marked parking spaces on the odd-number side, to ease bus movements and make vehicle exits safer. The page gives no start date.",
+   "source_title": "Aménagement stationnement rue René Voisin (Ville de Villenave d'Ornon)",
+   "source_url": "https://www.villenavedornon.fr/13-1149/actualites/fiche/amenagement-stationnement-rue-rene-voisin.htm",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10-08",
+   "text": "Rue Jean-Pagès (Pont de la Maye) is being rebuilt from 6 January 2026 to 26 November 2027 (page updated 8 October 2026): one-way traffic, parking banned beside active works, and the project includes new parking for cars and heavy goods vehicles.",
+   "source_title": "Infos travaux réaménagement Jean-Pagès (Ville de Villenave d'Ornon)",
+   "source_url": "https://www.villenavedornon.fr/13-1038/actualites/fiche/infos-travaux-reamenagement-jean-pages.htm",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "The town's mobility page (read on 21 October 2026) counts 22 km of cycle paths and four Vélo by TBM stations in Villenave-d'Ornon, and says a mobile bike shop is based at the P+R Villenave Pyrénées. It notes that the TBM network was reorganised in September 2023.",
+   "source_title": "Déplacements et mobilité écoresponsable (Ville de Villenave d'Ornon)",
+   "source_url": "https://www.villenavedornon.fr/316/proximite-citoyennete/developpement-durable-et-eco-responsabilite/deplacements-et-mobilite-ecoresponsable.htm",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-12",
+   "text": "The town's page (written in the future tense, stamped as updated 23 January 2026) announces that new tram lines E and F would enter service on 6 December 2025 and that line C would be simplified to run between Parc des Expositions - Stade Atlantique and Villenave Pyrénées, with the Blanquefort branch taken over by line E and a tram every 10 minutes in the daytime. The page does not itself confirm that the change took place.",
+   "source_title": "Le réseau TBM évolue (Ville de Villenave d'Ornon)",
+   "source_url": "https://www.villenavedornon.fr/13-1019/actualites/fiche/le-reseau-tbm-evolue.htm",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-09",
+   "text": "At a site visit on 9 June 2026, Bordeaux Métropole said works on the rail upgrades south of Bordeaux (third track Bègles to Saint-Médard-d'Eyrans, 12 km, with crossing points at four stations including Villenave-d'Ornon) began in 2025. The release says four multimodal interchange hubs are planned, including one at Villenave-d'Ornon, with service entry planned for 2032; it gives no figures for station parking.",
+   "source_title": "AFSB : les travaux se poursuivent (Bordeaux Métropole press release, 9 June 2026)",
+   "source_url": "https://www.bordeaux-metropole.fr/sites/MET-BXMETRO-DRUPAL/files/2026-06/CP%20-%20Visite%20AFSB%2009.06.2026.pdf",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-09-03",
+   "text": "The regional transport page (last modified 3 September 2024; read 21 October 2026) is a forward-looking description of the programme: it gives a provisional schedule with the Villenave-d'Ornon station works in 2025 and says services will be interrupted in turn at the four stations during station works; it says TER line 44 Bordeaux - Agen journey times will be 10 minutes longer for all trains between Bordeaux and Saint-Médard-d'Eyrans, and that the four stations will be made accessible and connected to other modes through multimodal hubs, with the programme running from December 2024 to 2032. It may not reflect the situation in October 2026.",
+   "source_title": "Travaux : les aménagements ferroviaires au sud de Bordeaux (Nouvelle-Aquitaine transports)",
+   "source_url": "https://transports.nouvelle-aquitaine.fr/toute-lactualite-des-transports/travaux-les-amenagements-ferroviaires-au-sud-de-bordeaux",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-03-20",
+   "text": "The town's press release of 20 March 2026 (written before the event) says the renovated market square on route de Léognan in the Chambéry district, under works since May 2025, was to be inaugurated on Wednesday 25 March 2026 at 11am and has a surface suited to the market and to parking, with 18 marked parking spaces.",
+   "source_title": "La nouvelle place du marché de Chambéry inaugurée (Ville de Villenave d'Ornon press release, 20 March 2026)",
+   "source_url": "https://www.villenavedornon.fr/fileadmin/www.villenavedornon.fr/MEDIA/Communiques_de_presse/Communiques-de-presse-mars-2026/CP-InaugurationPlaceMarcheChamberyVO.pdf",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "No municipal paid-parking, blue-zone or resident-parking regulation for Villenave-d'Ornon found on villenavedornon.fr; absence not proven.",
+  "Gare de Villenave-d'Ornon: no official figures on station car park capacity or tariffs found; TER AFSB page https://www.ter.sncf.com/nouvelle-aquitaine/afsb-gpso returned 403 and was not used; town pages https://www.villenavedornon.fr/13-403/actualites/fiche/amenagement-ferroviaire-sud-bordeaux-afsb-debut-de-chantier-a-villenave-d-ornon.htm and /13-378/actualites/fiche/infos-travaux.htm returned 503.",
+  "No Villenave-d'Ornon-specific EV charging station list found from an official source (only private directories, not used).",
+  "Local press (Sud Ouest, actu.fr) could not be searched (domains blocked for the search tool); no press article read.",
+  "TBM per-site page https://www.infotbm.com/fr/parc-relais/24 renders without readable content (JavaScript); capacity taken from the TBM list page instead.",
+  "Whether Villenave Pyrénées lies inside the ZFE ring-road perimeter is not stated on the sources read.",
+  "No park-and-ride usage or occupancy statement for Villenave Pyrénées found in official sources.",
+  "SEG-Fayat contractor page on the Villenave park-and-ride (700+ spaces, 5 levels) was read but not used: undated and does not name the site."
+ ],
+ "dropped": {}
+}

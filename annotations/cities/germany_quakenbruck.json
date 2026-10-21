@@ -1,0 +1,117 @@
+{
+ "country": "Germany",
+ "city": "Quakenbrück",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Quakenbrück is a small Hanseatic town in the Artland (Landkreis Osnabrück), administered by the Samtgemeinde Artland. The Samtgemeinde's tourism page, read on 21 October 2026, says more than 500 inner-city parking spaces can be used free of charge, among them the large Neuer Markt car park; it also lists short-stay spaces along Lange Straße, customer spaces in front of shops, disabled spaces and parking at the railway station and the Artland Arena, without saying whether those are free. The Christliches Krankenhaus Quakenbrück says its car parks are paid (first 30 minutes free, then 1 euro per hour, 10 euro daily maximum) and are operated by Osnabrücker Parkstätten Betriebsgesellschaft mbH; car park P1 is reserved for staff from 05:00 to 14:00. On mobility alternatives, the Samtgemeinde describes a MOIN+ mobility station at the station with 40 secured bicycle spaces, two stadtteilauto electric cars in Quakenbrück (part of a district-wide expansion that began on 1 July 2024), and an undated list of three charging stations. An item dated 21 October 2026 announces a moobil+ bus extension to Menslage from 1 October (year not stated). No council decisions, fee ordinances or press coverage on parking could be read, because the town website could not be opened securely and the local press sites were not accessible.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The Samtgemeinde Artland tourism page (read on 21 October 2026) states that more than 500 inner-city parking spaces in Quakenbrück can be used free of charge, including the large 'Neuer Markt' car park. It also lists short-stay spaces along Lange Straße, customer spaces in front of shops, disabled spaces, and parking at the railway station and the Artland Arena.",
+   "source_title": "Samtgemeinde Artland: Parkplätze",
+   "source_url": "https://www.artland.de/tourismus-freizeit/wissenswertes/parkplaetze/",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The Christliches Krankenhaus Quakenbrück (CKQ) states on its parking page (read on 21 October 2026) that its car parks are paid: the first 30 minutes are free, then 1 euro per hour, with a daily maximum of 10 euro. It says discounts are not possible.",
+   "source_title": "CKQ: Parken am Krankenhaus",
+   "source_url": "https://www.ckq-gmbh.de/patienten-besucher/patienteninfo/parkplaetze",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "According to the CKQ parking page (read on 21 October 2026), the hospital car parks are operated by Osnabrücker Parkstätten Betriebsgesellschaft mbH. The hospital says the car parks are unguarded and the entrance area must stay clear.",
+   "source_title": "CKQ: Parken am Krankenhaus",
+   "source_url": "https://www.ckq-gmbh.de/patienten-besucher/patienteninfo/parkplaetze",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The hospital's page (read on 21 October 2026) says car park P1 is reserved for staff from 05:00 to 14:00 and asks visitors to use P2 during that time. General visiting hours are daily 14:00 to 19:00, with exceptions for intensive care, maternity and palliative patients and separate hours for psychiatry and psychosomatics.",
+   "source_title": "CKQ: Besuchszeiten/Anreise",
+   "source_url": "https://www.ckq-gmbh.de/patienten-besucher/besucherinfo/besuchszeitenanreise",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The CKQ visitor page (read on 21 October 2026) places disabled parking directly in front of the main entrance of Haus 1 (Danziger Straße), in the service yard and in front of the rear entrance of Haus 2 (Goethestraße). For arrival it lists several options: ICE/IC connections at Oldenburg and Osnabrück with hourly Nord-West-Bahn trains onward, and by car via the A1 (exit Lohne/Dinklage) and the B68.",
+   "source_title": "CKQ: Besuchszeiten/Anreise",
+   "source_url": "https://www.ckq-gmbh.de/patienten-besucher/besucherinfo/besuchszeitenanreise",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The DB station page for Quakenbrück (read on 21 October 2026) lists bicycle spaces, car parking and a taxi rank as facilities; the station is unstaffed. The page gives no number of car spaces or tariff.",
+   "source_title": "bahnhof.de: Quakenbrück",
+   "source_url": "https://www.bahnhof.de/quakenbrueck",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "The Samtgemeinde describes a MOIN+ mobility station at the station (page read on 21 October 2026) with a secured bicycle station of 40 spaces, a repair station, a new bus shelter and an information stele. Bike spaces are booked by app at 1 euro per day, 5 euro per month or 50 euro per year; the project is funded by the federal transport ministry.",
+   "source_title": "Samtgemeinde Artland: Mobilstation am Bahnhof",
+   "source_url": "https://www.artland.de/tourismus-freizeit/wissenswertes/mobistation-am-bahnhof/",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-07-01",
+   "text": "The Samtgemeinde page (undated, read on 21 October 2026) says that since 1 July 2024, under the MOIN+ pilot, ten electric cars operated by stadtteilauto Osnabrück were added at ten sites in the district. Two are in Quakenbrück: one at the station (Wilhelmstraße) and one at the Park der deutschen Einheit (Kolpingstraße). The reduced joining fee for residents of the municipalities is 14.50 euro.",
+   "source_title": "Samtgemeinde Artland: CarSharing und BürgerBus",
+   "source_url": "https://www.artland.de/tourismus-freizeit/wissenswertes/mobilitaetsangebote-carsharing-und-buergerbus/",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The Samtgemeinde's charging list (undated, read on 21 October 2026) names three e-car charging stations in Quakenbrück: at the BIQ business park (Professor-von-Klitzing-Str. 9), at the Edeka store (Hasestr. 13) and at the Marktplatz (Markt 2). The page says the charging network is being extended; since it is undated, the list may be out of date. It gives no number of charge points per station.",
+   "source_title": "Samtgemeinde Artland: E-Auto-Ladestationen",
+   "source_url": "https://www.artland.de/tourismus-freizeit/wissenswertes/e-auto-ladestationen/",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10-21",
+   "text": "A Samtgemeinde Artland news item dated 21 October 2026 announces that 'from 1 October' (year not stated) the moobil+ bus line M07 will call at two stops in Menslage (Merschstraße and the station), every two hours between 8:00 and 18:00, with connections towards Quakenbrück and, via Löningen, towards Cloppenburg. The exact timetable was still to be announced. The municipality presents this as another way to reach Quakenbrück without a car. Menslage is a neighbouring municipality, not Quakenbrück itself.",
+   "source_title": "Samtgemeinde Artland: moobil+ von Menslage nach Quakenbrück und Löningen",
+   "source_url": "https://www.artland.de/portal/meldungen/mit-moobil-von-menslage-nach-quakenbrueck-und-loeningen-900002458-31440.html?rubrik=900000007",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "https://www.quakenbrueck.de and quakenbrueck.info: the server presents a certificate for a different host name (nol-is.de), so the pages could not be opened securely and were not used; no Stadt Quakenbrück parking, fee or council pages were read.",
+  "https://www.noz.de (Neue Osnabrücker Zeitung) is not accessible to the search tool, and https://www.bersenbruecker-kreisblatt.de could not be reached, so no press coverage on parking, council debates or the hospital car parks was found.",
+  "No parking fee ordinance, council (Stadtrat/Samtgemeinderat) decision on parking, resident parking or zone regulation was found; the Samtgemeinde Satzungen page lists only the first page of documents and none on parking was seen. The council information system (https://www.artland.de/politik-verwaltung/politik/sitzungsinformationen/) was not read.",
+  "No source was found for the number of spaces at the station, the Neuer Markt or the hospital, for operators of the town-centre car parks, or for utilisation statements.",
+  "The Landkreis Osnabrück MOIN+ project pages (PlaNOS) were not read, so the dates of the mobility station and the number of cars come only from the Samtgemeinde pages."
+ ],
+ "dropped": {}
+}

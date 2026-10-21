@@ -1,0 +1,200 @@
+{
+ "country": "Netherlands",
+ "city": "Sittard",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Sittard (gemeente Sittard-Geleen) regulates parking in the centre with paid parking Monday to Saturday 09.00-19.00 (late shopping evenings to 22.00, Sundays 12.00-18.00) at 1.90 euro per hour as standard, with higher short-stay rates at Tempelplein (3.80 euro per hour for the first two hours, then 5.70) and at the station squares (3.80 euro for the first half hour, then 5.70 per hour). The municipality owns and runs most public garages itself (Odaparking, Marktgarage and Zuyderland per the 2023 Rekenkamer report; the ABC deck is municipal); in 2025 the municipality set Hub Dassenplein and ABC at 1.90 euro per hour (max 10 euro per day) and Odaparking at 1.90 (max 5 euro). Q-Park lists the 525-space P+R Transferium at the station. A November 2024 count showed the central garages well below capacity on a Saturday afternoon (Hub Dassenplein 48 percent, Odaparking 47 percent, ABC deck 74 percent), with higher parking pressure around the centre. The outline note for the new Parkeerbeleidsplan 2025-2040 (Part 1, published in the gazette on 10 March 2026) plans no extra capacity in the inner city, a gradual reduction of street parking where alternatives exist, differentiated tariffs in a first phase and possibly fewer permits and progressive tariffs in a second phase; these are plans, not rules. Free parking on shopping Sundays in 2024 cost about 130,000 euro and was not continued in 2025; the college decided free Sundays in December 2025 and was to study temporary incentives in the first quarter of 2026 because of street works. A March 2026 letter announced that BESIX Infra would rebuild Wilhelminastraat, Engelenkampstraat and Tempelplein until the end of 2027, with 51 spaces kept on a redesigned Tempelplein. The permit rules read were valid only until 6 February 2026 and the current rules were not found; the official city website could not be reached.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2026-03",
+   "text": "The Parkeerbeleidsplan 2025-2040 Part 1 (outline note, Hoofdlijnennotitie) was published in the Sittard-Geleen municipal gazette on 10 March 2026; the gazette lists a signing date of 2 February 2026, and the text read does not give the college's adoption date. It says the current parking policy, with parts from 2009 and 2012, no longer fits and needs fundamental revision. It works in two phases: phase 1 offers alternatives and, for Sittard centre, more subscriptions and differentiated tariffs; phase 2 foresees more steering, such as fewer permits and progressive tariffs (plans, not yet rules).",
+   "source_title": "Gemeenteblad 2026, 111740: Parkeerbeleidsplan 2025-2040 Deel 1 Hoofdlijnennotitie",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-111740.pdf",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-03",
+   "text": "For the Sittard centre the outline note says it stays well reachable by car, but no extra parking capacity is added in the inner city, apart from new developments under the parking-norms note. In phase 2 street parking is to be scaled back where a different use of public space is needed, alongside investment in alternatives such as cycle parking at the station and in the centre and a mobility fund for mobility hubs. More generally, the note aims at a gradual reduction of parking in public space once full alternatives (hubs, garages, cycle parking, shared mobility) are available. The core shopping area, feeder streets and hospitality cluster stay car-light.",
+   "source_title": "Gemeenteblad 2026, 111740: Parkeerbeleidsplan 2025-2040 Deel 1 Hoofdlijnennotitie",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-111740.pdf",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-03",
+   "text": "The outline note describes the current regime: paid parking in the Sittard centre Mon-Sat 09.00-19.00, late shopping evenings until 22.00, Sunday 12.00-18.00. Normal rate is 1.90 euro per hour (garages max 10 euro per day, no daily maximum on street); exceptions are Odaparking and Steenweg 1.90 euro per hour with a 5 euro daily maximum, Tempelplein 3.80 euro per hour for the first two hours then 5.70, and Stationsplein and Stationsvoorplein 3.80 euro for the first half hour then 5.70 per hour.",
+   "source_title": "Gemeenteblad 2026, 111740: Parkeerbeleidsplan 2025-2040 Deel 1 Hoofdlijnennotitie",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-111740.pdf",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-01",
+   "text": "The decision on private-law parking tariffs 2025, in force from 1 January 2025, sets Hub Dassenplein and the ABC deck at 1.90 euro per hour (max 10 euro per day) and Odaparking at 1.90 euro per hour (max 5 euro per day). Geleen's Marktgarage is 1 euro per hour with the first two hours free, and leaving within 15 minutes is free. I found no 2026 version of this decision.",
+   "source_title": "Gemeenteblad 2025, 6908: Privaatrechtelijke parkeertarieven 2025",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-6908.pdf",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-01",
+   "text": "Garage season tickets from 1 January 2025: a resident subscription costs 120 euro per year (Groenstraat garage and Odaparking). An office-hours subscription (Monday to Friday, 07.00-19.00) costs 522 euro per year and a 24/7 subscription 1,065 euro per year for Hub Dassenplein, Odaparking and the Steenweg lot. The Zuyderland hospital garage (context only) is 1.80 euro per hour, max 8.50 euro per day.",
+   "source_title": "Gemeenteblad 2025, 6908: Privaatrechtelijke parkeertarieven 2025",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-6908.pdf",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-03",
+   "text": "A November 2024 parking count (reported in the outline note) found Saturday 14:00 peak occupancy of 48 percent in Hub Dassenplein (285 spaces), 47 percent in Odaparking (640 spaces, 510 net of reserved) and 74 percent in the ABC deck (275 spaces). The count covered five garages; none was ever full except Geleen's Marktgarage (99 percent at Saturday 13:00). The count also found higher parking pressure around the Sittard centre, which the note says is possibly a waterbed effect of missing regulation.",
+   "source_title": "Gemeenteblad 2026, 111740: Parkeerbeleidsplan 2025-2040 Deel 1 Hoofdlijnennotitie",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-111740.pdf",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-12",
+   "text": "The December 2023 Rekenkamer report found that Sittard-Geleen owns and runs almost all its public garages itself (Odaparking, Marktgarage, Zuyderland), which is unusual for a Dutch town. For 2022 it put parking income at about 6.3 million euro and costs at about 5.8 million euro, a surplus of 573,000 euro, and concluded that the town then had no explicit integrated parking policy.",
+   "source_title": "Rekenkamer Sittard-Geleen: Parkeerbeleid nader bezien",
+   "source_url": "https://sittardgeleen.bestuurlijkeinformatie.nl/Document/View/f88e4dd4-b027-4cbf-8f8d-9936478e4271",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The operator Q-Park lists P+R Transferium at Geerweg 4 (Sittard station) with 525 spaces, 2 disabled spaces, 12 charge points, 1.90 m height limit, licence-plate recognition, open 24/7, and a rail-traveller discount for same-day domestic train trips. The tariff table failed to load on the page read on 21 October 2026. The 2026 gazette outline note lists the same site as Q-Park NS Transferium Station Sittard, 525 spaces, without an occupancy figure.",
+   "source_title": "Q-Park: Parkeren P+R Transferium Sittard",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/sittard/p-r-transferium/",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-02-18",
+   "text": "The college's February 2025 answers to council questions say free parking on shopping Sundays in the Sittard centre (council motion of 18 April 2024) ran from 26 May to December 2024 and cost about 130,000 euro in lost revenue, and was not continued in 2025. The college also declined a free-weekday-parking pilot and rejected copying Geleen's two free hours (in force in Geleen centre since 1 January 2025), citing the different function of the two centres; about 30 shop units stood vacant in Sittard centre in early 2025.",
+   "source_title": "College answers to Stadspartij questions on free parking on shopping Sundays",
+   "source_url": "https://sittardgeleen.bestuurlijkeinformatie.nl/Document/View/aa0c44cc-3ae9-47c4-a7d9-9303929d736f",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01-13",
+   "text": "In its answers of 13 January 2026 the college declined a general free or lower parking rate for Sittard from 1 December 2025, citing the need for financial cover and technical feasibility, and said it monitors the effects of the street works under its Centrum Sittard Bereikbaar approach. It had already decided on 8 July 2025 to make parking free on every Sunday in December, and about 2,000 cards worth 2 euro off in Odaparking were given to traders for 13 December to 4 January. In the first quarter of 2026 it would study temporary parking incentives during the works around the centre.",
+   "source_title": "College answers to Stadspartij questions on tailor-made parking 2026",
+   "source_url": "https://sittardgeleen.bestuurlijkeinformatie.nl/Document/View/06e35690-fc01-4cc0-8a7e-90acd34dcf88",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12",
+   "text": "A version of the permit issuing rules that was valid from 23 December 2025 to 6 February 2026 (the register marks the regulation as lapsed per 7 February 2026; the current rules were not found) allowed one centre permit per address with up to 3 plates, capped per location, for example 140 on the combined Walramstraat, Heinseweg and Overhovenerstraat location and 50 each at the Engelenkampstraat and Coendershof lots. Applications above the cap went on a waiting list.",
+   "source_title": "Uitgiftebesluit parkeervergunningen en parkeerabonnementen 2024 (Lokale regelgeving)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR752465/",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-06",
+   "text": "A 9 April 2025 letter to residents says the college decided to keep 51 parking spaces on the Tempelplein, although the earlier masterplan foresaw no parking after the redesign; the council was due to handle the proposal on 15 May and 5 June 2025. The report of the 24 June 2025 residents' meeting (a separate document) says the design has 51 parking spaces, eight of them for disabled people, and that a council motion calls for the contractor to be urged to keep at least 35 spaces reachable during the works.",
+   "source_title": "Letter to residents, 9 April 2025 (Informatiebrief inrichting Tempelplein april 2025, idnv=3032030) and Report of Tempelplein meeting, 24 June 2025 (Verslag bijeenkomst Tempelplein 24 juni 2025, idnv=3086363)",
+   "source_url": "https://www.metsittardgeleen.nl/projecten/tempelplein+sittard/documenten+tempelplein/HandlerDownloadFiles.ashx?idnv=3032030",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-03-04",
+   "text": "A resident letter dated 4 March 2026 said BESIX Infra Nederland would rebuild Wilhelminastraat, Engelenkampstraat and Tempelplein in phases until the end of 2027, starting on 7 April 2026 in area A (Brugstraat, Wilhelminastraat, Rijksweg-Zuid). A separate information meeting for area B (Engelenkampstraat and Tempelplein) was announced for autumn 2026, before the start of that work.",
+   "source_title": "Resident letter, 4 March 2026: Reconstructie Wilhelminastraat - Engelenkampstraat - Tempelplein",
+   "source_url": "https://www.metsittardgeleen.nl/projecten/tempelplein+sittard/documenten+tempelplein/HandlerDownloadFiles.ashx?idnv=3230614",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-02-19",
+   "text": "In February 2025 the college admitted that the municipal Odaparking in Sittard centre had defects (water ingress, broken lifts, charge points switched off for safety). Two of three lifts were being replaced with use expected from May 2025, and the question of future ownership or privatisation was kept separate from the repair.",
+   "source_title": "College answers to D66 questions on Odaparking Sittard",
+   "source_url": "https://sittardgeleen.bestuurlijkeinformatie.nl/Document/View/07e34722-5149-4441-a265-a864b4aec03a",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "A municipal page read on 21 October 2026 says Vattenfall is responsible for building new public charge points in Sittard-Geleen in 2024-2028 under a 2024 agreement between the provinces and Vattenfall (extendable by two years), with a placement policy adopted by the college on 25 March 2025. For the next round the page announced a draft traffic decision viewable from 28 April 2026 and a decision on 26 May 2026 for locations without objections; the page did not report the outcome.",
+   "source_title": "MetSittardGeleen: Laadpalen in Sittard-Geleen (page read 21 October 2026)",
+   "source_url": "https://www.metsittardgeleen.nl/projecten/laadpalen+in+sittard-geleen/default.aspx",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-03",
+   "text": "Car ownership in Sittard-Geleen rose from 1.14 cars per household in 2015 to 1.21 in 2024 (CBS data cited in the outline note), while the Sittard core has the lowest figure at 1.02.",
+   "source_title": "Gemeenteblad 2026, 111740: Parkeerbeleidsplan 2025-2040 Deel 1 Hoofdlijnennotitie",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-111740.pdf",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The Sittard Centraal programme, as shown on a municipal page read on 21 October 2026, plans a renewed station area with a 2045 vision of up to 4,689 new homes, starting with Stationspark West. The 2026 parking outline note proposes low parking norms for new development, especially in the station area, and more bicycle parking there (plans).",
+   "source_title": "MetSittardGeleen: Sittard Centraal; Gemeenteblad 2026, 111740",
+   "source_url": "https://www.metsittardgeleen.nl/projecten/sittard+centraal+samen+bouwen+aan+de+toekomst+van/default.aspx",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2019-06",
+   "text": "A council briefing slide deck for a council round on 27 June (data to May 2019, year inferred) shows the Sittard street rate rising from 1.30 euro per hour in 2015 to 1.90 in 2019, while the Sittard garage rate went from 1.50 euro (with the second hour free) to 1.90. The slides list tariff decisions of November 2017 (0.40 euro per hour), February 2018 (0.10 euro per hour) and the abolition of free hours in garages in November 2018, with 1.7 million euro of extra income budgeted for 2019. This is an old fact, shown for the trend only.",
+   "source_title": "Parkeercijfers, raadsronde 27 juni (2019)",
+   "source_url": "https://sittardgeleen.bestuurlijkeinformatie.nl/Document/View/71df1181-8845-4045-b34b-5f927aa780d0",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "https://www.sittard-geleen.nl (parkeren, parkeertarieven, Centrum Sittard Bereikbaar pages): connection timed out from my machine, so no official city-website text was read.",
+  "Regional press (De Limburger, L1, 1Limburg) and Transferium or station-area news: not read; the web-search budget was exhausted before I could search them.",
+  "Current P+R Transferium tariff: Q-Park's page did not load its tariff table, and the only figures found were on a parking-listing portal (centrumparkeren.nl), which I did not use.",
+  "No 2026 private-law tariff decision (garage rates) found, only the 2025 one; the 2026 tariff table of the Verordening parkeerbelastingen was not in the file read.",
+  "Handbook parkeerbeleid (area-based measures, expected mid-2026) and any council decision on it: not found.",
+  "Council decisions (Tempelplein, 5 June 2025; motion 18 April 2024) are known only through municipal letters and reports, not the council minutes themselves.",
+  "No Transferium occupancy or utilisation figure found; the November 2024 count covered five garages and did not include it.",
+  "The mid-2020s Sittard station-area plans (Sittard Centraal) were read on a short project page only; no parking-specific station-area decision was found."
+ ],
+ "dropped": {}
+}

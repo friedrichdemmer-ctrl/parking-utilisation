@@ -1,0 +1,133 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Re-read the live JSON (HTTP 200, read 21 Oct 2026). Two stations 'Parcheggi impianti risalita Racines (zona 1)' capacity 222 and '(zona 2)' capacity 60, sorigin skidata_dynamicdata, netex layout 'underground', charging false, reservation noReservations, surveillance true, vehicletypes allPassengerVehicles. Total 282 is the draft's own sum, correct. 'Passenger cars only' is a fair reading of allPassengerVehicles. Metadata says charging false while operator lists three chargers (flagged in gaps).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Operator page 'Parkhaus Ratschings-Jaufen: Direkt an der Talstation' (read 21 Oct 2026, undated, no price date): 'Rund 300 Stellplätze und drei Elektroladestationen'; 'im Sommer kostenlos nutzbar'; 'In der Wintersaison beträgt der Tarif € 1,50 pro Stunde'; maximum Durchfahrtshöhe 2,20 Meter. All claims on the page as written. Single undated operator source; the page gives no season dates and does not name who sets the tariff. 'Only published tariff found' is the researcher's search statement, not checkable here. Confidence 'high' is generous for one undated page; 'medium' would be safer.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Parkhaus page says the multi-storey car park is directly at the valley station (Talstation Ratschings-Jaufen) and that a 'praktische Rolltreppe' (escalator) leads to the cabin lift ('Kabinenbahn'). The page does not say '8-person'; that detail (8er-Kabinenbahn) is only on the separate winter page. The operator is not named on the page; the draft correctly says so. Site is the lift company's (contact block 'Bergbahnen Ratschings Jaufen'), so 'suggests' wording is fair.",
+   "corrected_text": "The multi-storey car park sits directly at the valley station (Talstation) of the Ratschings-Jaufen cabin lift and is presented on the website of the lift company Bergbahnen Ratschings-Jaufen, which suggests the lift company runs it (the page does not state the operator in so many words). An escalator leads from the car park to the cabin lift. Page read on 21 October 2026, undated.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "E-Tankstelle page: three charging stations for electric cars in the car park at the Talstation, 1st floor (second entrance), two connectors 22 kW three-phase and one 7.4 kW single-phase. 'Das Parkhaus ist ganzjährig zugänglich. Während der Wintersaison, von Dezember bis April, fallen zusätzlich Parkkosten an.' The page does not say parking charges apply 'when charging' specifically; it says parking costs are added in winter. Minor over-reading, corrected. Undated page.",
+   "corrected_text": "The car park has three EV charging stations on the first floor (second entrance): two 22 kW three-phase connectors and one 7.4 kW single-phase connector. The car park is accessible all year; the page says additional parking costs apply during the winter season, from December to April. Page read on 21 October 2026, undated.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Tourist office 'E-Tankstellen' page: 'zwei Ladestationen ... in Stange und Innerratschings'; E-Tankstelle Stange 'direkt neben der Sportzone in Stange': 1 x Combo Typ 2 (CCS) EU 50 kW, 1 x CHAdeMO 50 kW, 1 x Typ 2 Stecker 43 kW; the page also repeats the three chargers in the valley-station car park. All as written. Undated page; 'second public charging point' is a fair paraphrase.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Council register search 'Ladeinfrastruktur' (read 21 Oct 2026): 'Nr. 550 / 08.10.2025 / Gemeindeausschuss - Plenitude on the road GmbH: Genehmigung der Vereinbarungsniederschrift über die Lieferung, Installation und Verwaltung der Ladeinfrastruktur für Elektrofahrzeuge.' Exactly one hit. Date, body, number and parties match. Strictly the title says approval of the written record of the agreement (Vereinbarungsniederschrift); the draft's 'agreement' is an acceptable paraphrase, and the draft correctly says only the title is shown. No locations or numbers in the register.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Register search 'Parken': 'Nr. 17 / 23.04.2026 / Gemeinderat - Genehmigung der Verordnung zur Regelung des Parkens, des Campierens und anderer Formen von Übernachtungen.' Only hit. Date, body, number and wording match; no attachment or text in the listing, as the draft says. Nothing is claimed about content, zones or fines. Whether and when it is in force is not stated (draft says only 'approved').",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Register search 'Mobilität': 'Nr. 231 / 30.03.2022 / Gemeindeausschuss - CIG: ZEC297FEC4 - Gemeindeentwicklungsprogramm für Raum und Landschaft, Ausarbeitung Mobilitätskonzept: Auftrag an die Fa. TIB consulting engineering GmbH, Brixen (BZ). Weitere Verpflichtung.' 'Weitere Verpflichtung' means a further (financial) commitment under the existing commission. The title does not say a contract was 'extended'. Rest (date, body, firm, purpose) matches.",
+   "corrected_text": "On 30 March 2022 the municipal executive (decision no. 231) recorded a further commitment under the commission to TIB consulting engineering GmbH (Brixen) for drawing up a mobility concept as part of the municipal development programme for space and landscape. The register shows only the title; the outcome of that concept was not found.",
+   "corrected_title": null,
+   "corrected_date": "2022-03-30"
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Register search 'Verkehr': 'Nr. 36 / 20.10.2023 / Gemeinderat - Abänderung Bauleitplan: Ausweisung eines Kreisverkehrs in Stange.' The title is a noun phrase (amendment of the land-use plan: designation of a roundabout in Stange); it does not say whether this is a first adoption or final approval, so 'amended the land-use plan' is slightly stronger than the title. Related earlier entries (Gemeindeausschuss no. 459 of 12.07.2023, same title) exist. Stange as municipal seat is confirmed by the site's address (Stange Nr. 1). Item has little parking relevance.",
+   "corrected_text": "On 20 October 2023 the municipal council (decision no. 36) dealt with an item titled 'amendment of the land-use plan: designation of a roundabout in Stange', the municipal seat. The register shows only the title and does not say whether it was an adoption or a final approval.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Re-ran the searches 21 Oct 2026: 'Parkgebühr', 'Parkhaus', 'Parkordnung' and 'Talstation' each return '0 Einträge gefunden' (the register filter covers 2021-2026 only, all years selected). Claim and caveat (titles only, no proof of absence) are accurate. Could add that coverage starts in 2021, so earlier decisions would not appear.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Register search 'Parkplätze' and 'Parkplatz': Nr. 107 / 12.02.2025 Gemeindeausschuss, 'Errichtung öffentlicher Parkplatz bei der Erweiterungszone C/3 Stange I - Abstecken der Grenzen: Auftrag mittels Direktvergabe an Geom. ...' (a contract for staking out was awarded, not that staking out happened); Nr. 520 / 24.09.2025, 'Errichtung öffentlicher Parkplatz ... Auftrag mittels Direktvergabe an Wipptaler Bau AG'; Nr. 540 / 01.10.2025, 'Errichtung der Oberflächenentwässerung und Asphaltierung der Gemeindestraße und der überdachten öffentlichen Parkplätze bei der Erweiterungszone C/3 Stange I ... Direktvergabe'. These are award decisions; the register does not show the car park was built or finished. Also, the 'covered' parking is in the 1 Oct title, not a separate item.",
+   "corrected_text": "In 2025 the municipal executive awarded contracts for a new public car park at the Stange I extension zone (C/3): staking out the boundaries (decision no. 107, 12 February), construction of the public car park (no. 520, 24 September) and drainage and asphalting of the municipal road and the 'covered public car parks' (no. 540, 1 October 2025). The register shows award titles only, so completion and the number of spaces are not known.",
+   "corrected_title": null,
+   "corrected_date": "2025-10-01"
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Register search 'Parkplatz': Nr. 715 / 17.12.2025 Gemeindeausschuss, asphalting works at the public car park in Ridnaun Dorf and at the access to the Vereinshaus (Direktvergabe); Nr. 648 / 03.12.2025 Gemeindeausschuss, relocation of a hydrant and construction of a car park at the Vereinshaus in Jaufental (Direktvergabe). Dates and places match. 'Smaller' is the researcher's judgement. Note the Ridnaun work is asphalting of an existing car park, not a new one (the draft is worded correctly; the draft summary is not).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Skibus page: free with the Gästekarte activeCard, 'Von Dezember bis April' from surrounding villages to the lift, 'Kein lästiges Parkplatz-Suchen'. Linked poster (webdatei-plakat-skibus-dina3-winter-2025-26.pdf, 1 page, read in full with pypdf): 'Skibus 2025/26 05.12.-08.12., 12.12.-14.12., 19.12.2025-12.04.2026'; three routes (Ridnauntal; Jaufental/Gasteig; Telfes/Mareit) with 3, 2 and 1 outbound runs respectively, so 'one to three runs per day' is right. The poster is issued by Ratschings Tourismus, the page by the lift company. Note the page headline says 'Täglich von Dezember bis April' while the poster lists only the specific dates; the draft follows the poster. Season dates match.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Tourist office 'Anreise & Mobilität' page: nearest station in Sterzing 'etwa 10 km' away; regular Linienbusse to Ratschings, Ridnaun and Jaufental 'in der Regel stündlich'; 'Linie 319: nach Ratschings'; activeCard, provided by almost all accommodations, allows 'kostenlose Nutzung aller öffentlichen Verkehrsmittel in Südtirol'. Draft's 'roughly hourly' and 'most accommodations' match. Undated page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Summer page: 'Sommer 2026 SAISONSBEGINN 30. Mai 2026'; 'Kinder, die 2012 oder später geboren sind, fahren den ganzen Sommer über kostenlos mit der Kabinenbahn'. Both as written. The page does not say when the summer season ends. Live promotional page; read 21 Oct 2026. Low relevance to parking.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Winter page: 'Wintersaison 2026/27 Wintersaison vom 4. Dezember 2026 bis 4.April 2027' and an opening event on 4 Dec 2026. Season dates match. The claim that the 1.50 euro tariff applies in exactly this period is the researcher's inference joined from two other pages (the parking page says only 'Wintersaison'; the E-Tankstelle page says 'von Dezember bis April'); the cited winter page does not mention parking at all. Removed from the corrected text.",
+   "corrected_text": "The lift company's winter page (read 21 October 2026) announces the 2026/27 winter season from 4 December 2026 to 4 April 2027. The page does not mention parking; the car park page gives the 1.50 euro per hour tariff for the 'winter season' without dates, and the EV charging page speaks of parking charges from December to April.",
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Racines (Ratschings in German) is a small mountain municipality in South Tyrol, and its parking story is about the lift car park at the Ratschings-Jaufen ski and hiking area rather than a town centre. The South Tyrol Open Data Hub, read on 21 October 2026, lists two lift car parks (zone 1 with 222 spaces, zone 2 with 60 spaces, 282 in total, both marked underground and without charging), while the lift operator's undated page describes a multi-storey car park at the valley station with about 300 spaces, free in summer and 1.50 euros per hour in the winter season, with three EV chargers (two 22 kW, one 7.4 kW); the difference in space counts and the charging flag are unexplained. A second public charging point is in Stange. Access without a car relies on a free ski bus for guests with the activeCard (winter 2025/26 timetable poster: 5-8 and 12-14 December, then 19 December 2025 to 12 April 2026) and roughly hourly public buses from Sterzing; the lift company announces the 2026/27 winter season from 4 December 2026 to 4 April 2027. The municipal register, which shows titles only, lists a council decision of 23 April 2026 approving an ordinance on parking, camping and overnight stays (text not available), an executive decision of 8 October 2025 approving the written record of an agreement with Plenitude on the road GmbH on EV charging infrastructure, and 2025 contract awards for a new public car park at Stange I, asphalting at an existing car park in Ridnaun and a new car park at the association hall in Jaufental. A register search found no decision on lift car park charges, though the register covers 2021 to 2026 and titles only."
+}

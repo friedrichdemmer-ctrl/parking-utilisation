@@ -1,0 +1,117 @@
+{
+"items": [
+{
+"index": 0,
+"verdict": "partly",
+"note": "Consolidated text read in full (CVDR751393, 'Geldend van 01-01-2026 t/m heden'). Proposal of B&W dated 18 Nov 2025 no. 1104041; decided in council meeting of 15 Dec 2025; art. 12 repeals the 2025 ordinance from 1 Jan 2026; art. 13 in force 1 Jan 2026. All correct. One wording problem: art. 9 says 'De kosten van de naheffingsaanslag ... bedragen EUR 82,00', i.e. the costs charged on an additional assessment for unpaid parking tax; the page does not say the whole fine is 82 euros or whether the unpaid tax comes on top.",
+"corrected_text": "The Zutphen council adopted the Verordening parkeerbelastingen 2026 on 15 December 2025 (proposal from the executive dated 18 November 2025); it repeals the 2025 ordinance and applies from 1 January 2026. Article 9 sets the costs of an additional assessment for unpaid parking tax (naheffingsaanslag) at 82.00 euros; the ordinance does not say whether the unpaid parking tax is added to that amount.",
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 1,
+"verdict": "partly",
+"note": "Every named location and rate matches the 2026 tariff table (3.10: Groenmarkt, Hagepoortplein, Laarstraat, Nieuwstad, Stationsplein, Zaadmarkt; 2.50: Brasseroord, IJsselkade, Martinetsingel, Noorderhaven, Rozengracht). But the ordinance does not label locations 'core' or 'fringe'; that is the drafter's own gloss.",
+"corrected_text": "The 2026 tariff table (in force from 1 January 2026) sets hourly rates of 3.10 euros at locations including Groenmarkt, Hagepoortplein, Laarstraat, Nieuwstad, Stationsplein and Zaadmarkt, and 2.50 euros at locations including Brasseroord, IJsselkade, Martinetsingel, Noorderhaven and Rozengracht. The table does not itself classify locations as core or fringe.",
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 2,
+"verdict": "supported",
+"note": "Table lines 1.8, 1.11, 1.16, 1.19: Vispoortplein/Houtwal, Isendoornstraat, Molengracht-west, Roodsplein 1.95/hour with day ticket 11.55; 1.25 Houtwal 'achter politiebureau' 1.05/hour, day ticket 3.20; 1.26 motorhome bay (sign E8a) day ticket 14.80. All as written. (IJsselkade-west also has an 11.55 day ticket at 2.50/hour; not claimed in the item.)",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 3,
+"verdict": "partly",
+"note": "2025 ordinance PDF read in full (11 pages): council decision 16 Dec 2024 (proposal 12 Nov 2024), in force 1 Jan 2025; rates 3.00 / 2.40 / 1.90 with day ticket 11.15 / 1.00 with day ticket 3.10 all match; the 2026 increases are 10 cents (3.00 to 3.10, 2.40 to 2.50) and 5 cents (1.90 to 1.95, 1.00 to 1.05), so '5 to 10 cents' is right. Problems: the ordinance has no 'core' or 'fringe' labels; the source is the ordinance PDF with its tariff table, not a separate council paper; the 2025 table had a Houtmarkt entry (2.90) that the 2026 table lacks.",
+"corrected_text": "The 2025 ordinance (council decision of 16 December 2024, in force from 1 January 2025) charged 3.00 euros per hour at the locations that cost 3.10 in 2026 (for example Groenmarkt, Hagepoortplein, Laarstraat, Nieuwstad, Stationsplein, Zaadmarkt) and 2.40 euros where 2026 has 2.50. Vispoortplein/Houtwal, Roodsplein, Isendoornstraat and Molengracht-west cost 1.90 euros per hour (day ticket 11.15 euros), and the Houtwal lot behind the police station 1.00 euro per hour or 3.10 euros per day. The 2026 table raised these rates by 5 to 10 cents per hour (day tickets to 11.55 and 3.20 euros). A Houtmarkt entry at 2.90 euros per hour in 2025 does not appear in the 2026 table.",
+"corrected_title": "Verordening parkeerbelastingen gemeente Zutphen 2025 (decision of 16 December 2024, with tariff table 2025)",
+"corrected_date": null
+},
+{
+"index": 4,
+"verdict": "partly",
+"note": "Resident 198.60, second resident 321.60, business 649.80, visitor pass 40.05 per month all match the 2026 table; 2025 resident permit 192.00 confirmed in the 2025 PDF. But the subscription range is wrong: the cheapest ordinary pay-and-display subscription is 232.80 (Houtwal behind the police station, line 3.21), not 389.40; market-stall holders pay 48.60 to 163.80. 389.40 applies to Vispoortplein/Houtwal, Roodsplein, Isendoornstraat, IJsselkade; 1,142.40 to Spittaalstraat, Laarstraat, Donkere Steeg, Nieuwstad, Rijkenhage/Hagepoortplein. 'Reserved resident bay' is the drafter's rendering of 'belanghebbendenplaats' (bay for permit holders).",
+"corrected_text": "Under the 2026 tariff table an annual resident permit for parking on a bay for permit holders (belanghebbendenplaats) costs 198.60 euros (192.00 euros in 2025), a second resident permit 321.60 euros, a business permit 649.80 euros and a visitor pass 40.05 euros per month. Annual subscriptions for the pay-and-display lots run from 232.80 euros (Houtwal behind the police station) through 389.40 euros (Vispoortplein/Houtwal, Roodsplein, Isendoornstraat, IJsselkade) up to 1,142.40 euros (Spittaalstraat, Laarstraat, Donkere Steeg, Nieuwstad, Rijkenhage/Hagepoortplein); market-stall holders pay less (48.60 to 163.80 euros) at three lots.",
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 5,
+"verdict": "supported",
+"note": "CVDR751365 read in full ('Geldend van 01-01-2026'): council meeting 15 Dec 2025, proposal 18 Nov 2025; art. 1 costs 'voor 2025 geraamd' total 321,265.00 euros; art. 2: 2,600 assessments, 123.56 euros each; art. 4 in force 1 Jan 2026. Fine of 82 euros is in the ordinance (art. 9). The item correctly frames it as a cost estimate. (Topic label 'operators' is odd but harmless.)",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 6,
+"verdict": "supported",
+"note": "ArchDaily page published 14 March 2017, year 2017: 'recently gained a new, one-of-a-kind park + ride car park', adjacent to the station in the Noorderhaven district, 375 parking spaces and over 600 bicycle spaces; architect MoederscheimMoonen; contractor list includes Continental Car Parks. All as written. Caveat: the text is marked 'provided by the architects' and ArchDaily is a design portal, so 375 is a self-reported design figure; it conflicts with the 308 in the live register feed (see item 7).",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 7,
+"verdict": "partly",
+"note": "Static RDW record re-read: operator Nederlandse Spoorwegen, capacity 375, min height 2.1 m, open 24/7, tariffs 1,62 per uur and 8,11 per dag, Lijmerij 2 7202AZ: all correct. Dynamic feed (same API, /dynamic/ path, not the cited static URL) fetched: parkingCapacity 308, vacantSpaces 249, lastUpdated 21 Oct 2026 12:44 UTC: conflict is stated correctly. But 'record last updated December 2024' is not on the page: all validity/start timestamps are 14-15 June 2021 (operator entry 5 Oct 2015) and nothing shows December 2024. The draft date 2024-12 is therefore wrong; this is a live open-data page, so date should be 2026-10 and the text must say it was read on 21 October 2026. Tariffs and capacity in the static record date from June 2021 and must be presented as old.",
+"corrected_text": "Read on 21 October 2026: the national parking register (RDW NPR open data) lists P+R Lijmerij (Zutphen, Lijmerij 2) with Nederlandse Spoorwegen as operator, 375 spaces, a 2.1 m height limit and 24/7 opening, at 1.62 euros per hour or 8.11 euros per day. The capacity, tariff and opening entries in this static record carry start dates of 14 to 15 June 2021, so they are old and may be out of date. The live status feed for the same facility, read the same day, reports a parking capacity of 308 (249 vacant), not 375, so the register's two capacity figures conflict; a 2017 architecture write-up also gives 375.",
+"corrected_title": null,
+"corrected_date": "2026-10"
+},
+{
+"index": 8,
+"verdict": "partly",
+"note": "PDF read (4 pages). Wording matches: 'Het aantal autoparkeerplaatsen in de binnenstad wordt fors teruggebracht. Drie grote parkeerplaatsen aan de rand van de binnenstad is uitgangspunt.' and visitors 'zoveel mogelijk verwezen naar de drie centrale parkeerplaatsen bij Station, Polsbroek en Houtwal'. Problems: 'fors' means substantially/sharply, not 'forcibly'; the document is a framework note for the 2023-2026 Binnenstad programme that says the college adopts the commission within the council's frame, and it reports no adoption or vote, so it should be worded as a policy intention/proposal; date 2023-05 comes from the PDF metadata (created 15 May 2023, author a municipal official), not from the text.",
+"corrected_text": "A framework note for the 2023-2026 inner-city programme (PDF created 15 May 2023 according to its file metadata; the text reports no adoption or vote) states the aim that the number of car parking places in the inner city is to be reduced substantially ('fors teruggebracht'), with three large car parks at the edge of the inner city as the starting point, and that visitors are to be directed as far as possible to the three central car parks at the Station, Polsbroek and Houtwal.",
+"corrected_title": null,
+"corrected_date": "2023-05"
+},
+{
+"index": 9,
+"verdict": "partly",
+"note": "PDF read (2 pages; metadata creation date 19 Jan 2022). Seven priority measures, about 23 places (mostly permit places, a few paid; disabled bays stay), merging permit and regular parking, about 280 bicycle spaces at the edges of the core shopping area, Houtwal walking route are all there. But the text is forward-looking ('willen ... opheffen', 'werken toe naar', 'Uitvoering in 2022-2023'), nothing confirms the removals happened, and the date is file metadata not a decision date. The item states them as done/set.",
+"corrected_text": "A Zutphen executive (college) paper listing seven priority mobility measures (PDF created 19 January 2022 according to its file metadata; the text carries no decision date) says the municipality wants to abolish about 23 parking places in characteristic parts of the inner city, mostly permit-holder places and a few paid ones (disabled bays stay), is working towards merging permit and regular parking, wants about 280 bicycle spaces at the edges of the core shopping area, and plans a better walking route from the Houtwal car park to the inner city, with execution given as 2022-2023. Whether these were carried out is not confirmed.",
+"corrected_title": null,
+"corrected_date": "2022-01"
+},
+{
+"index": 10,
+"verdict": "partly",
+"note": "PDF read (2 pages): amendment 2025-A0012, submitted 26 May 2025, 'Een groene en bereikbare binnenstad', Marloes Roerdink (Burgerbelang), to the Omgevingsvisie proposal. Replaces 'three central parking facilities around the inner city' with a network at strategic locations; adds that the municipality facilitates and stimulates parking garages 'binnen of aan de rand van het centrum' (the item says only at the edge); says Zutphen has 'circa 500 parkeerplaatsen in en rond het centrum' (the amendment's own claim, not municipal data); on-street spaces reduced step by step only after the new facilities exist. No vote on the page; the item correctly says the vote was not found. It is a proposal only.",
+"corrected_text": "On 26 May 2025 councillor Marloes Roerdink (Burgerbelang) submitted amendment 2025-A0012 to the draft Omgevingsvisie. It would replace 'three central parking facilities around the inner city' with a network of parking facilities at strategic locations, have the municipality facilitate and stimulate parking garages within or at the edge of the centre, and reduce on-street spaces step by step only after replacements exist. The amendment itself states that Zutphen currently has about 500 parking places in and around the centre. This is a proposal; the council vote on it was not found.",
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 11,
+"verdict": "partly",
+"note": "Gemeenteblad 2023, 254704 read (decision dated and published 12 June 2023): B&W designate bays near 10 listed locations, citing the forecast of about 424 charge points for 2025, a contract with a charge operator, and 17 proactive posts approved in two 2022 decisions; the examples are correct. Omitted: the second bay applies only once a post uses at least 1,750 kWh a year, for locations b to j (all except David Evekinkstraat 7); execution deadline 30 June 2025. So 'two charge-only bays at each' is too strong.",
+"corrected_text": "On 12 June 2023 the executive (college of mayor and aldermen) designated charge-only bays near 10 new public charge posts (for example Emmerikseweg 252, Jan Rozeboomstraat 32, Oranjelaan 24). Two bays are designated at each location, but for nine of the ten (all except David Evekinkstraat 7) the second bay applies only once the post uses at least 1,750 kWh a year; the decision lapses for a location not carried out by 30 June 2025. The decision cites a forecast that about 424 charge points would be needed in 2025 and an agreement with a charge operator, and notes that 17 proactive posts had been approved in two 2022 decisions.",
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 12,
+"verdict": "partly",
+"note": "Gemeenteblad 2025, 231109 read: publication date 28 May 2025 (metadata), decision dated 26 May 2025; 27 locations (a to aa), examples Bakerstraat 14, Braamkamp 103, 's Gravenhof 14, Het Glacis 23 present; deadline 31 May 2027. Error: the 1,750 kWh condition for the second bay applies to all locations except 1e (David Evekinkstraat 3) and 1g ('s Gravenhof 14), and the item cites 's Gravenhof 14 as an example. Those two, plus Het Glacis 23, get an extra sign 'parkeervergunning/parkeerticket vereist'.",
+"corrected_text": "A collective traffic decision by the executive (dated 26 May 2025, published 28 May 2025) designates two charge-only bays near each of 27 listed locations (for example Bakerstraat 14, Braamkamp 103, 's Gravenhof 14, Het Glacis 23). For all locations except David Evekinkstraat 3 and 's Gravenhof 14, the second bay applies only once a post reaches 1,750 kWh a year. David Evekinkstraat 3, 's Gravenhof 14 and Het Glacis 23 get an extra sign saying a parking permit or ticket is required. The decision lapses for a location not carried out by 31 May 2027.",
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 13,
+"verdict": "supported",
+"note": "CVDR723808 read: 'Geldend van 22-08-2024 t/m heden', decided 2 July 2024, art. 9 repeals the Beleidsregel beoordeling verzoeken oplaadpalen op openbaar terrein 2022 (of 27 Sept 2022). Read on 21 Oct 2026 it still shows as in force. Minor: the rule it replaces is one named 2022 rule, not 'rules' plural.",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+}
+],
+"corrected_summary": "Zutphen (Gelderland) charges for street and lot parking under a municipal parking-tax ordinance. The council adopted the 2026 version on 15 December 2025, in force from 1 January 2026. It sets hourly rates of 3.10 euros at locations such as Groenmarkt, Nieuwstad and Stationsplein and 2.50 euros at others such as Brasseroord, Martinetsingel and Noorderhaven, which is 5 to 10 cents above 2025. Vispoortplein/Houtwal, Roodsplein, Isendoornstraat and Molengracht-west cost 1.95 euros per hour or 11.55 euros per day, and the Houtwal lot behind the police station 1.05 euros per hour or 3.20 euros per day. A resident permit costs 198.60 euros a year, and the ordinance sets the costs of an additional assessment for unpaid parking tax at 82 euros. Council and executive papers from 2022 and 2023 (dates taken from file metadata) state an intention to reduce inner-city parking sharply, with three large car parks at the edge (Station, Polsbroek, Houtwal); they report no vote. A May 2025 Burgerbelang amendment to the draft Omgevingsvisie proposed stimulating parking garages within or at the edge of the centre and cited about 500 spaces in and around the centre; its vote was not found. The national parking register, read on 21 October 2026, lists the NS-operated P+R Lijmerij by the station with 375 spaces and old (June 2021) tariffs of 1.62 euros per hour or 8.11 euros per day, while its live feed reports a capacity of 308, so the figures conflict. Public charging is being expanded through collective traffic decisions in 2023 and 2025 that designate charge-only bays, with the second bay at most locations applying only once a post reaches 1,750 kWh a year. The municipal website was unavailable on 21 October 2026, so official parking pages and paid-parking hours could not be read."
+}

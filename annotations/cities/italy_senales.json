@@ -1,0 +1,199 @@
+{
+ "country": "Italy",
+ "city": "Senales",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Senales (Schnals, population 1,229 at 31 December 2025) is a South Tyrolean valley municipality whose parking centres on the glacier ski area at Kurzras at the valley head, reached by a road that is asphalted and open all year. The operator says bus line 261 runs hourly from Meran to Kurzras, while a 2022 provincial notice announced that direct Meran services would be cancelled with a change at Naturns, so current routing is unconfirmed. The Gemeinderat took decisions on car-park management in Kurzras and conventions with the Schnalstaler Gletscherbahnen AG in May 2023 and November 2024, but only the register titles are published. On the operator's page, read on 21 October 2026, the outdoor car park by the valley station is gateless with number-plate recognition, run by Mobility Hub Parkservice Italia, with 60 minutes free, 6 euro a day and nothing to pay from 17:00 to 24:00, and the indoor car park (about 40 spaces, with the rebuilt valley station completed in December 2024) charges 1.50 euro per hour up to 18 euro a day; a March 2025 news item quoted 2.50 euro per hour and 24 euro a day. In Vernagt the municipality finished a car park and toilets in 2025, runs temporary car parks (2024 to 2026), and decided to introduce paid parking zones on 29 April 2026, with EasyPark and Pagobancomat payment agreements approved on 6 May 2026; tariffs and start dates are unknown. A feasibility study for a car park in Karthaus was commissioned in December 2024. The Caravan Park Schnals at Kurzras is barrier-controlled with online booking; its own pages state 40 and 80 pitches. No information on EV charging was found. Most municipal evidence consists of register titles only.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2023-05-15",
+   "text": "On 15 May 2023 the Gemeinderat of Schnals took a basic decision (no. 23) on car-park management (Parkplatzbewirtschaftung) in Kurzras and the conclusion of a convention with the Schnalstaler Gletscherbahnen AG, and approved that convention delimiting the areas (no. 24). Only the register titles are published; no documents are attached online, so the content and any charging rules are unknown.",
+   "source_title": "Gemeinde Schnals - Beschlüsse und Maßnahmen (Register der Beschlüsse)",
+   "source_url": "https://www.gemeinde.schnals.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-11-13",
+   "text": "On 13 November 2024 the Gemeinderat of Schnals again took a basic decision (no. 39) on regulated car-park management (geregelte Parkplatzbewirtschaftung) in Kurzras and the conclusion of a convention with the Schnalstaler Gletscherbahnen AG, and approved the convention delimiting the areas (no. 40). Only the register titles are published, so the content of the convention is unknown.",
+   "source_title": "Gemeinde Schnals - Beschlüsse und Maßnahmen (Register der Beschlüsse)",
+   "source_url": "https://www.gemeinde.schnals.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The Gletscherbahnen page, read on 21 October 2026, lists the outdoor car park about 100 m from the valley station in Kurzras as gateless (no barrier or ticket; the number plate is recorded automatically): 60 minutes free from 00:00 to 17:00, then a day ticket of 6 euro and 12 euro for each further day; no payment is required from 17:00 to 24:00. Unpaid stays are charged 80 euro per day. The page is undated.",
+   "source_title": "Anreise und Parken in der Alpin Arena Schnals (Schnalstaler Gletscherbahnen AG)",
+   "source_url": "https://www.schnalstal.com/de/anfahrt-schnalstal-suedtirol",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "According to the same page (read 21 October 2026) the Kurzras outdoor car park is run by Mobility Hub Parkservice Italia S.R.L.; payment is by machine (coins, card, Apple/Google Pay), by QR code or website within 24 hours after leaving, or via EasyPark.",
+   "source_title": "Anreise und Parken in der Alpin Arena Schnals (Schnalstaler Gletscherbahnen AG)",
+   "source_url": "https://www.schnalstal.com/de/anfahrt-schnalstal-suedtirol",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The page read on 21 October 2026 gives the indoor car park at the Kurzras valley station as about 40 spaces at 1.50 euro per hour with a daily maximum of 18 euro, payable at the exit by contactless card or at a card machine accessible 24 hours (cash at the ticket counter until 16:30). The page signs three disabled bays: two paid ones in the underground garage and one free one outside directly in front of it.",
+   "source_title": "Anreise und Parken in der Alpin Arena Schnals (Schnalstaler Gletscherbahnen AG)",
+   "source_url": "https://www.schnalstal.com/de/anfahrt-schnalstal-suedtirol",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-03-28",
+   "text": "In a news item dated 28 March 2025 the Gletscherbahnen quoted the new indoor car park at the Kurzras valley station as about 40 spaces at 2.50 euro per hour with a daily maximum of 24 euro. This differs from the 1.50 and 18 euro shown on the current page (undated), so the tariff has apparently been lowered since.",
+   "source_title": "Vieles NEU in der Alpin Arena Schnals (Alpin Arena Schnals, news 28.03.2025)",
+   "source_url": "https://www.schnalstal.com/de/dein-abenteuer/hier-jetzt/urlaub-schnalstal-news/default-title/detail/vieles-neu-in-der-alpin-arena-schnals",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2024-12-23",
+   "text": "The construction diary of the Schnalstaler Gletscherbahnen reports that the new valley station in Kurzras was completed on 23 December 2024; the second building phase had started in April 2024 and included an underground garage, a restaurant and a covered access to the cable car. A diary entry of 19 September 2024 says the shell of the underground garage 'with 44 spaces' was finished, whereas the operator's parking page and a March 2025 news item give about 40 spaces. The new reversible cable car (about 2,150 m long, about 1,180 m of height gain, under 6 minutes) went into operation at Christmas 2023.",
+   "source_title": "Bautagebuch (Alpin Arena Schnals)",
+   "source_url": "https://www.schnalstal.com/de/bautagebuch",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-04-29",
+   "text": "On 29 April 2026 the Gemeinderat of Schnals decided on the introduction of paid parking zones in Vernagt (resolution no. 19); only the register title was readable, so tariffs and zones are not known.",
+   "source_title": "Gemeinde Schnals - Beschlüsse und Maßnahmen (Register der Beschlüsse)",
+   "source_url": "https://www.gemeinde.schnals.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-05-06",
+   "text": "On 6 May 2026 the Gemeindeausschuss approved an agreement with EasyPark Italia GmbH of Milan (resolution no. 232) on paying parking fees through the EasyPark system, and an agreement with Nexi Payments of Milan (no. 233) on paying parking fees through the Pagobancomat service. The register titles do not name the location or the start date of any charging; only titles are published.",
+   "source_title": "Gemeinde Schnals - Beschlüsse und Maßnahmen (Register der Beschlüsse)",
+   "source_url": "https://www.gemeinde.schnals.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-05-13",
+   "text": "On 13 May 2026 the Gemeindeausschuss approved the conditions for using parts of plots 262/2, 263/1 and 1212/1 in Unser Frau as a temporary car park at Vernagt for 2026 (resolution no. 236). In 2024 and 2025 the municipality had already contracted a temporary car park at Vernagt and compensated the landowner.",
+   "source_title": "Gemeinde Schnals - Beschlüsse und Maßnahmen (Register der Beschlüsse)",
+   "source_url": "https://www.gemeinde.schnals.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-06-25",
+   "text": "The register shows the Vernagt car-park layout works with a connecting pavement (Parkplatzgestaltung) were closed out in 2025 (final state of works approved 23 April 2025; certificate of proper execution and release of the bond on 25 June 2025). The public toilets at Vernagt were built in a separate project, tendered in 2023, with the final state of works approved on 23 April 2025 and the bond released on 25 June 2025. A contract for road markings and signage at the Vernagt car park followed on 29 October 2025. Only register titles are published.",
+   "source_title": "Gemeinde Schnals - Beschlüsse und Maßnahmen (Register der Beschlüsse)",
+   "source_url": "https://www.gemeinde.schnals.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-12-27",
+   "text": "The Gemeindeausschuss commissioned a technical-economic variant study on improving the parking situation in Karthaus (the municipal seat) on 30 October 2024 and a feasibility study for a car park there on 27 December 2024. No resolution to build was found.",
+   "source_title": "Gemeinde Schnals - Beschlüsse und Maßnahmen (Register der Beschlüsse)",
+   "source_url": "https://www.gemeinde.schnals.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-12-20",
+   "text": "On 20 December 2023 the Gemeinderat set the contribution due in lieu of providing parking spaces for new buildings and extensions under Article 7 of provincial decree no. 17 of 7 May 2020; the amount is not visible in the register title.",
+   "source_title": "Gemeinde Schnals - Beschlüsse und Maßnahmen (Register der Beschlüsse)",
+   "source_url": "https://www.gemeinde.schnals.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-06-18",
+   "text": "On 18 June 2025 the Gemeindeausschuss granted a contribution to the Tourismusgenossenschaft Schnalstal for running the ski bus service (the title refers to 2023/24), for trail maintenance and for marketing in 2025. On 20 November 2024 it commissioned the construction of two ground slabs for bus stops in Kurzras, and on 15 April 2026 it commissioned technical services for adapting and relocating the bus stops on provincial road LS3 in Vernagt. Only register titles are published.",
+   "source_title": "Gemeinde Schnals - Beschlüsse und Maßnahmen (Register der Beschlüsse)",
+   "source_url": "https://www.gemeinde.schnals.bz.it/de/Beschluesse_und_Massnahmen",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The Gletscherbahnen state that the road to Kurzras is asphalted and open all year, and that line 261 runs hourly to Kurzras. The caravan park site adds that the valley bus runs hourly in daytime and that the SkibusCard gives free rides inside the valley from October to early May.",
+   "source_title": "Anreise und Parken in der Alpin Arena Schnals (Schnalstaler Gletscherbahnen AG)",
+   "source_url": "https://www.schnalstal.com/de/anfahrt-schnalstal-suedtirol",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-12-05",
+   "text": "A Südtirolmobil news item dated 5 December 2022 announced more services on line 261 Naturns - Schnalstal (additional early-morning and evening trips and continuous hourly service also on Sundays) and said direct services to Meran on line 261 would be cancelled, with passengers changing to line 251 or the train in Naturns. The Gletscherbahnen page now says line 261 runs hourly from Meran to Kurzras, so the current routing is unconfirmed.",
+   "source_title": "More bus connections in the peripheries (Südtirolmobil news, 05.12.2022)",
+   "source_url": "https://www.suedtirolmobil.info/en/news/details/merano-meran-and-surroundings-venosta-vinschgau",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The Caravan Park Schnals at Kurzras is a barrier-controlled motorhome site open 24 hours with online booking. Its site (read 21 October 2026) gives 40 pitches on the home page and 80 pitches on the 'Wissenswertes' page, and daily prices per vehicle of 36 to 46 euro between June 2026 and May 2027, power included.",
+   "source_title": "Caravan Park Schnals - Preise und Wissenswertes",
+   "source_url": "https://www.caravanpark-schnals.com/de/caravan-park-1/preise",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-12-31",
+   "text": "The municipality of Schnals had 1,229 inhabitants at 31 December 2025.",
+   "source_title": "Zahlen und Fakten (Gemeinde Schnals)",
+   "source_url": "https://www.gemeinde.schnals.bz.it/de/Dorfleben/Zahlen_und_Fakten",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "EV charging in Kurzras, Vernagt, Karthaus or Unser Frau: nothing found on the Gletscherbahnen, caravan park or municipal pages, and the web searches returned no relevant source.",
+  "Texts of the Gemeinderat resolutions no. 23/24 (15.05.2023), 39/40 (13.11.2024) and no. 19 (29.04.2026) are not attached in the register at https://www.gemeinde.schnals.bz.it/de/Beschluesse_und_Massnahmen; Vernagt tariffs, zones and start date are unknown.",
+  "The feed names 'Parcheggio P4 Senales' (42 spaces) and 'Parcheggio Caravanpark Senales' (120 spaces); no source identified a P4 car park, and the operator's own pages give 40 and 80 pitches for the caravan park, so the capacities cannot be matched.",
+  "The date of the indoor-car-park tariff change from 2.50 euro (max 24) to 1.50 euro (max 18) per hour is not given; the Anreise page is undated. Third-party listings quote a 120-minute free period for the outdoor car park, which differs from the 60 minutes on the official page.",
+  "Current routing of bus line 261 (Meran direct vs change in Naturns) and the 2026/27 timetable could not be confirmed from a current official page; the Südtirolmobil news read is from 2022. The Meran tourism ski-bus page redirected to the homepage and was not used.",
+  "No Italian-language or press (Dolomiten, Vinschgerwind, Tageszeitung) coverage of Schnals parking decisions was found; the stol.it bus-timetable articles returned no readable text. No provincial (Land Südtirol) parking decision specific to Schnals was found.",
+  "Sources not used because only listings or unreadable: suedtirol.live, roterhahn.it, vinschgau.net parking listings (undated, contradictory on summer/winter charging); the Merano tourism ski-bus page (redirect)."
+ ],
+ "dropped": {}
+}

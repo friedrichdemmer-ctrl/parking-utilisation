@@ -1,0 +1,163 @@
+{
+  "country": "France",
+  "city": "Lormont",
+  "researched": "2026-10-21",
+  "summary": "Lormont is a commune on the right bank of the Garonne in Bordeaux Métropole, and its public parking story is mostly the metropolitan park-and-ride system on tram line A. The two park-and-rides inside Lormont are Buttinière (about 600 spaces, the one Bordeaux Métropole is now extending) and Lauriers (189 spaces on the TBM list), both open to all and both among the 11 park-and-rides that vehicles without a Crit'Air sticker may still reach inside the ring-road low-emission zone. The park-and-rides are run by Keolis under a public-service concession signed in July 2022, with a day ticket of 4.50 euros (3.50 at Lauriers), which a news report says is planned to rise to 5 euros in 2027. Buttinière is regularly saturated, and the Métropole plans to add 280 spaces and 176 electric-vehicle charging places by 2028. No page on Lormont's own on-street parking rules (paid zones, blue zone, resident permits) could be read, so that part of the picture is missing. The Pont d'Aquitaine, which has an interchange at Lormont-Croix Rouge, has monthly night-time maintenance closures announced for autumn 2026. Context for our data: Bordeaux Métropole's own car-park page puts La Gardette Nord (242 spaces) at Chemin du Grand Came, Lormont, while the TBM list gives it as Bassens; Buttinière and Lauriers are Lormont addresses on both sources.",
+  "items": [
+    {
+      "topic": "regulation",
+      "date": "2026-01-13",
+      "text": "Since 1 January 2025 Bordeaux Métropole's low-emission zone covers everything inside the ring road, 24 hours a day. Vehicles with no Crit'Air sticker may not drive or park inside it, but may use the ring road and reach 11 listed park-and-rides by dedicated access roads, including Buttinière and Lauriers in Lormont (page last updated 13 January 2026).",
+      "source_title": "ZFE (Zone à Faibles Émissions) : ce qu'il faut savoir",
+      "source_url": "https://sedeplacer.bordeaux-metropole.fr/en-voiture/zfe-ce-quil-faut-savoir",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-10",
+      "text": "The TBM park-and-ride list (page read on 21 October 2026) shows Buttinière (Route de Bordeaux) with 601 spaces, 16 disabled bays, 8 electric-charging spaces, a 1.90 m height limit and a TBM sales point, and Lauriers (Rue Victor Hugo) with 189 spaces, 4 disabled bays and a 2 m limit. Both are open to all and listed as connecting to tram A; Lauriers shows no charging spaces.",
+      "source_title": "Opening times, maps and list of Parcs-Relais",
+      "source_url": "https://www.infotbm.com/en/opening-times-maps-and-list-parcs-relais.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-10",
+      "text": "On the same page, park-and-rides are open only while trams run (5am to 1am Sunday to Wednesday, 5am to 2am Thursday to Saturday), and parking outside those hours risks a 15 euro fine per day. A different TBM page read the same day gives 1:30am and 2:30am closing times and a 25 euro fine, so the pages disagree.",
+      "source_title": "Opening times, maps and list of Parcs-Relais",
+      "source_url": "https://www.infotbm.com/en/opening-times-maps-and-list-parcs-relais.html",
+      "confidence": "medium"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-10",
+      "text": "A park-and-ride ticket costs 4.50 euros (3.50 reduced) and includes seven round trips on the network that day; same-day parking is included in a TBM subscription. Lauriers is on the reduced-price list at 3.50 euros, while Buttinière is not on that list. Page read on 21 October 2026.",
+      "source_title": "Park for the day (park and ride)",
+      "source_url": "https://www.infotbm.com/en/park-day.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-10",
+      "text": "Bordeaux Métropole's car-park pages (read 21 October 2026) show a flat 3.50 euros for Lauriers and 4.50 euros for Buttinière for stays of 1 to 10 hours, matching TBM. They give Lauriers 149 total spaces against 189 on the TBM list, so the capacity figures differ between sources.",
+      "source_title": "Parc Relais Lauriers / Parc Relais Buttinière (Se Déplacer Bordeaux Métropole)",
+      "source_url": "https://sedeplacer.bordeaux-metropole.fr/parking/264",
+      "confidence": "medium"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-10",
+      "text": "Short stays of 2 to 5 days are sold at Lauriers (not Buttinière) for 12, 15, 20 and 25 euros for 2, 3, 4 and 5 days, including one round trip on the network. Page read on 21 October 2026.",
+      "source_title": "Park for 2 - 5 days",
+      "source_url": "https://www.infotbm.com/en/park-2-5-days.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-10",
+      "text": "Lauriers is one of six park-and-rides in a 24/7 'park overnight near home' offer for people living within 500 m of the site, at 300 euros a year or 25 euros a month. It is a limited number of spaces, not unlimited parking, and the car must be moved regularly. Page read on 21 October 2026.",
+      "source_title": "Park overnight (near home)",
+      "source_url": "https://www.infotbm.com/en/park-overnight-near-home.html",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-05-19",
+      "text": "Bordeaux Métropole signed a public-service concession for the park-and-rides with Keolis, made official in July 2022 (page updated 19 May 2026). Dynamic message signs showing free spaces were installed at five places, including Avenue Carnot in Lormont.",
+      "source_title": "Les nouveautés des parcs relais !",
+      "source_url": "https://sedeplacer.bordeaux-metropole.fr/actualites/nouveautes-parcs-relais",
+      "confidence": "high"
+    },
+    {
+      "topic": "development",
+      "date": "2026-05-19",
+      "text": "The same page lists planned park-and-ride changes: three new sites (Cadéra, Mermoz, Thouars), the closure of Stalingrad, and enlargement of Galin and Buttinière. A short-stay tariff voted at the Métropole council on 29 September 2023 allows 2 to 5 day parking at several sites including Lauriers.",
+      "source_title": "Les nouveautés des parcs relais !",
+      "source_url": "https://sedeplacer.bordeaux-metropole.fr/actualites/nouveautes-parcs-relais",
+      "confidence": "high"
+    },
+    {
+      "topic": "development",
+      "date": "2025-11",
+      "text": "The commune's project page for Buttinière says Bordeaux Métropole will extend and renovate the 4-level, 600-space car park (opened 2004), adding 280 spaces on the east side, with works then planned to start in January 2026 for two years and an estimated 10.8 million euros. The car park is to stay open with its capacity preserved during works.",
+      "source_title": "Un second souffle pour le parc-relais Buttinière",
+      "source_url": "https://www.lormont.fr/mairie/grands-projets/parc-relais-buttiniere",
+      "confidence": "high"
+    },
+    {
+      "topic": "development",
+      "date": "2026-10-10",
+      "text": "A news report says the extension (7,000 m2, 280 spaces, 880 in total by 2028) is to be built between October 2026 and October 2027, with renovation of the existing parts until summer 2028, for 12.2 million euros. This is later and dearer than the commune's page above, which suggests the schedule and budget changed; the 600 spaces are to stay available during works.",
+      "source_title": "Le parking le plus convoité de la métropole de Bordeaux va gagner 7 000 m² et près de 300 places",
+      "source_url": "https://www.lebonbon.fr/bordeaux/news/parking-plus-convoite-metropole-bordeaux-agrandit-7-000-m²-280-nouvelles-places/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-10-10",
+      "text": "The same news report describes Buttinière as the busiest park-and-ride in the metropolis, taking about 560 vehicles a day (over 200,000 a year) and often full by 8am. These figures come from the press report, not from an official statistics page.",
+      "source_title": "Le parking le plus convoité de la métropole de Bordeaux va gagner 7 000 m² et près de 300 places",
+      "source_url": "https://www.lebonbon.fr/bordeaux/news/parking-plus-convoite-metropole-bordeaux-agrandit-7-000-m²-280-nouvelles-places/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2025-11",
+      "text": "The Buttinière project includes electric-vehicle charging for 176 places (the news report puts this at 20% of 880 spaces), against 8 charging spaces today per the TBM list. This is a plan, not yet in place.",
+      "source_title": "Un second souffle pour le parc-relais Buttinière",
+      "source_url": "https://www.lormont.fr/mairie/grands-projets/parc-relais-buttiniere",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2025-05-28",
+      "text": "Bordeaux Métropole-wide context (no Lormont detail): its on-street charging network had 364 places at 146 stations in May 2025, priced from 6 January 2025 at 0.38 euros per kWh plus a 4 euro hourly fee after 4 hours. The METPARK car-park operator plans 1,500 charging points in 26 car parks by 2026.",
+      "source_title": "Recharger mon véhicule électrique",
+      "source_url": "https://sedeplacer.bordeaux-metropole.fr/en-voiture/recharger-mon-vehicule-electrique",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-09-29",
+      "text": "A news report says Bordeaux Métropole plans an average 3% rise in TBM fares in 2027, with the park-and-ride ticket going from 4.50 to 5 euros. It is a proposal reported before the council vote, and the deliberation itself was not read.",
+      "source_title": "C'est officiel, les prix des tickets de trams et de bus vont encore augmenter à Bordeaux en 2027",
+      "source_url": "https://lebonbon.fr/bordeaux/news/c-est-officiel-prix-tickets-trams-bus-vont-encore-augmenter-a-bordeaux-2027/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-10",
+      "text": "Context on La Gardette Nord: Bordeaux Métropole's page (read 21 October 2026) gives its address as Chemin du Grand Came, 33310 Lormont, with 242 spaces and no charging, while TBM lists it at Avenue des Griffons, Bassens. This explains why the same site shows up under Lormont or Bassens depending on the source.",
+      "source_title": "Parc Relais La Gardette Nord (Se Déplacer Bordeaux Métropole)",
+      "source_url": "https://sedeplacer.bordeaux-metropole.fr/parking/211",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2021-11",
+      "text": "Lormont set a default 30 km/h limit on almost all its streets from November 2021, keeping only a few main roads at 50 km/h. The commune says the scheme came with chicanes and parking on the carriageway on some streets, built by Bordeaux Métropole.",
+      "source_title": "Ville à 30",
+      "source_url": "https://www.lormont.fr/au-quotidien/mobilite/nouveaux-modes-de-deplacement/ville-a-30",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-10-21",
+      "text": "Bordeaux Métropole announced monthly maintenance closures of the Pont d'Aquitaine in both directions between the Lormont-Croix Rouge interchange and Labarde, at night (21h to 6h): 21-22 October 2026, the weekend of 24-25 October, and 18-19 November. Traffic is diverted by the ring road and the Pont François Mitterrand, and the works can be cancelled for weather.",
+      "source_title": "Fermeture du Pont d'Aquitaine",
+      "source_url": "https://sedeplacer.bordeaux-metropole.fr/actualites/fermeture-pont-daquitaine",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "Lormont's on-street parking rules (paid zones, blue zone, resident permits): the commune's 'Stationnement' and 'Zone bleue' headings on lormont.fr link nowhere readable, no council deliberation on parking was found in the 2026 session lists, and only commercial portals (Yespark) mention that on-street parking is free; those were not used.",
+    "ville-lormont.fr did not respond (connection timeout); lormont.fr is a JavaScript application, so its pages were read from the site's own public JSON endpoint (www.lormont.fr/api/...) instead of the rendered page.",
+    "Sud Ouest and actu.fr cannot be searched by the search tool (domains blocked) and were not fetched; no local press on Lormont parking beyond Le Bonbon was read.",
+    "Whether all of Lormont lies inside the ring-road low-emission zone is not stated on the page read; only that Buttinière and Lauriers are among the 11 accessible park-and-rides.",
+    "The Buttinière extension start date and cost differ between the commune page (January 2026, 10.8 million euros) and Le Bonbon (October 2026, 12.2 million euros); no Bordeaux Métropole council deliberation or press release was found to settle it.",
+    "The 2027 park-and-ride price rise rests on one news article; the Métropole deliberation was not found.",
+    "No official park-and-ride usage statistics for Buttinière or Lauriers (beyond the press figure) and no EV-charging tariff for the TBM park-and-ride sockets were found; Lauriers capacity differs (189 vs 149) between TBM and Bordeaux Métropole pages.",
+    "Other Lormont car parks (e.g. Parking 8 Mai, Avenue Carnot sites) appeared only on parking-listing portals and were not used.",
+    "A Browser pane tab could not be opened, so pages were fetched with curl and read as text."
+  ]
+}
