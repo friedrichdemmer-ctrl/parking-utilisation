@@ -24,6 +24,12 @@ Only Munich municipality facilities (key 9162) are kept: the same endpoint
 also serves Grafing, Petershausen and Agatharied, which can be added by
 widening MUNICH_KEYS.
 
+Caveat found 2026-10-21: of the 15 sensor facilities only three (Studentenstadt, Innsbrucker Ring,
+Fürstenried West Parkplatz) deliver counts that change. Eleven serve one constant number with a fresh
+timestamp (the frozen-value filter in storage.write_occupancy drops those repeats, so they stop
+appearing in history after the first readings), and Aidenbachstraße stopped reporting in real time on
+2026-10-08. Do not read a constant count there as occupancy.
+
 The data is a live snapshot with no history, so readings accumulate only from
 the day this adapter first ran (2026-10-07). The park-and-ride company's
 facilities are the city's periphery and transfer sites, not its centre: the
