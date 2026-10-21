@@ -1,0 +1,185 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Carlino page of 2 May 2025 says 'da oggi, 2 maggio' the hourly price rises: 1.20 to 1.80 (corona semiperiferica), 1.50 to 2.20 (semicentrale), 1.80 to 2.90 (centro storico), 2.40 to 3.90 (cerchia del Mille); monthly permits from a minimum 60 euro to 100; extra income about 5.4 million euro a year; prices had been frozen since 2011. All as drafted. The 3.90 figure is the Cerchia dei Mille zone, in force from 2 May 2025 per the article.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "Page is dated 28 December 2025, before the change, so it describes 1 January 2026 as upcoming ('da giovedi si parte'). Figures 10,259 and 19,530 and the electric-car statement are on the page. Not as drafted: (a) existing permits stay valid until natural expiry, so non-resident hybrids did not all 'lose access' on 1 January; the rule stops new/renewed permits for non-residents; (b) the page says residents of the centre with an R permit keep free parking in their zone, only residents living outside the centre pay on blue lines, so 'hybrid owners must pay for on-street parking' is too broad. The summary sentence 'hybrid cars of non-residents lost ZTL access' needs the same correction.",
+   "corrected_text": "A report of 28 December 2025 said that from 1 January 2026 the virtual ZTL permit for hybrid cars would be issued only to residents of Bologna or companies based in the city, so non-resident hybrid owners would need the paid daily ticket; permits already issued stay valid until their natural expiry. The Comune counted about 10,259 hybrids of non-residents that could no longer be given access and 19,530 hybrids of residents that keep access but pay for parking (residents of the centre with an R permit still park free in their own zone). Fully electric cars keep ZTL access and free parking.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Bologna Welcome page (undated; ZTL 7-20 every day, accesses watched by the 'vigile elettronico' Sirio; pedestrian zones and area T via Rizzoli/Indipendenza/Ugo Bassi limited 24 hours; daily ZTL ticket can be bought; link to the Comune ZTL page). All as drafted. Date 2026-10 and 'read on 21 October 2026' correct for an undated page. The page does not label itself AI-written (only a generic site-footer link on AI use).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Il Post, 20 January 2026 (page metadata 2026-01-20): TAR annulled the measure lowering limits to 30 km/h on all city roads except fast-flow roads, found it disproportionate, decision not final (appeal to Council of State possible). The claim that the 30 km/h limit in the historic centre from 31 December 2023 was not affected is NOT on this page (it appears only in the March article of item 4), so it is removed here.",
+   "corrected_text": "The regional administrative court (TAR Emilia-Romagna) annulled the measure that lowered the speed limit to 30 km/h on all city roads except fast-flow roads, ruling the blanket approach disproportionate and the orders too generic. Il Post noted the decision was not final: the Comune could still appeal to the Council of State within 60 days.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Il Post, 23 March 2026: the Comune 'ha approvato' a new plan, per-road technical sheets, 258 km in 47 new zones, 'e previsto che entri in vigore lunedi 20 aprile', implementing orders to follow in coming weeks; Lepore dropped the Council of State appeal. Draft wording ('planned to take effect') is correct; entry into force on 20 April is not confirmed by the page and must not be stated as fact. The item 3/4 'not affected' centre point is on this page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "PDF read with pypdf: Delibera del Consiglio metropolitano n.54, seduta 27/11/2019, approves the PUMS (adopted by Atto del Sindaco n.248 of 27.11.2018). Councillor Monesi in the debate cites 2,062,000,000 euro of investment to 2030 and says the tram is an essential part of the metropolitan transport network. Vote 10-1-3 approved.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Carlino 21 October 2025: centre spaces 10,098 (2013), 9,510 (2016), 9,227 (2022), 9,136 (Dec 2024); blue lines 6,172 to 5,866 in two years; resident white-line 1,110 to 1,271. Figures emerged from a question by Lega councillor Di Benedetto answered by the Comune (the draft says 'council figures'; acceptable).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Carlino 20 October 2025: reopened that day, cost 2.8 million euro, from just under 180 to about 300 spaces, raised steel-frame deck, entrances doubled and set back, unchanged tariffs (2 euro day hour, 1 night, 12 day, 180 month), telepedaggio agreement being formalised to be in place by November. The word 'modular' is not on this page (it comes from the November 2024 article), and the telepedaggio was planned, not in place.",
+   "corrected_text": "The ex-Staveco car park on viale Panzacchi reopened on 20 October 2025 after works costing 2.8 million euro, going from just under 180 to about 300 spaces with a raised steel-frame deck and doubled, set-back entrances. Tariffs stayed unchanged at 2 euro per hour by day, 1 euro at night, 12 euro per day and 180 euro per month, and an electronic toll (telepedaggio) was planned by November 2025.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Carlino 22 November 2024: cost 2.8 million euro, completion expected by summer 2025; 'I quasi 3 milioni di euro dell'opera saranno gestiti da Bomob - azienda che coordina gli introiti della sosta e paga il 70% dei suoi guadagni all'amministrazione - la quale realizzera l'intervento e vedra detratto dal canone... il costo totale'. So Bomob carries out the works and the cost is offset against its fee; the word 'financed' is an inference, not stated.",
+   "corrected_text": "The Staveco extension, costing 2.8 million euro, was announced with Bomob carrying out the works; Bomob was described as the company that coordinates parking income and pays 70% of its earnings to the Comune, and the total cost of the works was to be deducted from the fee it pays the Comune.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Carlino 15 January 2026: Tanari belongs to Fs Sistemi Urbani, which keeps asking the Comune to return it after the second extension of the loan for use (comodato) expired; open but unstaffed and degraded; a mediation meeting 'a fine mese' (end of January); work not started by the Comune 'o fatto avviare da chi ha gestito la struttura, Bomob'. All as drafted. No outcome known.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "APCOA page (undated): Total Spaces 702 and 2 EV charging spaces in its specification, open 24 h, Telepass; tariff 3.30 per hour for hours 1-3, 2.50 hours 4-6, 1.60 hours 7-10, 1.20 for the 11th hour, maximum daily 25 euro. Note: the same page's descriptive text says 980 spaces, so the capacity is inconsistent on the page itself; the 702 figure is the one in the specification table. Date 2026-10 / read on 21 October 2026 is right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Bologna Welcome listing: covered multi-storey, 546 spaces, 'Presidiato 24 ore su 24 (Assistenza da remoto alla Clientela, tramite collegamento citofonico con la Centrale Operativa)', maximum height 2.00 m, email bo.rivareno@apcoa.it, website apcoa.it. 'Attended' overstates it: the attendance is remote by intercom. APCOA's own site lists Riva Reno (540 spaces), which supports the operator inference.",
+   "corrected_text": "The Bologna Welcome listing for the Riva Reno multi-storey car park, undated and read on 21 October 2026, gives 546 spaces, 24-hour operation with remote customer assistance by intercom, a 2.00 m height limit and an apcoa.it contact address. This indicates APCOA is the operator.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Open-data API metadata and records read on 21 October 2026: dataset 'Disponibilita Parcheggi (VIGENTE)', readings every 10 minutes, only the latest kept, separate historic dataset, licence CC BY 4.0, 3 records (VIII Agosto, Riva Reno, Autostazione). The web page is JavaScript-rendered; the dataset API confirmed the details.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Dataset API: 'Parcheggi - strutture', modified 2024-06-27, 44 records with posti and tariffa type; Michelino 5500, Nuovo Parcheggio Stazione 900, Fiera Parco Nord 750, Piazza otto agosto 700, Metropark 683, Riva Reno 543, Autostazione 280, Staveco 180. All as drafted.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Dataset API: modified 2025-07-28, 129 records, 235 bays in total (sum of numstalli), 128 'attivo' and 1 'in esecuzione', operators Be Charge 57, Enel X 31, Hera 20, Enel 19, Enermia 2; potenza quick 123, fast 6. All as drafted ('under construction' is a fair reading of 'in esecuzione').",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Bologna Welcome guide, 'Aggiornato il 24 marzo 2026': parking is paid on blue lines and in public and private car parks, 'gratis solo in alcuni parcheggi di interscambio'; Antistadio free if combined with a bike, Ferriera free with a bus ticket; list includes Prati di Caprara, Santa Viola, Zaccherini Alvisi, Largo Lercaro, Piazza della Pace. The page also lists Tanari as unattended with free parking and management awaiting assignment (not in draft; optional context).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Carlino 1 October 2024: Green Line via dei Mille-Corticella about 6.9 km, 17 stops; 200-space multi-storey between via Ferrarese and via del Saliceto and 197 surface spaces in via Bassanelli; works to run until June 2026 to spend about 250 million euro PNRR funds. Worded as a plan; it is a 2024 schedule and may since have changed (the researcher's gap notes a later cost increase).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Carlino 9 September 2026: first tram uncovered at the new Borgo Panigale depot, fleet of 35 already ordered, mayor aims to be ready in spring (also 'primavera/estate' for reaching the centre with passengers), subject to national approval (omologazione), first service Borgo Panigale to centre, free rides in the first months. The year 2027 is implied by the article date, not written. Worded as target, correctly.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Bologna raised on-street parking tariffs on 2 May 2025 after prices had been frozen since 2011, with the hourly rate reaching 3.90 euro in the Cerchia dei Mille zone. A report of 28 December 2025 said that from 1 January 2026 new ZTL permits for hybrid cars would go only to residents and Bologna-based companies, with existing permits valid until they expire. The regional administrative court annulled the blanket Citta 30 speed-limit orders in January 2026, and in March 2026 the Comune approved a street-by-street plan for 258 km of roads in 47 zones that was planned to take effect on 20 April 2026 (entry into force was not verified). Parking supply in the centre fell from 10,098 spaces in 2013 to 9,136 in December 2024, and the expanded Staveco car park reopened on 20 October 2025 with about 300 spaces. Tram works are reshaping supply: the first Red Line tram was unveiled on 9 September 2026, with the mayor aiming to be ready in spring, subject to national approval. The Comune publishes a 10-minute availability feed for three garages (VIII Agosto, Riva Reno, Autostazione) and open datasets on car parks and EV charging bays; APCOA appears as operator of Piazza VIII Agosto and Riva Reno, while Bomob, described by the press as coordinating parking income for the Comune, carried out the Staveco works and had managed the Tanari car park, which in January 2026 was in a dispute between the Comune and its owner, FS Sistemi Urbani."
+}

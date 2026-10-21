@@ -1,0 +1,165 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Opened the PDF (3 pages) and read the text. Heading: Gebuehrenordnung zur Erhebung von Parkgebuehren vom 11.07.2024. Para 4: Zone I 0.10 euro per started 2 min, minimum 1.00 euro (=3.00/h); Zone II 0.10 per started 4 min, minimum 0.50, 24-hour ticket 5.00 (=1.50/h); Zone III 0.10 per started 12 min, minimum 0.50, 24-hour ticket 4.00. Para 5: Zone I = Nordanlage/Westanlage/Suedanlage/Ostanlage ring and everything inside it, plus Bahnhofstrasse between Liebigstrasse and Bahnhofsvorplatz, An der Alten Post, Bootshausstrasse, Zu den Muehlen ('around the station' is a fair short form). Para 7: replaces the 18.06.1984 ordinance 'zuletzt geaendert durch 6. Satzung ... vom 14.07.2022'; footnote: published in Giessener Allgemeine and Giessener Anzeiger on 23.07.2024. All claims match.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Opened the city page (undated service page, copyright 2026). 'In Giessen gibt es derzeit sechs Bewohnerparkzonen'; 'zurzeit eine Gebuehr in Hoehe von 120,00 EUR pro Jahr ... Verwaltungsgebuehr', linked to the Parkgebuehrenordnung; car-sharing members can also get a permit. 120 euros also matches para 4a of the 11.07.2024 ordinance (item 0). Date 2026-10 and the 'read on 21 October 2026' wording are right for an undated page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Opened the VEP page. 'Am 06.06.2024 wurde der Verkehrsentwicklungsplan in der Sitzung der Stadtverordnetenversammlung beschlossen.' Strategy to target year 2035, for all modes (Fuss, Rad, Bus, Strassenbahn und Eisenbahn, Pkw-Verkehr, Wirtschaftsverkehr). The page links 'VEP_Endbericht_Massnahmen und Handlungskonzept' (11.2 MB), whose title page reads 'Dortmund, im Februar 2024', and a Handlungskonzept PDF. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Opened the final report PDF (158 pages; title page 'Dortmund, im Februar 2024'). Measure D3.1 (pp. 86-88): 'ueber 7.000 Stellplaetzen', 'gerade einmal ungefaehr zur Haelfte belegt' in the peak hour, 'es gibt allerdings ein Verteilungsproblem'; recommends comprehensive parking management, raising on-street fees 'wie bereits Mitte 2022 angegangen' so on-street is dearer than collective facilities, further development of the Parkleitsystem, needs-based extension of resident parking, and medium to long term on-street spaces essentially only for delivery, disabled parking, car sharing, taxis, drop-off and in parts residents. All as drafted. (The figure is restated from the baseline analysis, which is fine.)",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Same final report, section on Park&Ride (pp. 101-102): P+R should be set up primarily at SPNV stops in the surrounding area; per the RMV P+R plan, creating a basic P+R offer is to be checked at the stations Giessen-Licher Strasse and Giessen-Erdkauter Weg, and also for the Philosophenhoehe site; an effective P+R at the Giessener Ring requires ('zwingend') city-wide parking management with clearly higher fees, the largest possible removal of near-destination on-street spaces and possibly capacity limits. 'Fewer on-street spaces' is a mild paraphrase of 'weitestgehender Wegfall'. Worded as recommendation, correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Opened the baseline report PDF (128 pages; 'Dortmund, im November 2021'). Pp. 75-80: 'ueber 6.500 Parkplaetze in Parkhaeusern, Tiefgaragen oder bewirtschafteten Parkplaetzen' in the centre and nearby; 'eine Stunde Parken zwischen 0,50 EUR und 2 EUR'; garages on the Parkleitsystem examined in June 2020 for a normal weekday; maximum utilisation 50 percent between 12 and 13 h, over 1,700 free spaces; Selterstor 88 percent, Dern Passage 71 percent; conclusion 'kein Parkplatzmangel, sondern eher ein Verteilungsproblem'. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Same baseline report, p. 74-75: dynamic Parkleitsystem 'vor ueber 15 Jahren in Betrieb genommen und zuletzt hinsichtlich der Darstellung/Lesbarkeit und der Wegefuehrung als veraltet kritisiert'; in 2020 the Johannesstrasse car parks were integrated using individual detection and overhead sensors, two LED boards on both sides of the Suedanlage; use of the technology 'soll fuer weitere Parkbereiche geprueft werden'. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Re-read the live page on 21 October 2026: 'Stoerung des Parkleitsystem - Momentan koennen nicht alle Parkhaeuser angezeigt werden.' Five garages with Gesamt values: Dern-Passage 199, Karstadt 380, Rathaus 170, Selters Tor 80, Am Bahnhof 231; the list further down gives Karstadt 860, Rathaus 250, Selters Tor 153, Am Bahnhof 247, Dern Passage 199; no explanation of the difference. All numbers match. The only mismatch is the time: the page's update stamp read 09:14 when I read it, so '09:10' cannot be confirmed (live display, refreshed every few minutes). Low-value snapshot but correctly kept at medium.",
+   "corrected_text": "On 21 October 2026, in the morning (the page's update stamp read 09:14 when it was re-read), the city's live occupancy display carried a notice that a Parkleitsystem fault meant not all garages could be shown. It listed five garages with totals below the capacities given further down the same page: Karstadt 380 (860 listed), Rathaus 170 (250), Selters Tor 80 (153), Am Bahnhof 231 (247), Dern-Passage 199 (199); the page does not explain the difference.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Opened jura.cc (law firm of Dr. Usebach, Koeln; 30 Aug 2023), which summarises Hess. VGH press release 16/2023 of 30.08.2023. Confirmed: Beschluss of 29 Aug 2023, 2 B 987/23, city's Beschwerde rejected; the city plans extensive changes on the Anlagenring, in particular a two-lane bicycle street; three traffic orders (Braugasse, Landgrafenstrasse, Senckenbergstrasse) of the first construction phase; two residents had won an Eilantrag at the Verwaltungsgericht Giessen; the court also points to the high traffic importance of the ring for car traffic and low cycling use. Wrong/too strong: 'no proven danger' - the court said the city had not 'plausibel dargelegt' the required danger or the special circumstances. The blog headline ('Rechtswidrigkeit ... bestaetigt') overstates an interim-relief decision; the draft text is more careful, but the summary's 'blocked' should be 'upheld an interim order against three first-phase orders'. Medium confidence is right (secondary source; court press release itself not opened by me).",
+   "corrected_text": "On 29 August 2023 the Hessian administrative court of appeal (VGH, case 2 B 987/23) rejected the city's complaint against an urgent-application decision of the Gießen administrative court, which had gone in favour of two residents against three traffic orders (Braugasse, Landgrafenstraße, Senckenbergstraße) issued for the first phase of the city's Anlagenring traffic experiment; the experiment planned, among other changes, a two-lane bicycle street around the inner city. The court found that the city had not plausibly shown the danger to road safety or the special circumstances that such an experiment requires, and it noted the ring's high importance for car traffic against its currently low use by cyclists. This account is a law firm's summary (jura.cc, 30 August 2023) of the court's press release.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Opened the city's Umgestaltung Anlagenring page (undated; other sections carry 2024 dates, e.g. 29.10.2024). Section 'Selterstor (abgeschlossen)': the section between Goethestrasse and the Elefantenklo is optimised 'bis Mitte November', to be finished 'bis November 2024'; the 'kurzfristig eingerichtete Linksabbiegemoeglichkeit' from the outer ring into the Selterstor garage lapses for traffic from Frankfurter Strasse and Bleichstrasse, who reach the garage again via a U-turn at the Johanneskirche; access from Berliner Platz unchanged; access to all garages stays. Text is written in the planned tense and the section is marked completed, which the draft states. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Opened the city's 'Parken in Giessen' page (live page, copyright 2026). Rathaus 250 spaces, 1.00 euro per started hour, daily maximum 5.00; Am Kino 387 spaces, 1.00 per hour; Karstadt 860, 1.50 per started hour, maximum 15.00; Parkhaus Bahnhof 247, 1.70 per started hour, day tariff 6.00; Neustaedter 1060, 1.70 per hour, daily maximum 17.00; Selters Tor 153, 2.00 per started hour (daytime), maximum 10.00. Every listed garage is below 3.00 (others: Dern Passage 1.00 first hour then 1.50, Liebig-Center 1.50 then 1.30), so the closing sentence holds against the 3.00 from item 0. Not claimed as exhaustive. (Page also lists Brandplatz and Johannesstrasse surface lots at 3.00 per hour.)",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Downloaded the DB BahnPark sheet (4 pages, 'Letzte Aenderung am 12.10.26'). Operator Contipark Parkgaragengesellschaft mbH for Parkhaus am Bahnhof (247 spaces) and Lahnstrasse P1 (451), P2 (420), P3 (65); Parkhaus am Bahnhof: 1 hour 2.00, 1 day 7.50 (6.00 with Pcard), Pflegetarif for staff of local hospitals 44.00 per month; the city's list shows 1.70 and 6.00. Not on the sheet: the label 'P+R' (the sheet only says Lahnstrasse P1/P2/P3; 'P+R' is the city's label). The 2.00 vs 1.70 discrepancy is recorded correctly in both items; the city page is undated, the DB sheet is dated.",
+   "corrected_text": "DB BahnPark's Gießen sheet (last changed 12 October 2026) lists Contipark as operator of the Parkhaus am Bahnhof (247 spaces) and of the Lahnstraße P1 and P2 decks and the P3 lot (451, 420 and 65 spaces). It shows 2.00 euros an hour and 7.50 euros a day (6.00 with a Pcard) at Parkhaus am Bahnhof, against 1.70 and 6.00 on the city's list, and a 44 euro monthly rate for hospital staff.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Opened the APCOA page for Neustaedter (undated, read 21 Oct 2026). Description text: 1,060 spaces on three levels, ticketless parking by licence-plate recognition with the FLOW app; Neustadt 28; 1.70 euros per hour, daily maximum 17.00. But the structured field 'Gesamtplaetze' on the same page says 1030, and the page calls the neighbour 'Einkaufs- und Erlebniszentrum Neustaedter', not 'Neustadt-Center'. The city's list says 1060. Draft states 1,060 without the conflict and uses a name the page does not use.",
+   "corrected_text": "APCOA's page for Parkhaus Neustädter (Neustadt 28), read on 21 October 2026, describes 1,060 spaces on three levels at the Neustädter shopping and leisure centre, although its own equipment field lists 1,030 spaces in total; the city's list also gives 1,060. APCOA shows 1.70 euros per started hour with a daily maximum of 17.00 euros and offers ticketless parking by licence-plate recognition in its FLOW app.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Opened the city notice PDF (3 pages). Confirmed: Magistrat invites interested companies to apply for special-use permits for e-charging points on public parking spaces; fees 0.50 euro per started kW per charge point and month up to 22 kW, 0.25 above 22 kW; 500 euros one-off for signage/marking and 150 euros processing per point; term up to 120 months; at most 15 sites (each up to 4 spaces); 'Richtlinie E-Ladesaeulen vom 1.9.2025' applies. Wrong/too strong: it is a city (Magistrat) guideline, the page does not call it a council guideline; and 17 November 2025, 12:00 is not a deadline to apply - applications can be made at any time, the date only fixes which applications count as simultaneous (lottery for competing sites). The notice itself carries no date (the 2025-09 date is the guideline date).",
+   "corrected_text": "A city notice invites interested companies to apply for special-use permits to put charging points on public parking spaces, under the city's e-charging guideline (Richtlinie E-Ladesäulen) dated 1 September 2025. Applications can be made at any time; those received by 12:00 on 17 November 2025 are treated as received simultaneously, with a lottery for competing sites. The notice sets a fee of 0.50 euros per started kW per charge point per month up to 22 kW (0.25 above), a one-off 500 euros for signage and marking and 150 euros processing per point, a term of up to 120 months, and at most 15 sites per applicant. The notice itself is undated.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Opened the city's Rathaus garage page (copyright 2026, undated). 250 spaces, 1.00 euro per started hour, daily maximum 5.00; night surcharge 'zuzueglich max. 2.00 EUR' 18:30-05:00; maximum entry height 1.90 m; 4 wallboxes AC type 2 (22 kW) in the first basement level, operated by Stadtwerke Giessen; unlocking needs an RFID card, and the SWG E-Tanken app gives access to SWG chargers. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "City garage list: 'Parkhaus/Tiefgarage Sparkasse - Aufgrund von Bauarbeiten ab dem 1. August 2026 geschlossen', Johannesstrasse 5; no reopening date given. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Gießen's city centre and its immediate surroundings have over 6,500 spaces in garages, underground car parks and managed lots according to the 2021 baseline report for the city's transport development plan (VEP), which also found garage prices of 0.50 to 2 euros an hour, and the final VEP report (February 2024, adopted by the council on 6 June 2024) counts over 7,000 inner-city spaces, only about half occupied in the peak hour. Both describe a distribution problem rather than a shortage: in a June 2020 weekday analysis, garages on the Parkleitsystem peaked at 50 percent occupancy while Selterstor reached 88 percent. The final VEP report recommends making on-street parking dearer than garage parking, and the city's parking fee ordinance of 11 July 2024 sets 3.00 euros an hour in Zone I (inside the Anlagenring and around the station), above the 1.00 to 2.00 euros an hour shown for the garages on the city's current list; a resident permit costs 120 euros a year in six zones. Contipark operates the DB BahnPark garages at the station (2.00 euros an hour on the DB sheet against 1.70 on the city's list), APCOA operates Neustädter (1,060 spaces by its own text, 1,030 in its data field), and the city's list shows the Sparkasse garage closed from 1 August 2026 and, on 21 October 2026, a Parkleitsystem fault. In 2025 the city invited operators to apply for permits to put charging points on public parking spaces (the outcome was not found), and in August 2023 the Hessian administrative court of appeal rejected the city's complaint against an interim order that had stopped three first-phase traffic orders of its Anlagenring traffic experiment (known only from a law firm's summary of the court's press release)."
+}

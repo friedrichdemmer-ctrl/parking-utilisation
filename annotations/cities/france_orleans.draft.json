@@ -1,0 +1,163 @@
+{
+  "country": "France",
+  "city": "Orléans",
+  "researched": "2026-10-21",
+  "summary": "Orléans Métropole owns its multi-storey car parks and sets their prices, while the city of Orléans controls on-street parking. Both are run mainly by Orléans Gestion, a public local company that holds a 10-year concession for 11 car parks to the end of 2032. Indigo runs the Martroi car park, and the open-data feed lists Effia as operator of the 12 tram park-and-rides. Prices were raised by about 2% on average on 1 July 2025 and the operator's on-street price page is headed 1 July 2026. The 25-euro post-parking charge applies since January 2024, and a day in a car park is capped at 10 euros. The mayor opposed a low-emission zone in March 2024. Recent works include the Halles Charpenterie renovation, flagged as closed in the open-data feed on 21 October 2026, and a place Mozart car park extension planned for spring 2027. A real-time availability feed refreshed every 5 minutes is published openly.",
+  "items": [
+    {
+      "topic": "operators",
+      "date": "2026-10-12",
+      "text": "Orléans Métropole reported on 12 October 2026 that demolition of part of the Marie-Stuart shopping centre began in mid-October so the place Mozart car park can be extended, with 12 extra parking spaces planned. Works are scheduled to finish in spring 2027.",
+      "source_title": "Une nouvelle partition s'écrit place Mozart",
+      "source_url": "https://www.orleans-metropole.fr/actualites/detail/une-nouvelle-partition-secrit-place-mozart",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-10",
+      "text": "Orléans Gestion's company page lists renovation and embellishment works at the Halles Charpenterie car park in summer 2026. The open-data feed read on 21 October 2026 still flags that car park as 'fermé pour travaux' (closed for works). Page read on 21 October 2026.",
+      "source_title": "Orléans Gestion - Stationnement Orléans",
+      "source_url": "https://www.stationnement-orleans.fr/orleans-gestion/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-10",
+      "text": "Orléans Gestion, a public local company (SPL) since 25 November 2022 owned 52.15% by the Métropole and 47.85% by the city, runs 12 car parks in Orléans and Fleury-les-Aubrais with 5,766 spaces. It also runs on-street paid parking (170 pay machines, about 3,000 paid spaces) and the pedestrian-zone access system. Page read on 21 October 2026.",
+      "source_title": "Orléans Gestion - Stationnement Orléans",
+      "source_url": "https://www.stationnement-orleans.fr/orleans-gestion/",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2025-04-03",
+      "text": "According to the metropolitan council minutes of 3 April 2025, Orléans Gestion has run 11 public car parks since 1 January 2023 under a 10-year concession ending 31 December 2032. Médiathèque and Cheval Rouge have separate contracts ending in 2032 and 2043, and the Martroi car park is conceded to Indigo Infra until 2033.",
+      "source_title": "Orléans Métropole, procès-verbal du conseil métropolitain du 3 avril 2025",
+      "source_url": "https://www.orleans-metropole.fr/fileadmin/orleans-metropole/MEDIA/document/metropole/conseil_communaute/proces_verbaux/2025/Proces_verbal_du_3_avril_2025.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2025-04-03",
+      "text": "On 3 April 2025 the metropolitan council unanimously approved a weighted average rise of 2% in multi-storey car park prices from 1 July 2025 (contract indexation alone would have given about 8%). The first two quarter-hours rose by 0.10 euro to 0.70 euro in group 1 and 2bis car parks, and the rapporteur said 2024 revenue was 7.9 million euros (70% hourly, 30% subscriptions).",
+      "source_title": "Orléans Métropole, procès-verbal du conseil métropolitain du 3 avril 2025",
+      "source_url": "https://www.orleans-metropole.fr/fileadmin/orleans-metropole/MEDIA/document/metropole/conseil_communaute/proces_verbaux/2025/Proces_verbal_du_3_avril_2025.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2025-05-19",
+      "text": "On 19 May 2025 the city council unanimously approved on-street changes from 1 July 2025: about 2% on average, with 0.50 euro per quarter-hour up to 1h45 and 0.60 euro after, and resident permits from 21 to 22 euros a month. The 25-euro post-parking charge and the 8-euro shopping rate stayed, and the free 1h30 for electric cars ended.",
+      "source_title": "Ville d'Orléans, procès-verbal du conseil municipal du 19 mai 2025",
+      "source_url": "https://www.orleans.fr/fileadmin/orleans/MEDIA/document/mairie_citoyen/conseil_municipal/proces_verbaux/2025/proces_verbal_2025_05_19.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-07",
+      "text": "The operator's pay-machine tariff page is headed 'tarif horaire au 1er juillet 2026'. It shows 0.50 euro per 15 minutes up to 1h30, then 0.60 and 0.70 euro in longer-stay zones, paid 9-12h and 14-18h, with 15 minutes free once a day in the orange zone (2h maximum; 4h in green and boulevard zones). The 8-euro daily shopping rate runs 9-18h Monday to Saturday. Page read on 21 October 2026.",
+      "source_title": "Tarif aux horodateurs - Stationnement Orléans",
+      "source_url": "https://www.stationnement-orleans.fr/stationnement-sur-la-voirie/tarifs-aux-horodateurs/",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-10",
+      "text": "The operator's price list shows 0.70 euro for each of the first two quarter-hours at Cathédrale, Cheval Rouge, Danton, Hôtel de Ville, both Halles car parks and Münster, and 0.60 euro at Carmes, Médiathèque, Patinoire and Saint-Paul, with a 10-euro day rate. Gare des Aubrais costs 0.20 euro per quarter-hour up to 5h15; the weekly pass is 38-41 euros. Page read on 21 October 2026.",
+      "source_title": "Tarif horaire - Stationnement Orléans",
+      "source_url": "https://www.stationnement-orleans.fr/stationnement-dans-les-parkings/tarif-horaire/",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2024-01-05",
+      "text": "Announced on 5 January 2024: from 12 February 2024 the free first 30 minutes in Orléans Gestion's car parks end (except Münster and Aubrais) and the day rate is capped at 10 euros instead of 18.80. The on-street post-parking charge (FPS) rose from 17 to 25 euros on 1 January 2024.",
+      "source_title": "2024 : ce qui change dans la métropole",
+      "source_url": "https://www.orleans.fr/actualites/detail/2024-ce-qui-change-dans-la-metropole",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-10",
+      "text": "Indigo's page for the Martroi car park (2 rue Bannier) shows it open 24/7 with plate-recognition entry, a 1.9 m height limit and a charge point. Its indicative price for an entry at 7:20 on 21 October 2026 was 0.60 euro for 15 minutes and 2.60 euros for one hour.",
+      "source_title": "Parking Le Martroi à Orléans - INDIGO Neo",
+      "source_url": "https://www.indigoneo.fr/fr/parkings/20965/parking-le-martroi",
+      "confidence": "medium"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-10",
+      "text": "Orléans Métropole publishes a parking dataset on data.gouv.fr covering car parks and bus and tram park-and-rides, in the national parking schema. Free-space counts for sites with access control are updated every 5 minutes. Page read on 21 October 2026.",
+      "source_title": "Parcs de stationnement - Orléans Métropole (data.gouv.fr dataset record)",
+      "source_url": "https://www.data.gouv.fr/api/1/datasets/parcs-de-stationnement-orleans-metropole/",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-10",
+      "text": "The open-data export read on 21 October 2026 lists 31 sites, 23 with live availability: 12 Orléans Gestion car parks (4,950 spaces), 12 tram park-and-rides run by Effia (1,838 spaces) and 4 free bus park-and-rides (38 spaces). It also lists Indigo's Martroi (288), a Place d'Arc car park under manager 'Carrefour' (678) and Gare des Aubrais enclos under Effia (600).",
+      "source_title": "om-mobilite-parcs-stationnement (JSON export, data.orleans-metropole.fr)",
+      "source_url": "https://data.orleans-metropole.fr/api/explore/v2.1/catalog/datasets/om-mobilite-parcs-stationnement/exports/json",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-09-03",
+      "text": "Under the national LOM law, 565 parking spaces within 5 metres before pedestrian crossings must be removed across the metropolis by 31 December 2026, 268 of them in Orléans. Works began in June 2026.",
+      "source_title": "Places de stationnement supprimées, sécurité des piétons accentuée",
+      "source_url": "https://www.orleans-metropole.fr/actualites/detail/places-de-stationnement-supprimees-visibilite-et-securite-des-pietons-accentuees",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-04-03",
+      "text": "The city of Orléans planned to add paid on-street parking on the avenue de Paris side lane (about 30 spaces, 2h maximum) and rue des Sansonnières (about 70 spaces, 4h maximum), both near Orléans station. The metropolitan council unanimously gave a favourable opinion on the principle on 3 April 2025.",
+      "source_title": "Orléans Métropole, procès-verbal du conseil métropolitain du 3 avril 2025",
+      "source_url": "https://www.orleans-metropole.fr/fileadmin/orleans-metropole/MEDIA/document/metropole/conseil_communaute/proces_verbaux/2025/Proces_verbal_du_3_avril_2025.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2024-03-27",
+      "text": "In a press release of 27 March 2024, the mayor of Orléans, Serge Grouard, reaffirmed his opposition to low-emission zones and said Orléans and its metropolis would not have one. This is a 2024 position; the page does not show the current legal position.",
+      "source_title": "ZFE : le maire d'Orléans réaffirme son opposition (communiqué de presse)",
+      "source_url": "https://dev.orleans.fr/fileadmin/orleans/MEDIA/presse/CP_-_Reaction_Serge_Grouard_ZFE.pdf",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-10",
+      "text": "The Métropole says it wants to cut solo car driving and favours long stays in car parks and short stays on the street. On-street stays are limited to 2h in the orange zone and 4h in the green and violet zones, and the post-parking charge is 25 euros. Page read on 21 October 2026.",
+      "source_title": "Stationnement - Métropole d'Orléans",
+      "source_url": "https://www.orleans-metropole.fr/actions-et-services/mobilite-et-deplacements/stationnement",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2024-01",
+      "text": "The Métropole's own charge points moved on 8 January 2024 from two free hours to 0.50 euro/kWh from the first minute, with a flat fee against long stays raised from 17 to 25 euros including tax.",
+      "source_title": "2024 : ce qui change dans la métropole",
+      "source_url": "https://www.orleans.fr/actualites/detail/2024-ce-qui-change-dans-la-metropole",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-10",
+      "text": "The Métropole's 'Chiffres clés de la mobilité 2024' (2023 data) counts 3,505 regulated paid on-street spaces in central Orléans and 6,700 spaces in 16 closed car parks. It puts Loire crossings at 95,000 vehicles a day in 2023, 12% below 2018, and counts 287 charge points in the metropolis. Read on 21 October 2026.",
+      "source_title": "Les chiffres clés de la mobilité dans la métropole orléanaise (2024)",
+      "source_url": "https://www.orleans-metropole.fr/fileadmin/orleans-metropole/MEDIA/document/deplacement/Chiffres_cles_Mobilite_2024.pdf",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "No source found on a Loire-bank (quais / bords de Loire) or centre-ville traffic plan beyond the pedestrian-zone access rules; no dated page on the tram or bus network changes affecting parking was opened.",
+    "WebSearch budget ran out partway; La République du Centre, actu.fr, France Bleu / ICI Orléans and Le Journal de Gien were not searched or opened, so no press source is cited.",
+    "Whether Orléans has a low-emission zone today (national ZFE rules 2025-2026) was not confirmed; only the mayor's March 2024 opposition was read. The outcome of the March 2026 municipal elections and any new parking policy were not sourced.",
+    "Exact duration and reopening date of the Halles Charpenterie works could not be found; the Orléans Gestion page gives only 'summer 2026' and the open-data feed shows 'fermé pour travaux' on 21 October 2026.",
+    "Inconsistency not resolved: the open-data feed lists Gare des Aubrais enclos (600 spaces) under Effia, whereas the April 2025 council minutes and Orléans Gestion's page list it among Orléans Gestion's car parks. The feed's 'Patrimoine' car park (434 spaces, place du Baron) and Place d'Arc (manager 'Carrefour') are not described on any official page read; Danton is not in the feed.",
+    "The July 2026 on-street tariff page differs from the May 2025 council grid (longer-stay steps at 0.60 and 0.70 euro). No council decision for the 2026 change was found, and no July 2026 multi-storey tariff decision was found.",
+    "The park-and-ride attendance chart in the 2024 key-figures PDF extracted as scrambled numbers, so no park-and-ride usage figures are cited; no car park occupancy statistics or Effia contract documents were found.",
+    "Orléans Métropole's 'Chiffres clés' page counts 41 bus lines (2023 data) while its mobility FAQ says 26 bus lines; neither is cited. A 2025 Orléans Métropole PDU/mobility mid-term review (bilan à mi-parcours) was not found.",
+    "Browser pane tabs could not be created (tab cap), so pages were read as raw text via curl and pypdf (HTML stripped to text) instead of the browser tools. Dates marked 2026-10 were read on 21 October 2026. Third-party sites (Yespark, Zenpark, Parclick, parking.ai) were not used."
+  ]
+}

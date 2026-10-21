@@ -1,0 +1,202 @@
+{
+ "country": "France",
+ "city": "Clermont-Ferrand",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Clermont-Ferrand and its metropolis (Clermont Auvergne Métropole, 21 communes) have been reshaping the city-centre road network around the new Inspire transit network, with tram-bus lines B and C due to start on 20 December 2025; the Métropole says the new network has been in service since the end of 2025. In October 2025 a limited-traffic zone along the central east-west axis, including place de Jaude, was reported as opening to buses, residents, permit holders, emergency vehicles and cyclists only; whether it is still in force in October 2026 is not confirmed. Under the new mayor Julien Bony, the city says it has reopened avenues Raymond-Bergougnan, Carnot (between the two squares) and de la Libération to cars, and the mayor decided to reopen rue de l'Oradou in both directions from 21 August 2026, apart from a bus-only section. Since 1 July 2026 the first 30 minutes of on-street parking are free through the PayByPhone app, which replaced PrestoPark on that date. On 8 October 2026 the city announced that the entry and exit of the Vercingétorix car park on place de Jaude would be flipped back after a closure from 12 October, with reopening planned for 31 October 2026; the city says hourly entries fell by as much as 53% after the 2025 reversal. The Métropole's park-and-ride offer has grown from 1,400 places on five sites in 2023 to about 3,300 on 29 sites, currently free, with new sites at Durtol (December 2025), Le Brézet (February 2026) and La Pardieu Cristal (April 2026). The Métropole lists eight city-centre car parks, with capacities adding up to about 2,400 spaces, all run by SAGS, and its open-data portal carries a real-time occupancy feed for barrier car parks with SAGS, Indigo and Effia named as publisher. The low-emission zone covers all 21 communes but bars only unclassified professional goods vehicles; private cars and motorbikes only need a Crit'Air sticker.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2026-07-01",
+   "text": "Since 1 July 2026 the first 30 minutes of on-street parking are free in every paid zone, once per day per vehicle, if the driver pays through the PayByPhone app. At the city's 530 pay machines a minimum payment of 0.50 euros is still needed to get the free half hour.",
+   "source_title": "Les 30 premières minutes de stationnement sont désormais gratuites (Ville de Clermont-Ferrand)",
+   "source_url": "https://clermont-ferrand.fr/stationnement-30-minutes-gratuites-paybyphone",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-07-01",
+   "text": "PayByPhone replaced PrestoPark as the city's on-street parking app on 1 July 2026, after a tender in 2026 in which two candidates bid. The city keeps paying the app fees, so drivers pay only the parking charge, and existing resident subscriptions stay valid.",
+   "source_title": "Stationnement : PayByPhone a remplacé PrestoPark (Ville de Clermont-Ferrand)",
+   "source_url": "https://clermont-ferrand.fr/stationnement-paybyphone-remplace-prestopark",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The city's on-street price grid (page read on 21 October 2026) is 1.60 euros per hour in the violet zone, 1.20 in orange, 0.90 in green, and 0.50 for the first hour then 0.10 per hour in azure. The post-parking charge (FPS) is 30 euros, in force since 1 January 2023, and is set equal to the price of the maximum stay (for example 2h40 in the violet zone).",
+   "source_title": "Stationnement payant en voirie (Ville de Clermont-Ferrand)",
+   "source_url": "https://clermont-ferrand.fr/stationnement-payant-en-voirie",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-01",
+   "text": "From 1 January 2024 residents of the paid zone get an annual resident subscription (one per household, tied to the licence plate) that gives unlimited on-street parking in their own zone. It replaced the smart card and the 0.50 euro daily resident rate, which was scrapped. The page was read on 21 October 2026.",
+   "source_title": "Stationnement des résidents (Ville de Clermont-Ferrand)",
+   "source_url": "https://clermont-ferrand.fr/stationnement-des-residents",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-08-21",
+   "text": "The city says the avenues Raymond-Bergougnan, Carnot (between the two squares) and de la Libération have been reopened to car traffic, and that two-way traffic was restored on some portions of rue de l'Oradou from June 2026. After residents were consulted on 1 and 2 July, mayor Julien Bony decided to reopen rue de l'Oradou to cars in both directions from 21 August 2026. The section between boulevard Fleury and rue de la Pradelle stays reserved for buses. The page was written before that date, so the 21 August reopening is as announced.",
+   "source_title": "Phase 2 : Réouverture à la circulation de la rue de l'Oradou (Ville de Clermont-Ferrand)",
+   "source_url": "https://clermont-ferrand.fr/phase-2-reouverture-la-circulation-de-la-rue-de-loradou-0",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-10-04",
+   "text": "A report published on 4 October 2025 said the central east-west axis (avenue Carnot, Maréchal-Joffre, Ballainvilliers, boulevard Desaix, place de Jaude, rue Blatin) would reopen on 6 October 2025 as a limited-traffic zone. It would be open to buses, residents, permit holders, emergency vehicles and cyclists, with no through car traffic, ahead of the tram-bus lines B and C starting on 20 December.",
+   "source_title": "L'axe central clermontois rouvre à la circulation ce lundi pour devenir une zone à trafic limité (ICI Pays d'Auvergne)",
+   "source_url": "https://www.francebleu.fr/infos/transports/l-axe-central-clermontois-rouvre-a-la-circulation-ce-lundi-pour-devenir-une-zone-a-trafic-limite-1977270",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-07-03",
+   "text": "On 3 July 2025 the Métropole announced that the Vercingétorix car park (place de Jaude) would close fully from 15 July to 1 August 2025. From 1 August its entrance would be on rue Lamartine and its exit on boulevard Desaix, inside the new limited-traffic zone, where the exit ticket would serve as the pass.",
+   "source_title": "Parking Vercingétorix : inversion des entrées et sorties (Clermont Auvergne Métropole)",
+   "source_url": "https://www.clermontmetropole.eu/no-cache/actualites-et-agendas/toute-lactualite/detail/actualites/parking-vercingetorix-inversion-des-entrees-et-sorties/",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10-08",
+   "text": "On 8 October 2026 ICI quoted a city statement that hourly entries at the Vercingétorix car park had a series of record falls from September 2025, down to as much as 53%, which the city blamed on the August 2025 reversal of entry and exit. The city announced that entry would again be in front of the opera and exit on rue Lamartine. The car park closes for three weeks of works from 12 October, with reopening planned for Saturday 31 October 2026.",
+   "source_title": "Clermont-Ferrand : le sens d'accès au parking Vercingétorix va de nouveau s'inverser (ICI Pays d'Auvergne)",
+   "source_url": "https://www.ici.fr/auvergne-rhone-alpes/puy-de-dome-63/clermont-ferrand/clermont-ferrand-le-sens-d-acces-au-parking-vercingetorix-va-a-nouveau-s-inverser-6132997",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-01-30",
+   "text": "On 30 January 2026 the Métropole announced that the Le Brézet park-and-ride would open on 2 February 2026. It has 286 car spaces on four levels, is free to use, and sits 17 minutes from the centre on tram-bus line B, with 18 spaces to be fitted with electric charge points during 2026.",
+   "source_title": "Mise en service du parking-relais du Brézet (Clermont Auvergne Métropole)",
+   "source_url": "https://www.clermontmetropole.eu/no-cache/actualites-et-agendas/toute-lactualite/detail/actualites/mise-en-service-du-parking-relais-du-brezet/",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-04-15",
+   "text": "The La Pardieu Cristal park-and-ride opened on 15 April 2026 with 194 car spaces on four levels, after Durtol and Le Brézet. The Métropole says it takes about 20 minutes to place de Jaude on tram-bus line C, and park-and-ride capacity has grown from 1,400 places on five sites in 2023 to 3,300 on 29 sites.",
+   "source_title": "Un nouveau parking-relais mis en service à La Pardieu, à Clermont-Ferrand (ICI Pays d'Auvergne)",
+   "source_url": "https://www.ici.fr/auvergne-rhone-alpes/puy-de-dome-63/clermont-ferrand/un-nouveau-parking-relais-mis-en-service-a-la-pardieu-a-clermont-ferrand-7358189",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The Métropole's parking page (read on 21 October 2026) says the park-and-ride sites, about 3,300 places on 29 sites, are currently free. Until early 2027 the exit barriers lift without a transport ticket being shown.",
+   "source_title": "Stationnement (Clermont Auvergne Métropole)",
+   "source_url": "https://www.clermontmetropole.eu/habiter-se-deplacer/deplacement-et-mobilite/en-voiture/stationnement/",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The Métropole's parking page (read on 21 October 2026, undated) lists eight city-centre car parks run by SAGS. The listed capacities add up to about 2,400 spaces; the largest are Gambetta (484 places) and Blaise Pascal (470), and Vercingétorix is listed at 286.",
+   "source_title": "Stationnement (Clermont Auvergne Métropole)",
+   "source_url": "https://www.clermontmetropole.eu/habiter-se-deplacer/deplacement-et-mobilite/en-voiture/stationnement/",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "At the SAGS-run Blaise Pascal car park (page read on 21 October 2026, undated) a daytime stay costs 1.00 euro for 15 minutes, 1.50 for one hour and 7.00 for five hours. A 24-hour ticket is 14.70 euros, and a 24/7 subscription is 88.40 euros a month or 1,060.80 a year.",
+   "source_title": "Parking Blaise Pascal, Clermont-Ferrand (SAGS)",
+   "source_url": "https://www.sags.fr/parking-clermont-ferrand/clermont-ferrand-blaise-pascal.html",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10-21",
+   "text": "The Métropole's open-data portal publishes a real-time occupancy feed for barrier car parks, updated about every minute under the Licence Ouverte 2.0, credited to SAGS, Indigo and Effia. On 21 October 2026 it listed 13 entries; the two Henri Dunant park-and-ride entries were marked invalid, with a last reading dated 6 April 2025.",
+   "source_title": "Occupation des Parcs de Stationnement Métropolitains (Open Data Clermont Auvergne Métropole)",
+   "source_url": "https://opendata.clermontmetropole.eu/explore/assets/occupation_parcs_stationnement_metropolitains/",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The Métropole's air-quality page (read on 21 October 2026) says the low-emission zone has barred unclassified professional goods vehicles from driving and parking since 1 July 2023, and now covers all 21 communes. Private cars and motorbikes are excluded and only need a Crit'Air sticker.",
+   "source_title": "Qualité de l'air (Clermont Auvergne Métropole)",
+   "source_url": "https://www.clermontmetropole.eu/preserver-recycler/transition-ecologique/qualite-de-lair/",
+   "confidence": "high",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-10-02",
+   "text": "In October 2024 the Métropole planned to extend the low-emission zone to all 21 communes from 1 January 2025, after a consultation from 7 to 28 October. It estimated that 876 light vans (3% of that fleet) and 283 lorries (8%) would be affected, with fines of 35 and 135 euros and a 3,000 euro aid for cleaner vehicles.",
+   "source_title": "La Zone à Faibles Emissions étendue à la Métropole de Clermont mais pour un tout petit nombre de véhicules (ICI Pays d'Auvergne)",
+   "source_url": "https://www.francebleu.fr/infos/transports/la-zone-a-faibles-emissions-etendue-a-la-metropole-de-clermont-mais-pour-un-tout-petit-nombre-de-vehicules-9789959",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2022-09-19",
+   "text": "On 19 September 2022 the Métropole and city inaugurated public charge points run by the county energy body TE63: 36 points across the metropolis (34 normal, 2 fast), 11 of them in Clermont-Ferrand, due to be operating by the end of 2022. Normal charging cost 0.06 euros per minute for subscribers (12 euros a year) and 0.09 for others.",
+   "source_title": "Inauguration des bornes de recharge pour véhicules électriques à Clermont-Ferrand (Clermont Auvergne Métropole)",
+   "source_url": "https://www.clermontmetropole.eu/no-cache/actualites-et-agendas/toute-lactualite/detail/actualites/inauguration-des-bornes-de-recharge-pour-vehicules-electriques-a-clermont-ferrand/",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-07-06",
+   "text": "Parking at the Gabriel-Montpied hospital site became paid on 6 July 2026, after ten months of works, with 550 visitor spaces. ICI reports the first hour free for consultation visitors, then 1.50 euros and 0.50 euros per 15 minutes, with staff parking staying free.",
+   "source_title": "Nouveaux accès et parkings payants au CHU de Clermont-Ferrand, \"inadmissible\" pour les patients et les soignants (ICI Pays d'Auvergne)",
+   "source_url": "https://www.ici.fr/auvergne-rhone-alpes/puy-de-dome-63/clermont-ferrand/nouveaux-acces-et-parkings-payants-au-chu-de-clermont-ferrand-inadmissible-pour-les-patients-et-les-soignants-7780516",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "The browser pane tools could not be used (tab creation failed and navigation was denied), so pages were read as raw HTML text via curl in Bash rather than in the browser pane.",
+  "The WebSearch budget ran out partway through, and actu.fr and lamontagne.fr are not reachable by the search tool; no La Montagne or actu.fr article was opened.",
+  "ICI article of 5 October 2026 on the administrative court rejecting the Vélo-Cité 63 / FNAUT appeal against reopening rue de l'Oradou: seen only as a headline on another page, not opened, so not used.",
+  "Whether the limited-traffic zone around place de Jaude is still in force in October 2026 is not confirmed: the Métropole's ZTL page is undated and speaks in the future tense, and the October 2025 report predates the 2026 changes.",
+  "No delegation or concession contract, council deliberation or contract term for SAGS running the city-centre car parks was found. Which car parks Indigo and Effia run (they are credited in the open-data feed) and whether Q-Park operates any site in Clermont-Ferrand could not be established.",
+  "Tariffs for the other seven SAGS city-centre car parks were not recorded (the Gambetta page text was jumbled in extraction), and no 2026 change to car-park tariffs was found.",
+  "No official utilisation statistics beyond the city's own statement on Vercingétorix, and no information on EV charging inside the SAGS car parks or any 2025-2026 charge-point count.",
+  "No source found on parking projects at Gare, Saint-Pierre or Jaude beyond the existing car parks, nor on Chrono-type bus lines (the network is tram-bus lines B and C and tram line A).",
+  "https://clermont-ferrand.fr/stationnement returned 403 (access denied) to curl, https://politique.pappers.fr/commune/document/4f5894bec1cd522892cc816467aa22dc (council record) returned 403, and the SMTC PDU PDF https://www.smtc-clermont-agglo.fr/wp-content/uploads/2023/07/PDU-Point-Etapes-2022-Action2-5.pdf returned 404; none were used.",
+  "The Métropole parking page, the air-quality page and the ZTL page carry no publication date, so they are recorded as read on 21 October 2026; the ICI and city pages cited carry the dates given in the items."
+ ],
+ "dropped": {}
+}

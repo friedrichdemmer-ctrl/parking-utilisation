@@ -1,0 +1,163 @@
+{
+  "country": "France",
+  "city": "Brest",
+  "researched": "2026-10-21",
+  "summary": "Brest Métropole's own pages (updated in October 2026) describe a compact, mostly public parking system: about 4,000 paid on-street spaces and 3,400 paid car-park spaces in the centre, a two-zone on-street tariff (orange and green) with a 25 euro post-parking charge, and four park-and-ride sites that are free to Bibus ticket holders. The main new facility is the 215-space Glacis car park next to Place de la Liberté, inaugurated on 19 September 2026 and opened first to subscribers of the Saint-Louis car park, which is due to be demolished and rebuilt from 2027 to the first quarter of 2029. The surface of Place de la Liberté, which sits above an underground car park, was scheduled for resurfacing from April to the end of July 2026. City-centre car parks are managed under the Brest'Park and Brest en vue names, and a rollout of 15 on-street electric charging stations is under way (72 charge points planned by mid-2027). The open-data dataset lists capacities but no live occupancy, and no official occupancy or usage statistics were found.",
+  "items": [
+    {
+      "topic": "regulation",
+      "date": "2026-10-07",
+      "text": "Brest's official parking page (updated 7 October 2026) says on-street parking is paid 9:00-12:00 and 13:30-19:00 every day except Sunday and public holidays. The orange zone, closest to shops, allows up to 3h30 for 25 euros, and the green zone allows the whole day for 25 euros; non-payment or overstay brings a 25 euro post-parking charge (FPS).",
+      "source_title": "Se déplacer en voiture et stationner (Brest métropole)",
+      "source_url": "https://brest.fr/gerer-mon-quotidien/transports/se-deplacer-en-voiture-et-stationner",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-10-07",
+      "text": "The same page says a stay of under 30 minutes is free once a day per vehicle in the orange and green zones. In car parks, 'the 3rd hour is offered' when paying for two hours (2h=3h), and the city advises car parks for stays over two hours because they are cheaper.",
+      "source_title": "Se déplacer en voiture et stationner (Brest métropole)",
+      "source_url": "https://brest.fr/gerer-mon-quotidien/transports/se-deplacer-en-voiture-et-stationner",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-10",
+      "text": "The city's FAQ (undated; read on 21 October 2026) suggests staying 3 hours in the orange zone or 8 hours in the green zone for 4.50 euros, with maximum stays of 3h30 and 9 hours at 25 euros. It lists Kerfautras, the parc à chaînes and La Carène car parks as free, and puts the blue zone at 1 hour (2 hours at the commercial port).",
+      "source_title": "FAQ - Questions fréquemment posées (Brest métropole)",
+      "source_url": "https://brest.fr/faq-questions-frequemment-posees",
+      "confidence": "medium"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-10-07",
+      "text": "The city says 250 connected pay machines accept cards and allow remote extension, and the EasyPark and Flowbird apps let drivers pay by the minute. Free spaces in the main car parks are shown in real time on brest-park.fr and on illuminated signs near the centre and at car-park entrances.",
+      "source_title": "Se déplacer en voiture et stationner (Brest métropole)",
+      "source_url": "https://brest.fr/gerer-mon-quotidien/transports/se-deplacer-en-voiture-et-stationner",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-10-07",
+      "text": "The city counts about 1,000 free and 4,000 paid on-street spaces in the centre, plus 3,400 paid spaces in car parks. It lists covered car parks of Coat-ar-Guéven 720, Liberté 450, Jaurès 400 and Les Capucins 630 spaces, and closed surface car parks of Gares 105, Sangnier 78 and Château 81 (the open dataset gives 615 for Les Capucins).",
+      "source_title": "Se déplacer en voiture et stationner (Brest métropole)",
+      "source_url": "https://brest.fr/gerer-mon-quotidien/transports/se-deplacer-en-voiture-et-stationner",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-09-19",
+      "text": "The Glacis car park (rue Duquesne, five levels, 215 spaces, cost 7.3 million euros) was inaugurated on 19 September 2026 and opened on 16 September to subscribers of the Saint-Louis car park, with general public access announced as coming soon. It has 45 spaces with EV chargers, 8 for motorised two-wheelers, and secure bike parking for 44 bikes (June 2026 reports had announced 65).",
+      "source_title": "À Brest, le parking des Glacis est ouvert au centre-ville",
+      "source_url": "https://brest.fr/actualites/brest-le-parking-des-glacis-est-ouvert-au-centre-ville",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-04-27",
+      "text": "The city plans to demolish and rebuild the Saint-Louis underground car park, with clearing works starting in January 2027 and delivery planned for the first quarter of 2029 at about 18 million euros. Current subscribers are to use the Glacis car park meanwhile, and the rebuilt Halles Saint-Louis are due to open in October 2027.",
+      "source_title": "Le secteur Saint-Louis en pleine mutation",
+      "source_url": "https://brest.fr/actualites/le-secteur-saint-louis-en-pleine-mutation",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-04-10",
+      "text": "On 10 April 2026 the city announced that the granite paving of Place de la Liberté would be replaced by sanded asphalt from 13 April to the end of July 2026, partly to waterproof the underground car park below. No events were allowed on the square during the works.",
+      "source_title": "Lancement des travaux de la place de la Liberté",
+      "source_url": "https://brest.fr/actualites/lancement-des-travaux-de-la-place-de-la-liberte",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-06-24",
+      "text": "A secure bike car park was announced for level -1 of the Coat-ar-Guéven car park from 20 July 2026, with 200 standard-bike and 10 cargo-bike places, subscription only, costing 12 euros a month, 20 a quarter or 40 a year for standard bikes. The works cost 240,000 euros.",
+      "source_title": "Un nouveau parking vélos à Coat ar Gueven",
+      "source_url": "https://brest.fr/actualites/un-nouveau-parking-velos-coat-ar-gueven",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-07-15",
+      "text": "A free summer shuttle between the city centre (Liberté Morvan stop) and the commercial port started on 15 July 2026 as a trial to 28 August, and a new 200-space car park opened next to the Hangar à patates at the port. The city said it would assess the trial after the summer.",
+      "source_title": "Une navette entre le centre-ville et le port de commerce",
+      "source_url": "https://brest.fr/actualites/une-navette-entre-le-centre-ville-et-le-port-de-commerce",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-10-07",
+      "text": "The city lists four park-and-ride sites at the entrances to Brest: Porte de Gouesnou (195 places), Place de Strasbourg (233), Porte de Guipavas (80) and Fort Montbarey (174). They are for Bibus ticket holders and free on showing a validated ticket on exit.",
+      "source_title": "Se déplacer en voiture et stationner (Brest métropole)",
+      "source_url": "https://brest.fr/gerer-mon-quotidien/transports/se-deplacer-en-voiture-et-stationner",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-10",
+      "text": "Bibus's park-and-ride page (undated; read on 21 October 2026) says Kerinou Vian and Le Bergot currently have fewer places than their final 170 and 140. It also says CHU La Cavale is to open temporarily and finally have 90 places, and Porte de Plouzané is to open during 2027 with about 100 places.",
+      "source_title": "Parkings-relais bus et tramway (Bibus)",
+      "source_url": "https://www.bibus.fr/services/parking-relais-et-velos/parkings-relais-bus-et-tramway",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2026-10-07",
+      "text": "Easy Charge Service is installing 15 on-street charging stations in Brest, 72 charge points in total, with first openings planned for summer 2026 and completion by mid-2027. The city says paying for charging does not replace paying for parking in paid zones.",
+      "source_title": "Se déplacer en voiture et stationner (Brest métropole)",
+      "source_url": "https://brest.fr/gerer-mon-quotidien/transports/se-deplacer-en-voiture-et-stationner",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2026-10-19",
+      "text": "The city's open parking layer (updated 19 October 2026) records EV-charging spaces at Les Glacis (45), Les Capucins (6), Jaurès (2), Liberté (2) and Parking des îles (2). It also shows 6 each at the planned CHU La Cavale and Porte de Plouzané park-and-rides.",
+      "source_title": "Parkings DEP_STA_Parkings (data.gouv.fr, Brest métropole)",
+      "source_url": "https://www.data.gouv.fr/datasets/parkings-5",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-10-19",
+      "text": "Brest métropole publishes a parking dataset under Open Licence 2.0 (created June 2023, last updated 19 October 2026, declared update frequency every five years). The layer has capacity, payment type, status and EV places per car park, but no occupancy field; live availability is on brest-park.fr instead.",
+      "source_title": "Parkings DEP_STA_Parkings (data.gouv.fr, Brest métropole)",
+      "source_url": "https://www.data.gouv.fr/datasets/parkings-5",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-09-19",
+      "text": "The city names Brest'Park as manager of the new Glacis car park, and tariffs and hours are published on the Brest'Park site. The director general of Brest en vue spoke at the opening, saying Saint-Louis subscribers can use Glacis during the rebuild.",
+      "source_title": "À Brest, le parking des Glacis est ouvert au centre-ville",
+      "source_url": "https://brest.fr/actualites/brest-le-parking-des-glacis-est-ouvert-au-centre-ville",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-09-24",
+      "text": "The city's urban-logistics page (updated 24 September 2026) cites surveys showing 31% of delivery stops in the metropolis are made double-parked or in prohibited areas. It says the 120 delivery bays are little used or poorly suited, and that the diagnostic was carried out in 2022.",
+      "source_title": "Se déplacer en tant que professionnel (Brest métropole)",
+      "source_url": "https://brest.fr/gerer-mon-quotidien/transports/se-deplacer-en-tant-que-professionnel",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-08-25",
+      "text": "Bibus announced that from 1 September 2026 tram line A runs about every 5.5 minutes at afternoon peak and line B about every 7.5 minutes, while BHNS line D slows to every 9 minutes at peak (from 7.5). Evening services on lines A, B, D and bus 2 end slightly earlier Sunday to Wednesday, and the cable car was to close 7-29 September 2026 to replace its two haul cables.",
+      "source_title": "Les nouveautés de la rentrée sur votre réseau Bibus !",
+      "source_url": "https://www.bibus.fr/bibus-et-vous/actualites/les-evenements-du-reseau/les-nouveautes-de-la-rentree-sur-votre-reseau-0",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "brest-park.fr (Brest'Park, the car-park tariff, subscription and real-time availability site) could not be opened: connection refused from this machine on 21 October 2026 (https://www.brest-park.fr/). The full tariff grid, Glacis tariffs, resident subscription prices and live occupancy are therefore not sourced.",
+    "Several brest.fr/sillage.brest.fr news pages returned HTTP 403 and were not used: https://brest.fr/actualites/stationnement-brest-du-nouveau-pour-la-rentree ; https://brest.fr/actualites/deux-parkings-en-enclos-payants-ouvrent-au-port-de-commerce ; https://brest.fr/actualites/le-parking-saint-louis-sera-reconstruit ; https://brest.fr/actualites/brest-en-2026-se-garera-aux-glacis-centre-ville ; https://brest.fr/actualites/brest-les-travaux-de-la-place-de-la-liberte-reportes-lete-2026 ; https://brest.fr/actualites/un-nouveau-revetement-pour-la-place-de-la-liberte ; https://brest.fr/actualites/un-pole-dechange-multimodal-en-projet-pour-la-gare-de-brest ; https://brest.fr/actualites/aux-halles-saint-louis-le-chantier-va-bon-train ; https://brest.fr/dossier-metropole/mon-reseau-grandit-et-ca-se-voit ; https://sillage.brest.fr/actualites/brestaim-50-ans-et-demain. The station multimodal hub, the rentrée parking changes and the port pay-enclosure openings are therefore not covered.",
+    "The brest.fr PDFs (2023 'Stationner à Brest' guide, https://brest.fr/sites/default/files/medias/brestfr/documents/gerer_mon_quotidien/transports/Pratik_Stationner_a_Brest.pdf, and the 2021 annual reports of the Brest car-park contracts) returned an HTML page instead of a PDF and could not be read.",
+    "Press (Le Télégramme, Ouest-France, actu.fr, ICI) could not be searched or opened (blocked or 403), and forum posts that relay press headlines were not used. No independent press confirmation of the Glacis opening, the Place de la Liberté works or the Saint-Louis schedule was obtained.",
+    "Whether the Place de la Liberté resurfacing finished by the end of July 2026, whether the Glacis car park is open to the general public as of 21 October 2026, and whether the Easy Charge stations are already in service were not confirmed.",
+    "The contract and legal form under which Brest'Park / Brest en vue run the city-centre car parks and on-street parking were not found on a primary page. The open dataset names a 76-space surface car park 'Effia gare' by the station, but no operator page was opened, so Effia's role is unconfirmed; no source for Indigo or Q-Park currently operating in Brest was found.",
+    "No official figures on car-park occupancy or usage, resident-parking prices (zone subscriptions), a city-centre traffic plan or decisions on a low-emission zone were found; the logistics page says only that Brest métropole is studying a low-emission zone, in text that may predate its 24 September 2026 update.",
+    "Official sources disagree in places: Les Capucins 630 (city page) vs 615 (open data); Porte de Gouesnou 195 vs 191 and Place de Strasbourg 233 vs 232; the parc à chaînes is listed as free in the FAQ but as a paid orange-zone enclosure in the open dataset; the city page says 4 park-and-rides while the dataset lists 7 operating and 4 planned.",
+    "Tooling note: the browser pane would not open a new tab, so pages were read as real page text through a Python HTML-to-text fetch rather than a model summary; the web search budget ran out before searches on resident parking, Brest en vue and the station hub could be made."
+  ]
+}

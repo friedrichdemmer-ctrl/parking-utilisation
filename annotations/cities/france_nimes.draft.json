@@ -1,0 +1,162 @@
+{
+  "country": "France",
+  "city": "Nîmes",
+  "researched": "2026-10-21",
+  "summary": "Nîmes runs its city-centre parking through long concessions: Indigo, Q-Park and Interparking operate the underground car parks, and the public company SPL Agate runs the on-street spaces. In October 2023 the paid on-street area was extended, bringing the city-centre total to 4,829 contracted spaces, and a flat 25-euro post-parking charge applies. The city's 2024 report, as covered by local press in January 2026, put average weekday occupancy at 68%, with Arènes and Maison Carrée the strongest car parks and Gare-Feuchères still weak. A low-emission zone covering the whole commune started in January 2025 but initially restricts only unclassified vehicles. After the March 2026 election the new mayor suspended a planned 318-space car park near the congress centre, and Nîmes Métropole is preparing a park-and-ride hub at Caveirac linked to a planned T5 bus line.",
+  "items": [
+    {
+      "topic": "tariffs",
+      "date": "2023-10",
+      "text": "From 2 October 2023 the city-centre on-street tariff is 1 euro for 40 minutes and 1.50 euros an hour in the red zone (25 euros for 8 hours), and 1 euro an hour in the green zone. The first 30 minutes are free once a day per vehicle and zone, and the post-parking charge (FPS) is a flat 25 euros.",
+      "source_title": "SPL AGATE, compte rendu d'activité 2023 - stationnement payant de voirie, Nîmes",
+      "source_url": "https://nimes.fr/fileadmin/mediatheque/nimes/ma-ville/actes-administratifs/administration-publique/crtf/2023/spl-agate-stationnement-payant-voirie-2023.pdf",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2024-06",
+      "text": "The city-centre on-street concession run by SPL Agate (2017 to 2027) grew to 4,829 contracted spaces on 2 October 2023, 639 more after the Nord-Gambetta extension, with 283 pay machines. Average daily takings per space fell to 1.76 euros in 2023 from 2.03 euros in 2019.",
+      "source_title": "SPL AGATE, compte rendu d'activité 2023 - stationnement payant de voirie, Nîmes",
+      "source_url": "https://nimes.fr/fileadmin/mediatheque/nimes/ma-ville/actes-administratifs/administration-publique/crtf/2023/spl-agate-stationnement-payant-voirie-2023.pdf",
+      "confidence": "medium"
+    },
+    {
+      "topic": "technology",
+      "date": "2024-06",
+      "text": "Inspectors made 458,931 checks in 2023 and issued 51,215 post-parking charges, 11.16% of checks. The report says vehicle-mounted plate-reading control would start in 2024 to raise spontaneous payment.",
+      "source_title": "SPL AGATE, compte rendu d'activité 2023 - stationnement payant de voirie, Nîmes",
+      "source_url": "https://nimes.fr/fileadmin/mediatheque/nimes/ma-ville/actes-administratifs/administration-publique/crtf/2023/spl-agate-stationnement-payant-voirie-2023.pdf",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2024-12",
+      "text": "The article says that from 1 January 2025 on-street payment applies Monday to Friday 9:00-12:00 and 14:00-19:00 and Saturday morning, with an 8-hour maximum stay and a flat 25-euro FPS with no reduced rate. Residents of Nîmes and Nîmes Métropole with Crit'Air 0 (electric, hydrogen) or Crit'Air 1 (gas, hybrid) vehicles get 2 free hours once a day on street.",
+      "source_title": "NÎMES Quelques modifications dans la gestion du stationnement (Objectif Gard, 21 Dec 2024)",
+      "source_url": "https://www.objectifgard.com/gard/nimes/nimes-quelques-modifications-dans-la-gestion-du-stationnement-139365.php",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2024-10",
+      "text": "On 28 October 2024 the city announced a low-emission zone (ZFE-m) for the whole commune from 1 January 2025, for five years, with only unclassified vehicles (under 3% of cars, 12% of heavy trucks) restricted at first. Motorways, the N106 and N113 and some other routes are exempt, as are low-mileage drivers (under 8,000 km a year).",
+      "source_title": "Mise en place d'une Zone à faibles émissions (ZFE) : la Ville invite les Nîmois à s'exprimer (press release, 28 Oct 2024)",
+      "source_url": "https://nimes.fr/fileadmin/mediatheque/nimes/espace-presse/communique-presse/2024/octobre/mise-en-place-d-une-Zone-a-faibles-emissions-ZFE.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2024-02",
+      "text": "In February 2024 the city planned to close five streets around Porte de France, next to the Arènes, to motor traffic with three retractable bollards, removing 20 surface spaces at a cost of 250,000 euros. It expected the large Arènes car park to absorb the displaced parking, and a new circulation plan was due by autumn 2025.",
+      "source_title": "NÎMES Le secteur Porte de France s'aménage doucement mais sûrement (Objectif Gard, 22 Feb 2024)",
+      "source_url": "https://www.objectifgard.com/gard/nimes/nimes-le-secteur-porte-de-france-samenage-doucement-mais-surement-123465.php",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-04",
+      "text": "In a decision filed on 10 April 2026, the Nîmes Métropole president asked the State's Fonds Vert for 80,000 euros towards a 100,000-euro pre-operational phase (studies, land purchase) for a multimodal hub at Caveirac. The hub is described as linked to the planned T5 high-service bus line between the Vaunage and Nîmes.",
+      "source_title": "Décision FIN2026-03-085, Nîmes Métropole (pôle d'échange multimodal de Caveirac)",
+      "source_url": "https://www.nimes-metropole.fr/fileadmin/mediatheque/canm/mon-agglo/document-public/decisions/2026/FIN2026-03-085.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2022-02",
+      "text": "In February 2022 Nîmes Métropole said the second section of the T2 high-service bus line (station to Paloma, 11.5 km, 21 stops, 123 million euros) would open in early September 2022. A 400-space park-and-ride at the Paloma venue, shared with the concert hall, was planned for users.",
+      "source_title": "NÎMES Où en est-on du chantier de la ligne T2 du tram'bus ? (Objectif Gard, 12 Feb 2022)",
+      "source_url": "https://www.objectifgard.com/actualites/nimes-ou-en-est-on-du-chantier-de-la-ligne-t2-du-trambus-4852.php",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-04",
+      "text": "On 14 April 2026 the new mayor, Vincent Bouget, suspended a planned 318-space, four-level car park near the h2 congress centre (Placette) after resident opposition. The city will rework it with the delegate Tissot.",
+      "source_title": "NÎMES Parking de la Placette : Vincent Bouget suspend le projet (Objectif Gard, 14 Apr 2026)",
+      "source_url": "https://www.objectifgard.com/actualites/nimes-parking-de-la-placette-vincent-bouget-suspend-le-projet-162608.php",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-02",
+      "text": "In February 2026 developers Tissot and GGL presented a revised city-centre project of 318 parking spaces on parcel EX566, replacing a 2022 permit for 219 spaces plus 63 flats. They announced a 30-euro monthly night subscription for residents, fast EV chargers and 20 accessible spaces, with the permit still under review.",
+      "source_title": "NÎMES La Holding Tissot et GGL présentent le projet \"Allégorie\" (Objectif Gard, 3 Feb 2026)",
+      "source_url": "https://www.objectifgard.com/actualites/nimes-la-holding-tissot-et-ggl-presentent-le-projet-allegorie-158966.php",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2025-05",
+      "text": "Indigo's Porte Auguste car park opened a 16-space secure bike park in early 2025, replacing three car spaces. It costs 4 euros a month or 32 euros a year, and about 16,000 of the roughly 40,000-euro cost was subsidised.",
+      "source_title": "NÎMES Un nouveau cyclopark sécurisé pour les cyclistes Porte Auguste (Objectif Gard, 24 May 2025)",
+      "source_url": "https://www.objectifgard.com/gard/nimes/nimes-un-nouveau-cyclopark-securise-pour-les-cyclistes-porte-auguste-147757.php",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-01",
+      "text": "Car parks are run by Indigo, Q-Park and Interparking, and on-street parking by the public company SPL Agate, under concessions of roughly 11 to 61 years. Indigo's Arènes car park was conceded in 1968 for 61 years, and Interparking holds Les Halles until 2029.",
+      "source_title": "FAIT DU SOIR Stationnement à Nîmes : ce que révèle le rapport sur les parkings payants (Objectif Gard, 6 Jan 2026)",
+      "source_url": "https://www.objectifgard.com/gard/nimes/fait-du-soir-stationnement-a-nimes-ce-que-revele-le-rapport-sur-les-parkings-payants-157549.php",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-01",
+      "text": "According to the city's 2024 report, operators paid the city 648,550 euros in fees in 2024, up 25% on 2023, and Arènes and Maison Carrée took 3.3 and 2.4 million euros in revenue. Gare-Feuchères revenue was still 15% below 2019 and its visits had nearly halved since 2019.",
+      "source_title": "FAIT DU SOIR Stationnement à Nîmes : ce que révèle le rapport sur les parkings payants (Objectif Gard, 6 Jan 2026)",
+      "source_url": "https://www.objectifgard.com/gard/nimes/fait-du-soir-stationnement-a-nimes-ce-que-revele-le-rapport-sur-les-parkings-payants-157549.php",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-01",
+      "text": "The city's 2024 report puts average weekday occupancy (9:00-18:00) at 68%, up from 64% in 2023, with about 800 free spaces even at peak and 3,616 subscribers. Arènes and Maison Carrée peak between 10:00 and 16:00, especially on Fridays, and 26% of tickets are free (48% at Arènes).",
+      "source_title": "FAIT DU SOIR Stationnement à Nîmes : ce que révèle le rapport sur les parkings payants (Objectif Gard, 6 Jan 2026)",
+      "source_url": "https://www.objectifgard.com/gard/nimes/fait-du-soir-stationnement-a-nimes-ce-que-revele-le-rapport-sur-les-parkings-payants-157549.php",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2022-05",
+      "text": "Indigo's group company Sopark runs the 545-space Maison Carrée car park under a 1986 concession that ends on 12 August 2036. Its 2021 report records 268,859 hourly exits against 333,466 in 2019, and one EV charging point.",
+      "source_title": "Sopark/Indigo, Parc Maison Carrée, rapport d'activité 2021 (Ville de Nîmes)",
+      "source_url": "https://www.nimes.fr/fileadmin/mediatheque/nimes/ma-ville/actes-administratifs/administration-publique/crtf/2021/sopark-nimes-parc-maison-carree-2021.pdf",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2024-05",
+      "text": "Q-Park runs the 466-space Jean Jaurès car park and 1,232 on-street spaces under a 2006 contract with a 45-year term. The car park had 62,832 hourly entries in 2023, 4% fewer than in 2022, and charged 4.00 euros for two hours.",
+      "source_title": "Q-Park, Nîmes Parking Jean Jaurès & voirie, rapport d'activité 2023",
+      "source_url": "https://www.nimes.fr/fileadmin/mediatheque/nimes/ma-ville/actes-administratifs/administration-publique/crtf/2023/qpark-parking-jean-jaures-voirie-2023.pdf",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2024-05",
+      "text": "Q-Park installed 10 EV charge points at Jean Jaurès in 2023, part of 82,000 euros of investment that also bought 18 pay machines for the on-street extension. The car park lists 10 EV spaces among its 466.",
+      "source_title": "Q-Park, Nîmes Parking Jean Jaurès & voirie, rapport d'activité 2023",
+      "source_url": "https://www.nimes.fr/fileadmin/mediatheque/nimes/ma-ville/actes-administratifs/administration-publique/crtf/2023/qpark-parking-jean-jaures-voirie-2023.pdf",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2023-12",
+      "text": "At the December 2023 council, an opposition councillor said the Q-Park Jean Jaurès contract (signed 2006, running to 2051) pays the city no fee, while the other car parks paid just over 520,000 euros in 2022. This is the councillor's claim as reported, and she said Nîmes parking contracts run 30 to 61 years.",
+      "source_title": "NÎMES Le stationnement quotidien est toujours problématique (Objectif Gard, 17 Dec 2023)",
+      "source_url": "https://www.objectifgard.com/gard/nimes/nimes-le-stationnement-quotidien-est-toujours-problematique-120384.php",
+      "confidence": "low"
+    }
+  ],
+  "gaps": [
+    "Ville de Nîmes 'Observatoire parkings 2021' and 'Observatoire voirie 2021' PDFs (nimes.fr/fileadmin/mediatheque_commune/Publications_actes_administratifs/rapports_delegataires/2021/Observatoire_parkings_2021.pdf and Observatoire_voirie_2021.pdf) returned 404, so no per-car-park capacity or utilisation table from the city was read.",
+    "The 2024 municipal parking report itself was not found; the 2024 figures come only from the Objectif Gard summary (https://www.objectifgard.com/gard/nimes/fait-du-soir-stationnement-a-nimes-ce-que-revele-le-rapport-sur-les-parkings-payants-157549.php). Arènes car park capacity, tariffs and any works were not confirmed from an official page.",
+    "Roole Media article on parking prices and EV chargers before the 2026 municipal election (https://media.roole.fr/transition/territoires/nimes-stationnement-trop-cher-manque-de-bornes-de-recharge-la-mobilite-au-cour-des-debats-avant-les-municipales) showed only its table of contents, not the body text, so it was not used.",
+    "Nîmes Métropole T1 southern extension press kit (https://www.nimes-metropole.fr/fileadmin/mediatheque/Dossier-commun/Documentations/Dossiers_de_presse/DP_INAUG_T1_Sud-BD.pdf) and T2 inauguration press kit (DP-T2-Inauguration-Janvier-2020.pdf) returned 404 or could not be read; the T1/T2 park-and-ride capacities at opening were not confirmed. Only the planned 400-space Paloma park-and-ride (Feb 2022 press) was read.",
+    "No Nîmes open-data feed for car park availability was found, and no official count of public EV chargers or any Nîmes Métropole parking data portal was located.",
+    "Current status of the Nîmes ZFE in 2026 (after the 2026 national debate on abolishing ZFEs) was not verified from an official or readable source; the ZFE items describe the October 2024 plan only.",
+    "The text of the Écusson pedestrian-area order (CIR-AP-2019-00095) and any Écusson or Arènes traffic plan for 2025-2026 was not found or read; the Porte de France item is the February 2024 plan only.",
+    "No 2025 or 2026 on-street tariff decision by the new municipality (elected March 2026) and no SPL Agate or Q-Park/Indigo 2024 annual reports were found. The WebSearch budget ran out before Midi Libre, ICI Gard Lozère, Indigo/Q-Park web pages and the Nîmes Métropole parc-relais pages could be searched."
+  ]
+}

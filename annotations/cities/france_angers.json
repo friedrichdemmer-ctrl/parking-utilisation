@@ -1,0 +1,200 @@
+{
+ "country": "France",
+ "city": "Angers",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Angers' paid on-street parking and its metropolitan multistorey and enclosed car parks are run by Alter Services, a local public company owned 55.3% by Angers Loire Métropole and 44.7% by the city, and no private operator such as Indigo, Q-Park or Effia appeared in the sources read. The biggest recent change is the new 300-space Parking du Château, which the operator announced on 23 April 2026 would open on 27 April to make up for street spaces lost in the Kennedy and Académie square redesign; it was first planned in 2022 and a 2024 city presentation forecast 230 entries a day in 2027 rising to 520 in 2040. Parking du Ralliement reopened fully on 26 September 2026 after refurbishment works. The metropolis says the hyper-centre has more than 9,500 paid spaces, twelve city-centre car parks give a free first hour, on-street fees start at 0.80 to 1.70 euro for the first hour depending on the zone, and the fine for not paying is 27 euro (undated pages read on 21 October 2026). Policy is moving toward a calmer centre: the city announced a ban on electric scooters and similar devices on the pedestrian plateau from 1 September 2026, the council started a study on calming the centre on 29 June 2026, and a trade federation reported in January 2025 that vehicles with no Crit'Air class were barred from the Angers low-emission zone at all times (current status not checked). The Irigo network recorded 44 million trips in 2025, six park-and-ride sites near the tram are free, and an advisory development council wrote in September 2025 that several are saturated. Older figures date from 2017, when Alter Services ran 16 car parks and earned 5.86 million euro.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2025-01-10",
+   "text": "A CAPEB (building trades federation) article dated 10 January 2025 said that, from 1 January 2025, vehicles with no Crit'Air class (mainly cars first put into service before 1997) were barred from the Angers low-emission zone (ZFE) in the centre at all times, whereas in Nantes the ban applies only on weekday peak hours. Its current status was not checked.",
+   "source_title": "ZFE - La vignette CRIT'AIR obligatoire à Nantes et Angers",
+   "source_url": "https://www.capeb.fr/actualites/ZFE-nantes-angers",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-09",
+   "text": "The Loire Angers development council, an advisory body, wrote in September 2025 that several park-and-ride sites are saturated, which makes access uncertain for tram users. It recommended an overall reduction of city parking for non-residents, with peripheral parking and protected resident parking.",
+   "source_title": "Mobilités durables et responsables sur le Pôle métropolitain Loire Angers (Conseil de développement Loire Angers)",
+   "source_url": "https://conseil-dev-loire.angers.fr/wp-content/uploads/2025/12/Mobilites_2025_VF_12.pdf",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-09-01",
+   "text": "In an article published on 30 August 2026, the city of Angers said a municipal order bans motorised personal devices, in particular electric scooters, from the pedestrian plateau from 1 September 2026; owners face a 150 euro fine, and such devices must be walked by hand. Motorbikes and scooters have been barred there since an April 2022 order, except in delivery hours (6am to 10:30am on weekdays, 7:30 to 10:30am on Saturdays).",
+   "source_title": "Le plateau piétonnier désormais interdit aux trottinettes électriques (Ville d'Angers, published 30 August 2026)",
+   "source_url": "https://www.angers.fr/actualites-sorties/67055-le-plateau-pietonnier-bientot-interdit-aux-trottinettes-electriques/index.html",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-29",
+   "text": "On 29 June 2026 the city council started an urban study on laying out and calming the city centre, to make walking and cycling safer and add greenery. The article gives no timetable and no parking measures.",
+   "source_title": "Éducation, urbanisme, finances et sport au menu du conseil municipal (Ville d'Angers, published 30 June 2026)",
+   "source_url": "https://www.angers.fr/actualites-sorties/67053-education-urbanisme-finances-et-sport-au-menu-du-conseil-municipal/index.html",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "On-street paid parking in central Angers has an orange zone (9-12 and 14-19; 1.70 euro for 1 hour, 3.40 for 2 hours, 6.60 for 3 hours, 4-hour maximum) and a green zone (9-12 and 14-20; 0.80 euro for 1 hour, 6.40 for 8 hours, 9-hour maximum), plus a blue disc zone limited to 4 hours. Not paying or underpaying costs 27 euro; the page is undated and was read on 21 October 2026.",
+   "source_title": "Se stationner en voirie (Parking Angers, Alter Services)",
+   "source_url": "https://parking-angers.fr/se-stationner-en-voirie/",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Residents of paid-parking zones can get a 'resident status' (valid 2 years, 2 vehicles per household) that allows free on-street parking from 18:00 to 10:00 in the orange zone and 17:00 to 10:00 in the green zone. An unlimited on-street resident pass costs 55 euro a month or 500 a year (orange) and 15 a month or 100 a year (green); page undated, read on 21 October 2026.",
+   "source_title": "Je vis à Angers (Parking Angers, Alter Services)",
+   "source_url": "https://parking-angers.fr/je-vis-a-angers/",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Parking du Ralliement lists, from 9am to 7pm, a free first hour (the same table also shows 1 euro for under 16 minutes, without explanation), then 2.80 euro per hour; a 3 euro night rate from 7pm to 9am and 28.20 euro per 24-hour block. Subscriptions are 75 euro a month for residents and 150 a month for permanent; page undated, read on 21 October 2026.",
+   "source_title": "Parking du Ralliement (Parking Angers, Alter Services)",
+   "source_url": "https://parking-angers.fr/parking/parking-du-ralliement/",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "At Parking Saint-Laud 2, from 7am to 7pm the first 30 minutes are free, then 2.50 euro an hour up to 3 hours and 1.20 euro an hour from 3 to 8 hours; a 3 euro night rate applies from 7pm to 7am and 24 hours cost 19.70 euro. Multi-day passes are 47 euro for 3 days, 66 for 5 and 80 for 7; page undated, read on 21 October 2026.",
+   "source_title": "Parking Saint Laud 2 (Parking Angers, Alter Services)",
+   "source_url": "https://parking-angers.fr/parking/parking-saint-laud-2/",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The Parking du Château page lists 14 electric-vehicle bays (one of them accessible), marked as not yet in service when the page was read on 21 October 2026. The page is undated.",
+   "source_title": "Parking Château (Parking Angers, Alter Services)",
+   "source_url": "https://parking-angers.fr/parking/parking-chateau/",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-04-23",
+   "text": "On 23 April 2026 the operator announced that the new Parking du Château would open on Monday 27 April 2026 at 7am, with 300 car spaces and 100 bike spaces, entering from rue de Quatrebarbes and leaving by rue Kellermann. It is described as compensating for on-street spaces removed in the redesign of the Kennedy and Académie squares, and as reversible, so it can later be converted into offices or housing.",
+   "source_title": "Ouverture du parking du Château (Parking Angers, published 23 April 2026)",
+   "source_url": "https://parking-angers.fr/ouverture-du-parking-du-chateau/",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2022-05-09",
+   "text": "On 9 May 2022 the Angers Loire Métropole council approved in principle entrusting Alter Services, a local public company, with a 25-year integrated contract (including construction) to build and run the Académie car park (up to 300 spaces on four levels, 100 secure bike spaces), and authorised negotiation with it; the final contract was to be approved later. The cost was estimated at 7.5 to 8.5 million euro excluding tax, with opening then expected in the second half of 2025.",
+   "source_title": "Délibération DEL-2022-82, Stationnement - Parking Académie (Conseil de communauté, 9 May 2022)",
+   "source_url": "https://presse.angers.fr/private/uploads/piecesjointes/cahier-des-deliberations-cc-09-05-2022.pdf",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-09-04",
+   "text": "A city presentation to residents on 4 September 2024 planned the Château car park with 300 spaces (at least 17 electric), 100 bike spaces and a free first hour, for delivery in December 2025. It forecast 230 entries a day in 2027 rising to 520 in 2040, and cited 1,700 to 2,200 a day at Ralliement, 600 to 1,300 at Fleur d'Eau-Les Halles and 200 to 400 at Molière for comparison.",
+   "source_title": "Réunion riverains du 4 septembre 2024, parking du château (Ville d'Angers)",
+   "source_url": "https://www.angers.fr/fileadmin/user_upload/diaporama_de_la_reunion_riverains_du_4_septembre_2024.pdf",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-09-26",
+   "text": "Parking du Ralliement reopened fully on Saturday 26 September 2026, after works that began in May with closed levels and spaces. The levels were repainted and resin was applied to the floors.",
+   "source_title": "Fin de travaux au parking du Ralliement (Parking Angers, published 1 October 2026)",
+   "source_url": "https://parking-angers.fr/fin-de-travaux-au-parking-du-ralliement/",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-09-03",
+   "text": "Angers Loire Métropole said on 3 September 2026 that the Irigo network recorded 44 million trips in 2025, one million more than in 2024. The single ticket rises from 1.60 to 1.70 euro while subscription prices stay unchanged this year, and two night buses run Thursday to Saturday.",
+   "source_title": "L'offre de transport évolue (Angers Loire Métropole, 3 September 2026)",
+   "source_url": "https://www.angersloiremetropole.fr/medias/67188-l-offre-de-transport-evolue/index.html",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Alter Services, a local public company, runs paid on-street parking for the city of Angers and the metropolis's multistorey and enclosed car parks. It is 55.3% owned by Angers Loire Métropole and 44.7% by the city, and also runs the Citiz car-sharing service; page undated, read on 21 October 2026.",
+   "source_title": "Qui sommes-nous ? (Parking Angers, Alter Services)",
+   "source_url": "https://parking-angers.fr/qui-sommes-nous/",
+   "confidence": "high",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "A real-time availability feed for 18 Angers car parks managed by Alter Services is published on data.gouv.fr under the ODbL licence and is described as updated every minute. The page read on 21 October 2026 carries a notice that the dataset is momentarily unavailable, although its files were shown as updated that day.",
+   "source_title": "Disponibilité dans les Parking à Angers (data.gouv.fr)",
+   "source_url": "https://www.data.gouv.fr/datasets/disponibilite-dans-les-parking-a-angers/",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Angers Loire Métropole says the hyper-centre of Angers has more than 9,500 paid parking spaces, with tariffs set by municipal order. It also lists six free park-and-ride sites near the tramway, open 24 hours a day, 7 days a week; page undated, read on 21 October 2026.",
+   "source_title": "Mobilités - Auto (Angers Loire Métropole)",
+   "source_url": "https://www.angersloiremetropole.fr/mon-quotidien/mobilites/auto/index.html",
+   "confidence": "high",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2017-12",
+   "text": "In 2017 Alter Services ran 16 car parks under 7 delegation contracts for the metropolis, with nearly 3,000 monthly subscribers and about 95% of subscriptions taken. Revenue was 5.86 million euro (77.5% hourly). Hourly revenue at the Mail rose 17%; the report ties the 30% rise in Molière's attendance to the cut in places at the Poissonnerie car park.",
+   "source_title": "Délégation de service, parcs de stationnement, rapport d'activité 2017 (Direction Transports Mobilités, Angers)",
+   "source_url": "https://presse.angers.fr/private/uploads/piecesjointes/ra-stationnement.pdf",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "The Browser pane could not open a tab (tabs_create failed), so pages were read in full with curl and a local text extractor (PDFs with pypdf) instead; no page text came from a search snippet.",
+  "The WebSearch budget ran out partway through, so press coverage (Ouest-France, Le Courrier de l'Ouest, actu.fr, France Bleu/ICI Anjou, Angers Mag) was not searched or opened. Reporterre's article on the Angers car-park debate returned 403: https://reporterre.net/A-Angers-le-parking-de-Christophe-Bechu-ne-passe-pas. The ZFE explainer at https://media.roole.fr/transition/territoires/zfe-dangers-les-vehicules-non-classes-sont-exclus returned 429.",
+  "No official Angers Loire Métropole or city page on the ZFE could be found, so the ZFE item rests on a trade-federation page from January 2025 (medium confidence). Its current status after the national debate on abolishing ZFEs, which the development council's report mentions as ongoing in September 2025, was not checked.",
+  "No current operator contract details were found. The 2017 report shows older contracts ending in 2024 (group of car parks) and June 2026 (Saint-Serge), and whether they were renewed or re-tendered is not documented in the pages read. No Indigo, Q-Park or Effia presence in Angers was found.",
+  "The prefectural order for the Académie car park (https://www.pays-de-la-loire.developpement-durable.gouv.fr/IMG/pdf/2023-7329-projet_d_arrete_signe.pdf) returned 503 and was not read.",
+  "The Parking du Château opening article gives hours of 7am to 11pm while the car park's own page gives 06:00 to 23:00, so hours are not stated. The 'places disponibles' figures on the operator pages could not be confirmed as live counts or capacity, so they were not used.",
+  "No recent utilisation or occupancy statistics from the operator or city were found beyond the 2017 report and the 2024 forecasts, and no date was found for when the 27 euro post-parking fee took effect.",
+  "Public EV charging beyond the car parks' own bays (for example on-street or metropolis charging networks) was not researched. Tariffs for the Mail, Molière, Fleur d'Eau, Le Quai and Saint-Laud 1 car parks were read but not recorded as items."
+ ],
+ "dropped": {}
+}

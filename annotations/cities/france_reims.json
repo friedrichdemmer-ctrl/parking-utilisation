@@ -1,0 +1,149 @@
+{
+ "country": "France",
+ "city": "Reims",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Reims's paid city-centre garages are run by Champagne Parc Auto, a semi-public company owned mostly by the Grand Reims authority (48.59%) and the city (22.83%), under concession and lease contracts from Grand Reims. The authority's 2022 report counts 2,053 public spaces in five garages (Buirette, Cathedrale, Erlon, Gambetta, Hotel de Ville), and says the hourly prices in force in 2022 had not changed since July 2014 and subscription prices since January 2012; no later change was found. The network operator's page lists four park-and-ride sites on the tram and bus network, open around the clock, with exit by validated transit ticket. In 2023 the city announced, citing lower nitrogen dioxide in 2022, that the Crit'Air 3 ban in its low-emission zone, planned for January 2024, would be pushed back to 2029, and a report of July 2023 says the zone started on 1 January 2023 and that the government put Reims in a 'zone de vigilance'. On 21 May 2026 the Constitutional Council struck down the clauses that would have abolished low-emission zones nationally, without mentioning Reims. A commercial parking site, not confirmed by any official page, describes on-street parking as paid Monday to Saturday in four colour zones with a 25 euro post-parking charge. The official Grand Reims, Reims city and Citura websites blocked automated access, so the briefing is thin on current tariffs, the on-street regime, traffic-plan changes and new garage projects, and no utilisation figures or open-data parking feed were found.",
+ "items": [
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The Grand Reims Mobilités network page (undated, read on 21 October 2026) lists four park-and-ride sites: Thillois, Neufchâtel, Hôpital Debré and Belges. They are open 24 hours a day, the entry barrier (2.10 m) lifts without a ticket, and leaving requires a validated transport ticket at the exit terminal; SMS tickets and Presto subscriptions do not open the barrier.",
+   "source_title": "Parkings Relais (Grand Reims Mobilités)",
+   "source_url": "https://www.grandreims-mobilites.fr/fr/PYV-Parkings-Relais.html",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The network's news page (read on 21 October 2026) announces tree-pruning works in the Belges and Hôpital Debré park-and-rides from 20 to 26 October 2026, with temporary access restrictions expected.",
+   "source_title": "Actualités (Grand Reims Mobilités)",
+   "source_url": "https://www.grandreims-mobilites.fr/fr/Pnz-Actualites.html",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-04",
+   "text": "A Reims low-emission-zone support document (its text is undated; the PDF file was created in April 2023) describes the Citura network as having one tram line with three park-and-rides connected to it (Neufchatel, Belges, Hopital Debre). It says the tram alone serves a third of the population of the territory, 27% of jobs and 75% of students. It adds that Champagne Parc Auto runs the Zebullo self-service e-bike scheme (120 bikes, 13 stations) and that Reims has more than 5,000 bicycle parking places. The latest events it dates are from September 2021 and it treats 2022 as still to come, so it seems to describe the position around late 2021; the operator's own 2026 page lists four park-and-ride sites, including Thillois.",
+   "source_title": "Mesures d'accompagnement de l'action 2 : Instauration d'une zone à faibles émissions (Reims)",
+   "source_url": "https://territoire-environnement-sante.fr/sites/pnse4/files/inline-files/Mesure_accompagnement_ID_194-196.pdf",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-04",
+   "text": "The same support document says Grand Reims planned to study two bus-rapid-transit lines with park-and-rides at their connections, for implementation by 2026. No source found shows whether this went ahead.",
+   "source_title": "Mesures d'accompagnement de l'action 2 : Instauration d'une zone à faibles émissions (Reims)",
+   "source_url": "https://territoire-environnement-sante.fr/sites/pnse4/files/inline-files/Mesure_accompagnement_ID_194-196.pdf",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-03-14",
+   "text": "A Caradisiac article published on 14 March 2023 reports that the city of Reims announced, in an official press release published the day before (a Monday), that it would not apply the planned January 2024 ban on Crit'Air 3 vehicles in its low-emission zone, which was pushed back to 2029. The stated reason was an average nitrogen dioxide level of 31 micrograms per cubic metre in the city centre in 2022, below the EU limit of 40 (41 in 2019).",
+   "source_title": "La ville de Reims se relâche elle aussi sur la ZFE (Caradisiac)",
+   "source_url": "https://www.caradisiac.com/la-ville-de-reims-se-relache-elle-aussi-sur-la-zfe-201369.htm",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-07-10",
+   "text": "A report published on 10 July 2023 on the L'infodurable site says Reims introduced its low-emission zone on 1 January 2023, barring diesel cars registered up to 31 December 2005 (Crit'Air 4). It adds that Reims had already imposed a moratorium on Crit'Air 3 vehicles in March, giving them until 2029. On the same day the government's new classification placed Reims in a 'zone de vigilance' this year, which lets it decide to suspend the next steps of its restriction calendar.",
+   "source_title": "ZFE: la qualité de l'air s'est améliorée en 2022 à Toulouse, Grenoble et Reims (L'infodurable)",
+   "source_url": "https://www.linfodurable.fr/zfe-la-qualite-de-lair-sest-amelioree-en-2022-toulouse-grenoble-et-reims-39577",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-05-21",
+   "text": "On 21 May 2026 the French Constitutional Council struck down the clauses of the economic-simplification law that would have abolished low-emission zones, because they were unrelated to the law. The article says local authorities must keep applying their zones, but it does not describe Reims specifically.",
+   "source_title": "ZFE : suppression annulée, le Conseil constitutionnel renverse le vote du Parlement (Les Voitures)",
+   "source_url": "https://lesvoitures.fr/zfe-suppression-annulee-le-conseil-constitutionnel-renverse-le-vote-du-parlement/",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-11",
+   "text": "A document on grandreims.fr, titled 'Rapport CCSPL exercice 2022 : parcs de stationnement en ouvrage, Champagne Parc Auto', is listed as the 2022 report on the city-centre car parks run by Champagne Parc Auto; its contents were not confirmed.",
+   "source_title": "Rapport CCSPL exercice 2022 : parcs de stationnement en ouvrage, Champagne Parc Auto (Grand Reims)",
+   "source_url": "https://www.grandreims.fr/fileadmin/grandreims/MEDIA/Le_Grand_Reims/Vie_institutionnelle/Les_instances_de_concertation/Parcs_auto/2023_11_08_CPA_note.pdf",
+   "confidence": "unconfirmed",
+   "id": 7,
+   "checked": "unconfirmed",
+   "unconfirmed_reason": "The site (grandreims.fr) blocks automated access with a bot-protection redirect; the document was not opened and is not used as a source."
+  },
+  {
+   "topic": "operators",
+   "date": "2023-11",
+   "text": "A document on grandreims.fr, titled 'Rapport CCSPL exercice 2022 : parcs de stationnement en ouvrage, Champagne Parc Auto', is listed as the 2022 report on the city-centre car parks run by Champagne Parc Auto; its contents were not confirmed.",
+   "source_title": "Rapport CCSPL exercice 2022 : parcs de stationnement en ouvrage, Champagne Parc Auto (Grand Reims)",
+   "source_url": "https://www.grandreims.fr/fileadmin/grandreims/MEDIA/Le_Grand_Reims/Vie_institutionnelle/Les_instances_de_concertation/Parcs_auto/2023_11_08_CPA_note.pdf",
+   "confidence": "unconfirmed",
+   "id": 8,
+   "checked": "unconfirmed",
+   "unconfirmed_reason": "The site (grandreims.fr) blocks automated access with a bot-protection redirect; the document was not opened and is not used as a source."
+  },
+  {
+   "topic": "tariffs",
+   "date": "2023-11",
+   "text": "A document on grandreims.fr, titled 'Rapport CCSPL exercice 2022 : parcs de stationnement en ouvrage, Champagne Parc Auto', is listed as the 2022 report on the city-centre car parks run by Champagne Parc Auto; its contents were not confirmed.",
+   "source_title": "Rapport CCSPL exercice 2022 : parcs de stationnement en ouvrage, Champagne Parc Auto (Grand Reims)",
+   "source_url": "https://www.grandreims.fr/fileadmin/grandreims/MEDIA/Le_Grand_Reims/Vie_institutionnelle/Les_instances_de_concertation/Parcs_auto/2023_11_08_CPA_note.pdf",
+   "confidence": "unconfirmed",
+   "id": 9,
+   "checked": "unconfirmed",
+   "unconfirmed_reason": "The site (grandreims.fr) blocks automated access with a bot-protection redirect; the document was not opened and is not used as a source."
+  },
+  {
+   "topic": "demand",
+   "date": "2023-11",
+   "text": "A document on grandreims.fr, titled 'Rapport CCSPL exercice 2022 : parcs de stationnement en ouvrage, Champagne Parc Auto', is listed as the 2022 report on the city-centre car parks run by Champagne Parc Auto; its contents were not confirmed.",
+   "source_title": "Rapport CCSPL exercice 2022 : parcs de stationnement en ouvrage, Champagne Parc Auto (Grand Reims)",
+   "source_url": "https://www.grandreims.fr/fileadmin/grandreims/MEDIA/Le_Grand_Reims/Vie_institutionnelle/Les_instances_de_concertation/Parcs_auto/2023_11_08_CPA_note.pdf",
+   "confidence": "unconfirmed",
+   "id": 10,
+   "checked": "unconfirmed",
+   "unconfirmed_reason": "The site (grandreims.fr) blocks automated access with a bot-protection redirect; the document was not opened and is not used as a source."
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "The network's carpool-lines page (undated, read on 21 October 2026) states, without giving a source or year, that the average is 1.01 passengers per car on a home-to-work trip in the Grand Reims area, a very low figure it says causes pollution and traffic jams. It uses this to promote two carpool lines that run on weekdays in the morning (about 6:30 to 9:30, towards Reims and Bezannes on the first line, 6:30 to 9:00 towards Reims on the second) and in the late afternoon (16:30 to 19:00, in the outbound direction), plus Saturdays 9:00 to 20:00 on the first line. They are closed on public holidays.",
+   "source_title": "Lignes 1 et 2 (covoiturage, Grand Reims Mobilités)",
+   "source_url": "https://www.grandreims-mobilites.fr/fr/znm-Lignes-1-et-2.html",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "The official Reims, Grand Reims and Citura sites (reims.fr, grandreims.fr, citura.fr) answer automated requests with a bot-protection page, and no browser tab could be opened in the browser pane (tab limit reached) or in Chrome (extension disconnected), so no official page on stationnement payant, forfait post-stationnement amounts, resident permits, centre-ville traffic plan or garage tariffs could be read. Blocked URLs: https://www.reims.fr/, https://www.grandreims.fr/, https://www.grandreims.fr/se-deplacer/transports-publics, https://www.citura.fr/fr/pr/79, https://www.citura.fr/fr/faq/99?pageId=167, https://en.reims.fr/services/getting-around-the-city.",
+  "Only the first two of seven pages of the Champagne Parc Auto 2022 report were read in full text (Chrome disconnected before the rest could be extracted). Its occupancy, revenue and works sections are unread: https://www.grandreims.fr/fileadmin/grandreims/MEDIA/Le_Grand_Reims/Vie_institutionnelle/Les_instances_de_concertation/Parcs_auto/2023_11_08_CPA_note.pdf",
+  "Not opened (blocked by the same protection): the Grand Reims EV-charging regulation https://www.grandreims.fr/fileadmin/reims/MEDIA/13_Qualite_Vie_Environnement/Stationnement_et_mobilite/bornes_electriques/ReglementBornesAutosElectriques.pdf and the climate action sheet https://www.grandreims.fr/fileadmin/grandreims/MEDIA/12_cadre_de_vie_environnement/bas_carbone/fiches_actions/_15-34-mobilite.pdf (a search summary said it discusses intra-boulevards parking and the future traffic plan; not used).",
+  "No local-press article (L'Union, actu.fr, ICI Champagne-Ardenne) on Reims parking was read: lunion.fr refused access, and the web-search budget ran out before press could be located; actu.fr and ICI pages that opened had no parking stories.",
+  "Nothing found on new, closed or refurbished car parks around the Cathédrale, Gare, Hôtel de Ville or Saint-Remi, on a 2025-2026 centre-ville traffic plan, or on the status of the planned bus-rapid-transit and park-and-ride studies.",
+  "Current Reims low-emission-zone status after 2023 (whether the zone is still enforced, and what it covers) was not found in a Reims-specific source; the 2026 item is national only.",
+  "Current garage prices were not found: the 2022 report says hourly prices were unchanged since 2014 but the amounts were not in the text read; Parkopedia pages returned 403, and the two commercial sites that were read give conflicting on-street hourly prices.",
+  "Indigo, Q-Park and Effia positioning in Reims could not be sourced; the garages found belong to the Champagne Parc Auto concessions, and Effia appears only as a name on a charge-point directory entry for the Clairmarais station car park, which was not used.",
+  "No utilisation or occupancy statement and no Reims parking real-time open-data feed found: data.gouv.fr lists Reims datasets for bike-share (Zébullo) and transit timetables, but none for car parks.",
+  "Tram item rests on a Wikipedia entry; no official source for the T1/T2 renaming was read."
+ ],
+ "dropped": {
+  "unsupported": 1,
+  "low confidence": 3
+ }
+}

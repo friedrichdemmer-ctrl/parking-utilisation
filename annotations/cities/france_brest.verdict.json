@@ -1,0 +1,185 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Page 'Mise à jour le 07/10/2026'. Paid on-street 9h-12h and 13h30-19h every day except Sunday and public holidays; orange zone up to 3h30 for 25 EUR ('au plus près des commerces'); green zone the whole day for 25 EUR; FPS of 25 EUR for non-payment or overstay. All as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Same page: under half an hour free once a day per vehicle, valid only in green and orange zones; 'En parking: 2h=3h: La 3e heure est offerte'; 'Au-delà de 2 heures... privilégiez les parkings, c'est moins cher'. All as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "FAQ is undated (read 21 Oct 2026). It says orange: 3h for 4,50 EUR (max 3h30 for 25 EUR); green: 8h for 4,50 EUR (max 9h for 25 EUR); free car parks Kerfautras, parc à chaînes, La Carène (plus the surface Bibus P+R); blue zone 1 hour, 2h at the commercial port, 3h at the car park near La Carène. The draft reproduces this correctly, but the city's open parking layer (updated 19 Oct 2026) lists 'Parc à Chaînes' as 'PARKING ENCLOS ZONE ORANGE', payment 'POST PAIEMENT', i.e. paid, so the unqualified 'free' claim is contradicted by a newer official source. The FAQ also gives green-zone max 9h whereas the main page says 'la journée'. Wording kept as what the FAQ says, with the conflict stated.",
+   "corrected_text": "The city's FAQ (undated; read on 21 October 2026) suggests staying 3 hours in the orange zone or 8 hours in the green zone for 4.50 euros, with maximum stays of 3h30 and 9 hours at 25 euros. It lists Kerfautras, the parc à chaînes and La Carène car parks as free, although the city's open parking data (updated 19 October 2026) lists the parc à chaînes as a paid orange-zone enclosure. The FAQ puts blue-zone stays at 1 hour (2 hours at the commercial port, 3 hours at the car park near La Carène).",
+   "corrected_title": null,
+   "corrected_date": "2026-10",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Page says 250 horodateurs connectés (card payment, remote extension of the ticket); EasyPark or Flowbird apps allow paying to the minute; free spaces in car parks 'visibles en temps réel sur le site www.brest-park.fr et sur les panneaux lumineux' near the centre and at car-park entrances. Minor: the page does not say 'main' car parks, just 'les parkings'. brest-park.fr itself could not be checked, so the real-time claim rests on the city page only.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Page: 1000 free and 4000 paid on-street spaces and 3400 paid car-park spaces in the centre; covered: Coat-ar-Gueven 720, Liberté 450, Jaurès 400, Les Capucins 630; closed surface: Gares 105, Sangnier 78, Château 81. Open data layer (read 21 Oct 2026) gives Les Capucins 615 (also Gares/Enclos Gares 76, Château 82), so the parenthesis is right. Note the listed car parks sum to about 2,460, not 3,400 - the city page does not reconcile this. The figures are capacities, not demand.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "Glacis page (published 19/09/2026) confirms: inaugurated Saturday 19 Sept, rue Duquesne, opened since Wednesday 16 Sept to Saint-Louis subscribers and 'sera prochainement accessible au grand public', run by Brest'Park, 215 spaces incl. 5 PMR, 8 two-wheeler, 45 EV; five levels; 7.3 million EUR; bikes 36 standard + 8 cargo/tricycle (=44). The parenthesis 'June 2026 reports had announced 65' is NOT on this page. (The 65 figure does appear on the 24 June 2026 Coat ar Gueven page: 'proposera également, dès son ouverture prévue courant septembre, 65 places de stationnement dédié aux vélos', so it could be moved to that item.) Removed from this item.",
+   "corrected_text": "The Glacis car park (rue Duquesne, five levels, 215 spaces, cost 7.3 million euros) was inaugurated on Saturday 19 September 2026. It had been open since 16 September to subscribers of the Saint-Louis car park and, the city said, would soon be open to the general public. It has 5 spaces for reduced-mobility users, 8 for motorised two-wheelers and 45 with EV chargers, plus secure bike parking with 36 places for standard bikes and 8 for cargo bikes and tricycles (44 in total).",
+   "corrected_title": null,
+   "corrected_date": "2026-09-19",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Page published 27/04/2026, written as a plan: demolition-reconstruction of the parking Saint-Louis ('parking souterrain des Halles'); 'travaux de curage démarreront en janvier 2027, pour une livraison... au premier trimestre 2029'; 18 million EUR; current subscribers 'trouveront une solution de substitution au parking des Glacis'; Halles opening 'prévue en octobre 2027'. Draft words it as planned. Note the page expected Glacis to open 'à la rentrée de septembre' (it did, per the 19 Sept article).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Page published 10/04/2026: granite slabs ('dalles en granit') to be replaced by 'asphalte poncé'; works 13 April to end of July; asphalt gives 'étanchéité, permettant de sécuriser le parking souterrain' (one of several reasons, so 'partly' is fair); no events on the square during the works. Worded as announced. Whether the works finished is not on the page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Page published 24/06/2026: level -1 of Coat ar Gueven, from 20 July (week of 20 July), 200 standard + 10 cargo places, subscription only; standard bikes 12/month, 20/quarter, 40/year (cargo 40/month); works 240,000 EUR 'en cours d'achèvement'. Worded as announced. Same page says Glacis will have 65 bike places (planned opening September).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Page published 15/07/2026: free shuttle from the Liberté Morvan stop to the commercial port launched 15 July, experiment until 28 August; 'un nouveau parking de 200 places est désormais disponible à côté du Hangar à patates'; assessment after the summer. Bibus news of 25 Aug confirms 'Navette du Port' stops on 1 Sept.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "City page (updated 07/10/2026): 4 parkings relais - Porte de Gouesnou 195, Place de Strasbourg 233, Porte de Guipavas 80, Fort Montbarey 174; reserved for Bibus customers, free on showing a validated ticket on exit. All as written. (Open data lists 191 and 232 for the first two, plus other P+R sites.)",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Bibus page is undated (read 21 Oct 2026; it carries a live banner for 19-30 Oct). Kerinou Vian and Le Bergot 'nombre de places provisoirement réduit', final 170 and 140; CHU La Cavale 'doit ouvrir prochainement de manière provisoire', final 90; Porte de Plouzané 'ouvrira courant 2027, avec une capacité d'une centaine de places'. Planned items worded as planned; date 2026-10 and read-on wording are correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "City page (updated 07/10/2026): Easy Charge Service installs 15 charging-station sites, 72 charge points; first openings 'prévues pour l'été 2026', network completed mid-2027; 'le paiement de la recharge ne se substitue pas au paiement du stationnement' in paid zones. Page does not say whether any station is already in service.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "All values match the live layer (read 21 Oct 2026; PL_IRVE: Les Glacis 45, Les Capucins 6, Jaurès 2, Liberté 2, Parking des îles 2; CHU La Cavale 6 and Porte de Plouzané 6, both STATUT 'PARKING RELAIS PROJET'). Because this is live open data, date should be 2026-10 and the text should say it was read on 21 October 2026. The data.gouv page itself shows only metadata; the attributes come from the ArcGIS layer linked from it.",
+   "corrected_text": "The city's open parking layer (dataset last updated 19 October 2026; read on 21 October 2026) records EV-charging spaces at Les Glacis (45), Les Capucins (6), Jaurès (2), Liberté (2) and Parking des îles (2). It also shows 6 each at the park-and-rides listed as planned (project status), CHU La Cavale and Porte de Plouzané.",
+   "corrected_title": null,
+   "corrected_date": "2026-10",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "data.gouv metadata confirms: Licence Ouverte 2.0, created 7 June 2023, last updated 19 October 2026, frequency quinquennial. Layer fields: NOM, OFFRE (capacity), PAIEMENT, STATUT, PL_IRVE, PL_2RM, PMR etc.; no occupancy field. But 'live availability is on brest-park.fr instead' is not on this source (it comes from the city's parking page) and brest-park.fr could not be opened; removed. Live open-data page: date 2026-10 with read-on wording.",
+   "corrected_text": "Brest métropole publishes a parking dataset under Open Licence 2.0 (created June 2023, last updated 19 October 2026, declared update frequency every five years; read on 21 October 2026). The layer has capacity, payment type, status and EV places per car park, and no occupancy field.",
+   "corrected_title": null,
+   "corrected_date": "2026-10",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Glacis page: 'Géré par Brest'Park'; 'Les tarifs et horaires sont disponibles sur le site de Brest'Park'; Stéphane Maby, directeur général de Brest en vue, is quoted saying Saint-Louis subscribers can park at Glacis during the works. The page does not say he spoke at the opening ceremony (the quote sits in an article about the inauguration), so 'spoke at the opening' is softened.",
+   "corrected_text": "The city names Brest'Park as manager of the new Glacis car park, and says tariffs and hours are published on the Brest'Park site. Stéphane Maby, director general of Brest en vue, is quoted in the opening report as saying Saint-Louis subscribers can use Glacis during the works.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Page 'Mise à jour le 24/09/2026': 'pour 31 % des opérations, le stationnement se fait en double file ou dans des zones interdites'; the 120 delivery areas and other dedicated spaces are little used or poorly suited; the figures are attributed to the ADEUPa territory diagnostic of 2022 ('courant 2022'). Matches. (Same page says Brest métropole is studying a ZFE; the page text likely predates its update date.)",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Bibus page dated 25/08/2026: from 1 Sept 2026 line A every 5 min 30 on average at afternoon peak Mon-Fri; line B every 7 min 30 on average Mon-Fri; line D every 9 min at peak (was 7 min 30); lines A, B, D and bus 2 with slightly reduced hours Sunday to Wednesday; cable car closed Mon 7 to Tue 29 September 2026 to replace the two haul cables. Worded as announced. Only indirectly parking-relevant.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Brest Métropole's city pages (the main parking page updated on 7 October 2026) describe a compact, mostly public parking system: about 4,000 paid on-street spaces and 3,400 paid car-park spaces in the centre, a two-zone on-street tariff (orange and green) with a 25 euro post-parking charge, and four park-and-ride sites that are free to Bibus ticket holders. The main new facility is the 215-space Glacis car park, run by Brest'Park and inaugurated on 19 September 2026. It was open to subscribers of the Saint-Louis car park from 16 September, with general public access announced as coming soon (not confirmed since). The Saint-Louis car park is planned to be demolished and rebuilt, with clearing works from January 2027 and delivery planned for the first quarter of 2029. The surface of Place de la Liberté, above an underground car park, was scheduled for resurfacing from 13 April to the end of July 2026 (completion not confirmed). Brest en vue is named as an operator of city-centre parking offers (for example the new bike car park at Coat-ar-Guéven), but the contract set-up was not found. The city says 15 on-street electric charging stations (72 charge points) are being installed, with first openings planned for summer 2026 and completion by mid-2027. The city's open data lists capacities but no occupancy, and no official occupancy or usage statistics were found. Official figures conflict in places, for example Les Capucins at 630 spaces on the city page against 615 in the open data, and the parc à chaînes listed as free in the FAQ but as a paid enclosure in the open data."
+}

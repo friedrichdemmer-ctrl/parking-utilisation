@@ -1,0 +1,185 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "PDF (36 pages, no publication date in the text) read in full. Tariff table 'à partir du 02 octobre 2023' confirms: red zone 1.00 EUR/40 min, 1.50 EUR/1 h; green zone 1.00 EUR/1 h; 30 min free once a day per vehicle and per tariff zone; FPS flat 25 EUR (avenant 6, minored FPS abolished). But the '(25 euros for 8 hours)' is the FPS amount that the report equates with the maximum stay ('maximum 25 EUR / 8 heures (FPS)'), not a tariff. Green zone is degressive (2 EUR/2 h, 4.50 EUR/7 h), so '1 euro an hour' only fits the first hour. Report is undated, so the date is the retrieval month and the text says it was read on 21 October 2026.",
+   "corrected_text": "In the SPL Agate activity report for 2023 (the report is undated; read on 21 October 2026), the on-street tariff table from 2 October 2023 gives 1 euro for 40 minutes and 1.50 euros for an hour in the red zone, and 1 euro for an hour, 2 euros for two hours and 4.50 euros for seven hours in the green zone. The first 30 minutes are free once a day per vehicle and per tariff zone. The post-parking charge (FPS) is a flat 25 euros, which is also the amount shown for the 8-hour maximum stay.",
+   "corrected_title": null,
+   "corrected_date": "2026-10",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Report covers the concession 01/01/2017 to 31/12/2027. Nord-Gambetta extension on 02/10/2023 added 639 spaces, total 4,829 (3,048 red + 1,769 green + 4 coach + 8 stop-minute; 4,190 before). 283 pay machines since 2 October. Average daily takings per space 1.76 EUR in 2023 versus 2.03 EUR in 2019 (excluding subscriptions). All as written. Report is undated (PDF metadata only), so date moved to the retrieval month and text adds the read-on phrase.",
+   "corrected_text": "The SPL Agate activity report for 2023 (undated; read on 21 October 2026) covers the city-centre on-street concession (2017 to 2027). It records 4,829 contracted spaces from 2 October 2023, 639 more after the Nord-Gambetta extension, with 283 pay machines. Average daily takings per space fell to 1.76 euros in 2023 from 2.03 euros in 2019.",
+   "corrected_title": null,
+   "corrected_date": "2026-10",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Report p.23-24: 458,931 checks in the city-centre zone (against 405,770 in 2021); 'FPS zone Centre-ville 51.215 soit 11,16% des contrôles'; conclusion: 'L'année 2024 verra la mise en service de la solution de contrôle par véhicule LAPI en pré-contrôle ... effet positif sur le taux de paiement spontané'. Claims match. Report is undated, so date set to retrieval month and text adds the read-on phrase; the LAPI start is worded as the report's expectation.",
+   "corrected_text": "The SPL Agate activity report for 2023 (undated; read on 21 October 2026) says inspectors made 458,931 checks in the city-centre zone and issued 51,215 post-parking charges, 11.16% of checks. It says vehicle-mounted plate-reading control (LAPI) would start in 2024, as a pre-check, to raise spontaneous payment.",
+   "corrected_title": null,
+   "corrected_date": "2026-10",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Objectif Gard page (updated 21.12.2024; about 80% behind a paywall, but the visible text carries every claim) reproduces a city council answer written BEFORE 1 Jan 2025. It says from 1 January 2025 payment is required Mon-Fri 9-12 and 14-19 and Saturday 9-12; max stay 8 hours; FPS fixed at 25 EUR with no minoration; Crit'Air 0 (electric/hydrogen) and Crit'Air 1 (gas/hybrid) vehicles of residents of Nîmes and Nîmes Métropole get 2 free hours once a day per vehicle in the red and green zones 'a la mise en oeuvre de la ZFE ... au 1er janvier 2025'. The numbers are right, but the draft states them as in force; the page only announces them.",
+   "corrected_text": "A press article of 21 December 2024 sets out on-street rules due to apply from 1 January 2025: payment Monday to Friday 9:00-12:00 and 14:00-19:00 and Saturday 9:00-12:00, an 8-hour maximum stay, and a flat 25-euro post-parking charge with no reduced rate. It also says that, when the low-emission zone starts on 1 January 2025, residents of Nîmes and Nîmes Métropole with Crit'Air 0 (electric, hydrogen) or Crit'Air 1 (gas, hybrid) vehicles would get two free hours once a day per vehicle in the red and green zones.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "City press release of 28 Oct 2024 read in full (2 pages, text layer). It says the ZFE-m is a legal obligation (loi Climat et Résilience) that the agglomeration 'doit mettre en place au 1er janvier 2025' for five years, and that the city is OPENING A CONSULTATION that day on its new participation platform; it did not announce a decided scheme. Confirmed: whole commune territory; on 1 Jan 2025 only 'non-classés' vehicles restricted (under 3% of the running car fleet, 12% of heavy trucks); derogation routes A9, A54, N106, N113, D999, D40, D613 and others. But exemptions are for general-interest and public-transport vehicles, and 'des dérogations sont possibles' for low-mileage drivers (under 8,000 km a year); the draft says they are exempt. The page cannot show the ZFE actually started.",
+   "corrected_text": "A city press release of 28 October 2024 said Nîmes had a legal obligation to set up a low-emission zone (ZFE-m) for five years from 1 January 2025, and opened a public consultation on it. It covers the whole commune, and on 1 January 2025 only unclassified vehicles (under 3% of the running car fleet and 12% of heavy trucks) were to be restricted. Motorways (A9, A54), the N106 and N113 and some other routes are exempt routes, and exemptions are possible for vehicles of general interest, public transport and low-mileage drivers (under 8,000 km a year).",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Objectif Gard 22.02.2024 (partly paywalled; claims are in the visible text). Five streets named (Alexandre-Ducros, Jean-Reboul, Porte de France, Saint-François, Sainte-Ursule) plus the gate, closed to motor traffic with three retractable bollards (access kept for residents, deliveries, medical, taxis, emergency); 20 surface spaces removed; Arènes car park expected by the city to absorb displaced parking; cost 250,000 EUR (bollards, connections, signage); new circulation plan 'd'ici l'automne 2025'. Worded as a plan, as the page is. Works were planned from spring 2024 to autumn 2025.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Nîmes Métropole decision FIN2026-03-085 read in full (scanned PDF, OCR text with errors but legible). Prefecture stamp: transmitted 10/04/2026 (publication stamp 11 Apr 2026; the decision's own signing date is garbled). It requests State Fonds Vert funding of 80,000 EUR (80%) for the pre-operational phase of the Caveirac multimodal hub (PEM), estimated at 100,000 EUR HT, covering studies and land acquisition; Nîmes Métropole pays the remaining 20,000 EUR. It links the PEM to the deployment of the T5 high-service line (Vaunage - Nîmes). The decision does not mention park-and-ride or parking, only a multimodal interchange hub.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Objectif Gard 12.02.2022 (partly paywalled). Visible text says the second section of T2 will enter service in early September 2022 (station to Paloma in 15 minutes) and that a 400-space park-and-ride, shared with the concert hall, will be available. But '11.5 km, 21 stops, 123 million euros' describe the WHOLE T2 line ('Au total, la T2 est un projet à 123 M EUR ... 21 stations ... 11,5 km'), not the second section; the first section already ran from January 2020. The announcement comes from the journalist's report of a press visit by the Nîmes Métropole president.",
+   "corrected_text": "A February 2022 press report on a site visit by the Nîmes Métropole president said the second section of the T2 high-service bus line would enter service in early September 2022, linking the station to the Paloma venue in 15 minutes. It gave 123 million euros, 21 stations and 11.5 km for the whole T2 line. A 400-space park-and-ride at Paloma, shared with the concert hall, was to be available to users.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Objectif Gard page (page 'mise à jour le 14.04.2026'; about 80% behind a paywall, visible part has all claims). The mayor Vincent Bouget announces 'cet après-midi' that the project 'porté par l'ancienne municipalité' (318 places, four levels, near the h2 congress centre, Placette quarter) is suspended to be re-studied after strong opposition from residents and associations; his urban-planning deputy Pierre Jaumain is to work with residents and the delegate Tissot on a new project. The page gives 14 April as its update date; the announcement day is 'cet après-midi', so the date rests on that. Note the project was carried by the previous administration, and the suspension is by the new mayor.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Objectif Gard 03.02.2026 (partly paywalled; claims in visible text). Tissot and GGL own parcel EX566; a first building permit application was FILED on 25 Oct 2022 (63 flats, three parking levels, 219 spaces, 1,500 m2 of activity space, 'aucune contestation notable'); new programme: 318 spaces, no immediate flats (30 could be added later), 1,275 m2 of services, night subscription at 30 EUR a month 'pour les riverains', fast EV charging, 20 PMR spaces; 'Le permis est actuellement en cours d'instruction'. The draft says 'replacing a 2022 permit', which implies a permit was granted; the page says only that an application was filed. Presenters are private developers, not the city. The page does not link this to the 14 April suspension by name, but the Placette article also cites 318 places, Tissot and the former Vaisseau 3008 site.",
+   "corrected_text": "In February 2026 the developers Tissot and GGL, who own parcel EX566 in the city centre, presented a revised project with 318 parking spaces, replacing the programme of a building-permit application filed on 25 October 2022 (63 flats and 219 spaces). They announced a night subscription at 30 euros a month for residents, fast EV chargers and 20 accessible spaces. The new permit was still under review.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Objectif Gard 24 May 2025 (updated), read in full by the coordinator after the original fact-check skipped this item: 16-place cyclopark in the Indigo Porte Auguste car park, opened early 2025, three car spaces removed, 4 euros a month or 32 euros a year, about 40,000 euros investment of which 16,000 subsidised. All as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Objectif Gard 06.01.2026 (updated). Page says the 2024 report was presented at the last council; concessions to Indigo, Q-Park, Interparking and SPL Agate (surface), 'de 11 à 61 ans' in the text (heading says 11 to 60); Arènes (Indigo) conceded 1968 for 61 years; Interparking has run Les Halles since 1970 until 2029. As written. Secondary press summary of the city report.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Same page. Fees ('redevances') paid to the city in 2024: 648,550 EUR, +25% on 2023; Arènes 3.3 M EUR revenue (+8.7%) and Maison Carrée 2.4 M EUR (+10%); Gare-Feuchères 'diminution de 15% des recettes en 2024 par rapport à 2019' and visits 'quasi diminué de moitié' since 2019. As written. Figures are the newspaper's account of the city report.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Same page. Average fill rate ('taux de remplissage moyen') 68% Monday-Friday 9h-18h against 64% in 2023; 'environ 800 places libres même en cumulant le remplissage maximal'; 3,616 subscribers; peaks at Arènes and Maison Carrée 10h-16h especially Fridays; free tickets 26% in 2024 (48% at Arènes). As written. Note the 68% is a network-wide figure, not per car park; the page calls Arènes and Maison Carrée the most attractive by revenue and visits and Gare-Feuchères and Jean-Jaurès less attractive with spaces available. The 68% rests only on this press summary.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Sopark/Indigo 2021 report (82-page PDF, text layer, read in the relevant parts). Fiche d'identité: contract signed 21 April 1986, start 9 May 1988, end 12 August 2036; 'Société titulaire du contrat: Sopark', 'Société exploitante: Indigo Park'. 545 spaces, 1 EV charging point ('1 borne de recharge électrique est opérationnelle'). Total hourly 'fréquentations' 268,859 in 2021 vs 333,466 in 2019 (paid 224,988 plus free exits 43,871), i.e. visits, not only exits. The report does not say Sopark is an Indigo group company; it lists Sopark as contract holder and Indigo Park as operator. Report is undated (PDF metadata May 2022), so date moved to the retrieval month.",
+   "corrected_text": "The City of Nîmes' 2021 annual report for the Maison Carrée car park (undated; read on 21 October 2026) names Sopark as the contract holder and Indigo Park as the operator. The 545-space car park runs under a concession signed on 21 April 1986 that ends on 12 August 2036. Hourly visits, paid and free, were 268,859 in 2021 against 333,466 in 2019, and the report lists one EV charging point.",
+   "corrected_title": null,
+   "corrected_date": "2026-10",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Q-Park 2023 report (83-page PDF, text layer). Council deliberation of 1 April 2006; Jean Jaurès car park open since August 2008; total term 45 years; 466 spaces; 1,232 on-street spaces (avenant 11); hourly entries 62,832 in 2023 vs 65,241 in 2022 (-4%); hourly tariff 2 hours 4.00 EUR (first 30 minutes free), tariffs given for 1 Jan to 31 Dec 2023. All as written. Report is undated (PDF metadata May 2024), so date moved to the retrieval month and read-on phrase added.",
+   "corrected_text": "Q-Park runs the 466-space Jean Jaurès car park and 1,232 on-street spaces under a 2006 contract with a 45-year term. The car park had 62,832 hourly entries in 2023, 4% fewer than in 2022, and charged 4.00 euros for two hours. The report is undated (read on 21 October 2026).",
+   "corrected_title": null,
+   "corrected_date": "2026-10",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "Same Q-Park report p.49: 'Au titre de l'année 2023, nous avons investi ... 82K EUR: achat de 18 horodateurs pour l'extension voirie; mise en place de 10 bornes IRVE; remise en peinture des locaux'. Fiche of the car park: 'Nombre de places véhicules électriques 10'. The report does not say the 10 EV spaces are counted inside the 466, and the 82K EUR also covered repainting premises; the 10 IRVE are in the contract investment list, not explicitly placed in the car park. Undated report; date moved to the retrieval month.",
+   "corrected_text": "The Q-Park activity report for 2023 on the Jean Jaurès contract (undated; read on 21 October 2026) lists 82,000 euros of investment in 2023: 18 pay machines for the on-street extension, 10 EV charging points (bornes IRVE) and repainting of operating premises. The car park's data sheet lists 10 EV spaces alongside a capacity of 466.",
+   "corrected_title": null,
+   "corrected_date": "2026-10",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "Objectif Gard 17.12.2023 (partly paywalled; claims in visible text). Councillor Marianne Bernède (opposition) says the Q-Park Jean Jaurès global contract pays the city no fee, other car parks paid 'un peu plus de 520 000 euros en 2022', contracts last 30 to 61 years, and the 2006 contract runs to 2051 and 'lui en coûte'. Correctly framed as her claim. But the page does not say the remarks were made at the 'December 2023 council'; it says only that the council examined the two reports (it also cites the 23 September council). Date is the article's 17 December 2023.",
+   "corrected_text": "A press article of 17 December 2023 reports an opposition councillor, Marianne Bernède, telling a municipal council debate on the parking reports that the Q-Park Jean Jaurès contract (signed 2006, running to 2051) pays the city no fee, while the other car parks paid just over 520,000 euros in 2022. This is the councillor's claim as reported. She also said the Nîmes parking contracts run 30 to 61 years.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Nîmes runs its city-centre parking through long concessions: Indigo, Q-Park and Interparking operate the car parks, with terms of 11 to 61 years according to local press in January 2026, and the public company SPL Agate runs the on-street spaces under a concession from 2017 to 2027. SPL Agate's activity report for 2023 records that the paid on-street area was extended on 2 October 2023, bringing the city-centre total to 4,829 contracted spaces, with a flat 25-euro post-parking charge. A December 2024 press article set out on-street rules due from 1 January 2025: payment Monday to Friday 9:00-12:00 and 14:00-19:00 and Saturday morning, an 8-hour maximum stay and no reduced post-parking charge. Local press in January 2026, summarising the city's 2024 report, put average weekday car park occupancy at 68% (64% in 2023); it named Arènes and Maison Carrée the most attractive car parks by revenue and visits, and Gare-Feuchères as in decline, but gave no per-car-park occupancy. In October 2024 the city set out a low-emission zone for the whole commune, due from 1 January 2025 under a legal obligation and restricting only unclassified vehicles at first, and opened a public consultation; this check did not confirm that it started or what its current status is. After the 2026 municipal election the new mayor, Vincent Bouget, suspended a planned 318-space car park near the h2 congress centre, a project of the previous administration, pending a new proposal worked out with residents and the delegate Tissot (reported 14 April 2026). A Nîmes Métropole decision transmitted on 10 April 2026 asks the State's Fonds Vert for 80,000 euros towards a 100,000-euro pre-operational phase for a multimodal interchange hub at Caveirac, linked to the planned T5 bus line."
+}

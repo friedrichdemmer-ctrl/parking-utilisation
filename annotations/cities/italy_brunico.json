@@ -1,0 +1,180 @@
+{
+ "country": "Italy",
+ "city": "Brunico",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Brunico (Bruneck) manages its paid parking through the municipal police office, which is entrusted with the administration and management of three underground garages (Parking Rathaus with 354 paid spaces, Parking NOBIS with 292, and the Gilm garage for annual subscribers only) and of the surface paid car parks. The municipal list of March 2026 also gives a hospital garage with 228 spaces, the station mobility centre car park with 220 spaces and graduated surface zones with a 750 euro all-zone annual permit. A 2020 traffic concept planned to move above-ground parking into underground garages and to create a pedestrian zone around Herzog-Sigmund-Strasse. Since then the station mobility centre was inaugurated in June 2022, the long-standing restrictions on Europastrasse were widened to a general driving ban in February 2024, and in April 2024 the town executive approved a land-use plan change for Bruneck Ost that foresees a Schlosswiese underground garage with 250 public spaces, which still needed council approval at that time. A January 2025 ParkPAD audit recorded stakeholder views that short-stay zones should be used more, that surface car parks should be reduced in favour of underground ones and that there were as yet no short-stay car parks for pick-ups, and in autumn 2025 the town executive set a payment in lieu of 25,000 euro per missing parking space for building projects. In 2026 the garage rules were amended on 4 February (the rules text gives free exit within 20 minutes), a press release of 10 February announced 30 free minutes at Parking Rathaus, the surface-parking directive was amended on 23 February, spaces in the NOBIS garage were offered for sale to private persons and companies from April, and a 30 km/h limit has applied across the urban area since June. The sources found give tariffs and capacities but no occupancy figures, and the surface-parking directive mentions a digital parking guidance system only as something to be activated in future.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2020-02-19",
+   "text": "The 2020 traffic concept (foreword dated 19 February 2020) plans to move above-ground parking into underground garages and to create a new pedestrian zone around Herzog-Sigmund-Strasse. It expects about 1,700 public car spaces to be served in future via a new Stegener Marktplatz access: 350 at the Rathaus garage, 300 at the NOI Techpark garage, 340 at the mobility centre (alternative access still to be examined) and about 700 at Stegener Marktplatz in the main season only.",
+   "source_title": "Verkehrskonzepte - Verkehrskonzept Bruneck 2020 (PDF) - Stadtgemeinde Bruneck",
+   "source_url": "https://www.gemeinde.bruneck.bz.it/de/Neuigkeiten/News/Verkehrskonzepte",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2020-09-10",
+   "text": "With the construction contract for the station mobility centre just signed and the first construction phase about to be launched, the provincial mobility portal said about 3,000 people board a train or bus there on school days and the station averages 1,700 ticket check-ins per day (up to 50,000 a month), fourth in South Tyrol after Bolzano, Merano and Bressanone. The first construction phase was announced as 230 car parking spaces and a new bus terminal.",
+   "source_title": "Brunico/Bruneck Mobility Centre: construction works under way - suedtirolmobil.info",
+   "source_url": "https://www.suedtirolmobil.info/en/news/details/brunico-bruneck-mobility-centre-construction-works-under-way",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2022-06-16",
+   "text": "The station mobility centre was opened on 16 June 2022 by the provincial government, with the South Tyrol transport company STA coordinating the roughly 7.5 million euro project (about 4.5 million euro from the EU regional fund). It has about 300 covered bicycle spaces and 40 motorbike spaces, and the car park is reached through a tunnel from Stegener Marktplatz.",
+   "source_title": "New Mobility Centre in Brunico/Bruneck - suedtirolmobil.info",
+   "source_url": "https://www.suedtirolmobil.info/en/news/details/new-mobility-centre-in-brunico-bruneck",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-03-05",
+   "text": "Since February 2024 a general driving ban applies on the whole of Europastrasse behind the town hall, with permits needed for loading and access to private parking. The local police counted 178 violations in the first month and recommended the Rathaus and NOBIS garages, as there is no parking there apart from some disabled bays.",
+   "source_title": "Die Ortspolizei informiert: Fahrverbot in der Europastrasse - Stadtgemeinde Bruneck",
+   "source_url": "https://www.gemeinde.bruneck.bz.it/de/Neuigkeiten/News/Die_Ortspolizei_informiert_Fahrverbot_in_der_Europastrasse_Genehmigungen_und_Kontrollen_2",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-04-10",
+   "text": "The town executive approved a land-use plan change for the Bruneck Ost mobility concept on 8 April 2024, which still needed council approval. It plans an underground garage at the Schlosswiese with 250 public spaces, a pedestrian zone in the upper town and, for Bruneck Ost, a 69 percent cut in motorised traffic.",
+   "source_title": "Bruneck Ost: Verkehrsentlastung und neue Lebensqualitaet bei gleichzeitiger Erreichbarkeit - Stadtgemeinde Bruneck",
+   "source_url": "https://www.gemeinde.bruneck.bz.it/de/Neuigkeiten/News/Bruneck_Ost_Verkehrsentlastung_und_neue_Lebensqualitaet_bei_gleichzeitiger_Erreichbarkeit_1",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-02-19",
+   "text": "An Interreg ParkPAD audit completed in January 2025 listed Bruneck's parking challenges from stakeholder discussions: short-stay zones should be used more, surface car parks reduced in favour of underground ones, and the planned Schlosswiese garage was seen as not ideal. It also noted there were as yet no short-stay car parks for pick-ups.",
+   "source_title": "ParkPAD process in Sand in Taufers and Bruneck, Italy - Interreg Central Europe (NXTLVL Parking)",
+   "source_url": "https://www.interreg-central.eu/news/parkpad-audit-findings-in-sand-in-taufers-and-bruneck/",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-10-08",
+   "text": "The town executive approved in September 2025 a payment in lieu for building projects that cannot provide the required parking spaces, set at 25,000 euro per space for 2025 and adjusted yearly to provincial reference values. The money is meant for urban planning and traffic-steering measures.",
+   "source_title": "Ersatzzahlung fuer nicht realisierbare Stellplaetze: neue Regelung - Stadtgemeinde Bruneck",
+   "source_url": "https://www.gemeinde.bruneck.bz.it/de/Neuigkeiten/Pressemitteilungen/Ersatzzahlung_fuer_nicht_realisierbare_Stellplaetze_neue_Regelung",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-02-04",
+   "text": "The council amended the rules for the Parking Rathaus, Parking NOBIS and Gilm underground garages on 4 February 2026 (resolution no. 3); the municipal police run all three. The Gilm garage is for annual subscribers only, the other two take short-stay and subscription users, accept Telepass and card payment at exit, and exit is free within 20 minutes of entry.",
+   "source_title": "Garagenordnung Parking Rathaus, Parking NOBIS und Gilmparkgarage - Stadtgemeinde Bruneck",
+   "source_url": "https://www.gemeinde.bruneck.bz.it/de/Verwaltung/Dokumente/Parkhaus_Parking_Rathaus_Parkhaus_Parking_NOBIS_und_Gilmparkgarage_Garagenordnung",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-02-10",
+   "text": "The Parking Rathaus garage introduced 30 minutes of free parking from 10 February 2026, so that people can run quick errands or drop off and collect children without paying. The ticket must be validated at a pay station before exit.",
+   "source_title": "Parking Rathaus: kostenlos parken fuer schnelle Erledigungen - Stadtgemeinde Bruneck",
+   "source_url": "https://www.gemeinde.bruneck.bz.it/de/Neuigkeiten/Pressemitteilungen/Parking_Rathaus_kostenlos_parken_fuer_schnelle_Erledigungen",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-03",
+   "text": "The municipal list of paid car parks (state March 2026) gives Parking Rathaus 354 spaces at 1.80 euro per hour Monday-Friday 8-20 and 1.40 euro otherwise, and Parking NOBIS 292 spaces at 1.60 and 1.20 euro. The hospital garage has 228 spaces at 2.00 euro per hour from 8 to 20 daily and 1.20 euro otherwise, and the mobility centre lot has 220 spaces at 1.00 euro per hour with the first 60 minutes free; all four are open 24 hours.",
+   "source_title": "Gebuehrenpflichtige Parkplaetze (Aufstellung, Stand Maerz 2026) - Stadtgemeinde Bruneck",
+   "source_url": "https://www.gemeinde.bruneck.bz.it/de/Verwaltung/Dokumente/Gebuehrenpflichtige_Parkplaetze",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-03-01",
+   "text": "The surface-parking directive (amended by resolution no. 65 of 23 February 2026) sets 1.80 euro per hour with a 90-minute maximum in zone A, 3.00 euro with a 90-minute maximum in zone A2, 1.80 euro with a 180-minute maximum in zone B and 1.00 euro with an 11-hour maximum in zone C (zone C4: 1.00 euro, 8.5-hour maximum, charged Monday-Friday 8:00-16:30 and free on Saturday). Stegener Marktplatz (zone D) is 1.00 euro per hour with a 5 euro day rate for cars and is charged every day from 0:00 to 24:00. Zones A-C are charged Monday-Friday 8:00-19:00 and Saturday 8:00-13:00 and are free on Sundays and holidays (zones D and F excepted). An annual permit for all zones costs 750 euro.",
+   "source_title": "Richtlinie fuer die Bewirtschaftung der oberirdischen gebuehrenpflichtigen Parkplaetze - Stadtgemeinde Bruneck",
+   "source_url": "https://www.gemeinde.bruneck.bz.it/de/Verwaltung/Dokumente/Richtlinie_fuer_die_Bewirtschaftung_der_oberirdischen_gebuehrenpflichtigen_Parkplaetze_und_der_Genehmigung_fuer_Parkscheibenzonen",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-03-01",
+   "text": "The same directive says the aims are to minimise parking-search traffic, discourage all-day parking in the centre and steer drivers to free and fringe car parks. It allows payment through mobile apps and says that once a digital parking guidance system is activated, the app should show free spaces.",
+   "source_title": "Richtlinie fuer die Bewirtschaftung der oberirdischen gebuehrenpflichtigen Parkplaetze - Stadtgemeinde Bruneck",
+   "source_url": "https://www.gemeinde.bruneck.bz.it/de/Verwaltung/Dokumente/Richtlinie_fuer_die_Bewirtschaftung_der_oberirdischen_gebuehrenpflichtigen_Parkplaetze_und_der_Genehmigung_fuer_Parkscheibenzonen",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-03",
+   "text": "The municipal car park lists (state March 2026) show 6 electric-vehicle spaces at the mobility centre, 8 at Parking NOBIS, 2 at Kapuzinerplatz and 2 charging stations at the Auffangparkplatz Nord. The surface-parking directive also sets a 120 euro annual permit for electric vehicles of people working or living in Bruneck.",
+   "source_title": "Gebuehrenpflichtige Parkplaetze and Gebuehrenfreie Parkplaetze (Aufstellung, Stand Maerz 2026) - Stadtgemeinde Bruneck",
+   "source_url": "https://www.gemeinde.bruneck.bz.it/de/Verwaltung/Dokumente/Gebuehrenfreie_Parkplaetze",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-04-23",
+   "text": "The municipality announced on 23 April 2026 that private persons and companies can buy spaces in the Parking NOBIS underground garage at the NOI Techpark in Stegener Strasse, available immediately. A site plan and price list are available on request.",
+   "source_title": "Parkplaetze im Parking NOBIS stehen zum Verkauf - Stadtgemeinde Bruneck",
+   "source_url": "https://www.gemeinde.bruneck.bz.it/de/Neuigkeiten/News/Parkplaetze_im_Parking_NOBIS_stehen_zum_Verkauf",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-09-28",
+   "text": "The municipality said in a press release of 28 September 2026 that a 30 km/h limit has applied across Bruneck's urban area since June 2026. The Graben is closed to individual (private) traffic during events, and the town is assessing the effects on residents, businesses, visitors and the surrounding streets; a permanent closure can be decided only once the traffic-concept measures in those streets are implemented.",
+   "source_title": "Klimamonat: Klimafreundliche Mobilitaet auf dem Vormarsch - Stadtgemeinde Bruneck",
+   "source_url": "https://www.gemeinde.bruneck.bz.it/de/Neuigkeiten/Pressemitteilungen/Klimamonat_Klimafreundliche_Mobilitaet_auf_dem_Vormarsch",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "The Speck Festival arrival page (event 26-27 September 2026) says parking at the Kronplatz Reischach valley station is chargeable, while parking at the Olang/Gassl valley station is free. No fee amount is given; the page is undated and was read on 21 October 2026.",
+   "source_title": "Arrival - Speck Alto Adige Festival, Kronplatz Events",
+   "source_url": "https://www.kronplatzevents.com/en/events/speck-festival/arrival",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "No occupancy, utilisation or live availability display for any Brunico car park was found; the surface-parking directive only mentions a digital guidance system as a future option.",
+  "The browser pane would not open a new tab (tab cap reached), so pages were read as raw HTML with Python and PDFs with pypdf instead; the web search budget ran out before the press (Dolomiten, Suedtirol News, Salto, Rai Suedtirol, Alto Adige) could be searched, and the stol.it Gemeindeblatt article on the Tennisweg car park returned a 404.",
+  "Operators other than the municipal police (Stadtwerke Bruneck, Azienda Servizi Brunico) were not found: neither site could be opened, and the Garagenordnung names the Ortspolizei as manager of the three underground garages.",
+  "Status of the Schlosswiese garage after April 2024 and the Bruneck Ost plan's council approval; a Change.org petition against it was not used as a source.",
+  "Stadtgasse pedestrian zone and any blue-zone (Kurzparkzone) decisions beyond the Herzog-Sigmund-Strasse and Europastrasse items; only the 2020 traffic concept, the Dec 2023 study and the 2024 driving ban were read. The 2008 and 2018 traffic concept PDFs were not read.",
+  "Kronplatz valley-station parking fees and lift-parking capacity (kronplatz.com has no parking page that could be located).",
+  "EV charging-point counts and operators for public chargers in town (only EV-designated spaces in the municipal list); the Telepass page naming a 361-space 'Parking Centro Città' was not used, so the link between that name and Parking Rathaus is unconfirmed.",
+  "Parkplatz Krankenhaus and Dietenheim sports-zone car park details beyond the tariff list; the January 2026 hydrogen and 400 kW charging station at the Brunico Est exit (trade press only) was not recorded."
+ ],
+ "dropped": {}
+}

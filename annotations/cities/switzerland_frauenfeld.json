@@ -1,0 +1,173 @@
+{
+ "country": "Switzerland",
+ "city": "Frauenfeld",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Frauenfeld's city owns six of its 14 public car parks or garages, and the city's Smart Parking page (undated, read on 21 October 2026) says camera-based occupancy measurement covers five of them (Unteres and Oberes Mätteli, Marktplatz, the Altstadt streets, Zürcherstrasse), with Parkhaus Altstadt added without cameras from September 2025. In a 2021 voting brochure the Stadtrat said the large garages near the old town other than Marktplatz and Parkhaus Altstadt are privately run and outside city control over hours and tariffs, and it wanted car parks whose tariffs it controls so that fees can steer traffic. The same brochure, as the authorities' own account, counted a net loss of 42 public spaces in the centre over ten years and expected further cuts at the Mätteli sites; its utilisation figures (about 30% for Parkhaus Altstadt, about 65% for the Marktplatz garage) are undated statements in a voting brochure, not measured outcomes. The Gemeinderat approved a CHF 1.75 million credit for 50 public spaces in the cantonal government building garage, and a referendum took it to the 26 September 2021 vote; a 2022 brochure's opposing arguments refer to the rejection of that participation, but the vote result itself was not confirmed from an official page. Voters approved a CHF 11.3 million credit for inner-city streets in 2022, and the August 2026 information says some spaces on Freie-Strasse, Promenade and Rheinstrasse will be removed and replaced, partly through a space swap with the canton; the plans were on public exhibition from 14 August to 2 September 2026, with construction planned from 2027 to 2030 subject to appeals. The Stadtrat approved a Smart Parking interim report on 18 August 2026: the pilot ran from November 2023 to November 2024, continuation to 31 December 2027 was approved in December 2024, and a final report is due in autumn 2027; the occupancy data is meant to feed the planned total revision of the Parkierungsreglement. Political friction continues, with an SVP inquiry reported on 30 January 2026 about parking cuts and lost fee income (the answer was not found). A draft revision of the private-parking regulation (version of 1 July 2025, not in force) proposes raising the replacement levy from CHF 8,000 to CHF 10,000 per car space. A city table of paid car parks dated March 2018 gives opening hours and maximum stays but no prices, and may be out of date. Resident permits cost CHF 30, and Thurplus lists three public charging stations; current CHF tariffs and the fee regulation could not be confirmed from readable official pages.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2021-09",
+   "text": "Ahead of the 26 September 2021 vote, the Stadtrat said it wants a revised parking regulation that sets fees so they steer traffic, not only recover costs, and therefore wants car parks whose tariffs the city controls. It put the city's special 'Parkierung' fund, fed by replacement levies and parking fees, at just under CHF 6 million at end-2020, growing by about CHF 150,000 a year.",
+   "source_title": "Abstimmungsbotschaft: 50 öffentliche Parkplätze im Ergänzungsbau Regierungsgebäude (Volksabstimmung 26. September 2021)",
+   "source_url": "https://www.frauenfeld.ch/public/upload/assets/35593/StadtFrauenfeld_Abstimmungsbotschaft_50PP_Web_20210926.pdf?fp=1",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2021-09",
+   "text": "According to the Stadtrat in 2021, only two garages near the old town have public participation: the 63 public spaces in the Marktplatz building (open 24 hours) and Parkhaus Altstadt (open 07:00-21:00, city contribution CHF 2 million in 2013). Garages such as Schlosspark, Passage and Haus am Bahnhof are privately run, and the city has no influence on their hours or tariffs.",
+   "source_title": "Abstimmungsbotschaft: 50 öffentliche Parkplätze im Ergänzungsbau Regierungsgebäude (Volksabstimmung 26. September 2021)",
+   "source_url": "https://www.frauenfeld.ch/public/upload/assets/35593/StadtFrauenfeld_Abstimmungsbotschaft_50PP_Web_20210926.pdf?fp=1",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2021-09",
+   "text": "The Stadtrat stated in 2021 that counts put utilisation of Parkhaus Altstadt at about 30% and of the Marktplatz garage at about 65%. Opponents of the credit argued the Altstadt garage was mostly nearly empty and counted about 2,000 publicly accessible spaces in the inner city, about half underground.",
+   "source_title": "Abstimmungsbotschaft: 50 öffentliche Parkplätze im Ergänzungsbau Regierungsgebäude (Volksabstimmung 26. September 2021)",
+   "source_url": "https://www.frauenfeld.ch/public/upload/assets/35593/StadtFrauenfeld_Abstimmungsbotschaft_50PP_Web_20210926.pdf?fp=1",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2021-09",
+   "text": "The Gemeinderat approved on 17 March 2021, by 25 votes to 14, a CHF 1.75 million credit (CHF 35,000 per space) to secure the public use of 50 spaces in the underground garage of the new cantonal government building (215 spaces in total). Opponents on the council used the authorities' referendum (13 votes), which sent the credit to a public vote on 26 September 2021. The brochure says the canton expected the building to go into operation around end-2024 or early 2025.",
+   "source_title": "Abstimmungsbotschaft: 50 öffentliche Parkplätze im Ergänzungsbau Regierungsgebäude (Volksabstimmung 26. September 2021)",
+   "source_url": "https://www.frauenfeld.ch/public/upload/assets/35593/StadtFrauenfeld_Abstimmungsbotschaft_50PP_Web_20210926.pdf?fp=1",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2021-09",
+   "text": "The 2021 brochure listed past losses: over ten years the city centre lost 42 public spaces net, and 160 spaces north of the station were removed with 143 created at Unteres Mätteli. It also said about 40 spaces at Unteres Mätteli were expected to go for a cultural pavilion, and that further reductions at Oberes Mätteli were open because of the planned 'Markt Thurgau' and barracks-site reuse.",
+   "source_title": "Abstimmungsbotschaft: 50 öffentliche Parkplätze im Ergänzungsbau Regierungsgebäude (Volksabstimmung 26. September 2021)",
+   "source_url": "https://www.frauenfeld.ch/public/upload/assets/35593/StadtFrauenfeld_Abstimmungsbotschaft_50PP_Web_20210926.pdf?fp=1",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-05",
+   "text": "The 15 May 2022 voting brochure put a CHF 11.3 million credit for upgrading inner-city streets to a vote, plus the question 'Altstadt autofrei?', defined as pedestrian zones with no car parking for visitors and residents. If the car-free option were rejected, a 20 km/h Begegnungszone with a reduced number of parking spaces on Freie-Strasse would apply. The brochure's opposing arguments also refer to the earlier rejection of the city's participation in the 50-space garage.",
+   "source_title": "Abstimmungsbotschaft Rahmenkredit Aufwertung Strassenräume Innenstadt und Grundsatzfrage «Altstadt autofrei?» (15. Mai 2022)",
+   "source_url": "https://www.frauenfeld.ch/public/upload/assets/37231/StadtFrauenfeld_RahmenkreditInnenstadt_GrundsatzfrageAltstad.pdf?fp=1",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01-30",
+   "text": "SVP Gemeinderätin Christa Zahnd filed a Einfache Anfrage asking how many public parking spaces existed on 1 January 2020 and 31 July 2025, how many will remain on 31 December 2027, and what revenue loss the Stadtrat expects against 2019. She links possible space losses to the Verkehrskonzept Frauenfeld Ost, the inner-city street credit and the bicycle priority route; the Stadtrat's answer was due mid-February 2026 and was not found.",
+   "source_title": "Anfrage an den Frauenfelder Stadtrat: Angst vor Parkplatzabbau und Umsatzverlust (Luzerner Zeitung)",
+   "source_url": "https://kildare.luzernerzeitung.ch/ostschweiz/frauenfeld/anfrage-an-den-frauenfelder-stadtrat-angst-vor-parkplatzabbau-und-umsatzverlust-ld.4113240",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "supported",
+   "read_limit": "headline"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-07",
+   "text": "The city's draft total revision of its regulation on private parking spaces (explanatory report, version of 1 July 2025) proposes raising the replacement levy for a missing car space from CHF 8,000 to CHF 10,000, and sets lower space requirements than the VSS standard where practice shows the standard is too high for Frauenfeld. The Stadtrat released the draft for public consultation on 18 June 2024; documents were on display from 28 June to 30 September 2024 and 12 submissions were received. The sections on public exhibition and approval by the Stadtrat and Gemeinderat were still blank, and the draft is not in force.",
+   "source_title": "Abstellplatzreglement Totalrevision: Erläuternder Bericht und Synopse (Version 1. Juli 2025)",
+   "source_url": "https://www.frauenfeld.ch/public/upload/assets/46153/Abstellplatzreglement%20Stadt%20Frauenfeld%20-%20%C3%84nderungen%20Mitwirkung.pdf?fp=1",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-08",
+   "text": "In the August 2026 information on the inner-city street projects, the city says some spaces on Promenade, Freie-Strasse and Rheinstrasse must be removed but will be replaced, partly through a swap with the canton that opens more public spaces at the Obergericht and moves cantonal spaces into Parkgarage Altstadt. The plans were on public exhibition in August 2026 (until 2 September); building is planned for Zürcherstrasse 2027-28, Freie-Strasse, Rheinstrasse, Rathausplatz and Ringstrasse 2028-29, and Promenade from 2030, subject to appeals.",
+   "source_title": "Strassenraum ist Lebensraum: Information zu den Auflage-Projekten Schlüsselgebiet Innenstadt",
+   "source_url": "https://www.frauenfeld.ch/public/upload/assets/47866/734.26030.004_BGK-Innenstadt_Broschu%CC%88re_050826.pdf?fp=1",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-08-18",
+   "text": "The Stadtrat approved on 18 August 2026 an interim report on Smart Parking. The pilot ran from 1 November 2023 to 30 November 2024, continuation to 31 December 2027 was approved in December 2024, and a final report with a recommendation to continue or stop is due in autumn 2027.",
+   "source_title": "Mitteilungen aus dem Stadtrat vom 18. August 2026",
+   "source_url": "https://www.frauenfeld.ch/public/upload/assets/47952/Mitteilungen%20aus%20dem%20Stadtrat%20vom%2018.%20August%202026.pdf?fp=1",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-08-18",
+   "text": "The same notice says the occupancy data is meant to feed the planning of monitored car parks, communal master planning and the total revision of the Parkierungsreglement, and that use of the Regio Frauenfeld app is rising continuously. The city describes the system as an alternative to a classic sign-based Parkleitsystem.",
+   "source_title": "Mitteilungen aus dem Stadtrat vom 18. August 2026",
+   "source_url": "https://www.frauenfeld.ch/public/upload/assets/47952/Mitteilungen%20aus%20dem%20Stadtrat%20vom%2018.%20August%202026.pdf?fp=1",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The city says Frauenfeld has 14 public car parks or garages, six of them city-owned; 24 cameras measure occupancy every 2 minutes at five car parks (Unteres Mätteli, Oberes Mätteli, Marktplatz, Altstadt Freie-Strasse/Bankplatz, Zürcherstrasse), with Parkhaus Altstadt added from September 2025 without cameras. Funding is about half Metropolitanraum Zürich and half the city's parking fund, with Parquery AG as technology partner; the page is undated and was read on 21 October 2026.",
+   "source_title": "Smart Parking – Stadt Frauenfeld",
+   "source_url": "https://www.frauenfeld.ch/wohnen-mobilitaet/mobilitaet/smart-parking.html/2327",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "The Thurgau open-data portal lists the Frauenfeld occupancy dataset for five city-owned car parks (including Marktplatz as separate 2-hour and 10-hour areas), updated every 5 minutes, and warns the data are unvalidated measurements. The page was read on 21 October 2026 and showed 20 October 2026 as its issue and modification date.",
+   "source_title": "Parkplatzbelegung Stadt Frauenfeld (opendata.swiss)",
+   "source_url": "https://ckan.opendata.swiss/en/perma/frauenfeld-1@kanton-thurgau",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Residents and firms in the zones Ergaten, Kurzdorf, Mühletobel and Eisenwerk can get a resident parking permit for CHF 30: after an online application and approval, the permit is bought as an annual permit (Jahresbewilligung) through a Parkingpay account on parkingpay.ch, or it can be obtained at the Rathaus reception. Regular overnight parking on public ground is charged an extra night-parking fee. The page is undated and was read on 21 October 2026; no commuter permit is listed, only a leaflet for craftspeople and traders.",
+   "source_title": "2026-10",
+   "source_url": "https://www.frauenfeld.ch/wohnen-mobilitaet/mobilitaet/oeffentliche-parkierungen.html/409",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "Thurplus lists three public charging stations in Frauenfeld, each with two 22 kW connectors, supplied with 100% locally produced solar power; they can be unlocked with the Ost-mobil card or by QR code on a smartphone, and occasional users can pay by credit card. The page is undated and was read on 21 October 2026.",
+   "source_title": "2026-10",
+   "source_url": "https://www.thurplus.ch/fuer-private/produkte/e-mobilitaet/oeffentliche-ladestationen.html/54",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "Browser-pane tab could not be opened (tabs_create failed), so pages were read as full text via curl plus a local HTML-to-text script, and PDFs via pypdf in isolated mode.",
+  "Parkingpay (parkingpay.ch) returns 403 behind a Cloudflare challenge: https://www.parkingpay.ch/de/frauenfeld. No current CHF hourly or daily tariffs for Marktplatz, Mätteli, Bankplatz or Parkhaus Marktplatz were found.",
+  "The legal text of the Parkierungsreglement and fee rules on https://frauenfeld.tlex.ch (JavaScript app) could not be read, so the fee regime in force and the draft Parkierungsreglement revision are not documented.",
+  "Night-parking flyer https://www.frauenfeld.ch/public/upload/assets/34321/Flyer%20Nachtparkieren.pdf is an image-only PDF with no extractable text, so night-parking fees are unknown.",
+  "Cantonal answer on the 2021 garage credit https://parlament.tg.ch/public/upload/assets/122287/05_Beantwortung_EA_Fehlende_Nachfrage_Tiefgaragenplaetze_FF.pdf returns 404. Luzerner Zeitung articles on the 2022 votes (e.g. ld.2383153) are paywalled and were not used.",
+  "No official page with vote counts was found for the 26 September 2021 vote on the 50 garage spaces or the 15 May 2022 vote on 'Altstadt autofrei?'; only the 2022 brochure's reference to the rejection of the garage credit and the 2026 city statement that voters approved the CHF 11.3 million credit in 2022.",
+  "The Stadtrat answer to the SVP inquiry of January 2026, the parking effects of the cantonal Verkehrskonzept Frauenfeld Ost, the current status of 'Markt Thurgau' / barracks site and Oberes Mätteli, any Parkhaus or P+R Bahnhof plans, commuter permits, and the Thurplus charger locations table were not found or not readable.",
+  "WebSearch budget ran out and frauenfeld.ch began returning HTTP 429, so further news (Thurgauer Zeitung, Frauenfelder Woche, SRF) and the press-release list could not be searched or opened."
+ ],
+ "dropped": {
+  "low confidence": 1
+ }
+}

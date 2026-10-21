@@ -1,0 +1,165 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "2021 voting brochure (PDF read in full via pypdf), pp. 3-4 and 8: Stadtrat wants the revised Parkierungsreglement to set fees with a steering effect, not only by cost, and therefore wants car parks with city-controlled tariffs; the Spezialfinanzierung 'Parkierung' is fed by replacement levies and parking fees, stood at just under CHF 6 million at end-2020 and tends to grow by about CHF 150,000 a year. The item correctly frames these as the Stadtrat's statements ahead of the vote. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Brochure p. 4: 1996 credit gave 27 underground spaces in the Marktplatz building, 63 public spaces in total, open 24 hours, 7 days; 2013 contribution of CHF 2 million to private Parkhaus Altstadt (at least 60 public spaces), open 07:00-21:00; 'these two are the only ones with public participation'; Schlosspark, Passage and Haus am Bahnhof privately run and the city has no influence on hours, permissions or tariffs. All as written, attributed to the Stadtrat in 2021.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Brochure p. 4 (Stadtrat text): Parkhaus Altstadt utilisation 'ca. 30 %', Parkhaus am Marktplatz 'ca. 65 %', 'mit verschiedenen Zählungen belegt'; no count dates are given. Brochure p. 11 (opposing committee): garage 'meistens fast leer', about 2,000 publicly accessible spaces in the inner city, about half surface and half underground. The item words these as statements by the Stadtrat and by opponents (not as outcomes), which is correct. Keep that framing; the figures are undated 2021 claims in a voting brochure.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Brochure pp. 2, 8, 10, 14: Gemeinderat approved 25 to 14 on 17 March 2021; credit CHF 1.75 million, CHF 35,000 per space for 50 public spaces in the 215-space garage of the cantonal Ergänzungsbau; the council opponents used the Behördenreferendum (13 votes) so it went to the 26 September 2021 vote. WRONG attribution: the end-2024/early-2025 opening is the canton's expectation ('Derzeit geht der Kanton von einer Inbetriebnahme ... Ende 2024 resp. Anfang 2025 aus'; construction start planned Q2 2022), not the Stadtrat's.",
+   "corrected_text": "The Gemeinderat approved on 17 March 2021, by 25 votes to 14, a CHF 1.75 million credit (CHF 35,000 per space) to secure the public use of 50 spaces in the underground garage of the new cantonal government building (215 spaces in total). Opponents on the council used the authorities' referendum (13 votes), which sent the credit to a public vote on 26 September 2021. The brochure says the canton expected the building to go into operation around end-2024 or early 2025.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Brochure pp. 6, 9: over the last 10 years 42 spaces removed in the city centre (Altstadt +27: 63 new in Parkhaus Altstadt, 36 removed; wider centre -69: 160 removed north of the station, 143 created at Unteres Mätteli as partial compensation, etc.); about 40 spaces at Unteres Mätteli foreseeable to go for the KAFF cultural pavilion; reduction at Oberen Mätteli 'offen' because of 'Markt Thurgau' and barracks-site reuse. All as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "2022 brochure (PDF read in full): CHF 11.3 million Rahmenkredit and the question 'Altstadt autofrei?' for 15 May 2022. Autofrei is defined (p. 10) as pedestrian zone, 'Es stehen keine Parkplätze mehr für Besuchende und Anwohnende bereit', delivery allowed. If rejected (p. 11): Begegnungszone 20 km/h and a reduced number of car parking spaces on Freie-Strasse. p. 16: opponents' argument cites the rejection of the participation in the garage at the government building. Item correctly says 'brochure's opposing arguments'. No vote result is claimed. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Luzerner Zeitung article (the URL host is a kildare.luzernerzeitung.ch mirror; text read in full, not paywalled), by Olaf Kühne, 30.01.2026: SVP Gemeinderätin Christa Zahnd filed an Einfache Anfrage asking how many public spaces existed on 1 Jan 2020 and on 31 July 2025, how many will be available on 31 Dec 2027, and what revenue shortfall the Stadtrat expects against 2019 fees; she sees parking reductions in the Verkehrskonzept Frauenfeld Ost, the Rahmenkredit Innenstadt and the Velovorzugsroute; the Stadtrat has until mid-February to answer. All as written. It describes a question, not a finding; the item words it that way.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Explanatory report and synopsis, version 1 July 2025 (PDF, 22 pages): the draft raises the replacement levy from CHF 8,000 (current Art. 13) to CHF 10,000 per car space (draft Art. 20/19; motorcycles 2,000, bikes 1,000); requirements are set below VSS norm 40 281 where practice showed the norm too high; Stadtrat released the Reglementsentwurf for consultation by decision no. 168 on 18 June 2024, documents on display 28 June to 30 September 2024, 12 submissions received, sections 6.2-6.4 (Auflage, Stadtrat, Gemeinderat) still 'Wird im Verlauf des Verfahrens ergänzt'. UNSUPPORTED detail: calling the 2024 release an 'earlier draft'; the report does not say the 2025 version differs from the one released in 2024. It is a draft, not in force; the item words it as a proposal.",
+   "corrected_text": "The city's draft total revision of its regulation on private parking spaces (explanatory report, version of 1 July 2025) proposes raising the replacement levy for a missing car space from CHF 8,000 to CHF 10,000, and sets lower space requirements than the VSS standard where practice shows the standard is too high for Frauenfeld. The Stadtrat released the draft for public consultation on 18 June 2024; documents were on display from 28 June to 30 September 2024 and 12 submissions were received. The sections on public exhibition and approval by the Stadtrat and Gemeinderat were still blank, and the draft is not in force.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "August 2026 brochure 'Strassenraum ist Lebensraum' (PDF, 12 pages, pypdf): p. 5 'Für die Aufwertung ... müssen teilweise Parkplätze an Promenade, Freie-Strasse und Rheinstrasse aufgehoben werden. Diese werden ersetzt', swap with the canton opens additional public spaces at Obergericht and cantonal administration spaces move into Parkgarage Altstadt; p. 12: public exhibition 14 August - 2 September 2026; construction Zürcherstrasse (Vorstadt) 2027-2028, Freie-Strasse, Rheinstrasse, Rathausplatz, Ringstrasse 2028-2029, Promenade from 2030, schedule may shift with appeals. Also confirms the voters approved the CHF 11.3 million credit in 2022. As written. Note: as of 21 October 2026 the exhibition had already ended (2 September), so the summary should not say 'is now at public exhibition'.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Mitteilungen aus dem Stadtrat vom 18. August 2026 (PDF, 3 pages): Stadtrat takes note of and approves the Smart Parking interim report; pilot 1 Nov 2023 to 30 Nov 2024; continuation to 31 Dec 2027 approved by decision of December 2024; interim report mid-2026 and final report with recommendation to continue or stop in autumn 2027. As written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Same notice: data feed 'Grundlagen bei Erarbeitung der überwachten Parkplätze, der kommunalen Richtplanung, der Totalrevision des Parkierungsreglements'; app use 'nimmt kontinuierlich zu'; the project tests 'eine alternative Form eines klassischen Parkleitsystems mit Tafeln'. As written (a planning input, not a decided policy).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "City page read in full (curl, HTTP 200): 'vierzehn öffentliche Parkplätze oder Parkhäuser', six in city hands; 24 cameras, 2-minute interval, five car parks (Unteres Mätteli, Oberes Mätteli, Marktplatz, Altstadt Freie-Strasse/Bankplatz, Zürcherstrasse), Parkhaus Altstadt from September 2025 without cameras; funding about 50% Metropolitanraum Zürich and 50% the city's Fonds Parkplatzbewirtschaftung. Parquery AG is one of several listed external partners (also anthrazit, Habersaat, Siedler-Alarm, Thurplus, Uni Zürich) and the page calls it the Swiss cloud provider that converts images to numbers; 'technology partner' is a fair paraphrase but it is not the only partner. The page has no date; the item says it was read on 21 October 2026, which is the correct handling. The page still describes a one-year pilot, so it is partly stale.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "opendata.swiss dataset page (read 21 Oct 2026): five public car parks in city hands (Unteres Mätteli, Oberes Mätteli, Marktplatz 2 hours and 10 hours, Altstadt Freie-Strasse/Bankplatz, Zürcherstrasse), data updated every 5 minutes, 'unvalidierte Messdaten'; issued and modification date 20 October 2026. As written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "City page read in full: resident permits for zones Ergaten, Kurzdorf, Mühletobel, Eisenwerk; 'Kosten: 30 Franken'; regular overnight parking needs a separate Nachtparkgebühr; page undated; no commuter permit listed (there is a trades/craftsman permit leaflet). NOT SUPPORTED: 'via the Parkingpay app'. The page describes an online application form, activation of the number plate at Parkingpay, then registration and purchase of the 'Jahresbewilligung' on the website parkingpay.ch (the permit can also be collected at the Rathaus reception). The page does not say in so many words that CHF 30 is per year.",
+   "corrected_text": "Residents and firms in the zones Ergaten, Kurzdorf, Mühletobel and Eisenwerk can get a resident parking permit for CHF 30: after an online application and approval, the permit is bought as an annual permit (Jahresbewilligung) through a Parkingpay account on parkingpay.ch, or it can be obtained at the Rathaus reception. Regular overnight parking on public ground is charged an extra night-parking fee. The page is undated and was read on 21 October 2026; no commuter permit is listed, only a leaflet for craftspeople and traders.",
+   "corrected_title": "2026-10",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "PDF (22 KB) read: footer 'Stand: März 2018' (at the bottom of the table, not a heading); PDF metadata created 23 March 2018, modified 10 July 2024 (HTTP Last-Modified 10 Jul 2024). Row 6 Mätteli and row 38 Unteres Mätteli: Mon-Fri 08:00-19:00, Saturday 'frei', max 8 Tage; row 4 Marktplatz (Seite Thundorferstrasse) 2 Std., row 5 Marktplatz (Seite Marktstrasse) 1 Tag; row 14 Bankplatz Mon-Fri 08:00-19:00, Saturday 08:00-17:00, 1 Std.; no CHF amounts. Item is correctly flagged as possibly outdated, low confidence.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Thurplus page (read 21 Oct 2026): 'drei öffentliche E-Ladestationen von Thurplus', each with two 22 kW connectors, 100% locally produced solar power; page undated. The Sharemobil sentence is NOT on the cited page. I verified it separately at https://www.thurplus.ch/ueber-thurplus/presse/news/detail.html/33/news/416 (news of 7 February 2025: the pilot launched by the city together with Thurplus ends on 24 February 2025; pilot limited to two years; vehicle at Gaswerkstrasse), so the fact is true but should carry that URL or be a separate item.",
+   "corrected_text": "Thurplus lists three public charging stations in Frauenfeld, each with two 22 kW connectors, supplied with 100% locally produced solar power; they can be unlocked with the Ost-mobil card or by QR code on a smartphone, and occasional users can pay by credit card. The page is undated and was read on 21 October 2026.",
+   "corrected_title": "2026-10",
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Frauenfeld's city owns six of its 14 public car parks or garages, and the city's Smart Parking page (undated, read on 21 October 2026) says camera-based occupancy measurement covers five of them (Unteres and Oberes Mätteli, Marktplatz, the Altstadt streets, Zürcherstrasse), with Parkhaus Altstadt added without cameras from September 2025. In a 2021 voting brochure the Stadtrat said the large garages near the old town other than Marktplatz and Parkhaus Altstadt are privately run and outside city control over hours and tariffs, and it wanted car parks whose tariffs it controls so that fees can steer traffic. The same brochure, as the authorities' own account, counted a net loss of 42 public spaces in the centre over ten years and expected further cuts at the Mätteli sites; its utilisation figures (about 30% for Parkhaus Altstadt, about 65% for the Marktplatz garage) are undated statements in a voting brochure, not measured outcomes. The Gemeinderat approved a CHF 1.75 million credit for 50 public spaces in the cantonal government building garage, and a referendum took it to the 26 September 2021 vote; a 2022 brochure's opposing arguments refer to the rejection of that participation, but the vote result itself was not confirmed from an official page. Voters approved a CHF 11.3 million credit for inner-city streets in 2022, and the August 2026 information says some spaces on Freie-Strasse, Promenade and Rheinstrasse will be removed and replaced, partly through a space swap with the canton; the plans were on public exhibition from 14 August to 2 September 2026, with construction planned from 2027 to 2030 subject to appeals. The Stadtrat approved a Smart Parking interim report on 18 August 2026: the pilot ran from November 2023 to November 2024, continuation to 31 December 2027 was approved in December 2024, and a final report is due in autumn 2027; the occupancy data is meant to feed the planned total revision of the Parkierungsreglement. Political friction continues, with an SVP inquiry reported on 30 January 2026 about parking cuts and lost fee income (the answer was not found). A draft revision of the private-parking regulation (version of 1 July 2025, not in force) proposes raising the replacement levy from CHF 8,000 to CHF 10,000 per car space. A city table of paid car parks dated March 2018 gives opening hours and maximum stays but no prices, and may be out of date. Resident permits cost CHF 30, and Thurplus lists three public charging stations; current CHF tariffs and the fee regulation could not be confirmed from readable official pages."
+}

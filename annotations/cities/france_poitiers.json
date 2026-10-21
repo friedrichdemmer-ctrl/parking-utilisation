@@ -1,0 +1,201 @@
+{
+ "country": "France",
+ "city": "Poitiers",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Grand Poitiers lists seven public community car parks in the city centre (Toumaï at the station, Théâtre-Auditorium, Blossac-Tison, Hôtel de Ville, Notre-Dame Marché, Clos des Carmes and Palais de Justice), plus two private ones on the same page: Effia at the station and Q-Park Les Cordeliers (290 spaces on the official page, 318 on Q-Park's own page). A council vote of 30 January 2023 set three zones of paid on-street parking from 1 March 2023, with a 40 euro post-parking charge (25 euro if paid within 96 hours); whether these rates are still current was not checked. The Notre-Dame Marché car park was closed in an emergency in June 2024 after a structural risk was found, 12,000 props were installed, and on 13 June 2025 the council announced that level -1 would reopen on 19 June 2025 with about a hundred spaces, no subscriptions and new short-stay tariffs; the official list read on 21 October 2026 shows 146 spaces on one level. The 2025-2035 Mobility Plan (final version dated 13 June 2025) reports that in 2019 city-centre car parks averaged 46% occupancy, peaked at 86% for about 100 hours a year and were never saturated except very briefly around Christmas; it counts 2,993 paid on-street spaces and 3,225 public off-street spaces, and says a study of how Grand Poitiers manages its car parks is under way. Council magazines of June 2026 announce that from 4 July 2026 the first 1h30 will be free on Saturdays from 8:00 to 19:00 in the community car parks except Toumaï and on street in a sector between the Boivre and the Clain, and that Vitalis buses will be free every Wednesday afternoon from 1 July 2026 and on Saturdays; the official car park page read on 21 October 2026 still states the Saturday 1h30 offer. Poitiers does not appear in the national register of low-emission zones, which is an absence in a register and not an official statement. No recent utilisation figures were found.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2023-03",
+   "text": "On-street paid parking in Poitiers has three zones: central (orange, Monday-Saturday), residential (green) and peripheral (purple), paid 9:00-12:00 and 14:00-19:00. A council vote of 30 January 2023 set rates to apply from 1 March 2023: orange 2.00 EUR for 1 hour and 4.00 EUR for 1.5 hours (1h45 maximum), green 1.50 EUR for 1 hour and 4.50 EUR for 2 hours, purple 0.40 EUR per hour; the first 30 minutes are free if the plate is registered, and the post-parking charge (FPS) is 40 EUR, or 25 EUR if paid within 96 hours.",
+   "source_title": "Conseil municipal de Poitiers, 30 janvier 2023, deliberation no. 14: Tarifs de stationnement sur voirie",
+   "source_url": "https://www.poitiers.fr/sites/default/files/2023-02/20230130_deliberation_CM_14.pdf",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2023-03",
+   "text": "The same January 2023 vote set resident on-street permits at 2.00 EUR per day or 20 EUR per month in the central and residential zones (1.00 EUR and 14 EUR in the peripheral zone), limited to two cards per household. Professional permits were set at 60 EUR per month, 5.00 EUR per day or 2.50 EUR per half-day.",
+   "source_title": "Conseil municipal de Poitiers, 30 janvier 2023, deliberation no. 14: Tarifs de stationnement sur voirie",
+   "source_url": "https://www.poitiers.fr/sites/default/files/2023-02/20230130_deliberation_CM_14.pdf",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-07",
+   "text": "Grand Poitiers announced that from Saturday 4 July 2026 the first 1h30 of parking is free every Saturday from 8:00 to 19:00 in 7 car parks (all covered or enclosed city-centre car parks except Toumaï). It also announced a separate, reduced tariff for motorised two- and three-wheelers.",
+   "source_title": "Grand Poitiers Le Mag no. 31 (June-September 2026), p. 27, '1h30 offerte pour se garer en centre-ville'",
+   "source_url": "https://www.grandpoitiers.fr/fileadmin/Publications/Grand_Poitiers_Mag/LE_MAG_GRAND_POITIERS_-_WEB.pdf",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06",
+   "text": "Poitiers Mag no. 334 (June-August 2026) announced that from Saturday 4 July 2026 parking would be free for the first 1h30 every Saturday, 8:00-19:00, on street in a sector between the Boivre and the Clain and in the car parks managed by Grand Poitiers, except Toumaï. It also announced reduced tariffs for motorised two- and three-wheelers in those car parks.",
+   "source_title": "Poitiers Mag no. 334, June-August 2026, p. 4, '1h30 gratuite le samedi'",
+   "source_url": "https://irp.cdn-website.com/5ddc5736/files/uploaded/Mise-en-page-Scoop-communication-Poitiers-Mag334.pdf",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06",
+   "text": "Grand Poitiers' magazine of June-September 2026 reports that the community council voted a change to Vitalis fares from Wednesday 1 July 2026: the bus network is to be free for everyone every Wednesday from 13:00 to 19:00 and on Saturdays, and children aged 3 to 11 get a 0 EUR annual subscription (with a Modalis card). The authority says it wants to encourage the use of public transport.",
+   "source_title": "Grand Poitiers Le Mag no. 31 (June-September 2026), p. 27, 'C'est voté ! Vitalis étend la gratuité'",
+   "source_url": "https://www.grandpoitiers.fr/fileadmin/Publications/Grand_Poitiers_Mag/LE_MAG_GRAND_POITIERS_-_WEB.pdf",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-06",
+   "text": "From 1 June 2026 the City of Poitiers and Grand Poitiers ran an online survey on their participation platform about how people travel and park in the city centre on Saturdays. The page gives 30 June (in the text) and 3 July (step dates) as end dates, and says the City was considering making parking free for 1h30 on Saturdays, as stated in early May 2026, and wanted to measure whether that could help city-centre footfall and shop vitality. No results were found.",
+   "source_title": "Stationnement en centre-ville de Poitiers : votre avis compte (Grand Poitiers participation platform)",
+   "source_url": "https://jeparticipe.grandpoitiers.fr/processes/usages-et-stationnement-centre-ville-poitiers",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-06",
+   "text": "Grand Poitiers' Mobility Plan 2025-2035 (final version dated 13 June 2025) has five axes and 28 actions. The document does not give the date of the council vote; its text says the plan was to be approved during 2025. Action E2 plans a shared-parking strategy, starting with four sectors of parking pressure (Poitiers station, the campus, faubourg du Pont-Neuf and the city centre), says a study on how Grand Poitiers manages the car parks it owns has been started and that a multi-year investment programme is to be proposed after it. Action E6 plans work with Syndicat Energie Vienne on charging infrastructure, and action D3 plans high-power chargers at the Poitiers bus and coach station.",
+   "source_title": "Plan de mobilité de Grand Poitiers 2025-2035 (final version dated 13 June 2025)",
+   "source_url": "https://www.grandpoitiers.fr/fileadmin/M%C3%A9dias_par_groupes_de_contributeurs/Deplacements/Plan_mobilite/Plan_mobilite_Grand_Poitiers_2025_2035.pdf",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-06",
+   "text": "The Mobility Plan diagnosis says the city-centre car parks were never saturated in 2019 except very briefly (Christmas): average occupancy was 46%, the maximum 86%, reached about 100 hours a year, and Saturdays were quieter. It counts 2,993 paid on-street spaces and 3,225 public off-street spaces, and says that at the end of 2022 resident permits on street equalled the number of spaces.",
+   "source_title": "Plan de mobilite de Grand Poitiers 2025-2035, section 3.7 (diagnosis)",
+   "source_url": "https://www.grandpoitiers.fr/fileadmin/M%C3%A9dias_par_groupes_de_contributeurs/Deplacements/Plan_mobilite/Plan_mobilite_Grand_Poitiers_2025_2035.pdf",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-06",
+   "text": "The Mobility Plan diagnosis lists 14 small 'proximity' park-and-ride sites that share spaces with other uses and have only signage, and says there is no structured park-and-ride yet. The plan proposes to build a park-and-ride strategy, including a secured, barrier-controlled category.",
+   "source_title": "Plan de mobilite de Grand Poitiers 2025-2035 (diagnosis 3.8 and action D3)",
+   "source_url": "https://www.grandpoitiers.fr/fileadmin/M%C3%A9dias_par_groupes_de_contributeurs/Deplacements/Plan_mobilite/Plan_mobilite_Grand_Poitiers_2025_2035.pdf",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-06",
+   "text": "Grand Poitiers closed the Notre-Dame Marché car park in an emergency in June 2024 to guarantee users' safety. The April-June 2025 council magazine says a structural study found a lack of strength because of construction defects and water infiltration, and recommended propping levels -2 and -3 every metre and supporting the walls; 12,000 props were installed and the securing work was said to be nearly finished. It says the community intends a complete requalification, which it calls complex.",
+   "source_title": "Grand Poitiers Le Mag no. 27 (April-June 2025), 'Parking Notre-Dame : quelles solutions ?'",
+   "source_url": "https://grandpoitiers.fr/fileadmin/Publications/Grand_Poitiers_Mag/Le_Mag_Grand_Poitiers_N_27_avril_juin_2025.pdf",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-06",
+   "text": "Grand Poitiers announced on 13 June 2025 that level -1 of the Notre-Dame Marché car park would partly reopen on 19 June 2025 with about a hundred spaces, after 12,000 props had been installed, mainly on levels -2 and -3, and after checks had confirmed that level -1 was secure. Subscriptions would not be possible, to encourage turnover. New tariffs set by the community council on 4 April would apply: 0.40 EUR per quarter hour for the first three hours, 1 EUR per quarter hour for the fourth hour and 0.40 EUR per quarter hour after that.",
+   "source_title": "Reouverture jeudi 19 juin du niveau-1 du parking Notre-Dame Marche a Poitiers (published 13 June 2025)",
+   "source_url": "https://www.grandpoitiers.fr/information-transversale/actualites/reouverture-du-niveau-1-du-parking-notre-dame-marche-a-poitiers-52482",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-04",
+   "text": "In its April-June 2025 issue Grand Poitiers announced 88 extra spaces at the Palais de Justice car park for summer 2025, about 150 cameras at the Hotel de Ville car park (called the busiest) and a study to re-assess how its car parks are run. During the Notre-Dame closure it offered free Saturday buses and free shuttles from the Palais de Justice and the Parc des Expos.",
+   "source_title": "Grand Poitiers Le Mag no. 27 (April-June 2025), p. 6",
+   "source_url": "https://grandpoitiers.fr/fileadmin/Publications/Grand_Poitiers_Mag/Le_Mag_Grand_Poitiers_N_27_avril_juin_2025.pdf",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "On 21 October 2026 Grand Poitiers lists car parks it runs itself: Toumaï (station, 144 minute-stop + 622 spaces), Theatre-Auditorium (320), Blossac-Tison (695), Hotel de Ville (623), Notre-Dame Marche (146), Clos des Carmes (150, subscription only) and Palais de Justice (140 outdoor + 88 under the viaduct). Two private ones are listed: Effia at the station (480 spaces, 2 boulevard Pont Achard) and Q-Park Les Cordeliers (290). Page undated, read 21 October 2026.",
+   "source_title": "Liste des parkings - Grand Poitiers",
+   "source_url": "https://www.grandpoitiers.fr/au-quotidien/deplacements/se-stationner-dans-les-parkings-de-poitiers/liste-des-parkings",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The Grand Poitiers car park list shows reserved electric-vehicle charging bays in four of its car parks: 10 at Toumaï, 9 at Theatre-Auditorium, 12 at Blossac-Tison and 10 at Hotel de Ville (41 in total). Page undated, read 21 October 2026.",
+   "source_title": "Liste des parkings - Grand Poitiers",
+   "source_url": "https://www.grandpoitiers.fr/au-quotidien/deplacements/se-stationner-dans-les-parkings-de-poitiers/liste-des-parkings",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Q-Park's own page for Les Cordeliers (4 bis rue Henri Oudin) gives 318 spaces, 6 accessible bays, 17 charging points and 24/7 access, while Grand Poitiers lists 290 spaces. Q-Park shows no hourly tariff online. Page undated, read 21 October 2026.",
+   "source_title": "Parking Les Cordeliers - Stationner a Poitiers | Q-Park",
+   "source_url": "https://www.q-park.fr/fr-fr/villes/poitiers/les-cordeliers/",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "The Grand Poitiers car park page says display panels on the main approach roads show free spaces, and links to an open-data set on real-time car park occupancy. Page undated, read 21 October 2026; the data set itself could not be opened.",
+   "source_title": "Se stationner dans les parkings de Poitiers - Grand Poitiers",
+   "source_url": "https://www.grandpoitiers.fr/au-quotidien/deplacements/se-stationner-dans-les-parkings-de-poitiers",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The national register of low-emission zones (data.gouv.fr dataset, last updated 26 March 2026 according to the page) has no entry for Poitiers: its list of 43 zone identifiers and its map file of 35 zone areas do not include Poitiers. The register only holds data that authorities publish in the required format, so this is an absence in a register and not an official statement on whether Poitiers has a low-emission zone. Read 21 October 2026.",
+   "source_title": "Base nationale consolidee des Zones a Faibles Emissions (transport.data.gouv.fr on data.gouv.fr)",
+   "source_url": "https://www.data.gouv.fr/datasets/base-nationale-consolidee-des-zones-a-faibles-emissions",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2017-02-15",
+   "text": "A local weekly reported that entries into the five municipal city-centre car parks rose 6.5% in 2016 to over 1.5 million. It also said the cap on subscribers had been reached, with waits of up to three months, and that Toumaï and Notre-Dame Marche were regularly full.",
+   "source_title": "Le 7 (7apoitiers.fr) no. 343, 15-21 February 2017, 'Parkings : un succes, des impatiences'",
+   "source_url": "https://www.le7.info/uploads/pdf/7e2b9bdcbef61e2c9bbdb2c4c255dcd085d2e2ef.pdf",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Browser pane tab could not be created (tab cap reached), so pages were read as raw text via curl and PDFs via pypdf instead; no WebFetch summaries were used for numbers.",
+  "WebSearch budget ran out after 9 searches; no press article (Centre Presse, La Nouvelle Republique, ICI Poitou, actu.fr) was opened, so there is no press confirmation of any 2026 development.",
+  "Open-data set 'mobilites-stationnement-des-parkings-en-temps-reel' (https://data.grandpoitiers.fr/datasets/mobilites-stationnement-des-parkings-en-temps-reel/full) is a script-driven portal and its API returned 404/410; the data.gouv.fr listing https://data.gouv.fr/en/datasets/mobilite-parkings-grand-poitiers-donnees-metiers-1 returned 404 when fetched.",
+  "Grand Poitiers news page on the Notre-Dame closure (https://www.grandpoitiers.fr/information-transversale/actualites/fermeture-pour-travaux-du-parking-notre-dame-marche-a-poitiers-43793) returns 404; Poitiers Mag May 2025 (https://www.poitiers.fr/sites/default/files/2025-05/lactu-poitiers-mag-mai-2025-323.pdf and .../poitiers_mag_mai_2025.pdf) and June 2025 (https://www.poitiers.fr/sites/default/files/2025-06/la-ville-poitiers-mag-juin-2025-324.pdf) return 404.",
+  "SNCF Gares & Connexions Toumai page (https://www.garesetconnexions.sncf/fr/gares-services/poitiers/intermodalites/parking-toumai) returned 403; Effia's own Poitiers station page was not found, and onepark.co (booking marketplace) was not used.",
+  "Hourly tariffs for Toumaï, Blossac-Tison, Hôtel de Ville, Théâtre-Auditorium, Effia and Q-Park were not found; the official tariff page only gives Notre-Dame Marché in text. Whether the January 2023 on-street tariffs are still current in 2026 was not checked.",
+  "No official ZFE statement found; the ZFE item rests on absence from the national register. No date or timeline found for full reopening and requalification of Notre-Dame Marché, no post-2019 occupancy figures, no results of the 2025 household travel survey or the June 2026 centre-ville survey, and nothing on a pedestrian or traffic plan for the city centre.",
+  "Grand Poitiers news https://www.grandpoitiers.fr/information-transversale/actualites/nouvelles-mesures-de-gratuite-des-bus-depuis-le-1er-juillet-repondez-a-lenquete-sur-vos-usages-64466 carries a publication date of 25 October 2026 (after the research date) and only a teaser; not used.",
+  "Third-party listings (Zenpark, Yespark, Parkopedia, leocare.eu, tyremap.com) were seen in search results but not used."
+ ],
+ "dropped": {}
+}

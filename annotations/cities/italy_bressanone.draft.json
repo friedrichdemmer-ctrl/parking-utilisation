@@ -1,0 +1,147 @@
+{
+  "country": "Italy",
+  "city": "Bressanone",
+  "researched": "2026-10-21",
+  "summary": "Bressanone (Brixen) runs its main car parks itself: the municipality manages all paid parking, with four barrier-controlled facilities (Parkhaus Dantestrasse, Priel, Rosslauf underground car park, Mobility Centre) plus a set of metered surface lots. The Dantestrasse garage, built in 1993 and run for over 30 years by a private concessionaire, passed to the municipality at the end of January 2025, and a court settlement in February 2026 gave the city a ten-year structural guarantee. The city council raised garage and car-park tariffs in December 2025 and metered street tariffs from July 2026, openly aiming to push long-stay parkers towards the barrier car parks and the garage. In September 2026 the garage ticketing system was announced to be merged with the Priel, Rosslauf and Mobility Centre system. The mobility plan (PUMS, approved February 2022) targets fewer cars in the old town, and the Suedspange bypass and a Plose cable-car valley station are the main longer-term traffic projects. No live availability display, official utilisation statistics, Christmas-market traffic plan or Stadtwerke-run charging data were found.",
+  "items": [
+    {
+      "topic": "regulation",
+      "date": "2022-02-10",
+      "text": "The council approved Bressanone's sustainable urban mobility plan (PUMS) by resolution no. 8 of 10 February 2022, after the city executive had adopted the draft on 25 August 2021. The plan says about 50% of vehicle traffic entering the city is bound for the old town, and its core measures include a 30 km/h city, more people and fewer cars in the centre (parking, limited-traffic zone, bike parking) and a pedestrian-friendly old town.",
+      "source_title": "Mobilitaetsplan - PUMS Entwicklung und Ergebnis - Gemeinde Brixen",
+      "source_url": "https://www.gemeinde.brixen.bz.it/Verwaltung/Dokumente/Projekte/Mobilitaetsplan-PUMS-Entwicklung-und-Ergebnis",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2022-11-30",
+      "text": "The council approved the ordinance on access to the limited-traffic zone (ZTL) and pedestrian zone and on parking permits by resolution no. 60 of 30 November 2022; the consolidated text was published on 20 October 2025. It states that a parking permit allows parking but does not guarantee a free space, and that the permit rules apply only to disc-parking spaces allowing 90 minutes or more and to resident zones.",
+      "source_title": "Verordnung fuer den Zugang zur verkehrsberuhigten Zone und zur Fussgaengerzone sowie Parkgenehmigungen - Gemeinde Brixen",
+      "source_url": "https://www.gemeinde.brixen.bz.it/Verwaltung/Dokumente/Satzung-und-Verordnungen/Verordnung-fuer-den-Zugang-zur-verkehrsberuhigten-Zone-und-zur-Fussgaengerzone-sowie-Parkgenehmigungen",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2025-01",
+      "text": "The Dantestrasse car park was built in 1993 by Parking Brixen GmbH (later Seeste Bau GmbH) and operated for more than 30 years. When the concession contract expired, it passed to the municipality at the end of January 2025.",
+      "source_title": "Gerichtlicher Vergleich zum Parkhaus Dantestrasse bringt Planungssicherheit - stol.it",
+      "source_url": "https://www.stol.it/artikel/chronik/gerichtlicher-vergleich-zum-parkhaus-dantestrasse-bringt-planungssicherheit",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-02-27",
+      "text": "The city and Seeste Bau settled the court case over the Dantestrasse garage concession at the Bolzano court. Seeste Bau pays a lump sum for maintenance the city had pre-financed and takes over the cost of structural securing for ten years, with works planned to keep the garage in operation as far as possible.",
+      "source_title": "Gerichtlicher Vergleich zum Parkhaus Dantestrasse bringt Planungssicherheit - stol.it",
+      "source_url": "https://www.stol.it/artikel/chronik/gerichtlicher-vergleich-zum-parkhaus-dantestrasse-bringt-planungssicherheit",
+      "confidence": "medium"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-01-07",
+      "text": "By city executive decisions of 3 December 2025, tariffs rose from 1 January 2026. Parkhaus Brixen (Dante-Alighieri-Strasse 13) charges 2.30 EUR per hour from 07:00 to 21:00 and 1.20 EUR at night; Priel and the Mobility Centre charge 2.00 EUR per hour by day and 1.20 EUR at night; the first 30 minutes at Priel and the garage cost 1.20 EUR.",
+      "source_title": "Gebuehrenpflichtige Parkplaetze - Erhoehung der Parktarife am 01.01.2026 - Gemeinde Brixen",
+      "source_url": "https://www.gemeinde.brixen.bz.it/Neuigkeiten/Bekanntmachungen/Gebuehrenpflichtige-Parkplaetze-Erhoehung-der-Parktarife-am-01.01.2026",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2025-12-04",
+      "text": "Tariffs at the underground Rosslauf car park (Ignaz-Mader-Strasse) were raised from 5 December 2025 following a provincial government decision of 7 October 2025: 2.00 EUR per hour by day, 1.20 EUR at night and a 40 EUR 24-hour monthly subscription.",
+      "source_title": "Erhoehung der Parktarife - unterirdischer Parkplatz beim Sozialwissenschaftlichen Gymnasium in der Ignaz-Mader-Strasse - Gemeinde Brixen",
+      "source_url": "https://www.gemeinde.brixen.bz.it/Neuigkeiten/News/Erhoehung-der-Parktarife-unterirdischer-Parkplatz-beim-Sozialwissenschaftlichen-Gymnasium-in-der-Ignaz-Mader-Strasse",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-06-24",
+      "text": "The municipality announced that from 1 July 2026 tariffs at metered lots would be adjusted to inflation, as most had been set in 2004. Brennerstrasse (Goldenes Roessl), Elvaser Strasse and Romstrasse are listed at 2.50 EUR per hour with a 1-hour maximum, and the stated aim is to raise turnover and point drivers to the cheaper barrier car parks and the Parkhaus.",
+      "source_title": "Anpassung der Parktarife auf den gebuehrenpflichtigen Parkplaetzen mit Parkscheinautomaten - Gemeinde Brixen",
+      "source_url": "https://www.gemeinde.brixen.bz.it/Neuigkeiten/Bekanntmachungen/Anpassung-der-Parktarife-auf-den-gebuehrenpflichtigen-Parkplaetzen-mit-Parkscheinautomaten",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-05-06",
+      "text": "The report says the 99 spaces in the southern part of Priel were aligned to the barrier-lot tariff (2.00 EUR per hour by day) and that no subscriptions are offered there because of the lot's high utilisation. This is a qualitative statement; no occupancy figures were given.",
+      "source_title": "Gewaltiger Preissprung: Das Parken in Brixen wird teurer - stol.it",
+      "source_url": "https://www.stol.it/artikel/chronik/gewaltiger-preissprung-das-parken-in-brixen-wird-teurer",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-09-09",
+      "text": "The municipality announced that on 16 and 17 September 2026 the Parkhaus Brixen parking system would be integrated into the system of the Priel, Rosslauf and Mobility Centre car parks. Old subscription cards were announced to stop working after the switch, with new cards issued at the entrance barrier on those days.",
+      "source_title": "Wichtige Mitteilung zur Umstellung des Parkplatzsystems - Gemeinde Brixen",
+      "source_url": "https://www.gemeinde.brixen.bz.it/Neuigkeiten/News/Wichtige-Mitteilung-zur-Umstellung-des-Parkplatzsystems",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-07-04",
+      "text": "The municipality manages all paid parking: four barrier-controlled facilities (Priel, Rosslauf underground, Parkhaus Brixen, Mobility Centre) and eight metered lots (including Zinggen/Eurospar, Stufels, Vintlerweg and Kreuztal). Metered lots can be paid by the EasyPark and myCicero apps; the only free lot is Fischzuchtweg, from 06:00 to 22:00.",
+      "source_title": "P - Parkraumbewirtschaftung der Gemeinde Brixen - Gemeinde Brixen",
+      "source_url": "https://www.gemeinde.brixen.bz.it/Dienste/P-Parkraumbewirtschaftung-der-Gemeinde-Brixen",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-02-18",
+      "text": "Parkhaus Brixen at Dantestrasse 13 has five levels with 550 spaces and 44 garage boxes; height limit is 2.20 m (1.90 m on level -2). Day tickets cost 18 EUR for one day and 31 EUR for four days, and pay-on-exit is done at four automatic machines.",
+      "source_title": "P - Parkhaus Brixen - Gemeinde Brixen",
+      "source_url": "https://www.gemeinde.brixen.bz.it/Dienste/P-Parkhaus-Brixen",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-02-18",
+      "text": "The Mobility Centre car park, north of the railway station in Niccolo-Castiglioni-Strasse, has 180 spaces. Park & Ride users of the Suedtirol-Pass pay a daily maximum of 6.00 EUR, reduced by 3.00 EUR per ticket validation made at the Mobility Centre; monthly subscriptions are 60 EUR (day), 80 EUR (24 h) and 50 EUR for residents without a garage.",
+      "source_title": "P - Parkplatz Mobilitaetszentrum Brixen - Gemeinde Brixen",
+      "source_url": "https://www.gemeinde.brixen.bz.it/Dienste/P-Parkplatz-Mobilitaetszentrum-Brixen",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-02-18",
+      "text": "Priel is a barrier car park for short-term parkers with no weekly or monthly subscriptions; vehicles over 5 m or with trailers are excluded. Payment is by two exit machines (contactless up to 25 EUR) or via UnipolMove or EasyPark, which open the barriers automatically; Acquarena swimming pool visitors get a reduced fee. The page does not show any live availability display.",
+      "source_title": "P - Gebuehrenpflichtiger Parkplatz Priel - Gemeinde Brixen",
+      "source_url": "https://www.gemeinde.brixen.bz.it/Dienste/P-Gebuehrenpflichtiger-Parkplatz-Priel",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-08-07",
+      "text": "The provincial government approved changed technical features of the Suedspange bypass on 7 August 2026 and provides 12 million EUR for the municipal section; the aim is to relieve the town centre and Milland of traffic. The route includes a roughly 72 m arch bridge over the Isarco river and better access to the future valley station of the Plose cable car.",
+      "source_title": "Zwoelf Millionen Euro fuer Brixens Verkehrsentlastung - Suedtirol News",
+      "source_url": "https://www.suedtirolnews.it/wirtschaft/zwoelf-millionen-euro-fuer-brixens-verkehrsentlastung",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-10",
+      "text": "The Plose cable-car operator's page (read on 21 October 2026) says the valley station is 7 km from Bressanone after St. Andrae, with a large free visitor car park and bus line 321 from the town and railway station.",
+      "source_title": "How to arrive - Plose Brixen Dolomites",
+      "source_url": "https://www.plose.org/en/how-to-arrive",
+      "confidence": "medium"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-10",
+      "text": "The Brixen tourism page (read on 21 October 2026) tells visitors to allow extra time before events, on market days and at Christmas, and says tour buses may stop 15 minutes in Regensburger Allee and then park at Schilfweg on a 25 EUR day ticket.",
+      "source_title": "Anreise nach Brixen - Brixen Tourismus",
+      "source_url": "https://www.brixen.org/de/mein-urlaub/anreise-brixen",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "Browser pane tab creation failed (tabs_create error), so pages were read as raw HTML with curl and text extracted locally, not through a browser tab or a model summary.",
+    "No live parking availability display for Bressanone was found; the municipal service pages do not mention one.",
+    "No official utilisation or occupancy statistics found; only the qualitative 'high utilisation' remark at southern Priel (stol.it, 2026-05-06).",
+    "No source found on Christmas-market traffic or parking management, on blue zone/Kurzparkzone maps (ordinance annexes B and C not extracted), or on Luesen valley traffic.",
+    "Stadtwerke Brixen / Azienda Servizi as a parking or EV operator: nothing found. Only an undated tourism-directory listing of a charger at Fischzuchtweg (https://suedtirol.live/de/geschaeft/e-ladestation-fischzuchtweg-parkplatz-max-brixen-p93900) was opened; it looks outdated and was not used as an item.",
+    "The municipal Priel ordinance PDF (https://www.brixen.it/verordnungen/verordnung-zur-fuehrung-des-gebuehrenpflichtigen-parkplatzes-brixen-priel_8748/verordnung_gebuehrenpflichtigen-20parkplatz-20brixen-20priel.pdf) and the Takitime manual PDF (https://www.brixen.it/documents/Bedienungsanleitung%20Takitime.pdf) redirect to the municipal home page and could not be opened.",
+    "Rosslauf hours differ between the municipal news notice (08:00-20:00 day rate, item dated 2025-12-04) and the Rosslauf service page (07:00-19:00); the notice was used.",
+    "Plose cable-car valley parking tariffs and the planned Bressanone station-to-Plose cable-car (presented to the council on 29 June 2023, https://www.gemeinde.brixen.bz.it/Neuigkeiten/Pressemitteilungen/Aus-der-Gemeinderatssitzung-vom-29.-Juni) have no confirmed 2026 status; not used as an item.",
+    "Dolomiten, Salto, Rai Suedtirol and Alto Adige articles beyond the altoadige.it tariff report of 2026-01-07 were not opened; Alto Adige's 'Quasi 500 parcheggi in centro a Bressanone' (Priel project) is undated and was not opened."
+  ]
+}

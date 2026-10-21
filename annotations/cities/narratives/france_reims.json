@@ -1,0 +1,17 @@
+{
+ "as_of": "2026-10",
+ "sections": [
+  {
+   "title": "Policy and access to the centre",
+   "text": "We found no readable official source on Reims's on-street tariffs, resident parking or centre traffic plan, because the city and agglomeration websites block automated access. What we could confirm concerns the low-emission zone and the alternatives to the car. According to a Caradisiac article of 14 March 2023, the city of Reims announced that it would not apply the planned January 2024 ban on Crit'Air 3 vehicles, which was pushed back to 2029, citing a nitrogen dioxide level of 31 micrograms per cubic metre in the centre in 2022 against the EU limit of 40 [4]. Another report says the zone began on 1 January 2023, barring diesel cars registered up to 2005, and that the government's new classification placed Reims in a 'zone de vigilance' that lets it suspend the next steps [5]. On 21 May 2026 the Constitutional Council struck down the clauses that would have abolished low-emission zones; the article says authorities must keep applying their zones, without mentioning Reims specifically [6].\n\nOn alternatives, a support document for the zone says the tram alone serves a third of the population of the territory, 27% of jobs and 75% of students, and that Grand Reims planned to study two bus-rapid-transit lines with park-and-rides for 2026; no source shows whether this went ahead [2][3]. The network promotes two carpool lines, citing an average of 1.01 passengers per car on home-to-work trips, without a source or year [11]."
+  },
+  {
+   "title": "Parking developments",
+   "text": "The park-and-ride network is the main piece we could confirm. The network's page lists four sites, Thillois, Neufchâtel, Hôpital Debré and Belges, open 24 hours, with the entry barrier lifting without a ticket and a validated transport ticket required at the exit [0]. A 2023 support document counted only three, connected to the tram [2]. Tree-pruning works in the Belges and Hôpital Debré sites were announced for 20 to 26 October 2026, with temporary access restrictions [1]. We found no sourced information on new or closed city-centre garages."
+  },
+  {
+   "title": "Operators, positioning and utilisation",
+   "text": "The city-centre garages are run by Champagne Parc Auto; a 2022 report listed on the Grand Reims site covers them, but we could not open it, so we do not give its figures [7]. We found no official current garage tariffs and no usable source for Indigo, Q-Park or Effia positions.\n\nOur data cover six garages with 2,799 spaces from the city's live feed, measured since 5 October 2026. Occupancy averaged about 40% on weekdays and 37% at weekends, weighted by spaces. The fullest is Gambetta (277 spaces) at 60% on weekdays, followed by Buirette (425) at 53% and Erlon (643) at 49%; Erlon reached full in a single Saturday-morning reading. République (746) is the quietest large garage at 24% on weekdays, and Hôtel de Ville (152) the quietest overall at 14%. Cathédrale (556) averages 38% on weekdays and 31% at weekends, and Gambetta falls from 60% to 48%. These are two and a half weeks of data."
+  }
+ ]
+}

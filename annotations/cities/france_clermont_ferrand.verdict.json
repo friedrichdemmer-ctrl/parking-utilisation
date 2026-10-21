@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "City page: 'Depuis le 1er juillet 2026'; first 30 minutes free in any paid zone, once per day per vehicle, via PayByPhone; 530 pay machines remain; minimum 0.50 euro at the machine to get the free half hour. Title matches. Page undated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "City page: PrestoPark usable until 30 June, PayByPhone since 1 July; two candidates bid in the 2026 tender; city keeps paying app fees (driver pays only the parking charge); current resident subscriptions stay valid. The year of the switch comes from the page's '2026' tender sentence and the companion 30-minute page. Page undated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "City page (undated, read 21 Oct 2026): violet 1.60/h, orange 1.20/h, green 0.90/h, azure 0.50 first hour then 0.10/h; FPS 30 euros 'depuis le 1er janvier 2023'; FPS equals the maximum stay (violet 2h40 = 30 euros). Page also shows 30 free minutes and a 0.50 minimum in each zone, which the item leaves out (covered in item 0).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "City page (undated; written before the change, in future-tense wording) says from 1 January 2024 the resident rate becomes an annual 'Abonnement Résident': unlimited on-street parking in the resident's own zone, one per household, tied to the plate; smart cards stop working and the 0.50 euro daily rate is scrapped. That resident subscriptions exist in 2026 is confirmed by the city's 2026 PayByPhone page (item 1). Retrieval-date wording in the item is right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "City page (undated; written before 21 August 2026) confirms: Bergougnan, Carnot (between the two squares) and Libération already reopened to cars; two-way traffic restored on some Oradou portions 'dès le mois de juin'; residents consulted 1 and 2 July; mayor Julien Bony decided to reopen rue de l'Oradou both ways from 21 August; section between boulevard Fleury and rue de la Pradelle stays bus-only. NOT on the page: the date '9 June 2026' for the avenues and 'downhill direction' for Bergougnan. No page I opened gives either. The page is pre-event, so 21 August must be worded as announced; an ICI headline dated 21 Aug 2026 (seen only as a related-article teaser on another page, not opened) says it opened.",
+   "corrected_text": "The city says the avenues Raymond-Bergougnan, Carnot (between the two squares) and de la Libération have been reopened to car traffic, and that two-way traffic was restored on some portions of rue de l'Oradou from June 2026. After residents were consulted on 1 and 2 July, mayor Julien Bony decided to reopen rue de l'Oradou to cars in both directions from 21 August 2026. The section between boulevard Fleury and rue de la Pradelle stays reserved for buses. The page was written before that date, so the 21 August reopening is as announced.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "ICI article (francebleu.fr URL redirects to ici.fr) published Saturday 4 Oct 2025: central axis (avenue Carnot, rue du maréchal Joffre, place Ballainvilliers, boulevard Desaix, place de Jaude, rue Blatin) reopens Monday 6 October as a ZTL reserved for public transport, residents, holders of a special authorisation, emergency vehicles and cyclists; no transit traffic; from 20 December the axis becomes the main T2C bus axis, starting with tram-bus B and C. Says nothing about the ZTL's status in 2026 and the item does not claim it.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Métropole page dated 03/07/2025: Vercingétorix closed to entries and exits 15 July to 1 August 2025; from 1 August entrance rue Lamartine, exit boulevard Desaix, which joins the ZTL from 1 August; keep the exit ticket as the pass. Written in future tense; item words it as announced.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "ICI article of 8 Oct 2026 quotes the mairie's communiqué: since August 2025 drivers must enter via rue Lamartine; 'le nombre d'entrées horaires a subi dès le mois de septembre 2025 une série de baisses records jusqu'à atteindre -53 %'. City announces entry in front of the opera and exit on rue Lamartine again, three-week closure from Monday 12 October, reopening planned Saturday 31 October 2026. The word 'monthly' is not on the page (it says a series of record falls from September 2025). The 53% is the city's own statement and is not independently checked; the city's own banner says closure is 12 to 30 October.",
+   "corrected_text": "On 8 October 2026 ICI quoted a city statement that hourly entries at the Vercingétorix car park had a series of record falls from September 2025, down to as much as 53%, which the city blamed on the August 2025 reversal of entry and exit. The city announced that entry would again be in front of the opera and exit on rue Lamartine. The car park closes for three weeks of works from 12 October, with reopening planned for Saturday 31 October 2026.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Métropole page dated 30/01/2026: Le Brézet P+R opens from Monday 2 February; 286 car spaces on 4 levels; free parking for all drivers; 17 minutes to the centre on tram-bus B (8 to the station); 18 spaces to get EV charge points during the year. Page adds that barriers stay open until 1 September 2026 and free use is kept for transit users after that.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "ICI article published 15 April 2026: La Pardieu Cristal P+R open from that day, 194 car spaces on four levels, 'after Durtol and Le Brézet'; Métropole says Place de Jaude in 20 minutes on tram-bus C; 1,400 places on five P+R in 2023 to 3,300 on 29 P+R 'début 2026'.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Métropole page (undated): about 3,300 places, 29 P+R, 'actuellement accessibles gratuitement'; 'Jusqu'au début 2027 ... les barrières se lèvent à la sortie sans présentation d'un titre de transport'. Item wording matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Métropole page (undated) lists eight city-centre car parks run by SAGS: 1er Mai 278, Blaise Pascal 470, Médiathèque-Allagnat 113, St Pierre 173, Fontgiève 193, Poterne/Cathédrale 410, Vercingétorix 286, Gambetta 484 (largest two as stated). The page gives no total; the listed capacities add up to 2,407, so 'about 2,400' is the draft's own sum. The comparison with SAGS's own site is NOT on the cited page. I checked it on SAGS pages on 21 Oct 2026: Vercingétorix page says 272 (Métropole 286) and Blaise Pascal page says 480 (Métropole 470), so it holds, but it needs the SAGS pages as sources.",
+   "corrected_text": "The Métropole's parking page (read on 21 October 2026, undated) lists eight city-centre car parks run by SAGS. The listed capacities add up to about 2,400 spaces; the largest are Gambetta (484 places) and Blaise Pascal (470), and Vercingétorix is listed at 286.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "SAGS Blaise Pascal page (undated): 15 min 1.00 euro, 1 h 1.50, 5 h 7.00 (all 7h-19h rates); 24-hour ticket 14.70; 24h/24 car subscription 88.40 monthly and 1,060.80 annual. Page is a tariff list, so 'costs' as of the read date is fair.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "The cited portal page is a JavaScript shell with no text, so I read the same dataset through the portal's own API (catalog metadata and records) on 21 Oct 2026: licence 'Licence Ouverte v2.0'; description says updated 'en moyenne chaque minute'; metadata field 'publisher' = 'SAGS, INDIGO, EFFIA' (the field is 'publisher', not a credit line; 'attributions' is empty); 13 records; both Henri Dunant entries (links to the T2C 'parc-relais-henri-dunant' page) have etat 'Invalide' with horodatage 2025-04-06.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Métropole air-quality page (undated): since 1 July 2023 the most polluting professional goods vehicles (non-classified) may not drive or park in the perimeter; ZFE 'prend de l'ampleur en mars 2025' and covers all 21 communes; private cars and motorbikes excluded, only need a Crit'Air sticker. Item matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "ICI article published 2 Oct 2024: council voted the extension to all 21 communes, expected 1 January (2025) after a consultation 7 to 28 October; 876 light vans (3%) and 283 lorries (8%) concerned; fines 35 euros (light van) and 135 euros (lorry); 3,000 euro aid. Planned wording is right. Note the Métropole's own air-quality page says the extension took effect in March 2025.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Métropole page dated 19/09/2022: inauguration with TE63; 36 points in the metropolis (34 normal, 2 fast), 11 in Clermont-Ferrand, 'opérationnelles d'ici la fin de l'année'; normal charge 0.06 euro/min for subscribers (12 euros/year) and 0.09 for others. Figures match.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "ICI article published 7 July 2026: new access and car parks effective Monday 6 July at Gabriel-Montpied after ten months of works; 550 places for users and visitors; for consultation visitors first hour free then 1.50 euros and 0.50 euro per 15 minutes; staff keep dedicated free parking. The CHU adds an adaptation period until autumn and possible adjustment (not in the item).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Clermont-Ferrand and its metropolis (Clermont Auvergne Métropole, 21 communes) have been reshaping the city-centre road network around the new Inspire transit network, with tram-bus lines B and C due to start on 20 December 2025; the Métropole says the new network has been in service since the end of 2025. In October 2025 a limited-traffic zone along the central east-west axis, including place de Jaude, was reported as opening to buses, residents, permit holders, emergency vehicles and cyclists only; whether it is still in force in October 2026 is not confirmed. Under the new mayor Julien Bony, the city says it has reopened avenues Raymond-Bergougnan, Carnot (between the two squares) and de la Libération to cars, and the mayor decided to reopen rue de l'Oradou in both directions from 21 August 2026, apart from a bus-only section. Since 1 July 2026 the first 30 minutes of on-street parking are free through the PayByPhone app, which replaced PrestoPark on that date. On 8 October 2026 the city announced that the entry and exit of the Vercingétorix car park on place de Jaude would be flipped back after a closure from 12 October, with reopening planned for 31 October 2026; the city says hourly entries fell by as much as 53% after the 2025 reversal. The Métropole's park-and-ride offer has grown from 1,400 places on five sites in 2023 to about 3,300 on 29 sites, currently free, with new sites at Durtol (December 2025), Le Brézet (February 2026) and La Pardieu Cristal (April 2026). The Métropole lists eight city-centre car parks, with capacities adding up to about 2,400 spaces, all run by SAGS, and its open-data portal carries a real-time occupancy feed for barrier car parks with SAGS, Indigo and Effia named as publisher. The low-emission zone covers all 21 communes but bars only unclassified professional goods vehicles; private cars and motorbikes only need a Crit'Air sticker."
+}

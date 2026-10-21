@@ -1,0 +1,203 @@
+{
+ "country": "Netherlands",
+ "city": "Arnhem",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Arnhem is moving towards fewer cars in the centre and higher parking prices. In a proposal of 30 September 2025 the municipality said it wants to gradually scale back street parking in the centre, to study an underground garage inside the centrumring and to make the first resident permit outside the centre free; the council's vote on it was not found. The Nota Parkeernormen Arnhem 2026, adopted by the city executive on 17 March 2026 and valid from 26 March, adds an A+ area (inner city and station area) where new housing can be exempt from building car parking if alternatives such as bicycle parking are provided. New rules for an environmental zone for diesel cars and buses and a zero-emission zone for vans and trucks have applied in the centre since 1 June 2026. Since 1 January 2026 street parking costs EUR 4.60 per hour in the centre and several surrounding districts and EUR 3.10 elsewhere. The June 2026 coalition agreement plans parking to become 30 cents per hour more expensive on top of inflation, and the September 2026 financial plans point to rises of 2.1 percent a year plus 90 cents per hour in total, with street parking in and around the centre heading towards EUR 6 per hour; both are plans, not tariffs in force. The three municipal garages (Centraal, Musis, Rozet) share one tariff of EUR 0.70 per 10 minutes by day (06:00 to 18:00), EUR 1.70 per hour in the evening and night and a maximum of EUR 24 per day. Q-Park Broerenstraat (426 spaces) and the private Velperplein garage add supply, and the P+R sites at GelreDome and Arnhem Zuid are free apart from the public transport fare. Municipal counts in October 2019 found the three municipal garages (2,190 spaces combined) full at the same time on a Saturday afternoon, and the municipality reported them full on Saturday afternoon again in 2020 and 2021. Ahead of ten sold-out concerts at GelreDome from 15 May 2026, Omroep Gelderland reported that parking at the lots near the stadium required a pre-bought ticket and that shuttle buses were arranged.",
+ "items": [
+  {
+   "topic": "demand",
+   "date": "2019-10",
+   "text": "A municipal factsheet on parking counts of 3, 5 and 6 October 2019 reports that the three municipal garages (Centraal, Musis, Rozet; 2,190 spaces combined) were full at the same time on Saturday afternoon 5 October, between about 12:00 and 16:00, and that on average 72 percent of street spaces in the research area (the centre between the Singels and the Rijn) were occupied at that peak. Paid street parking cost EUR 2.90 per hour at that time, and on Thursday evenings the garage tariff after 18:00 was EUR 0.50 per hour.",
+   "source_title": "Factsheet parkeren monitoring Arnhem centrum oktober 2019",
+   "source_url": "https://arnhem.bestuurlijkeinformatie.nl/Document/View/40226741-eb7c-46a2-ab84-91caf4eba241",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2021-12-15",
+   "text": "A municipal note of 15 December 2021 reports that counts in October 2020 and September 2021 (during Covid) found about 2,260 public spaces in the centre in 2021, about 73 percent of street spaces occupied on Saturday afternoon, and all municipal garages full on Saturday afternoon in both years. It also proposed a EUR 510,000 'quick wins' refurbishment pilot for the Musis garage (ground floor to first floor), with the city-centre platform PBA proposing to fund EUR 350,000.",
+   "source_title": "Bijlage bij raadsbrief Uitvoeringsagenda de Arnhemse binnenstad binnen bereik (15 december 2021)",
+   "source_url": "https://arnhem.bestuurlijkeinformatie.nl/Document/View/2b41058b-f98a-48dd-a4d5-808f62b78baa",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2021-12-14",
+   "text": "A proposal to the council dated 14 December 2021 asked for EUR 3.22 million for a first phase of refurbishing the municipal Rozet garage: new entrance, about 60 extra spaces, a solar roof with battery storage and at least 14 EV charge points. The extra spaces were meant to serve the planned Bartok Park housing (about 55 subscriptions); the council's decision is not shown in the document.",
+   "source_title": "Raadsvoorstel Eerste fase Duurzame Mobiliteitshub Rozet (14 december 2021)",
+   "source_url": "https://arnhem.bestuurlijkeinformatie.nl/Document/View/c4b8192e-33ee-48e1-8fb3-e5de9df248ce",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-12-03",
+   "text": "In a letter to the council of 3 December 2024 the municipality set out Bartok Park Zuid opposite Rozet: 46 homes with a guarded public bicycle store for about 650 bicycles on the ground floor, with construction start expected in January 2027. The council had approved funding for the public bicycle store on 21 July 2021.",
+   "source_title": "Raadsbrief Ontwikkeling Bartok Park (3 december 2024)",
+   "source_url": "https://arnhem.bestuurlijkeinformatie.nl/Document/View/ed0a0b94-3c17-48a1-899f-fc2a02a2bff7",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-09-30",
+   "text": "On 30 September 2025 the municipality proposed to the council a Parkeerbeleid Arnhem 2025. It states a wish to gradually scale back street parking in the centre, to study an (underground) parking garage inside the centrumring and to make the first resident permit outside the centre free. It judged the town hall garage too small to run profitably as a public garage and asked for a EUR 2.9 million credit for new parking machines; the council's vote is not shown in the document.",
+   "source_title": "Raadsvoorstel Parkeerbeleid Arnhem 2025",
+   "source_url": "https://arnhem.bestuurlijkeinformatie.nl/Document/View/846ae362-fab6-4212-b9ed-7238a7909272",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-11-12",
+   "text": "The council adopted the Parkeerverordening 2026 on 12 November 2025, with the levy applying from 1 January 2026: EUR 4.60 per hour for street parking in the centre and several inner districts, EUR 3.10 elsewhere, and EUR 24 for a day permit. A resident permit costs EUR 149 per year, a visitor permit EUR 23 and an unlimited business permit EUR 552.",
+   "source_title": "Verordening parkeren en parkeerbelastingen Arnhem 2026",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR748108/",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-01-26",
+   "text": "Omroep Gelderland reported that Arnhem has used a parking scan car since April 2022 and issued almost 53,000 parking tax assessments (naheffingsaanslagen) in 2025. A municipal spokesperson said about 20 percent were objected to and 57 percent of those objections succeeded.",
+   "source_title": "Scanauto schiet raak, maar treft ook onschuldige parkeerders",
+   "source_url": "https://www.gld.nl/nieuws/8425596/scanauto-schiet-raak-maar-treft-ook-onschuldige-parkeerders",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-03-17",
+   "text": "The city executive adopted the Nota Parkeernormen Arnhem 2026 on 17 March 2026; the regulation page shows it valid from 26 March 2026. It adds an A+ area covering the inner city and the Arnhem Centraal station area, where new housing can be exempt from building car parking provided alternatives, mainly bicycle parking, are realised, and no parking permits are issued for exempt developments. In A and B areas the norms become maxima as well as minima, with the A norms set 20 percent below current car ownership (B 10 percent); average car ownership in Arnhem was 0.82 cars per household in 2023.",
+   "source_title": "Nota Parkeernormen Arnhem 2026",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR759340",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-05-13",
+   "text": "On 13 May 2026, Omroep Gelderland reported that Suzan & Freek would play ten sold-out shows at GelreDome from 15 May, with room for tens of thousands of fans per show. Parking at the lots at GelreDome, Kronenburg, Gelderse Poort and Papendal required a pre-bought parking ticket, shuttle buses were arranged from several lots, and shuttle buses were to run from Arnhem Centraal (about 10 minutes, EUR 5.90 return). On many dates a large part of the parking tickets was already sold out.",
+   "source_title": "Suzan & Freek in GelreDome: waar moet je parkeren?",
+   "source_url": "https://www.gld.nl/nieuws/8466563/suzan-en-freek-in-gelredome-waar-moet-je-parkeren",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-01",
+   "text": "Since 1 June 2026 central Arnhem (inside the singels, Nieuwe Plein and Hoge Rijnkade) has an environmental zone for diesel cars and buses and a zero-emission zone for vans and trucks. From 1 January 2027 vans with emission class 5 are also refused entry (page undated, read on 21 October 2026).",
+   "source_title": "Milieuzone en zero-emissiezone (gemeente Arnhem)",
+   "source_url": "https://www.arnhem.nl/alle-onderwerpen/verkeer/milieuzone-en-zero-emissiezone/",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-06-04",
+   "text": "Omroep Gelderland reported that the new coalition agreement (PRO, D66, Arnhem Centraal, Partij voor de Dieren, CDA) plans parking to become 30 cents per hour more expensive on top of inflation. It also reported that, at the CDA's request, paid parking would not apply on Sunday mornings in several areas, and that 30 km/h becomes the norm citywide.",
+   "source_title": "Weer betalen per afvalzak, een nachtburgemeester en rookvrije parken: dit wil Arnhem",
+   "source_url": "https://www.gld.nl/nieuws/8482126/weer-betalen-per-afvalzak-een-nachtburgemeester-en-rookvrije-parken-dit-wil-arnhem",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-09-17",
+   "text": "Omroep Gelderland reported on 17 September 2026 that the city's financial plans have parking costs rising 2.1 percent per year plus 90 cents per parked hour in total over the coming years. Street parking in and around the centre would then head towards EUR 6 per hour (a plan, not yet a tariff in force).",
+   "source_title": "Arnhem wordt de komende jaren duurdere gemeente",
+   "source_url": "https://www.gld.nl/nieuws/8524168/arnhem-wordt-de-komende-jaren-duurdere-gemeente",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The municipality lists the Centraal, Musis and Rozet garages at EUR 0.70 per 10 minutes from 06:00 to 18:00, EUR 1.70 per hour from 18:00 to 06:00, and a daily maximum of EUR 24. Musis and Rozet subscriptions cost EUR 2,297 per year including VAT, while Centraal currently issues none (page undated, read on 21 October 2026).",
+   "source_title": "Parkeergarages, parkeerterreinen en P+R (gemeente Arnhem)",
+   "source_url": "https://www.arnhem.nl/alle-onderwerpen/parkeren/parkeergarages-arnhem-locaties-tarieven-en-openingstijden/",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Street parking in the centre and surrounding districts is paid Monday to Saturday 09:00 to 23:00 and Sunday 12:00 to 23:00 (shorter hours in Nieuwe Kadekwartier and Sint Marten), at EUR 4.60 per hour in the centre zone and EUR 3.10 in other zones. Page undated, read on 21 October 2026.",
+   "source_title": "Parkeren op straat (gemeente Arnhem)",
+   "source_url": "https://www.arnhem.nl/alle-onderwerpen/parkeren/parkeren-op-straat/",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "P+R GelreDome and P+R Station Arnhem Zuid are free and open 24 hours, with only the public transport fare payable, but GelreDome is not available during major events there. A group ticket for EUR 3.50 covers up to four people between GelreDome and Velperplein, and a free carpool site exists at Apeldoornseweg 450 (page undated, read on 21 October 2026).",
+   "source_title": "Parkeergarages, parkeerterreinen en P+R (gemeente Arnhem)",
+   "source_url": "https://www.arnhem.nl/alle-onderwerpen/parkeren/parkeergarages-arnhem-locaties-tarieven-en-openingstijden/",
+   "confidence": "high",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The Musis garage has a charging plaza with 40 points on its top deck and Centraal has 14 points, while Rozet has no charge points; the open lot De Trans has 12 plus 4 reserved for shared EVs. Charging is billed on top of the parking fee (page undated, read on 21 October 2026).",
+   "source_title": "Parkeergarages, parkeerterreinen en P+R (gemeente Arnhem)",
+   "source_url": "https://www.arnhem.nl/alle-onderwerpen/parkeren/parkeergarages-arnhem-locaties-tarieven-en-openingstijden/",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Q-Park lists its Broerenstraat garage (Broerenstraat 51) with 426 spaces, 14 electric charging points and 2.00 m clearance, with online reservation and number-plate entry. The page is undated and was read on 21 October 2026.",
+   "source_title": "Parkeren Q-Park Broerenstraat | Arnhem",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/arnhem/broerenstraat/",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The Velperplein garage (a private garage, not one of the three municipal garages) lists tariffs of EUR 1.00 per 20 minutes or part of it, EUR 1.50 per hour after 18:00 (until 06:00) and EUR 20.00 per 24 hours, and EV charging at EUR 0.73 per kWh with a blocking fee of EUR 0.06 per minute after 4 hours. The page is undated and was read on 21 October 2026.",
+   "source_title": "Tarieven : Velperplein Arnhem",
+   "source_url": "https://velperplein.nl/tarieven/",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "The Browser pane refused to open arnhem.bestuurlijkeinformatie.nl (navigation denied), so the council documents were read from PDF copies saved by WebFetch and extracted with pypdf, not in the browser.",
+  "Outcome and date of the council vote on Parkeerbeleid Arnhem 2025, and the policy document itself (attachment to the raadsvoorstel, incl. execution plan and phasing of street-parking removal): not found; only the proposal was read.",
+  "Whether the proposed free first resident permit outside the centre and the 2026 expansion of paid-parking areas were adopted: no Uitwerkingsbesluit Parkeren 2026 or zone map found.",
+  "Feasibility study for GelreDome as an edge-of-city hub (promised for Q1 2026) and any follow-up on an underground garage inside the centrumring (motion 25M61): no document found.",
+  "Parking guidance (PRIS or dynamic signs) in Arnhem: no source found. The 2021 note only mentions a replacement P-portal for Musis.",
+  "Utilisation after 2021: the annual parking monitor for 2022 to 2025 was not found, so no recent occupancy statement from the municipality.",
+  "Interparking presence in Arnhem not checked; Q-Park Broerenstraat tariff table (collapsed on the page, only a promotional 'from EUR 27.50 per day' reservation price seen, not recorded) and Velperpoort, Prinsenhof and Parkbee Remisestraat garage details not read in full.",
+  "Eusebius garage: no source found.",
+  "Arnhem Centraal station-area and station bicycle-parking projects (NS, ProRail, municipality): no dated plan or status document found. A news item of 19 November 2025 (gld.nl/nieuws/8395250) on the station's tenth anniversary was read but not used.",
+  "De Gelderlander and Arnhem Direct not searched (web search budget exhausted; arnhemdirect.nl returned an expired TLS certificate). Press coverage is Omroep Gelderland only.",
+  "Resident permit waiting lists and sector rules (arnhem.nl/product/parkeervergunning-voor-bewoners) and guarded bicycle parking (arnhem.nl/alle-onderwerpen/parkeren/bewaakte-fietsenstallingen) were read but left out of the items to stay within 18."
+ ],
+ "dropped": {}
+}

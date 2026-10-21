@@ -1,0 +1,181 @@
+{
+ "country": "Germany",
+ "city": "Gießen",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Gießen's city centre and its immediate surroundings have over 6,500 spaces in garages, underground car parks and managed lots according to the 2021 baseline report for the city's transport development plan (VEP), which also found garage prices of 0.50 to 2 euros an hour, and the final VEP report (February 2024, adopted by the council on 6 June 2024) counts over 7,000 inner-city spaces, only about half occupied in the peak hour. Both describe a distribution problem rather than a shortage: in a June 2020 weekday analysis, garages on the Parkleitsystem peaked at 50 percent occupancy while Selterstor reached 88 percent. The final VEP report recommends making on-street parking dearer than garage parking, and the city's parking fee ordinance of 11 July 2024 sets 3.00 euros an hour in Zone I (inside the Anlagenring and around the station), above the 1.00 to 2.00 euros an hour shown for the garages on the city's current list; a resident permit costs 120 euros a year in six zones. Contipark operates the DB BahnPark garages at the station (2.00 euros an hour on the DB sheet against 1.70 on the city's list), APCOA operates Neustädter (1,060 spaces by its own text, 1,030 in its data field), and the city's list shows the Sparkasse garage closed from 1 August 2026 and, on 21 October 2026, a Parkleitsystem fault. In 2025 the city invited operators to apply for permits to put charging points on public parking spaces (the outcome was not found), and in August 2023 the Hessian administrative court of appeal rejected the city's complaint against an interim order that had stopped three first-phase traffic orders of its Anlagenring traffic experiment (known only from a law firm's summary of the court's press release).",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2024-07-11",
+   "text": "The city's parking fee ordinance of 11 July 2024 (published 23 July 2024) sets on-street charges by zone: Zone I (inside the Anlagenring and around the station) 0.10 euros per started 2 minutes with a 1.00 euro minimum, which equals 3.00 euros an hour; Zone II 0.10 euros per 4 minutes (1.50 euros an hour) with a 5.00 euro 24-hour ticket; Zone III 0.10 euros per 12 minutes with a 4.00 euro day ticket. It replaced the 1984 ordinance, last amended on 14 July 2022.",
+   "source_title": "Parkgebührenordnung (Gebührenordnung zur Erhebung von Parkgebühren) vom 11.07.2024, Universitätsstadt Gießen",
+   "source_url": "https://www.giessen.de/media/custom/684_625_1.PDF",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Gießen has six resident-parking zones, and a resident permit costs 120 euros a year (an administrative fee set in the 2024 fee ordinance). The city page was read on 21 October 2026; car-sharing members can also apply.",
+   "source_title": "Parkausweis für Bewohner (Bewohnerparkvorrechte), Stadt Gießen",
+   "source_url": "https://www.giessen.de/Leben/Verkehr-und-Mobilit%C3%A4t/Parken/index.php?object=tx%7c2874.2&ModID=10&FID=640.2885.1&NavID=1894.118",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-06-06",
+   "text": "The city council (Stadtverordnetenversammlung) adopted the Verkehrsentwicklungsplan (VEP) on 6 June 2024; it sets transport strategy to the target year 2035 for all modes including car traffic. The city's VEP page links the final report of February 2024 with its measures and action plan.",
+   "source_title": "Verkehrsentwicklungsplan, Stadt Gießen",
+   "source_url": "https://www.giessen.de/Leben/Verkehr-und-Mobilit%C3%A4t/Verkehrsplanung/Verkehrsentwicklungsplan/",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-02",
+   "text": "The VEP final report (February 2024) found over 7,000 parking spaces in the inner city, only about half occupied even in the peak hour, and called it a distribution problem rather than a shortage. It recommends parking management, higher on-street fees than in garages (increases had begun in mid-2022), a developed Parkleitsystem, more resident parking where needed and, in the long run, on-street spaces only for delivery, disabled parking, car sharing, taxis and some residents.",
+   "source_title": "Verkehrsentwicklungsplan Gießen, Endbericht Maßnahmen und Handlungskonzept (Planersocietät, Feb. 2024)",
+   "source_url": "https://www.giessen.de/media/custom/2874_9983_1.PDF",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-02",
+   "text": "The VEP final report recommends park-and-ride mainly at rail stops around the city and proposes checking basic P+R places at Gießen-Licher Straße, Gießen-Erdkauter Weg and Philosophenhöhe. It says P+R at the Gießener Ring would only work with city-wide parking management, clearly higher fees and fewer on-street spaces near destinations.",
+   "source_title": "Verkehrsentwicklungsplan Gießen, Endbericht Maßnahmen und Handlungskonzept (Planersocietät, Feb. 2024)",
+   "source_url": "https://www.giessen.de/media/custom/2874_9983_1.PDF",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2021-11",
+   "text": "The VEP baseline report counted over 6,500 spaces in garages and managed lots in and near the centre, with hourly prices of 0.50 to 2 euros. In a June 2020 weekday analysis, garages on the Parkleitsystem peaked at 50 percent occupancy between 12:00 and 13:00 with over 1,700 spaces free, while Selterstor reached 88 percent and Dern Passage 71 percent.",
+   "source_title": "Verkehrsentwicklungsplan Gießen, Bestandsaufnahme und -analyse (Planersocietät, Nov. 2021)",
+   "source_url": "https://www.giessen.de/media/custom/2874_3813_1.PDF",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2021-11",
+   "text": "The 2021 baseline report said the dynamic Parkleitsystem had been in operation for over 15 years and was criticised as outdated in display and routing. The Johannesstraße car parks were added in 2020 using sensors and two LED boards on the Südanlage, and the city planned to check this technology for other sites.",
+   "source_title": "Verkehrsentwicklungsplan Gießen, Bestandsaufnahme und -analyse (Planersocietät, Nov. 2021)",
+   "source_url": "https://www.giessen.de/media/custom/2874_3813_1.PDF",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10-21",
+   "text": "On 21 October 2026, in the morning (the page's update stamp read 09:14 when it was re-read), the city's live occupancy display carried a notice that a Parkleitsystem fault meant not all garages could be shown. It listed five garages with totals below the capacities given further down the same page: Karstadt 380 (860 listed), Rathaus 170 (250), Selters Tor 80 (153), Am Bahnhof 231 (247), Dern-Passage 199 (199); the page does not explain the difference.",
+   "source_title": "Parken in Gießen, Stadt Gießen",
+   "source_url": "https://www.giessen.de/Leben/Verkehr-und-Mobilit%C3%A4t/Parken/",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-08-29",
+   "text": "On 29 August 2023 the Hessian administrative court of appeal (VGH, case 2 B 987/23) rejected the city's complaint against an urgent-application decision of the Gießen administrative court, which had gone in favour of two residents against three traffic orders (Braugasse, Landgrafenstraße, Senckenbergstraße) issued for the first phase of the city's Anlagenring traffic experiment; the experiment planned, among other changes, a two-lane bicycle street around the inner city. The court found that the city had not plausibly shown the danger to road safety or the special circumstances that such an experiment requires, and it noted the ring's high importance for car traffic against its currently low use by cyclists. This account is a law firm's summary (jura.cc, 30 August 2023) of the court's press release.",
+   "source_title": "Rechtswidrigkeit des Gießener Verkehrsversuchs bestätigt (jura.cc, 30.08.2023)",
+   "source_url": "https://www.jura.cc/rechtstipps/rechtswidrigkeit-des-giessener-verkehrsversuchs-bestaetigt/",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-10",
+   "text": "The city planned to rebuild the Südanlage junction between Goethestraße and Elefantenklo by mid-November 2024. This removed the left turn from the outer ring into the Selterstor garage; drivers from Frankfurter Straße and Bleichstraße use a U-turn at the Johanneskirche instead, and access from Berliner Platz stays unchanged. The page is undated, was read on 21 October 2026 and marks the section as completed.",
+   "source_title": "Umgestaltung Anlagenring, Stadt Gießen",
+   "source_url": "https://www.giessen.de/Leben/Verkehr-und-Mobilit%C3%A4t/Umgestaltung-Anlagenring/",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The city's garage list (read 21 October 2026) shows hourly rates of 1.00 euro at Rathaus (250 spaces, 5.00 euro daily maximum) and Am Kino, 1.50 at Karstadt (860 spaces, 15.00 maximum), 1.70 at Am Bahnhof (247 spaces, 6.00 per day) and Neustädter (1,060 spaces, 17.00 maximum), and 2.00 at Selters Tor (153 spaces, 10.00 maximum). The 3.00 euros an hour in Zone I on-street is higher than all of these.",
+   "source_title": "Parken in Gießen, Stadt Gießen",
+   "source_url": "https://www.giessen.de/Leben/Verkehr-und-Mobilit%C3%A4t/Parken/",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10-12",
+   "text": "DB BahnPark's Gießen sheet (last changed 12 October 2026) lists Contipark as operator of the Parkhaus am Bahnhof (247 spaces) and of the Lahnstraße P1 and P2 decks and the P3 lot (451, 420 and 65 spaces). It shows 2.00 euros an hour and 7.50 euros a day (6.00 with a Pcard) at Parkhaus am Bahnhof, against 1.70 and 6.00 on the city's list, and a 44 euro monthly rate for hospital staff.",
+   "source_title": "Gießen, DB BahnPark Parkmöglichkeiten (Stand 12.10.26)",
+   "source_url": "https://www.dbbahnpark.de/content/fahrplanauskunft/bahnpark/pdf/8000124.pdf",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "APCOA's page for Parkhaus Neustädter (Neustadt 28), read on 21 October 2026, describes 1,060 spaces on three levels at the Neustädter shopping and leisure centre, although its own equipment field lists 1,030 spaces in total; the city's list also gives 1,060. APCOA shows 1.70 euros per started hour with a daily maximum of 17.00 euros and offers ticketless parking by licence-plate recognition in its FLOW app.",
+   "source_title": "Neustädter, APCOA",
+   "source_url": "https://www.apcoa.de/einmal-parken/standorte/giessen/neustaedter",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-09",
+   "text": "A city notice invites interested companies to apply for special-use permits to put charging points on public parking spaces, under the city's e-charging guideline (Richtlinie E-Ladesäulen) dated 1 September 2025. Applications can be made at any time; those received by 12:00 on 17 November 2025 are treated as received simultaneously, with a lottery for competing sites. The notice sets a fee of 0.50 euros per started kW per charge point per month up to 22 kW (0.25 above), a one-off 500 euros for signage and marking and 150 euros processing per point, a term of up to 120 months, and at most 15 sites per applicant. The notice itself is undated.",
+   "source_title": "Bekanntmachung: Erteilung von straßenrechtlichen Sondernutzungserlaubnissen für E-Ladesäulen, Stadt Gießen",
+   "source_url": "https://www.giessen.de/media/custom/2874_13344_1.PDF",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The Rathaus underground garage (250 spaces, 1.90 m entry height) has four 22 kW AC wallboxes operated by Stadtwerke Gießen, opened with an RFID card or the SWG E-Tanken app. Parking costs 1.00 euro per started hour (5.00 daily maximum) plus up to 2.00 euros at night (18:30-05:00); the page was read on 21 October 2026.",
+   "source_title": "Parkhaus/Tiefgarage Rathaus, Stadt Gießen",
+   "source_url": "https://www.giessen.de/Leben/Verkehr-und-Mobilit%C3%A4t/Parken/index.php?object=tx,2874.1&ModID=9&FID=684.10499.1&NavID=1894.57",
+   "confidence": "high",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-08-01",
+   "text": "The city's garage list (read 21 October 2026) says the Sparkasse garage and underground car park at Johannesstraße 5 is closed from 1 August 2026 because of construction work. The page gives no reopening date.",
+   "source_title": "Parken in Gießen, Stadt Gießen",
+   "source_url": "https://www.giessen.de/Leben/Verkehr-und-Mobilit%C3%A4t/Parken/",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Browser pane tab could not be created (tabs_create failed), so pages were read as raw HTML via curl with tags stripped, and PDFs via pypdf; no page was read from a search snippet.",
+  "The shared WebSearch budget ran out after about eight searches. No article from Gießener Allgemeine, Gießener Anzeiger or hessenschau about Gießen parking was opened; they were not fetched directly.",
+  "Council decisions on parking fees (the mid-2022 increase and the 2021 vote on bicycle routes on the Anlagenring) were not found in the council information system; the Hessian court order is known only from a law firm summary (https://www.jura.cc/rechtstipps/rechtswidrigkeit-des-giessener-verkehrsversuchs-bestaetigt/); the IHK Gießen-Friedberg resolution of 20 April 2021 (https://www.ihk.de/giessen-friedberg/geschaeftsbereiche/standortpolitik/wirtschaftspolitik/resolutionen/resolution-der-ihk-intelligente-stadtverkehrskonzepte-5108954) was read but not used.",
+  "Operators of the Rathaus, Selters Tor, Karstadt, Dern-Passage, Liebig-Center and Am Kino garages were not found, and neither the current role of Stadtwerke Gießen in parking nor any 'Gießener Parkhaus GmbH' could be confirmed. A 2004 Stadtwerke page names SWG as operator of the Lahnstraße garage at that time (https://www.stadtwerke-giessen.de/en/10-years-of-the-lahnstrasse-multi-storey-car-park).",
+  "No source found on parking effects of the Justus-Liebig-Universität or the UKGM Klinikum beyond the DB BahnPark hospital-staff monthly rate and the VEP recommendation to include university and school car parks in parking management.",
+  "No occupancy data after the June 2020 count was found; the live city display (21 October 2026) was seen only as a snapshot and is not reported as a statistic.",
+  "Outcome of the 2025 charging-operator call, the number of public chargers in Gießen, and the reason for or duration of the Sparkasse garage closure were not found. Garage names Katharinengarage and Parkhaus Marktplatz did not appear in any Gießen source.",
+  "Official Hessian court press release (VGH Hessen Nr. 16/2023) was not opened. The VEP document 'Behandlung der Anregungen und Hinweise' (https://www.giessen.de/media/custom/2874_9981_1.PDF) was not read, so the adopted text is assumed to match the February 2024 final report.",
+  "Brandplatz redesign (VEP: most of the 70 parking spaces to be removed, construction planned from 2025 per the report) and the Lahnstraße road closure from 1 October 2026 (https://www.giessen.de/Rathaus/Newsroom/Aktuelle-Meldungen/Lahnstra%C3%9Fe-schon-ab-1-Oktober-voll-gesperrt.php?ModID=255&FID=2874.77349.1) were read but not recorded as items; current status of Brandplatz works not checked."
+ ],
+ "dropped": {}
+}

@@ -1,0 +1,185 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "PDF of deliberation no. 14 of the 30 Jan 2023 council (AR Prefecture 6 Feb 2023, adopted 40 for, 0 against, 11 abstentions) read in full. Three zones, paid 9:00-12:00 and 14:00-19:00 (orange Mon-Sat, green and purple Mon-Fri, public holidays excluded). Orange 2.00 EUR/1h, 4.00 EUR/1h30, max 1h45; green 1.50 EUR/1h, 3.00 EUR/1h30, 4.50 EUR/2h; purple 0.40 EUR per hour. First 30 minutes at 0 EUR but the plate must be registered; FPS 40 EUR, reduced 25 EUR if paid within 96 hours. In force from 1 March 2023. All as written. Whether these tariffs are still current in 2026 is not shown by this page (the text is worded as set in 2023, which is fine). The summary should not imply they are current today.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Same deliberation, section 3 and 4. Resident card 2.00 EUR/day or 20 EUR/month (central and residential zones), 1.00 EUR/day or 14 EUR/month (peripheral); max two cards per household (the monthly or yearly formula is for the first vehicle only, second vehicle pays per day). Professional: 60 EUR/month, 5.00 EUR/day, 2.50 EUR/half-day. All as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Mag no. 31 (June-September 2026, published June 2026), PDF page 27, 'C'est voté ! ... 1H30 offerte pour se garer en centre-ville': 'Dès samedi 4 juillet, Grand Poitiers instaure 1h30 de stationnement gratuit dans 7 parkings. Sont concernés tous les parkings en ouvrage ou en enclos du centre-ville, Toumaï excepté. La mesure s'appliquera chaque samedi de 8h à 19h' and a specific reduced tariff for motorised 2- and 3-wheelers. Worded as announced, which matches the future tense of the page. Observation only: the car park list names six community car parks besides Toumaï (seven only if the two Palais de Justice lots are counted separately), so the 'seven' is the magazine's figure.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "The cited Poitiers Mag no. 334 (June-August 2026, p. 4, box '1h30 gratuite le samedi'; the phrase 'Le stationnement gratuit gagne du terrain' is a photo caption) supports the first sentence: 'Dès samedi 4 juillet, le stationnement devient gratuit pendant 1h30 chaque samedi, de 8h à 19h, dans la rue [...] dans un secteur compris entre Boivre et Clain ainsi que dans les parkings gérés par Grand Poitiers, à l'exception de Toumaï.' It is a June issue, so the free parking is an announcement, not something confirmed as in force; the draft wording 'says that from ... is also free' reads as already in force. The PDF is on a third-party CDN (irp.cdn-website.com) but it is the genuine magazine (cover 'Poitiers Mag N° 334 Juin-Août 2026') and is corroborated by Le Mag Grand Poitiers no. 31 (item 2). The second sentence (21 October 2026 car park page still states 1h30 free on Saturdays, Toumaï excepted) is not in this PDF; it is true on https://www.grandpoitiers.fr/au-quotidien/deplacements/se-stationner-dans-les-parkings-de-poitiers ('1h30 de gratuité dans les parkings le samedi (sauf Toumaï), la loi tarifaire s'applique après cette gratuité'), so move it to item 14 or cite that URL. Source title should name the real heading and page.",
+   "corrected_text": "Poitiers Mag no. 334 (June-August 2026) announced that from Saturday 4 July 2026 parking would be free for the first 1h30 every Saturday, 8:00-19:00, on street in a sector between the Boivre and the Clain and in the car parks managed by Grand Poitiers, except Toumaï. It also announced reduced tariffs for motorised two- and three-wheelers in those car parks.",
+   "corrected_title": "Poitiers Mag no. 334, June-August 2026, p. 4, '1h30 gratuite le samedi'",
+   "corrected_date": "2026-06",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "Mag no. 31, the Vitalis article is on page 27 (footer '27'), not p. 26, and its title is 'Vitalis étend la gratuité'. Page says: from Wednesday 1 July the network changes its fares; transport free for children aged 3 to 11 as an annual subscription at 0 EUR (agency or e-shop, with a Modalis card); network also free for everyone every Wednesday 13:00-19:00 and on Saturdays; annual fare update follows inflation; 3.24 M EUR for bus and equipment renewal; the aim is to encourage public transport. The words '(already the case)' for Saturdays are NOT on this page (Poitiers Mag 334 does say 'en plus de la gratuité les samedis', but it is a different source). Remove that.",
+   "corrected_text": "Grand Poitiers' magazine of June-September 2026 reports that the community council voted a change to Vitalis fares from Wednesday 1 July 2026: the bus network is to be free for everyone every Wednesday from 13:00 to 19:00 and on Saturdays, and children aged 3 to 11 get a 0 EUR annual subscription (with a Modalis card). The authority says it wants to encourage the use of public transport.",
+   "corrected_title": "Grand Poitiers Le Mag no. 31 (June-September 2026), p. 27, 'C'est voté ! Vitalis étend la gratuité'",
+   "corrected_date": "2026-06",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "The cited process page (jeparticipe.grandpoitiers.fr/processes/usages-et-stationnement-centre-ville-poitiers) shows step 'Enquête' 01/06/2026 - 03/07/2026 and the sentence 'Cette enquête est ouverte du 1er juin au 30 juin 2026', and says that, as stated in early May 2026, the City 'envisage de rendre gratuit pendant 1h30 le stationnement en centre-ville le samedi' and the survey aims to see whether this could help footfall and shop vitality. The page itself does not say 'anonymous' and still labels the step as current ('Étape actuelle'). 'Anonymous' and 'closed' are on the linked sub-page /processes/usages-et-stationnement-centre-ville-poitiers/f/167/ ('questionnaire anonyme ... Questionnaire fermé. Le questionnaire est fermé et vous ne pouvez pas y répondre'), so they are true but need that URL as source. Corrected text keeps only what the cited page says.",
+   "corrected_text": "From 1 June 2026 the City of Poitiers and Grand Poitiers ran an online survey on their participation platform about how people travel and park in the city centre on Saturdays. The page gives 30 June (in the text) and 3 July (step dates) as end dates, and says the City was considering making parking free for 1h30 on Saturdays, as stated in early May 2026, and wanted to measure whether that could help city-centre footfall and shop vitality. No results were found.",
+   "corrected_title": null,
+   "corrected_date": "2026-06",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "The PDF is the 'Plan de mobilité' dated 13 juin 2025, 'Version VF', 119 pages. 13 June 2025 is the document version date; the document does not state a council vote date. Section 2.4 says the plan 'doit être approuvé courant 2025' after public inquiry, and the president's preface (Florence Jardin) speaks of 'l'adoption du Plan de Mobilité' and of 'cinq axes déclinés en 28 actions proposées', but no approval date is given. So 'council approved ... on 13 June 2025' is not supported. Action E2 (p.103): first sectors identified are Poitiers station, the campus, faubourg du Pont-Neuf and the city centre; 'Grand Poitiers a engagé une étude sur les modalités de gestion des parkings lui appartenant. À l'issue de cette étude un programme pluriannuel d'investissement sera proposé' (i.e. will be proposed, not promised). E6 (p.111): work with Syndicat Energie Vienne on charging infrastructure. D3 (p.87): install high-power chargers at the (coach) bus station in Poitiers ('gare routière', for rapid charging of coaches). The title 'report approved 13 June 2025' should be changed.",
+   "corrected_text": "Grand Poitiers' Mobility Plan 2025-2035 (final version dated 13 June 2025) has five axes and 28 actions. The document does not give the date of the council vote; its text says the plan was to be approved during 2025. Action E2 plans a shared-parking strategy, starting with four sectors of parking pressure (Poitiers station, the campus, faubourg du Pont-Neuf and the city centre), says a study on how Grand Poitiers manages the car parks it owns has been started and that a multi-year investment programme is to be proposed after it. Action E6 plans work with Syndicat Energie Vienne on charging infrastructure, and action D3 plans high-power chargers at the Poitiers bus and coach station.",
+   "corrected_title": "Plan de mobilité de Grand Poitiers 2025-2035 (final version dated 13 June 2025)",
+   "corrected_date": "2025-06",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Plan de mobilité, diagnosis (road and parking section, p. 24): 'l'offre payante de surface sur Poitiers comprend 2 993 places. Fin 2022, le nombre de véhicules autorisés pour les abonnés résidents sur voirie était équivalent au nombre de places disponibles'; 'parkings publics du centre-ville totalisent 3 225 places en ouvrage'; 2019 occupancy: never saturated except very occasionally (Noël); maximum between 80% and 90% (absolute max 86%) 'une centaine d'heures par an (1% du temps)'; average 46% (median 43%); lower on Saturdays. All matches. (Strictly the 86% maximum occurs in a band of about 100 hours a year; the draft's wording is close enough.)",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Diagnosis: 'un nombre important de petits parkings-relais de proximité (14 parkings)', spaces shared with other uses, 'Hormis une signalétique ... aucun aménagement spécifique', 'il n'existe pas à ce jour de parkings-relais structurants'. Action D3: 'Prévoir une catégorie spécifique de parc relais (avec barrière et sécurisé)' and bring structuring lines to a park-and-ride terminus. Worded as a plan. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Mag no. 27 (April-June 2025), p. 6, 'Parking Notre-Dame : quelles solutions ?': 'fermeture en urgence ... survenue en juin dernier pour garantir la sécurité' (so June 2024, inferred from the issue date); structural study found lack of strength from construction defects (concrete badly reinforced) and water infiltration; it recommended propping every metre on levels -2 and -3 and supporting walls; 12,000 props placed, work 'sur le point de s'achever'; the community is 'déterminée à mener l'opération complète de requalification ... qui s'annonce complexe'. Not in this source: 'after a diagnosis' and 'mainly on levels -2 and -3' (these words are on the Grand Poitiers news page of item 10, which says 'En juin 2024, suite à un diagnostic ... 12 000 étais ... principalement aux niveaux -2 et -3'). Also 'closed for safety works' is stated as an emergency closure for user safety, with the works started afterwards.",
+   "corrected_text": "Grand Poitiers closed the Notre-Dame Marché car park in an emergency in June 2024 to guarantee users' safety. The April-June 2025 council magazine says a structural study found a lack of strength because of construction defects and water infiltration, and recommended propping levels -2 and -3 every metre and supporting the walls; 12,000 props were installed and the securing work was said to be nearly finished. It says the community intends a complete requalification, which it calls complex.",
+   "corrected_title": null,
+   "corrected_date": "2024-06",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "The page was published on 13 June 2025 and is written before the event: 'Le parking Notre Dame va rouvrir partiellement le 19 juin 2025. Au niveau -1, une centaine de places seront mises à disposition ... Le niveau -1 sera remis en service à partir du 19 juin ... il ne sera pas possible de s'y abonner. De nouveaux tarifs, établis lors du conseil communautaire du 4 avril, vont entrer en vigueur: 0,40 € par ¼ d'heure sur les trois premières heures, 1 € par ¼ d'heure sur la quatrième heure, 0,40 € par ¼ d'heure au-delà.' So 'reopened on 19 June 2025' is stated as fact but the source only announces it. The '146 spaces on one level' is from a different page (Grand Poitiers car park list, '1 niveau, 146 places', read 21 Oct 2026), not this page. Tariff figures are right. Title/date: keep the page title, date is publication 13 June 2025 with reopening planned for 19 June.",
+   "corrected_text": "Grand Poitiers announced on 13 June 2025 that level -1 of the Notre-Dame Marché car park would partly reopen on 19 June 2025 with about a hundred spaces, after 12,000 props had been installed, mainly on levels -2 and -3, and after checks had confirmed that level -1 was secure. Subscriptions would not be possible, to encourage turnover. New tariffs set by the community council on 4 April would apply: 0.40 EUR per quarter hour for the first three hours, 1 EUR per quarter hour for the fourth hour and 0.40 EUR per quarter hour after that.",
+   "corrected_title": null,
+   "corrected_date": "2025-06",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Mag no. 27, p. 6: 88 additional places at Palais de Justice 'prévues cet été'; 'près de 150 caméras seront déployées' at the Hôtel de Ville car park, 'le plus fréquenté'; 'une étude de gestion est en cours pour réévaluer le modèle de fonctionnement des parkings'; free buses on all lines on Saturday and free shuttles to place de Gaulle from the Palais de Justice and the Parc des Expos. Worded as announced. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Grand Poitiers 'Liste des parkings' page (undated), read in full: Toumaï 144 minute-stop (30 min max) + 622; Théâtre-Auditorium 320; Blossac-Tison 695; Hôtel de Ville 623; Notre-Dame Marché 1 level, 146; Clos des Carmes 150, subscription only; Palais de Justice 140 outdoor + 88 under the viaduct; Gare-Effia private, 480, 2 boulevard Pont Achard; Les Cordeliers private (Q-Park), 290. The page labels the first seven 'Parking public communautaire' (it does not literally say 'runs itself'; the Poitiers Mag 334 does say 'parkings gérés par Grand Poitiers'). Page intro says '8 parkings' while nine are listed. Undated, so the 21 October 2026 wording is right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Same page: reserved EV-charging bays: 10 at Toumaï (terrace), 9 at Théâtre-Auditorium (level -3), 12 at Blossac-Tison (levels -3 and -7), 10 at Hôtel de Ville (terrace); total 41. No bays are mentioned for the other car parks. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Q-Park page (the operator's own, undated): Les Cordeliers, 4 bis Rue Henri Oudin, 'Places de stationnement: 318', 'Emplacements PMR: 6', 'Bornes de charge: 17', 1.90 m, open Monday-Sunday 24-7; 'Tarifs Horaires: Les tarifs ne sont pas disponibles'. Grand Poitiers lists 290. All as written; figures are operator-reported.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "The cited page https://www.grandpoitiers.fr/au-quotidien/deplacements/se-stationner-dans-les-parkings-de-poitiers shows a truncated teaser ('Des panneaux d'affichages sont positionnés sur les principaux axes d'accès…') and the link 'Consultez le jeu de données en Open Data lié à ce sujet: data.grandpoitiers.fr/datasets/mobilites-stationnement-des-parkings-en-temps-reel/full'. The full sentence ('...indiquer aux usagers le nombre de places disponibles en temps réel dans les parkings'; 'Mise à jour: 1 à 2 fois par heure') is on the Liste des parkings sub-page. The data set URL returns an empty script-driven shell with only a title. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "The cited data.gouv.fr page says: national base of low-emission zones built by the PAN from data that metropolitan authorities publish in the required schema ('dès que des métropoles mettent à disposition ces données de manière conforme au schéma'), containing both active and planned zones; 'Dernière mise à jour 26 mars 2026'. The counts are not on the page, but I checked the linked files: the identifiers list (zfe_ids.csv) has 43 entries with no Poitiers (Nantes, Tours, Limoges, Bordeaux... but not Poitiers); aires.geojson (26 March 2026) has 35 features and none mentions Poitiers; the API metadata 'last_modified' is 20 Oct 2026. The draft states clearly this is an absence in a register, not a policy, which is right. But 'suggests no ZFE in force' is stronger than the evidence: the register only holds zones whose authorities published conforming data, so absence does not show there is none. Corrected text drops that inference.",
+   "corrected_text": "The national register of low-emission zones (data.gouv.fr dataset, last updated 26 March 2026 according to the page) has no entry for Poitiers: its list of 43 zone identifiers and its map file of 35 zone areas do not include Poitiers. The register only holds data that authorities publish in the required format, so this is an absence in a register and not an official statement on whether Poitiers has a low-emission zone. Read 21 October 2026.",
+   "corrected_title": null,
+   "corrected_date": "2026-10",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Le 7 (7apoitiers.fr) no. 343, 15-21 February 2017, p. 3, 'Parkings : un succès, des impatiences': 'En 2016, le nombre d'entrées dans les parkings municipaux de Poitiers a augmenté de 6,5%, pour s'établir à plus d'1,5 million' in the five municipal city-centre car parks (Toumaï, Blossac, Hôtel de Ville, Tap, Notre-Dame Marché); subscriber 'plafond' reached; waits up to three months (the councillor says usually under one month); 'saturation régulière des parkings Toumaï et Notre-Dame Marché'. Matches; it is a 2017 article about 2016 and is dated as such.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Grand Poitiers lists seven public community car parks in the city centre (Toumaï at the station, Théâtre-Auditorium, Blossac-Tison, Hôtel de Ville, Notre-Dame Marché, Clos des Carmes and Palais de Justice), plus two private ones on the same page: Effia at the station and Q-Park Les Cordeliers (290 spaces on the official page, 318 on Q-Park's own page). A council vote of 30 January 2023 set three zones of paid on-street parking from 1 March 2023, with a 40 euro post-parking charge (25 euro if paid within 96 hours); whether these rates are still current was not checked. The Notre-Dame Marché car park was closed in an emergency in June 2024 after a structural risk was found, 12,000 props were installed, and on 13 June 2025 the council announced that level -1 would reopen on 19 June 2025 with about a hundred spaces, no subscriptions and new short-stay tariffs; the official list read on 21 October 2026 shows 146 spaces on one level. The 2025-2035 Mobility Plan (final version dated 13 June 2025) reports that in 2019 city-centre car parks averaged 46% occupancy, peaked at 86% for about 100 hours a year and were never saturated except very briefly around Christmas; it counts 2,993 paid on-street spaces and 3,225 public off-street spaces, and says a study of how Grand Poitiers manages its car parks is under way. Council magazines of June 2026 announce that from 4 July 2026 the first 1h30 will be free on Saturdays from 8:00 to 19:00 in the community car parks except Toumaï and on street in a sector between the Boivre and the Clain, and that Vitalis buses will be free every Wednesday afternoon from 1 July 2026 and on Saturdays; the official car park page read on 21 October 2026 still states the Saturday 1h30 offer. Poitiers does not appear in the national register of low-emission zones, which is an absence in a register and not an official statement. No recent utilisation figures were found."
+}

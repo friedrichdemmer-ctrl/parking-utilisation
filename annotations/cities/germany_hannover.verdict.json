@@ -1,0 +1,185 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Opened (hannover.de archive press release, Region Hannover). Content matches: sensors at five pilot P+R sites (Voelksen/Eldagsen 233, Weetzen 196, Dedensen/Guemmer 102, Wissenschaftspark Marienwerder 310, Nordhafen 180), data online at vmz-regionhannover.de, more sites to be equipped step by step, event traffic to be steered to free P+R spaces. But the page carries no publication date anywhere; the exact day '4 May 2021' is not on the page (only the photo file name begins 20210503).",
+   "corrected_text": "A Region Hannover press release (archived on hannover.de; the page itself shows no date, its photo file name is dated 3 May 2021) said its traffic management centre (VMZ) had installed occupancy sensors at five pilot Park & Ride sites, including the Stadtbahn stops Wissenschaftspark Marienwerder (310 spaces) and Nordhafen (180 spaces), that the data were now online, and that more P+R sites with good public-transport service were to be equipped step by step. The region wanted to steer traffic for large events to free P+R spaces and was extending the project to commuters.",
+   "corrected_title": null,
+   "corrected_date": "2021-05",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "Opened. Council decision on 29 September and the mayor's quote about a broad consensus for a change towards a car-free inner city are on the page, as is the 2035 framework. The page text gives no year; the year 2022 appears only in the title of a linked PDF ('Beschlussfassung 29-09-2022'). The sentence about the August 2025 progress report is not on this page.",
+   "corrected_text": "On 29 September 2022 (the year shown in the title of the linked decision document) the Hannover council adopted the inner-city concept as an overall concept for a climate-neutral, resilient inner city, a framework to 2035; Mayor Belit Onay called it a broad consensus in the city for a change towards a car-free inner city.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Opened (t-online, published 12 June 2023 per page metadata). Ende Mai Broetchentaste abolished; three resident zones in the Suedstadt 'since last week' / since 5 June; permit 30.70 euros a year; most expensive zone 2.60 euros an hour; fees last adjusted in 2019; city drafting new fee concept for the summer. All as in the draft.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Opened (hannover.de, last updated 29.08.2023). 141 spaces, 4 charging points, licence-plate capture, cashless, about 3.4 million euros, tariffs 2/7/11 euros, hanova largest garage operator with over 5,500 spaces in 14 garages and about 80 charging points, 'seit Mai' open (handover end of March 2023). All match.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Opened (hannover.de, last updated 19.09.2023). Concept presented on 19 September; centre to be 'nahezu autofrei', kerbside spaces largely to disappear, cars to go to garages 'bislang bei weitem nicht ausgelastet', implementation by 2030 targeted; page speaks of 'nach Beschlussfassung' so not yet adopted. Wording as a plan is correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Opened (hannover.de, updated 22.02.2024). Council adopted revised clean-air plan on 25 January; Umweltzone lifted 22 February 2024; no green sticker needed on any street; NO2 annual means below 40 microgram at all stations since 2020. All match. (Little parking relevance, but accurate.)",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Opened (hannover.de, published 18 March 2024, updated 10 April 2024). Went into operation 20 March 2024, 19th Uestra Stadtbahn P+R site, line 9, 70 car spaces, sensors with online occupancy, about 800,000 euros, Empelde 80 spaces mostly full, Badenstedt used hesitantly so far, Hemmingen 170 spaces often full. All match.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Opened (Radio Hannover, dated 18 August 2025). Cites the HAZ and an internal draft of the administration; Cityring 2.60 to 4.80 euros an hour, nearby districts 2.00 to 3.60, rest 1.00 to 1.80; 'Noch handelt es sich um einen Entwurf', council majority needed; aims: budget gaps and making kerbside parking less attractive so drivers use the cheaper garages. Draft wording is properly hedged and HAZ is only second-hand, as stated. Extra check: the official ParkGO ordinance (Amtsblatt 8 Jan 2026, linked from the city's parking-machine page, in force 1 Feb 2026) still sets zone I at 2.60 euros per hour, so the 4.80 draft was not adopted in that ordinance.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Opened (IHK Hannover, 18.08.2025). IHK rejects the 'massive' fee rise and names Koenigstrasse, List and Suedstadt as depending on kerbside parking because few garages are nearby. But it did not 'accept in principle' concentrating parking in garages: it called the idea understandable (nachvollziehbar) only if garages are well reachable and attractive, and said for visitors to the pedestrian zone this holds at best with limitations.",
+   "corrected_text": "On 18 August 2025 the IHK Hannover rejected the proposed massive rise in on-street parking fees, arguing that businesses in quarters such as Koenigstrasse, List and Suedstadt depend on kerbside parking because few garages are nearby. It called the idea of concentrating parking in garages understandable, but only if garages are easy to reach and attractive, and said this applies to visitors of the pedestrian zone at best with limitations.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 9,
+   "verdict": "unreachable",
+   "note": "electrive.net returns HTTP 403 (Cloudflare block page) to curl; the built-in browser pane could not be opened (tab creation failed). I did not attempt to bypass the block. Nothing on the page was read.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": "A headline on electrive.net dated 25 November 2025 says enercity put its 1,000th public charging point in Hannover into operation; the figures in the draft text (888 AC, 112 DC, about 1,300 points by end of 2026, 8.6 electric cars per point) could not be checked.",
+   "unconfirmed_reason": "Source returned HTTP 403 Cloudflare 'Sorry, you have been blocked'; page text not readable."
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Opened (Ratsinformationssystem DS 2352/2025). Council 18.12.2025 'Gegen 6 Stimmen beschlossen'; permit fee 30.70 to 96 euros a year; effective date 1 Feb 2026 is an assumption in the paper ('angenommen'); up to about 320,000 euros extra a year; about 3,900 permits as of 10.04.2025; links to Haushaltssicherungskonzept XI 2023-2026 (DS 2661/2022) asking for parking revenue rising by 8 million euros from 2024. Wording matches. Confirmation it came into force: ordinance published in Amtsblatt 8 Jan 2026, para 4 'tritt am 01.02.2026 in Kraft', para 3 permit 96 euros (read in the PDF linked from the city's parking-machine page).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Opened (DS 1924/2025). Beratungsverlauf: 17.09.2025 'Eingebracht'; 18.12.2025 Ratsversammlung 'Gegen 21 Stimmen und 2 Enthaltungen beschlossen'; ten action areas, one of which is 'Das staedtische Parkraummanagement etablieren'. All match.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Opened. The page is not undated: its footer says 'Zuletzt aktualisiert 10.07.2023'. Marienwerder 300 spaces and Nordhafen 180 spaces are listed (the 2021 press release gives 310 for Marienwerder, correct). The statement that 'all Park & Ride Parkplaetze' are free and open around the clock is made in the context of the recommended concert-travel P+R sites on a concert-travel page, not as a general statement about all P+R in Hannover.",
+   "corrected_text": "A city page on travel to the Heinz-von-Heiden-Arena (last updated 10 July 2023 according to its footer; read on 21 October 2026) lists recommended Park & Ride sites with Stadtbahn links, including Wissenschaftspark Marienwerder with 300 spaces and Nordhafen with 180 spaces, and says the P+R car parks can be used free of charge and are open around the clock. The 2021 regional press release gives 310 spaces for Marienwerder.",
+   "corrected_title": null,
+   "corrected_date": "2023-07",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Opened. The page is not undated: footer says 'Zuletzt aktualisiert 10.10.2023' and it was written before the council vote ('Wenn das Konzept noch 2023 vom Rat beschlossen wird'). 9,630 garage spaces, 3,843 on-street, about 5,800 private ('grob geschaetzt') are given as 'aktuell'; the page does not say the figures come from the 2023 concept. Advent weekends busiest, garages have capacity to compensate lost kerb spaces: correct.",
+   "corrected_text": "The city's FAQ on the inner-city mobility concept (last updated 10 October 2023, before the council had decided on the concept) says there are currently about 9,630 spaces in public garages in the inner city, about 3,843 in public street space and, roughly estimated, about 5,800 on private land. It says garages are busiest on the Advent weekends and generally have capacity to make up for kerb spaces that would be removed.",
+   "corrected_title": null,
+   "corrected_date": "2023-10",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Opened (hannover.de Parkscheinautomaten). Zone 1: bedienpflicht Mon-Sat 9-20, minimum and half-hour 1.30 euros, max 2.5 h; zone 2 1 euro; zone 3 0.50 euro; E-plate free until 31.12.2026 with parking disc: all on the page. But the footer says 'Zuletzt aktualisiert 11.03.2024' while the page links the ParkGO of 18-12-2025, so the stamp is unreliable; the page does not state an in-force date. Consistent with ParkGO para 1 (zone I 2.60 euros per hour, minimum 1.30). The page is no evidence on whether the August 2025 draft was adopted.",
+   "corrected_text": "On the city's parking-machine page, read on 21 October 2026 (its footer says last updated 11 March 2024, yet it links the ParkGO ordinance of 18 December 2025), the inner-city Tarifzone 1 charges 1.30 euros minimum and per half hour (payment required Monday to Saturday 9 a.m. to 8 p.m., 2.5 hours maximum), zone 2 charges 1 euro and zone 3 0.50 euros per half hour; vehicles with an E-plate park free until 31 December 2026 with a parking disc.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Opened. Page footer says 'Zuletzt aktualisiert 19.02.2026' (not undated). 96 euros a year, 48 euros half year, 'derzeit'; 'Die Landeshauptstadt Hannover hat mit Wirkung zum 01.02.2026 eine solche Aenderung der Gebuehrenordnung ... festgesetzt'; zones A-D since the 1990s, F/G/H since March 2025, J since November 2025, GA-GC since June 2023: all correct. Error: the studies list on the page is Nordstadt, Vahrenwald, List, Zoo, Bult and Suedstadt; Oststadt is named separately as an example of quarters where concepts are being prepared.",
+   "corrected_text": "A city page on resident parking (last updated 19 February 2026, read on 21 October 2026) says a resident permit costs 96 euros for a year (48 euros for half a year), under a change to the fee ordinance that the city says took effect on 1 February 2026. It lists zones A to D in Mitte (since the 1990s), F, G and H (since March 2025), J (since November 2025) and GA to GC in Suedstadt/Bult (since June 2023), and says studies are under way on whether resident zones can be set up in Nordstadt, Vahrenwald, List, Zoo, Bult and Suedstadt, with concepts also being prepared for quarters such as the Oststadt.",
+   "corrected_title": null,
+   "corrected_date": "2026-02",
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Opened (hanova.de/parken, no date on page; read 21 Oct 2026). 'acht Parkhaeuser in der Innenstadt, vier in den Stadtteilen und drei Parkplaetze ... rund 5.500 Stellplaetze'; 2.50 euros first hour and 19 euros for 9-24 h at Mehlstrasse, Altstadt/Schmiedestrasse, Osterstrasse, Andreaestrasse, Karolinenstrasse; Oper/Kroepcke and Windmuehlenstrasse 3.00 euros first hour, 25 euros for 10-24 h; Hbf/Raschplatz 2.00 euros per hour and 18 euros for 9-24 h; all inner-city entries 'nur bargeldlose Bezahlung'. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "Opened (vmz-regionhannover.de Messe page, undated; read 21 Oct 2026). 28,000 parking spaces for cars and buses around the fairgrounds and the Messering parking guidance system leading traffic to the lots intended for each event: on the page. The NUNAV app / steering event visitors to free P+R sites is NOT on this page (it comes from the 2021 press release).",
+   "corrected_text": "On the regional traffic management centre's fairgrounds page (undated, read on 21 October 2026) it says there are 28,000 parking spaces for cars and coaches near the Messe and that the parking guidance system on the Messering leads arriving traffic to the lots intended for each event or fair.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": null,
+   "unconfirmed_reason": null
+  }
+ ],
+ "corrected_summary": "Hannover is steering parking by restricting kerbside space, charging for resident permits and pushing cars towards garages. The council adopted the inner-city concept on 29 September 2022 and the Masterplan Mobilität 2035 on 18 December 2025 (21 votes against, 2 abstentions), which lists establishing city parking management as one of ten action areas, and the Umweltzone was lifted on 22 February 2024. In September 2023 the city presented a plan to make the core of the inner city almost car-free by 2030, with kerbside parking largely disappearing and cars led to garages; I did not find whether the council later adopted it. A city FAQ from October 2023 counted about 9,630 spaces in public inner-city garages against 3,843 on the street. The resident permit rose from 30.70 to 96 euros a year with a fee ordinance adopted on 18 December 2025 and, according to the city, effective from 1 February 2026; resident zones A to D, GA to GC (June 2023), F to H (March 2025) and J (November 2025) exist, and further studies are under way. An August 2025 internal draft, reported second-hand via the HAZ, proposed raising the Cityring rate from 2.60 to 4.80 euros an hour; the IHK rejected it, and the ordinance published in January 2026 still lists 2.60 euros an hour in the inner zone and the city's tariff page shows 1.30 euros per half hour. The municipal housing company hanova runs about 5,500 garage spaces and charges 2 to 3 euros for the first hour, while the region's Park & Ride sites are free and, since 2021, partly fitted with occupancy sensors, including the Badenstedt site that opened in March 2024; I found no occupancy statistics for them. The enercity charging-point figures could not be verified."
+}
