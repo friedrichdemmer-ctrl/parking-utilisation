@@ -1,0 +1,178 @@
+{
+ "country": "UK",
+ "city": "South Tyneside",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "South Tyneside Council runs and prices the borough's off-street car parks itself. Its 2024-25 parking annual report lists 18 chargeable off-street car parks (2,145 spaces) in South Shields town centre and on the seafront, free car parks in South Shields, Hebburn, Jarrow, Whitburn and Boldon (the report's own count of 22 and 1,431 spaces does not reconcile with its table), and 238 on-street pay-and-display bays. Off-street tariff income rose from about 1.13 million pounds in 2023-24 to about 1.33 million pounds in 2024-25, though about 809,000 pounds of that is not allocated to any car park. A notice of variation dated 11 May 2026 set out changes from 8 June 2026: seafront prices of 1.60 pounds per hour or 8 pounds all day, and a free first hour in the town-centre car parks; an August 2026 notice lists those as the current charges and varies the all-day charge to 10 pounds for Sunday 13 September 2026 without giving a reason. A parking order made on 10 June 2026 and in operation from 15 June added Station Road and McAnany Avenue pay-and-display car parks, said the proposed Mill Dam charges would not take effect after objections, and added contactless payment at ticket machines equipped for it; the council newsroom reported McAnany Avenue and Temple Park cashless payment live on 15 June. Resident permit parking is already widespread (33 schemes in the 2024-25 report), a Westoe controlled parking zone was dropped for now after local opposition, and a seafront-area permit scheme was consulted on from 8 December 2025 to 5 January 2026 with no outcome found. Travel North East pages show free Metro car parks at Hebburn, Fellgate and East Boldon with capacities of 52 to 70 spaces, no parking at Brockley Whins and Chichester, and conflicting figures for Jarrow (80 in the text, 38 in the table); Heworth, in Gateshead, has Gateshead Council car parks. A 20-year Connected Kerb contract for 2,000 EV charge points was reported in December 2023 and progress in November 2024, with a charging tariff planned but none found. Much of the council's own site (southtyneside.gov.uk) was behind a bot-protection page on the research date, so several cabinet and press pages could not be read.",
+ "items": [
+  {
+   "topic": "operators",
+   "date": "2025-07",
+   "text": "South Tyneside Council's 2024-25 parking annual report lists 18 chargeable off-street car parks (2,145 spaces) in South Shields town centre and on the foreshore, run by the council as pay and display, plus 238 chargeable on-street bays in South Shields. It also lists free off-street car parks in South Shields, Hebburn, Jarrow, Whitburn and Boldon (including Hebburn Central with 197 spaces, Mill Dam with 170 and Winchester Street with 194). The report's text gives 22 free car parks and 1,431 spaces, but its own table lists 25 and its section totals add up to about 1,243, so that count and total are not reliable.",
+   "source_title": "Parking Annual Report 2024 - 2025 (South Tyneside Council, published July 2025)",
+   "source_url": "https://publications.southtyneside.gov.uk/reports/parking-annual-report-2024-2025",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-07",
+   "text": "Among the car parks itemised in the 2024-25 parking annual report, Pierhead earned most, with 292 spaces and 130,154 pounds of tariff income, ahead of South Promenade South (129 spaces, 87,915 pounds); Charlotte Street's three car parks with 134 spaces took 25,503 pounds. On the itemised lines the seafront car parks took about 418,000 pounds against about 107,000 pounds for the town-centre ones, but a further 809,290 pounds is listed as 'Additional Car Park Income' without being allocated to any car park. Total off-street tariff income rose from 1,132,846 pounds in 2023-24 to 1,334,286 pounds in 2024-25 (the 2023-24 figures come from the separate 2023-24 report), while the number of chargeable spaces fell from 2,212 to 2,145.",
+   "source_title": "Parking Annual Report 2024 - 2025 and 2023 - 2024 (South Tyneside Council)",
+   "source_url": "https://publications.southtyneside.gov.uk/reports/parking-annual-report-2024-2025",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-07",
+   "text": "During 2024-25 the seafront car parks charged 1.20 pounds per hour or 6 pounds all day (5 pounds all day in the 2023-24 report), and the town-centre car parks charged 1 penny per minute for the first hour and 4 pounds all day. Mill Dam, Hebburn Central and the Jarrow car parks were free.",
+   "source_title": "Parking Annual Report 2024 - 2025 and 2023 - 2024 (South Tyneside Council)",
+   "source_url": "https://publications.southtyneside.gov.uk/reports/parking-annual-report-2024-2025",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-07",
+   "text": "The 2024-25 report lists 33 resident permit schemes (for example Westoe Village, Beach Road, Broughton Road, Harton Moor estate, Grange Place in Jarrow, South Drive in Hebburn and North Road in East Boldon). The council says its parking aims are to support town-centre viability and reduce congestion; it issued 19,788 penalty charge notices in 2024-25 (15,282 in 2023-24).",
+   "source_title": "Parking Annual Report 2024 - 2025 (South Tyneside Council)",
+   "source_url": "https://publications.southtyneside.gov.uk/reports/parking-annual-report-2024-2025",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-05-11",
+   "text": "On 11 May 2026 the council published a notice of variation saying that from 8 June 2026 seafront car park charges would change from 1.20 to 1.60 pounds per hour and from 6 to 8 pounds all day (coaches and passenger vehicles from free to 10 pounds all day). In the South Shields town-centre car parks the charge would change from 5 pence per 5 minutes for the first hour, then 1 pound per hour, to a free first hour then 1 pound per hour, with 4 pounds all day unchanged and town-centre permits unchanged (432 pounds a year). Temple Park was to go from 60p to 1 pound all day.",
+   "source_title": "Notice of Variation: South Shields Foreshore and Town Centre off-street parking charges and Temple Park (Public Notice Portal, Shields Gazette)",
+   "source_url": "https://publicnoticeportal.uk/notice/planning/6a011c4e35bfdb4fb67643ad",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-08-14",
+   "text": "A council notice of variation dated 14 August 2026 lists the current charges as 1.60 pounds per hour or 8 pounds all day on the seafront, and a free first hour then 1 pound per hour with 4 pounds all day in the town centre. It says that on Sunday 13 September 2026 the all-day charge at those car parks would be varied to 10 pounds (Beach Road East on-street bays from 6 pounds to 10 pounds all day, hourly rate unchanged at 1.20 pounds). The notice does not state a reason for the one-day change.",
+   "source_title": "Beach Road East - Off-street and on-street parking charges, two notices (Public Notice Portal, Shields Gazette)",
+   "source_url": "https://publicnoticeportal.uk/notice/traffic-and-roads/6a7e5bd3239c34aec94b1c8a",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-10",
+   "text": "The council made the McAnany Avenue, Station Road and Mill Dam parking order on 10 June 2026, in operation from 15 June 2026: Station Road (8am to 5pm, first hour free, then 1 pound per hour, 4 pounds all day) and McAnany Avenue (8am to 8pm, 1 pound per hour, 4 pounds all day) were added to the town-centre car parks. The notice says that after objections the proposed charges at Mill Dam would not take effect and parking there stays free.",
+   "source_title": "McAnany Avenue, Station Road - order notice (Public Notice Portal, Shields Gazette)",
+   "source_url": "https://publicnoticeportal.uk/notice/traffic-and-roads/6a2b4e690c4e5c81cddc9366",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-10",
+   "text": "The same order adds contactless card payment at town-centre and foreshore ticket machines that are equipped to accept it, and sets Trow Quarry, Marsden Lea and Whitburn Bents car parks to close from 8.30pm to 8am. Harbour Drive North and South and the smaller Pier Head area A (the one facing the mobile homes) are no longer closed from 10pm to 8am.",
+   "source_title": "McAnany Avenue, Station Road - order notice (Public Notice Portal, Shields Gazette)",
+   "source_url": "https://publicnoticeportal.uk/notice/traffic-and-roads/6a2b4e690c4e5c81cddc9366",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-06-15",
+   "text": "The council's newsroom said pay and display at McAnany Avenue car park and on-street bays went fully live on Monday 15 June 2026 (1 pound per hour, 4 pounds all day, 8am to 8pm, seven days), to ease long-stay parking pressure around the Harton Moor area and the hospital. New card-only and PayByPhone machines at Temple Park replaced the old system, with the charge remaining 1 pound all day.",
+   "source_title": "New Parking Arrangements Go Live Near Hospital and Leisure Sites (South Tyneside Council newsroom)",
+   "source_url": "https://southtyneside-newsroom.prgloo.com/news/new-parking-arrangements-go-live-near-hospital-and-leisure-sites",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-02-24",
+   "text": "The McAnany Avenue consultation (23 January to 13 February 2026) proposed pay and display on the unused old Brinkburn site and on-street bays near South Tyneside District Hospital, and received 4 responses, 2 for and 2 against. In reply to residents who wanted free parking, the council said a resident permit scheme would be needed to guarantee a space near their homes. The scheme was to go on to a legal consultation on a draft traffic order.",
+   "source_title": "McAnany Avenue, South Shields - Pay and Display Changes (Have Your Say)",
+   "source_url": "https://haveyoursay.southtyneside.gov.uk/road-safety/mcanany-avenue-south-shields",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12-08",
+   "text": "From 8 December 2025 to 5 January 2026 the council consulted on permit parking in the streets around the South Shields foreshore, where summer demand exceeds supply: permit-only and permit-or-pay-and-display bays, 8am to 8pm, a first resident permit free for a year then 20 pounds a year, and 10 pounds for 25 visitor sessions. The page says proposals may change or not go ahead, and no outcome was found.",
+   "source_title": "Foreshore Area Parking Proposals (Have Your Say)",
+   "source_url": "https://haveyoursay.southtyneside.gov.uk/road-safety/foreshore-area-parking-proposals",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The council's 'We asked, you said, we did' page (undated, read on 21 October 2026, with other entries from late 2024) records that a proposed Westoe controlled parking zone was dropped for now: residents were mostly opposed and 85 percent of consultation respondents owned a car, against 67.2 percent of South Tyneside households in the 2021 census.",
+   "source_title": "We asked, you said, we did (South Tyneside Council Have Your Say)",
+   "source_url": "https://haveyoursay.southtyneside.gov.uk/we_asked_you_said",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Travel North East station pages (undated, read on 21 October 2026) give free Metro car parks at Hebburn (70 spaces), Fellgate (52) and East Boldon (64) in their car-park tables, although the Fellgate and East Boldon descriptive text gives 53 plus 2 accessible and 54 plus 4 accessible bays. Brockley Whins has a pick-up and set-down area but no parking facilities, and Chichester has no parking facilities. At Jarrow the text says a car park with 80 unclassified spaces and 1 accessible bay, operated by South Tyneside Council, is on Grant Street, but the same page's table gives 38 spaces (platform 1 side), so the true capacity is unclear.",
+   "source_title": "Hebburn, Fellgate, East Boldon, Jarrow, Brockley Whins and Chichester station pages (Travel North East)",
+   "source_url": "https://travelnortheast.uk/station/hebburn/",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Travel North East's Metro car parking page (the nexus.org.uk/park address redirects to it; undated, read on 21 October 2026) says there are major car parks at 10 suburban stations and lists free Sunday parking at Hebburn among others. Heworth station, in Gateshead, has twin car parks run by Gateshead Council according to its station page: 70 short-stay spaces (up to 2 hours 2 pounds, up to 4 hours 3.50 pounds) and 392 long-stay spaces (up to 12 hours 3.10 pounds).",
+   "source_title": "Metro car parking (Nexus) and Heworth station page (Travel North East)",
+   "source_url": "https://nexus.org.uk/park",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2023-12-15",
+   "text": "In December 2023 trade press reported that South Tyneside Council had entered a planned 20-year partnership with Connected Kerb to deliver 2,000 new charge points, replacing all 59 old units, with chargers planned at 20 locations over the first two years. Connected Kerb would manage, maintain and operate them and introduce a tariff for electricity that the council had been subsidising at 200,000 pounds a year; pricing was still being negotiated.",
+   "source_title": "Connected Kerb to deliver 2,000 new charge points to South Tyneside (The Energyst)",
+   "source_url": "https://theenergyst.com/connected-kerb-to-deliver-2000-new-charge-points-to-south-tyneside",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2024-11-14",
+   "text": "In November 2024 the council reported that, since work started in July 2024, new chargers had been installed in five car parks (22 extra sockets), and that rapid charging points at 14 locations (15 sockets of 50kW) would be upgraded and adopted onto the Connected Kerb network. Chargers at a further 33 locations (about 100 sockets) were to be replaced by the end of summer 2025. The council said it was the only North East local authority not yet charging for EV charging and had given away more than two million units of electricity (the article writes 'k/w') since 2010. No South Tyneside tariff or later progress figure was found.",
+   "source_title": "Project to deliver 2,000 charging points 'progressing at pace' (GreenFleet)",
+   "source_url": "https://greenfleet.net/node/13300",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "southtyneside.gov.uk article pages returned a bot-protection challenge (not worked around), so these could not be read: https://southtyneside.gov.uk/article/29773/Free-Parking-Offer-Set-to-Launch-as-Council-Finalises-Tariffs (March 2026 cabinet-decision announcement, foreshore permit price), https://southtyneside.gov.uk/article/30736/Free-Parking-Offer-Goes-Live-as-Town-Centre-and-Seafront-Tariff-Changes-Begin, https://www.southtyneside.gov.uk/article/30743/Update-to-Town-Centre-parking-charges, https://www.southtyneside.gov.uk/article/26047/Council-Drive-to-Protect-Free-Parking (2025 order for 12 free car parks), https://www.southtyneside.gov.uk/article/38131/South-Shields-seafront-parking, https://www.southtyneside.gov.uk/article/24334/Increase-to-seafront-parking-charges, https://www.southtyneside.gov.uk/article/25426/Electric-Vehicle-Charging-Point-Upgrade-Progressing, https://www.southtyneside.gov.uk/article/31240/Formal-consultation-Wood-Terrace-South-Shields-Resident-permit-holder-parking-and-no-loading, and the Great North Run parking pages (https://southtyneside.gov.uk/article/14074/Great-North-Run-2026, https://southtyneside.gov.uk/article/28067/GNR-parking).",
+  "The actual start date of the town-centre free-first-hour scheme and the seafront 1.60 pound tariff is only confirmed by the May 2026 proposal notice and the August 2026 notices that list them as current charges; the council announcement and the November 2025 cabinet decision could not be read.",
+  "Shields Gazette article https://shieldsgazette.com/news/robbing-peter-to-pay-paul-parking-charge-changes-in-south-shields-spark-hot-debate-121357 returned a challenge page and was not read; no Chronicle Live or BBC article on South Tyneside parking was opened.",
+  "No outcome found for the foreshore-area permit consultation (closed 5 January 2026) or the Wood Terrace permit consultation (closed 20 August 2026).",
+  "No South Tyneside EV tariff in pence per kWh, and no EV rollout figures newer than November 2024, were found; Nexus car-park occupancy and individual Jarrow charges could not be read (https://www.nexus.org.uk/metro/car-park-occupancy returned 404).",
+  "No park-and-ride usage or utilisation statements for the borough's Metro stations, no low-emission zone or pedestrian-zone policy, and no Jarrow or Hebburn town-centre parking strategy documents were found."
+ ],
+ "dropped": {}
+}

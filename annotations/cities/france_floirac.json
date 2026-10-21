@@ -1,0 +1,178 @@
+{
+ "country": "France",
+ "city": "Floirac",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Floirac is a Bordeaux Métropole commune on the right bank of the Garonne. The town manages a blue-zone car park in the centre-bourg on rue Jules Guesde with 27 places, 90 free minutes on weekdays, 2 charging points and sensors linked to the municipal police. Wider parking and transport policy is set by the Métropole. The Bordeaux low-emission zone has covered the area inside the ring road since 1 January 2025, requiring a Crit'Air sticker; the Métropole's page, updated on 13 January 2026, names Floirac Arena and Floirac Dravemont among 11 park-and-rides that unclassified vehicles may still reach. TBM's undated English park-and-ride list shows Dravemont as a 46-space site for season-ticket holders only, while its short-stay page lists Dravemont among 11 sites that sell 2 to 5 day parking tickets (EUR 12 to 25, read on 21 October 2026); the two pages are not reconciled and the Arena park-and-ride is not on the list. The only Arena-event fare read is EUR 4.50 for parking plus a same-day return trip, from a September 2024 leaflet with prices of 1 July 2024. Metpark, a public body, runs the Arena's car park of close to 1,000 places, 22 reserved for reduced-mobility visitors, according to both the town page of January 2026 and the Arena's 2026 accessibility guide. For concerts the town urges visitors to use park-and-rides, the Arena shuttle, bikes or car-sharing, and its municipal police fine and impound vehicles that block pavements or bus stops. In the national charge-point database read on 21 October 2026, about 18 charge points at three sites in Floirac were found: six 180 kW IZIVIA points on rue de la Gabarre (since November 2024), an eight-point Lidl site and four 22 kW points at the Greet hotel. No town-wide paid on-street or resident parking scheme turned up in the sources read, and the Métropole car park and charging pages and TBM fare pages could not be read.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2025-01",
+   "text": "Since 1 January 2025 Bordeaux Métropole's low-emission zone (ZFE) covers everything inside the ring road, 24/7, and a Crit'Air sticker is required. Only unclassified vehicles (for example petrol or diesel cars registered before 1 January 1997) are barred from driving or parking inside; the page was last updated on 13 January 2026.",
+   "source_title": "ZFE (Zone à Faibles Émissions) : ce qu'il faut savoir",
+   "source_url": "https://www.bordeaux-metropole.fr/zfe",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-01",
+   "text": "Unclassified vehicles may still reach 11 park-and-ride sites inside the ring road by dedicated access roads; two of them are in Floirac, Parc Relais Arena and Parc Relais Dravemont. The Métropole says 8,000 Gironde households (3.7%) own an unclassified vehicle.",
+   "source_title": "ZFE (Zone à Faibles Émissions) : ce qu'il faut savoir",
+   "source_url": "https://www.bordeaux-metropole.fr/zfe",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12-05",
+   "text": "The town's centre-bourg car park on rue Jules Guesde (next to the maison des combattants) is a blue zone with 27 places, a 90-minute free stay Monday to Friday, 3 drop-off places, 1 disabled place and 2 electric charging points. Automatic detection sensors linked to the municipal police monitor the time limit. The same page gives the blue-zone hours both as 8am-7pm and as 8.30am-7pm.",
+   "source_title": "Parking du centre bourg : stationnez malin",
+   "source_url": "https://www.ville-floirac33.fr/parking-du-centre-bourg/",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-10-19",
+   "text": "On public roads in Floirac, municipal and national police handle abusive parking; under the Highway Code a vehicle left in one spot for more than 7 days, or less where a local order sets it, counts as abusive and can be impounded. On private land only the national police can act.",
+   "source_title": "Stationnement abusif",
+   "source_url": "https://www.ville-floirac33.fr/vivre-ensemble/stationnement-abusif-et-enlevement-de-vehicules/",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-06-14",
+   "text": "Floirac became a '30 km/h town' in 2023 after neighbourhood-council consultation in spring 2022. Only the quais de la Souys and part of avenue François Mitterrand stay at 50 km/h.",
+   "source_title": "Ville apaisée",
+   "source_url": "https://www.ville-floirac33.fr/ma-securite/ville-apaisee/",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-01-27",
+   "text": "For Arkéa Arena events the town urges spectators to use public transport, bike or car-sharing, and to park at TBM park-and-ride sites linked to the special Arena shuttle. Anti-parking bollards have been installed and the municipal police check parking after shows, with regular fines and impoundments for vehicles blocking pavements, bus stops or business entrances.",
+   "source_title": "Stationnement les soirs de concert à l'Arena",
+   "source_url": "https://www.ville-floirac33.fr/vivre-ensemble/stationnement-les-soirs-de-concert-a-larena/",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-01-27",
+   "text": "The Arena's own multi-storey car park is run by Metpark and has close to 1,000 places, including more than 20 for motorised two-wheelers; a space can be bought together with a show ticket. The town also lists a 20-place bike-share station and more than 500 bike hoops (1,000 places) near the hall.",
+   "source_title": "Stationnement les soirs de concert à l'Arena",
+   "source_url": "https://www.ville-floirac33.fr/vivre-ensemble/stationnement-les-soirs-de-concert-a-larena/",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The Arkéa Arena 2026 accessibility guide also gives 'close to 1,000' places for the Metpark car park, 22 of them for reduced-mobility visitors who can book with their tickets up to 48 hours before an event. It directs drivers to ring-road exit 22b ('Bas Floirac Arena'); the PDF is undated and was read on 21 October 2026.",
+   "source_title": "Arkéa Arena - Guide accessibilité 2026",
+   "source_url": "https://content.arkeaarena.com/uploads/Arkea_Arena_Guide_accessibilite_2026_c364e6a879.pdf",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Metpark describes itself as a public industrial and commercial body (EPIC) for Bordeaux and its metropolis, governed by a board of 11 Métropole elected members. Its page says it plans to install 1,500 charge points in 26 car parks by 2026 under a public concession, and to invest over 25 million euros in renovating 4 car parks by 2026; the page is undated and was read on 21 October 2026.",
+   "source_title": "Qui sommes-nous ? (METPARK)",
+   "source_url": "https://www.mtpk.fr/qui-sommes-nous/",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "TBM's English park-and-ride list (undated, read on 21 October 2026) shows Dravemont, opposite the Dravemont shopping centre in Floirac, as 'TBM season ticket holders only' with 46 spaces, 4 disabled spaces and 14 bicycle spaces, on the tram A list. It does not list a Floirac Arena park-and-ride.",
+   "source_title": "Opening times, maps and list of Parcs-Relais",
+   "source_url": "https://www.infotbm.com/en/opening-times-maps-and-list-parcs-relais.html",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "TBM says its park-and-rides open when trams run: 5am-1am on Monday, Tuesday, Wednesday, Sunday and holidays, and 5am-2am on Thursday to Saturday. Using one outside tram hours can bring a EUR 15 per day fine; the page is undated and was read on 21 October 2026.",
+   "source_title": "Opening times, maps and list of Parcs-Relais",
+   "source_url": "https://www.infotbm.com/en/opening-times-maps-and-list-parcs-relais.html",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "TBM's short-stay park-and-ride tickets cost EUR 12 (2 days), 15 (3 days), 20 (4 days) and 25 (5 days), each including one round trip on the network. Floirac Dravemont is among 11 of the 28 sites offering them, which sits oddly with the same site's season-ticket-only listing; the page is undated and was read on 21 October 2026.",
+   "source_title": "Park for 2 - 5 days",
+   "source_url": "https://www.infotbm.com/en/park-2-5-days.html",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-09",
+   "text": "A September 2024 TBM Arena leaflet gives the park-and-ride ticket as EUR 4.50 (prices of 1 July 2024): parking plus one return trip the same day, whatever the number of people in the car, up to 7. It is sold only at the machines of the tram station by the park, and the leaflet says 28 park-and-ride sites serve the metropolis.",
+   "source_title": "Aller à l'Arkéa Arena (TBM leaflet, September 2024)",
+   "source_url": "https://ws-maas.infotbm.com/uploads/network/line/files/66e154a5953b5_297x210mm_Depliant_Arena_2024_sept_WEB.pdf",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-09",
+   "text": "A September 2024 TBM leaflet said that on show days an Arena shuttle ran from Stalingrad and Gare Saint-Jean, from 2 hours before the event to 1 hour after the end, every 5 to 10 minutes depending on crowds. The leaflet also listed buses 6, 16, 25 and 28 serving the Arena, with line 6 running to Floirac Dravemont. The 2026 Arena accessibility guide gives the shuttle frequency as every 6 to 15 minutes depending on attendance.",
+   "source_title": "Aller à l'Arkéa Arena (TBM leaflet, September 2024)",
+   "source_url": "https://ws-maas.infotbm.com/uploads/network/line/files/66e154a5953b5_297x210mm_Depliant_Arena_2024_sept_WEB.pdf",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10-21",
+   "text": "Read on 21 October 2026, the national charge-point database (data.gouv.fr, consolidated file dated 21 October 2026) lists at Floirac addresses 6 IZIVIA points of 180 kW on rue de la Gabarre, in service since 7 November 2024 with open access, and a Lidl site at 1 avenue Salvador Allende with 8 points (6 at 22 kW and 2 at 180 kW, commissioned January 2024), open access in a private car park used by the public. The database is filled in by operators and may be incomplete or contain wrongly coded records.",
+   "source_title": "Base nationale des IRVE (data.gouv.fr)",
+   "source_url": "https://www.data.gouv.fr/datasets/base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques-donnees-statiques",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10-21",
+   "text": "Read on 21 October 2026, the national charge-point database lists a Partage Ma Borne site at the Greet hotel (named 'Floirac Arena'), 2 allée de la Gabarre: four 22 kW points, commissioned 2 November 2022 and flagged as reserved access; a second record for two of the same points gives a 2025 date and open access, so the access status is unclear. No Freshmile charge points in public car parks or on streets in Floirac appear in the file read.",
+   "source_title": "Base nationale des IRVE (data.gouv.fr)",
+   "source_url": "https://www.data.gouv.fr/datasets/base-nationale-des-irve-data-gouv-infrastructures-de-recharge-pour-vehicules-electriques-donnees-statiques",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "https://www.bordeaux-metropole.fr/en-voiture/parcs-stationnement and https://www.bordeaux-metropole.fr/en-voiture/recharger-mon-vehicule-electrique returned 403, so the Métropole's own car park and charging pages were not read.",
+  "https://www.infotbm.com/en/titles-and-prices/park-and-ride-tickets and https://www.infotbm.com/fr/actualites/des-nouveautes-dans-les-parcs-relais.html returned 403, so the current park-and-ride fare and any reduced-fare list for Dravemont are unverified; the only fare read is the July 2024 EUR 4.50 from a leaflet.",
+  "https://www.infotbm.com/fr/parc-relais (French park-and-ride list, which may hold live availability) returned an empty page; the undated English list gives Dravemont as season-ticket-only, which conflicts with its place on the short-stay list.",
+  "https://www.lejournaldesentreprises.com/article/bordeaux-metropole-attribue-la-construction-du-futur-pont-jean-jacques-bosc-92574 returned a bot-check (429). No usable source on the Pont Jean-Jacques Bosc opening or its parking effects was read, so it is not covered.",
+  "No Floirac council decision on paid or resident on-street parking was found, and the Floirac Arena park-and-ride (about 200 places per one search result) was not confirmed by any page read. Sud Ouest and actu.fr could not be searched (domains not accessible to the search tool), and the Bordeaux Métropole ZFE page gives no later calendar for stricter Crit'Air phases.",
+  "Charge-point counts come from the national database filtered on Floirac address text, so stations with missing address data may be absent and some entries lack a commissioning date."
+ ],
+ "dropped": {}
+}

@@ -1,0 +1,199 @@
+{
+ "country": "Finland",
+ "city": "Tampere",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "On 15 June 2026 Tampere's city board approved a parking policy running to 2040. Per Yle, it mentions progressive street pricing (price rising with parking duration) in the busiest central shopping streets, recommends stricter time limits and a street price that reaches the underground price at 30 minutes, and leaves a pricing plan and a possible trial for later; no pilot or new tariff has been decided. Street parking is split into three paid zones (3.50, 2.20 and 1.40 euros an hour, after a rise of about 10 percent proposed in December 2024) with a time limit of 2, 4 or 10 hours, more than 4,000 paid street spaces, resident permits at 25 euros a month in zones A to K, and 58,649 parking charges issued in 2025. The city's parking-places page names Aimo Park, EuroPark, Finnpark, Pyynikin Trikoon parkki and Sokos among car-park operators and says the list is incomplete. Finnpark, a city-owned group, lists P-Hämppi with 972 spaces under Hämeenkatu, a 35 euro daily maximum, and an announced two-month pilot with Sunday parking at half price in October and November 2026. It extended resident parking to nine central halls, and surveyed Moovy app customers in July 2026 (90 percent satisfied). The city's approach is to move parking underground: a design team was chosen in February 2026 for the first P-Hämppi extension and the Viinikankatu underground access road, a project continuing into the 2030s, and construction of the Yliopistontunneli access tunnel started in May. Park-and-ride is free on workdays and under pressure: Yle found the 130-space Hiedanranta lot full by about 9 a.m. on two of three observed March 2026 mornings, the city expected an extension to 220 spaces by autumn 2026, and Nysse's undated page now lists 220 spaces, but completion is not confirmed. Tram extensions to Pirkkala and Ruotula were reported to be under construction from December 2024. Caveat: the policy figures on permit-zone use (January 2024) and the 2022 centre parking study come from a March 2025 draft of the policy, not the adopted text.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2026-06-15",
+   "text": "On 15 June 2026 (a Monday) Tampere's city board approved the parking policy to 2040, per Yle. The document mentions progressive street pricing in the busiest central shopping streets, provisionally meaning that the price rises with parking duration. It recommends that the street price reach the underground car-park price at 30 minutes, and recommends stricter time limits for the payment zones. The city is next to draw up a plan for progressive pricing, after which a trial in a selected area is to be considered; any decision to make the model permanent would rest on a possible pilot. Occupancy-based variable pricing, which could replace the payment zones, is mentioned only as something to consider later.",
+   "source_title": "Tampere suunnittelee uudenlaista mallia pysäköintiin: hinta nousee, mitä kauemmin pysäköi (Yle)",
+   "source_url": "https://yle.fi/a/74-20231593",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-09",
+   "text": "The city's payment-zone page (updated 16 September 2026) lists three street zones: zone 1 at 3.50 euros/hour with a 2-hour limit, zone 2 at 2.20 euros/hour with 4 hours, and zone 3 at 1.40 euros/hour with 10 hours. Zone 1 costs half on Sundays and public holidays, zones 2 and 3 are free then, and paid street parking also exists in Hervanta and Kaupi.",
+   "source_title": "Maksuvyöhykkeet (Tampereen kaupunki)",
+   "source_url": "https://www.tampere.fi/liikenne-kadut-ja-kunnossapito/pysakointi/maksuvyohykkeet",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-12",
+   "text": "In December 2024 Yle reported a proposal to raise Tampere's street parking prices by about 10 percent from 1 February (zone 1 from 3.20 to 3.50 euros an hour, zone 2 from 2.00 to 2.20, zone 3 from 1.20 to 1.40), after the last rise in 2019; the community board was to consider it on 17 December. The same article reports that the city does not intend to cut parking fees for fully electric cars, as Helsinki and Espoo have done, with the deputy mayor doubting that a discount would boost low-emission car purchases, and that the question is to be revisited in a couple of years. The rates now on the city's price page match the proposal.",
+   "source_title": "Tampere ei aio keventää sähköautoilijoiden parkkimaksuja, vaikka Helsinki ja Espoo niin jo tekevät (Yle)",
+   "source_url": "https://yle.fi/a/74-20131169",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06",
+   "text": "Resident permits in zones A-K cost 25 euros a month or 300 euros a year (zone L 12.50 euros a month), guest permits 5 euros a day, and the commuter permit in zones F, G, H, J, K 56 euros a month (28 in L). The page (updated 2 June 2026) also lists a 75 percent resident-permit discount for fully electric cars and 50 percent for others if the car is in a peer-to-peer rental service.",
+   "source_title": "Mitä pysäköintilupa maksaa? (Tampereen kaupunki)",
+   "source_url": "https://www.tampere.fi/liikenne-kadut-ja-kunnossapito/pysakointi/pysakointiluvat/mita-pysakointilupa-maksaa",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-01",
+   "text": "The March 2025 draft of Tampere's parking policy 2025-2040 compares resident and business permits issued in January 2024 with street spaces in each permit zone. Permits issued equalled 101 percent of spaces in zone A and 100 percent in zone D, against 52 percent in zone J, 32 percent in zone K and 7 percent in zone L. The table calls this utilisation, but it is permits per space, not measured occupancy. The draft says Tampere's resident and business permit prices fall midway between those of Helsinki and Vantaa (higher) and Turku (lower). It proposes checking the need for resident and business permits regularly as infill building and the underground car-park network grow, and drawing up a pricing model that moves step by step towards market-level prices.",
+   "source_title": "Tampereen pysäköintipolitiikka 2025-2040, luonnos (city board draft 17.3.2025)",
+   "source_url": "https://www.tampere.fi/sites/default/files/2025-05/Kh-17.3.2025-Tampereen-pysakointipolitiikka-2025-2040_0.pdf",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-02",
+   "text": "The city's enforcement statistics (updated 13 February 2026) show 58,649 parking charges in 2025, down from 68,774 in 2023, worth 4.6 million euros, with 17 enforcement staff. The city states it has over 4,000 paid street parking spaces, with payment machines run by Finnpark.",
+   "source_title": "Pysäköinninvalvonnan tilastot (Tampereen kaupunki)",
+   "source_url": "https://www.tampere.fi/liikenne-kadut-ja-kunnossapito/pysakointi/pysakoinninvalvonta/pysakoinninvalvonnan-tilastot",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-03",
+   "text": "The March 2025 draft of Tampere's parking policy 2025-2040 reports the results of the city's 2022 city-centre parking study. The study area had 41,750 car spaces, 4 percent more than in 2018, including 6,600 public street and surface-lot spaces and 18 car parks with 8,150 spaces. Street and surface-lot spaces fell 7 percent while public car-park capacity rose 20 percent, and about 58 percent of households in the area have no car.",
+   "source_title": "Tampereen pysäköintipolitiikka 2025-2040, luonnos (city board draft 17.3.2025)",
+   "source_url": "https://www.tampere.fi/sites/default/files/2025-05/Kh-17.3.2025-Tampereen-pysakointipolitiikka-2025-2040_0.pdf",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-02",
+   "text": "The city's parking-places page (updated 23 February 2026) points to car park operators Aimo Park, EuroPark, Finnpark, Pyynikin Trikoon parkki and Sokos, and says the list is not complete. Street parking can be paid by cash, card or the Moovy, ParkMan, EasyPark, eParking and Flowbird apps, and not every meter still accepts cash.",
+   "source_title": "Pysäköintipaikat (Tampereen kaupunki)",
+   "source_url": "https://www.tampere.fi/liikenne-kadut-ja-kunnossapito/pysakointi/pysakointipaikat",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The Finnpark page for P-Hämppi, read on 21 October 2026, lists 972 spaces and a tariff of 4.20 euros/hour for the first 3 hours (7-23), 3.00 euros/hour after that and 0.50 euros/hour at night (23-07), with a 35 euro daily maximum. A 24/7 contract costs 250 euros a month and the resident contract 150 euros a month. The page also shows Sundays in October and November at 50 percent off.",
+   "source_title": "P-Hämppi (Finnpark)",
+   "source_url": "https://finnpark.fi/kohteet/p-hamppi-tampere/info",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10-02",
+   "text": "Finnpark announced a two-month pilot with Sunday parking in P-Hämppi at half price in October and November 2026: 2.10 euros/hour for the first three hours, 1.50 euros/hour afterwards and 0.25 euros/hour at night. It said this follows customer wishes on pricing and matches the 50 percent Sunday level on city streets.",
+   "source_title": "Sunnuntait puoleen hintaan P-Hämpissä loka-marraskuun ajan (Finnpark)",
+   "source_url": "https://finnpark.fi/2026/10/02/sunnuntait-puoleen-hintaan-p-hampissa-loka-marraskuun-ajan/",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-09-18",
+   "text": "A Finnpark news item of 18 September 2026 reports that its resident parking has been extended from five to nine central halls (adding P-Hämppi, P-Plevna, P-Koskenparkki and P-Pellavanparkki), for residents of postcodes 33100, 33200 and 33210 who have no parking of their own. It says demand is strongest in P-Hämeenpuisto and P-Näsinkulma, in the older western centre.",
+   "source_title": "Finnparkin asukaspysäköinti laajeni Tampereen keskustassa (Finnpark)",
+   "source_url": "https://finnpark.fi/2026/09/18/oma-parkkipaikka-aina-taattu-finnparkin-asukaspysakointi-laajeni-tampereen-keskustassa/",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-09-22",
+   "text": "A Finnpark survey of 3,587 of its customers logged into the Moovy app in July 2026 found 90 percent fairly or very satisfied with using its car parks; respondents' main requests were about pricing, signage, and space availability and size. Finnpark, a group owned by the City of Tampere that runs over 30 car parks and some 20,000 spaces in Finland (2025 revenue 31.7 million euros), said it is converting three parking spaces into two in older car parks and has already done so on the lowest floor of P-Tullintori and the second floor of P-Asema.",
+   "source_title": "Finnpark tutki: näin tamperelaiset autoilijat kokevat keskustan pysäköinnin (Finnpark)",
+   "source_url": "https://finnpark.fi/2026/09/22/finnpark-tutki-nain-tamperelaiset-autoilijat-kokevat-keskustan-pysakoinnin/",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The Finnpark P-Hämppi page, read on 21 October 2026, lists 39 charging points on level P1 (35 Type 2 at 22 kW and 4 CCS at 180 kW), operated by Plugit. The 22 kW points cost 0.33 euros/kWh from 7 to 21 and 0.22 from 21 to 7.",
+   "source_title": "P-Hämppi (Finnpark)",
+   "source_url": "https://finnpark.fi/kohteet/p-hamppi-tampere/info",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-02-06",
+   "text": "In February 2026 a team of Finnmap Infra, Sitowise and Ramboll was chosen to design the Viinikankatu underground access road and the first extension of P-Hämppi, a joint procurement of the City of Tampere and Finnpark Parkisto Oy. The project is long-running and continues into the 2030s, with the extension to sit under Rautatienkatu.",
+   "source_title": "Tampere jatkaa keskusta-alueen kehittämistä - suunnitteluryhmä valittu (Finnpark)",
+   "source_url": "https://finnpark.fi/2026/02/06/tampere-jatkaa-keskusta-alueen-kehittamista-suunnitteluryhma-valittu/",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-05",
+   "text": "The city's page on underground parking (updated 12 May 2026) says the aim is to move street-level capacity phase by phase into underground facilities, with the Viinikankatu connection built together with the first P-Hämppi extension. It reports that construction of the Yliopistontunneli access tunnel started in May and the Viinikankatu section will take about two years before tunnel excavation.",
+   "source_title": "Underground parking and driving connections in the city centre (Tampere)",
+   "source_url": "https://www.tampere.fi/en/urban-design/renewing-city/underground-parking-and-driving-connections-city-centre",
+   "confidence": "high",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-03-27",
+   "text": "Yle reported on 27 March 2026 that Hiedanranta, which it called Tampere's largest and most popular park-and-ride at the tram line, has 130 spaces. On three observed weekday mornings the lot still had room on Monday, was full by about 9 a.m. on Tuesday and by about 8:30 a.m. on Wednesday. The deputy mayor said an extension with 90 more spaces (to 220) was currently expected to be ready by autumn 2026, and that there were no current plans to charge for park-and-ride, though tying parking to the travel ticket had been discussed. Yle noted 16 park-and-ride sites in Tampere and neighbouring municipalities.",
+   "source_title": "Tampereen suosituimmassa liityntäparkissa ruudut loppuvat kesken (Yle)",
+   "source_url": "https://yle.fi/a/74-20217272",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "Nysse's park-and-ride page, read on 21 October 2026, lists Hiedanranta with 220 car spaces (12-hour limit), Niihama 70, Kaukajärvi 58 and Koivistonkylä 34, and says workday parking is free. Real-time free-space data for Niihama is shown in the Nysse journey planner and on iot.tampere.fi (Finnish only).",
+   "source_title": "Park and ride (Nysse)",
+   "source_url": "https://www.nysse.fi/en/ways-to-get-around/park-and-ride.html",
+   "confidence": "high",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-01-05",
+   "text": "Yle reported on 5 January 2025, before the opening, that tram line 1 would begin running to Lentävänniemi on the Tuesday morning (7 January 2025). It said the tram began in August 2021, made 16.6 million trips in 2024, and has a network of 24 km. Extensions from Sori square to Pirkkala and from the TAYS area first to Ruotula and later to Linnainmaa were due in the coming years, and work on them had started in mid-December 2024.",
+   "source_title": "Tampereen uusin ratikkalinja on valmis - kävimme koeajelulla (Yle)",
+   "source_url": "https://yle.fi/a/74-20134887",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "WebSearch budget ran out during the task: Aamulehti, Tamperelainen and Nysse news items were not found or opened, so there is no press coverage of centre traffic changes, pedestrianisation or closures beyond Yle.",
+  "No occupancy or utilisation statistics for car parks (Finnpark halls, P-Hämppi) or street parking were found; only permit-zone usage (January 2024) and anecdotal park-and-ride fullness.",
+  "The completion of the Hiedanranta park-and-ride extension to 220 spaces was not confirmed with a dated source (Nysse's undated page lists 220; the Yle article of March 2026 only promised it for autumn 2026).",
+  "The policy's progressive pricing has no adopted tariff or pilot date; the full 64-page policy was extracted but only the sections on supply, pricing, permits and park-and-ride were read.",
+  "Opening dates for the Pirkkala/Ruotula tram extensions and the Lielahti-Ylöjärvi route (Yle, 11 February 2026: possible start 2036, no decision) were not verified from official tram project pages.",
+  "No low-emission or access-restriction zone for cars was found for Tampere; the centre's pedestrian-street plans were not researched.",
+  "iot.tampere.fi (open parking data) returned an empty page and could not be read."
+ ],
+ "dropped": {}
+}

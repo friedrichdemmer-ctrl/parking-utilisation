@@ -1,0 +1,133 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "TBM list (page undated, read 21 Oct 2026): 'La Gardette' open to all, Avenue des Griffons 33530 Bassens, max height 2.20m, 242 spaces, 5 Boogi car-sharing, 15 unsecured bike spaces, TBM Sales and Information Point; 'La Gardette*' season-ticket holders only, 151 spaces. All numbers match. But the page only lists both under 'park-and-rides with connections to tram A'; it does not say they are at the northern end of line A (only the municipal page, item 13, says terminus, and neither says 'northern'). 'Boogi' car-sharing is the page's wording.",
+   "corrected_text": "The TBM list shows two park-and-ride car parks at La Gardette on Avenue des Griffons in Bassens, both listed among the park-and-rides with connections to tram line A: one open to all with 242 spaces (max height 2.20 m) and one for TBM season-ticket holders only with 151 spaces. The open one has 5 Boogi car-sharing spaces, 15 unsecured bike spaces and a TBM sales and information point; the page is undated and was read on 21 October 2026.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Page (undated, read 21 Oct 2026): subscription includes same-day park-and-ride parking; others buy a ticket at EUR 4.50 or EUR 3.50 reduced rate; ticket gives 7 round trips in a day for 1-7 people; ticket must be validated on a tram/bus the same day to exit. Reduced-price list includes La Gardette Nord and La Gardette Sud. Title 'Park for the day' matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Page (undated, read 21 Oct 2026): 2/3/4/5 days = EUR 12/15/20/25, includes a round trip on the network; '11 of 28' park-and-rides offer short stays, 'Right bank' list includes La Gardette Nord and La Gardette Sud. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Page (undated, read 21 Oct 2026): EUR 300/year in one payment or EUR 25/month for 12 months by direct debit; for people living within 500 m of an included park-and-ride; 'number of spaces is limited'; included list is Gare de Pessac Alouette, Mérignac les Pins, 40 journaux, Cantinolle, Lauriers, Les Aubiers. La Gardette is not on it. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Opening-times page: Mon/Tue/Wed/Sun and bank holidays 5am-1am; Thu/Fri/Sat 5am-2am; fine EUR 15 per day incl. part days. The 'Park for the day' page says open until 1:30 AM Sunday-Wednesday and 2:30 AM on other days, flat-rate fine EUR 25 per day. The discrepancy is real as stated in the draft (the park-day page also gives a third set of hours for the Arena car park). Both pages undated; read 21 Oct 2026. No official third source seen, so the correct hours and fine remain unresolved; medium confidence is right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "Press release of 4 Oct 2023 (PDF, 1 page, read in full): five dynamic signs under the new concession, including Bassens (avenue Raoul Bourdieu); concession with Keolis 'officialisée en juillet 2022'; the short-stay (2-5 days) tariff offer was 'votée lors du conseil de métropole du 29 septembre 2023' and covers La Gardette Nord & Sud among 11 car parks. The night parking for residents is only said to be offered by 'l'opérateur et Bordeaux Métropole' at some sites; the release does not say the council voted it, but the draft wording ('voted a short-stay offer ... and a night-parking offer') reads as if both were voted. The signs are described as already installed ('ont été implantés').",
+   "corrected_text": "Under the Keolis concession officialised in July 2022, five dynamic signs showing free park-and-ride spaces were installed, one of them on Avenue Raoul Bourdieu in Bassens, according to a Bordeaux Métropole press release of 4 October 2023. It says the metropole council voted a new tariff offer on 29 September 2023 allowing short stays (2 to 5 days) at some park-and-rides, including La Gardette Nord and Sud. The operator and the metropole also offer night parking at some of them for nearby residents without private or on-street parking.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Page (undated, read 21 Oct 2026): says it lets users consult all car parks with location, real-time free spaces and tariffs, and that the 28 'parcs-relais' of the TBM network are near tram and bus lines. 'Real-time availability' link also appears on the TBM park-for-the-day page. The listing shows 100 car parks over 13 pages and only page 1 is server-rendered, consistent with the draft's gap note. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Page published 30 Oct 2024, updated 13 Jan 2026: ZFE since 1 Jan 2025, corresponds to the 'intra-rocade', Crit'Air sticker mandatory; unclassified vehicles may no longer drive or park inside but may use 11 P+R via dedicated roads; list includes Buttinière and Lauriers (Lormont); La Gardette is not listed; the page does not name Bassens or say whether it is inside. Title matches. Draft summary should not imply Bassens is covered.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Press release 24 June 2025 (PDF, read in full): inauguration that day; works started May 2024; 68 car spaces ('véhicules légers'); secure bike park and hoops; new bus stop in front of the station; Avenue du général Leclerc redeveloped; cost EUR 2.48M; station served by 41 trains a day; Presqu'île/Campus express bus 'à l'horizon 2027' (a plan). All matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Page published 7 Jan 2025, updated 28 May 2025: 364 charging places on 146 on-street stations in May 2025; +54% use in Q1 2025 vs Q1 2024; supervision by Freshmile (the stations themselves are managed by the metropole, so 'run with' is a loose but acceptable wording); METPARK with Total Energies plans 1,500 charge points by 2026 in 26 car parks (announcement); no Bassens site is named. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Same page (published 7 Jan 2025, updated 28 May 2025). Numbers match: since 6 Jan 2025 EUR 0.38 TTC/kWh; EUR 4.00 TTC/h 'temps d'immobilisation' if the session exceeds 4 h on slow sockets; the occupation supplement is removed 23h-8h on AC charges; maximum EUR 48 TTC after 14 h of session. However the draft states them as current without noting that the page was last updated on 28 May 2025, so current October 2026 rates are not confirmed. Prices are TTC (tax included).",
+   "corrected_text": "According to a Bordeaux Métropole page last updated on 28 May 2025, public on-street charging posts have charged, since 6 January 2025, 0.38 EUR per kWh including tax, plus 4.00 EUR per hour of occupation once a session on a slow socket passes 4 hours (waived from 11pm to 8am on alternating-current sockets), with a maximum of 48 EUR including tax after 14 hours of session. Whether these rates still apply in October 2026 was not confirmed.",
+   "corrected_title": null,
+   "corrected_date": "2025-05"
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "TBM list (read 21 Oct 2026): La Gardette and La Gardette* entries show no electric-vehicle charging line; Buttinière lists 8 spaces with charging points; Pyrénées lists 20. Matches. Page undated; absence of a line is an inference from the list, so medium confidence is right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Le Bonbon article dated 29 Sept 2026: 'Bordeaux Métropole prévoit' an average +3% on TBM fares in 2027, park-and-ride ticket 'coûtera désormais 5 EUR, contre 4,50 EUR actuellement'; the text mentions criticism 'avant son examen par les élus métropolitains', i.e. not yet voted. The headline says 'C'est officiel' but the body describes a plan. The draft's wording (plan before council approval, not confirmed in an official text) is accurate. Single secondary source (a Bordeaux city-guide/news site, not labelled AI-written); keep medium confidence and word as planned only.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Municipal page (undated, read 21 Oct 2026): tram A with terminus 'La Gardette-Bassens-Carbon-Blanc', bus lines 7, 29, 31, 57, 60, 61, park-and-ride at 'La Gardette'; lianes 7 and 31 cross the commune; liane 7 every 12-15 minutes, 'en journée la semaine'. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Page (undated, read 21 Oct 2026): ZIP is 600 hectares = 60% of the communal territory; 4,000 direct jobs plus more than 1,000 daily induced or subcontractor jobs; includes the main terminal of the Port de Bordeaux and an industrial zone of about 110 firms (30+ at-risk sites, 5 SEVESO). Figures match. The sentence that this workforce is 'context for car and park-and-ride demand' is the researcher's inference; the page says nothing about parking or commuting.",
+   "corrected_text": "The port and industrial zone covers 600 hectares, 60% of the territory of Bassens, with about 4,000 direct jobs and more than 1,000 further jobs induced or with subcontractors each day. It holds the main terminal of the Port de Bordeaux and an industrial zone of about 110 firms. The page was read on 21 October 2026 and is undated; it says nothing about car use or parking.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Page (undated, read 21 Oct 2026): 'vélo box' opposite the town hall holds up to six bikes, for residents within 250 m with neither garage nor garden; subscription issued by the Maison Métropolitaine des Mobilités Alternatives (MAMMA) at EUR 30 per year per bike; five free-floating bike stations including 'sur le parvis de la gare'. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Bassens is a commune of the Gironde department on the right bank of the Garonne in Bordeaux Métropole, with a port and industrial zone covering 60% of its territory. Car parking policy is set mostly at metropole level. The TBM network lists two park-and-ride car parks at La Gardette, which the municipal page names as the terminus of tram line A, with 242 spaces open to all and 151 for season-ticket holders only. Non-subscribers pay 4.50 EUR a day (3.50 EUR reduced rate at La Gardette), and 2-to-5-day stays cost 12 to 25 EUR; a local news report of 29 September 2026 says the day ticket is planned to rise to 5 EUR in 2027, which is not yet confirmed by an official text. The two TBM pages disagree on closing hours and the out-of-hours fine (15 vs 25 EUR). A station interchange with 68 car spaces was inaugurated on 24 June 2025. Bordeaux Métropole's low-emission zone has applied inside the ring road since January 2025, but the metropole's page does not say whether Bassens lies inside it. No municipal on-street paid-zone or resident-parking rules for Bassens were found, so this briefing is thin on the town's own regulation."
+}

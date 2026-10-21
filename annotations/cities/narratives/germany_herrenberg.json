@@ -1,0 +1,17 @@
+{
+ "as_of": "2026-10",
+ "sections": [
+  {
+   "title": "Policy and access to the centre",
+   "text": "Herrenberg's parking policy sits inside a wider mobility plan. The Gemeinderat adopted the Integrated Mobility Development Plan IMEP 2030 almost unanimously on 14 May 2019, with 48 measures in five fields, one of which is parked traffic [0]. In October 2025 the city reported that about half of the measures were realised or under way, and that without them the plan forecasts a car share of 58 percent, which full implementation could lower to 50 percent [1]. In June 2023 the Gemeinderat adopted a framework concept for the old town and its surroundings, with a design competition envisaged for public spaces such as Marktplatz; the page gives no parking decisions [2]. From November 2022 parking fees can be paid by phone on many municipal car parks, implementing a council decision from 2019 [3]. We could not read the city's parking-fee and garage bylaws, so we state no street or municipal garage tariffs."
+  },
+  {
+   "title": "Parking developments",
+   "text": "The notable change is at the station. A Stuttgarter Zeitung report of 22 December 2025 said that parking in the Stadtwerke Herrenberg garage and on the park-and-ride in Kalkofenstraße would become more expensive from the beginning of 2026, the day ticket from 3 to 4 euros and the monthly ticket from 20 to 30 euros, with permanent tickets sold together with a VVS ticket rising from 180 to 250 euros a year; the report was written before the change, so we cannot confirm the prices are in force [5]. The same report said that fees in the other municipal garages and on the short-stay lots in Bahnhofstraße stay unchanged and the Contipark-operated lot south of the station is not affected [6]. The reported background is a coming refurbishment to secure the garage's structure, after a 2021 survey found damage to the concrete; a vertical extension that was considered is no longer pursued [7]. For electric vehicles, Herrenberg had 64 public charging points at 38 stations in February 2026, and planned 12 more normal points in 2026, mostly for summer, which we did not verify [10][11]."
+  },
+  {
+   "title": "Operators, positioning and utilisation",
+   "text": "The city lists 16 car parks and garages, 14 with a stated capacity, among them Nufringer Tor (242 spaces), Stadthalle (211), P+R Kalkofenstraße (398), Altstadtgarage (97), Viehversteigerungshalle (95) and Bronntor (90) [4]. The DB station page lists a DB BahnPark lot in Bahnhofstraße with 122 spaces at 1.20 euros an hour and 4.20 euros a day, and the covered Kalkofenstraße park-and-ride with 398 spaces [8]. Parking occupancy is published in the city's Open Data Portal and linked with MobiData BW [9].\n\nOur data cover three car parks with 234 spaces from MobiData BW: Altstadtgarage (97), Bronntor (90) and the Volksbank car park (47), measured for 61 days since 22 August 2026. Occupancy averaged about 25% on weekdays and 17% at weekends, weighted by spaces. The Volksbank lot averaged 33% on weekdays and 13% at weekends and reached full once on a Monday morning; Bronntor averaged 28%; the Altstadtgarage 19%. The bigger garages on the city's list, including the station park-and-ride, are not in our feed. The window includes the end of the summer holidays."
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "country": "Netherlands",
+ "city": "Maastricht",
+ "researched": "2026-10-21",
+ "summary": "Maastricht manages parking through a ring structure in which Q-Park garages and car parks (Mosae Forum 1,089 and Frontenpark 1,308 spaces, Vrijthof 447, Bassin 397, Plein 1992 449 and Entre Deux 199) are priced by distance from the centre under a 2003 public-private agreement. Under it the city sets Q-Park tariffs each year by the September CPI and must keep street tariffs at or above nearby garage tariffs. The city raised street tariffs by 15 percent in 2024, by 3.3 percent for 2025, and again for 2026 (general index 2.1 percent; after rounding EUR 3.70 per hour in the Binnenstad, EUR 1.90 elsewhere, EUR 8.30 day ticket), while Vrijthof has a EUR 35 day maximum and the outer Park & Walk sites EUR 8.30-14 per day in 2026. Policy is to push long-stay visitors to garages and P+R Noord (free, 516 spaces) with progressive street tariffs, limited resident permits (Binnenstad EUR 30.08 per month, one per household without private parking), a zero-emission delivery zone since 2025 and a one-year autoluw Wyck pilot from January 2026. Busy-day management (guidance signs, Q-Park parking hosts) and route advice for visitors from Belgium are part of the city's visitor strategy. No usage statistics or council debates on a new parking policy were found.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2023-09-12",
+   "text": "The 2003 cooperation agreement between Maastricht and Q-Park requires street-parking tariffs to be equal to or higher than those in nearby Q-Park garages and car parks; Vrijthof is exempt because it has no nearby street spaces. The council papers describe the policy as steering long-stay visitors into garages so street spaces stay free for short-stay visitors and permit holders.",
+   "source_title": "College proposal 'Indexering parkeertarieven 2024' (12 Sep 2023)",
+   "source_url": "https://maastricht.bestuurlijkeinformatie.nl/Document/View/7cc53135-96d8-4fb9-bad1-a6d29703473e",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2023-09-12",
+   "text": "The college raised street-parking tariffs by 15 percent from 1 January 2024: city-centre (Binnenstad) EUR 3.50 per hour (was 3.00), other areas EUR 1.80 (was 1.50), day ticket EUR 7.80 (was 6.80). The reasons given were the Q-Park agreement, national tariffs having risen about 30 percent against 15 percent in Maastricht, and realised 2022 parking income about EUR 1 million below budget.",
+   "source_title": "College proposal 'Indexering parkeertarieven 2024' (12 Sep 2023)",
+   "source_url": "https://maastricht.bestuurlijkeinformatie.nl/Document/View/7cc53135-96d8-4fb9-bad1-a6d29703473e",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-11-19",
+   "text": "For 2025 the college indexed street tariffs by 3.3 percent: city-centre hourly rate EUR 3.50 to 3.60, other areas EUR 1.80 to 1.90, day ticket EUR 7.80 to 8.10, and set the parking fine at EUR 78.80. Q-Park garage tariffs were indexed by the September CPI of 3.5 percent.",
+   "source_title": "College proposal on indexation of parking taxes and Q-Park tariffs 2025 (19 Nov 2024)",
+   "source_url": "https://maastricht.bestuurlijkeinformatie.nl/Document/View/d514bf6e-e69d-4582-b4fc-1a2433d080d9",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2021-12-14",
+   "text": "Q-Park garage tariffs are set by the municipality under the 2003 public-private agreement and indexed each year by the September CPI since 2015, with equal tariffs per 'ring' (Vrijthof ring 0, core shopping area ring 1, centre ring 2, Park & Walk ring 3). For 2022 (CPI 2.7 percent) the ring-0 step was shortened from 15 to 14 minutes, ring 2 from 26 to 24 minutes and ring 3 from 40 to 39 minutes; the periodic re-calculation was postponed because Covid had distorted traffic patterns.",
+   "source_title": "College proposal 'Parkeertarieven Q-Park 2022' (14 Dec 2021)",
+   "source_url": "https://maastricht.bestuurlijkeinformatie.nl/Document/View/296e17ab-cdc3-4613-8bd9-4d356b60c0b6",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-09-16",
+   "text": "The college decided on 16 September 2025 to send the 'Belastingverordeningen en tarieven Maastricht 2026' to the council for its meeting of 4 November 2025 (a proposal at that date). It applies a 2.1 percent general index to parking permits and street tariffs, with Q-Park tariffs indexed by the September CPI and corrected upward for street tariffs where the CPI exceeds the 2.1 percent.",
+   "source_title": "Raadsstuk 'Belastingverordeningen en tarieven Maastricht 2026' (college decision Sep 2025)",
+   "source_url": "https://maastricht.bestuurlijkeinformatie.nl/Document/View/63e5f8b7-1989-4040-824a-7faca3d25a67",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: street parking costs EUR 3.70 per hour in the high-tariff zone (mainly the city centre), EUR 1.90 per hour in the low-tariff zone and EUR 8.30 for a day ticket where there is no time limit. In some areas a progressive tariff applies, rising after the 1st, 2nd or 4th hour.",
+   "source_title": "Maastricht Bereikbaar: Betaald parkeren en invalidenparkeerplaatsen",
+   "source_url": "https://www.maastrichtbereikbaar.nl/hoe-reis-ik/ik-neem-de-auto/betaald-parkeren",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: paid street parking applies Monday, Tuesday, Wednesday, Friday and Saturday 08:00-18:00, Thursday 08:00-21:00 and Sunday 12:00-18:00, on days that shops are open. On holidays when shops are closed street parking is free, but Q-Park garages still charge.",
+   "source_title": "Maastricht Bereikbaar: Betaald parkeren en invalidenparkeerplaatsen",
+   "source_url": "https://www.maastrichtbereikbaar.nl/hoe-reis-ik/ik-neem-de-auto/betaald-parkeren",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-01",
+   "text": "The Maastricht Bereikbaar 2026 tariff flyer lists garage tariffs: Vrijthof EUR 1.50 per 16 minutes, EUR 35 per day; Bassin, Mosae Forum and OLV EUR 1.50 per 25 minutes, EUR 28.50 per day; Frontenpark, Sphinx, De Griend, P+R Station, De Colonel and Plein 1992 EUR 1.50 per 32 minutes, EUR 18 per day; Stadspark EUR 1.50 per 50 minutes, EUR 14 per day. P Bonnefanten is capped at EUR 21 per day on weekdays and EUR 14 at weekends; Fort Willem (Park & Walk) is EUR 1.90 per 60 minutes, EUR 8.30 per day.",
+   "source_title": "Maastricht Bereikbaar: Parkeergarages en -terreinen (incl. flyer Parkeertarieven Maastricht 2026)",
+   "source_url": "https://www.maastrichtbereikbaar.nl/hoe-reis-ik/ik-neem-de-auto/parkeergarages-en-terreinen",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: P+R Maastricht Noord (516 spaces, Hoekerweg) is free to park; the bus into the centre costs EUR 1.28 per trip with OVpay or a EUR 2.55 return ticket, and a group return for 3-5 people costs EUR 6.40. A monthly pass costs EUR 32.05.",
+   "source_title": "Maastricht Bereikbaar: P+R Maastricht Noord",
+   "source_url": "https://www.maastrichtbereikbaar.nl/hoe-reis-ik/ik-neem-de-auto/pr-maastricht-noord",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10-12",
+   "text": "From 1 January 2027 the ticket machine at P+R Maastricht Noord is removed, so P+R users must pay by OVpay check-in and check-out (EUR 1.28 per trip); loose and group return tickets can be bought only until 31 December 2026.",
+   "source_title": "Maastricht Bereikbaar: Kaartautomaat op P+R Maastricht Noord verdwijnt (12 Oct 2026)",
+   "source_url": "https://www.maastrichtbereikbaar.nl/nieuws/kaartautomaat-op-pr-maastricht-noord-verdwijnt",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: 2026 resident and business permits cost EUR 30.08 per month in the Binnenstad (inside the singels) and EUR 5.03 per month for a first and EUR 7.56 for a second permit in the Overig Gebied; commuter permits cost EUR 57.56 per month, student permits EUR 6.96, and a one-day temporary permit EUR 20.86 (Binnenstad) or EUR 10.43 (Overig Gebied). The application fee is EUR 23.15.",
+   "source_title": "Gemeente Maastricht: Tarieven parkeerproducten (2026)",
+   "source_url": "https://www.gemeentemaastricht.nl/parkeren-en-verkeer/tarieven-parkeerproducten",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: since 1 January 2022 residents of the Binnenstad can have at most one permit and only if they have no private parking; in the Overig Gebied no second permit is granted where private parking exists (existing permits unchanged). No permits are issued for the Ceramique district, and permits are paid per year or quarter.",
+   "source_title": "Gemeente Maastricht: Parkeervergunning voor bewoners",
+   "source_url": "https://www.gemeentemaastricht.nl/parkeren-en-verkeer/parkeervergunning-voor-bewoners",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01-05",
+   "text": "The 'autoluw Wyck' pilot started on 5 January 2026 and runs for one year: cars and motorbikes may not enter or park in part of Wycker Brugstraat on weekdays 18:00-07:00 and from Saturday 18:00 to Monday 07:00, with new fixed loading times in Wyck. Drivers are pointed to Q-Park Plein 1992, De Colonel and De Griend, or to P+R Noord with bus line 30; the city decides after a year whether the rules stay.",
+   "source_title": "Maastricht Bereikbaar: Pilot Autoluw Wyck gestart",
+   "source_url": "https://www.maastrichtbereikbaar.nl/nieuws/pilot-autoluw-wyck-gestart",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-01-01",
+   "text": "From 1 January 2025 the Maastricht city centre is a zero-emission zone for city logistics: delivery vans and lorries on petrol, diesel or LPG with emission class below 5 may no longer enter, with exemptions and a transition scheme to 2030. Passenger cars are not covered; the traffic decision and exemption policy were published on 25 April 2024.",
+   "source_title": "Gemeente Maastricht: Bedrijfswagens op fossiele brandstof vanaf 2025 (zero-emissiezone)",
+   "source_url": "https://www.gemeentemaastricht.nl/parkeren-en-verkeer/zero-emissiezone",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026 (Q-Park pages list capacities): Mosae Forum 1,089 spaces, Frontenpark 1,308, Plein 1992 449, Vrijthof 447, Bassin 397, OLV-parking 354, De Griend 346, P+R Station 340, Bonnefanten 297, De Colonel 289, Entre Deux 199, Stadspark I/II/III 234/84/71 and P+R Meerssenerweg 66. Q-Park operates these garages and car parks under the 2003 agreement with the city.",
+   "source_title": "Q-Park: parkeren Maastricht (garage pages, e.g. Mosae Forum, Vrijthof, De Griend, Entre Deux)",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/maastricht/mosae-forum/",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: Maastricht has about 500 public charging posts (1,000 charge points) and expects to double to about 2,000 charge points by 2030 together with Vattenfall InCharge. A pilot allowing cable-gutter tiles for home charging from public spaces started on 1 August 2025 with up to 50 participants.",
+   "source_title": "Gemeente Maastricht: Elektrische auto opladen",
+   "source_url": "https://www.gemeentemaastricht.nl/parkeren-en-verkeer/elektrische-auto-opladen",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: on busy days (Allerheiligen, Magisch Maastricht, André Rieu, Belgian holidays) the city, Maastricht Bereikbaar and Q-Park run 'Topdagen Plus' measures: traffic regulators, dynamic signs showing free garage spaces, possible closure of Statensingel, Frontensingel and Bassinbrug routes, extra Q-Park parking hosts and overflow lots near P+R Noord.",
+   "source_title": "Maastricht Bereikbaar: Bereikbare stad op drukke dagen",
+   "source_url": "https://www.maastrichtbereikbaar.nl/waar-werken-wij-aan/bereikbare-stad-op-drukke-dagen",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: for visitors from Belgium (Lanaken/Smeermaas) the city advises the Belvedere route and cheap Fort Willem (EUR 8.30 per day) or Frontenpark. Frontenpark pre-booked via Q-Park starts at EUR 12 per day with a dynamic price capped at EUR 17.50. It also says garages near the centre are often full, especially at weekends.",
+   "source_title": "Maastricht Bereikbaar: Ik neem de auto",
+   "source_url": "https://www.maastrichtbereikbaar.nl/hoe-reis-ik/ik-neem-de-auto",
+   "confidence": "high"
+  }
+ ],
+ "gaps": [
+  "Dutch regional press (1Limburg, L1, Dagblad De Limburger) could not be searched: the web search budget ran out after a few queries and limburger.nl is not accessible to the search tool, so no press coverage on parking, Belgian visitors or utilisation is included.",
+  "https://www.maastrichtbereikbaar.nl/nieuws/nieuwe-parkeertarieven-maastricht-vanaf-1-januari-2026 returned 403 and was not used.",
+  "No 2026 or 2027 college decision on Q-Park garage tariffs (normally taken in November/December) and no record of the council vote of 4 November 2025 was found; the 2026 garage tariffs come from the Maastricht Bereikbaar flyer image, not from a council paper.",
+  "No gemeente Maastricht council papers on the future of parking policy (new parking nota, revision of the 2003 Q-Park agreement, mobility vision) were found; the 2025 Tarieventabel Parkeren and the 2026 parking ordinance text were not read.",
+  "Q-Park garage tariff widgets on the Q-Park pages did not load ('De tarieven konden helaas niet geladen worden'), so live Q-Park tariffs were not read; Sphinx appears on the 2026 flyer but its Q-Park page was not found (404).",
+  "No utilisation or occupancy statistics, visitor counts by country (Belgian share), or news on new, closed or refurbished garages (Vrijthof, Sphinx, Mosae Forum) were found.",
+  "Official gemeente Maastricht pages and Q-Park pages are undated live pages, so they are dated 2026-10 with the read date of 21 October 2026."
+ ]
+}

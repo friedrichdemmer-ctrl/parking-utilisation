@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Council news release dated 30 January 2026 says the council agreed 'donderdag' to the new parkeerbeleidsplan (Thursday = 29 January; ZuidWest Update of 9 Jan names the council meeting of 29 January, and the Nota Parkeernormen is signed 29 January 2026). Smarter parking, better laid-out spaces, clearer garages, new mobility hubs, more room for greenery, and the link to Mobiliteitsvisie 2040 and RSD40 are all on the page. The word 'unanimously' is NOT on this release; it is on the separate plan page https://www.roosendaal.nl/parkeerbeleidsplan/ ('unaniem ingestemd'), so it should be dropped here (item 1 can carry it).",
+   "corrected_text": "On Thursday 29 January 2026 the Roosendaal council approved the new Parkeerbeleidsplan, which keeps parking possible but organises it more smartly (better laid-out spaces, clearer garages, new mobility hubs) and aims to free street space for greenery, play and meeting. The plan ties in with the Mobiliteitsvisie 2040 and the RSD40 vision.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Plan page (undated) and the linked infographic PDF (Infographic-Parkeerbeleidsplan.pdf, read in full) confirm: fewer parking spaces needed in centre and station area (good cycling and public transport), more in districts, villages and rural areas; parking garages at the edge; 'flitsparkeren' in the inner city for retail accessibility; paid parking only where logical; step-by-step introduction with first phase fixing bottlenecks and shared mobility and later possible further measures. Page also says the council agreed 'unaniem' (unanimously) to the plan. Date 2026-10 and read-on wording are right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "ZuidWest Update, 9 January 2026: committee meeting on 'donderdagavond' (8 January), only small remarks, no heated debate; earlier plans shelved in September 2023 under alderman Vermeulen; first phase fixing parking situations and bottlenecks, second phase steering behaviour 'onder meer' through different tariffs (planned, not in force); alderman Heij against blue zones, no existing permits taken away; plan to be discussed in the council meeting of 29 January. Everything in the item matches. Secondary source (local news), so medium confidence is right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "ZuidWest Update, 31 October 2025: part of the council saw a first look; SPARK Parkeren's Stan van den Hulsbeek says it is still a concept version; street parking pressure is high in the inner city and the districts; garages are often empty in evening and night; ideas: residents park on own plots, long-stay parkers in garages, possible expansion of paid-parking zones; three scenarios for short and long parking still to be worked out. Matches. The article also says the Mobiliteitsvisie was adopted 'onlangs' (recently) by the council, with no exact date.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2026, 56293 (beleidsregel), published 09-02-2026: 'Aldus vastgesteld in de openbare raadsvergadering van 29 januari 2026'; replaces the 2011 norms; in force the day after publication (so 10 February; the item words it as the day after publication on 9 February, which is consistent). Centre: the minimum is at the same time the maximum; car-light area: parking may not be opened onto the public road. The page does not say whether the vote was unanimous, and the item does not claim it.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Same Gemeenteblad: 25 percent reduction for functions within 500 m walking distance of the station entrance; buy-off per car space 15,000 (Centrum incl. autoluw gebied), 10,000 (Schil centrum), 5,000 (rest of built-up area and outer area), price level 1 January 2026 excluding VAT; the Spoorzone is excluded and gets separate norms or method after the Masterplan, with a later amendment of the nota. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "Lokale regelgeving CVDR752526: adopted in the council meeting of 18 December 2025, charging date 1 January 2026; tariff table: area A 2.65 and area B 2.05 per 60 minutes, day ticket 10.00 per 24 consecutive hours (ordinance excludes 'losse parkeermeters' from the day-ticket line); resident permit A 70.00 and B 100.00 per calendar year, each for up to two plates; office permit 360 (Monday-Friday); shop permit 432. All figures correct. But '(A)' and '(B)' for permits sit right after 'area A' and 'area B' and read as tariff areas; in the ordinance they are permit types (the municipal permit page describes 70 euros as the first and 100 euros as the second resident permit). Wording corrected.",
+   "corrected_text": "On 18 December 2025 the council adopted the Verordening parkeerbelastingen Roosendaal 2026, with charging from 1 January 2026: street parking at 2.65 euros per hour in area A (the high-tariff streets) and 2.05 euros in area B, and a 10 euro day ticket valid for 24 consecutive hours in the paid-parking area. Annual permit fees are 70 euros for resident permit A and 100 euros for resident permit B (each for up to two plates; the letters are permit types, not the tariff areas), 360 euros for an office permit and 432 euros for a shop permit.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Operator page /parkeren-op-straat/ (undated, read 21 Oct 2026): hours Mon-Thu 09-20, Fri 09-21, Sat 09-20, Sun 12-20; Emile van Loonpark shorter (Mon-Thu 09:00-18:30, Fri 09-21, Sat 09-17, Sun 12-17); free parking with a disabled parking card on street; also quotes 2.05 / 2.65 per hour and the 10 euro day ticket. The sentence about the high-tariff area covering Kloosterstraat, Dominestraat and Molenstraat (part) is NOT on this page. It is on the operator's sibling page /parkeren-op-straat/tarieven/ (Burg. Prinsensingel, Dominestraat, Emile van Loonpark, Kloosterstraat, Laan van Limburg, Laan van Belgie, Nispensestraat, Molenstraat from Bloemenmarkt to Burg. Prinsensingel) and in the ordinance of item 6, so the fact is true but not at the cited URL; dropped from the corrected text.",
+   "corrected_text": "The operator's street-parking page (read on 21 October 2026) lists paid hours of Monday to Thursday 09:00-20:00, Friday 09:00-21:00, Saturday 09:00-20:00 and Sunday 12:00-20:00, with shorter hours at Emile van Loonpark (Monday to Thursday 09:00-18:30, Friday 09:00-21:00, Saturday 09:00-17:00, Sunday 12:00-17:00). Holders of a valid disabled parking card do not pay for street parking. The page quotes 2.05 euros per hour (low tariff), 2.65 euros per hour (high tariff) and a 10 euro day ticket.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "CVDR736683: 'Geldend van 17-03-2025'; Article 1 paid-only: Dominéstraat (except the car park in article 4), the Kade, southern part of Emile van Loonpark, Molenstraat; Article 2 permit holders only: Van Dregtplein and Doctor van Dregtstraat; Article 8 withdraws the designation decision of 13 December 2016. Matches. (Many other streets are designated as mixed paid-or-permit under articles 3 and 4, which the item does not claim otherwise.)",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Operator tariff page (undated): 'Met ingang van 1-1-2025 betaalt u 0,75 per 20 minuten in alle parkeergarages'; off-peak 1.25 per hour; day ticket 10.00; off-peak windows for Nieuwe Markt and Biggelaar Mon-Thu and Sat-Sun 19:00-08:00 and Friday 22:00-08:00. 2.25 per hour is simple arithmetic (3 x 0.75). Page undated, so 'still showed on 21 October 2026' is the right wording.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "ZuidWest Update, 2 November 2023: from 2024 garages and street 5 cents per 20 minutes (15 cents per hour) dearer; about 310,000 euros needed; street rise still needed council approval, garage rise is a decision of the company with the alderman as shareholder; street tariffs last raised in 2016, garages in 2012; SPARK advised keeping garages cheaper than street. Item words it as a plan, correctly. Secondary source.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Operator garage page lists: Nieuwe Markt 24/7 520 spaces; Biggelaar 24/7 375; Mill Hill 100 plus 200 at weekends; Roselaar 416 (07:45-20:30 Mon-Thu); Liga 150 weekend spaces (opening hours: Friday 18-21, Saturday 08-19, Sunday 11:15-18, closed Mon-Thu). Footer says 'Parkeer Beheer Roosendaal BV'. The five names sum to 1,561 spaces (520+375+416+100+150) excluding the 200 extra weekend spaces at Mill Hill; that total is not stated on the page. The 'mobility alderman acts as its shareholder' claim is not on this page; it comes from the 2023 ZuidWest Update article (item 10), which names the then alderman Vermeulen, so a present-tense claim is not confirmed. Dropped.",
+   "corrected_text": "Parkeer Beheer Roosendaal B.V. runs the five city-centre garages: Nieuwe Markt (520 spaces, open 24/7), Biggelaar (375, 24/7), Roselaar (416, 07:45-20:30 Monday to Thursday), Mill Hill (100 spaces, plus 200 at weekends) and Liga (150, open Friday evening and at weekends only). Page read on 21 October 2026.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Garage tariff page: entry by licence-plate recognition and contactless payment at the exit; EasyPark linked to the plate - correct. Dip & Go page (named in the title): about 40 street machines in the centre and at the station take cashless payment only (Dip&Go, Tap&Go contactless also possible); other machines still take cash - correct. 'Four pay-by-phone providers' is on neither cited page; it is on /parkeren-op-straat/tarieven/ (Easypark, Yellowbrick, Stadsparkeren, SMS Parking), so true but not at the cited sources; dropped. The cited URL covers only the garage half.",
+   "corrected_text": "Garage guests enter by licence-plate recognition and pay contactless at the exit, or use EasyPark linked to their plate. About 40 street machines in the centre and at the station accept only cashless payment by Dip&Go (Tap&Go contactless is also possible). Pages read on 21 October 2026.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Operator subscription page (undated): business subscription 380.82 per quarter (126.94 per month); employee subscription for Biggelaar 225.03 per quarter, term to 31 December 2026; resident subscription for Nieuwe Markt without fixed space 'in 2026' at 273.10 per quarter. Figures correct, but only the resident price is labelled 2026; the item says all three are 2026 prices. Business price has no year on the page.",
+   "corrected_text": "Per the operator's subscription page (read on 21 October 2026), a business garage subscription costs 380.82 euros per quarter, the employee subscription for garage Biggelaar costs 225.03 euros per quarter (term to 31 December 2026), and a resident subscription for Nieuwe Markt without a fixed space is offered in 2026 at 273.10 euros per quarter.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Municipal permit page (undated): residents can get a permit for at most 2 plates; buildings with a building application after 1 May 2002 at most 1 permit; residents of Stadsoevers north of Wethouder Lanenstraat cannot apply for a resident permit; paid/permit area divided into 7 sectors. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Mobiliteitsvisie PDF (43 pages read): colophon 'Datum 3 februari 2025, Status Definitief'; 'we zetten in op' a western entrance of garage Nieuwe Markt, a car-light inner city, P+R at Leisurepark Roosendaal and investigation of P+R near Oostpoort (east) and Roosenveltpoort (south), strongly steering on a low parking norm for new residents near the centre and station. The text elsewhere says the western entrance is still to be investigated. Document date is a consultant draft date; the council adoption date is not in the PDF (ZuidWest Update of 31 Oct 2025 says only 'onlangs').",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Mobiliteitsagenda PDF (6 pages read), dated 03-06-2025: western entrance of garage Nieuwe Markt feasibility 25,000; study of parking location/hub Dunantstraat; feasibility studies P+R Oostpoort and Roosenveltpoort and P+R Leisurepark; evaluation of the car-light inner city (delivery window times and exemptions policy); HUB NS-station with NS as lead. All planned work, as worded. The agenda also planned the Nota Parkeernormen decision for Q4 2025 and the parking policy for 2025; both slipped to January 2026.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Municipal page (undated): Vattenfall InCharge expands the public network; Vattenfall won the Noord-Brabant and Limburg concession in 2024; within the contract they place all public charge points through 2028; up to 11 kW, at least 3.7 kW per car; paid parking rules still apply at chargers in paid zones. Operator page /parkeren-op-straat/eautos/ (named in the title) lists garages Nieuwe Markt, Biggelaar, Roselaar and Mill Hill with charging spaces. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Roosendaal's centre has five garages (Nieuwe Markt, Biggelaar, Roselaar, Mill Hill, Liga), run by Parkeer Beheer Roosendaal B.V. (in 2023 the mobility alderman was reported to be its shareholder). Since 1 January 2025 the garages charge 0.75 euros per 20 minutes, with an off-peak 1.25 euros per hour in Nieuwe Markt and Biggelaar and a 10 euro day ticket; the operator's page, read on 21 October 2026, still showed these rates. For 2026 the council set street tariffs of 2.65 euros per hour in the high-tariff area and 2.05 euros elsewhere, with a 10 euro day ticket and resident permits of 70 and 100 euros a year. On 29 January 2026 the council approved a new Parkeerbeleidsplan (the municipal plan page says unanimously) and adopted a new Nota Parkeernormen the same day, in force the day after its publication on 9 February 2026: 25 percent lower requirement within 500 m walking distance of the station and buy-off sums of 5,000 to 15,000 euros per space. The plan is meant to be introduced step by step, first fixing bottlenecks and offering shared mobility, with a possible second phase steering behaviour through differentiated tariffs; those later tariffs are plans, not rules. It follows the Mobiliteitsvisie 2040 (document dated 3 February 2025, which favours active mobility, a car-light inner city, a possible new western entrance to garage Nieuwe Markt and P+R studies) and the Mobiliteitsagenda 2025-2040 of June 2025. Officials stress that cars remain welcome and paid parking will be used only where logical; a consultant said in October 2025 that street parking pressure is high while garages are often empty in the evening and at night. Public EV charging is being rolled out by Vattenfall InCharge through 2028. Council papers on raad.roosendaal.nl sit behind a bot challenge and were not read, and the council adoption date of the Mobiliteitsvisie is not documented in the sources checked."
+}

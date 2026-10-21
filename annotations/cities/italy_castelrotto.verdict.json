@@ -1,0 +1,125 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Municipal notice 'Zufahrt Seiser Alm - die Registrierung ist ab sofort möglich', published 07.05.2026 (last updated 21.05.2026). Says all permits except agricultural vehicles and vehicles with special plates must in future ('künftig') be applied for via an own online portal (www.zufahrt-seiseralm.it); plates are monitored by camera reading at the control points St. Valentin, Jochstrasse, Compatsch, Pufels and Jender. Item is worded as an announcement, which matches. Title and date match.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "PDF (9 slides, created 23 April 2026) read in full with pypdf. Slide 2: P1 Spitzbühl and P2 Compatsch 'müssen online gebucht werden', a platform 'wird eingerichtet'; once the car parks are fully booked no booking or access is possible, 'auch nicht vor 9 Uhr oder nach 17 Uhr'. Slide 4: a barrier at St. Valentin was 'ursprünglich angedacht' and, after several talks and site visits ('Lokalaugenscheine') in Prags, 'verworfen' (high staffing effort, time between opening and closing the barrier, high error rate and therefore queues). Wording 'considered and dropped' is correct and is the municipality's own stated decision, not a plan. Error: the draft says the presentation was 'listed 28 April 2026'; the document page says Veröffentlichungsdatum 23.04.2026 (last updated 07.05.2026), and 28 April appears nowhere. Everything else matches.",
+   "corrected_text": "The municipality's presentation of the 2026 changes (published 23 April 2026) states that the car parks P1 Spitzbuehl and P2 Compatsch must be booked online, through a platform to be set up, and that once both are fully booked no booking or access is possible, not even before 9:00 or after 17:00. A barrier at St. Valentin was originally considered and, according to the presentation, dropped after talks and site visits in Prags because of high staffing effort, delays, a high error rate and resulting queues.",
+   "corrected_title": null,
+   "corrected_date": "2026-04-23"
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Same PDF. Slide 3: digital variable-message signs (PMV) in Telfen, for traffic coming from Kastelruth and from Seis, before the turn-off to the Seiser Alm, will indicate free spaces at P1 and P2, 'so soll unnützer Verkehr ... bereits in Telfen vermieden werden'. Slide 4: camera plate reading will be 'aktiviert' at the St. Valentin checkpoint with a display telling the driver whether they may continue. Slide 5: camera-based recognition 'wird eingeführt' at Compatsch (towards Saltria and Joch) with display boards. Slide 6: at Pufels and Jender, 'sofern diese Zufahrten offiziell für den Verkehr freigegeben wurden', barriers are installed with camera reading and traffic lights. Future/conditional wording in the item matches. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Municipal notice published 19.06.2026: 'Ab dem 29. Juni 2026 ist für die Parkplätze P1 Spitzbühl und P2 Compatsch eine Online-Reservierung erforderlich'; booking at the earliest 6 days ahead, so the reservation for 29 June is possible from Tuesday 23 June 2026. The notice was written before 29 June, and the item correctly says 'announced'. Title and date match.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Undated tourism-association page, read 21 Oct 2026 (date 2026-10 and 'page read' wording are correct). Says: the road is closed to private traffic between 09:00 and 17:00 (open before 9:00 and after 17:00); the restrictions apply only to uphill traffic, downhill is allowed at any time; the St. Valentin checkpoint can be passed from 29 June 2026 only with a valid access permit and a valid parking booking automatically grants one; parking ban 23:00-5:00; in the shoulder seasons (mid-April/mid-May and early November/early December) the cable car is closed and the road is open all day to Compatsch. The page also lists exceptions (accommodation guests, European Disability Card) that the item does not mention; this does not make the item wrong.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Undated tourism-association page (read 21 Oct 2026; date 2026-10 correct). P1 Spitzbühl: 15.00 euros per day and car, 10.00 motorbikes. P2 Compatsch: 30.00 per day and car, motorbikes 15.00, buses 160.00. Only day parking (05:00-23:00), payment at booking, no refund/cancellation/changes; entry by 09:30 or the booking lapses and is not refunded; a booking allows a single entry. Note for the caller: the same page says P1 is free after 17:00 but still needs a reservation, and the fees are given as 'derzeit' (currently), so they are the tariff at the time of reading, not a fixed rule.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Undated tourism-association page (read 21 Oct 2026). In the shoulder seasons (cable car closed) the page says: 'Auf dem Parkplatz P2 in Compatsch zahlst du dann 15,00 € pro Tag und Auto bzw. 80,00 € pro Tag und Bus.' It also says P2 costs 30 euros, 'was dem Tarif für eine Berg- und Talfahrt mit der Seiser Alm Bahn entspricht'. Both claims are on the page. Medium confidence is appropriate (single operator page, no date).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Cited page https://www.seiseralm.it/parking, read 21 Oct 2026. Confirmed there: European Disability Card holders may drive to Compatsch at any time and use reserved free spaces, after registering and applying for an access permit via the municipal portal (if those spaces are full a paid space must be booked); bus line 14 runs 25 July to 6 September 2026 (single ride Spitzbühl-Compatsch 4 euros). NOT on the cited page: line 179 serving the Alm in the shoulder seasons. That sentence appears only on the other seiseralm.it pages (zufahrt-seiser-alm.html and parkplaetze.html), not on /parking.",
+   "corrected_text": "Holders of a European Disability Card may drive to Compatsch at any time and use reserved free spaces there, after registering for an access permit on the municipal portal; if those spaces are occupied, a paid space must be booked. Bus line 14 (Spitzbuehl-Compatsch) runs from 25 July to 6 September 2026. Page read on 21 October 2026.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Undated tourism-association page (read 21 Oct 2026). Valley station: large free open-air lot, garage Walderer (2.00 euros per hour, 8.00 daily) and the new Talstation garage (2.50 per hour, 12.00 daily); table footnote 'Pauschalpreis ab der 4. Stunde' (the daily rate applies from the 4th hour) is not mentioned in the item. Table row for the open lot says 'Parkverbot von 22.00 bis 6.30 Uhr', while the FAQ text says 23:00-5:00; the item reports both correctly. No operator is named on the page, as the item says. Note: the table says the open lot is P1 and the garages are P0/P+1 and P-1/P-2, which can be confused with the Alm lots P1/P2.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Undated tourism-association page (read 21 Oct 2026). Valley station has three EV charging stations, one outdoors and one on each of the two garage levels, described as 'Hypercharger' with 100-150 kW (about half an hour to charge). Public chargers also listed: Kastelruth St. Anna, Völs am Schlern (Dorfstrasse), Tiers am Rosengarten (Brunnenplatz and St. Zyprian). App 'Neogy eMobility' to see, reserve, start and pay. 'Described as' wording is correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Cited page (Parkgarage Zentrum, undated) confirms only the central garage: at the bus station, max height 2.50 m, open 24 hours, hourly 07:00-23:00 2.20 euros, 23:00-07:00 1.80, daily maximum 24.00, cash and card. It does NOT mention Parkgarage Dorf. The Dorf figures (2.30/1.90, 24 per day, 2.10 m, 24 h, Via Oswald von Wolkenstein) are on a different page, https://www.seiseralm.it/de/info-service/aktuelle-infos/informationen-a-z/BD29CBDB62D6FDB8921059532F631FF3-parkgarage-dorf.html, which I read and which matches the item (that page's contact is info@silbernagl.it, which hints at a private operator but names none). So the Dorf claim is true but not on the cited source; the caller may restore it with that second URL.",
+   "corrected_text": "Page read on 21 October 2026: Kastelruth's central garage (Parkgarage Zentrum) at the bus station is listed at 2.20 euros per hour by day (07:00-23:00) and 1.80 at night, with a daily maximum of 24 euros and a maximum height of 2.50 m; it is open 24 hours.",
+   "corrected_title": null,
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Cited page (Parkplatz Marinzen, undated) confirms only Marinzen: behind the Coop supermarket, paid, 1.50 euros per hour, day ticket 5.00 euros. It does NOT describe the Altersheim and Schule lots (they appear only as 'related' links). I read their own pages: https://www.seiseralm.it/de/info-service/aktuelle-infos/informationen-a-z/0E1B7CD70A3E6AFE2535EB99C4566813-parkplatz-altersheim.html (Dolomitenstrasse, Kastelruth, free with a parking ticket for 90 minutes) and .../4F94309D1267C4E5C5894071BDBF5A87-parkplatz-schule.html (behind the primary school opposite Coop, free for 60 minutes with ticket, Mon-Fri 08:00-18:00, Sat 08:00-12:00). Both match the item. Not Völs: a separate 'Parkplatz am Altersheim, Völs am Schlern' page exists but is a different lot, and the item uses the correct Kastelruth one. So the claims are true but only the Marinzen part is on the cited source; the caller may restore the rest with those URLs.",
+   "corrected_text": "Page read on 21 October 2026: the Marinzen lot in Kastelruth, behind the Coop supermarket, is paid at 1.50 euros per hour or a 5-euro day ticket.",
+   "corrected_title": null,
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Cited page (Parkgarage Seis, undated): Schlernstr. 1/1, behind the Esso station, two levels, max height 2 m, open 24 h; contact details are the Gemeinde Kastelruth's (phone +39 0471 711500, info@gemeinde.kastelruth.bz.it, the same as on the Gemeinde site). No operating company and no tariff on the page, as the item says. The comparison with the central garage is not supported: the Zentrum page lists phone +39 0471 710 102 and info@kastelseiseralm.com without calling it a tourism office (the Spatzenfest page lists 0471 710 102 as the phone of the event organiser Musicpromotion), and the Dorf page lists info@silbernagl.it. 'Lists a tourism-office contact' is therefore an inference, so it is dropped. Low confidence kept.",
+   "corrected_text": "Page read on 21 October 2026: the two-level Parkgarage Seis (behind the Esso station, 2 m height limit, open 24 hours) lists the Gemeinde Kastelruth's contact details. The page names no operating company and gives no tariff.",
+   "corrected_title": null,
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Undated event page (read 21 Oct 2026). 41st Kastelruther Spatzenfest at the Tirlerhof, 1 km outside the village (about 25 min on foot from the centre). Says 'Ein riesiger Parkplatz und ein enormes Festzelt werden aufgebaut'; free shuttle buses from the bus stations of Kastelruth, Seis and Völs; by car drive towards Tiosels/Wasserebene 'da die Hauptstraße gesperrt ist'. Dates listed: 2025, 8-11 Oct 2026, and 8-10 Oct 2027, so the 2026 edition was in early October and 2027 dates are already listed. The page gives no parking capacity or fee, as the draft's gaps say. Marginal relevance, but accurate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Article published 14 Oct 2015 (dateModified 2020), body read from the page's embedded JSON-LD: the Kastelruth local group of the hoteliers' association (HGV) told the municipality at the annual 'Gemeindegespräch' that traffic on Oswald-von-Wolkenstein-Strasse and in the centre is a heavy burden, especially heavy goods traffic should be kept out of the village; the municipality said a mobility council ('Mobilitätsrat') will exist in future. The article is an HGV press release (signed 'HGV, Bozen') and does not mention parking; it is 11 years old and the item flags it as old with outcome unverified. Page is flagged isAccessibleForFree=false, but the body was available in the page source.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "From 29 June 2026 the day-only Seiser Alm car parks P1 Spitzbuehl and P2 Compatsch must be booked online, according to a municipal notice of 19 June 2026 and a tourism-association page read on 21 October 2026, which lists 15 euros for P1 and 30 euros for P2 per car and day. The same page says the road is closed to private uphill traffic from 9:00 to 17:00, that a valid booking acts as the access permit at the St. Valentin checkpoint, and that entry is only possible until 9:30. The municipality announced in May 2026 that access permits would be checked by plate-reading cameras at five control points, and an April 2026 presentation describes planned variable-message signs in Telfen and says a barrier at St. Valentin was considered and dropped after visits to Prags; whether all of this is operating was not confirmed by any later source. In the village, an undated tourism-association listing gives the central garage at 2.20 euros per hour (24 euros daily maximum) and a paid surface lot at Marinzen at 1.50 euros per hour or 5 euros per day; a second village garage (Dorf, 2.30 per hour) and two free time-limited lots (60 and 90 minutes) appear on separate pages of the same site. At the Seiser Alm Bahn valley station in Seis there is a free open lot, two paid garages (8 and 12 euros per day) and three fast EV chargers. A 2015 press report shows only that local hoteliers asked for heavy traffic to be kept out of the village centre. No municipal council decision on village parking fees, no utilisation figures and no press coverage of the first booking season were found."
+}

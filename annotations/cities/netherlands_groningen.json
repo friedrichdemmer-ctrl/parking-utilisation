@@ -1,0 +1,200 @@
+{
+ "country": "Netherlands",
+ "city": "Groningen",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Groningen has a steep inner-city price ladder in 2026: 5.00 euro an hour in the Binnenstad, 4.50 euro in the ring of districts around it, 2.70 euro in outer districts, and free park-and-ride on the edge (five sites, about 3,300 spaces, return bus ticket 6.25 euro on the P+R page and 6.00 on the tariff page). Resident permits are capped at the number of pay-parking spaces, with waiting lists, and the city's stated policy is to give parking less room in favour of greenery and cycling. The city took over the Haddingestraat garage, which closed to cars in January 2025, and is preparing demolition; the winning 'Harthof' design is subject to an objection period and construction is expected from 2027, and the city is also studying the Diepenring ring road for less traffic and parking, with no decision shown. A zero-emission zone for vans and trucks applies in the inner city (passenger cars unaffected); the start date could not be confirmed from the city page. The municipal garages Boterdiep, Circus, Damsterdiep, Euroborg and Station Europapark have been managed by P1 (Q-Park group) since 1 August 2026, Forum stays with Interparking, and Q-Park runs six further garages. Council papers on gemeenteraad.groningen.nl could not be opened (bot protection) and were not used.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2025-11-12",
+   "text": "The council adopted the 2026 parking-tax ordinance on 12 November 2025, with the levy starting on 1 January 2026. Binnenstad street parking is 5.00 euro per hour, Mon-Sat 09:00-24:00 and Sunday 12:00-17:00; the inner ring of districts (for example Oranjewijk, Hortusbuurt, Zeeheldenbuurt) is 4.50 euro per hour.",
+   "source_title": "Verordening op de heffing en invordering van parkeerbelastingen Groningen 2026 (Gemeenteblad 2025, 500633)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-500633.html",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026 (2026 tariffs). Street parking is 4.50 euro per hour in De Hoogte, Korrewegwijk and Oosterparkwijk (Mon-Sat 09:00-19:00, Sunday 12:00-17:00) and 2.70 euro per hour in outer districts such as Stadspark (Mon-Fri), De Linie and Haren Centrum; the neighbourhood-centre car parks (Overwinningsplein, Van Lenneplaan, Helperplein, Selwerd) charge 0.50 euro for the first 1.5 hours.",
+   "source_title": "Parkeertarieven | Gemeente Groningen",
+   "source_url": "https://gemeente.groningen.nl/parkeertarieven",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-11-12",
+   "text": "Resident permits in the 2026 tariff table cost 394.20 euro a year in the first zone (Binnenstad), 135.05 euro in the second zone (extra permit for an address that already has one: 408.80 euro) and 62.05 euro in zones 3 to 5 (extra permit 178.85 euro). The ordinance defines five zones, first to fifth.",
+   "source_title": "Verordening op de heffing en invordering van parkeerbelastingen Groningen 2026 (Gemeenteblad 2025, 500633)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-500633.html",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01",
+   "text": "Under the implementing rules of the 2025 parking ordinance (originally decided by the executive on 12 November 2024; consolidated version in force from 1 January 2026, read on 21 October 2026), resident permits per parking area are capped at 100% of the pay-parking spaces (the count is recalibrated in March and October), with a waiting list in order of application once the cap is reached. Residents and users of an address created after 4 February 2022 cannot get a resident, business, visitor or carer permit, with exceptions such as certain house splits, and the visitor permit starts with 150 hours.",
+   "source_title": "Nadere regels op de parkeerverordening gemeente Groningen 2025",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR731530/1",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-04",
+   "text": "From 1 April 2025 several permit areas were merged or renamed (for example Rivierenbuurt with Herewegbuurt, Oranjebuurt with Noorderplantsoenbuurt), and a charging permit (laadvergunning) and shared parking permit were introduced from April and June 2025.",
+   "source_title": "Nadere regels op de parkeerverordening gemeente Groningen 2025",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR731530/1",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026. The city's stated parking principles include: streets are for everyone, more room for greenery, play, meeting and cycling means parking gets less room, and earning money is not the aim. It is installing fewer pay machines because residents and visitors mostly park with a permit and those who pay by the hour mostly use an app; machines stay only where many short-stay parkers are, such as shopping centres, GPs and care homes.",
+   "source_title": "Parkeerbeleid | Gemeente Groningen",
+   "source_url": "https://gemeente.groningen.nl/parkeerbeleid",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026. A zero-emission zone for vans and trucks applies inside the Diepenring, Westerhaven and Sledemennerbuurt: vehicles entering must be emission-free (electric or hydrogen). New vehicles (registered after 1 January 2025) must be emission-free immediately; existing ones have a transition arrangement until 2030 at the latest, for which an exemption is needed. Cameras check plates automatically and fines are 120 euro for vans and 310 euro for trucks; passenger cars are not affected.",
+   "source_title": "Zero-emissiezone | Gemeente Groningen",
+   "source_url": "https://gemeente.groningen.nl/zero-emissiezone",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026. In the car-free area of the inner city, motor vehicles may drive only between 05:00 and 12:00 for loading and unloading; outside those hours an exemption is required, which residents and businesses can use to reach their own parking space. Passenger cars may always enter the separate delivery-window area.",
+   "source_title": "Ontheffing venstertijden- en autovrijgebied aanvragen | Gemeente Groningen",
+   "source_url": "https://gemeente.groningen.nl/ontheffing-venstertijden-en-autovrijgebied-aanvragen",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01",
+   "text": "The 'Diepenring' study aims at less traffic, less parking, more greenery and more public space on the ring road around the old city; it follows a council initiative of June 2021 and began exploring in the second half of 2025. A stakeholder session was held in January 2026; no decision is recorded on the page.",
+   "source_title": "Onderzoeksatlas Diepenring | Ruimte voor jou",
+   "source_url": "https://ruimtevoorjou.groningen.nl/projecten/visie-diepenring",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026 (undated). The city took over the Haddingestraat car park in early 2025, after it was closed to cars in January, and is preparing its demolition (the antenna masts on it must be moved first). In the development competition the design 'Harthof' (MWPO: homes, small commercial uses, underground bike parking) scored highest with the public and the assessment committee; the city adopts that judgement subject to the objection period, after which the purchase and realisation agreement is to be signed. Construction is expected to start in 2027 and take about 1.5 to 2 years. The page says a traffic decision to make the surrounding streets low-traffic, removing 'normal' on-street parking spaces (disabled spaces stay), would be taken after summer 2026; the page shows no outcome.",
+   "source_title": "Herontwikkeling Haddingestraatgarage | Ruimte voor jou",
+   "source_url": "https://ruimtevoorjou.groningen.nl/projecten/haddingestraat-en-pelsterstraat",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-08",
+   "text": "Since 1 August 2026, P1 (part of Q-Park Netherlands after Q-Park took over APCOA Netherlands earlier in 2026) manages the municipal garages Boterdiep, Circus, Damsterdiep, Euroborg and Station Europapark. Garage Forum stays with Interparking.",
+   "source_title": "Nieuwe beheerder parkeergarages | Parkeren050",
+   "source_url": "https://www.parkeren050.nl/nieuwe-beheerder-parkeergarages",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026. Municipal garage tariffs are 1.00 euro per time block with a daily maximum: Forum 15 minutes and 24 euro, Damsterdiep 18 minutes and 22 euro, Boterdiep 20 minutes and 16 euro, Euroborg and Station Europapark 28 minutes and 20 euro, Circus 23 minutes and 12 euro. All are open 24 hours.",
+   "source_title": "Gemeentelijke parkeergarages Groningen | Parkeren050",
+   "source_url": "https://www.parkeren050.nl/parkeren-groningen",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026. Q-Park lists Museum Centrum, Oosterpoort, Ossenmarkt, Rademarkt, Westerhaven and P+R Hoofdstation in Groningen. Its garage pages give capacities of 734 (Westerhaven), 360 (Rademarkt), 320 (Ossenmarkt), 258 (Oosterpoort), 258 (P+R Hoofdstation) and 222 (Museum Centrum), the city page advertises day parking from 12.50 euro, and online reservation with plate recognition is offered.",
+   "source_title": "Parkeren Groningen | Q-Park",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/groningen/",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026. The municipal Parkeren050 site shows live free-space status per garage (enough, few, none) and says all its garages accept contactless card entry and exit without a ticket.",
+   "source_title": "Parkeren050 (homepage and Contactloos in en uit)",
+   "source_url": "https://www.parkeren050.nl/",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026. Residents of the municipality can rent a parking space in a neighbourhood garage (buurtstalling) in or around the centre, and the city says most neighbourhood garages are full.",
+   "source_title": "Buurtstallingen Centrum Groningen | Gemeente Groningen",
+   "source_url": "https://gemeente.groningen.nl/buurtstallingen-centrum-groningen",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026. Five park-and-ride sites are listed: Haren/A28 (825 spaces), Hoogkerk (991), Kardinge (780), Meerstad (400) and Reitdiep (300). Parking is free and a return bus ticket for up to five people costs 6.25 euro on the P+R page (the tariff page lists 6.00 euro).",
+   "source_title": "P+R terreinen Groningen | Gemeente Groningen",
+   "source_url": "https://gemeente.groningen.nl/pr-terreinen-groningen",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026. Parking terrain Euroborg (P3) costs 1 euro per 28 minutes with a 20 euro day rate. Bus travellers with an OV-chipkaart get up to 24 hours discount, and on football match days a flat 7 euro applies from two hours before to two hours after the match.",
+   "source_title": "Parkeerterrein Euroborg (P3) | Gemeente Groningen",
+   "source_url": "https://gemeente.groningen.nl/parkeerterrein-euroborg-p3",
+   "confidence": "high",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026. Municipal public chargers cost 49.44 cents per kWh (56.44 cents between 16:00 and 21:00), and some charge points slow down slightly in the evening peak to protect the grid. Residents who cannot get a parking permit and cannot charge on their own property can apply for a charging permit (laadvergunning).",
+   "source_title": "Regels voor gebruik openbare laadpalen | Gemeente Groningen",
+   "source_url": "https://gemeente.groningen.nl/regels-voor-gebruik-openbare-laadpalen",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "Council papers on gemeenteraad.groningen.nl (2026 parking tax annex, July 2025 motion M10 on lowering the street rate, 12 November 2025 amendment A12, 'Pakket parkeermaatregelen', 'Voortgang pakket parkeermaatregelen', 'Aankoop parkeergarage centrum', 'Op weg naar een nieuwe visie op parkeren') returned a proof-of-work bot challenge instead of the PDF; not opened, so the outcome of the proposed street-rate cut and the Haren zone changes could not be confirmed from council papers.",
+  "No Dagblad van het Noorden or RTV Noord article on parking was opened (web search budget exhausted); no press confirmation of 2026 changes or reactions.",
+  "Q-Park garage tariffs did not load on the Q-Park pages (shown as 'could not be loaded'); no Q-Park tariff stated. Municipal garage capacities are not given on parkeren050.nl (only live free-space counts), so no capacity is stated for them.",
+  "No garage named Vismarkt or Heerestraat was found in the municipal or Q-Park lists read; the Vismarkt appears only as a square under maintenance and as a location near Q-Park Westerhaven. No dated Q-Park or Interparking statements on utilisation or occupancy found.",
+  "No Groningen-wide utilisation or occupancy statistics found; the 2008 audit 'Meten is Weten' on municipal parking policy is too old to use.",
+  "P+R fare is 6.25 euro on the P+R page and 6.00 euro on the tariff page of the same site; the discrepancy could not be resolved.",
+  "Planned traffic decision for the Haddingestraat area (after summer 2026) and the Westerhaven bicycle car park proposal to the council in 2026: no outcome found.",
+  "Pages for gemeente.groningen.nl/parkeren-voor-bewoners and the municipal 'Parkeerverordening' text itself were not read in full."
+ ],
+ "dropped": {}
+}

@@ -1,0 +1,163 @@
+{
+ "country": "Finland",
+ "city": "Vantaa",
+ "researched": "2026-10-21",
+ "summary": "Vantaa leaves most parking to private property owners and operators, with the city providing supplementary paid street parking in the centres of Tikkurila, Myyrmäki and Kivistö and at Kuusijärvi. Street rates are 2 euros per hour in central Tikkurila, 1 euro in the other centres and 0.50 euros at Kuusijärvi. The urban space committee voted 8-7 in April 2026 to end the free first hour, and the city announced it would end at the start of October 2026 together with longer Saturday paid hours (9-17) and a rise in the 16-hour park-and-ride fee without a ticket from 5 to 7 euros. Parking fines are 60 euros, or 80 euros in downtown Tikkurila, where tram construction removed about half of the paid spaces in the 2-euro zone in autumn 2025 and cut park-and-ride use there by about 21 percent. The city's 2025 report puts car park-and-ride occupancy at 45 percent, with Kivistö the busiest station (84,000 transactions). The Vantaa tram (opening 2029) is under construction, Fintraffic's LIIPI register now lists the park-and-ride facilities, and Finavia runs the airport car parks with over 300 EV charging points.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2026-04-16",
+   "text": "On 16 April 2026 Yle reported that Vantaa's urban space committee (kaupunkitilalautakunta) voted 8-7 to abolish the free first hour of paid on-street parking. The city estimated that on-street parking income would rise from about 250,000 euros to 850,000 euros in 2027 and that 70-80 percent of users of paid spaces had paid nothing because they stayed up to an hour; SDP, Left Alliance and Greens voted for, National Coalition, Finns and Centre against.",
+   "source_title": "Vantaa poistaa maksuttoman tunnin kadunvarsipysäköinnistä ja korottaa liityntäpysäköintimaksuja (Yle)",
+   "source_url": "https://yle.fi/a/74-20221014",
+   "confidence": "medium"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-09-25",
+   "text": "The city announced on 25 September 2026 that the free first hour at paid on-street spaces in Tikkurila, Myyrmäki, Kivistö and Kuusijärvi would end at the start of October once signs are updated, and that Saturday paid hours in Tikkurila and Myyrmäki would extend from 9-15 to 9-17. Rates stay at 2 euros/hour in central Tikkurila (zone 1), 1 euro/hour in zone 2 (rest of Tikkurila, Myyrmäki, Kivistö) and 0.50 euros/hour at Kuusijärvi (zone 3).",
+   "source_title": "The first free hour of on-street parking will be discontinued (City of Vantaa news)",
+   "source_url": "https://www.vantaa.fi/en/topical/news/first-free-hour-street-parking-will-be-discontinued",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-09-25",
+   "text": "The same city notice raises park-and-ride parking without a public transport ticket to 7 euros for 16 hours (previously 5 euros); prices with a ticket are unchanged (free at some stations, 1 euro extra at others). The city says Vantaa had been the only large Finnish city with a free first hour and that its on-street rates stay below the other Helsinki-region municipalities.",
+   "source_title": "The first free hour of on-street parking will be discontinued (City of Vantaa news)",
+   "source_url": "https://www.vantaa.fi/en/topical/news/first-free-hour-street-parking-will-be-discontinued",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The city's parking page (read on 21 October 2026) says most parking in Vantaa is provided by private property owners and operators, with the city allowing only supplementary public street parking for visitors and errands. Parking is paid in the centres of Tikkurila, Myyrmäki and Kivistö and at Kuusijärvi, and the page states the free first hour ended in October 2026.",
+   "source_title": "Pysäköinti (City of Vantaa, Finnish page)",
+   "source_url": "https://www.vantaa.fi/fi/kadut-ja-liikenne/pysakointi",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Parking fines are 60 euros in Vantaa and 80 euros in downtown Tikkurila (page read on 21 October 2026); unpaid fines get 14 euros added after 30 days. Objections go through the HelgaPark web portal, and fines can be paid at the Vantaa-info offices in Tikkurila and Myyrmäki.",
+   "source_title": "Parking Supervision (City of Vantaa)",
+   "source_url": "https://www.vantaa.fi/en/traffic-and-transport/parking-supervision",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "The city's 'Liikenne 2025' report (read on 21 October 2026) says about 44,700 parking violations were recorded in 2025, the highest in the series, and that fines in the 80-euro Tikkurila zone rose by more than 50 percent over 2024. Of the violations, about 40 percent were parking bans, 27 percent exceeded time limits and 11 percent were about payment.",
+   "source_title": "Liikenne 2025 (City of Vantaa traffic report)",
+   "source_url": "https://www.vantaa.fi/fi/kadut-ja-liikenne/liikennetieto/liikenne-2025",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "Per the 2025 traffic report (read on 21 October 2026), paid on-street parking income was 258,000 euros in 2025 against 284,000 euros in 2024. Around half of the paid spaces in Tikkurila's 2-euro zone were removed in autumn 2025 because of construction sites. Street parking has been paid since 2018, with a second zone expanded in 2021.",
+   "source_title": "Liikenne 2025 (City of Vantaa traffic report)",
+   "source_url": "https://www.vantaa.fi/fi/kadut-ja-liikenne/liikennetieto/liikenne-2025",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-05",
+   "text": "In May 2025 Vantaa made 390 spaces at the Kuusijärvi parking area paid, creating a third payment zone at 0.50 euros per hour. The city says this improved control of parking at the busiest times and added about 90,000 paid transactions.",
+   "source_title": "Liikenne 2025 (City of Vantaa traffic report)",
+   "source_url": "https://www.vantaa.fi/fi/kadut-ja-liikenne/liikennetieto/liikenne-2025",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "The 2025 traffic report (read on 21 October 2026) gives car park-and-ride occupancy at Vantaa's rail stations of 45 percent in autumn 2025, the same as 2024, after a peak in 2019 when many areas were always full. A public transport ticket or fee was required at the most popular areas from 2020 and at all Vantaa park-and-ride areas from 2022, which lowered occupancy.",
+   "source_title": "Liikenne 2025 (City of Vantaa traffic report)",
+   "source_url": "https://www.vantaa.fi/fi/kadut-ja-liikenne/liikennetieto/liikenne-2025",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "Park-and-ride transactions in Vantaa reached about 286,000 in 2025 (about 3,000 more than 2024), led by Kivistö with 84,000, Tikkurila 62,000 (down about 21 percent because tram works cut spaces) and Vantaankoski 43,000. Fee income from park-and-ride fell about 50,000 euros from 2024 and was 459,000 euros at the 2023 peak.",
+   "source_title": "Liikenne 2025 (City of Vantaa traffic report, read 21 Oct 2026)",
+   "source_url": "https://www.vantaa.fi/fi/kadut-ja-liikenne/liikennetieto/liikenne-2025",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Payment on Vantaa's paid streets is via the Easypark, Parkman, eParking, Aimo or Moovy apps or card-only parking machines, and the city runs its own parking supervision. Temporary district parking in Kivistö, Keimolanmäki and Kaskela (seven areas on unbuilt plots) is sold by Aimo Park Finland Oy through the Taskuparkki app at 50 euros per month or 5 euros per day plus a service fee.",
+   "source_title": "Pysäköinti (City of Vantaa, Finnish page, read 21 Oct 2026)",
+   "source_url": "https://www.vantaa.fi/fi/kadut-ja-liikenne/pysakointi",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "The 2025 traffic report says this district parking has run since 2023 as a temporary solution in housing areas still being built. In 2025 an average of 150 monthly permits were sold per month (about 30 percent fewer than 2024) and 38 daily permits per day (about 9 percent more), and fee income was about 173,000 euros against about 198,000 euros in 2023 and 2024.",
+   "source_title": "Liikenne 2025 (City of Vantaa traffic report, read 21 Oct 2026)",
+   "source_url": "https://www.vantaa.fi/fi/kadut-ja-liikenne/liikennetieto/liikenne-2025",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Vantaa's tram is a 19-km line from Mellunmäki via Hakunila and Tikkurila to the airport area with 27 stops. Construction began in 2025, the first rails were laid on 11 May 2026, and the city gives 2029 as the opening year (page read 21 October 2026).",
+   "source_title": "Tietoa ratikasta / Ratikan rakentaminen (City of Vantaa)",
+   "source_url": "https://www.vantaa.fi/fi/vantaan-ratikka/tietoa-ratikasta",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-10-16",
+   "text": "On 16 October 2025 the city announced that the Ratatie P1 park-and-ride facility north of Tikkurila station would close in the week starting 27 October to be prepared as a temporary bus terminal, with the terminal moving there in early 2026. P3 on the east side of the main railway line stayed open.",
+   "source_title": "The Ratatie P1 park-and-ride facility will be closed at the end of October (City of Vantaa)",
+   "source_url": "https://www.vantaa.fi/en/node/14815",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "Fintraffic runs the national LIIPI park-and-ride register (parking.fintraffic.fi), which took over HSL's local service on 20 May 2024. Car park operators maintain their own data on location, capacity, pricing and operator, and the open API is free under CC BY 4.0 (pages read 21 October 2026).",
+   "source_title": "Information service for park-and-ride facilities LIIPI (Fintraffic)",
+   "source_url": "https://www.fintraffic.fi/en/digitalservices/Traffic-and-Public-Transport-Data-Services/information-service-park-and-ride-facilities-liipi",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The LIIPI facility list read on 21 October 2026 shows 18 City of Vantaa park-and-ride car parks in operation with about 1,940 built car spaces, plus five others marked inactive or temporarily closed (including Ratatie P1 in Tikkurila). The largest are Härkälenkki P1 (496 spaces), Teatteripolku P3 (214) and Ratastie P1 (195), and Kivistön asema P1 has 114. At Kivistön asema P1 and Härkälenkki P1 the listed fee without a public transport ticket is 7 euros/16 h, 10 euros/24 h and 20 euros/48 h.",
+   "source_title": "Fintraffic LIIPI open API, facilities list (read 21 Oct 2026)",
+   "source_url": "https://parking.fintraffic.fi/api/v1/facilities.json",
+   "confidence": "medium"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "Helsinki Airport (Vantaa) has over 300 EV charging points in P1 Premium (about 100), P2 (about 150, the whole third floor), P3 (about 30) and P5 (about 110), at 0.25 euros/kWh, plus a 24/7 high-power station with eight points at Ilmailukuja 1 (page read 21 October 2026). Points cannot be reserved.",
+   "source_title": "Electric vehicle charging at Helsinki Airport (Finavia)",
+   "source_url": "https://www.finavia.fi/en/airports/helsinki-airport/parking/electric-cars",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Finavia operates the airport car parks P1 Premium, P2 Business, P3 Economy, P4 Budget (outdoor) and P5 Standard, with pre-booking possible from 1 to 45 days and payment via machines or the Moovy app. Without booking, short-term parking costs 2 euros per 15 minutes up to the daily maximum, and days beyond the first 31 cost P1 +15, P2 +12, P3 +6, P4 +5, P5 +6 euros per day (pages read 21 October 2026).",
+   "source_title": "Parking without pre-booking / Parking FAQ (Finavia)",
+   "source_url": "https://www.finavia.fi/en/airports/helsinki-airport/parking/without-prebooking",
+   "confidence": "high"
+  }
+ ],
+ "gaps": [
+  "https://www.hsl.fi/en/hsl/services/park-and-ride and https://www.hsl.fi/liityntapysakointi returned 403, so HSL's own park-and-ride descriptions and prices could not be read.",
+  "https://www.verkkouutiset.fi (articles on Kivistö parking from Helsingin Sanomat, and on parking prices in big cities) returned 403; Helsingin Sanomat and Vantaan Sanomat were not opened, and the web search budget ran out, so no press coverage of Kivistö parking standards or garage openings could be sourced.",
+  "https://avoindata.fi/data/en/dataset/hsl-n-liityntapysakointipaikat returned 403; the LIIPI open API was read instead.",
+  "paatokset.vantaa.fi (committee minutes for the April 2026 decision) returned no readable content; the decision is only supported by Yle and the city's news release.",
+  "Finavia's drive-in daily price table was not rendered in the text of the page, so airport daily maximum prices are not recorded.",
+  "No source found for the operators, tariffs or occupancy of the private garages in Tikkurila (Dixi area), Aviapolis (Jumbo) or Myyrmäki (Myyrmanni), or for any Vantaa parking norms or residents' parking scheme.",
+  "The 'Liikenne 2025' page carries an AI-generated summary box; only the body text of the report was used, but the city's parking event counts do not state precise periods for every figure, hence medium or low confidence.",
+  "The city's English parking page contains stale statements (park-and-ride wording 'by spring 2022', car club permit free until 31 December 2024); the Finnish page was used where they differ. The Yle URL contains a 2022-style ID but the article is dated 16 April 2026.",
+  "Not used for lack of space: the city's car club permit rules (24 Rent, Beast, Omago, GoMore), the 125-space Opaaliparkki rental in Kivistö (75 euros/month), the Länsimäki heavy-vehicle area removal (April 2026), the Ratatie closure of 27 July-31 August 2026, and car-ownership figures from the 2025 report."
+ ]
+}

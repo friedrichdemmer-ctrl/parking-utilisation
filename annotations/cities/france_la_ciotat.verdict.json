@@ -1,0 +1,85 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Page text (Tarifs, Zone 1) matches: La Tasse, Pétanque, Escalet, Sandral plus centre-town streets; paid all year 8h-20h, 2 hours free once a day; 1 H 3.80, 2 H 7.60, 10 H 38. The source is the tourist office, a secondary source for municipal parking rules (the city's own site was not readable), so confidence should be medium at most; the page carries no statement of which municipal decision sets the rules. Page metadata shows last modified 13 Aug 2026; page re-read 21 Oct 2026.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Page text (Zone 2) matches: Mugel and Figuerolles car parks plus streets near the beaches (de Cyrnos à Saint-Jean); paid 1 May-30 Sep, 9h-20h, 1 hour free once a day; same 3.80/7.60/.../38 table as zone 1. The source is the tourist office, a secondary source for municipal parking rules (the city's own site was not readable), so confidence should be medium at most; the page carries no statement of which municipal decision sets the rules. Page metadata shows last modified 13 Aug 2026; page re-read 21 Oct 2026.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Page lists 'Forfait post stationnement 38' under both zones, equal to the 10 H rate of 38. Page gives no date for when it was set, as the draft says. The source is the tourist office, a secondary source for municipal parking rules (the city's own site was not readable), so confidence should be medium at most; the page carries no statement of which municipal decision sets the rules. Page metadata shows last modified 13 Aug 2026; page re-read 21 Oct 2026.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Interactive map lists 15 places. La Tasse: 257 emplacements dont 6 PMR, payant toute l'année 8h-20h, 2 premières heures gratuites. Bérouard: 69 places en zone bleue, gratuit avec disque, 1h30 max. Port de Plaisance: 255 places, payant 1 May-30 Sep, gratuit 1 Oct-30 Apr. The source is the tourist office, a secondary source for municipal parking rules (the city's own site was not readable), so confidence should be medium at most; the page carries no statement of which municipal decision sets the rules. Page metadata shows last modified 13 Aug 2026; page re-read 21 Oct 2026.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "The list names 'Parking Indigo Vieux Port' and 'Parking Indigo du Centre'; Verdun, Port de Plaisance and 'Parkings de la Gare SNCF' are listed without operator. The page only shows Indigo in the car park names; it does not say who holds the concessions, so keep wording to 'named as Indigo car parks'. Page re-read 21 Oct 2026; metadata last modified 13 Aug 2026.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Page text matches: 'L'accès au centre-ville en voiture est fortement déconseillé en raison d'une forte fréquentation', car parks a little before the centre such as the Mugel car park, 'ces parkings ne sont pas toujours surveillés', Ciotabus line 30 to the Mugel and Figuerolles calanques (also the Notre-Dame de la Garde chapel). Page is undated; read 21 Oct 2026. Title is wrong in the draft: the page title is 'Au départ de La Ciotat', 'Se rendre à La Ciotat' is only a sub-heading.",
+   "corrected_text": null,
+   "corrected_title": "Au départ de La Ciotat (Parc national des Calanques)",
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Page says 'l'île Verte est accessible en bateau depuis le Vieux-Port de La Ciotat entre avril et octobre' (navette). The 'found no road or park-and-ride shuttle' remark is the researcher's absence claim, not on the page; the page does list Ciotabus line 30. Page undated; read 21 Oct 2026. Title should be the page's real title.",
+   "corrected_text": null,
+   "corrected_title": "Au départ de La Ciotat (Parc national des Calanques)",
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Article of 6 Dec 2023: two hours of free parking (between 10h and 19h) in several Métropole car parks including La Ciotat (Vieux-Port, Centre Verdun) on the weekends of 9-10, 16-17 and 23-24 December ('samedi 9 et 10 décembre', etc.). Draft wrongly says 'the Saturdays'; the dates cover Saturday and Sunday (week-ends de décembre). The article calls it 'gratuité temporaire'; 'one-off Christmas shopping measure, not a standing rule' is a fair reading but wording is the researcher's. 'Announced' wording is correct.",
+   "corrected_text": "The Métropole Aix-Marseille-Provence announced on 6 December 2023 a temporary offer of two free hours (between 10am and 7pm) in several metropolitan car parks, including La Ciotat's Vieux-Port and Centre Verdun, on the weekends of 9-10, 16-17 and 23-24 December 2023, to encourage Christmas shopping in town centres. The article describes it as temporary free parking.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Article dated 10 Nov 2020: open since Monday 9 November 2020, 249 places opposite the station, free for all up to 7 consecutive days until the end of the station renovation works, management entrusted to RTM, aimed at easing saturation of the existing car park; 4.4 M EUR within a 10.56 M EUR overall scheme. All match. The article is from 2020 and says the free terms last only until the renovation ends; draft correctly notes current terms unchecked. Canonical title on the site is 'Un nouveau parking gratuit en face de la gare de La Ciotat-Ceyreste' in the URL slug, page headline matches the draft title.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Page (English, modified 13 Aug 2026 per metadata) shows 'Plan interactif : 18 lieux répertoriés' under 'Where can you charge your electric car?'. Operators listed: Alizé Liberté, Freshmile France, ENGIE MAMP, IZIVIA, TotalEnergies, Indigo, plus Lidl, ALDI Nord, and the two A50 service areas. Page does not give socket counts or power. Page re-read 21 Oct 2026.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "According to the La Ciotat tourist office, which is a secondary source for municipal rules, on-street parking is split into two paid zones. Zone 1 (centre-town streets and the La Tasse, Pétanque, Escalet and Sandral car parks) is listed as paid all year, 8am-8pm, with two free hours once a day. Zone 2 (the Mugel and Figuerolles car parks and streets near the beaches) is listed as paid only from 1 May to 30 September, 9am-8pm, with one free hour once a day. Both zones show the same rates of 3.80 EUR for the first hour and 38 EUR for ten hours, and a 38 EUR post-parking charge. The tourist office lists 15 car parks; the Port de Plaisance (255 spaces) is listed as paid from May to September and free from October to April, and two car parks are named as Indigo's (Vieux Port and Centre). In December 2023 the Métropole announced a temporary two-free-hours offer in the Vieux-Port and Centre Verdun car parks on three weekends. A 249-space car park opened at La Ciotat-Ceyreste station on 9 November 2020, free for up to seven days at that time and managed by RTM; current terms were not checked. The Calanques National Park strongly advises against driving into the town centre because of heavy visitor numbers and suggests car parks such as Mugel, which it says are not always supervised. The tourist office also maps 18 public charging locations. The city's own site could not be read, and the Métropole concession reports were not reached, so operator, capacity and utilisation figures are thin."
+}

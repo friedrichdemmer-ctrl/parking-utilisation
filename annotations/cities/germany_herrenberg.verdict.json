@@ -1,0 +1,101 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Project page (read 21 Oct 2026): 'nahezu einstimmig am 14.05.2019 beschlossen'; planning horizon 2030 and beyond; 48 measures in five fields incl. 'Ruhender Verkehr'. Timeline table also lists 14 May 2019. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "City news item dated 15.10.2025: 'Rund 50 Prozent' of the 48 measures realised or in implementation (Verkehrslenkungskonzept with Umgestaltung Seestrasse, Neuordnung Stadtbusangebot, Sofortmassnahmen Rad). Without measures MIV forecast 58 percent (about 58,000 car trips a day); full implementation could lower it to 50 percent. Title in draft ('Herrenbergs Zielsetzungen...') is the site's menu name; the page itself carries heading 'IMEP 2030 als strategischer Rahmen' - minor. Numbers all match.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Project page: framework concept adopted by the Gemeinderat in June 2023 (council date 27 June 2023 in the page's table), study area extended to the Altstadtschale; it provides for a planning competition for public spaces; central axes Tuebinger Strasse, Stuttgarter Strasse, Bronngasse and Marktplatz named. The page says the competition has since been launched (ausgelobt), which goes beyond 'envisages' but does not contradict it. No parking figures or decisions on the page. Low relevance to parking but accurate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "City news item 18.11.2022: parking fees payable by phone 'ab sofort' on many municipal car parks; app, call or SMS; platform Smartparking; six providers (EasyPark, moBiLET, Yellowbrick/flowbird, paybyphone, Parkster, PARCO); implements a council decision of autumn 2019 that was shelved during the pandemic and the Modellstadt project; machines stay in service; providers add surcharges. Parken page also says 'Ab November 2022'.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "City parking page (read 21 Oct 2026) lists 16 entries under 'Parkplaetze von A bis Z', of which 14 give capacities; Seelaender and Zinser Parkdeck have no capacity shown. The capacities quoted in the item are correct (Nufringer Tor 242, Stadthalle 211, P+R Kalkofenstrasse 398, Altstadtgarage 97, Viehversteigerungshalle 95, Bronntor 90, Gueltsteiner Strasse 69, Auf dem Graben 63). Both PDFs (Parkgebuehrensatzung, Parkhaussatzung) are linked as stated. The 'about 15 ... with capacities' needs fixing. I did not use the PDFs.",
+   "corrected_text": "The city's parking page (read on 21 October 2026) lists 16 car parks and garages, 14 of them with a stated capacity, among them Nufringer Tor 242, Stadthalle 211, P+R Kalkofenstrasse 398, Altstadtgarage 97, Viehversteigerungshalle 95, Bronntor 90, Gueltsteiner Strasse 69 and Auf dem Graben 63 spaces. Seelaender and Zinser Parkdeck are listed without a capacity. The page links a parking-fee bylaw (Parkgebuehrensatzung) and a garage bylaw (Parkhaussatzung); their tariffs are not confirmed here.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "Stuttgarter Zeitung, 22.12.2025 13:00, by Kaethe Ruess; text readable in full. Prices: day ticket 3 to 4 euros, monthly 20 to 30, VVS-linked permanent tickets year 180 to 250 and half year 90 to 125; 'stimmte der Gemeinderat einstimmig zu' on the administration's proposal. The article was written before the change and uses the future ('ab Anfang 2026 ... teurer'; 'steigt'): the council decision date and an exact start date are NOT given, and nothing confirms the new prices are actually in force. So: decided by the council (unanimous), start 'early 2026' per the report, in-force status unverified. The article says the prices apply to the Stadtwerke-run Parkhaus and the P+R lot in Kalkofenstrasse, north of the station.",
+   "corrected_text": "A Stuttgarter Zeitung report of 22 December 2025 said that parking in the Stadtwerke Herrenberg garage and on the park-and-ride lot in Kalkofenstrasse, north of the station, would become more expensive from the beginning of 2026: the day ticket from 3 to 4 euros and the monthly ticket from 20 to 30 euros. Permanent tickets sold only together with a VVS rail or S-Bahn ticket were to rise from 180 to 250 euros (year) and from 90 to 125 euros (half year). The report says the Gemeinderat approved the administration's proposal unanimously; it gives no decision date or exact start date and does not confirm the new prices are in force.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Same Stuttgarter Zeitung article: fees in the other municipal garages and on the short-stay lots in Bahnhofstrasse 'bleiben unveraendert'; the resolution has no effect on the lot south of the station run by Contipark as DB BahnPark partner; reasons given: fees low in a regional comparison, plus coming refurbishment. Title and date match. Caveat: the same article quotes online reservation 'ab 3,80 Euro pro Tag' for the Contipark lot, whereas the DB page (item 8) shows 4.20 euros per day, so tariffs for that lot vary by channel. Written before the change, so it is a report of the decision.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Same article: Parkhaus north of the station in Kalkofenstrasse and P+R lot in the same street run by Stadtwerke Herrenberg as an 'Eigenbetrieb der Stadt'; refurbishment ahead 'damit die Statik des Gebaeudes mittelfristig gesichert wird'; in 2021, when the building was examined because of Aufstockungsplaene (project no longer pursued), damage to concrete and reinforcement was found. All matches. Text is hedged as 'reported background'.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "DB page (undated, read 21 Oct 2026): 'Parkplatz Bahnhof Herrenberg', Bahnhofstrasse, 122 spaces, tariff extract 1 hour 1.20, 1 day 4.20, 1 week 21.00 euros, mobile payment Parkster, booking link herrenberg.parkplatzreservieren.de. P+R Kalkofenstrasse 49 covered, 398 spaces, machine tariffs 0.60 (30 min), 1.30 (1 h), 1.90 (90 min), 2.50 (2 h). The DB page does NOT name Contipark; that attribution (and 'south of the station') comes from the Stuttgarter Zeitung article, which also gives 'ab 3,80 Euro' for online reservation. The page shows no day or monthly P+R price, so it cannot show whether the 2026 rise is reflected.",
+   "corrected_text": "The DB station page (read on 21 October 2026, undated) lists a DB BahnPark lot in Bahnhofstrasse with 122 spaces and a tariff extract of 1.20 euros per hour, 4.20 euros per day and 21 euros per week, bookable online. It also lists the covered Kalkofenstrasse park-and-ride with 398 spaces and machine tariffs of 0.60 euros for 30 minutes, 1.30 euros for 1 hour, 1.90 euros for 90 minutes and 2.50 euros for 2 hours, with no day or monthly price shown, so it is unclear whether these figures reflect the 2026 changes. The DB page does not name the operator; a Stuttgarter Zeitung report of December 2025 says the lot south of the station is run by Contipark as a DB BahnPark partner and quotes online reservation from 3.80 euros per day.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "City page 'Mobilitaetsdaten und Open Data' (undated, read 21 Oct 2026): stadtnavi shows ÖPNV timetables, bike racks, e-charging stations and 'Parkplatzbelegungen'; standardised interfaces to MobiData BW; city aim to provide as many mobility data as possible as open data via stadtnavi and MobiData BW; Open Data Portal Herrenberg provides, among others, parking data in machine-readable form linked to MobiData BW. Actual datasets not opened by me either.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "City page: 'Stand Februar 2026' 64 publicly accessible charging points at 38 charging stations, 40 normal and 24 fast, source Bundesnetzagentur; county charging concept (Landkreis Boeblingen): about 400 public points needed by 2030. Page is undated otherwise, read 21 Oct 2026, so the figures are the February 2026 status.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Same page: 'Im Jahr 2026 kommen durch den Ausbau von E-Carsharing 12 neue oeffentliche Normalladepunkte hinzu - 5 davon in der Kernstadt und einer in jedem Teilort'. Core-town sites: Seestrasse 29 (Seelaender), Mozartstrasse, Gueltsteiner Strasse, Bahnhofsstrasse 25, Berliner Strasse, all marked 'Umsetzung Sommer 2026'; 10 of the 12 listed sites carry that marker (Affstaett Leinenbrunnen and Gueltstein Tennisplatz do not). Worded as a plan; completion not verified, as the item says.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Herrenberg (Landkreis Boeblingen) lists 16 public car parks and garages on its parking page, 14 with stated capacities (for example Nufringer Tor 242 spaces, Stadthalle 211, Altstadtgarage 97, Viehversteigerungshalle 95, Bronntor 90), and the Stadtwerke Herrenberg, a municipal Eigenbetrieb, run the garage and park-and-ride lot on Kalkofenstrasse north of the station (the city and DB pages list a covered P+R Kalkofenstrasse with 398 spaces). A Stuttgarter Zeitung report of 22 December 2025 said the Gemeinderat unanimously approved higher station tariffs from the beginning of 2026 (day ticket from 3 to 4 euros, monthly ticket from 20 to 30 euros), citing a regionally low price level and coming structural refurbishment, while fees in other municipal garages and on the Bahnhofstrasse short-stay lots stayed unchanged; the report gives no exact start date and does not confirm the prices are in force. South of the station a DB BahnPark lot with 122 spaces lists 4.20 euros per day on the DB page, which the same newspaper says is run by Contipark. The Integrated Mobility Development Plan IMEP 2030 was adopted by the council almost unanimously on 14 May 2019, and in October 2025 the city reported that about half of its 48 measures were done or under way. Mobile parking payment began in November 2022, and the city publishes parking and EV-charging data through stadtnavi, an open-data portal and MobiData BW. As of February 2026 the city counted 64 public charging points, against an estimated need of about 400 by 2030, and planned 12 more in 2026. The city's parking-fee and garage bylaws could not be read, so current tariffs for the municipal garages are unconfirmed."
+}

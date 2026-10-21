@@ -1,0 +1,151 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Price page 'senest opdateret 14. oktober 2026'. Table 'Prisoversigt på pladser med nummerpladescanner' lists P-hus Cronhammar, Tróndur and Albert: Gratis 'Første 2 timer', 9 kr/time, 38 kr/dag, 600 kr/måned, 4.200 kr/år. 'Betaling gælder: Mandag-fredag kl. 9.00-17.00, Lørdag kl. 9.00-14.00'; outside these times, Sundays and the listed public holidays are free. All numbers match.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Same price page: Abelones Plads 6 kr/time, 26 kr/dag, 450 kr/måned, 4.200 kr/år, with no 'Gratis' entry. The automatic-payment page (updated 7 Oct 2026) confirms: '2 timers gratis parkering i p-husene ... men dette er ikke gældende for Abelones Plads'. (Note: a general paragraph on the price page says under-2-hours entry/exit needs no action for all four sites, which conflicts; the tariff table and the dedicated statement say no free period at Abelones.)",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Price pages 'Prisoversigt for øvrige betalingspladser' and 'Prisoversigt for timetakster': 9 kr/time at Kirketorvet, Vedelsgade, Marias Plads (auto check-out after 3 payment hours), Vissingsgade, Herslebsgade, Kalkbrænderivej (8 h), Volmers Plads, Ved Anlægget (24 h); Gunhilds Plads 7,5 kr/time (8 h). Day passes: Herslebsgade 54, Gunhilds Plads 45, Kalkbrænderivej 54 kr. All match (the page spells it 'Gundhilds' once). Minor: the page's own lists of auto-check-out places differ slightly in places (e.g. Kalkbrænderivej appears in the 8-hour table row but not in the later 8-hour list); not material.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "72-hour rule is on the cited price page: over 2 hours with no automatic payment/app, pay online within 72 hours of ending parking, otherwise an invoice plus 100 kr fee in e-Boks. The second sentence (municipality enforces on-street and public-lot parking and issues parking charges) is NOT on the cited price page. It is on a different page, Regler og klageadgang (https://www.vejle.dk/.../parkering-og-tilladelser/regler-og-klageadgang/, last updated 19 Dec 2024: 'Vejle Kommune har myndighed til at pålægge parkeringsafgifter', 'Vi udfører parkeringskontrol på offentlige parkeringspladser og vejarealer'), which is not the cited source_url.",
+   "corrected_text": "Vejle Kommune's price page (last updated 14 October 2026) says that in the plate-scanner car parks (Albert, Tróndur, Cronhammar and Abelones Plads), a driver who stays more than 2 hours without an automatic-payment agreement or parking app can settle the unpaid amount online within 72 hours of ending the parking. After that the vehicle owner receives an invoice for the parking plus a 100 kr fee in e-Boks.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "Beboerlicens page (updated 14 Oct 2026): zones 1, 2, 5, 6 cost 40 kr per month; street examples correct (Fyensgade, Havnegade in zone 1; Skovgade in zone 2; Gormsgade, Abelones Plads in zone 5); 'Du er ikke garanteret en ledig p-plads'. Automatic monthly renewal applies only to registered owners who buy online; users who are not the owner can only get a 6-month permit and must renew by new application. Draft states automatic renewal generally.",
+   "corrected_text": "Vejle Kommune's residents' permit page (updated 14 October 2026) ties permits to the zone of the holder's registered address. Zones 1, 2, 5 and 6 cover streets such as Fyensgade, Havnegade (zone 1), Skovgade (zone 2) and Gormsgade (zone 5), and zone 5 includes Abelones Plads. The permit costs 40 kr per month and renews automatically each month when the registered owner of the vehicle buys it online; a user who is not the owner can only buy 6 months at a time and must reapply. The municipality states a permit does not guarantee a free space.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "Zone 3 part is on the cited page: only P-hus Albert and Tróndur, 1,500 kr/6 months or 3,000 kr/year, application with MitID, must be renewed by new application. The craftsman permit price (100 kr/month, up to 12 months, zones 1, 2, 5, 6 only, not zone 3) is not on the cited Beboerlicens page. It is on a separate page 'Håndværkerparkering' (.../tilladelser-til-parkering/haandvaerkerlicens/, last updated 4 Feb 2025), which is not the cited source_url. The Beboerlicens page only mentions that a craftsman licence exists for zones 1, 2, 5, 6.",
+   "corrected_text": "Vejle Kommune's residents' permit page (updated 14 October 2026) says zone 3 residents' parking is valid only in the car parks Albert and Tróndur and costs 1,500 kr for 6 months or 3,000 kr for 12 months. It must be applied for with MitID and renewed by a new application before expiry.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Handicapskilt page (updated 22 April 2026): plate reading in the car parks and on Abelones Plads does not register the disabled card automatically, so it must be registered first; afterwards parking is free in Albert, Tróndur, Cronhammar and Abelones Plads. 'Hvor der er betalingsparkering: Du kan parkere gratis' (the page says the rules apply only on public road areas, so 'paid public parking' is fine). Page carries its own update date of 22 April 2026, which could be cited alongside the 21 October 2026 read date.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "'Hvor kan jeg parkere?' (updated 7 Oct 2026): Cronhammar 400 spaces, 80 with EV charging, few minutes from station; Albert 335, next to Bygningen; Tróndur 269. Blue icons = municipal car parks. Cronhammar page: about 500 m / about 6 minutes' walk to Vejle Station. Albert page (7 Oct 2026): 10 EV charging places; Tróndur page (7 Oct 2026): 6 charging places. The 10 and 6 are on the Albert/Tróndur subpages, not the overview URL cited. Sums (about 1,004 spaces, 96 charging bays) are correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Cronhammar page (updated 7 Oct 2026): 'El-ladepladser: 80 ladepladser', total 400; Albert page: El-ladepladser 10, total 335; Tróndur page: 6 ladepladser, total 269. None of the three pages names a charging operator or tariffs. 'By far the largest' is a fair comparison of those numbers. Albert/Tróndur figures are on their own subpages rather than the cited Cronhammar URL.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Cronhammar page (updated 7 Oct 2026): 'Du kan parkerer fredag efter kl. 17.00 til mandag kl. 9.00 for kun 45kr', 'cirka 500 meter til Vejle Station', walk about 6 minutes, recommended for travelling from Vejle Station. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "Automatic-payment page (updated 7 Oct 2026) confirms: Albert, Tróndur, Cronhammar and Abelones Plads; Pay As You Go with a payment card, vehicle plate and camera reading at entry and exit; day/month/year passes. Wording 'a profile cannot park two registered vehicles at once' is too strong: several vehicles can be registered on one profile, but if they park at the same time only one is registered for automatic payment, and each additional vehicle needs a separate profile (with its own e-mail address). Also the page's own update date (7 Oct 2026) can be stated.",
+   "corrected_text": "The municipal car parks (Albert, Tróndur, Cronhammar and Abelones Plads) use camera reading of number plates at entry and exit with 'Pay As You Go' registration (payment card and plate linked to a profile) and optional day, month and year passes (page updated 7 October 2026, read on 21 October 2026). Several vehicles can be registered on one profile, but if they park at the same time only one is registered for automatic payment; each extra vehicle needs a separate profile.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "'Hvor kan jeg parkere?' (updated 7 Oct 2026): 'På nogle parkeringspladser viser sensorer det aktuelle antal ledige pladser'; green more than 10, yellow 5 to 10, red 0 to 4; blue icons = municipal car parks, black = private. Matches; the English municipal page (updated 20 April 2026) says the same.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Q-Park page (read 21 Oct 2026): 700 parking spaces, 16 disabled spaces, 3 EV charging points, 2.10 m height, 'First 2 hours are free', ANPR, heading 'pay within 48 hours', address Sønder Torv 2, 'No tariffs available online'. 'Rooftop and deck car park' is NOT on the page. Also 'pay within 48 hours if staying longer' is only a heading; the text says remember to pay if you park more than 2 hours.",
+   "corrected_text": "Q-Park lists a 700-space car park at the Bryggen shopping centre (Sønder Torv 2): first 2 hours free, number plates registered on entry (ANPR), a 'pay within 48 hours' heading, 16 disabled spaces, 3 EV charging points and 2.10 m clearance. The page says no tariffs are available online (page read on 21 October 2026).",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Steen & Strøm page (read 21 Oct 2026): 700 parking places, '3 million visitors annually', 'The recent addition of the public library (2025)'. The page lists Bryggen under 'Our malls' with a shopping centre manager; it does not use the word owner. Draft's 'owner-manager' is not stated. Page undated.",
+   "corrected_text": "Steen & Strøm, which lists Bryggen among its malls, states on its website that Bryggen has 700 parking places, 3 million visitors a year and a public library added in 2025. These are the company's own claims (page undated, read on 21 October 2026).",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "APCOA Dæmningen 23 page (read 21 Oct 2026): 60 spaces, open 24/7, 'Alle dage kl. 00-24: kr. 32 pr. påbegyndt time' (max 768 kr per day), and a nearby 'Dæmningen 23 E-Charge' location with 2 charging spaces 46 m away. Højbanetorvet (20 spaces, 7.50 kr per half hour) does not appear anywhere on the page: unsupported and removed.",
+   "corrected_text": "APCOA lists Dæmningen 23 in Vejle as a 60-space private car park open 24/7 at 32 kr per started hour; a separate APCOA charging location, Dæmningen 23 E-Charge, with 2 charging spaces, is listed 46 m away (page read on 21 October 2026).",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "unreachable",
+   "note": "https://shoppingvejle.dk/parkering-i-vejle/ returned HTTP 454 'Request blocked / Browser check failed' (website firewall security check) to a normal browser User-Agent. Not bypassed. The retail association claims (1,400 spaces, four lots, Føtex roof 165, Swarco) could not be verified.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": "A local retail association page titled 'Parkering i Vejle' on ShoppingVejle.dk is reported (by the researcher, unverified) to describe about 1,400 visitor spaces in central Vejle, four large lots with the first 2 hours free and Albert as the newest car park.",
+   "unconfirmed_reason": "The page sits behind a website firewall check (HTTP 454, 'Browser check failed'); the text could not be read and the figures could not be checked."
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "English municipal page 'Where can I park my car?' (last updated 20 April 2026) says 'Carpooling - 4 parking areas near highway E45' under other useful information. The sentence on tour buses dropping off at Borgvold by the transport centre and along Strandgade near Fjordenhus, 'according to VisitVejle', is not on this page (no mention of Borgvold or Fjordenhus; it only links to a map of bus and camper-van spaces). Unsupported and removed.",
+   "corrected_text": "Vejle Kommune's English parking page (last updated 20 April 2026, read on 21 October 2026) lists four carpooling parking areas near the E45 motorway among its parking information, along with maps for motorbike and for camper-van and bus parking.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "VisitDenmark page (undated, read 21 Oct 2026): car park with large stained-glass work by Faroese artist Tróndur Patursson, 'acquired by Vejle Kommune in 2005', 'possible to park for 2 hours free'. The page does not say the municipality has run it for about 20 years or continuously owned it; that is an inference. Source is a tourism listing last updated by VisitVejle, adequate for this descriptive fact only.",
+   "corrected_text": "A VisitDenmark listing (last updated by VisitVejle; undated, read on 21 October 2026) says the Tróndur car park building, known for a large stained-glass stair tower by the Faroese artist Tróndur Patursson, was acquired by Vejle Kommune in 2005.",
+   "corrected_title": "Tróndur - VisitDenmark",
+   "corrected_date": "2005"
+  }
+ ],
+ "corrected_summary": "Vejle's central parking is split between the municipality and private operators. According to the municipal pages read on 21 October 2026 (price page updated 14 October 2026), Vejle Kommune runs the car park buildings Cronhammar (400 spaces, 80 with EV chargers), Albert (335, 10 charging bays) and Tróndur (269, 6 charging bays), plus the open lot Abelones Plads, all with number-plate scanning. In the three buildings the first 2 hours are free, then 9 kr per hour Monday-Friday 9-17 and Saturday 9-14, with a day pass of 38 kr, a monthly pass of 600 kr and an annual pass of 4,200 kr; Abelones Plads has no free period and charges 6 kr per hour. Municipal surface lots with pay machines charge 7.5-9 kr per hour. If a scanner car park is not paid for automatically, the driver can settle online within 72 hours, after which the owner is invoiced with a 100 kr fee. Residents in zones 1, 2, 5 and 6 pay 40 kr per month for a permit, while zone 3 permits (Albert and Tróndur only) cost 1,500 kr for six months. Some municipal car parks show live availability via sensors. Q-Park lists a 700-space car park at the Bryggen shopping centre with the first 2 hours free, and APCOA runs smaller private lots such as Dæmningen 23 at 32 kr per started hour. No council decisions, parking strategy documents or readable press reports on changes were found; the local retail association page could not be opened and the local press on the topic is paywalled."
+}

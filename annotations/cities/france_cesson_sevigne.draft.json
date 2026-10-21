@@ -1,0 +1,138 @@
+{
+  "country": "France",
+  "city": "Cesson-Sévigné",
+  "researched": "2026-10-21",
+  "summary": "Cesson-Sévigné is a commune of Rennes Métropole, which (not the commune) runs transport and the park-and-ride network, with Keolis as operator. The town's own website says parking in the commune is entirely free, and I found no paid zones or resident-permit scheme there. The main parking asset is the Cesson-Viasilva park-and-ride at the north-eastern end of metro line B, with about 800 car spaces plus 38 electric-vehicle spaces with free slow charging; it is free for holders of a validated STAR ticket. Rennes' low-emission zone applies inside the Rennes ring road, and the Rennes Métropole page says Cesson-Sévigné's residential districts are outside it. Looking ahead, the Trambus T2 line is to end in Cesson-Sévigné with a new park-and-ride of about 80 spaces, and the city of Rennes will extend paid street parking on 16 November 2026 while pointing long-stay parkers to park-and-ride sites. I found no commune-level or Atalante business-park parking policy documents.",
+  "items": [
+    {
+      "topic": "regulation",
+      "date": "2026-10",
+      "text": "The town's mobility page states that parking in Cesson-Sévigné is entirely free, with several zones where drivers can park at no cost. The page is undated and was read on 21 October 2026; it gives no detail on time limits or resident rules.",
+      "source_title": "Se déplacer en transports en commun - Cesson-Sévigné (35)",
+      "source_url": "https://www.ville-cesson-sevigne.fr/se-deplacer-en-transports-en-commun/",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-10",
+      "text": "Cesson-Sévigné has no transport competence: Rennes Métropole runs bus, metro and bike services, delegated to Keolis, while rail is a Brittany Region matter. The commune itself runs only C'son Bus, a free on-demand service for residents within the town. Page undated, read on 21 October 2026.",
+      "source_title": "Se déplacer en transports en commun - Cesson-Sévigné (35)",
+      "source_url": "https://www.ville-cesson-sevigne.fr/se-deplacer-en-transports-en-commun/",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-10",
+      "text": "Metro line B has two stations in Cesson-Sévigné: Atalante, on the viaduct next to the Rennes Atalante technopole and the private hospital, and the terminus Cesson-Viasilva, a bus interchange served by lines C2, 34, 50, 64, 70, 83 and 67 and by BreizhGo regional lines. Page undated, read on 21 October 2026.",
+      "source_title": "Se déplacer en transports en commun - Cesson-Sévigné (35)",
+      "source_url": "https://www.ville-cesson-sevigne.fr/se-deplacer-en-transports-en-commun/",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-10",
+      "text": "The Rennes Métropole open-data inventory of park-and-ride sites lists Cesson-Viasilva (boulevard des Alliés) with 859 spaces in total: 801 standard, 17 for disabled users, 38 for electric vehicles and 3 reserved for service use, and no dedicated carpool spaces. It gives the in-service date as 14 March 2023. Dataset read on 21 October 2026.",
+      "source_title": "Topologie des parcs-relais du réseau STAR (Open Data Rennes Métropole)",
+      "source_url": "https://data.rennesmetropole.fr/explore/dataset/tco-parcsrelais-star-topologie-td/",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-10",
+      "text": "Rennes Métropole's page (updated 13 October 2026) says park-and-ride parking is free with a STAR ticket validated in the hour before the car is retrieved, passed over the reader at the exit. Parking is only allowed during opening hours, and some spaces are reserved for cars with several passengers; the page treats the eight sites together, including Cesson-Viasilva.",
+      "source_title": "Stationner à Rennes",
+      "source_url": "https://transport.metropole.rennes.fr/stationnement-rennes/",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2026-08",
+      "text": "The August 2026 STAR press pack says eight park-and-rides, Cesson-Viasilva among them, have about 200 EV charge points in total, free and slow, for people using the metro or STAR network. Separately, 308 charge points at 7-22 kW are open in 9 Citédia city car parks in Rennes, at 1 euro per connection plus 0.40 euro/kWh plus parking.",
+      "source_title": "Dossier de presse - Rentrée des transports 2026/2027 (Rennes Métropole)",
+      "source_url": "https://presse.metropole.rennes.fr/communiques-et-dossiers-de-presse/2026-08-28-rentree-des-transports-20262027/",
+      "confidence": "high"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-10",
+      "text": "Keolis Rennes publishes the state of the STAR park-and-rides (open or closed, fill level, capacity by space type) as an open dataset under the ODbL licence, with a stated update frequency of every minute. Only sites with barrier counting systems are covered. Metadata read on 21 October 2026.",
+      "source_title": "Etat des parcs-relais du réseau STAR en temps réel (Open Data Rennes Métropole)",
+      "source_url": "https://data.rennesmetropole.fr/explore/dataset/tco-parcsrelais-star-etat-tr/",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-03",
+      "text": "Rennes' low-emission zone has applied since 1 January 2025 inside the Rennes ring road, and the page (updated 20 March 2026) says the ring road and the residential districts of Cesson-Sévigné are not part of it; drivers can still reach the park-and-rides. So the zone does not cover Cesson-Sévigné's residential areas.",
+      "source_title": "La zone à faibles émissions de Rennes Métropole",
+      "source_url": "https://transport.metropole.rennes.fr/la-zone-a-faible-emission-de-rennes-metropole/",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-03",
+      "text": "Per the same page, the Rennes zone bans unclassified vehicles from 1 January 2025, and adds Crit'Air 5 from 1 January 2027, Crit'Air 4 from 1 January 2029 and Crit'Air 3 from 1 January 2030. A 24-hour pass allows up to 52 days a year of entry for affected vehicles.",
+      "source_title": "La zone à faibles émissions de Rennes Métropole",
+      "source_url": "https://transport.metropole.rennes.fr/la-zone-a-faible-emission-de-rennes-metropole/",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2024-01-19",
+      "text": "While metro line B was out of service in January 2024, Rennes Métropole opened the barriers of the Cesson-Viasilva and Saint-Jacques-Gaîté park-and-rides (800 spaces each) in the daytime from 22 January 2024 with no ticket needed, mainly for workers in nearby business areas. Overnight parking stayed banned, and the measure was to last until line B reopened; the article also mentions the Star't carpool line serving Cesson-Sévigné. The end date of the measure was not found.",
+      "source_title": "Rennes. Les deux parcs-relais Cesson-Viasilva et Saint-Jacques – Gaîté ouverts gratuitement (Unidivers)",
+      "source_url": "https://unidivers.fr/rennes-deux-parcs-relais-cesson-viasilva-saint-jacques-gaite-ouverts/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2024-01-19",
+      "text": "As of January 2024 the Cesson-Viasilva park-and-ride opened Monday to Wednesday 5:00-1:00, Thursday to Saturday 5:00-2:00 and Sunday and public holidays 7:00-1:00, and was supervised while open. These are 2024 hours and may have changed since.",
+      "source_title": "Rennes. Les deux parcs-relais Cesson-Viasilva et Saint-Jacques – Gaîté ouverts gratuitement (Unidivers)",
+      "source_url": "https://unidivers.fr/rennes-deux-parcs-relais-cesson-viasilva-saint-jacques-gaite-ouverts/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2025-12-16",
+      "text": "Rennes Métropole's press release on Trambus T2 (works from 5 January 2026 to end 2027 between the ring road and boulevard Marbeuf) says the line will end at Rigourdière in Cesson-Sévigné. A new park-and-ride of about 80 spaces, extendable to about 145, is planned there for the line's opening; T2 is budgeted at 37.1 million euros excluding rolling stock.",
+      "source_title": "Lancement des travaux de la ligne de Trambus T2 qui reliera Vezin-le-Coquet à Cesson-Sévigné",
+      "source_url": "https://presse.metropole.rennes.fr/lancement-des-travaux-de-la-ligne-de-trambus-t2-qui-reliera-vezin-le-coquet-a-cesson-sevigne/",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-10",
+      "text": "The town's page says T2 is due to replace bus line C6 (Saint-Jacques-de-la-Lande to Cesson-Sévigné Rigourdière) by 2028. This is a plan and the date differs from the metropolitan press release, which gives end 2027 only for the works on one section. Page undated, read on 21 October 2026.",
+      "source_title": "Se déplacer en transports en commun - Cesson-Sévigné (35)",
+      "source_url": "https://www.ville-cesson-sevigne.fr/se-deplacer-en-transports-en-commun/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-08",
+      "text": "Context from Rennes city, not Cesson-Sévigné: paid street parking will extend to the Thabor and Saint-Martin districts from 16 November 2026. Rennes Métropole says the aim is to steer long-stay parking towards car parks and park-and-rides; in this announcement the on-street tariffs rise about 2 percent from 15 July 2026.",
+      "source_title": "Évolution et extension du stationnement payant (Rennes Métropole)",
+      "source_url": "https://presse.metropole.rennes.fr/evolution-et-extension-du-stationnement-payant/",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-08",
+      "text": "The STAR network recorded 111.4 million trips in 2025, of which 64.4 million on the metro, according to the August 2026 press pack. This is network-wide and not specific to Cesson-Sévigné.",
+      "source_title": "Dossier de presse - Rentrée des transports 2026/2027 (Rennes Métropole)",
+      "source_url": "https://presse.metropole.rennes.fr/communiques-et-dossiers-de-presse/2026-08-28-rentree-des-transports-20262027/",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "https://www.star.fr/ (official STAR site, park-and-ride pages): HTTP 403 / bot challenge, not used.",
+    "https://www.lejournaldesentreprises.com/article/metro-rennais-24-millions-deuros-de-marche-attribues-pour-les-parcs-relais-101447 : HTTP 429 bot challenge, not used.",
+    "No commune-level parking policy found beyond the statement that parking is free: no time-limited (blue) zone rules, resident or paid-parking decisions, or council papers (searches of ville-cesson-sevigne.fr surfaced only temporary event/works orders).",
+    "No sources found on Atalante technopole or ViaSilva business-park parking (employer car parks, company mobility plans, ZAC parking norms, private car parks); real-estate listings were not used.",
+    "No park-and-ride usage or saturation statements for Cesson-Viasilva from Ouest-France, actu.fr or Le Télégramme found; the Cesson P+R fee for users without a STAR ticket and its current opening hours are not confirmed (2024 hours only).",
+    "Date line B reopened in 2024 and when the free no-ticket access at Cesson-Viasilva ended: not found.",
+    "ZFE perimeter wording on the Rennes Métropole page about Cesson-Sévigné is brief; the map was not read, so any part of the town inside the rocade zone is not verified.",
+    "T2 opening date for the Cesson-Sévigné section and Rigourdière park-and-ride delivery date: town page says 2028 horizon, Rennes Métropole gives only works to end 2027 on the Rue de Lorient section."
+  ]
+}

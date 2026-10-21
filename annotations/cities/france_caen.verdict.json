@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "caen.fr/stationnement-payant (updated 25/09/2026): paid Mon-Sat 9h30-12h30 and 14h-19h; green free; yellow 1,30 EUR/h max 5h30; red 1,80 EUR/h max 2h30. All as written. The same page also says that from 2 Nov 2026 there will be 1 h free on Wednesday and 2 h on Saturday (future, not in force on 21 Oct 2026); the item does not state those as in force. Cross-check: permanent order 2025P0031 (Sept 2025) has the same hours, 2h30 and 5h30 maximums; its Article 6 gives a 1 h free Saturday, consistent with the 'up from 1' in item 3. Tariffs are set by mayoral decision, so the order itself has no euro amounts.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Page says 'Le montant du forfait post-stationnement est de 33 EUR. Il est envoye par voie postale', and the challenge must be sent within 30 days of notification of the payment notice. Matches. Only the city page gives the 33 EUR figure: order 2025P0031 says the FPS amount is set by decision of the Mayor and does not state a figure. The item is worded 'the city's page gives', which is correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Page: first vehicle 15 EUR/month or 150 EUR/year, second 50 EUR/month or 500 EUR/year, 2 EUR daily ticket for sector 1 'Coeur de ville', procedure fully digital (no windscreen sticker). All match. The page text itself does not say 'red zone'; the equivalence sector 1 = red zone comes from Article 12 of the linked 2025 order (2025P0031), which confirms it.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "caen.fr news item published 25/09/2026: 'A compter du 2 novembre 2026' 1 h free on Wednesday and 2 h free on Saturday on surface parking in red and yellow zones; Courtonne and Plaisance 1 & 2 barrier car parks excluded; take a meter ticket or register on PayByPhone or Indigo Neo; place Guillouard car park (230 spaces) free on Saturdays, Sundays and public holidays; 'le nouvel arrete acte le passage d'une heure a deux heures gratuites tous les samedis'. All matches, and the item correctly words it as announced ('will give'). Not in force at 21 Oct 2026; any later use must keep the future wording until 2 Nov 2026.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "ICI article of 25 Sept 2026 (published 14h18): free hours to run until the end of the tramway works; cost estimated 700,000-900,000 EUR by the municipality against nearly 5 million EUR of total parking revenue; the city says underground car park capacity is not optimised and parking is 'not generally dearer underground'; about a hundred spaces removed by the works in the centre 'out of nearly 7,000 in total'. The article does not say the 7,000 (or the 100) are on-street spaces, so 'on-street' is the drafter's addition. The cost figure and the capacity remark are the city's statements as reported.",
+   "corrected_text": "ICI (Radio France) reported on 25 September 2026 that the free hours announced for 2 November 2026 are planned to apply until the end of the tramway works. The city estimates the measure at 700,000-900,000 EUR in lost revenue, against nearly 5 million EUR of total parking revenue. The article also says the city considers the capacity of the central underground car parks is not fully used, and that about 100 parking spaces in the centre have been removed by the works, out of nearly 7,000 in total.",
+   "corrected_title": null,
+   "corrected_date": "2026-09-25"
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "Tendance Ouest 07/09/2026: Indigo holds the public-service delegation for these underground car parks; has invested 3.7 million EUR 'depuis le debut de l'annee 2025'; the six car parks Chateau, Hotel de Ville, Resistance, Doumer, Republique and Gardin offer 'en theorie' 2,015 spaces; Caen la mer president Nicolas Joyau: Resistance below 50% on Tuesday late afternoon (its peak), Chateau below 70%; the barrier car parks ('parkings en enclos') on the port are more often full. Wording 'together they offer 2,015' drops the article's 'in theory'. Note the article says Indigo's six car parks are the central ones; caen.fr lists more Indigo-managed car parks (see item 7 note), so 'the six' should not be read as all Indigo car parks in Caen.",
+   "corrected_text": "Tendance Ouest reported on 7 September 2026 that Indigo holds the public-service delegation for the central underground car parks and has invested 3.7 million EUR in them since the start of 2025. It names six of them (Chateau, Hotel de Ville, Resistance, Doumer, Republique, Gardin), which in theory offer 2,015 spaces. The Caen la mer president said the Resistance car park is below 50% occupancy at its Tuesday-evening peak and Chateau below 70%, and that the enclosed (barrier) car parks on the port are more often full.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "caen.fr 'bons plans' page (updated 25/09/2026): up to 1h30 free in blue zones (rue de la Delivrande, rue de Bayeux, rue de Falaise...); first half hour free in the Hotel de Ville and Gardin underground car parks; 'nuit' rate 1,50 EUR 19h-8h in all underground car parks, Sunday included. All as written. The page also lists the Wednesday and Saturday free hours 'a partir du 2 novembre 2026' (future).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "The cited page (caen.fr annuaire, last updated 31/07/2026) is only the Hotel de Ville car park (16 place Guillouard): managed by Indigo, max height 1,90 m, billed per 15 minutes maximum for stays under 12 h, first half hour free, open 24/7, availability on indigoneo.fr. It does NOT list eight car parks, and says nothing about Rives de l'Orne or Presqu'ile Tribunal/Quai XIX, nor about the Republique office handling resident permits (that is on the stationnement-payant page). Separate caen.fr pages for Republique, Resistance, Chateau and Gardin show the same Indigo / 15-minute / 24-7 wording (Doumer page returned 404), but Rives de l'Orne and Presqu'ile were not found on any page opened.",
+   "corrected_text": "The city directory page for the Hotel de Ville underground car park (read 21 October 2026, page updated 31 July 2026) says it is managed by Indigo, open 24 hours a day, 7 days a week, with a maximum height of 1.90 m and a first half hour free. Stays under 12 hours are billed in steps of at most 15 minutes, and live availability is on Indigo Neo (indigoneo.fr).",
+   "corrected_title": "Parking souterrain hotel de ville (caen.fr annuaire)",
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "caenlamer.fr page (undated; read 21 Oct 2026): ZFE-m since 1 Jan 2025; perimeter = inside the peripherique; eleven communes directly concerned (list includes Caen and Ifs); all 48 communes affected because crossing the zone counts; unclassified (pre-1997) vehicles barred; Crit'Air 0-5 vehicles may circulate; studies counted 2000 unclassified vehicles; 'une periode de tolerance est appliquee'. All as written. Reliability concern: the page still has pre-implementation wording ('il est propose de mettre en place') and a 2024 consultation, so it is stale in places; whether unclassified vehicles are actually being fined during the tolerance period is not stated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Tendance Ouest 21/05/2026: Constitutional Council decision of Thursday 21 May 2026 censured 25 of 84 articles of the 'loi de simplification de la vie economique', including article 37 (abolition of ZFE) because it had no link, even indirect, with the original bill (cavalier legislatif, article 45). The article says ZFE and Crit'Air stickers stay in place in Rouen, Le Havre and Caen. Matches; item correctly reports it as Tendance Ouest's report. Single secondary source, but the claim is straightforward and firmly stated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "partly",
+   "note": "The FAQ (undated; read 21 Oct 2026) says 'Les travaux demarrent en avril 2026 et s'etendent jusqu'a fin 2028', then the first half of 2029 for technical tests and driver training, service 'prevue a l'ete 2029'; 9,1 km, 17 new stations; cost 288,5 million EUR HT valeur 2021; centre-ville streets: place Guillouard, boulevard Bertrand, place Gambetta, boulevard du Marechal Leclerc, rue de Bernieres. The specific date '7 April 2026' appears nowhere on the page (the FAQ gives only 'avril 2026'; 'les travaux demarrent' is a planning statement, not a dated start). Date 2026-04-07 is therefore unsupported; page is undated.",
+   "corrected_text": "Caen la mer's tramway FAQ (undated, read 21 October 2026) says the works start in April 2026 and run to the end of 2028, followed by technical tests and driver training in the first half of 2029, with service planned for summer 2029. The extension is 9.1 km with 17 new stations and a cost of 288.5 million EUR excl. VAT at 2021 values. In the city centre the works concern place Guillouard, boulevard Bertrand, place Gambetta, boulevard du Marechal Leclerc and rue de Bernieres.",
+   "corrected_title": null,
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "projet-tramway.caenlamer.fr/circuler-pendant-chantier (undated; read 21 Oct 2026). 'Deja en place' since spring 2026: 2x1 lanes on bd Marechal Juin, Pompidou, Detolle, Guillou; rue du General Giraud reversed; bd Aristide Briand made two-way. Planned from Q1 2027: closure to through traffic of rue de Bernieres between rue du General Giraud and avenue du Six Juin; the section between avenue du Six Juin and quai Vendeuvre 'ne sera effective qu'en 2028'. Item words these correctly as done vs planned. Caveat: the page says it shows the situation once all work fronts are active (Q1 2027 to end 2028) and that local site notices prevail, so the dates are plans that can shift. Page also lists autumn 2026 changes (bd Bertrand one-way in August, Damozanne closure) that the item does not use.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "FAQ 'Le stationnement va-t-il etre impacte pres de chez moi ?': places 'seront temporairement supprimees au fur et a mesure'; underground car parks stay accessible throughout 'notamment' Doumer, Republique, Hotel de Ville and Gardin; permanent parking conditions will change after the works (number and location of spaces modified). Matches. The FAQ is in the future tense for the removals; the item's 'will be removed' wording is right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Caen la mer news page dated 06.07.2026: after 9 months of works the Pompidou P+R 'est desormais accessible'; 1,2 ha; 52 public spaces (16 EV, 2 PMR) near the roundabout; 30 public spaces on rue Robert Kaskoreff; 235 park-and-ride spaces; reachable by Twisto line 2 from stop 'P+R Pompidou'; 20-space bike shelter still to come. The text never says it opened on 3 July 2026. Only the filename of the banner photo contains '03072026'. So the opening date is not confirmed; the page date is 6 July 2026.",
+   "corrected_text": "Caen la mer announced on 6 July 2026 that the Pompidou park-and-ride is now accessible after 9 months of works. The 1.2 ha site has 235 park-and-ride spaces, 52 public spaces (16 reserved for electric vehicles) near the roundabout and 30 public spaces on rue Robert Kaskoreff. Travellers continue to the centre on Twisto bus line 2 from the 'P+R Pompidou' stop.",
+   "corrected_title": null,
+   "corrected_date": "2026-07-06"
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Twisto page (undated; read 21 Oct 2026). First table 'Les parkings relais Twisto': Cote de Nacre 149, Ifs Jean Vilar 79, Pompidou 249. The Palais des Sports (90) and Cardiff (90) are in a separate section headed '1 parking de proximite' (free electric shuttle to the centre Mon-Sat), not in the P+R table, and a third group of 3 free-access unsecured car parks (Chemin Vert, Beaulieu, Colombelles) has no capacities. Exit with a Twisto ticket validated the same day, 7-day limit, family return ticket 6,40 EUR instead of 16 EUR: all on the page. Pompidou is 249 here but 235 park-and-ride spaces on the Caen la mer page (item 13); the two sources differ and are not reconciled.",
+   "corrected_text": "Twisto's park-and-ride page (undated, read 21 October 2026) lists three park-and-rides: Cote de Nacre (149 spaces), Ifs Jean Vilar (79) and Pompidou (249). To leave, drivers show a Twisto ticket validated the same day, stays are limited to 7 consecutive days, and a family return ticket costs 6.40 EUR instead of 16 EUR. A separate 'proximity parking' section lists Palais des Sports (90) and Cardiff (90), with a free electric shuttle to the centre Monday to Saturday. Caen la mer gives 235 park-and-ride spaces for Pompidou, so the figures differ by source.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Caen la mer press release of 10 Sept 2024 (PDF, 4 pages, read in full): council voted to award the Twisto DSP to RATP Dev from 1 Jan 2025 for 6 years; 55,4 million EUR per year paid by Caen la mer; RATP Dev 'sera egalement missionne pour gerer' the existing P+R (Ifs Jean Vilar, Cote de Nacre) and those to come (Palais des Sports, Pompidou, Chemin Vert); 5 new bike parks 'seront integres' in the Republique, Resistance, Doumer, Chateau and Hotel de Ville underground car parks from January 2025. The draft's present-tense 'operates' and 'adds' turn announced plans of Sept 2024 into current fact; the PDF does not confirm what RATP Dev operates today.",
+   "corrected_text": "In a press release of 10 September 2024, Caen la mer announced that its council had awarded the Twisto network contract (public-service delegation) to RATP Dev for six years from 1 January 2025, at 55.4 million EUR a year paid by Caen la mer. The release said RATP Dev would also be tasked with managing the existing park-and-rides (Ifs Jean Vilar, Cote de Nacre) and those to come (Palais des Sports, Pompidou, Chemin Vert), and that five new bike parks would be added in the Republique, Resistance, Doumer, Chateau and Hotel de Ville underground car parks from January 2025.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "Tendance Ouest 11/03/2026 (candidates' proposals before the March 2026 municipal election). Outgoing mayor Aristide Olivier: a new 350-400 space car park 'a proximite immediate du centre-ville', location 'reste a definir', and free Saturday parking for the duration of the tramway works (he also promised an 'assises des commerces' before summer). Chantal Henry (RN) 's'interroge sur la possibilite' of a first free hour at each visit or free Saturday afternoons, and says silo car parks with shuttles should be created. So the free first hour was a question she raised, not a firm suggestion. The item words these as campaign proposals, as required. The 350-400 space car park was not confirmed by any other source opened (gap noted in the draft).",
+   "corrected_text": "Tendance Ouest reported on 11 March 2026, before the municipal election, that the outgoing mayor Aristide Olivier proposed a new car park of 350 to 400 spaces right next to the city centre, with the location still to be defined, and free Saturday parking for the duration of the tramway works. Candidate Chantal Henry (RN) said she was considering a free first hour on each visit or free Saturday afternoons, and called for silo car parks linked by shuttles. These were campaign proposals, not decisions; the car park is not confirmed by any source opened.",
+   "corrected_title": null,
+   "corrected_date": "2026-03-11"
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "The city page (updated 25/09/2026, read 21 Oct 2026) says, under 'Vehicules rechargeables - Ou recharger votre vehicule en centre-ville ?': '22 bornes de recharge sont installees a Caen, accessibles avec l'ouverture d'un compte MobiSDEC'. 'Bornes' is the count of charging stations/posts, not necessarily charge points (connectors), and 'public' is not stated. mobisdec.fr could not be read (JavaScript shell) so no second source.",
+   "corrected_text": "The city's parking page (read 21 October 2026, page updated 25 September 2026) says 22 charging stations (bornes de recharge) are installed in Caen, accessible by opening a MobiSDEC account. The page does not say how many individual charge points that is, and the figure is not confirmed by any second source.",
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Caen (about 108,000 inhabitants in 2022, Caen la mer urban community) charges for on-street parking Monday to Saturday (9:30-12:30 and 14:00-19:00), with a red core zone at 1.80 EUR/hour (2h30 maximum) and a yellow ring at 1.30 EUR/hour (5h30 maximum); the city's page gives the post-parking charge as 33 EUR. Indigo manages the central underground car parks under a public-service delegation (Tendance Ouest names six, which in theory hold 2,015 spaces, and reports 3.7 million EUR invested since early 2025), and local officials say these car parks have spare capacity at their peaks. Tramway extension works are under way: the project's FAQ gives an April 2026 start, works to the end of 2028 and service planned for summer 2029, and the works page reports lane reductions and reversed streets already in place, with the rue de Bernieres closure to through traffic planned from 2027. ICI reports that about 100 of nearly 7,000 parking spaces in the centre have been removed by the works. The city announced on 25 September 2026 that from 2 November 2026 it will give 1 free hour on Wednesdays and 2 free hours on Saturdays (up from 1) on surface parking in the red and yellow zones; this is announced, not yet in force. The low-emission zone inside the ring road has applied since January 2025 and bars only unclassified pre-1997 vehicles, with a tolerance period mentioned; a 21 May 2026 Constitutional Council ruling struck down the article that would have abolished such zones. The Pompidou park-and-ride (235 park-and-ride spaces per Caen la mer, 249 per Twisto) was announced as accessible on 6 July 2026, and a further one at Chemin Vert is planned. A new 350-400 space car park floated by the mayor during the March 2026 campaign is unconfirmed. The city page says 22 charging stations are installed in Caen."
+}

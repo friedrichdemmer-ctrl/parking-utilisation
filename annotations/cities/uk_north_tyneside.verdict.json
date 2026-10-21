@@ -1,0 +1,149 @@
+{
+"items": [
+{
+"index": 0,
+"verdict": "supported",
+"note": "Council news page dated 20 January 2026 says the council is 'seeking views on proposed changes', pay and display at the Playhouse and Park Road car parks 9am to 6pm daily, 1.20 pounds for one hour, 2.40 for two, 3.60 for three, 4.80 for all day; a proposed 30 pound annual charge for the first resident permit in shared-use zones; Blue Badge free in both; free short-term parking at Park Road for school drop-off and pick-up; 'subject to a statutory consultation'. The text words it correctly as a proposal. Title matches.",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 1,
+"verdict": "supported",
+"note": "Council news page dated 24 February 2026: council 'has decided' not to charge at the Playhouse, the first resident permit in shared-use zones 'will continue to be free', charges will be introduced at Park Road with the Traffic Regulation Order 'now formally approved', and it will monitor the scheme during its first year. This is a council decision as announced by the council; the page does not say which body or officer took it (no Cabinet paper or decision record is cited and none was found). Title matches.",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 2,
+"verdict": "partly",
+"note": "Statutory notice is dated 23 March 2026 and says 'The Order which WILL come into force on 23 March 2026' will amend the charged tariff (all days 9am to 6pm) to apply to Park Road Car Park. It is written on the day itself, so it announces rather than records the entry into force, and it gives no prices. The draft's 'came into force' is slightly too strong. (The Oct 2026 Park Road page does show the tariff operating.)",
+"corrected_text": "A statutory notice dated 23 March 2026 says the Park Road (Whitley Bay) variation order, applying the charged tariff for all days 9am to 6pm to that car park, comes into force on 23 March 2026.",
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 3,
+"verdict": "supported",
+"note": "Hits Radio Newcastle page, 'Published 1st Mar 2026', author Local Democracy Reporter Austen Shakespeare. Says Whitley Bay Chamber of Trade petition 'gathered more than 3,000 signatures'; chair Scott Glazebrook said 'when the plans were first announced' that fees create a 'physical and financial barrier to our high streets'; the council said the charges would increase turnover of spaces, improve access to local businesses and encourage 'fair and consistent' parking. Single secondary source, which is accurate here; medium is a fair rating.",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 4,
+"verdict": "partly",
+"note": "Statutory notice is dated 9 January 2026 and says the council 'has made' variation orders that 'will come into force on 12 January 2026'. So 'in force from 12 January' is a plan stated in a notice written before that date. It lists the foreshore places (Beaconsfield, Sea Banks, Spanish City, Longsands, Bournemouth Gardens, Dukes Walk, St Mary's Island etc.), the all-day charge going from 3.00 to 4.80 pounds, and a new three-hour charge 'with a proposed charge of 3.60'. Prices check out. Separately, council car park pages read in October 2026 (Beaconsfield, Sea Banks, Spanish City) show the four-step tariff of 1.20 / 2.40 / 3.60 / 4.80 operating, which supports that it is now applied, but those are not the cited page.",
+"corrected_text": "A statutory notice dated 9 January 2026 says the council made variation orders, to come into force on 12 January 2026, raising the all-day charge at listed foreshore car parks and bays (including Tynemouth and Whitley Bay seafront and St Mary's Island) from 3.00 to 4.80 pounds and adding a three-hour charge. The notice calls the 3.60 pound three-hour figure a proposed charge.",
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 5,
+"verdict": "partly",
+"note": "Cited Park Road page is undated/live. It says: 72 standard bays; 7 disabled bays; 1 car club bay; all days 9.00-18.00; 1.20 for 1 hour, 2.40 for 2, 3.60 for 3, 4.80 all day; Blue Badge holders and motorcycles free; card and mobile phone payments only. The draft's second sentence (Beaconsfield 190 standard bays, Sea Banks same tariff, Spanish City 10am-6pm) is NOT on the cited URL. I checked the separate council pages: Beaconsfield (190 standard, 7 disabled, EV bays; same tariff; 9.00-18.00), Sea Banks parking (84 spaces; same tariff; 9.00-18.00; Foreshore Permit holders exempt; URL .../find-parking/sea-banks-parking) and Spanish City (All Days 10.00-18.00; same tariff) and they confirm those claims, so the caller may keep them if those URLs are cited.",
+"corrected_text": "The council's Park Road (Whitley Bay) page, read on 21 October 2026, lists 72 standard bays, 7 disabled bays and 1 car club bay, charged every day from 9am to 6pm at 1.20 pounds for 1 hour, 2.40 for 2, 3.60 for 3 and 4.80 for all day. Blue Badge holders and motorcycles park free and payment is by card or phone only.",
+"corrected_title": null,
+"corrected_date": "2026-10"
+},
+{
+"index": 6,
+"verdict": "partly",
+"note": "Same notice (dated 9 January 2026) says the fee for the resident permit and for the residents' visitor permit in all on-street permit schemes is raised from 25 to 30 pounds, with the orders 'WILL come into force on 12 January 2026'. So the notice alone shows a made order due to take effect, not proof it applied. In-force status: the council's permit guidance pages read on 21 October 2026 (parking-permit-guidance/resident-permit-permit-only-schemes and .../resident-permit-pay-and-display-area say '30.00 pounds per permit per annum'; .../residents-visitor-permit says '30.00 pounds') confirm the 30 pound fee is the published price now. Those pages are not the cited URL, so the second sentence of the draft is not supported by the cited page. Reliability concern: the pay-and-display-area guidance page lists 30 pounds per permit although the 24 Feb 2026 news says the first permit in shared-use zones stays free; this is unresolved, so do not state anything about shared-use zone permit pricing.",
+"corrected_text": "A statutory notice dated 9 January 2026 says the council made variation orders, to come into force on 12 January 2026, raising the resident parking permit fee and the residents' visitor permit fee in all on-street permit schemes from 25 to 30 pounds.",
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 7,
+"verdict": "supported",
+"note": "Council Norfolk Street page: 66 standard bays; 2 Rapid Charge EV bays and 2 Fast Charge EV bays (4 EV bays); cars and light vans only; Free parking; Mon-Fri 8.00-18.00 maximum stay 2 hours with no return within 4 hours. Page is undated; date 2026-10 and 'read 21 October 2026' wording are right. Title matches.",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 8,
+"verdict": "supported",
+"note": "Council Coronation Street (Wallsend) page: 41 standard bays and 1 motorcycle bay; 'Free all days'; Mon-Fri 8.00-18.00 maximum stay 2 hours with no return within 4 hours. Undated live page; date 2026-10 right. Title matches.",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 9,
+"verdict": "partly",
+"note": "Cited page ('How we manage car parking') does say: surveys suggest sufficient provision in the three town centres; the Authority offers free parking in the off-road facilities it manages and demand there regularly exceeds availability; privately managed car parks are generally below full capacity. It says NOTHING about Cabinet, August 2022 or annual review of charges. I found those elsewhere: the 'Our aims' page (parking-strategy/our-aims-parking-strategy) lists 'Review charges on an annual basis', and Cabinet minutes of 1 August 2022 (Item CAB27/22, democracy.northtyneside.gov.uk/mgAi.aspx?ID=3999) resolved to approve the revised Parking Strategy. Both are true but not on the cited URL. The web page itself is undated and its 'free' wording predates the 2026 charges (Park Road and foreshore now charged), so it must not be read as current.",
+"corrected_text": "The council's Parking Strategy web page (undated, read on 21 October 2026) says surveys suggest town-centre parking in North Shields, Wallsend and Whitley Bay is sufficient, that demand at the council's free off-street car parks regularly exceeds availability, and that privately run car parks are generally below full capacity. This wording predates the 2026 charging changes.",
+"corrected_title": "Parking strategy: How we manage car parking",
+"corrected_date": "2026-10"
+},
+{
+"index": 10,
+"verdict": "supported",
+"note": "Annex 2 page: scheme criteria 'At least 51% of households in the street to respond in favour', 'At least 85% of parking space occupied for at least 3 hours per day', 'At least 30% of parked vehicles estimated to be non-residents', 'More than 50% of houses on the street to be without off-street parking'. Resident permit: '3 per household'. Undated live page; date 2026-10 right. Title matches.",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 11,
+"verdict": "supported",
+"note": "Read all 30 pages. Report to Cabinet dated 24 November 2025, Cabinet's Initial Budget Proposals. Para 1.6.17 'key savings identified within project workstreams': 'Buildings and Assets (3m) - improving the efficiency of the Authority's assets, including estate rationalisation, enhancing the Authority's income, improving utilisation as well as reviewing fees and charges in areas such as car parking'. 'car parking' appears nowhere else in the paper; no tariff is given. It is a general savings line in initial proposals (final budget to be agreed later), not a decision on any car park charge, and the draft words it that way.",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 12,
+"verdict": "supported",
+"note": "Nexus park page: daily tariff 1.80 pounds, chargeable 6.00am-5.00pm Monday to Saturday, free after 5pm and all day Sunday; car parks at Bank Foot, Callerton Parkway, Four Lane Ends, Northumberland Park, Regent Centre, Stadium of Light; PayByPhone 4-week (24.00) or annual (295.00) digital permit. Live undated page; date 2026-10 right.",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 13,
+"verdict": "supported",
+"note": "Four Lane Ends station page: multi-storey car park with 457 unclassified bays and 22 accessible bays; 1.80 pounds per day, free after 5pm, free Sundays; a live occupancy block (355 spaces available, 'Last updated 20/10/2026 15:46') with the note that the data is provided by a third party and Nexus takes no responsibility for its accuracy. Live page; date 2026-10 right.",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 14,
+"verdict": "partly",
+"note": "Regent Centre station page: multi-storey car park over the station with 183 unclassified parking spaces and 8 designated accessible bays on the bottom level; 1.80 pounds per day, free after 5pm, free Sundays. The sentence that Palmersville has no car park is NOT on this page (Palmersville is only a link in the station list). I checked the Travel North East Palmersville page, which says 'There are no parking facilities', so the claim is true but belongs to another URL.",
+"corrected_text": "Regent Centre Metro station has a multi-storey car park over the station with 183 standard and 8 accessible bays, charged at 1.80 pounds a day (free after 5pm and on Sundays). Page read on 21 October 2026.",
+"corrected_title": null,
+"corrected_date": "2026-10"
+},
+{
+"index": 15,
+"verdict": "supported",
+"note": "Northumberland Park station page: 'multi-storey car park ... with 393 unclassified parking bays and 12 designated accessible bays all at ground level' and 'There is a temporary reduction in spaces available. Ground floor open (about 25 bays, including 4 disabled parking bays). The upper parking levels are closed.' Live occupancy block read as 383 spaces available, 'Last updated 19/10/2026 10:18:41', next to the same third-party disclaimer, so a counter of several hundred spaces free is inconsistent with about 25 open bays, as the draft says. 'Does not appear to reflect the closure' is an inference, worded cautiously. The page also lists a Northumberland Line rail interchange. No reason or reopening date for the closure is given. Note the page's own bay line says 'all at ground level', which sits oddly with the closure notice; medium confidence is right.",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 16,
+"verdict": "supported",
+"note": "Council EV page lists chargers at 9 car parks (Beaconsfield, Bournemouth Gardens, Cauldwell Avenue, Coronation Street, Front Street Cullercoats, John Willie Sams Centre, Norfolk Street, Park Road, Tynemouth Pool); bay counts add up to 34; operators Monta, Zest, Fastned, Evolt. FAQ: no cost for parking while charging, 3-hour limit, penalty charge notice for vehicles not connected to the charge point in EV bays (and for staying over 3 hours). Undated live page; date 2026-10 right.",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+},
+{
+"index": 17,
+"verdict": "supported",
+"note": "Read all 40 pages. Para 2.3: ORCS bid (March 2023) plus Levelling Up Fund 'together ... intended to deliver the provision of 13 new chargepoints in car parks', including replacing three life-expired chargepoints in Whitley Bay, Tynemouth and North Shields; works 'commenced in summer 2025'. In February 2025 the North East Combined Authority (not North Tyneside, so 'the region won' is acceptable) was awarded 15.8m pounds LEVI; North Tyneside's allocation is in the first of three tranches, anticipated between 2025 and 2027. The PDF itself carries no meeting date (file created Aug 2025); the 22 September 2025 Cabinet date is confirmed only by an agenda aggregator (opencouncil.network/meetings/80771), so the date is secondary-sourced. Title matches.",
+"corrected_text": null,
+"corrected_title": null,
+"corrected_date": null
+}
+],
+"corrected_summary": "North Tyneside Council runs most public car parks in Whitley Bay, Tynemouth, North Shields and Wallsend and has been moving some of them from free to charged parking. In January 2026 it consulted on pay-and-display at two Whitley Bay car parks, and on 24 February 2026 announced that it would not charge at the Playhouse but would at Park Road. A statutory notice says the Park Road order comes into force on 23 March 2026, and the council's Park Road page read in October 2026 lists 1.20 pounds for one hour up to 4.80 pounds for the day. A notice dated 9 January 2026 says variation orders, due to take effect on 12 January 2026, raise the all-day foreshore (seafront) charge from 3.00 to 4.80 pounds and raise resident and visitor permit fees from 25 to 30 pounds; council permit guidance pages read in October 2026 list 30 pounds, and seafront car park pages show the 1.20 / 2.40 / 3.60 / 4.80 pound tariff, but the status of the first resident permit in shared-use zones (said to stay free) is not fully clear. No Cabinet or other decision paper on the Whitley Bay or seafront charges was found, so who took the decisions beyond 'the council' is not confirmed. The initial 2026-2030 budget proposals of November 2025 include, among the Buildings and Assets savings, a general line about reviewing fees and charges such as car parking; this is a budget proposal, not a decision on any tariff. The Norfolk Street car park in North Shields and the Coronation Street car park in Wallsend were listed as free with a two-hour limit when read in October 2026. Metro park and ride is run separately by Nexus, with a flat 1.80 pound daily rate (6am to 5pm, Monday to Saturday) at Four Lane Ends, Regent Centre, Northumberland Park and three other stations. Northumberland Park's page says only the ground floor is open and the upper levels are closed, while its live counter, supplied by a third party, showed 383 spaces free. Public EV charging is provided by commercial operators at 34 bays in nine council car parks, and a September 2025 Cabinet report describes government-funded plans for 13 more charge points. On-street tariffs were not fully read."
+}

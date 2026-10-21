@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Audit report (6 Dec 2021, 63 pages, read in full) says the car-light centre was introduced on 4 Jan 2021 (chapter 4; one earlier sentence has a typo '4 januari 2020'), exemptions for access, on-street permit-only, 71 paid street spaces removed, reduced-rate digital visitor scheme in Koestraat, Stadhuisplein and Flintplein. Pages 44 and 46 raise the Wet Markt en Overheid question (reductions in own garages to implement policy may not be allowed). The 'municipality said it would test this' part is in the separate formal response PDF (not the cited report), which says it will legally test it; true but from the other document.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "Report text and table 1 match: 13 garages / 4,571 spaces, nine central with 3,974, CPS garages Flintplein 347 + Koestraat 406 + Stadhuisplein 177 = 930 (23.4%), Q-Park (table lists 'Q-Park/P1') 1,819 (45.9%). But section 1.6 says the garages assessed are those in use on 1 December 2019, so 'as of 2021' is wrong dating, and the figures are old (2026 ParkeerService pages give different capacities, e.g. St. Jorisplein 462, Asch van Wijckstraat 450, Beestenmarkt 365; Eemplein is now run by Parkking, in the report by Apcoa).",
+   "corrected_text": "A December 2021 audit report by the city's audit office counted 13 public garages with 4,571 spaces (garages in use on 1 December 2019), nine of them in and around the centre with 3,974 spaces. The three municipal centre garages (Koestraat, Stadhuisplein, Flintplein, run by Coöperatie ParkeerService) had 930 spaces (23.4 percent); Q-Park (counted together with P1 in the report's table) was the largest provider with 1,819 spaces (45.9 percent). These figures are old; current garage capacities differ slightly.",
+   "corrected_title": null,
+   "corrected_date": "2021-12-06"
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Cited response PDF (undated in text; PDF created Jan 2022) says: the dynamic route information system ended in 2016; attempts to keep it going with private garages failed in 2014, among other reasons because of apps; research at the time found almost no effect of showing free-space numbers on garage choice; it will look at better opening of digital open parking data for apps. The draft's reason 'operators stopped contributing' and the '2014 study' are in the audit report (p. 27/28: 2014 study, high costs and operators no longer willing to contribute, partly because of apps), not in the cited response. All claims are true across the two documents; title should cite both.",
+   "corrected_text": "In its formal response to the December 2021 audit, the municipality said it stopped its dynamic parking route information system in 2016. Attempts to keep it going with private garages had stalled by 2014, partly because of apps, and research had shown that displaying numbers of free spaces had almost no effect on garage choice; the audit report adds that high costs and operators no longer willing to contribute were also behind the decision. The municipality said it would look with operators at better opening of digital open parking data for parking apps.",
+   "corrected_title": "Rekenkamer Amersfoort audit report (Dec 2021) and the municipality's formal response (Bestuurlijke reactie)",
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Audit text (sections 3.x, 5.1, 5.3, recommendation text) says: the municipality has only limited occupancy information on its own garages and 'no good picture' (geen goed beeld) of the private garages' occupancy rates; no information on occupancy rates is shared between the municipality and private parties; occupancy pressure is expected to rise in municipal garages; unclear whether they have enough capacity because part of the spaces is already taken by subscription holders. 'None for private ones' and 'no occupancy data were shared with private operators' are stronger than/differ from the text (the report says no information is exchanged in either direction).",
+   "corrected_text": "The December 2021 audit found the municipality had only limited occupancy information even for its own garages and no good picture of occupancy in the private garages, and that no information on occupancy rates was shared between the municipality and the private operators. It expected parking pressure to rise in the municipal garages because of the car-light centre, but said it was unclear whether they had enough capacity, since part of their spaces was already taken by subscription holders.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "RTV Utrecht, 23 April 2025: 'In november zei Amersfoort massaal nee ... Driekwart van de stemmers was tegen'; plans were adjusted somewhat before the vote (phased introduction). The year of the referendum is not stated in the article but follows from the title '1,5 jaar na nee' (Nov 2023). NOS (14 Mar 2026, item 8) gives 74 percent against and 80 percent turnout, so 'about three quarters' is right (exact figure 74 percent per NOS).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "RTV Utrecht, published 23 April 2025: 'Gisteravond zei een grote meerderheid ... ja' (so 22 April 2025); phased from October; first permit 30 euros, second 300 in the centre / 150 at the edge; visitors max 1.20 euros per day; care-giver permit 30 instead of 60, unanimous. Note: the later RTV article (1 Oct 2025) says loosely 'begin april'; the 23 April article is the better source.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "RTV Utrecht, 1 Oct 2025: 'Vandaag is de eerste fase ingegaan'. Permit-only from that morning in Kruiskamp, Gildekwartier, Hoefkwartier, Zonnehof, Hogekwartier and part of Vermeerkwartier and Randenbroek; paid parking along part of the Leusderweg shopping street (30 cents for 2 hours, then 9 euros per hour). The page does not mention the centre (already paid) or 'most shopping areas'. It says last phase October 2027 and that Kattenbroek, Hoogland, Nieuwland, Vathorst (except Bovenduist) and Hooglanderveen will 'in elk geval tot 2035' not switch to paid parking. Nieuwsplein33 (8 Apr 2026) repeats that the northern districts such as Vathorst stay free until at least 2035.",
+   "corrected_text": "Phase 1 of paid and permit parking started on 1 October 2025. From that morning residents of Kruiskamp, Gildekwartier, Hoefkwartier, Zonnehof, Hogekwartier and part of Vermeerkwartier and Randenbroek could park on the street only with a permit, and paying began at more places, including along part of the Leusderweg shopping street. RTV Utrecht reported that the last phase was planned for October 2027 and that Kattenbroek, Hoogland, Nieuwland, Vathorst (except Bovenduist) and Hooglanderveen would in any case not move to paid parking until 2035.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "ParkeerService news item of 11 Dec 2025 says exactly: phase 2 (planned 1 Feb 2026) moves to 1 Oct 2026 for Soesterkwartier, Isselt, Eemkwartier and Jeruzalem; Liendert starts 1 Oct 2026 because of planned redevelopment; Randenbroek, Rustenburg and Amersfoort Zuid 1 May 2027. The page gives NO reason about 'permit entitlement and application dates in phase 1' (unsupported); the only reason given is for Liendert. More important, this plan was overtaken: RTV Utrecht and Nieuwsplein33 (8 April 2026, read in full) report that after the 18 March 2026 elections the city postponed paid parking in Soesterkwartier, Isselt, Eemkwartier, De Koppel and Liendert, and that only Jericho and Jeruzalem would still start on 1 Oct 2026 (unless the council decided otherwise). Nieuwsplein33 of 2 July 2026 says the college formally decided Jericho/Jeruzalem start 1 Oct 2026 while expansion elsewhere is on hold; ParkeerService news of 17 Aug 2026 says paid parking starts there on 1 Oct and permits could be requested from 18 Aug; Gemeenteblad 318285 (3 July 2026) designates zones from 1 Oct 2026. So phase 2 as announced in December 2025 is NOT in force. I found no post-1-October report confirming that Jericho/Jeruzalem went live (a search snippet claimed the Soesterkwartier was moved to 1 May 2027, but I could not open that page: 404 on fetch, so not used).",
+   "corrected_text": "On 11 December 2025 the alderman told the council in a letter that phase 2, planned for 1 February 2026, would move to 1 October 2026 for Soesterkwartier, Isselt, Eemkwartier and Jeruzalem, that Liendert would start on 1 October 2026 because of its planned redevelopment, and that Randenbroek, Rustenburg and Amersfoort Zuid would follow on 1 May 2027. This planning was later overtaken: on 8 April 2026, after the March 2026 council elections, the city postponed paid parking in Soesterkwartier, Isselt, Eemkwartier, De Koppel and Liendert for the time being, keeping 1 October 2026 only for Jericho and Jeruzalem.",
+   "corrected_title": "ParkeerService Amersfoort, Invoeren betaald parkeren (11 Dec 2025), with RTV Utrecht, Amersfoort stopt voorlopig met uitbreiding betaald parkeren (8 April 2026)",
+   "corrected_date": "2025-12-11"
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "NOS, 14 March 2026 (read in full): two local parties founded in protest; alderman Bijlholt (D66): 163,000 inhabitants growing to 190,000, tariffs needed to stop roads clogging; cheese seller Renkema on the Leusderweg positive about customers and turnover; baker Akcan says 30 percent less turnover than last year (30 cent charge). Also gives referendum 74 percent against, 80 percent turnout. The NOS page does not give the date '18 March 2026' (only 'gemeenteraadsverkiezingen' / #GR26); the date is confirmed by RTV Utrecht (8 April 2026), which also says KeiHart voor Amersfoort became the second party with 6 of 39 seats.",
+   "corrected_text": "NOS reported on 14 March 2026, ahead of the March 2026 council elections, that two local parties had been founded in protest against the paid-parking policy. Alderman Tyas Bijlholt said the tariffs are needed because the city is growing from 163,000 to 190,000 residents and the roads are already busy. A cheese seller on the Leusderweg said his customers were positive, while a baker at a shopping centre reported 30 percent lower turnover than a year earlier. NOS also gave 74 percent of voters against the plan in the referendum, on an 80 percent turnout.",
+   "corrected_title": null,
+   "corrected_date": "2026-03-14"
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Coalition agreement 'Stad in verbinding' (PDF created 2 July 2026; pp. 19-21 read): 'Wij schaffen de dagkaart af'; in the direct ring around the car-light centre short street parking stays at a reasonable rate, longer parking 'twaalf euro per uur'; first two hours free in regulated shopping areas; lower some parking and permit tariffs; phasing 'wordt aangepast'; parking pressure measured at least half a year after introduction, regulation introduced if above 90 percent (talks with residents above 80 percent). The draft's 'regulate areas only where occupancy exceeds 90 percent half a year after a start' is a stronger and garbled reading; the text says the pressure in surrounding areas is measured and regulation introduced if above 90 percent, and regulation is also planned for Amersfoort Zuid and new-build areas. Parties (PRO, KeiHart, D66, VVD, CDA) follow from the portfolio list (pp. 54-55). These are plans; the tariffs page still showed the day ticket on 21 Oct 2026.",
+   "corrected_text": "The July 2026 coalition agreement (PRO, KeiHart voor Amersfoort, D66, VVD, CDA) states intentions to abolish the day ticket, allow short street parking at a reasonable rate in the ring around the car-light centre but charge 12 euros an hour for longer stays, make the first two hours free in shopping areas that already have regulated parking, lower some parking and permit tariffs, and adjust the earlier phasing of paid-parking expansion. It also says parking pressure in surrounding areas will be measured about half a year after introduction, with regulation introduced where it exceeds 90 percent. These are plans, not rules in force.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Same coalition agreement, p. 20-21: 'In de binnenstad willen wij dat bezoekers in parkeergarages parkeren. Met digitale en slimme borden maken wij op de rondwegen duidelijk waar nog ruimte is om te parkeren. Parkeren in een garage is altijd goedkoper dan op straat' and 'Inwoners en bezoekers informeren met een slim digitaal systeem over de parkeergarages in en rondom de binnenstad'; budget line 'Slimme parkeerborden' 150,000 per year from 2028. Worded as plans. 'No system found in operation' is the researcher's own finding, not a claim of the page; acceptable.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "ParkeerService Tarieven page (live, undated; read 21 Oct 2026): 'Tarief per 1-1-2026': day-ticket zone 9002 first hour 3 euros then 60 euros for a day; hourly zones 3 euros per hour; shopping areas first and second hour 0.30 euros, from the third hour 9 euros (draft omits the 9 euros); hours Mon-Sat 09:00-24:00, Sun 12:00-24:00. ParkeerService news of 30 Sep 2026 confirms the shopping-area tariff and that the day-ticket area still exists in October 2026. Live page, so date 2026-10 and the 'read on 21 October 2026' wording are right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Same Tarieven page: Koestraat 3.24 / 16.22, Stadhuisplein 3.24 / 16.22, Flintplein 2.61 / 16.22 (2026 columns, payment per 20 minutes); Amerena first 8 hours 0.70 euros then 0.03 per minute. Live page, date 2026-10 right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Same Tarieven page: permit year 1 Oct to 1 Oct, 'De tarieven blijven komend vergunningjaar hetzelfde'; first resident permit 30; second 300 (zones B, X, Y1, Y2) or 150 (D, Z); third and following 600 or 300; digital visitor scheme 0.30 per hour, max 1.20 per day. Live page, date 2026-10 right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Read ParkeerService garage pages: Koestraat 406 spaces, 4 charge points, 24/7, number-plate recognition, mobile payment (also takes cash); Flintplein 347 / 5 charge points; Amerena 218 / 2; Stadhuisplein 177 / 5; the last three 'NIET met contant geld', card/credit card and mobile payment only. The garages overview says 'ParkeerService beheert' these four; footer 'Coöperatie ParkeerService'. 'Municipality-linked' is the researcher's gloss (the 2021 audit calls them the municipality's own garages managed via CPS). Cited URL is only the Koestraat page; the other facts come from the sibling pages.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "ParkeerService pages: Eemplein 625 spaces, Parkking, entry 07:00-01:00; Mondriaan 575 (Q-Park); St. Jorisplein 462 (Q-Park); Beestenmarkt 365 (Q-Park); Asch van Wijckstraat 450 (P1); Neptunusplein 84 (Arrivee). gemeente page lists 15 garages incl. P+R Barchman Wuytierslaan and P+R Mondriaanplein, Oppidium, Emiclaer, De Argonaut, De Nieuwe Hof. The Q-Park pages the researcher found 404 are not needed; ParkeerService pages carry these numbers. The numbers are on the ParkeerService pages, not on the cited gemeente page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "Gemeente page 'Opladen elektrische auto's' (live): 'nu één exploitant actief', data-driven placement, 'netbewust', pay/permit duty applies while charging in permit or paid areas. On prices it says the company that owns the charge point and the company that issued the charge pass set the price; the municipality has no influence. Draft says 'operator and pass holder' (the user) - wrong; should be pass provider. Page also warns the grid is full.",
+   "corrected_text": "The city says one public charge-point operator is currently active, although charge points of several operators remain from earlier cooperation. It places new points based on usage data and takes grid congestion into account, and the pay or permit duty continues to apply while charging in paid or permit zones. Charging prices are set by the charge-point owner and the company that issued the charge pass, not by the city. Page read on 21 October 2026.",
+   "corrected_title": null,
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "ParkeerService P+R page (live): three P+R sites (Barchman Wuytierslaan, Piet Mondriaanplein, Station Amersfoort Schothorst/Inputplein), a discounted day rate with a valid train ticket, and 'P+R Schothorst valt nu in het betaald parkeren gebied': Mon-Fri 23:00-06:00, 3 euros per hour. Live page, date 2026-10 right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Amersfoort (about 163,000 residents) is bringing in paid and permit parking in phases after a contested process: an advisory referendum in November 2023 went against the plan by about 74 percent (80 percent turnout, according to NOS), but the council approved a phased version on 22 April 2025. Phase 1 began on 1 October 2025 with permit-only parking in Kruiskamp, Gildekwartier, Hoefkwartier and parts of Vermeerkwartier and Randenbroek, and paid parking along part of the Leusderweg. Phase 2, announced in December 2025 for 1 October 2026, is not in force as announced: after the March 2026 council elections the city postponed Soesterkwartier, Isselt, Eemkwartier, De Koppel and Liendert, and only Jericho and Jeruzalem were formally set to start on 1 October 2026 (we did not find a report confirming the start). The northern districts including Hoogland are due to stay free until at least 2035. The centre has been car-light since January 2021. Street tariffs listed on 21 October 2026 include a day-ticket zone (3 euros for the first hour, then 60 euros a day), 3 euros an hour in hourly zones and 0.30 euros an hour for two hours in shopping areas, and the three central garages run by Coöperatie ParkeerService charge 2.61 to 3.24 euros an hour and 16.22 euros a day (Amerena 0.70 euros for the first 8 hours); Q-Park, P1, Parkking and Arrivee run other garages. The July 2026 coalition agreement plans, but has not yet implemented, scrapping the day ticket, 12 euros an hour for long street stays near the centre, free first two hours in shopping areas, lower some tariffs, adjusted phasing and a smart system with signs showing garage availability. Audit-office findings from December 2021 about garage capacity and limited occupancy data are old."
+}

@@ -1,0 +1,136 @@
+{
+ "country": "Italy",
+ "city": "Caldaro",
+ "researched": "2026-10-21",
+ "summary": "Caldaro (Kaltern an der Weinstraße, about 8,200 inhabitants) manages its car parks itself: the municipality sets blue-zone and Lido car park charges, and in July 2026 issued a 180-minute parking-disc rule at the Mendelbahn valley station in St. Anton, which is run by the provincial company STA. Lake parking is a revenue source: the mayor wrote in August 2026 that the Lido lease and car park are important income, that free lake access is unresolved before the Council of State, and that parking is a key objection to a new free access on the north shore. The main development project is a Park & Ride car park in the winery and station area, agreed between province, municipality and winery in September 2024 (about 3.8 million euros planned, free for Südtirol Pass holders), with the supermarket part of the area broken ground on in October 2026 but no confirmed schedule for the car park. Current official tariffs, council parking decisions and summer lake traffic figures were not found on pages that could be read.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2026-07-27",
+   "text": "Traffic order no. 127/2026 of the municipality limits parking on the marked spaces north of the Mendelbahn valley station in St. Anton (Caldaro) to 180 minutes with a parking disc, every day from 08:30 to 19:00, to ensure turnover. It follows an agreement between the provincial transport company STA and the municipality on managing the station's outdoor area and takes effect once the signs are installed.",
+   "source_title": "Anordnung Nr. 127/2026 / Ordinanza n. 127/2026 (Marktgemeinde Kaltern, Amtstafel)",
+   "source_url": "https://albopretorio.gvcc.net/gem2go/amtstafel/document/21015/b1251dd3-d4db-4221-874d-c4061f4bef61",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-08-21",
+   "text": "In a column of 21 August 2026 the mayor, Christoph Pillon, wrote that the Lido lease and the Lido car park are important income for the municipality, and that lake access is free in the morning and evening. He rejected a hastily decided free access on the north shore, asking where cars would park, and said the free-access court case, won by the municipality at first instance, is now before the Council of State.",
+   "source_title": "Kolumne: Verantwortung für den Kalterer See (Marktgemeinde Kaltern)",
+   "source_url": "https://www.gemeinde.kaltern.bz.it/de/Neuigkeiten/News/Kolumne_Verantwortung_fuer_den_Kalterer_See",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-06-13",
+   "text": "In June 2025 the SVP councillor Anton Anderlan, delegated by the mayor for lake matters, said that visitors to the municipal Lido do not pay parking on top of entry, and that the former military site on the lake is unsuitable because it lacks water, electricity and parking. The municipality had only a first sketch for improving the existing public access.",
+   "source_title": "Caldaro, restyling in arrivo per l'accesso pubblico al lago (Alto Adige)",
+   "source_url": "https://www.altoadige.it/cronaca/caldaro-restyling-in-arrivo-per-laccesso-pubblico-al-lago-tmcl6k1s",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-08-28",
+   "text": "From 7 September 2026 the traffic rules of the kindergarten and school street apply again: the section from Rottenburgerplatz towards Maria-Theresien-Straße is traffic-calmed from 07:15 to 08:15 and from 12:40 to 13:10.",
+   "source_title": "Sicher zur Schule und in den Kindergarten (Marktgemeinde Kaltern)",
+   "source_url": "https://www.gemeinde.kaltern.bz.it/system/web/news.aspx?menuonr=219368616&detailonr=225819888-546",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2016-01",
+   "text": "In January 2016 the municipal executive raised all hourly car park tariffs (previous increase May 2013): 1.60 euros in the village centre, 1.10 euros near the centre, 0.60 euros at peripheral sites, 0.90 euros at the Trucci underground garage, and 1 euro per hour at the Lido with a 5 euro daily maximum. This is a dated figure; current tariffs were not found on an official page.",
+   "source_title": "Parcheggi a Caldaro, aumentate da subito tutte le tariffe orarie (Alto Adige)",
+   "source_url": "https://www.altoadige.it/cronaca/bolzano/parcheggi-a-caldaro-aumentate-da-subito-tutte-le-tariffe-orarie-1.96349",
+   "confidence": "low"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2012-05",
+   "text": "In May 2012 parking at the lake was reported to be paid again, with municipal blue-zone spaces or private car parks charging up to 5 euros per day, Lido visitors exempt after giving their plate number at the cash desk. A shuttle bus to the lake ran from 1 May to October that year.",
+   "source_title": "Caldaro: al lago tutti i parcheggi a pagamento (Alto Adige)",
+   "source_url": "https://www.altoadige.it/cronaca/bolzano/caldaro-al-lago-tutti-i-parcheggi-a-pagamento-1.299277",
+   "confidence": "low"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "A South Tyrol tourism directory (read 21 October 2026, undated entry) states that the Lido car park at the lake is chargeable daily from 9 a.m. to 6 p.m. at 1.20 euros per hour, with Lido restaurant and pool guests exempt after registering their plate at the terminal. The figure is not confirmed by an official municipal page.",
+   "source_title": "Parking lot Kalterer See, Kaltern / Caldaro (suedtirol.live)",
+   "source_url": "https://suedtirol.live/en/store/parking-lot-kalterer-see-caldaro-kaltern-p54182",
+   "confidence": "low"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "The Südtirol tourism page for the Lido Kalterer See (read 21 October 2026) describes a large paid car park in front of the Lido and says bus line 138 stops at the lake; the Lido hosts three evening Seespiele concerts in July and August, and the bathing season usually starts in mid-May.",
+   "source_title": "Lido Kalterer See (Südtirol, suedtirolerland.it)",
+   "source_url": "https://www.suedtirolerland.it/de/freizeit-aktiv/wellness/thermen-wasserwelten/lido-kalterer-see/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The Mendelbahn funicular has been run by the provincial company STA since 2021. The tourism page (read 21 October 2026) gives an autumn 2026 timetable of 08:30-20:00 daily, 13.50 euros return, bus line 132 Bozen-Kaltern stopping at the valley station, and a replacement bus B134 from Rottenburger Platz during the spring and autumn maintenance weeks.",
+   "source_title": "Mendelbahn (Südtirol, suedtirolerland.it)",
+   "source_url": "https://www.suedtirolerland.it/de/highlights/sehenswuerdigkeiten/mendelbahn/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The South Tyrol tourism site (read 21 October 2026, undated) says bus line 130 takes about 5 minutes from Kaltern to the centre of the lake and that the Überetsch Express (line 131) runs from Bozen to Kaltern in 30 minutes at a quarter-hour frequency. The Lido page above names line 138 for the lake, so line numbers should be checked.",
+   "source_title": "Kalterer See (Südtirol Guide, suedtirol.info)",
+   "source_url": "https://www.suedtirol.info/de/de/erlebnisse-und-events/natur/seen-und-naturbaeder/kalterer-see",
+   "confidence": "medium"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "A South Tyrol tourism directory entry (read 21 October 2026, undated) lists public Alperia/Neogy charging stations in Kaltern at the Parkplatz Weinstraße (P5) near the village centre, the Mendelbahn valley station, the Lido at the lake and the primary school in Oberplanitzing, payable by app or card/PayPal. Number of charging points and current availability were not shown.",
+   "source_title": "Ladestation für Elektrofahrzeuge (Alperia) - Parkplatz St. Josef am See (Lido) (suedtirol.live)",
+   "source_url": "https://suedtirol.live/de/geschaeft/ladestation-fur-elektrofahrzeuge-alperia-parkplatz-st-josef-am-see-lido-kaltern-am-see-p93056",
+   "confidence": "low"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-09-11",
+   "text": "On 11 September 2024 the province, the municipality and the Kellerei Kaltern signed an agreement allowing the redevelopment of the winery and station area and a new Park & Ride car park for commuters and Überetsch bus users, free for Südtirol Pass holders. The bus parking behind the station is to move to Kaltern Gand with e-charging for buses, with a temporary bus area on the winery site meanwhile.",
+   "source_title": "Flächentausch für neues Pendler-Parkhaus in Kaltern unterzeichnet (Südtirol News)",
+   "source_url": "https://www.suedtirolnews.it/politik/flaechentausch-fuer-neues-pendler-parkhaus-in-kaltern-unterzeichnet",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-09-12",
+   "text": "Salto reported in September 2024 that the planned station car park would cost about 3.8 million euros and be financed by municipality and province, while the replacement bus park at Kaltern Gand (about 4.2 million euros) was still in planning and delayed. The council approved the urban restructuring plan on 12 September 2024 by majority, over criticism by the opposition (Dorfliste). The article gives no number of spaces.",
+   "source_title": "Operation Bahnhofsremise (SALTO)",
+   "source_url": "https://salto.bz/de/article/12092024/operation-bahnhofsremise",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10-02",
+   "text": "On 2 October 2026 the municipality announced the ground-breaking for the retail building (new supermarket at the village entrance) in the Kellereiareal, part of the restructuring of the winery and station area, with a new residential zone planned and refurbishment of the former station area prepared. The release does not mention the car park or its schedule.",
+   "source_title": "Spatenstich für das Baulos Handel im Kellereiareal (Marktgemeinde Kaltern)",
+   "source_url": "https://www.gemeinde.kaltern.bz.it/de/Neuigkeiten/News/Spatenstich_fuer_das_Baulos_Handel_im_Kellereiareal",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The municipal mobility page (read 21 October 2026, undated) describes the 'Klimafreundliche Mobilität' project started at the end of 2021, including a mobility concept, a mobility survey (over 300 participants) and e-bike charging stations, and notes a car-free cycling day to the Mendel every year since 2007. No parking measures are listed there.",
+   "source_title": "Mobilität (Marktgemeinde Kaltern)",
+   "source_url": "https://www.gemeinde.kaltern.bz.it/de/Fokus/Mobilitaet",
+   "confidence": "medium"
+  }
+ ],
+ "gaps": [
+  "No current official tariff list for Caldaro car parks was found: the municipality page Pakplaetze_Blaue_Zonen_Gebuehren (https://www.gemeinde.kaltern.bz.it/de/Pakplaetze_Blaue_Zonen_Gebuehren) returned 404, and the topic page https://www.gemeinde.kaltern.bz.it/de/Themen/Parkplaetze has no entries. Only 2012 and 2016 press tariffs and an undated directory price were found.",
+  "stol.it articles on the free lake access dispute and the north-shore project (https://www.stol.it/artikel/chronik/oeffentlicher-zugang-zum-kalterer-see-neuer-anlauf-im-norden, https://www.stol.it/artikel/politik/freier-zugang-zum-kalterer-see-jetzt-reichen-wir-klage-ein) returned no readable text.",
+  "No Dolomiten, Südtirol News or Salto article on summer lake traffic, queues or parking capacity at the Kalterer See was found; nothing on Wein Rad events and traffic closures was found (kaltern.com pages returned almost no text, e.g. https://www.kaltern.com/de/autofreier-tag-auf-die-mendel.html).",
+  "No source on the number of spaces, start of construction or opening date of the planned Park & Ride car park; the WebSearch budget was exhausted before a follow-up search on its status could be made.",
+  "EV charging is only supported by an undated tourism directory entry; the Neogy network page (https://www.neogy.it/de/ladenetz/ladestationen.html) did not show Kaltern sites in readable text.",
+  "Municipal council minutes and the Amtstafel list of traffic orders could not be browsed (only ordinance 127/2026 was found); the tourism pages give bus line 130/131 versus 138 for the lake, which was not reconciled."
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "country": "Netherlands",
+ "city": "Eindhoven",
+ "researched": "2026-10-21",
+ "summary": "Eindhoven pursues a low-car city centre under its Masterplan Mobiliteit 2050 (adopted 12 March 2024): paid parking applies daily from 09:00 to 21:00 across the whole area inside the Ring, a May 2026 gazette notice confirms a zero norm for new car spaces in the centre with visitors referred to existing garages and park-and-ride, and a traffic circulation plan is being prepared that will cut through traffic inside the Ring with traffic filters. The 2026 parking tax ordinance sets on-street tariffs of EUR 4.50 per hour in the centre, EUR 2.55 in the inner-ring neighbourhoods and EUR 2.10 outside the Ring, resident permits for the centre cost EUR 11.79 and 24.71 per month, and permit-based paid parking keeps being extended street by street (July 2026 decision). The centre is served mainly by Q-Park garages (Heuvel 1,143 spaces, Mathildelaan 1,150, Kennedyplein 796, Bijenkorf 510, Admirant 347, Stadhuisplein 306), while the municipal P+R sites Genneper Parken (641 spaces) and Meerhoven (231) are intended to take visitor demand; a 2021 report described Genneper Parken as nearly empty. A zero-emission zone for vans and trucks started in January 2025, a diesel-car milieuzone is due on 1 January 2027, and the June 2026 coalition agreement keeps paid parking inside the ring road and plans four P+R hubs.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2024-03-12",
+   "text": "The city council adopted the Masterplan Mobiliteit 2050 on 12 March 2024. Its follow-up work includes a traffic circulation plan for the area inside the Ring, a Ring improvement plan and the HOV4 bus line to Veldhoven.",
+   "source_title": "Masterplan Mobiliteit (Open Eindhoven, gemeente Eindhoven)",
+   "source_url": "https://www.openeindhoven.nl/project/masterplan-mobiliteit",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-05-12",
+   "text": "The municipal gazette of 12 May 2026 publishes the Nota parkeernormen 2024, which states the aim that the whole area inside the Ring becomes fully paid parking and that no new car parking spaces are added in the city centre (zero norm). In the centre only housing may still provide parking; visitor parking is to rely on existing car parks and park-and-ride facilities away from the centre.",
+   "source_title": "Gemeenteblad 2026 nr. 224042 - Nota parkeernormen 2024",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-224042.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: paid parking applies in the whole area inside the Ring and in some other places such as the airport and the Woensel shopping centre, from 09:00 to 21:00 on all days including Sundays and holidays. The city says the aim is to limit parking nuisance for residents and businesses and to use parking space well.",
+   "source_title": "Betaald parkeren (gemeente Eindhoven)",
+   "source_url": "https://www.eindhoven.nl/stad-en-wonen/stad/parkeren/betaald-parkeren",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-11-04",
+   "text": "The council adopted the parking tax ordinance 2026 on 4 November 2025, with effect from 1 January 2026. On-street tariffs in the centre area are EUR 4.50 per hour plus a EUR 0.30 start charge, in the inner-ring 'Schilwijk' areas EUR 2.55 per hour (day maximum EUR 8.55 in B2), outside the Ring EUR 2.10 per hour and in Strijp-S EUR 4.50 per hour.",
+   "source_title": "Verordening parkeerbelastingen 2026 (Gemeenteblad 2025, 485241)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-485241.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01",
+   "text": "Resident permit prices from 1 January 2026 (page read 21 October 2026): centre first permit EUR 11.79 per month and second EUR 24.71; inner-ring Schilwijk first EUR 4.72 and second EUR 12.56; in E9 permit-holder zones EUR 19.10 and EUR 30.33 in the centre. A maximum of two resident permits per address, and business permits cost EUR 363.96 (paid zones) or EUR 444.72 (E9) per year.",
+   "source_title": "Parkeervergunningen (gemeente Eindhoven)",
+   "source_url": "https://www.eindhoven.nl/stad-en-wonen/stad/parkeren/parkeervergunningen",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-07-29",
+   "text": "A decision of 29 July 2026 amends the parking designation order: permit-based paid parking is added in streets of the Nieuwe Erven area (126 permits for capacity 101) and Woensel West (124 permits for capacity 99), and the permit rule for the Pastoor Harkxplein car park is changed. The consolidated order valid from 30 July 2026 sets payment time I as daily 09:00-21:00 and time II as daily 09:00-24:00.",
+   "source_title": "Gemeenteblad 2026 nr. 364689 and Aanwijsbesluit parkeren (CVDR757145)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-364689.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Enforcement of paid parking uses a scan car that reads number plates; if no payment or permit is found, a parking tax assessment is posted to the owner, and no ticket is left on the car. The city says the paid area had become too large to check on foot.",
+   "source_title": "Parkeerhandhaving met de scanauto (gemeente Eindhoven; page read 21 October 2026)",
+   "source_url": "https://www.eindhoven.nl/stad-en-wonen/stad/parkeren/parkeerhandhaving-met-de-scanauto",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The traffic circulation plan (VCP) is planned to divide the area inside the Ring into sectors with traffic filters open only to pedestrians, cyclists, buses and emergency services, so through car traffic goes via the Ring. Page read 21 October 2026: a traffic decision for the Vonderkwartier sector border is expected in the first quarter (year not stated) with first works around end 2027, and for the Gestel Ring junctions in the first half of 2027.",
+   "source_title": "Verkeerscirculatieplan and Verbeterplan voor de Ring (Open Eindhoven)",
+   "source_url": "https://www.openeindhoven.nl/themas/mobiliteit/mobiliteit-in-balans/verkeerscirculatieplan",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Page read 21 October 2026: a zero-emission zone for vans and trucks has applied since 1 January 2025, and a milieuzone for diesel cars of emission class 4 and lower is to start on 1 January 2027 (buses class 5 and lower since 2022). The fine is EUR 130 for cars, vans and buses and EUR 320 for trucks; the stated goal is an emission-free Ring in 2030 and city in 2038, although the 2030 decision for all vehicles has not yet been taken.",
+   "source_title": "Zero-emissiezone en milieuzone (gemeente Eindhoven)",
+   "source_url": "https://www.eindhoven.nl/stad-en-wonen/verkeer/zero-emissiezone-en-milieuzone",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-05-27",
+   "text": "On 27 May 2025 the Oost-Brabant court found the city's justification for the zero-emission zone at the De Kade business area inside the Ring insufficient. The city reversed the introduction there, plans a repair decision for the area south of the canal, and postponed introduction for another part of De Kade to 1 January 2028.",
+   "source_title": "Zero-emissiezone en milieuzone (gemeente Eindhoven; page read 21 October 2026)",
+   "source_url": "https://www.eindhoven.nl/stad-en-wonen/verkeer/zero-emissiezone-en-milieuzone",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-11",
+   "text": "Omroep Brabant reported on 11 June 2026 that the new coalition agreement of PRO, CDA and D66 keeps paid parking inside the ring road. It also plans four park-and-ride or 'traffic hub' sites at the city edge, three large bicycle garages in the inner city and a trial with free or very cheap bus travel.",
+   "source_title": "Eindhoven presenteert nieuw coalitieakkoord: meer huizen, minder vervuiling (Omroep Brabant)",
+   "source_url": "https://www.omroepbrabant.nl/nieuws/6012921/eindhoven-presenteert-nieuw-coalitieakkoord-meer-huizen-minder-vervuiling",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Page read 21 October 2026: Eindhoven has two P+R sites, P+R Meerhoven (tariffs published by P1) and P+R Genneper Parken. Genneper Parken, Aalsterweg 316, has 641 spaces including an ambulance post, is open 24/7 and is served by bus lines 7, 317, 318 and 408 with about 10 minutes travel time to the centre.",
+   "source_title": "P+R Genneper Parken and Parkeren en reizen (P+R) (gemeente Eindhoven)",
+   "source_url": "https://www.eindhoven.nl/stad-en-wonen/stad/parkeren/parkeren-en-reizen-pr/pr-genneper-parken",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2021-12-02",
+   "text": "In December 2021 Omroep Brabant reported that P+R Genneper Parken, opened about half a year earlier at a cost of over EUR 20 million, was used by on average 25 people per day (about 4 percent occupancy). It cost the city about EUR 300,000 a year to keep open; the responsible alderman blamed corona and said the garage was built for the future. This is an old report and not current usage.",
+   "source_title": "Deze parkeergarage kostte 20 miljoen maar staat al half jaar bijna leeg (Omroep Brabant)",
+   "source_url": "https://www.omroepbrabant.nl/nieuws/4000587/deze-parkeergarage-kostte-20-miljoen-maar-staat-al-half-jaar-bijna-leeg",
+   "confidence": "medium"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Page read 21 October 2026: P1 lists P+R Meerhoven (Sliffertsestraat 304) with 231 spaces, EUR 1.50 for the first hour, a daily maximum of EUR 4.00 for the first 24 hours and a bus ticket of EUR 0.50 per person return on lines 401-403.",
+   "source_title": "P+R Meerhoven Eindhoven (P1)",
+   "source_url": "https://www.p1.nl/parkeerplaats/pr-meerhoven-eindhoven/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Page read 21 October 2026: Q-Park lists city-centre and edge garages in Eindhoven with these capacities: Heuvel 1,143, Mathildelaan 1,150, Kennedyplein 796, De Bijenkorf 510, Centrum De Admirant 347, Stadhuisplein 306, Witte Dame 246 and Hooghuis 150 spaces. Q-Park says it works together with the municipality.",
+   "source_title": "Parkeren Eindhoven and individual garage pages (Q-Park)",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/eindhoven/",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Undated city-marketing listing read on 21 October 2026: Q-Park Stadhuisplein EUR 2.00 per 31 minutes with a daily maximum of EUR 24.00, and Q-Park Heuvel EUR 0.50-1.10 per 15 minutes with a daily maximum of EUR 24.00. The same pages give garage sizes that differ from Q-Park's own pages, so these tariffs may be out of date; Q-Park's own tariff tables did not load.",
+   "source_title": "This is Eindhoven - Q-Park Parkeergarage Stadhuisplein and Heuvel",
+   "source_url": "https://www.thisiseindhoven.com/nl/locaties/q-park-parkeergarage-stadhuisplein",
+   "confidence": "low"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "Page read 21 October 2026: Q-Park Stadhuisplein has 20 EV charge points. For Q-Park Heuvel the garage page says 11 charge points are available from Friday 18:00 to Monday 07:00 and 2 on level -1 on weekdays 07:00-19:00, while its facts box lists 2 charge points.",
+   "source_title": "Q-Park Stadhuisplein and Heuvel garage pages",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/eindhoven/heuvel/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "Since 2025 public charge points are installed under a concession with Vattenfall InCharge, with the municipality planning new locations from a half-yearly analysis of charging pressure, over the following 2 to 4 years. Page read 21 October 2026.",
+   "source_title": "Openbare laadpalen (gemeente Eindhoven)",
+   "source_url": "https://www.eindhoven.nl/stad-en-wonen/stad/parkeren/openbare-laadpalen",
+   "confidence": "high"
+  }
+ ],
+ "gaps": [
+  "No current utilisation or occupancy statistics for the centre garages (Q-Park Heuvel, Stadhuisplein, Mathildelaan) or for the P+R sites were found; the only usage figure is a December 2021 Omroep Brabant report.",
+  "Q-Park's own tariff tables for Heuvel and Stadhuisplein did not load (https://www.q-park.nl/nl-nl/parkeren/eindhoven/heuvel/), so current garage tariffs are not confirmed; the city-marketing listing is undated and inconsistent.",
+  "Nothing was found or read on Piazza, Stationsplein and Heuvelgalerie developments or on closures or refurbishments of centre garages, and the 'Parkeerstrategie Eindhoven (June 2021)' document was only seen as a link.",
+  "The web search budget ran out after six searches, so Eindhovens Dagblad was not searched (likely paywalled) and few Omroep Brabant articles were found; the council vote of June 2025 on paid parking inside the Ring cited in a search summary was not verified from a read page.",
+  "https://eindhovennews.com/news/2025/12/rising-parking-permit-costs-spark-concern (December 2025 permit costs) and https://eindhovennews.com/news/politics/2025/02/residents-to-shape-future-of-citys-ring-road-redevelopment returned 'page not found' and are not used.",
+  "Parking guidance / open-data systems (for example the national RDW parking data entry for Eindhoven garages) and the operator of the municipal car parks beyond the P1 page were not examined in detail; the full council decision on the zero-emission zone (raadsbesluit) was not opened."
+ ]
+}

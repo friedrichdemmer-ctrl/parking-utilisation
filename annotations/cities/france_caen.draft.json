@@ -1,0 +1,160 @@
+{
+  "country": "France",
+  "city": "Caen",
+  "researched": "2026-10-21",
+  "summary": "Caen (about 108,000 inhabitants, Caen la mer urban community) charges for on-street parking Monday to Saturday in a red core zone (1.80 EUR/hour, 2h30 maximum) and a yellow ring (1.30 EUR/hour, 5h30 maximum), with a 33 EUR post-parking charge. Indigo runs the six central underground car parks under a public-service delegation and has invested 3.7 million EUR since early 2025; officials say these car parks have spare capacity at peak. Tramway extension works started in April 2026 and run to 2028, with service planned for summer 2029. They have cut lanes, reversed streets and removed about 100 of nearly 7,000 on-street spaces, and the city (mayor Aristide Olivier) will add free parking hours (Wednesday 1 hour, Saturday 2 hours) from 2 November 2026. The low-emission zone inside the ring road has applied since January 2025 and bars only unclassified pre-1997 vehicles; a May 2026 Constitutional Council ruling kept it in place. The Pompidou park-and-ride (about 250 spaces) opened in July 2026, and a further one at Chemin-Vert is planned.",
+  "items": [
+    {
+      "topic": "regulation",
+      "date": "2026-10",
+      "text": "On-street parking in central Caen is paid Monday to Saturday, 9:30-12:30 and 14:00-19:00 (page updated 25 September 2026, read 21 October 2026). Yellow zone costs 1.30 EUR/hour with a 5h30 maximum stay; red zone (city core) costs 1.80 EUR/hour with a 2h30 maximum; the green zone is free.",
+      "source_title": "Stationnement payant | Caen.fr",
+      "source_url": "https://caen.fr/stationnement-payant",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-10",
+      "text": "The city's page (read 21 October 2026) gives the post-parking charge (forfait post-stationnement) as 33 EUR, sent by post. A challenge must be filed within 30 days of notification.",
+      "source_title": "Stationnement payant | Caen.fr",
+      "source_url": "https://caen.fr/stationnement-payant",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-10",
+      "text": "Residents of the centre can buy a permit: 15 EUR/month or 150 EUR/year for a first vehicle, 50 EUR/month or 500 EUR/year for a second. The Sector 1 'Coeur de ville' permit needs an extra 2 EUR daily ticket to park in the red zone, and permits are fully digital (no windscreen sticker).",
+      "source_title": "Stationnement payant | Caen.fr",
+      "source_url": "https://caen.fr/stationnement-payant",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-09-25",
+      "text": "From 2 November 2026 the city will give 1 free hour on Wednesdays and 2 free hours on Saturdays (up from 1) on surface parking in the red and yellow zones; the Courtonne and Plaisance 1 and 2 barrier car parks are excluded. Drivers must take a meter ticket or register in the PayByPhone or Indigo Neo apps, and place Guillouard (230 spaces) stays free on Saturdays, Sundays and public holidays.",
+      "source_title": "Du nouveau pour le stationnement : plus d'heures gratuites en centre-ville (caen.fr)",
+      "source_url": "https://caen.fr/actualite/du-nouveau-pour-le-stationnement-plus-dheures-gratuites-en-centre-ville",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-09-25",
+      "text": "ICI reports the free hours are meant to last until the tramway works end, at an estimated cost of 700,000-900,000 EUR against nearly 5 million EUR of total parking revenue. It also says about 100 on-street spaces have been removed by the works, out of nearly 7,000 in total, and that the city says underground car park capacity is not fully used.",
+      "source_title": "Travaux du tramway a Caen : la Ville prevoit des heures de stationnement gratuit supplementaires (ICI)",
+      "source_url": "https://www.ici.fr/normandie/calvados-14/caen/travaux-du-tramway-a-caen-la-ville-prevoit-des-heures-de-stationnement-gratuit-supplementaires-4551778",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-09-07",
+      "text": "Indigo runs the six central underground car parks (Chateau, Hotel de Ville, Resistance, Doumer, Republique, Gardin) under a public-service delegation and says it has invested 3.7 million EUR since early 2025. Together they offer 2,015 spaces; the Caen la mer president said Resistance peaks below 50% occupancy on Tuesday evenings and Chateau below 70%, while the barrier car parks on the port fill more often.",
+      "source_title": "Caen. Cette astuce peut vous permettre de payer moins cher le stationnement en centre-ville (Tendance Ouest)",
+      "source_url": "https://www.tendanceouest.com/actualite-442319-caen-cette-astuce-peut-vous-permettre-de-payer-moins-cher-le-stationnement-en-centre-ville",
+      "confidence": "medium"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-10",
+      "text": "The city's 'bons plans' page (read 21 October 2026, updated 25 September 2026) lists the first 30 minutes free in the Hotel de Ville and Gardin underground car parks, and a 1.50 EUR night rate (19:00-08:00, Sundays included) in all underground car parks. It also lists up to 1h30 free in blue zones such as rue de la Delivrande, rue de Bayeux and rue de Falaise.",
+      "source_title": "Centre-ville : les bons plans stationnement (caen.fr)",
+      "source_url": "https://caen.fr/centre-ville-les-bons-plans-stationnement",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-10",
+      "text": "The city's directory (read 21 October 2026) lists Hotel de Ville, Republique, Resistance, Chateau, Doumer, Gardin, Rives de l'Orne and Presqu'ile Tribunal/Quai XIX as managed by Indigo, open 24/7 and billed per 15 minutes for stays under 12 hours. Live availability is on Indigo Neo and the Republique office handles resident permits.",
+      "source_title": "Parking souterrain hotel de ville (caen.fr annuaire)",
+      "source_url": "https://caen.fr/annuaire-equipement/parking-souterrain-hotel-de-ville",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-10",
+      "text": "Caen la mer's low-emission zone has applied since 1 January 2025 inside the ring road (11 communes including Caen and Ifs, with through traffic from all 48 communes affected). Only unclassified vehicles (registered before 1997, about 2,000 counted) are barred, and Crit'Air 0-5 vehicles may enter. The page, read 21 October 2026, mentions a tolerance period.",
+      "source_title": "Zone a faibles emissions (caenlamer.fr)",
+      "source_url": "https://caenlamer.fr/zone-faibles-emissions",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-05-21",
+      "text": "The Constitutional Council struck down, on procedural grounds, the article of the 2026 economic simplification law that would have abolished low-emission zones. Tendance Ouest reports this keeps the zones and Crit'Air stickers in place in Rouen, Le Havre and Caen.",
+      "source_title": "Normandie. Le Conseil constitutionnel censure la suppression des ZFE (Tendance Ouest)",
+      "source_url": "https://www.tendanceouest.com/actualite-439241-normandie-le-conseil-constitutionnel-censure-la-suppression-des-zfe-qui-perdurent-a-rouen-au-havre-et-a-caen",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-04-07",
+      "text": "Tramway extension works began on 7 April 2026, with works planned to end in late 2028 and service planned for summer 2029. The project is 9.1 km with 17 new stations and a stated cost of 288.5 million EUR excl. VAT (2021 value), and it passes place Guillouard, boulevard Bertrand, place Gambetta, boulevard Marechal Leclerc and rue de Bernieres.",
+      "source_title": "Foire aux questions - Projet Tramway (Caen la mer)",
+      "source_url": "https://projet-tramway.caenlamer.fr/faq",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-10",
+      "text": "Caen la mer's works page (read 21 October 2026) says main boulevards were cut to one lane each way from spring 2026, rue du General Giraud was reversed and boulevard Aristide Briand made two-way. From the first quarter of 2027 rue de Bernieres will close to through traffic between rue du General Giraud and avenue du Six Juin; its lower section follows in 2028.",
+      "source_title": "Circuler pendant le chantier (Projet Tramway, Caen la mer)",
+      "source_url": "https://projet-tramway.caenlamer.fr/circuler-pendant-chantier",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-10",
+      "text": "The tramway FAQ (read 21 October 2026) says on-street spaces will be removed temporarily as works advance, and the Doumer, Republique, Hotel de Ville and Gardin underground car parks stay open throughout. It adds that the number and location of spaces will change permanently after the street redesign.",
+      "source_title": "Foire aux questions - Projet Tramway (Caen la mer)",
+      "source_url": "https://projet-tramway.caenlamer.fr/faq",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-07",
+      "text": "The Pompidou park-and-ride opened on 3 July 2026 on a 1.2 ha site with 235 park-and-ride spaces, 52 public spaces (16 for electric vehicles) and 30 public spaces on rue Robert Kaskoreff. Caen la mer says it took 9 months to build and is served by bus line 2.",
+      "source_title": "Le parking relais Pompidou desormais en service (Caen la mer)",
+      "source_url": "https://caenlamer.fr/actualites/parking-relais-pompidou-desormais-service",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-10",
+      "text": "Twisto's page (read 21 October 2026) lists park-and-rides with these capacities: Cote de Nacre 149, Ifs Jean Vilar 79, Pompidou 249, Palais des Sports 90 and Cardiff 90. Exit needs a Twisto ticket validated the same day, stays are limited to 7 days, and a family return ticket costs 6.40 EUR instead of 16 EUR.",
+      "source_title": "Parkings Relais (Twisto)",
+      "source_url": "https://www.twisto.fr/se-deplacer/modes-de-transport/parkings-relais",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2024-09-10",
+      "text": "Caen la mer awarded the Twisto network to RATP Dev for six years from 1 January 2025, paying 55.4 million EUR a year. RATP Dev also operates the existing park-and-rides (Ifs Jean Vilar, Cote de Nacre) and the planned ones (Palais des Sports, Pompidou, Chemin Vert), and adds bike parks in five underground car parks.",
+      "source_title": "Caen la mer confie la gestion du reseau de transports urbain a RATP Dev (press release)",
+      "source_url": "https://caenlamer.fr/sites/caenlamer/files/2024-09/Caen%20la%20mer-Nouvelle%20DSP%20transports_0.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-03-11",
+      "text": "During the municipal campaign, Aristide Olivier (then outgoing mayor) proposed a new 350-400 space car park near the centre (site undecided) and free Saturday parking during the tramway works. Another candidate suggested a free first hour and silo car parks with shuttles; these were campaign proposals, not decisions.",
+      "source_title": "Caen. Comment rendre le centre-ville incontournable ? (Tendance Ouest)",
+      "source_url": "https://www.tendanceouest.com/actualite-437122-caen-comment-rendre-le-centre-ville-incontournable",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2026-10",
+      "text": "The city's parking page (read 21 October 2026) says 22 public charging points are installed in Caen, accessible with a MobiSDEC account.",
+      "source_title": "Stationnement payant | Caen.fr",
+      "source_url": "https://caen.fr/stationnement-payant",
+      "confidence": "high"
+    }
+  ],
+  "gaps": [
+    "No Effia or Q-Park operator page for the railway station (Gare) car park could be opened; web search budget ran out before this was checked, so station parking operators and tariffs are not covered.",
+    "No official source opened for the Saint-Pierre, Foch or Vaugueux car parks as named sites (Vaugueux and place Foch only appear as paid on-street streets in the 2025 order); capacities per underground car park were not found on official pages.",
+    "The Indigo delegation contract (start, end date, financial terms) was not found; MobiSDEC (mobisdec.fr) only returned a JavaScript shell, so EV charger counts rely on the city page.",
+    "A new 350-400 space car park proposed by the mayor during the campaign (March 2026) had no confirmation of site or timing in the pages read; the 'additional parking action' for Christmas was to be announced in November 2026 (not yet published).",
+    "No Caen la mer parking or mobility plan (PDU) text, and no tram-works document giving the exact count of spaces lost per street, was opened.",
+    "Parkopedia, Zenpark, Yespark, Mappy and similar listing sites appeared in search but were deliberately not used."
+  ]
+}

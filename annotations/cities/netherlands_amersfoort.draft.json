@@ -1,0 +1,162 @@
+{
+ "country": "Netherlands",
+ "city": "Amersfoort",
+ "researched": "2026-10-21",
+ "summary": "Amersfoort (about 163,000 residents) is moving to citywide paid and permit parking after a contested process: an advisory referendum in November 2023 rejected the plan by about 74 percent, but the council approved a phased version on 22 April 2025. Phase 1 started on 1 October 2025 in the centre and surrounding districts. Phase 2 was postponed to 1 October 2026 for several districts, though the city says some existing zones such as Soesterkwartier start in a later phase, and the northern districts including Hoogland are excluded until at least 2035. The centre is car-light since January 2021; street parking around it is steered towards garages through a 60 euro day ticket after the first hour at 3 euros. The four municipality-linked garages (Koestraat, Flintplein, Stadhuisplein, Amerena) are run by Coöperatie ParkeerService, while Q-Park, P1, Parkking and others run the rest, and in 2026 the garage rate is about 2.61-3.24 euros per hour and 16.22 euros per day. The July 2026 coalition agreement plans to scrap the day ticket, lower some tariffs, make the first two hours free in shopping areas and introduce a smart garage-availability system, and none of these had been implemented when the pages were read on 21 October 2026.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2021-01-04",
+   "text": "The car-light historic centre took effect on 4 January 2021: access needs an exemption, street parking there is permit-only and 71 paid street spaces were removed, while residents' visitors get a reduced rate in the municipal garages. The audit office asked whether this use of municipal garages complies with the Dutch Market and Government Act, as the city competes with private operators; the municipality said it would test this.",
+   "source_title": "Rekenkamer Amersfoort, Parkeergarages en fietsenstallingen Amersfoort (report, 6 Dec 2021)",
+   "source_url": "https://www.amersfoort.nl/sites/default/files/Rapport%20rekenkameronderzoek%20Parkeergarages%20en%20fietsenstallingen_1.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2021-12-06",
+   "text": "As of 2021 Amersfoort had 13 public garages with 4,571 spaces, nine of them in and around the centre with 3,974 spaces. The three municipal centre garages (Koestraat, Stadhuisplein, Flintplein) had 930 spaces (23.4 percent); Q-Park was the largest provider with 1,819 spaces (45.9 percent).",
+   "source_title": "Rekenkamer Amersfoort, Parkeergarages en fietsenstallingen Amersfoort (report, 6 Dec 2021)",
+   "source_url": "https://www.amersfoort.nl/sites/default/files/Rapport%20rekenkameronderzoek%20Parkeergarages%20en%20fietsenstallingen_1.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2021-12-06",
+   "text": "The municipality said it stopped its dynamic parking route information system in 2016, after a 2014 study showed little effect of showing free-space numbers on garage choice and operators stopped contributing. It said it would look at better opening of digital open parking data for apps.",
+   "source_title": "Bestuurlijke reactie op het rapport van de Rekenkamer (Parkeergarages en fietsenstallingen)",
+   "source_url": "https://www.amersfoort.nl/sites/default/files/Bestuurlijke%20reactie%20Rekenkamerrapport%20Parkeergarages%20en%20fietsenstallingen_1.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2021-12-06",
+   "text": "The audit found the municipality had only limited occupancy information even for its own garages and none for private ones, and that no occupancy data were shared with private operators. It expected the car-light centre to raise pressure on the municipal garages, partly already filled by subscription holders.",
+   "source_title": "Rekenkamer Amersfoort, Parkeergarages en fietsenstallingen Amersfoort (report, 6 Dec 2021) (summary and chapter 4)",
+   "source_url": "https://www.amersfoort.nl/sites/default/files/Rapport%20rekenkameronderzoek%20Parkeergarages%20en%20fietsenstallingen_1.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-11",
+   "text": "In November 2023 residents rejected the planned paid-parking policy in an advisory referendum, with about three quarters voting against. The council nevertheless discussed the policy further and amended it.",
+   "source_title": "RTV Utrecht, 1,5 jaar na 'nee' bij referendum is betaald parkeren in Amersfoort een feit",
+   "source_url": "https://www.rtvutrecht.nl/nieuws/3884580/1-5-jaar-na-nee-bij-referendum-is-betaald-parkeren-in-amersfoort-een-feit",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-04-22",
+   "text": "The council approved the new parking policy on 22 April 2025 by a large majority, to be introduced in phases from October 2025: first resident permit 30 euros a year, second 300 euros in the centre or 150 at the edge, visitors at most 1.20 euros a day. Care-giver permits were cut to 30 euros by unanimous vote.",
+   "source_title": "RTV Utrecht, 1,5 jaar na 'nee' bij referendum is betaald parkeren in Amersfoort een feit",
+   "source_url": "https://www.rtvutrecht.nl/nieuws/3884580/1-5-jaar-na-nee-bij-referendum-is-betaald-parkeren-in-amersfoort-een-feit",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-10-01",
+   "text": "Phase 1 of paid and permit parking started on 1 October 2025 in the centre, Kruiskamp, part of Vermeerkwartier and Randenbroek, and most shopping areas. RTV Utrecht reported that the northern districts Kattenbroek, Hoogland, Nieuwland, Vathorst (except Bovenduist) and Hooglanderveen would not get paid parking until at least 2035.",
+   "source_title": "RTV Utrecht, Betalen voor parkeren breidt uit: dit verandert in Amersfoort",
+   "source_url": "https://www.rtvutrecht.nl/nieuws/3948533/betalen-voor-parkeren-breidt-uit-dit-verandert-in-amersfoort",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12-11",
+   "text": "The alderman told the council that phase 2 (Soesterkwartier, Isselt, Eemkwartier, Jeruzalem) moved from 1 February to 1 October 2026, Liendert starts on 1 October 2026 and Randenbroek, Rustenburg and Amersfoort Zuid follow on 1 May 2027. The reason given was that decisions on permit entitlement and application dates were too close together in phase 1.",
+   "source_title": "ParkeerService Amersfoort, Invoeren betaald parkeren",
+   "source_url": "https://amersfoort.parkeerservice.nl/nieuws/invoeren-betaald-parkeren/",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-03-14",
+   "text": "NOS reported that two local parties were founded in protest against the paid-parking policy ahead of the 18 March 2026 council elections. The alderman said tariffs are needed as the city grows from 163,000 to 190,000 residents; a Leusderweg cheese seller reported more shoppers while a baker reported 30 percent lower turnover.",
+   "source_title": "NOS, Parkeren als verdienmodel? In Amersfoort zijn twee partijen ontstaan uit verzet",
+   "source_url": "https://nos.nl/l/2606276",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-07",
+   "text": "The July 2026 coalition agreement (PRO, KeiHart, D66, VVD, CDA) states intentions to abolish the day ticket, charge 12 euros an hour for longer street parking around the car-light centre, make the first two hours free in paid shopping areas, adjust the phasing and regulate areas only where occupancy exceeds 90 percent half a year after a start. These are plans, not rules in force.",
+   "source_title": "Coalitieakkoord 2026-2030 Stad in verbinding (PDF, amersfoort.nl)",
+   "source_url": "https://www.amersfoort.nl/sites/default/files/2026-07/coalitieakkoord-2026-2030-stad-in-verbinding.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-07",
+   "text": "The coalition agreement wants visitors to use garages in the centre, states that a garage should always be cheaper than the street, and plans digital signs on the ring roads and a smart digital system showing garage availability. These are plans; no system was found in operation.",
+   "source_title": "Coalitieakkoord 2026-2030 Stad in verbinding (PDF, amersfoort.nl)",
+   "source_url": "https://www.amersfoort.nl/sites/default/files/2026-07/coalitieakkoord-2026-2030-stad-in-verbinding.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Street tariffs shown on 21 October 2026 (listed as per 1 January 2026): day-ticket zone 3 euros for the first hour then 60 euros for a day, hourly zones 3 euros an hour, shopping areas 0.30 euros per hour for two hours. Charging hours in the day-ticket and hourly zones are Monday-Saturday 09:00-24:00 and Sunday 12:00-24:00; the page was read on 21 October 2026.",
+   "source_title": "ParkeerService Amersfoort, Tarieven",
+   "source_url": "https://amersfoort.parkeerservice.nl/tarieven/",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Garage tariffs listed for 2026 and read on 21 October 2026: Koestraat and Stadhuisplein 3.24 euros per hour and 16.22 euros per day, Flintplein 2.61 euros per hour and 16.22 per day, charged per 20 minutes. Amerena costs 0.70 euros for the first 8 hours, then 0.03 euros per minute.",
+   "source_title": "ParkeerService Amersfoort, Tarieven",
+   "source_url": "https://amersfoort.parkeerservice.nl/tarieven/",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Permit tariffs for the year 1 October to 1 October stay unchanged: first resident permit 30 euros, second 300 or 150 euros by zone, third 600 or 300 euros; the digital visitor scheme costs 0.30 euros per hour up to 1.20 euros a day. Page read on 21 October 2026.",
+   "source_title": "ParkeerService Amersfoort, Tarieven",
+   "source_url": "https://amersfoort.parkeerservice.nl/tarieven/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The four municipality-linked garages are run by Coöperatie ParkeerService and are open 24/7: Koestraat 406 spaces (4 charge points), Flintplein 347 (5), Amerena 218 (2), Stadhuisplein 177 (5). They use licence-plate recognition at exit and accept mobile payment; Flintplein, Stadhuisplein and Amerena take cards only. Pages read on 21 October 2026.",
+   "source_title": "ParkeerService Amersfoort, garage pages (Koestraat, Flintplein, Stadhuisplein, Amerena)",
+   "source_url": "https://amersfoort.parkeerservice.nl/parkeren-in-garages/parkeergarages/parkeergarage-koestraat/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Other garages listed by ParkeerService on 21 October 2026: Eemplein 625 spaces (managed by Parkking, entry 07:00-01:00), Q-Park Mondriaan 575, St. Jorisplein 462 and Beestenmarkt 365, P1 Asch van Wijckstraat 450, Arrivee Neptunusplein 84. The city lists 15 garages and P+R sites including Oppidium, Emiclaer, De Argonaut and De Nieuwe Hof.",
+   "source_title": "ParkeerService Amersfoort, garage pages and gemeente Amersfoort, Parkeergarages in Amersfoort",
+   "source_url": "https://www.amersfoort.nl/parkeergarages-amersfoort",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The city has one active public charge-point operator, places new points data-driven and grid-aware, and the same pay or permit duty applies while charging in paid zones. Charge prices are set by the operator and pass holder, not the city. Page read on 21 October 2026.",
+   "source_title": "gemeente Amersfoort, Opladen elektrische auto's / Parkeren",
+   "source_url": "https://www.amersfoort.nl/laadpalen",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Amersfoort has three P+R sites near stations: Barchman Wuytierslaan, Piet Mondriaanplein and Station Schothorst. Rail travellers get a daily discount; P+R Schothorst now falls within paid parking Monday-Friday 23:00-06:00 at 3 euros an hour. Page read on 21 October 2026.",
+   "source_title": "ParkeerService Amersfoort, Park and Ride (P+R)",
+   "source_url": "https://amersfoort.parkeerservice.nl/parkeren-op-straat/park-and-ride-p-r/",
+   "confidence": "high"
+  }
+ ],
+ "gaps": [
+  "https://www.amersfoort.nl/mobiliteit (municipal mobility page): 403 on fetch, not used.",
+  "https://amersfoort.notubiz.nl/document/17545271/1/College-uitvoeringsprogramma+2026-2030n (implementation programme): 403, so the parking content of the programme is unverified.",
+  "https://www.destadamersfoort.nl/lokaal/verkeer-en-vervoer/1227336/aanpassing-meerdere-regels-en-tarieven-nieuw-parkeerbeleid-am , .../1161517/na-twee-jaar-felle-discussies-is-het-nieuwe-parkeerbeleid-een and .../1291506/gemeente-voert-betaald-parkeren-in-jericho-en-jeruzalem-per-1 (De Stad Amersfoort): 403, not used; the tariff adjustments of late 2025 are therefore only visible through the current tariff page.",
+  "https://media.d66.nl/uploads/sites/31/2026/03/QA-Parkeerbeleid-def.-.pdf (party Q&A): 404 and a party document anyway.",
+  "https://www.binnenlandsbestuur.nl/ruimte-en-milieu/infrastructuur/de-taaie-strijd-tussen-gemeente-en-autobezitter : paywalled after the introduction, not used.",
+  "Q-Park pages for Amersfoort garages returned 404; no Q-Park tariff or occupancy data found. Hendrik Wiersma garage and a Hoogland station-area car park were not found in any opened source (Hoogland appears only as a district excluded from paid parking until 2035).",
+  "No garage occupancy, utilisation statistics or open-data/guidance system statements after 2021 were found; the 2021 audit says the municipality had little occupancy data. No 2026 council papers (raadsinformatie) were opened, and no data on the Eemplein/Parkking tariffs.",
+  "Web search budget was used up before searches on new or closed car parks, station-area projects and RTV Utrecht follow-ups could be run, so developments in garage construction or refurbishment (apart from the 2021 Stadhuisplein lift credit) are not covered."
+ ]
+}

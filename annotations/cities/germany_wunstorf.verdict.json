@@ -1,0 +1,135 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Live DB page 'Parken - Bahnhof Wunstorf' read on 21 Oct 2026: five 'Offene Parkmoeglichkeit' entries, Mo-So incl. holidays 00:00-00:00. Bahnhofstrasse 97 (237) and 104 (54) are labelled ZOB Nord; Adolph-Brosang-Strasse (130), no. 31 (227, 2 disabled) and no. 30 (50) are ZOB Sued. I recomputed the sum: 237+54+130+227+50 = 698, correct. No tariff on the page (only a note on free disabled parking at unbarriered DB BahnPark sites and a pointer to parkenambahnhof.de). Date 2026-10 right for a live page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "NIKIS project profile (undated; read 21 Oct 2026; Stadtgroesse 41,332). Region modernised/newly built many P+R and B+R facilities which then pass into the ownership of the municipality: correct. 12,500 boardings/alightings correct. But the page calls Wunstorf 'der attraktivste SPNV-Knotenpunkt (neben dem Hbf Hannover)' = most attractive rail hub, not 'busiest'; it speaks of 'Menschen' travelling to Wunstorf (by bike and especially car), not 'commuters'.",
+   "corrected_text": "A state climate-planning project profile (undated; read on 21 October 2026) says Region Hannover has modernised or newly built many park-and-ride and bike-and-ride facilities in recent years, which then pass into the ownership of the municipality concerned. It calls Wunstorf station, with 12,500 boardings and alightings, the most attractive rail hub in the Region apart from Hannover Hauptbahnhof, and says people from Wunstorf and many surrounding municipalities travel there deliberately, by bike and especially by car, to use the park-and-ride and bike-and-ride facilities near the station.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Same NIKIS page: about 1,150 bike spaces already built by Region and city (stands, covered racks, lockable garages); expansion 'dringend notwendig'; land availability 'mittlerweile sehr begrenzt'; two fully automatic bike towers on only 90 m2 (plus lockers) for 244 more bikes; reduction of P+R traffic described as a share of the Region's overall strategy (CO2 cut of up to 25 percent aimed at). Page is undated and partly worded in 'soll' form, but these statements are in past tense as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "NIKIS: 'Das Angebot soll in erster Linie fuer Abonnenten des GVH als Dauer- bzw. Jahresplaetze kostenfrei angeboten werden. Reservierung und Zugang sollen mittels der umsteigen:aufsteigen. App ... erfolgen ... begrenztes Kontingent (20%) fuer spontane Nutzer buchbar.' The draft correctly flags the 'soll' wording as the intended model. Page says free primarily for GVH subscribers, nothing on price for spontaneous users, so the summary must not say the towers are free for all users.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "Slide deck 'Fahrradmobilitaet in Wunstorf' (Alexander Wollny, Referatsleiter Bau; PDF created 29 Aug 2024, file name dated 2024-08-21): tower slides say 'Massnahme der Region Hannover, Betreiber Stadt Wunstorf', 2 towers x 122 bikes, Bauzeit 24 Monate, 1.9 Mio EUR, Bund 500,000 (Kommunalrichtlinie), Land 150,000 (Leuchtturmfoerderung): all correct. But the 1,000-stand claim is overstated: the separate slide 'Nr. 14, Neue Abstellanlagen' says Realisierung 2023/2024, double-deck parkers, 'Jetzt stehen 1.000 Abstellanlagen zur Verfuegung'. It does not say the stands are at the station or that they 'brought the station to' 1,000, and it sits oddly with NIKIS's ~1,150 existing stands.",
+   "corrected_text": "A Stadt Wunstorf presentation by the city's head of construction (PDF created August 2024) describes the two bike towers as a Region Hannover measure with the city as operator: two towers with 122 bikes each, 24 months of construction, 1.9 million euros cost, 500,000 euros federal and 150,000 euros state funding. A separate slide on new bike-and-ride racks (double-deck parkers, applied for via DB's Bike+Ride-Offensive, realised in 2023/2024) says 1,000 stands are now available; it does not name the location, and the NIKIS profile gives about 1,150 existing bike spaces at the station.",
+   "corrected_title": null,
+   "corrected_date": "2024-08"
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "Same deck: 'Radverkehrskonzept Stadt Wunstorf (Beschluss 19.06.2024)' correct; Leuchtturmtrasse 12.5 km total (9.0 km Steinhude-station, 3.0 km Luthe-station), to be developed as Radvorrangroute; about 80% of residents connected (within a 1 km catchment radius per the slide). Overstated: the deck's goals are to raise everyday cycling share and make intermodal chains more attractive, with the station as central building block; 'very high shift potential from car to bike' is a potential, not a stated aim of shifting. The route is partly realised, partly planned.",
+   "corrected_text": "According to a city presentation (August 2024), the city's Radverkehrskonzept was adopted on 19 June 2024. Its central element is a 12.5 km 'Leuchtturmtrasse' to be developed as a cycle priority route, 9.0 km from Steinhude and 3.0 km from Luthe to the station, with direct links to the city centre; about 80 percent of residents are within a 1 km catchment of the route. The stated goals are to raise everyday cycling and make intermodal journeys more attractive, with the station as a central building block, and the slides note very high potential to shift trips from car to bike.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "Stadtanzeiger article (page shows 29.12.2023 22:20) is written in advance: the north and south commuter car parks 'sind ... uebergangsweise nur eingeschraenkt nutzbar' (restricted, not 'closed') 13-17 November while floor and overhead sensors 'werden installiert'; no plates or images recorded; ten Region P+R sites already equipped, four more 'folgen bis Jahresende 2023' including Wunstorf north and south; data 'stehen ... zur Verfuegung' on vmz-niedersachsen.de once finished; newer north-side facility 'bisher nicht ausgelastet'. All details match, but 'closed' is too strong and the article does not confirm completion; the timestamp is after the dates it describes yet the wording is prospective. Summary line 'in November 2023 fitted' is therefore not confirmed.",
+   "corrected_text": "A Wunstorfer Stadtanzeiger article (page dated 29 December 2023, but worded as an announcement) said Region Hannover would digitise its park-and-ride sites and that the commuter car parks on the north and south sides of Wunstorf station would be only partly usable from 13 to 17 November while floor and overhead sensors were installed to count occupancy; no number plates or images are recorded. Ten Region park-and-ride sites already had the technology and four more, including Wunstorf north and south, were to follow by the end of 2023, with the data to appear on vmz-niedersachsen.de. The newer north-side facility was described as not yet fully used. The article does not confirm that the work was completed.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "PDF 'Zehn-Punkte-Programm Verkehrswende: Ausbau des Nahverkehrs', 'Stand: 17.1.2020' (PDF created 21 Jan 2020), 2 pages read in full. Point 9: because capacity is exhausted and land partly unavailable, 'sollen in den kommenden Jahren mehrstoeckige Anlagen in Wettbergen, Wunstorf, Langenhagen Mitte, Altwarmbuechen und Anderten entstehen'. Intro: implementation 'steht unter dem Vorbehalt der politischen Beschlussfassung sowie der Foerderung'. Worded correctly as a plan. The absence of a built multi-storey car park is a statement of non-finding, not something the page shows. Same document (point 8) names Wunstorf as site of the first fully automatic bike towers.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Leaflet 'Oeffentliche Parkplaetze in Wunstorf' (PDF created 12 April 2023, 1 page read in full). I recomputed: 1 EUR/h unlimited, Mo-Fr 09-16: 46+26+10+29+162+27+27 = 327; 1 EUR/h max 1 hour: 6+10+30+3+35+4+9 = 97; free: 26+171+115 = 312; disc: 7+8 = 15. 'Gebuehrenfrei parken: Montag-Freitag ab 16.00 Uhr + Samstag' confirmed. Dated as April 2023 and flagged as old in the text; 'three years old' is a little short (about three and a half years), but acceptable.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Leaflet: 'Privat gegen Entgelt': Parkdeck C&A / Speckenstrasse 50, Parkhaus Stadtsparkasse / Am Stadtgraben 50. 'Handyparken ist an allen gebuehrenpflichtigen Automaten moeglich. Echtzeitparken auf Nordwall und Am Alten Markt nur ueber Handyparken. Kartenzahlung nicht moeglich.' All as stated; dated April 2023.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Leaflet: 'In Wunstorf sind die Parkplaetze fuer Hybrid- und E-Fahrzeuge kostenpflichtig (ausser E-Parkplaetze am Nordwall).' The text is a bit ambiguous but 'exempt' is the natural reading. Dated April 2023. The 'no charging-point count found' is a non-finding.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Stadtanzeiger 11.02.2026 11:11: Finance committee session 'am Dienstag' (= 10 Feb 2026; date inferred from the article date, not printed). Raise to 1 EUR per half hour on separate fee-charging strips and 2 EUR per hour on car parks; SPD amendment (Ehlerding) keeps old fees on five roadside streets (Neuer Winkel, Graf-Wilhelm-Strasse, An der Friedenseiche, Achternuemme, Vor dem Tore); Ortsrat Steinhude rejected the administration's proposal 'mit grosser Mehrheit'; day tourists to contribute more; amendment and the other items passed unanimously. Note the article says the committee 'angepasst/beschlossen' - the council decision follows in item 12.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Stadtanzeiger 04.03.2026: 'Der Rat ... hat sich in seiner Sitzung am 25. Februar dem Beschluss des Finanzausschusses ... bei einem Nein angeschlossen.' Tariffs as listed: 2 EUR/h car parks, 1 EUR per half hour strips, Bruchdamm incl. strips 10 EUR for more than four hours until end of day, barrier area 18 EUR (2 days), 26 EUR (3 days), 50 EUR (up to a week), lost ticket 60 EUR, Meerstrasse 3 EUR first hour and 2 EUR each further hour, 0.50 EUR per half hour on the five roadside streets. No effective date in the article: the draft says so. Single secondary (local weekly) source; the wording is present tense but no start date is given.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "unreachable",
+   "note": "Could not open steinhuder-meer.com: curl failed ('Network is unreachable' / connection refused to 185.48.220.77:443) and WebFetch got ECONNREFUSED; no browser tab could be opened (Claude_Browser pane gone, Chrome extension not connected). Nothing was read, so the 1,000 spaces, 10 EUR day price, free coach spaces and charging point are unconfirmed here. The 10 EUR Bruchdamm tariff for more than four hours is independently reported in item 12.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": "A tourism page for Parkplatz Bruchdamm on the Steinhuder Meer is reported to advertise about 1,000 parking spaces by the lake, a day price of 10 euros, free coach spaces and an electric car charging point (not verified: the page could not be opened). The Stadtanzeiger of 4 March 2026 separately reports a 10-euro fee for more than four hours at Bruchdamm.",
+   "unconfirmed_reason": "Source host unreachable from this environment (connection refused / network unreachable); page text could not be read."
+  },
+  {
+   "index": 14,
+   "verdict": "unsupported",
+   "note": "Page read: Strandterrassen car park, Meerstrasse 2, operator Stadt Wunstorf; '100 kostenpflichtige PKW Stellplaetze', 'Hoechstparkdauer ... drei Stunden und kostet 2,00 EUR pro angefangene Stunde', 'Barzahlung vor Ort'. But the page carries the notice 'Dieser Inhalt wurde teilweise oder vollstaendig durch KI optimiert oder erstellt' (AI-optimised or AI-created), so it is not reliable for tariff facts. It is also not undated: 'Zuletzt geaendert am 23.09.2026', i.e. after the February 2026 council decision, yet it still shows 2 EUR/h and a 3-hour limit while the council tariff for the Meerstrasse car park is 3 EUR first hour (item 12) - the two conflict if it is the same lot. Drop; use the council tariff in item 12 instead.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Stadtanzeiger 22.09.2026: CDU motion of 1 June (year not printed) asked for a city-wide free permit for outpatient care services, GPs on house calls and pharmacy vehicles. Administration's information paper: blanket solutions excluded; care services - exceptions possible already (offered since the 1990s) but generally chargeable and none currently issued; GPs - no legal basis for a permit under the VwV-StVO; pharmacies - no occasion for a general rule (no applications or complaints), individual applications may be considered, no legal entitlement. The draft's 'no basis for general free permits for doctors or pharmacies' blurs this (pharmacies: no need, not 'no legal basis') and omits that care-service exceptions are fee-based. The article's lead photo is labelled AI-generated; the text is by a named freelance journalist.",
+   "corrected_text": "On 22 September 2026 the Stadtanzeiger reported that the city administration had assessed a CDU council group request (dated 1 June) for a city-wide free parking permit for outpatient care services, GPs on house calls and pharmacy vehicles. It concluded that blanket solutions are ruled out. Exceptions for care services can already be granted case by case (offered since the 1990s, but generally chargeable, and none currently issued). For GPs it sees no legal basis for such a permit; for pharmacies it sees no need for a general rule, as there have been no applications or complaints, though individual applications can still be considered.",
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Wunstorf (about 41,000 residents) has the most attractive rail hub in Region Hannover after Hannover Hauptbahnhof (12,500 boardings and alightings per a state project profile), and Deutsche Bahn lists five open, always-accessible station car parks (ZOB Nord and Süd) with 698 spaces in total and no stated tariff. Region Hannover builds and modernises park-and-ride and bike-and-ride facilities and hands them to the municipality; with little land left near the station it built two automated bike towers (244 spaces), which the project profile says are intended to be free mainly for GVH season-ticket holders, with a 20 percent quota for spontaneous users. A November 2023 article announced occupancy sensors at the north and south park-and-ride areas for the regional guidance data, though it does not confirm completion. A 2020 Region programme named Wunstorf for a planned multi-storey park-and-ride, but no source found shows it built. In the centre, the city's April 2023 leaflet (now old) shows a mostly free or 1-euro-per-hour regime, charged Monday to Friday 09:00-16:00 only, plus 312 free spaces and two private garages. At Steinhude on the Steinhuder Meer, the council reportedly decided on 25 February 2026 higher fees aimed at day visitors (2 euros per hour on car parks, 10 euros for over four hours at Bruchdamm), with no effective date reported. In September 2026 the city administration reported that blanket free parking permits for care services, GPs and pharmacies are legally not possible, though case-by-case exceptions for care services exist."
+}

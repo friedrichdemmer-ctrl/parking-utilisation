@@ -1,0 +1,162 @@
+{
+ "country": "Netherlands",
+ "city": "Nijmegen",
+ "researched": "2026-10-21",
+ "summary": "Nijmegen's municipal garages (including Eiermarkt, Mariënburg, Keizer Karel and Plein 1944) are run by the city, which on its website lists EUR 3.90 per hour by day, EUR 0.50 per hour from 18:00 to 08:00 and a EUR 16 daily maximum in three of them, up from EUR 2.80 per hour and EUR 11 in 2019. Policy follows the 'Koers voor de Binnenstad' (council, March 2024) to move street parking in the walled pedestrian zone B into garages: businesses lost their street permits on 1 January 2026, while residents may keep theirs until 31 December 2032 and get 50 percent (2026) or 25 percent (2027) off garage subscriptions, after the original 15 September 2025 date was softened in December 2024 and June 2025. About 250 resident cars are expected to shift into the garages, which the city itself flags as a risk of queues at Eiermarkt and Mariënburg and less room for visitors, and Plein 1944 subscriptions were oversubscribed and allocated by lottery in January 2026. The city publishes real-time garage occupancy as open data from a Technolution feed and has three P+R sites (Noord, West, Eerste Oude Heselaan). Three zero-emission zones for business vans and lorries (centre, Hof van Holland, Heijendaal) apply from 2025.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2026-06",
+   "text": "Street parking inside the singels (city centre) is paid Monday to Saturday 09:00-23:00, and on shopping Sundays and holidays 12:00-18:00; the first ring is paid Monday to Saturday 09:00-21:00; wider zones are paid 09:00-18:00 plus Thursday 18:00-21:00 (some districts Monday to Friday 09:00-16:00). The college decision of 19 May 2026 took effect on 1 June 2026, and the version read here has applied since 30 September 2026.",
+   "source_title": "Besluit tot aanwijzing en uitwerking betaald parkeren 2026A (current version)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR762072",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06",
+   "text": "Resident permits are capped at 90 percent of the on-street spaces in a permit zone, with one resident permit per address in the centre zone and up to three elsewhere. No resident permits are issued in the pedestrian zone behind the road barriers (zone B), where dwellings in new-build or conversion schemes with their own parking get no permits.",
+   "source_title": "Besluit tot aanwijzing en uitwerking betaald parkeren 2026A, article 4",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR762072",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-09",
+   "text": "In September 2024 the city planned to end all street parking in the closed pedestrian zone B from 15 September 2025, moving residents and businesses to the garages Eiermarkt, Mariënburg, Plein 1944 and Keizer Karel, with subscriptions discounted 50 percent in 2025-2026, 25 percent in 2027 and none from 2028. This plan was later revised (see the December 2024 and June 2025 items).",
+   "source_title": "Uitvoeringsplan Verblijfsvriendelijke Binnenstad fase 1 and letter to the council, 3 September 2024",
+   "source_url": "https://nijmegen.bestuurlijkeinformatie.nl/Document/View/f5a36082-aa21-42f5-a179-c46441da3a4f",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-06",
+   "text": "After the college decided on 17 December 2024 to revise the zone B plan, the June 2025 implementation plan withdraws the 39 business permits for zone B on 1 January 2026 and keeps resident permits until zone B is abolished on 1 January 2033. A council motion of 19 February 2025 extended the resident transition to 31 December 2032, with yearly counts of permits converted to garage subscriptions.",
+   "source_title": "Herzien Uitvoeringsplan Verblijfsvriendelijke Binnenstad, deelproject Parkeervrij, June 2025",
+   "source_url": "https://www.nijmegen.nl/fileadmin/bestanden/diensten/parkeren/HERZIEN_-_Uitvoeringsplan_Verblijfsvriendelijke_Binnenstad_-_deelproject_Autoluw.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: since 1 January 2026 businesses in zone B park in the garages Mariënburg, Eiermarkt, Plein '44 and Keizer Karel, and residents may keep existing street permits until 31 December 2032. Residents who swap to a garage subscription get 50 percent off in 2026 or 25 percent off in 2027, valid until 1 January 2036, with an extra 50 percent for incomes up to 130 percent of the social minimum.",
+   "source_title": "Verblijfsvriendelijke binnenstad (nijmegen.nl)",
+   "source_url": "https://www.nijmegen.nl/verkeer-en-vervoer/verblijfsvriendelijke-binnenstad/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-12",
+   "text": "In December 2025 more businesses applied for Plein 1944 garage subscriptions than there were subscriptions available, so a blind lottery was held in early January 2026; the city said the other garages always have enough room. Businesses with a former permit parked free in January 2026.",
+   "source_title": "Letter to businesses: Aanvragen abonnement parkeergarage, 22 December 2025",
+   "source_url": "https://www.nijmegen.nl/fileadmin/bestanden/Plannen_binnenstad/Ondernemersbrief_22_december_2025.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-06",
+   "text": "The June 2025 plan expects about 250 residents to move their cars into the garages over the coming years and asks to study turning the Eiermarkt garage into a subscribers-only garage, which would require changing the route guidance (PRIS). It also notes that Kelfkensbos reconstruction, planned from September 2025, could leave Eiermarkt and Mariënburg reachable only via Hertogstraat.",
+   "source_title": "Herzien Uitvoeringsplan Verblijfsvriendelijke Binnenstad, June 2025",
+   "source_url": "https://www.nijmegen.nl/fileadmin/bestanden/diensten/parkeren/HERZIEN_-_Uitvoeringsplan_Verblijfsvriendelijke_Binnenstad_-_deelproject_Autoluw.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: all six municipal garages in and around the centre charge EUR 3.90 per hour from 08:00 to 18:00 and EUR 0.50 per hour from 18:00 to 08:00. The 24-hour maximum of EUR 16 applies only in Eiermarkt, Mariënburg and Keizer Karel.",
+   "source_title": "Parkeergarages (nijmegen.nl)",
+   "source_url": "https://www.nijmegen.nl/parkeren/parkeergarages/",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024",
+   "text": "The 2024 tariff decision set garage rates of EUR 3.60 per hour by day and EUR 0.50 per hour in the evening, with a EUR 15 daily maximum at Eiermarkt, Nieuwstraat, Mariënburg and Keizer Karel. Resident subscriptions cost EUR 35 per month and business subscriptions EUR 69.50 or EUR 106.90, and a Plein 1944 day ticket was EUR 15.",
+   "source_title": "Tarieven parkeergarages en afgesloten parkeerterreinen 2024",
+   "source_url": "https://nijmegen.bestuurlijkeinformatie.nl/Document/View/889d8a89-45cc-4bcb-bbc5-933936986b7f",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2019",
+   "text": "The 2019 tariff decision set garage rates of EUR 2.80 per hour by day and EUR 0.50 per hour in the evening, with a EUR 11 daily maximum, and resident subscriptions at EUR 35 per month. Together with the 2024 and 2026 figures, the daytime hourly rate has risen from EUR 2.80 to EUR 3.90 and the daily maximum from EUR 11 to EUR 16 while resident subscriptions stayed at EUR 35 through 2024.",
+   "source_title": "Tarieven parkeergarages en afgesloten parkeerterreinen 2019 A",
+   "source_url": "https://nijmegen.bestuurlijkeinformatie.nl/Document/View/b9900bbf-7c99-4722-a873-4d1da64071e8",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-03",
+   "text": "From 1 April 2026 Radboud University and Radboudumc raised campus parking to EUR 2.90 per hour with a EUR 14.50 daily maximum (previously EUR 2.80 and EUR 14). The university says this follows the rates the municipality applies and is the same in the surrounding residential streets.",
+   "source_title": "Parkeertarieven campus omhoog per 1 april (Radboud Universiteit, 11 March 2026)",
+   "source_url": "https://www.ru.nl/over-ons/nieuws/parkeertarieven-campus-omhoog-per-1-april",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2020-06",
+   "text": "The Parkeernota 2020-2030 says the centre's garages and lots are full only at peak moments and events, while P+R Noord and West usually have spare capacity. It prefers using existing weekend-empty car parks as transfer points over building new P+R sites, and sets the centre garages as the high-priced 'park and walk' option.",
+   "source_title": "Parkeren in Nijmegen auto en fiets 2020-2030 (parkeernota)",
+   "source_url": "https://nijmegen.bestuurlijkeinformatie.nl/Document/View/e4d7c8dd-a56a-4bb9-b5eb-fdca36c1b88e",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-11",
+   "text": "The parking policy rules for developers, adopted by the college on 19 November 2024, set a norm of 0.70 spaces per dwelling in the inner city (0.50 for residents), waive the visitor share there, and state that inner-city parking pressure is almost always above 85 percent. Buying out a space costs EUR 30,000 in the inner city and centre.",
+   "source_title": "Beleidsregels parkeren 2024-A",
+   "source_url": "https://nijmegen.bestuurlijkeinformatie.nl/Document/View/55f05336-8b9b-415d-8b05-1ce47b9bd1c7",
+   "confidence": "medium"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: EV drivers charging at street spaces pay parking costs on top of their charging subscription. The 2024 policy rules for developers (adopted 19 November 2024) set no mandatory EV share in the parking norm, but developers may reserve spaces for charging, which count towards the required number.",
+   "source_title": "Beleidsregels parkeren 2024-A; Parkeren op straat (nijmegen.nl)",
+   "source_url": "https://nijmegen.bestuurlijkeinformatie.nl/Document/View/55f05336-8b9b-415d-8b05-1ce47b9bd1c7",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: the municipality has three P+R sites (P+R Nijmegen Noord, Eerste Oude Heselaan and West), all open 24 hours. The page gives a separate Qpark number for malfunctions at Eerste Oude Heselaan. The 2024 tariff decision priced P+R Noord at EUR 3.50 per day, EUR 11 per week and EUR 42 per month.",
+   "source_title": "Park en Ride (nijmegen.nl); Tarieven 2024",
+   "source_url": "https://www.nijmegen.nl/parkeren/p-r/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: the municipality lists 10 surface car parks in the centre, open 24 hours except Molenpoort, with free parking on New Year's Day, Easter Sunday, Whit Sunday and Christmas Day (not at Triavium and Vereeniging). The garages themselves are run by the municipality, whose terms name its parking bureau as the counterparty.",
+   "source_title": "Parkeerterreinen (nijmegen.nl); Algemene voorwaarden gebruik parkeergarages Nijmegen (2018)",
+   "source_url": "https://www.nijmegen.nl/parkeren/parkeerterreinen/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: signs on the routes into the centre show how many spaces are free in the garages, and street and lot parking can be paid by mobile app. The open-data portal (dataset online since 5 June 2024, CC-BY 4.0) offers real-time capacity and occupancy via a Technolution JSON feed for Keizer Karel, Kelfkensbos, Mariënburg, Oude Haven, Schouwburg and Eiermarkt.",
+   "source_title": "Parkeergarages (nijmegen.nl); Open Nijmegen dataset Parkeergarages",
+   "source_url": "https://opendata.nijmegen.nl/dataset/parkeergarages/1d00b990-83c3-4709-a788-ee245fe1a371",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: since 2025 Nijmegen has three zero-emission zones (Binnenstad, Hof van Holland and Heijendaal) for business vans and lorries, with transitional rules for newer vehicles until only zero-emission vehicles may enter in 2030. Private cars are not covered.",
+   "source_title": "Invoering zero-emissiezones (nijmegen.nl)",
+   "source_url": "https://www.nijmegen.nl/verkeer-en-vervoer/invoering-zero-emissiezones/",
+   "confidence": "high"
+  }
+ ],
+ "gaps": [
+  "No local press (De Gelderlander, Omroep Gelderland) article on the 2025-2026 zone B changes, garage queues or occupancy was found or opened; only municipal documents were found, and the web-search budget was refused after about nine searches.",
+  "https://www.vlaio.be/nl/vlaio-netwerk/de-vitrine/artikels/parkeerrevolutie-het-centrum-van-nijmegen returned 403 and was not used.",
+  "Garage capacities (spaces per garage) were not found on any page I opened; the municipal garage pages show them only in a map viewer. A figure of 350 and 300 reserved spaces at Eiermarkt and Mariënburg appeared in a search snippet only and is not used.",
+  "The current street-parking hourly tariffs by zone are shown only in an interactive map on nijmegen.nl and the tariff table of the parking tax ordinance was not located; the 2026 garage tariff decision was not located either (the nijmegen.nl page figures are used instead).",
+  "P+R tariffs for 2026 and P+R occupancy were not found (P+R Noord prices are from the 2024 decision).",
+  "Outcome of the June 2023 proposal for a EUR 30 day card in the Benedenstad (reported by NOS) could not be confirmed, so it is not used.",
+  "Status of any diesel low-emission zone for passenger cars (a 2020 consultant study exists), the Waalsprong parking arrangements, and the planned closures of the Molenpoort and Oude Stad lots (intended per the 2024 plan, but both still appear as paid lots in the 2026 decision) were not confirmed.",
+  "The Dexes copy of the garage dataset (dexes.eu) is marked 'Deleted' and was not used; third-party parking sites (ANWB, Parkopedia-type, tyremap) were not used as support."
+ ]
+}

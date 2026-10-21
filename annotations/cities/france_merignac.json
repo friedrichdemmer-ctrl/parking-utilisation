@@ -1,0 +1,201 @@
+{
+ "country": "France",
+ "city": "Mérignac",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Mérignac, next to Bordeaux, has paid street parking in the town centre (Monday to Saturday, free in August) with a first hour free once a day, and blue-disc zones in Arlac, Chemin Long and Capeyron. The city's page sets the post-parking charge (FPS) at EUR 30, or EUR 25 if paid within 24 hours, and a 2021 council paper shows FPS revenue (for 2019) being passed to Bordeaux Métropole, which holds the parking powers; that arrangement is not confirmed for today. The city lists five park-and-rides with about 1,385 places (Arlac and Quatre Chemins at 393 each, against 398 on TBM's own list), and Les Pins is also one of the 11 park-and-rides open to unclassified vehicles under the Bordeaux Métropole low-emission zone. The METPARK underground car park at Mérignac Centre (276 places) is a subscriber park-and-ride; the city and METPARK both show August 2026 rates with a EUR 50 monthly resident subscription. A convention text on the city site, titled as a draft and unsigned in the copy read, provides for a free first hour and free Saturday mornings from 1 May 2026, and the city's own pages describe both. TBM sells a EUR 300 a year park-near-home offer at Les Pins. A mayoral order of 17 April 2026 created a free 5-minute carpool drop-off bay at 39 avenue Gustave Eiffel. Bordeaux Airport runs its own P0, P1, P2 and P4 car parks with advertised online prices from EUR 7 to EUR 12, and Klépierre reports 3,541 car parking places at Mérignac Soleil (operator figure).",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Street parking in Mérignac town centre is paid Monday to Saturday, 9am-12pm and 2pm-7pm, from 1 September to 31 July, and free in August. The city's page also says the first hour is free once a day and can be split into two half-hours. The page was read on 21 October 2026.",
+   "source_title": "Tarifs de stationnement au centre ville (Ville de Mérignac)",
+   "source_url": "https://www.merignac.com/mon-quotidien/se-deplacer/solutions-de-stationnement/tarifs-de-stationnement-au-centre-ville",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The city's centre-ville grid covers 170 surface spaces and the 276-space underground car park: 1h free, 1h30 EUR 1.50, 2h EUR 3, 2h15 EUR 6, 2h30 EUR 11, 2h45 EUR 20, 3h EUR 30. The page keeps text dating from the 2018 reform and does not give a tariff date, so it may be out of step with the METPARK grid below. The page was read on 21 October 2026.",
+   "source_title": "Tarifs de stationnement au centre ville (Ville de Mérignac)",
+   "source_url": "https://www.merignac.com/mon-quotidien/se-deplacer/solutions-de-stationnement/tarifs-de-stationnement-au-centre-ville",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The city's page says the post-parking charge (FPS) for non-payment of street parking in Mérignac is EUR 30, or EUR 25 if paid within 24 hours at the meter or online. Parking is validated at the meter by entering the plate number or in the free EasyPark app. The page was read on 21 October 2026.",
+   "source_title": "Solutions de stationnement (Ville de Mérignac)",
+   "source_url": "https://www.merignac.com/stationnement",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Blue-disc zones (free, 1h30 limit) apply in Arlac, Chemin Long and Capeyron from 9am-12pm and 2pm-6pm every day except Sundays and public holidays. Disabled-badge holders are exempt. The page was read on 21 October 2026.",
+   "source_title": "Zones bleues à Arlac, Chemin Long et Capeyron (Ville de Mérignac)",
+   "source_url": "https://www.merignac.com/mon-quotidien/se-deplacer/solutions-de-stationnement/zones-bleues-arlac-chemin-long-et-capeyron",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2021-04-12",
+   "text": "Mérignac's council approved a yearly agreement under which the city passes its FPS revenue to Bordeaux Métropole, minus implementation costs, because the Métropole holds the mobility, parking and roads powers. This 2021 paper covered the 2019 revenue, which the Métropole put towards public-transport costs. The 2021 date is the council meeting, so the arrangement may have changed since.",
+   "source_title": "Délibération 2021-041, Forfait de post-stationnement: convention de reversement 2019 avec Bordeaux Métropole",
+   "source_url": "https://merignac.com/sites/default/files/2021-10/041_FPS_reverst_2019.pdf",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-04",
+   "text": "A Mérignac mayoral order of 17 April 2026 (effective 20 April) created a free 5-minute drop-off bay for carpooling at 39 avenue Gustave Eiffel. It is tied to the A10/A62 express carpool line run by Nouvelle Aquitaine Mobilité, with Bordeaux Métropole doing the signage.",
+   "source_title": "Arrêté 26MEREPPP00084, Réglementation du stationnement (Ville de Mérignac)",
+   "source_url": "https://www.merignac.com/sites/default/files/2026-04/26mereppp00084.pdf",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01-13",
+   "text": "Bordeaux Métropole's low-emission zone (ZFE) covers everything inside the ring road (rocade) 24/7 and, in the page's January 2026 version, bars only vehicles that cannot get a Crit'Air sticker. Unclassified vehicles can still reach 11 listed park-and-rides, which include Les Pins in Mérignac, by dedicated access roads.",
+   "source_title": "ZFE (Zone à Faibles Émissions): ce qu'il faut savoir (Bordeaux Métropole)",
+   "source_url": "https://www.bordeaux-metropole.fr/zfe",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Mérignac has five park-and-rides on its own count: Arlac (393 places), Quatre Chemins (393), Les Pins (220), Caroline Aigle (103) and Mérignac Centre (276, subscribers only). The city lists 6 EV spaces at Arlac and Caroline Aigle, 4 at Quatre Chemins and Les Pins, and 47 at Mérignac Centre. The page was read on 21 October 2026.",
+   "source_title": "Parcs-relais (Ville de Mérignac)",
+   "source_url": "https://www.merignac.com/mon-quotidien/se-deplacer/solutions-de-stationnement/parcs-relais",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "TBM's own park-and-ride list gives Arlac 398 places and Quatre Chemins 398, against 393 on the city's page, and Les Pins 220. Open-to-all sites run when trams do (5am-1am, to 2am Thursday to Saturday), and Mérignac Centre is for TBM season-ticket holders on weekdays only. The page was read on 21 October 2026.",
+   "source_title": "Opening times, maps and list of Parcs-Relais (TBM)",
+   "source_url": "https://www.infotbm.com/en/opening-times-maps-and-list-parcs-relais.html",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "TBM says same-day park-and-ride parking is included in a TBM subscription, and other users buy a park-and-ride ticket at EUR 4.50 (EUR 3.50 at the 'reduced rate', as the page words it) that gives 7 round trips in a day for 1 to 7 people. The TBM app does not open the Quatre Chemins or Mérignac Centre gates, and Les Pins is on TBM's reduced-price park-and-ride list. The page was read on 21 October 2026.",
+   "source_title": "Park for the day (TBM)",
+   "source_url": "https://www.infotbm.com/en/park-day.html",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Les Pins (Mérignac) is one of six park-and-rides in TBM's park-near-home offer: residents living within 500 m can park 24/7 for EUR 300 a year in one payment, or EUR 25 a month for 12 months by direct debit. Spaces are limited, and the offer does not give unlimited parking: the car must be moved regularly and be in working order. The page was read on 21 October 2026.",
+   "source_title": "Park overnight (near home) and Park for 2-5 days (TBM)",
+   "source_url": "https://www.infotbm.com/en/park-overnight-near-home.html",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "METPARK (La Régie METPARK) runs the 276-space underground Mérignac Centre car park, open 24/7 with a 1.80 m height limit. It doubles as a TBM park-and-ride for subscribers: TBM subscription holders get access included, and holders of a TBM relay card park free once they have validated a transport ticket that day. Resident, non-resident and motorbike subscriptions are sold. The page was read on 21 October 2026.",
+   "source_title": "Parking Mérignac Centre (METPARK)",
+   "source_url": "https://www.mtpk.fr/parking/parking-merignac-centre/",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-08",
+   "text": "Mérignac Centre hourly rates, as the city shows them for August 2026: under 1h free, 1h EUR 2.40, then EUR 0.60 per 15 minutes, EUR 9 for 4-24h, and free on Saturdays 8am-1pm. Subscriptions are EUR 70 a month, EUR 35 a week and EUR 50 a month for residents.",
+   "source_title": "Parking souterrain Mérignac Centre (Ville de Mérignac)",
+   "source_url": "https://www.merignac.com/mon-quotidien/se-deplacer/solutions-de-stationnement/parking-souterrain-merignac-centre",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-04",
+   "text": "A convention text published on the city site (the PDF is titled 'projet', and the copy read has no date or signatures) provides for a three-year agreement from 1 May 2026, tacitly renewable for one further three-year period (six years at most). It gives all Mérignac Centre customers 1 hour of free hourly parking, Monday to Sunday 24h/24, plus free hourly parking on Saturday 8am-1pm (market morning). The city compensates METPARK: each year METPARK invoices the city for the previous year's lost revenue, calculated on actual use at the tariff then in force. The text presents it as the renewal of the 12 April 2021 convention, which it says expires on 30 April 2026. The city's own parking pages, read on 21 October 2026, also describe a free first hour and free Saturday mornings.",
+   "source_title": "Projet de convention METPARK / Ville de Mérignac, Parking Mérignac Centre (text published by the city)",
+   "source_url": "https://www.merignac.com/sites/default/files/2026-04/convention-metpark.pdf",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "METPARK says its car parks use TotalEnergies charge points, started by scanning a QR code, by bank card at the terminal (only where the charge point has one) or with a charging badge. Parking Mérignac Centre is on its map of EV-equipped car parks. The page was read on 21 October 2026.",
+   "source_title": "Recharge électrique (METPARK)",
+   "source_url": "https://www.mtpk.fr/service/recharge-electrique/",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Bordeaux Airport in Mérignac runs its own official car parks: P0 Confort (the covered one closest to the terminals), P1 Proxi (2 minutes' walk from the three terminals), P2 Flexi (weekends and short stays) and P4 Longue durée (free shuttle from the first to the last flight). The page shows online-booking 'from' prices of EUR 12, 11, 9 and 7 for P0, P1, P2 and P4 respectively, a free 10-minute P Express, a motorbike car park free for 15 minutes and a free 5-minute drop-off. The page does not give space counts. The page was read on 21 October 2026.",
+   "source_title": "Parkings (Bordeaux Aéroport)",
+   "source_url": "https://www.bordeaux.aeroport.fr/parkings",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The airport tells passengers that tram line F is the direct link to central Bordeaux: about 35 minutes to Hôtel de Ville and 45 minutes to Saint-Jean station, with trams every 10 minutes on weekdays and Saturdays and every 15 minutes on Sundays. The page was read on 21 October 2026.",
+   "source_title": "Accès et transports (Bordeaux Aéroport)",
+   "source_url": "https://www.bordeaux.aeroport.fr/acces-transports",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "Klépierre, which holds 83% of the Mérignac Soleil shopping centre, reports on its own centre page 3,541 car parking places and 5 million visitors a year. The page was read on 21 October 2026.",
+   "source_title": "Mérignac Soleil (Klépierre)",
+   "source_url": "https://www.klepierre.com/fr/centres-commerciaux/merignac-soleil",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "No on-street resident-permit scheme for Mérignac found on merignac.com or Bordeaux Métropole pages; only the METPARK resident subscription and TBM near-home park-and-ride offer.",
+  "No occupancy or usage statistics for the Mérignac park-and-rides found; Bordeaux Métropole's 2025 mobility barometer (read) covers city-centre car parks only.",
+  "No Sud Ouest, actu.fr or France Bleu/ICI Gironde article on Mérignac parking was found or opened; web search returned mostly official and listing pages and the search budget ran out.",
+  "Mérignac Soleil: no official page on parking rules, free duration or EV charging could be read (merignac-soleil.com looks stale; the Klépierre site has no readable parking page).",
+  "Bordeaux Airport on-site gate tariffs (non-online) were not read; only online 'from' prices on the airport site.",
+  "No dated source read for the opening of tram line F to the airport or Mérignac Soleil, or for any new or closed Mérignac car park; no EV charging network data for Mérignac streets.",
+  "The Caradisiac article on a 2030 ZFE postponement is undated and was not used; the Bordeaux Métropole ZFE page (updated 13 January 2026) was used instead.",
+  "https://www.metpark.fr did not connect (mtpk.fr worked); my own browser tab could not be created so all pages were fetched with curl.",
+  "City surface-parking grid (merignac.com) is undated and differs in style from the METPARK grid; current on-street tariffs after 2018 not confirmed in a dated document."
+ ],
+ "dropped": {}
+}

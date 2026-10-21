@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Town page 'Les stationnements et forfaits post-stationnement' (undated, live): paid every day all year; red zone (Parking Savon) 7h-19h, limited to 3h/day, '2h gratuites pour les badges ville'; orange zone (street) 9h-19h; FPS '25 euros/3h/jour' red, '35 euros/jour' orange; annual 25 euros badge for Cassidens with an address in the commune. All numbers match. Two wording problems: the page says '2h free for badges ville' (city badges), not explicitly 'residents' badges'; and it does not say car parks (Interparking) are paid under this regime, it lists only the red and orange zones.",
+   "corrected_text": "The town says parking in Cassis is paid every day of the year, and that agents issue a post-parking charge (FPS) if payment is missed. The red zone (Parking Savon) is paid 7am-7pm, limited to 3 hours a day, with 2 hours free for 'badges ville' (city badges); the orange street zone is paid 9am-7pm. The FPS is 25 EUR for the red zone and 35 EUR a day for the orange zone. Residents who can show an address in the commune can buy an annual street-parking badge for 25 EUR. (page read on 21 October 2026).",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "Checked all five Interparking pages (Mimosas, Viguerie, Madie, Bestouan, Daudet): capacities 404, 293, 150, 117, 89 are right; each shows 00:00-24:00 every day, 'Sortie 24/7' and max height 1.9 m. The claim that 'the town and tourist-office pages' give Viguerie 299 and Madie 167 is half wrong: only the tourist-office parking page gives 299 and 167 (it also gives Mimosas 404, Daudet 89, Bestouan 117). Neither town page read (parking rules page, Gorguettes shuttle page) gives any capacity. The cited URL is the Mimosas page only; the other four capacities come from their own Interparking pages.",
+   "corrected_text": "Interparking's website lists five car parks in Cassis that it runs: Viguerie (293 spaces), Mimosas (404), Madie (150), Bestouan (117) and Daudet (89), all open 24 hours a day, every day, with a 1.9 m height limit. The tourist office's parking page gives slightly different capacities for two of them (Viguerie 299, Madie 167). (page read on 21 October 2026).",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Viguerie page and Mimosas page (live, Interparking): both show first 15/30/45/60 minutes free in both seasons. High season (1 Apr-30 Sep): 2h 4.20, 3h 6.60, 1 day 27.50 (Pcard+ 2.94, 4.62, 19.25). Low season (1 Oct-31 Mar): 2h 3.00, 3h 5.40, 1 day 26.40. Pcard+ 2.94 vs 4.20 is exactly 30% less. All match. Operator's own page, live; item says page read 21 Oct 2026. Note it is a current price list read on that date, not a dated tariff decision.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Madie and Bestouan pages: both identical tariff tables, charging from the first 15 minutes (0.60 EUR high season, 0.50 low). High season: 1h 1.80, 2h 4.20, 1 day 27.50; low season: 1h 1.40, 2h 2.50, 1 day 12.00. All match. The cited URL is Madie only, but the Bestouan page shows the same table. Omitted but present on both pages: a 'Cassidain' (resident) annual subscription at 40 EUR valid at Bestouan, Daudet and Madie, one per household.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Daudet page: high season 15 and 30 minutes free, 45 min 1.40, 1h 1.80, 2h 4.20, 1 day 27.50. Low season: 15 to 120 minutes free, 3h 4.10, 1 day 12.00. All match the item.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Mimosas page: 'Forfaits en ligne' 1 day 27.50, 3 days 41.00, 7 days 81.00, 15 days 225.00, 30 days 495.00 (same list on all five Interparking pages; Daudet and Bestouan also show a '2 jours 41.00'). Car subscriptions: Mimosas 1 month 70, 3 months 198, 1 year 795; Viguerie page 65, 183, 730. All match. The page says passes are requested on arrival at the pay machines and cannot be applied retroactively.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "Tourist-office parking page lists spaces with a charging point: Viguerie 16, Mimosas 20, Madie 8, Daudet 6, Bestouan 4 (sum 54), plus Parking Savon with 'pitches with recharging point' (no number). The count of 54 checks out and matches the Interparking pages (16+20+8+6+4). But the cited tourist-office page says nothing about 7 kW / 2.3 kW or about Interparking France as operator; that detail is on the Bestouan and Daudet Interparking pages (checked there: 'Puissance 7 kW, 2.3 kW', 'Fournisseur Interparking France', Bestouan 4 and Daudet 6 points), not on the cited URL. Also the Viguerie page shows 22 kW and 2.3 kW.",
+   "corrected_text": "The tourist office lists car parks with charging spaces in the town centre: Viguerie 16, Mimosas 20, Madie 8, Daudet 6 and Bestouan 4 (54 in total), plus charging spaces at Parking Savon (no number given). (page read on 21 October 2026).",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Town Gorguettes shuttle page: centre car parks 'souvent sature', follow signs 'Parking relais des Gorguettes', shuttles on site, municipal agent informs users and regulates the shuttles, fare 1.60 EUR return, free parking. All true. But '235 spaces' is not on the town page; it appears on the tourist-office parking page ('235 spaces'). Remove the number from this item or cite the tourist office.",
+   "corrected_text": "The town says parking in the centre of Cassis is often saturated and advises following the signs to the 'Parking relais des Gorguettes', where parking is free and shuttles take people to the centre. A municipal agent is on site to inform users and regulate the shuttles. (page read on 21 October 2026).",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Tourist-office parking page: teaser says 'In high season, Cassis town centre quickly becomes saturated'; tips say 'Avoid rush hour (11am-3pm in summer)', arrive early or late, use Gorguettes. But 'saves up to 30 minutes of searching for a space' is not on the cited page: it is on the separate tourist-office page /en/practical-info/les-gorguettes-park-and-ride-site/ (checked there: 'saves you up to 30 minutes looking for a space in the town centre in high season'). On the cited page the only '30 minutes' is that Gorguettes is 'a 30-minute walk from the centre'. Medium confidence stays: tourist-office promotional wording, an unsupported-by-data claim.",
+   "corrected_text": "The tourist office says that in high season the town centre quickly becomes saturated. Its tips are to avoid the 11am-3pm rush hour in summer, to arrive early in the morning or late in the afternoon, and to use the free Gorguettes park-and-ride. (page read on 21 October 2026).",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Town Gorguettes page: 372 July-August 7/7 9h-midnight (14 July and 15 August until 2am); Easter-end June and September weekends, school holidays, long weekends, bank holidays 9h-20h; but in October to 11 November only weekends and long weekends, 9h-20h (no school holidays or bank holidays); no shuttle on race day. 373 (Bestouan-Presqu'ile-Calanques): July-August 7/7 9h-20h, also mid-season weekends etc. Fare 1.60 EUR A/R on the town page. Tourist office: parking page says '1.70 return' for line 373 and the Gorguettes page says 'Fare: 1.70 return (0.80 per journey if purchased on a rechargeable ticket)'; so the two sources do disagree (confirmed). The item overgeneralised the October rule. The tourist-office Gorguettes page also calls the shuttle 'free' once and 'Pay bus' elsewhere.",
+   "corrected_text": "The town's Gorguettes page says line 372 to the centre (Casino roundabout) runs 9am to midnight every day in July-August (until 2am on 14 July and 15 August). From Easter to the end of June and in September it runs 9am-8pm at weekends, school holidays, long weekends and bank holidays; in October and until 11 November it runs 9am-8pm at weekends and long weekends only, with no service on the day of the Marseille-Cassis race. Seasonal line 373 serves Bestouan, Presqu'ile and the Calanques: 9am-8pm every day in July-August, and on the same days as 372 in spring and September. The town gives the fare as 1.60 EUR return; the tourist office gives 1.70 EUR return (0.80 EUR a single journey on a rechargeable ticket), so the two sources disagree. (page read on 21 October 2026).",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Parc national page 'Au depart de Cassis': 'Le stationnement y etant tres difficile, nous vous conseillons vivement de privilegier les alternatives a la voiture'; 'l'acces en voiture au centre-ville et au parking de la Presqu'ile est fortement deconseille ... notamment en ete'; recommends parking at the free Gorguettes park-and-ride and taking the shuttle to the park entrance (Presqu'ile / Port-Miou). Item matches. Note the park advises against driving to the centre and the Presqu'ile car park, not in so many words to Port-Miou itself.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Tourist-office parking page: Presqu'ile car park '400 berths' ('chargeable in high season', '10 min walk from Port-Miou'). Walk times to Port-Miou: Bestouan 15, Viguerie 30, Daudet 30, Mimosas 35, market car park 35, Parking Savon 35, Madie 40. So 'other town car parks 15-40 minutes' is right. '400 spaces' is the tourist office's own wording ('400 berths'). No price given.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Tourist-office access-regulations page: 'Access to the Calanques National Park is restricted from 1 June to 30 September due to the risk of fire'; daily colour map updated at 6pm for the next day; red = no access on foot and no motorised access. Sormiou, Morgiou and Callelongue roads are closed to motor traffic 'from the Easter holidays, initially at weekends, long weekends and public holidays, then every day from June to September': the item drops this schedule. 'In Marseille' is not on the page. The 750 EUR fine appears under 'A few essential rules all year round' (fires, bivouacs, litter, dogs, drones, off-trail), not as a penalty for the access closures. Page is undated and describes a seasonal rule.",
+   "corrected_text": "The tourist office says access to the Calanques National Park is restricted from 1 June to 30 September because of fire risk. A colour map is updated daily at 6pm for the next day; on a red day there is no access on foot and no motorised access. It says the roads to Sormiou, Morgiou and Callelongue are closed to motor traffic from the Easter holidays, first at weekends, long weekends and public holidays and then every day from June to September. Separately it lists rules that apply all year (no fires, barbecues or cigarettes, no bivouacs, dogs on a lead, no drones) and says offenders face a fine of up to 750 EUR. (page read on 21 October 2026).",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "PDF press pack 'Conference de presse Cassis 7 juillet 2025' (12 pages, all read). Line 372 P+R Gorguettes-centre: every day, one bus every 15 min, extended to midnight in summer (2am for events); 373 seasonal for the Presqu'ile, every day in summer and weekends in spring and autumn, one every 15-30 min; calendar shows 14 July 2025 as the launch of the new shuttles 371-376; '3 minibus electriques sont arrives'; stated aim to reduce car use and congestion. Item correctly worded as 'were due to launch'. The PDF does not name the Metropole as author on its face (it cites the Metropole network and a Metropole 'Direction'); it is hosted by the town. Caution: the PDF says 372 runs 'all year', whereas the town's current page limits 372 to set seasons and days; the item does not repeat that.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Town news item (listed on the news page as 'Du 24/08/2026 au 30/11/2026'; the article text itself gives no year): works on the entrance rotunda of Casino Barriere 24 August-30 November; car-park access via the service entrance on avenue Leriche; market traders (Wed and Fri markets) use the Poste car park Tue 22h-Wed 15h and Thu 22h-Fri 15h; free parking for Cassidens at the Casino car park kept, valid until noon Mon, Tue, Thu, Sat and extended to 14h Wed and Fri. Item wording is acceptable; the year 2026 comes from the news listing, not the article body.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Town race article: Gorguettes parking allowed from Friday 23 October until Sunday 25 October 7:45, then closed 7:45-14:00 with no vehicle able to leave; parking allowed on the Route de Carnoux above Messuguet; parking banned on the Cassis-Roquefort road and Belle-fille road; parking elsewhere outside town-centre car parks banned and towed. Worded as announced and the event is still in the future (today 21 Oct 2026). But 'no 372 shuttle that day' is not on this article; it is on the town's Gorguettes page and the tourist office's Gorguettes page (checked: 'Pas de navettes le jour de la course Marseille-Cassis').",
+   "corrected_text": "For the 47th Marseille-Cassis race on Sunday 25 October 2026 the town has announced that parking at Gorguettes is allowed from Friday 23 October until 7:45 on the Sunday, and that the car park is then closed from 7:45 to 14:00 with no vehicle able to leave. Parking is allowed on the Carnoux road above Messuguet, banned on the Cassis-Roquefort and Belle-fille roads, and banned anywhere else outside the town-centre car parks, where vehicles will be towed.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Parc national notice dated 01/09/2026 (site shows 01/09/2026): works on the Cassis water reservoir disrupt access and traffic in the Port-Miou sector 'jusqu'a juin 2027'; walkers must take a diversion by Port-Pin (about 1h extra); cycle track closed between the Auberge de la Fontasse and Port-Miou; 1500 m3 reservoir built by the Metropole Aix-Marseille Provence. The earlier notice is on the sibling page (dated 03/10/2025, 'jusqu'a juin 2026'), so the 'extends' remark is correct but is not on the cited page itself. It is an end date given by the park, not a confirmed completion date.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Town page 'Navette touristique Port-Miou' (undated, live): line Port-Miou - centre-ville - Port-Miou in the summer period, 1 July to 31 August, 7/7, 20h to midnight, 2 EUR return, booking and registration at the Port-Miou harbour office (capitainerie). Matches. No year is given on the page, and the season had ended by 21 October 2026, so the item should be read as the summer service, not a service running now.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Cassis (Aix-Marseille-Provence Metropole) charges for on-street parking every day of the year: the town's red zone (Parking Savon) is paid 7am-7pm with a 3-hour daily limit, the orange street zone 9am-7pm, with post-parking charges of 25 EUR and 35 EUR a day, and residents can buy a 25 EUR annual street badge. Five town-centre car parks are run by Interparking and are open 24 hours a day with a 1.9 m height limit. Tariffs read on 21 October 2026: Viguerie and Mimosas give the first 60 minutes free, Daudet gives the first 30 minutes free in high season (1 April-30 September) and the first 2 hours free in low season, while Madie and Bestouan charge from the first 15 minutes. Two hours cost 4.20 EUR in high season at all five, and a day costs 27.50 EUR in high season (12.00 EUR in low season at Madie, Bestouan and Daudet; 26.40 EUR at Viguerie and Mimosas). Online passes and subscriptions are also sold. The tourist office lists 54 spaces with charging points across the five car parks. The town says centre parking is often saturated and the tourist office says the centre saturates quickly in high season; both steer visitors to the free Gorguettes park-and-ride (the tourist office lists 235 spaces) with a paid shuttle, 1.60 EUR return on the town's page and 1.70 EUR on the tourist office's. The Calanques National Park strongly discourages driving to the centre or the Presqu'ile car park, especially in summer, and works on a water reservoir disrupt the Port-Miou sector until June 2027 according to the park. A July 2025 press pack announced a reorganised bus network due to start on 14 July 2025. Casino entrance works run from 24 August to 30 November 2026, and parking rules were announced for the Marseille-Cassis race on 25 October 2026. Most pages are live and undated, so dates reflect the 21 October 2026 reading."
+}

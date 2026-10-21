@@ -1,0 +1,171 @@
+{
+ "country": "Germany",
+ "city": "Wunstorf",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Wunstorf (about 41,000 residents) has the most attractive rail hub in Region Hannover after Hannover Hauptbahnhof (12,500 boardings and alightings per a state project profile), and Deutsche Bahn lists five open, always-accessible station car parks (ZOB Nord and Süd) with 698 spaces in total and no stated tariff. Region Hannover builds and modernises park-and-ride and bike-and-ride facilities and hands them to the municipality; with little land left near the station it built two automated bike towers (244 spaces), which the project profile says are intended to be free mainly for GVH season-ticket holders, with a 20 percent quota for spontaneous users. A November 2023 article announced occupancy sensors at the north and south park-and-ride areas for the regional guidance data, though it does not confirm completion. A 2020 Region programme named Wunstorf for a planned multi-storey park-and-ride, but no source found shows it built. In the centre, the city's April 2023 leaflet (now old) shows a mostly free or 1-euro-per-hour regime, charged Monday to Friday 09:00-16:00 only, plus 312 free spaces and two private garages. At Steinhude on the Steinhuder Meer, the council reportedly decided on 25 February 2026 higher fees aimed at day visitors (2 euros per hour on car parks, 10 euros for over four hours at Bruchdamm), with no effective date reported. In September 2026 the city administration reported that blanket free parking permits for care services, GPs and pharmacies are legally not possible, though case-by-case exceptions for care services exist.",
+ "items": [
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "Deutsche Bahn's station page (read on 21 October 2026) lists five open, always-accessible car parks at Wunstorf station, named P+R ZOB Nord and ZOB Süd: Bahnhofstraße 97 (237 spaces), Bahnhofstraße 104 (54), Adolph-Brosang-Straße (130), Adolph-Brosang-Straße 31 (227) and Adolph-Brosang-Straße 30 (50), about 698 in total. The page states no tariff.",
+   "source_title": "Parken - Bahnhof Wunstorf (Deutsche Bahn)",
+   "source_url": "https://www.bahnhof.de/wunstorf/parkplaetze",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "A state climate-planning project profile (undated; read on 21 October 2026) says Region Hannover has modernised or newly built many park-and-ride and bike-and-ride facilities in recent years, which then pass into the ownership of the municipality concerned. It calls Wunstorf station, with 12,500 boardings and alightings, the most attractive rail hub in the Region apart from Hannover Hauptbahnhof, and says people from Wunstorf and many surrounding municipalities travel there deliberately, by bike and especially by car, to use the park-and-ride and bike-and-ride facilities near the station.",
+   "source_title": "Automatisches Fahrradparkhaus Bahnhof Wunstorf (NIKIS Niedersachsen)",
+   "source_url": "https://www.nikis.niedersachsen.de/praxis-beispiele/mobilitaet/automatisches-fahrradparkhaus-bahnhof-wunstorf",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "The same profile says about 1,150 bike spaces already existed at the station, that expanding bike-and-ride was urgently needed and that available land was by then very limited, which is why two automated bike towers on 90 square metres were built for 244 more bikes. It also says the towers' reduction of park-and-ride traffic is part of the Region's CO2 strategy.",
+   "source_title": "Automatisches Fahrradparkhaus Bahnhof Wunstorf (NIKIS Niedersachsen)",
+   "source_url": "https://www.nikis.niedersachsen.de/praxis-beispiele/mobilitaet/automatisches-fahrradparkhaus-bahnhof-wunstorf",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "According to the same profile, the bike towers are free for GVH season-ticket holders as annual or permanent spaces, booked and opened through the Region's 'umsteigen:aufsteigen' app, with a limited 20 percent quota for spontaneous users (page read on 21 October 2026; text uses 'soll', so this describes the intended model).",
+   "source_title": "Automatisches Fahrradparkhaus Bahnhof Wunstorf (NIKIS Niedersachsen)",
+   "source_url": "https://www.nikis.niedersachsen.de/praxis-beispiele/mobilitaet/automatisches-fahrradparkhaus-bahnhof-wunstorf",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2024-08",
+   "text": "A Stadt Wunstorf presentation by the city's head of construction (PDF created August 2024) describes the two bike towers as a Region Hannover measure with the city as operator: two towers with 122 bikes each, 24 months of construction, 1.9 million euros cost, 500,000 euros federal and 150,000 euros state funding. A separate slide on new bike-and-ride racks (double-deck parkers, applied for via DB's Bike+Ride-Offensive, realised in 2023/2024) says 1,000 stands are now available; it does not name the location, and the NIKIS profile gives about 1,150 existing bike spaces at the station.",
+   "source_title": "Fahrradmobilität in Wunstorf (Stadt Wunstorf, Alexander Wollny)",
+   "source_url": "https://mobil.niedersachsen.de/download/215260/RV_Hannover_Fahrradmobilität_in_Wunstorf_Alexander_Wollny_.pdf",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-06",
+   "text": "According to a city presentation (August 2024), the city's Radverkehrskonzept was adopted on 19 June 2024. Its central element is a 12.5 km 'Leuchtturmtrasse' to be developed as a cycle priority route, 9.0 km from Steinhude and 3.0 km from Luthe to the station, with direct links to the city centre; about 80 percent of residents are within a 1 km catchment of the route. The stated goals are to raise everyday cycling and make intermodal journeys more attractive, with the station as a central building block, and the slides note very high potential to shift trips from car to bike.",
+   "source_title": "Fahrradmobilität in Wunstorf (Stadt Wunstorf, Alexander Wollny)",
+   "source_url": "https://mobil.niedersachsen.de/download/215260/RV_Hannover_Fahrradmobilität_in_Wunstorf_Alexander_Wollny_.pdf",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2023-11",
+   "text": "A Wunstorfer Stadtanzeiger article (page dated 29 December 2023, but worded as an announcement) said Region Hannover would digitise its park-and-ride sites and that the commuter car parks on the north and south sides of Wunstorf station would be only partly usable from 13 to 17 November while floor and overhead sensors were installed to count occupancy; no number plates or images are recorded. Ten Region park-and-ride sites already had the technology and four more, including Wunstorf north and south, were to follow by the end of 2023, with the data to appear on vmz-niedersachsen.de. The newer north-side facility was described as not yet fully used. The article does not confirm that the work was completed.",
+   "source_title": "Parken eingeschränkt (Wunstorfer Stadtanzeiger)",
+   "source_url": "https://www.wunstorfer-stadtanzeiger.de/parken-eingeschraenkt/cnt-id-ps-ea3227b1-31ac-4844-be9e-69ac9dde202b",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2020-01",
+   "text": "A Region Hannover ten-point transport programme dated 17 January 2020 listed multi-storey park-and-ride facilities at Wettbergen, Wunstorf, Langenhagen Mitte, Altwarmbüchen and Anderten as something that 'should emerge in coming years', subject to political decisions and funding. This was a plan; no source found shows a multi-storey car park built at Wunstorf station.",
+   "source_title": "Zehn-Punkte-Programm Verkehrswende: Ausbau des Nahverkehrs (Stand 17.1.2020)",
+   "source_url": "https://con-nect.de/fileadmin/Redaktion/Region/ARCHIV/2020/01/21/10_Punkte_Verkehrsprogramm/2020-01-21_10-Punkte_Programm_Verkehrswende.pdf",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2023-04",
+   "text": "The city's April 2023 parking leaflet for the centre lists about 327 paid spaces at 1 euro per hour with no time limit (e.g. Nordwall 162, Am Alten Markt 46) and about 97 at 1 euro per hour limited to one hour, charged Mon-Fri 09:00-16:00; parking is free from 16:00 on weekdays and on Saturdays. It also lists 312 free spaces (An der Aue 171, Zentrum West/Schützenplatz 115, Amtsstraße 26) and 15 disc spaces. The leaflet is three years old, so current rules may differ.",
+   "source_title": "Öffentliche Parkplätze in Wunstorf (Stadt Wunstorf, Wirtschaftsförderung, PDF created April 2023)",
+   "source_url": "https://www.wunstorf.de/downloads/datei/0rOw4XXY_8yqqs9nCAAdfDhSZEgvMjlmWjBZK0o1VkVJMzhSQmFRaFRBTXlNVGFpOWFKaUtLaEtiM0l3L3FRdXFoUHJ6UytYMXlVTk1tYktDUWtBazVEd0JwYjEydHJvelVMc2VLTkdsd0xMWmIwemsrdVVVSHFORjMveWJ6c1NkYUNnM0o1Y040bnRyeW56Z2xnUTFQalBiaGlJcnZsMzdDUFpxQT09",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-04",
+   "text": "The same leaflet lists two privately operated paid car parks in the centre, the C&A deck (Speckenstraße) and the Stadtsparkasse garage (Am Stadtgraben), 50 spaces each. It says mobile-phone parking works at all pay machines and that Nordwall and Am Alten Markt use real-time parking via mobile payment only, with no card payment.",
+   "source_title": "Öffentliche Parkplätze in Wunstorf (Stadt Wunstorf, Wirtschaftsförderung, PDF created April 2023)",
+   "source_url": "https://www.wunstorf.de/downloads/datei/0rOw4XXY_8yqqs9nCAAdfDhSZEgvMjlmWjBZK0o1VkVJMzhSQmFRaFRBTXlNVGFpOWFKaUtLaEtiM0l3L3FRdXFoUHJ6UytYMXlVTk1tYktDUWtBazVEd0JwYjEydHJvelVMc2VLTkdsd0xMWmIwemsrdVVVSHFORjMveWJ6c1NkYUNnM0o1Y040bnRyeW56Z2xnUTFQalBiaGlJcnZsMzdDUFpxQT09",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2023-04",
+   "text": "The city leaflet states that parking spaces for hybrid and electric vehicles are charged like other spaces in Wunstorf, except the e-vehicle spaces at Nordwall, which are exempt. No current charging-point count for the town was found.",
+   "source_title": "Öffentliche Parkplätze in Wunstorf (Stadt Wunstorf, Wirtschaftsförderung, PDF created April 2023)",
+   "source_url": "https://www.wunstorf.de/downloads/datei/0rOw4XXY_8yqqs9nCAAdfDhSZEgvMjlmWjBZK0o1VkVJMzhSQmFRaFRBTXlNVGFpOWFKaUtLaEtiM0l3L3FRdXFoUHJ6UytYMXlVTk1tYktDUWtBazVEd0JwYjEydHJvelVMc2VLTkdsd0xMWmIwemsrdVVVSHFORjMveWJ6c1NkYUNnM0o1Y040bnRyeW56Z2xnUTFQalBiaGlJcnZsMzdDUFpxQT09",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-02",
+   "text": "On 10 February 2026 the council's finance committee backed raising Steinhude parking fees to 1 euro per half hour on strip parking and 2 euros per hour on car parks, aimed at charging day tourists more; the Ortsrat Steinhude had rejected the administration's proposal by a large majority. On an SPD amendment, five roadside streets were exempted from the increase; the committee voted unanimously.",
+   "source_title": "Parken in Steinhude: Trotz Koalitionsbruchs Einigkeit im Finanzausschuss (Wunstorfer Stadtanzeiger, 11.02.2026)",
+   "source_url": "https://www.wunstorfer-stadtanzeiger.de/parken-in-steinhude-trotz-koalitionsbruchs-einigkeit-im-finanzausschuss/cnt-id-ps-63f32eb2-35ce-455a-b193-78895c70981a",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-03",
+   "text": "The Stadtanzeiger reported on 4 March 2026 that the council followed the committee on 25 February with one no vote. The reported Steinhude tariffs: 2 euros per hour on car parks, 1 euro per half hour on strip parking, 10 euros for over 4 hours at Bruchdamm, 3 euros for the first hour at Meerstraße, 0.50 euro per half hour on five roadside streets, 18/26/50 euros for 2/3/7 days at the barrier area and 60 euros for a lost ticket. The article does not give an effective date.",
+   "source_title": "Parkgebühren (Wunstorfer Stadtanzeiger, 04.03.2026)",
+   "source_url": "https://www.wunstorfer-stadtanzeiger.de/parkgebuehren/cnt-id-ps-de0c1423-9c79-41dd-875c-1abbc131e165",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "A tourism page for Parkplatz Bruchdamm on the Steinhuder Meer is reported to advertise about 1,000 parking spaces by the lake, a day price of 10 euros, free coach spaces and an electric car charging point (not verified: the page could not be opened). The Stadtanzeiger of 4 March 2026 separately reports a 10-euro fee for more than four hours at Bruchdamm.",
+   "source_title": "Parkplatz Bruchdamm (Steinhuder Meer Tourismus GmbH)",
+   "source_url": "https://www.steinhuder-meer.com/translate-to-englisch-poi/parkplatz-bruchdamm",
+   "confidence": "unconfirmed",
+   "id": 13,
+   "checked": "unconfirmed",
+   "unconfirmed_reason": "Source host unreachable from this environment (connection refused / network unreachable); page text could not be read."
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-09",
+   "text": "On 22 September 2026 the Stadtanzeiger reported that the city administration had assessed a CDU council group request (dated 1 June) for a city-wide free parking permit for outpatient care services, GPs on house calls and pharmacy vehicles. It concluded that blanket solutions are ruled out. Exceptions for care services can already be granted case by case (offered since the 1990s, but generally chargeable, and none currently issued). For GPs it sees no legal basis for such a permit; for pharmacies it sees no need for a general rule, as there have been no applications or complaints, though individual applications can still be considered.",
+   "source_title": "Kostenfreie Parkausweise: Stadt weist auf rechtliche Hürden hin (Wunstorfer Stadtanzeiger, 22.09.2026)",
+   "source_url": "https://www.wunstorfer-stadtanzeiger.de/kostenfreie-parkausweise-stadt-weist-auf-rechtliche-huerden-hin/cnt-id-ps-4877622f-acb5-4903-8ef4-485284ee948f",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "Region Hannover press release on the new access system of the Wunstorf bike towers (29 May 2026) on hannover.de: search snippet only, direct fetch returned HTTP 404, so not used. Same for the hannover.de/Region pages on the P+R programme and VMZ data (no direct fetch possible).",
+  "Stadt Wunstorf navigator pages (navigator.wunstorf.de) for ZOB Nord and the Badeinsel Steinhude lot returned 404; the wunstorf.de 'Parken' page was not found, so the current central-area tariff (post-April 2023) is not confirmed.",
+  "No source found on the Wunstorf station car park tariff, current occupancy or any park-and-ride fee, nor on a planned multi-storey car park after 2020; bahnhof.de gives capacities only. No S-Bahn/GVH page on park-and-ride rules was opened.",
+  "EV charging: no read source gives public charging-point numbers for Wunstorf town or the station; only the 2023 leaflet exemption for Nordwall e-spaces and the Bruchdamm page label.",
+  "Calenberger Zeitung, Leine-Zeitung and HAZ: searches returned no usable Wunstorf parking articles; only Wunstorfer Stadtanzeiger (local weekly) was readable. The Ratsinformationssystem (council papers on the Steinhude fee decision, Parkraumkonzept) was not found.",
+  "Parking-related Steinhude/Steinhuder Meer visitor-traffic statistics and any seasonal guidance system were not found; the 1,000-space figure for Bruchdamm is advertising copy."
+ ],
+ "dropped": {
+  "unsupported": 1
+ }
+}

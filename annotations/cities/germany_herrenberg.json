@@ -1,0 +1,138 @@
+{
+ "country": "Germany",
+ "city": "Herrenberg",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Herrenberg (Landkreis Boeblingen) lists 16 public car parks and garages on its parking page, 14 with stated capacities (for example Nufringer Tor 242 spaces, Stadthalle 211, Altstadtgarage 97, Viehversteigerungshalle 95, Bronntor 90), and the Stadtwerke Herrenberg, a municipal Eigenbetrieb, run the garage and park-and-ride lot on Kalkofenstrasse north of the station (the city and DB pages list a covered P+R Kalkofenstrasse with 398 spaces). A Stuttgarter Zeitung report of 22 December 2025 said the Gemeinderat unanimously approved higher station tariffs from the beginning of 2026 (day ticket from 3 to 4 euros, monthly ticket from 20 to 30 euros), citing a regionally low price level and coming structural refurbishment, while fees in other municipal garages and on the Bahnhofstrasse short-stay lots stayed unchanged; the report gives no exact start date and does not confirm the prices are in force. South of the station a DB BahnPark lot with 122 spaces lists 4.20 euros per day on the DB page, which the same newspaper says is run by Contipark. The Integrated Mobility Development Plan IMEP 2030 was adopted by the council almost unanimously on 14 May 2019, and in October 2025 the city reported that about half of its 48 measures were done or under way. Mobile parking payment began in November 2022, and the city publishes parking and EV-charging data through stadtnavi, an open-data portal and MobiData BW. As of February 2026 the city counted 64 public charging points, against an estimated need of about 400 by 2030, and planned 12 more in 2026. The city's parking-fee and garage bylaws could not be read, so current tariffs for the municipal garages are unconfirmed.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2019-05-14",
+   "text": "The Gemeinderat adopted the Integrated Mobility Development Plan IMEP 2030 almost unanimously on 14 May 2019. It contains 48 measures in five fields, one of which is 'Ruhender Verkehr' (parked traffic), and sets the framework for transport decisions up to 2030.",
+   "source_title": "Integrierter Mobilitätsentwicklungsplan (IMEP 2030) - Stadt Herrenberg",
+   "source_url": "https://www.herrenberg.de/de/Mitmachstadt/Projekte/Projekte-A-Z/Projekt?project_id=37",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-10-15",
+   "text": "The city reported that about 50 percent of the 48 IMEP measures were realised or under way, including a traffic-guidance concept linked to the Seestrasse redesign and a reorganised city bus network. Without the measures the plan forecasts a car share of 58 percent (about 58,000 car trips a day); full implementation could lower it to 50 percent.",
+   "source_title": "Herrenbergs Zielsetzungen für den Verkehr der Zukunft - Stadt Herrenberg",
+   "source_url": "https://www.herrenberg.de/de/Rathaus/Aktuelles-Presse/Stadtnachrichten/Nachricht?view=publish&item=article&id=6727",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-06",
+   "text": "In June 2023 the Gemeinderat adopted a framework concept for the old town and its surroundings (Altstadtschale). It envisages a design competition for public spaces such as Marktplatz, Tuebinger Strasse and Stuttgarter Strasse; the page read on 21 October 2026 gives no parking figures or parking decisions.",
+   "source_title": "Rahmenkonzept zur Stärkung der Innenstadt - Stadt Herrenberg",
+   "source_url": "https://www.herrenberg.de/de/Mitmachstadt/Projekte/Projekte-A-Z/Projekt?project_id=143",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2022-11-18",
+   "text": "From November 2022 parking fees can be paid by phone (app, call or SMS) on many municipal car parks via the Smartparking platform, with six providers including EasyPark, PayByPhone and Parkster. This implemented a council decision from autumn 2019, delayed by the pandemic and the Modellstadt project; ticket machines stay in service and providers add their own surcharges.",
+   "source_title": "Smarter Schutz vorm ungeliebten Knöllchen - Stadt Herrenberg",
+   "source_url": "https://www.herrenberg.de/de/Rathaus/Aktuelles-Presse/Stadtnachrichten/Nachricht?view=publish&item=article&id=4476",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The city's parking page (read on 21 October 2026) lists 16 car parks and garages, 14 of them with a stated capacity, among them Nufringer Tor 242, Stadthalle 211, P+R Kalkofenstrasse 398, Altstadtgarage 97, Viehversteigerungshalle 95, Bronntor 90, Gueltsteiner Strasse 69 and Auf dem Graben 63 spaces. Seelaender and Zinser Parkdeck are listed without a capacity. The page links a parking-fee bylaw (Parkgebuehrensatzung) and a garage bylaw (Parkhaussatzung); their tariffs are not confirmed here.",
+   "source_title": "Parkplätze - Stadt Herrenberg",
+   "source_url": "https://www.herrenberg.de/Parken",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12-22",
+   "text": "A Stuttgarter Zeitung report of 22 December 2025 said that parking in the Stadtwerke Herrenberg garage and on the park-and-ride lot in Kalkofenstrasse, north of the station, would become more expensive from the beginning of 2026: the day ticket from 3 to 4 euros and the monthly ticket from 20 to 30 euros. Permanent tickets sold only together with a VVS rail or S-Bahn ticket were to rise from 180 to 250 euros (year) and from 90 to 125 euros (half year). The report says the Gemeinderat approved the administration's proposal unanimously; it gives no decision date or exact start date and does not confirm the new prices are in force.",
+   "source_title": "Herrenberger Stadtwerke: Park and Ride und Wasser werden teurer - Stuttgarter Zeitung",
+   "source_url": "https://www.stuttgarter-zeitung.de/lokales/boeblingen/herrenberger-stadtwerke-park-and-ride-und-wasser-werden-teurer-78979117.html",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12-22",
+   "text": "According to the same report, fees in the other municipal garages and on the short-stay lots in Bahnhofstrasse stay unchanged, and the Contipark-operated lot south of the station is not affected. The rise was justified by the park-and-ride fees being low in a regional comparison.",
+   "source_title": "Herrenberger Stadtwerke: Park and Ride und Wasser werden teurer - Stuttgarter Zeitung",
+   "source_url": "https://www.stuttgarter-zeitung.de/lokales/boeblingen/herrenberger-stadtwerke-park-and-ride-und-wasser-werden-teurer-78979117.html",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-12-22",
+   "text": "The station garage and P+R on Kalkofenstrasse are run by Stadtwerke Herrenberg, a municipal Eigenbetrieb, and the reported background to the rise is a coming refurbishment to secure the structure in the medium term. A 2021 survey, made when a vertical extension of the building was considered (a project no longer pursued), had found damage to the concrete and reinforcement.",
+   "source_title": "Herrenberger Stadtwerke: Park and Ride und Wasser werden teurer - Stuttgarter Zeitung",
+   "source_url": "https://www.stuttgarter-zeitung.de/lokales/boeblingen/herrenberger-stadtwerke-park-and-ride-und-wasser-werden-teurer-78979117.html",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The DB station page (read on 21 October 2026, undated) lists a DB BahnPark lot in Bahnhofstrasse with 122 spaces and a tariff extract of 1.20 euros per hour, 4.20 euros per day and 21 euros per week, bookable online. It also lists the covered Kalkofenstrasse park-and-ride with 398 spaces and machine tariffs of 0.60 euros for 30 minutes, 1.30 euros for 1 hour, 1.90 euros for 90 minutes and 2.50 euros for 2 hours, with no day or monthly price shown, so it is unclear whether these figures reflect the 2026 changes. The DB page does not name the operator; a Stuttgarter Zeitung report of December 2025 says the lot south of the station is run by Contipark as a DB BahnPark partner and quotes online reservation from 3.80 euros per day.",
+   "source_title": "Parken - Bahnhof Herrenberg (DB)",
+   "source_url": "https://www.bahnhof.de/herrenberg/parkplaetze",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "The city says its stadtnavi platform shows parking occupancy, charging stations and other mobility data, and that parking data are published machine-readably in the Open Data Portal Herrenberg and linked with MobiData BW (page read on 21 October 2026). The stated aim is to provide as much mobility data as possible as open data.",
+   "source_title": "Mobilitätsdaten und Open Data - Stadt Herrenberg",
+   "source_url": "https://www.herrenberg.de/Mobilitaet/Mobilitaetsdaten",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-02",
+   "text": "As of February 2026 Herrenberg had 64 publicly accessible charging points at 38 stations (40 normal, 24 fast), per the city citing the Bundesnetzagentur. The county charging concept puts the need at about 400 public points by 2030.",
+   "source_title": "Öffentliche Ladeinfrastruktur für E-Fahrzeuge - Stadt Herrenberg",
+   "source_url": "https://www.herrenberg.de/Mobilitaet/oeffentliche-Ladeinfrastruktur-fuer-E-Fahrzeuge",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-02",
+   "text": "The city planned 12 additional public normal charging points in 2026 in connection with new e-carsharing stations, five of them in the core town on car parks such as Seestrasse 29, Mozartstrasse, Gueltsteiner Strasse, Bahnhofstrasse 25 and Berliner Strasse, mostly marked for implementation in summer 2026. This is a plan as stated on the page; completion was not checked.",
+   "source_title": "Öffentliche Ladeinfrastruktur für E-Fahrzeuge - Stadt Herrenberg",
+   "source_url": "https://www.herrenberg.de/Mobilitaet/oeffentliche-Ladeinfrastruktur-fuer-E-Fahrzeuge",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Stuttgarter Zeitung, 22 April 2026, 'Stadt weist mehr Parkplätze für Anwohner aus' (new resident-parking areas at Wengertweg, Wilhelmstrasse, Berliner Strasse; short-stay parking retained; fees not raised for now): paywalled, only the teaser was visible, so not used. URL: https://www.stuttgarter-zeitung.de/lokales/boeblingen/herrenberg-stadt-weist-mehr-parkplaetze-fuer-anwohner-aus-78826191.html",
+  "Stuttgarter Zeitung, 17 April 2026, 'Bewohnerparken könnte richtig teuer werden' (Finanzausschuss paving the way for resident-permit fees of more than double): paywalled, not used. URL: https://www.stuttgarter-zeitung.de/lokales/boeblingen/stellplaetze-in-herrenberg-bewohnerparken-koennte-richtig-teuer-werden-78828046.html. Also 'Bewohnerparken nicht in der maximalen Höhe' (78826357), not opened.",
+  "Parkgebührensatzung and Parkhaussatzung PDFs on herrenberg.de (https://www.herrenberg.de/ceasy/resource/?id=19663&download=1 and ...id=19664&download=1) downloaded but text extraction returned only garbled glyph codes, so the current tariffs of the city's garages and street car parks (Altstadtgarage, Bronntor, Nufringer Tor etc.) are not confirmed.",
+  "No official page found or read on the Parkhaus Kalkofenstrasse refurbishment (cost, timing); herrenberg.de council papers (Ratsinformationssystem) and Gäubote/Schwarzwälder Bote were not searched in depth or not reachable via search.",
+  "No page read in full on the S1 service to Herrenberg or the S-Bahn/VVS park-and-ride concept, and no utilisation statistics for the station or town-centre car parks were found.",
+  "stadtnavi.de and the Open Data Portal were not opened for actual parking datasets; stadtwerke-herrenberg.de did not respond to a plain request."
+ ],
+ "dropped": {}
+}

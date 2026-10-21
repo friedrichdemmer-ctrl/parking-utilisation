@@ -1,0 +1,198 @@
+{
+ "country": "Netherlands",
+ "city": "Roosendaal",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Roosendaal's centre has five garages (Nieuwe Markt, Biggelaar, Roselaar, Mill Hill, Liga), run by Parkeer Beheer Roosendaal B.V. (in 2023 the mobility alderman was reported to be its shareholder). Since 1 January 2025 the garages charge 0.75 euros per 20 minutes, with an off-peak 1.25 euros per hour in Nieuwe Markt and Biggelaar and a 10 euro day ticket; the operator's page, read on 21 October 2026, still showed these rates. For 2026 the council set street tariffs of 2.65 euros per hour in the high-tariff area and 2.05 euros elsewhere, with a 10 euro day ticket and resident permits of 70 and 100 euros a year. On 29 January 2026 the council approved a new Parkeerbeleidsplan (the municipal plan page says unanimously) and adopted a new Nota Parkeernormen the same day, in force the day after its publication on 9 February 2026: 25 percent lower requirement within 500 m walking distance of the station and buy-off sums of 5,000 to 15,000 euros per space. The plan is meant to be introduced step by step, first fixing bottlenecks and offering shared mobility, with a possible second phase steering behaviour through differentiated tariffs; those later tariffs are plans, not rules. It follows the Mobiliteitsvisie 2040 (document dated 3 February 2025, which favours active mobility, a car-light inner city, a possible new western entrance to garage Nieuwe Markt and P+R studies) and the Mobiliteitsagenda 2025-2040 of June 2025. Officials stress that cars remain welcome and paid parking will be used only where logical; a consultant said in October 2025 that street parking pressure is high while garages are often empty in the evening and at night. Public EV charging is being rolled out by Vattenfall InCharge through 2028. Council papers on raad.roosendaal.nl sit behind a bot challenge and were not read, and the council adoption date of the Mobiliteitsvisie is not documented in the sources checked.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2026-01-29",
+   "text": "On Thursday 29 January 2026 the Roosendaal council approved the new Parkeerbeleidsplan, which keeps parking possible but organises it more smartly (better laid-out spaces, clearer garages, new mobility hubs) and aims to free street space for greenery, play and meeting. The plan ties in with the Mobiliteitsvisie 2040 and the RSD40 vision.",
+   "source_title": "Roosendaal kiest voor slim parkeren (gemeente Roosendaal news release, 30 January 2026)",
+   "source_url": "https://www.roosendaal.nl/nieuws/roosendaal-kiest-voor-slim-parkerenparkeren-blijft-mogelijk-maar-toekomstgericht-en-gebruiksvriendelijk/",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The municipal plan page and infographic (read on 21 October 2026) say fewer car spaces are needed in the centre and station area, where cycling and public transport links are good, and more in districts and villages; they name parking garages at the edge, short-stay 'flitsparkeren' in the inner city for retailers, and paid parking only where logical. Measures are phased: first fixing bottlenecks and offering shared mobility, later possible additional measures.",
+   "source_title": "Parkeerbeleidsplan (gemeente Roosendaal) and Infographic Parkeerbeleidsplan",
+   "source_url": "https://www.roosendaal.nl/parkeerbeleidsplan/",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01-09",
+   "text": "At the council committee on 8 January 2026 the plan met only minor objections; the alderman said it works in two phases (first fixing problem spots, then steering behaviour through differentiated tariffs), that he does not favour blue zones, and that existing permits will not be taken away. The report notes an earlier parking plan was shelved in September 2023.",
+   "source_title": "Parkeerbeleid in Roosendaal lijkt er te komen, fietsen krijgt de voorkeur (ZuidWest Update, 9 January 2026)",
+   "source_url": "https://www.zuidwestupdate.nl/nieuws/parkeerbeleid-in-roosendaal-lijkt-nu-toch-uit-de-vakken-te-komen-fietsen-krijgt-de-voorkeur/",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-10-31",
+   "text": "In a draft (concept) presentation to part of the council, consultant SPARK said street parking pressure is high in the inner city and the districts, while the garages are often empty in the evening and at night; ideas then included more parking on residents' own plots, long-stay parking in garages and possibly larger paid-parking zones, with three scenarios for short versus long parking still to be worked out.",
+   "source_title": "Parkeergarages benutten en auto's op eigen terrein: Roosendaal bereidt nieuw parkeerbeleid voor (ZuidWest Update, 31 October 2025)",
+   "source_url": "https://www.zuidwestupdate.nl/nieuws/parkeergarages-benutten-en-autos-op-eigen-terrein-roosendaal-bereidt-nieuw-parkeerbeleid-voor/",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01-29",
+   "text": "The council adopted the Nota Parkeernormen (parking standards for new developments) on 29 January 2026, replacing the 2011 standards; it took effect the day after its publication on 9 February 2026. In the centre the minimum requirement is also the maximum, and in the car-light area new parking may not open onto the public road.",
+   "source_title": "Nota Parkeernormen, Gemeenteblad 2026, 56293",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-56293.html",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-02-09",
+   "text": "The 2026 parking standards give a 25 percent reduction for developments within 500 m walking distance of the station entrance, and allow buying off a car space at 15,000 euros (centre), 10,000 euros (fringe) or 5,000 euros (rest of built-up area), at January 2026 price levels excluding VAT. The Spoorzone around the station is to get separate standards after the Masterplan Roosendaal is set.",
+   "source_title": "Nota Parkeernormen, Gemeenteblad 2026, 56293",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-56293.html",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12-18",
+   "text": "On 18 December 2025 the council adopted the Verordening parkeerbelastingen Roosendaal 2026, with charging from 1 January 2026: street parking at 2.65 euros per hour in area A (the high-tariff streets) and 2.05 euros in area B, and a 10 euro day ticket valid for 24 consecutive hours in the paid-parking area. Annual permit fees are 70 euros for resident permit A and 100 euros for resident permit B (each for up to two plates; the letters are permit types, not the tariff areas), 360 euros for an office permit and 432 euros for a shop permit.",
+   "source_title": "Verordening parkeerbelastingen Roosendaal 2026 (Lokale wet- en regelgeving, CVDR752526)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR752526/1",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The operator's street-parking page (read on 21 October 2026) lists paid hours of Monday to Thursday 09:00-20:00, Friday 09:00-21:00, Saturday 09:00-20:00 and Sunday 12:00-20:00, with shorter hours at Emile van Loonpark (Monday to Thursday 09:00-18:30, Friday 09:00-21:00, Saturday 09:00-17:00, Sunday 12:00-17:00). Holders of a valid disabled parking card do not pay for street parking. The page quotes 2.05 euros per hour (low tariff), 2.65 euros per hour (high tariff) and a 10 euro day ticket.",
+   "source_title": "Parkeren op straat (Parkeer Beheer Roosendaal)",
+   "source_url": "https://www.parkerenroosendaal.nl/parkeren-op-straat/",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-03-17",
+   "text": "The Aanwijzingsbesluit betaald parkeren Roosendaal 2025, in force from 17 March 2025, designates paid-only parking in Dominestraat, the Kade, the southern Emile van Loonpark and Molenstraat, and permit-only parking in Van Dregtplein and Dr. van Dregtstraat; it replaced the 2016 designation decision.",
+   "source_title": "Aanwijzingsbesluit betaald parkeren Roosendaal 2025 (Lokale wet- en regelgeving, CVDR736683)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR736683/1",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-01",
+   "text": "Since 1 January 2025 all five garages charge 0.75 euros per 20 minutes (2.25 euros per hour), with an off-peak 1.25 euros per hour in Nieuwe Markt and Biggelaar (19:00-08:00; Fridays 22:00-08:00) and a 10 euro day ticket. The page was read on 21 October 2026 and still showed these rates.",
+   "source_title": "Tarieven & Betaalwijzen parkeergarages (Parkeer Beheer Roosendaal)",
+   "source_url": "https://www.parkerenroosendaal.nl/parkeren-in-parkeergarages/tarieven/",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2023-11-02",
+   "text": "In November 2023 the municipality planned to raise both garage and street tariffs from 2024 by 5 cents per 20 minutes (15 cents per hour) because Parkeerbeheer Roosendaal needed about 310,000 euros more income; street tariffs had last changed in 2016 and garage tariffs in 2012. The council had to approve the street rise, while the garage rise was a company decision, and advisers recommended keeping garages cheaper than the street.",
+   "source_title": "Parkeren in Roosendaal wordt volgend jaar duurder (ZuidWest Update, 2 November 2023)",
+   "source_url": "https://www.zuidwestupdate.nl/nieuws/parkeren-in-roosendaal-wordt-volgend-jaar-duurder/",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Parkeer Beheer Roosendaal B.V. runs the five city-centre garages: Nieuwe Markt (520 spaces, open 24/7), Biggelaar (375, 24/7), Roselaar (416, 07:45-20:30 Monday to Thursday), Mill Hill (100 spaces, plus 200 at weekends) and Liga (150, open Friday evening and at weekends only). Page read on 21 October 2026.",
+   "source_title": "Parkeren in parkeergarages (Parkeer Beheer Roosendaal)",
+   "source_url": "https://www.parkerenroosendaal.nl/parkeren-in-parkeergarages/",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "Garage guests enter by licence-plate recognition and pay contactless at the exit, or use EasyPark linked to their plate. About 40 street machines in the centre and at the station accept only cashless payment by Dip&Go (Tap&Go contactless is also possible). Pages read on 21 October 2026.",
+   "source_title": "Tarieven & Betaalwijzen parkeergarages and Dip & Go en Tap & go (Parkeer Beheer Roosendaal)",
+   "source_url": "https://www.parkerenroosendaal.nl/parkeren-in-parkeergarages/tarieven/",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Per the operator's subscription page (read on 21 October 2026), a business garage subscription costs 380.82 euros per quarter, the employee subscription for garage Biggelaar costs 225.03 euros per quarter (term to 31 December 2026), and a resident subscription for Nieuwe Markt without a fixed space is offered in 2026 at 273.10 euros per quarter.",
+   "source_title": "Abonnementen parkeergarages (Parkeer Beheer Roosendaal)",
+   "source_url": "https://www.parkerenroosendaal.nl/parkeren-in-parkeergarages/abonnement/",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Residents in the paid-parking area (seven sectors) can get a permit for at most two plates, and residents of buildings with a building application after 1 May 2002 get at most one permit; the Stadsoevers area north of Wethouder Lanenstraat cannot get resident permits. Page read on 21 October 2026.",
+   "source_title": "Parkeervergunning (gemeente Roosendaal)",
+   "source_url": "https://www.roosendaal.nl/direct-regelen/parkeren-en-vervoer/parkeervergunning/",
+   "confidence": "high",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-02-03",
+   "text": "The Mobiliteitsvisie Roosendaal 2040 (final document dated 3 February 2025) aims for a car-light inner city, a new western entrance to the Nieuwe Markt garage, a P+R at Leisurepark Roosendaal and investigation of P+R sites at Oostpoort and Roosenveltpoort, and a low parking standard for new residents near the centre and station.",
+   "source_title": "Mobiliteitsvisie Roosendaal 2040 (PDF on roosendaal.nl)",
+   "source_url": "https://www.roosendaal.nl/app/uploads/2025/10/mobiliteitsvisie-roosendaal-2040-a_0.pdf",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-06-03",
+   "text": "The Mobiliteitsagenda 2025-2040 (dated 3 June 2025) lists as planned work a 25,000 euro feasibility study for the western entrance of garage Nieuwe Markt, a parking hub study for Dunantstraat, feasibility studies for P+R Oostpoort/Roosenveltpoort and Leisurepark, an evaluation of the car-light inner city (delivery windows and exemptions), and a mobility hub at the NS station led by NS.",
+   "source_title": "Mobiliteitsagenda Roosendaal 2025-2040 (PDF on roosendaal.nl)",
+   "source_url": "https://www.roosendaal.nl/app/uploads/2025/10/mobiliteitsagenda-roosendaal-2025-2040.pdf",
+   "confidence": "high",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "Public charge points are being added by Vattenfall InCharge, which won the Noord-Brabant/Limburg concession in 2024 and is to place all public points in Roosendaal through 2028 (up to 11 kW, at least 3.7 kW per car); paid-parking rules still apply at chargers in paid zones, and the garages Nieuwe Markt, Biggelaar, Roselaar and Mill Hill have charging spaces. Pages read on 21 October 2026.",
+   "source_title": "Laadpunten voor elektrische auto's (gemeente Roosendaal) and Opladen E-auto's (Parkeer Beheer Roosendaal)",
+   "source_url": "https://www.roosendaal.nl/direct-regelen/parkeren-en-vervoer/laadpunten-voor-elektrische-autos/",
+   "confidence": "high",
+   "id": 17,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "raad.roosendaal.nl (council papers: Plan van aanpak Parkeerbeleidsplan 78-2025, the raadsvoorstel and full Parkeerbeleidsplan, Belastingvoorstellen 2026, the VVD motion of 21 December 2023 and FVD pilot motion of 19 December 2024 on lower tariffs) returned a JavaScript bot-challenge page (Anubis) to automated fetches, so none of it was read or used.",
+  "BN DeStem was not accessible to the search tool, and no Omroep Brabant article on Roosendaal parking was found within the search budget (the web search limit was reached), so press coverage rests on ZuidWest Update only.",
+  "Stadhuisplein, De Bogerd and a 'Kade' garage do not appear in any official source read; the municipality and operator list five garages (Nieuwe Markt, Biggelaar, Roselaar, Mill Hill, Liga), and the Kade appears only as a paid-only street.",
+  "No occupancy, utilisation or open-data/guidance statistics were found; parkeerlijn.nl/roosendaal only redirects to the mobilitybooker.com listing portal, and centrumparkeren.nl is a listing portal, so neither was used.",
+  "The adoption date of the Mobiliteitsvisie 2040 by the council was not found (the PDF is dated 3 February 2025); the Parkeerverordening Roosendaal 2013 and the autoluwe binnenstad ontheffing rules (delivery windows) were not read.",
+  "No source found for station-area parking tariffs, P+R at the station, or the outcome of the 2024-2025 tariff rises beyond what the operator pages show; the exact 2024 and 2025 garage price steps are not documented in a primary source I could open."
+ ],
+ "dropped": {}
+}

@@ -1,0 +1,160 @@
+{
+ "country": "Denmark",
+ "city": "Vejle",
+ "researched": "2026-10-21",
+ "summary": "Vejle's central parking is split between the municipality and private operators. Vejle Kommune runs the car park buildings Cronhammar (400 spaces, 80 EV bays), Albert (335) and Tróndur (269) plus Abelones Plads, all with number-plate scanning: the first 2 hours are free in the three buildings, then 9 kr per hour Monday-Friday 9-17 and Saturday 9-14, with a day pass of 38 kr and an annual pass of 4,200 kr (price page updated 14 October 2026). Surface lots charge 6-9 kr per hour with automatic check-out, residents in zones 1, 2, 5 and 6 pay 40 kr per month for a permit, and unpaid scanner parking must be settled within 72 hours or a 100 kr fee follows. Q-Park runs the 700-space Bryggen shopping-centre car park (first 2 hours free) and APCOA smaller private lots such as Dæmningen 23 at 32 kr per started hour. Some municipal car parks show live availability via sensors. I found no council decisions, parking strategy documents or press reports on changes that I could read in full; most local press on this topic is paywalled.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2026-10-14",
+   "text": "Vejle Kommune's price page (last updated 14 October 2026) lists for the plate-scanner car parks Albert, Tróndur and Cronhammar: first 2 hours free, then 9 kr per hour, a day pass of 38 kr, a monthly pass of 600 kr and an annual pass of 4,200 kr. Payment applies Monday-Friday 9.00-17.00 and Saturday 9.00-14.00; other times, Sundays and listed public holidays are free.",
+   "source_title": "Hvad koster det at parkere? - Vejle Kommune",
+   "source_url": "https://www.vejle.dk/da/service-og-selvbetjening/borger/trafik-og-parkering/parkering-og-tilladelser/priser-og-betaling-for-parkering/hvad-koster-det-at-parkere/",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10-14",
+   "text": "Abelones Plads, also run with plate scanning, is listed at 6 kr per hour, 26 kr per day, 450 kr per month and 4,200 kr per year, and the table shows no free first period there (unlike the three car park buildings).",
+   "source_title": "Hvad koster det at parkere? - Vejle Kommune",
+   "source_url": "https://www.vejle.dk/da/service-og-selvbetjening/borger/trafik-og-parkering/parkering-og-tilladelser/priser-og-betaling-for-parkering/hvad-koster-det-at-parkere/",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10-14",
+   "text": "Municipal surface lots with pay machines charge 9 kr per hour at Kirketorvet, Vedelsgade, Marias Plads, Vissingsgade, Herslebsgade, Kalkbrænderivej, Volmers Plads and Ved Anlægget, and 7.5 kr per hour at Gunhilds Plads. Day passes are 54 kr at Herslebsgade and Kalkbrænderivej and 45 kr at Gunhilds Plads; some lots check drivers out automatically after 3, 8 or 24 hours.",
+   "source_title": "Hvad koster det at parkere? - Vejle Kommune",
+   "source_url": "https://www.vejle.dk/da/service-og-selvbetjening/borger/trafik-og-parkering/parkering-og-tilladelser/priser-og-betaling-for-parkering/hvad-koster-det-at-parkere/",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10-14",
+   "text": "Drivers in the scanner car parks who exceed 2 hours and do not use automatic payment or an app must pay online within 72 hours of leaving; otherwise the owner receives an invoice in e-Boks plus a 100 kr fee. Vejle Kommune itself enforces on-street and public-lot parking and issues parking charges.",
+   "source_title": "Hvad koster det at parkere? / Regler og klageadgang - Vejle Kommune",
+   "source_url": "https://www.vejle.dk/da/service-og-selvbetjening/borger/trafik-og-parkering/parkering-og-tilladelser/priser-og-betaling-for-parkering/hvad-koster-det-at-parkere/",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10-14",
+   "text": "Residents' permits are tied to numbered zones in the central area (zones 1, 2, 5 and 6 on streets such as Fyensgade, Havnegade, Skovgade and Gormsgade; zone 5 includes Abelones Plads). They cost 40 kr per month and renew automatically, and the municipality states a permit does not guarantee a free space.",
+   "source_title": "Beboerlicens - Vejle Kommune",
+   "source_url": "https://www.vejle.dk/da/service-og-selvbetjening/borger/trafik-og-parkering/parkering-og-tilladelser/tilladelser-til-parkering/beboerlicens/",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10-14",
+   "text": "Zone 3 residents' parking covers only the car parks Albert and Tróndur and costs 1,500 kr for 6 months or 3,000 kr for a year, applied for manually with MitID. Craftsman permits cost 100 kr per month for up to 12 months and apply only to zones 1, 2, 5 and 6.",
+   "source_title": "Beboerlicens / Håndværkerlicens - Vejle Kommune",
+   "source_url": "https://www.vejle.dk/da/service-og-selvbetjening/borger/trafik-og-parkering/parkering-og-tilladelser/tilladelser-til-parkering/beboerlicens/",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Holders of a disabled parking card park free in Albert, Tróndur, Cronhammar and Abelones Plads, but must first register the card for the plate-recognition system (page read on 21 October 2026). On paid public parking elsewhere the card also gives free parking.",
+   "source_title": "Handicapskilt og parkering - Vejle Kommune",
+   "source_url": "https://www.vejle.dk/da/service-og-selvbetjening/borger/trafik-og-parkering/parkering-og-tilladelser/tilladelser-til-parkering/handicapskilt-og-parkering/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10-07",
+   "text": "Vejle Kommune operates three central car park buildings: Cronhammar (400 spaces, near the railway station, 80 with EV chargers, about 6 minutes' walk from the station), Albert (335 spaces, 10 charging bays, next to Bygningen) and Tróndur (269 spaces, 6 charging bays). Together this is about 1,000 spaces and 96 charging bays.",
+   "source_title": "Hvor kan jeg parkere? and p-hus pages - Vejle Kommune",
+   "source_url": "https://www.vejle.dk/da/service-og-selvbetjening/borger/trafik-og-parkering/parkering-og-tilladelser/parkeringspladser/hvor-kan-jeg-parkere/",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10-07",
+   "text": "Cronhammar has 80 EV charging bays out of 400 spaces, by far the largest charging provision in the municipal car parks; Albert has 10 and Tróndur 6. The pages do not name the charging operator or tariffs.",
+   "source_title": "P-hus Cronhammar / Albert / Tróndur - Vejle Kommune",
+   "source_url": "https://www.vejle.dk/da/service-og-selvbetjening/borger/trafik-og-parkering/parkering-og-tilladelser/parkeringspladser/hvor-kan-jeg-parkere/cronhammar/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10-07",
+   "text": "Cronhammar offers a weekend deal: parking from Friday after 17.00 to Monday 9.00 for 45 kr in total (page updated 7 October 2026), aimed at rail travellers from Vejle Station about 500 metres away.",
+   "source_title": "P-hus Cronhammar - Vejle Kommune",
+   "source_url": "https://www.vejle.dk/da/service-og-selvbetjening/borger/trafik-og-parkering/parkering-og-tilladelser/parkeringspladser/hvor-kan-jeg-parkere/cronhammar/",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "The municipal car parks use number-plate scanners at entry and exit with 'Pay As You Go' registration (card and plate linked to a profile) and day, month and year passes. The page was read on 21 October 2026 and says a profile cannot park two registered vehicles at once.",
+   "source_title": "Tilmeld dit køretøj til automatisk betaling - Vejle Kommune",
+   "source_url": "https://www.vejle.dk/da/service-og-selvbetjening/borger/trafik-og-parkering/parkering-og-tilladelser/priser-og-betaling-for-parkering/tilmeld-dit-koeretoej-til-automatisk-betaling/",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10-07",
+   "text": "Some municipal car parks have sensors showing live availability on the municipality's parking map: green means more than 10 free spaces, yellow 5-10 and red 0-4. Municipal map icons are blue, private car parks black.",
+   "source_title": "Hvor kan jeg parkere? - Vejle Kommune",
+   "source_url": "https://www.vejle.dk/da/service-og-selvbetjening/borger/trafik-og-parkering/parkering-og-tilladelser/parkeringspladser/hvor-kan-jeg-parkere/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Q-Park runs the 700-space rooftop and deck car park at the Bryggen shopping centre (Sønder Torv 2): first 2 hours free, ANPR registration, pay within 48 hours if staying longer, 16 disabled spaces, 3 EV charging points, 2.10 m height. Q-Park lists no online tariff (page read on 21 October 2026).",
+   "source_title": "Q-Park Bryggen",
+   "source_url": "https://www.q-park.dk/en-gb/parking/vejle/bryggen",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Bryggen shopping centre's owner-manager Steen & Strøm states the centre has 700 parking places, about 3 million visitors a year and, since 2025, a public library inside; these are operator claims (page undated, read on 21 October 2026).",
+   "source_title": "Bryggen - Steen & Strøm",
+   "source_url": "https://www.steenstrom.com/our-malls/bryggen",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "APCOA runs smaller private car parks in the centre, for example Dæmningen 23 (60 spaces, open 24/7, 32 kr per started hour, with 2 EV charging bays nearby) and Højbanetorvet (20 spaces, from 7.50 kr per half hour). Page read on 21 October 2026.",
+   "source_title": "APCOA Vejle - Dæmningen 23",
+   "source_url": "https://www.apcoa.dk/en/find-a-parking-spot/locations/vejle/daemningen-23",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "The local retail association describes about 1,400 visitor spaces in central Vejle, four large lots with the first 2 hours free (Bryggen roof 700, Tróndur about 270, Albert 335, Føtex Nørregade roof 165) and Albert as the newest car park. It says payment in Albert, Tróndur and Abelones Plads is by plate scan with a system built with Swarco (page undated, read on 21 October 2026).",
+   "source_title": "Parkering i Vejle - ShoppingVejle.dk",
+   "source_url": "https://shoppingvejle.dk/parkering-i-vejle/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Besides the central car parks, the municipality lists four carpool parking areas near the E45 motorway as part of its parking offer (page read on 21 October 2026). Tour buses drop off at Borgvold by the transport centre and along Strandgade near Fjordenhus, according to VisitVejle.",
+   "source_title": "Where can I park my car? - Vejle Kommune",
+   "source_url": "https://www.vejle.dk/en/welcome-to-vejle/getting-started-in-vejle/where-can-i-park-my-car/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2005",
+   "text": "Tróndur, the car park building with a stained-glass stair tower by Tróndur Patursson, was bought by Vejle Kommune in 2005, so the municipality has owned and run it for about 20 years.",
+   "source_title": "Tróndur - VisitDenmark",
+   "source_url": "https://www.visitdenmark.com/denmark/plan-your-trip/trondur-gdk727490",
+   "confidence": "medium"
+  }
+ ],
+ "gaps": [
+  "Vejle Amts Folkeblad articles were paywalled and not usable: https://vafo.dk/vejle/slut-med-gratis-parkering-nye-overvaagningskameraer-er-sat-op-men-p-pladsers-trofaste-kunder-maa-leve-med-ekstra-besvaer (20 March 2023, apparently about camera enforcement of the 2-hour free rule) and https://vafo.dk/erhverv/det-er-billigt-at-parkere-i-vejle-nu-skal-politikerne-diskutere-priserne (3 July 2026, apparently about parking prices being discussed by politicians).",
+  "https://fyens.dk/trekantomraadet/er-du-traet-af-at-betale-for-kommunal-parkering-saa-bliv-medlem-af-vejle-byraad-fri-parkering-er-et-af-en-raekke-frynsegoder (29 March 2024) and https://www.dkteknikogmiljoe.dk/artikel/vejles-politikere-og-topchefer-kan-parkere-gratis (2 April 2024) on councillors' free parking were paywalled; only teasers were visible.",
+  "No Vejle city council or committee papers on parking policy, tariff changes, a parking strategy or the introduction of plate scanning were found or opened, so the dates of the current tariffs and the 2-hour free rule are unknown.",
+  "No sources found on Sønderbro or Vejle Center car parks, the Havnen/Fjordenhus area parking, a 'Vejle Bro' parking facility, park-and-ride beyond the four carpool areas near the E45, or low-emission or pedestrian-zone decisions.",
+  "No operator, tariff or policy source found for public EV charging in Vejle beyond bay counts in the car parks; the Kommuneplan parking norm page (https://vejle.cowiplan.dk/kommuneplan25/kommuneplanrammer/generelle-maal-og-rammer/parkeringsnorm/) returned 404.",
+  "Browser tab could not be created, so pages were fetched with curl and stripped to text. The web search budget ran out after about 10 searches; TV Syd and Jyllands-Posten were not reachable through search results."
+ ]
+}

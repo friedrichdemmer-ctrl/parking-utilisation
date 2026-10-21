@@ -1,0 +1,200 @@
+{
+ "country": "France",
+ "city": "Pessac",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Pessac, west of Bordeaux, is served by tram line B, which has two branches (Pessac Centre and France Alouette) and serves the Pessac-Talence-Gradignan university campus. TBM's list (read on 21 October 2026) gives four park-and-rides in Pessac with 709 spaces in total (Unitec 249, Bougnard 168, Gare de Pessac Alouette 148, Cap Metiers 144); Cap Metiers is for TBM season-ticket holders, and the Pessac Centre park-and-ride on the same list is for season-ticket holders on weekdays only. The METPARK Pessac Centre underground car park has 343 spaces, is open 24/7 according to METPARK, and offers free parking for under two hours, a EUR 50 monthly resident subscription and free parking for TBM relay-card holders who validate a ticket that day. METPARK reports that it was renovated in 2025, now has ticketless entry and 50 EV charge points. Bougnard and Unitec are among the 11 park-and-rides that unclassified vehicles can still reach under the Bordeaux Metropole low-emission zone, and Pessac Alouette and Cap Metiers are among the 11 park-and-rides that offer 2-5 day short stays. A university page (updated February 2024, study undated) says a study found more than 4,000 of roughly 11,000 campus spaces free at the daily peak. The commune's own street-parking rules (paid zones, blue zones, resident tariffs) could not be read, and TBM's pages disagree on the fine for parking outside tram hours, so none is stated.",
+ "items": [
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "TBM's park-and-ride list (read on 21 October 2026) gives these capacities on tram line B in Pessac: Unitec 249, Bougnard 168, Gare de Pessac Alouette 148 and Cap Métiers 144 spaces, all with 5 Boogi car-sharing spaces except Cap Métiers. Unitec, Bougnard and Alouette are open to all, Cap Métiers is for TBM season-ticket holders only, and Arts & Métiers (593 spaces, Talence) is the other line B site at the campus.",
+   "source_title": "Opening times, maps and list of Parcs-Relais (TBM)",
+   "source_url": "https://www.infotbm.com/en/opening-times-maps-and-list-parcs-relais.html",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "TBM lists the Pessac Centre park-and-ride (rue André Pujol) as for TBM season-ticket holders only, open Monday to Friday, with entry between 7am and 3pm and exit before 1:30am. The page was read on 21 October 2026.",
+   "source_title": "Opening times, maps and list of Parcs-Relais (TBM)",
+   "source_url": "https://www.infotbm.com/en/opening-times-maps-and-list-parcs-relais.html",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "METPARK, the Bordeaux Métropole parking authority, runs the 343-space underground Pessac Centre car park, open 24/7 and about 100 m from the TER station. It also serves as a TBM park-and-ride: TBM card holders park free on the day they validate a transport ticket, with a 1.80 m height limit. The page was read on 21 October 2026.",
+   "source_title": "Parking Pessac Centre (METPARK)",
+   "source_url": "https://www.mtpk.fr/parking/parking-pessac-centre/",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "METPARK's price grid for Pessac Centre shows free parking under 2 hours, then EUR 4.80 for 2 hours and EUR 0.60 per 15 minutes beyond, with EUR 9 for 4-24 hours (billing runs from the first minute once 2 hours are exceeded). Monthly subscriptions are EUR 70 standard, EUR 50 resident, EUR 30 motorbike, and weekly EUR 35. The page was read on 21 October 2026.",
+   "source_title": "Parking Pessac Centre (METPARK)",
+   "source_url": "https://www.mtpk.fr/parking/parking-pessac-centre/",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2021-07",
+   "text": "METPARK announced on 6 July 2021 that, since 1 July 2021, the city of Pessac and METPARK have offered two hours of free parking in the town-centre public car park, to support activity in the town centre.",
+   "source_title": "Encore plus de gratuité pour les parkings de Pessac et Mérignac centres ! (METPARK, 6 July 2021)",
+   "source_url": "https://www.mtpk.fr/encore-plus-de-gratuite-pour-les-parkings-de-pessac-et-merignac-centres/",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2022-10",
+   "text": "From 3 October 2022, TBM card holders have been able to park free in the Pessac Centre and Mérignac Centre car parks if they use public transport that day. METPARK presented this as two extra park-and-ride sites about 100 m from tram stops.",
+   "source_title": "Abonnés TBM : stationnement gratuit aux parkings de Pessac et Mérignac ! (METPARK, 30 September 2022)",
+   "source_url": "https://www.mtpk.fr/abonnes-tbm-stationnement-gratuit-aux-parkings-de-pessac-et-merignac/",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-09",
+   "text": "METPARK reported on 29 September 2025 that the Pessac Centre car park had been renovated over more than 5 months while staying open, across 3 levels: full repaint (close to EUR 870,000 invested for this painting renovation), redesigned circulation and signage, and a modernised fire-safety system. Since summer 2025 it has had ticketless entry and exit using number-plate recognition (Hitachi Rail system). The commune of Pessac renovated the access tunnel.",
+   "source_title": "Parking Pessac : une rénovation complète pour une nouvelle expérience client (METPARK)",
+   "source_url": "https://www.mtpk.fr/parking-pessac-une-renovation-complete-pour-une-nouvelle-experience-client/",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-06-26",
+   "text": "The Pessac Centre car park has 50 EV charge points, inaugurated on 26 June 2025 with the city and TotalEnergies: 48 slow points (7.4 kW) and 2 fast points (50 kW). METPARK plans a METSTATION cycle hub on level -1, with works planned from late 2025 (a plan at that date, not confirmed as finished).",
+   "source_title": "Parking Pessac : une rénovation complète pour une nouvelle expérience client (METPARK)",
+   "source_url": "https://www.mtpk.fr/parking-pessac-une-renovation-complete-pour-une-nouvelle-experience-client/",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "TBM says the Arts & Métiers park-and-ride on line B (Talence, next to the Pessac campus) has 10 spaces equipped with EV charging points out of 593; its list shows no EV spaces for the four Pessac park-and-rides. The page was read on 21 October 2026.",
+   "source_title": "Opening times, maps and list of Parcs-Relais (TBM)",
+   "source_url": "https://www.infotbm.com/en/opening-times-maps-and-list-parcs-relais.html",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "TBM says same-day park-and-ride parking is included in a TBM subscription; other users buy a park-and-ride ticket at EUR 4.50 (EUR 3.50 reduced rate), which gives 7 round trips in a day for 1 to 7 people. Gare de Pessac Alouette and Cap Metiers are on TBM's list of reduced-price park-and-rides. The page was read on 21 October 2026.",
+   "source_title": "Park for the day (TBM)",
+   "source_url": "https://www.infotbm.com/en/park-day.html",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Gare de Pessac Alouette is one of six park-and-rides in TBM's 'park near home' offer. Residents living within 500 m can park there 24/7 for EUR 300 a year (or EUR 25 a month by direct debit), with a limited number of spaces; the page was read on 21 October 2026.",
+   "source_title": "Park overnight (near home) (TBM)",
+   "source_url": "https://www.infotbm.com/en/park-overnight-near-home.html",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "TBM offers 2-5 day short-stay parking, including one round trip on the network, at EUR 12 (2 days) to EUR 25 (5 days) in 11 of its 28 park-and-rides. Pessac Alouette and Cap Métiers are among them. The page was read on 21 October 2026.",
+   "source_title": "Park for 2 - 5 days (TBM)",
+   "source_url": "https://www.infotbm.com/en/park-2-5-days.html",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-09-29",
+   "text": "On 29 September 2023 the Bordeaux Métropole council voted a tariff allowing short stays of 2 to 5 days in selected park-and-rides, including Cap Métiers and Pessac Alouette. A press release of 4 October 2023 said Keolis (concession since July 2022) would also offer overnight parking to residents near some park-and-rides.",
+   "source_title": "Des panneaux de jalonnement dynamiques pour faciliter les trajets des usagers (Bordeaux Métropole press release, 4 October 2023)",
+   "source_url": "https://www.bordeaux-metropole.fr/sites/MET-BXMETRO-DRUPAL/files/2023-10/CP%20-%20Panneaux%20de%20jalonnement%20P%2BR.pdf",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01-13",
+   "text": "Bordeaux Métropole's ZFE has applied inside the ring road, 24/7, since 1 January 2025, and the page (updated 13 January 2026) says unclassified vehicles can no longer drive or park there. Eleven park-and-rides remain reachable by dedicated access roads, two of them in Pessac: Bougnard and Unitec.",
+   "source_title": "ZFE (Zone à Faibles Émissions) : ce qu'il faut savoir (Bordeaux Métropole)",
+   "source_url": "https://sedeplacer.bordeaux-metropole.fr/en-voiture/zfe-ce-quil-faut-savoir",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-02",
+   "text": "A university page (updated 3 February 2024, study undated) says a study followed the real occupancy of the roughly 11,000 spaces on the Pessac-Talence-Gradignan university domain over one typical day. It found the car parks overall very oversized, with more than 4,000 spaces still free at the busiest point of the day, and that a parking solution can often be found within 200 m of one's workplace. A mobility plan for the domain, covering 16 institutions, was completed in 2023.",
+   "source_title": "Mobilité (Opération Campus Bordeaux)",
+   "source_url": "https://operation-campus.u-bordeaux.fr/Agir-pour-un-campus-durable/Mobilite",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2021-11-30",
+   "text": "In November 2021 Bordeaux Métropole and 16 higher-education institutions launched a joint mobility plan for the 235-hectare Pessac-Talence-Gradignan campus, which hosts about 60,000 students and 10,000 staff. The stated aims include reducing congestion in parking and traffic.",
+   "source_title": "Lancement d'un plan de mobilité pour améliorer la qualité des déplacements sur le campus universitaire bordelais (Opération Campus Bordeaux)",
+   "source_url": "https://operation-campus.u-bordeaux.fr/Actualites/Lancement-d-un-plan-de-mobilite-pour-ameliorer-la-qualite-des-deplacements-sur-le-campus-universitaire-bordelais",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2015-06-22",
+   "text": "A Bordeaux Métropole press kit of 22 June 2015 said the new tram line B branch to France Alouette was expected to carry 10,000 new passengers a day. It said a 156-space park-and-ride next to Pessac Alouette station was already open and a 160-space one near Cap Métiers was planned for end 2017 (old planning figures; TBM now lists 148 and 144).",
+   "source_title": "Dossier de presse - Extension ligne B tramway (Bordeaux Métropole, 22 June 2015)",
+   "source_url": "https://www.bordeaux-metropole.fr/sites/MET-BXMETRO-DRUPAL/files/export/dp_inauguration_extension_tramway_pessac_22-05-2015.pdf",
+   "confidence": "high",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-05-22",
+   "text": "A secure TBM bike shelter with 19 places opened at Pessac Centre station (avenue Eugène et Marc Dulout), facing the tram stop. It is open to TBM subscribers and 24/48/72-hour pass holders (published 22 May 2025, page updated 19 May 2026).",
+   "source_title": "Pessac centre : un nouvel abri vélo sécurisé (Bordeaux Métropole)",
+   "source_url": "https://sedeplacer.bordeaux-metropole.fr/actualites/pessac-centre-nouvel-abri-velo-securise",
+   "confidence": "high",
+   "id": 17,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Pessac municipal site (pessac.fr, e.g. https://www.pessac.fr/au-quotidien/deplacements/stationnement-374.html and the blue-zone news page): connection refused or timed out from this environment, so on-street rules, paid-zone hours, blue-zone rules and any resident permit could not be read; no street-parking facts are recorded.",
+  "Resident parking (carte résident) and Pessac council decisions on street parking: no official source could be opened. The only resident-priced item found is METPARK's EUR 50 monthly resident subscription for the Pessac Centre car park.",
+  "Regional press (Sud Ouest, actu.fr) is blocked from the search tool, and no usable France Bleu/ICI Gironde article on Pessac parking was opened, so no press statements on usage or saturation of Pessac park-and-rides.",
+  "No occupancy or utilisation statistics for the Pessac park-and-rides were found in official papers (the Bordeaux Métropole 2025 mobility barometer has nothing on them); the TBM figures above are capacities.",
+  "Université de Bordeaux campus: only a general parking study (undated, page updated Feb 2024) was found; no page listing which campus car parks are access-regulated, permit rules or tariffs was opened (u-bordeaux.fr 'Se déplacer' page not read).",
+  "EV charging on Pessac streets: only third-party listings surfaced, which are not used; no official Bordeaux Métropole or city count of public charge points in Pessac.",
+  "TBM pages are inconsistent on the fine for parking outside tram hours (EUR 15 on the hours page, EUR 25 on the day-parking page) and on closing times, so no fine or hours are recorded; the TBM Pessac Centre park-and-ride rules (subscribers only, weekdays) and METPARK's 24/7 description should be read as different access regimes of the same car park.",
+  "TBM/METPARK tariff pages are undated live pages, read on 21 October 2026; METPARK's grid (free under 2h, then EUR 4.80 for 2h) and its 2021 'two free hours' announcement are worded as the pages state them and were not reconciled with the city's own page."
+ ],
+ "dropped": {}
+}

@@ -1,0 +1,199 @@
+{
+ "country": "France",
+ "city": "Le Mans",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Le Mans's underground car parks and paid on-street parking are run by Cénovia Park, to which the city says it entrusted them; the operator reports about 6,100 spaces, 16 public car parks and 173 street ticket machines, and the city lists 3,638 car-park spaces plus 2,123 paid on-street spaces on a page last edited in May 2025. On-street parking is paid 9am-12:30pm and 2pm-7pm Monday to Saturday and free on Sundays and holidays. A missed payment costs a post-parking charge of 30 euros, 20 euros if paid within three days and 80 euros in total after three months. Car-park tariffs vary by site: at République, Jacobins and Quinconces P1 the first 15 minutes are free, then 1 euro to 30 minutes, 1.50 euros for the first hour and 7.50 euros for four hours; the underground Quinconces P2 gives the first hour free and four hours for 2 euros; the station car parks Gare Nord and Gare Sud P1 are much steeper (14 euros for four hours) while Gare Sud P2 is cheaper (7.50 euros for four hours). A November 2025 local radio report said the city promoted existing offers, with a councillor saying Le Mans is the cheapest western French city for centre parking, Cénovia saying Quinconces is under-used, and shopkeepers divided over the causes of weak trade (roadworks, spending power, signposting). The Cité Plantagenêt and the central pedestrian plateau are access-controlled. The operator lists 14 electric-vehicle charge points in five city-centre car parks, and the metropole's climate page counts about 400 charge points against a target of 1,000 by 2035. Park-and-ride sites at Antarès and Université-Bartholdi are included in Setram season tickets. The metropole's Chronolignes project plans 13 km of dedicated bus lanes on three lines and a calmer Boulevard Nicolas-Cugnot; a lengthened tram unit entered service on 10 June 2026 with the rest planned to follow by end 2027. The Arsenal-Marais redevelopment (700+ homes and a multi-storey car park) is a long-term plan, with land sales from end 2027. The Halles car park was announced closed from 16 July to 20 September 2026 and still showed as closed on 21 October 2026. Open data is thin: Le Mans Métropole publishes a cycle-parking dataset but no car-park availability dataset was found on data.gouv.fr.",
+ "items": [
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Cénovia Park describes itself as the parking operator of the Le Mans conurbation. Its home page (read on 21 October 2026) shows about 6,100 car-park spaces, 16 public car parks and 173 on-street ticket machines, and says 3.5 million vehicles pass through Cénovia each year (the figure is not dated; Cénovia's group site gives 3.4 million vehicles in its car parks in 2025). The city's parking page says the Ville du Mans entrusted the underground car parks and paid on-street parking to Cénovia Park, and cites 1.92 million drivers using the city's paid car parks in 2022.",
+   "source_title": "Zones de stationnement au Mans - Cénovia Park",
+   "source_url": "https://www.cenoviapark.fr/",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-05",
+   "text": "The city's parking page, last edited in May 2025, lists 3,638 car-park spaces plus 2,123 paid on-street spaces, and says each car park has an entrance sign showing free spaces. It lists République 774, Jacobins 388, Quinconces 610 underground plus 350 surface, Filles-Dieu 165, Médiathèque 240, Halles 240, Gare-Sud 269, Gare-Nord 88, Palais-des-Congrès 380, Rabelais 92 and Novaxis 42.",
+   "source_title": "Stationnement - Ville du Mans",
+   "source_url": "https://www.lemans.fr/ma-ville/se-deplacer/stationnement",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-06",
+   "text": "On-street parking: the post-parking charge (FPS) in Le Mans is 30 euros, reduced to 20 euros if paid within three days; if nothing is paid within three months a further 50 euros is due, making 80 euros in total (city page, edit stamp June 2025). The same page advises meter users never to insert more than 3 euros, the maximum amount allowed.",
+   "source_title": "Le forfait post-stationnement - Ville du Mans",
+   "source_url": "https://www.lemans.fr/ma-ville/se-deplacer/stationnement/forfait-post-stationnement",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "On-street parking is paid 9am-12:30pm and 2pm-7pm Monday to Saturday and free on Sundays and public holidays (operator page read on 21 October 2026). On most listed streets the tariff table runs 0.50 euros for 15 minutes, 1 euro for 30 minutes, 1.50 euros for 45 minutes, 2.50 euros for one hour and 3 euros for 1.5 hours; on some other streets it is 0.50 euros per 30 minutes up to 2 hours. The tables show 30 euros in the row after the longest paid duration (2 hours, or 2.5 hours on the other streets) without saying what it is.",
+   "source_title": "Les zones de stationnement sur voirie du Mans - Cénovia Park",
+   "source_url": "https://www.cenoviapark.fr/voirie/",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Hourly tariffs at the main city-centre car parks (République, Jacobins, Quinconces P1): 15 minutes free, 30 minutes 1 euro, 1 hour 1.50 euros, 4 hours 7.50 euros, 12 hours 15 euros between 7am and 7pm, and 1 euro from 7pm to 7am (pages read on 21 October 2026). Quinconces P2 underground has a different scale of 1 hour free and 4 hours for 2 euros, and is free on Sundays 7am-2pm.",
+   "source_title": "Parking République au Mans - Cénovia Park",
+   "source_url": "https://www.cenoviapark.fr/parkings/republique/",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Station car parks are priced steeply for short stays: at Gare Nord and Gare Sud P1 the first 30 minutes are free, then 1 euro for 45 minutes rising to 14 euros for 4 hours and 46 euros for 12 hours (page read on 21 October 2026). Gare Sud P2 underground (269 spaces) is much cheaper at 1.50 euros for 1 hour and 7.50 euros for 4 hours, with weekend (26 euros) and holiday packages (42 to 79 euros) bookable 8 days ahead.",
+   "source_title": "Parking Gare Nord au Mans - Cénovia Park",
+   "source_url": "https://www.cenoviapark.fr/parkings/gare-nord/",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-11-17",
+   "text": "ICI Maine reported on 17 November 2025 that the city ran a poster campaign (about 150 posters at bus shelters), backed by Cénovia, for existing offers: first 30 minutes free in all car parks, first hour free and 4 hours for 2 euros at the underground Quinconces car park, a 'shopping + evening' offer of 3 euros from 3pm, and 1 euro from 7pm to 7am in city-centre car parks. A municipal councillor said Le Mans is the cheapest city in western France for centre parking, ahead of Tours, Angers or Nantes; Cénovia's director general said Quinconces is under-used. Shopkeepers were divided: one blamed roadworks for weak trade, one said spending power rather than access is the problem, and one said the car parks are poorly signposted.",
+   "source_title": "La ville du Mans promet des tarifs réduits sur ses parkings pendant les fêtes, mais ces offres existent toute l'année - ICI Maine",
+   "source_url": "https://www.francebleu.fr/emissions/l-info-d-ici-ici-maine/la-ville-du-mans-promet-des-tarifs-reduits-sur-ses-parkings-pendant-les-fetes-mais-ces-offres-existent-toute-l-annee-4038428",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-09",
+   "text": "Car traffic is regulated in the Cité Plantagenêt and on the central pedestrian plateau, and only residents and authorised users may enter (city page, last edited September 2026). In the central pedestrian area, residents and traders with a badge (a maximum of two badges per household), delivery drivers with a 'Livraison' ticket for up to 30 minutes between 5am and 11am, and other authorised users may enter. The Cité Plantagenêt itself is regulated for both traffic and parking, with access only for holders of a resident or circulation permit (macaron). The page gives about 5,000 vehicle entries a week into the pedestrian area (undated figure), and Place d'Alger has a protected perimeter from 10pm to 6am every day in which only residents may drive.",
+   "source_title": "Aires piétonnes - Ville du Mans",
+   "source_url": "https://www.lemans.fr/ma-ville/se-deplacer/aires-pietonnes",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "Cénovia Park launched Le Mans Parkings Partagés in 2024 (page read on 21 October 2026), an open platform for renting and letting private parking spaces, to add supply for residents of the Le Mans metropolis; the page also lists real-time parking information among its services.",
+   "source_title": "Stationnement et mobilité - Cénovia",
+   "source_url": "https://www.cenovia.fr/nos-expertises/stationnement-et-mobilite/",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "Cénovia Park lists 14 electric-vehicle charge points in its city-centre car parks: 4 at République, 4 at Quinconces P2, 2 each at Jacobins, Médiathèque and Gare Sud P2 (page read on 21 October 2026). Access is by badge, and the page gives both '5 car parks' and '6 car parks' in different places.",
+   "source_title": "Rechargez votre voiture électrique au Mans - Cénovia Park",
+   "source_url": "https://www.cenoviapark.fr/bornes-de-recharge-electrique/",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-09",
+   "text": "Le Mans Métropole's climate plan page (last edited September 2026) says 4,000 of the 130,000 light vehicles in the territory are electric, with about 400 charge points today against an estimated need of 2,000 in 2035. It sets a target of 1,000 public charge points by 2035 through a public service.",
+   "source_title": "Le plan climat-air-énergie - Le Mans Métropole",
+   "source_url": "https://www.lemansmetropole.fr/la-metropole/politique-de-la-ville/le-plan-climat-air-energie",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-09",
+   "text": "Two park-and-ride sites serve the tram network, Antarès and Université-Bartholdi, and a Setram season ticket includes parking in them (Le Mans Métropole page, last edited September 2026).",
+   "source_title": "Les transports en commun - Le Mans Métropole",
+   "source_url": "https://www.lemansmetropole.fr/mon-quotidien/deplacements-et-mobilite/transports-en-commun",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-09",
+   "text": "The Chronolignes programme rebuilds the three busiest bus lines, C4, C5 and C6, with 13 km of dedicated lanes still to be created (Le Mans Métropole project page, last edited September 2026). The C4 route is changed slightly so that it serves the railway station in both directions. The plan also turns Boulevard Nicolas-Cugnot from a two-by-two-lane 70 km/h ring road into a two-by-one-lane 50 km/h urban boulevard.",
+   "source_title": "Les Chronolignes - Le Mans Métropole",
+   "source_url": "https://www.lemansmetropole.fr/mon-quotidien/deplacements-et-mobilite/les-chronolignes/le-projet",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-06-10",
+   "text": "The first lengthened tram unit entered service on 10 June 2026, ahead of the 24 Heures du Mans, raising capacity per unit from 211 to 296 passengers (+40%); the other 33 units will be extended at about two a month until end 2027. The metropole president said big events at Stade Marie-Marvingt, Antarès Arena and the circuit could not be handled without the tram, and aims to restore pre-Covid ridership of about 30 million trips a year.",
+   "source_title": "Le tramway allongé arrive à l'heure - Ville du Mans",
+   "source_url": "https://www.lemans.fr/actualites/detail/le-tramway-allonge-arrive-a-lheure",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "For the 24 Heures du Mans the organiser's access page (read on 21 October 2026, text not dated) advises tram T1 to the terminus about 200 metres from the Porte Est, warns of dense traffic around the circuit and recommends park-and-ride sites at motorway exits with shuttles. Details of parking and shuttles for the next edition were not yet published on the pages read.",
+   "source_title": "Accès au circuit - 24 Heures du Mans",
+   "source_url": "https://www.24h-lemans.com/fr/infos-pratiques/acces-circuit/acces-au-circuit",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-09-23",
+   "text": "The Arsenal-Marais redevelopment, signed on 23 September 2026 (operational amendment to the partnership agreement), plans 700+ homes and a multi-storey car park ('parking silo') on 12 hectares of former military land near the centre. First land sales are planned from end 2027 and first demolitions in 2028, so it is a long-term project.",
+   "source_title": "Arsenal-Marais : une ambition partagée pour dessiner le futur quartier - Cénovia",
+   "source_url": "https://www.cenovia.fr/signature-avenant-arsenal-marais/",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "Le Mans Métropole's open-data page on data.gouv.fr (read on 21 October 2026) lists a 2026 cycle-parking dataset of 825 rows with coordinates, last updated 16 July 2026, under the ODbL licence.",
+   "source_title": "Stationnement cyclable 2026 (Le Mans Métropole) - data.gouv.fr",
+   "source_url": "https://www.data.gouv.fr/datasets/stationnement-cyclable-2026-le-mans-metropole",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Cénovia Park announced that its Halles car park would be closed from 16 July to 20 September (the notice text gives no year; the page metadata dates it 2026) for improvement and accessibility works, with reopening planned for 21 September and subscribers redirected to the Médiathèque car park. The operator lists 162 spaces for Halles and the city's page lists 240. On 21 October 2026 both the Halles page and the operator's home page still showed the car park as 'Fermé', a month after the planned reopening, with no explanation on the pages read.",
+   "source_title": "Fermeture temporaire du parking des Halles à partir du 16 juillet - Cénovia Park",
+   "source_url": "https://www.cenoviapark.fr/halles-ferme-aout/",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "Low-emission zone (ZFE) status for Le Mans Métropole: no official page or readable press article was found; a portal listing was not used as support.",
+  "Ouest-France, Le Maine Libre and maville.com returned 403 (Ouest-France group blocks automated access), so their parking, centre-ville traffic and council-vote coverage could not be read: https://www.ouest-france.fr/pays-de-la-loire/le-mans-72000/ and https://www.lemainelibre.fr/",
+  "lemans.fr and lemansmetropole.fr are JavaScript-only; their pages were read through the site's own public JSON content endpoint (www.lemans.fr/api/...), which returns the same page text. Source URLs given are the normal page addresses.",
+  "No council deliberation (conseil municipal or communautaire) on parking tariffs, the Cénovia delegation contract or its term was found, so tariff-setting dates and contract details are unknown.",
+  "Resident on-street parking: the city pages found cover only the Cité Plantagenêt badge scheme; no general resident-permit scheme or price was found.",
+  "Setram.fr pages and 24h-lemans.com 2026 shuttle and car-park pages gave no 2026-specific parking or park-and-ride details; Antarès park-and-ride capacity and tariffs were not found.",
+  "Car-park figures differ between sources (Halles 162 vs 240, Quinconces surface 398 vs 350, Filles-Dieu 164 vs 165); the operator figure was used where cited. Free-space counts on cenoviapark.fr are live values and were not recorded as facts."
+ ],
+ "dropped": {}
+}

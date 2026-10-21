@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Nota parkeerbeleid Deventer 2026 - Concept PDF (32 pp.; metadata: created 15 Apr 2026, last modified 23 Apr 2026). Cover reads 'Concept ten behoeve van zienswijzeprocedure, Versie 1.0, Ten behoeve van collegebehandeling'. Section 1.2 says the Parkeerbeleidsplan 2013, Nota Parkeernormen 2013 and Beleidsregels Parkeren 2015 'vervallen'/are withdrawn. Section 1.4 says the college will put the nota to the council for decision, so it is not adopted on its face. Item is worded as a consultation draft, with 'no source found shows adoption'. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Same PDF. p7: paid parking is the steering tool and blue zones are not used (also 3.3.1). p13: street tariffs kept higher than garages/hubs. p17: city-centre policy aims not to let the number of public ground-level spaces grow, extra supply at the edges. p14: zone centre max one permit per address. p5: nul-emissiezone for delivery/freight traffic given as an example of 'verschonen', in the points taken from the draft (ontwerp) Omgevingsvisie, no start date. All as stated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Same PDF, pp14-15. Current requirement of more than 50% resident support per street is named and the procedure for zones centrum and schil is to be changed. College may propose new/extended paid parking; Raad sets the tariff. Triggers: parking pressure above 85% at the decisive moment caused by spill-over, foreseen developments such as large-scale new building, and road-safety problems. Worded as 'under the draft', correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Page opened (undated). Says new parking-demand surveys and requests to introduce regulation are paused while the parking products are renewed, because street-by-street support measurement pushes pressure to neighbouring streets. Permit zones were extended on 1 Nov 2024 in Buitengracht and Voorstad-Oost. Page expects renewed products in Q1 2026 (stale: the April 2026 nota is still a draft). Date 2026-10 and 'read 21 October 2026, undated' are right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Posters PDF (modified 22 Apr 2026): timeline shows online response on concept wish-images 21-30 April 2026, definitive Omgevingsprogramma drawn up May-July 2026 and 'Vaststellen door college en raad' in August/September 2026. Poster 5 gives the 'Autoluw Deventer B&P Conceptdefinitie': inner city mainly for pedestrians, cyclists and public transport, car traffic allowed where needed but not dominant. Item matches and hedges the outcome.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "CVDR747547 (Geldend van 25-11-2025): signed 'vastgesteld in de openbare raadsvergadering van 12 november 2025'; levy starts 1 Jan 2026. Tariff table: zones 1 and 2 Binnenstad EUR 3.53/hour and day card EUR 25; zone 3 Singels EUR 3.00 and day card EUR 12.50; zone 10 De Worp EUR 1.00 per 24 hours (day card n.v.t.). Article 9: naheffing EUR 82. All as stated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Page (undated) says: 3 municipal garages Brink, Stadspoort, Stationsplein, open 24/7, owned by the municipality and managed by P1. Mon-Sat 07-19 EUR 1 per 27 min (EUR 2.24/h), 19-22 EUR 1 per 60 min, 22-07 EUR 0.50 per 60 min, daily maximum EUR 10. Garage parking in the centre is cheaper than street parking. Read date given in item. Matches. (Sunday has a different pattern, not claimed.)",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "MPP 2026 (B&W 21 Apr 2026; p13 and p18): five large contracts expire in 2027 (garage street/equipment management, garage cleaning, parking-machine service, agreement with the parking manager, enforcement equipment) and tendering must start in 2026. Annex 3 refers to 'beheerkosten van P1' under garage parking, and the garage page names P1 as manager. Annex 3 describes the PRIS signs as pointing to available places in municipal and private garages ('beschikbare plekken'; the item says free spaces, same meaning). Supported.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Tariff page: daytime 07-19 is EUR 1 per 27 minutes, but Saturday is EUR 1 per 25 minutes and Sunday EUR 1 per 26 minutes; the 27-minute rate is the weekday rate. Max EUR 12.00 per 24 h confirmed. Over-ons page (centrumgaragedeventer.nl/over-ons): founded 1978, a joint effort of city-centre entrepreneurs (middenstand), 575 spaces (27 electric, 500 free, 75 subscriptions), Op de Keizer 1. Municipal garage page lists Centrumgarage, De Boreel and Beestenmarkt as other garages. Only the day-rate wording is too general. (Note: the MPP shows the municipality holds a stake in NV Centrumgarage and receives a dividend, so 'separate garage' is true only in the sense of not municipally managed.)",
+   "corrected_text": "The Centrumgarage (Op de Keizer 1, 575 spaces) was founded in 1978 as a joint effort of city-centre retailers. Its tariff page (read 21 October 2026) shows EUR 1 per 27 minutes by day on weekdays (EUR 1 per 25 minutes on Saturday and per 26 minutes on Sunday), with a daily maximum of EUR 12, above the EUR 10 in the municipal garages. The municipality lists it, De Boreel and Beestenmarkt as other garages in Deventer.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Q-Park De Boreel page: 604 spaces, 10 disabled spaces, 21 charge points, opening hours 24-7 (Boreelplein 32). Q-Park P+R Handelskade page: 247 spaces, opening 24-7, OV Knooppunt, Q-Park branded. The discount is described as 'reizigerskorting': you make a domestic train journey, you check in at a different station than where you check out, and you leave the P+R site on the same day as your return train trip. The item's wording 'check out at a different station the same day' garbles this. Tariffs did not load on either page, so no discount amount is known. Item also lacks the read date for undated live pages.",
+   "corrected_text": "Q-Park's pages (read 21 October 2026) list De Boreel (604 spaces, 21 charge points, open 24/7) and P+R Handelskade (247 spaces, open 24/7). The P+R Handelskade page offers a rail-traveller discount for people who make a domestic train journey, check in at a different station from the one they check out at, and leave the P+R site on the same day as their return train trip. The discount amount is not shown because the tariffs did not load.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Page (2026 tariffs per calendar year): residents extended 24/7 EUR 794, night pass (17-10h) EUR 286, private persons (outside the zones) EUR 1,381, businesses extended Mon-Fri 24h EUR 2,150 (prices incl. 21% VAT; page note). Waiting list for all municipal garages stated. Uitgifteregels garageabonnementen 2024 (decision 14 Nov 2023, in force 1 Jan 2024): Brink 24/7 residents max 60. Matches. Caveat: the rules are the 2024 version linked from the 2026 page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Resident page (tariffs per calendar year 2026): Binnenstad EUR 362; Schilwijken EUR 177 (1st and 2nd); Buitencentrum EUR 96 (1st), EUR 221 (2nd). Business page: Binnenstad beperkt (Mon-Fri 07-19) EUR 776, uitgebreid (24h, Mon-Sun) EUR 1,000. Both also match the 2026 parking-tax ordinance table. The business figures are on a sister page (parkeervergunning-bedrijven), not the cited URL, but the source title covers both.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "MPP 2026 (B&W decision 21-04-2026, nota 2026-317) proposes that the council adopt the MPP; the text says an indexation of the parking tariff of 3.2% is 'voorgesteld', based on the CPB CEP 2026 (prices 2.7%, wages 3.7%, weighted average). Table 2.2 applies 3.2% to parking tax, permits and subscriptions for 2027. Council section: the parking(tax) ordinance is to be put to the council at the 2027 budget debate; any change is processed in MPP 2027. Item correctly says proposal.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "MPP annex 2.3 'Gerealiseerde parkeerexploitatie', row Garages (baten, short-term garage income): 2022 EUR 674,300; 2023 EUR 1,371,000; 2024 EUR 1,520,700; 2025 EUR 1,761,800. Total Baten 2025 EUR 7,156,500. Section 3.3: structural increase of income from 2027: Brinkgarage EUR 120,000, Stadspoortgarage EUR 25,000, Centrumgarage dividend EUR 30,000 (plus EUR 30,000 permits), because income has been structurally higher than budgeted. All figures match.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "MPP 2026 section 6.2 says that, because of the Topicus masterplan (described as vastgesteld), the public function of the Stationsplein garage will 'naar alle waarschijnlijkheid ... op den duur vervallen'; Verzetslaan land bought in 2025, to become a park once the temporary mobility hub at the NS P+R is built. Annex 1.4: 'Verwacht wordt dat Hub De Kien open gaat in 2028', Roto Smeets follows, each hub for visitors and resident overflow. No closing dates given. Item words these as expectations, correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "MPP section 6.1: Brinkgarage shares a grid connection with the vijzelgemaal (pumping station) and the shore-power supply, cannot be enlarged, utility waiting list expected to take several years; major maintenance of the gemaal in the Brinkgarage planned for 2027 with unclear impact on capacity; the access route may be moved from Emmastraat to Pothoofd. Polstraatgarage chargers at end of life; extra deployment against nuisance (homeless shelter opposite). All as stated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Scanauto page (undated): 'Sinds 1 juni 2026 rijdt er als proef ook een scanauto rond'; trial lasts one and a half years; enforcement officers check the situation on the street first; the fine ('parkeerbon') is sent by post, no longer under the wiper. Matches. MPP 2026 also says the trial runs through 2027.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "Page (undated, read 21 Oct 2026): charge points in parking garages Stadspoort, Stationsplein, Brink, Centrumgarage and De Boreel because of limited space and high street pressure; new public charge point requests are accepted only for locations not in the inner city (condition list); 11 spots under consideration and a feedback period 8 June to 17 July 2026 ('Het laatste onderzoek was in het voorjaar van 2026'). All claims are on the page, but the page is undated and the item text lacks the read date. Wording should also say the 11 spots were candidates for future posts and that the page still reads as if the consultation were open.",
+   "corrected_text": "The city's charge-point page (undated, read 21 October 2026) says charge points in the centre are in the Stadspoort, Stationsplein, Brink, Centrumgarage and De Boreel garages. A condition for a resident's request for a new public charge point is that the location is not in the inner city. The page lists 11 candidate locations for future charge points and invited comments from 8 June to 17 July 2026.",
+   "corrected_title": null,
+   "corrected_date": "2026-10"
+  }
+ ],
+ "corrected_summary": "Deventer runs paid parking itself. Since 1 January 2026 street parking costs 3.53 euros per hour in the inner city, with a 25 euro day card. The three municipal garages (Brink, Stadspoort, Stationsplein, managed by P1) charge about 2.24 euros per hour on weekdays by day and cap at 10 euros a day, while private garages such as the Centrumgarage (12 euro cap) and Q-Park's De Boreel are alternatives. All municipal garages have subscription waiting lists, and income from short-term garage parking rose to about 1.76 million euros in 2025. A consultation draft of a new parking nota and parking norms from April 2026 (no council adoption found) would replace the 2013 and 2015 parking policy, aim not to let ground-level spaces in the centre grow, ease the introduction of paid zones in the surrounding shell, and steer visitor and some resident parking to garages and edge hubs. In its April 2026 multi-year parking outlook the college proposes a 3.2 percent tariff increase for 2027 and expects hub De Kien to open in 2028, followed by Roto Smeets; it says the Stationsplein garage will probably lose its public function over time because of the Topicus masterplan. A scan car has been running as an 18-month trial on street payment checks since 1 June 2026."
+}

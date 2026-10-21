@@ -1,0 +1,161 @@
+{
+  "country": "France",
+  "city": "Cassis",
+  "researched": "2026-10-21",
+  "summary": "Cassis (Aix-Marseille-Provence Metropole) charges for parking every day of the year, both on street and in its five town-centre car parks run by Interparking. Those car parks give a short free period at some sites, charge about 4.20 EUR for 2 hours in high season (1 April-30 September) and up to 27.50 EUR a day, and offer about 54 charging spaces in total. Parking in the centre saturates in summer, so the town and the Calanques National Park both steer visitors to the free Gorguettes park-and-ride (235 spaces) with a paid shuttle at about 1.60-1.70 EUR return and, in season, a shuttle to the Presqu'ile and Port-Miou. The shuttle network was reorganised in July 2025, and the park strongly discourages driving to Port-Miou. Residents can buy a 25 EUR annual street badge. Most pages are live and undated, so the dates reflect the 21 October 2026 reading.",
+  "items": [
+    {
+      "topic": "regulation",
+      "date": "2026-10",
+      "text": "Street and car-park parking in Cassis is paid every day of the year. The red zone (Parking Savon) is paid 7am-7pm, limited to 3 hours a day, with 2 hours free for residents' badges; the orange street zone is paid 9am-7pm. The unpaid-parking charge (FPS) is 25 EUR for the red zone and 35 EUR a day for the orange zone; residents with a Cassis address can buy an annual street-parking badge for 25 EUR. (page read on 21 October 2026).",
+      "source_title": "Les stationnements et forfaits post-stationnement (Ville de Cassis)",
+      "source_url": "https://www.cassis.fr/gerer-mon-quotidien/transports-et-stationnements/les-stationnements-et-forfaits-post-stationnement",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-10",
+      "text": "Interparking's website lists five car parks in Cassis that it runs: Viguerie (293 spaces), Mimosas (404), Madie (150), Bestouan (117) and Daudet (89), all open 24/7 with a 1.9 m height limit. The town and tourist-office pages give slightly different capacities for some (Viguerie 299, Madie 167). (page read on 21 October 2026).",
+      "source_title": "Parking Mimosas Cassis (Interparking)",
+      "source_url": "https://www.interparking.fr/fr/parkings/cassis/parking-mimosas/",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-10",
+      "text": "At Viguerie and Mimosas the first 60 minutes are free. In high season (1 April-30 September) 2 hours cost 4.20 EUR, 3 hours 6.60 EUR and a day 27.50 EUR; in low season (1 October-31 March) 3.00, 5.40 and 26.40 EUR. Pcard+ holders pay about 30% less (2.94 EUR for 2 hours in high season). (page read on 21 October 2026).",
+      "source_title": "Parking Viguerie Cassis (Interparking)",
+      "source_url": "https://www.interparking.fr/fr/parkings/cassis/viguerie/",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-10",
+      "text": "Madie and Bestouan charge from the first 15 minutes. In high season it is 1.80 EUR for 1 hour, 4.20 EUR for 2 hours and 27.50 EUR for a day; in low season 1.40 EUR, 2.50 EUR and 12.00 EUR. (page read on 21 October 2026).",
+      "source_title": "Parking Madie Cassis (Interparking)",
+      "source_url": "https://www.interparking.fr/fr/parkings/cassis/madie/",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-10",
+      "text": "Daudet gives the first 30 minutes free in high season (1 hour 1.80 EUR, 2 hours 4.20 EUR, a day 27.50 EUR). In low season the first 2 hours are free, then 4.10 EUR for 3 hours and 12.00 EUR for a day. (page read on 21 October 2026).",
+      "source_title": "Parking Daudet Cassis (Interparking)",
+      "source_url": "https://www.interparking.fr/fr/parkings/cassis/daudet/",
+      "confidence": "high"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-10",
+      "text": "Interparking sells online passes for its Cassis car parks at 27.50 EUR for 1 day, 41 EUR for 3 days, 81 EUR for 7 days, 225 EUR for 15 days and 495 EUR for 30 days. A car subscription at Viguerie is 65 EUR a month, 183 EUR for 3 months and 730 EUR a year; at Mimosas 70, 198 and 795 EUR. (page read on 21 October 2026).",
+      "source_title": "Parking Mimosas Cassis (Interparking)",
+      "source_url": "https://www.interparking.fr/fr/parkings/cassis/parking-mimosas/",
+      "confidence": "high"
+    },
+    {
+      "topic": "ev",
+      "date": "2026-10",
+      "text": "The tourist office lists charging spaces in the town-centre car parks: Viguerie 16, Mimosas 20, Madie 8, Daudet 6 and Bestouan 4, plus charging spaces at Parking Savon. Interparking shows the Bestouan (4 points) and Daudet (6 points) chargers as 7 kW and 2.3 kW, operated by Interparking France. (page read on 21 October 2026).",
+      "source_title": "Parking in Cassis (Cassis Tourisme)",
+      "source_url": "https://www.ot-cassis.com/en/practical-info/parking-parking/",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-10",
+      "text": "The town says the car parks in the centre are often saturated and advises following signs to the Gorguettes park-and-ride (235 spaces, free parking). A municipal agent is on site to inform users and regulate the shuttles. (page read on 21 October 2026).",
+      "source_title": "Les navettes Parking relais des Gorguettes (Ville de Cassis)",
+      "source_url": "https://www.cassis.fr/gerer-mon-quotidien/transports-et-stationnements/les-navettes-parking-relais-des-gorguettes",
+      "confidence": "high"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-10",
+      "text": "The tourist office says the town centre saturates quickly in high season and advises avoiding the 11am-3pm summer rush. It states that using Gorguettes saves up to 30 minutes of searching for a space. (page read on 21 October 2026).",
+      "source_title": "Parking in Cassis (Cassis Tourisme)",
+      "source_url": "https://www.ot-cassis.com/en/practical-info/parking-parking/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-10",
+      "text": "Town page on the Gorguettes shuttles: line 372 to the centre runs from 9am to midnight every day in July-August and from 9am to 8pm at weekends, school holidays and bank holidays in spring, September and (to 11 November) October. Seasonal line 373 serves Bestouan, Presqu'ile and Calanques (July-August 9am-8pm daily). Fare 1.60 EUR return; the tourist office instead states 1.70 EUR return (0.80 EUR a single on a rechargeable ticket), so the fare is inconsistent between sources. (page read on 21 October 2026).",
+      "source_title": "Les navettes Parking relais des Gorguettes (Ville de Cassis)",
+      "source_url": "https://www.cassis.fr/gerer-mon-quotidien/transports-et-stationnements/les-navettes-parking-relais-des-gorguettes",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-10",
+      "text": "The Calanques National Park says parking in Cassis is very difficult and strongly advises alternatives to the car. It advises against driving into the centre or to the Presqu'ile car park, especially in summer, and recommends the free Gorguettes park-and-ride plus the shuttle to the park entrance at Port-Miou. (page read on 21 October 2026).",
+      "source_title": "Au depart de Cassis (Parc national des Calanques)",
+      "source_url": "https://calanques-parcnational.fr/fr/venir-aux-calanques-de-cassis",
+      "confidence": "high"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-10",
+      "text": "The tourist office describes the Presqu'ile car park as having 400 spaces, charged in high season and about a 10-minute walk from Port-Miou. The other town car parks are 15-40 minutes' walk from Port-Miou. (page read on 21 October 2026).",
+      "source_title": "Parking in Cassis (Cassis Tourisme)",
+      "source_url": "https://www.ot-cassis.com/en/practical-info/parking-parking/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-10",
+      "text": "The tourist office says Calanques park access is restricted from 1 June to 30 September because of fire risk, with a daily colour map: red means no access on foot or by vehicle. It says the roads to Sormiou, Morgiou and Callelongue (in Marseille) are closed to motor traffic, and that offences carry fines of up to 750 EUR. (page read on 21 October 2026).",
+      "source_title": "Access regulations: Calanques and Massifs (Cassis Tourisme)",
+      "source_url": "https://www.ot-cassis.com/en/practical-info/access-regulations-calanques-and-massifs/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "technology",
+      "date": "2025-07-07",
+      "text": "At a press conference on 7 July 2025 the Metropole presented a reorganised Cassis bus network. Shuttle 372 (Gorguettes-centre) runs every 15 minutes and until midnight in summer, and seasonal shuttle 373 serves the Presqu'ile every 15-30 minutes. The new lines were due to launch on 14 July 2025, with 3 new electric minibuses, to cut car use and congestion.",
+      "source_title": "Conference de presse Cassis, 7 juillet 2025 (Metropole, hosted by Ville de Cassis)",
+      "source_url": "https://www.cassis.fr/sites/default/files/upload-files/CP%20pr%C3%A9sentation%20Cassis%2007.07.25%20vdef.pdf",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-08",
+      "text": "Casino Barriere entrance works run from 24 August to 30 November 2026 (as announced by the town). The Casino car park is entered via the service entrance on avenue Leriche, the market traders move to the Poste car park on market nights, and free parking for residents at the Casino car park continues until noon (14:00 on Wednesdays and Fridays).",
+      "source_title": "Travaux au Casino : modification temporaire de l'acces et du stationnement (Ville de Cassis)",
+      "source_url": "https://www.cassis.fr/actualites/travaux-au-casino-modification-temporaire-de-lacces-et-du-stationnement-0",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-10-25",
+      "text": "For the Marseille-Cassis race on Sunday 25 October 2026 the town announced that Gorguettes would be open for parking from Friday 23 October but closed to exits from 7:45 to 14:00, with no 372 shuttle that day. Parking outside the town-centre car parks, other than on a stretch of the Carnoux road, would be banned and towed.",
+      "source_title": "47eme Marseille-Cassis / AG2R La Mondiale, dimanche 25 octobre (Ville de Cassis)",
+      "source_url": "https://www.cassis.fr/actualites/47eme-marseille-cassis-ag2r-la-mondiale-dimanche-25-octobre",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-09-01",
+      "text": "A 1,500 m3 water reservoir under construction by the Metropole disrupts access and traffic in the Port-Miou sector until June 2027, according to the Calanques National Park (notice of 1 September 2026, which extends an October 2025 notice that said June 2026). It sets diversions for walkers and closes the cycle track between the Auberge de la Fontasse and Port-Miou.",
+      "source_title": "Chantier du reservoir d'eau de Cassis : acces au secteur Port-Miou perturbe (Parc national des Calanques)",
+      "source_url": "https://www.calanques-parcnational.fr/actualites/chantier-du-reservoir-deau-de-cassis-acces-au-secteur-port-miou-perturbe-0",
+      "confidence": "high"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-10",
+      "text": "The town lists a summer evening Port-Miou - town-centre shuttle for 1 July-31 August, 8pm to midnight daily, at 2 EUR return, with booking through the Port-Miou harbour office. (page read on 21 October 2026).",
+      "source_title": "Navette touristique Port-Miou (Ville de Cassis)",
+      "source_url": "https://www.cassis.fr/gerer-mon-quotidien/transports-et-stationnements/navette-touristique-port-miou",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "https://deliberations.ampmetropole.fr/ (Metropole council archive, including the 2024 amendment to the Cassis car-park delegation contract and the 2025 local mobility plan action table): host unreachable (connection refused or timed out), so contract terms, term dates and the resident ('cassidain') subscription rules could not be read.",
+    "Current contract holder and term: the Interparking pages show Interparking as operator, but the delegation contract (older sources name Effia) could not be read, so no contract statement is recorded.",
+    "No recent local press (La Provence, actu.fr, ICI Provence) article on Cassis parking, summer saturation or Calanques parking rules was found in search results, so there are no press-based usage statements or counts.",
+    "Presqu'ile car park tariff and Port-Miou parking rules: no official price found; only the tourist-office statement that it is charged in high season.",
+    "Resident parking in the car parks (Cassis subscription conditions) and the Parking Savon and Casino car-park tariffs: not found on pages that could be opened.",
+    "Route des Crêtes shuttle on the tourist-office page carries 2025 dates (27 April-28 September), so it was not used.",
+    "Browser pane tab could not be created; all pages were fetched with curl and read as text."
+  ]
+}

@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Overview page https://www.breda.nl/parkeergarages (undated) lists the same tariff for all five garages: 0.59 per 15 min, 2.36 per 60 min, 14 per 24 h, evening maximum 5.50 between 18.00 and 09.00 the next day. The Holland Casino sentence is not on the overview page but is on the separate Chasse Parking page (breda.nl/parkeergarage-chasse-parking): 'Vanaf 1 september 2026 vervalt het kortingstarief voor bezoekers van Holland Casino', so the text 'the Chasse page adds' is accurate. As of 21 Oct 2026 that date has passed, so the discount has ended per the page; 'ends on' is acceptable but 'ended on' would be cleaner. Source title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "The cited Oranje Zuid page shows 438 spaces, hours Mon-Wed 7.00-23.00, Thu-Sat 7.00-1.00, Sun 7.00-23.00, entry height 1.80 m. The other four space counts are not on this page but I confirmed them on the sibling breda.nl garage pages: Barones 510, Chasse Parking 620, Het Turfschip 600, De Prins 470; sum 2,638 is correct. Other four garages are open 24/7, so the 'not open round the clock' remark is right for Oranje Zuid only. Consider adding the sibling garage URLs as sources. Topic 'demand' is a loose label (this is capacity, not demand).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Ordinance text (CVDR750745, 'Verordening parkeerbelastingen Breda 2026', council decision 11 Dec 2025): Centrumzone 2.70 per hour (inside the singels and the Spoorbuurt), Singelzone 1.80 per hour, Gasthuisvelden/Arsenaalpad 4.00 per day, 35.00 day rate in areas designated by the college, post-assessment (naheffing) 57.40. All correct. But the page says the ordinance enters into force on the day after publication ('Geldend van 19-12-2025 t/m heden') while Article 12(2) sets the date from which the levy applies as 1 January 2026. So the tariffs are charged from 1 January 2026, not 19 December 2025. Text also calls the 57.40 a 'fine surcharge'; it is the cost of the naheffingsaanslag (additional assessment).",
+   "corrected_text": "The council's 2026 parking-tax ordinance (council decision of 11 December 2025; in force from 19 December 2025, with the levy applying from 1 January 2026) sets on-street parking at EUR 2.70 per hour in the Centrumzone (inside the singels and the Spoorbuurt) and EUR 1.80 in the Singelzone. The Gasthuisvelden/Arsenaalpad car park is EUR 4 per day, a EUR 35 day rate can be set in areas designated by the municipal executive, and the cost of a parking-fine assessment (naheffingsaanslag) is EUR 57.40.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Omroep Brabant, 10 Jan 2025 (edited 8 Sep 2025): from 1 January two zones, inside and outside the singels (2.70 and 1.80 per hour, 'op dit moment van kracht'); paid parking soon to come in neighbourhoods around Slingerweg, Haagpoort, part of Heuvel, then Doornbos, part of Boeimeer and finally Tuinzigt; Nonnenveld becomes resident parking with 35 euro from the first minute. Matches the text. It is a secondary (regional broadcaster) source, but the two-zone structure and tariffs are corroborated by the ordinance (item 2). 'Would soon' is correctly worded as of the article date; the city's street-parking page (item 4) now already lists Haagpoort and Doornbos as paid areas, while Tuinzigt-Slingerweg is delayed to 1 March 2027 (item 14).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "City page 'Op straat parkeren' (undated): Centrumzone 2.70 and Singelzone 1.80 per hour. Areas 1301-1305 (Spoorbuurt, Sophiastraat, Nonnenveld, Gerardus Majella, Middellaan) Mon-Sat 9.00-1.00, Sun 12.00-1.00; outer areas incl. Haagpoort, Doornbos, Boeimeer, Belcrum Mon-Sat 9.00-22.00, Sun 12.00-18.00; Nonnenveld 'je betaalt hier het dagtarief'. All as stated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Omroep Brabant 28 Feb 2023 (edited 4 Nov 2025): garages 12 to 14 cents per hour cheaper 'per direct'; dearest now 2.36, was 2.50; free street period around the centre now half an hour, was a quarter; spokesperson says visitors preferably use garages and commercial Q-Park garages in the centre limit how far to cut. All matches and dated as 2023. Single secondary source but the 2.36 is corroborated by the city's own pages.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "Interparking news page dated 14/04/2026: 'From 1 July 2026, Interparking Nederland will manage five parking locations' (De Prins, Barones, Oranje Zuid, Het Turfschip, Chasse Parking), together 2,655 spaces; scope as listed (on-site and remote management, supervision, control, hospitality, maintenance of parking management systems, resolving malfunctions, intercom calls). The page was written before the start date and is future tense ('will manage'); the draft's 'manages' reads as a fact in force. The page does not confirm the handover happened. The summary's 'Since 1 July 2026 Interparking manages' should likewise be softened. The 2,655 vs 2,638 gap is noted by the researcher.",
+   "corrected_text": "Interparking announced on 14 April 2026 that from 1 July 2026 it will manage the five municipal Breda garages (De Prins, Barones, Oranje Zuid, Het Turfschip, Chasse Parking), which it puts at 2,655 spaces in total. The announced scope covers on-site and remote supervision, control and hospitality services, maintenance of the parking management systems, resolving malfunctions and handling intercom calls. The page does not itself confirm that the handover has taken place.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Subscription page (undated): number plate recognition in the garages, subscription usable once plate is registered; office EUR 55 per month (Mon-Fri 6.00-18.00, one fixed garage, no guaranteed space), full-week EUR 111.30, night EUR 38.70 (7 days 19.00-9.00), resident EUR 50. But the resident subscription is only available 'voor een aantal adressen van het appartementencomplex Het Turfschip en De Prins' and only via the P-loket, not to residents generally. 'Het Turfschip and De Prins only' therefore overstates reach if read as all residents.",
+   "corrected_text": "The municipal garages use number plate recognition: a subscription works once the plate is registered. The city sells office (EUR 55 per month, Mon-Fri 06:00-18:00, one fixed garage, no guaranteed space), full-week (EUR 111.30 per month), night (EUR 38.70 per month, 19:00-09:00) and resident subscriptions (EUR 50 per month, only for certain addresses in the Het Turfschip and De Prins apartment complexes, applied for through the city's P-loket). Page read on 21 October 2026.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "The cited Chasseveld page confirms 653 spaces, EUR 2.70 per hour with no daily maximum, about 10 weeks of event closures a year, autumn fair closure 13 Oct 7.00 to 28 Oct 7.00 2026, permit holders then use Gasthuisvelden and Arsenaalpad. Other two sites are on sibling pages I opened: Beyerd-Vlaszak 365 spaces, 2.70 per hour, no daily maximum; Gasthuisvelden en Arsenaalpad 335 spaces, 1.80 per hour, one day 4 euro. All correct. Consider adding the sibling URLs. Note the lot is closed on the read date (21 Oct 2026) for the fair.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Q-Park Breda page lists three facilities: Centrum (Markendaalseweg 62), P+R Station (Stationslaan), P+R Stationsweg. Detail pages (q-park.nl/en-gb/parking/breda/centrum, pr-station, pr-stationsweg) show 360 spaces and 18 charging points at Centrum, 720 at P+R Station, 89 at P+R Stationsweg, and 'No tariffs available online' for each. Overview shows 'Cheap parking Breda centre from EUR 19.50 per day' with plate-based entry (the page title says 'from 17,50', a small inconsistency on Q-Park's side). Statement that these are the only Q-Park sites is as listed on the page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Cited Laadpaal page: public charge point request for owners of an electric car without private parking, normally within 300 m of the address, normally placed within 16 weeks, 2 sockets and 2 reserved spaces per post, free of charge. The 40 garage charging points are not on this page but on the garage pages I opened: Barones 10, Chasse 10, Oranje Zuid 4, Het Turfschip 12, De Prins 4 (total 40), all 50five, 'alleen met een oplaadpas en niet via creditcard'. Correct. Consider adding the garage URLs as sources.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Permit page: first permit free; second EUR 96 per year (but free for addresses with own parking, POET); third and fourth EUR 359.40 per year; waiting lists in areas 1303 Nonnenveld and 1305 Middellaan (both incl. stadshart); banner 'Vanaf 1 januari 2027 geldt voor heel Breda dat de 2e parkeervergunning gratis wordt'. The monthly figures (8.00; 29.95) are not on this page but are in the 2026 ordinance tariff table (item 2) and equal 96/12 and 359.40/12, so the text is correct. The 2027 change is correctly dated as a future date. Nuance: the second permit is already free for addresses with own parking or who could not have had it.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Coalition agreement PDF (45 pages read): free second permit costed at EUR 0.26 million per year; speed limit on roads within the singels to 30 km/h; Prinsenkade cycle street from Rozemarijnstraat up to and including the junction with Adriaan van Bergenstraat, 'autoluwe Prinsenkade', EUR 1 million. All worded as intentions. However the document does not say the council 'adopted' it: its title says 'na raadsbesluit 2 juli 2026' (after the council decision of 2 July 2026), and the text mentions an amendment ('dieren welzijn') but no adoption statement. Also the agreement does not itself give a start year for the free second permit; the '2027' comes from the city permit page. The document is a coalition programme (a political plan, not law).",
+   "corrected_text": "The 2026-2030 coalition agreement 'Breda Durft, Breda Doet' (version after the council decision of 2 July 2026) plans to make the second resident parking permit free (costed at EUR 0.26 million per year) and to lower the maximum speed on roads inside the singels to 30 km/h. It also plans a car-light Prinsenkade, with a cycle street from the Rozemarijnstraat to the junction with the Adriaan van Bergenstraat. These are plans of the coalition, not decided measures.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Same PDF: mobility hub on the edge of the centre for parking, shared mobility and transfer, EUR 2 million investment and EUR 0.5 million per year operating cost (also in financial tables: Mobiliteitshub 1,000+1,000 in the investment plan, -0.50 per year); EUR 5.5 million to refurbish parking garage Oranje Zuid (investment table 135+765+4,550 = about 5.45 million); parking route information system 'in totaal EUR 4 miljoen' (400+1,800+1,200+600); a parking garage on the Gasthuisvelden on sites still to be vacated by Defence ('nog vrij te komen locaties van Defensie'). Worded as a plan in the text, as it should be.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "City page (undated): 'Uitstel betaald parkeren: de invoering verschuift naar 1 maart 2027, zodat direct kan worden aangesloten op het nieuwe parkeerbeleid waarbij ook de tweede bewonersvergunning gratis is.' FAQ: introduction date is 1 March 2027 because of a parking policy change on 1 January 2027 from which first and second resident permits are free; counts show spaces almost fully occupied at many times; Westerpark: paid parking requires a decision of council and college, not taken because of the transition to a new council; officials prepare advice recommending designation. Corrections: the draft says paid parking 'starts together with' the free second permit, but the dates differ (permit change 1 January 2027, paid parking 1 March 2027, so residents can use the free permits from the start). Paid parking in Tuinzigt-Slingerweg is not yet in force; wording should say it is scheduled.",
+   "corrected_text": "Paid parking in the Tuinzigt-Slingerweg neighbourhood is not yet in force. The city's page says its introduction has been postponed to 1 March 2027, so that it follows the parking policy change of 1 January 2027, from which the second resident permit is also free and residents can use it from the start. The city says its parking counts showed the available spaces almost fully occupied at many times. It notes that paid parking in Westerpark, where pressure is rising, would first need a decision by the council and the municipal executive, and that no such decision has been taken. Page read on 21 October 2026.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Page (undated): Havenkwartier is a car-light area ('autoluw'); 'Er komt een Parkeerhub aan het Steenen Hoofd'; hub not ready, until then permit holders park at a temporary lot at Veilingkade (no. 15); 29 permits available for De Blikvanger, distributed by the housing corporation by lottery. Matches. Minor: lottery is run by the housing corporation, not the city. Topic label 'demand' is loose.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Page (undated): pedestrian area open to all Mon, Tue, Wed, Fri, Sat 7.00-11.00 and 17.00-19.00 and Thu 7.00-11.00; exemption otherwise: annual 64.10, day exemption 26.14 (three-month exemption also 64.10); enforced by cameras with a traffic fine. As stated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "City ZES page (undated): 'Vanaf 1 januari 2029 geldt er een zero-emissiezone in Breda'; today's milieuzone within the singels bars trucks of emission class 0 to 5 (without exemption); cars and vans allowed; from 2029 only fully emission-free vans and trucks (categories N1-N3, business vehicles), passenger cars still allowed; many trucks may still enter until 1 January 2030, plug-in hybrid trucks may get exemption until then. Corrections: the page does not say 'diesel' trucks for the current zone (it says trucks of emission class 0 to 5); and the 2029 zone is a future date and should be worded as planned/scheduled.",
+   "corrected_text": "Inside the singels Breda currently has a low-emission zone that bars trucks of emission class 0 to 5 without exemption, while passenger cars and vans may enter. The city says that from 1 January 2029 this becomes a zero-emission zone for business vans and trucks: only fully emission-free ones may then enter, with transitional rules (many trucks may still enter until 1 January 2030). Passenger cars are not restricted. The zone is scheduled, not yet in force. Page read on 21 October 2026.",
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Breda runs five municipal garages (Barones, Chasse Parking, Oranje Zuid, Het Turfschip, De Prins; 2,638 spaces on the city's own pages, 2,655 according to Interparking) with one common tariff of EUR 2.36 per hour, EUR 14 per 24 hours and an evening maximum of EUR 5.50, set below centre street parking at EUR 2.70 per hour (EUR 1.80 outside the singels, under the 2026 ordinance whose levy applies from 1 January 2026). Interparking announced in April 2026 that it will manage the five garages from 1 July 2026; the page does not confirm the handover itself. Q-Park runs three commercial sites (Centrum and two station-side P+R sites) and publishes no tariffs online. Street parking has been simplified into two zones since January 2025, and paid parking has been spreading into residential districts; in Tuinzigt-Slingerweg it is not yet in force and is scheduled for 1 March 2027. The city's permit page says the second resident permit becomes free across Breda from 1 January 2027. The coalition agreement 2026-2030 (version after the council decision of 2 July 2026) contains plans, not decided measures: a free second permit, a 30 km/h limit inside the singels, a mobility hub at the edge of the centre (EUR 2 million investment), EUR 5.5 million to refurbish Oranje Zuid, EUR 4 million for a parking route information system and a garage on the Gasthuisvelden. A zero-emission zone for business vans and trucks inside the singels is scheduled from 1 January 2029. No occupancy figures for the garages were found, and a P+R at Prinsenbeek could not be confirmed from any source."
+}

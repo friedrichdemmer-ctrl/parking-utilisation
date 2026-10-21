@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Ordinance (Gemeenteblad 2025, 500633; published 21-11-2025; adopted at the council meeting of 12 November 2025; levy starts 1 January 2026) confirms Binnenstad 5.00 euro per hour, Mon-Sat 09:00-24:00 and Sun 12:00-17:00, and 4.50 per hour in Hortusbuurt, Oranjewijk, Zeeheldenbuurt etc. (also Schildersbuurt, Rivierenbuurt, Grunobuurt/Laanhuizen, Meeuwen/Oosterpoort, Kop van Oost; Mon-Sat 09:00-24:00). WRONG: the '2.50 euro per 30 minutes' belongs to the Stationsplein line (point 2), not to the Binnenstad, whose line is 5.00 per hour for parking equipment 'suitable for 1 hour at a time'. Title matches.",
+   "corrected_text": "The council adopted the 2026 parking-tax ordinance on 12 November 2025, with the levy starting on 1 January 2026. Binnenstad street parking is 5.00 euro per hour, Mon-Sat 09:00-24:00 and Sunday 12:00-17:00; the inner ring of districts (for example Oranjewijk, Hortusbuurt, Zeeheldenbuurt) is 4.50 euro per hour.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "Tariff page (read 21 Oct 2026, heading '2026') confirms 4.50/h in De Hoogte, Korrewegwijk, Oosterparkwijk (Mon-Sat 09:00-19:00, Sun 12:00-17:00), 2.70/h in the outer areas (Stadspark is Mon-Fri only; De Linie Mon-Sun 09:00-24:00; Haren Centrum Mon-Sat 09:00-18:00), and 0.50 euro for the first 1.5 hours at the neighbourhood-centre terrains Overwinningsplein, Van Lenneplaan, Helperplein, Selwerd. NOT on this page: 'Martiniplaza capped at 18 euro per day' and 'Stationsplein 2.50 per 30 minutes' (the ordinance has a Stationsplein line and an Expositielaan/Leonard Springerlaan 18 euro day maximum, but neither names Martiniplaza and neither is on the cited page). Both removed. Page is undated, so date 2026-10.",
+   "corrected_text": "Page read on 21 October 2026 (2026 tariffs). Street parking is 4.50 euro per hour in De Hoogte, Korrewegwijk and Oosterparkwijk (Mon-Sat 09:00-19:00, Sunday 12:00-17:00) and 2.70 euro per hour in outer districts such as Stadspark (Mon-Fri), De Linie and Haren Centrum; the neighbourhood-centre car parks (Overwinningsplein, Van Lenneplaan, Helperplein, Selwerd) charge 0.50 euro for the first 1.5 hours.",
+   "corrected_title": null,
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "All prices match the ordinance's tariff table: 394.20 (first zone/Binnenstad), 135.05 (second zone), extra second-zone permit 408.80, 62.05 (zones 3-5), extra 178.85. Not in the cited ordinance: 'no second permit' in the Binnenstad (that comes from the tariff page 'nee' and the implementing rules art. 4(2); the ordinance simply has no extra-permit line for it) and 'a fifth zone for Haren' (the ordinance only defines first to fifth zone; the implementing rules in force from 1 Jan 2026 put only 'Haren Vergunninghouders' in the fifth zone, while Haren Centrum and Voorhorst are second zone). Also the extra permit exists only where a second permit is allowed per address, not in every second-zone area (tariff page: 'nee' for e.g. Oranjewijk, Zeeheldenbuurt).",
+   "corrected_text": "Resident permits in the 2026 tariff table cost 394.20 euro a year in the first zone (Binnenstad), 135.05 euro in the second zone (extra permit for an address that already has one: 408.80 euro) and 62.05 euro in zones 3 to 5 (extra permit 178.85 euro). The ordinance defines five zones, first to fifth.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Cited URL is CVDR731530/1, a superseded version valid only 1 Jan 2025 (version history: /2 to 31-03-2025, /3 to 31-05-2025, /4 from 1-6-2025; current version valid from 01-01-2026). On /1: cap 100% of pay-parking spaces with waiting list (art. 3(3)-(4)), no permits for addresses created after 4 Feb 2022 (art. 3(1)), visitor permit starts with 150 hours (art. 7(2)), decided by the executive on 12 Nov 2024: all correct for that version. But the rules in force today (read 21 Oct 2026) differ: the address rule now has exceptions (house splits, BAG corrections, conversions), covers 'residents and/or users', space counts are recalibrated in March and October, and waiting-list conditions were added. 'Cannot get' is therefore too strong for 2026. Recommend source_url https://lokaleregelgeving.overheid.nl/CVDR731530 (current version).",
+   "corrected_text": "Under the implementing rules of the 2025 parking ordinance (originally decided by the executive on 12 November 2024; consolidated version in force from 1 January 2026, read on 21 October 2026), resident permits per parking area are capped at 100% of the pay-parking spaces (the count is recalibrated in March and October), with a waiting list in order of application once the cap is reached. Residents and users of an address created after 4 February 2022 cannot get a resident, business, visitor or carer permit, with exceptions such as certain house splits, and the visitor permit starts with 150 hours.",
+   "corrected_title": null,
+   "corrected_date": "2026-01"
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "On the cited (January 2025) version: art. 2 says 'Met ingang van 1 april 2025' Oranjebuurt+Noorderplantsoenbuurt become Oranjewijk, Rivierenbuurt+Herewegbuurt become Rivierenbuurt, also Zeeheldenbuurt, Korrewegwijk, Helpman; art. 25 says the laadvergunning applies from 1 April 2025 and the gedeelde parkeervergunning from 1 June 2025. The page is a pre-event text (rules as decided 12 Nov 2024), but later consolidated versions (/3 from 1-4-2025, /4 from 1-6-2025, current from 1-1-2026) and the 2026 tariff page use the merged names and list both permits, so the dates stand. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "Principles confirmed: streets are for everyone; more room for greenery, play, meeting and cycling, parking gets less space; earning money is not the aim. WRONG reason for fewer pay machines: the page says fewer machines are placed because residents and visitors mostly park with a permit, and those who pay by the hour usually use an app; machines remain only where many short-stay parkers are (shopping centres, GPs, care homes). Page undated; date 2026-10 correct.",
+   "corrected_text": "Page read on 21 October 2026. The city's stated parking principles include: streets are for everyone, more room for greenery, play, meeting and cycling means parking gets less room, and earning money is not the aim. It is installing fewer pay machines because residents and visitors mostly park with a permit and those who pay by the hour mostly use an app; machines stay only where many short-stay parkers are, such as shopping centres, GPs and care homes.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "Page confirms: zone for vans and trucks inside the Diepenring, Westerhaven and Sledemennerbuurt; emission-free (electric/hydrogen) required; vehicles registered after 1 January 2025 must comply directly; transition for existing vehicles until 2030 at the latest, via an exemption; cameras check plates automatically; fines 120 (van) and 310 (truck); passenger cars not affected. NOT on the page (nor on the sibling exemption page): 'since 1 April 2025'. The page is undated and does not give a start date, so the claim is dropped. Date set to 2026-10 (page read 21 Oct 2026).",
+   "corrected_text": "Page read on 21 October 2026. A zero-emission zone for vans and trucks applies inside the Diepenring, Westerhaven and Sledemennerbuurt: vehicles entering must be emission-free (electric or hydrogen). New vehicles (registered after 1 January 2025) must be emission-free immediately; existing ones have a transition arrangement until 2030 at the latest, for which an exemption is needed. Cameras check plates automatically and fines are 120 euro for vans and 310 euro for trucks; passenger cars are not affected.",
+   "corrected_title": null,
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Autovrij gebied: motor vehicles may drive only 05:00-12:00, and then only to load/unload; between 12:00 and 05:00 an exemption is needed (loading, unloading, services; residents, businesses and institutions may also use it to reach their own parking space or drive to a space with a parking permit). In the venstertijden area, passenger cars may always enter (rules apply to company vans and trucks). Page undated; 2026-10 correct. Only minor imprecision: the exemption covers institutions too.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Page confirms: council initiative 'Van verdeelring tot verblijfsruimte' offered in June 2021; vision to transform the ring to less traffic, less parking, more green, more stay quality; exploration to start in the second half of 2025 (page uses future tense 'gaan we aan de slag'); stakeholder session in January 2026 at roeivereniging Hunze; findings go into the Onderzoeksatlas; no decision on the page. Title matches. Medium confidence appropriate.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Confirmed: garage came into city ownership in early 2025 after closing to cars in January; demolition being prepared (waits for antenna masts to be moved; about three months of work); Harthof by MWPO (multiple courtyards, underground bike parking, homes and small commercial uses); construction expected to start 2027, 1.5-2 years; traffic decision 'after summer 2026' makes streets low-traffic, 'normal' on-street spaces disappear (disabled spaces stay). Corrections: Harthof scored highest with public (3,526 reactions) and committee and the city adopts that judgement 'subject to the objection period', after which the purchase and realisation agreement is to be signed, so 'won' needs that qualifier. Page is undated and still says the traffic decision will be taken 'after summer 2026' (as of 21 Oct 2026 no outcome shown), so it must be worded as planned and dated 2026-10, not 2025-01.",
+   "corrected_text": "Page read on 21 October 2026 (undated). The city took over the Haddingestraat car park in early 2025, after it was closed to cars in January, and is preparing its demolition (the antenna masts on it must be moved first). In the development competition the design 'Harthof' (MWPO: homes, small commercial uses, underground bike parking) scored highest with the public and the assessment committee; the city adopts that judgement subject to the objection period, after which the purchase and realisation agreement is to be signed. Construction is expected to start in 2027 and take about 1.5 to 2 years. The page says a traffic decision to make the surrounding streets low-traffic, removing 'normal' on-street parking spaces (disabled spaces stay), would be taken after summer 2026; the page shows no outcome.",
+   "corrected_title": null,
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Page (HTML metadata: published 2026-08-06) says APCOA Nederland became part of Q-Park 'earlier this year', P1 handles parking management within Q-Park Nederland, and P1 has been manager of the municipal garages Boterdiep, Circus, Damsterdiep, Euroborg and Station Europapark 'since 1 August'; Forum stays with Interparking. The text itself gives no year; the 2026-08-06 publication stamp supports 2026. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Parkeren050 garage pages (read 21 Oct 2026): 1.00 euro per block and daily maximum: Forum 15 min / 24; Damsterdiep 18 min / 22; Boterdiep 20 min / 16; Euroborg 28 min / 20; Station Europapark 28 min / 20; Circus 23 min / 12; all 'open 24 hours a day'. All match. Undated live page; 2026-10 correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Q-Park city page lists six Groningen garages (Museum Centrum, Oosterpoort, Ossenmarkt, P+R Hoofdstation, Rademarkt, Westerhaven), advertises 'Parkeren vanaf 12,50 per dag' as one deal (other deals from 17), and offers reservation with plate recognition. The capacities are not on the cited page but are on each garage page, which I read: Westerhaven 734, Rademarkt 360, Ossenmarkt 320, Oosterpoort 258, P+R Hoofdstation 258, Museum Centrum 222: all match. Operator's own commercial page, undated; 2026-10 correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Homepage shows a filter 'Voldoende plek / Enkele plek / Geen plek' and per-garage free-space counts, and states 'U kunt al onze parkeergarages gemakkelijk contactloos in- en uitrijden. Geen parkeerticket meer nodig' (also a 'Cards only' notice). Matches. The 'Contactloos in en uit' teaser is on the homepage itself.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Cited page says only: residents can rent a space in a buurtstalling in or around the centre, and 'De meeste buurtstallingen zijn vol'. The statement that Station Europapark accepts no new subscriptions and refers to Euroborg is NOT on this page; it is on https://www.parkeren050.nl/parkeren-groningen/parkeergarage-station-europapark ('Geen abonnement mogelijk ... Wij verwijzen u graag naar parkeergarage Euroborg'), which I read on 21 Oct 2026 and which could be added as a second source.",
+   "corrected_text": "Page read on 21 October 2026. Residents of the municipality can rent a parking space in a neighbourhood garage (buurtstalling) in or around the centre, and the city says most neighbourhood garages are full.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Page lists Haren/A28 825, Hoogkerk 991, Kardinge 780, Meerstad 400, Reitdiep 300 (total 3,296); parking free; return bus ticket 6.25 euro, valid for up to 5 people. The tariff page (parkeertarieven) says 6.00 for the P+R bus (retour, max 5 people), so the discrepancy statement is accurate; the Euroborg P3 page also says 6.25. Undated; 2026-10 correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Page: 1 euro per 28 minutes, day rate 20; OV-chipkaart discount up to 24 hours when travelling by the P+R bus (conditions: trip at least 1 km, scan within 20 minutes; not OVpay); football match: pay 7 euro, possible from 2 hours before to 2 hours after the match. All match. Undated; 2026-10 correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "partly",
+   "note": "Confirmed on the cited page: 49.44 cents per kWh, 56.44 cents between 16:00 and 21:00 (municipal charge points; price may depend on card/contract); some charge points charge slightly slower 16:00-21:00 for grid protection; a laadvergunning exists for residents who cannot get a parking permit and cannot charge on their own property. NOT on the cited page: '14.60 euro a year' (it is in the tariff page and ordinance) and 'up to 8 hours a week'. The implementing rules (art. 18, current version) say 32 hours of parking per month, on a charging space only, so '8 hours a week' is not what the rules state. Both dropped from the corrected text.",
+   "corrected_text": "Page read on 21 October 2026. Municipal public chargers cost 49.44 cents per kWh (56.44 cents between 16:00 and 21:00), and some charge points slow down slightly in the evening peak to protect the grid. Residents who cannot get a parking permit and cannot charge on their own property can apply for a charging permit (laadvergunning).",
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Groningen has a steep inner-city price ladder in 2026: 5.00 euro an hour in the Binnenstad, 4.50 euro in the ring of districts around it, 2.70 euro in outer districts, and free park-and-ride on the edge (five sites, about 3,300 spaces, return bus ticket 6.25 euro on the P+R page and 6.00 on the tariff page). Resident permits are capped at the number of pay-parking spaces, with waiting lists, and the city's stated policy is to give parking less room in favour of greenery and cycling. The city took over the Haddingestraat garage, which closed to cars in January 2025, and is preparing demolition; the winning 'Harthof' design is subject to an objection period and construction is expected from 2027, and the city is also studying the Diepenring ring road for less traffic and parking, with no decision shown. A zero-emission zone for vans and trucks applies in the inner city (passenger cars unaffected); the start date could not be confirmed from the city page. The municipal garages Boterdiep, Circus, Damsterdiep, Euroborg and Station Europapark have been managed by P1 (Q-Park group) since 1 August 2026, Forum stays with Interparking, and Q-Park runs six further garages. Council papers on gemeenteraad.groningen.nl could not be opened (bot protection) and were not used."
+}

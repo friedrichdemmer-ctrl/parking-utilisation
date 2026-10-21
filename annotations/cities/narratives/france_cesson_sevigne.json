@@ -1,0 +1,17 @@
+{
+ "as_of": "2026-10",
+ "sections": [
+  {
+   "title": "Policy and access to the centre",
+   "text": "Cesson-Sévigné has no paid parking of its own: the town's mobility page states that parking in the town is entirely free, with several zones where drivers can park at no cost, and gives no detail on time limits or resident rules [0]. Transport is a Rennes Métropole matter, with Keolis operating it under a public-service delegation, while the town runs a free on-demand service for residents within the town [1]. The Rennes low-emission zone applies inside the Rennes ring road and, according to the metropolitan page updated on 20 March 2026, does not cover the ring road or the residential districts of Cesson-Sévigné; drivers can still reach the park-and-rides [7]. For context, the zone has banned unclassified vehicles since 1 January 2025, and further stages are scheduled for Crit'Air 5 from 2027, Crit'Air 4 from 2029 and Crit'Air 3 from 2030 [8]. In Rennes itself, a release of 29 June 2026 said on-street tariffs would rise about 2 percent from 15 July 2026 and paid parking would be extended to two more districts from 16 November 2026, which pushes long-stay parking towards car parks and park-and-rides [13]."
+  },
+  {
+   "title": "Parking developments",
+   "text": "The development in Cesson-Sévigné is the park-and-ride at the end of metro line B. Cesson-Viasilva went into service on 14 March 2023 with 859 spaces in the Métropole's inventory: 801 standard, 17 for disabled users, 38 for electric vehicles and 3 for service use [3]. Parking is free with a STAR ticket validated in the hour before leaving [4], and about 200 slow, free charge points are listed across eight park-and-rides including this one [5]. Metro line B has two stations in the town, Atalante and the terminus Cesson-Viasilva, a bus interchange [2].\n\nThe next change is the Trambus T2. Rennes Métropole's release of December 2025 says its works run from 5 January 2026 to the end of 2027 and that the line will end at Rigourdière in Cesson-Sévigné, where a new park-and-ride of about 80 spaces, extendable to about 145, is planned for the line's opening [11]. The town's page says T2 is to replace bus line C6 around 2028, and no official opening date was found; all of this is planned [12]."
+  },
+  {
+   "title": "Operators, positioning and utilisation",
+   "text": "Keolis Rennes operates the STAR network, including the park-and-rides, and publishes their state (open or closed, fill level, capacity by space type) as an open dataset updated every minute, covering sites with barrier counting systems [6]. The network recorded 111.4 million trips in 2025, 64.4 million of them on the metro, a network-wide figure [14]. In January 2024, when metro line B was out of service, the barriers of Cesson-Viasilva and Saint-Jacques-Gaîté were reported to stay open in the daytime with no valid ticket needed; when the measure ended was not found [9]. The park-and-ride's 2024 opening hours were Monday to Wednesday 5:00 to 1:00, with later closing at the end of the week [10].\n\nOur data cover just this one car park, Cesson-Viasilva, with 801 standard spaces in the feed, measured since 5 October 2026. Occupancy averaged about 53% on weekdays and 39% at weekends and reached full in a single Saturday-lunchtime reading. That is a commuter pattern with a notable weekend use, and about two and a half weeks of data."
+  }
+ ]
+}

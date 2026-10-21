@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "TBM list (read 21 Oct 2026): Unitec 249, Bougnard 168, Gare de Pessac Alouette 148, Cap Metiers 144; 5 Boogi spaces each except Cap Metiers (none listed); Unitec/Bougnard/Alouette 'Open to all'; Cap Metiers (*) season-ticket holders only; Arts & Metiers 593 spaces, Avenue de l'Universite, Talence. The same page also says a 15 EUR fine applies outside tram hours, but the draft does not state it, which is correct given the conflict with the 25 EUR on the park-day page. Brandenburg (Bordeaux) is also listed under tram B, so 'the other line B site at the campus' is the draft's reading, acceptable for Arts & Metiers.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "TBM list: Pessac Centre*, season-ticket holders only, rue Andre Pujol, open Monday to Friday only, enter between 7am and 3pm, leave before 1:30am, show TBM card to attendant. Matches. Note the page's own sentence says 'these three locations' but names two; the draft's wording follows the per-site entry correctly.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "METPARK page: 343 places, underground ('Parking sous-terrain'), max height 1,80 m, open 24h/24 7j/7, 100 m from TER station, also a TBM park-and-ride; 'detenteurs d'une carte relais TBM' park free if they validated their ticket that day; TBM subscribers have access included. The draft's 'TBM card holders' is slightly loose (page says carte relais / abonnement TBM) but acceptable. METPARK's entrance is rue des Poilus while TBM lists rue Andre Pujol; not claimed in the draft. Operator self-description.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "METPARK grid: under 2h free (billing from first minute beyond), 2h 4,80 EUR, beyond 2h 0.60 EUR/15 min, 4h-24h 9 EUR; monthly 70, weekly 35, resident monthly 50, moto monthly 30. All match. Live undated page, read 21 Oct 2026, dated correctly in the draft.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "METPARK news item published 6 July 2021 confirms two free hours in Pessac town-centre public car park since 1 July 2021, run by the city and METPARK to boost town-centre activity. The claim that METPARK described the car park as 'less than 200 m from the station' is NOT on this page (searched text and raw HTML for 200 m / gare); remove it.",
+   "corrected_text": "METPARK announced on 6 July 2021 that, since 1 July 2021, the city of Pessac and METPARK have offered two hours of free parking in the town-centre public car park, to support activity in the town centre.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "METPARK item published 30 Sept 2022: from 3 Oct 2022 TBM card-holding subscribers get free parking at Merignac and Pessac centre car parks if they use public transport that day; presented as 2 extra relay car parks 100 m from tram stops. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "partly",
+   "note": "Page published 29 Sept 2025: more than 5 months of works, 3 levels, ticketless Hitachi Rail Smart Parking Ticketless since summer 2025 via number-plate reading, fire-safety (SSI) modernisation, access tunnel renovated by the commune. Two wording issues: the page says close to 870K EUR invested 'pour cette renovation de peinture' (painting renovation), not 'painting and related works'; and the commune 'a renove' the tunnel (already done), not 'is renovating'. Operator self-report.",
+   "corrected_text": "METPARK reported on 29 September 2025 that the Pessac Centre car park had been renovated over more than 5 months while staying open, across 3 levels: full repaint (close to EUR 870,000 invested for this painting renovation), redesigned circulation and signage, and a modernised fire-safety system. Since summer 2025 it has had ticketless entry and exit using number-plate recognition (Hitachi Rail system). The commune of Pessac renovated the access tunnel.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Same METPARK page: 50 charge points, inaugurated 26 June 2025 with the Mairie de Pessac and TotalEnergies; 48 slow (7.4 kW) and 2 fast (50 kW). METSTATION on level -1 'verra prochainement le jour', company consultation under way, works planned to start end 2025, 'Rendez-vous en 2026'. Planned status is correctly worded. Title matches the page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "TBM list: Arts & Metiers 593 spaces, 10 EV spaces; no EV line for Unitec, Bougnard, Alouette or Cap Metiers. True as stated. Caution: the TBM list also shows no EV line for Pessac Centre although METPARK reports 50 charge points there, so TBM's list is not a complete guide to EV provision.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Page confirms: same-day parking included in a TBM subscription; ticket 4.50 EUR or 3.50 EUR reduced rate; Cap Metiers and Gare de Pessac Alouette are on the reduced-price park-and-ride list. But the page says the ticket gives '7 round trips in a day for 1-7 people', not '7 tram or bus trips'. The page also states a 25 EUR flat fine outside opening hours (conflicts with 15 EUR on the hours page); the draft correctly omits it.",
+   "corrected_text": "TBM says same-day park-and-ride parking is included in a TBM subscription; other users buy a park-and-ride ticket at EUR 4.50 (EUR 3.50 reduced rate), which gives 7 round trips in a day for 1 to 7 people. Gare de Pessac Alouette and Cap Metiers are on TBM's list of reduced-price park-and-rides. The page was read on 21 October 2026.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "TBM page: six included P+Rs (Gare de Pessac Alouette, Merignac les Pins, 40 journaux, Cantinolle, Lauriers, Les Aubiers); residents within 500 m, 24/7, 300 EUR/year in one payment or 25 EUR/month for 12 months by direct debit; number of spaces limited. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "TBM page: 2 days 12 EUR, 3 days 15, 4 days 20, 5 days 25, includes a round trip; 11 of 28 park-and-rides, Southwest group lists Pessac Alouette and Cap Metiers. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Bordeaux Metropole press release of 4 Oct 2023 (PDF, 1 page): tariff voted at the 29 Sept 2023 metropolitan council allows 2-5 day stays in listed P+Rs including Cap Metiers and Pessac Alouette; concession with Keolis 'officialisee en juillet 2022'; operator and Metropole 'proposent egalement' night parking for nearby residents at some P+Rs. Matches (the release uses present tense; the draft's 'would also offer' is acceptable).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Page published 30/10/2024, updated 13/01/2026: ZFE since 1 Jan 2025, regulated 7/7 24/24, intra-rocade; unclassified vehicles may no longer circulate or park inside the ring road; 11 P+Rs reachable via dedicated roads, list includes Parc Relais Bougnard (Pessac) and Parc Relais Unitec (Pessac), and no other Pessac site. Matches. The page still says signage 'sera materialisee' Jan-Jun 2025 (stale wording, not used).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "University page (updated 03/02/2024) says a parking study followed occupancy of the 11,000 spaces over a typical day, car parks 'globalement tres surdimensionnes', 'plus de 4 000 places libres' at the daily peak, and that a parking solution 'peut souvent etre trouvee' within 200 m of the workplace. The draft says 'usually', which is stronger than 'often' ('souvent'). Study date not given; a similar mobility plan for the domain was done in 2023 and the 16 institutions are correct. Single secondary (institutional) source, undated study: medium confidence is right and should stay medium at best.",
+   "corrected_text": "A university page (updated 3 February 2024, study undated) says a study followed the real occupancy of the roughly 11,000 spaces on the Pessac-Talence-Gradignan university domain over one typical day. It found the car parks overall very oversized, with more than 4,000 spaces still free at the busiest point of the day, and that a parking solution can often be found within 200 m of one's workplace. A mobility plan for the domain, covering 16 institutions, was completed in 2023.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Page dated 30/11/2021 (also 24/11/2021): Bordeaux Metropole and 16 institutions commit to developing an inter-institution mobility plan; domain of 235 ha across Pessac, Talence, Gradignan with 60,000 students and 10,000 staff; aim to reduce emissions and 'reduire l'encombrement en termes de stationnement et de circulation'. Matches; 'launched' means the plan-making process was launched, not that a plan existed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Press kit dated 22.06.2015 (file name says 22-05-2015, document says 22 June 2015): France Alouette second terminus; 10,000 new passengers expected per day; 156-space P+R already in service near Pessac Alouette station; 160-space P+R planned end 2017 near Cap Metiers. Matches, and correctly framed as old planning figures.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Bordeaux Metropole news item published 22/05/2025, updated 19/05/2026: new TBM secure bike shelter at Pessac Centre station, 19 places and a pump, avenue Eugene et Marc Dulout, facing the Pessac Centre tram stop, accessible with a TBM subscription or a 24h/48h/72h pass. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Pessac, west of Bordeaux, is served by tram line B, which has two branches (Pessac Centre and France Alouette) and serves the Pessac-Talence-Gradignan university campus. TBM's list (read on 21 October 2026) gives four park-and-rides in Pessac with 709 spaces in total (Unitec 249, Bougnard 168, Gare de Pessac Alouette 148, Cap Metiers 144); Cap Metiers is for TBM season-ticket holders, and the Pessac Centre park-and-ride on the same list is for season-ticket holders on weekdays only. The METPARK Pessac Centre underground car park has 343 spaces, is open 24/7 according to METPARK, and offers free parking for under two hours, a EUR 50 monthly resident subscription and free parking for TBM relay-card holders who validate a ticket that day. METPARK reports that it was renovated in 2025, now has ticketless entry and 50 EV charge points. Bougnard and Unitec are among the 11 park-and-rides that unclassified vehicles can still reach under the Bordeaux Metropole low-emission zone, and Pessac Alouette and Cap Metiers are among the 11 park-and-rides that offer 2-5 day short stays. A university page (updated February 2024, study undated) says a study found more than 4,000 of roughly 11,000 campus spaces free at the daily peak. The commune's own street-parking rules (paid zones, blue zones, resident tariffs) could not be read, and TBM's pages disagree on the fine for parking outside tram hours, so none is stated."
+}

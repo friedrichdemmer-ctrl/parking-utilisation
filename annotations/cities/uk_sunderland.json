@@ -1,0 +1,153 @@
+{
+ "country": "UK",
+ "city": "Sunderland",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Sunderland City Council makes the parking orders for the city-centre surface car parks, the Station Car Park on Holmeside, the Sheepfolds and St Peters Metro station car parks and the on-street bays, and has approved a 2 million pound upgrade programme for the St Mary's and Sunniside multi-storey car parks (May 2025; contractor not yet appointed at that time). A statutory notice published in the Sunderland Echo on 8 May 2026 and read on the Public Notice Portal said charges would be varied, with the notice coming into force on 1 June 2026: mostly 20p an hour more in the surface car parks, Sunday and bank holiday rates from 3.00 to 3.50 pounds, and the Station Car Park from 1.50 to 1.70 pounds an hour; the notice is not itself proof the new charges are being applied, and it does not list St Mary's, Sunniside or Riverside multi-storeys. Plans for a large Riverside multi-storey at Farringdon Row (650 spaces planned in 2021) belong to the Riverside Sunderland regeneration, but the council's June 2023 opening announcement could not be read because of bot protection, so its opening date and size are unconfirmed. Paid parking at the Stadium of Light car parks (free under 2 hours) was announced by a school based there for 26 August 2025. A 2022 planning permission for a 404-space Holmeside multi-storey exists, but it is not shown whether it was built or whether it is the car park the 2026 notice lists. Open data is thin: a 2013 static car-park dataset and a regional Metro park-and-ride occupancy page last updated in 2022. The council's own pages and the Echo, BBC and Chronicle sites were bot-protected and not used.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2026-05-08",
+   "text": "A statutory notice published in the Sunderland Echo on 8 May 2026 (read via the Public Notice Portal) said Sunderland City Council would vary parking charges, with the notice coming into force on 1 June 2026. For the surface car parks the hourly rate rises by 20p (for example Boughton Street from 1.40 to 1.60 pounds, Charles Street from 1.10 to 1.30, Gorse Road from 0.90 to 1.10, Nile Street from 1.30 to 1.50). Where an all-day rate is listed (Charles Street, Gorse Road, Nile Street, Tatham Street, West Wear Street) it rises from 5.00 to 5.50 pounds, and the Sunday and bank holiday daily rate rises from 3.00 to 3.50 pounds. The page was read on 21 October 2026 and is a notice, not an official page showing the new charges are being applied.",
+   "source_title": "Notice of Variation of Parking Charges, Sunderland (page 1 of 2), Public Notice Portal / Sunderland Echo",
+   "source_url": "https://publicnoticeportal.uk/notice/traffic-and-roads/69fd281b2d53a8670949c346",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-05-08",
+   "text": "The same notice lists Station Car Park (access via Holmeside, listed with the figure 194, apparently its bay count) rising from 1.50 to 1.70 pounds per hour and from 7.00 to 7.50 pounds per day, with Monday to Friday 3pm to midnight staying free. Sheepfolds car park and nearby on-street bays go from 50p to 70p per hour, and the St Peters Metro Station car park (paid parking under a 2025 order) from 60p to 80p per hour with the 3.50 pound daily rate unchanged.",
+   "source_title": "Notice of Variation of Parking Charges, Sunderland (page 1 of 2), Public Notice Portal / Sunderland Echo",
+   "source_url": "https://publicnoticeportal.uk/notice/traffic-and-roads/69fd281b2d53a8670949c346",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-05-08",
+   "text": "The notice also covers on-street pay bays in the city centre, which would move for example from 1.10 pounds per 30 minutes to 1.30 pounds per hour (Bridge Street, Foyle Street, Frederick Street), and pay-by-phone bays at Ashbrooke (Tunstall Terrace) from 90p to 1.10 pounds per hour. The two pages read do not list the St Mary's, Sunniside or Riverside multi-storey car parks.",
+   "source_title": "Notice of Variation of Parking Charges, Sunderland (page 2 of 2), Public Notice Portal / Sunderland Echo",
+   "source_url": "https://publicnoticeportal.uk/notice/traffic-and-roads/69fd28982d53a8670949cc9c",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-06-19",
+   "text": "A headline on the council's news site, 'Riverside car park opens doors', is dated 19 June 2023 and is reported to concern the new Farringdon Row (Riverside Sunderland) multi-storey car park; its details could not be opened or checked.",
+   "source_title": "Riverside car park opens doors (Sunderland City Council news, mysunderland.co.uk)",
+   "source_url": "https://www.mysunderland.co.uk/article/27811/Riverside-car-park-opens-doors",
+   "confidence": "unconfirmed",
+   "id": 3,
+   "checked": "unconfirmed",
+   "unconfirmed_reason": "Source is behind bot protection (HTTP 403 Cloudflare challenge); not read, not bypassed."
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-06-19",
+   "text": "The council's June 2023 news item on the Riverside car park is reported to say the car park should reduce pressure on St Mary's multi-storey and help create pedestrian priority in Riverside Sunderland; the page could not be opened.",
+   "source_title": "Riverside car park opens doors (Sunderland City Council news, mysunderland.co.uk)",
+   "source_url": "https://www.mysunderland.co.uk/article/27811/Riverside-car-park-opens-doors",
+   "confidence": "unconfirmed",
+   "id": 4,
+   "checked": "unconfirmed",
+   "unconfirmed_reason": "Source is behind bot protection (HTTP 403 Cloudflare challenge); not read, not bypassed."
+  },
+  {
+   "topic": "regulation",
+   "date": "2021-07-21",
+   "text": "When the contractor was appointed for the Farringdon Row car park (then described as 650 spaces, with an initial 15 percent electric-vehicle spaces), the council leader said the aim was to position modern car parking at the edge of the city so people drive to Sunderland, not through it. The car park was to replace ageing car parks including the Civic Centre site.",
+   "source_title": "Contractor appointed for new city centre car park (North East Times Magazine)",
+   "source_url": "https://netimesmagazine.co.uk/business/contractor-appointed-for-new-city-centre-car-park/",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-05",
+   "text": "In May 2025 the council approved a programme of about 2 million pounds for maintenance and upgrades at its St Mary's and Sunniside multi-storey car parks (facades, solar panels, lighting and CCTV, public wi-fi, signage, cycle storage). A contractor was still to be appointed; the page does not say when the works start or finish.",
+   "source_title": "City centre car parks set for major upgrade (Sunderland Business Partnership, republishing the council announcement)",
+   "source_url": "https://sunderlandbusinesspartnership.co.uk/city-centre-car-parks-set-for-major-upgrade/",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-08-27",
+   "text": "The Riverside Sunderland masterplan aims to double the city-centre resident population from 2,500 to 5,000, with 133 homes planned on the former Vaux plot and 165 homes by Placefirst on Farringdon Row reported as about to start. This adds to expected parking demand around the Riverside car park, although the article does not mention parking.",
+   "source_title": "Igloo to start on site at Riverside Sunderland (Place North East)",
+   "source_url": "https://www.placenortheast.co.uk/igloo-to-start-on-site-at-riverside-sunderland/",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-08-07",
+   "text": "Paid parking was announced for the Stadium of Light car parks from 26 August 2025: free under 2 hours, 4 pounds for 2 to 4 hours, 8 pounds for 4 to 8 hours, 10 pounds for 24 hours, 30 pounds for a monthly season ticket, paid via the Evology app. Tariffs do not apply on Sunderland AFC men's first-team matchdays; the notice was published by a school based at the stadium, not by the council or the club.",
+   "source_title": "Parking charges to be introduced to Stadium of Light car parks (Beacon of Light School)",
+   "source_url": "https://beaconoflight.laidlawschoolstrust.co.uk/66/latest-news/post/16/parking-charges-to-be-introduced-to-stadium-of-light-car-parks",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2022-10-11",
+   "text": "Planning permission was granted at a Planning and Highways Committee meeting on 3 October 2022 for a multi-storey car park on a derelict Holmeside site near Sunderland's rebuilt railway station, with 404 spaces including accessible spaces and 92 EV charging bays, plus secure cycle storage; it was part-funded by the Transforming Cities Fund (source: the architects, GSSArchitecture, 11 October 2022). This page does not show whether the scheme was built as approved. The May 2026 tariff notice lists a Station Car Park with access via Holmeside under a 2024 order and the figure 194 (not labelled, apparently a bay count); the sources read do not say whether this is the same car park.",
+   "source_title": "Plans Approved for New Multi-Storey Car Park in Sunderland (GSSArchitecture)",
+   "source_url": "https://gssarchitecture.com/?p=14570",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2022-03-22",
+   "text": "In March 2022 Greenfleet reported four new 7kW fast chargers at St Mary's car park in the city centre, able to charge eight vehicles at once, due to be operational by April 2022 and supplied and installed by SWARCO Smart Charging. The scheme was supported by a 600,000 pound North East LEP Local Growth Fund grant that the LEP described as covering a programme of seven new charging sites across the region. This is a 2022 fact and current charger numbers were not confirmed.",
+   "source_title": "New fast electric vehicle charging points unveiled in central Sunderland (Greenfleet)",
+   "source_url": "https://www.greenfleet.net/node/15775",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2013-08",
+   "text": "The council's open dataset 'Sunderland Car Parks' on data.gov.uk lists 48 public car parks (surface, on-street, charged and multi-storey) with space counts, but was last updated in August 2013. The page was read on 21 October 2026 and shows no live occupancy feed.",
+   "source_title": "Sunderland Car Parks (data.gov.uk)",
+   "source_url": "https://www.data.gov.uk/dataset/sunderland-car-parks",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2022-04",
+   "text": "The Tyne and Wear UTMC unit says it provides average occupancy for each Metro park-and-ride car park quarterly, for comparing sites and periods. The page was last updated in April 2022 and contains no figures in the text read on 21 October 2026.",
+   "source_title": "Park and ride occupancy (North East Evidence Hub)",
+   "source_url": "https://evidencehub.northeast-ca.gov.uk/report/park-and-ride-average-occupancy",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "sunderland.gov.uk, icm.sunderland.gov.uk and mysunderland.co.uk (car-parks tariff page, parking charter, Holmeside/Station Car Park pages, EV charging pages, residents' Community Parking Management Schemes such as Seaburn Metro/Newcastle Road, cabinet and committee papers) returned a bot-protection challenge (403 'Just a moment'); not opened. The one mysunderland.co.uk article cited was read before the challenge appeared.",
+  "sunderlandecho.com articles (the 2024 Free after 3 and 10p changes, a September 2026 piece on the new Bonner's Field/St Peter's charge, RingGo fees, February 2026 proposals) were blocked or only seen as search snippets; not used. BBC and Chronicle Live were not reachable by the search tool and no pages were opened.",
+  "No formal Sunderland Parking Strategy, Keel Square parking decision, Sunniside Social parking detail or Vaux site car-park plan was found in readable sources.",
+  "Metro park-and-ride (Nexus/Travel North East) pages and the PATROL parking annual reports for Sunderland returned 404 or were unreachable; no current Metro park-and-ride tariff or capacity could be sourced.",
+  "Current EV charging provision in council car parks and the 2026 on-street EV hub and charge-point-operator decisions were only seen in search snippets; not used.",
+  "The January 2024 tariff change (about 10p an hour at 1,500-plus spaces; Free after 3 ended at multi-storey car parks) and the 2025 St Peters Metro order notices could not be opened (public notice pages 404); the May 2026 notice is the only tariff source read.",
+  "Whether the 1 June 2026 charges are now in force, and what the St Mary's, Sunniside and Riverside multi-storey tariffs are, was not confirmed from an official current page."
+ ],
+ "dropped": {
+  "low confidence": 1
+ }
+}

@@ -1,0 +1,196 @@
+{
+ "country": "UK",
+ "city": "North Tyneside",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "North Tyneside Council runs most public car parks in Whitley Bay, Tynemouth, North Shields and Wallsend and has been moving some of them from free to charged parking. In January 2026 it consulted on pay-and-display at two Whitley Bay car parks, and on 24 February 2026 announced that it would not charge at the Playhouse but would at Park Road. A statutory notice says the Park Road order comes into force on 23 March 2026, and the council's Park Road page read in October 2026 lists 1.20 pounds for one hour up to 4.80 pounds for the day. A notice dated 9 January 2026 says variation orders, due to take effect on 12 January 2026, raise the all-day foreshore (seafront) charge from 3.00 to 4.80 pounds and raise resident and visitor permit fees from 25 to 30 pounds; council permit guidance pages read in October 2026 list 30 pounds, and seafront car park pages show the 1.20 / 2.40 / 3.60 / 4.80 pound tariff, but the status of the first resident permit in shared-use zones (said to stay free) is not fully clear. No Cabinet or other decision paper on the Whitley Bay or seafront charges was found, so who took the decisions beyond 'the council' is not confirmed. The initial 2026-2030 budget proposals of November 2025 include, among the Buildings and Assets savings, a general line about reviewing fees and charges such as car parking; this is a budget proposal, not a decision on any tariff. The Norfolk Street car park in North Shields and the Coronation Street car park in Wallsend were listed as free with a two-hour limit when read in October 2026. Metro park and ride is run separately by Nexus, with a flat 1.80 pound daily rate (6am to 5pm, Monday to Saturday) at Four Lane Ends, Regent Centre, Northumberland Park and three other stations. Northumberland Park's page says only the ground floor is open and the upper levels are closed, while its live counter, supplied by a third party, showed 383 spaces free. Public EV charging is provided by commercial operators at 34 bays in nine council car parks, and a September 2025 Cabinet report describes government-funded plans for 13 more charge points. On-street tariffs were not fully read.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2026-01-20",
+   "text": "North Tyneside Council opened a statutory consultation on pay-and-display at the Playhouse and Park Road car parks in Whitley Bay, 9am to 6pm daily, at 1.20 pounds for one hour up to 4.80 pounds for all day. It also proposed a 30 pound annual charge for the first resident permit in shared-use zones, while Blue Badge holders and school drop-off and pick-up at Park Road would stay free.",
+   "source_title": "Have your say on Whitley Bay Parking Changes",
+   "source_url": "https://www.northtyneside.gov.uk/news/2026/have-your-say-whitley-bay-parking-changes",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-02-24",
+   "text": "After the consultation the council decided not to charge at the Playhouse car park and to keep the first resident permit in shared-use zones free, but to introduce charges at Park Road car park. It said it would monitor the scheme for its first year.",
+   "source_title": "Council confirms parking decisions in Whitley Bay",
+   "source_url": "https://www.northtyneside.gov.uk/news/2026/council-confirms-parking-decisions-whitley-bay",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-03-23",
+   "text": "A statutory notice dated 23 March 2026 says the Park Road (Whitley Bay) variation order, applying the charged tariff for all days 9am to 6pm to that car park, comes into force on 23 March 2026.",
+   "source_title": "Park Road Car Park - Whitley Bay (statutory notice)",
+   "source_url": "https://www.northtyneside.gov.uk/statutory-notices/park-road-car-park-whitley-bay",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-03-01",
+   "text": "A Local Democracy Reporter piece said the Whitley Bay Chamber of Trade petition against the charges gathered more than 3,000 signatures, and its chair said fees create a barrier to the high streets. The council said the charges would raise turnover of spaces and support local businesses.",
+   "source_title": "New parking charges due to Whitley Bay despite public outcry (Hits Radio Newcastle)",
+   "source_url": "https://www.hellorayo.co.uk/hits-radio/newcastle/news/parking-charges-whitley-bay-park-road-public-outcry",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-01-09",
+   "text": "A statutory notice dated 9 January 2026 says the council made variation orders, to come into force on 12 January 2026, raising the all-day charge at listed foreshore car parks and bays (including Tynemouth and Whitley Bay seafront and St Mary's Island) from 3.00 to 4.80 pounds and adding a three-hour charge. The notice calls the 3.60 pound three-hour figure a proposed charge.",
+   "source_title": "Resident and Residents' Visitor Parking Permit fee change and Foreshore Parking Place Charges",
+   "source_url": "https://www.northtyneside.gov.uk/statutory-notices/resident-and-residents-visitor-parking-permit-fee-change-and-foreshore-parking",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The council's Park Road (Whitley Bay) page, read on 21 October 2026, lists 72 standard bays, 7 disabled bays and 1 car club bay, charged every day from 9am to 6pm at 1.20 pounds for 1 hour, 2.40 for 2, 3.60 for 3 and 4.80 for all day. Blue Badge holders and motorcycles park free and payment is by card or phone only.",
+   "source_title": "Park Road Car Park (North Tyneside Council, Find parking)",
+   "source_url": "https://www.northtyneside.gov.uk/parking/find-parking/park-road-car-park",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01-09",
+   "text": "A statutory notice dated 9 January 2026 says the council made variation orders, to come into force on 12 January 2026, raising the resident parking permit fee and the residents' visitor permit fee in all on-street permit schemes from 25 to 30 pounds.",
+   "source_title": "Resident and Residents' Visitor Parking Permit fee change and Foreshore Parking Place Charges",
+   "source_url": "https://www.northtyneside.gov.uk/statutory-notices/resident-and-residents-visitor-parking-permit-fee-change-and-foreshore-parking",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The Norfolk Street car park in North Shields (66 standard bays plus 4 EV bays) is listed on the council page as free, Monday to Friday 8am to 6pm, with a 2-hour maximum stay and no return within 4 hours. Page read on 21 October 2026.",
+   "source_title": "Norfolk Street Car Park (North Tyneside Council, Find parking)",
+   "source_url": "https://www.northtyneside.gov.uk/parking/find-parking/norfolk-street-car-park",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Coronation Street car park in Wallsend (41 standard bays) is listed by the council as free, with a 2-hour maximum stay and no return within 4 hours, Monday to Friday 8am to 6pm. Page read on 21 October 2026.",
+   "source_title": "Coronation Street Car Park (North Tyneside Council, Find parking)",
+   "source_url": "https://www.northtyneside.gov.uk/parking/find-parking/coronation-street-car-park",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The council's Parking Strategy web page (undated, read on 21 October 2026) says surveys suggest town-centre parking in North Shields, Wallsend and Whitley Bay is sufficient, that demand at the council's free off-street car parks regularly exceeds availability, and that privately run car parks are generally below full capacity. This wording predates the 2026 charging changes.",
+   "source_title": "Parking strategy: How we manage car parking",
+   "source_url": "https://www.northtyneside.gov.uk/parking/parking-strategy/how-we-manage-car-parking",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The strategy's permit-scheme assessment (page read on 21 October 2026) requires at least 51% of households in favour, on-street bays at least 85% occupied for 3 hours a day, at least 30% of parked vehicles from non-residents, and over half of houses without off-street parking. Residents may hold up to 3 permits per household.",
+   "source_title": "Parking strategy: Annex 2 - Permit parking scheme",
+   "source_url": "https://www.northtyneside.gov.uk/parking/parking-strategy/annex-2-permit-parking-scheme",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-11-24",
+   "text": "Cabinet's initial 2026-2030 budget proposals (24 November 2025) list Buildings and Assets savings of 3m pounds that include reviewing fees and charges in areas such as car parking. This is a budget proposal and the paper does not give a car park tariff.",
+   "source_title": "2026-2030 Financial Planning and Budget Process: Cabinet's Initial Budget Proposals",
+   "source_url": "https://democracy.northtyneside.gov.uk/documents/s31773/2026-2030%20Financial%20Planning%20Budget%20Process%20-%20Cabinets%20Initial%20Budget%20Proposals.pdf",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Nexus (Travel North East) charges a flat 1.80 pounds per day, 6am to 5pm Monday to Saturday, at its Four Lane Ends, Regent Centre, Northumberland Park, Bank Foot, Callerton Parkway and Stadium of Light Metro car parks, free after 5pm and on Sundays. Digital permits cost 24 pounds for 4 weeks or 295 pounds a year, payable by PayByPhone. Page read on 21 October 2026.",
+   "source_title": "Metro car parking (Travel North East)",
+   "source_url": "https://nexus.org.uk/park",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "The Four Lane Ends Metro station page describes a multi-storey car park with 457 standard and 22 accessible bays. It shows a live occupancy figure supplied by a third party, which Nexus says it does not guarantee. Page read on 21 October 2026.",
+   "source_title": "Four Lane Ends station (Travel North East)",
+   "source_url": "https://travelnortheast.uk/station/four-lane-ends/",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "Regent Centre Metro station has a multi-storey car park over the station with 183 standard and 8 accessible bays, charged at 1.80 pounds a day (free after 5pm and on Sundays). Page read on 21 October 2026.",
+   "source_title": "Regent Centre station (Travel North East)",
+   "source_url": "https://travelnortheast.uk/station/regent-centre/",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "The Northumberland Park Metro page lists 393 standard and 12 accessible bays but also a temporary reduction: only the ground floor (about 25 bays) is open and the upper levels are closed. The page's live occupancy counter nevertheless showed several hundred spaces free, so it does not appear to reflect the closure. The page also lists the Northumberland Line rail interchange. Page read on 21 October 2026.",
+   "source_title": "Northumberland Park station (Travel North East)",
+   "source_url": "https://travelnortheast.uk/station/northumberland-park/",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The council lists public chargers in nine of its car parks (Beaconsfield, Bournemouth Gardens, Cauldwell Avenue, Coronation Street, Front Street Cullercoats, John Willie Sams Centre, Norfolk Street, Park Road, Tynemouth Pool), 34 bays in total, run by Monta, Zest, Fastned and Evolt. There is no parking charge while charging but a 3-hour limit, and a penalty notice applies to unplugged cars in EV bays. Page read on 21 October 2026.",
+   "source_title": "Electric vehicle charging points (North Tyneside Council)",
+   "source_url": "https://www.northtyneside.gov.uk/parking/electric-vehicle-charging-points",
+   "confidence": "high",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-09-22",
+   "text": "A Cabinet transport report says a government on-street residential charge point grant (ORCS) and regional funding are meant to deliver 13 new charge points in North Tyneside car parks, replacing three life-expired units in Whitley Bay, Tynemouth and North Shields, with works starting in summer 2025. It adds that the region won 15.8m pounds of LEVI funding in February 2025 and North Tyneside is in the first tranche (2025-2027).",
+   "source_title": "North Tyneside Transport Strategy Annual Information Report 2024/25",
+   "source_url": "https://democracy.northtyneside.gov.uk/documents/s30630/06%20-NT%20Transport%20Strategy%20Annual%20Report%2024-25.pdf",
+   "confidence": "high",
+   "id": 17,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Council 'Car Parks - Tariffs at a Glance' PDF (https://northtyneside.gov.uk/sites/default/files/web-page-related-files/Car%20Parks%20-%20Tariffs%20at%20a%20Glance.pdf) and FOI PDFs (my.northtyneside.gov.uk/sites/default/files/foi-related-files/Response%20EIR-311.pdf) returned a consent/interstitial page instead of the document; not used.",
+  "Newcastle World / Chronicle (newcastleworld.com, northumberlandgazette.co.uk) and Nexus news pages (nexus.org.uk/news/item/...) returned 403 'Just a moment' challenge pages or 404; not opened. This includes the Northumberland Park car park closure report and the July 2025 contactless upgrade.",
+  "No cabinet or delegated-decision paper specifically on the foreshore or Whitley Bay parking charge decisions was found in the democracy portal; only the budget papers' general mention of a car parking fees review. The reason for the Northumberland Park upper-level closure was not found in a readable source.",
+  "A full on-street tariff table was not read; only individual car park and street pages. No usage statistics, no figures on the Metro park-and-ride utilisation and no BBC coverage were found. Wallsend and North Shields car park charging proposals, if any, were not found. Web search budget was exhausted before Tynemouth/North Shields developments could be researched."
+ ],
+ "dropped": {}
+}

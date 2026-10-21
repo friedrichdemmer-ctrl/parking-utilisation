@@ -1,0 +1,191 @@
+{
+ "country": "France",
+ "city": "Bruges",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "Bruges is a commune in the Gironde department in Bordeaux Métropole, not Bruges in Belgium. Parking is regulated by free blue zones at the Borges, Abadie and Terrefort car parks: the city announced Abadie (with part of avenue de Verdun) from 8 September 2025 and Terrefort from 15 October 2025, where parking is free but limited to 1 hour with a disc (8:00-12:30 and 14:00-19:00 except Sundays and public holidays); Bordeaux Métropole is the contracting authority for Terrefort. The city lists tram lines D and E and six bus lines, and a February 2021 city newsletter (old, and from the pandemic year) gave tram C boardings of 770 a day at La Vache, 753 at Ausone and 456 at Gare de Bruges. Park-and-rides are run by Keolis for TBM: TBM's list shows only Bruges Centre on avenue Terrefort with 58 spaces, for season-ticket holders only, while Bordeaux Métropole's low-emission-zone page names a Gare de Bruges park-and-ride that unclassified vehicles may use. The Métropole's low-emission zone has covered the area inside the ring road since 1 January 2025; the page does not say whether the whole commune lies inside it. TBM's park-and-ride pages give two different fine amounts for parking outside tram hours (EUR 15 and EUR 25), and its 2-5 day tickets are not sold at any Bruges site. For Stade Atlantique events, the Métropole page says it is about 25 minutes by bike from Bruges Centre, tram C stops at the stadium, and the main car park (Parc des Expositions) costs EUR 15 on concert days; a Pass Stade return ticket is EUR 3 on the Métropole page and EUR 3.40 on TBM's. Le Bonbon, a single local source, reported in November 2025 that this car park has also cost EUR 15 for UBB matches since 25 October 2025, with Girondins matches still free; the stadium's older page says match days are free, so match-day rules are uncertain. Bordeaux Métropole's EV charging page (May 2025) gives EUR 0.38 per kWh on its on-street network, with no Bruges-specific data.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2025-09",
+   "text": "Bruges (Gironde) put the Abadie car park and part of avenue de Verdun in the town centre under blue-zone rules from 8 September 2025. The city says the aim is easier access to shops.",
+   "source_title": "Centre-ville : lancement de la phase 3 (Ville de Bruges)",
+   "source_url": "https://www.mairie-bruges.fr/ma-ville/grands-projets/centre-ville-lancement-de-la-phase-3",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-10-15",
+   "text": "A city notice announced that the Terrefort car park on avenue Charles de Gaulle would become a blue zone from 15 October 2025, like the Borges and Abadie car parks. Parking is free but limited to 1 hour with a disc, 8:00-12:30 and 14:00-19:00 except Sundays and public holidays; Bordeaux Métropole is the contracting authority.",
+   "source_title": "Parking av. Général de Gaulle Terrefort : création d'une zone bleue (Ville de Bruges)",
+   "source_url": "https://www.mairie-bruges.fr/uploads/files/Lettre_travaux_parking_Terrefort_-_zone_bleue.pdf",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Bruges' mobility page (read on 21 October 2026) lists tram lines D and E and six bus lines serving the town, and notes the 2017 communal travel plan. It points to a planned 1.8 km road, walking and cycling link between Le Tasta and the town centre.",
+   "source_title": "Transports & Déplacements (Ville de Bruges)",
+   "source_url": "https://www.mairie-bruges.fr/au-quotidien/vie-pratique/transports-deplacements",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01-13",
+   "text": "Since 1 January 2025 Bordeaux Métropole has run a low-emission zone covering everything inside the ring road, 24/7, with a Crit'Air sticker required. Only unclassified vehicles (for example petrol or diesel cars registered before 1 January 1997) are barred, and the page (updated 13 January 2026) says about 3.7% of Gironde households own one.",
+   "source_title": "ZFE (Zone à Faibles Émissions) : ce qu'il faut savoir (Bordeaux Métropole)",
+   "source_url": "https://www.bordeaux-metropole.fr/zfe",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01-13",
+   "text": "Unclassified vehicles may still use 11 named park-and-ride car parks inside the ring road, including Gare de Bruges, via dedicated access roads. The page does not say whether the whole commune of Bruges lies inside the zone.",
+   "source_title": "ZFE (Zone à Faibles Émissions) : ce qu'il faut savoir (Bordeaux Métropole)",
+   "source_url": "https://www.bordeaux-metropole.fr/zfe",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-10-04",
+   "text": "Under the concession awarded to Keolis in July 2022, Bordeaux Métropole installed a dynamic sign in Bruges (Allées de Boutaut) showing live free spaces at nearby park-and-rides. The 2023 press release also announced a new short-stay (2-5 days) park-and-ride offer voted on 29 September 2023.",
+   "source_title": "Des panneaux de jalonnement dynamiques pour faciliter les trajets des usagers (communiqué, Bordeaux Métropole)",
+   "source_url": "https://www.bordeaux-metropole.fr/sites/MET-BXMETRO-DRUPAL/files/2023-10/CP%20-%20Panneaux%20de%20jalonnement%20P%2BR.pdf",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "TBM's park-and-ride list (read on 21 October 2026) shows Bruges Centre, avenue de Terrefort, under the tram C connections: 58 spaces, 3 accessible spaces, 2.20 m height limit, TBM season-ticket holders only. A separate Bordeaux Métropole page names a 'Gare de Bruges' park-and-ride, which this TBM list does not show under that name.",
+   "source_title": "Opening times, maps and list of Parcs-Relais (TBM)",
+   "source_url": "https://www.infotbm.com/en/opening-times-maps-and-list-parcs-relais.html",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "TBM says park-and-rides are open while trams run (5am-1am Sun-Wed and holidays, 5am-2am Thu-Sat on one page), and parking outside those hours is fined. That page says EUR 15 per day; another TBM page read the same day says a EUR 25 flat fine, so the amount is unclear.",
+   "source_title": "Opening times, maps and list of Parcs-Relais (TBM)",
+   "source_url": "https://www.infotbm.com/en/opening-times-maps-and-list-parcs-relais.html",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "As read on 21 October 2026, same-day park-and-ride parking is included in a TBM subscription. Non-subscribers pay a EUR 4.50 ticket (EUR 3.50 reduced, at 11 listed car parks), which includes 7 round trips for 1-7 people.",
+   "source_title": "Park for the day (TBM)",
+   "source_url": "https://www.infotbm.com/en/park-day.html",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "TBM's 2-5 day park-and-ride tickets (read on 21 October 2026) cost EUR 12 for 2 days, 15 for 3, 20 for 4 and 25 for 5, and include one round trip on the TBM network. They are sold at 11 of the 28 park-and-rides: 40 Journaux, Cantinolle, Les Pins, Les Aubiers, Pessac Alouette, Cap Métiers, Villenave Pyrénées, La Gardette Nord, La Gardette Sud, Lauriers and Floirac Dravemont. Bruges is not among them.",
+   "source_title": "Park for 2 - 5 days (TBM)",
+   "source_url": "https://www.infotbm.com/en/park-2-5-days.html",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2021-02",
+   "text": "A February 2021 city newsletter said the Bruges stops on tram C with the most boardings were La Vache (770 per day) and Ausone (753), where park-and-rides, bike stations and bike shelters are provided. Gare de Bruges had 456 boardings per day; these figures are about five years old.",
+   "source_title": "Lettre du Maire spéciale centre-ville (Ville de Bruges, February 2021)",
+   "source_url": "https://www.mairie-bruges.fr/uploads/files/Publications/1Lettre_du_Maire_Num_-_quartier_centre-ville.pdf",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-05-19",
+   "text": "For events at Stade Atlantique, Bordeaux Métropole's page (updated 19 May 2026) gives 25 minutes by bike from Bruges Centre and says tram C stops directly at the stadium. It lists the main car park P5 (Parc des Expositions) at EUR 15 on site on concert days, with no advance booking, and a EUR 3 'Pass Stade' return ticket.",
+   "source_title": "Comment accéder au Stade Atlantique Bordeaux Métropole ? (Bordeaux Métropole)",
+   "source_url": "https://sedeplacer.bordeaux-metropole.fr/actualites/comment-acceder-au-stade-matmut-atlantique",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-11-03",
+   "text": "Le Bonbon reported on 3 November 2025 that, since the UBB-Bayonne match of Saturday 25 October 2025, parking at the Parc des Expositions is charged EUR 15 per car. According to the article, the Métropole, now owner of the stadium, decided in August 2025 to harmonise pricing so that events with more than 25,000 spectators pay this rate. It says about 3,000 vehicles were counted in the P5 car park at the last match, against a capacity of 7,500, and that only Girondins de Bordeaux matches were still free, except in exceptional crowds. This is a single press source.",
+   "source_title": "Le nouveau prix du stationnement au stade Atlantique scandalise les Bordelais (Le Bonbon)",
+   "source_url": "https://www.lebonbon.fr/bordeaux/news/nouveau-prix-stationnement-stade-atlantique-scandalise-bordelais/",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "TBM's stadium page (read on 21 October 2026) says tram C goes directly to the Parc des Expositions stop, and shuttles run only on major events from trams A, B and E. The Pass Stade is a EUR 3.40 return ticket on that page, against EUR 3 on the Métropole page, so the fare is unclear.",
+   "source_title": "Go to the stadiums (TBM)",
+   "source_url": "https://www.infotbm.com/en/news/bordeaux-stadiums-venues-major-metropolitan-events.html",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-05-28",
+   "text": "Bordeaux Métropole's page (updated 28 May 2025) reports 364 on-street EV charging places at 146 stations. From 6 January 2025 energy is billed at EUR 0.38/kWh, plus EUR 4/h beyond 4 hours on slow sockets (waived 23:00-08:00 on AC), capped at EUR 48 after 14 hours.",
+   "source_title": "Recharger mon véhicule électrique (Bordeaux Métropole)",
+   "source_url": "https://sedeplacer.bordeaux-metropole.fr/en-voiture/recharger-mon-vehicule-electrique",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "Bruges' mobility page (read on 21 October 2026) lists two Citiz car-sharing stations with 4 cars in all (Le Tasta, Parking des Borges), four Le Vélo stations, and 18 free-floating bike/scooter sites of up to 7 devices each. It also lists two carpool areas (chemin de Bacchus, avenue des 4 ponts).",
+   "source_title": "Transports & Déplacements (Ville de Bruges)",
+   "source_url": "https://www.mairie-bruges.fr/au-quotidien/vie-pratique/transports-deplacements",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-10",
+   "text": "The city's page on phase 3 of the town-centre redevelopment (undated; it refers to a participatory build on 20-24 October 2025) sets out a plan to rework public spaces and streets between the town hall and Parc Treulon while keeping the parking offer. It gives two timings for the works: one passage says they will start in 2027, while the timeline lists development works for 2026-2028. This is a plan, not a decision on parking numbers.",
+   "source_title": "Centre-ville : lancement de la phase 3 (Ville de Bruges)",
+   "source_url": "https://www.mairie-bruges.fr/ma-ville/grands-projets/centre-ville-lancement-de-la-phase-3",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "https://www.bordeaux-metropole.fr/en-voiture/recharger-mon-vehicule-electrique and https://www.bordeaux-metropole.fr/en-voiture/parcs-stationnement returned HTTP 403 from the main domain; the same pages on sedeplacer.bordeaux-metropole.fr were readable (EV page) or JavaScript-only (car-park list, no Bruges rows visible).",
+  "No official page found that lists the car parks' space counts for all six Bruges sites, the exact 'Gare de Bruges' park-and-ride (capacity, conditions) or any Bruges P+R expansion project; TBM's list shows only Bruges Centre (58 spaces, subscribers).",
+  "Whether the whole commune of Bruges lies inside the ZFE (inside the ring road) was not stated on the page read; no commune-level paid or resident parking scheme was found beyond blue zones.",
+  "Sud Ouest and actu.fr could not be searched (domains blocked for the search tool); no regional press on Bruges parking was read.",
+  "The Bruges mobility page lists tram E; no official page on its route or opening was read. Tram D station details were not verified.",
+  "Stadium match-day parking rules conflict between sources (free on match days on an older stadium page, EUR 15 per Le Bonbon and the Métropole since 2025); no official 2025-26 match-day tariff page was found.",
+  "Browser tab creation failed, so pages were read by curl and text extraction."
+ ],
+ "dropped": {
+  "low confidence": 1
+ }
+}

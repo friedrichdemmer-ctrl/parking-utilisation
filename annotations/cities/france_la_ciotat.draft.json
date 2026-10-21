@@ -1,0 +1,96 @@
+{
+  "country": "France",
+  "city": "La Ciotat",
+  "researched": "2026-10-21",
+  "summary": "La Ciotat's on-street parking is split into two paid zones. Zone 1 (centre) is paid year-round 8am-8pm with two free hours a day, while zone 2 (beaches, Mugel and Figuerolles) is paid only 1 May-30 September, 9am-8pm, with one free hour. Both are listed by the tourist office at 3.80 EUR for the first hour, with a 38 EUR post-parking charge. The Port de Plaisance car park is charged only from May to September. Off-street car parks are mixed: Indigo runs the Vieux Port and Centre sites, and the Métropole has used free-hour promotions (December 2023) to support the town centre. A 249-space free car park opened at the Ceyreste station in 2020 to ease station saturation. The Calanques National Park advises visitors not to drive into the centre, citing heavy visitor numbers. The official Métropole council reports on the Verdun and Port de Plaisance concession could not be reached, so operator, capacity and utilisation figures are thin.",
+  "items": [
+    {
+      "topic": "tariffs",
+      "date": "2026-08-13",
+      "text": "Per the La Ciotat tourist office page (last modified 13 August 2026), zone 1 (La Tasse, Pétanque, Escalet and Sandral car parks plus centre-town streets) is paid all year, 8am-8pm, with 2 hours free once a day. The listed rate is 3.80 EUR for 1 hour, 7.60 EUR for 2 hours and 38 EUR for 10 hours.",
+      "source_title": "Parkings (La Ciotat tourist office)",
+      "source_url": "https://www.destinationlaciotat.com/sejourner/les-infos-pratiques/parkings/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-08-13",
+      "text": "Zone 2 covers the Mugel and Figuerolles car parks and streets near the beaches (Cyrnos to Saint-Jean). The same page lists it as paid only from 1 May to 30 September, 9am-8pm, with 1 hour free once a day, at the same hourly rates as zone 1.",
+      "source_title": "Parkings (La Ciotat tourist office)",
+      "source_url": "https://www.destinationlaciotat.com/sejourner/les-infos-pratiques/parkings/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "regulation",
+      "date": "2026-08-13",
+      "text": "The same tourist office page lists a post-parking charge (forfait post-stationnement) of 38 EUR for both on-street zones, equal to the 10-hour rate. It does not say when this was set.",
+      "source_title": "Parkings (La Ciotat tourist office)",
+      "source_url": "https://www.destinationlaciotat.com/sejourner/les-infos-pratiques/parkings/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "tariffs",
+      "date": "2026-08-13",
+      "text": "The tourist office lists 15 car parks. La Tasse has 257 spaces (6 for reduced mobility), paid 8am-8pm all year with 2 hours free; Bérouard has 69 blue-zone spaces (free with a disc, 1h30 maximum); the Port de Plaisance has 255 spaces, paid 1 May-30 September and free 1 October-30 April.",
+      "source_title": "Parkings (La Ciotat tourist office)",
+      "source_url": "https://www.destinationlaciotat.com/sejourner/les-infos-pratiques/parkings/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2026-08-13",
+      "text": "The tourist office's list of La Ciotat car parks names two as Indigo sites (Vieux Port and Centre) and separately lists Verdun, Port de Plaisance and the SNCF station car parks. The page does not name the operator of the others.",
+      "source_title": "Parkings (La Ciotat tourist office)",
+      "source_url": "https://www.destinationlaciotat.com/sejourner/les-infos-pratiques/parkings/",
+      "confidence": "low"
+    },
+    {
+      "topic": "demand",
+      "date": "2026-10",
+      "text": "The Calanques National Park access page (undated, read on 21 October 2026) strongly advises against driving into the town centre because of heavy visitor numbers. It suggests leaving the car at a car park such as Mugel, warns these car parks are not always supervised, and lists Ciotabus line 30 to the Mugel and Figuerolles calanques.",
+      "source_title": "Se rendre à La Ciotat (Parc national des Calanques)",
+      "source_url": "https://calanques-parcnational.fr/fr/venir-aux-calanques-de-la-ciotat",
+      "confidence": "medium"
+    },
+    {
+      "topic": "technology",
+      "date": "2026-10",
+      "text": "The same Calanques park page (read 21 October 2026) says the Île Verte is reached by boat shuttle from the Vieux-Port between April and October. I found no road or park-and-ride shuttle for beach car parks.",
+      "source_title": "Se rendre à La Ciotat (Parc national des Calanques)",
+      "source_url": "https://calanques-parcnational.fr/fr/venir-aux-calanques-de-la-ciotat",
+      "confidence": "low"
+    },
+    {
+      "topic": "regulation",
+      "date": "2023-12-06",
+      "text": "The Métropole announced two free hours (10am-7pm) in several metropolitan car parks, including La Ciotat's Vieux-Port and Centre Verdun, on the Saturdays 9-10, 16-17 and 23-24 December 2023. This was a one-off Christmas shopping measure, not a standing rule.",
+      "source_title": "Les parkings gratuits pour encourager les achats de Noël dans les centres-villes (Made in Marseille)",
+      "source_url": "https://madeinmarseille.net/bons-plans/149395-les-parkings-gratuits-pour-encourager-les-achats-de-noel-dans-les-centres-villes/",
+      "confidence": "medium"
+    },
+    {
+      "topic": "operators",
+      "date": "2020-11-10",
+      "text": "A new 249-space car park opened on 9 November 2020 at the La Ciotat-Ceyreste station. It was free for stays up to 7 consecutive days until the station renovation ended, managed by RTM, and was cast as relief for the saturated existing station car park (cost 4.4 million EUR within a 10.56 million EUR interchange project). This is the 2020 position; current terms were not checked.",
+      "source_title": "Un nouveau parking multimodal à la gare de La Ciotat-Ceyreste (Made in Marseille)",
+      "source_url": "https://madeinmarseille.net/?p=80424",
+      "confidence": "medium"
+    },
+    {
+      "topic": "ev",
+      "date": "2026-08-13",
+      "text": "The tourist office's by-car page (modified 13 August 2026) shows an interactive map of 18 public charging locations in La Ciotat. Operators named include Alizé Liberté, Freshmile, ENGIE, IZIVIA, TotalEnergies and Indigo, at the A50 service areas and supermarkets among others.",
+      "source_title": "By car (La Ciotat Tourist Office)",
+      "source_url": "https://en.destinationlaciotat.com/stay/practical-information/getting-around-in-la-ciotat/by-car/",
+      "confidence": "low"
+    }
+  ],
+  "gaps": [
+    "deliberations.ampmetropole.fr (Métropole council papers) was unreachable from this network (connection timeout / refused), so I could not read: the December 2024 decision on the FPS (parking charge) revenue arrangement 2025-2029 (109052.pdf), the 2022 and 2023 activity reports of the SAGS concession for Verdun and Port de Plaisance (68681_..., 109058_...), the 2020 report (C0EMS.pdf). Concession operator, contract end date, Verdun/Port capacity and entry counts are therefore not recorded.",
+    "www.laciotat.com (city site) returns a JavaScript challenge, so the city's own pages (resident vignette page /votre-mairie/vignette-de-stationnement, beaches page, abonnement page) were not opened; www.ville-laciotat.fr did not connect. Resident parking terms and prices are not documented.",
+    "The tourist office's older English 'parking in La Ciotat' page now returns 404; the resident vignette price seen only in a search snippet is not used.",
+    "A third-party FPS site says the city introduced paid parking until 23h30 in 2024 and then reversed it; not used because it is not a primary source.",
+    "No source read on summer saturation statistics, any road shuttle or park-and-ride for the beaches, parking utilisation, or an open-data feed for the car parks. No La Provence, actu.fr or France Bleu/ICI Provence article on 2025-2026 parking changes was found or opened.",
+    "Ciotabus site and the Métropole mobility pages were not checked. Whether the 2020 free-parking terms at the station car park still apply is unknown."
+  ]
+}

@@ -1,0 +1,151 @@
+{
+ "country": "Italy",
+ "city": "Castelrotto",
+ "researched": "2026-10-21",
+ "verified": "2026-10-21",
+ "summary": "From 29 June 2026 the day-only Seiser Alm car parks P1 Spitzbuehl and P2 Compatsch must be booked online, according to a municipal notice of 19 June 2026 and a tourism-association page read on 21 October 2026, which lists 15 euros for P1 and 30 euros for P2 per car and day. The same page says the road is closed to private uphill traffic from 9:00 to 17:00, that a valid booking acts as the access permit at the St. Valentin checkpoint, and that entry is only possible until 9:30. The municipality announced in May 2026 that access permits would be checked by plate-reading cameras at five control points, and an April 2026 presentation describes planned variable-message signs in Telfen and says a barrier at St. Valentin was considered and dropped after visits to Prags; whether all of this is operating was not confirmed by any later source. In the village, an undated tourism-association listing gives the central garage at 2.20 euros per hour (24 euros daily maximum) and a paid surface lot at Marinzen at 1.50 euros per hour or 5 euros per day; a second village garage (Dorf, 2.30 per hour) and two free time-limited lots (60 and 90 minutes) appear on separate pages of the same site. At the Seiser Alm Bahn valley station in Seis there is a free open lot, two paid garages (8 and 12 euros per day) and three fast EV chargers. A 2015 press report shows only that local hoteliers asked for heavy traffic to be kept out of the village centre. No municipal council decision on village parking fees, no utilisation figures and no press coverage of the first booking season were found.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2026-05-07",
+   "text": "On 7 May 2026 the municipality announced that from summer 2026 all Seiser Alm access permits (except farm vehicles and vehicles with special plates) must be applied for through an online portal (zufahrt-seiseralm.it), with licence plates checked by camera at the control points St. Valentin, Jochstrasse, Compatsch, Pufels and Jender.",
+   "source_title": "Zufahrt Seiser Alm - die Registrierung ist ab sofort möglich (Marktgemeinde Kastelruth)",
+   "source_url": "https://gemeinde.kastelruth.bz.it/de/Neuigkeiten/Bekanntmachungen/Zufahrt_Seiser_Alm_-_die_Registrierung_ist_ab_sofort_moeglich",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-04-23",
+   "text": "The municipality's presentation of the 2026 changes (published 23 April 2026) states that the car parks P1 Spitzbuehl and P2 Compatsch must be booked online, through a platform to be set up, and that once both are fully booked no booking or access is possible, not even before 9:00 or after 17:00. A barrier at St. Valentin was originally considered and, according to the presentation, dropped after talks and site visits in Prags because of high staffing effort, delays, a high error rate and resulting queues.",
+   "source_title": "Zufahrt Seiser Alm - Präsentation der Neuerungen (Marktgemeinde Kastelruth, PDF)",
+   "source_url": "https://gemeinde.kastelruth.bz.it/de/Verwaltung/Dokumente/Zufahrt_Seiser_Alm_-_Praesentation_der_Neuerungen",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-04",
+   "text": "According to the same municipal presentation, digital variable-message signs in Telfen (for traffic from Kastelruth and from Seis, before the Seiser Alm turn-off) are to show whether P1 and P2 have free spaces, to avoid pointless traffic up the mountain. Camera plate reading and signs are planned at St. Valentin and Compatsch, and barriers with traffic lights at Pufels and Jender if those routes are officially opened.",
+   "source_title": "Zufahrt Seiser Alm - Präsentation der Neuerungen (Marktgemeinde Kastelruth, PDF)",
+   "source_url": "https://gemeinde.kastelruth.bz.it/de/Verwaltung/Dokumente/Zufahrt_Seiser_Alm_-_Praesentation_der_Neuerungen",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-19",
+   "text": "On 19 June 2026 the municipality announced that online reservation is required for the Seiser Alm car parks P1 Spitzbuehl and P2 Compatsch from 29 June 2026, bookable at the earliest 6 days ahead (so from 23 June for 29 June).",
+   "source_title": "Start der digitalen Parkplatzbuchung auf der Seiser Alm am 29. Juni 2026 (Marktgemeinde Kastelruth)",
+   "source_url": "https://gemeinde.kastelruth.bz.it/de/Neuigkeiten/Bekanntmachungen/Start_der_digitalen_Parkplatzbuchung_auf_der_Seiser_Alm_am_29_Juni_2026",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: the Seiser Alm road is closed to private traffic from 9:00 to 17:00 (uphill only), a valid parking booking doubles as the access permit at the St. Valentin checkpoint, and parking on the Alm is banned from 23:00 to 5:00. The page also says the road is open all day in the shoulder seasons when the cable car is closed (mid-April to mid-May, early November to early December).",
+   "source_title": "Zufahrt Seiser Alm (Tourismusverband Dolomitenregion Seiser Alm)",
+   "source_url": "https://www.seiseralm.it/de/info-service/mobilitaet/zufahrt-seiser-alm.html",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: P1 Spitzbuehl costs 15 euros per car and day (10 for motorbikes) and P2 Compatsch 30 euros (15 for motorbikes, 160 for buses); only day tickets exist (05:00-23:00), payment is at booking, and there is no cancellation or refund. Entry must be by 9:30 or the booking lapses, and a booking allows a single entry.",
+   "source_title": "Parkplatzbuchung Seiser Alm (Tourismusverband Dolomitenregion Seiser Alm)",
+   "source_url": "https://www.seiseralm.it/parking",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: when the Seiser Alm cable car is closed in the shoulder seasons, P2 Compatsch is listed at 15 euros per car and 80 euros per bus per day. P2 is said to equal the 30-euro return fare of the Seiser Alm Bahn.",
+   "source_title": "Zufahrt Seiser Alm (Tourismusverband Dolomitenregion Seiser Alm)",
+   "source_url": "https://www.seiseralm.it/de/info-service/mobilitaet/zufahrt-seiser-alm.html",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Holders of a European Disability Card may drive to Compatsch at any time and use reserved free spaces there, after registering for an access permit on the municipal portal; if those spaces are occupied, a paid space must be booked. Bus line 14 (Spitzbuehl-Compatsch) runs from 25 July to 6 September 2026. Page read on 21 October 2026.",
+   "source_title": "Parkplatzbuchung Seiser Alm (Tourismusverband Dolomitenregion Seiser Alm)",
+   "source_url": "https://www.seiseralm.it/parking",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: at the Seiser Alm Bahn valley station in Seis there is a free open-air car park plus two paid garages, Walderer (2.00 euros per hour, 8.00 per day) and the new Talstation garage (2.50 per hour, 12.00 per day). The operator is not named on the page, and the page gives two different night-parking bans for the open lot (22:00-6:30 in the table, 23:00-5:00 in the text).",
+   "source_title": "Parken auf der Seiser Alm & im Tal (Tourismusverband Dolomitenregion Seiser Alm)",
+   "source_url": "https://www.seiseralm.it/de/info-service/mobilitaet/parkplaetze.html",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: the Seiser Alm Bahn valley station has three public EV chargers (one outdoors, one on each garage level), described as 100-150 kW fast chargers; further chargers are listed at Kastelruth St. Anna, Voels and Tiers. Charging is handled through the Neogy eMobility app.",
+   "source_title": "Parken auf der Seiser Alm & im Tal (Tourismusverband Dolomitenregion Seiser Alm)",
+   "source_url": "https://www.seiseralm.it/de/info-service/mobilitaet/parkplaetze.html",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: Kastelruth's central garage (Parkgarage Zentrum) at the bus station is listed at 2.20 euros per hour by day (07:00-23:00) and 1.80 at night, with a daily maximum of 24 euros and a maximum height of 2.50 m; it is open 24 hours.",
+   "source_title": "Parkgarage Zentrum / Parkgarage Dorf (Tourismusverband Dolomitenregion Seiser Alm)",
+   "source_url": "https://www.seiseralm.it/de/info-service/aktuelle-infos/informationen-a-z/CDD330F4935F1A556ABE0A5A7A6AC163-parkgarage-zentrum.html",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: the Marinzen lot in Kastelruth, behind the Coop supermarket, is paid at 1.50 euros per hour or a 5-euro day ticket.",
+   "source_title": "Parkplatz Marinzen / Schule / Altersheim (Tourismusverband Dolomitenregion Seiser Alm)",
+   "source_url": "https://www.seiseralm.it/de/info-service/aktuelle-infos/informationen-a-z/CF2C0EF6C600F7A7FC76EE38B70EA7D4-parkplatz-marinzen.html",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "Page read on 21 October 2026: for the Kastelruther Spatzenfest at the Tirlerhof, 1 km outside the village, a very large temporary car park and tent are set up, free shuttle buses run from the bus stations of Kastelruth, Seis and Voels, and cars are routed via Tiosels/Wasserebene because the main road is closed. The 2026 edition was in early October and the page already lists October 2027 dates.",
+   "source_title": "Kastelruther Spatzenfest (Tourismusverband Dolomitenregion Seiser Alm)",
+   "source_url": "https://www.seiseralm.it/de/geniessen-erleben/erleben/veranstaltungen-highlights/F41DBECD162A406F95BD90DEF4C99119-kastelruther-spatzenfest.html",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "No Gemeinderat/Gemeindeausschuss decision on village parking fees or zones found: the Beschlüsse page on gemeinde.kastelruth.bz.it lists only one 2022 document and the Amtstafel (albopretorio.gvcc.net) was not opened.",
+  "No press coverage (Dolomiten, Salto, Südtirol News, Alto Adige) of the 2026 Seiser Alm booking system or of utilisation results could be opened; web searches returned only the official pages.",
+  "stol.it article on mobility in Kastelruth is from 2015 (body text read from the page's embedded article data); no recent stol.it, salto.bz or altoadige.it article was read.",
+  "Village tariffs come from undated tourism-association listings (not the Gemeinde); operator of the garages (Zentrum, Dorf, Seis, valley station) is not named and the Seis garage tariff is missing.",
+  "Kastelruth 2040 citizen survey (open to 15 June 2026, announced on the Gemeinde home page) could not be linked to parking; the platform was not opened.",
+  "No occupancy, capacity (P1/P2 space counts) or booking-volume statistics found; the Spatzenfest page gives no parking capacity or fee.",
+  "Own browser tab could not be opened, so pages were read via curl with a normal browser user agent; all returned HTTP 200 with no bot challenge. The Gemeinde PDF presentation was read with pypdf."
+ ],
+ "dropped": {
+  "low confidence": 2
+ }
+}
