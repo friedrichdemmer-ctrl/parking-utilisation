@@ -1,0 +1,219 @@
+{
+ "country": "Netherlands",
+ "city": "Venlo",
+ "researched": "2026-10-21",
+ "verified": "2026-10-22",
+ "summary": "Venlo regulates street parking in the Centrum and surrounding Schil zones under the Parkeerverordening Venlo 2025 (first amended with effect from 1 January 2026) and a yearly parking tax ordinance. For 2026 the centre costs 3.00 euros per hour on weekdays and 3.40 at weekends with a day rate of 15.50 euros, the Schil costs 2.70 and 3.10 euros per hour (13.40 per day), and the Rosarium is day-ticket only at 19.50 euros. Paid hours are 08:00-19:00 (08:00-21:00 on Thursday), with Sunday shortened to 12:00-19:00 from 1 May 2026; the fine for not paying is 82.00 euros. The decree lists 2,109 street spaces in the paid zones and caps resident permits at 1,878, seven-day business permits at 187 and five-day business permits at 90 (together more than the number of spaces), with waiting lists. New housing addresses in some areas are excluded from permits, and a Nota parkeernormen published in June 2026 sets the default that new homes get no street or public-garage permit. The Mobiliteitsplan adopted on 29 January 2025 favours parking in hubs and a stronger station area, and the June 2025 council letters describe a dynamic traffic-management approach for peak days such as Good Friday and Easter, a temporary Arsenaal garage opened in April 2021 (concession until April 2031 at the latest), and two feasibility tracks (an update of the Julianapark study and an above-ground garage or mobility hub near the station), whose results were not found. Q-Park lists six garages in Venlo (about 2,660 spaces) plus the 110-space P+R Stationsplein, and its pages show 68 charge points in the garages; the municipality's own charging network was described in June 2025 as about 243 charging posts, with 23 and 24 further posts proposed and an April 2026 traffic decision reserving bays at 32 charging-post locations. Regulated parking in Arcen was only a proposal in June 2025. Garage tariffs, occupancy figures and the outcome of the feasibility studies could not be confirmed.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2025-11",
+   "text": "The 2026 parking tax ordinance (council decision of 7 November 2025, levy from 1 January 2026) sets street parking in the city centre at 3.00 euros per hour Monday to Friday and 3.40 euros on Saturday and Sunday, with a day rate of 15.50 euros. In the surrounding Schil zone it is 2.70 euros per hour on weekdays, 3.10 euros at weekends and 13.40 euros per day; the Rosarium area is day-ticket only at 19.50 euros.",
+   "source_title": "Verordening parkeerbelastingen Venlo 2026 with Bijlage 1 tariff table, lokaleregelgeving.overheid.nl",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR748010/1",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-09",
+   "text": "Under the municipal decree signed on 30 September 2025, paid street parking applies from 1 May 2026 on Monday to Wednesday and Friday to Saturday 08:00-19:00, on Thursday 08:00-21:00 and on Sunday 12:00-19:00. From 1 January to 30 April 2026 the earlier version of the decree still applied paid parking on Sunday 08:00-19:00. The 2026 parking tax ordinance sets the fine for not paying (naheffingsaanslag) at 82.00 euros and wheel-clamping at 185.72 euros.",
+   "source_title": "Besluit tot aanwijzing plaatsen betaald parkeren, toepassing wielklem en bewaarplaats voertuigen 2026 (versions from 1 May 2026 and from 1 January 2026), lokaleregelgeving.overheid.nl",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR748035/2",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-09",
+   "text": "The 2026 decree lists street parking capacity of 2,109 spaces in the paid-parking zones (Centrum incl. Rosarium 428, Schil Noord 788, Schil Oost 444, Schil Zuid 449). It sets permit maxima of 1,878 resident permits, 187 seven-day business permits and 90 five-day business permits, with a waiting list once a cap is reached (priority: disabled, then residents, then businesses).",
+   "source_title": "Besluit tot aanwijzing plaatsen betaald parkeren ... 2026 (version from 1 May 2026), article 4, lokaleregelgeving.overheid.nl",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR748035/2",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-09",
+   "text": "Addresses in the new Maasboulevard area (e.g. Bastion, Havenkade, Maasstraat, Tegelpoort) and part of the Maaswaard area (Veilingstraat, Molensingel) are designated 'GROP' addresses with no right to a street permit or a resident garage subscription. The decree also says that new developments that raise parking pressure get no new street permits unless the municipality finds it necessary.",
+   "source_title": "Besluit tot aanwijzing plaatsen betaald parkeren ... 2026, article 1, lokaleregelgeving.overheid.nl",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR748035/2",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-11",
+   "text": "For 2026 a resident permit costs 163.20 euros per year for the first car in the centre and 88.80 euros in the Schil (second permit 324.00 and 177.60 euros). A five-day business permit costs 317.40 euros in the centre and 77.40 euros in the Schil, and visitor-permit hours cost 1.50 euros (centre) or 1.30 euros (Schil).",
+   "source_title": "Verordening parkeerbelastingen Venlo 2026, Bijlage 1 tariff table (image), lokaleregelgeving.overheid.nl",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR748010/1",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-11",
+   "text": "The Parkeerverordening Venlo 2025 (council decision of 27 November 2024, in force from 1 January 2025) defines resident, business, visitor, care-giver and car-sharing permits and the 'closed' centre (closed to all traffic except bicycles) and Q4 areas. Target-group, bracket-space and business-street permits can only be renewed by existing holders, not newly requested, and a permit gives no guarantee of a space.",
+   "source_title": "Parkeerverordening Venlo 2025 (version from 1 January 2026), lokaleregelgeving.overheid.nl",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR728054/2",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-10",
+   "text": "On 22 October 2025 the council adopted a first amendment of the Parkeerverordening Venlo 2025, in force from 1 January 2026. It adds a 'flexible parking scheme' (flexibele parkeerregeling) as a permit product, provides that permit applications are made through the digital parking counter unless otherwise agreed, with a decision within six weeks of receipt, and adds an appendix 2C describing Blue Zone areas in Venlo, Blerick and Tegelen.",
+   "source_title": "Eerste wijziging van de Parkeerverordening gemeente Venlo 2025, Gemeenteblad 2025, 508728, officielebekendmakingen.nl",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-508728.html",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-02",
+   "text": "Resident permits (nadere regels, in force from 1 January 2025) allow at most two street permits per address in the Centrum and Schil, or in the centre one street permit plus one resident garage subscription. The first permit is only granted to applicants without their own parking space, and resident garage subscriptions are available only in Blok van Gendt, Nolensplein, Maaswaard, Arsenaal and Roermondsepoort. A digital visitor scheme is granted once per address in the Centrum and Schil but does not apply in car parks with barriers; a business gets one street permit per two employees, up to ten.",
+   "source_title": "Nadere regels parkeervergunningen Venlo 2025, lokaleregelgeving.overheid.nl",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR735144",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Q-Park lists seven Venlo facilities on its own site (read on 21 October 2026): garages Arsenaal (260 spaces), Blok van Gendt (200), Centrum Maasboulevard (535), Maaswaard (394), Nolensplein (745) and Roermondsepoort (528), plus P+R Stationsplein. All six garages show 24/7 opening and a 2.10 m clearance (2.30 m in Maaswaard); tariffs could not be loaded on the pages.",
+   "source_title": "Q-Park Venlo and individual garage pages, q-park.nl",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/venlo/",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "Q-Park's garage pages (read on 21 October 2026) list electric charge points per Venlo garage: Blok van Gendt 19, Centrum Maasboulevard 15, Maaswaard 12, Roermondsepoort 10, Nolensplein 8 and Arsenaal 4, i.e. 68 in total. The pages do not state the charging operator or tariffs.",
+   "source_title": "Q-Park Venlo garage pages (Blok van Gendt, Centrum Maasboulevard, Maaswaard, Roermondsepoort, Nolensplein, Arsenaal), q-park.nl",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/venlo/blok-van-gendt/",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Q-Park P+R Stationsplein at Kaldenkerkerweg 5913 AA Venlo has 110 spaces, 2.10 m clearance, 24/7 access, number-plate recognition, bicycle storage and an 'OV-knooppunt' (public-transport hub) label. Traveller discount applies for a domestic train trip that returns the same day; the tariff could not be loaded on the page, which was read on 21 October 2026.",
+   "source_title": "Q-Park P+R Stationsplein Venlo, q-park.nl",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/venlo/p-r-stationsplein/",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2019-05",
+   "text": "A Q-Park news item of 2 May 2019 announced that, during that month, Q-Park would replace the access and payment equipment in Maaswaard, Roermondsepoort and Nolensplein in phases (Maaswaard 6-10 May, Roermondsepoort 13-18 May, Nolensplein 20-27 May), with the garages staying open. The three garages had been taken over from the municipality the year before. The new system would add contactless card payment and value cards that businesses can buy and hand to customers, and Q-Park said it would help, together with the municipality, to spread parking pressure at weekends and on 'German days'. It also said Blok van Gendt was planned for completion in 2020.",
+   "source_title": "Q-Park investeert in Venlose parkeergarages, news item of 2 May 2019, q-park.nl",
+   "source_url": "https://www.q-park.nl/nl-nl/over/nieuws/q-park-investeert-in-venlose-parkeergarages/",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-06",
+   "text": "A council information letter of 24 June 2025 lists the Venlo parking measures already carried out: the switch to cashless parking, more uniform permit products, number-plate recognition for enforcement, a yearly parking-pressure survey (tendered in 2024) and a longer paid-parking window from 18:00 to 19:00. Still planned were better signage and dynamic parking guidance (2025-2026) and a resident poll on extending regulated parking, scheduled for autumn 2025.",
+   "source_title": "Raadsinformatiebrief 'RIB Mobiliteit eerste helft 2025' (college meeting 24 June 2025), venlo.bestuurlijkeinformatie.nl",
+   "source_url": "https://venlo.bestuurlijkeinformatie.nl/Document/View/c99057e9-fd57-4abf-bb8a-57b8138b29ff",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-06",
+   "text": "After the council adopted the Mobiliteitsplan Venlo on 29 January 2025, the city started a dynamic traffic-management approach for reaching the centre. On Good Friday and Easter Sunday 2025 it used motorway information to spread visitors, traffic marshals steering drivers to free parking, and new smart traffic lights on the Krefeldseweg; a fuller approach was to be tendered in Q3 2025, together with parking guidance and a look at using private parking capacity.",
+   "source_title": "Raadsinformatiebrief 'RIB Mobiliteit eerste helft 2025' (college meeting 24 June 2025), venlo.bestuurlijkeinformatie.nl",
+   "source_url": "https://venlo.bestuurlijkeinformatie.nl/Document/View/c99057e9-fd57-4abf-bb8a-57b8138b29ff",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-06",
+   "text": "The temporary Arsenaal garage opened in April 2021 and, according to a June 2025 council letter, meets the centre's current parking demand on the basis of occupancy figures. Its concession runs 8 years with an option for up to 2 more, so operation without major extra investment can last until April 2031 at the latest.",
+   "source_title": "Raadsinformatiebrief 'Parkeergarage Centrum - Oost' (college meeting 3 June 2025), venlo.bestuurlijkeinformatie.nl",
+   "source_url": "https://venlo.bestuurlijkeinformatie.nl/Document/View/1772a4c5-4d62-42a7-888a-21d7610e8be0",
+   "confidence": "high",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-06",
+   "text": "On 29 January 2025 the council adopted an amendment asking for a study of a municipal-owned garage near Centrum-Oost, aimed at 2029. In June 2025 the city reported that a 2021 study of an underground garage under the Julianapark was not financially sound and faced groundwater, drinking-water, war-ordnance and archaeology issues, so it launched two feasibility tracks (an update of the Julianapark study and an above-ground garage or mobility hub near the station that could also replace the Arsenaal and serve park-and-ride). Results were expected at the end of 2025 or early 2026; they were not found.",
+   "source_title": "Raadsinformatiebrief 'Parkeergarage Centrum - Oost' (college meeting 3 June 2025), venlo.bestuurlijkeinformatie.nl",
+   "source_url": "https://venlo.bestuurlijkeinformatie.nl/Document/View/1772a4c5-4d62-42a7-888a-21d7610e8be0",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-06",
+   "text": "According to the June 2025 council letter (college meeting of 24 June 2025), earlier charging concessions produced a covering network of 243 charging posts (laadpalen) for greater Venlo, while the current concession (2024-2028) places posts based on actual charging demand, analysed every six months. The analysis for the first period led to a proposal to place 23 posts in Venlo, and a second analysis led to a proposal by Vattenfall to place 24 posts; the letter does not say whether the 24 replace or add to the 23.",
+   "source_title": "Raadsinformatiebrief 'RIB Mobiliteit eerste helft 2025' (college meeting 24 June 2025), venlo.bestuurlijkeinformatie.nl",
+   "source_url": "https://venlo.bestuurlijkeinformatie.nl/Document/View/c99057e9-fd57-4abf-bb8a-57b8138b29ff",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-04",
+   "text": "A traffic decision signed on 21 April 2026 (published 24 April 2026) decides to reserve two parking bays next to each of 32 new charging posts for charging electric vehicles only (sign E8c). The introduction speaks of '29 locaties', but the list under it names 32 street addresses (2 in Belfeld, 3 in Tegelen and 27 in Venlo), in line with the title and the decision text. The municipality says it wants to place posts at strategic locations as well as on request, in line with its ambition to be climate neutral by 2030, and that it will carry out the decision only after the six-week objection period has ended.",
+   "source_title": "Verkeersbesluit plaatsen van tweeendertig e-laadpalen in de gemeente Venlo, Gemeenteblad 2026, 198117, officielebekendmakingen.nl",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-198117.html",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06",
+   "text": "The Nota parkeernormen Venlo 2026 (policy rule published 16 June 2026) sets parking requirements for new developments, valid to 2030: parking is to be solved primarily on the developer's own site, new home addresses by default get no street or public-garage permit, and a shortfall is not automatically solved in public space. It allows a zero parking norm for social rented housing in regulated areas if future residents are excluded from public parking rights.",
+   "source_title": "Nota parkeernormen Venlo 2026, Gemeenteblad 2026, 284690, officielebekendmakingen.nl",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-284690.html",
+   "confidence": "high",
+   "id": 18,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-06",
+   "text": "In a council information letter (college meeting of 10 June 2025) the city described the process towards regulated parking in the village core of Arcen, meant to discourage tourist visitors from parking in the core and to push long-stay parkers to the paid car park near the Kasteeltuinen. Talks with the village council, businesses and the Kasteeltuinen were continuing on the tariff (free first two hours) and on resident permits, with a follow-up meeting set for 16 June 2025; the stakeholders aimed to deliver a final plan after summer 2025, possibly as part of the annual November changes to the parking ordinance, so that regulated parking would apply in the core for the 2026 tourist season. This is a proposal under discussion; no adopted rule was found, and no Arcen street appears in the Parkeerverordening 2025 area appendices (version of 1 January 2026) or in the 2026 designation decree.",
+   "source_title": "Raadsinformatiebrief 'Parkeren Arcen' (college meeting 10 June 2025), venlo.bestuurlijkeinformatie.nl",
+   "source_url": "https://venlo.bestuurlijkeinformatie.nl/Document/View/46d84bee-3309-4af6-b317-690630832732",
+   "confidence": "medium",
+   "id": 19,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "venlo.nl parking pages returned a 'temporarily unavailable, taken offline due to potential security risk' page on 21 October 2026, so no municipal web page (parking tariffs for garages, permit pages, P+R information) could be read.",
+  "gemeenteraad.venlo.nl (council documents such as the Uitvoeringsplan Parkeren RIB 212-2023, the 2020 exploratory parking study RIB 139 and the Mobiliteitsplan itself) failed with a TLS certificate name mismatch and was not opened; only copies on venlo.bestuurlijkeinformatie.nl and the Gemeenteblad were used.",
+  "Q-Park tariff tables for the Venlo garages and the P+R Stationsplein could not be loaded on the Q-Park pages ('tarieven konden niet geladen worden'); garage and P+R tariffs and the NS/OV traveller discount amounts are therefore not stated. Third-party listing portals were not used.",
+  "Results of the 2025-2026 feasibility studies for a station-area garage or Julianapark garage, the autumn 2025 resident poll on extending regulated parking, the outcome of the Arcen regulated-parking proposal and any 2026 council decisions on them were not found.",
+  "No official figures on German day-visitor volumes or on garage utilisation (the annual parking-pressure survey results) were found; only the traffic-management measures for peak days and a 2019 Q-Park remark on 'German days' were read. Press articles on German shoppers were not opened.",
+  "The opening date of Q-Park Blok van Gendt was not confirmed (a January 2019 trade article announced completion for 2020; the Q-Park site now lists it with 200 spaces). The tariff table of the 2026 parking tax ordinance is an image (read from the image); a comparison with 2025 tariffs was not made.",
+  "Own browser tab was not used; pages were fetched with curl using a browser User-Agent and PDFs extracted with pypdf."
+ ],
+ "dropped": {}
+}

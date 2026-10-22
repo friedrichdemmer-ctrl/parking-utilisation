@@ -1,0 +1,193 @@
+{
+ "country": "Netherlands",
+ "city": "Beverwijk",
+ "researched": "2026-10-21",
+ "verified": "2026-10-22",
+ "summary": "Beverwijk charges for on-street parking in two municipal zones, the Centrum (with a Theater sector near the Kennemer Theater) and the Bazaar area. The 2026 parking-tax ordinance (levy from 1 January 2026) sets 1.70 euros per 60 minutes in both zones, a free first 60 minutes in Centrum when the plate is registered, a 14.30 euro daily maximum in Centrum and none at the Bazaar. The latest paid-hours decision read is the 2025 one: Centrum Monday to Saturday 09:00-19:00, Theater sector until 22:00, and the Bazaar on weekends and named holidays 07:00-18:00; no 2026 replacement was found, so 2026 hours are unconfirmed. Since late 2023 the council has pursued wider paid hours, one merged centre zone and at most two resident permits per address (existing third permits can be renewed), and in May 2024 the municipality announced a licence-plate scan-car test with official enforcement planned from 25 June 2024; no evaluation outcome was found. A 2022 survey reported to the council in April 2023 found Saturday-afternoon centre occupancy of 78 to 84 percent over 2019-2022 and that 52 percent of parked vehicles had neither permit nor payment. The same survey found the station park-and-ride peaking at 6 percent, and a 2023 consultancy note for the municipality said the NS-owned Wijckermolen park-and-ride was barely used and a search location for a possible future stacked car park, as was said by one party in a committee debate, but no decision on a car park was found; the planning assumption that the Meerplein (448 spaces) goes from about 2027 is from that 2023 note only. In September 2024 the college proposed a 17 euro daily maximum and a free first hour, and the ordinances finally published set different maxima. The Bazaar runs its own car parks with a 5 euro weekend maximum, and in June 2026 the college decided to reserve two spaces for charging at listed public charge-point locations, while cable charging from home is allowed under rules published in April 2026.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2026-01",
+   "text": "The Verordening parkeerbelastingen 2026 (adopted by the council on 20 November 2025, levy from 1 January 2026) sets on-street tariffs of 1.70 euros per 60 minutes in both Beverwijk Centrum and Beverwijk Bazaar. In Centrum the first 60 minutes cost 0.00 euros when the plate is registered at a machine or by phone; the daily maximum is 14.30 euros in Centrum, there is no daily maximum at the Bazaar, and the penalty is 82.00 euros.",
+   "source_title": "Verordening parkeerbelastingen 2026, Gemeenteblad 2025 nr. 546151",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-546151.html",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-12",
+   "text": "The Verordening parkeerbelastingen 2025 (Gemeenteblad 2024 nr. 507830, published 5 December 2024, levy from 1 January 2025) set 1.65 euros per 60 minutes at the Bazaar from the start, and in Centrum 1.65 euros per 60 minutes from the second hour (first hour 0.00, Monday to Saturday), a 14.00 euro daily maximum in Centrum (none at the Bazaar) and 27.86 euros for a first resident permit. The 2026 ordinance therefore raised the hourly rate by 0.05 euros, the Centrum daily maximum by 0.30 euros and the first resident permit to 28.47 euros.",
+   "source_title": "Verordening parkeerbelastingen 2025, Gemeenteblad 2024 nr. 507830",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2024-507830.html",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-01",
+   "text": "The Aanwijsbesluit parkeren 2025 (Gemeenteblad 2025 nr. 4164, 6 January 2025) sets paid hours in Beverwijk Centrum at Monday to Saturday 09:00-19:00 (the first hour costs 0.00), in the Theater sector around the Kennemer Theater at Monday to Saturday 09:00-22:00, and at the Bazaar on Saturdays, Sundays and on Good Friday, Easter Monday, Liberation Day, Ascension Day, Whit Monday and both Christmas days, 07:00-18:00. Centrum and Theater are not charged on New Year's Day, Easter Monday, King's Day, Liberation Day, Ascension Day, Whit Monday and both Christmas days. The street Wijckermolen is listed in the Centrum zone. I found no 2026 replacement decision in the official repository, so this 2025 list is the latest read and the 2026 hours are not confirmed.",
+   "source_title": "Aanwijsbesluit parkeren 2025, Gemeenteblad 2025 nr. 4164",
+   "source_url": "https://repository.overheid.nl/frbr/officielepublicaties/gmb/2025/gmb-2025-4164/1/pdf/gmb-2025-4164.pdf",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-01",
+   "text": "The Nadere regels parkeren 2025 allow at most two resident permits per registered address in the centre and a visitor bundle of 200 hours a year in Centrum and 260 hours in the Theater sector for the same price. Residents of new-build projects in the Stadskant Spoorzone, where parking is arranged on private land, are excluded from resident and visitor permits. The 2026 tariff table prices the 1st and 2nd resident permit at 28.47 and 91.12 euros and visitor hours at 0.27 euros per hour in Centrum.",
+   "source_title": "Nadere regels parkeren 2025, Gemeenteblad 2025 nr. 1720 (and Verordening parkeerbelastingen 2026)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2025-1720.html",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-10-12",
+   "text": "The council adopted the Nota Parkeernormen en Afkoopregeling Parkeren 2024 on 12 October 2023, in force from 1 November 2023: the exemption for small developments (kruimelregeling) was dropped, a specific part of the Stadskant Spoorzone gets lower parking norms for new housing, and buy-out contributions are indexed by 2 percent a year. Using spare capacity in the centre costs developers 5,000 euros per space.",
+   "source_title": "Nota Parkeernormen en Afkoopregeling Parkeren 2024, Gemeenteblad 2023 nr. 462890",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2023-462890.html",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-09-28",
+   "text": "On 28 September 2023 five council parties (D66, Samen Lokaal, PvdA, GroenLinks, O'ns Beverwijk) tabled amendment D-102156 on the Nota Parkeernormen / Verordening Parkeerbelasting 2024. It would have the council state that it has no wishes or objections to the college's coming parking decisions on: paid parking in the centre to 19:00 on weekdays, introduced on Saturdays 09:00-19:00, extended to 22:00 around the Kennemer Theater, a reduced tariff for the first two hours on Saturdays, merging the centre zones including the blue zone into one, and excluding new-build residents of the Stadskant Spoorzone from permits. It also gave the college a wish of at most two resident permits per address in the centre. The amendment page does not show the vote outcome; the 2025 designation decision later lists Monday to Saturday 09:00-19:00 in Centrum and until 22:00 in the Theater sector.",
+   "source_title": "Amendement Nota Parkeernormen en Afkoopregeling parkeren 2024 / Verordening Parkeerbelasting 2024 (D-102156)",
+   "source_url": "https://beverwijk.bestuurlijkeinformatie.nl/Document/View/eff2784b-4b95-425e-bd1e-198397e9de60",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2023-04-06",
+   "text": "A 2022 survey reported to the council on 6 April 2023 found the busiest centre moment was Saturday 14:00-16:00 at 78 percent average occupancy (Thursday evening 72 percent), against the council's 85 percent maximum. Of all parked vehicles, 52 percent had neither a permit nor paid, 80 percent on the Meerplein and over 95 percent on the Breestraat. Centre-wide Saturday-afternoon occupancy for 2019-2022 was 78, 80, 84 and 82 percent.",
+   "source_title": "Raadsmemo toezegging parkeeronderzoek (D-095223)",
+   "source_url": "https://beverwijk.bestuurlijkeinformatie.nl/Document/View/be274b5d-464e-4a40-a5ba-c7ae9cbabb9e",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2023-04-06",
+   "text": "In the same 2022 survey the NS park-and-ride at the station peaked at only 6 percent occupancy, and at 2 percent at the busiest centre moment on Saturday (non-rail users pay there while centre parking was free on Saturdays); it was 8 percent full during the June 2022 city festival. Around the Meerplein the lots had about 225 spare places at the Saturday peak (125 without the P+R).",
+   "source_title": "Raadsmemo toezegging parkeeronderzoek (D-095223)",
+   "source_url": "https://beverwijk.bestuurlijkeinformatie.nl/Document/View/be274b5d-464e-4a40-a5ba-c7ae9cbabb9e",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2023-04-06",
+   "text": "The edge car parks behaved unevenly in 2022: Wijckerpoort averaged 23 percent but reached 98 percent on Thursday afternoon, and Halve Maan averaged 57 percent with a 95 percent peak on Thursday evening. The memo also reported that the Meerplein was busiest on market-day Wednesday at 67 percent, with about 80 spare places.",
+   "source_title": "Raadsmemo toezegging parkeeronderzoek (D-095223)",
+   "source_url": "https://beverwijk.bestuurlijkeinformatie.nl/Document/View/be274b5d-464e-4a40-a5ba-c7ae9cbabb9e",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-09-24",
+   "text": "The college's proposal 'verbetervoorstellen parkeerbeleid 2025' of 24 September 2024 suggested a 17.00 euro daily maximum (uncapped days would cost 24.50 euros in Centrum and 33.65 in the Theater zone) and a free first hour Monday to Saturday as its preferred scenario. It noted that under 6 percent of transactions last over 4 hours and that the parking fund would only break even from 2026; the ordinances finally published set different maxima (14.00 euros for 2025, 14.30 for 2026).",
+   "source_title": "Raadsvoorstel verbetervoorstellen parkeerbeleid 2025 (D-129316)",
+   "source_url": "https://beverwijk.bestuurlijkeinformatie.nl/Document/View/cc3bfaf9-232d-43a0-b138-38dcd1b9f5d6",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2024-09-24",
+   "text": "The same September 2024 proposal asked for 94,053 euros to add 9 and move 3 pay machines in the centre, and planned information columns at the car parks Halve Maan, Beverplein, Meerplein and Wijckerpoort able to take a future parking guidance system, whose feasibility per car park was to be studied in 2025. It also flagged that a possible built car park would be harder to operate if more free parking were allowed.",
+   "source_title": "Raadsvoorstel verbetervoorstellen parkeerbeleid 2025 (D-129316)",
+   "source_url": "https://beverwijk.bestuurlijkeinformatie.nl/Document/View/cc3bfaf9-232d-43a0-b138-38dcd1b9f5d6",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2024-05-23",
+   "text": "Beverwijk began testing a licence-plate scan car on 23 May 2024 in the paid zones Centrum, Theater sector and Bazaar, with no fines during the test, checking plates against the national parking register (NPR) and sending hits to an enforcement officer. Official use in the centre was planned from 25 June 2024 after a successful evaluation.",
+   "source_title": "Persbericht Beverwijk start test met scanauto voor parkeercontrole (D-122762)",
+   "source_url": "https://beverwijk.bestuurlijkeinformatie.nl/Document/View/ae670436-8e00-4e80-812c-c5f4592cda9b",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-08-22",
+   "text": "A consultancy note for the municipality (Iv-Infra, 22 August 2023) said the NS park-and-ride at Wijckermolen was barely used, that the municipality was talking to the site owner NS, and that it was a search location, with the Meerplein, Halve Maan and Wijckerpoort, for a future stacked car park. It assumed the 75 spaces at the Slangenwegje would go around 2024-2025 and the 448 public Meerplein spaces from about 2027; this is a planning assumption, not a decision.",
+   "source_title": "Notitie maatregelen met betrekking tot parkeren in het centrum van Beverwijk (Iv-Infra, INFR230340)",
+   "source_url": "https://beverwijk.bestuurlijkeinformatie.nl/Document/View/dea95272-9606-464d-9414-d657c683e333",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-09-21",
+   "text": "At the council committee of 21 September 2023 the party Samen Lokaal said it wanted an above-ground car park near the centre, naming the NS park-and-ride as a possible site, and several other speakers said they favoured a car park if affordable. These are party positions in a debate, and the 2024 follow-up proposal I found did not contain a decision on a car park.",
+   "source_title": "Transcript raadscommissie Beverwijk 21 september 2023 (D-106687)",
+   "source_url": "https://beverwijk.bestuurlijkeinformatie.nl/Document/View/83bd6bb6-c426-439a-9f12-aac5910811af",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-06-04",
+   "text": "By a collective traffic decision dated 4 June 2026 (Gemeenteblad 2026 nr. 254133) the college reserves 2 parking spaces for electric-vehicle charging only, with sign E8c and subsign OB504, at each charge-point location listed in an annex (not read here), and may replace existing signs when a further charge point is placed nearby; the decision says the charge point must be built within three years. Similar decisions are Plantage (nr. 270481, published 11 June 2026) and a collective decision of 22 June 2026 (nr. 297218).",
+   "source_title": "Verzameld verkeersbesluit reserveren parkeerplaatsen voor opladen elektrische voertuigen, Gemeenteblad 2026 nr. 254133",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-254133.html",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-04-20",
+   "text": "The college's Nadere regels for extended private charging (Gemeenteblad 2026 nr. 186298, published 20 April 2026 and in force the day after; the text says the college used its power on 6 January 2026 under the Algemene Plaatselijke Verordening adopted by the council on 18 December) allow people without parking at their own home or business to run a charge cable of at most 5 metres, with a cable mat or flat cable, over the pavement to a public parking space between 20:00 and 16:00, without a notification duty.",
+   "source_title": "Nadere regels gebruik openbare weg voor het verlengde private laden, Gemeenteblad 2026 nr. 186298",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-186298.html",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The Beverwijkse Bazaar runs its own signed car parks P0, P1, P3, P4 and P5; the Bazaar's visitor page, read on 21 October 2026 and undated, states weekend parking costs at most 5 euros per car per day (4.50 euros pre-bought online), Friday is free unless there is an event, there is camera supervision and 16 charge points on P4. The page gives no capacity figures; separately the municipal on-street Bazaar zone is charged at 1.70 euros per hour.",
+   "source_title": "Openingstijden, Route & Parkeren, De Bazaar Beverwijk",
+   "source_url": "https://debazaar.nl/openingstijden-route-en-parkeren/",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "https://www.beverwijk.nl (all pages incl. /parkeren, /scanauto, /parkeernormen): the municipal site showed a 'temporarily unavailable, security precaution' page on 21 October 2026, so current tariffs, zone maps and park-and-ride information could not be read there",
+  "https://www.rodi.nl/beverwijk/nieuws/354088/college-b-en-w-stemt-in-met-aangescherpt-parkeerbeleid and the other rodi.nl local-news pages: returned 'Toegang geweigerd' (blocked), not worked around",
+  "No 2026 Aanwijsbesluit parkeren (paid hours and street list) found; the 2025 decision (Gemeenteblad 2025 nr. 4164) was the latest read, so 2026 hours are not confirmed",
+  "No Beverwijk document found on the status of a built car park (Meerplein, Halve Maan, Wijckerpoort, NS P+R), on the 2025 'Nota Parkeernormen 2025', on the end-2025 cost-covering parking proposal, or on a parking guidance system; the Meerplein 2027 redevelopment date is from a 2023 consultancy note only",
+  "Station P+R Wijckermolen (121 spaces, NS-owned, operator reportedly Q-Park): no primary NS or Q-Park page with current tariff or capacity could be opened (q-park.nl and ns.nl station pages returned 404 or empty); the third-party listing centrumparkeren.nl was not used as support",
+  "Bazaar on-street and private car park capacity and visitor numbers: no figures found; the traffic/bereikbaarheid plan for the Bazaar was not found",
+  "EV charging: the locations annexes (Bijlage 1 'Lijst laadlocaties') of the June 2026 traffic decisions are separate files not read, and no municipal charging strategy (laadvisie) or charge-point count was opened",
+  "Utilisation statements newer than the November 2022 survey (e.g. the spring 2024 parking-pressure measurements and the Deelevaluatie memo D-128637) were not found",
+  "Scan-car outcome since mid-2024 (fines, evaluation): no Beverwijk source found"
+ ],
+ "dropped": {
+  "low confidence": 1
+ }
+}

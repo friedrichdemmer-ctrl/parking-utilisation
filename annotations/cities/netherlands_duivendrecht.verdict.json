@@ -1,0 +1,157 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Read lokaleregelgeving.overheid.nl/CVDR753628/1: 'Geldend van 01-01-2026'; council signed 18 December 2025; art. 14: in force 1 January 2026; tariff table: parking per hour 5.37 euro (no zones named), naheffingsaanslag = 1 hour of tariff in the area plus 60.20 euro. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Same ordinance: resident permit 24.25 per 6 months; business, buffer and specific permits 43.20 per month; art. 11 exempts European disabled parking card holders and recognisable police, fire, ambulance and animal-ambulance vehicles; art. 12: no remission. All as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Ouder-Amstel page 'Betaald parkeren ABP' (undated, read live): paid parking Mon-Fri 09.00-18.00 in the Ouder-Amstel part of the Amstel Business Park; four permit types (business, resident, specific Amsterdam-Duivendrecht, buffer). Date 2026-10 and 'read on 21 October 2026' wording correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Same page, 'Kosten (Tarieven 2026)': business 518.40/year or 43.20/month; resident 48.50/year; specific 129.60/quarter or 43.20/month; buffer 518.40/year or 43.20/month. Business 4 permits plus 1 per 2 FTE (page deducts half where there is own-site parking, not mentioned in the item); resident max 2 per person, 4 per address. Consistent with the ordinance (24.25 per 6 months = 48.50 per year).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Page 'Parkeren in de blauwe zone': 'Heel Duivendrecht valt binnen de blauwe zone', introduced because visitors to Amsterdam or travellers to Schiphol parked in residential areas; exemption only if you live or work in the zone and have no own-site or other reserved parking; 48.50 euro per exemption (tarief 2026) as legeskosten. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2021, 405866 (17-11-2021): parkeerschijfzone, 2 hours, daily 08.00-20.00 for Kloosterstraat, Clarissenhof, Michaelplein and the Molenbuurt streets, 'the only two residential areas in Duivendrecht not yet' in a disc zone; reasons: high parking pressure, long-stay parking to travel cheaply to Schiphol or avoid paying in Amsterdam; three exemptions per address. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2023, 459881 (27-10-2023): two adjacent spaces at Populierstraat 33 Duivendrecht designated for EV charging, double connection; municipality stimulates electric transport and places points on central spaces where residents lack own-site parking. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Gemeenteblad 2024, 260891 (published 14-06-2024): two adjacent spaces at Astronautenweg 34 designated for EV charging (sign E8c); locations tested against the municipality's Beleidsregels oplaadinfrastructuur. The decision text carries no separate decision date, so 'published on' is correct wording.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Page 'Oplaadpunt ... aanvragen' (undated, read live): requests via laadpaal.laadwerk.nl to a market party, not to the municipality; 'Op dit moment heeft de gemeente een overeenkomst met Metropoolregio Amsterdam'; criteria include clustering, findability, visibility, parking pressure, passage for other traffic; private charging cables across public space are not permitted (APV 2:10). Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Q-Park page (live): P+R Stationsplein, Stationsplein 1115 BZ Duivendrecht; 137 spaces; clearance 3.50 m; opening Mon-Sun 24-7; services Kentekenherkenning and OV Knooppunt; tariff section says 'De tarieven konden helaas niet geladen worden'. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Q-Park FAQ on the same page: reizigerskorting needs a domestic train trip, different check-in and check-out station, and leaving the P+R on the same day as the train return. NS page (undated, live): discount parking at paid P+R sites, maximum 9 euro per day, discount max three days (72 hours), maximum stay 28 days; Duivendrecht is not named on the NS page (checked). Note the Q-Park page does not explicitly say the discount is in force at this specific site; it shows the FAQ on the site page. Medium confidence is right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Witteveen+Bos project page (undated consultancy page, read live): commissioned by the Amsterdam Transport Region; from 2028 the first homes of De Nieuwe Kern (maximum 6,200 homes) to be completed near Duivendrecht station; lower parking standards applied; car traffic limited to Kiss & Ride areas on the edges. Matches. It is a firm's own project page, a secondary source.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "PDF (31 pages, cover 'mei 2026', signed Haarlem, mei 2026), page 17 'OV-knooppunten zonder provinciale uitvoeringsbijdrage': Duivendrecht; reason: new city district of 6,200 homes, services, offices near the station affecting the hub 'van overstapstation naar in- en uitstapstation'; province role: participation in the project group for integral development of the hub. Page 5 also lists Duivendrecht as a station where the province stays involved. Matches (layout checked in pypdf layout mode so the 6,200 text belongs to Duivendrecht).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Report p. 27 'Parkeernormen': GS decided in autumn 2025 (najaar 2025) to widen its knowledge, advisory and stimulating role on parking standards, monitoring municipal parking-standard notes against CROW parking figures of 2024; municipalities are responsible for parking policy; proximity of a hub can play a role. Matches. Not specific to Duivendrecht.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "iamsterdam.com page 'Last updated on 7 October 2026 at 09:28': 6 euro off-peak (Mon-Fri after 10:00, weekends, holidays), 13 euro peak (Mon-Fri arrivals before 10:00), max 4 days (RAI 24 hours), onward travel into city-centre zone by public transport. Site list: ArenA, Zeeburg, VUmc, Bos en Lommer, RAI, Sloterdijk, Olympisch Stadion, Noord, Boven 't Y; no Duivendrecht. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "NH Nieuws 11 Jan 2025 (edited 13 Jan): a spokesperson for the traffic alderman says the Hubs vision aims to intercept car visitors earlier at regional car parks; Amsterdam's site lists P+Rs in the region (Sassenheim 35 min, Hoorn about 30 min). But the claim that Haarlem, Almere and Teylingen 'said their capacity is limited' overstates: only Teylingen says capacity is already limited; Haarlem says parking pressure at P+R Spaarnwoude is high; Almere says P+R 't Oor mainly serves visitors to Almere. Hoorn and Haarlemmermeer were positive. The article does not name Duivendrecht (checked).",
+   "corrected_text": "On 11 January 2025 NH Nieuws reported that a spokesperson for Amsterdam's traffic alderman said the city's Hubs vision prefers to intercept car visitors early at regional car parks, and that amsterdam.nl lists P+R sites outside the city such as Sassenheim and Hoorn. Haarlem said parking pressure at P+R Spaarnwoude is high, Almere said P+R 't Oor mainly serves visitors to Almere, and Teylingen said capacity at the Sassenheim P+R is already limited; Hoorn and Haarlemmermeer were positive. Duivendrecht is not mentioned.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "NH Nieuws 26 Sept 2025: the figures are right (P+R Noord 442 to 312 in 2030 because an electricity station is needed; 1,312 in 2035 if funded; Boven 't IJ and Zeeburg disappear; Muiden 170 to at least 700; other expansion 'in principle not on the table'). Wording errors: the source is traffic alderman (wethouder) Melanie van der Horst writing, not a city councillor, and the article does not call it a letter; the 1,312 is conditional on funding and a feasibility study still has to be done. Duivendrecht is not mentioned (checked).",
+   "corrected_text": "On 26 September 2025 NH Nieuws reported that Amsterdam's traffic alderman, Melanie van der Horst, writes that P+R Noord is to fall from 442 to 312 spaces by 2030 (an electricity station is to be built) and could reach 1,312 by 2035 if funding is found, with a feasibility study still to come. P+R Boven 't IJ and Zeeburg disappear and P+R Muiden may grow from 170 to at least 700. She writes that expansion elsewhere is 'in principle not on the table'. This concerns Amsterdam's P+R sites; Duivendrecht is not mentioned.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "NH Nieuws 12 Nov 2025: free parking in Zuidoost gone in the Bijlmer centre and east since 2024, Holendrecht and Reigersbos since this year (2025), Gein only remaining free area, ending from April 2026. Matches. The article does add that all of Duivendrecht is a blue zone with payment after two hours at roughly Zuidoost tariff; that journalist claim is not supported by the Ouder-Amstel pages (no such two-hour rule stated there) and should not be used.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 18,
+   "verdict": "supported",
+   "note": "Same NH Nieuws article: P+R at Weesp station is free; payment only 02.00-06.00 at night. Matches; neighbouring option, context only, low confidence is right (newspaper statement, Nov 2025).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Duivendrecht is a village in the municipality of Ouder-Amstel next to Amsterdam's Zuidoost district, so its parking rules are set by Ouder-Amstel rather than Amsterdam. The municipality states that the whole village lies in a blue (parking-disc) zone, the last residential areas having been added by a traffic decision of 17 November 2021 because of high parking pressure and long-stay parking by people travelling cheaply to Schiphol or avoiding Amsterdam charges; residents and businesses without own-site parking can apply for an exemption at 48.50 euros (2026 fee). Paid parking with permits applies in the Ouder-Amstel part of the Amstel Business Park (Monday to Friday 09:00-18:00); the 2026 parking-tax ordinance, in force from 1 January 2026, sets 5.37 euros per hour, resident permits at 24.25 euros per six months and business, buffer and specific permits at 43.20 euros per month, and the municipality page lists the same 2026 prices as 518.40 euros per year for business and buffer permits, 48.50 euros per year for residents and 129.60 euros per quarter for specific permits. Q-Park lists P+R Stationsplein next to the station with 137 spaces, 3.50 m clearance and 24/7 access, with a rail-traveller discount; its tariff could not be read, Amsterdam's own P+R page was blocked, and Amsterdam's published P+R list does not include Duivendrecht. NS states generally that discounted P+R parking costs at most 9 euros per day, without naming Duivendrecht. A consultancy page says the first homes of De Nieuwe Kern (up to 6,200 homes) are due from 2028 with lower parking standards and car traffic at the station limited to kiss-and-ride areas, and the Noord-Holland hub progress report of May 2026 lists Duivendrecht among stations where the province takes part in planning without paying towards construction and has widened its advisory role on parking standards. EV charging is requested through a market party under an agreement with the Amsterdam Metropolitan Region, and the municipality has designated individual charging bays by traffic decision, at Populierstraat 33 (October 2023) and Astronautenweg 34 (June 2024). Amsterdam's P+R rates (6 or 13 euros) and press reports on Amsterdam's P+R and free-parking changes are regional context only."
+}

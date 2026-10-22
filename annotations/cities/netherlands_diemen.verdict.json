@@ -1,0 +1,167 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Page (CVDR740765/1) reads 'Geldend van 01-07-2025 t/m heden'; signed 'gemeenteraadsvergadering van 26 mei 2025'; art. 26 says the Parkeerverordening Diemen 2020 lapses (still applies to earlier facts); art. 5 lists resident, business, visitor, car-share and ambulant carer/employee permits; art. 7 says a permit is granted for at most two consecutive years; Annex 1 tariff table and Annex 2 zone maps exist. Art. 26(1) itself says in force the day after publication; the 1 July 2025 date comes from the register's validity line. Title matches. There is no separate 2026 ordinance on the register.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Annex 1 'Tarieventabel 2025' on the same page: Centrumgebied Diemerplein 1.90/hour, also on bays with an EV charge point; Dagkaartzone 25.00 day card; Bergwijkpark Zuid 1.20/hour max 9.60 a day; Muiderstraatweg 0.10/hour for hours 1-2, 1.90 from hour 3. All figures match. Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Page (CVDR762889/1): 'Geldend van 01-07-2026'; art. 1: 11,000 notices a year, budgeted cost 97.23 per notice, amount charged set at the legal maximum of 82 for 2026; art. 2: in force from 1 July 2026. The 78.80 figure is in the 2025 ordinance (Annex, based on Staatscourant 6 Sept 2024). Title matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Municipal page 'Parkeren in Diemen' (live, undated; copyright 2026; re-read 22 Oct 2026): centre 1.90/hour, De Omval (zone 9205) 1.90/hour, Bergwijkpark 1.20/hour and day card 9.60, permit-zone day card 25, Muiderstraatweg 0.10/hour for the first 120 minutes then 1.90. Hours Mon-Sat 9-21; De Omval and Muiderstraatweg Mon-Sat 9-19; Bergwijkpark Mon-Fri 7-19; not on Sundays and the listed holidays. All match. Undated live page: date 2026-10 is right.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Same municipal page: blue zone in and around the centre, max two hours; 4 hours at Sporthal Diemen and Sportcentrum Duran; 1 hour at Arent Krijtstraat; permit zone only with a 25 euro day card; fine 82 euros plus the fee that should have been paid; disabled card: free and unlimited in permit zone and blue zone, but payment required in the paid area. All match. Undated live page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Scan-car page: 'Sinds 2020 wordt het handhaven ... via een scanauto'; it drives in all zones (paid, permit, blue); fine posted ('Er wordt geen bon achter de ruitenwisser geplaatst'); 'Diemen zal de scanauto vooralsnog inzetten voor parkeercontrole en het meten van de bezettingsgraad'. Nuance for the summary: blue-disc checks are done by enforcers on scooters; the scan car only checks exemptions in the blue zone. Undated live page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Permit page: permit valid only in own neighbourhood; residents 96.00 for two years (end date 30 Nov in even years), businesses 96.00 for one year; page adds that the amount drops every three months depending on the application date (ordinance annex confirms 96 is the top rate). Holland Park, Sniepkwartier and Punt Sniep residents have no right to a street permit and rely on in-building parking; Bergwijkpark businesses get no street business permit. All match. The draft could say '96 euros at most'. Undated live page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Charge-point page: parking at a charge point only while actually charging (EVs and plug-in hybrids); fine of 120 euros excl. administration costs, also for petrol cars; towing possible. Matches. Undated live page.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Policy note CVDR626748: 'Geldend van 30-07-2019 ... met terugwerkende kracht vanaf 03-07-2019'. Summary and section 2.1: 22 public charge posts ('begin 2019 zijn er 22 laadpalen operationeel'), 9 via MRA-E tenders and 12 via Allego listed; minimum goal to double the number of charge points in 2020; new posts at shop/public-facility car parks; applicants must have no private parking. Matches and is correctly flagged as old.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Parkeerbeleidsplan 2021 (29-page PDF, created July 2021) p.6: 7,505 regulated spaces = 1,100 fiscal (paid and permit) + 6,405 blue zone; 5,500 resident permits/exemptions and 2,500 visitor schemes (plus 750 business exemptions, not mentioned in the draft); car ownership 0.7 per household; section 3.1 goals to 2025: max pressure 85 percent in residential areas, 80 percent around shopping centres, cost-covering operation. All match. The PDF carries no adoption statement or date; the 'official plan' status rests on the file name only.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Plan section 4.4: paid parking from June 2012 in the garage under the Diemerplein centre ('niet geexploiteerd door de gemeente'), April 2018 in Bergwijkpark, October 2019 around Muiderstraatweg (replacing the blue zone); section 8 says the scan car delivers monthly overviews of parking pressure. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Home page of the shopping centre (promotional, undated; shows 31 Oct events): 'Onder het winkelcentrum bevindt zich een nieuwe, moderne parkeergarage met ruim 400 parkeerplaatsen.' No tariff or operator on the page. The claim is as written, but it is retailer marketing and 'nieuwe' is stale (the 2021 plan dates paid parking in the garage to 2012); low reliability, keep as low confidence.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Plan section 4.11: the car parks at NS stations Diemen and Diemen-Zuid have no regulation, 'staan ... vanaf s ochtends vroeg altijd vol', largely commuters without origin or destination in Diemen; regulation only in consultation with NS (earlier agreements). Section on blue-zone duration: 4 hours would suit visitors from outside Diemen ('In vier uur is het goed mogelijk om een bezoek aan Amsterdam te brengen'). Matches; 2021 situation, correctly dated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Q&A PDF (3 pages, file created 6 March 2024; document itself undated): parking area at NS station Diemen is meant for rail travellers; 'In de nieuwe situatie wordt het parkeerterrein uitsluitend geexploiteerd door NS'; agreements of 2017 (Samenwerkingsovereenkomst Onderdoorgang Ouddiemerlaan between NS, ProRail, municipality); no limit on parking duration, high tariffs for long stays; train travellers get a discount, others pay the maximum rate; withdrawal from public use is the only way to introduce paid parking with a barrier; no possibility for residents to park there. All match. Caveats: these are answers to technical questions on a council proposal, so 'will be' is right; the proposal itself (iBabs 401) was not read, so adoption is unconfirmed here; the date comes from file metadata.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "The cited PDF is only the NS sheet 'P+R-tarieven per 1 december 2026' (file created 19 Oct 2026, so announced prices, not in force on 21 Oct 2026; text says 'geldig vanaf 1 december 2026'). It lists 'DIEMEN-P+R Martin Luther Kinglaan' 2.00 / 8.50 / 2.50 (columns: regulier uurtarief, regulier dagtarief, reizigers dagtarief). The draft's claim about a separate sheet valid from 1 May 2026 is NOT on this page and I could not open any such sheet (the only candidate NS URL returned 404), so it is unconfirmed. The sheet does not say 'Station Diemen'; the March 2024 council Q&A (item 13) places the Station Diemen lot next to Martin Luther Kinglaan (residents living at the car park), so it is very probably the same lot, but that is an inference from two documents. Prices are therefore announced for 1 December 2026, not confirmed as current.",
+   "corrected_text": "NS's P+R tariff sheet for 1 December 2026 (file dated 19 October 2026, so prices announced and not yet in force when read on 21 October 2026) lists 'DIEMEN-P+R Martin Luther Kinglaan' at 2.00 euros per hour, 8.50 euros regular day rate and 2.50 euros day rate for train travellers. The sheet does not name Station Diemen; the street is the one next to the Station Diemen car park in the March 2024 council answers, so it is very probably that lot. The earlier tariff sheet valid from 1 May 2026 could not be read here.",
+   "corrected_title": null,
+   "corrected_date": "2026-10",
+   "unconfirmed_text": "A search result describes an NS P+R tariff sheet valid from 1 May 2026 with the same three prices for Diemen-P+R; not read here.",
+   "unconfirmed_reason": "The 1 May 2026 sheet is not at the cited URL and its likely NS URL returned 404; only a search snippet mentions it."
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Project page (live, copyright 2026; latest dated entries June 2025): 'Sinds 25 januari 2023 is de Spooronderdoorgang Ouddiemerlaan geopend'; the P&R that was on the Spoorzicht side 'is ... verplaatst naar de zuidzijde van het spoor'; a new green P&R next to the Dr. A.J.J. van Gemertplein/Van Gemertplantsoen, status 'project gerealiseerd'. No space count. The draft already notes the page looks stale (other entries still say 'najaar 2025'). Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Project page: council adopted the Ruimtelijk Programma van Eisen (spatial requirements) for the Harmoniehof on 14 November 2024; about 100 social rental homes and possibly a limited number of mid-rent homes on the vacated P&R site on the Spoorzicht side; 'Status van het project: Ontwerpfase'. Matches the page. The page is stale (other statuses mention autumn 2025), so the design-phase status may be out of date; the draft wording 'the project page lists it' is fair.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Mobiliteitsvisie 2040 (47-page PDF): 'Datum publicatie 10 juli 2025', 'Status Definitief'. Section on station areas: 'Het P+R terrein bij station Diemen heeft recent betaald parkeren gekregen, in Diemen Zuid is dit nog gratis', mainly used by commuters to Amsterdam; ambition list: 'Invoeren betaald parkeren en verkleinen P+R terrein Diemen Zuid om gebruik als regionaal overstappunt te beperken'. It is a vision (ambition), as the draft says. Matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 18,
+   "verdict": "supported",
+   "note": "Vision p.3 and section 2: average car ownership 0.81 per household vs 1.15 nationally; parking pressure exceeds the 85 percent threshold only north of Hartveldseweg and in Diemen Noord, 'tot bijna 92%' in evening and night hours; expectation that residents and visitors of IJburg park cheaper in Diemen (and walk/cycle over the Nesciobrug); 'Parkeeroverlast ... bewoners of bezoekers van Amsterdam (IJburg) die goedkoper in Diemen parkeren'. Matches; the IJburg attribution is the document's expectation, not measured.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 19,
+   "verdict": "partly",
+   "note": "Right: 'Inmiddels is besloten om rondom Zeezigt een blauwe zone in te voeren'; further extension possible when parking policy is updated; ambition to reduce parking spaces where pressure is below 80 percent for greenery, play and bicycle parking (listed as 'ambities'); ambition of a 'dekkende laadinfrastructuur' (area-covering, not 'dense') including bidirectional and fast charging. Wrong/misleading: the ambitions list says 'Onderzoeken van de invoering van een milieuzone', but the same document (section 'Milieuzones') states that on 22 April 2025 the municipal executive (college) decided NOT to introduce environmental zones because research shows it is not needed (air quality already meets the stricter EU norms from 2030). The draft's 'study of an environmental zone' as an open ambition is therefore stale and contradicted.",
+   "corrected_text": "The Mobiliteitsvisie 2040 says a blue zone has been decided around Zeezigt in Diemen Noord and that a further extension could be considered when the parking policy is updated. Among its ambitions (not decisions) are reducing parking spaces where parking pressure is below 80 percent, in favour of greenery, play space and bicycle parking, and an area-covering charging network including bidirectional and fast charging. The vision also lists studying an environmental zone as an ambition, but states that on 22 April 2025 the municipal executive decided not to introduce environmental zones because research showed it was not needed.",
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Diemen, next to Amsterdam, regulates most of its streets: paid parking in the Diemerplein centre (1.90 euros per hour), the De Omval car park, the Bergwijkpark office area (1.20 euros per hour) and along Muiderstraatweg, a permit-only zone with a 25-euro day card, and a two-hour blue zone in and around the centre. Since 2020 enforcement is by scan car (blue-disc checks are done by enforcers on scooters), under the Parkeerverordening Diemen 2025 (in force 1 July 2025); a separate cost decision in force from 1 July 2026 sets the fine at the legal maximum of 82 euros. Resident permits cost up to 96 euros for two years (lower if applied for later in the cycle), and residents of Holland Park, Sniepkwartier and Punt Sniep are expected to use in-building parking. The Station Diemen park-and-ride was moved to the south side of the line after the Ouddiemerlaan underpass opened on 25 January 2023; according to March 2024 council answers it was to be withdrawn from public use so that NS alone could run it with a barrier and no maximum stay. An NS tariff sheet announced for 1 December 2026 lists a lot named 'DIEMEN-P+R Martin Luther Kinglaan' (very probably the same lot) at 2.00 euros per hour, 8.50 euros per day or 2.50 euros for train travellers; the former lot is planned for about 100 social homes (Harmoniehof, design phase per a project page that looks out of date). The 2025 mobility vision (a vision, not a decision) wants paid parking and a smaller P+R at Diemen Zuid, which was still free and used by commuters to Amsterdam, and the 2021 parking plan described the NS station lots as unregulated and full from early morning with commuters. Parking pressure above 85 percent is found only in Diemen Noord and north of Hartveldseweg, partly from IJburg parkers, and a blue zone around Zeezigt has been decided; the vision also aims to reduce spaces where pressure is below 80 percent, and records that the municipality decided in April 2025 not to introduce environmental zones. The shopping-centre garage under Diemerplein is advertised as having more than 400 spaces (retailer website, low reliability). EV charging rests on a 2019 policy note (22 public charge posts then) and a municipal rule that charge-point bays are only for vehicles that are charging (fine 120 euros); no recent charge-point counts were found."
+}

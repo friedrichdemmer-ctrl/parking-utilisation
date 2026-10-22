@@ -1,0 +1,220 @@
+{
+ "country": "Netherlands",
+ "city": "Zaandam",
+ "researched": "2026-10-21",
+ "verified": "2026-10-22",
+ "summary": "Zaandam is the main town of the municipality of Zaanstad (Noord-Holland). Its on-street paid parking is governed by the council's Verordening parkeerbelastingen Zaanstad 2026 (adopted 27 November 2025) and the college's Uitvoeringsbesluit. The consolidated ordinance shows three-zone rates of 3.70, 3.10 and 2.50 euros per hour from 25 December 2024, a version adopted on 11 November 2025 (3.80, 3.15 and 2.55 euros) that applied only from 4 to 15 December 2025, and, from 16 December 2025, two zones at 3.50 euros (zone I) and 2.55 euros (zone II), with a 10 euro day ticket at designated car parks (Burcht and Behouden Haven), a 118.80 euro yearly resident permit and free carer permits. The Uitvoeringsbesluit, adopted on 6 January 2026 and in force from 1 March 2026, makes zone I paid Monday to Saturday 9:00-23:00 and Sunday 12:00-17:00 and zone II paid Monday to Saturday 9:00-19:00 (Ebbehout until 23:00); it exempts the Oostzijderveld area from paid parking until signs and machines are installed. A later decision (adopted 23 June 2026) makes payment at the machines electronic only from 1 November 2026. Electric vehicles had a tax exemption at municipal charging bays until 30 April 2026; it is absent from the version in force from 1 May 2026, and the municipality's EV page says parking fees apply on charging bays in paid areas from that date. Two EV-only charging bays at the Oost-Dorsch car park were designated on 10 June 2026 and withdrawn on 15 July 2026 without a stated reason. Blue zones (two hours free with a disc) exist on the Zuiddijk, the centre is closed to through car and motorcycle traffic from 12:00 to 18:00 (read on 21 October 2026, undated page), and a scan car checks payment. The Rozenhof and Hermitage garages are run by Q-Park and the Zaantheater garage by the theatre; according to Q-Park's own pages Hermitage has 893 spaces (65 charging points), Rozenhof 487 and P+R Provincialeweg 119, but their tariffs did not load. NS's P+R sheet valid from 1 May 2026 lists P+R Provincialeweg at 3.45 euros per hour, 14.00 euros per day and 6.00 euros per day for rail travellers. A developer's explanatory note of 24 February 2026 describes a planned 334-space public underground garage (33 with charging) under the Peperstraat in the Centrum Oost redevelopment (567 homes in nine buildings in the whole project); the municipality amended the July 2024 permit (six buildings, 355 homes) on 16 April 2026, when appeals were still pending at the Council of State, and the current status is unknown. The municipality's parking policy note (valid since 2017 but written in 2016, so old) gave two permits per address, day tickets at the Burcht and Behouden Haven, no municipal influence on garage tariffs and three paid-parking time bands, and said Zaanstad intended to list its main garages in a parking route information system; whether any garage occupancy data is available today was not verified.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2025-11-27",
+   "text": "The Zaanstad council adopted the Verordening parkeerbelastingen Zaanstad 2026 on 27 November 2025, with the levy applying from 1 January 2026; the version in force from 1 May 2026 sets on-street rates of 3.50 euros per hour in tariff zone I and 2.55 euros per hour in zone II, and a 10.00 euro day ticket (9:00-23:00) in the car parks designated for day tickets.",
+   "source_title": "Verordening parkeerbelastingen Zaanstad 2026 (lokaleregelgeving.overheid.nl)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR732058",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-12-16",
+   "text": "The consolidated ordinance shows the rates over time: three zones at 3.70, 3.10 and 2.50 euros per hour from 25 December 2024; a version adopted on 11 November 2025 at 3.80, 3.15 and 2.55 euros that applied only from 4 to 15 December 2025; and the two-zone 3.50 and 2.55 euros version applying from 16 December 2025.",
+   "source_title": "Verordening parkeerbelastingen Zaanstad 2026, versions 1-3 (lokaleregelgeving.overheid.nl)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR732058/3",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-11-27",
+   "text": "Permit fees in the 2026 tariff table are 9.90 euros per month or 118.80 euros per year for a resident permit (per licence plate), 334.20 euros per year for a business permit and 14.90 euros per 50 hours for a visitor permit; carer (mantelzorg) permits and carer visitor permits cost 0.00 euros.",
+   "source_title": "Verordening parkeerbelastingen Zaanstad 2026 (lokaleregelgeving.overheid.nl)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR732058",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-05-01",
+   "text": "Until 30 April 2026 the ordinance exempted electric vehicles from parking tax while plugged in at a municipal charging bay in a paid parking area; that exemption is absent from the version in force from 1 May 2026.",
+   "source_title": "Verordening parkeerbelastingen Zaanstad 2026, versions 3-5 (lokaleregelgeving.overheid.nl)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR732058/5",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The municipality's EV page (read on 21 October 2026, undated) says that from 1 May 2026 parking fees apply on charging bays in paid-parking areas (permits valid) and that they stay free elsewhere; new public charge points are requested via Laadwerk.nl and placed on a waiting list, and the municipality does not manage the posts (providers named include Allego, Vattenfall, Ubitricity and TotalEnergies).",
+   "source_title": "Elektrisch rijden en laadpalen - Gemeente Zaanstad",
+   "source_url": "https://www.zaanstad.nl/direct-regelen/parkeren-verkeer-havens-vaarwegen/verkeer-en-vervoer/elektrisch-rijden-en-laadpalen/",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-07-15",
+   "text": "The college decided on 10 June 2026 (decision no. 10269870, Gemeenteblad 2026 nr. 256640) to designate two parking spaces at the Oost-Dorsch car park on Poelenburg in Zaandam exclusively for charging electric vehicles; by a decision dated 15 July 2026 (Gemeenteblad 2026 nr. 325812) it withdrew that decision, and the published text gives no specific reason.",
+   "source_title": "Gemeenteblad 2026 nr. 256640 and nr. 325812 - Verkeersbesluit Oost-Dorsch (Poelenburg, Zaandam): charging bays designated, then withdrawn",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-325812.pdf",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-02-25",
+   "text": "The Uitvoeringsbesluit, adopted by the college on 6 January 2026, published on 25 February 2026 and in force from 1 March 2026, makes tariff zone I paid Monday-Saturday 9:00-23:00 and Sunday 12:00-17:00, and zone II paid Monday-Saturday 9:00-19:00 (Ebbehout street until 23:00), all excluding public holidays; Gouwpark is a permit-parking area, Monday-Saturday 9:00-19:00, and the Burcht and Behouden Haven areas have day-ticket tariffs.",
+   "source_title": "Gemeenteblad 2026 nr. 85139 - Uitvoeringsbesluit bij de Verordening Parkeerbelastingen Zaanstad 2026",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-85139.pdf",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-02-25",
+   "text": "The same decision exempts the Oostzijderveld area from paid parking until the signage and on-street parking equipment have been installed (possibly in phases) and put into operation, so paid parking there depends on that rollout.",
+   "source_title": "Gemeenteblad 2026 nr. 85139 - Uitvoeringsbesluit bij de Verordening Parkeerbelastingen Zaanstad 2026",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-85139.pdf",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-07-15",
+   "text": "By a decision of 23 June 2026 (published 15 July 2026) the college amended the executive decision so that, from 1 November 2026, payment at parking equipment is electronic only, after entering the licence plate and desired duration; the earlier version also allowed coins.",
+   "source_title": "Gemeenteblad 2026 nr. 336401 - Besluit tot wijziging van het Uitvoeringsbesluit",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-336401.pdf",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The municipality's resident-permit page (read on 21 October 2026, undated) says residents can apply for permits in nine Zaandam areas (Oud West, Nieuw West, Russische buurt, Spoorstrook, Burcht, Gouwpark, Oostzijderveld, Oost-Dorsch, Houthavenkade), at most two per address, at 118.80 euros; no permits are issued for paid-parking streets outside these areas.",
+   "source_title": "Parkeervergunning voor bewoners - Gemeente Zaanstad",
+   "source_url": "https://www.zaanstad.nl/direct-regelen/parkeren-verkeer-havens-vaarwegen/parkeervergunningen/parkeervergunning-bewoners/",
+   "confidence": "high",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The municipality's blue-zone page (read on 21 October 2026, undated) says blue zones allow two hours of free parking with a disc, Monday-Saturday 9:00-19:00, and apply in Zaandam on the Zuiddijk (plus shopping areas in Krommenie, Wormerveer, Zaandijk and Koog aan de Zaan); the fine is 130 euros plus 9 euros administration cost.",
+   "source_title": "Blauwe zone - Gemeente Zaanstad",
+   "source_url": "https://www.zaanstad.nl/direct-regelen/parkeren-verkeer-havens-vaarwegen/parkeren/blauwe-zone/",
+   "confidence": "high",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The municipality's paid-parking page (read on 21 October 2026, undated) says the Burcht and Behouden Haven car parks sell day tickets as well as hourly payment, the Rozenhof and Hermitage garages are run by Q-Park, and the Zaantheater garage is run by the Zaantheater itself.",
+   "source_title": "Betaald parkeren - Gemeente Zaanstad",
+   "source_url": "https://www.zaanstad.nl/direct-regelen/parkeren-verkeer-havens-vaarwegen/parkeren/betaald-parkeren/",
+   "confidence": "high",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "The municipality's scan-car page (read on 21 October 2026, undated) says a camera car checks paid-parking areas seven days a week, reads licence plates and checks payment in the national parking register (NPR); photos of paid vehicles are deleted within 48 hours, and five or more unpaid fines lead to a wheel clamp.",
+   "source_title": "Controle met een scanauto - Gemeente Zaanstad",
+   "source_url": "https://www.zaanstad.nl/direct-regelen/parkeren-verkeer-havens-vaarwegen/parkeren/controle-met-een-scanauto/",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Q-Park's pages for Zaandam (read on 21 October 2026, undated) list the Hermitage garage with 893 spaces, 8 accessible spaces, 65 charging points and 2.00 m clearance, the Rozenhof garage with 487 spaces and 1.90 m clearance, and a P+R Provincialeweg with 119 spaces and 2.10 m clearance, all open 24/7 with licence-plate recognition; the tariff tables did not load on the pages.",
+   "source_title": "Parkeren Q-Park Hermitage / Rozenhof / P+R Provincialeweg (Q-Park)",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/zaandam/hermitage/",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-05-01",
+   "text": "NS's P+R tariff sheet, valid from 1 May 2026, lists Zaandam P+R Provincialeweg at 3.45 euros per hour, 14.00 euros per day and 6.00 euros per day for rail travellers (all including 21% VAT); the sheet also notes a summer offer of at most 2 euros per day for train travellers from 21 June to 31 August.",
+   "source_title": "P+R-tarieven per 1 mei 2026 (NS)",
+   "source_url": "https://www.ns.nl/binaries/_ht_1785417802345/content/assets/ns-nl/voorwaarden/actievoorwaarden/p-r-tarieven-2026---zomeractie-p-r.pdf",
+   "confidence": "high",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2017-10-24",
+   "text": "The municipality's parking policy note 'Nota Ruimte voor Parkeren' (consolidated text valid from 24 October 2017; the text itself dates from 2016, so it is old) said residents and businesses could get two permits per address, that the Behouden Haven and the Burcht had day tariffs, and that the municipality had no influence on tariffs in the Q-Park garages. Its paid-parking hours then were: centre of Zaandam Monday-Saturday 9:00-23:00 and Sunday 12:00-17:00; first ring Monday-Saturday 9:00-23:00; second ring Monday-Saturday 9:00-19:00.",
+   "source_title": "Nota Ruimte voor Parkeren (lokaleregelgeving.overheid.nl)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR412282",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2017-10-24",
+   "text": "The same note (text from 2016, so old) said Zaanstad had chosen to put its main garages and car parks in a parking route information system (PRIS), planned to offer occupancy data of the connected garages and sites to the public, and noted that the data could technically be offered as open data, with opening the data to start in 2016. It also stated that Q-Park ran train-traveller parking at Zaandam station on behalf of NS. The current state of that data was not verified.",
+   "source_title": "Nota Ruimte voor Parkeren (lokaleregelgeving.overheid.nl)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR412282",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The municipality's page on the Zaandam centre closure (read on 21 October 2026, undated) says the centre is closed to through car and motorcycle traffic daily from 12:00 to 18:00 (until 21:00 on late-shopping evenings), using retractable bollards at the Beatrixbrug and in the Czaar Peterstraat; all streets stay reachable via other routes.",
+   "source_title": "Afsluiting centrum Zaandam - Gemeente Zaanstad",
+   "source_url": "https://www.zaanstad.nl/direct-regelen/parkeren-verkeer-havens-vaarwegen/wegen/afsluiting-centrum-zaandam/",
+   "confidence": "high",
+   "id": 17,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-02-24",
+   "text": "A developer's explanatory note for a tender (Peperstraat PG B.V., 24 February 2026) describes a planned public underground car park under the Peperstraat in central Zaandam with 334 spaces, 33 of them with charging, serving 567 new homes and centre visitors through double use; the permit for the garage and phase 1 was granted in July 2024.",
+   "source_title": "Peperstraat te Zaandam - Toelichting openbare parkeergarage (TenderNed)",
+   "source_url": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/413273/documenten/13782112/content",
+   "confidence": "medium",
+   "id": 18,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-04-16",
+   "text": "On 16 April 2026 the municipality amended the 22 July 2024 environmental permit for the Peperstraat (six residential buildings with 355 homes and an underground car park in this phase) after revised plans of 29 September 2025; appeals against both the zoning plan and the original permit were still pending at the Council of State.",
+   "source_title": "Besluit wijziging omgevingsvergunning O2022009663 (herstelbesluit), Peperstraat Zaandam",
+   "source_url": "https://repository.officiele-overheidspublicaties.nl/Bijlagen/TerInzageLegging/2026/til-2026-14836/1/bijlage/herstelbesluit_ex_artikel_6_19Awb.pdf",
+   "confidence": "high",
+   "id": 19,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "Q-Park tariff tables for Hermitage, Rozenhof and P+R Provincialeweg did not load on the Q-Park pages (https://www.q-park.nl/nl-nl/parkeren/zaandam/), so garage tariffs are not recorded; the NS P+R sheet is the only tariff source for the P+R.",
+  "No official occupancy or open-data source for the Zaandam garages (the 2017 policy note's parking route information system, PRIS) was found, and the NS P+R page (https://www.ns.nl/en/products/door-to-door/park-and-ride/) was not read.",
+  "The council reasoning for replacing the three-zone tariff (adopted 11 November 2025) with the two-zone tariff (27 November 2025) and the 2026 tariff proposal in the council papers were not found; the Zaanstad raadsinformatie documents located were for 2024-2025 and earlier.",
+  "The tariff-zone map (Figure 1) in Gemeenteblad 2026 nr. 85139 is an image and could not be read, so the exact zone boundaries and the Burcht/Behouden Haven day-ticket locations are not described; the rollout date for paid parking in Oostzijderveld and the status of the Muziekbuurt (Westerwatering) paid-parking request (letter of 28 February 2024) were not found.",
+  "Details of the Zaandam station-area/Inverdan garages (Hermitage opening date, ownership, NS station parking) were not found in primary sources; third-party parking portals (parkerenindestad.nl, centrumparkeren.nl, Mobypark) were not used.",
+  "Peperstraat: construction start, the Council of State ruling on the appeals and the final garage design/operator are unknown; the only parking-specific source is the developer's tender note, and the permit letter covers 355 homes in six buildings versus 567 homes in nine buildings in the tender note.",
+  "EV charging: the total number of public charge points, Zaanstad's charging vision and any regional charging concession were not found (a concession document that surfaced in search belonged to Alphen aan den Rijn and was not used); the reason for the withdrawal of the Oost-Dorsch charging-bay decision is not stated.",
+  "The municipality's mobility plan (to 2040) was not read for parking content, and press coverage of the 2026 tariff change could not be found; the Zaanse Schans paid-parking motion of May 2025 concerns another part of the municipality and was not used."
+ ],
+ "dropped": {}
+}

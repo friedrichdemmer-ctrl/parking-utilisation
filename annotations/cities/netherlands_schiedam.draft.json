@@ -1,0 +1,177 @@
+{
+ "country": "Netherlands",
+ "city": "Schiedam",
+ "researched": "2026-10-21",
+ "summary": "Schiedam, next to Rotterdam, runs paid on-street parking in the historic centre and the surrounding neighbourhoods, split into sectors A to F. Under the 2026 tariff table (council decision of 11 November 2025) sector A, the centre, costs 3.32 euros an hour and the other sectors 2.39 euros, resident permits start at 90.10 euros a year, and a municipal annex that took effect on 1 May 2026 extended paid hours to 23.00 in sector B (Schiedam-Oost) and the new sector F (Nieuw-Mathenesse) only, to stop spill-over from Rotterdam-West and to support the planned Glasbuurt with about 1,300 homes and two resident garages. Further neighbourhoods can only get regulated parking after a formal support survey that needs requests from 10 percent of adult residents in a neighbourhood; the April 2026 interim count was far below that everywhere, although the coalition agreement is reported to aim at regulated parking in all districts south of the A20, and second resident permits in Schiedam-Oost are rationed with a waiting list. The centre garages are ABC (Interparking, 325 spaces) and the Passage garage (280 spaces), both with the first hour free, plus the Stadserf garage; the larger P+R Schiedam Centrum garage (more than 750 spaces) is run by ParkingYou, P+R Horvathweg appears on Q-Park's site (the registry names the railway company NS as operator), and the P+R at Vijfsluizen metro station is described by the municipality as free. New developments are mostly policy-led: mobility norms from July 2024 set a parking norm of zero for most centre projects, and the Glasbuurt garages are still to be built. On charging, the municipality lists more than 700 public charge points, stopped taking resident requests from 1 January 2026 and plans forecast-based expansion with new operators from 2027. No utilisation statements from the municipality or operators were found, and the national open-data registry entries are undated and partly outdated.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2026-01",
+   "text": "Schiedam's parking tax ordinance (consolidated text valid from 1 January 2026, tariff table approved by the council on 11 November 2025) sets 3.32 euros per hour in sector A (maximum 19.92 euros, 6 times the hourly rate) and 2.39 euros per hour in sectors B to F and outside the sectors (maximum 13.15 euros, 5.5 times the hourly rate), with a 0.10 euro minimum.",
+   "source_title": "Verordening op de heffing en invordering van Parkeerbelastingen Schiedam 2021 (Tarieventabel 2026)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR647480",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-01",
+   "text": "The 2026 tariff table sets resident permits at 90.10 euros a year for the first, 224.70 euros for the second and 360.45 euros for the third permit; business permits are 441.45 euros (Monday to Saturday) or 301.10 euros (Monday to Friday), and a permit with a guaranteed space in a designated car park is 727.75 euros.",
+   "source_title": "Verordening op de heffing en invordering van Parkeerbelastingen Schiedam 2021 (Tarieventabel 2026)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR647480",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01",
+   "text": "The 2026 tariff table prices visitor parking at 0.46 euros per hour for residents (maximum 400 hours a year) and 1.14 euros per hour for business permit holders, and carer (mantelzorg) parking at 0.46 euros per hour (maximum 200 hours a year per person cared for); the fee for a post-assessment (naheffingsaanslag) is 82.00 euros, and the ordinance grants no remission (kwijtschelding).",
+   "source_title": "Verordening op de heffing en invordering van Parkeerbelastingen Schiedam 2021 (Tarieventabel 2026)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR647480",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-02-19",
+   "text": "The municipal executive adopted the fourth amendment to the Uitvoeringsbesluit Parkeerbelastingen on 27 January 2026 (published 19 February 2026), replacing the annex that lists where, when and how paid parking applies; it takes effect on 1 May 2026. Paid hours are Monday to Friday 09.00-20.00 (Thursday to 21.00) and Saturday 09.00-17.00 in sectors A, C and E, Monday to Saturday 09.00-23.00 in sectors B and F, and shorter hours in two streets of sector D (Monday to Friday 09.00-14.00).",
+   "source_title": "Vierde besluit tot wijziging van het Uitvoeringsbesluit Parkeerbelastingen (Gemeenteblad 2026, 77181)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-77181.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-02-19",
+   "text": "The same annex lists the historic centre streets (for example Baan, Appelmarkt, Bagijnhof, Grote Markt and the east side of Lange Haven) in sector A and Stadserf in sector B; payment is by bank card or credit card at the machine or by phone through a registered mobile parking provider.",
+   "source_title": "Vierde besluit tot wijziging van het Uitvoeringsbesluit Parkeerbelastingen (Gemeenteblad 2026, 77181)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-77181.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01-27",
+   "text": "On 27 January 2026 the municipality said it had reconsidered a plan announced on 14 January to extend paid parking to 23.00 in all sectors: from 1 May 2026 the extension applies only to sector B (Schiedam-Oost) and sector F (Nieuw-Mathenesse), to stop drivers from Rotterdam-West, where paid parking already runs to 23.00, moving to Schiedam. Sectors A, C, D and E keep their hours, and the municipality said it would monitor the effect on those sectors.",
+   "source_title": "Betaald parkeren tot 23.00 uur alleen in Schiedam-Oost en Nieuw-Mathenesse (gemeente Schiedam news)",
+   "source_url": "https://www.schiedam.nl/nieuws/betaald-parkeren-tot-2300-uur-alleen-in-schiedam-oost-en-nieuw-mathenesse",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-05-01",
+   "text": "Paid parking started in Nieuw-Mathenesse (sector F) on 1 May 2026, Monday to Saturday 09.00-23.00 at 2.39 euros an hour, to support a car-light Glasbuurt with about 1,300 new homes whose residents are to park in two garages still to be built and paid for by subscription. There was no support survey because the area is a business park; businesses can get permits based on their number of staff, and neighbouring residents cannot get sector F permits.",
+   "source_title": "Betaald parkeren Nieuw-Mathenesse (gemeente Schiedam)",
+   "source_url": "https://www.schiedam.nl/a-tot-z/betaald-parkeren-nieuw-mathenesse",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Schiedam's parking policy allows regulated parking in a new neighbourhood only after an official support survey (draagvlakmeting), which requires requests from at least 10 percent of the adult residents of a CBS neighbourhood within one calendar year; when introduced, standard hours are Monday to Saturday 09.00-23.00 with free parking on Sundays. The municipal page was read on 21 October 2026.",
+   "source_title": "Aanvraag draagvlakmeting gereguleerd parkeren in Schiedam (gemeente Schiedam)",
+   "source_url": "https://www.schiedam.nl/a-tot-z/aanvraag-draagvlakmeting-gereguleerd-parkeren-in-schiedam",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-04-20",
+   "text": "An interim count dated 20 April 2026 shows requests for a support survey in 14 neighbourhoods, the highest share being Fabribuurt (15 requests, 0.90 percent of residents), Schrijversbuurt (0.49 percent) and Schiehart (0.37 percent), and the highest number being Nieuwland (17 requests, 0.11 percent), all far below the 10 percent threshold. Requests could be submitted until 30 September 2026.",
+   "source_title": "Tussenstand aanvraag draagvlakmeting (gemeente Schiedam)",
+   "source_url": "https://www.schiedam.nl/a-tot-z/tussenstand-aanvraag-draagvlakmeting",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-09-15",
+   "text": "A regional newspaper reported on 15 September 2026 that the municipality says parking in Schiedam-Oost is problematic: about 400 second resident permits were issued against 250 originally budgeted, the number was brought back to 250 by attrition, and a waiting list remains. The same article quotes the municipality saying the coalition agreement provides for regulated parking in all districts south of the A20 and for exploring extra parking at the edge of the city.",
+   "source_title": "Parkeerbeleid blijft bron van discussie (Rodi Schiedam)",
+   "source_url": "https://www.rodi.nl/schiedam/nieuws/119661/parkeerbeleid-blijft-bron-van-discussie",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-02-19",
+   "text": "The amended permit criteria (executive decision of 27 January 2026, published 19 February, effective 1 May 2026) allow at most one resident permit per address in sectors A and E and two in sectors B, C and D, cap second permits in sector B at 250 addresses with a waiting list beyond that, and allow one visitor and one carer permit per address. They also set a scale for sector F business permits, for example two permits for 1 to 3 staff and four for 6 to 7 staff.",
+   "source_title": "Besluit vierde wijziging Nadere criteria voor de verlening van parkeervergunningen (Gemeenteblad 2026, 76987)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-76987.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-07-09",
+   "text": "The Mobiliteitsnormen 2024 policy rule (adopted 9 July 2024, valid from 31 July 2024, replacing the 2022 version) sets minimum parking norms for new developments; in the inner-city area most functions have a parking norm of zero because plots are built up or pedestrianised and garages exist, while projects of more than 9 homes are tested against the norms for the regulated-parking ring around the centre.",
+   "source_title": "Beleidsregel Mobiliteitsnormen gemeente Schiedam 2024 (CVDR723410)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR723410/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The municipality lists three garages in the centre (ABC, Passage and Stadserf) and says the first hour is free in ABC and Passage, and lists P+R Schiedam Centrum (more than 750 spaces on Noorderweg near the Pathe cinema, run by ParkingYou, reduced tariff for rail and metro travellers 05.30-19.00), P+R Horvathweg (64 spaces, Q-Park) and the free car park at Vijfsluizen metro station. The page was read on 21 October 2026.",
+   "source_title": "Parkeergarages en P&R (gemeente Schiedam)",
+   "source_url": "https://www.schiedam.nl/a-tot-z/parkeergarages-en-pr",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The Passage Schiedam garage has 280 spaces, is open daily 07.00-22.00, gives the first hour free and then charges 0.50 euros per 20 minutes with a 15 euro daily maximum; the page says parking on Sundays is no longer free from 1 January (year not stated). Page read on 21 October 2026.",
+   "source_title": "Bereikbaarheid, Passage Schiedam",
+   "source_url": "https://www.passageschiedam.nl/bereikbaarheid/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Interparking operates the ABC Schiedam garage (Kreupelstraat 27) with 325 spaces and a 2.05 m height limit: first hour free, then 0.50 euros per 20 minutes, 15 euros per 24 hours, entry daily 07.00-22.00. Page read on 21 October 2026.",
+   "source_title": "ABC Schiedam (Interparking Nederland)",
+   "source_url": "https://www.interparking.nl/nl/parkeren/schiedam/amc/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "In the national parking open-data registry (NPR) the Stadserf garage is listed with 89 spaces and a 1.9 m height limit, with undated tariff entries of 0.45 euros per 15 minutes and a 5.50 euro maximum, and Garage Nieuwe Passage (280 spaces) with Centrummanagement as operator. The registry also lists P+R Parallelweg (212 spaces, Nederlandse Spoorwegen, 2.06 euros an hour) and a free P+R at Nieuwland station (120 spaces, municipal operator). Entries are undated and the registry's sector A street tariff (2.39 euros an hour) is below the 3.32 euros of the 2026 ordinance, so its tariffs may be outdated; page read on 21 October 2026.",
+   "source_title": "NPR Parkeerdata RDW, static records Garage Stadserf and Garage Nieuwe Passage",
+   "source_url": "https://npropendata.rdw.nl/parkingdata/v2/static/b11dc298-9570-4d94-af7d-1842fb9ba928",
+   "confidence": "low"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Q-Park's own page for P+R Horvathweg (Horvathweg 3) shows 64 spaces, a 2.10 m height limit, open 24/7 with number-plate recognition, but its tariffs could not be loaded. Page read on 21 October 2026.",
+   "source_title": "Q-Park P+R Horvathweg (Q-Park Nederland)",
+   "source_url": "https://www.q-park.nl/nl-nl/parkeren/schiedam/p-r-horvathweg/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "Schiedam reports more than 700 public charge points and, under its Laadstrategie 2026-2035 (aligned with Rotterdam), has accepted no resident requests for public charge points since 1 January 2026; it will add charge points based on forecasts, with consultation held 13 May to 3 June 2026, and from 2027 TotalEnergies and Velian will install them while Equans currently manages them. Page read on 21 October 2026.",
+   "source_title": "Elektrisch rijden / oplaadpunten / oplaadpalen (gemeente Schiedam)",
+   "source_url": "https://www.schiedam.nl/a-tot-z/elektrisch-rijden-oplaadpunten-oplaadpalen",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "On the municipal charge points, the SGZH 2.0 posts keep a charging tariff of 0.37 euros per kWh for the rest of 2026 (SGZH 1.0 posts vary monthly), and parking fees must also be paid at a charge point in a paid-parking area. Page read on 21 October 2026.",
+   "source_title": "Elektrisch rijden / oplaadpunten / oplaadpalen (gemeente Schiedam)",
+   "source_url": "https://www.schiedam.nl/a-tot-z/elektrisch-rijden-oplaadpunten-oplaadpalen",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Visitors of residents park via the digital BezoekersApp for 0.46 euros an hour (5 euro start balance, maximum 184 euros or 400 hours a year); from 1 May 2026 businesses can use it too at 1.14 euros an hour (maximum 456 euros a year). The company P1 supports applicants. Page read on 21 October 2026.",
+   "source_title": "BezoekersApp Schiedam (gemeente Schiedam)",
+   "source_url": "https://www.schiedam.nl/a-tot-z/bezoekersapp-schiedam",
+   "confidence": "high"
+  }
+ ],
+ "gaps": [
+  "The Schiedam news item of 14 January 2026 on uniform parking hours (schiedam.nl/nieuws/betere-bereikbaarheid-en-parkeerbalans-in-schiedam-door-uniforme-parkeertijden) returned HTTP 403 and was not used; the later 27 January 2026 news item that reverses part of it was read instead.",
+  "ParkingYou (parkingyou.nl P+R Schiedam Centrum) returned 503 and 'temporarily offline'; its tariffs and opening hours for the P+R Schiedam Centrum garage could not be read. Capacity of more than 750 spaces is from the municipal page only.",
+  "RET pages (ret.nl stop page Vijfsluizen, P+R page) were readable but do not mention a P+R at Vijfsluizen; the free parking there is supported only by the municipal page and the NPR registry entry. No operator or tariff page for Stadserf garage was found; its capacity and tariffs come only from the undated open-data registry entry.",
+  "No council papers (raadsvoorstel, coalition agreement, parking policy document) were opened; the coalition agreement aim of regulated parking south of the A20 is reported only through a regional newspaper article of 15 September 2026. The original parking policy (Schiedamse parkeerbeleid) and the Uitvoeringsprogramma Parkeren PDF (returned 404) could not be read.",
+  "Rodi's partner article of 24 December 2025 announced paid parking in Nieuw-Mathenesse from 2 April 2026, while the municipal page says it began on 1 May 2026; the municipal date is used.",
+  "No utilisation or occupancy statements from the municipality or operators were found; no information was found on new or closing car parks in the centre other than the planned Glasbuurt garages (no location, size or timing found).",
+  "The open-data registry (npropendata.rdw.nl) entries are undated: the sector A street tariff shows 2.39 euros an hour against 3.32 euros in the 2026 ordinance, so its tariff fields are treated as unreliable. The Euroscoop Noorderweg garage (450 spaces in the registry) could not be matched with the municipal list of garages."
+ ]
+}

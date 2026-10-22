@@ -1,0 +1,179 @@
+{
+ "country": "Netherlands",
+ "city": "Zwijndrecht",
+ "researched": "2026-10-21",
+ "summary": "Zwijndrecht regulates parking only lightly: paid street parking applies in a small zone around the old centre (Veerplein, Maasplein, Werf, Zomerlust, Schuitenwal, Nieuwstraat and parts of Marsdiep and Rotterdamseweg), at 2.20 euros per hour in 2026 with hours until 21:00 from Thursday to Saturday, and four blue (disc) zones sit around the railway station. Resident, visitor and business permits follow a 2025 permit ordinance with caps per dwelling and waiting lists. Walburg shopping centre, the station surroundings and the other centres have had free parking, and a 2024 savings proposal to introduce paid parking there from July 2025 appears in later budget papers only as a lever with zero value in 2026-2029. The P+R Westelijke Parallelweg is a 119-space Q-Park site beside the station (24/7; a 2024 council paper says it is owned by ProRail), and the municipality steers station car users to it and offers a covered, guarded bicycle basement. The 2022 traffic and transport plan aims for high occupancy and no surplus spaces, with low parking norms in the Stationskwartier because of the rail link; projects now under way or planned include the Veerplein redevelopment (parking in the restaurant street to disappear, promenade from January 2027), Maasterras Oost (about 340 flats, 277 spaces) and Koninginneweg/Afslag (net gain of about 89 spaces), while Walburg is the subject of a 2026 retail study and a council dialogue. On EV charging, Zwijndrecht joined a 43-municipality concession awarded on 26 August 2026 (about 0.30 euros per kWh for new points, versus about 0.45 under the old concession), a charging map for 2026-2030 was fixed after 289 resident comments, and the draft 2027 budget counts 351 public charge points. Private operators play a small role in the town; Q-Park runs the P+R and there is no public tariff for it on the operator page. Several sources (the Waterbus website, a local news site and a planning viewer) could not be opened on 21 October 2026, see gaps.",
+ "items": [
+  {
+   "topic": "tariffs",
+   "date": "2025-12",
+   "text": "The council adopted the Verordening parkeerbelastingen Zwijndrecht 2026 on 2 December 2025, in force from 1 January 2026: paid street parking costs 2.20 euros per hour and the surcharge for unpaid parking is 82 euros. Its tariff table sets resident permits at 3.25 euros per month, 9.75 per quarter or 39 per year, 'belanghebbende' (business or care-related) permits at 150 per year and visitor-permit parking at 1.10 euros per hour.",
+   "source_title": "Verordening op de heffing en invordering van parkeerbelastingen Zwijndrecht 2026 (CVDR749171)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR749171",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-01",
+   "text": "The mayor and aldermen's designation decision of 6 January 2026 (Gemeenteblad 27 January 2026, in force from 1 January 2026) sets paid parking Monday to Wednesday 09:00-18:00 and Thursday to Saturday 09:00-21:00, free on Sunday, at Werf, Ringdijk (De Werf to Lauwers), Maasplein, Veerplein, Zomerlust, Schuitenwal, Nieuwstraat, Marsdiep 1-12 and Rotterdamseweg 37-61. At Veerplein paid parking is limited to a maximum of two hours.",
+   "source_title": "Aanwijzingsbesluit parkeerbelastingen Gemeente Zwijndrecht 2026 (Gemeenteblad 2026, 34444)",
+   "source_url": "https://zoek.officielebekendmakingen.nl/gmb-2026-34444.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-10",
+   "text": "A council proposal of 11 October 2024 proposed raising the hourly tariff by 10 percent to 2.20 euros from 1 January 2025 (last indexed 1 January 2021), setting the visitor rate at half the regular rate and letting the 32 annual passes (19 held by businesses) lapse in favour of 'belanghebbende' permits. The 2026 ordinance names the Verordening parkeerbelastingen Zwijndrecht 2025 of 3 December 2024 as its predecessor.",
+   "source_title": "Raadsvoorstel Parkeerbelastingverordening Zwijndrecht 2025 (2024-0087422)",
+   "source_url": "https://api1.ibabs.eu/publicdownload.aspx?site=Zwijndrecht&id=a7cddf0a-ac59-4434-9c00-e49916f446ee",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-12",
+   "text": "The permit ordinance (Parkeerverordening Zwijndrecht 2025, adopted 3 December 2024, in force 1 January 2025) allows up to two resident permits per dwelling with one licence plate each, uses waiting lists once a zone maximum is reached, and let old-system resident permits expire on 1 February 2025. A visitor permit is limited to one per dwelling, 3 hours per day per plate and 75 hours per month, and a permit can be refused where the applicant has private parking or a reserved disabled bay.",
+   "source_title": "Verordening op het gebruik van parkeerplaatsen en de verlening van vergunningen voor het parkeren 2025 (CVDR729936)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR729936",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Around Zwijndrecht station there are four blue (disc) zones - Jan Campertstraat, Paulus Potterstraat, Veilingdreef and Vierdrecht - with a 2-hour limit on weekdays 08:00-16:00; residents can buy an unlimited exemption for 46.60 euros per year and a visitor exemption costs 68.50 euros per year (page read on 21 October 2026).",
+   "source_title": "Parkeerontheffing blauwe zone aanvragen (gemeente Zwijndrecht)",
+   "source_url": "https://www.zwijndrecht.nl/Alle_onderwerpen/Parkeren_verkeer_en_vervoer/Parkeerontheffing_blauwe_zone",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-09",
+   "text": "A savings-options paper for the council (carrousel of 17 September 2024) proposed in measure 60 to reintroduce paid parking at Walburg shopping centre and around the station from 1 July 2025 for about 400,000 euros extra income, noting that parking there and at the other shopping centres was then free, excluding the P+R Westelijke Parallelweg, which it says is owned by ProRail. It warned that paid parking in the centre ring could make the centre less attractive.",
+   "source_title": "24D205 UPDATE Rapportage mogelijke bezuinigingen - haalbaar voor 2025 (carrousel 17 september 2024)",
+   "source_url": "https://api1.ibabs.eu/publicdownload.aspx?site=Zwijndrecht&id=a10ef957-8cdb-4574-9721-03a7851dc676",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06",
+   "text": "The first management report of 2026 (council portal, 2 June 2026) lists the savings lever 'Betaald parkeren (her)invoeren' with 0 euros for 2026, 2027, 2028 and 2029, so no revenue from reintroduced paid parking is booked; the text read does not explain the line further.",
+   "source_title": "2026-0049619 Bijlage 2 - 1e bestuursrapportage 2026",
+   "source_url": "https://api1.ibabs.eu/publicdownload.aspx?site=Zwijndrecht&id=bfa7b261-770f-4f88-960a-50b6315c3887",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-11",
+   "text": "Module 10 (parking policy plan) of the municipal traffic and transport plan (GVVP, in force from 19 November 2022) says parking is facilitated but no more spaces than needed are built, aims at 90-100 percent occupancy and sets walking distances of up to 250 m to homes. It records that regulation consists of blue zones (station area and small local spots) and paid parking around Veerplein, and that paid parking at Walburg had been abolished.",
+   "source_title": "Gemeentelijk Verkeer- en Vervoerplan (GVVP) Zwijndrecht (CVDR683518)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR683518",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2018-07",
+   "text": "The GVVP's parking-pressure counts (14 May to 7 July 2018, 134 balance areas, public spaces only) found no area in the town centre above 90 percent occupancy at any count moment, though some road sections exceeded 100 percent; this is a 2018 survey and may be outdated.",
+   "source_title": "Gemeentelijk Verkeer- en Vervoerplan (GVVP) Zwijndrecht (CVDR683518)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR683518",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-11",
+   "text": "The same plan calls the train an important part of public transport and the bus lines and Waterbus an important added value, lists lobbying to extend the Waterbus to Groote Lindt, and says bus links to Rotterdam and Dordrecht remain important. It links the low parking norms in the Stationskwartier to the rail connection and a longer-term light-rail ambition.",
+   "source_title": "Gemeentelijk Verkeer- en Vervoerplan (GVVP) Zwijndrecht (CVDR683518)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR683518",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-10",
+   "text": "The Beleidsregel Parkeren Stationskwartier (in force from 29 October 2022) sets car-parking norms of 0.5 to 1.1 spaces per dwelling including 0.2 for visitors (lowest for social rental flats near the station) and 3.2 per 100 square metres of commercial ground-floor space. Each shared car installed may reduce the requirement by 6 spaces (4 in the Indische buurt), in line with a transit-oriented, car-discouraging approach.",
+   "source_title": "Beleidsregel Parkeren Stationskwartier Zwijndrecht (CVDR682676)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR682676",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Q-Park's page for P+R Westelijke Parallelweg (3331 EW Zwijndrecht) lists 119 parking spaces, entry and exit open 24/7, number plate recognition and disabled spaces, and says no tariffs are available online (page read on 21 October 2026).",
+   "source_title": "PR Westelijke Parallelweg (Q-Park)",
+   "source_url": "https://www.q-park.nl/en-gb/parking/zwijndrecht/pr-westelijke-parallelweg/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-04",
+   "text": "A local weekly (12 April 2024) reports that the municipality points car users to the park-and-ride on the Westelijke Parallelweg side of the station to reduce nuisance in the surrounding streets, and that the covered, guarded bicycle basement at the station (open since 2021, with an OV-fiets rental point) is free for the first 24 hours.",
+   "source_title": "Gratis overdekt en bewaakt stallen (Weekblad De Brug, 12 April 2024)",
+   "source_url": "https://www.weekbladdebrug.nl/nieuws/lokaal/24849/gratis-overdekt-en-bewaakt-stallen",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "Since 2022 the municipality has been raising the quay and redesigning Veerplein and surroundings; in the Veerplein restaurant street the parking spaces will disappear to make room for terraces (about three months of work), and the waterfront promenade (Zomerlust, Thorhoofd, Maasplein, Werf) is to be laid out from January 2027 for about six months (page read on 21 October 2026).",
+   "source_title": "Veerplein en omgeving (gemeente Zwijndrecht)",
+   "source_url": "https://www.zwijndrecht.nl/Alle_onderwerpen/Werkzaamheden/Herinrichting_openbare_ruimte/Veerplein_en_omgeving",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-09",
+   "text": "A land-development document for Maasterras Oost dated 16 September 2025, based on a sketch design that can still change, assumes about 340 apartments and 277 parking spaces (0.8 per dwelling) of which 44 in a built structure, placed on the north edge of the area, and no direct car link through the area.",
+   "source_title": "Grondexploitatie Maasterras Oost, gemeente Zwijndrecht (16 september 2025)",
+   "source_url": "https://api1.ibabs.eu/publicdownload.aspx?site=Zwijndrecht&id=fb3bb0b8-a600-42b6-9f08-88592b848624",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-03",
+   "text": "A letter to the council of 10 March 2026 on the Koninginneweg/Afslag redevelopment (68 homes demolished, 147 new homes plus an office) lists 90 new public and 8 private parking spaces, a few lost spaces on nearby streets, and states a net gain of 89 spaces that meets the Stationskwartier norms using dual use (office by day, residents at night).",
+   "source_title": "Brief aan de raad 2026-0022839 - Beantwoording schriftelijke vragen ABZ Koninginneweg (26F05)",
+   "source_url": "https://api1.ibabs.eu/publicdownload.aspx?site=Zwijndrecht&id=b55a8801-bf3c-4606-9979-ade6d72e73b0",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-03",
+   "text": "A retail study for Walburg (concept of 10 March 2026, sent to the council in September 2026 for a framework dialogue on 'Walburg 2040') notes that the car park in front of the Albert Heijn was almost full on a Monday afternoon while the large south-east car park was mostly empty, and stresses free, ample parking for centres of this type.",
+   "source_title": "DPO Walburg & Multifunctioneel Cultuurhuis (Movares, concept 10 March 2026)",
+   "source_url": "https://api1.ibabs.eu/publicdownload.aspx?site=Zwijndrecht&id=0f04af18-cedb-4090-90d8-57aab40bddd4",
+   "confidence": "medium"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-09",
+   "text": "A council letter of 15 September 2026 reports that the collective public charging concession for south-west Netherlands (43 municipalities) was awarded on 26 August 2026 to TotalEnergies and Velian, with placement until December 2030 and operation until December 2035. New points are to cost about 0.30 euros per kWh including VAT versus about 0.45 under the previous concession, and roll-out depends on grid capacity.",
+   "source_title": "Brief aan de raad 2026-0105829 - Aanbesteding laadpalenconcessie",
+   "source_url": "https://api1.ibabs.eu/publicdownload.aspx?site=Zwijndrecht&id=39a9e9aa-d17c-4fe9-96c0-011ec8a72710",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-06",
+   "text": "A letter of 23 June 2026 fixes the 2026-2030 map of potential public charge-point sites after 289 resident comments (82 positive, 207 critical, about 70 percent of the critical ones citing parking pressure and about 50 percent saying existing points are little used); the map was not changed, and new points follow periodic charging-demand analyses.",
+   "source_title": "Brief aan de raad 2026-0064561 - Plankaart met potentiele locaties voor publieke laadpalen 2026-2030",
+   "source_url": "https://api1.ibabs.eu/publicdownload.aspx?site=Zwijndrecht&id=2d3d0f45-4b31-4b83-898e-40ee830b12ff",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The draft 2027 budget (council version for the meeting of 10 November 2026) gives 351 public charge points as the end-2025 starting value for the goal of a complete charging network, and says the 2023-2026 charging policy will be folded into a new mobility programme in 2027. The same budget table lists street-parking income of 175,000 euros (accounts 2025), 163,000 (budget 2026) and 161,000 (draft 2027).",
+   "source_title": "Begroting 2027 gemeente Zwijndrecht (versie raad)",
+   "source_url": "https://api1.ibabs.eu/publicdownload.aspx?site=Zwijndrecht&id=cf78436b-0be6-4698-b8fd-02d37c2a7a7f",
+   "confidence": "medium"
+  }
+ ],
+ "gaps": [
+  "Waterbus: waterbus.nl (Zwijndrecht Veerplein stop page, line 22 Dordrecht-Zwijndrecht timetable, bicycle carriage) returned 503 on 21 October 2026 because the site was taken offline after a PHP vulnerability; no verified Waterbus or Dordrecht link facts beyond the GVVP policy sentence.",
+  "Local news site zwijndrecht.net (articles on the 2020 Veerplein design, the 2025 budget debate on paid parking at Walburg and 'college overweegt herinvoering betaald parkeren') returned 502/429; not used, and the council vote on the paid-parking lever (Kadernota 6 May 2025, budget 11 November 2025) was not opened, only the later management-report line.",
+  "planviewer.nl (Bestemmingsplan Verbrede reikwijdte Stationskwartier, toelichting with the 2021 mobility plan and 1,638-space estimate) returned 403 and was not used.",
+  "P+R Westelijke Parallelweg tariffs: the Q-Park page shows none; the third-party P+R/parking portals that quote prices were not used. Ownership by ProRail rests only on the September 2024 council paper; no ProRail/NS page about the site was opened.",
+  "Parkeerbeleidsplan 2020 itself was not opened (only its summary as module 10 of the GVVP); the 2018 occupancy counts are old and no newer parking-pressure survey was found.",
+  "No operator-run public car park in the town centre was found (Walburg car park ownership, capacity and tariffs not sourced); no Zwijndrecht parking guidance system or open-data page was found.",
+  "Municipal and council websites were partly offline on 21 October 2026 (PHP precaution notice; DigiD, live council video); the Nota parkeernormen 2026 (CVDR758271) is for Vijfheerenlanden and was not used.",
+  "Several council documents (budget 2027, management report, GVVP, DPO, land-development document) are long and only the parking-related passages were read, hence medium confidence; the 2027 budget and the Walburg DPO are drafts or concepts.",
+  "Earlier traffic decisions reserving two EV bays at 14 locations (Gemeenteblad 2023, 122227) and 10 locations (Gemeenteblad 2024, 127408), and the 2020 council proposal that raised the tariff from 1 to 2 euros and extended paid hours, were verified but left out for the 20-item limit."
+ ]
+}

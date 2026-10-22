@@ -1,0 +1,151 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Verordening parkeerbelastingen Helmond 2026 (CVDR750164/1, 'Geldend van 01-01-2026 t/m heden'): tarieventabel gives 2.65 euro per hour in classes 1, 2, 3, 4 and 5; class 5 has a maximum per etmaal of 4.00 euro; art. 11: naheffingsaanslag 73.55 euro plus one hour of the local tariff, wheel clamp 59.70; art. 14: in force 1 Jan 2026; signed 'besloten in openbare vergadering van 4 november 2025'. Title matches. Note the 4.00 maximum is per etmaal (24 hours) and listed only under class 5.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Same ordinance. Residents' permits per month: Centrum 15.80, Schil 15.80, Overig 5.25; business permits: Centrum 94.60, Schil 94.60, Overig 15.80; classes 4 and 5 'vergunning straatparkeren' 94.60 per month; disabled-card holders may park twice as long for the hourly rate (only on general disabled bays on car parks in classes 1-5). All figures as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Gemeenteblad 2024, 388156 (published 11-09-2024; 'vastgesteld door burgemeester en wethouders van Helmond op 27 augustus 2024'). Para 5.2.1: for conversions to housing and room-letting in the kernwinkelgebied the college grants exemption from providing car spaces on site, max 6 units per address; residents then have no right to a municipal residents' permit or garage subscription. Figures and consequence are right, but the draft says the exemption is granted by 'the council'; it is a policy rule of the municipal executive (college van B&W), not the council, and the page words it as granted ('verleent') under conditions.",
+   "corrected_text": "The Beleidsregel Parkeernormen Helmond 2024 for the Centrum, Stationskwartier and Kernwinkelgebied (adopted by the municipal executive on 27 August 2024, published in the Gemeenteblad on 11 September 2024) grants an exemption from providing car spaces on site for conversions to housing or room-letting in the core shopping area, up to 6 units per address; residents of such units then have no right to a municipal residents' permit or to a residents' subscription in a municipal garage.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "PDF 'Strategie parkeren' (22 pages, read all): PDF metadata CreationDate 9 Feb 2026, colophon page says 'Juni 2025'. Content matches: locate/norm/tariff (lokaliseren, normeren, tariferen); street spaces to be phased down in the core, visitors and residents in garages at the edge of the centre; about 15,000 homes and equal number of jobs to 2040; new residents of the centre no longer eligible for a street permit; ch. 11 says an 'agenda parkeren' is to be drawn up next. Worded as a strategy, which is how the draft words it. Title matches. (The document is a municipal policy document; I found no page stating council adoption date, and the draft does not claim one.)",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Strategie Parkeren ch. 4: 'In het hele stationsgebied geldt betaald parkeren, met als uitgangspunt dat het uurtarief niet lager ligt dan het tarief in de parkeergarages'; 'op termijn uitbreiding van de parkeercapaciteit beoogd' directly next to the station; 'Voor het P+R-gebruik wordt een aangepaste tariefstructuur onderzocht ... korting ... voor treinreizigers, eventueel in samenwerking met NS'. All as written, worded as principle/intention.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "Strategie Parkeren ch. 5 and 6: blue zones not applied, always paid parking with e.g. first two hours free but registration via app or machine, because scan-car enforcement is not possible in blue zones: supported. Ch. 6: scan-car costs and revenue from naheffingen go to the municipality; permit and wrong-parking checks by BOAs are labour-intensive and costly, and the revenue from the fines imposed there goes entirely to the national government (Rijk). The draft's '(fines go to the municipality)' is imprecise: only the additional-assessment (naheffing) revenue on paid spaces goes to the municipality, not fines in general.",
+   "corrected_text": "For the ring around the centre the Strategie Parkeren says blue zones are not to be used; paid parking is always to be introduced instead, for example with the first two hours free but with registration through an app or machine, because blue zones cannot be enforced by scan car. Paid spaces are enforced by scan car, and the municipality keeps the revenue from the additional assessments (naheffingen); checks on permits and wrong parking need officers (BOAs), are much costlier, and their fine revenue goes to the national government.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Strategie Parkeren ch. 3: existing centre garages are mainly for visitors, partly for residents; 'De piek in het bezoekersparkeren doet zich vooral voor op de zaterdag- en zondagmiddag. Buiten deze piekmomenten is er ... ruim voldoende restcapaciteit' usable by residents and workers; within a few years weekend spare capacity expected to be very limited ('zeer beperkt'); current capacity in the collective facilities 'nog niet toereikend' to move residents off the street completely. All as written. No numeric utilisation figures in the document.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "helmond.nl 'Veranderingen in parkeren centrum Helmond' (undated page, read in full): parking is being moved to garages 'zoals Elzaspassage Helmond'; garages named: Elzasparkeergarage, Boscotondo, Doorneind and Ameidewal; about 10,000 homes added in and around the centre; 'Voor een groot deel van het centrum is er al een wachtlijst voor een vergunning voor straatparkeren'; a permit 'zal steeds lastiger worden'. All as written; date 2026-10 and read-on wording correct. The page lists the garages under 'bestaande en nieuw te realiseren parkeergarages' without saying which is which.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "helmond.nl 'Verplaatsen | Centrum 2030' (undated): 'Het voornemen is om betaald parkeren in te voeren in De Waart, Kasteel Noord, Suytkade en de Annabuurt in 2027. Bij Ons Oostende/Ons Willem wordt betaald parkeren ingevoerd wanneer het project klaar is in 2029.' So the year is 2027 on this page; I found no page in the set that says 2026. Draft correctly words it as an intention (voornemen), no tariff. Strategie Parkeren ch. 3 also says paid parking is to be introduced in Suytkade and Annabuurt (without a date).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "helmond.nl 'Kentekentoegang': 'vanaf woensdag 1 november 2023' cameras check whether vehicles may enter the pedestrian area, replacing the automatic bollards; only vehicles with an exemption (ontheffing) may enter; visitors park in garages or spaces around the inner city; loading without permit in Centrum Helmond Monday to Friday 07:00-11:00. All as written.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "helmond.nl 'Parkeerabonnement - parkeergarage': prices per month (2026): Doorneind residents 24/7 47.50; Doorneind business 24/7 98.70; Doorneind/Boscotondo regular hours 85.30; office hours 71.80; Doorneind/Boscotondo 24/7 125.90. Resident places limited with a waiting list; plate-scanning entry during opening hours. Doorneind opening hours: Mon-Wed and Sat to 21:00, Thu-Fri to 22:00, Sunday only 11:00-18:00, so 'closes at 21:00-22:00 on most days' is fair (Sunday is the exception). Page undated, so date 2026-10 is right. No garage capacities (279 / 470) appear on this page or in any item.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Ditishelmond.nl, published 10/04/2025: council agreed to a 21.2 million euro investment for the purchase and extension of the Elzasparkeergarage ('begin april 2025'); to be earned back from parking revenue: supported. But VVD councillor Van de Brug said his group SUPPORTS the investment while criticising the earlier policy ('Deze investering was niet nodig geweest als er eerder andere keuzes waren gemaakt'; investment 'helaas noodzakelijk'); the draft's 'criticised it as an expensive fix' leaves out that the VVD backed it. The article also says all garages are municipally owned and that the rebuild has no effect on tariff levels. Single local-news source (medium confidence appropriate).",
+   "corrected_text": "In early April 2025 the council approved an investment of 21.2 million euros for the purchase and extension of the Elzas parking garage, to be earned back from parking revenue (Dit is Helmond, 10 April 2025). The VVD supported the investment but said it would not have been needed if different choices had been made earlier, because street spaces had been removed without a timely and affordable alternative.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "helmond.nl 'Piet Blomplein': Elzasparkeergarage to be extended under the square by about 250 spaces ('zo'n 250 parkeerplaatsen bij'); 'start in 2028'; FAQ: garage construction 'ruim anderhalf jaar' (the planning paragraph on the same page says about 2 years); more than 310 new homes ('ruim 310'); current garage stays open; 'De plannen moeten door de raad worden goedgekeurd'. All as written. The draft's 'over a year and a half' matches the FAQ; the planning section says about 2 years.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "helmond.nl 'Laadpalen' (undated): 'Tot 2028 verwachten we ongeveer 250 extra openbare laadpalen te plaatsen'; 'De derde fase wordt op dit moment geplaatst'; phase 5 column: 'Reageren tot 28 oktober' (no year printed), placement 'voorjaar/zomer 2027'. As written. Caution: the timeline table lists phase 3 placement for spring/summer 2026 and phase 4 for summer/autumn 2026, so the 'phase 3 being installed' sentence may be stale on the page; the draft reports it as the page's statement.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Ditishelmond.nl, published 09/04/2025: alderman Van den Waardenburg said the guidance system would 'in eerste instantie alleen naar de gemeentelijke parkeergarages Boscotondo en Doorneind' refer, not to the Elzas Passage garage, because the route changes several times (TenneT connection); signs to follow when the extension opens. The Centrum 2030 'Verplaatsen' page lists 'Parkeerverwijssysteem' under 'Afgeronde projecten'. Supported. NOT supported: 'privately run Elzas garage': the article does not say that; a sister article (item 11) says all garages are municipally owned and the council approved buying the Elzas garage. Also the current coverage of the finished system is not known.",
+   "corrected_text": "In April 2025 the alderman said the new parking guidance system would at first point only to the municipal garages Boscotondo and Doorneind and not to the Elzas Passage garage, because the access route to it would change several more times; signs there are to follow when the extension opens. The Centrum 2030 page 'Verplaatsen' (read on 21 October 2026) lists the parking guidance system among finished projects.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "stadsparkeren.nl/paslezer/helmond (page body is two sentences; embedded metadata published_at 2026-06-25): 'In de gemeente Helmond kun je niet meer op straat met de Gepast Parkeren/Stadsparkeren pas parkeren vanaf: 1 oktober 2026' and 'Parkeer in Helmond ook eenvoudig op basis van Kentekenherkenning in een van de aangesloten parkeergarages'. NOT on the page: the 2G network reason, 'street parking continues by app', and 'the card still works in connected garages'. The 2G reason appears only in an Omroep Brabant article that labels itself as automatically compiled, so it is not usable. Page is Stadsparkeren's own site, not the municipality's.",
+   "corrected_text": "Stadsparkeren states that in Helmond it is no longer possible to park on the street with the Gepast Parkeren/Stadsparkeren card from 1 October 2026, and points to licence-plate-recognition parking in the connected garages (page published 25 June 2026 according to its metadata, read on 21 October 2026).",
+   "corrected_title": null,
+   "corrected_date": "2026-06",
+   "unconfirmed_text": "A news article (Omroep Brabant, labelled as automatically compiled) says the street card readers run on the 2G network, which is being shut down, and that bank-card payment at machines and the Stadsparkeren app remain available.",
+   "unconfirmed_reason": "Only source is an article that labels itself as automatically compiled; the Stadsparkeren page itself gives no reason or alternatives."
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "q-park.nl P+R Smalstraat page: Parkeerplaatsen 170; Doorrijhoogte 2.10 meter; opening Monday-Sunday 24-7; services Kentekenherkenning, Mindervalideplekken, OV Knooppunt; 'De tarieven konden helaas niet geladen worden'; rail-traveller discount: domestic train journey, check-in at a different station than check-out, and leaving the P+R terrain the same day as the return train trip. All as written (draft's 'return exit on the same day' is a fair paraphrase). Undated live page, date 2026-10 correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "NS PDF 'P+R-tarieven per 1 mei 2026' (1 page, read in full): row 'HELMOND-P+R Smalstraat: Regulier uurtarief 0.99, Regulier dagtarief 6.00, Reizigers dagtarief 4.00'; 'Tarieven zijn inclusief 21% btw en geldig vanaf 1 mei 2026'; summer action: rail travellers 'maximaal 2 euro per dag' valid 21 June to 31 August (the year is implied, 2026). PDF metadata created 28 July 2026. Note the summer promotion had ended by the time of reading (22 October 2026); a later NS tariff sheet could differ. The URL contains a cache token (_ht_...) and may not stay stable.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Helmond is shifting centre parking from the streets into garages at the edge of the core shopping area, under its Centrum 2030 programme, the Mobiliteitsvisie Helmond 2040 and the Strategie Parkeren (colophon June 2025, PDF created 9 February 2026; a strategy to be turned into an Agenda Parkeren, not final rules). The 2026 parking-tax ordinance (adopted 4 November 2025, in force 1 January 2026) sets 2.65 euros per hour in all five on-street tariff classes, with a 4.00 euro daily maximum in class 5; residents' permits cost 15.80 euros per month in the Centrum and Schil zones and business permits 94.60. The pedestrian zone has been camera-enforced since 1 November 2023. The municipal garages Doorneind and Boscotondo sell residents', business and 24/7 subscriptions for 47.50 to 125.90 euros per month in 2026, and in early April 2025 the council approved 21.2 million euros to buy and extend the Elzas garage; a further extension of about 250 spaces under Piet Blomplein is planned to start in 2028 and still needs council approval. The municipality states an intention to introduce paid parking in De Waart, Kasteel Noord, Suytkade and Annabuurt in 2027. Its strategy says garages are busiest on Saturday and Sunday afternoons with ample spare capacity at other times, and that a discounted P+R tariff for rail travellers is to be studied. In April 2025 the alderman said the guidance system would first point only to Boscotondo and Doorneind, and the Centrum 2030 page now lists the system as finished. About 250 extra public charge points are expected by 2028. Stadsparkeren states that the Gepast Parkeren card can no longer be used for street parking from 1 October 2026. Q-Park lists the P+R Smalstraat at the station with 170 spaces, and NS lists it at 0.99 euros per hour, 6.00 per day and 4.00 for rail travellers from 1 May 2026."
+}

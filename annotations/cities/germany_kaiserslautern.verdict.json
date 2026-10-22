@@ -1,0 +1,151 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Official PDF read (2 pages, signed 26.04.2023, in force 01.05.2023, replaces the ordinance of 01.05.2022). Core zone = resident zones 1-3, 1.00 EUR per 30 min, 3 h max unless signed otherwise; outer zone = zones 4-12, 1.00 EUR per 60 min, 5.00 EUR day ticket; charges Mon-Sat 08:00-19:00 except public holidays; Messeplatz 0.50 EUR per 3 h, 1.00 EUR day, 4.00 EUR week (Mon-Sat). All as in the draft. (The ordinance also sets short-stay parking-meter bays at 0.50 EUR per 15 min citywide, not mentioned.) Title and date correct.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "2019 PDF read: ordinance in force 01.06.2019, core 0.50 EUR per 25 min, max stay 2 h 55, outer 0.50 EUR per 50 min, day ticket 3.00 EUR; figures right and the hourly arithmetic (1.20 to 2.00 EUR; 3.00 to 5.00 EUR day) is correct. But it is NOT 'the previous ordinance': the 2019 text replaced one of 01.01.2018, and the 2023 ordinance states it replaced one of 01.05.2022 (not read). The draft contradicts itself ('previous' vs 'a 2022 ordinance in between'). The increase therefore cannot be attributed to the 2023 ordinance alone.",
+   "corrected_text": "An earlier fee ordinance, in force from 1 June 2019, charged 0.50 euro per 25 minutes in the core zone (maximum stay 2 hours 55 minutes) and 0.50 euro per 50 minutes or 3.00 euro per day in the outer zone, Monday to Saturday 8:00-19:00. In hourly terms that is about 1.20 euro per hour in the core zone, against 2.00 euro per hour (1.00 euro per 30 minutes) under the ordinance of 1 May 2023, and a 3.00 euro against a 5.00 euro outer-zone day ticket. The 2023 ordinance says it replaced an ordinance of 1 May 2022, which was not read, so the 2019-to-2023 changes may have happened in steps.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Resident-permit ordinance PDF read: 100 EUR half-year, 200 EUR one year, 400 EUR two years (par. 4(1)); 15 EUR processing fee for changes, extra plate or replacement; in force 1 Feb 2024 (signed 16.11.2023, published 01.12.2023). The Rheinpfalz teaser is NOT at the cited URL but I found and read it as a visible teaser (not past the paywall): rheinpfalz.de ... warum-anwohnerparken-viel-teurer-wird-_arid,5614527 dated 20 Feb 2024 says 'Seit Februar kosten Bewohnerparkausweise in der Innenstadt 200 statt 30 Euro im Jahr ... Rund 8000 Parkausweise sind bislang im Umlauf'. The draft words it as a teaser, which is correct. Note: an earlier teaser (14 Nov 2023, arid 5577722) has a photo caption 'bislang 30 Euro im Monat' which conflicts with the 'per year' of the Feb 2024 teaser; the city's own zones page lists only 200 and 400 EUR (1 or 2 years), not the 100 EUR half-year permit. Suggest adding the teaser URL.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "Page read (shows today's date in header). Two-zone rationale, aims, 3-hour limit, bus/rail/cycle/walk incentive: all supported. But the last sentence is garbled: the page says the Messeplatz special permit (Sonderparkausweis) costs 150 EUR per year, and separately that on the Gartenschau GmbH car parks the fee is 3.00 EUR Mon-Sun 08:00-22:00; it does not say 'per day', and the 3.00 EUR is not part of the Messeplatz permit. The page also gives resident permits only as 200 EUR (1 year) / 400 EUR (2 years).",
+   "corrected_text": "The city's parking-management page (read on 21 October 2026) says demand for parking in the inner city exceeds supply, which is why paid parking with two tariff zones exists; stated aims are efficient use of spaces for customers, visitors and residents, higher turnover through the 3-hour limit in the core zone, and a stronger incentive to use bus, rail, bicycle and walking. It also lists a Messeplatz special permit at 150 euro per year and says that on car parks of the Gartenschau GmbH the fee is 3.00 euro, Monday to Sunday 8:00-22:00 (the page does not state the unit).",
+   "corrected_title": null,
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Wochenblatt Reporter article dated 27 July 2026 read: since Wednesday 15 July (2026), 14 new short-stay spaces in Richard-Wagner-Straße and Eisenbahnstraße, max 30 min, 1 EUR per 30 min, initiated by a 2023 council decision, not usable by resident-permit holders during charging hours (Mon-Sat 8-19), free otherwise; first card-only machines (plate entered at machine), alternatively Handyparken. All as written. Note: the year 2026 comes only from the article date; a local news portal rewrite of a city announcement (medium confidence is appropriate).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "Page read: the Stellplatzsatzung (car and bicycle spaces) has been in force since 01.03.2022 and the in-lieu amounts (Zone I 12,700, II 8,400, III 5,700 EUR) and use of the money are as stated. But the amounts are set by a separate Stellplatzablösesatzung that the page does not date, so linking them to 1 March 2022 is not supported.",
+   "corrected_text": "A city parking-space statute (Stellplatzsatzung), in force since 1 March 2022, governs how many car and bicycle spaces new buildings must provide. Where the spaces cannot be built, the developer can pay an in-lieu amount set by a separate statute (undated on the page) of 12,700 euro (zone I), 8,400 euro (zone II) or 5,700 euro (zone III) per space; the city uses the money for parking facilities, public transport or cycling investment, or measures that reduce parking demand. Page undated, read on 21 October 2026.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Page read: 34 dynamic signs; Centrum Nord (red) 990, Centrum West (yellow) 1,020, Centrum Ost (green) 530, Hauptbahnhof (white) 360 connected spaces; live free-space counts shown. The last clause (Meuthstraße I/II surface lots; Pfalztheater, Stiftsplatz, Kreissparkasse underground) is not on this page itself but is confirmed by the city's individual car-park sub-pages (captions 'Parkplatz Meuthstraße I/II', 'Tiefgarage Pfalztheater/Stiftsplatz/Kreissparkasse'). Page is live, read on 21 Oct 2026; counts are the guidance system's connected spaces, not total capacity.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Contipark City Löwenstraße page read: 400 spaces, open Mon-Sat 07:00-20:30 (Sunday not listed), no lift; tariff 1.50 + 1.50 EUR for the first two half-hours, 2.50 EUR per further hour, 16.00 EUR max; Pcard 1.00 / 1.50 / 8.00 EUR. Lutrinastraße figures (220 spaces, Mon-Fri 07:00-20:00, Sat 09:00-18:00, same tariff) are on a different Contipark page (.../parkhaus-lutrinastraße/), which I also opened and which matches; the draft cites only the City URL. Suggest adding the second URL.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Contipark Hauptbahnhof P2 page read: Zollamtstraße 5, 359 spaces, open 00:00-24:00, 2.00 EUR per hour, 12.00 EUR per day, 8.50 EUR with Pcard, monthly 59.00 EUR (only with public-transport season ticket) or 87.00 EUR without; described as 'DB BahnPark Parkhaus' on Contipark's site. All as written. Note the city guidance page shows 360 for Hauptbahnhof, the operator 359.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "partly",
+   "note": "Cited Rheinpfalz Plus article (22 May 2025) shows only a teaser: 'Seit Montag ist das Parkhaus am Hauptbahnhof geschlossen - für fast drei Monate', caption says fully closed and operated by Contipark, 'Im Vorfeld befürchteten ... einige ein Chaos ... Ist es eingetreten?' and then one resident quoting 'Eigentlich ist alles wie immer'. So 'the Rheinpfalz reported that nearby streets did not see chaos' rests on one resident quote in the opening paragraph. '360 spaces', 'mainly affecting commuters' and 'DB BahnPark' are NOT on this page; they are in the teaser of a second Rheinpfalz article (16 May 2025, arid 5774475: 'Ab Montag, 19. Mai, vollgesperrt', 'DB BahnPark ... ein Parkhaus mit 360 Plätzen. Das trifft vor allem Pendler'). The draft's own caveat (reason and reopening date unconfirmed) is right. Article body is paywalled; not bypassed.",
+   "corrected_text": "According to the visible teasers of two Rheinpfalz articles (the full texts are paywalled), the Contipark-operated DB BahnPark garage at Hauptbahnhof, a garage with 360 spaces, was fully closed from Monday 19 May 2025 for almost three months, which mainly affects commuters. A Rheinpfalz piece of 22 May 2025 asks whether the feared chaos in the neighbouring quarter has happened and quotes one resident saying everything is as usual. The reason for the closure and the reopening date are not confirmed here.",
+   "corrected_title": null,
+   "corrected_date": null,
+   "unconfirmed_text": "A search-result summary (not a page read) says Deutsche Bahn announced the garage would close from 19 May until about 6 August 2025 for renovation work.",
+   "unconfirmed_reason": "Full Rheinpfalz Plus articles are paywalled beyond the teaser; the renovation reason and 6 August date come only from a search summary and were not confirmed on a page."
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Park Service Hüfner page id=152 read: Altstadtparkhaus Rittersberg, Salzstraße 7, 372 spaces, 1.00 EUR per started 30 min, from the 4th hour 2.00 EUR per started 60 min, 16.00 EUR day max, number-plate recognition, open continuously. Pfaff Areal (361 spaces, Lina-Pfaff-Straße 4a) is listed on the same page; its tariff (15 min free, 2.00 EUR to 60 min, 4.00 EUR to 120 min, 1.00 EUR per further 30 min, 9.00 EUR max) is on id=186, which I opened and which matches. Both listed as continuously open (this closes the gap in the draft about hours).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Q-Park Pfalztheater page read: Martin-Luther-Straße, 296 spaces, 10 charging points, open Mon-Sun 24-7, 'No tariffs available online'. Stiftsplatz (180 spaces, 3 charging points, 24-7, no tariffs online) is on a separate Q-Park page (/stiftsplatz/), which I opened and which matches; the draft cites only the Pfalztheater URL. Q-Park's Kaiserslautern city page now lists only these two garages.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "APCOA page read: K in Lautern, Fackelrondell 1, 490 spaces, Mon-Sat 07:00-22:00, Sunday closed, 1.30 / 1.50 / 2.00 EUR per hour, 23.00 EUR day max: all as written. The city's K in Lautern sub-page still says 'Gebühren ... www.q-park.de' (confirmed). But the claim 'a Q-Park page quotes an older-looking 0.80 euro first hour' could not be reproduced: Q-Park's current Kaiserslautern city page lists only Pfalztheater and Stiftsplatz (q-park.de/.../k-in-lautern/ returns 404); the only 0.80 EUR per hour for K in Lautern that I found is in the 2016-based Mobilitätsplan. Operator therefore stays unclear: APCOA lists the garage on its own site, the city page points to Q-Park.",
+   "corrected_text": "APCOA's own page lists the K in Lautern garage (Fackelrondell 1) with 490 spaces, open Monday to Saturday 7:00-22:00 and closed on Sundays, at 1.30 euro for the first hour, 1.50 euro for the second, 2.00 euro per further hour and 23.00 euro daily maximum (read on 21 October 2026). The city's own car-park page for K in Lautern still refers to q-park.de for fees, while Q-Park's current Kaiserslautern page lists only the Pfalztheater and Stiftsplatz garages, so the current operator is not clear from these sources.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "PDF read in full (cover: 'Februar 2018'; file stamp 2018-08-16). Supported: survey Tue 8 and Sat 12 Nov 2016; about 2,600 spaces in 12 garages/car parks, about 1,000 assigned to long-term parkers (derived from guidance-system data), 2,593 on-street spaces; garages 'teilweise unter 20%, selten über 70%'; K in Lautern and Meuthstraße lots highly used; on-street 0.60-1.20 EUR/h vs garages 1.50-1.80 EUR/h (Altstadt 1.00, K in Lautern 0.80); measures: adapt price structure so street parking is dearer than garages, parking management at the TU. Council adoption 5 Feb 2018 is not in the PDF but is on the city's Mobilitätsplan page (read). Corrections: 'often below 20 percent' is 'partly below 20 percent'; the report says price structure is 'auch' (also) a reason and the K in Lautern/Meuthstraße use is an 'indication' - Meuthstraße lots have the same tariff as the street, K in Lautern is cheaper than the street; the report is a Feb 2018 report (document file-stamped Aug 2018); survey covers Zone I only. The survey is nearly 10 years old and should be dated as such.",
+   "corrected_text": "The council adopted the Mobilitätsplan Klima+ 2030 on 5 February 2018 (per the city's mobility-plan page). Its report was based on a parking survey in the core zone on Tuesday 8 and Saturday 12 November 2016. It counted about 2,600 spaces in 12 city-centre car parks (about 1,000 of them attributable to long-term parkers) plus about 2,590 on-street spaces, and found car-park occupancy partly below 20 percent and rarely above 70 percent while street parking was often overloaded, especially on Saturday and in the evening. K in Lautern and the Meuthstraße lots were exceptions with very high use; the report called this an indication that the price structure is behind the uneven use (Meuthstraße charged the same as the street, K in Lautern less, at 0.80 euro per hour). Street parking then cost 0.60 to 1.20 euro per hour against 1.50 to 1.80 euro in most garages. The plan proposed making street parking dearer relative to garages and introducing parking management at the university; it does not show which measures were implemented.",
+   "corrected_title": "Mobilitätsplan Klima+ 2030, Bericht (Stadt Kaiserslautern, February 2018; file dated Aug 2018)",
+   "corrected_date": "2018-02"
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Page read: every number is on the page (about 1,000 respondents, 50 percent car, down 3.5 points from 2018, 19 percent of households without a car, 5.6 percent of cars electric, two thirds of cars on private spaces, one third on public street). But the page carries no date, so '2023-10' is not on the page (the survey was run in 2023); by the brief the date should be 2026-10. Also the page does not say '50 percent of trips by car' only: it says 50 percent car and 50 percent public transport, cycling and walking.",
+   "corrected_text": "The city's mobility-data page (undated, read on 21 October 2026) reports the 2023 'Mobilität in Städten' survey (about 1,000 residents): 50 percent of trips were made by car and 50 percent by bus and rail, bicycle and foot, with car use down 3.5 percentage points from the 2018 survey; 19 percent of households have no car, 5.6 percent of cars are electric, and about two thirds of cars are parked on private spaces and one third on public streets.",
+   "corrected_title": null,
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 15,
+   "verdict": "partly",
+   "note": "Page read: P+R KL-Ost (Schweinsdell) and P+R Universität; buses 'der SWK' from 2.5 h before kick-off every 5-10 min, free; return up to about 1.5 h after the match; no public parking in the Betzenberg residential area, parking only for residents with permit; match ticket doubles as VRN ticket. Corrections: the buses are run by SWK (the municipal utility), not 'the city'; and the same page still contains copy from the 2010/2011 season (and mentions TWK), so it is partly outdated and the details could be stale for 2026. Undated page.",
+   "corrected_text": "According to the city's P+R page (undated, read on 21 October 2026), SWK runs free P+R shuttle buses for home matches at the Fritz-Walter-Stadion from P+R KL-Ost (Schweinsdell) and P+R Universität, starting 2.5 hours before kick-off at 5-10 minute intervals, with return trips until about 1.5 hours after the match. The page says there is no public parking in the Betzenberg residential area around the stadium (residents with permits only) and that the match ticket also serves as a VRN public-transport ticket. The page also contains older text referring to the 2010/2011 season, so its currency is uncertain.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "partly",
+   "note": "Page read: new traffic concept after K in Lautern opened; Fruchthallstraße/Fackelbrunnen works begun September 2022, essentially finished autumn 2023; six bus stops grouped around the Fackelbrunnen; mobility station with bike/e-scooter hire and e-bike charging; Burgstraße 'voraussichtlich ab 2024'. All as in the draft, but (a) the page is undated, so by the brief the date is 2026-10; (b) the Burgstraße statement is a stale forecast ('from 2024') and its status in 2026 is unknown; (c) it says nothing on parking.",
+   "corrected_text": "A city page on the 'Neue Stadtmitte' realisation (undated, read on 21 October 2026) says the arrival of the K in Lautern shopping centre set off a new inner-city traffic concept and a redesign of its surroundings. The Fruchthallstraße/Fackelbrunnen works (six bus stops grouped, a mobility station with bike and e-scooter hire and e-bike charging) started in September 2022 and were essentially finished in autumn 2023; the page expected the Burgstraße section to follow from 2024, and its current status is not stated.",
+   "corrected_title": null,
+   "corrected_date": "2026-10"
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Same 2023 ordinance (par. 3(5)): vehicles with an E licence plate may park free at charging posts while charging for max 3 hours, parking disc needed. The ordinance has no count of charging points. Q-Park pages: 10 charging points Pfalztheater, 3 Stiftsplatz (verified). Note the ordinance says 'Ladesaeulen' without saying on-street explicitly, though it applies to public ways and squares (par. 1).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Kaiserslautern manages city-centre parking with a two-zone on-street regime under the fee ordinance in force from 1 May 2023: a core zone at 1.00 euro per 30 minutes with a 3-hour limit and an outer zone at 1.00 euro per hour or 5.00 euro per day, charged Monday to Saturday 8:00-19:00 except public holidays. An earlier ordinance of June 2019 charged 0.50 euro per 25 minutes in the core zone. Resident permits cost 100 euro for six months, 200 euro for a year and 400 euro for two years under an ordinance in force since 1 February 2024 (a Rheinpfalz teaser says the annual fee in the inner city rose from 30 euro), and 14 new paid 30-minute spaces in Richard-Wagner-Straße and Eisenbahnstraße were introduced on 15 July 2026 (reported on 27 July 2026). The garages are run by private operators: Contipark (City 400 spaces, Lutrinastraße 220, Hauptbahnhof P2 359), Q-Park (Pfalztheater 296, Stiftsplatz 180) and Park Service Hüfner (Altstadt Rittersberg 372, Pfaff Areal 361); APCOA lists the 490-space K in Lautern garage while the city's page still points to Q-Park, so its operator is unclear. The city runs a parking guidance system with 34 dynamic signs for four areas (Nord 990, West 1,020, Ost 530 and Hauptbahnhof 360 connected spaces) and publishes live free-space counts. A 2016 survey in the Mobilitätsplan Klima+ 2030 (adopted by the council on 5 February 2018) found garages often lightly used (partly below 20 percent) and street parking overloaded, and the report pointed to the price structure as one reason; those findings are about ten years old and the report does not show which measures followed. Opening hours differ by garage: Contipark's City and Lutrinastraße garages list no Sunday opening, while Q-Park and Hüfner list 24-hour access. The Rheinpfalz reported that the 360-space station garage at Hauptbahnhof was closed from 19 May 2025 for almost three months (full articles paywalled; reason and reopening not confirmed here). On match days the municipal utility SWK runs free P+R shuttles from KL-Ost and the university, and the city page says there is no public parking in the Betzenberg residential area; that page also contains some outdated text."
+}

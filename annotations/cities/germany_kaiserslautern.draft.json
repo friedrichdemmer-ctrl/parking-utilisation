@@ -1,0 +1,163 @@
+{
+ "country": "Germany",
+ "city": "Kaiserslautern",
+ "researched": "2026-10-21",
+ "summary": "Kaiserslautern (about 100,000 residents, university and Fritz-Walter-Stadion) manages city-centre parking with a two-zone on-street regime (core zone 1.00 euro per 30 minutes with a 3-hour limit, outer zone 1.00 euro per hour or 5.00 euro per day, charged Monday to Saturday 8:00-19:00 under the ordinance of 1 May 2023), resident permits at 200 euro per year since February 2024, and 14 new 30-minute spaces introduced on 15 July 2026. The garages are run by private operators: Contipark (City, Lutrinastraße, Hauptbahnhof), Q-Park (Pfalztheater, Stiftsplatz), Park Service Hüfner (Altstadt/Rittersberg, Pfaff Areal) and APCOA or Q-Park (K in Lautern); the city itself runs a parking guidance system with 34 dynamic signs and publishes live free-space counts for four colour-coded areas. The 2018 mobility plan found garages underused and street parking overloaded because of the price structure, and several garages have restricted opening hours (for example City and Lutrinastraße are closed on Sundays per Contipark), while the 360-space station garage was closed for almost three months from May 2025. Match days are handled by free P+R shuttles from KL-Ost and the university rather than public parking near the stadium.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2023-05",
+   "text": "The city's parking fee ordinance in force from 1 May 2023 splits paid on-street parking into a core zone (resident zones 1-3: 1.00 euro per 30 minutes, 3-hour maximum stay unless signed otherwise) and an outer zone (zones 4-12: 1.00 euro per hour, 5.00 euro day ticket). Charges apply Monday to Saturday 8:00-19:00 except public holidays; the Messeplatz has a special tariff of 0.50 euro per 3 hours, 1.00 euro per day or 4.00 euro per week (Mon-Sat).",
+   "source_title": "Parkgebührenordnung der Stadt Kaiserslautern (in Kraft ab 01.05.2023)",
+   "source_url": "https://www.kaiserslautern.de/mb/themen/stadtverwaltung/ortsrecht/8.8_parkgebührenordnung_ab_01.05.2023.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2019-06",
+   "text": "The previous fee ordinance, in force from 1 June 2019, charged 0.50 euro per 25 minutes in the core zone (maximum stay 2 hours 55 minutes) and 0.50 euro per 50 minutes or 3.00 euro per day in the outer zone. Compared with the 2023 ordinance this implies the core-zone hourly rate rose from 1.20 to 2.00 euro and the outer-zone day ticket from 3.00 to 5.00 euro (a 2022 ordinance in between was not read).",
+   "source_title": "Parkgebührenordnung der Stadt Kaiserslautern (Fassung ab 01.06.2019)",
+   "source_url": "https://www.kaiserslautern.de/mb/themen/stadtverwaltung/ortsrecht/pdf/8_8_parkgebührenordnung.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-02",
+   "text": "Resident parking permits in Kaiserslautern's resident parking areas cost 100 euro for six months, 200 euro for one year and 400 euro for two years under a fee ordinance that took effect on 1 February 2024 (15 euro for changes or replacements). A Rheinpfalz teaser of 20 February 2024 (paywalled) says the annual fee in the inner city rose from 30 to 200 euro and that about 8,000 permits were in circulation.",
+   "source_title": "Bewohnerparkausweis-Gebührenordnung der Stadt Kaiserslautern",
+   "source_url": "https://www.kaiserslautern.de/mb/themen/stadtverwaltung/ortsrecht/8_7_bewohnerparkausweis-gebührenordnung.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The city's parking-management page (read on 21 October 2026) says demand for parking in the inner city exceeds supply, which is why paid parking with two tariff zones exists; stated aims are efficient use of spaces for customers, visitors and residents, higher turnover through the 3-hour limit in the core zone, and a stronger incentive to use bus, rail, bicycle and walking. It also lists a Messeplatz special permit at 150 euro per year and 3.00 euro per day (8:00-22:00) on Gartenschau GmbH car parks.",
+   "source_title": "Parkraumbewirtschaftung - Stadt Kaiserslautern",
+   "source_url": "https://www.kaiserslautern.de/sozial_leben_wohnen/verkehr_parken/autos_und_co/parken/zonen/index.html.de",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-07",
+   "text": "Since 15 July 2026 the city has 14 new paid 30-minute short-stay spaces (1 euro per 30 minutes) in Richard-Wagner-Straße and Eisenbahnstraße, following a 2023 council decision; during charging hours (Mon-Sat 8-19) holders of resident permits may no longer use them. The new machines are the city's first card-only pay machines (licence plate entered at the machine).",
+   "source_title": "Kaiserslautern: 14 neue Kurzzeitparkplätze in der Innenstadt eingerichtet (Wochenblatt Reporter, 27 July 2026)",
+   "source_url": "https://www.wochenblatt-reporter.de/kaiserslautern/c-lokales/kaiserslautern-14-neue-kurzzeitparkplaetze-in-der-innenstadt-eingerichtet_a836207",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-03",
+   "text": "Since 1 March 2022 a city parking-space statute governs how many car and bicycle spaces new buildings must provide; where spaces cannot be built, the developer can pay an in-lieu fee of 12,700 euro (zone I), 8,400 euro (zone II) or 5,700 euro (zone III) per space, which the city uses for parking facilities, public transport, cycling or measures that reduce parking demand. Page undated, read on 21 October 2026.",
+   "source_title": "Stellplatzablöse - Stadt Kaiserslautern",
+   "source_url": "https://www.kaiserslautern.de/sozial_leben_wohnen/planen_bauen_wohnen/bauordnung/stellplatzabloese/index.html.de",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "The city runs a parking guidance system with 34 dynamic signs leading to the connected car parks, grouped into four colour-coded areas: Centrum Nord (990 connected spaces), Centrum West (1,020), Centrum Ost (530) and Hauptbahnhof (360). Live free-space counts are published on the city website (page read on 21 October 2026); the city's car-park pages call Meuthstraße I and II surface lots and Pfalztheater, Stiftsplatz and Sparkasse underground garages.",
+   "source_title": "Parkleitsystem und aktuelle Parkplatzbelegung - Stadt Kaiserslautern",
+   "source_url": "https://www.kaiserslautern.de/parken",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Contipark's own pages (read 21 October 2026) list Parkhaus City Löwenstraße with 400 spaces (open Mon-Sat 07:00-20:30, no Sunday opening listed, no lift) and Parkhaus Lutrinastraße with 220 spaces (Mon-Fri 07:00-20:00, Sat 09:00-18:00). Both charge 1.50 euro for each of the first two half-hours, 2.50 euro per further hour and a 16.00 euro daily maximum (Pcard: 1.00 euro first hour, 1.50 euro per further hour, 8.00 euro maximum).",
+   "source_title": "Parkhaus City Löwenstraße in Kaiserslautern (Contipark)",
+   "source_url": "https://www.contipark.de/de/parken/kaiserslautern/parkhaus-city-loewenstrasse/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The Hauptbahnhof P2 Park+Ride garage (Zollamtstraße 5, DB BahnPark operated via Contipark) has 359 spaces and is open 24 hours; tariff 2.00 euro per hour, 12.00 euro per day (8.50 euro with Pcard), monthly 59.00 euro with a public-transport season ticket or 87.00 euro without. Page read on 21 October 2026.",
+   "source_title": "Parkhaus Hauptbahnhof P2 Park+Ride in Kaiserslautern (Contipark)",
+   "source_url": "https://www.contipark.de/de/parken/kaiserslautern/parkhaus-hauptbahnhof-p2-parkride/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-05",
+   "text": "The 360-space station garage at Hauptbahnhof (run by Contipark for DB BahnPark) was fully closed from Monday 19 May 2025 for almost three months, mainly affecting commuters; the Rheinpfalz reported on 22 May 2025 that nearby streets did not see chaos in the first days. Only the article teasers were readable (paywall), so the reason for the closure and the reopening date are not confirmed here.",
+   "source_title": "Gesperrtes DB-Parkhaus: So ist die Lage (Rheinpfalz, 22 May 2025)",
+   "source_url": "https://www.rheinpfalz.de/lokal/kaiserslautern_artikel,-gesperrtes-db-parkhaus-so-ist-die-lage-_arid,5776288.html",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Park Service Hüfner lists two Kaiserslautern garages (page read 21 October 2026): Altstadtparkhaus Rittersberg, Salzstraße 7, with 372 spaces (1.00 euro per half hour, 2.00 euro per hour from the 4th hour, 16.00 euro daily maximum, licence-plate recognition) and Parkhaus Pfaff Areal, Lina-Pfaff-Straße 4a, with 361 spaces (first 15 minutes free, 2.00 euro up to 60 minutes, 4.00 euro up to 120 minutes, 9.00 euro daily maximum).",
+   "source_title": "Altstadtparkhaus Rittersberg, Kaiserslautern (Park Service Hüfner)",
+   "source_url": "https://www.ps-huefner.de/standort.php?ort=Kaiserslautern&id=152",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Q-Park's own pages (read 21 October 2026) show the Pfalztheater garage (Martin-Luther-Straße) with 296 spaces and 10 charging points, open 24/7, and the Stiftsplatz garage with 180 spaces and 3 charging points; no tariffs are shown online for these garages.",
+   "source_title": "Q-Park Pfalztheater, Kaiserslautern",
+   "source_url": "https://q-park.de/en-gb/cities/kaiserslautern/pfalztheater/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "APCOA lists the K in Lautern garage (Fackelrondell 1) with 490 spaces, open Mon-Sat 07:00-22:00 and closed Sundays, at 1.30 euro for the first hour, 1.50 euro for the second, 2.00 euro per further hour and 23.00 euro daily maximum. The city's own car-park page still points to Q-Park for this garage, and a Q-Park page quotes an older-looking 0.80 euro first hour, so the current operator is not clear from these sources.",
+   "source_title": "K in Lautern (APCOA)",
+   "source_url": "https://www.apcoa.de/einmal-parken/standorte/kaiserslautern/k-in-lautern",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2018-02",
+   "text": "The council adopted the Mobilitätsplan Klima+ 2030 on 5 February 2018. Its parking survey (Tuesday 8 and Saturday 12 November 2016) counted about 2,600 spaces in 12 city-centre car parks (about 1,000 assigned to long-term parkers) plus about 2,590 on-street spaces, and found car parks often below 20 percent and rarely above 70 percent occupied while street parking was overloaded; K in Lautern and the Meuthstraße lots were exceptions, which the report linked to low prices (then 0.50 euro per 25 minutes on street in the core zone versus 1.50-1.80 euro per hour in most garages). The plan proposed making street parking dearer relative to garages and paid parking on the university campus; it does not show which measures were implemented.",
+   "source_title": "Mobilitätsplan Klima+ 2030, Bericht (Stadt Kaiserslautern, Aug 2018)",
+   "source_url": "https://www.kaiserslautern.de/mb/themen/verkehr/mobilitaetsplan-neu/2018-08-16_kl_mobilitaetsplan-klima+2030_bericht.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2023-10",
+   "text": "The 2023 'Mobilität in Städten' survey (about 1,000 residents) found 50 percent of trips in Kaiserslautern by car, down 3.5 points from 2018; 19 percent of households have no car, 5.6 percent of cars are electric, and about two thirds of cars are parked on private spaces and one third on public streets. Page undated, read on 21 October 2026.",
+   "source_title": "Mobilitätsdaten - Stadt Kaiserslautern",
+   "source_url": "https://www.kaiserslautern.de/sozial_leben_wohnen/verkehr_parken/mobilitaetsdaten/index.html.de",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "For home matches of 1. FC Kaiserslautern at the Fritz-Walter-Stadion the city operates free P+R shuttle buses from P+R KL-Ost (Schweinsdell) and P+R Universität, starting 2.5 hours before kick-off at 5-10 minute intervals and returning until about 1.5 hours after the match. The Betzenberg residential area around the stadium has no public parking; the match ticket also serves as a VRN public transport ticket (page read on 21 October 2026).",
+   "source_title": "P+R zum Stadion - Stadt Kaiserslautern",
+   "source_url": "https://www.kaiserslautern.de/sozial_leben_wohnen/verkehr_parken/autos_und_co/parken/parkride/index.html.de",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-10",
+   "text": "The 'Neue Stadtmitte' programme redesigned the area around the K in Lautern shopping centre with a new inner-city traffic concept; the Fruchthallstraße/Fackelbrunnen works (six bus stops grouped, a mobility station with bike hire and e-bike charging) started in September 2022 and were essentially finished in autumn 2023, with the Burgstraße section expected to follow from 2024. Page undated, read on 21 October 2026.",
+   "source_title": "Neue Stadtmitte, Realisierung - Stadt Kaiserslautern",
+   "source_url": "https://www.kaiserslautern.de/sozial_leben_wohnen/planen_bauen_wohnen/neuestadtmitte/index.html.de",
+   "confidence": "medium"
+  },
+  {
+   "topic": "ev",
+   "date": "2023-05",
+   "text": "Under the 2023 fee ordinance, vehicles with an E licence plate may park free at on-street charging posts while charging, for a maximum of 3 hours and with a parking disc displayed. The ordinance does not give the number of public charging points; Q-Park shows 10 points at Pfalztheater and 3 at Stiftsplatz.",
+   "source_title": "Parkgebührenordnung der Stadt Kaiserslautern (in Kraft ab 01.05.2023)",
+   "source_url": "https://www.kaiserslautern.de/mb/themen/stadtverwaltung/ortsrecht/8.8_parkgebührenordnung_ab_01.05.2023.pdf",
+   "confidence": "high"
+  }
+ ],
+ "gaps": [
+  "Current number and operator of public charging points in the centre (SWK e-mobility pages https://www.swk-kl.de/e-mobilitaet read but give no counts; Bundesnetzagentur register not checked).",
+  "Tariffs of the Kreissparkasse underground garage (Am Altenhof), Parkhaus Central (Rosenstraße, 70 spaces per directory listings only) and Meuthstraße I/II surface lots: the city page only gives owner contacts or an unexplained note for Meuthstraße II ('Mo-Fr 16:00-24:00, Sa/So ganztags'); the 14% occupancy of Central cannot be explained from official sources.",
+  "Q-Park Pfalztheater and Stiftsplatz tariffs are not shown online; opening/closing hours of Altstadt and Pfaff Areal on the Hüfner pages were not fully read.",
+  "Capacities in operator pages (City 400, Lutrinastraße 220, Hauptbahnhof 359, Pfalztheater 296, Stiftsplatz 180, Altstadt 372) differ from the figures in our feed; the reason (partly connected spaces, reserved or permit spaces, closed levels) is not documented.",
+  "Reason for and reopening date of the May 2025 Hauptbahnhof garage closure: Rheinpfalz articles (https://www.rheinpfalz.de/lokal/kaiserslautern_artikel,-db-parkhaus-gesperrt-das-sind-die-alternativen-_arid,5774475.html and the second one cited) are paywalled beyond the teaser.",
+  "The parking fee ordinance of 1 May 2022 (replaced in 2023) and the 2022 council decision on fees were not found; a Rheinpfalz piece of 6 February 2022 (https://www.rheinpfalz.de/lokal/kaiserslautern_artikel,-hanno-scherer-legt-bei-kritik-an-parkgeb%C3%BChren-nach-_arid,5312530.html) only has a teaser (city centre manager criticised fee rises made without consulting traders).",
+  "1. FC Kaiserslautern site (fck.de anreise pages) returned HTTP 503 and was not used; no stadium event parking prices or park-and-ride usage figures found. Web search budget ran out before searches on stadium parking, K in Lautern ownership and the Q-Park/APCOA operator change could be done.",
+  "No source found for the Verkehrsentwicklungsplan (the mobility plan Klima+ 2030 of 2018 is the closest), a current Innenstadt parking concept, City-Quartier/ECE/Mainzer Tor projects, the university (RPTU Kaiserslautern) parking regime, or US military related parking.",
+  "Search-tool summaries wrongly attributed council paper 2025/0171 (parking fee proposal with Salinarium/Wurstmarktplatz) to Kaiserslautern; it concerns another Rhineland-Palatinate town and was not used."
+ ]
+}

@@ -1,0 +1,213 @@
+{
+ "country": "Netherlands",
+ "city": "Diemen",
+ "researched": "2026-10-21",
+ "verified": "2026-10-22",
+ "summary": "Diemen, next to Amsterdam, regulates most of its streets: paid parking in the Diemerplein centre (1.90 euros per hour), the De Omval car park, the Bergwijkpark office area (1.20 euros per hour) and along Muiderstraatweg, a permit-only zone with a 25-euro day card, and a two-hour blue zone in and around the centre. Since 2020 enforcement is by scan car (blue-disc checks are done by enforcers on scooters), under the Parkeerverordening Diemen 2025 (in force 1 July 2025); a separate cost decision in force from 1 July 2026 sets the fine at the legal maximum of 82 euros. Resident permits cost up to 96 euros for two years (lower if applied for later in the cycle), and residents of Holland Park, Sniepkwartier and Punt Sniep are expected to use in-building parking. The Station Diemen park-and-ride was moved to the south side of the line after the Ouddiemerlaan underpass opened on 25 January 2023; according to March 2024 council answers it was to be withdrawn from public use so that NS alone could run it with a barrier and no maximum stay. An NS tariff sheet announced for 1 December 2026 lists a lot named 'DIEMEN-P+R Martin Luther Kinglaan' (very probably the same lot) at 2.00 euros per hour, 8.50 euros per day or 2.50 euros for train travellers; the former lot is planned for about 100 social homes (Harmoniehof, design phase per a project page that looks out of date). The 2025 mobility vision (a vision, not a decision) wants paid parking and a smaller P+R at Diemen Zuid, which was still free and used by commuters to Amsterdam, and the 2021 parking plan described the NS station lots as unregulated and full from early morning with commuters. Parking pressure above 85 percent is found only in Diemen Noord and north of Hartveldseweg, partly from IJburg parkers, and a blue zone around Zeezigt has been decided; the vision also aims to reduce spaces where pressure is below 80 percent, and records that the municipality decided in April 2025 not to introduce environmental zones. The shopping-centre garage under Diemerplein is advertised as having more than 400 spaces (retailer website, low reliability). EV charging rests on a 2019 policy note (22 public charge posts then) and a municipal rule that charge-point bays are only for vehicles that are charging (fine 120 euros); no recent charge-point counts were found.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2025-05",
+   "text": "On 26 May 2025 the Diemen council adopted the Parkeerverordening Diemen 2025, which replaces the 2020 ordinance and is listed as in force from 1 July 2025. It provides for resident, business, visitor, car-share and ambulant (carer) permits, with permits valid for at most two years and a tariff table with zone maps.",
+   "source_title": "Parkeerverordening Diemen 2025 (lokaleregelgeving.overheid.nl)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR740765/1",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2025-07",
+   "text": "The 2025 tariff table sets street parking at 1.90 euros per hour in the Diemerplein centre (also on bays with an EV charge point), 25 euros for a day card in the permit-only zone, and 1.20 euros per hour (maximum 9.60 euros a day) in the Bergwijkpark Zuid office area. Along Muiderstraatweg the first two hours cost 0.10 euros per hour and 1.90 euros per hour after that.",
+   "source_title": "Parkeerverordening Diemen 2025, Bijlage 1 Tarieventabel 2025",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR740765/1",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-07",
+   "text": "The Diemen council's Kostenbesluit naheffingsaanslag parkeren 2026, in force from 1 July 2026, budgets 11,000 parking fines a year at 97.23 euros cost each and sets the amount charged at the legal maximum of 82 euros for 2026. The 2025 ordinance had used 78.80 euros.",
+   "source_title": "Kostenbesluit naheffingsaanslag parkeren Diemen 2026 (lokaleregelgeving.overheid.nl)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR762889/1",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The municipal parking page (read on 21 October 2026) lists 1.90 euros per hour in the centre and at the De Omval car park, 1.20 euros per hour (day card 9.60 euros) in Bergwijkpark, a 25-euro day card in the permit zone, and Muiderstraatweg at 0.10 euros per hour for the first 120 minutes then 1.90 euros. Rules apply Monday to Saturday 9:00-21:00 (De Omval and Muiderstraatweg until 19:00; Bergwijkpark Monday to Friday 7:00-19:00), not on Sundays and listed public holidays.",
+   "source_title": "Gemeente Diemen: Parkeren in Diemen",
+   "source_url": "https://www.diemen.nl/Onderwerpen/Parkeren/Algemene_informatie/Algemeen_over_parkeren",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The same municipal page (read on 21 October 2026) says the area in and around the centre is a blue zone with a two-hour limit (four hours at Sporthal Diemen and Sportcentrum Duran, one hour at Arent Krijtstraat), and that parking in the permit zone is only possible with a 25-euro day card. The fine is 82 euros plus the parking fee that should have been paid, and disabled-card holders park free in the permit and blue zones but pay in the paid zone.",
+   "source_title": "Gemeente Diemen: Parkeren in Diemen",
+   "source_url": "https://www.diemen.nl/Onderwerpen/Parkeren/Algemene_informatie/Algemeen_over_parkeren",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10",
+   "text": "Diemen has enforced regulated parking with a scan car since 2020; it drives through the paid, permit and blue zones and fines are posted instead of placed on the windscreen. The municipality says it uses the scan car for parking control and for measuring occupancy in the parking zones (page read on 21 October 2026).",
+   "source_title": "Gemeente Diemen: Scanauto voor parkeercontrole",
+   "source_url": "https://www.diemen.nl/Onderwerpen/Parkeren/Algemene_informatie/Algemeen_over_parkeren/Scanauto_voor_parkeercontrole",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "On the permit page (read on 21 October 2026) the municipality states that permits are valid only in the holder's own neighbourhood and cost 96 euros for two years for residents and 96 euros for one year for businesses. Residents of Holland Park, Sniepkwartier and Punt Sniep cannot get street permits and are expected to use in-building parking, and Bergwijkpark businesses cannot get a street business permit.",
+   "source_title": "Gemeente Diemen: Parkeerontheffing of -vergunning aanvragen",
+   "source_url": "https://www.diemen.nl/Onderwerpen/Parkeren/Aanvragen_en_regelen/Parkeerontheffing_of_vergunning_aanvragen",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The municipality's page on charging points (read on 21 October 2026) says a vehicle may use a charge-point bay only while actually charging, and that parking there without charging, or with a petrol car, can draw a 120-euro fine plus administration costs.",
+   "source_title": "Gemeente Diemen: Parkeren bij een laadpaal in Diemen",
+   "source_url": "https://www.diemen.nl/Onderwerpen/Parkeren/Algemene_informatie/Parkeren_bij_een_laadpaal_in_Diemen_wat_mag_wel_en_wat_niet",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2019-07",
+   "text": "Diemen's 2019 policy note on charging electric vehicles counted 22 public charge posts in early 2019 (supplied via the MRA-Elektrisch tenders and Allego) and set a minimum goal of doubling the number of charge points by 2020. It expected new posts on request from residents without private parking and at strategic locations near shops and public facilities. This is an old plan; later figures were not found.",
+   "source_title": "Beleidsnotitie opladen elektrische voertuigen (lokaleregelgeving.overheid.nl)",
+   "source_url": "https://lokaleregelgeving.overheid.nl/CVDR626748",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2021",
+   "text": "The Parkeerbeleidsplan 2021 recorded 7,505 regulated spaces in Diemen: 1,100 paid or permit spaces and 6,405 blue-zone spaces, with 5,500 resident permits and 2,500 visitor schemes issued, and car ownership of 0.7 per household. Its targets to 2025 were a daytime parking pressure of at most 85 percent in residential areas and 80 percent around shopping centres, with a cost-covering operation.",
+   "source_title": "Parkeerbeleidsplan 2021 (Gemeente Diemen)",
+   "source_url": "https://diemen.bestuurlijkeinformatie.nl/Document/View/9868c0ba-5632-45cf-9858-38a71860f971",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2021",
+   "text": "The Parkeerbeleidsplan 2021 states that paid parking started in June 2012 in the garage under the Diemerplein shopping centre, which is not run by the municipality, in April 2018 in the Bergwijkpark office area and in October 2019 around Muiderstraatweg (replacing a blue zone). Monthly scan-car data are used to monitor parking pressure.",
+   "source_title": "Parkeerbeleidsplan 2021 (Gemeente Diemen)",
+   "source_url": "https://diemen.bestuurlijkeinformatie.nl/Document/View/9868c0ba-5632-45cf-9858-38a71860f971",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2021",
+   "text": "The Parkeerbeleidsplan 2021 says the car parks at the NS stations Diemen and Diemen Zuid were unregulated and filled from early morning, largely with commuters with no origin or destination in Diemen, and that regulation there is possible only in consultation with NS. It also expects a four-hour blue-zone limit would attract visitors who park in Diemen to visit Amsterdam.",
+   "source_title": "Parkeerbeleidsplan 2021 (Gemeente Diemen)",
+   "source_url": "https://diemen.bestuurlijkeinformatie.nl/Document/View/9868c0ba-5632-45cf-9858-38a71860f971",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-03",
+   "text": "In council answers from March 2024 (date from the file properties) the municipality said the station Diemen car park is for rail passengers and will be operated solely by NS under a 2017 cooperation agreement with ProRail and the municipality, with a barrier and no maximum stay; train travellers get a discount and others pay the maximum tariff. It added that withdrawing the lot from public use was the only way to introduce paid parking with a barrier, that high tariffs for long stays were the chosen remedy against long-term parkers, and that no residents' permits will be issued there.",
+   "source_title": "Technische vragen: onttrekking aan de openbaarheid Parkeerterrein Station Diemen",
+   "source_url": "https://diemen.bestuurlijkeinformatie.nl/Document/View/168da733-ca9f-4ea5-9fdf-5d5c098b62b3",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "NS's P+R tariff sheet for 1 December 2026 (file dated 19 October 2026, so prices announced and not yet in force when read on 21 October 2026) lists 'DIEMEN-P+R Martin Luther Kinglaan' at 2.00 euros per hour, 8.50 euros regular day rate and 2.50 euros day rate for train travellers. The sheet does not name Station Diemen; the street is the one next to the Station Diemen car park in the March 2024 council answers, so it is very probably that lot. The earlier tariff sheet valid from 1 May 2026 could not be read here.",
+   "source_title": "NS P+R-tarieven per 1 december 2026 (NS tariff sheet)",
+   "source_url": "https://ocp.ns.nl/caas/v1/media/197090/data/bed789a66cdf02714d349df32053d655/p-r-tarieven-2027-per-1-dec-2026-.pdf",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2023-01",
+   "text": "The Ouddiemerlaan rail underpass opened on 25 January 2023, and the station-side park-and-ride was moved from the Spoorzicht side to the south side of the line, with a new green P&R beside the renewed Van Gemertplantsoen. The municipality's project page (read on 21 October 2026, but apparently not updated since 2025) gives no space count.",
+   "source_title": "Gemeente Diemen: Projectenoverzicht Stationsomgeving Diemen",
+   "source_url": "https://www.diemen.nl/Onderwerpen/Diemen_in_ontwikkeling/Kort_geleden_afgerond/Projectenoverzicht_Stationsomgeving_Diemen",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-11",
+   "text": "On 14 November 2024 the council adopted the spatial requirements for the Harmoniehof, about 100 social rental homes (possibly a few mid-rent) on the former P&R site on the Spoorzicht side of Station Diemen; the project page lists it as in the design phase.",
+   "source_title": "Gemeente Diemen: Projectenoverzicht Stationsomgeving Diemen",
+   "source_url": "https://www.diemen.nl/Onderwerpen/Diemen_in_ontwikkeling/Kort_geleden_afgerond/Projectenoverzicht_Stationsomgeving_Diemen",
+   "confidence": "high",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-07",
+   "text": "Diemen's Mobiliteitsvisie 2040 (final, published 10 July 2025) notes that the P+R at Station Diemen recently got paid parking while the lot at Diemen Zuid was still free and mainly used by commuters heading for Amsterdam. Among its ambitions is introducing paid parking and shrinking the Diemen Zuid P+R to limit its use as a regional transfer point; this is a vision statement, not a decision.",
+   "source_title": "Mobiliteitsvisie Diemen 2040 (Gemeente Diemen)",
+   "source_url": "https://www.diemen.nl/Onderwerpen/Verkeer/Verkeersbeleid/Mobiliteitsvisie/Mobiliteitsvisie_Diemen_2040.pdf",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-07",
+   "text": "The Mobiliteitsvisie 2040 puts average car ownership at 0.81 vehicles per household (1.15 nationally), with parking pressure above the 85 percent threshold only north of Hartveldseweg and in Diemen Noord, where up to about 92 percent was measured in evening and night hours. It attributes part of this to residents and visitors of Amsterdam's IJburg parking more cheaply in Diemen.",
+   "source_title": "Mobiliteitsvisie Diemen 2040 (Gemeente Diemen)",
+   "source_url": "https://www.diemen.nl/Onderwerpen/Verkeer/Verkeersbeleid/Mobiliteitsvisie/Mobiliteitsvisie_Diemen_2040.pdf",
+   "confidence": "medium",
+   "id": 18,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-07",
+   "text": "The Mobiliteitsvisie 2040 says a blue zone has been decided around Zeezigt in Diemen Noord and that a further extension could be considered when the parking policy is updated. Among its ambitions (not decisions) are reducing parking spaces where parking pressure is below 80 percent, in favour of greenery, play space and bicycle parking, and an area-covering charging network including bidirectional and fast charging. The vision also lists studying an environmental zone as an ambition, but states that on 22 April 2025 the municipal executive decided not to introduce environmental zones because research showed it was not needed.",
+   "source_title": "Mobiliteitsvisie Diemen 2040 (Gemeente Diemen)",
+   "source_url": "https://www.diemen.nl/Onderwerpen/Verkeer/Verkeersbeleid/Mobiliteitsvisie/Mobiliteitsvisie_Diemen_2040.pdf",
+   "confidence": "medium",
+   "id": 19,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "No separate 'Parkeerverordening Diemen 2026' found: the 2025 ordinance (in force 1 July 2025) and the 2026 Kostenbesluit naheffingsaanslag (1 July 2026) are the texts in force on lokaleregelgeving.overheid.nl.",
+  "No official space count for the Station Diemen P+R or the Diemen Zuid P+R; the municipal project page and council answers give none.",
+  "Council documents on the decision to withdraw the Station Diemen lot from public use (raadsvoorstel) and later parking decisions: the iBabs link https://diemen.bestuurlijkeinformatie.nl/Document/View/8ea8a4fc-d6df-46f0-978f-a14186386078 returned 401/not allowed; only the March 2024 technical Q&A (PDF) was readable. No decision found on paid parking at P+R Diemen Zuid.",
+  "Amsterdam region P+R policy: https://www.amsterdam.nl/parkeren-verkeer/parkeren/p-r/ returned 403 (not bypassed); vervoerregio.nl/pagina/p-r and the tried gvb.nl P+R URLs returned 404. No Vervoerregio or GVB source on Diemen Zuid metro/P+R access was read; search only returned parking-listing portals, which were not used.",
+  "Operator, tariff and capacity of the Diemerplein shopping-centre garage: only the centre's website (more than 400 spaces, no tariff) was readable; portal listings were not used.",
+  "Current EV charge-point numbers, operator (Allego/other) and any recent charging vision for Diemen: only the 2019 policy note, the 2021 parking plan and the municipal charge-bay rule were found.",
+  "No Diemen-specific information on low-emission or pedestrian zones beyond a study ambition in the Mobiliteitsvisie 2040; no open-data/guidance system (e.g. NPR/DATEX) statement from the municipality or NS read.",
+  "Parkeerbeleidsplan 2021 and Mobiliteitsvisie 2040 are PDFs of which the relevant sections were read, not every page; the municipal project pages on Station surroundings were last updated around 2025 and may be stale (Harmoniehof status).",
+  "Not used as unreliable or off-topic: Diemen Zuid traffic-structure page (not about parking), Duran area vision page (parking mentioned only as possibly reduced temporarily), and the Van Gemertplantsoen opening page (year not stated)."
+ ],
+ "dropped": {
+  "low confidence": 1
+ }
+}
