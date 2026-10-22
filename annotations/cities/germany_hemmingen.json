@@ -1,0 +1,183 @@
+{
+ "country": "Germany",
+ "city": "Hemmingen",
+ "researched": "2026-10-21",
+ "verified": "2026-10-22",
+ "summary": "Hemmingen is a town in the Region Hannover whose parking picture is dominated by the Stadtbahn line 13 extension. The line was opened with a ceremony and first ride on 9 November 2023; regular service started with the timetable change on 10 December 2023, and the Hannover.de article that gives this date was published beforehand as an announcement. At the terminus on Goettinger Landstrasse the infra Infrastrukturgesellschaft Region Hannover, a subsidiary of the VVG holding of the city and Region of Hannover, owns a park-and-ride with 170 car spaces (the town's 2018 draft transport plan had foreseen 196 and the 2014 planning-approval papers about 200). According to the infra's general park-and-ride terms read on 21 October 2026, parking is free but reserved for GVH public-transport passengers, with a 22-hour maximum stay and a night parking ban from 02:00 to 04:00 on weekdays, and a contractual penalty of 50 euros per day (up to 500 euros for overstaying), checked by the service company GSG; these are network-wide terms, not specific to Hemmingen. A December 2023 infra brochure said seven of the spaces were initially equipped for electric-vehicle charging and that the site can be extended eastwards to the Maschgraben stream on land already bought, but gives no date for an extension. In spring 2024 an infra authorised officer, Martin Vey, said in an article about the Badenstedt park-and-ride that the Hemmingen site is often fully booked; no occupancy figures were found. A covered bike-and-ride was released on 10 June 2026 with room for about 140 bicycles in the open part, and its lockable part with 75 places followed on 28 August 2026, giving 215 places in total, described as the last building block of the extension project. The town's 2018 draft transport plan (VEP 2030) deals with road layout, cycling and the terminus, counted 129 existing kerbside spaces on the Hoher Holzweg in Arnum and compared redesign options that would leave 54 to 96 of them (options in a draft, not decisions), and proposed public charging posts at busy places. No town-level parking-fee, disc-parking or resident-parking rules were found in the town's list of statutes, which proves little because traffic signs are set by the traffic authority. Planning for a further Stadtbahn extension to Arnum was stepped up in 2022, with an infra schedule at that time foreseeing a council decision in spring 2023 and a planning-approval procedure from 2024; an opponents' citizens' text of November 2022 argues against it, and its current status is not established.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2018-09",
+   "text": "The town's draft Verkehrsentwicklungsplan 2030 (consultant report, September 2018) is the town's transport strategy. It aims to strengthen public transport, cycling and park-and-ride/bike-and-ride links, and it planned 196 car spaces and a covered bike facility with 48 racks at the future Stadtbahn terminus; the terminus was later built with 170 car spaces.",
+   "source_title": "Stadt Hemmingen - Verkehrsentwicklungsplan 2030 (Entwurf, SHP Ingenieure, September 2018)",
+   "source_url": "https://www.stadthemmingen.de/standort/verkehr/verkehrsentwicklungsplan-2030/",
+   "confidence": "medium",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2018-09",
+   "text": "For the Hoher Holzweg in Arnum, the 2018 draft plan counted 129 existing kerbside parking spaces and compared redesign variants that would leave between 54 and 96 of them, because a continuous two-lane road is needed as a feeder to the new B 3. It suggested replacement spaces on adjacent green strips (about 35 to 40 bays) and a possible all-day lorry stopping restriction; these are options in a draft, not decisions.",
+   "source_title": "Stadt Hemmingen - Verkehrsentwicklungsplan 2030 (Entwurf, SHP Ingenieure, September 2018)",
+   "source_url": "https://www.stadthemmingen.de/standort/verkehr/verkehrsentwicklungsplan-2030/",
+   "confidence": "medium",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2018-09",
+   "text": "The 2018 draft plan said public charging posts should first be built at busy places such as the Real supermarket in Hemmingen-Westerfeld and the area around the town hall, and that the first posts at the town hall and the Arnum citizen office were to be built in 2018. It added in general terms that public charging posts are often found at destinations such as local-shopping sites or park-and-ride sites.",
+   "source_title": "Stadt Hemmingen - Verkehrsentwicklungsplan 2030 (Entwurf, SHP Ingenieure, September 2018)",
+   "source_url": "https://www.stadthemmingen.de/standort/verkehr/verkehrsentwicklungsplan-2030/",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2014-06",
+   "text": "The 2014 planning-approval documents for the second section of the Stadtbahn extension (1,789 m) provided for a park-and-ride site of about 200 spaces beside the terminus platform with integrated bike parking and a bus turning loop. The route runs mostly in Göttinger Landstraße and could only be built after the B 3 bypass.",
+   "source_title": "Stadt Hemmingen - Stadtbahnerweiterung Hemmingen-Westerfeld (Planfeststellung, public display 16 June to 15 July 2014)",
+   "source_url": "https://www.stadthemmingen.de/standort/verkehr/stadtbahnerweiterung-hemmingen-westerfeld/",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-11-09",
+   "text": "The Stadtbahn line 13 extension from Oberricklingen to Hemmingen (3.3 km, six new stops, about 90 million euros) was opened with a ceremony on 9 November 2023. The infra said the terminus has a park-and-ride with 170 car spaces and a bike-and-ride for almost 250 bicycles.",
+   "source_title": "Region Hannover - Die Stadtbahn erreicht Hemmingen",
+   "source_url": "https://www.hannover.de/Leben-in-der-Region-Hannover/Verwaltungen-Kommunen/Die-Verwaltung-der-Region-Hannover/Pressebereich-Region-Hannover/Archiv-Pressemitteilungen/2023/Die-Stadtbahn-erreicht-Hemmingen",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2023-12-10",
+   "text": "A Hannover.de article of 30 November 2023 announced that Stadtbahn line 13 would run between Hemmingen and Fasanenkrug from the timetable change on 10 December 2023, serving six new stops. It said the Hemmingen terminus has a park-and-ride facility and connections to sprintH line 300, lines 360, 365 and 366 and night line N31, and that the bus network around Hemmingen had been adapted to the new line.",
+   "source_title": "Hannover.de - Fahrplanwechsel: Linie 13 fährt zwischen Hemmingen und Fasanenkrug (30 November 2023)",
+   "source_url": "https://www.hannover.de/Service/Presse-Medien/Hannover.de/Aktuelles/Service-2023/Fahr­plan­wechsel-Linie-13-fährt-zwi­schen-Hemmingen-und-Fa­sa­nen­krug",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-12",
+   "text": "The infra brochure describes the Hemmingen park-and-ride as 170 car spaces, five of them extra large for wheelchair users, with initially seven spaces equipped for electric-vehicle charging. The site can later be extended eastwards to the Maschgraben stream, and the land has already been bought.",
+   "source_title": "infra / Region Hannover - Die Stadtbahn kommt ... nach Hemmingen! (brochure, issued ahead of the December 2023 start)",
+   "source_url": "https://www.hannover.de/content/download/953569/file/INFRA-Dokumentation-Linie13.pdf",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2023-12",
+   "text": "The park-and-ride and bike-and-ride at Hemmingen belong to the infra Infrastrukturgesellschaft Region Hannover, a subsidiary of the VVG holding of the city and Region of Hannover; the state of Lower Saxony paid 1.3 million euros towards the P+R, B+R and bus interchange facilities. The infra brochure also lists 244 bike spaces at the terminus, 132 of them covered.",
+   "source_title": "infra - Die Stadtbahn kommt nach Hemmingen (brochure, 9 December 2023)",
+   "source_url": "https://www.hannover.de/content/download/953569/file/INFRA-Dokumentation-Linie13.pdf",
+   "confidence": "high",
+   "id": 7,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2023-11-09",
+   "text": "At the opening the infra reported about 9,200 residents and 5,300 jobs in the catchment of the six new stops. The mayor called the line, together with the B 3 bypass, the biggest infrastructure project ever realised in the town.",
+   "source_title": "Region Hannover - Die Stadtbahn erreicht Hemmingen",
+   "source_url": "https://www.hannover.de/Leben-in-der-Region-Hannover/Verwaltungen-Kommunen/Die-Verwaltung-der-Region-Hannover/Pressebereich-Region-Hannover/Archiv-Pressemitteilungen/2023/Die-Stadtbahn-erreicht-Hemmingen",
+   "confidence": "high",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-11-07",
+   "text": "The town reports that planning for a further Stadtbahn extension to Arnum was stepped up by the infra, with an information event for about 200 people on 7 November 2022. The infra presentation foresaw two new stops (Hoher Holzweg Süd and Bockstraße) and, as a plan, a council principle decision in spring 2023, start of the planning-approval procedure in early 2024 and a funding application in 2024; it requires a benefit-cost ratio above 1 for state and federal funding.",
+   "source_title": "Stadt Hemmingen - Stadtbahnverlängerung nach Arnum (with infra presentation of 7 November 2022)",
+   "source_url": "https://www.stadthemmingen.de/standort/verkehr/stadtbahnverlaengerung-arnum/",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-03-18",
+   "text": "A Hannover.de article about the new Badenstedt park-and-ride (published 18 March 2024, updated 10 April 2024) quotes infra authorised officer (Prokurist) Martin Vey, who said the park-and-ride at the Hemmingen terminus of line 13, with 170 car spaces, is often fully booked, which he took as proof that park-and-ride gets a good response. The statement is a passing remark in an article about a different location and gives no occupancy figures.",
+   "source_title": "Hannover.de - Neue Park&Ride-Anlage in Badenstedt (18 March 2024)",
+   "source_url": "https://www.hannover.de/Service/Presse-Medien/Hannover.de/Aktuelles/Service-2024/Neue-Park-Ride-Anlage-in-Baden%C2%ADstedt",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The infra says its park-and-ride sites in the Stadtbahn network are free of charge but reserved for GVH public-transport passengers; the maximum stay is 22 hours (with a night parking ban from 02:00 to 04:00 Monday to Friday), and a contractual penalty of 50 euros per day applies to misuse, up to 500 euros for overstaying. The service company GSG German Service Group checks compliance. The page was read on 21 October 2026.",
+   "source_title": "infra - Park+Ride (page read 21 October 2026)",
+   "source_url": "https://www.infra-hannover.de/park-and-ride-hannover/",
+   "confidence": "high",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The infra's park-and-ride list gives Hemmingen (Göttinger Landstraße, access via the B 3) 170 car spaces and bike-and-ride, with line 13 towards Fasanenkrug and buses 360, 365, 366, 367 and N31. The network has 20 park-and-ride sites with more than 2,000 spaces in total; the page was read on 21 October 2026.",
+   "source_title": "infra - Park+Ride (page read 21 October 2026)",
+   "source_url": "https://www.infra-hannover.de/park-and-ride-hannover/",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-06-10",
+   "text": "On 10 June 2026 the infra released a new covered bike-and-ride facility at the Hemmingen terminus for use (about 400 square metres, just under 600,000 euros of which about 250,000 euros subsidies). Initially only the open, non-lockable part was released, with room for about 140 bicycles at racks that are mostly usable on both sides, including some racks for cargo bikes; the lockable section was still to follow, and the Region Hannover is to operate the facility. It was built where simple bike racks had stood since the line opened at the end of 2023.",
+   "source_title": "Hannover.de - Neue überdachte Bike-and-Ride-Anlage am Stadtbahnendpunkt Hemmingen",
+   "source_url": "https://www.hannover.de/Service/Presse-Medien/Hannover.de/Aktuelles/Service-2026/Neue-über­dach­te-Bike-and-Ride-An­lage-am-Stadt­bahn­end­punkt-Hem­min­gen",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "partly"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-08-28",
+   "text": "On 28 August 2026 the Region Hannover said the lockable part of the Hemmingen bike-and-ride is open, with 75 lockable spaces (2 for cargo bikes) and 215 bike spaces in total. Use is free; access needs a one-time registration at umsteigen-aufsteigen.de, and the release calls this the last building block of the Stadtbahn extension project.",
+   "source_title": "Region Hannover - 75 neue Stellplätze für Bike-and-Ride-Anlage in Hemmingen",
+   "source_url": "https://www.hannover.de/Leben-in-der-Region-Hannover/Verwaltungen-Kommunen/Die-Verwaltung-der-Region-Hannover/Pressebereich-Region-Hannover/Aktuelle-Pressemitteilungen/75-neue-Stellplätze-für-Bike-and-Ride-Anlage-in-Hemmingen",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The town's cycling page says the council adopted a cycling concept on 30 April 2015, aiming to lift the cycling share from 12 percent (2011) to at least 18 percent by 2025; Hemmingen was certified bicycle-friendly in 2019 and re-certified in 2024. The page was read on 21 October 2026.",
+   "source_title": "Stadt Hemmingen - Radverkehr in Hemmingen",
+   "source_url": "https://www.stadthemmingen.de/standort/verkehr/radverkehr/",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "supported"
+  }
+ ],
+ "gaps": [
+  "No Hemmingen parking-fee statute, Parkscheibe zone list, resident-parking zone or Stellplatzsatzung was found; the town's Satzungen list was read but a town-level paid-parking regime could not be confirmed or ruled out.",
+  "Council and committee papers (Rat, Verkehrsausschuss) could not be read: https://ratsinfo.stadthemmingen.de/public/ returned a bot-protection check page ('Zugriff pruefen'), which was not bypassed.",
+  "Current status (2025-2026) of the Stadtbahn extension to Arnum was not found; only the 2022 infra presentation, the town page and a citizens' petition were read.",
+  "No current (2025-2026) official utilisation figure for the Hemmingen P+R; only the infra statement of March 2024 that it is often full.",
+  "Public EV charging in Hemmingen: only the 2018 plan and the infra statement of seven equipped spaces at the P+R were found; the actual current number of public charge points was not verified (listing portals such as Electromaps were not used).",
+  "Search snippets or searches for local press (HAZ, Neue Presse, Hemmingen newspapers) on parking, Anwohner complaints or commuter parking in side streets returned nothing relevant for Hemmingen in Lower Saxony.",
+  "Region Hannover Nahverkehrsplan / Verkehrsentwicklungsplan pages on P+R policy were not read in a way that yielded Hemmingen-specific facts; GVH/Üstra pages for P+R were not available (gvh.de/p-r returned 404).",
+  "The line 13 start date differs between sources (infra brochure 9 December 2023, Region Hannover release 10 December 2023); the 10 December timetable change is used.",
+  "Note: the Hemmingen town website is stadthemmingen.de; hemmingen.de belongs to Hemmingen in Baden-Wuerttemberg and was not used."
+ ],
+ "dropped": {
+  "low confidence": 2
+ }
+}

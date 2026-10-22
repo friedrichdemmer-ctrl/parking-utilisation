@@ -1,0 +1,182 @@
+{
+ "country": "Germany",
+ "city": "Lehrte",
+ "researched": "2026-10-21",
+ "verified": "2026-10-22",
+ "summary": "Lehrte's central parking is organised around the station. The DB page for Lehrte station (read 22 October 2026) lists a covered car park on Poststrasse with 354 spaces and a paid tariff (1 euro for 2 hours, 12 euros for 24 hours), while the Region Hannover portal lists a Lehrte (Bahnhofstrasse) park-and-ride as free with 305 car spaces and 518 bicycle spaces; the two listings conflict and may not describe the same facility. A 2014 development plan of the town-owned Parkhausgesellschaft Lehrte described a six-level garage with 355 spaces, 233 of them park-and-ride. The Parkhausgesellschaft took over the public EV charging network from Stadtwerke effective 1 January 2026 and now operates 23 charging locations, according to a local newspaper. At Haemelerwald the DB page lists three lots (52, 113 and 84 spaces) while the Region portal lists 157 free spaces at Sternstrasse; a 2017 article reported 117 added spaces opened by the Region (265 spaces besides the north-side lot, about 716,000 euros). In August 2026 the administration proposed to dedicate the Sternstrasse park-and-ride as a public parking space; the outcome is unknown. At Ahlten the Region committee approved in November 2024 an extension from 55 to 116 spaces, with construction planned to start in autumn 2026; the current status was not confirmed, and a 2023 BUND count (an advocacy group's own count) found the lot never full. The council adopted a master plan for Bahnhofstrasse and the Rathausviertel on 1 July 2026; the city page does not describe its parking content, while a September 2025 article, written before adoption, said a new station building and a central district garage were planned. In May 2026 the city announced plans for bicycle streets and a parking survey in the quarter south of the station; no results were found. A parking-disc rule at the Zuckerzentrum dates from 2017, and a 2017 SPD statement on fees (first hour free, 1 euro per further hour) is a party claim of unknown current validity. Current on-street tariffs, resident parking and parking-disc zones were not found in readable official sources.",
+ "items": [
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "On the DB 'Parken' page for Lehrte station (read 21 October 2026), the Poststraße car park (covered) is listed with 354 spaces, open 24 hours every day, paid at a pay machine; the extract shows 1.00 euro for 2 hours and 12.00 euros for 24 hours.",
+   "source_title": "Parken – Bahnhof Lehrte (bahnhof.de)",
+   "source_url": "https://www.bahnhof.de/lehrte/parkplaetze",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The DB page for Hämelerwald station (read 21 October 2026) lists three open park-and-ride lots in Hämelerwald: Hubertusstraße 2 (52 spaces), Sternstraße (113) and Heinrich-Kobbe-Straße (84), all open 24 hours; no tariff is shown on the page.",
+   "source_title": "Parken – Bahnhof Hämelerwald (bahnhof.de)",
+   "source_url": "https://www.bahnhof.de/haemelerwald/parkplaetze",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2014-09",
+   "text": "The 2014 development plan (Stand 24 September 2014; developer Parkhausgesellschaft Lehrte) for the planned multi-storey 'Parkhaus' in Lehrte's town centre described six levels with 355 car spaces: 233 park-and-ride, 45 rented and 77 short-stay spaces without time limit, a fully automatic barrier system using magnetic or chip cards, and 43 bicycle spaces on the ground floor. This is a plan document from 2014, not a current inventory.",
+   "source_title": "Vorhaben- und Erschließungsplan zum vorhabenbezogenen Bebauungsplan Nr. 00/108 'Parkhaus' (Stadt Lehrte)",
+   "source_url": "https://hosting.ipsyscon.de/dokumente_lehrte/00_108/Urschrift/00_108_Urkunde.pdf",
+   "confidence": "medium",
+   "id": 2,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-07-01",
+   "text": "The Lehrte council adopted a master plan 'Bahnhofstrasse und Rathausviertel' on 1 July 2026 (city page), developed with bb22 architekten + stadtplaner of Frankfurt after an urban-design competition launched by the council on 15 March 2023. The competition area is about 4.4 ha south of Lehrte station along Bahnhofstrasse to the town hall, plus the area west of the town hall.",
+   "source_title": "Bahnhofstraße / Rathausviertel (Stadt Lehrte)",
+   "source_url": "https://www.lehrte.de/staedtebau-und-verkehr/stadtentwicklung/bahnhofstrasse-rathausviertel/",
+   "confidence": "medium",
+   "id": 3,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The city's Verkehrsentwicklungsplan page (read 21 October 2026) lists sub-topics: barrier-free bus stops, 'Ringverkehr Ahltener Strasse', a near-mobility concept for Haemelerwald (the city took part in a Mobilnetzwerk Hannover offer), school-route plans, a 2023 pedestrian check, a cycling concept, Stadtradeln and 'Radschnellweg Hannover - Burgdorf'. The page gives only headings and short teasers and says nothing about parking.",
+   "source_title": "Verkehrsentwicklungsplan (Stadt Lehrte)",
+   "source_url": "https://www.lehrte.de/staedtebau-und-verkehr/verkehr/verkehrsentwicklungsplan/",
+   "confidence": "medium",
+   "id": 4,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-10",
+   "text": "The city's bicycle-parking page (read 21 October 2026) says lockable bicycle shelters (Fahrradgaragen) are available at some stations in the town area, and, under the heading '1000-Buegel-Programm', that the city relies on the support of the Region Hannover to make cycling more attractive.",
+   "source_title": "Fahrradparken (Stadt Lehrte)",
+   "source_url": "https://www.lehrte.de/staedtebau-und-verkehr/verkehr/fahrradparken/",
+   "confidence": "medium",
+   "id": 5,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The Region Hannover traffic-management page for the Hämelerwald (Nähe A2) park-and-ride, Sternstraße (read 21 October 2026), lists 157 spaces (153 car, 2 for reduced mobility, 2 with e-charging), free of charge, with 202 bike-and-ride spaces including lockable bicycle garages, and RE60/RE70 regional trains and bus connections. This differs from the three lots on the DB page (52+113+84), so the sources define the site differently.",
+   "source_title": "Region Hannover Park + Ride: Hämelerwald (Nähe A2) (VMZ Niedersachsen)",
+   "source_url": "https://www.vmz-niedersachsen.de/region-hannover/park-und-ride/haemelerwald-naehe-a2/",
+   "confidence": "medium",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The Region Hannover Park+Ride portal (VMZ Niedersachsen, read 21 October 2026) lists the Lehrte (Bahnhofstrasse) park-and-ride as free of charge, with 305 car spaces, 518 bike-and-ride spaces, lockable bicycle garages and a travel centre. The portal's separate pages list Ahlten with 54 car spaces and 200 bike spaces, and Immensen-Arpke with 91 car spaces and 221 bike spaces. The DB page for the Poststrasse car park shows a paid tariff; the two listings may not describe the same facility.",
+   "source_title": "Region Hannover Park + Ride: Lehrte (Nähe B443) (VMZ Niedersachsen)",
+   "source_url": "https://www.vmz-niedersachsen.de/region-hannover/park-und-ride/lehrte-naehe-b443/",
+   "confidence": "medium",
+   "id": 7,
+   "checked": "partly"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10-16",
+   "text": "The municipal Lehrter Parkhausgesellschaft mbH took over the public charging network from the Stadtwerke Lehrte (legally effective 1 January 2026); with a new charger at Bahnhofstraße 7 it operates 23 locations in the town centre and districts, with up to 50 vehicles charging at once, mostly two 22 kW points per post.",
+   "source_title": "Parkhausgesellschaft übernimmt öffentliche Ladesäulen (AltkreisBlitz)",
+   "source_url": "https://www.altkreisblitz.de/2026/10/16/parkhausgesellschaft-uebernimmt-oeffentliche-ladesaeulen/",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10-16",
+   "text": "The first public charging points in Lehrte opened in 2019 at the town's shopping-centre car park; in 2026 new sites followed at the LSV sports park (Everner Straße) and at the Amtsgericht (Schlesische Straße). Charging is paid at each provider's own prices and the newest posts accept bank-card payment.",
+   "source_title": "Parkhausgesellschaft übernimmt öffentliche Ladesäulen (AltkreisBlitz)",
+   "source_url": "https://www.altkreisblitz.de/2026/10/16/parkhausgesellschaft-uebernimmt-oeffentliche-ladesaeulen/",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-08-21",
+   "text": "In August 2026 a local news report said the administration had submitted a proposal (Beschlussvorlage) to the city's Ortsrat Haemelerwald and committees to dedicate the park-and-ride site at Sternstrasse, Haemelerwald (two parcels) as a public parking space under the Lower Saxony Road Act. Reason given: cars without number plates were being left there, and the waste company Aha does not remove them from undedicated land. One parcel belongs to the Region Hannover, which according to the article consented in writing in June 2026. This was a proposal at the time of the article; the outcome was not found.",
+   "source_title": "Parkplatz in Hämelerwald soll gewidmet werden (AltkreisBlitz)",
+   "source_url": "https://www.altkreisblitz.de/2026/08/21/parkplatz-in-haemelerwald-soll-gewidmet-werden/",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2017-02-01",
+   "text": "On 1 February 2017 the Region Hannover and the town of Lehrte officially opened 117 additional car spaces on the south side of Haemelerwald station. According to the article this gave a total of 265 spaces in addition to the existing north-side car park, plus 172 mostly covered bicycle hoops (48 in a lockable garage). The cost was about 716,000 euros including a noise fence, of which the state of Lower Saxony paid 445,000 euros; the town of Lehrte took over maintenance and traffic safety. The Region's transport chief said outsiders parking in the surroundings had prompted it to create new capacity. This is 2017 history, not a current inventory.",
+   "source_title": "Erweiterung der Park+Ride-Anlage am Bahnhof Hämelerwald offiziell eröffnet (AltkreisBlitz)",
+   "source_url": "https://www.altkreisblitz.de/2017/02/01/erweiterung-der-park-ride-anlage-am-bahnhof-haemelerwald-offiziell-eroeffnet/",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-11-14",
+   "text": "In November 2024 the Region Hannover committee approved extending the park-and-ride at Ahlten station (a district of Lehrte) from 55 to 116 car spaces in a first phase, with 28 more possible later; construction was planned for autumn 2026 and completion in 2027 after a lizard relocation. This was a plan as of the article; its current status was not confirmed.",
+   "source_title": "Park-and-Ride-Anlage am Bahnhof Ahlten kann erweitert werden (Sehnde-News)",
+   "source_url": "https://www.sehnde-news.de/stadt_lehrte/park-and-ride-anlage-am-bahnhof-ahlten-kann-erweitert-werden/",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2017-03-07",
+   "text": "From 7 to 8 March 2017 the city installed signs to bring back the parking-disc rule at the car park of the Zuckerzentrum in Lehrte, following an agreement between the city, the E-Center (for local businesses) and the landowner. The rule: parking with a disc for up to three hours, Monday to Saturday 7 a.m. to 9 p.m., with fines for violations. It followed complaints that long-term parkers blocked customer spaces. This is a 2017 rule; its current status was not checked.",
+   "source_title": "2017-03",
+   "source_url": "https://www.altkreisblitz.de/2017/03/07/parkscheibenregelung-am-zuckerzentrum-tritt-in-kraftschilder-werden-installiert/",
+   "confidence": "medium",
+   "id": 13,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-09-10",
+   "text": "The master plan for Bahnhofstraße and Rathausviertel, as described in September 2025 (before adoption), envisaged new buildings along Bahnhofstraße, a new station building with travel centre, and a central 'Quartiersgarage'; residents were invited to an information event on 24 September 2025.",
+   "source_title": "Stadt Lehrte lädt zur Infoveranstaltung zum Masterplan (AltkreisBlitz)",
+   "source_url": "https://www.altkreisblitz.de/2025/09/10/stadt-lehrte-laedt-zur-infoveranstaltung-zum-masterplan-bahnhofstrasse-und-rathausviertel/",
+   "confidence": "medium",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-05-26",
+   "text": "In May 2026 the city of Lehrte announced plans for bicycle streets in the core town (Feldstrasse north of Ahltener Strasse and the Lehrte-Hannover Veloroute), based on the traffic development plan the council adopted in July 2021, and a citizens' dialogue on 25 June 2026. The article also said a comprehensive parking survey would be carried out in early June 2026 in the quarter between Bahnhofstrasse, Suedring, Westring and Berliner Allee, as a basis for further planning. Results of the survey were not found.",
+   "source_title": "Stadt Lehrte plant Fahrradstraßen und lädt zum Dialog ein (AltkreisBlitz)",
+   "source_url": "https://www.altkreisblitz.de/2026/05/26/stadt-lehrte-plant-fahrradstrassen-und-laedt-zum-dialog-ein/",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "Stellplatzsatzung (24 April 2024) text and justification PDFs on lehrte.de (/datei/anzeigen/id/57382,1275/... and id/57383,1275/...) returned 404 when opened; contents not used.",
+  "Lehrte VEP progress article PDF (lehrte.de/de/datei/download/id/58575,1275/241015_vep_1.fortsch_artikel_homepage.pdf) returned 404.",
+  "Competition brochure PDF on lehrte.de (/datei/anzeigen/id/43038,1275/wettbewerb_brosch...) returned 404.",
+  "Current Lehrte on-street parking fee schedule (Parkgebührenordnung), parking-disc zones and any resident parking: no readable official page found.",
+  "Council information system (ratsinfo) of Lehrte could not be reached/searched; no council papers on parking tariffs read.",
+  "No GVH/S-Bahn tariff or service-frequency page was opened (the Region portal only lists RE30/RE60/RE70 and S3/S7 departures at Lehrte and Ahlten); capacity figures for Hämelerwald (DB 249 in three lots; Region portal 157; 2017 article 265) and Lehrte (DB 354 paid; Region portal 305 free; 2014 plan 355) conflict and could not be reconciled.",
+  "Current tariffs of the Parkhausgesellschaft garage (e.g. monthly P+R pass, daily maximum) were not found in an official source; only listing portals show them and were not used.",
+  "parkinglist.de and Parkopedia were not used (listing portals; parkinglist returned 403)."
+ ],
+ "dropped": {
+  "low confidence": 2
+ }
+}

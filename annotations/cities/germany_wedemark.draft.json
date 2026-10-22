@@ -1,0 +1,138 @@
+{
+ "country": "Germany",
+ "city": "Wedemark",
+ "researched": "2026-10-21",
+ "summary": "Wedemark (Region Hannover, about 17 districts with the administrative seat in Mellendorf) is a commuter municipality whose organised parking is dominated by the free park-and-ride sites at its S4 stations: Bennemühlen (182 spaces per Deutsche Bahn) and Bissendorf (67 spaces), both open around the clock; Hannover.de states that all P+R sites in the GVH area are free. I found no official source on paid on-street parking, parking-disc zones or a parking-space statute in the municipality, so the town centre rules remain undocumented here. Recent developments are mainly around rail access: new covered bike-and-ride facilities with 158 bicycle spaces opened at Bissendorf and Bennemühlen in September 2026 (about 550,000 euros), floor sensors at the Bennemühlen P+R were replaced in April 2026, and the S4 suffered a complete outage in January 2026 before a replacement service was arranged. Wider policy is shaped by the Region Hannover's SUMP process (workshop in Bissendorf on 28 October 2026), the on-demand sprinti bus (highly used per capita), 14 public EV charging points operated by enercity since 2023, a stadtmobil car-sharing car at the Mellendorf town hall and a parklet on former parking space.",
+ "items": [
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The Deutsche Bahn station page for Bennemühlen (read 21 October 2026) lists the open P+R Bennemühlen at Am Bahnhof, 30900 Wedemark, with 182 spaces in total and opening hours of 00:00-24:00 every day including public holidays. It does not state a fee.",
+   "source_title": "Parken - S-Bahnhof Bennemühlen (bahnhof.de)",
+   "source_url": "https://www.bahnhof.de/bennemuehlen/parkplaetze",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-04-17",
+   "text": "On 27 and 28 April 2026 specialist firms replaced floor sensors on part of the Bennemühlen P+R facility, so several bays were blocked for two days; the municipality advised commuters to use other parking. The notice says all spaces would be available again afterwards.",
+   "source_title": "Technik wird erneuert: Einschränkungen am Bahnhof Bennemühlen (Gemeinde Wedemark)",
+   "source_url": "https://www.wedemark.de/portal/meldungen/technik-wird-erneuert-einschraenkungen-am-bahnhof-bennemuehlen-918006503-20051.html?rubrik=918000047",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-09-15",
+   "text": "On 15 September 2026 the Region Hannover and the mayor opened new covered, partly lockable bike-and-ride facilities at Bissendorf and Bennemühlen stations with 158 bicycle spaces in total. The two facilities cost about 550,000 euros (Land Niedersachsen about 40 percent, Region Hannover 60 percent), and free spaces can be booked via the Region's app 'Umsteigen: Aufsteigen'.",
+   "source_title": "Neue Bike-and-Ride-Anlagen machen den Weg zur S-Bahn komfortabler und sicherer (Gemeinde Wedemark)",
+   "source_url": "https://www.wedemark.de/portal/meldungen/neue-bike-and-ride-anlagen-machen-den-weg-zur-s-bahn-komfortabler-und-sicherer-918006685-20051.html?rubrik=918000047",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-08-12",
+   "text": "The Region Hannover is preparing a Sustainable Urban Mobility Plan (SUMP) that bundles existing goals such as the VEP 2035+ 'Aktionsprogramm Verkehrswende'. A second expert workshop with first interim results and scenario calculations was announced for 28 October 2026 in the Bürgerhaus Bissendorf (Wedemark).",
+   "source_title": "Mobilität der Zukunft auf den Prüfstand: SUMP-Fachworkshop (Gemeinde Wedemark)",
+   "source_url": "https://www.wedemark.de/portal/meldungen/mobilitaet-der-zukunft-auf-den-pruefstand-sump-fachworkshop-918006640-20051.html?rubrik=918000047",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2026-01-13",
+   "text": "In January 2026 the S4 line serving Bennemühlen, Mellendorf and Bissendorf failed completely; operator Transdev then hired an external rail company, with an hourly service from that Thursday and a half-hourly service announced from 19 January. The mayor called for a review of how S-Bahn operations are organised, which matters for rail-linked commuter parking.",
+   "source_title": "Druck aus Region bringt S4 zurück auf die Schiene (Gemeinde Wedemark)",
+   "source_url": "https://www.wedemark.de/portal/meldungen/druck-aus-region-bringt-s4-zurueck-auf-die-schiene-918006376-20051.html?rubrik=918000047",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2023-06",
+   "text": "In June 2023 the first of 14 public EV charging points were opened at the town hall in Mellendorf; enercity builds and operates them at seven sites (Bissendorf, Brelingen, Elze, Mellendorf x3, Resse). The other points were to follow in summer 2023.",
+   "source_title": "Erste öffentliche Ladesäule für E-Autos eingeweiht (Gemeinde Wedemark)",
+   "source_url": "https://www.wedemark.de/portal/seiten/erste-oeffentliche-ladesaeule-fuer-e-autos-eingeweiht-918001735-20051.html",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2020-09",
+   "text": "The municipal project 'Mobilität Energie Wedemark' (MoEWe), running since September 2020, covers expansion of public charging infrastructure, alternative mobility forms and an energy balance for the municipality (page undated, read 21 October 2026).",
+   "source_title": "Mobilität Energie Wedemark - MoEWe (Gemeinde Wedemark)",
+   "source_url": "https://www.wedemark.de/portal/seiten/mobilitaet-energie-wedemark-moewe-918001024-20051.html",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The municipality's transport page (read 21 October 2026) says S-Bahn services run from Bennemühlen, Mellendorf and Bissendorf to Hannover every 30 minutes, and the on-demand 'sprinti' buses (GVH) have supplemented local transport since June 2021 with a near 15-minute service to all districts.",
+   "source_title": "Standort Wedemark (Gemeinde Wedemark)",
+   "source_url": "https://www.wedemark.de/gemeinde/verkehr/verkehrsanbindungen/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "Hannover.de (page undated, read 21 October 2026) states that all park-and-ride facilities in the GVH area are free to use and open around the clock, with roughly 6,100 car spaces in total. The ÜSTRA page (read 21 October 2026) likewise says its roughly 6,000 P+R spaces can be used free of charge.",
+   "source_title": "Parken (Hannover.de, Region Hannover) and Park & Ride / Bike & Ride (ÜSTRA)",
+   "source_url": "https://www.hannover.de/Service/Mobil-in-Hannover/Parken",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The Deutsche Bahn station page for Bissendorf (read 21 October 2026) lists the open P+R Bissendorf Bahnhof at Im Tannengrund, Wedemark, with 67 spaces in total, open 00:00-24:00 daily including holidays.",
+   "source_title": "Parken - S-Bahnhof Bissendorf (bahnhof.de)",
+   "source_url": "https://www.bahnhof.de/bissendorf/parkplaetze",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-06-25",
+   "text": "By June 2025 the on-demand bus sprinti had logged more than 236,000 trips in Wedemark since May 2024, the highest per-capita use of any municipality in the Region Hannover. On average 4,400 people board per day, many in Mellendorf, Bissendorf and Elze, and the service is included in the normal transit fare.",
+   "source_title": "Wedemärkerinnen und Wedemärker fahren am häufigsten sprinti (Gemeinde Wedemark)",
+   "source_url": "https://www.wedemark.de/portal/meldungen/wedemaerkerinnen-und-wedemaerker-fahren-am-haeufigsten-sprinti-918006095-20051.html?rubrik=918000047",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-06-25",
+   "text": "A stadtmobil car-sharing vehicle stands at the Mellendorf town hall; from 1 July to 31 August 2025 it was bookable all day by residents, whereas it is normally reserved for municipal staff during office hours.",
+   "source_title": "Sommerferien: CarSharing-Fahrzeug in Mellendorf ganztägig buchbar (Gemeinde Wedemark)",
+   "source_url": "https://www.wedemark.de/portal/meldungen/sommerferien-carsharing-fahrzeug-in-mellendorf-ganztaegig-buchbar-918006094-20051.html?rubrik=918000046",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-12-13",
+   "text": "The Region Hannover ran an online participation for its new Nahverkehrsplan (local transport plan) until 15 January 2025, with a map on which residents could propose new lines, stations or stops. The notice was published by the municipality; the plan itself concerns the whole Region.",
+   "source_title": "Online-Beteiligungsverfahren zum neuen Nahverkehrsplan (Gemeinde Wedemark)",
+   "source_url": "https://www.wedemark.de/portal/meldungen/online-beteiligungsverfahren-zum-neuen-nahverkehrsplan-918005861-20051.html?rubrik=918000047",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-04-19",
+   "text": "In April 2023 the first parklet in Wedemark opened at Hellendorfer Kirchweg / Berliner Straße in Mellendorf, built on former parking space; the Region Hannover paid 12,000 euros and the municipality maintains it.",
+   "source_title": "Erstes Parklet in der Wedemark eingeweiht (Gemeinde Wedemark)",
+   "source_url": "https://www.wedemark.de/portal/meldungen/erstes-parklet-in-der-wedemark-eingeweiht-918005213-20051.html?rubrik=918000046",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2017-04-06",
+   "text": "On 3 April 2017 the municipality's Verwaltungsausschuss unanimously commissioned a comprehensive traffic concept (Verkehrskonzept) for Wedemark, with a planning firm to carry out traffic studies and results to be presented publicly before the summer holidays 2017. The notice does not mention parking measures.",
+   "source_title": "Verkehrskonzept einstimmig beschlossen (Gemeinde Wedemark)",
+   "source_url": "https://www.wedemark.de/portal/meldungen/verkehrskonzept-einstimmig-beschlossen-918002537-20051.html?rubrik=918000011",
+   "confidence": "high"
+  }
+ ],
+ "gaps": [
+  "No official source found on paid on-street parking, parking-disc zones, residents' parking or parking fees in Wedemark's centres (Mellendorf, Bissendorf, Resse); only an unofficial traveller comment mentioned a 3-hour disc limit in Mellendorf, which was not used.",
+  "No Stellplatzsatzung or council/committee decision on parking found: the council information system https://www.wedemark.sitzung-online.de/public/vo040 has a full-text search that did not respond to queries in the browser, and the Ortsrecht folder pages (https://www.wedemark.de/gemeinde/rathaus-und-verwaltung/ortsrecht/) did not expand to document lists.",
+  "The 2017 Verkehrskonzept results and any later traffic concept outcomes, including any parking recommendations, were not found.",
+  "No statement on utilisation or plans to expand the Bennemühlen or Bissendorf P+R found; no Region Hannover or GVH page specific to Bennemühlen opened (https://www.gvh.de/service/rad-auto-carsharing/park-ride-bike-ride/ redirected to the ÜSTRA page, which has only a general list).",
+  "No Mellendorf station parking page on bahnhof.de (https://www.bahnhof.de/mellendorf/parkplaetze returned 'not found'); station-area redevelopment plans not found.",
+  "Fee/time-limit details of the P+R sites: only parking-listing portals mention a 2-hour limit, which conflicts with Hannover.de's 'free, open round the clock'; those portals were not used.",
+  "Regional press (HAZ, Wedemark-related) was not opened; WebSearch returned no usable local press on parking.",
+  "EV charging: only the 2023 enercity rollout (14 points) was sourced; current number of points and any charging at the P+R sites were not found."
+ ]
+}

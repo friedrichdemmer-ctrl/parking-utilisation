@@ -1,0 +1,195 @@
+{
+ "country": "Germany",
+ "city": "Neustadt a. Rbge",
+ "researched": "2026-10-21",
+ "verified": "2026-10-22",
+ "summary": "Neustadt am Rübenberge sets paid parking by city ordinance. A new fee ordinance was decided by the council on 19 June 2025 and printed in the Region Hannover gazette on 11 December 2025, taking effect on the 14th day after promulgation: 1.20 euros per hour or 2.40 euros for 2.5 hours, with the first half hour free. The city's parking page (read on 21 October 2026) says about 750 managed spaces in the centre are charged Monday to Friday 9-17 and Saturday 9-13; a 2021 city statement counted about 400 managed spaces. Charging started on the Schützenplatz and the Kleiner Brink lot in Mardorf on 17 October 2024, and the Schützenplatz is now listed as free after a council paper said it was barely used and drivers moved to free streets and the west side of the station. The city lists ten numbered car parks of 18 to 110 spaces, the Wallgraben garage (270 spaces, owned by Wirtschaftsbetriebe Neustadt), the privately run Neustadttor garage (110) and the town-hall garage, which the city announced would open in September 2024 (54 public plus 6 EV spaces at that announcement; the city page now says 80). Cars with an e-plate park free for up to 2.5 hours while charging at a charging post until the Electromobility Act expires at the end of 2026, but the city page still carries a notice that e-car drivers must pay, which may be outdated. Phone parking was announced for 1 February 2021. A fast-charging park by E.ON was reported opened in May 2026. DB lists three P+R entries on An der Eisenbahn with 73, 55 and 75 spaces; council papers since 2019 and the 2020 draft regional transport plan mention P+R demand at the station, and a December 2024 consultant slide set recommends paving the P+R, but no expansion project was found and no usage figures exist.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2025-12-11",
+   "text": "The parking fee ordinance (Parkgebührenordnung), resolved by the council on 19 June 2025, was printed in the Region Hannover gazette provided on 11 December 2025 and takes effect on the 14th day after promulgation. It sets 1.20 euros for one hour and 2.40 euros for 2.5 hours at the town's time-controlled parking places, with the first half hour free, and repeals the ordinance of 24 September 2024.",
+   "source_title": "Amtsblatt für die Region Hannover Nr. 24/2025, p. 463: Parkgebührenordnung Stadt Neustadt a. Rbge.",
+   "source_url": "https://bekanntmachungen.region-hannover.de/content/download/1055620/file/ElenA-24_11.12.2025_signed.pdf",
+   "confidence": "high",
+   "id": 0,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-12-11",
+   "text": "The same ordinance lets cars with an electric-vehicle plate park free of charge for up to 2.5 hours (parking disc) while charging at a charging post. The exemption ends on 31 December 2026 when the national Electromobility Act expires, and the town-hall underground garage is excluded.",
+   "source_title": "Amtsblatt für die Region Hannover Nr. 24/2025, p. 463: Parkgebührenordnung Stadt Neustadt a. Rbge.",
+   "source_url": "https://bekanntmachungen.region-hannover.de/content/download/1055620/file/ElenA-24_11.12.2025_signed.pdf",
+   "confidence": "high",
+   "id": 1,
+   "checked": "supported"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-05-27",
+   "text": "A council paper (2025/062) said the lot Am Schützenplatz, charged since the 2024 budget-stabilisation package, was hardly used after half a year. Drivers moved to free residential streets, the Leinepark event-centre lot and the west side of the station, and the free spaces on Suttorfer Straße and at Leinepark were reported to be at their limit during the day.",
+   "source_title": "Beschlussvorlage 2025/062 Neufassung der Parkgebührenordnung, Stadt Neustadt a. Rbge.",
+   "source_url": "https://sessionnet-oparl.krz.de/Oparl/bodies/5374/downloadfiles/a/00355625.pdf",
+   "confidence": "high",
+   "id": 2,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-04-03",
+   "text": "In April 2025 the mayor announced he would propose making the Schützenplatz free again, after charging there since October 2024 failed to shift parking demand. He also proposed free parking with a disc for electric cars while they charge at public charging posts; both proposals preceded the council decision of June 2025.",
+   "source_title": "Kostenloses Parken auf dem Schützenplatz und beim E-Laden (Stadt Neustadt a. Rbge.)",
+   "source_url": "https://www.neustadt-a-rbge.de/rathaus/pressestelle/presse-archiv/2025/april/kostenloses-parken-auf-dem-schuetzenplatz-und-beim-e-laden/",
+   "confidence": "high",
+   "id": 3,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2024-10-08",
+   "text": "From 17 October 2024 the Schützenplatz in the core town and the Kleiner Brink lot in Mardorf became paid, at 1.20 euros per hour and 2.40 euros for the 2.5-hour maximum, with the half-hour free button kept and a 3 euro day ticket at the Schützenplatz. New ticket machines were also installed at Leinstraße and Wallhof, and older machines were reprogrammed to the new tariff on 18 December 2024.",
+   "source_title": "Zwei Parkplätze werden gebührenpflichtig (Stadt Neustadt a. Rbge.)",
+   "source_url": "https://www.neustadt-a-rbge.de/rathaus/pressestelle/presse-archiv/2024/oktober/zwei-parkplaetze-werden-gebuehrenpflichtig/",
+   "confidence": "high",
+   "id": 4,
+   "checked": "supported"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The city's parking page (read on 21 October 2026) says about 750 managed spaces in the centre cost 1.20 euros per hour, up to 2.5 hours for 2.40 euros, with 30 minutes free via the short-parking button. Charges apply Monday to Friday 9-17 and Saturday 9-13 (around the town hall from 7 on weekdays); the town-hall garage is open daily 6-21, closed Sundays.",
+   "source_title": "Parken (Stadtverwaltung Neustadt am Rübenberge)",
+   "source_url": "https://www.neustadt-a-rbge.de/leben-in-neustadt/mobilitaet-verkehr/mobilitaet/parken/",
+   "confidence": "high",
+   "id": 5,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The city's parking page (read on 21 October 2026) lists 10 numbered car parks of 18 to 110 spaces, for example Am Walle 70, Zwischen den Brücken 69, Mühlenhof 50, town-hall garage 80, Neustadttor garage 110 (privately run, paid) and the Am Wallgraben garage 270 (owned by Wirtschaftsbetriebe Neustadt, permits available). The Schützenplatz (80 spaces) is listed as free.",
+   "source_title": "Parken (Stadtverwaltung Neustadt am Rübenberge)",
+   "source_url": "https://www.neustadt-a-rbge.de/leben-in-neustadt/mobilitaet-verkehr/mobilitaet/parken/",
+   "confidence": "high",
+   "id": 6,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2024-09-13",
+   "text": "On 13 September 2024 the city announced that the underground garage below the new town hall would open to the public on Monday 16 September 2024, with 54 public spaces and 6 spaces for electric vehicles with a charging option. Parking would be free at first with a one-hour limit (parking disc), open Monday to Friday 7-19 until further notice, with paid management planned for later (machines expected that year). A later council paper (2025/062) mentions 12 charging boxes in the garage, which the city has not reconciled with the 6 spaces named here.",
+   "source_title": "Rathaus-Tiefgarage wird freigegeben (Stadt Neustadt a. Rbge.)",
+   "source_url": "https://www.neustadt-a-rbge.de/rathaus/pressestelle/presse-archiv/2024/september/rathaus-tiefgarage-wird-freigegeben/",
+   "confidence": "medium",
+   "id": 8,
+   "checked": "partly"
+  },
+  {
+   "topic": "technology",
+   "date": "2021-01-28",
+   "text": "On 28 January 2021 the city announced that mobile-phone parking payment (app, call or SMS) would be available from Monday 1 February 2021 on about 400 managed parking spaces in the town centre, through the smartparking initiative with seven app providers and in cooperation with the Ideenstadtwerke. The Am Wallgraben garage was excluded because of its barrier system, as was a private lot between the bus station and Wunstorfer Straße. The tariff at that time was 1 euro for up to 2.5 hours and phone users pay a provider service fee.",
+   "source_title": "Parkgebühren: Jetzt digitales Bezahlen möglich (Stadt Neustadt a. Rbge.)",
+   "source_url": "https://www.neustadt-a-rbge.de/rathaus/pressestelle/presse-archiv/2021/januar/parkgebuehren-jetzt-digitales-bezahlen-moeglich/",
+   "confidence": "medium",
+   "id": 9,
+   "checked": "partly"
+  },
+  {
+   "topic": "demand",
+   "date": "2021-10-08",
+   "text": "On 8 October 2021 the city announced that the large car park between the Sparkasse and H&M would close from Sunday 24 October 2021 for the town-hall construction. It said the Wallgraben garage usually had well over 80 free spaces on normal working days and was far from full on Friday market days, and announced that the garage fee would be halved to 1 euro for two hours for the duration of the works.",
+   "source_title": "Rathausbau beginnt - Parkplatz wird gesperrt (Stadt Neustadt a. Rbge.)",
+   "source_url": "https://www.neustadt-a-rbge.de/rathaus/pressestelle/presse-archiv/2021/oktober/rathausbau-beginnt-parkplatz-wird-gesperrt/",
+   "confidence": "medium",
+   "id": 10,
+   "checked": "partly"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The DB station page for Neustadt a. Rübenberge (read on 21 October 2026) lists three open P+R entries at An der Eisenbahn with 73, 55 and 75 spaces, open round the clock. The page does not say whether these are separate lots, and it gives no tariff.",
+   "source_title": "Parken - Bahnhof Neustadt a Rübenberge (bahnhof.de)",
+   "source_url": "https://www.bahnhof.de/neustadt-a-ruebenberge/parkplaetze",
+   "confidence": "medium",
+   "id": 11,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2019-08-19",
+   "text": "A 2019 council proposal (Beschlussvorlage 2019/182, dated 19 August 2019) on mobility goals to 2030 for the town centre listed, as goals to be studied, a P+R parking garage west of the station with further public spaces, an underground garage and surface parking at the new town hall, a new car park at the castle/VHS site, renovating or rebuilding the Wallgraben/Rundeel parking deck, charging stations at public car parks and a review of where and how much parking fee is charged. It noted a long-standing large demand for P+R spaces west of the station and parking lost to building projects; the document does not show how the council voted.",
+   "source_title": "Beschlussvorlage 2019/182 Entwicklungsziele 2030 zur nachhaltigen Mobilität in der Innenstadt",
+   "source_url": "https://sessionnet-oparl.krz.de/Oparl/bodies/5374/downloadfiles/a/00277588.pdf",
+   "confidence": "medium",
+   "id": 12,
+   "checked": "partly"
+  },
+  {
+   "topic": "regulation",
+   "date": "2020-05-04",
+   "text": "A city paper of May 2020 summarised the Region Hannover's draft transport plan 2020: the need to expand P+R at the town's main station was rated high priority, Eilvese medium, and Hagen and Poggenhagen low. This is a draft plan from 2020, not a decision.",
+   "source_title": "Informationsvorlage 2020/077 Nahverkehrsplan 2020 für die Region Hannover",
+   "source_url": "https://sessionnet-oparl.krz.de/Oparl/bodies/5374/downloadfiles/a/00285552.pdf",
+   "confidence": "high",
+   "id": 13,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2024-12-10",
+   "text": "The traffic development plan presented on 10 December 2024 listed parking recommendations: link the Schützenplatz with a new foot and cycle bridge and a shuttle, extend Am Walle possibly with a parking deck, optimise the Wallgraben garage, and pave the P+R and connect it to the centre. The goal was attractive parking at the edge of the core town; these are consultant recommendations, not decisions.",
+   "source_title": "Verkehrsentwicklungsplan - Verkehrliche Grundlagen und Maßnahmenplanung (Büro Zacharias, 10.12.2024)",
+   "source_url": "https://www.neustadt-a-rbge.de/leben-in-neustadt/mobilitaet-verkehr/verkehr/verkehrskonzept/neustadt-rbge-termin-10-12-20-aktuell-dpi.pdf?cid=2bjy",
+   "confidence": "medium",
+   "id": 14,
+   "checked": "supported"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-11-24",
+   "text": "A November 2022 proposal for the Marktstraße Süd area next to the town hall and station planned about 24 temporary surface parking spaces for 2024 and noted a private car park of 24 spaces opposite the town hall. Residents had asked for surface parking close to the shops.",
+   "source_title": "Beschlussvorlage 2022/270 Entwicklungsbereich Marktstraße Süd",
+   "source_url": "https://sessionnet-oparl.krz.de/Oparl/bodies/5374/downloadfiles/a/00317380.pdf",
+   "confidence": "high",
+   "id": 15,
+   "checked": "supported"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-05-14",
+   "text": "E.ON opened a fast-charging park in Neustadt am Rübenberge in May 2026 under the national Deutschlandnetz programme: six stations with twelve charging points of up to 400 kW at Rudolf-Diesel-Ring 30, near the B 6, with 27 kWp of rooftop solar.",
+   "source_title": "E.ON nimmt vier neue Deutschlandnetz-Ladeparks in Niedersachsen in Betrieb (ecomento.de)",
+   "source_url": "https://ecomento.de/2026/05/14/e-on-nimmt-vier-neue-deutschlandnetz-ladeparks-in-niedersachsen-in-betrieb/",
+   "confidence": "medium",
+   "id": 16,
+   "checked": "supported"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-06-30",
+   "text": "Wirtschaftsbetriebe Neustadt am Rübenberge GmbH, wholly owned by the city, directly operates facilities for stationary traffic (parking) along with energy generation and sales, property and swimming-pool and street-lighting activities (Beteiligungsbericht, status 30 June 2026). The report gives no space counts or usage data for parking, but its segment table shows a parking result of 56,578 euros for 2024 and 10,326 euros for 2023.",
+   "source_title": "Beteiligungsbericht der Stadt Neustadt a. Rbge., Stand 30.06.2026",
+   "source_url": "https://www.neustadt-a-rbge.de/rathaus/haushalt-finanzen/staedt-unternehmensbeteiligung/beteiligungsbericht-stand-30.06.2026.pdf?cid=2jrm",
+   "confidence": "medium",
+   "id": 17,
+   "checked": "partly"
+  }
+ ],
+ "gaps": [
+  "No utilisation statistics for the P+R, the Wallgraben garage or other car parks beyond the qualitative 2021 and 2025 city statements.",
+  "No decision found on a P+R garage west of the station (Parkhaus West) or on the Region Hannover project 'Ausbau des Bahnhofsumfeldes'; the ministry funding list that mentions it (https://www.mw.niedersachsen.de/download/73517/OePNV-Foerderprogramm_1.pdf) was only seen in a search result and not opened.",
+  "Whether the 70 extra bays behind the station announced for January 2022 (on the former VHS storage site) were built could not be confirmed; DB lists 73/55/75 spaces but it is unclear whether these are separate lots.",
+  "P+R tariff (free or paid) not stated on the DB page; parkenambahnhof.de, GVH and Region Hannover P+R pages were not opened.",
+  "No Bewohnerparken (resident parking) scheme, Parkscheibenzone list or Stellplatzsatzung found; only a 2017 draft on payments in lieu of parking spaces (Ablösesatzung, https://sessionnet-oparl.krz.de/Oparl/bodies/5374/downloadfiles/a/00243496.pdf) was seen and its adoption is not confirmed.",
+  "Tariff and operator details for the Wallgraben garage and the Neustadttor garage (private operator not named) not found; the garage tariff is not on the city page.",
+  "The city page lists the town-hall garage at 80 spaces while the September 2024 opening notice names 54 public plus 6 electric spaces; the difference is unexplained.",
+  "Region Hannover mobility plans (Nahverkehrsplan 2025/2026 successor) and S2 / regiobus changes not researched in the original documents; only the 2020 draft plan summarised by the city was read.",
+  "Local press (Leine-Zeitung, Neustädter Zeitung, HAZ) not opened; only city press releases were read.",
+  "The undated LEADER interview citing 32 public charging points in the Neustadt region (https://www.neustadt-a-rbge.de/leben-in-neustadt/stadtentwicklung/leader-region-meer-moor/aktuelles-meer-moor/interview-elektromobilitaet.pdf?cid=shv) was not used as an item because its date is unknown; no current count of public charging points was found.",
+  "The Beteiligungsbericht of 30 June 2025 returned 404 (the 2026 edition was used instead); the DB Hagen (Han) and Poggenhagen station pages were not opened."
+ ],
+ "dropped": {
+  "low confidence": 1
+ }
+}

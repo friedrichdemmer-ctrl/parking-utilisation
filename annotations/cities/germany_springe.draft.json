@@ -1,0 +1,161 @@
+{
+ "country": "Germany",
+ "city": "Springe",
+ "researched": "2026-10-21",
+ "summary": "Springe (about 30,000 inhabitants in 12 districts, about 13,000 in the core town) states that it charges no parking fees: seven signed city-centre car parks (P1-P7, including the Parkpalette at Nordwall) are usually free but time-limited to one or two hours under Parkscheibe rules, as the town's parking map of 20 October 2026 and its Stadtmarketing page say. Park-and-ride at Springe station (60 spaces, to lose 73 spaces at the old site to the new central bus station adopted by the council on 25 June 2026) and at Völksen (289 spaces per Deutsche Bahn) is free and open around the clock within the GVH area, and the town lists nine public EV charging posts run by the Stadtwerke. Under budget consolidation, a consultant's report of April 2026 puts introducing parking fees at about 783,000 euros a year excluding park-and-ride, councillors voted it mostly grade 1 in January 2025, and the administration is examining a camera-supported system at the Parkpalette with a possible test phase; the sources read show no fee decided yet. A 2023 urban development concept also proposes renewing the outdated parking guidance system.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2026-10-20",
+   "text": "On 20 October 2026 the town announced a new Stadtmarketing parking map showing seven designated car parks in the direct city centre, where parking is usually free but time-limited, mostly to one or two hours. The map is available free of charge at the Tourist-Information in the Altes Rathaus.",
+   "source_title": "Kostenfrei parken und die Innenstadt zu Fuß erkunden (Stadt Springe)",
+   "source_url": "https://www.springe.de/portal/meldungen/kostenfrei-parken-und-die-innenstadt-zu-fuss-erkunden-900004383-24600.html?rubrik=900000006",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The town's Stadtmarketing traffic page (undated, read on 21 October 2026) states that Springe charges no parking fees and that free parking is available through Parkscheibe (parking disc) rules. The centre combines a pedestrian zone with traffic-calmed areas where cars can stop in front of shops for loading.",
+   "source_title": "Stadtmarketing - Verkehr (Stadt Springe)",
+   "source_url": "https://www.springe.de/wirtschaftinspringe/standort/verkehr/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2025-01",
+   "text": "The town's 2025 excursion and city-map brochure lists a parking guidance scheme with seven numbered car parks: P1 at the fire station (Auf dem Burghof), P2 Rathaus/Museumshof, P3 Alte Schule (Schulstraße), P4 courtyard of Bahnhofstraße 5, P5 the Parkpalette at Nordwall, P6 between Heidstraße and Nordwall and P7 Echternstraße. It also lists coach parking at the Jagdschloss and on Harmsmühlenstraße and Hamelner Straße.",
+   "source_title": "Springe Ausflugstipps und Stadtplan 2025 (Stadt Springe, PDF)",
+   "source_url": "https://www.springe.de/downloads/datei/MGJkMTg4NWEzNzdhZDc3YzYwTVRMQkg2dWo2Mk1mYnowVVRvdUs5UGZ1ckpsS2VxNk5FeVNNbjhpSi9JclZoVkVBKzZOb1BESXNDMm9nbmxjQUVhNEpOU1NBcjJSMGRwSlVCaGtUaDJIYmFFV1BGZU9vWVBxcWhMaElVUUM3a2RmcTQxeTFUZllRVWoreSsvUG5RL3p0QUJTMVFOSmVITk5heXVKUT09",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2023-10-20",
+   "text": "The town's integrated urban development concept (council paper dated 20 October 2023) calls the core town's parking supply generally sufficient, with many short-stay spaces behind the main streets, described there as all at ground level. It notes heavy morning search traffic near the vocational school and says that the new town hall on the Burghof will remove many spaces students use.",
+   "source_title": "Integriertes Stadtentwicklungskonzept (ISEK) Springe, Drucksache 63/2021-2026-5 (Springe Ratsinfo, PDF)",
+   "source_url": "https://springe.gremien.info/submission?id=AD-4787",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2023-10-20",
+   "text": "The same concept calls the existing parking guidance system outdated and proposes renewing it. The project sheet estimates 20,000 euros for a concept and 300,000 euros for implementation, possibly with digital availability displays on main approach roads, an app link and bike and EV charging information; it is a proposal, not a decision.",
+   "source_title": "Integriertes Stadtentwicklungskonzept (ISEK) Springe, Drucksache 63/2021-2026-5 (Springe Ratsinfo, PDF)",
+   "source_url": "https://springe.gremien.info/submission?id=AD-4787",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-04-16",
+   "text": "An external consultant's consolidation report to the town (Berlin, 16 April 2026) lists introducing parking fees as a budget measure: assuming about 1,471 candidate spaces including park-and-ride, 50 percent use, 0.50 euro per hour and a 10-hour maximum, it estimates about 783,000 euros a year excluding park-and-ride. This is a revenue estimate, not a decided tariff.",
+   "source_title": "IPM final report on the budget consolidation, Drucksache 1155/2021-2026 (Springe Ratsinfo, PDF, 129 pages)",
+   "source_url": "https://springe.gremien.info/submission?id=20210605100634",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-04-16",
+   "text": "The same report says the council had partly spoken against charging at park-and-ride sites, while the consultant saw no objection in principle. The administration says paid parking needs much staff time and that a camera-supported system at the Parkpalette is being examined, with a test phase possible after a council decision.",
+   "source_title": "IPM final report on the budget consolidation, Drucksache 1155/2021-2026 (Springe Ratsinfo, PDF, 129 pages)",
+   "source_url": "https://springe.gremien.info/submission?id=20210605100634",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-01-09",
+   "text": "In the council's traffic-light vote on consolidation measures (results presented 9 January 2025), 29 of 37 eligible members took part and the parking-fee measure received grade 1 from 16, grade 2 from 11 and grade 3 from 2. Under the process, measures with a majority of grade 1 are to be developed to decision readiness.",
+   "source_title": "IPM final report on the budget consolidation, Drucksache 1155/2021-2026 (Springe Ratsinfo, PDF, 129 pages)",
+   "source_url": "https://springe.gremien.info/submission?id=20210605100634",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-12-17",
+   "text": "The 2026 budget-consolidation concept submitted to the council (Drucksache 1044/2021-2026, dated 17 December 2025) repeats that a camera-supported parking system at the Parkpalette is being examined and that a project group of departments 32 and 66 is to join the implementation. The draft lists a 2026 deficit of about 10 million euros.",
+   "source_title": "Haushaltssicherungskonzept 2026, Drucksache 1044/2021-2026 (Springe Ratsinfo, PDF)",
+   "source_url": "https://springe.gremien.info/submission?id=20211712100492",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-04-16",
+   "text": "The consultant also estimates about 22,000 euros a year from charging motorhome pitches (about 20 spaces, 10 euros a day, 30 percent use), but the administration finds this of little use because motorhomes could move to free car spaces. It says expanding the motorhome pitches at the pool with water, power and waste disposal is planned.",
+   "source_title": "IPM final report on the budget consolidation, Drucksache 1155/2021-2026 (Springe Ratsinfo, PDF, 129 pages)",
+   "source_url": "https://springe.gremien.info/submission?id=20210605100634",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-05-21",
+   "text": "A council paper of 21 May 2026 on the new central bus station (Bebauungsplan Nr. 88) says the redesign removes the 73 existing park-and-ride spaces at Springe station. The town expects them to be absorbed by parking along Bahnhofstraße, the Jägerallee park-and-ride site (described as currently little used), 14 new car spaces and an extension of the eastern park-and-ride area.",
+   "source_title": "Bebauungsplan Nr. 88 Zentraler Omnibusbahnhof, Drucksache 461-2/2021-2026 (Springe Ratsinfo, PDF)",
+   "source_url": "https://springe.gremien.info/submission?id=20212105100655",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-06-25",
+   "text": "On 25 June 2026 the council adopted Bebauungsplan Nr. 88 Zentraler Omnibusbahnhof as a bylaw with 31 yes votes, no no votes and 1 abstention. The Region Hannover, as public transport authority, is preparing the bus station redesign.",
+   "source_title": "Beschluss TOP 8.1, 32. Sitzung des Rates vom 25.06.2026 (Springe Ratsinfo, PDF)",
+   "source_url": "https://springe.gremien.info/submission?id=20212105100655",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Deutsche Bahn's station page (read on 21 October 2026) lists an open P+R car park at Bürgermeister-Peters-Straße at Springe station with 60 spaces, open around the clock. The town's traffic page describes it as 60 free spaces on the south side of the tracks.",
+   "source_title": "Parken - S-Bahnhof Springe (bahnhof.de)",
+   "source_url": "https://www.bahnhof.de/springe/parkplaetze",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "Deutsche Bahn's station page (read on 21 October 2026) lists 289 spaces at P+R Völksen, Südfeldstraße 4, open around the clock, for the Völksen-Eldagsen S-Bahn station. A Region Hannover press release of May 2021 named 233 spaces at the same station.",
+   "source_title": "Parken - S-Bahnhof Völksen-Eldagsen (bahnhof.de)",
+   "source_url": "https://www.bahnhof.de/voelksen-eldagsen/parkplaetze",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2021-05-04",
+   "text": "In May 2021 the Region Hannover's traffic management centre announced sensor-based occupancy data for five pilot park-and-ride sites, including the S-Bahn station Völksen/Eldagsen, published on vmz-regionhannover.de, with more sites to follow. The aim was to steer event and commuter traffic to free P+R spaces.",
+   "source_title": "Noch Platz für mein Auto? (Region Hannover press release)",
+   "source_url": "https://www.hannover.de/Leben-in-der-Region-Hannover/Verwaltungen-Kommunen/Die-Verwaltung-der-Region-Hannover/Pressebereich-Region-Hannover/Archiv-Pressemitteilungen/2021/Noch-Platz-f%C3%BCr-mein-Auto",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The Region Hannover parking page (read on 21 October 2026) states that the GVH area has about 6,100 car park-and-ride spaces, all free to use and open around the clock.",
+   "source_title": "Parken - Hannover.de (Region Hannover)",
+   "source_url": "https://www.hannover.de/Service/Mobil-in-Hannover/Parken",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The Stadtmarketing traffic page (read on 21 October 2026) lists nine public EV charging posts run by the Stadtwerke Springe: six in the core town (including opposite the station at Bahnhofstraße/Bürgermeister-Peters-Straße and in front of the town hall) and three in the districts (Eldagsen, Bennigsen station and Völksen/Eldagsen station).",
+   "source_title": "Stadtmarketing - Verkehr (Stadt Springe)",
+   "source_url": "https://www.springe.de/wirtschaftinspringe/standort/verkehr/",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2022-04-28",
+   "text": "A council paper of 28 April 2022 presenting the Region Hannover's transport development plan 2035+ (short version) says the plan proposes consistent parking management and parking-duration limits in the region's historic town centres and more bike-and-ride at stations. These are regional proposals; the council paper only asks the committee to agree to the plan.",
+   "source_title": "Verkehrsentwicklungsplan 2035+ der Region Hannover, Drucksache 211/2021-2026 (Springe Ratsinfo, PDF)",
+   "source_url": "https://springe.gremien.info/submission?id=AD-4162",
+   "confidence": "medium"
+  }
+ ],
+ "gaps": [
+  "Springe's own Stadtwerke e-mobility page (stadtwerke-springe.de/elektromobilitaet/) redirected to bs-energy.de (a Braunschweig utility) when opened, so it was not used; EV data come only from the town's Stadtmarketing page.",
+  "No parking tariff schedule, resident-parking (Bewohnerparken) zone, Stellplatzsatzung or parking-disc zone map was found; the town states there are no parking fees, but the source with exact Parkscheibe time limits per car park (the 'Übersicht: Parken in Springe' JPG and the new parking map) was not readable as text.",
+  "The council outcome of the 2026 consolidation concept (Rat 29 January 2026) and of the 19 February 2026 changes to the consolidation vote were not read, so it is unclear whether parking fees or the Parkpalette camera pilot were decided or scheduled.",
+  "The Springe ISEK was read as a council paper (20 October 2023) and the council adoption (planned 14 December 2023) was not verified; the proposed parking guidance renewal and the planned S-Bahn halt Deisterpforte have no confirmed status.",
+  "Region Hannover's live occupancy page vmz-regionhannover.de and the GVH park-and-ride overview were not read in this session (the GVH URL redirected to uestra.de), so no official utilisation figures for Völksen/Eldagsen or Springe are cited; the 233 (2021) vs 289 (DB, 2026) space counts for Völksen are unreconciled.",
+  "Regional press (Neue Deister-Zeitung, HAZ Deister-Anzeiger) and event/Deister tourism parking (Wisentgehege, Saupark, Jagdschloss) were not covered: web searches returned no Springe-specific results and the Wisentgehege visitor page gave no parking details. Parkopedia and parkinglist.de were seen but not used as support.",
+  "Eldagsen and Bennigsen P+R capacities, the Jägerallee P+R capacity, Octapharma/Burggrafenkamp employer parking (Bebauungsplan Nr. 89) and the Völksen P+R bike-and-ride details were not researched."
+ ]
+}

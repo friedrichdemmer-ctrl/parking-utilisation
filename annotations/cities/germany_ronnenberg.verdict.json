@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Live list page read in full (Stadtrecht index, entries 01-01 to 80-01). It has fee statutes (Verwaltungskosten, Hundesteuer, Vergnuegungssteuer, Friedhofsgebuehren, Strassenreinigungsgebuehren), street-cleaning rules (70-01..70-03), contribution statutes (Erschliessungsbeitraege, Strassenausbaubeitragssatzung) and a public-safety ordinance (32-02), but no parking-fee, resident-parking, Stellplatz or Sondernutzung statute by title. Absence in a list only; the draft words it correctly and rates it low. 'Street-works' loosely stands for the street-improvement contribution statute. Statute contents (e.g. the public-safety ordinance) were not opened.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "The page (Ortsrat Weetzen 20.01.2020, report of the local mayor) says only that no traffic signs had yet been put up, so the rule for the section with parking bays (time-limited parking with disc 8-18h) had not come into force; the administration would look into it. Nothing on the page mentions November 2019, and the page does not say the council 'was told' this by the city: it is a point raised in the local mayor's report. Whether signs were later installed is not on the page.",
+   "corrected_text": "At the Weetzen local council meeting of 20 January 2020, the local mayor reported that no traffic signs had yet been put up for the parking-bay section of Bröhnstraße, so the rule of time-limited parking with a parking disc between 8:00 and 18:00 had not yet come into force there; the administration was to look into it. The page does not show whether the signs were installed later.",
+   "corrected_title": null,
+   "corrected_date": "2020-01"
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Council minutes of 21.06.2021, item 9 (residents' question time). Residents said many cars park without a disc (and some without registration) on Nenndorfer Strasse, Bruchstrasse, Kopernikusstrasse, Haerkenstrasse and that parked cars hinder gutter cleaning; the mayor (Buergermeisterin) said the violations were known and checks had recently increased there, and a temporary parking ban on sweeping days was being examined. All claims match. Dated 2021; it does not establish current signs or times.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Rats-circular AF/0067/2025/01 (answer to an AfD group inquiry of 17.09.2025): enforcement of stationary traffic is done by six marginally employed people (one more post advertised) with on average 50 working hours per week; the Region Hannover is responsible for prosecuting the offences; warnings are a traffic-education tool and maximising revenue would run against the task. Signed Marlo Kratzke, whom the Region release (item 14) calls the city's mayor. The reply itself is undated; it refers to a council decision of 25.09.2025 in the past tense, so it was written on or after that date (September or October 2025).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "Same reply. The page does confirm that under NBauO para 47 para 1 sentence 3 the parking duty for dwellings does not apply if the building application etc. was submitted after 30 June 2024. But it does not say the city 'saw no basis': it says checking 129 permits would be a disproportionate effort, and that because of the changed law it cannot be established whether an unlawful situation exists. Concrete known violations would still be examined. It also notes a transitional rule: spaces that existed before 1 July 2024 and were removed after 18 March 2025 must be restored from 1 July 2025.",
+   "corrected_text": "In its reply to the AfD group's inquiry (17 September 2025), the administration explained that under the Lower Saxony building code (NBauO para 47) parking spaces no longer have to be provided for dwellings if the building application was submitted after 30 June 2024, with a transitional rule that required spaces removed after 18 March 2025 must be restored from 1 July 2025. It said that checking the building permits of the 129 plots in the Mesterwinkel area would take disproportionate effort and that, given the changed law, it could not be established whether an unlawful situation exists; it would examine individual plots if concrete violations were reported.",
+   "corrected_title": null,
+   "corrected_date": "2025-09"
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "PDF (5 pages) read in full. The meeting date (21.07.2015), the administration's statement of 'in der Regel 2 Stellplaetze pro Wohneinheit' and the garage/storeroom remark are correct. But the weakness 'Empelde: missing options for short-term parkers and pick-up at the Stadtbahn loop and station' was in the consultants' opening strengths/weaknesses presentation (based on their analysis, local round tables and the kick-off event), not something the participants listed.",
+   "corrected_text": "At an expert meeting on mobility for the town development concept (ISEK) on 21 July 2015, the administration said building permits normally required 2 parking spaces per dwelling, and noted that garages are often used as storerooms so cars end up in the street. The consultants' opening presentation of weaknesses, based on their analysis and earlier local events, included missing short-term and pick-up parking at the Empelde Stadtbahn loop and station.",
+   "corrected_title": null,
+   "corrected_date": "2015-07"
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Live DB station page for Weetzen: 'P+R Weetzen Bahnhof', An den Kleingaerten, 30952 Ronnenberg, open parking, 197 spaces in total, Mon-Sun including public holidays 00:00-00:00; no tariff shown. All matches. The page is undated: read 22 Oct 2026, consistent with the 21 Oct 2026 wording. Region figure 196 (item 9, 2021) differs; the draft treats this properly in gaps.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Live page: 'rund 6.100 Stellplaetze fuer PKW' in the GVH area; 'Alle Park + Ride Anlagen koennen kostenlos genutzt werden, und sind rund um die Uhr geoeffnet'. Matches. The page is undated, so the statement is current only as of reading; the 2020 plan (item 8) said free 'for now'. Official joint portal of Landeshauptstadt and Region Hannover, not AI-labelled.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "Large PDF (about 110 pages) read as text. Confirmed: table 18 gives Empelde Stadtbahn P+R category 1; the S-Bahn table gives Weetzen P+R category 1, Ronnenberg 3 and Empelde 3; the measures list says 'Weetzen Kategorie 1 SPNV: Ausbau P+R in 2019 fertig gestellt'; the section on financing says use of B+R and P+R is currently free but this may change. Corrections: (a) the fee wording is 'could make sense for spontaneous users of bike garages or users of multi-storey/car-park buildings', not 'mainly for multi-storey car parks'; (b) the text itself carries no April 2020 date (only the PDF metadata shows 21 April 2020), and the page does not say whether it is a draft or the adopted plan (it mentions a 'Bürgerstellungnahme' to be used by the Region's bodies for the decision).",
+   "corrected_text": "The Region Hannover's local transport plan 2020 (PDF created April 2020; the text does not say whether this is the adopted version) said that use of bike-and-ride and park-and-ride sites was currently free, that this could change in future, and that fees might make sense for spontaneous users of bike garages and for users of multi-storey car parks. It rated the Weetzen P+R as category 1 (high priority) and the Empelde Stadtbahn P+R as category 1, while the Ronnenberg and Empelde S-Bahn stations were category 3. The plan lists the Weetzen P+R extension as completed in 2019.",
+   "corrected_title": null,
+   "corrected_date": "2020-04"
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Region press release 'Noch Platz fuer mein Auto?' published 4 May 2021 (now archived): sensors at five pilot P+R sites (Voelksen/Eldagsen 233, Weetzen 196, Dedensen/Guemmer 102, Marienwerder 310, Nordhafen 180); VMZ steers drivers to free P+R spaces with a navigation app (NUNAV, event traffic, now extended to commuters). Matches. Title lacks the question mark. Figure is from 2021; DB lists 197 now.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Informationsvorlage VO/0563/2022: the statement was noted by the planning committee on 23.06.2022 and was to be sent to the Region by 4 July 2022. It says the Region's utilisation studies gave low priority to further P+R/B+R capacity in the town, but the city considers an extension of P+R at Weetzen and Linderte/Holtensen necessary and to be examined; roofing with PV and e-car charging at these sites; roofed lockable bike parking at Weetzen and Empelde. All matches. 'June 2022' is the committee date; the sending deadline was 4 July.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Ratsrundschreiben RR/230/2018 (committee of 04.04.2018). The page restates the city's reservations from 2014/2015 on the Hannover-side P+R, mostly about traffic effects on Berliner Strasse, and says the city had recommended an origin survey at the Empelde loop lot, which had not been done. The B 65 / south-west origin forecast is attributed to statements at the 4 April 2018 committee meeting (the project presenters), from which the administration concluded that no significant relief for the existing P+R and adjacent housing was to be expected. The draft makes this the city's own expectation and calls it an 'objection' in 2018.",
+   "corrected_text": "In a circular to councillors after the 4 April 2018 committee meeting on the planned Hermann-Ehlers-Allee Stadtbahn platform and P+R lot on the Hannover side of the border, the administration restated the city's reservations (traffic effects on Berliner Straße, access from all directions, unclear user origins). It noted that the requested origin survey at the existing P+R at the Empelde loop had still not been done. According to the committee briefing, users of the new lot were expected mainly from the B 65 and the south-west, so no significant relief of the existing P+R lot and nearby housing was expected.",
+   "corrected_title": null,
+   "corrected_date": "2018-04"
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "hannover.de page (published 18 March 2024, updated 10 April 2024): P+R at Hermann-Ehlers-Allee, Hannover-Badenstedt at the city border to Ronnenberg-Empelde, opened 20 March 2024, 70 car spaces (2 accessible), sensors in each space show occupancy online, Stadtbahn line 9. Matches. Minor oddity: the page is dated 18 March but says opened 20 March (updated later; it also says 'since mid-March'). Clearly a Hannover site.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Same page: the P+R at the Empelde terminus (80 spaces) is 'meistens komplett belegt' / 'haeufig komplett belegt'; Badenstedt used 'eher zoegerlich' so far; Infra asks drivers from Gehrden, Barsinghausen, Bad Nenndorf to use Badenstedt when Empelde is full. Matches. The statement is from March/April 2024 only.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Region release 7 Nov 2025: 770 boardings per weekday on average in Q3 2025 at stop Weetzen/Bahnhof/Westseite across lines 500, 520 and 522; line 500 every 10 minutes Mon-Fri 6-19h (Saturday 8-20h every 15 min); three-year trial. But the page says the Region 'decided the extension ... for the 2025 timetable change, in November 2024'; it does not state that service started with a November 2024 timetable change. Also the 770 figure is for a stop served by three lines, not line 500 alone.",
+   "corrected_text": "The Region Hannover said on 7 November 2025 that it had decided in November 2024, for the 2025 timetable change, to extend the sprintH line 500 from Gehrden to Weetzen station as an initial three-year trial. Line 500 runs every 10 minutes Monday to Friday 6:00-19:00. An average of 770 passengers per weekday boarded at the stop Weetzen/Bahnhof/Westseite on lines 500, 520 and 522 together in the third quarter of 2025, up 12 percent from the second quarter.",
+   "corrected_title": null,
+   "corrected_date": "2025-11"
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Live city page: first car-sharing offer with Stadtmobil Hannover started 2021; since April 2025 three cars in Empelde/Ronnenberg; besides two existing stations at Loewenberger Strasse there is a Ford Focus at the P+R Auf dem Rade at the line 9 terminus (listed as 'kein E-Auto'). Matches. Page undated; read 22 Oct 2026.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Live city page: eight more hyperchargers at the retail car parks at Berliner Strasse 23 in November 2025; '45 oeffentliche Ladepunkte mit einer Leistung von 3.938 KW an siebzehn Standorten'; 22 kW Type 2 at P+R Empelde (Auf dem Rade 3), P+R Ronnenberg station (Benther Strasse), Bahnhof Weetzen (Am Steinkamp 1). Matches. The page's own detailed list covers only about 14 sites and does not itemise the hypercharger sites, so the 45/17 totals are the city's headline figures. Page undated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Ratsinformation AN/0245/2025/01 (committee 19.11.2025): since February 2024 EnBW operates four fast chargers (1x300 kW, 3x150 kW) on 8 spaces at the Fachmarktzentrum Chemnitzer Strasse next to the Buergerbuero; spaces leased long term; administration recommends not treating the site as a PV-roof pilot (cost about 120,000 EUR, Edeka sees no economic case); over 300 non-public spaces. All matches.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Ronnenberg (Region Hannover) has no paid on-street parking regime that could be found: its published list of local statutes shows no parking-fee, resident-parking or parking-space (Stellplatz) statute, though this is only an absence in a list. Old council minutes mention parking-disc rules in places such as Bröhnstraße in Weetzen (not yet signed in January 2020) and Nenndorfer Straße (June 2021), and current signs and times are not verified. In September or October 2025 the administration said parking is checked by six marginally employed staff giving about 50 hours a week, with fines handled by the Region Hannover, and that the duty to provide parking spaces for dwellings no longer applies to building applications submitted after 30 June 2024. The main public car parks are free park-and-ride lots (the Hannover portal says all GVH park-and-ride sites are free): DB lists 197 spaces at Weetzen (the Region said 196 in 2021), and the Region's Infra said the 80-space lot at the Empelde Stadtbahn terminus was mostly full in 2024, with a 70-space lot opened on the Hannover side of the border on 20 March 2024. The Region's 2020 transport plan gave Weetzen P+R high priority and listed its extension as completed in 2019, and noted that fees might follow in future. The Region decided in November 2024 to extend bus line 500 to Weetzen station as a three-year trial, which in the third quarter of 2025 saw 770 boardings per weekday at the station stop across three lines. Stadtmobil has three cars in Empelde including one at the Empelde P+R since April 2025, and the city counts 45 public charge points at 17 sites, including 22 kW points at the three P+R sites; EnBW has run four fast chargers at Chemnitzer Straße since February 2024."
+}

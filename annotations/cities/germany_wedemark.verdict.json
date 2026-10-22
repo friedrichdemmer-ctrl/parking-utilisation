@@ -1,0 +1,125 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "DB station page lists 'Bennemühlen P+R Bennemühlen', Am Bahnhof, 30900 Wedemark, 'Offene Parkmöglichkeit', Stellplätze insgesamt 182, Mo-So incl. holidays 00:00-00:00. No fee stated, as the draft says. Page is a live DB page, undated. Our feed value of 158 is NOT supported by this page: DB says 182. (158 is also the total number of new bicycle spaces in item 2, so a mix-up with that figure is possible; speculation only.) The repo has no other Bennemühlen data file I could compare.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "partly",
+   "note": "Municipal notice 'Meldung vom 17.04.2026' was written BEFORE the work: 'Am 27. und 28. April tauschen Fachfirmen Bodensensoren auf einem Teil der P+R-Anlage aus'; several bays blocked, commuters should use other parking, 'Nach Abschluss der Arbeiten stehen alle Plätze wieder uneingeschränkt zur Verfügung'. Dates, bay blocking and advice all match, but the draft words it as done ('replaced', 'were blocked'). The page cannot confirm completion. Corrected to announcement wording.",
+   "corrected_text": "A municipal notice of 17 April 2026 announced that on 27 and 28 April 2026 specialist firms would replace floor sensors on part of the Bennemühlen P+R facility. Several bays were to be blocked for those two days and commuters were advised to use other parking. The notice says all spaces would be fully available again after the work. The page does not confirm that the work was completed.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Notice 'Meldung vom 15.09.2026': Regions-Verkehrsdezernent Franz and mayor Zychlinski opened the facilities on Tuesday 15 September (15 Sep 2026 is a Tuesday); 158 new covered bike spaces at Bissendorf and Bennemühlen; part in lockable areas with electronic locking; free spaces bookable via the Region's app 'Umsteigen: Aufsteigen'; both facilities together about 550,000 euros, Land about 40 percent, Region 60 percent. Written on the day, so past tense is fine. All claims match. Note the page also says free open bike racks remain and a repair station is to come at Bennemühlen.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Notice 'Meldung vom 12.08.2026' (updated 13.08.2026): second SUMP expert workshop on Wednesday 28 October 2026, 16:30-19:00, Bürgerhaus Bissendorf, organised by Region Hannover; it will present first interim results from participation formats and scenario calculations; SUMP bundles existing goals, basis includes 'Aktionsprogramm Verkehrswende' (VEP 2035+) and Hannover's Masterplan Mobilität 2035. The draft words it as announced, which is correct: as of 22 Oct 2026 the event is still in the future. Extra caveat: it is an expert workshop for invited stakeholders with registration due by 21 Oct 2026 (already passed), not a public meeting.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "Notice 'Meldung vom 13.01.2026': after the 'vollständigen Ausfall der S-Bahn-Linie S4' Transdev bought in services from an external rail company; 'Ab Donnerstag soll die Linie wieder im Stundentakt verkehren', half-hourly 'angekündigt' from 19 January; mayor wants serious discussion on how S-Bahn operation is organised, e.g. a separate S-Bahn division within üstra. Problems in the draft: (1) the page does not say when the outage began, so 'In January 2026 the S4 failed' is not shown (only that it had failed before 13 Jan 2026); (2) hourly service is 'soll' (planned), not confirmed; (3) the page does not name Bennemühlen, Mellendorf, Bissendorf; (4) 'which matters for rail-linked commuter parking' is the drafter's inference, not on the page.",
+   "corrected_text": "A municipal notice of 13 January 2026 reports that after a complete outage of the S4 S-Bahn line, operator Transdev had bought in services from an external rail company. The line was to run hourly again from the following Thursday, and a half-hourly service was announced from 19 January. The page does not say when the outage began. The mayor called for serious discussion about how S-Bahn operation is organised in future, including examining a separate S-Bahn division within üstra.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Undated page 'Erste öffentliche Ladesäule für E-Autos eingeweiht': 14 public charging points to be installed; mayor and enercity CEO put the first points in front of the Mellendorf town hall into operation in June 2023; enercity realises and operates them; seven locations chosen; 'Die anderen folgen im Sommer'. Address list: Bissendorf 1, Brelingen 1, Elze 1, Mellendorf 3 (Am Roye-Platz 3, Rathaus, Gilborn 6), Resse 1 = 7 sites. All matches. Caveat: the page only announces that the other points would follow in summer 2023; it does not confirm all 14 are in operation now, so the draft summary's '14 public EV charging points operated by enercity since 2023' is too strong (should be 14 planned, first opened June 2023).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Undated page 'Mobilität Energie Wedemark - MoEWe': integrated project covering alternative mobility forms, expansion of public charging infrastructure, solar roof plan, needs analysis, energy balance ('Energiebilanz'); project team has worked on it 'seit September 2020' (the 2023 charging notice also says the project dates from 2020). Draft correctly flags undated and read 21 Oct 2026. Note the content list is phrased as 'sollen erarbeitet werden' (goals), not outcomes.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Page 'Standort Wedemark' (Verkehr / Verkehrsanbindungen), undated: 'S-Bahn-Verbindung nach Hannover besteht von den Haltepunkten Bennemühlen, Mellendorf und Bissendorf im 30-Minuten-Takt'; 'Seit Anfang Juni 2021 ergänzen die sprinti-Busse ... Versorgung aller Gemeindeteile annähernd im 15-Minuten-Takt'. Also confirms 17 Ortsteile with seat in Mellendorf. Matches. Reliability: page is undated and reads like launch-era text (calls sprinti 'neuen Angebot'), so the frequencies are the municipality's claim, not a current timetable (the January 2026 S4 outage in item 4 shows service can differ).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Hannover.de 'Parken' page, undated: 'Im Verkehrsgebiet des Großraum-Verkehr Hannover (GVH) gibt es zur Zeit rund 6.100 Stellplätze für PKW. Alle Park + Ride Anlagen können kostenlos genutzt werden, und sind rund um die Uhr geöffnet.' The draft text matches. The ÜSTRA page (https://www.uestra.de/service-und-mobilitaet/mobilitaetsangebote/park-ride-bike-ride/, reached via the gvh.de link) says 'im Verkehrsgebiet der ÜSTRA ... gut 6.000 PKW-Stellplätze ... kostenfrei', also matching; that URL is not the item's source_url and should be added. Caveat: neither page names Wedemark, Bennemühlen or Bissendorf, so 'free' for those two sites is an inference from a general statement (the DB pages are silent on fees). Hannover.de is a portal run with Madsack, undated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "DB station page for Bissendorf lists 'Bissendorf P+R Bissendorf Bahnhof', Im Tannengrund, 30900 Wedemark, 'Offene Parkmöglichkeit', Stellplätze insgesamt 67, Mo-So incl. holidays 00:00-00:00. Matches. No fee stated on the page. (Station address on the page is Bahnhofstr. 41.)",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Notice 'Meldung vom 25.06.2025': 'In keiner anderen Kommune der Region Hannover wird der digitale Rufbus pro Kopf so häufig genutzt wie hier. Seit Mai 2024 wurden allein in der Wedemark über 236.000 Fahrten gezählt'; 'Durchschnittlich steigen aktuell 4.400 Personen täglich ein' incl. Mellendorf, Bissendorf, Elze; 'im Nahverkehrstarif enthalten'. All matches. Oddity to note: the same page says sprinti started in 2021 in Springe, Sehnde and Wedemark (consistent with item 7), so the 'since May 2024' count start is as stated by the municipality but unexplained. 'Boardings' means per-day passengers, not trips.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "partly",
+   "note": "Notice 'Meldung vom 25.06.2025' was written before the period: 'Vom 1. Juli bis zum 31. August 2025 können Bürgerinnen und Bürger das CarSharing-Fahrzeug am Rathaus Mellendorf ganztägig buchen'; normally reserved in the daytime for staff of the municipal administration; booking via stadtmobil; the car stands 'in der Ortsriede beim Rathaus'. Facts match, but the draft says 'was bookable' (as if it happened) and 'stands' as present fact; the page is from 2025 and cannot confirm either for October 2026. Corrected to announcement wording.",
+   "corrected_text": "A municipal notice of 25 June 2025 announced that from 1 July to 31 August 2025 residents could book the stadtmobil car-sharing vehicle at the Mellendorf town hall all day, including normal office hours. The car is normally reserved in the daytime for municipal staff. The notice dates from 2025 and does not confirm the vehicle's current availability.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "partly",
+   "note": "Notice 'Meldung vom 13.12.2024': 'Bis 15. Januar 2025 können Interessierte in einer Online-Befragung und auf einer interaktiven Karte Vorschläge einbringen'; map lets users propose new lines, stations or stops; Region Hannover runs the process; platform www.planersocietaet.de/nvp-regionhannover. The facts match; the draft says it 'ran ... until', but the notice was written before the deadline and only announces it. The wording is corrected to an announcement and the Region-wide scope is kept.",
+   "corrected_text": "A municipal notice of 13 December 2024 announced that the Region Hannover was running an online participation for its new Nahverkehrsplan (local transport plan) until 15 January 2025, with a survey and an interactive map on which users could propose new lines, stations or stops. The plan concerns the whole Region, not only Wedemark.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Notice 'Meldung vom 19.04.2023': first parklet in the municipality inaugurated at the corner Hellendorfer Kirchweg / Berliner Straße (page says 'Das Parklet in Mellendorf'); Region Hannover built it for 12,000 euros and provides it free of charge; the municipality is responsible for upkeep. Matches. But 'built on former parking space' is only the page's general definition of parklets ('anstelle von geparkten Autos auf Flächen des ruhenden Verkehrs'); the page does not say how many spaces this one replaced.",
+   "corrected_text": "A municipal notice of 19 April 2023 reports the inauguration of the first parklet in Wedemark, at Hellendorfer Kirchweg / Berliner Straße in Mellendorf. The Region Hannover built it for 12,000 euros and makes it available free of charge; the municipality maintains it. The notice describes parklets in general as street furniture built in place of parked cars, but does not say how many parking spaces this one replaced.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Notice 'Meldung vom 06.04.2017' (updated 01.10.2020): Verwaltungsausschuss decided unanimously on Monday 3 April (2017) to award a comprehensive traffic concept; a planning firm will carry out traffic studies and show first solution options; 'Noch vor den Sommerferien werden die ersten Ergebnisse öffentlich vorgestellt'. The draft drops 'ersten' (first) and says 'results'; the page promises only first results. Parking is not mentioned (draft correct). The page is nine years old and says nothing about outcomes.",
+   "corrected_text": "On Monday 3 April 2017 the municipality's Verwaltungsausschuss unanimously decided to award a contract for a comprehensive traffic concept (Verkehrskonzept) for Wedemark. A planning firm was to carry out traffic studies and show first solution options, with the first results to be presented publicly before the 2017 summer holidays. The notice (published 6 April 2017) does not mention parking measures, and the outcome is not documented there.",
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Wedemark (17 districts, administrative seat Mellendorf) has two free-to-enter park-and-ride sites at S-Bahn stations that Deutsche Bahn lists as open 24 hours: Bennemühlen with 182 spaces and Bissendorf with 67 spaces; neither DB page states a fee. Hannover.de says all park-and-ride sites in the GVH area are free and open round the clock, but this is a general statement that does not name the Wedemark sites. No official source on paid on-street parking or a parking statute was found. Recent developments are mainly around rail access: on 15 September 2026 the Region Hannover and the mayor opened covered bike-and-ride facilities with 158 bicycle spaces at Bissendorf and Bennemühlen (about 550,000 euros); a municipal notice of April 2026 announced floor-sensor replacement at the Bennemühlen P+R on 27 and 28 April 2026; and a January 2026 notice reports that the S4 line had suffered a complete outage before an external rail company was hired, with hourly and then half-hourly service announced. The Region Hannover's SUMP process includes an expert workshop announced for 28 October 2026 in Bissendorf (invited stakeholders, registration closed 21 October). The on-demand sprinti bus recorded over 236,000 trips in Wedemark since May 2024 by June 2025, the highest per-capita use in the Region. Enercity planned 14 public charging points at seven sites, with the first opened in June 2023. A stadtmobil car at the Mellendorf town hall was announced as bookable all day in summer 2025, and a parklet opened in Mellendorf in April 2023. The 2017 traffic concept decision is documented, but no outcome was found."
+}

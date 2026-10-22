@@ -1,0 +1,100 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "partly",
+   "note": "Opened the real PDF (Seelze VEP Teil I, SHP Ingenieure, 'Hannover, November 2010'; linked from the cited landing page, which itself holds no figures). Text: 'P+R Seelze: 93 Stellplaetze, Auslastung 100 %; P+R Letter: 51 Stellplaetze, Auslastung etwa 80 %; P+R Dedensen-Guemmer: 121 Stellplaetze (in zwei Bereichen), Auslastung etwa 55 %'. All numbers match. The report says the extension of the P+R facility Seelze 'erscheint zweckmaessig'. But the report does not say these come from a '2010 survey' (no count date given), and the source_url is only the landing page, the figures are in the Part I PDF. Seelze 93 spaces in 2010 vs 56 per DB today and 93 in VMZ data: the lot size is inconsistent across sources.",
+   "corrected_text": "The transport development plan's Part I (Zustandsanalyse und Leitbild, report dated November 2010) gives the three Seelze rail-station park-and-ride lots as: Seelze 93 spaces (occupancy 100 percent), Letter 51 spaces (about 80 percent) and Dedensen-Guemmer 121 spaces in two areas (about 55 percent). The report does not date the counts; these are old figures. It also finds an extension of the Seelze P+R lot appropriate.",
+   "corrected_title": "Verkehrsentwicklungsplan Seelze, Teil I: Zustandsanalyse und Leitbild (Nov 2010), PDF linked from the VEP page"
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Opened Part II PDF ('Hannover, August 2012', SHP Ingenieure). Section on traffic management lists static measures 'Alle dazugehoerigen Massnahmen kommen in Seelze zum Einsatz' incl. 'statisches Parkleitsystem bzw. Wegweisung zu Parkplaetzen' and 'Parkraumbewirtschaftung'; says conditions for dynamic measures (incl. dynamic Parkleitsystem) are not met 'somit kein Bedarf besteht'. Section 2.6 Hannoversche Strasse (K 356): 'Notwendigkeit eines angemessenen Stellplatzangebotes im Seelzer Stadtzentrum' when a new street space is developed after the VEP. Claims match. Reliability concern: the 2012 plan lists 'Parkraumbewirtschaftung' as already used in Seelze, which sits uneasily with the summary's 'no sign of paid or resident parking'; the summary should not over-assert absence. Source_url is only the landing page; text is in the Part II PDF."
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Opened the PDF. 'Satzung zur Aufhebung der Satzung ... ueber die Abloesung der Verpflichtung zur Schaffung von Einstellplaetzen (Abloesesatzung)': Rat beschloss am 28.01.2021; repeals the Satzung of 15.12.2011; dated Seelze 04.02.2021; table shows published in Amtsblatt fuer die Region und die Landeshauptstadt Hannover Nr. 07 of 18.02.2021, in force 19.02.2021. All claims match. Note: the repeal itself says nothing about parking policy beyond that."
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Opened the Hannover.de archive page 'Noch Platz fuer mein Auto?', 'Veroeffentlicht am 4. Mai 2021'. Text: sensors installed at five 'Pionier'-Anlagen; S-Bahn stations Voelksen/Eldagsen (233), Weetzen (196), Dedensen/Guemmer (102 Plaetze) and two Stadtbahn stops; information available on the VMZ site; further P+R sites 'nach und nach' to be fitted with sensors; aim to steer event traffic to free P+R places. All match. Extra check: the VMZ P+R page in Oct 2026 embeds live data for Dedensen-Guemmer (capacity 102, 31 occupied, 30 percent, timestamp 22 Oct 2026), so the sensor monitoring still publishes data; the VMZ record also has a field 'capacity:motor_vehicle' of 113 while DB says 121."
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Opened the Stadt Seelze news item of 11.07.2023 (updated 12.07.2023). Text: first Schnellladesaeule in Letter am Kastanienplatz in Betrieb genommen; 'zwei Schnellladesaeulen und vier normale E-Ladesaeulen', 'sechs weitere Ladesaeulen mit zwoelf Ladepunkten'; fast chargers Seelze Am Kreuzweg and Letter Kastanienplatz, others in An den Grachten, Bremer Strasse, Dedensen Rosengarten, Lohnde Buergerhaus ('werden aufgestellt'); up to 50 kW; 200.000 EUR from 'Ladeinfrastruktur vor Ort' = 80 percent; overstaying the parking duration triggers an automatic higher tariff. All match. Caveat: only Kastanienplatz is stated as opened; the other posts are described as to be erected, so the draft's 'programme' wording is right but must not be read as all in operation."
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Opened news item of 28.07.2023: new charging post on the Grand-Couronne-Allee car park 'in Betrieb genommen', operated by Avacon AG, used mainly by Kristalltherme and Bertolt-Brecht-Gesamtschule visitors; AC post 44 kW, two charge points; further posts 'angedacht' at school car parks (new primary schools Harenberg and Seelze-Sued, secondary schools Seelze and Letter). All match; the planned posts are worded as planned in the draft."
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Opened the page (undated) and the linked 'Endbericht kurz' PDF: 'Ingenieurgemeinschaft Dr.-Ing. Schubert, Hannover ... Hannover, im Oktober 2023'; model for the motorised private transport (MIV), 'Prognosezeitpunkt 2035'; page mentions scenarios for housing and commerce and road-network changes such as 'Leinesprung'. Page does not mention parking (the PDF filenames/terms 'Stellplatz|Park' returned no hits in the report text). The October 2023 date comes from the PDF, not the page. The draft says the page was read on 21 October 2026, fine."
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "Opened the news item of 20.03.2024. It announces ('Ab sofort', 'Der Versuch wird etwa sechs Monate dauern') a traffic trial in the second construction phase (east of Kirchbuschweg) of Seelze-Sued: signed as verkehrsberuhigter Bereich, walking speed, parking 'ausschliesslich auf gekennzeichneten Flaechen'. The page was written on the first day; it does not say the trial actually ran for six months or what happened afterwards (results were to be presented to the Ortsrat). The draft says 'ran', which is stronger than the page.",
+   "corrected_text": "On 20 March 2024 the town announced a traffic trial in the second construction phase of Seelze-Sued, expected to last about six months: the area was signed as a traffic-calmed zone with walking speed, and parking is allowed only on marked areas. The page does not report the trial's duration or outcome."
+  },
+  {
+   "index": 8,
+   "verdict": "partly",
+   "note": "The 25.04.2024 adoption ('als Arbeitsgrundlage ... beschlossen') is on the cited ISEK page. The rest is in the ISEK Bericht PDF (170 pages, opened): section 4.2.5 says 'An den Bahnhoefen befinden sich kostenfreie Park-and-Ride-PKW-Stellplaetze fuer Pendelnde sowie kostenfreie Abstellplaetze fuer Fahrraeder, die laut einigen Nutzenden jedoch oft ueberfuellt sind oder keine sichere Verwahrmoeglichkeit bieten.' So the draft's 'users find the bike racks often full' overstates (some users; full or not secure). On the RROP: 'Bahnhof in Seelze als Vorranggebiet Bahnhof ...; dort und am Bahnhof Dedensen/Guemmer ist jeweils auch ein Vorranggebiet fuer Park-and-Ride / Bike-and-Ride vorgesehen' - i.e. envisaged, and it is the stations, not 'Seelze', that are named. The ISEK says P+R spaces are free, but it is a concept document, not a tariff statement.",
+   "corrected_text": "The council adopted the integrated urban development concept ISEK 2035 on 25 April 2024 as a working basis. The report states that the S-Bahn stations have free park-and-ride car spaces and free bicycle racks, which some users say are often full or not secure, and that the regional spatial plan (RROP) provides for priority areas for park-and-ride and bike-and-ride at the stations in Seelze and Dedensen/Guemmer."
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Checked in the ISEK Bericht PDF. Goals: 'Belastung der Stadtteilzentren durch PKW-Verkehr minimieren - Flaecheninanspruchnahme fuer Parken reduzieren; Fuss- und Radverkehr priorisieren'. Mobility measures: 'Entwicklungskonzepte fuer die drei S-Bahnhoefe ... Verkehrshubs erstellen (u.a. Kopplung mit Car-Sharing)'; 'Mobilitaetshub einrichten: Mitfahrerparkplatz, Umstieg auf Linie 700, Fahrradstation'; 'Ausbaukonzept Ladeinfrastruktur (u.a. konkrete Vorschlaege fuer Ladeparkplaetze und oeffentliche Ladesaeulen erarbeiten)'; 'Car-Sharing-Angebot im gesamten Stadtgebiet aufbauen (Start in Kernstadt ...)'. All match and are worded as planned. Note the content is in the Bericht PDF, not on the cited ISEK web page itself."
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Opened news item of 30.04.2025: mayor opened two bike garages at Dedensen/Guemmer, 24 spaces each side; 'drei Fahrradgaragen mit rund 150 Abstellplaetzen'; costs rund 175.000 EUR, 90 percent federal ministry (BMWK), up to 10 percent Region Hannover, DB Bike+Ride-Offensive; use free, needs GVH-Monatskarte or Deutschlandticket, 50 EUR Kaution for key; town will 'demnaechst einen Foerderantrag stellen' for a Letter garage (with DB and Region). All match. The page is a report dated 30 April 2025 on the opening, it does not give a separate opening date; a later page says 'im Fruehjahr 2025 eroeffnet'. Digital access was planned for 2026 (see next items)."
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Opened the Radverkehrskonzept Abschlussbericht PDF ('Stand: 25.07.2025', PGV Dargel Hildebrandt, 114 pages, Anlage 1 zur BV XVIII/0771). Section 7.5.2 Bike & Ride: Letter 102 ueberdachte Stellplaetze plus 26 nicht ueberdachte; Seelze 32 ueberdachte Fahrradbuegel, 7 nicht ueberdachte, abschliessbarer Bereich with 72 Fahrradbuegel; Dedensen-Guemmer 24 ueberdachte Buegel on each side and, in Fruehjahr 2025, two Doppelstockparker with 24 bikes each. All match. Note the news item of April 2025 speaks of about 100 spaces in the Seelze garage versus 72 racks here; both are the town's own wording. Source_url is the Radverkehr page; the figures are in the linked Abschlussbericht."
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "Opened news item of 24.10.2025: new AC-Ladesaeule at Lange-Feld-Strasse near Brandenburger Strasse, Letter, 'offiziell vorgestellt', 44 kW total, two vehicles at once, 'seit dem 9. September nutzbar' (year not written, but the item is from 24.10.2025), operated by Avacon Natur GmbH. Mayor: 'Wir arbeiten kontinuierlich daran, dass eine oeffentliche Ladeinfrastruktur bald in allen Ortsteilen verfuegbar ist' (an aim, as worded in the draft)."
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "Opened news item of 29.07.2026 (updated 11.08.2026): 'ab sofort' digital access system at the two Dedensen/Guemmer garages; one-time registration via a booking process of the Region Hannover; free booking for one day, one week or one month; personal key and proof of GVH monthly ticket/Deutschlandticket no longer needed. All match; opening in spring 2025 and 24 spaces per side confirmed."
+  },
+  {
+   "index": 14,
+   "verdict": "partly",
+   "note": "Opened the news item of 03.08.2026 (updated 11.08.2026). It says new traffic rules 'gelten ... ab dem Schulstart'; a Fahrradstrasse about 150 m long in Im Sande between Kirchstrasse and Moellerkamp ('ab sofort' priority for cyclists, general motor traffic not permitted, residents get special permits); Elternhaltestellen on Parkbuchten in Im Sande and Moellerkamp. The page precedes or coincides with the school start, so 'created' is stronger than a notice about rules applying from school start. The concept was approved by the Ortsrat Letter in February 2026 unanimously; a lowerable bollard, an extra crossing in Nordstrasse and more bike parking are only planned. The page does not state that the school is 'in Letter' in the text (only the Ortsrat Letter decision).",
+   "corrected_text": "On 3 August 2026 the town announced new traffic rules around the Brueder-Grimm-Schule from the start of the 2026/27 school year: a bicycle street of about 150 metres in Im Sande (between Kirchstrasse and Moellerkamp), closed to general motor traffic with special permits for residents, and parent drop-off stops on parking bays in Im Sande and Moellerkamp. The Ortsrat Letter approved the underlying traffic concept in February 2026; a lowerable bollard, an additional crossing in Nordstrasse and more bike parking are still planned."
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Opened bahnhof.de parking pages for all three stations (Dedensen/Guemmer: /dedensen-guemmer/parkplaetze; Seelze Pbf: /seelze-pbf/parkplaetze, /seelze/parkplaetze is 404; Letter: /letter/parkplaetze). Dedensen/Guemmer 'P+R Dedensen-Guemmer Bahnhof', Landschaftsstrasse, 121 Stellplaetze insgesamt; Seelze 'P+R Seelze Bahnhof', Lessingplatz, 56; Letter 'P+R Letter Bahnhof', Ebertstrasse, 51 insgesamt, barrierefrei 3. All 'Offene Parkmoeglichkeit', Mo-So incl. Feiertage 00:00-00:00; no fee shown on the pages (they point to parkenambahnhof.de). Claims match. Only the first URL is cited in source_url; the Seelze and Letter URLs should be added. Reliability concern: the VMZ P+R data (item 17) give Seelze capacity 93 (as in the 2010 VEP), Dedensen-Guemmer 102 (sensor) and Letter 51, so the DB's 56 for Seelze and 121 for Dedensen-Guemmer differ from other sources; the draft's gap note about 121 vs 102 stands, add 56 vs 93."
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Opened the Stadtrecht page: it lists dozens of documents (Hauptsatzung, Verwaltungskosten, Strassenreinigung and fees, Sondernutzungssatzung 60.10.05 and Sondernutzungsgebuehrensatzung 60.10.06, Erschliessungsbeitraege, Friedhof, Kita, etc.). No parking-fee, Parkgebuehren or resident-parking by-law is listed; the only parking-related entry is 60.10.03 'Satzung zur Aufhebung der ... Ablösesatzung'. The draft wording is correctly an inference. Reliability concern: the absence of a by-law from this list is weak evidence about whether paid or limited parking exists in Seelze (the 2012 VEP lists Parkraumbewirtschaftung as used; parking rules can rest on traffic signs and other legal instruments), so the inference should stay low confidence and the summary should not claim there is no paid parking."
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Opened the VMZ page: it lists 'Dedensen-Guemmer (Naehe A2)', 'Letter (Naehe B441)' and 'Seelze (Naehe B441)' among many regional P+R sites (Ahlten ... Hannover etc.), with a map. Claim matches. Extra finding for the draft's gap list: the page's embedded data (not visible text) show for Dedensen-Guemmer 'kostenfrei', capacity 102, 31 occupied (30.4 percent) at 22 Oct 2026 11:45 plus hourly averages; Letter 'kostenfrei', capacity 51 (no live sensor); Seelze 'kostenfrei', capacity 93 (no live sensor). These are tool-readable data, not page text, and the 'live map shows no figures' gap is therefore not fully accurate. VMZ's own record contains inconsistent descriptive texts (e.g. '122 Park+Ride Stellplaetze (ueberdacht)' for Letter), so it is a weak source for capacities."
+  }
+ ],
+ "corrected_summary": "Seelze (Region Hannover, about 35,500 residents with main residence according to the town's ISEK page) shows no sign in the sources read of a town-wide paid or resident parking scheme, but this is an inference from absence only: the town's by-law collection lists no parking-fee by-law, the council repealed its fee-in-lieu-of-parking by-law in January 2021, and the 2012 transport plan says parking management is already among the measures used in Seelze. The three S-Bahn station car parks are listed by DB as open round the clock with no fee shown: Dedensen/Guemmer 121 spaces, Seelze 56 and Letter 51; other sources give different capacities (102 sensor-monitored spaces at Dedensen/Guemmer in 2021, 93 at Seelze in the 2010 plan), and the ISEK 2035 describes the station spaces as free. The Region Hannover announced in May 2021 that occupancy at Dedensen/Guemmer is measured by sensors and shown on the traffic management centre website. Planning documents are the 2012 transport development plan (with 2010 occupancy figures that are old), a 2023 car traffic model, the ISEK 2035 (adopted 25 April 2024; planned aims to reduce space used for parking in town centres and measures such as a mobility hub, a charging concept and car-sharing) and a July 2025 cycling concept. Recent developments centre on bikes and charging: two secured bike garages opened at Dedensen/Guemmer in spring 2025 (digital booking announced from 29 July 2026), public chargers were opened or planned in 2023 (Letter, Grand-Couronne-Allee) and a further charger in Letter has been in use since 9 September 2025, and in August 2026 the town announced a bicycle street and parent drop-off stops at the Brueder-Grimm-Schule. A traffic trial with walking speed and marked parking only was announced for Seelze-Sued in March 2024 (outcome not stated). No council decisions on paid parking, resident parking or new car-park capacity were found."
+}

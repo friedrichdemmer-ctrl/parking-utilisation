@@ -1,0 +1,163 @@
+{
+ "country": "Germany",
+ "city": "Uetze",
+ "researched": "2026-10-21",
+ "summary": "Uetze (about 22,000 residents, with Dedenhausen, Dollbergen, Hänigsen and Eltze among its villages) has no municipal parking tariff, parking-disc zone or Stellplatz statute that I could find, and parking policy visible in public sources is mostly about the two rail park-and-ride sites, which belong to the Region Hannover's system and are free of charge. The Region Hannover rated Dollbergen a high and Dedenhausen a medium priority in its 2021 transport plan; after counting up to 150 cars parked around the overloaded Dollbergen lots it opened 133 additional spaces there in September 2021, with a 160-place bike facility to follow, while Dedenhausen (now 62 spaces on the Region's portal, 50 on DB's) saw ground sensors for a parking guidance system in 2023 and over 100 new bike spaces in 2024. The Region's VMZ portal shows live occupancy for both sites. Locally the municipality ran a traffic trial in the centre in 2024, installed its first fast-charging station at the town hall in 2023, and a large DB corridor renovation (October 2026 to December 2027) may affect rail commuting to the P+R sites.",
+ "items": [
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "DB's station parking pages (read 21 October 2026) list one open lot with 50 spaces at Dedenhausen (Zum Bahnhof) and three open lots at Dollbergen (Ladestraße 40, Bahnhofstraße 81 44, Berliner Allee 2 28), all open around the clock; these DB figures differ from the Region Hannover's own counts.",
+   "source_title": "Bahnhof Dollbergen - Parken (bahnhof.de)",
+   "source_url": "https://www.bahnhof.de/dollbergen/parkplaetze",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The Region Hannover portal run by VMZ Niedersachsen (read 21 October 2026) lists P+R Dollbergen (Ackerbergstraße) with 133 car spaces plus 2 for reduced mobility, free of charge, 160 roofed bike places and 10 motorcycle places. It shows live free-space counts and hourly average profiles, and RE 30 to Hannover Hbf runs hourly around midday, plus buses 946 and 950 and on-demand AST service.",
+   "source_title": "Region Hannover Park + Ride: Dollbergen (VMZ Niedersachsen)",
+   "source_url": "https://www.vmz-niedersachsen.de/region-hannover/park-und-ride/dollbergen/",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The same portal (read 21 October 2026) lists P+R Dedenhausen (near B444, Zum Bahnhof) with 62 spaces in two parts (Nord 9, Süd 51, plus 4 accessible), free of charge, 58 bike places and lockable bike garages; RE 30 and bus 950 serve the stop, and the page carries the same live and hourly utilisation display.",
+   "source_title": "Region Hannover Park + Ride: Dedenhausen (Nähe B444) (VMZ Niedersachsen)",
+   "source_url": "https://www.vmz-niedersachsen.de/region-hannover/park-und-ride/dedenhausen-naehe-b444/",
+   "confidence": "high"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2021-06",
+   "text": "The Region Hannover's Nahverkehrsplan 2021 says the Region is the responsible authority and usually the builder of park-and-ride sites, funded by state and federal money, while municipalities or the infra company own and maintain them. Use of P+R and B+R sites is currently free, though charging could be introduced later.",
+   "source_title": "Nahverkehrsplan 2021 (Region Hannover), sections 4.2.2.3 and 4.2.2.5",
+   "source_url": "https://www.hannover.de/content/download/893956/file/Nahverkehrsplan%202021_Internet_0622.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2021-06",
+   "text": "The Nahverkehrsplan 2021 aims to provide P+R at all rail stations close to where people live. In its station priority table (updated in 2018 from utilisation counts) Dollbergen is priority 1 (high) for P+R and bike+ride, and Dedenhausen priority 2 (medium) for P+R and 3 for bike+ride.",
+   "source_title": "Nahverkehrsplan 2021 (Region Hannover), section 4.2.2 and Tabelle 17",
+   "source_url": "https://www.hannover.de/content/download/893956/file/Nahverkehrsplan%202021_Internet_0622.pdf",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2021-06",
+   "text": "The Nahverkehrsplan 2021 states that, in the Region's experience, charging points at bike+ride garages and e-charging at such sites are not much used by commuters.",
+   "source_title": "Nahverkehrsplan 2021 (Region Hannover), section 4.2.2.1",
+   "source_url": "https://www.hannover.de/content/download/893956/file/Nahverkehrsplan%202021_Internet_0622.pdf",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2019-10-23",
+   "text": "On 23 October 2019 the Region Hannover's transport committee approved about 1.1 million euros in pre-financing for a Dollbergen station redesign; up to 150 rail customers' cars were counted daily around the full car parks, there were 57 spaces south and 27 north, about 1,700 people used the station on weekdays, and 133 more spaces (a possible 92 beyond that) were planned.",
+   "source_title": "Bahnhof Dollbergen: Mehr Platz und Komfort für Pendler (AltkreisBlitz)",
+   "source_url": "https://www.altkreisblitz.de/2019/10/23/bahnhof-dollbergen-mehr-platz-und-komfort-fuer-pendler/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "operators",
+   "date": "2021-09-28",
+   "text": "On 28 September 2021 AltkreisBlitz reported the new Dollbergen P+R site with 133 additional spaces open for use (planting and signage still missing), replacing a previous total of 84 spaces; a step-free bus stop, a 160-place bike+ride facility and ten motorcycle spaces were to follow, total cost about 1.1 million euros.",
+   "source_title": "Neuer Park-and-ride-Platz in Uetze-Dollbergen ist ab sofort nutzbar (AltkreisBlitz)",
+   "source_url": "https://www.altkreisblitz.de/2021/09/28/neuer-park-and-ride-platz-in-uetze-dollbergen-ist-ab-sofort-nutzbar/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2020-04-22",
+   "text": "In April 2020 the Region Hannover CDU group said, citing a Region answer, that nearly all of Dedenhausen's P+R spaces were occupied on weekdays (the statement names 113 spaces, which does not match later counts) and called for an enlargement; the Region first wanted to expand Dollbergen and see whether demand shifts.",
+   "source_title": "Regions-CDU: Ausbau der P+R-Anlage in Dedenhausen ist zwingend notwendig (AltkreisBlitz)",
+   "source_url": "https://www.altkreisblitz.de/2020/04/22/regions-cdu-ausbau-der-p-r-anlage-in-dedenhausen-ist-zwingend-notwendig/",
+   "confidence": "low"
+  },
+  {
+   "topic": "technology",
+   "date": "2023-03-06",
+   "text": "The municipality announced that the northern part of the Dedenhausen P+R lot would be closed on 9-10 March 2023 so a contractor (SO NAH, Aachen) could install ground sensors for a digital parking guidance system.",
+   "source_title": "Vollsperrung des P + R Parkplatzes Dedenhausen (Gemeinde Uetze, Pressedienst Nr. 16)",
+   "source_url": "https://www.uetze.de/downloads/datei/ZGM5MGE1ZTU0OGJjYzcwYTdFNU9qOVFNTmROVnVVT0prQU1sYnkvMEx5UloxOWNzbVZTMkl2a1NNeUozWFpsRUVEMXRmWm1GQmRIR0tIWEZlTSsvdXJjaGxOdnR5SUI1b05PMXNJK0V4ampqRVFwdEpUVWNlUU5nZHBERkxBb3hOY1dZOVNYa0JzRHc5eTZ2STN5U1gwNFpiZFBUMThQM3ZaQ0wwZz09",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-06-13",
+   "text": "In June 2024 the municipality reported more than 100 new bicycle spaces at Dedenhausen station, funded under DB's Bike+Ride programme, used by commuters towards Hannover or Wolfsburg and well taken up soon after completion.",
+   "source_title": "Neue Fahrradabstellmöglichkeiten am Bahnhof in Dedenhausen errichtet (Gemeinde Uetze)",
+   "source_url": "https://www.uetze.de/portal/meldungen/neue-fahrradabstellmoeglichkeiten-am-bahnhof-in-dedenhausen-errichtet--917002537-21300.html?rubrik=917000001",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2026-10-21",
+   "text": "On 21 October 2026 the municipality reported that the electronic locking system of the Dollbergen bike+ride cage has repeatedly failed, so the Region Hannover, as operator, keeps the cage open until the fault is fixed.",
+   "source_title": "Fahrradabstellanlage am Bahnhof Dollbergen (Gemeinde Uetze)",
+   "source_url": "https://www.uetze.de/portal/meldungen/fahrradabstellanlage-am-bahnhof-dollbergen-917003076-21300.html?rubrik=917000008",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2023-07",
+   "text": "In July 2023 BayWa r.e. handed over Uetze's first fast-charging station (2 x 50 kW) at the town hall in Marktstraße near the B188, run by Ladegrün for the municipal company and advertised at 50 cents per kWh.",
+   "source_title": "BayWa r.e. übergibt offiziell E-Ladesäule an Gemeindebetrieb Uetze (press release 5 July 2023)",
+   "source_url": "https://www.uetze.de/portal/meldungen/baywa-r-e-uebergibt-offiziell-e-ladesaeule-an-gemeindebetrieb-uetze-917002334-21300.html?rubrik=917000001",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2023-09",
+   "text": "In September 2023 the first Uetze parklet, a wooden seating structure standing in place of parked cars and lent free by the Region Hannover's MobilNetzWerk, was opened at Apothekenstraße 1.",
+   "source_title": "Ein Parklet für Uetze - Parklet statt Parkplatz (Gemeinde Uetze)",
+   "source_url": "https://www.uetze.de/portal/meldungen/ein-parklet-fuer-uetze-parklet-statt-parkplatz-917002370-21300.html?rubrik=917000001",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-01-15",
+   "text": "From June 2024 Uetze trialled speed 20 on Kaiserstraße and one-way traffic on Bentestraße around Hindenburgplatz, later with part of Bentestraße closed. The January 2025 evaluation found no clear fall in traffic volumes but lower speeds, about 70 percent support for speed 20, and in the on-site survey 47 and 43 percent arrived by own car (two stages) with 93 percent of car arrivals finding a space directly.",
+   "source_title": "Präsentation Mobilnetzwerk Verkehrsversuch Hindenburgplatz (15 January 2025)",
+   "source_url": "https://www.uetze.de/downloads/datei/YTAwY2U0ZmI0YmFkOTJmOXFRSEpwNnduamZFdUhwS0tCT1ZQTUR5TGNNbFBSNW4vYjl5YnhUUHpIVUZhQjVQVVJpY0wvMzVBdjVNL2lYNjUvQzBGdjdvaEFTb3BKeDZ6emM1Y0xSMnVHWXFzT05adi95aHdQaUdqa1M2WnJsU2drbm84blcxRzhvUFhQVmIwbk5oQnFFdWJYbGxxZE5TMWFlaG0zZUVFcTF0UDdybVNVd2xVQ3VDOFhTZz0",
+   "confidence": "medium"
+  },
+  {
+   "topic": "demand",
+   "date": "2025-01-15",
+   "text": "A University of Hannover household survey (May-June 2024, about 2,000 returns from Ortsteil Uetze) found 56.9 percent use a car or motorbike daily or almost daily; the authors conclude car traffic is very important locally because public transport is weak or seen as weak.",
+   "source_title": "Verkehr in der Ortschaft Uetze: Haushaltsbefragung 2024 (Leibniz Universität Hannover)",
+   "source_url": "https://www.uetze.de/downloads/datei/OGJkMzQ1OGYwYzEwZjhmY1BTWnZHcmhpVVRZQ1lOT2hSNGFQV1ZQdTl1aEc0MTZqNVVsSjk0TzY3VnVGRDVaa3JyMlBoOHM3RmZ6S2ZyaXZPZTJ4NWtBZXdjb05CcjhMazFUeWs0N0U2czVOaTJaUm5CQUVJZTNlOXI5N01HeCtnODk0R1pQeW5CQmMvbm85dm1pb0F1RmlNVm1ESlZaRHd6YkZwZz09",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2019",
+   "text": "The municipality's retail concept update (CIMA, 2019, adopted by the council) names the Uetze centre around Hindenburgplatz as main centre and suggests linking the Edeka customer car park with Hindenburgplatz to improve walking access; it sets no parking tariffs or zones.",
+   "source_title": "Fortschreibung des Einzelhandelskonzeptes für die Gemeinde Uetze 2019",
+   "source_url": "https://www.uetze.de/bauen-wirtschaft/wirtschaftsfoerderung/einzelhandelskonzept/",
+   "confidence": "medium"
+  },
+  {
+   "topic": "regulation",
+   "date": "2026-09-09",
+   "text": "DB InfraGO announced (9 September 2026; posted by the municipality 9 October 2026) a Hannover-Berlin corridor renovation from 2 October 2026 to December 2027, with the Lehrter Stammbahn largely closed to trains and a detailed regional rail concept from December 2026 still being agreed, with replacement buses planned. The release does not name Dollbergen or Dedenhausen.",
+   "source_title": "Presseinformation Deutsche Bahn Bau- und Verkehrskonzept (via Gemeinde Uetze)",
+   "source_url": "https://www.uetze.de/portal/meldungen/presseinformation-deutsche-bahn-bau-und-verkehrskonzept-917003065-21300.html?rubrik=917000008",
+   "confidence": "medium"
+  }
+ ],
+ "gaps": [
+  "No municipal parking tariff, parking-disc zone, resident-parking or Stellplatzsatzung found: the uetze.de search for these terms returned none, and the Ortsrecht index (PDF dated January 2013) lists no parking statute; absence is not proven and the current Ortsrecht pages were not fully opened.",
+  "Uetze council information system (uetze.de Ratsinformationssystem, allris paths returned 404) and Region Hannover committee papers on Dedenhausen P+R expansion could not be opened or found.",
+  "https://www.deutscherpresseindex.de/?p=688886 (copy of the Region press release on the Dollbergen opening) showed only a maintenance page; the AltkreisBlitz report was used instead. The original Region Hannover press release was not found.",
+  "https://www.mw.niedersachsen.de/download/114252/OePNV_Flaechenprogramm.pdf returned a maintenance page (state funding list).",
+  "Bebauungsplan Nr. 7 'Zum Bahnhof' Dedenhausen (uetze.de PDFs BP_02_07 and BP_02_07A) are scanned images without readable text, so any link to a P+R extension could not be checked.",
+  "Why the Region portal shows 62 Dedenhausen and 133 Dollbergen spaces while DB lists 50 and 40+44+28, and whether the Dollbergen 133 is the total or the 2021 addition, is not explained by any source read; the 2021 reports say 133 were added to 84 existing spaces.",
+  "No source found on the Dedenhausen P+R construction date, any enlargement after 2020, EV charging at the stations, or utilisation statements beyond the 2019 and 2020 reports; Uetze's bus lines (946, 950, AST/sprinti) were seen only as names on the VMZ portal.",
+  "Verkehrsversuch decisions by the council after January 2025 (whether Kaiserstraße speed 20 or Bentestraße changes became permanent) were not found; trial figures come from presentation slides and a survey chart mapping for parking-related questions was too ambiguous to use.",
+  "The Region's night parking ban (since May 2025) applies to 20 Stadtbahn P+R sites per the Region's page and was not recorded as applying to Uetze's rail sites."
+ ]
+}

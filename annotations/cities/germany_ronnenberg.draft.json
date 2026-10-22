@@ -1,0 +1,160 @@
+{
+ "country": "Germany",
+ "city": "Ronnenberg",
+ "researched": "2026-10-21",
+ "summary": "Ronnenberg (Region Hannover) has no paid on-street parking regime that could be found: its published statutes list no parking-fee or parking-space statute, parking discs apply in places such as Bröhnstraße in Weetzen and Nenndorfer Straße, and enforcement is limited to about 50 staff hours a week with fines processed by the Region. The main public car parks are free park-and-ride lots, listed by DB at 197 spaces in Weetzen, 33 at Ronnenberg station and, per the Region, 80 at the Empelde Stadtbahn terminus, which was reported mostly full in 2024 and relieved by a 70-space lot opened on the Hannover side of the border in March 2024. Regional plans from 2020 gave Weetzen high priority for P+R extension, the line 500 bus was extended to Weetzen station in November 2024, and the city counts 45 public charge points at 17 sites, including 22 kW points at all three P+R sites.",
+ "items": [
+  {
+   "topic": "regulation",
+   "date": "2026-10",
+   "text": "The city's list of local statutes (Stadtrecht, read on 21 October 2026) contains fee, street-cleaning and street-works statutes but no parking-fee statute, resident-parking scheme or off-street parking-space (Stellplatz) statute by title. This is an absence in a list, not a statement by the city.",
+   "source_title": "Satzungen und Verordnungen - Stadt Ronnenberg",
+   "source_url": "https://www.ronnenberg.de/service/satzungen-und-verordnungen/",
+   "confidence": "low"
+  },
+  {
+   "topic": "regulation",
+   "date": "2020-01",
+   "text": "The Weetzen local council was told in November 2019 and January 2020 that parking bays in a section of Bröhnstraße would get time-limited parking with a parking disc (8:00-18:00), but in January 2020 the signs had not yet been put up.",
+   "source_title": "Ortsrat Weetzen, 20.01.2020, TOP 3.1 Bericht des Ortsbürgermeisters (Wortprotokoll)",
+   "source_url": "https://ratsinfo.ronnenberg.de/public/to020?TOLFDNR=1004413",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2021-06",
+   "text": "In June 2021 residents told the council that many cars park without a parking disc on Nenndorfer Straße and side streets (Bruchstraße, Kopernikusstraße, Härkenstraße); the mayor said the city knew and was checking more often there, and was examining a temporary parking ban on street-sweeping days.",
+   "source_title": "Rat der Stadt Ronnenberg, 21.06.2021, TOP 9 Einwohnerfragestunde (Wortprotokoll)",
+   "source_url": "https://ratsinfo.ronnenberg.de/public/to020?TOLFDNR=1006752",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-09",
+   "text": "In a reply to a council inquiry of 17 September 2025, the mayor said parking enforcement is done by six marginally employed staff giving about 50 hours a week, that fines are processed by the Region Hannover, and that the aim of enforcement is traffic education, not maximum revenue.",
+   "source_title": "Beantwortung der Anfrage AF/0067/2025/01 (Park- und Verkehrssituation Mesterwinkel), Ratsinformationssystem",
+   "source_url": "https://ratsinfo.ronnenberg.de/public/vo020?VOLFDNR=1003867&refresh=false",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2025-09",
+   "text": "The same reply explained that under the Lower Saxony building code the duty to provide parking spaces for dwellings no longer applies where the building application was submitted after 30 June 2024, so the city saw no basis to check 129 plots in the Mesterwinkel area.",
+   "source_title": "Beantwortung der Anfrage AF/0067/2025/01 (Park- und Verkehrssituation Mesterwinkel), Ratsinformationssystem",
+   "source_url": "https://ratsinfo.ronnenberg.de/public/vo020?VOLFDNR=1003867&refresh=false",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2015-07",
+   "text": "At an expert meeting on the town development concept on 21 July 2015, the administration said building permits normally required 2 parking spaces per dwelling, and noted that garages are often used as storerooms so cars end up in the street. Participants also listed missing short-term and pick-up parking at the Empelde Stadtbahn loop and station as a weakness.",
+   "source_title": "ISEK Zukunftsdialog 2030: Expertengespräch Mobilität und Verkehr, 21.07.2015",
+   "source_url": "https://www.ronnenberg.de/downloads/datei/ZjBhMTQyOTNlNWFmOWVlMGZWdS9OdWU0SUJBNmFXRVFBN29jQjhLYUlodEJhSzlOUEh0dlU4cmlXa1RhZHhMZS9odXBxUU9nb1VKT3RLSi9JUG9xNlNpQXQ4L2tycnlLSVFEcXEyckJXcXpjZ0ZxckVhZ2lQUVdVRjhLSjM4RHNzUHpLeTJ6RjllQ3p3SGlvbEdSUk1iREVDZmtPRFF0VVJ6cWczZkwwdkZkTmZNVkxxSWY4eFdKRGRJRT0",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The DB station page (read on 21 October 2026) lists the open P+R Weetzen Bahnhof car park at An den Kleingärten with 197 spaces, open 24 hours every day including public holidays; it lists no tariff. ",
+   "source_title": "Parken - S-Bahnhof Weetzen (DB)",
+   "source_url": "https://www.bahnhof.de/weetzen/parkplaetze",
+   "confidence": "medium"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2026-10",
+   "text": "The Hannover city page on parking (read on 21 October 2026) says all park-and-ride sites in the GVH area, about 6,100 car spaces in total, can be used free of charge and are open around the clock.",
+   "source_title": "Mit dem Auto unterwegs - Parken (hannover.de)",
+   "source_url": "https://www.hannover.de/Service/Mobil-in-Hannover/Parken",
+   "confidence": "medium"
+  },
+  {
+   "topic": "tariffs",
+   "date": "2020-04",
+   "text": "The Region Hannover's local transport plan (document dated April 2020) said use of bike-and-ride and park-and-ride sites was free, but fees might be introduced in future, mainly for multi-storey car parks. It rated Weetzen P+R as high priority (category 1) and the Empelde Stadtbahn P+R as category 1, while Ronnenberg and Empelde S-Bahn stations were category 3. The plan lists the Weetzen P+R extension as completed in 2019.",
+   "source_title": "Nahverkehrsplan 2020 (Region Hannover), P+R/B+R Ausbaukonzept",
+   "source_url": "https://hannover.de/content/download/821928/20933691",
+   "confidence": "medium"
+  },
+  {
+   "topic": "technology",
+   "date": "2021-05",
+   "text": "In May 2021 the Region Hannover said it digitally records occupancy at five pilot park-and-ride sites, including Weetzen with 196 spaces, and uses the traffic management centre (VMZ) to route drivers to free spaces via a navigation app.",
+   "source_title": "Noch Platz für mein Auto (Region Hannover, 4 May 2021)",
+   "source_url": "https://www.hannover.de/Leben-in-der-Region-Hannover/Verwaltungen-Kommunen/Die-Verwaltung-der-Region-Hannover/Pressebereich-Region-Hannover/Archiv-Pressemitteilungen/2021/Noch-Platz-für-mein-Auto",
+   "confidence": "high"
+  },
+  {
+   "topic": "regulation",
+   "date": "2022-06",
+   "text": "In its June 2022 comments on the Region's transport development plan VEP 2035+, Ronnenberg said an extension of the park-and-ride lots at Weetzen and Linderte/Holtensen should be examined, noting the Region's utilisation studies gave low priority to more P+R in the town. The city also asked for roofed, lockable bike parking at Weetzen and Empelde and for solar roofs and e-car charging at P+R sites.",
+   "source_title": "Stellungnahme der Stadt Ronnenberg zum VEP 2035+ (VO/0563/2022)",
+   "source_url": "https://ratsinfo.ronnenberg.de/public/vo020?VOLFDNR=1002683&refresh=false",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2018-04",
+   "text": "In 2018 the city objected to the planned Hermann-Ehlers-Allee P+R lot on the Hannover side of the border, expecting users mainly from the B 65 and the south-west, so that no major relief for the existing Empelde P+R and neighbouring housing was to be expected. The city also noted that no origin survey had been done at the Empelde loop lot.",
+   "source_title": "Ratsrundschreiben RR/230/2018: Hochbahnsteig und P+R Hermann-Ehlers-Allee",
+   "source_url": "https://ratsinfo.ronnenberg.de/public/vo020?VOLFDNR=1000631&refresh=false",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2024-03",
+   "text": "The Region's Infra said the 70-space park-and-ride at Hermann-Ehlers-Allee (Hannover-Badenstedt, on the border with Ronnenberg-Empelde, line 9) opened on 20 March 2024 with a sensor in every space showing live occupancy online. This is a Hannover site, context for Empelde.",
+   "source_title": "Neue Park&Ride-Anlage in Badenstedt - Hannover.de",
+   "source_url": "https://www.hannover.de/Service/Presse-Medien/Hannover.de/Aktuelles/Service-2024/Neue-Park-Ride-Anlage-in-Baden%C2%ADstedt",
+   "confidence": "high"
+  },
+  {
+   "topic": "demand",
+   "date": "2024-03",
+   "text": "In 2024 the Infra said the 80-space park-and-ride at the Empelde terminus of Stadtbahn line 9 was mostly completely occupied, while the new Badenstedt lot was used hesitantly at first, and asked drivers from Gehrden, Barsinghausen or Bad Nenndorf to use Badenstedt when Empelde is full.",
+   "source_title": "Neue Park&Ride-Anlage in Badenstedt - Hannover.de",
+   "source_url": "https://www.hannover.de/Service/Presse-Medien/Hannover.de/Aktuelles/Service-2024/Neue-Park-Ride-Anlage-in-Baden%C2%ADstedt",
+   "confidence": "high"
+  },
+  {
+   "topic": "technology",
+   "date": "2025-11",
+   "text": "The Region said on 7 November 2025 that Weetzen station bus link line 500 (extended from Gehrden from the November 2024 timetable change as a three-year trial) ran every 10 minutes Monday to Friday 6:00-19:00; boardings at the Weetzen/Bahnhof/Westseite stop on lines 500, 520 and 522 averaged 770 per weekday in the third quarter of 2025.",
+   "source_title": "Erfolgreicher Verkehrsversuch durch Verlängerung der Linie 500 (Region Hannover, 7 Nov 2025)",
+   "source_url": "https://www.hannover.de/Service/Presse-Medien/Hannover.de/Aktuelles/Service-2025/Erfolg­rei­cher-Ver­kehrs­ver­such-durch-Ver­län­gerung-der-Linie-500",
+   "confidence": "high"
+  },
+  {
+   "topic": "operators",
+   "date": "2026-10",
+   "text": "The city's car-sharing page (read on 21 October 2026) says stadtmobil Hannover has served Ronnenberg since 2021 and since April 2025 offers three cars in Empelde, including a petrol Ford Focus at the P+R car park Auf dem Rade at the line 9 terminus.",
+   "source_title": "Carsharing - Stadt Ronnenberg",
+   "source_url": "https://www.ronnenberg.de/leben/umwelt-und-natur/mobilitaet/carsharing/",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2026-10",
+   "text": "The city's charging page (read on 21 October 2026) reports 45 public charge points with 3,938 kW at 17 sites, after eight more high-power chargers opened in November 2025 at the retail car parks at Berliner Straße 23. It lists 22 kW points at the P+R sites Empelde (Auf dem Rade 3), Ronnenberg station (Benther Straße) and Weetzen station (Am Steinkamp 1).",
+   "source_title": "Ladeinfrastruktur - Stadt Ronnenberg",
+   "source_url": "https://www.ronnenberg.de/leben/umwelt-und-natur/mobilitaet/ladeinfrastruktur/",
+   "confidence": "high"
+  },
+  {
+   "topic": "ev",
+   "date": "2025-11",
+   "text": "In a statement for the planning committee of 19 November 2025, the administration said EnBW has operated four fast chargers (one 300 kW, three 150 kW) on 8 leased spaces at the Chemnitzer Straße retail centre since February 2024, and advised against a pilot solar roof there (cost about 120,000 euros, retail-centre owner Edeka sees no economic case). The centre has over 300 private spaces.",
+   "source_title": "Stellungnahme zum Antrag Photovoltaik-Überdachungen von Ladestationen (AN/0245/2025/01)",
+   "source_url": "https://ratsinfo.ronnenberg.de/public/vo020?VOLFDNR=1003886&refresh=false",
+   "confidence": "high"
+  }
+ ],
+ "gaps": [
+  "No Ronnenberg paid-parking, resident-parking or Stellplatzsatzung document found (statute list at https://www.ronnenberg.de/service/satzungen-und-verordnungen/ shows none); the Parkscheibe areas (Bröhnstraße, Nenndorfer Straße) are known only from 2019-2021 council minutes, current signs and times not verified.",
+  "Region Hannover Nahverkehrsplan 2021 final PDF (https://www.lnvg.de/fileadmin/user_upload/Region_Hannover_-_NVP_2021_Internet.pdf) returned an HTML page instead of a PDF; the April 2020 plan version on hannover.de was used instead, so the final priorities may differ.",
+  "Weetzen P+R capacity differs by source (DB 197, Region 2021 196, a listing portal not used 273); no current count or utilisation statement by the city found, and no completed extension date beyond the Region's '2019 completed' note.",
+  "No Ronnenberg-specific parking guidance or open-data system, no council decision on Empelde centre parking, and no local press articles (HAZ, Calenberger Zeitung) were opened or searched in depth.",
+  "The Bürgerversammlung minutes (2019) and the Weetzen charging motion (2022) are short council documents; the motion's attachment text was not read.",
+  "EnBW press release on the 2024 Ronnenberg fast-charging site (enbw.com PDF) and the Region's line 500 2024 decision release were not opened."
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Page 'Kostenfrei parken und die Innenstadt zu Fuss erkunden' carries 'Meldung vom 20.10.2026'. It says the new Stadtmarketing Parkkarte shows seven designated car parks ('sieben ausgewiesene Parkplaetze') in the direct inner-city area, usually free ('in der Regel kostenfrei') but time-limited, mostly one to two hours; free of charge at the Tourist-Information in the Alten Rathaus, Zum Niederntor 26. All claims match. The page does not list the seven car parks or say they equal P1-P7 of the brochure.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "Page is undated. 'Bei uns bezahlen Sie keine Parkgebuehren. Mit Hilfe von Parkscheibenregelungen finden Sie jederzeit einen kostenfreien Parkplatz.' It also describes the pedestrian zone plus traffic-calmed areas with parking directly in front of shops to ease loading. Matches. It is a marketing statement, not a legal tariff or parking-disc zone list; the linked 'Uebersicht: Parken in Springe' JPG was not read. I read the page on 22 Oct 2026 (the draft says 21 Oct).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "supported",
+   "note": "Brochure 'Ausflugstipps und Stadtplan 2025' (48 pages, text extracted from all pages) has under PARKPLAETZE / PARKLEITSYSTEM: P1 an der Feuerwehr, Auf dem Burghof; P2 Rathaus/Museumshof; P3 an der Alten Schule, Schulstrasse; P4 im Hof der Bahnhofstrasse 5; P5 Parkpalette, Nordwall; P6 zwischen Heidstrasse und Nordwall; P7 Echternstrasse; plus P+R at the stations Springe, Bennigsen and Voelksen. BUSPARKPLAETZE: Am Jagdschloss; Stadt: Harmsmuehlenstrasse, Hamelner Strasse. All text claims match. The month 'January' in the date is not on the page: the brochure only says 2025 (event list 'Stand November 2024'), so the date should be 2025.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": "2025"
+  },
+  {
+   "index": 3,
+   "verdict": "supported",
+   "note": "Council paper (Drucksache 63/2021-2026-5) is dated 20.10.2023 (the RIS lists the annex as uploaded 25.10.2023). ISEK text: 'Die Kernstadt verfuegt generell ueber ein ausreichendes Parkplatzangebot'; relatively many short-stay areas behind the main streets; 'ausnahmslos ebenerdig'; heavy morning search traffic at the BBS; the town hall new-build on the Burghof will remove many spaces students use ('perspektivisch'). All match. For balance the ISEK also lists a 'teilweise verbesserungswuerdige Parkraumsituation' in the inner city and calls the situation 'unuebersichtlich' (project sheet). Needed context: the paper proposed council adoption on 14 Dec 2023, but the council minutes (15th Rat session, 14 March 2024, TOP 11.1) record adoption with 33 yes, 0 no, 0 abstentions.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 4,
+   "verdict": "partly",
+   "note": "Project sheet 'Projekt 2: Erneuerung/Optimierung der Parkraumlenkung in der Innenstadt bzw. Etablierung eines Parkleitsystems' (ISEK p. 287) calls the system 'veraltet', lists Konzepterarbeitung 20,000 EUR and Umsetzung 300,000 EUR, possible digital availability displays on the large approach roads, an app link, and bike/e-car/e-bike charging information. Funding source named: 'Resiliente Innenstaedte' (Land programme). Figures and content match. The closing words 'a proposal, not a decision' are out of date: the whole ISEK, including this project sheet, was adopted by the council on 14 March 2024 (33-0-0, public minutes of the 15th Rat session). The adoption is of the concept; I found no funding or implementation decision for this project.",
+   "corrected_text": "The urban development concept (ISEK, council paper dated 20 October 2023) calls the existing parking guidance system outdated and proposes renewing it. Its project sheet estimates 20,000 euros for a concept and 300,000 euros for implementation, possibly with digital availability displays on the large approach roads, an app link and bike and EV charging information, and names a state programme for resilient town centres as the funding source. The council adopted the concept on 14 March 2024 (33 yes, no no votes, no abstentions); I found no funding or implementation decision for the guidance project itself.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 5,
+   "verdict": "supported",
+   "note": "Report is signed 'Berlin, 16.04.2026' (IPM, 129 pages; council paper 1155/2021-2026 dated 06.05.2026, presented to the finance committee 21.05.2026 for information). Section 4.8: about 1,471 candidate areas ('Flaechen') incl. Park+Ride, 50 % use, 0.50 EUR per space and hour, max 10 hours, 300 days a year, gives about 783,000 EUR (ohne Park+Ride). Matches (the page says 'Flaechen'; the draft's 'spaces' is an interpretation). Table shows 783,000 EUR a year for 2026-2029 as a planned yield and 'Umsetzungszeitpunkt 2026'; it is an estimate, not a decided tariff. Follow-up: the Haushaltssicherungskonzept 2026 (Drucksache 1044) lists the same 783,000 EUR a year from 2026 as a measure and the council adopted that concept on 29 Jan 2026 (27 yes, 8 no) 'with all changes up to the vote'; I could not see what was changed.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "Section 4.8 says the council had partly spoken against including park-and-ride sites; the contractor sees nothing against it in principle ('zumindest dem Grunde nach'); the department head finds first a very high staff effort needed, a camera-supported parking management at the Parkpalette is currently being examined, and 'nach Ratsbeschluss' a test phase could be considered once first results exist. All match.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "supported",
+   "note": "Section 3.12/3.13: of 37 voting-eligible members 29 took part; traffic-light system; majority grade 1 are to be developed to decision readiness. Results table row 'Einfuehrung von Entgelten fuer Parkraumbewirtschaftung': overall grade 1, 29 votes, grade 1 = 16, grade 2 = 11, grade 3 = 2, abstentions = 0 (16+11+2 = 29). So the brief's '3 grade 3' is wrong; 2 is right. Workshop was 16.11.2024; the report says the results were presented to the administration in early 2025 and refers to a protocol sent by mail on 9 Jan 2025, so '9 January 2025' is the date of the results presentation as the draft says.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "Beschlussvorlage 1044/2021-2026 is dated 17.12.2025 (finance committee 14.01.2026, council 29.01.2026). Annex 2 text on 'Einfuehrung von Entgelten fuer Parkraumbewirtschaftung': camera-supported parking management at the Parkpalette is currently being examined; test phase possible after a council decision; 'FDe 32 und 66 steigen in die Umsetzung im Rahmen einer Projektgruppe ein'. The deficit is the draft budget's: the concept says about 10.029 million EUR, the paper text says 10,290,000 EUR (the page contradicts itself; 'about 10 million' is fine). Outcome now known: finance committee deferred it on 14 Jan 2026; the council adopted the concept on 29 Jan 2026 with 27 yes, 8 no, 0 abstentions (a decision document dated 25 Feb 2026). Its Annex 1 lists introduction of parking management as a measure with 783,000 EUR a year from 2026, motorhome fees 21,900 EUR a year from 2027. This is a planned yield, no tariff is shown.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Section 4.9: about 20 candidate areas, 30 % use, 10 EUR per day, 365 days gives about 22,000 EUR (20x0.3x10x365 = 21,900). Department head finds it of little use because motorhomes would move to free car spaces; an expansion of motorhome pitches at the pool (water, power, disposal) is planned, so a fee could be examined in future. Matches. (The town's traffic page lists the pitches at the Hallenbad car park as 'reine Stellplaetze' without infrastructure.)",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Drucksache 461-2/2021-2026 is dated 21.05.2026. The 2-page paper itself does not mention park-and-ride; the figures are in its Annex 3 (Begruendung, Stand Mai 2026): 'gehen die derzeit 73 vorhandenen Park-and-Ride Stellplaetze verloren', to be absorbed by parking along Bahnhofstrasse, the P+R site at Jaegerallee ('derzeit nur eine geringe Auslastung'), 14 further car spaces and an extension of the P+R site Ost. All match. Note: this site is not obviously the 60-space P+R that DB and the town list on the south side of the tracks (see item 12); the 73 and 60 are not reconciled.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Council decision document 'Beschluss' TOP 8.1, 32nd Rat session 25.06.2026: adoption of the plan as Satzung (section 10 BauGB) with 31 yes, no no votes ('-'), 1 abstention. The Begruendung (Annex 3) says the Region Hannover, as the local public transport authority, wants to prepare the redesign of the central bus station. Matches. The adoption is of the land-use plan; construction by the Region has not been shown.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "bahnhof.de page 'Parken - S-Bahnhof Springe': 'Offene Parkmoeglichkeit', Buergermeister-Peters-Strasse, Stellplaetze insgesamt 60, Mo-So incl. Feiertage 00:00-00:00. Town traffic page: 'Auf der Suedseite der Gleisanlagen - an der Friedrich-Baehre-Strasse - befindet sich eine Park+Ride Anlage mit 60 kostenlosen Pkw-Stellplaetzen, inklusive zwei behindertengerechten'. Both claims match; the DB page itself does not say it is free (the town page does) and the two pages give different street names. Read on 22 Oct 2026; no page date.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "supported",
+   "note": "bahnhof.de page 'Parken - S-Bahnhof Voelksen-Eldagsen': 'P+R Voelksen', Suedfeldstrasse 4, 289 Stellplaetze insgesamt, open Mo-So incl. Feiertage 00:00-00:00. Region Hannover press release of 4 May 2021 'Noch Platz fuer mein Auto?': S-Bahn station Voelksen/Eldagsen (233 Plaetze). Both match. The 233 vs 289 gap is unexplained (the press release may refer to a different count or the car park may have grown); our feed's 222 is a third figure.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Region Hannover press release 'Noch Platz fuer mein Auto?', 'Veroeffentlicht am 4. Mai 2021': sensors for recording occupancy installed at five 'Pionier' sites (Voelksen/Eldagsen 233, Weetzen 196, Dedensen/Guemmer 102, Wissenschaftspark Marienwerder 310, Nordhafen 180), data on www.vmz-regionhannover.de, more P+R sites 'nach und nach' to follow; aim to steer event traffic (large events) and commuters to free P+R spaces. All match. Minor: it is a press release of the Region (about its traffic management centre), and it is five years old; status of the pilot today is not shown.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "hannover.de page 'Parken': 'Im Verkehrsgebiet des Grossraum-Verkehr Hannover (GVH) gibt es zur Zeit rund 6.100 Stellplaetze fuer PKW. Alle Park + Ride Anlagen koennen kostenlos genutzt werden, und sind rund um die Uhr geoeffnet.' Matches. Live page, undated; read 22 Oct 2026.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "Traffic page: 'Es gibt neun oeffentliche E-Ladesaeulen der Stadtwerke in Springe.' Kernstadt six (Kundenbuero Zum Oberntor 19; Rathaus Auf dem Burghof 1; parking opposite the station Bahnhofstrasse/Ecke Buergermeister-Peters-Strasse; Stadtwerke Biermannskamp 5-7; Zum Oberen Felde 10; Philip-Reis-Strasse 4-6); Ortsteile three (Eldagsen Lange Strasse 63/65; Bahnhof Bennigsen; Bahnhof Voelksen/Eldagsen). Matches. The page does not give power or tariffs; the page is undated.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Council paper 211/2021-2026 dated 28.04.2022: PUKA 31.05.2022 recommends that the Verwaltungsausschuss (VA, 23.06.2022) agree to the VEP 2035+ of the Region; the Kurzfassung (7 pages) proposes in grown town centres of the region 'konsequente Parkraumbewirtschaftung und Parkdauerbeschraenkung' and further expansion of safe Bike&Ride facilities at stations; the measures are 'Vorschlaege'. Matches, except that the body asked to agree is the Verwaltungsausschuss (executive committee), not a plain committee. The text is regional and does not name Springe, so its relevance to Springe is only indirect.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Springe (about 30,000 inhabitants in 12 districts, about 13,000 in the core town) states on its Stadtmarketing page that it charges no parking fees and that free parking is found through parking-disc rules; its parking map announced on 20 October 2026 shows seven designated city-centre car parks that are usually free but time-limited, mostly to one or two hours, and the 2025 excursion brochure lists seven numbered car parks P1 to P7 (including the Parkpalette at Nordwall) plus coach parking. The page does not say that the seven car parks on the map are the same as P1 to P7. Park-and-ride is free and open round the clock in the GVH area (about 6,100 spaces): Deutsche Bahn lists 60 spaces at Springe station and 289 at Voelksen, against 233 named by the Region in May 2021. The town lists nine public EV charging posts run by the Stadtwerke. The new central bus station plan (Bebauungsplan Nr. 88) was adopted by the council on 25 June 2026 (31 yes, no no votes, 1 abstention); its justification says 73 park-and-ride spaces near the station will be lost and are to be absorbed by Bahnhofstrasse parking, the little-used Jaegerallee site, 14 new spaces and an extension of the eastern park-and-ride area. On budget consolidation, a consultant's report of 16 April 2026 estimates about 783,000 euros a year from parking fees excluding park-and-ride (an estimate on stated assumptions); in the council's traffic-light vote 16 of 29 voters gave the measure grade 1, 11 grade 2 and 2 grade 3; and the administration is examining a camera-supported system at the Parkpalette with a possible test phase after a council decision. The council adopted the 2026 budget-consolidation concept on 29 January 2026 (27 yes, 8 no); it lists the same 783,000 euros a year from 2026 as a planned measure, but the sources read show no tariff or fee statute, and the town's own page still says there are no parking fees. The 2023 urban development concept (council paper of 20 October 2023, adopted by the council on 14 March 2024) calls central parking generally sufficient, calls the guidance system outdated, and its project sheet proposes renewing it for an estimated 20,000 euros plus 300,000 euros; no funding decision for that project was found."
+}

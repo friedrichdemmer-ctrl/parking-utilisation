@@ -1,0 +1,149 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "verdict": "supported",
+   "note": "Dollbergen page on bahnhof.de lists exactly three open lots: Ladestrasse 40, Bahnhofstrasse 81 44, Berliner Allee 2 28 spaces, all Mon-Sun incl. holidays 00:00-00:00. The cited URL covers Dollbergen only; I opened https://www.bahnhof.de/dedenhausen/parkplaetze separately and it lists one open lot, Zum Bahnhof, 50 spaces, same hours. The 'differ from the Region counts' remark is the drafter's comparison (Region portal 133 and 62), which is correct as a comparison; DB's Dollbergen total is 112, not 133. Title names Dollbergen only; the text also relies on the second DB page. Live page, no date; read 21/22 October 2026.",
+   "corrected_text": null,
+   "corrected_title": "Bahnhof Dollbergen and Bahnhof Dedenhausen - Parken (bahnhof.de)",
+   "corrected_date": null
+  },
+  {
+   "index": 1,
+   "verdict": "supported",
+   "note": "VMZ page shows P+R Dollbergen, Ackerbergstrasse, 133 Stellplaetze, 2 for mobility-impaired, kostenfrei, 160 Bike+Ride places (ueberdacht), 10 motorcycle places, live free counts and hourly average profile, RE30 to Hannover Hbf (12:50, 13:50, 14:50 departures shown), buses 946 and 950 and AST. Page's embedded data also says capacity 133 + 2 disabled. Live page, undated; read 21/22 October 2026.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 2,
+   "verdict": "partly",
+   "note": "Page headline says 62 Stellplaetze, Zum Bahnhof, kostenfrei, 58 Bike+Ride places, abschliessbare Fahrradgaragen, RE30 and bus 950, live and hourly display. But the breakdown does not add up: Nord 9 car + 2 mobility-impaired, Sued 51 car + 2 mobility-impaired = 60 + 4 = 64, not 62. The page's own embedded data record also says capacity:motor_vehicle 114, which suggests the 62 shown is only part of the lot (my interpretation; the page does not say so) and matches the 113 spaces in the April 2020 CDU statement (item 8). The draft states '62 ... Nord 9, Sued 51, plus 4 accessible' as if consistent. Live page, undated; read 21/22 October 2026.",
+   "corrected_text": "The same portal (read 21 October 2026) lists P+R Dedenhausen (near B444, Zum Bahnhof) with a headline of 62 spaces, free of charge, in two areas (Nord: 9 car spaces plus 2 for reduced mobility; Sued: 51 car spaces plus 2 for reduced mobility, which sums to 64 rather than 62), 58 bike places and lockable bike garages. RE 30 and bus 950 serve the stop, and the page carries live and hourly utilisation displays. The page's underlying data record lists 114 car spaces, so the 62 shown may cover only part of the site.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 3,
+   "verdict": "partly",
+   "note": "NVP PDF (read all pages with pypdf). Roles are in section 4.2.2.2 (not 4.2.2.3): 'Aufgabentraegerin und haeufig Bauherrin ist die Region Hannover ... mit Hilfe von Landes- und Bundesfoerdermitteln'; 'Die Kommunen oder infra als Eigentuemer verwalten und unterhalten die Anlagen'. 'haeufig' = often, not 'usually'. Section 4.2.2.3: 'Derzeit ist die Nutzung von Bike+Ride- und Park+Ride-Anlagen kostenfrei. Davon kann gegebenenfalls zukuenftig abgewichen werden', fees could make sense for casual users of bike garages or for parking decks. Date: cover says April 2022 (document is 'Nahverkehrsplan 2021'); nothing in the PDF supports 2021-06.",
+   "corrected_text": "The Region Hannover's Nahverkehrsplan 2021 (cover dated April 2022) says the Region is the responsible authority and often the builder of park-and-ride sites, financed with state and federal funds, while the municipalities or the infra company own, administer and maintain them. It says use of bike+ride and park+ride sites is currently free of charge, that this may change in future, and that fees could make sense for casual users of bike garages or for users of parking decks.",
+   "corrected_title": "Nahverkehrsplan 2021 (Region Hannover), sections 4.2.2.2 and 4.2.2.3",
+   "corrected_date": "2022-04"
+  },
+  {
+   "index": 4,
+   "verdict": "supported",
+   "note": "Section 4.2.2.2: P+R 'sollen dezentral ... an allen SPNV Stationen eingerichtet werden', 'wohnortnah'. Section 4.2.2.5: priorities 1=high, 2=medium, 3=low; 'Durch Erfassung der Auslastungszahlen ... 2018 eine Aktualisierung des P+R/B+R Konzeptes'. Table captioned 'Tabelle 17: Ausbauprioritaeten fuer Bike+Ride und Park+Ride an SPNV Stationen': Dollbergen P+R 1, B+R 1; Dedenhausen P+R 2, B+R 3* (the asterisk has no footnote in the extracted text). Also the roadmap list (page 112) shows Dollbergen as 'laufendes Projekt, Ausbau 2019/2020'. Date: cover April 2022, not June 2021.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": "2022-04"
+  },
+  {
+   "index": 5,
+   "verdict": "partly",
+   "note": "Section 4.2.2.1 (bike+ride garages, page 86): 'Lademoeglichkeiten werden vom taeglichen Pendler - nach bisherigen Erfahrungen - nicht stark nachgefragt. Nach bisherigen Erfahrungen werden E-Lademoeglichkeiten nicht nachgefragt.' The statement sits in the Bike+Ride paragraph about garages with lockers; it does not say whether the charging is for e-bikes or cars, and the second sentence is stronger than 'not much used' (not demanded). Topic 'ev' risks being read as car charging. Date: cover April 2022.",
+   "corrected_text": "In its description of bike+ride garages, the Nahverkehrsplan 2021 (cover dated April 2022) says that, according to experience so far, charging options are not strongly demanded by daily commuters and that e-charging options are not demanded. The passage is in the bike+ride section and does not say whether it concerns e-bike or car charging.",
+   "corrected_title": null,
+   "corrected_date": "2022-04"
+  },
+  {
+   "index": 6,
+   "verdict": "supported",
+   "note": "AltkreisBlitz, 23 Oct 2019: up to 150 cars of rail customers counted daily around the overloaded facilities; transport committee 'am heutigen Mittwoch, 23. Oktober 2019' agreed about 1.1 million euros as Vorfinanzierung; building planned for the next year; about 1,700 users on weekdays; P+R south 57, north 27; first stage 133 more car spaces (2 accessible), second stage 'bei Bedarf' 92 more. Matches. Single local-news source (K4 Media), no AI label seen; the Region press release itself was not found.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 7,
+   "verdict": "partly",
+   "note": "AltkreisBlitz 28 Sep 2021: 'Platz fuer 133 zusaetzliche Autos', ab sofort zur Nutzung freigegeben; Pflanzarbeiten und Beschilderung stehen noch aus, Beleuchtung funktioniert; next steps barrier-free bus stop and new B+R for 160 bikes (replacing the existing one) plus ten motorcycle spaces; total cost 1.1 million euros. But the 133 are ADDITIONAL: 'Bisher standen insgesamt 84 Stellplaetze ... zur Verfuegung'. The draft's 'replacing a previous total of 84 spaces' is wrong (what is replaced is the old bike facility). The VMZ page showing 133 in total therefore conflicts with 84 + 133 = 217; no source explains it.",
+   "corrected_text": "On 28 September 2021 AltkreisBlitz reported that the new Dollbergen P+R area with 133 additional car spaces was open for use (planting and signage still to come, lighting working), on top of the 84 spaces previously available on the north and south sides. A step-free bus stop, a new bike+ride facility for 160 bicycles replacing the existing one, and ten motorcycle spaces were to follow; the Region expected total costs of about 1.1 million euros.",
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 8,
+   "verdict": "supported",
+   "note": "AltkreisBlitz 22 Apr 2020: Regions-CDU leader Schlossarek says the answer to his March 2020 question showed 'werktags nahezu alle 113 PKW Stellplaetze' occupied, capacity limit reached, Uetze and Region see need; ground-level expansion planned, no schedule, depends on land purchase and a B-plan; the Region's administration first wants to expand neighbouring Dollbergen and check shifts. Worded correctly as a party statement relaying a Region answer. The 113 differs from the portal's 62, but the portal's embedded data lists 114 car spaces (see item 2), so the mismatch is probably a display/partial-count issue, not an error in the 2020 statement. Low confidence appropriate (party press release via local news).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 9,
+   "verdict": "supported",
+   "note": "Municipal Pressedienst Nr. 16, dated 06.03.2023: northern part of the P+R lot at Bahnhof Dedenhausen fully closed Thursday and Friday 09.+10.03.2023; the firm S O NAH, Aachen, will among other things install 'Bodensensoren fuer ein digitales Parkleitsystem'. Item correctly worded as announced work. The page does not confirm completion, so the draft summary ('saw ground sensors ... in 2023') should say installation was announced for March 2023.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 10,
+   "verdict": "supported",
+   "note": "Municipal item dated 13.06.2024: new bike parking at Dedenhausen station created with Deutsche Bahn; used by many commuters towards Hannover or Wolfsburg; funded by the Bike&Ride-Offensive (DB InfraGO / BMWi quoted); 'mehr als 100 Fahrradabstellplaetze', well accepted shortly after completion. Matches. Note the Region portal lists 58 B+R places at Dedenhausen, so the two counts cover different facilities or are not reconciled.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 11,
+   "verdict": "supported",
+   "note": "Municipal item 'Meldung vom 21.10.2026': the bike facility at P+R Dollbergen stays open 'bis auf Weiteres' because of recurring technical faults of the electronic locking system; per the Region the electrical connection is affecting the locks, cause being investigated; the Region as operator decided to keep the cage open until check and repair, as no short-notice emergency service is available. Matches. Very recent page (day before the draft); status may change.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 12,
+   "verdict": "supported",
+   "note": "The linked page is a stub (Meldung vom 13.07.2023) with a PDF attachment, which I read: BayWa r.e. press release 'Hamburg/Uetze - 5. Juli 2023': first Schnellladestation (2 x 50 kW) at the Rathaus in der Marktstrasse near B188, sponsored by BayWa r.e. and handed to the Gemeindebetriebe; 'wird vom Berliner Unternehmen Ladegruen verwaltet'; the mayor says cars can charge at 50 cents per kWh thanks to the sponsorship. Matches. Caveats: press release from the donor company (promotional); the 50 ct price is a July 2023 statement, not a current tariff; the municipality posted it on 13 July 2023.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 13,
+   "verdict": "partly",
+   "note": "Municipal item (Meldung vom 21.09.2023, updated 25.09.2023) is written BEFORE the event: the first Uetze parklet 'wird am Dienstag, 26.09.2023 um 13:00 Uhr, in der Apothekenstrasse 1 ... offiziell uebergeben und eroeffnet'. So 'was opened' is not confirmed by the page. Larch-wood parklet provided free ('kostenfrei') by Mobilnetzwerk Hannover and the Region Hannover; designed as a seating/meeting place; parklets in general stand in place of parked cars (general definition; the page does not say how many spaces this one replaced).",
+   "corrected_text": "A municipal notice of 21 September 2023 (updated 25 September) announced that the first Uetze parklet, a wooden (larch) seating structure of the kind that stands on parking areas instead of parked cars and was provided free of charge by the Mobilnetzwerk Hannover and the Region Hannover, would be officially handed over and opened on Tuesday 26 September 2023 at 13:00 at Apothekenstrasse 1. The page does not report the event itself.",
+   "corrected_title": "Ein Parklet fuer Uetze - Parklet statt Parkplatz (Gemeinde Uetze), announcement",
+   "corrected_date": "2023-09-26"
+  },
+  {
+   "index": 14,
+   "verdict": "supported",
+   "note": "Slides of 15 Jan 2025 info event (60 pages): 'Verkehrsversuch Juni bis August 2024'; stage 1 included one-way Bentestrasse and Tempo 20 Kaiserstrasse, stage 2 'Platzerweiterung/Teilsperrung'; summary: 'kein deutlich erkennbarer Rueckgang der Verkehrsmengen' but 'erkennbarer Rueckgang der durchschnittlichen gefahrenen Kfz-Geschwindigkeiten'; 70% of respondents support Tempo 20 (74%/72% per stage); arrival by own car 47% (stage 1, n=162) and 43% (stage 2, n=135); '93% der mit dem Pkw Angereisten konnten direkt einen Parkplatz finden'. All as written. Caveat to carry: figures come from an on-site survey of 297 people at the square and Kaiserstrasse (more women, many aged 50-75), not a representative mobility survey; the draft omits the sample size. Slides only; no council decision found.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 15,
+   "verdict": "supported",
+   "note": "Sternberg slides (Leibniz Universitaet Hannover, 15 Jan 2025): survey of Ortsteil Uetze households May/June 2024, 2,011 usable questionnaires from the Ortsteil (2,322 in total), response rate 33.2% of 6,066 delivered; 56.9% use car/motorbike daily or almost daily (n=1,900); Fazit: 'Sehr grosse Bedeutung des Individualverkehrs (insbesondere des motorisierten), da OePNV relativ schwach / als schwach wahrgenommen'. Matches. Caveat: self-selected mail/online survey; migration background under-represented (13.0% vs 20.7%), respondents 16 and older. Footers say 'Ortsrat Uetze 15.1.2024' (typo in the slides).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  },
+  {
+   "index": 16,
+   "verdict": "supported",
+   "note": "The cited municipal page confirms a 2019 Einzelhandelskonzept by CIMA, 'durch den Gemeinderat ... beschlossen'. The other claims are in the linked PDF (cima Endbericht dated 18 Nov 2019, 71 pages), which I read: 'Hauptzentrum Uetze', centre around Hindenburgplatz; page 43: 'Eine Verknuepfung von Parkplatzflaechen des Lebensmittelanbieters Edeka mit dem Hindenburgplatz kann die fussaeufige Erreichbarkeit ... verbessern.' No parking charges or zones found in the PDF (no hits for Parkgebuehr, Parken, Stellplatz). Minor: the PDF says 'Parkplatzflaechen des Lebensmittelanbieters', not 'customer car park'. The page itself is undated and a planning concept, not a parking rule.",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": "2019-11"
+  },
+  {
+   "index": 17,
+   "verdict": "supported",
+   "note": "Municipal item (Meldung vom 09.10.2026) with a DB press release dated Berlin, 9 September 2026: DB InfraGO starts very extensive works on 2 October between Hannover and Berlin; 'Bis Dezember 2027' renewals; trains largely cannot run on the Schnellfahrstrecke or the Lehrter Stammbahn during construction; traffic concept valid from mid-December 2026 is still being agreed; replacement bus services 'vorgesehen' where trains cannot run; detailed regional concept still being drawn up. Neither Dollbergen nor Dedenhausen is named, so any effect on commuters to the two P+R sites is an inference, not a source statement. The PDF carries the stamp 'DB Vertraulich / DB confidential' (odd for a press release; flag).",
+   "corrected_text": null,
+   "corrected_title": null,
+   "corrected_date": null
+  }
+ ],
+ "corrected_summary": "Uetze (about 22,000 residents, with Dedenhausen, Dollbergen, Haenigsen and Eltze among its villages) has no municipal parking tariff, parking-disc zone or Stellplatz statute that the researcher could find (absence is not proven), and the parking material visible in public sources is mostly about the two rail park-and-ride sites, which belong to the Region Hannover's system and are shown as free of charge on the Region's portal. The Region Hannover's Nahverkehrsplan 2021 (cover dated April 2022) rates Dollbergen priority 1 (high) and Dedenhausen priority 2 (medium) for park-and-ride, and says park-and-ride and bike-and-ride use is currently free but may be charged in future. Before the extension, up to 150 rail customers' cars were counted daily around Dollbergen's overloaded lots, and in September 2021 local press reported 133 additional spaces open on top of the 84 previously available, with a 160-place bike facility to follow; the portal now shows 133 spaces in total, which no source reconciles. The Region's portal lists Dedenhausen with 62 spaces (its figures do not add up and its data record says 114), DB lists 50 there and 40+44+28 at Dollbergen, and a 2020 party statement relayed a Region answer that nearly all of 113 Dedenhausen spaces were occupied on weekdays. The municipality announced ground-sensor work for a digital parking guidance system at Dedenhausen for March 2023 (completion not reported) and reported more than 100 new bike spaces there in June 2024; on 21 October 2026 it reported that the Dollbergen bike cage is being kept open because its electronic lock keeps failing. In the centre, the municipality received its first fast-charging station (2 x 50 kW) at the town hall in July 2023, announced its first parklet for 26 September 2023, and ran a Hindenburgplatz traffic trial between June and August 2024; the January 2025 evaluation slides found no clear drop in traffic volumes but lower speeds, and an on-site survey of 297 people found 47 and 43 percent had arrived by own car, with 93 percent of those finding a space directly. A University household survey in 2024 found 56.9 percent use a car or motorbike daily or almost daily. A DB corridor renovation between Hannover and Berlin runs from October 2026 to December 2027, but the DB release does not name the two Uetze stations."
+}
